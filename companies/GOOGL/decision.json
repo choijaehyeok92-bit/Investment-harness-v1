@@ -1,0 +1,26 @@
+{
+  "ticker": "GOOGL",
+  "as_of": "2026-09-03",
+  "label": "WATCH",
+  "hard_veto_status": "INVESTIGATE",
+  "position_band": "NONE",
+  "rationale": "Alphabet is a high-quality AI, Search and Cloud platform with strengthening Cloud economics, but the current GOOGL price is approximately equal to Base modeled value and already requires long-duration double-digit growth plus FCF-margin recovery. The unprecedented 2026-2027 capex cycle, common and preferred dilution, rapidly rising debt and unresolved Search remedies leave external-capital dependence, incremental ROIC, moat shrinkage and concentration vetoes under investigation. With no existing portfolio exposure recorded in the repository, the correct new-coverage decision is WATCH rather than initiating a position.",
+  "increase_evidence": [
+    "Search commercial-query growth and revenue per query improve together after broad AI Mode and AI Overviews adoption.",
+    "Google Cloud sustains strong growth and operating margin above 25% after Wiz integration without evidence of capacity dumping.",
+    "TTM FCF per share reaccelerates after the capex peak and management provides evidence that AI investment cohorts earn returns above the cost of capital.",
+    "Net common dilution, including ATM issuance, SBC settlement and mandatory-convertible effects, is controlled and value-accretive repurchases resume.",
+    "The expectation gap widens to at least a 20%-25% discount to defensible Base value or operating evidence lowers the price-implied ten-year growth requirement below 10%."
+  ],
+  "reduce_or_exit_evidence": [
+    "Search revenue, commercial-query monetization or market share declines structurally for four consecutive quarters.",
+    "AI capex fails to produce FCF-per-share recovery by 2028 or consolidated incremental ROIC falls below the cost of capital.",
+    "Cloud growth and operating margin deteriorate together with evidence of material unused capacity or price-led demand.",
+    "Annual net dilution exceeds 2% without offsetting FCF-per-share improvement.",
+    "Antitrust remedies cause structural deterioration in distribution, TAC, data access or advertising economics.",
+    "A material management-integrity or accounting-reliability issue causes a Hard Veto FAIL.",
+    "The market price embeds an unrealistic Bull Case or better."
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.72
+}
