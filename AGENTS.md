@@ -1,4 +1,4 @@
-# AGENTS.md — Investment Harness v1.0
+# AGENTS.md — Investment Harness v1.1
 
 ## Mission
 

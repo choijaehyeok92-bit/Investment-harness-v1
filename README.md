@@ -1,4 +1,4 @@
-# Investment Harness v1.0
+# Investment Harness v1.1 — Codex + Claude Code
 
 A repository-native harness for long-horizon, expectation-gap, outlier-oriented equity research and screening.
 
@@ -61,3 +61,15 @@ companies/MSFT/
 ## Important operating rule
 
 Never overwrite prior decisions without logging the change. The purpose of the repository is not only to make decisions, but to preserve what was believed at the time and why.
+
+## Claude Code support
+
+This version adds a Claude adapter without duplicating the strategy core:
+
+- `CLAUDE.md` imports the common agent contract and investment philosophy.
+- `.claude/agents/` defines specialist Claude Code subagents.
+- `.claude/skills/` provides `/analyze-stock`, `/screen-stock`, `/quarterly-review`, and `/annual-reunderwrite`.
+- `.claude/settings.json` protects policy/schema/harness infrastructure and registers a Stop validation hook.
+- `docs/CLAUDE_SETUP.md` contains setup and verification steps.
+
+Recommended Claude Code entrypoint: `claude --agent investment-pm`.
