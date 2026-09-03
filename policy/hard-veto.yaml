@@ -1,0 +1,32 @@
+version: "1.0"
+action_on_veto:
+  default: REJECT
+  uncertainty: INVESTIGATE
+
+vetoes:
+  - id: management_or_accounting_integrity
+    condition: "Material impairment of management integrity or accounting reliability"
+  - id: external_capital_dependence
+    condition: "Structurally excessive dependence on external financing"
+  - id: persistent_dilution
+    condition: "Long-duration, excessive shareholder dilution"
+  - id: low_quality_growth
+    condition: "Growth depends on marketing/subsidies without sufficient customer value"
+  - id: incremental_roic_collapse
+    condition: "Structural deterioration in incremental ROIC"
+  - id: moat_shrinkage
+    condition: "Persistent contraction of competitive advantage"
+  - id: price_requires_unrealistic_bull_case
+    condition: "Current price requires unrealistic bull-case-or-better execution"
+  - id: fatal_concentration
+    condition: "Fatal dependence on a single product, customer or regulation"
+  - id: permanent_loss_probability
+    condition: "Probability of bankruptcy or permanent loss is too high relative to expected upside"
+
+required_output_fields:
+  - id
+  - status
+  - evidence
+  - severity
+  - confidence
+  - resolution_needed

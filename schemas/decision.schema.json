@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InvestmentDecision",
+  "type": "object",
+  "required": ["ticker", "as_of", "label", "hard_veto_status", "position_band", "rationale", "increase_evidence", "reduce_or_exit_evidence"],
+  "properties": {
+    "ticker": {"type": "string"},
+    "as_of": {"type": "string", "format": "date"},
+    "label": {"enum": ["REJECT", "WATCH", "STARTER", "NORMAL", "HIGH_CONVICTION", "CORE_WINNER", "EXCEPTIONAL_WINNER", "HOLD", "REDUCE", "EXIT"]},
+    "hard_veto_status": {"enum": ["PASS", "INVESTIGATE", "FAIL"]},
+    "position_band": {"enum": ["NONE", "STARTER", "NORMAL", "HIGH_CONVICTION", "CORE_WINNER", "EXCEPTIONAL_WINNER"]},
+    "rationale": {"type": "string"},
+    "increase_evidence": {"type": "array", "items": {"type": "string"}},
+    "reduce_or_exit_evidence": {"type": "array", "items": {"type": "string"}},
+    "macro_pacing": {"enum": ["normal", "company_specific", "slow"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+version: "1.0"
+rule: "Macro does not change stock-selection score; it changes portfolio risk budget and purchase pacing"
+regimes:
+  risk_on:
+    signals:
+      - easing_financial_conditions
+      - improving_liquidity
+      - stable_credit_markets
+      - stable_real_rates
+      - improving_corporate_profit_environment
+    action:
+      purchase_pacing: normal
+      risk_budget: normal
+  neutral:
+    signals:
+      - mixed_indicators
+    action:
+      purchase_pacing: company_specific
+      risk_budget: normal
+  risk_off:
+    signals:
+      - sharply_rising_real_rates
+      - sharply_widening_credit_spreads
+      - financial_market_stress
+      - systemic_liquidity_stress
+      - abrupt_deterioration_in_corporate_financing
+    action:
+      purchase_pacing: slow
+      cash_buffer: may_increase
+      reduce_low_quality_growth_first: true
+      use_leverage: false

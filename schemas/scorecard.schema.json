@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InvestmentScorecard",
+  "type": "object",
+  "required": ["ticker", "as_of", "categories", "total_score", "classification"],
+  "properties": {
+    "ticker": {"type": "string"},
+    "as_of": {"type": "string", "format": "date"},
+    "categories": {
+      "type": "object",
+      "minProperties": 8,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["score", "max_score", "evidence", "counter_evidence", "confidence", "missing_data"],
+        "properties": {
+          "score": {"type": "number", "minimum": 0},
+          "max_score": {"type": "number", "minimum": 1},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "counter_evidence": {"type": "array", "items": {"type": "string"}},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "missing_data": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "total_score": {"type": "number", "minimum": 0, "maximum": 100},
+    "classification": {"enum": ["Exceptional Outlier", "Core Outlier", "Emerging Outlier", "Starter / Watch", "Reject"]}
+  },
+  "additionalProperties": false
+}

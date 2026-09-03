@@ -1,0 +1,10 @@
+regime: neutral
+as_of: YYYY-MM-DD
+signals:
+  real_rates: mixed
+  credit_spreads: stable
+  liquidity: mixed
+  corporate_financing: stable
+purchase_pacing: company_specific
+risk_budget: normal
+notes: ""

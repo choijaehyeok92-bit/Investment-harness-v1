@@ -1,0 +1,6 @@
+positions:
+  - ticker: EXAMPLE
+    status: STARTER
+    weight_pct: 1.5
+    target_band: STARTER
+    last_review: YYYY-MM-DD

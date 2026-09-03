@@ -1,0 +1,35 @@
+version: "1.0"
+principle: "Position size is based more on evidence level than subjective conviction"
+bands:
+  STARTER:
+    range_pct: [1, 2]
+    condition: "Attractive thesis, but evidence is still limited"
+  NORMAL:
+    range_pct: [2, 4]
+    condition: "Product, customer value and unit economics have meaningful confirmation"
+  HIGH_CONVICTION:
+    range_pct: [4, 6]
+    condition: "Moat is strengthening and high reinvestment returns are being confirmed"
+  CORE_WINNER:
+    range_pct: [6, 8]
+    condition: "Long-duration thesis is repeatedly validated and competitive advantage is strengthening"
+  EXCEPTIONAL_WINNER:
+    range_pct: [8, 10]
+    condition: "Exceptional quality, asymmetry and expectation gap coexist and portfolio risk allows it"
+
+increase_only_when_multiple_evidence_improves:
+  - market_share
+  - retention
+  - new_customer_economics
+  - new_product_success
+  - moat
+  - incremental_roic
+  - fcf_per_share
+  - long_term_tam
+  - capital_allocation
+  - expectation_gap_remains_attractive_after_price_increase
+
+forbidden_reasons_to_add:
+  - "Price fell 30%"
+  - "P/E is below historical average"
+  - "Price is below original purchase price"

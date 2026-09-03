@@ -1,0 +1,32 @@
+version: "1.0"
+objective: "Find plausible outlier candidates without mechanically excluding future winners based on conventional valuation or current profitability"
+
+screen_in_signals:
+  - structural_market_expansion
+  - clear_customer_value
+  - improving_or_potentially_improving_moat_trajectory
+  - credible_reinvestment_runway
+  - plausible_fcf_per_share_growth_path
+  - survivable_balance_sheet_or_clear_runway
+  - possible_expectation_gap
+
+investigate_flags:
+  - loss_making_but_improving_unit_economics
+  - high_current_valuation
+  - heavy_rnd_with_uncertain_payoff
+  - concentrated_product_or_customer_exposure
+  - high_sbc_but_improving_dilution_trend
+
+screen_out_only_when:
+  - obvious_hard_veto
+  - no_identifiable_structural_or_economic_value_growth_path
+  - no_credible_customer_value
+  - no_survival_path
+  - evidence_is_too_sparse_to_form_even_a_testable_thesis
+
+forbidden_mechanical_filters:
+  - high_pe
+  - low_pe
+  - stock_already_up_significantly
+  - one_quarter_eps_miss
+  - current_net_loss_by_itself

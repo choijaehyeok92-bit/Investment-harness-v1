@@ -1,0 +1,22 @@
+version: "1.0"
+# Implementation policy added for harness reliability. This is not an investment-philosophy rule.
+source_priority:
+  1: "Primary filings / audited financial statements / official regulator data"
+  2: "Company investor-relations disclosures, earnings materials and transcripts"
+  3: "Industry bodies, customers, suppliers and reputable datasets"
+  4: "High-quality financial press and independent research"
+  5: "Broker research / secondary commentary"
+  6: "Forums and social media only as lead-generation, never sole evidence"
+
+claim_types:
+  fact: "Directly supported by evidence"
+  estimate: "Explicit model assumption or forecast"
+  inference: "Reasoned interpretation from cited facts"
+  opinion: "Judgment that cannot be independently established"
+
+rules:
+  - "Never present an estimate or inference as a fact"
+  - "Material quantitative claims require a source or calculation trace"
+  - "When sources conflict, show the conflict and explain which source is preferred"
+  - "Unknown is preferable to invented precision"
+  - "Historical data and forward assumptions must be clearly separated"

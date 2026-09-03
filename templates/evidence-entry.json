@@ -1,0 +1,12 @@
+{
+  "date": "YYYY-MM-DD",
+  "ticker": "TICKER",
+  "signal": "market_share",
+  "thesis_component": "moat_trajectory",
+  "direction": "SUPPORTS",
+  "strength": 0.0,
+  "claim_type": "fact",
+  "summary": "",
+  "source": "",
+  "analyst_note": ""
+}

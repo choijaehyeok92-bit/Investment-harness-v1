@@ -1,0 +1,41 @@
+version: "1.0"
+quarterly:
+  purpose: "Check only thesis-critical operating KPIs"
+  evaluate_price: false
+
+semiannual:
+  review:
+    - competitive_environment
+    - moat_trajectory
+    - customer_behavior
+    - industry_structure
+
+annual:
+  rule: "Rewrite the investment thesis and valuation from scratch before comparing with prior-year conclusions"
+
+multi_year_3_to_5:
+  compare_original_vs_actual:
+    - growth_scale
+    - growth_duration
+    - competitive_advantage
+    - capital_returns
+
+sell_review_triggers:
+  - structural_growth_driver_disappears
+  - moat_trajectory_turns_from_strengthening_to_weakening
+  - management_integrity_deteriorates
+  - capital_allocation_deteriorates
+  - incremental_roic_structurally_deteriorates
+  - fcf_per_share_growth_path_breaks
+  - long_term_market_growth_breaks
+  - price_embeds_unrealistic_long_term_bull_case
+  - superior_alternative_with_better_expected_return_probability_and_asymmetry
+
+not_sell_reasons:
+  - price_has_risen_a_lot
+  - return_reached_100_percent
+  - pe_above_historical_average
+  - one_quarter_miss
+  - price_above_broker_target
+  - market_style_rotation
+  - rate_outlook_changed

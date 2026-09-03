@@ -1,2 +1,63 @@
-# Investment-harness-v1
-investment
+# Investment Harness v1.0
+
+A repository-native harness for long-horizon, expectation-gap, outlier-oriented equity research and screening.
+
+## Core idea
+
+This harness is built around seven durable alpha sources:
+
+- Time horizon
+- Duration mispricing
+- Moat trajectory
+- Reinvestment economics
+- Expectation gap
+- Power-law outcomes
+- Behavioral discipline
+
+The system separates company selection from portfolio risk pacing. Macro conditions may adjust risk budget and buying pace, but must not directly alter the company quality score.
+
+## Pipeline
+
+1. `screener` — narrow the universe and identify candidates worth deeper work.
+2. `deep-analyst` — assess business quality, structural growth, moat trajectory, reinvestment and management.
+3. `valuation` — reverse-engineer market expectations and build Bear/Base/Bull scenarios.
+4. `hard-veto` — apply non-negotiable rejection/investigation gates.
+5. `red-team` — attack the thesis, surface falsifiers, and challenge key assumptions.
+6. `portfolio-monitor` — assign status/position band and maintain the evidence ledger over time.
+
+## Decision rule
+
+High score is necessary but not sufficient.
+
+`Hard Veto > Score`
+
+A stock must also have a meaningful expectation gap and favorable asymmetry. Position size should increase with evidence, not merely with analyst conviction or price declines.
+
+## Repository layout
+
+- `AGENTS.md` — top-level operating contract for AI agents
+- `policy/` — immutable strategy and decision rules
+- `agents/` — role contracts for each agent
+- `schemas/` — machine-readable output schemas
+- `templates/` — one-page investment record and monitoring templates
+- `evals/` — quality-control checks for the harness itself
+- `companies/<TICKER>/` — per-company research state
+- `portfolio/` — portfolio-level state and macro overlay
+- `screening/` — candidate and rejection outputs
+- `scripts/validate_outputs.py` — basic schema and consistency checks
+
+## Recommended company folder
+
+```text
+companies/MSFT/
+├── thesis.md
+├── scorecard.json
+├── evidence.jsonl
+├── valuation.json
+├── decision.json
+└── decision-history.md
+```
+
+## Important operating rule
+
+Never overwrite prior decisions without logging the change. The purpose of the repository is not only to make decisions, but to preserve what was believed at the time and why.

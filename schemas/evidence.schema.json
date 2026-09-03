@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceEntry",
+  "type": "object",
+  "required": ["date", "ticker", "signal", "thesis_component", "direction", "strength", "claim_type", "summary"],
+  "properties": {
+    "date": {"type": "string", "format": "date"},
+    "ticker": {"type": "string", "minLength": 1},
+    "signal": {"type": "string", "minLength": 1},
+    "thesis_component": {"type": "string", "minLength": 1},
+    "direction": {"enum": ["SUPPORTS", "NEUTRAL", "CONTRADICTS"]},
+    "strength": {"type": "number", "minimum": 0, "maximum": 1},
+    "claim_type": {"enum": ["fact", "estimate", "inference", "opinion"]},
+    "summary": {"type": "string"},
+    "source": {"type": ["string", "null"]},
+    "analyst_note": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
