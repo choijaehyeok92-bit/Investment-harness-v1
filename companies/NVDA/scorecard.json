@@ -1,0 +1,159 @@
+{
+  "ticker": "NVDA",
+  "as_of": "2026-09-04",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Revenue $60,922M (FY2024) to $130,497M (FY2025) to $215,938M (FY2026), and $177,837M in H1 FY2027 alone (+95.8% YoY) - annualising to roughly $356B. Q2 FY2027 revenue $96,221M.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Data Center revenue $47,525M (FY2024) to $115,186M (FY2025) to $193,737M (FY2026) - 89.7% of FY2026 revenue. Within it, Compute $162,361M and Networking $31,376M; networking alone grew from $8,575M in FY2024, a 3.7x increase in two years.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Compute & Networking segment is $193,479M of FY2026 revenue versus Graphics $22,459M. This is no longer a graphics company; it is the accelerated-computing platform.",
+        "INFERENCE: NVIDIA is not a beneficiary of the AI build-out, it defines its technical standard - CUDA, NVLink, and now rack-scale systems (GB200/GB300, Rubin) plus an annual architecture cadence. That is the top anchor of this category, 'clear leader directly driving structural change'."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Geographic concentration is intensifying, not diversifying: US revenue 51.8% (FY2024) to 59.4% (FY2025) to 69.3% (FY2026). Non-US fell 48% to 41% to 31%.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): China including Hong Kong went $12,330M (FY2024) to $25,048M (FY2025) to $19,677M (FY2026), then $12,430M in H1 FY2027 versus $13,644M a year earlier - falling in absolute terms while the total nearly doubled. China is now roughly 7% of revenue. A large market is effectively closed.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): 76% of Taiwan-billed revenue in FY2026 was to US- and Europe-based end customers, so the geographic split understates US end-demand concentration further."
+      ],
+      "missing_data": [
+        "Order backlog - not disclosed",
+        "Split of Data Center revenue between training and inference workloads"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "confidence": 0.75,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Gross margin of 72.7% (FY2024), 75.0% (FY2025), 71.1% (FY2026) and 75.0% in H1 FY2027 on a near-doubling revenue base is direct evidence of pricing power - customers are not extracting the value.",
+        "INFERENCE: CUDA plus the surrounding library and framework ecosystem creates switching costs measured in engineering-years, not procurement cycles. Rack-scale delivery (compute plus networking plus software as one system) raises that further.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Networking attach is the clearest proof of expanding product value: $8,575M to $31,376M in two fiscal years, growing faster than compute."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Customer concentration is rising sharply, which is the market telling you where bargaining power is heading: Customer One was 13% of Compute & Networking revenue in FY2024, 12% in FY2025 and 22% in FY2026. Customer Two reached 14% in FY2026. Top two are now 36% of segment revenue versus 23% a year earlier.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): FY2026 gross margin FELL to 71.1% from 75.0% - the Blackwell ramp and China-related charges show margin is not monotonic.",
+        "INFERENCE: the largest customers are precisely those funding custom-silicon alternatives (Google TPU, the Broadcom/OpenAI programme). Their revealed preference is to reduce dependence on this product."
+      ],
+      "missing_data": [
+        "Attach rate of NVIDIA networking on NVIDIA compute deployments",
+        "Pricing terms and any volume commitments in the largest customer agreements"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "confidence": 0.65,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Networking revenue 3.7x in two years and rack-scale system delivery mean the moat is widening in surface area, not just depth - NVIDIA now sells a data-centre unit rather than a chip.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): R&D $8,675M (FY2024) to $12,914M (FY2025) to $18,497M (FY2026), 8.6% of FY2026 revenue, funding an annual architecture cadence no competitor matches.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Gross margin recovered to 75.0% in H1 FY2027 from 71.1% in FY2026, indicating the Blackwell-generation margin dip was transitional rather than structural."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): THE KEY NEGATIVE: customer concentration nearly doubled in one year - Customer One 12% to 22% of Compute & Networking revenue. Accounts-receivable concentration at H1 FY2027 is 22/14/13/11/10 percent for the top five, roughly 70% of receivables in five names. Concentration rising is the standard signature of buyer power increasing.",
+        "INFERENCE: custom ASIC programmes are structurally motivated by NVIDIA's own margin. A 75% gross margin is the business case for every customer's internal silicon effort, so the moat's own success funds its challengers.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Non-marketable equity investments went $3,799M (2025-07-27) to $22,251M (2026-01-25) to $47,898M (2026-07-26). A moat that requires the vendor to capitalise its own customers is a different kind of moat than one that does not."
+      ],
+      "missing_data": [
+        "Merchant-GPU versus custom-ASIC share of total accelerator deployments",
+        "Whether the 22% customer is a hyperscaler, an AI lab, or a neocloud - determines the credit quality behind the concentration"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "confidence": 0.7,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Extraordinary capital efficiency: FY2026 capex was $6,042M and D&A $2,843M against $215,938M of revenue - capex is 2.8% of revenue. H1 FY2027 capex $4,434M against $177,837M revenue. This is a genuinely asset-light business at enormous scale.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): FY2026 operating cash flow $102,718M (from $28,090M in FY2024); H1 FY2027 $74,421M. Free cash flow after capex was roughly $96.7B in FY2026 and $70.0B in H1 FY2027.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): SHARE COUNT IS FALLING WHILE THE BUSINESS NEARLY DOUBLES: 24,661M (2023-01-29) to 24,643M to 24,477M to 24,304M (FY2026 end) to 24,147M (2026-07-26) to 24,100M (2026-08-21) - down 2.3%. Buybacks $9,533M / $33,706M / $40,086M across FY2024-26 and $39,044M in H1 FY2027 alone.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): SBC is modest for the sector at $6,386M in FY2026, 3.0% of revenue, and is being more than offset by repurchases.",
+        "INFERENCE: return on equity of roughly 100% in FY2026 ($120,067M net income on average equity near $118B). Incremental ROIC is among the highest ever recorded at this revenue scale."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): THE CAPITAL IS COMMITTED OFF THE BALANCE SHEET. Future commitments at 2026-07-26 total $366B: supply and capacity $279B, cloud service agreements $29B, data-centre leases not commenced $25B, equity investments $25B, capital expenditures $8B. Supply and capacity alone rose from $95.2B at 2026-01-25 to $279B six months later, +193%.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Equity investments held: $42,783M publicly held plus $47,898M non-marketable equals roughly $90.7B at 2026-07-26 - 28% of total assets and 40% of stockholders' equity - up from roughly $5B a year earlier.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Long-term debt went $7,469M (2026-01-25) to $32,366M (2026-07-26); a $25,000M note issuance is recorded at 2026-06-30. The first material leverage in the company's modern history.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Product warranty liabilities $306M (FY2024) to $1,290M (FY2025) to $2,807M (FY2026) - rack-scale systems carry materially higher warranty exposure than chips."
+      ],
+      "missing_data": [
+        "Cancellability terms of the $279B supply and capacity commitments - the 10-K says 'in certain instances' cancellable, without quantifying",
+        "Realised versus unrealised split and cost basis of the non-marketable equity portfolio"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Repurchase execution is genuinely strong: $113B of buybacks across FY2024-H1 FY2027 with share count down 2.3% - dilution is not merely offset, it is reversed, during the fastest growth phase in the company's history.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): R&D productivity is demonstrable rather than asserted - $18,497M of FY2026 R&D against an annual architecture cadence and a networking business that grew 3.7x in two years.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Effective tax rate 16.5% in H1 FY2027 ($23,400M on $141,410M pretax) - efficient without being aggressive."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): THE CENTRAL CAPITAL-ALLOCATION QUESTION: roughly $90.7B is now invested in equity stakes, with a further $25B committed, alongside $29B of committed cloud-service purchases. NVIDIA is simultaneously supplier to, investor in, and customer of parts of its own ecosystem. This is defensible as ecosystem seeding, but it is a large bet made with shareholder capital at unknown returns.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): $23,707M of H1 FY2027 gain on investments flowed through net income (versus $8,918M for all of FY2026 and $238M in FY2024). Of that, $12,500M is explicitly unrealised marks on publicly held equity securities. Reported earnings are being lifted by revaluing stakes in companies whose spending drives NVIDIA's revenue.",
+        "FACT (tier-1, Form 4 filed 2026-09-02): director Mark A. Stevens sold 1,848,501 shares between 2026-08-31 and 2026-09-02 at prices of $220.06 to $226.27, roughly $410M. A single director's sales are weak evidence on their own, but they are recorded rather than omitted."
+      ],
+      "missing_data": [
+        "Stated return criteria or hurdle for the equity investment programme",
+        "Whether cloud-service commitments are with entities NVIDIA also holds equity in, and on what terms"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Balance sheet at 2026-07-26: total assets $320,272M, total liabilities $91,288M, stockholders' equity $228,984M. Equity grew from $79,327M at 2025-01-26.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Cash and equivalents $22,443M plus publicly held equity securities $42,783M against long-term debt of $32,366M. Operating cash flow of $74,421M in six months dwarfs all fixed obligations.",
+        "INFERENCE: there is no plausible path to insolvency. Even a severe demand pause leaves the company profitable and self-funding."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Leverage appeared for the first time at scale - $25B of notes issued 2026-06-30, taking long-term debt from $7.5B to $32.4B in six months.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): The $279B supply and capacity commitment is the real obligation, and it is far larger than the balance sheet suggests. The recorded excess-inventory purchase accrual is only $2,138M at 2026-07-26 - the accounting provision assumes the commitments will be consumed.",
+        "FACT (tier-1, 10-K FY2026 / 10-Q Q2 FY2027, SEC XBRL): Inventory $21,403M to $31,575M (+47.5%) and receivables $38,466M to $63,059M (+63.9%) over six months, both slower than the +95.8% revenue growth, so working capital quality is holding - but the absolute build is large."
+      ],
+      "missing_data": [
+        "Marketable debt securities balance was not isolated in this extraction; total liquidity is therefore understated here"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 8,
+      "max_score": 15,
+      "confidence": 0.6,
+      "evidence": [
+        "At $226.27 (2026-09-02) and 24,100M shares, market capitalisation is roughly $5,453B. Against H1 FY2027 annualised diluted EPS of $9.70 that is 23.3x - which does NOT require bull-case execution. It requires the current base to hold.",
+        "INFERENCE: the price is not the binding risk here, unlike most of the AI complex. A business compounding at 96% priced at 23x forward earnings embeds a substantial demand normalisation already."
+      ],
+      "counter_evidence": [
+        "ADJUSTED FOR EARNINGS QUALITY THE MULTIPLE IS MEANINGFULLY HIGHER. Stripping the $23,707M H1 gain on investments and taxing the remainder at the actual 16.5% rate gives core net income of roughly $98.3B for H1, $196.6B annualised, or about $8.08 of core EPS - a 28.0x multiple rather than 23.3x. Roughly 17-20% of reported net income is investment revaluation, not operations.",
+        "Free cash flow yield is thin: H1 FY2027 free cash flow of $70.0B annualises to $140B, a 2.57% yield on $5,453B.",
+        "INFERENCE: the $279B supply commitment means the downside is not symmetric with the multiple. A demand pause converts a low-capex business into one carrying a supply obligation larger than three quarters of annualised revenue."
+      ],
+      "missing_data": [
+        "Company revenue guidance beyond the current quarter",
+        "Cancellability terms on the supply commitments - the single most important unknown for the bear case"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "confidence": 0.75,
+      "evidence": [
+        "Permanent-loss risk is genuinely low: $228,984M of equity, no solvency path, and a business that remains profitable under any modelled scenario. Estimated probability of permanent impairment above 70% is 2-3% (subjective).",
+        "The bull case is specific rather than hand-waving: if accelerated computing becomes the default compute paradigm, revenue of $1.0-1.3T by FY2032 at 50% net margin is arithmetically reachable from a $356B annualised base."
+      ],
+      "counter_evidence": [
+        "STRUCTURAL CAP, same as the Samsung case: at roughly $5.45T of market capitalisation a 10x outcome implies a $54T company. Modelled bull upside is +100% to +160% over five years. This fails the outlier-magnitude test in policy/investment-philosophy.md section 4.",
+        "The bear is unusually severe for a company of this quality: a demand pause with $279B of supply commitments and a $90.7B investment portfolio marking down simultaneously gives a modelled -56% to -68%."
+      ],
+      "missing_data": [
+        "None material - this is an arithmetic constraint, not an evidence gap"
+      ]
+    }
+  },
+  "total_score": 75,
+  "classification": "Emerging Outlier"
+}

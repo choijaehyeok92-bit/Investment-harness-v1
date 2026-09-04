@@ -1,5 +1,5 @@
 ticker,company_name,market,listing,market_cap,sector,status,screen_verdict
-NVDA,NVIDIA,US,NASDAQ,5240.3B USD,Semiconductors,SCREENED,SCREEN_IN
+NVDA,NVIDIA,US,NASDAQ,5453B USD (2026-09-02),Semiconductors,DEEP_ANALYSIS_2026-09-04,STARTER
 AVGO,Broadcom,US,NASDAQ,1699B USD,Semiconductors,SCREENED,SCREEN_IN
 TSM,Taiwan Semiconductor (ADR),US-listed foreign issuer,NYSE,unknown,Semiconductors,SCREENED,SCREEN_IN
 GOOGL,Alphabet,US,NASDAQ,unknown,Internet Platform,SCREENED,SCREEN_IN
