@@ -1,0 +1,25 @@
+{
+  "ticker": "ISRG",
+  "as_of": "2026-09-05",
+  "label": "WATCH",
+  "hard_veto_status": "PASS",
+  "position_band": "NONE",
+  "rationale": "ISRG is an Emerging Outlier-quality business with an unusually strong installed-base/consumables/service flywheel, high recurring revenue, global procedure runway, da Vinci 5/SP/Ion optionality, and a fortress balance sheet. The constraint is price rather than business quality: at $369.83 the market still embeds roughly 11%-13% ten-year FCF growth depending on terminal assumptions, while the base valuation produces only high-single-digit upside. Wait for either a larger margin of safety or additional evidence that FCF per share can compound above the market-implied rate.",
+  "increase_evidence": [
+    "Price falls to at least ~20% below a conservatively updated base intrinsic value without thesis deterioration.",
+    "Da Vinci procedure growth remains >=14% globally with OUS growth >=18% while system utilization and recurring revenue remain strong.",
+    "Da Vinci 5 OUS rollout broadens materially and SP/Ion procedure growth converts into recurring revenue without margin dilution.",
+    "LTM FCF per share compounds at a mid-teens rate after accounting for share-based compensation and lease-related capital intensity.",
+    "Competitive pressure remains localized rather than spreading from China into core U.S. and European hospital accounts."
+  ],
+  "reduce_or_exit_evidence": [
+    "Sustained global da Vinci procedure growth below 10% without a temporary macro or reimbursement explanation.",
+    "Material erosion in I&A revenue per procedure, recurring revenue share, or service economics indicating weaker ecosystem monetization.",
+    "Repeated competitive tender/account losses across major U.S. or European health systems.",
+    "Material product-safety, regulatory, antitrust, or reimbursement developments that impair the closed-loop instruments/service model.",
+    "FCF per share stagnates or declines for multiple years despite continued heavy reinvestment.",
+    "Price materially exceeds updated bull/base value without a commensurate improvement in long-duration fundamentals."
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.87
+}
