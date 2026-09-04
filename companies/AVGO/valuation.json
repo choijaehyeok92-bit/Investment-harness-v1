@@ -1,0 +1,76 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-09-04",
+  "current_price": 357.16,
+  "implied_expectations": {
+    "equity_value_estimate_usd_b": 1699.4,
+    "net_debt_proxy_usd_b": 40.9,
+    "enterprise_value_estimate_usd_b": 1740.3,
+    "fy2026_fcf_estimate_usd_b": "47-48",
+    "reverse_fcf_test": {
+      "terminal_year": "FY2028",
+      "discount_rate": 0.1,
+      "terminal_p_fcf": 24,
+      "implied_fy2028_fcf_usd_b": 85.7,
+      "implied_fcf_cagr_from_fy2026": 0.35
+    },
+    "interpretation": "The market price requires strong cash-flow compounding, but materially less than management's current AI-semiconductor revenue trajectory would imply if margins and share remain durable."
+  },
+  "scenarios": {
+    "bear": {
+      "fy2028_revenue_usd_b": 190,
+      "fy2028_fcf_usd_b": 72,
+      "terminal_p_fcf": 20,
+      "present_value_per_share_usd": 248,
+      "key_assumptions": [
+        "AI build-out slows materially versus management expectations",
+        "Broadcom loses some custom-ASIC share and networking mix",
+        "VMware growth moderates and valuation compresses"
+      ],
+      "return_vs_current": -0.31
+    },
+    "base": {
+      "fy2028_revenue_usd_b": 275,
+      "fy2028_fcf_usd_b": 120,
+      "terminal_p_fcf": 24,
+      "present_value_per_share_usd": 496,
+      "key_assumptions": [
+        "AI semiconductor revenue approaches but does not fully exceed the company's current trajectory",
+        "Infrastructure software continues double-digit growth",
+        "FCF margin remains low-to-mid 40s"
+      ],
+      "return_vs_current": 0.39
+    },
+    "bull": {
+      "fy2028_revenue_usd_b": 330,
+      "fy2028_fcf_usd_b": 155,
+      "terminal_p_fcf": 26,
+      "present_value_per_share_usd": 694,
+      "key_assumptions": [
+        "Custom AI accelerators scale near or above management's stated trajectory",
+        "Ethernet networking and optical attach stay strong",
+        "VMware economics remain durable and consolidated FCF conversion stays exceptional"
+      ],
+      "return_vs_current": 0.94
+    }
+  },
+  "permanent_loss_case": {
+    "present_value_per_share_usd_range": [180, 220],
+    "conditions": [
+      "AI hyperscaler capex reversal",
+      "Loss of one or more major accelerator design wins",
+      "VMware customer attrition combined with severe multiple compression",
+      "Competitive architecture shift that weakens Broadcom networking/custom-silicon moat"
+    ]
+  },
+  "expectation_gap_score": 11,
+  "asymmetry_score": 8,
+  "subjective_probabilities": {
+    "permanent_loss": 0.08,
+    "bear": 0.22,
+    "base": 0.5,
+    "bull": 0.2,
+    "probability_weighted_value_usd_per_share": 445
+  },
+  "notes": "Scenario values are decision-framework estimates, not price targets. The reverse-expectations test is more important than point estimates."
+}
