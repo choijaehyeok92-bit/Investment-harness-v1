@@ -1,0 +1,36 @@
+{
+  "run_id": "2026-09-us-kr",
+  "as_of": "2026-09-04",
+  "harness_version": "1.0",
+  "stage": "STAGE_1_STARTED",
+  "purpose": "false-negative-minimizing research funnel; not a buy recommendation",
+  "markets": {
+    "US": {
+      "preliminary_candidates": 40,
+      "researching": 10,
+      "queued": 24,
+      "carried_forward": 5,
+      "needs_reconciliation": 1,
+      "fresh_scores_completed": 0
+    },
+    "KR": {
+      "preliminary_candidates": 40,
+      "researching": 10,
+      "queued": 30,
+      "carried_forward": 0,
+      "needs_reconciliation": 0,
+      "fresh_scores_completed": 0
+    }
+  },
+  "next_checkpoint": {
+    "deliverable": "US-1 and KR-1 evidence sheets with provisional scores",
+    "promotion_cap_per_market": 15
+  },
+  "known_data_issues": [
+    {
+      "ticker": "NVDA",
+      "path": "companies/NVDA/decision.json",
+      "issue": "Two conflicting decision objects are concatenated; repair before carry-forward."
+    }
+  ]
+}

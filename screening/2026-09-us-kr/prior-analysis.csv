@@ -1,0 +1,7 @@
+market,ticker,analysis_as_of,decision,hard_veto_status,position_band,carry_forward_status,source
+US,AVGO,2026-09-04,WATCH,INVESTIGATE,NONE,VALID,companies/AVGO/decision.json
+US,GOOGL,2026-09-03,WATCH,INVESTIGATE,NONE,VALID,companies/GOOGL/decision.json
+US,NVDA,2026-09-04,CONFLICT,INVESTIGATE,CONFLICT,RECONCILE_REQUIRED,companies/NVDA/decision.json
+US,NET,2026-09-04,REJECT,FAIL,NONE,VALID,companies/NET/decision.json
+US,DDOG,2026-09-04,WATCH,INVESTIGATE,NONE,VALID,companies/DDOG/decision.json
+US,ISRG,2026-09-04,WATCH,PASS,NONE,VALID,companies/ISRG/decision.json
