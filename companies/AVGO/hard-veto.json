@@ -1,0 +1,118 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.55,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): FY2025 net income of $23,126M EXCEEDS pretax income of $22,729M because of a $397M tax BENEFIT, against a $3,748M provision in FY2024. A swing of that size in the headline earnings line is not explained in the material reviewed.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Acquisition-related intangible amortisation of $8,062M in FY2025 equals 32% of reported operating income. Together with SBC of $7,570M the GAAP-to-non-GAAP margin gap is roughly 20 percentage points — among the widest of any large-cap technology company.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Goodwill $97,801M plus intangibles $32,273M equals 76% of the $171,092M asset base, against total equity of $81,292M. Tangible book value is deeply negative.",
+        "INFERENCE, stated as such: all of this is disclosed and GAAP-compliant. The flag is on EARNINGS QUALITY and on the fact that the non-GAAP framing management guides to excludes a cost (SBC) that is demonstrably diluting shareholders."
+      ],
+      "resolution_needed": "Obtain the tax-footnote explanation of the FY2025 $397M benefit and confirm it is non-recurring. Use GAAP earnings, not the guided non-GAAP figure, for every valuation test in this file."
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): FY2025 operating cash flow $27,537M against capex of $623M; H1 FY2026 operating cash flow $18,753M. Free cash flow margin 42.1% in FY2025.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Debt principal reduced from $69,847M to $67,120M to $66,720M across FY2024-Q2 FY2026 while paying $11,142M of FY2025 dividends."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): THE ONLY COMPANY IN THIS HARNESS WHERE SHARE COUNT IS RISING: 4,139M (FY2023), 4,686M (FY2024), 4,741M (FY2025), 4,758M (2026-05-03). Samsung is down 1.24%, NVDA down 2.3%; Broadcom is up.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): In H1 FY2026 the company repurchased $8,450M of stock and the share count STILL ROSE by 17M, because SBC issuance exceeded repurchases.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): SBC was $7,570M in FY2025 (11.9% of revenue) and $4,268M in H1 FY2026 (10.3% of revenue), annualising near $8.5B.",
+        "IN FAIRNESS, WHICH IS WHY THIS IS MEDIUM AND NOT HIGH: the bulk of the multi-year increase was the 544M shares issued as VMware acquisition currency — a deliberate one-time M&A decision. Excluding that, underlying net dilution is roughly 0.7% a year after very large buybacks, with gross SBC issuance near 1.8%."
+      ],
+      "resolution_needed": "Track whether buybacks are sized to at least offset SBC issuance over the next four quarters. If share count keeps rising through the AI revenue peak, this escalates to HIGH — a company cannot compound FCF per share while issuing net new stock at the top of its cycle."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.8,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Margins are EXPANDING with volume: semiconductor segment operating margin 55.7% (FY2024) to 57.6% (FY2025) to 61.8% (Q2 FY2026), while segment revenue grew 78.5% YoY in Q2. Growth bought with price or subsidy compresses margin; this does not.",
+        "FACT (Q3 FY2026 release): AI semiconductor revenue $16.7B, +221% YoY, tied to named multi-year custom-silicon programmes rather than to discounting.",
+        "INFERENCE: unlike NVDA, there is no circular-financing structure here — Broadcom is not capitalising its own customers."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.8,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Capex is 1.0% of revenue ($623M on $63,887M in FY2025) and incremental ROIC is extraordinary — operating income rose from $13,463M to $25,484M on a $623M capex base.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): There are no off-balance-sheet supply commitments of the kind that made this veto HIGH for NVDA; Broadcom is fabless and its wafer supply is TSMC's capital, not its own.",
+        "COUNTER: the flip side is that Broadcom does not control its own supply. Capacity risk is real but sits on the TSMC balance sheet, so it is a delivery risk rather than a ROIC risk."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Infrastructure software growth has decelerated from +26% in FY2025 to +5.1% in H1 FY2026 and +8.8% in Q2. The VMware repricing is largely complete, so a two-engine story is becoming a one-engine story.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Single-customer concentration went from 29% to 42% of total revenue in one year, and top-five from 40% to 45% — the moat is being rented to fewer tenants at an accelerating rate.",
+        "INFERENCE: XPU sockets are RE-COMPETED at each generation. A custom-ASIC franchise has structurally weaker recurring lock-in than a merchant platform with a software ecosystem or a manufacturing monopoly.",
+        "COUNTER-EVIDENCE: semiconductor margin expanding to 61.8% and AI revenue +221% are strong current positives. There is no present evidence of contraction — only of a narrowing base."
+      ],
+      "resolution_needed": "Establish whether XPU programmes are contracted multi-year or re-bid per generation, and track the competitive win rate versus Marvell at the next node transition."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "evidence": [
+        "ESTIMATE: FY2026 GAAP net income near $45B on the analyst's own build gives roughly $9.39 GAAP EPS and a multiple near 38x at $357.16 — the highest GAAP multiple among the four names analysed. On estimated FY2026 non-GAAP EPS near $12.26 the multiple is roughly 29x.",
+        "INFERENCE: at 30x GAAP the price requires roughly 27% growth beyond FY2026 estimated earnings. With Q4 guided at +93% revenue YoY that is reachable, so the veto does not trigger — but the margin for error is thin and the base is only two quarters old.",
+        "HONEST LIMITATION: Q3 FY2026 GAAP earnings were unavailable; the GAAP figures are estimates and carry material uncertainty."
+      ],
+      "resolution_needed": "Replace estimated FY2026 GAAP earnings with the Q3 and Q4 10-Q/10-K actuals before relying on the multiple."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): PRIMARY GATE, AND THE MOST EXTREME IN THIS HARNESS. Direct sales to ONE semiconductor distributor customer accounted for 42% of TOTAL net revenue in H1 FY2026, up from 29% a year earlier and 32% in FY2025.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Top five end customers were approximately 45% of revenue in H1 FY2026, from 40%. Distributors overall rose to 56% of revenue from 48%.",
+        "INFERENCE: this is worse than NVDA's 22% top customer and worse than TSM's 19%. Losing or halving one relationship at 42% of revenue is not a margin event — it is a business-model event, and it is amplified by roughly $47.1B of net debt.",
+        "INFERENCE from prior harness work: the demand behind that concentration is hyperscaler AI capex now being funded from balance sheet rather than operating cash flow."
+      ],
+      "resolution_needed": "Identify the 42% distributor and the end customers behind it, and establish whether the underlying XPU programmes are contracted multi-year. This is a disclosure question with a definite answer and it gates any position."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Operating cash flow of $27,537M against $2,672M of cash interest paid gives roughly 10x coverage; cash rose to $19,628M at 2026-05-03 and debt principal is being reduced.",
+        "ESTIMATE (subjective): probability of permanent impairment above 70% is 4-6% — higher than NVDA's 2-3% because of the leverage and the 42% concentration, but still low. The bear outcome is a severe drawdown, not a loss of capital.",
+        "COUNTER: with $130,074M of goodwill and intangibles against $81,292M of equity, a large impairment would eliminate book equity — an accounting rather than a cash event, but one that would constrain the balance sheet."
+      ],
+      "resolution_needed": null
+    }
+  ]
+}
