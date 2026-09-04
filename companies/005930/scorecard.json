@@ -66,16 +66,19 @@
       ]
     },
     "incremental_roic_and_fcf_per_share": {
-      "score": 12,
+      "score": 13,
       "max_score": 15,
-      "confidence": 0.7,
+      "confidence": 0.75,
       "evidence": [
         "FACT (tier-1, 반기보고서 2026-06-30): H1 2026 operating cash flow KRW 145.36T versus KRW 33.94T in H1 2025 (+328%), while capex (유형자산의 취득) was only KRW 31.23T versus KRW 26.83T (+16.4%). Free cash flow after tangible and intangible capex is KRW 112.39T, against KRW 5.07T a year earlier.",
         "MATERIAL CORRECTION: the prior version of this analysis scored the category down on 'enormous capital absorption' and applied the industry's projected US$146B of 2027 capex to Samsung. The filing shows the opposite behaviour - Samsung is harvesting the cycle, not racing it. Operating cash flow grew 20x faster than capex.",
         "FACT (tier-1, 반기보고서 2026-06-30): Share count confirmed exactly: common 5,846,278,608, preferred 802,371,203, total 6,648,649,811; treasury 82,086,705 common (1.23%) and zero preferred. This matches the derivation made from the 2026-08-21 filing before this document was available.",
         "FACT (tier-1, 반기보고서 2026-06-30): H1 2026 treasury purchases of KRW 13,248,625M reconcile exactly to the 2026-08-21 filing's stated 'KRW 13,248,624,510,410 acquired since the prior fiscal year end' - an independent tier-1 cross-check.",
         "FACT (tier-1, 반기보고서 2026-06-30): Basic EPS KRW 17,902 and diluted EPS KRW 17,733 for H1 2026, versus KRW 6,605 for FY2025 and KRW 4,950 for FY2024. FCF per share of roughly KRW 17,116 in the half year is a 13.7% annualised FCF yield at KRW 250,000.",
-        "FACT (tier-1, 반기보고서 2026-06-30): Inventory discipline: inventory rose 35.6% (KRW 52.64T to 71.39T) while H1 revenue annualises to roughly +83% versus FY2025. Inventory days are falling, which is consistent with genuine shortage rather than channel loading."
+        "FACT (tier-1, 반기보고서 2026-06-30): Inventory discipline: inventory rose 35.6% (KRW 52.64T to 71.39T) while H1 revenue annualises to roughly +83% versus FY2025. Inventory days are falling, which is consistent with genuine shortage rather than channel loading.",
+        "FACT (tier-1, 사업보고서 제57기, 2026-03-10): EXCEPTIONAL LONG-RUN RECORD, now verifiable: cumulative profit cancellations (이익소각) stood at 1,860,828,928 common and 378,696,686 preferred shares at FY2025 year-end, rising to 1,934,188,242 common by 2026-06-30. That is 24.9% of all common shares ever issued (7,780,466,850) retired over the company's history. This is not a one-cycle programme.",
+        "FACT (tier-1, 사업보고서 제57기, 2026-03-10): COUNTER-CYCLICAL REINVESTMENT: FY2025 capex was KRW 52.65T (DS 47.48, SDC 2.80, other 2.12) and R&D was KRW 37.75T (11.3% of revenue) - KRW 90.4T of total investment against FY2025 operating profit of only KRW 43.6T, i.e. 2.07x. R&D intensity has been stable at 10.9% / 11.6% / 11.3% across FY2023-25. Samsung invested through the trough, including the year DS lost money. The 2026 windfall was pre-funded, not lucky.",
+        "CAPEX DISCIPLINE CONFIRMED ON A SECOND BASIS: H1 2026 capex of KRW 31.23T annualises to roughly KRW 62.5T against FY2025 capex of KRW 52.65T (+19%), consistent with the +16.4% measured on the H1-over-H1 cash-flow basis. Two independent bases agree that capex is growing in the teens while operating cash flow grew 328%."
       ],
       "counter_evidence": [
         "The forward commitments are still ahead, not behind: over KRW 110T of planned facility and R&D investment, Pyeongtaek P5 fab1 at KRW 60T+ with fab2 similar (2029 target), and a US$37B Taylor commitment. H1 restraint does not prove the plan will not be spent.",
@@ -90,19 +93,22 @@
       ]
     },
     "management_and_capital_allocation": {
-      "score": 7,
+      "score": 8,
       "max_score": 10,
-      "confidence": 0.6,
+      "confidence": 0.7,
       "evidence": [
         "FACT: Capital returns are being executed, not merely announced - KRW 14.58T of shares were actually cancelled on 2026-04-02, and the 2026-08-21 filing is the confirmed version of a June 2026 press report that the company had previously answered only as unconfirmed.",
         "FACT: Two long-standing operational failures are being corrected under current management: HBM competitiveness (first to pass HBM4 qualification) and foundry (utilisation above 80%, Tesla AI5, breakeven pulled forward a year).",
         "FACT: Legal overhang resolved. On 2025-07-17 the Supreme Court confirmed the acquittal of Chairman Lee Jae-yong on all 19 charges relating to the Samsung C&T/Cheil Industries merger and Samsung Biologics accounting, ending roughly nine years of legal risk.",
-        "FACT (tier-1, 반기보고서 2026-06-30): Disclosure quality is high and internally consistent: H1 treasury purchases, share counts and distributable-profit figures reconcile exactly across the interim report and the 2026-08-21 主要사항보고서. No reconciliation gaps were found."
+        "FACT (tier-1, 반기보고서 2026-06-30): Disclosure quality is high and internally consistent: H1 treasury purchases, share counts and distributable-profit figures reconcile exactly across the interim report and the 2026-08-21 主要사항보고서. No reconciliation gaps were found.",
+        "FACT (tier-1, 사업보고서 제57기, 2026-03-10): MATERIALLY OFFSETS THE 'BUYING AT THE PEAK' CRITICISM: Samsung has retired 24.9% of all common shares ever issued across multiple cycles, not merely in the current one. A multi-decade, repeated buy-and-cancel record is a far stronger capital-allocation signal than the timing of any single tranche.",
+        "FACT (tier-1, 사업보고서 제57기, 2026-03-10): Investing KRW 90.4T (capex + R&D) in FY2025 against KRW 43.6T of operating profit - and continuing to invest while DS posted a KRW 14.88T operating LOSS in FY2023 - is evidence of a genuine long-horizon allocation policy rather than earnings management."
       ],
       "counter_evidence": [
         "INFERENCE: The three-generation HBM miss was itself a capital-allocation and technology-roadmap failure by the same organisation; the recovery does not erase the base rate.",
         "INFERENCE: Buying back stock at a cyclical earnings peak, when the share price embeds peak book value, is the weakest point in the buyback cycle - repurchase price discipline is an explicit scorecard indicator and this is not evidence of it.",
-        "FACT: The multi-year return commitment is ambiguous in public reporting - a June 2026 press report described a KRW 90T buyback split over three years, while the confirmed August announcement is a KRW 90-110T return for 2026 alone with three-year totals reported at KRW 120-140T. These cannot all be right."
+        "FACT: The multi-year return commitment is ambiguous in public reporting - a June 2026 press report described a KRW 90T buyback split over three years, while the confirmed August announcement is a KRW 90-110T return for 2026 alone with three-year totals reported at KRW 120-140T. These cannot all be right.",
+        "The peak-timing criticism is reduced but not eliminated: the FY2026 programme is by far the largest in absolute terms and coincides with the highest book multiple in the company's history."
       ],
       "missing_data": [
         "Board's stated framework for the January 2027 dividend-versus-buyback decision",
@@ -129,9 +135,9 @@
       ]
     },
     "expectation_gap_and_valuation": {
-      "score": 6,
+      "score": 5,
       "max_score": 15,
-      "confidence": 0.6,
+      "confidence": 0.65,
       "evidence": [
         "FACT: At the 2026-09-03 close of KRW 250,000, common-share market capitalisation is approximately KRW 1,462T (5,846,278,608 shares). Including preferred at an estimated KRW 215,000 the total equity value is approximately KRW 1,634T.",
         "INFERENCE: Against an H1 2026 annualised operating profit run-rate of about KRW 293T, the price is roughly 7x peak earnings. The market is explicitly NOT capitalising the current peak - it already discounts a large normalisation.",
@@ -140,14 +146,16 @@
         "FACT (tier-1, 반기보고서 2026-06-30): P/E cross-check confirmed: H1 basic EPS KRW 17,902 annualises to KRW 35,804, giving roughly 7.0x at KRW 250,000 - the market plainly is not capitalising peak earnings."
       ],
       "counter_evidence": [
+        "FACT (tier-1, 사업보고서 제57기, 2026-03-10): DECISIVE: a first-pass normalised model can now be built on three years of segment data, and it lands BELOW what the price requires. DS operating margin history is -22.3% (FY2023, a KRW 14.88T LOSS on KRW 66.59T revenue), 13.6% (FY2024), 19.1% (FY2025), 68.3% (H1 2026). Assuming a structurally larger AI-memory market - DS revenue of KRW 250-300T at a normalised 30-38% margin, well above any prior mid-cycle level - gives DS operating profit of KRW 75-114T. Adding a recovered DX (KRW 12-13T), SDC (KRW 4T) and Harman (KRW 1.5T) gives GROUP NORMALISED OPERATING PROFIT OF ROUGHLY KRW 93-132T, against a price requirement of KRW 145-183T. The expectation gap is negative, not merely thin.",
+        "FACT (tier-1, 사업보고서 제57기, 2026-03-10): ASP COMPOUNDING QUANTIFIES THE RENT: memory ASP rose approximately 14% in FY2025 versus FY2024, then approximately 220% in H1 2026 versus the FY2025 average. Compounded, H1 2026 memory ASP is roughly 3.65x the FY2024 average, reached in eighteen months. A price level of that shape is a shortage spike, not a regime.",
         "SECOND CORRECTION, same direction: with controlling-interest equity now measured at KRW 565.06T (2026-06-30), price-to-book at KRW 250,000 is approximately 2.89x on current book and roughly 2.5x on estimated year-end 2026 book - NOT the 2.29x stated in the prior version, which relied on a broker year-end BPS estimate of KRW 109,313. Actual BPS at 2026-06-30 is approximately KRW 86,051 ex-treasury. Against a historical range of roughly 0.9x-2.1x, the multiple is further above the band than previously stated.",
         "ESTIMATE: Forward price-to-book is approximately 2.3x against a 2026E BPS of KRW 109,313, versus a historical Samsung range of roughly 0.9x to 2.1x. That is at or above the top of the historical range, computed on a book value that peak earnings have themselves inflated.",
         "CORRECTION: The 2026-09-04 screening run cited a forward P/B of about 1.4x from a broker source and used it to argue the price did not require the peak to persist. That figure is stale - it appears to reference 2025 - and is superseded here. The corrected 2.3x materially weakens that argument.",
         "INFERENCE: Probability-weighted five-year return is approximately +11% in total (roughly +2%/yr) under the subjective weights in valuation.json, which is unattractive against a Korean risk-free rate."
       ],
       "missing_data": [
-        "Verified preferred-share price and current consolidated net cash, both of which move the total equity value and EV materially",
-        "Company or consensus 2027 earnings estimate on a post-Q2-2026 basis"
+        "Verified preferred-share price - the last remaining unverified valuation input",
+        "Announced industry capacity additions modelled against the normalised DS revenue and margin assumptions used above, which remain ESTIMATE"
       ]
     },
     "power_law_and_asymmetry": {
@@ -167,6 +175,6 @@
       ]
     }
   },
-  "total_score": 68,
+  "total_score": 69,
   "classification": "Starter / Watch"
 }

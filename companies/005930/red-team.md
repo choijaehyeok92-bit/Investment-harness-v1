@@ -265,3 +265,82 @@ Samsung advance versus SK hynix retreat, and it must now additionally be discoun
 for having occurred inside a 220% ASP environment in which all capacity cleared. If
 both discounts apply, moat trajectory falls toward 7/15 and the total drops below
 the Reject boundary.
+
+---
+
+# Red Team addendum 2 — FY2025 사업보고서 (tier-1), 2026-09-04
+
+Verdict **PASS**, confidence **0.70 → 0.78**. My central attack has now been proven
+with the company's own audited segment data, and the analyst adopted it rather than
+resisting it.
+
+## Attack #1, finally settled — and I was right
+
+I argued the apparent structural growth was cyclical. The company's own three-year
+segment series settles it:
+
+**DS operating margin: −22.3% (FY2023) → 13.6% → 19.1% → 68.3% (H1 2026).**
+
+DS lost **KRW 14.88T** three years ago. And memory ASP compounds to **≈3.65x the
+FY2024 average in eighteen months** (+14% FY2025, then +220% in H1 2026).
+
+The analyst's first-pass normalisation lands at **KRW 93–132T** against a price
+requirement of **KRW 145–183T** — and did so on assumptions *tilted toward the
+company* (DS margin 30–38%, versus 13.6% and 19.1% actually achieved). Scoring
+`expectation_gap_and_valuation` down to 5/15 and raising the bear weight was the
+correct response. I withdraw the concern that categories 1 and 3 were carrying
+undiscounted peak-environment evidence — the discount is now taken in the right
+place, in the valuation category, rather than smeared across business quality.
+
+## Where I was wrong — the capital allocation record
+
+I attacked repurchase price discipline, calling the peak-timing buyback "the textbook
+value-destroying pattern." The FY2025 report shows **1.93bn common shares retired —
+24.9% of all shares ever issued** — across many cycles. Judging a multi-decade policy
+by the timing of one tranche was the wrong test, and I applied it. The category
+raise 7 → 8 is justified.
+
+I also under-weighted **KRW 90.4T of FY2025 investment against KRW 43.6T of
+operating profit, sustained through the FY2023 DS loss.** A company that invests
+2.07x its operating profit at a cycle trough is not managing to the print.
+
+## Where the analyst corrected itself before I could
+
+The DX hedge. The prior addendum let it stand as a bear-floor raiser; the analyst has
+now sized it at **KRW 8–10T/yr against a DS swing exceeding KRW 150T — 6–7%** — and
+labelled its own earlier framing an overstatement. That is the correction I would
+have made.
+
+## New attack #12 — the normalised model is still too kind
+
+The model assumes DS revenue of KRW 250–300T, roughly **2x FY2025**, as the
+*normalised* state. That is not a mid-cycle assumption; it embeds a permanently
+larger memory market at the outset. A genuine mid-cycle case anchored on FY2024–25
+(DS revenue KRW 111–130T, margin 13.6–19.1%) gives DS operating profit of
+**KRW 15–25T** and group operating profit near **KRW 35–45T** — which is FY2025.
+Against that, the equity is worth a fraction of today's price.
+
+I do not assert that as the base case; the AI demand shift is real and the market
+is structurally larger. But the range the analyst calls "generous" is generous only
+relative to the bull case, not relative to history. **The true bear is worse than the
+recorded bear.**
+
+## Falsifier — one addition
+
+| # | Falsifier | Observable by |
+|---|---|---|
+| F9 | DS revenue or margin reverting toward the FY2024–25 band (13.6–19.1%) faster than the normalised model assumes | Quarterly segment disclosure |
+
+## Verdict: **PASS**, confidence 0.78
+
+Three tier-1 documents in succession have each moved the valuation conclusion
+against the position, and the analysis has taken each one on the chin — stale P/B
+corrected twice, expectation gap cut twice, its own DX framing withdrawn. It has
+also raised scores where the evidence warranted it rather than only cutting. The
+`WATCH` / band `NONE` conclusion is now supported by a model rather than by a
+probability weighting, which is a materially stronger position than at either prior
+review.
+
+**Standing revision requirement — now the only one left:** the moat-trajectory
+re-score after Q4 2026 remains outstanding. Everything else I raised has been
+addressed.

@@ -296,6 +296,110 @@ filing largely settles, but because of expected return.**
 
 ---
 
+## Update 2 — FY2025 사업보고서 (tier-1), read 2026-09-04
+
+The annual report supplied the **normalisation baseline the primary gate had been
+asking for**. Score **68 → 69**; label unchanged. But the character of the verdict
+changed: the expectation gap is now **negative**, not merely thin.
+
+### The series that settles the amplitude question
+
+**DS 부문 operating margin, full cycle:**
+
+| | FY2023 | FY2024 | FY2025 | H1 2026 |
+|---|---|---|---|---|
+| Revenue | KRW 66.59T | KRW 111.07T | KRW 130.13T | KRW 209.23T |
+| Operating profit | **−KRW 14.88T** | KRW 15.09T | KRW 24.86T | **KRW 142.86T** |
+| Margin | **−22.3%** | 13.6% | 19.1% | **68.3%** |
+
+DS posted an **outright operating loss three years ago** and roughly a **KRW 158T
+swing** in half-year-equivalent profit since. That is the empirical amplitude of
+this business.
+
+**And the ASP path compounds:**
+
+| Memory ASP | vs prior-year average |
+|---|---|
+| FY2025 | **+14%** |
+| H1 2026 | **+220%** |
+| Compounded vs FY2024 | **≈3.65x** |
+
+FY2025 was an ordinary recovery year. The entire extraordinary move is an **H1 2026
+event** — 3.65x in eighteen months. FY2025 comparators: TV −5%, smartphone −3%,
+OLED −6%.
+
+### First-pass normalisation — it lands below the price
+
+Assumptions deliberately tilted **in the company's favour**: DS revenue of
+**KRW 250–300T** (roughly 2x FY2025) at a **30–38%** margin (well above the 13.6%
+and 19.1% actually achieved in FY2024–25, crediting a richer HBM mix).
+
+| | KRW T |
+|---|---|
+| DS normalised | 75–114 |
+| DX recovered | 12–13 |
+| SDC | 4 |
+| Harman | 1.5 |
+| **Group normalised operating profit** | **93–132** |
+| **What the price requires** | **145–183** |
+
+**The gap is negative.** To meet the requirement, DS needs roughly **KRW 320T of
+revenue — 2.5x FY2025 — at above a 40% margin, sustained.** Equivalently, about
+**60% of the current extraordinary condition must become permanent.**
+
+This is a change in kind from the two prior reviews, which described the gap as
+tight. `expectation_gap_and_valuation` cut **6/15 → 5/15**; bear weight raised
+0.30 → 0.35; probability-weighted five-year return falls **+14.9% → ≈+8.4%** total
+(1.6%/yr).
+
+**Stated fairly:** the gate is closed against the current **price**, not against the
+company. The model's mid-cycle inputs remain ESTIMATE and have not yet been tested
+against announced 2027–2029 capacity additions or against HBM contract terms, which
+are not public.
+
+### Correcting my own prior overstatement — the DX hedge
+
+The previous update called the DX hedge a bear-floor raiser without sizing it.
+Sized against the three-year series (DX operating profit KRW 14.38T → 12.44T →
+12.85T → ≈4.3T annualised), the recovery is worth **KRW 8–10T/yr** against a DS
+downside swing exceeding **KRW 150T** annualised — roughly **6–7% of the swing**.
+Real, but the earlier framing implied more than the data supports.
+
+### Cutting genuinely the other way
+
+**Cumulative share cancellation: 1,934,188,242 common shares retired — 24.9% of all
+7,780,466,850 ever issued** (plus 392,300,147 preferred). This is a multi-decade,
+repeated buy-and-cancel record across many cycles, and it **materially offsets the
+"buying at the peak" criticism**, which judged the policy on the timing of a single
+tranche.
+
+**Counter-cyclical reinvestment.** FY2025 capex **KRW 52.65T** (DS 47.48 / SDC 2.80 /
+other 2.12) plus R&D **KRW 37.75T** (11.3% of revenue; 10.9% / 11.6% / 11.3% across
+FY2023–25) = **KRW 90.4T of investment against KRW 43.6T of operating profit —
+2.07x** — sustained *through* the year DS lost KRW 14.88T. The 2026 windfall was
+pre-funded, not lucky. Categories 4 (12 → 13) and 5 (7 → 8) raised.
+
+Capex discipline also confirmed on a second basis: H1 2026 annualises to ≈KRW 62.5T
+against FY2025's KRW 52.65T (**+19%**), consistent with the +16.4% measured
+H1-over-H1.
+
+### Net
+
+**The business is confirmed better than three successive reviews had credited. The
+price is confirmed worse.** Unlike the prior revision, this is no longer a close
+call on subjective weights — the normalised model lands below the requirement on
+assumptions already generous to the company.
+
+### Scope note
+
+Section III (financial statements), Section 6 (dividends) and the notes were beyond
+the retrieved text extract of this filing and were **not read**. FY2025 balance-sheet
+and income-statement figures used here come from the interim report's comparative
+columns instead. Segment, ASP, capex, R&D and share-count data above are from
+Section II, which was within the extract.
+
+---
+
 ## Correction to the 2026-09-04 screening run
 
 The screening run ranked 005930 first for deep work, resting substantially on a

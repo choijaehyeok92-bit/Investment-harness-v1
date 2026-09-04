@@ -127,6 +127,105 @@
       "tv": -4,
       "digital_cockpit": -3,
       "decisive_finding": "FACT (tier-1). Memory ASP rose approximately 220%. The earnings surge is overwhelmingly PRICE, not volume, mix or competitive gain. This converts the cycle-peak argument from inference to established fact, and is the single largest unfavourable finding from the interim report."
+    },
+    "segment_history_fy2023_to_h1_2026": {
+      "source": "사업보고서 제57기 (FY2025, filed 2026-03-10) + 반기보고서 제58기 (H1 2026). Unit: KRW trillion.",
+      "DS": {
+        "FY2023": {
+          "revenue": 66.59,
+          "operating_profit": -14.88,
+          "margin_pct": -22.3
+        },
+        "FY2024": {
+          "revenue": 111.07,
+          "operating_profit": 15.09,
+          "margin_pct": 13.6
+        },
+        "FY2025": {
+          "revenue": 130.13,
+          "operating_profit": 24.86,
+          "margin_pct": 19.1
+        },
+        "H1_2026": {
+          "revenue": 209.23,
+          "operating_profit": 142.86,
+          "margin_pct": 68.3
+        }
+      },
+      "DX": {
+        "FY2023": {
+          "revenue": 169.99,
+          "operating_profit": 14.38,
+          "margin_pct": 8.5
+        },
+        "FY2024": {
+          "revenue": 174.89,
+          "operating_profit": 12.44,
+          "margin_pct": 7.1
+        },
+        "FY2025": {
+          "revenue": 187.97,
+          "operating_profit": 12.85,
+          "margin_pct": 6.8
+        },
+        "H1_2026": {
+          "revenue": 100.68,
+          "operating_profit": 2.15,
+          "margin_pct": 2.1
+        }
+      },
+      "SDC_operating_profit": {
+        "FY2023": 5.57,
+        "FY2024": 3.73,
+        "FY2025": 4.12,
+        "H1_2026": 1.04
+      },
+      "Harman_operating_profit": {
+        "FY2023": 1.17,
+        "FY2024": 1.31,
+        "FY2025": 1.53,
+        "H1_2026": 0.64
+      },
+      "why_this_matters": "This is the series the primary gate required. DS swung from a KRW 14.88T operating LOSS in FY2023 to KRW 142.86T of profit in H1 2026 - roughly a KRW 158T swing in half-year-equivalent terms within three years. It is the empirical measure of this business's cyclical amplitude."
+    },
+    "asp_history": {
+      "memory_fy2025_vs_fy2024_pct": 14,
+      "memory_h1_2026_vs_fy2025_avg_pct": 220,
+      "compounded_h1_2026_vs_fy2024_multiple": 3.65,
+      "other_fy2025_vs_fy2024_pct": {
+        "tv": -5,
+        "smartphone": -3,
+        "oled_panel": -6,
+        "digital_cockpit": 0
+      },
+      "interpretation": "FY2025 was a normal recovery year for memory pricing (+14%). The entire extraordinary move is an H1 2026 event (+220%). Compounded, memory ASP is roughly 3.65x the FY2024 average, reached in eighteen months. A price level of that shape is a shortage spike, not a regime change."
+    },
+    "normalised_model_first_pass": {
+      "status": "FIRST PASS. Anchored on tier-1 segment data; the mid-cycle revenue and margin inputs remain ESTIMATE.",
+      "ds_normalised_revenue_krw_trn": "250-300",
+      "ds_normalised_margin_pct": "30-38",
+      "ds_margin_justification": "Deliberately set well ABOVE any prior mid-cycle level (13.6% FY2024, 19.1% FY2025) to credit a richer HBM mix and contracted pricing. This is a generous assumption, not a conservative one.",
+      "ds_normalised_operating_profit_krw_trn": "75-114",
+      "dx_recovered_krw_trn": "12-13",
+      "sdc_krw_trn": 4.0,
+      "harman_krw_trn": 1.5,
+      "group_normalised_operating_profit_krw_trn": "93-132",
+      "price_requirement_krw_trn": "145-183",
+      "conclusion": "THE NORMALISED ESTIMATE LANDS BELOW WHAT THE PRICE REQUIRES. Even on generous margin assumptions the gap is negative rather than merely thin. To meet the requirement, DS would need roughly KRW 320T of revenue - about 2.5x FY2025 - at a margin above 40%, sustained. Equivalently, roughly 60% of the current extraordinary condition must become permanent.",
+      "honest_limits": "The model is sensitive to the assumed mid-cycle DS revenue and margin, both ESTIMATE. It has not yet been tested against announced 2027-2029 capacity additions, nor against disclosed HBM contract terms (which are not public). It closes the gate against the current PRICE, not against the company."
+    },
+    "dx_hedge_quantified": {
+      "correction_to_prior_version": "The prior update described the DX hedge as raising the bear floor without sizing it. Sized properly it is directionally real but quantitatively minor.",
+      "dx_operating_profit_krw_trn": {
+        "FY2023": 14.38,
+        "FY2024": 12.44,
+        "FY2025": 12.85,
+        "H1_2026_annualised": 4.3
+      },
+      "recovery_value_krw_trn_per_year": "8-10",
+      "ds_downside_swing_krw_trn_annualised": "150+",
+      "hedge_as_pct_of_swing": "roughly 6-7",
+      "verdict": "Real, but it offsets only about 6-7% of the DS swing. The prior framing implied more than the data supports."
     }
   },
   "scenarios": {
@@ -138,7 +237,7 @@
       "equity_value_krw_trn": "850-950",
       "five_year_total_return_pct": "-48 to -42",
       "capital_permanence": "Not a permanent loss. The company remains profitable, self-funding and solvent throughout.",
-      "revision_note": "Bear floor RAISED versus the prior version. Book is now measured at KRW 565.06T rather than estimated, compounds from a higher confirmed base, and the DX hedge (margin 6.8% to 2.1%) recovers as DS falls. Net cash of KRW 167.54T is roughly 10% of market capitalisation and is now confirmed rather than assumed."
+      "revision_note": "Bear floor held at roughly -45%, but for a better-evidenced reason: the FY2023 precedent shows DS can post an operating LOSS (KRW 14.88T), so the downside is not merely lower profit. Offsetting that, the balance sheet is confirmed (net cash KRW 167.54T) and the 24.9% cumulative cancellation record means share count keeps falling through a trough."
     },
     "base": {
       "narrative": "AI memory is a partial regime change. Cycle amplitude dampens but does not disappear because HBM is contracted and capacity-reserved while conventional DRAM and NAND are not. Samsung holds roughly 33-38% HBM share. Foundry reaches sustained breakeven to small profit on Tesla, and the value-up capital return continues at a reduced rate after 2026.",
@@ -146,9 +245,9 @@
       "terminal_multiple": "approximately 1.3x P/B, or 12x normalised net income of KRW 100-120T",
       "equity_value_krw_trn": "1,350-1,450",
       "cumulative_shareholder_return_krw_trn": "approximately 400 over five years",
-      "five_year_total_return_pct": "+15 to +30",
+      "five_year_total_return_pct": "+5 to +20",
       "note": "Does not require perfect execution - it requires Samsung to hold the position it has already won, and the memory market to settle above but not far above the level the price already embeds.",
-      "revision_note": "Modestly improved on confirmed capex discipline and a measured starting book value."
+      "revision_note": "REVISED DOWN. The first-pass normalised model (group operating profit KRW 93-132T) sits below the KRW 145-183T the price requires, so the prior base case was too generous. Base now assumes normalised group operating profit near the TOP of the modelled range (KRW 125-132T), which still leaves the equity modestly overvalued against the current price before shareholder returns are counted."
     },
     "bull": {
       "narrative": "AI memory is a durable regime change: a three-player, contracted, capacity-reserved industry with structurally higher returns. Samsung converts its unique memory-plus-foundry-plus-packaging integration into HBM5/HBM6 leadership as the base die becomes a logic product, and foundry reaches real profitability with Tesla, and additional large-customer volume at Taylor. Normalised returns re-rate the whole company.",
@@ -166,16 +265,16 @@
     "subjective_probability_pct": "2-4"
   },
   "subjective_probabilities": {
-    "bear": 0.3,
-    "base": 0.5,
+    "bear": 0.35,
+    "base": 0.45,
     "bull": 0.2,
     "labelled": "EXPLICITLY SUBJECTIVE - these are the analyst's judgement, not derived from data.",
-    "probability_weighted_five_year_total_return_pct": 14.9,
-    "annualised_pct": 2.8,
+    "probability_weighted_five_year_total_return_pct": 8.4,
+    "annualised_pct": 1.6,
     "sensitivity_warning": "This is the single most important caveat in the analysis. The result is highly sensitive to these weights. At bear 0.20 / base 0.50 / bull 0.30 the weighted five-year return rises to approximately +30% and expectation_gap_score would be 8-9, lifting the total scorecard to 68-69. The verdict of WATCH rather than STARTER rests on a subjective probability judgement, and a reasonable analyst could weight it differently.",
-    "revision_note": "Improved from +11.4% total on the higher bear floor. Still below a Korean risk-free rate, which is why the verdict does not change."
+    "revision_note": "Bear weight raised 0.30 to 0.35 and base cut 0.50 to 0.45 because the normalised model now lands below the price requirement on generous assumptions. Weighted return falls from +14.9% to roughly +8.4% total (1.6%/yr). Still explicitly subjective, but now anchored on a three-year tier-1 segment series rather than intuition - the sensitivity warning is materially reduced, though not removed."
   },
-  "expectation_gap_score": 6,
+  "expectation_gap_score": 5,
   "asymmetry_score": 5,
-  "notes": "Updated 2026-09-04 with 삼성전자 2026년 반기보고서 (tier-1). Two previously unknown inputs are now resolved: consolidated net cash (KRW 167.54T) and controlling-interest equity (KRW 565.06T). One remains unverified: the preferred-share price (ESTIMATE KRW 215,000), which moves total equity value by roughly +/- KRW 20T per KRW 25,000. The filing cut both ways and the two findings are of comparable weight. FAVOURABLE: capex discipline (operating cash flow +328% against capex +16.4%), free cash flow of KRW 112.39T in the half year, confirmed net cash, and a DX internal hedge that raises the bear floor. UNFAVOURABLE: memory ASP +220% proves the surge is price rather than competitive gain; DS is 97.4% of group operating profit at a 68.3% margin against 19.1% in FY2025; and P/B is 2.89x on measured book rather than the 2.29x previously stated. Net effect on the two valuation categories is neutral - expectation_gap stays at 6/15 and asymmetry at 5/10 - while business-quality category 4 rises from 10 to 12, taking the total from 66 to 68. Note 27 (segment), Note 29 (subsequent events) and Section 6 (dividends) were beyond the retrieved text extract and were not read."
+  "notes": "Updated 2026-09-04 with 삼성전자 2026년 반기보고서 (tier-1). Two previously unknown inputs are now resolved: consolidated net cash (KRW 167.54T) and controlling-interest equity (KRW 565.06T). One remains unverified: the preferred-share price (ESTIMATE KRW 215,000), which moves total equity value by roughly +/- KRW 20T per KRW 25,000. The filing cut both ways and the two findings are of comparable weight. FAVOURABLE: capex discipline (operating cash flow +328% against capex +16.4%), free cash flow of KRW 112.39T in the half year, confirmed net cash, and a DX internal hedge that raises the bear floor. UNFAVOURABLE: memory ASP +220% proves the surge is price rather than competitive gain; DS is 97.4% of group operating profit at a 68.3% margin against 19.1% in FY2025; and P/B is 2.89x on measured book rather than the 2.29x previously stated. Net effect on the two valuation categories is neutral - expectation_gap stays at 6/15 and asymmetry at 5/10 - while business-quality category 4 rises from 10 to 12, taking the total from 66 to 68. Note 27 (segment), Note 29 (subsequent events) and Section 6 (dividends) were beyond the retrieved text extract and were not read. FURTHER UPDATE 2026-09-04 with 삼성전자 사업보고서 제57기 (FY2025, filed 2026-03-10), tier-1. This document supplied the missing normalisation baseline. AGAINST: the FY2023-H1 2026 DS series (-22.3% / 13.6% / 19.1% / 68.3% operating margin) and ASP compounding (+14% FY2025, +220% H1 2026, roughly 3.65x FY2024) allow a first-pass normalised model that lands at KRW 93-132T of group operating profit versus a KRW 145-183T price requirement. The gap is negative, not thin. expectation_gap_score cut 6 to 5. FOR: cumulative cancellation of 24.9% of all common shares ever issued, and FY2025 investment of KRW 90.4T (capex 52.65 + R&D 37.75) against KRW 43.6T of operating profit - counter-cyclical reinvestment sustained through the FY2023 DS loss. Categories 4 (12 to 13) and 5 (7 to 8) raised. Total 68 to 69. Section III (financial statements), Section 6 (dividends) and the notes were beyond the retrieved text extract of this filing and were not read; FY2025 balance-sheet and income-statement figures used here come from the interim report's comparative columns instead."
 }

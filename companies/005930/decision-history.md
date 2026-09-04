@@ -215,3 +215,88 @@ Unchanged from initial underwriting, plus two additions:
   rolls over — the combination that confirms `incremental_roic_collapse`.
 - **Counter-intuitive, worth stating:** a *further* memory ASP spike is bad news, not
   good. It raises the rent being capitalised and deepens the eventual reversion.
+
+---
+
+## 2026-09-04 (revision 2) — FY2025 사업보고서 tier-1; normalisation baseline established
+
+- **Decision:** `WATCH` — unchanged · **Position band:** `NONE` — unchanged
+- **Total score:** **68 → 69** / 100 — *Starter / Watch*
+- **Hard Veto:** `INVESTIGATE` — unchanged; `incremental_roic_collapse` **materially advanced but not closed**
+- **Red team:** `PASS`, confidence **0.70 → 0.78**
+- **Decision confidence:** 0.65 → **0.72**
+
+### Evidence change
+
+New source: **`삼성전자 사업보고서 제57기` (FY2025, filed 2026-03-10), DART — tier-1.**
+
+**Against the position — the primary gate finally has its baseline.**
+
+DS operating margin, full cycle: **−22.3% (FY2023, a KRW 14.88T LOSS) → 13.6%
+(FY2024) → 19.1% (FY2025) → 68.3% (H1 2026)** — roughly a KRW 158T swing in
+half-year-equivalent profit in three years. Memory ASP: **+14% FY2025, +220% H1 2026,
+≈3.65x FY2024 compounded** in eighteen months.
+
+First-pass normalisation, on assumptions tilted toward the company (DS revenue
+KRW 250–300T at 30–38% margin): **group normalised operating profit KRW 93–132T
+versus a price requirement of KRW 145–183T.**
+
+**The expectation gap is negative, not merely thin** — a change in kind from the two
+prior reviews. `expectation_gap_and_valuation` 6/15 → **5/15**; bear weight 0.30 →
+**0.35**; weighted five-year return **+14.9% → ≈+8.4%** total (1.6%/yr).
+
+**For the position — genuinely, and I had under-weighted both.**
+
+- **1,934,188,242 common shares cumulatively retired — 24.9% of all ever issued**
+  (plus 392,300,147 preferred), across many cycles. Materially offsets the
+  "buying at the peak" criticism, which judged a multi-decade policy on one tranche.
+- **FY2025 investment of KRW 90.4T** (capex 52.65 + R&D 37.75) against **KRW 43.6T**
+  of operating profit — 2.07x — sustained through the FY2023 DS loss. The 2026
+  windfall was pre-funded.
+- Categories 4 (12 → **13**) and 5 (7 → **8**) raised.
+
+**Self-correction:** the DX hedge, described in revision 1 as raising the bear floor,
+is now sized at **KRW 8–10T/yr against a DS swing exceeding KRW 150T — 6–7%**. The
+earlier framing implied more than the data supports.
+
+### Thesis change
+
+**The business is confirmed better than three successive reviews had credited. The
+price is confirmed worse.** Business-quality subtotal 57 → **59/75**; valuation
+categories 11 → **10/25**.
+
+Unlike revision 1, this is **no longer a close call on subjective weights** — the
+normalised model lands below the requirement on generous assumptions. Decision
+confidence rises accordingly.
+
+Stated fairly: the gate is closed against the current **price**, not against the
+company. At DS revenue near KRW 320T and a margin above 40%, the requirement is met.
+
+### Red-team dissent recorded
+
+The red team argues the normalised model is **still too kind**: DS revenue of
+KRW 250–300T is ~2x FY2025 and embeds a permanently larger market at the outset. A
+history-anchored mid-cycle (FY2024–25: revenue KRW 111–130T, margin 13.6–19.1%)
+gives group operating profit of KRW 35–45T. Recorded as dissent, not adopted — the
+AI demand shift is real — but it means **the true bear is worse than the recorded
+bear**.
+
+### Scope note
+
+Section III (financial statements), Section 6 (dividends) and the notes were beyond
+the retrieved text extract and were **not read**. FY2025 balance-sheet and
+income-statement figures come from the interim report's comparative columns. Segment,
+ASP, capex, R&D and share-count data are from Section II, within the extract.
+
+### What would change the decision next
+
+- **To `STARTER`:** the normalised model must rise above ≈KRW 145T of group operating
+  profit on defensible assumptions — requiring disclosed multi-year capacity-reserved
+  HBM contract terms, or evidence that normalised DS margin sustains above 40% on
+  revenue near KRW 320T. **Absent that, the price must fall to meet the KRW 93–132T
+  range.**
+- **To `REJECT`:** DS reverting toward the FY2024–25 band faster than modelled,
+  putting group operating profit below the KRW 93T lower bound (red-team falsifier F9).
+- **Outstanding from initial underwriting:** the `moat_trajectory` re-score after Q4
+  2026 — decompose the 21%→33% HBM share move into Samsung advance versus SK hynix
+  retreat, discounted for having occurred inside a 220% ASP environment.
