@@ -379,3 +379,102 @@ Unchanged and now the last open item where the analysis rests on evidence collec
 inside the rent: the **`moat_trajectory` re-score after Q4 2026** — decompose the
 21%→33% HBM share move into Samsung advance versus SK hynix retreat, discounted for
 the +220% ASP environment in which all capacity cleared.
+
+---
+
+## 2026-09-04 (price update) — 보통주 KRW 255,500
+
+- **Decision:** `WATCH` · **Band:** `NONE` · **Score:** **69** — all unchanged
+- Price: KRW 250,000 (2026-09-03 close) → **KRW 255,500** (user-supplied, unverified)
+
+### What moved
+
+| | KRW 250,000 | KRW 255,500 |
+|---|---|---|
+| Total equity value | 1,634T | **1,670T** |
+| Enterprise value | 1,467T | **1,502T** |
+| P/B (2026-06-30 book 565.06T) | 2.892x | **2.955x** |
+| Annualised P/E | 6.98x | **7.14x** |
+| Annualised FCF yield | 13.7% | **13.4%** |
+| **Required normalised OP** | 147–183T | **150–188T** |
+| Model normalised OP | 93–132T | **93–132T (unchanged)** |
+| **Shortfall** | — | **≈18–95T, widened** |
+
+Weighted five-year return **+5.5% → +4.0%** (0.8%/yr). Two causes, separated: about
+−1.5pp from the higher price, the remainder from a **precision fix** — the bear range
+previously read "−55 to −45", conflating the modal bear (equity KRW 850–950T) with
+the deep tail. Modal bear at the new price is **−49% to −43%**; the deep tail sits
+below and outside that range.
+
+### What did not move, and why
+
+**Nothing about the business changed.** `expectation_gap_and_valuation` was **held at
+5/15**: the gap moved against the position, but a 2.2% price tick is not a basis for
+re-scoring, and the category already reflects a negative gap.
+`policy/monitoring.yaml` and `policy/position-sizing.yaml` both forbid letting price
+alone drive the decision — in either direction.
+
+### Price at which the gap closes — computed
+
+Solving for the common price where required normalised OP meets the KRW 93–132T
+model range, at 8–10x mid-cycle EV/EBIT, using the **measured** preferred/common
+ratio of 0.7205:
+
+**Range KRW 142,000–232,000 · central estimate ≈ KRW 183,700** (9x on the KRW 112.5T
+midpoint) — about **28% below** KRW 255,500.
+
+This is **not a target price** and must not be used as one. It is the level at which
+the normalised model would stop being an argument against a position; the
+`incremental_roic_collapse` gate would still need separate resolution.
+
+**Corrections logged.** An early draft of `decision.json` asserted KRW 150,000–165,000
+without computing it — wrong. A computed version using the *estimated* preferred ratio
+of 0.860 gave a central KRW 180,538. The table above, on the measured ratio, supersedes
+both.
+
+---
+
+## 2026-09-04 (preferred price resolved) — 삼성전자우 KRW 184,100
+
+- **Decision:** `WATCH` · **Band:** `NONE` · **Score:** **69** — all unchanged
+
+**The last unverified valuation input in this file is now closed.** Every material
+input is either audited tier-1 or a supplied market price.
+
+The measured preferred/common ratio is **0.7205 (a 27.9% discount)** against the
+**0.860 (14.0%)** assumed — the estimate was **19.3% too high**.
+
+| | Estimated preferred | **Measured preferred** |
+|---|---|---|
+| Preferred market cap | 176.28T | **147.72T** |
+| Total equity value | 1,670.01T | **1,641.44T** (−1.7%) |
+| Enterprise value | 1,502.47T | **1,473.90T** |
+| P/B (book 565.06T) | 2.955x | **2.905x** |
+| Forward P/B | 2.57x | **2.525x** |
+| Required normalised OP | 150–188T | **147–184T** |
+| Shortfall vs model 93–132T | 18–95T | **15–91T** |
+| Weighted 5-yr return | +4.0% | **+5.8%** (1.1%/yr) |
+
+### Why the verdict does not change
+
+A 1.7% revision to a valuation input does not move a category that already reflects a
+**clearly negative** expectation gap. The shortfall against the normalised model is
+still KRW 15–91T. Score held at 69; `expectation_gap_and_valuation` held at 5/15.
+
+### One thing worth recording about direction
+
+This is the **first valuation input in this file to resolve in the company's favour.**
+Every prior correction moved against the position — three successive P/B revisions
+(1.4x → 2.29x → 2.89x), the memory ASP finding, the FY2023 trough. The red team
+flagged that pattern as possible **one-directional bias rather than noise**.
+
+That the last remaining estimate moved the *other* way once measured is weak but real
+evidence the earlier corrections were data-driven rather than a drift. Recorded so a
+future reviewer can weigh it.
+
+### Outstanding
+
+Only one item remains open across the whole file: the **`moat_trajectory` re-score
+after Q4 2026** — decompose the 21%→33% HBM share move into Samsung advance versus
+SK hynix retreat, discounted for the +220% ASP environment in which all capacity
+cleared. Every valuation input is now resolved.
