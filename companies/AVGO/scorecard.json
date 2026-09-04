@@ -1,0 +1,128 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-09-04",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 15,
+      "max_score": 15,
+      "evidence": [
+        "AI data-center custom accelerators and Ethernet networking are expanding structurally; Q3 FY2026 AI semiconductor revenue reached $16.7B, +221% YoY, with Q4 guidance of $21.7B, +236% YoY.",
+        "Broadcom participates across custom XPUs, switching/routing silicon, NICs, PHYs, optics and AI racks/systems, positioning it as an infrastructure platform rather than a single-chip vendor.",
+        "Management indicated AI semiconductor revenue could reach roughly $115B in FY2027 and $230B in FY2028, implying a multi-year step-change in addressable revenue."
+      ],
+      "counter_evidence": [
+        "AI infrastructure spending is concentrated among a small number of hyperscalers/frontier-model companies and could normalize sharply after the current build-out.",
+        "Marvell and internal hyperscaler silicon teams are credible competitors in custom accelerators and networking."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Independent market-share estimates for custom accelerators by customer and Ethernet AI fabrics."]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Custom silicon can improve hyperscaler performance/watt and total cost of ownership versus general-purpose accelerators for stable workloads.",
+        "Broadcom's Ethernet portfolio addresses scale, latency, bandwidth and power bottlenecks in large AI clusters using open standards.",
+        "VMware Cloud Foundation provides an integrated private/hybrid cloud stack for mission-critical enterprise infrastructure."
+      ],
+      "counter_evidence": [
+        "Large hyperscalers have bargaining power and can multi-source or insource parts of the stack.",
+        "VMware licensing/product simplification has created customer pushback and potential migration risk."
+      ],
+      "confidence": 0.85,
+      "missing_data": ["Customer-level TCO benchmarks and renewal/retention metrics for VMware Cloud Foundation."]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "Broadcom's moat is broadening from merchant connectivity silicon into custom AI accelerators, networking systems and software.",
+        "Deep co-design relationships, leading-edge SerDes/networking IP, advanced packaging integration and supply commitments create switching and execution barriers.",
+        "VMware adds an enterprise installed base and recurring infrastructure-software economics, diversifying the semiconductor franchise."
+      ],
+      "counter_evidence": [
+        "Custom ASIC relationships are customer-specific and can be lost at redesign cycles.",
+        "Nvidia's CUDA/networking ecosystem remains a powerful competing architecture; Marvell is winning meaningful custom-silicon business."
+      ],
+      "confidence": 0.88,
+      "missing_data": ["Design-win duration and renewal rates for each major AI customer; exact AI networking share."]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "H1 FY2026 operating cash flow was $18.8B versus only $0.5B of capex; Q3 FCF was $13.7B, 46% of revenue.",
+        "Q3 revenue grew 86% YoY while GAAP operating income grew 171%, showing exceptional incremental operating leverage.",
+        "Broadcom's fabless model and software mix allow very high cash conversion despite rapid revenue growth."
+      ],
+      "counter_evidence": [
+        "H1 FY2026 stock-based compensation was $4.3B, so economic FCF should be assessed after dilution cost.",
+        "AI growth requires supply commitments and working-capital build; inventory and receivables rose materially in H1."
+      ],
+      "confidence": 0.92,
+      "missing_data": ["Customer-specific gross margins and normalized post-SBC FCF per share for the AI accelerator business."]
+    },
+    "management_and_capital_allocation": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Hock Tan has a long record of integrating acquisitions, focusing portfolios and expanding cash generation; VMware integration has already lifted infrastructure-software revenue.",
+        "FY2025 FCF was $26.9B; management simultaneously funded dividends, repurchases and debt service.",
+        "Executive compensation is overwhelmingly variable/long-term equity based, and the board extended Tan's leadership through FY2030 with performance-stock incentives."
+      ],
+      "counter_evidence": [
+        "The acquisition-led model created substantial goodwill/intangibles and debt, increasing execution consequences if a large transaction disappoints.",
+        "Aggressive VMware monetization can maximize near-term economics at the expense of customer goodwill or ecosystem breadth."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Long-run VMware logo-retention/churn metrics after licensing changes."]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "Q3 cash was about $24B and cash generation is extremely strong; H1 FY2026 operating cash flow was $18.8B and Q3 alone generated $14.2B.",
+        "At May 3, 2026 Broadcom held $19.6B cash against roughly $64.9B short- and long-term debt, but current FCF provides substantial debt-service capacity.",
+        "The business is diversified across semiconductor solutions and infrastructure software, with Q3 segment revenue of $20.8B and $8.8B respectively."
+      ],
+      "counter_evidence": [
+        "Debt remains material following VMware; FY2025 fixed-rate borrowings were about $67B principal.",
+        "Customer concentration is high: top five end customers represented about 40% of FY2025 revenue and one distributor represented 32% of revenue."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Exact Q3 net-debt balance and debt-repayment schedule after recent maturities."]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 11,
+      "max_score": 15,
+      "evidence": [
+        "At the Sep. 3 close of $357.16, the stock traded around 20.7x forward earnings and roughly 43x trailing/current P/FCF, a demanding but not bull-case-only valuation given current growth.",
+        "Using an estimated FY2026 FCF near $47-48B, current equity value implies roughly $86B of FY2028 FCF at a 24x terminal P/FCF and 10% discount rate, or ~35% annual FCF growth for two years.",
+        "Management's indicated AI semiconductor revenue trajectory ($115B FY2027; ~$230B FY2028) can support materially higher FCF than the market-implied level if execution and supply hold."
+      ],
+      "counter_evidence": [
+        "The market already capitalizes Broadcom at roughly $1.7T, so absolute upside requires very large earnings and cash-flow outcomes.",
+        "If AI infrastructure spending slows, custom-silicon share slips, or terminal multiples compress toward 20x, downside becomes meaningful."
+      ],
+      "confidence": 0.78,
+      "missing_data": ["Consensus FY2027-2029 FCF/share and a customer-by-customer bridge from AI revenue guidance to gross profit."]
+    },
+    "power_law_and_asymmetry": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "A successful custom-AI plus networking platform could create a substantially larger earnings base by FY2028-2030 without proportionate capital intensity.",
+        "Scenario analysis produces a plausible present-value range of roughly $250 bear, ~$500 base and ~$690 bull versus $357 current, with a severe permanent-loss case around $180-220.",
+        "Infrastructure software provides a recurring cash-flow ballast that reduces dependence on one semiconductor cycle."
+      ],
+      "counter_evidence": [
+        "At a ~$1.7T equity value, a 10x outcome is no longer realistic; power-law upside is therefore lower than for earlier-stage outliers.",
+        "Customer concentration and competition can produce abrupt design-win losses, while high valuation amplifies multiple compression."
+      ],
+      "confidence": 0.8,
+      "missing_data": ["More precise 2028-2030 AI customer mix, margin structure and share-count trajectory."]
+    }
+  },
+  "total_score": 88,
+  "classification": "Core Outlier"
+}
