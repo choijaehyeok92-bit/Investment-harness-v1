@@ -101,3 +101,117 @@ not create a position and a rally does not remove one.
 Q3 2026 results (late October 2026) — per `policy/monitoring.yaml` quarterly review
 checks thesis-critical KPIs only and does **not** evaluate price. Critical KPIs:
 HBM share, HBM4 volume at NVIDIA, foundry operating result, capex guidance.
+
+---
+
+## 2026-09-04 (revision) — 반기보고서 tier-1 evidence incorporated
+
+- **Decision:** `WATCH` — **unchanged**
+- **Position band:** `NONE` — **unchanged**
+- **Total score:** **66 → 68** / 100 — still *Starter / Watch*
+  (business quality 55 → 57 / 75; expectation gap 6/15 and asymmetry 5/10 unchanged)
+- **Hard Veto status:** `INVESTIGATE` — unchanged. `incremental_roic_collapse`
+  remains the HIGH-severity primary gate.
+- **Red team:** `PASS`, confidence **0.65 → 0.70**
+
+### Evidence change since prior review
+
+New source: **`삼성전자 2026년 반기보고서` (제58기 반기, 2026-06-30), DART — tier-1.**
+Supplied by the user as two Google Drive links; the files are identical (same title
+and byte size), so this is one document, not two.
+
+The filing cut both ways, with the two principal findings of comparable weight.
+
+**Favourable — Samsung is harvesting the cycle, not racing it**
+
+| H1 | 2026 | 2025 | Δ |
+|---|---|---|---|
+| Operating cash flow | KRW 145.36T | KRW 33.94T | +328% |
+| Tangible capex | KRW 31.23T | KRW 26.83T | +16.4% |
+| Free cash flow | KRW 112.39T | KRW 5.07T | 22x |
+
+This corrects a real error. The prior version scored category 4 down for "enormous
+capital absorption" and applied the industry's projected US$146B of 2027 capex to
+Samsung's own conduct. Operating cash flow grew twenty times faster than capex.
+FCF/share ≈ KRW 17,116 in the half year — a 13.7% annualised yield at KRW 250,000.
+**Category 4 raised 10 → 12.**
+
+Also resolved: **net cash KRW 167.54T** (previously unknown), **controlling-interest
+equity KRW 565.06T** (previously unknown), and share counts confirmed *exactly* as
+derived before this document was available. H1 treasury purchases of KRW 13,248,625M
+reconcile precisely to the 2026-08-21 filing — an independent tier-1 cross-check.
+
+**Favourable — an internal hedge not previously credited.** DX operating margin fell
+6.8% (FY2025) → 2.1% (H1 2026): Samsung's own set business absorbs the memory rent.
+On normalisation DX recovers as DS falls. SK hynix and Micron have no such offset.
+Bear floor improves from ≈−50% to ≈−45%.
+
+**Unfavourable — the surge is price, and it is now a fact.** Memory ASP **+220%** in
+H1 2026 vs the FY2025 average (smartphone +7%, OLED +1%, TV −4%, digital cockpit −3%).
+Converts the cycle-peak argument from INFERENCE to FACT.
+
+**Unfavourable — concentration measured, not inferred.** DS produced KRW 142.86T of
+the group's KRW 146.73T H1 operating profit — **97.4%**, at a **68.3%** divisional
+margin. DS margin history: 13.6% (FY2024) → 19.1% (FY2025) → 68.3% (H1 2026).
+
+**Unfavourable — second P/B correction, same direction.**
+
+| Estimate | Basis | Forward P/B |
+|---|---|---|
+| Screening run | stale broker figure (2025 reference) | ~1.4x |
+| First deep analysis | broker year-end BPS est. KRW 109,313 | ~2.29x |
+| **This revision** | **measured book, tier-1** | **~2.89x current / ~2.51x fwd** |
+
+Every successive correction has moved in the same direction. Recorded explicitly as
+a pattern, and flagged by the red team as a one-directional bias rather than noise.
+The one remaining unverified input — preferred-share price, ESTIMATE KRW 215,000 —
+sits in the same category.
+
+### Thesis change
+
+Business quality is **confirmed stronger** than the prior version credited; the
+capex-discipline finding removes a bear argument that was mis-specified. The
+valuation categories are **unchanged**, because the ASP and P/B findings offset the
+cash-flow findings almost exactly. Probability-weighted five-year return improves
+from ≈+11% to ≈**+15% total (≈2.8%/yr)** — still below a Korean risk-free rate.
+
+The EV/EBIT method, now computable with real net cash, independently reproduces the
+required normalised operating profit range of **KRW 147–183T** against the
+equity-based KRW 145–180T. **The conclusion is robust to method.**
+
+Cleanest formulation on measured figures: at ≈2.5x forward book the price requires
+**sustainable through-cycle ROE near 25%** versus a 2010s average of 12–15%; H1 2026
+annualised ROE was ≈47.9%. The price requires roughly **half** of the current return
+on equity to be permanent.
+
+### Why the decision did not change
+
+The position stays at zero **not because of doubt about the business — which this
+filing largely settles — but because of expected return.** The primary gate is still
+open, and Samsung's own capex restraint does not close it: industry supply sets the
+price Samsung receives, and a 68.3% divisional margin is a rent.
+
+This is now a **closer call** than at initial underwriting. Evidence quality improved
+materially and the downside is better established (−45% drawdown against a solvent,
+cash-generative business with KRW 167.54T of net cash). A reasonable analyst could
+take a `STARTER` position here. The judgement that holds it at `NONE` is the
+subjective probability weighting, which is disclosed in `valuation.json`.
+
+### Scope note
+
+Note 27 (segment reporting), Note 29 (subsequent events) and Section 6 (dividends)
+were beyond the retrieved text extract of the filing and were **not read**. Segment
+figures used above come from Section II-7-라 (사업부문별 요약 재무 현황), which was
+within the extract.
+
+### What would change the decision next
+
+Unchanged from initial underwriting, plus two additions:
+
+- **New increase trigger:** full-year capex landing near the H1 run-rate
+  (≈KRW 62–70T annualised) rather than stepping toward the announced KRW 110T+
+  programme — confirming H1 restraint is policy, not timing.
+- **New exit trigger:** capex stepping up sharply in H2 2026 / 2027 while memory ASP
+  rolls over — the combination that confirms `incremental_roic_collapse`.
+- **Counter-intuitive, worth stating:** a *further* memory ASP spike is bad news, not
+  good. It raises the rent being capitalised and deepens the eventual reversion.

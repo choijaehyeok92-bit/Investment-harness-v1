@@ -15,9 +15,14 @@ traceable to it is marked **FACT (tier-1)**. Company IR releases are tier 2; pre
 and broker figures are tier 3–5 and are marked ESTIMATE where they are not
 independently corroborated.
 
-Two material inputs remain **unknown** and are recorded as such rather than
-estimated away: the preferred-share price and the current consolidated net cash
-position. Both move the valuation.
+**Updated 2026-09-04** with `삼성전자 2026년 반기보고서` (제58기 반기, 2026-06-30) —
+also tier-1. Two of the three inputs previously recorded as unknown are now
+resolved: **consolidated net cash (KRW 167.54T)** and **controlling-interest equity
+(KRW 565.06T)**. One remains unverified: the preferred-share price (ESTIMATE
+KRW 215,000), which moves total equity value by roughly ±KRW 20T per KRW 25,000.
+
+Note 27 (segment reporting), Note 29 (subsequent events) and Section 6 (dividends)
+were beyond the retrieved text extract of the filing and were **not read**.
 
 ---
 
@@ -187,6 +192,107 @@ is that a fortress balance sheet is deployed into a capex race at the top of a c
 - The return delivered predominantly as dividend while employee buybacks continue,
   leaving net share count flat.
 - CXMT demonstrating credible leading-edge DRAM at volume.
+
+---
+
+## Update — 2026 반기보고서 (tier-1), read 2026-09-04
+
+The interim report cut both ways, with the two principal findings of comparable
+weight. Score moves **66 → 68**; label, Hard Veto status and position band are
+unchanged.
+
+### Favourable — Samsung is harvesting the cycle, not racing it
+
+| H1 | 2026 | 2025 | Δ |
+|---|---|---|---|
+| Operating cash flow | **KRW 145.36T** | KRW 33.94T | **+328%** |
+| Tangible capex | **KRW 31.23T** | KRW 26.83T | **+16.4%** |
+| Free cash flow | **KRW 112.39T** | KRW 5.07T | 22x |
+
+**This corrects a real error in the prior version.** That version scored
+`incremental_roic_and_fcf_per_share` down for "enormous capital absorption" and
+applied the industry's projected US$146B of 2027 capex to Samsung's own conduct.
+The filing shows operating cash flow growing **twenty times faster than capex**.
+FCF per share was ~KRW 17,116 in the half year — a **13.7% annualised FCF yield**
+at KRW 250,000. Category 4 raised **10 → 12**.
+
+Two further resolutions:
+
+- **Net cash measured at KRW 167.54T** (cash 92.92 + short-term FI 97.04 − total
+  debt 22.41). EV falls to ~KRW 1,466T, ~10% below equity value.
+- **Share counts confirmed exactly** as derived before this document was available:
+  common 5,846,278,608 / preferred 802,371,203 / treasury 82,086,705 common.
+  H1 treasury purchases of KRW 13,248,625M reconcile precisely to the 2026-08-21
+  filing's "KRW 13,248,624,510,410 since prior fiscal year end".
+
+### Favourable — an internal hedge not previously credited
+
+DX operating margin fell **6.8% (FY2025) → 2.1% (H1 2026)**: Samsung's own set
+business is absorbing the memory rent. On normalisation **DX profit recovers as DS
+falls**. SK hynix and Micron have no such offset. This raises the bear floor from
+roughly −50% to −45% and is a genuine structural difference versus the pure-plays.
+
+### Unfavourable — the surge is price, and that is now a fact
+
+**Memory ASP rose ~220%** in H1 2026 versus the FY2025 average. Comparators in the
+same disclosure: smartphone +7%, OLED +1%, TV −4%, digital cockpit −3%.
+
+This converts the cycle-peak argument from INFERENCE to **FACT**. The earnings
+surge is overwhelmingly price — not volume, not mix, not competitive gain.
+
+Segment profit confirms the concentration that was previously only inferred:
+
+| H1 2026 | Revenue | Operating profit | Margin | % of group OP |
+|---|---|---|---|---|
+| **DS** | KRW 209.23T | **KRW 142.86T** | **68.3%** | **97.4%** |
+| DX | KRW 100.68T | KRW 2.15T | 2.1% | 1.5% |
+| SDC | KRW 14.18T | KRW 1.04T | — | 0.7% |
+| Harman | KRW 8.39T | KRW 0.64T | — | 0.4% |
+
+DS operating margin: **13.6% (FY2024) → 19.1% (FY2025) → 68.3% (H1 2026)**. A 68.3%
+divisional margin is a rent, and rents get competed away. Samsung's own capex
+restraint does not protect it — **industry supply sets the price Samsung receives.**
+
+### Unfavourable — a second P/B correction, same direction
+
+Controlling-interest equity is **KRW 565.06T** (from KRW 424.31T at 2025-12-31).
+BPS ≈ **KRW 86,051** ex-treasury. At KRW 250,000 and ~KRW 1,634T total equity value:
+
+| Estimate | Source | Forward P/B |
+|---|---|---|
+| Screening run | stale broker figure (2025 reference) | ~1.4x |
+| First deep analysis | broker year-end BPS estimate KRW 109,313 | ~2.29x |
+| **This version** | **measured book, tier-1** | **~2.89x current / ~2.51x forward** |
+
+**Every successive correction has made the stock look less cheap.** Stated plainly
+so the pattern is visible rather than buried.
+
+### What did not change
+
+The EV/EBIT method independently reproduces the same requirement: at ~KRW 1,466T EV
+and 8–10x mid-cycle EV/EBIT, the price requires normalised operating profit of
+**KRW 147–183T** — matching the equity-based range of KRW 145–180T. The conclusion
+is robust to method.
+
+Cleanest formulation, using measured figures: at ~2.5x forward book the price
+requires **sustainable through-cycle ROE near 25%**, against a 2010s average of
+12–15%. H1 2026 annualised ROE was ~47.9%. **The price requires roughly half of the
+current return on equity to be permanent.**
+
+Quality-of-earnings check passes: inventory +35.6% while revenue annualises to
++83% — inventory days falling, consistent with genuine shortage rather than channel
+loading. Receivables +88.6% broadly track revenue.
+
+### Net effect
+
+Business quality is **confirmed stronger** than the prior version credited
+(category 4: 10 → 12). The valuation categories are **unchanged** at 6/15 and 5/10,
+because the favourable and unfavourable findings offset. Total 66 → 68, still
+*Starter / Watch*. Probability-weighted five-year return improves to ~+15% total
+(~2.8%/yr) — still below a Korean risk-free rate.
+
+**The position stays at zero not because of doubt about the business, which this
+filing largely settles, but because of expected return.**
 
 ---
 

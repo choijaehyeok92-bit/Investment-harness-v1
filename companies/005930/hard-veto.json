@@ -19,11 +19,12 @@
       "id": "external_capital_dependence",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.97,
       "evidence": [
         "FACT (tier-1 filing): distributable-profit headroom for treasury purchases of KRW 222,623,486,825,081, from separate-basis net assets of KRW 254,330,082,981,146.",
         "FACT: A KRW 110T+ investment programme and a KRW 90-110T shareholder return are being funded concurrently from internal cash generation.",
-        "FACT: H1 2026 operating profit of KRW 146.7T (Q1 KRW 57.2T, Q2 KRW 89.5T) against FY2025 of KRW 43.60T."
+        "FACT: H1 2026 operating profit of KRW 146.7T (Q1 KRW 57.2T, Q2 KRW 89.5T) against FY2025 of KRW 43.60T.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Net cash measured at KRW 167.54T (cash 92.92 + short-term financial instruments 97.04 less total interest-bearing debt 22.41). H1 operating cash flow of KRW 145.36T funded capex of KRW 31.23T and still left KRW 112.39T of free cash flow. The question is closed, not merely favourable."
       ],
       "resolution_needed": null
     },
@@ -31,12 +32,14 @@
       "id": "persistent_dilution",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.8,
+      "confidence": 0.92,
       "evidence": [
         "FACT: Share count is decreasing, not increasing. On 2026-04-02 Samsung cancelled 73,359,314 common and 13,603,461 preferred treasury shares (approx. KRW 14.58T); common shares outstanding fell from 5,919,637,922 to 5,846,278,608 (-1.24%).",
-        "COUNTER-FACT: The KRW 15T buyback approved 2026-08-21 is explicitly for employee share compensation (performance incentives, special performance bonus, performance-conditioned stock) and is NOT for cancellation. At the KRW 281,500 reference price that is 53,285,968 shares, about 0.91% of common shares - it offsets dilution rather than reducing count."
+        "COUNTER-FACT: The KRW 15T buyback approved 2026-08-21 is explicitly for employee share compensation (performance incentives, special performance bonus, performance-conditioned stock) and is NOT for cancellation. At the KRW 281,500 reference price that is 53,285,968 shares, about 0.91% of common shares - it offsets dilution rather than reducing count.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Share counts confirmed exactly as derived: common 5,846,278,608, preferred 802,371,203, treasury 82,086,705 common (1.23%) and zero preferred.",
+        "FACT (tier-1, 반기보고서 2026-06-30): CONFIRMS THE EARLIER READ: Note 2 to the treasury table states the 36.67M shares acquired in 2026 for employee compensation would legally require cancellation within one year, but the company will instead seek shareholder approval of a hold-and-dispose plan - they will be handed to employees, not cancelled. The employee tranche is definitively a dilution offset, not a shareholder return."
       ],
-      "resolution_needed": "Track annual SBC expense and share issuance under the new performance-conditioned stock programme against the cancellation run-rate. The veto flips to INVESTIGATE if employee-compensation buybacks persistently exceed cancellations."
+      "resolution_needed": "Track the annual employee-compensation acquisition run-rate against actual cancellations. In H1 2026 acquisitions were KRW 13.25T while the cancellation carried KRW 5.35T at cost; on that trajectory the employee programme is consuming more stock than is being retired, even though headline share count fell. Flip to INVESTIGATE if that persists through FY2027."
     },
     {
       "id": "low_quality_growth",
@@ -53,14 +56,16 @@
       "id": "incremental_roic_collapse",
       "status": "INVESTIGATE",
       "severity": "HIGH",
-      "confidence": 0.5,
+      "confidence": 0.55,
       "evidence": [
+        "FACT (tier-1, 반기보고서 2026-06-30): PARTIAL RESOLUTION IN SAMSUNG'S FAVOUR: Samsung is not leading the capex race. H1 2026 capex was KRW 31.23T, up only 16.4% YoY, while operating cash flow rose 328% to KRW 145.36T. The prior version of this assessment wrongly applied the industry's projected US$146B of 2027 capex to Samsung's own behaviour.",
+        "FACT (tier-1, 반기보고서 2026-06-30): BUT THE MECHANISM IS UNCHANGED, AND IS NOW QUANTIFIED: memory ASP rose approximately 220% in H1 2026 versus the FY2025 average, and DS operating margin went 13.6% (FY2024) to 19.1% (FY2025) to 68.3% (H1 2026). Industry supply sets the price Samsung receives, so Samsung's own restraint does not protect its margin. A 68.3% divisional operating margin is a rent, and rents are competed away.",
         "FACT: Current incremental ROIC is at an unrepeatable peak - a 52.2% company-wide operating margin including the handset, display and Harman businesses.",
         "ESTIMATE: Combined 2027 capex for Samsung, SK hynix and Micron is projected at US$146B (approx. KRW 209T), about 3.4x the US$43B of 2024. DRAM makers raised 2026 capex by an average of more than 40%, with meaningful shipment expansion arriving from H2 2027 onward.",
         "FACT: Samsung's own absorption is enormous - KRW 110T+ of facility and R&D investment planned, Pyeongtaek P5 fab1 at KRW 60T+ with fab2 similar (2029 target), and a US$37B Taylor commitment.",
         "INFERENCE: This is the exact mechanism by which memory incremental ROIC has collapsed in every prior cycle, and the capital is being committed now, at the peak. Sources genuinely disagree on the outcome - SK hynix's CEO publicly forecasts the industry's worst-ever shortage in 2027, while other analysis expects new-line startups to ease supply in 2028-2030."
       ],
-      "resolution_needed": "PRIMARY GATE. Model normalised mid-cycle operating profit explicitly against the announced 2027-2029 industry capacity additions, and establish whether HBM's contracted, customer-qualified, capacity-reserved structure genuinely dampens cycle amplitude or merely delays it. Until this is answered no position should be taken."
+      "resolution_needed": "PRIMARY GATE, UNCHANGED. Model normalised mid-cycle DS operating profit against announced 2027-2029 industry capacity additions, using the now-known baseline: DS OPM of 13.6% in FY2024 and 19.1% in FY2025 versus 68.3% in H1 2026. Samsung's capex discipline and its DX hedge improve the downside but do not answer the question."
     },
     {
       "id": "moat_shrinkage",
@@ -83,22 +88,25 @@
       "evidence": [
         "INFERENCE: At the 2026-09-03 close of KRW 250,000 the price does NOT require the current peak to persist - roughly 7x annualised H1 2026 earnings already discounts a large normalisation. On that test the veto does not trigger.",
         "COUNTER-INFERENCE: But at a 12-15x normalised multiple the price requires mid-cycle operating profit of roughly KRW 145-180T, or 2.5-3.1x the previous all-time peak of KRW 58.9T (2018), sustained. Equivalently it requires about 50-60% of the current run-rate to become the new normal.",
+        "FACT (tier-1, 반기보고서 2026-06-30): SECOND CORRECTION, same direction as the first: with controlling-interest equity measured at KRW 565.06T, P/B is approximately 2.89x on current book (BPS approximately KRW 86,051 ex-treasury) and roughly 2.5x on estimated year-end book - not the 2.29x previously stated. Offsetting this, net cash of KRW 167.54T lowers EV to approximately KRW 1,466T, and the EV/EBIT method independently reproduces the same required normalised operating profit range of KRW 147-183T.",
         "ESTIMATE: Forward P/B of approximately 2.3x (2026E BPS KRW 109,313) sits at or above the top of Samsung's historical 0.9x-2.1x range, on peak-inflated book.",
         "CORRECTION: The screening run of 2026-09-04 cited a stale broker figure of approximately 1.4x forward P/B. That figure appears to reference 2025 and is superseded."
       ],
-      "resolution_needed": "This is not an unrealistic-bull-case trigger, but it is a thin margin. Resolution requires the normalised-earnings model in the incremental_roic_collapse gate plus a verified preferred-share price and consolidated net cash position."
+      "resolution_needed": "Still not an unrealistic-bull-case trigger - roughly 7.0x annualised H1 EPS of KRW 35,804 is not a demanding multiple. It remains a thin margin. The remaining unverified input is the preferred-share price; consolidated net cash is now resolved."
     },
     {
       "id": "fatal_concentration",
       "status": "INVESTIGATE",
       "severity": "MEDIUM",
-      "confidence": 0.6,
+      "confidence": 0.9,
       "evidence": [
+        "FACT (tier-1, 반기보고서 2026-06-30): CONCENTRATION NOW MEASURED, NOT INFERRED: DS generated KRW 142.86T of the group's KRW 146.73T H1 operating profit - 97.4%. DX contributed KRW 2.15T (1.5%), SDC KRW 1.04T (0.7%) and Harman KRW 0.64T (0.4%). DS operating margin was 68.3%.",
         "INFERENCE: Profit concentration is extreme. With company-wide operating margin at 52.2%, essentially all incremental profit is semiconductor, within semiconductor it is memory, and within memory the swing factor is HBM4 allocation at a small number of accelerator customers. MX, VD and Harman are no longer profit-material at the margin.",
         "INFERENCE: The end-demand funding source is concentrated too - hyperscaler capex guided above $725B for 2026 is now exceeding those customers' operating cash flow, with Alphabet reporting its first negative-FCF quarter since 2004 and Meta's cash generation down 91% YoY.",
-        "FACT: Manufacturing footprint includes Chinese fabs subject to US export-control policy, and the Taylor, Texas build-out is a US$37B single-site commitment."
+        "FACT: Manufacturing footprint includes Chinese fabs subject to US export-control policy, and the Taylor, Texas build-out is a US$37B single-site commitment.",
+        "FACT (tier-1, 반기보고서 2026-06-30): MITIGANT, also newly measured: DX operating margin fell from 6.8% in FY2025 to 2.1% in H1 2026 because Samsung's own set business absorbs the memory rent. That is a genuine internal counter-cyclical hedge which SK hynix and Micron lack - on normalisation DX profit recovers as DS falls."
       ],
-      "resolution_needed": "Quantify HBM revenue by customer and the share of DS operating profit attributable to HBM. Separately assess Chinese fab exposure under current export-control policy."
+      "resolution_needed": "Quantify HBM revenue by customer within DS, and size the DX recovery that would offset a DS normalisation. The concentration is severe but demonstrably not fatal - the group retains KRW 167.54T of net cash and a downstream business that benefits from the reverse of the current condition."
     },
     {
       "id": "permanent_loss_probability",

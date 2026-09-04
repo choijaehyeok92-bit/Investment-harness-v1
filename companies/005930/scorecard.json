@@ -10,15 +10,17 @@
         "FACT: AI accelerator demand has structurally repriced memory. Samsung Q2 2026 revenue KRW 171.5T and operating profit KRW 89.5T (OPM 52.2%) versus FY2025 full-year revenue KRW 333.61T and operating profit KRW 43.60T - a single quarter now exceeds half of the prior full year's revenue.",
         "FACT: Samsung passed final HBM4 qualification at NVIDIA and AMD first among suppliers and began shipments in Q2 2026, securing a position on the NVIDIA Rubin platform. When customers raised the HBM4 speed requirement in Q4 2025, Samsung's part passed without redesign because it was designed at top speed.",
         "FACT: Samsung shipped the industry's first HBM4E samples; HBM4 is expected to exceed 60% of Samsung's own HBM revenue in H2 2026.",
-        "INFERENCE: Samsung is the only company holding leading-edge memory, logic foundry and advanced packaging under one roof. As the HBM base die becomes a logic product, that vertical integration is a structural position neither SK hynix, Micron nor TSMC can replicate."
+        "INFERENCE: Samsung is the only company holding leading-edge memory, logic foundry and advanced packaging under one roof. As the HBM base die becomes a logic product, that vertical integration is a structural position neither SK hynix, Micron nor TSMC can replicate.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Segment scale confirmed: H1 2026 revenue DS KRW 209.23T (68.5%), DX KRW 100.68T (33.0%), SDC KRW 14.18T, Harman KRW 8.39T. H1 2026 DS revenue alone is roughly 1.6x the entire FY2025 DS revenue of KRW 130.13T."
       ],
       "counter_evidence": [
         "FACT: Samsung lost HBM leadership entirely for roughly three product generations (HBM3/HBM3E); it is recovering a position it forfeited, not defining the category. SK hynix defined HBM.",
         "FACT: Foundry remains a distant second to TSMC, whose Q2 2026 revenue was US$40.20B with 7nm-and-below at 77% of wafer revenue and a full-year growth outlook above +40%.",
-        "INFERENCE: Memory's structural expansion is driven by hyperscaler capex now exceeding hyperscaler operating cash flow, so the durability of the driver is not controlled by Samsung."
+        "INFERENCE: Memory's structural expansion is driven by hyperscaler capex now exceeding hyperscaler operating cash flow, so the durability of the driver is not controlled by Samsung.",
+        "FACT (tier-1, 반기보고서 2026-06-30): DECISIVE CYCLE EVIDENCE: memory average selling price rose approximately 220% in H1 2026 versus the FY2025 average. By contrast TV ASP fell 4%, smartphone ASP rose 7%, OLED panel rose 1% and digital cockpit fell 3%. The earnings surge is overwhelmingly memory PRICE, not volume, mix or competitive gain. This converts the cycle-peak argument from inference to fact."
       ],
       "missing_data": [
-        "Segment-level DS operating profit split between DRAM, NAND, HBM and foundry",
+        "Note 27 (segment reporting) and Note 29 (subsequent events) were beyond the retrieved text extract of the filing",
         "Samsung's contracted HBM4 volume allocation at NVIDIA for 2027"
       ]
     },
@@ -49,12 +51,14 @@
         "FACT: HBM market share rose from 21% in Q1 2026 to 33% in Q2 2026 (Counterpoint). Direction of share, which policy/agents deep-analyst prioritises over level, is clearly positive.",
         "FACT: SK hynix moved the opposite way - its HBM share fell from 64% a year earlier to 50% - and its HBM4 mass production slipped to Q3 2026 on interface sync issues, with capacity redirected to DDR5/LPDDR5 and full-year HBM4 shipments revised down.",
         "FACT: Samsung foundry utilisation exceeded 80% in Q1 2026, the highest in about a year, and it won Tesla AI5 alongside TSMC; the foundry breakeven target was pulled forward from 2027 to 2026.",
-        "ESTIMATE: Samsung HBM4 yield reported around 80% (TrendForce, Aug 2026)."
+        "ESTIMATE: Samsung HBM4 yield reported around 80% (TrendForce, Aug 2026).",
+        "FACT (tier-1, 반기보고서 2026-06-30): STRUCTURAL POINT NOT PREVIOUSLY CREDITED: Samsung carries an internal counter-cyclical hedge that pure-play memory competitors do not. DX operating margin collapsed from 6.8% in FY2025 to 2.1% in H1 2026 (OP KRW 2.15T on KRW 100.68T revenue) because Samsung's own set business is paying the memory rent. On memory normalisation, DX profit recovers and partially offsets the DS decline. SK hynix and Micron have no such offset."
       ],
       "counter_evidence": [
         "INFERENCE: A three-player oligopoly with a state-backed Chinese entrant (CXMT) is a structurally contested market; memory moats are process-node leads, which are rented, not owned.",
         "FACT: Sources conflict on the exact Q2 2026 HBM share. Counterpoint reports SK hynix 50% / Samsung 33%; a separate report cites Samsung 38% / SK hynix 25%, which appears to conflate a year-end target with an actual. The direction is consistent across sources; the level is not.",
-        "INFERENCE: One or two quarters of share gain during a competitor's execution stumble is not yet proof of a structurally wider moat."
+        "INFERENCE: One or two quarters of share gain during a competitor's execution stumble is not yet proof of a structurally wider moat.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Samsung's HBM share gain occurred in a half-year in which memory ASP rose 220% and DS operating margin reached 68.3% - an environment in which everything produced was sold. Share gained when all capacity clears is weaker evidence of competitive advantage than share gained in a balanced market."
       ],
       "missing_data": [
         "Whether Samsung's HBM4 share gain is a durable technology lead or a temporary allocation shift during SK hynix's delay",
@@ -62,23 +66,27 @@
       ]
     },
     "incremental_roic_and_fcf_per_share": {
-      "score": 10,
+      "score": 12,
       "max_score": 15,
-      "confidence": 0.55,
+      "confidence": 0.7,
       "evidence": [
-        "FACT: Share count is falling. On 2026-04-02 Samsung cancelled 73,359,314 common and 13,603,461 preferred treasury shares (approx. KRW 14.58T), reducing common shares outstanding from 5,919,637,922 to 5,846,278,608 (-1.24%).",
-        "FACT: On 2026-08-21 the board approved a 2026 shareholder return of approximately KRW 90-110T, more than five times the previous record (KRW 20.3T in 2020), including roughly KRW 30T of cash dividend in Q3. Against a common-share market capitalisation of about KRW 1,462T that is a 6-7% one-year shareholder yield.",
-        "INFERENCE: Memory is the canonical scale-cost business, and Samsung's memory-plus-foundry-plus-packaging integration lets one R&D base open several economic opportunities (HBM4, HBM4E, base-die foundry, 2nm)."
+        "FACT (tier-1, 반기보고서 2026-06-30): H1 2026 operating cash flow KRW 145.36T versus KRW 33.94T in H1 2025 (+328%), while capex (유형자산의 취득) was only KRW 31.23T versus KRW 26.83T (+16.4%). Free cash flow after tangible and intangible capex is KRW 112.39T, against KRW 5.07T a year earlier.",
+        "MATERIAL CORRECTION: the prior version of this analysis scored the category down on 'enormous capital absorption' and applied the industry's projected US$146B of 2027 capex to Samsung. The filing shows the opposite behaviour - Samsung is harvesting the cycle, not racing it. Operating cash flow grew 20x faster than capex.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Share count confirmed exactly: common 5,846,278,608, preferred 802,371,203, total 6,648,649,811; treasury 82,086,705 common (1.23%) and zero preferred. This matches the derivation made from the 2026-08-21 filing before this document was available.",
+        "FACT (tier-1, 반기보고서 2026-06-30): H1 2026 treasury purchases of KRW 13,248,625M reconcile exactly to the 2026-08-21 filing's stated 'KRW 13,248,624,510,410 acquired since the prior fiscal year end' - an independent tier-1 cross-check.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Basic EPS KRW 17,902 and diluted EPS KRW 17,733 for H1 2026, versus KRW 6,605 for FY2025 and KRW 4,950 for FY2024. FCF per share of roughly KRW 17,116 in the half year is a 13.7% annualised FCF yield at KRW 250,000.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Inventory discipline: inventory rose 35.6% (KRW 52.64T to 71.39T) while H1 revenue annualises to roughly +83% versus FY2025. Inventory days are falling, which is consistent with genuine shortage rather than channel loading."
       ],
       "counter_evidence": [
-        "FACT: Capital absorption is enormous. The value-up plan contemplates over KRW 110T of facility and R&D investment; Pyeongtaek P5 fab1 is expected to absorb KRW 60T+ with fab2 similar (2029 target); the Taylor site is a US$37B (approx. KRW 56T) commitment.",
-        "ESTIMATE: Combined 2027 capex for Samsung, SK hynix and Micron is projected at US$146B (approx. KRW 209T), roughly 3.4x the US$43B of 2024. That is the classic mechanism by which memory incremental ROIC collapses, and it is being committed now.",
-        "FACT: The separate KRW 15T buyback approved 2026-08-21 is for employee share compensation (performance incentives and performance-conditioned stock), not for cancellation. It offsets dilution rather than reducing share count, and it converts what was historically cash bonus into equity - a real change that must be tracked."
+        "The forward commitments are still ahead, not behind: over KRW 110T of planned facility and R&D investment, Pyeongtaek P5 fab1 at KRW 60T+ with fab2 similar (2029 target), and a US$37B Taylor commitment. H1 restraint does not prove the plan will not be spent.",
+        "ESTIMATE: combined 2027 capex for Samsung, SK hynix and Micron is projected at US$146B, roughly 3.4x 2024. Samsung's own restraint does not protect it - industry supply sets the price it receives, so the mechanism operates on Samsung regardless of Samsung's own discipline.",
+        "FACT (tier-1, 반기보고서 2026-06-30): The employee-compensation treasury stock is confirmed NOT accretive. Note 2 to the treasury table states that the 36.67M shares acquired in 2026 for employee compensation would legally require cancellation within one year, but the company will instead seek shareholder approval for a hold-and-dispose plan - i.e. they will be handed to employees, not cancelled.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Treasury cancellation is recorded at carrying cost, not market value: the statement of changes in equity shows KRW 5,346,072M for the 2026 cancellation versus the KRW 14.58T market value reported in the press. The economic return is the market value; the book entry is smaller."
       ],
       "missing_data": [
-        "Samsung's own 2026 and 2027 capex guidance figures",
-        "Whether the KRW 90-110T return will be delivered as dividend or as buyback-and-cancel - decided at the January 2027 board",
-        "Annual SBC expense under the new performance-conditioned stock programme"
+        "Samsung's own 2026 and 2027 capex guidance - H1 actuals are known but the full-year plan is not disclosed here",
+        "Whether the KRW 90-110T return will be dividend or buyback-and-cancel - decided at the January 2027 board",
+        "Annual SBC expense under the performance-conditioned stock programme"
       ]
     },
     "management_and_capital_allocation": {
@@ -88,7 +96,8 @@
       "evidence": [
         "FACT: Capital returns are being executed, not merely announced - KRW 14.58T of shares were actually cancelled on 2026-04-02, and the 2026-08-21 filing is the confirmed version of a June 2026 press report that the company had previously answered only as unconfirmed.",
         "FACT: Two long-standing operational failures are being corrected under current management: HBM competitiveness (first to pass HBM4 qualification) and foundry (utilisation above 80%, Tesla AI5, breakeven pulled forward a year).",
-        "FACT: Legal overhang resolved. On 2025-07-17 the Supreme Court confirmed the acquittal of Chairman Lee Jae-yong on all 19 charges relating to the Samsung C&T/Cheil Industries merger and Samsung Biologics accounting, ending roughly nine years of legal risk."
+        "FACT: Legal overhang resolved. On 2025-07-17 the Supreme Court confirmed the acquittal of Chairman Lee Jae-yong on all 19 charges relating to the Samsung C&T/Cheil Industries merger and Samsung Biologics accounting, ending roughly nine years of legal risk.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Disclosure quality is high and internally consistent: H1 treasury purchases, share counts and distributable-profit figures reconcile exactly across the interim report and the 2026-08-21 主要사항보고서. No reconciliation gaps were found."
       ],
       "counter_evidence": [
         "INFERENCE: The three-generation HBM miss was itself a capital-allocation and technology-roadmap failure by the same organisation; the recovery does not erase the base rate.",
@@ -103,11 +112,12 @@
     "financial_survivability": {
       "score": 9,
       "max_score": 10,
-      "confidence": 0.85,
+      "confidence": 0.95,
       "evidence": [
         "FACT (tier-1 filing): Distributable-profit headroom for treasury purchases is KRW 222,623,486,825,081, computed from separate-basis net assets of KRW 254,330,082,981,146 at the prior fiscal year end.",
         "FACT: The KRW 110T+ investment programme and the KRW 90-110T shareholder return are being funded from operating cash flow, not external financing.",
-        "FACT: Gross margin and operating leverage are at record levels (Q2 2026 OPM 52.2%), and the group retains a diversified non-memory revenue base (MX, VD, Harman) that cushions a memory trough."
+        "FACT: Gross margin and operating leverage are at record levels (Q2 2026 OPM 52.2%), and the group retains a diversified non-memory revenue base (MX, VD, Harman) that cushions a memory trough.",
+        "FACT (tier-1, 반기보고서 2026-06-30): Net cash now measured rather than assumed: cash and equivalents KRW 92.92T plus short-term financial instruments KRW 97.04T, less total interest-bearing debt of KRW 22.41T (short-term borrowings 13.71 + current portion of long-term 1.21 + bonds 0.01 + long-term borrowings 7.49) = NET CASH OF KRW 167.54T. Total equity KRW 579.31T of which controlling interest KRW 565.06T; total assets KRW 759.48T against total liabilities KRW 180.17T."
       ],
       "counter_evidence": [
         "INFERENCE: Survivability is not the risk here; the risk is that a fortress balance sheet is deployed into a capex race at the top of the cycle.",
@@ -121,13 +131,16 @@
     "expectation_gap_and_valuation": {
       "score": 6,
       "max_score": 15,
-      "confidence": 0.5,
+      "confidence": 0.6,
       "evidence": [
         "FACT: At the 2026-09-03 close of KRW 250,000, common-share market capitalisation is approximately KRW 1,462T (5,846,278,608 shares). Including preferred at an estimated KRW 215,000 the total equity value is approximately KRW 1,634T.",
         "INFERENCE: Against an H1 2026 annualised operating profit run-rate of about KRW 293T, the price is roughly 7x peak earnings. The market is explicitly NOT capitalising the current peak - it already discounts a large normalisation.",
-        "INFERENCE: The required normalisation is nonetheless demanding in absolute terms. At a 12-15x normalised P/E the price requires mid-cycle operating profit of roughly KRW 145-180T, which is 2.5-3.1x the previous all-time peak of KRW 58.9T (2018)."
+        "INFERENCE: The required normalisation is nonetheless demanding in absolute terms. At a 12-15x normalised P/E the price requires mid-cycle operating profit of roughly KRW 145-180T, which is 2.5-3.1x the previous all-time peak of KRW 58.9T (2018).",
+        "FACT (tier-1, 반기보고서 2026-06-30): Offsetting positive: enterprise value is now computable and lower than the equity value implies. Net cash of KRW 167.54T against total equity value of approximately KRW 1,634T gives EV of approximately KRW 1,466T. On an EV/EBIT basis at 8-10x mid-cycle, the price requires normalised operating profit of roughly KRW 147-183T - the same range the equity-based method produced, so the conclusion is robust to method.",
+        "FACT (tier-1, 반기보고서 2026-06-30): P/E cross-check confirmed: H1 basic EPS KRW 17,902 annualises to KRW 35,804, giving roughly 7.0x at KRW 250,000 - the market plainly is not capitalising peak earnings."
       ],
       "counter_evidence": [
+        "SECOND CORRECTION, same direction: with controlling-interest equity now measured at KRW 565.06T (2026-06-30), price-to-book at KRW 250,000 is approximately 2.89x on current book and roughly 2.5x on estimated year-end 2026 book - NOT the 2.29x stated in the prior version, which relied on a broker year-end BPS estimate of KRW 109,313. Actual BPS at 2026-06-30 is approximately KRW 86,051 ex-treasury. Against a historical range of roughly 0.9x-2.1x, the multiple is further above the band than previously stated.",
         "ESTIMATE: Forward price-to-book is approximately 2.3x against a 2026E BPS of KRW 109,313, versus a historical Samsung range of roughly 0.9x to 2.1x. That is at or above the top of the historical range, computed on a book value that peak earnings have themselves inflated.",
         "CORRECTION: The 2026-09-04 screening run cited a forward P/B of about 1.4x from a broker source and used it to argue the price did not require the peak to persist. That figure is stale - it appears to reference 2025 - and is superseded here. The corrected 2.3x materially weakens that argument.",
         "INFERENCE: Probability-weighted five-year return is approximately +11% in total (roughly +2%/yr) under the subjective weights in valuation.json, which is unattractive against a Korean risk-free rate."
@@ -154,6 +167,6 @@
       ]
     }
   },
-  "total_score": 66,
+  "total_score": 68,
   "classification": "Starter / Watch"
 }

@@ -175,3 +175,93 @@ is the correct response to its own evidence.
 Q4 2026 share data, decomposing the 21%→33% move into Samsung advance versus SK hynix
 retreat. If the split is mostly the latter, the total score falls below the Reject
 boundary and the label should change accordingly.
+
+---
+
+# Red Team addendum — 2026 반기보고서 (tier-1), 2026-09-04
+
+The interim report resolved two of my attacks and strengthened a third. Verdict is
+unchanged at **PASS**; confidence rises **0.65 → 0.70** because far more of the
+disagreement is now factual rather than interpretive.
+
+## Attack #5 (incremental ROIC already deteriorating) — I was partly wrong
+
+I wrote that this was "not testable from outside." It was testable, and the answer
+partly favours the analyst. H1 operating cash flow rose **328%** while capex rose
+**16.4%**; free cash flow was **KRW 112.39T** against KRW 5.07T a year earlier.
+Samsung is not leading the capex race. Both the analyst and I had applied an
+industry projection to Samsung's own conduct, and the filing contradicts it.
+
+I still hold the underlying point, on different ground: **Samsung's restraint does
+not protect Samsung.** Industry supply sets the price it receives. Restraint
+protects the balance sheet, not the margin.
+
+## Attack #1 (structural growth is cyclical) — now proven, not argued
+
+**Memory ASP +220%** in H1 2026 versus the FY2025 average, against smartphone +7%,
+OLED +1%, TV −4%. And DS operating margin **13.6% → 19.1% → 68.3%**.
+
+I no longer need to argue this. A 68.3% divisional operating margin one year after
+19.1% is a rent by definition. The analyst has conceded the point and recorded it as
+FACT, which is correct — but note that categories 1 and 3 (11/15 and 11/15) were
+scored substantially on evidence generated *inside* this rent. Share gained when
+every wafer clears is weaker evidence than share gained in a balanced market, and
+the scorecard still does not fully discount for that.
+
+## Attack #6 (FCF/share overstated by SBC) — confirmed, and worse than stated
+
+Note 2 to the treasury table confirms the 36.67M shares bought in 2026 for employee
+compensation **will not be cancelled** — the company will seek shareholder approval
+of a hold-and-dispose plan instead of the Commercial Act's one-year cancellation
+requirement. The analyst read this correctly from the August filing.
+
+What the analyst did not emphasise: in H1, treasury **purchases were KRW 13.25T**
+while the cancellation carried only **KRW 5.35T** at cost. Headline share count fell,
+but the employee programme is consuming stock faster than it is being retired.
+Cancellations are also booked at carrying cost, so the KRW 14.58T press figure
+overstates the accounting effect by roughly 2.7x.
+
+## New attack #11 — the analyst's own error rate on valuation
+
+Three successive P/B estimates: **~1.4x → ~2.29x → ~2.89x**, every one revised in
+the same direction, each time because a broker figure was used in place of measured
+book. The analysis is honest about each correction, which is to its credit. But a
+consistent one-directional error is a bias, not noise, and the remaining unverified
+input — the preferred-share price at an ESTIMATE of KRW 215,000 — sits in the same
+category. If preferred trades nearer the common than assumed, total equity value and
+P/B are both understated *again*.
+
+## What genuinely improved the bear case's floor
+
+The DX hedge is real and I had not weighted it. DX margin **6.8% → 2.1%** means
+Samsung's set business is paying the rent its own memory division collects; on
+normalisation that reverses. Combined with **KRW 167.54T of confirmed net cash**
+(~10% of market capitalisation), the bear outcome is a −45% drawdown against a
+solvent, cash-generative, self-funding business. **This is not a company that can
+hurt you permanently. It is a company that can disappoint you for five years.**
+
+## Falsifier list — two additions
+
+| # | Falsifier | Observable by |
+|---|---|---|
+| F7 | Memory ASP continues to spike rather than stabilise | Quarterly ASP disclosure in the next 분기보고서 |
+| F8 | H2 2026 / 2027 capex steps up toward the announced KRW 110T+ programme while ASP rolls over | Cash flow statement vs ASP disclosure |
+
+F7 is counter-intuitive and worth stating plainly: **a further ASP spike is bad
+news, not good.** It raises the rent being capitalised and makes the eventual
+reversion deeper.
+
+## Verdict: **PASS** (unchanged), confidence 0.70
+
+The thesis survived a tier-1 document that could have broken it. It corrected its
+own error in the analyst's favour (capex), recorded the finding against itself as
+FACT (ASP +220%, DS 97.4%), and issued a second valuation correction in the
+unfavourable direction rather than defending the first. The conclusion — WATCH,
+band NONE — remains the correct response to its own evidence.
+
+**Standing revision requirement, unchanged and now more pointed:** re-score
+`moat_trajectory` after Q4 2026. The 21%→33% HBM share move must be decomposed into
+Samsung advance versus SK hynix retreat, and it must now additionally be discounted
+for having occurred inside a 220% ASP environment in which all capacity cleared. If
+both discounts apply, moat trajectory falls toward 7/15 and the total drops below
+the Reject boundary.

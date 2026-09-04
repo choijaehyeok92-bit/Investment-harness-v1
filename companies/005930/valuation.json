@@ -11,7 +11,7 @@
     "market_cap_preferred_krw_trn_estimate": 172.5,
     "market_cap_total_krw_trn_estimate": 1634.1,
     "preferred_price_assumption": "ESTIMATE KRW 215,000 (approx. 14% discount to common). NOT verified - this is the single largest unverified input and moves total equity value by roughly +/- KRW 20T per KRW 25,000 of preferred price.",
-    "net_cash_krw_trn": "unknown - not established in this run. Historically a large net cash position; being consumed concurrently by KRW 110T+ capex and KRW 90-110T of shareholder return.",
+    "net_cash_krw_trn": 167.54,
     "earnings_anchors": {
       "fy2025_actual_operating_profit_krw_trn": 43.6,
       "fy2025_actual_revenue_krw_trn": 333.61,
@@ -21,7 +21,16 @@
       "q2_2026_operating_margin_pct": 52.2,
       "h1_2026_annualised_operating_profit_krw_trn": 293.4,
       "prior_all_time_peak_operating_profit_krw_trn": 58.9,
-      "prior_peak_year": 2018
+      "prior_peak_year": 2018,
+      "h1_2026_revenue_krw_trn": 305.37,
+      "h1_2026_operating_profit_krw_trn": 146.73,
+      "h1_2026_net_income_controlling_krw_trn": 118.37,
+      "h1_2026_basic_eps_krw": 17902,
+      "h1_2026_diluted_eps_krw": 17733,
+      "fy2025_basic_eps_krw": 6605,
+      "fy2024_basic_eps_krw": 4950,
+      "annualised_pe_at_250000": 6.98,
+      "h1_2026_roe_annualised_pct": 47.9
     },
     "reverse_engineered_requirement": {
       "method": "Solve for the normalised mid-cycle operating profit that justifies KRW 1,634T of equity value at a range of normalised P/E multiples, assuming net income at approximately 75% of operating profit.",
@@ -30,20 +39,94 @@
       "at_15x_normalised_pe": "requires normalised operating profit of approximately KRW 145T",
       "interpretation_1": "The price does NOT require the current peak to persist. At roughly 7x annualised H1 2026 earnings the market already discounts a severe normalisation - this is why the price_requires_unrealistic_bull_case veto does not trigger.",
       "interpretation_2": "But it DOES require mid-cycle operating profit of roughly KRW 145-180T, which is 2.5-3.1x the prior all-time peak of KRW 58.9T, sustained. Equivalently, roughly 50-60% of the current run-rate must become the new normal.",
-      "interpretation_3": "In one sentence: the price requires the AI-memory regime change to be substantially real and permanent. It does not require it to be perfect."
+      "interpretation_3": "In one sentence: the price requires the AI-memory regime change to be substantially real and permanent. It does not require it to be perfect.",
+      "ev_based_cross_check": "At EV of approximately KRW 1,466T and a mid-cycle EV/EBIT of 8-10x, the price requires normalised operating profit of roughly KRW 147-183T. This independently reproduces the equity-based range of KRW 145-180T, so the conclusion is robust to method.",
+      "roe_formulation": "Cleanest statement of the question: at roughly 2.5x forward book, the price requires Samsung's sustainable through-cycle ROE to settle near 25%, against a 2010s average of roughly 12-15%. H1 2026 annualised ROE was about 47.9%. The price therefore requires roughly half of the current return on equity to be permanent."
     },
     "price_to_book_cross_check": {
       "bps_2026e_krw": 109313,
       "implied_forward_pb": 2.29,
       "historical_pb_range": "approximately 0.9x at troughs to 2.1x at the 2017-2018 peak",
       "note": "2.29x sits at or above the top of the historical range, and is computed on a book value that peak earnings have themselves inflated - book is not a stable anchor at a cycle peak.",
-      "correction": "The 2026-09-04 screening run cited approximately 1.4x forward P/B from a broker source and used it as a primary SCREEN_IN argument. That figure appears to reference 2025 and is stale. This correction materially weakens the original screening argument."
+      "correction": "The 2026-09-04 screening run cited approximately 1.4x forward P/B from a broker source and used it as a primary SCREEN_IN argument. That figure appears to reference 2025 and is stale. This correction materially weakens the original screening argument.",
+      "actual_bps_2026_06_30_ex_treasury_krw": 86051,
+      "actual_bps_2026_06_30_issued_krw": 84989,
+      "implied_pb_on_current_book": 2.89,
+      "implied_forward_pb_year_end_2026e": 2.51,
+      "second_correction": "The prior version stated approximately 2.29x using a broker year-end BPS estimate of KRW 109,313. Measured controlling-interest equity of KRW 565.06T gives 2.89x on current book. Both corrections to date have moved in the same direction - the stock is less cheap than each prior estimate implied."
     },
     "shareholder_yield": {
       "fy2026_announced_return_krw_trn": "90-110",
       "yield_on_total_equity_value_pct": "5.5-6.7",
       "note": "FACT: board approved 2026-08-21, roughly 5x the prior record of KRW 20.3T in 2020. Approximately KRW 30T of cash dividend in Q3 2026; the remainder's split between dividend and buyback-and-cancel is decided at the January 2027 board. A separate KRW 15T buyback is for employee share compensation and is NOT accretive.",
       "unresolved_conflict": "Press reporting conflicts on the multi-year figure - a June 2026 report described KRW 90T of buyback split over three years, while three-year totals are separately reported at KRW 120-140T against a 2026-alone figure of KRW 90-110T. Recorded as unresolved rather than reconciled by assumption."
+    },
+    "source_upgrade": "Balance sheet, income statement, cash flow statement and segment data are now FACT (tier-1) from 삼성전자 2026년 반기보고서 (2026-06-30). Two inputs previously marked unknown are now resolved: consolidated net cash and controlling-interest equity. One remains unverified: the preferred-share price.",
+    "net_cash_derivation": "FACT (tier-1): cash and equivalents KRW 92.92T + short-term financial instruments KRW 97.04T less total interest-bearing debt KRW 22.41T (short-term borrowings 13.71 + current portion of long-term debt 1.21 + bonds 0.01 + long-term borrowings 7.49). Excludes KRW 39.35T of other non-current financial assets, which would raise the figure to roughly KRW 207T on a wider definition.",
+    "enterprise_value_krw_trn": 1466.6,
+    "balance_sheet_2026_06_30": {
+      "total_assets_krw_trn": 759.48,
+      "total_liabilities_krw_trn": 180.17,
+      "controlling_interest_equity_krw_trn": 565.06,
+      "total_equity_krw_trn": 579.31,
+      "inventory_krw_trn": 71.39,
+      "receivables_krw_trn": 96.41,
+      "ppe_krw_trn": 224.37,
+      "note": "Controlling-interest equity grew from KRW 424.31T at 2025-12-31 (+33% in six months)."
+    },
+    "cash_flow_h1_2026": {
+      "operating_cash_flow_krw_trn": 145.36,
+      "operating_cash_flow_h1_2025_krw_trn": 33.94,
+      "tangible_capex_krw_trn": 31.23,
+      "tangible_capex_h1_2025_krw_trn": 26.83,
+      "intangible_capex_krw_trn": 1.73,
+      "free_cash_flow_krw_trn": 112.39,
+      "free_cash_flow_h1_2025_krw_trn": 5.07,
+      "fcf_per_share_krw": 17116,
+      "annualised_fcf_yield_at_250000_pct": 13.7,
+      "treasury_purchases_krw_trn": 13.25,
+      "dividends_paid_krw_trn": 6.22,
+      "material_finding": "Operating cash flow grew 328% YoY while capex grew 16.4%. Samsung is harvesting the cycle, not racing it. The prior version of this analysis applied the industry's projected US$146B of 2027 capex to Samsung's own conduct; the filing contradicts that. This is the single largest favourable correction from the interim report."
+    },
+    "segment_h1_2026": {
+      "DS": {
+        "revenue_krw_trn": 209.23,
+        "operating_profit_krw_trn": 142.86,
+        "operating_margin_pct": 68.3,
+        "share_of_group_op_pct": 97.4
+      },
+      "DX": {
+        "revenue_krw_trn": 100.68,
+        "operating_profit_krw_trn": 2.15,
+        "operating_margin_pct": 2.1,
+        "share_of_group_op_pct": 1.5
+      },
+      "SDC": {
+        "revenue_krw_trn": 14.18,
+        "operating_profit_krw_trn": 1.04
+      },
+      "Harman": {
+        "revenue_krw_trn": 8.39,
+        "operating_profit_krw_trn": 0.64
+      },
+      "ds_operating_margin_history_pct": {
+        "FY2024": 13.6,
+        "FY2025": 19.1,
+        "H1_2026": 68.3
+      },
+      "dx_operating_margin_history_pct": {
+        "FY2025": 6.8,
+        "H1_2026": 2.1
+      },
+      "internal_hedge": "DX margin collapsed because Samsung's own set business pays the memory rent. On normalisation DX profit recovers as DS falls - a counter-cyclical offset that SK hynix and Micron do not have. This raises the bear-case floor."
+    },
+    "asp_change_h1_2026_vs_fy2025_avg_pct": {
+      "memory": 220,
+      "smartphone": 7,
+      "oled_panel": 1,
+      "tv": -4,
+      "digital_cockpit": -3,
+      "decisive_finding": "FACT (tier-1). Memory ASP rose approximately 220%. The earnings surge is overwhelmingly PRICE, not volume, mix or competitive gain. This converts the cycle-peak argument from inference to established fact, and is the single largest unfavourable finding from the interim report."
     }
   },
   "scenarios": {
@@ -52,9 +135,10 @@
       "normalised_operating_profit_krw_trn": "70-90",
       "note_on_level": "Still well above the KRW 58.9T 2018 peak - this bear does not assume the AI demand shift was fake, only that it does not confer durable pricing power.",
       "terminal_multiple": "approximately 1.0x P/B on a book that stops compounding (ROE approximately 7-8%)",
-      "equity_value_krw_trn": "750-850",
-      "five_year_total_return_pct": "-55 to -48",
-      "capital_permanence": "Not a permanent loss. The company remains profitable, self-funding and solvent throughout."
+      "equity_value_krw_trn": "850-950",
+      "five_year_total_return_pct": "-48 to -42",
+      "capital_permanence": "Not a permanent loss. The company remains profitable, self-funding and solvent throughout.",
+      "revision_note": "Bear floor RAISED versus the prior version. Book is now measured at KRW 565.06T rather than estimated, compounds from a higher confirmed base, and the DX hedge (margin 6.8% to 2.1%) recovers as DS falls. Net cash of KRW 167.54T is roughly 10% of market capitalisation and is now confirmed rather than assumed."
     },
     "base": {
       "narrative": "AI memory is a partial regime change. Cycle amplitude dampens but does not disappear because HBM is contracted and capacity-reserved while conventional DRAM and NAND are not. Samsung holds roughly 33-38% HBM share. Foundry reaches sustained breakeven to small profit on Tesla, and the value-up capital return continues at a reduced rate after 2026.",
@@ -62,8 +146,9 @@
       "terminal_multiple": "approximately 1.3x P/B, or 12x normalised net income of KRW 100-120T",
       "equity_value_krw_trn": "1,350-1,450",
       "cumulative_shareholder_return_krw_trn": "approximately 400 over five years",
-      "five_year_total_return_pct": "+10 to +25",
-      "note": "Does not require perfect execution - it requires Samsung to hold the position it has already won, and the memory market to settle above but not far above the level the price already embeds."
+      "five_year_total_return_pct": "+15 to +30",
+      "note": "Does not require perfect execution - it requires Samsung to hold the position it has already won, and the memory market to settle above but not far above the level the price already embeds.",
+      "revision_note": "Modestly improved on confirmed capex discipline and a measured starting book value."
     },
     "bull": {
       "narrative": "AI memory is a durable regime change: a three-player, contracted, capacity-reserved industry with structurally higher returns. Samsung converts its unique memory-plus-foundry-plus-packaging integration into HBM5/HBM6 leadership as the base die becomes a logic product, and foundry reaches real profitability with Tesla, and additional large-customer volume at Taylor. Normalised returns re-rate the whole company.",
@@ -77,19 +162,20 @@
   "permanent_loss_case": {
     "definition": "Permanent impairment of more than 70% of capital, not a price decline.",
     "required_conditions": "Requires a simultaneous combination: geopolitical disruption to the Korean or Chinese fab base, OR CXMT achieving leading-edge DRAM parity under state subsidy while Samsung's process-node lead evaporates, OR a decisive HBM5 technology miss combined with large foundry write-offs.",
-    "why_low": "FACT (tier-1 filing): KRW 222.6T of distributable-profit headroom and KRW 254.3T of separate-basis net assets. Net cash position, diversified revenue base, and no external financing dependence. In the modelled bear case the company remains solidly profitable.",
-    "subjective_probability_pct": "3-5"
+    "why_low": "FACT (tier-1): net cash KRW 167.54T, controlling-interest equity KRW 565.06T, total assets KRW 759.48T against liabilities KRW 180.17T, and H1 free cash flow of KRW 112.39T. Solvency is not a question at any point in the modelled bear case.",
+    "subjective_probability_pct": "2-4"
   },
   "subjective_probabilities": {
     "bear": 0.3,
     "base": 0.5,
     "bull": 0.2,
     "labelled": "EXPLICITLY SUBJECTIVE - these are the analyst's judgement, not derived from data.",
-    "probability_weighted_five_year_total_return_pct": 11.4,
-    "annualised_pct": 2.2,
-    "sensitivity_warning": "This is the single most important caveat in the analysis. The result is highly sensitive to these weights. At bear 0.20 / base 0.50 / bull 0.30 the weighted five-year return rises to approximately +30% and expectation_gap_score would be 8-9, lifting the total scorecard to 68-69. The verdict of WATCH rather than STARTER rests on a subjective probability judgement, and a reasonable analyst could weight it differently."
+    "probability_weighted_five_year_total_return_pct": 14.9,
+    "annualised_pct": 2.8,
+    "sensitivity_warning": "This is the single most important caveat in the analysis. The result is highly sensitive to these weights. At bear 0.20 / base 0.50 / bull 0.30 the weighted five-year return rises to approximately +30% and expectation_gap_score would be 8-9, lifting the total scorecard to 68-69. The verdict of WATCH rather than STARTER rests on a subjective probability judgement, and a reasonable analyst could weight it differently.",
+    "revision_note": "Improved from +11.4% total on the higher bear floor. Still below a Korean risk-free rate, which is why the verdict does not change."
   },
   "expectation_gap_score": 6,
   "asymmetry_score": 5,
-  "notes": "Step order followed per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price was used as a starting point. Two inputs are unverified and material: the preferred-share price (ESTIMATE KRW 215,000) and the consolidated net cash position (unknown). Both should be closed before this valuation is relied upon. The asymmetry score is capped structurally rather than by evidence: at approximately KRW 1,634T of equity value a 10x outcome is arithmetically implausible, so under policy/investment-philosophy.md section 4 this is a low-loss duration-and-yield proposition, not a power-law candidate."
+  "notes": "Updated 2026-09-04 with 삼성전자 2026년 반기보고서 (tier-1). Two previously unknown inputs are now resolved: consolidated net cash (KRW 167.54T) and controlling-interest equity (KRW 565.06T). One remains unverified: the preferred-share price (ESTIMATE KRW 215,000), which moves total equity value by roughly +/- KRW 20T per KRW 25,000. The filing cut both ways and the two findings are of comparable weight. FAVOURABLE: capex discipline (operating cash flow +328% against capex +16.4%), free cash flow of KRW 112.39T in the half year, confirmed net cash, and a DX internal hedge that raises the bear floor. UNFAVOURABLE: memory ASP +220% proves the surge is price rather than competitive gain; DS is 97.4% of group operating profit at a 68.3% margin against 19.1% in FY2025; and P/B is 2.89x on measured book rather than the 2.29x previously stated. Net effect on the two valuation categories is neutral - expectation_gap stays at 6/15 and asymmetry at 5/10 - while business-quality category 4 rises from 10 to 12, taking the total from 66 to 68. Note 27 (segment), Note 29 (subsequent events) and Section 6 (dividends) were beyond the retrieved text extract and were not read."
 }
