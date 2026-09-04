@@ -1,0 +1,158 @@
+{
+  "ticker": "GOOGL",
+  "as_of": "2026-09-03",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "2026 Q2 revenue grew 24% and Google Cloud revenue grew 82% as AI infrastructure and enterprise AI demand accelerated.",
+        "Alphabet controls a differentiated stack spanning Gemini models, TPUs, data centers, Google Cloud, Search, YouTube, Android and Chrome.",
+        "Gemini models processed 22 billion direct-API tokens per minute and the Gemini app reached 950 million MAU in Q2 2026."
+      ],
+      "counter_evidence": [
+        "Frontier-model performance can converge and enterprise customers can use multi-cloud and open-model alternatives.",
+        "AI compute expansion is increasingly capital intensive and may lower the economic quality of growth."
+      ],
+      "confidence": 0.9,
+      "missing_data": [
+        "Independent market-share series for generative AI inference and enterprise AI workloads",
+        "Product-level AI revenue and retention"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Search reduces discovery costs while connecting advertisers with high-intent demand; Q2 2026 Search & other revenue grew 17%.",
+        "Google Cloud combines infrastructure, security, data and AI products; Q2 2026 Cloud revenue grew 82%.",
+        "Paid subscriptions reached 350 million in Q1 2026, led by YouTube and Google One."
+      ],
+      "counter_evidence": [
+        "AI-generated answers may reduce referrals to publishers and weaken the ecosystem that supplies searchable content.",
+        "Large cloud customers have bargaining power and can multi-source compute."
+      ],
+      "confidence": 0.88,
+      "missing_data": [
+        "AI Mode revenue per query and advertiser ROI",
+        "Cloud net revenue retention and workload churn"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "evidence": [
+        "Cloud operating margin improved from 14.1% in 2024 to 23.7% in 2025 and 35.6% in Q2 2026, supporting scale-economy evidence.",
+        "Search revenue accelerated despite broad deployment of AI search experiences.",
+        "First-party distribution, custom TPUs, data and a global infrastructure footprint reinforce one another."
+      ],
+      "counter_evidence": [
+        "US Search remedies require data sharing, syndication and distribution restrictions that could narrow the moat.",
+        "Generative AI can lower the cost of producing a credible search interface and shift user discovery behavior."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Commercial-query share across Google and AI-native competitors",
+        "Measured effect of final antitrust remedies on default distribution and TAC"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 9,
+      "max_score": 15,
+      "evidence": [
+        "TTM operating income was approximately $147.6 billion and Cloud operating profit scaled rapidly.",
+        "TTM operating cash flow was approximately $185.7 billion.",
+        "FY2025 common share repurchases totaled $45.4 billion."
+      ],
+      "counter_evidence": [
+        "FY2025 FCF of approximately $73.3 billion was nearly flat versus FY2024 despite 15% revenue growth.",
+        "H1 2026 FCF fell to approximately $4.3 billion because capex rose to $80.6 billion; TTM FCF declined to $53.3 billion.",
+        "Common shares outstanding rose from 12.088 billion at 2025 year-end to 12.230 billion at June 2026, before future preferred conversion and any ATM issuance."
+      ],
+      "confidence": 0.65,
+      "missing_data": [
+        "Maintenance versus growth capex split",
+        "AI infrastructure cohort utilization, payback period and incremental ROIC",
+        "Fully diluted share path after preferred conversion and ATM usage"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "Wiz and Intersect have clear strategic links to cloud security and data-center energy bottlenecks.",
+        "Management has maintained strong investment in R&D while expanding Search, subscriptions and Cloud profitability.",
+        "The $40 billion ATM was described primarily as a mechanism to meet employee-equity tax obligations rather than operating survival."
+      ],
+      "counter_evidence": [
+        "Alphabet simultaneously used common equity, a Berkshire private placement, 6.25% mandatory convertible preferred stock and substantial new debt to finance the AI build-out.",
+        "The company repurchased stock before issuing common equity, raising questions about repurchase and issuance price discipline.",
+        "Founder-controlled Class B super-voting shares limit outside shareholder influence."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Board hurdle rates and expected payback for the 2026-2027 AI infrastructure plan",
+        "Wiz post-acquisition organic growth and return on purchase price"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Cash, cash equivalents and short-term marketable securities were $242.5 billion at June 30, 2026.",
+        "TTM operating cash flow was approximately $185.7 billion and the company stated liquidity is sufficient for the foreseeable future.",
+        "There was no commercial paper outstanding at June 30, 2026."
+      ],
+      "counter_evidence": [
+        "Long-term debt reached $98.2 billion by June 2026 and another $25.0 billion of notes were issued in August.",
+        "Non-commenced data-center leases were $85.2 billion plus a $5.8 billion short-term lease commitment.",
+        "A large portion of marketable and non-marketable securities is equity-linked and should not be treated as cash-equivalent loss protection."
+      ],
+      "confidence": 0.88,
+      "missing_data": [
+        "Post-August-2026 pro forma cash and debt balance",
+        "Updated purchase commitments and financial guarantees after Q2"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 7,
+      "max_score": 15,
+      "evidence": [
+        "Base-case DCF value of approximately $339 per share is close to the $341.84 GOOGL market price.",
+        "At a 22% long-term FCF margin, the current price implies approximately 12.4% annual revenue growth for ten years, below current growth but demanding in duration.",
+        "Cloud growth and margin expansion provide a credible path to exceed embedded expectations."
+      ],
+      "counter_evidence": [
+        "The market already capitalizes much of the AI and Cloud success; probability-weighted value offers only about 8% upside.",
+        "Displayed P/E near 17x is distorted by very large unrealized equity gains; a core operating earnings check is materially more expensive.",
+        "Base value depends on FCF margin recovering to 24% after an unprecedented capex cycle."
+      ],
+      "confidence": 0.67,
+      "missing_data": [
+        "Post-Q2 2026 ATM issuance and fully diluted share count",
+        "Reliable split of recurring maintenance capex and discretionary growth capex"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "Bull-case value of approximately $668 offers about 95% upside if Alphabet converts AI distribution and infrastructure into durable high-margin cash flow.",
+        "Search, YouTube, Cloud, Gemini and Waymo provide multiple independent paths to a much larger enterprise.",
+        "The balance sheet makes bankruptcy-style permanent loss unlikely."
+      ],
+      "counter_evidence": [
+        "Bear-case value of approximately $132 implies about 61% downside, greater than the probability-weighted expected upside.",
+        "A permanent-loss outcome can occur through low returns on massive capex without any solvency crisis.",
+        "At the current price, the expected value is not sufficiently asymmetric for a concentrated initial position."
+      ],
+      "confidence": 0.6,
+      "missing_data": [
+        "Waymo standalone economics and external valuation durability",
+        "AI infrastructure salvage value and economic useful life"
+      ]
+    }
+  },
+  "total_score": 72,
+  "classification": "Starter / Watch"
+}

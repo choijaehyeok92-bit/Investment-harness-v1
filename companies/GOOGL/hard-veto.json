@@ -1,0 +1,108 @@
+{
+  "ticker": "GOOGL",
+  "as_of": "2026-09-03",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "evidence": [
+        "FY2025 financial statements received an unqualified audit opinion and no material restatement was identified in the supplied 10-K.",
+        "The Q2 2026 filing separates operating results from large unrealized equity-security gains."
+      ],
+      "severity": "LOW",
+      "confidence": 0.9,
+      "resolution_needed": null
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Alphabet generated approximately $185.7 billion of TTM operating cash flow and held $242.5 billion of cash and short-term marketable securities at June 2026.",
+        "Despite that liquidity, it raised $49.6 billion net equity and preferred capital through June, issued $51.8 billion of debt in H1, and issued another $25.0 billion of notes in August to fund an extraordinary AI infrastructure cycle."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.82,
+      "resolution_needed": "Establish that external financing is temporary and that AI infrastructure can generate returns above the cost of capital without recurring equity issuance after 2027."
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Common shares outstanding increased from 12.088 billion at December 2025 to 12.230 billion at June 2026.",
+        "Mandatory convertible preferred stock can add common shares by 2029, and a $40.0 billion ATM remained unused and available at June 2026.",
+        "TTM SBC was approximately $28.1 billion."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.88,
+      "resolution_needed": "Track quarterly fully diluted shares, ATM issuance, preferred conversion economics, buybacks and FCF per share through the capex peak."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "evidence": [
+        "Search, subscriptions and Cloud growth are accompanied by strong consolidated and segment operating profits.",
+        "Cloud operating margin expanded materially while revenue accelerated."
+      ],
+      "severity": "LOW",
+      "confidence": 0.9,
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Cloud margin expansion is strong positive evidence for incremental economics.",
+        "FY2025 FCF was nearly flat year over year and H1 2026 FCF fell to about $4.3 billion as capex doubled, so consolidated incremental ROIC is not yet observable.",
+        "Management expects 2027 capex to increase significantly again from the 2026 $180-$190 billion range."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.76,
+      "resolution_needed": "Obtain evidence of utilization, incremental gross profit, asset useful life and FCF-per-share recovery for the 2026-2027 investment cohorts."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Search revenue grew 17% in Q2 2026 and AI usage expanded, arguing against current shrinkage.",
+        "US Search remedies and ad-tech litigation may weaken default distribution, data advantages and publisher-tool economics."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "resolution_needed": "Monitor commercial-query share, TAC, default placement, mandated data sharing and post-remedy Search monetization."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "PASS",
+      "evidence": [
+        "Current price is approximately equal to the modeled Base value rather than requiring the modeled Bull case.",
+        "Implied ten-year revenue growth of roughly 11%-14% is demanding but not unrealistic given current 20%+ growth."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.68,
+      "resolution_needed": null
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "More than 70% of FY2025 revenue came from advertising and Search remains the central profit engine.",
+        "Cloud, subscriptions and YouTube provide meaningful and fast-growing diversification but are not yet enough to make Search impairment immaterial."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.86,
+      "resolution_needed": "Confirm that Cloud and subscriptions continue increasing their share of durable operating profit while Search withstands AI and regulatory changes."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "evidence": [
+        "Liquidity and operating cash flow make insolvency remote.",
+        "Permanent loss is more plausibly caused by prolonged low returns on AI capital, Search erosion and dilution than by bankruptcy."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.82,
+      "resolution_needed": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "ticker": "GOOGL",
+  "as_of": "2026-09-03",
+  "current_price": 341.84,
+  "implied_expectations": {
+    "market_price_timestamp_utc": "2026-09-03T16:11:33Z",
+    "goog_price": 338.42,
+    "googl_market_cap_billions": 4180.7,
+    "starting_ttm_revenue_billions": 445.866,
+    "starting_ttm_operating_income_billions": 147.628,
+    "starting_ttm_operating_margin_pct": 33.11,
+    "starting_ttm_operating_cash_flow_billions": 185.675,
+    "starting_ttm_capex_billions": 132.402,
+    "starting_ttm_fcf_billions": 53.273,
+    "starting_ttm_fcf_margin_pct": 11.95,
+    "common_shares_outstanding_billions": 12.23,
+    "cash_and_short_term_marketable_securities_billions": 242.474,
+    "long_term_debt_billions_at_2026_06_30": 98.165,
+    "mandatory_convertible_preferred_liquidation_value_billions": 19.0,
+    "net_financial_assets_before_nonmarketable_securities_billions": 125.309,
+    "reverse_dcf_discount_rate_pct": 8.5,
+    "reverse_dcf_terminal_growth_pct": 3.5,
+    "reverse_dcf_nonmarketable_securities_haircut_pct": 50,
+    "implied_revenue_cagr_10y_by_terminal_fcf_margin_pct": {
+      "20_pct_margin": 13.56,
+      "22_pct_margin": 12.39,
+      "24_pct_margin": 11.33
+    },
+    "interpretation": "The market price does not require an implausible bull case, but it does require long-duration double-digit revenue growth and a recovery from roughly 12% TTM FCF margin to 20%-24% despite unprecedented AI capital intensity and potential dilution."
+  },
+  "scenarios": {
+    "bear": {
+      "revenue_cagr_years_1_5_pct": 8,
+      "revenue_cagr_years_6_10_pct": 5,
+      "fcf_margin_year_5_pct": 16,
+      "terminal_fcf_margin_pct": 18,
+      "discount_rate_pct": 9.5,
+      "terminal_growth_pct": 2.5,
+      "nonmarketable_securities_recognition_pct": 25,
+      "fully_diluted_shares_billions": 12.65,
+      "estimated_value_per_share": 132,
+      "return_vs_current_price_pct": -61.4,
+      "description": "Search growth slows materially, AI capex remains structurally heavy, Cloud competes on price and FCF margin recovers only modestly."
+    },
+    "base": {
+      "revenue_cagr_years_1_5_pct": 14,
+      "revenue_cagr_years_6_10_pct": 9,
+      "fcf_margin_year_5_pct": 22,
+      "terminal_fcf_margin_pct": 24,
+      "discount_rate_pct": 8.5,
+      "terminal_growth_pct": 3.5,
+      "nonmarketable_securities_recognition_pct": 50,
+      "fully_diluted_shares_billions": 12.5,
+      "estimated_value_per_share": 339,
+      "return_vs_current_price_pct": -0.8,
+      "description": "Search monetization remains resilient, Cloud and AI sustain strong growth, and FCF margin normalizes after the infrastructure build without perfect execution."
+    },
+    "bull": {
+      "revenue_cagr_years_1_5_pct": 19,
+      "revenue_cagr_years_6_10_pct": 12,
+      "fcf_margin_year_5_pct": 26,
+      "terminal_fcf_margin_pct": 28,
+      "discount_rate_pct": 8.0,
+      "terminal_growth_pct": 4.0,
+      "nonmarketable_securities_recognition_pct": 75,
+      "fully_diluted_shares_billions": 12.4,
+      "estimated_value_per_share": 668,
+      "return_vs_current_price_pct": 95.4,
+      "description": "Alphabet's full-stack AI position drives Search expansion, Cloud leadership, high utilization and strong FCF conversion, while dilution remains contained."
+    }
+  },
+  "permanent_loss_case": {
+    "estimated_value_range_per_share": [80, 120],
+    "drivers": [
+      "Structural Search advertising erosion and loss of distribution advantages",
+      "Cloud price competition and underutilized AI capacity",
+      "FCF margin stuck near 12%-15% despite elevated depreciation and financing costs",
+      "Persistent common-equity and mandatory-convertible dilution"
+    ],
+    "nature_of_loss": "A long-duration failure to earn the cost of capital and irreversible opportunity cost, not a near-term bankruptcy case."
+  },
+  "expectation_gap_score": 7,
+  "asymmetry_score": 6,
+  "subjective_probabilities": {
+    "bear_pct": 25,
+    "base_pct": 50,
+    "bull_pct": 25,
+    "probability_weighted_value_per_share": 369.5,
+    "expected_upside_vs_current_price_pct": 8.1
+  },
+  "notes": "All scenario outputs are estimates, not facts. Ten-year annual DCF uses year-end cash-flow discounting. Net financial assets equal June 2026 cash and short-term marketable securities less June long-term debt and preferred liquidation value; the August 2026 $25 billion debt issue is discussed separately because a matching post-issue cash balance is unavailable. Non-marketable securities are recognized with scenario-specific haircuts. Current displayed P/E is distorted by large unrealized equity gains. GOOG and GOOGL have the same operating value, but the observed class price spread should be applied at trade time."
+}
