@@ -1,0 +1,238 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-09-04",
+  "categories": {
+    "structural_change_and_leadership": {
+
+      "score": 13,
+      "max_score": 15,
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Net revenue $35,819M (FY2023) to $51,574M (FY2024) to $63,887M (FY2025, +23.9%). H1 FY2026 $41,498M (+38.7% YoY), Q2 alone $22,187M (+47.9%).",
+        "FACT (tier-1-adjacent, Q3 FY2026 results released 2026-09-02, post-dating the supplied filings): Q3 revenue $29.6B; AI semiconductor revenue $16.7B, +221% YoY and +54% QoQ. Q4 guidance: AI semiconductor revenue $21.7B (+236% YoY) and consolidated revenue $34.8B (+93% YoY). Combining actuals and guidance gives FY2026 revenue near $105.9B, +65.8% on FY2025.",
+        "INFERENCE: custom AI silicon (XPU) is the hyperscalers' STRUCTURAL HEDGE against merchant GPU pricing. Broadcom therefore participates in the AI build-out on a different axis from NVDA rather than as a correlated proxy — it wins when customers want to escape merchant economics.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Two engines, not one: semiconductor solutions $36,858M and infrastructure software $27,029M of FY2025 revenue (58%/42%)."
+      ],
+      "counter_evidence": [
+        "INFERENCE: Broadcom largely EXECUTES customer architectures rather than defining them. The IP direction on an XPU comes substantially from the customer, which is why this scores 13 rather than the 14 assigned to NVDA and TSM.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Infrastructure software growth has decelerated sharply — +26% in FY2025 but only +5.1% in H1 FY2026 and +8.8% in Q2. The VMware subscription conversion is largely complete, so the second engine is now close to ex-growth.",
+        "The stock fell about 6.5% after hours on the Q3 print despite a 221% AI revenue increase, on a Q4 outlook below some expectations — the market is already discounting a high growth path."
+      ],
+      "missing_data": [
+        "Q3 FY2026 GAAP income statement and segment detail — only headline revenue and adjusted EPS are public as of this analysis",
+        "XPU programme backlog by customer"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "confidence": 0.75,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Semiconductor solutions operating margin expanded from 55.7% (FY2024) to 57.6% (FY2025) to 61.8% in Q2 FY2026 — customers are paying more, not less, as volume scales.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Infrastructure software operating margin of 76.8% in FY2025 and 78.7% in Q2 FY2026 is exceptional and demonstrates real pricing power over an installed base.",
+        "INFERENCE: once an XPU design is won, switching costs are very high for the life of that program — the customer has co-invested engineering years into the silicon."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Customer value is concentrated in very few relationships. One semiconductor distributor customer accounted for 42% of TOTAL net revenue in H1 FY2026, up from 29% a year earlier. Top five end customers were approximately 45% (from 40%). Distributors overall were 56% of revenue, from 48% in FY2025.",
+        "INFERENCE: XPU sockets are RE-COMPETED at each generation, unlike a platform with an installed software ecosystem. Marvell, MediaTek and Alchip compete for the same designs.",
+        "INFERENCE: the VMware repricing that produced the software margin also produced customer resentment; a 78.7% margin on infrastructure software invites both substitution effort and regulatory attention."
+      ],
+      "missing_data": [
+        "Identity of the 42% distributor and the end customers behind it",
+        "XPU programme win/loss record at generational transitions"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 10,
+      "max_score": 15,
+      "confidence": 0.65,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Semiconductor margin expanding 55.7% to 61.8% while segment revenue grew 78.5% YoY in Q2 FY2026 is genuine positive direction.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): R&D $5,253M (FY2023) to $9,310M (FY2024) to $10,977M (FY2025), 17% of revenue — sustained investment in the XPU and networking franchises.",
+        "AI semiconductor revenue +221% YoY in Q3 FY2026 with Q4 guided to +236% indicates the franchise is winning share of a fast-growing pool."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): THE SHARPEST NEGATIVE IN THIS FILE: single-customer concentration went 29% to 42% of total revenue in ONE YEAR. That is the most extreme concentration trajectory of any company analysed in this harness — worse than NVDA's 12% to 22%.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): The software engine has stalled at +5.1% H1 growth. A two-engine story is becoming a one-engine story, and the remaining engine is the more contestable one.",
+        "INFERENCE: a custom-ASIC business has structurally weaker recurring lock-in than either a merchant platform with a software moat (NVDA) or a manufacturing monopoly (TSM). Each socket is re-won or lost."
+      ],
+      "missing_data": [
+        "Whether the 42% customer relationship is contracted multi-year or order-by-order",
+        "Competitive win rate versus Marvell at recent XPU generations"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 11,
+      "max_score": 15,
+      "confidence": 0.75,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): THE MOST ASSET-LIGHT BUSINESS IN THIS HARNESS: FY2025 capex of $623M on $63,887M of revenue — 1.0%. FY2024 $548M, FY2023 $452M.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): FY2025 operating cash flow $27,537M against $623M of capex gives free cash flow of $26,914M — a 42.1% FCF margin. H1 FY2026 operating cash flow $18,753M, +48% YoY.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Capital returned is large and rising: FY2025 dividends $11,142M and buybacks $2,450M; H1 FY2026 dividends $6,178M and buybacks $8,450M."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): THE PER-SHARE TEST FAILS. Share count is RISING, uniquely in this harness: 4,139M (FY2023), 4,686M (FY2024, including 544M issued for VMware), 4,741M (FY2025), 4,758M (2026-05-03). Even after $8,450M of H1 FY2026 repurchases the count rose 17M.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Stock-based compensation is $7,570M in FY2025 (11.9% of revenue) and $4,268M in H1 FY2026 (10.3% of revenue), annualising near $8.5B. Gross SBC issuance is roughly 1.8% of shares a year against net dilution near 0.7% after very large buybacks.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Net debt of approximately $47.1B (total debt principal $66,720M less cash $19,628M at 2026-05-03) — the only materially levered balance sheet among the four names analysed.",
+        "Note in fairness: the bulk of the multi-year share increase was the 544M shares issued as VMware acquisition currency, a deliberate one-time M&A decision rather than creeping compensation dilution."
+      ],
+      "missing_data": [
+        "FY2026 full-year buyback authorisation and pace",
+        "Cash tax rate normalised for the FY2025 benefit"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.65,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): THE VMWARE ACQUISITION IS WORKING ON ITS OWN TERMS: infrastructure software delivered $20,765M of FY2025 operating income on 42% of revenue at a 76.8% margin, versus $13,977M the prior year (+49%).",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Deleveraging while returning capital: total debt principal reduced from $69,847M (FY2024) to $67,120M (FY2025) to $66,720M (Q2 FY2026) while paying $11,142M of FY2025 dividends.",
+        "INFERENCE: the serial-acquirer playbook — buy, reprice, cut cost, harvest — has been executed repeatedly and demonstrably creates accounting profit."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): THE BALANCE SHEET IS GOODWILL. Goodwill of $97,801M plus intangibles of $32,273M equals $130,074M of the $171,092M total asset base — 76%. Total stockholders' equity is $81,292M, so GOODWILL ALONE EXCEEDS BOOK EQUITY BY ROUGHLY $16.5B and tangible book value is deeply negative.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): FY2025 net income of $23,126M EXCEEDS pretax income of $22,729M because of a $397M tax BENEFIT, against a $3,748M provision the prior year. An unexplained swing of this size in the headline earnings line warrants investigation.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Acquisition-related intangible amortisation was $8,062M in FY2025 ($6,031M in cost of revenue plus $2,031M in operating expense) — 32% of reported operating income. Combined with SBC, the GAAP-to-non-GAAP margin gap is roughly 20 percentage points."
+      ],
+      "missing_data": [
+        "Explanation of the FY2025 tax benefit",
+        "Stated leverage target and buyback framework"
+      ]
+=======
+      "score": 15,
+      "max_score": 15,
+      "evidence": [
+        "AI data-center custom accelerators and Ethernet networking are expanding structurally; Q3 FY2026 AI semiconductor revenue reached $16.7B, +221% YoY, with Q4 guidance of $21.7B, +236% YoY.",
+        "Broadcom participates across custom XPUs, switching/routing silicon, NICs, PHYs, optics and AI racks/systems, positioning it as an infrastructure platform rather than a single-chip vendor.",
+        "Management indicated AI semiconductor revenue could reach roughly $115B in FY2027 and $230B in FY2028, implying a multi-year step-change in addressable revenue."
+      ],
+      "counter_evidence": [
+        "AI infrastructure spending is concentrated among a small number of hyperscalers/frontier-model companies and could normalize sharply after the current build-out.",
+        "Marvell and internal hyperscaler silicon teams are credible competitors in custom accelerators and networking."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Independent market-share estimates for custom accelerators by customer and Ethernet AI fabrics."]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Custom silicon can improve hyperscaler performance/watt and total cost of ownership versus general-purpose accelerators for stable workloads.",
+        "Broadcom's Ethernet portfolio addresses scale, latency, bandwidth and power bottlenecks in large AI clusters using open standards.",
+        "VMware Cloud Foundation provides an integrated private/hybrid cloud stack for mission-critical enterprise infrastructure."
+      ],
+      "counter_evidence": [
+        "Large hyperscalers have bargaining power and can multi-source or insource parts of the stack.",
+        "VMware licensing/product simplification has created customer pushback and potential migration risk."
+      ],
+      "confidence": 0.85,
+      "missing_data": ["Customer-level TCO benchmarks and renewal/retention metrics for VMware Cloud Foundation."]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "Broadcom's moat is broadening from merchant connectivity silicon into custom AI accelerators, networking systems and software.",
+        "Deep co-design relationships, leading-edge SerDes/networking IP, advanced packaging integration and supply commitments create switching and execution barriers.",
+        "VMware adds an enterprise installed base and recurring infrastructure-software economics, diversifying the semiconductor franchise."
+      ],
+      "counter_evidence": [
+        "Custom ASIC relationships are customer-specific and can be lost at redesign cycles.",
+        "Nvidia's CUDA/networking ecosystem remains a powerful competing architecture; Marvell is winning meaningful custom-silicon business."
+      ],
+      "confidence": 0.88,
+      "missing_data": ["Design-win duration and renewal rates for each major AI customer; exact AI networking share."]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "H1 FY2026 operating cash flow was $18.8B versus only $0.5B of capex; Q3 FCF was $13.7B, 46% of revenue.",
+        "Q3 revenue grew 86% YoY while GAAP operating income grew 171%, showing exceptional incremental operating leverage.",
+        "Broadcom's fabless model and software mix allow very high cash conversion despite rapid revenue growth."
+      ],
+      "counter_evidence": [
+        "H1 FY2026 stock-based compensation was $4.3B, so economic FCF should be assessed after dilution cost.",
+        "AI growth requires supply commitments and working-capital build; inventory and receivables rose materially in H1."
+      ],
+      "confidence": 0.92,
+      "missing_data": ["Customer-specific gross margins and normalized post-SBC FCF per share for the AI accelerator business."]
+    },
+    "management_and_capital_allocation": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Hock Tan has a long record of integrating acquisitions, focusing portfolios and expanding cash generation; VMware integration has already lifted infrastructure-software revenue.",
+        "FY2025 FCF was $26.9B; management simultaneously funded dividends, repurchases and debt service.",
+        "Executive compensation is overwhelmingly variable/long-term equity based, and the board extended Tan's leadership through FY2030 with performance-stock incentives."
+      ],
+      "counter_evidence": [
+        "The acquisition-led model created substantial goodwill/intangibles and debt, increasing execution consequences if a large transaction disappoints.",
+        "Aggressive VMware monetization can maximize near-term economics at the expense of customer goodwill or ecosystem breadth."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Long-run VMware logo-retention/churn metrics after licensing changes."]
+
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+
+      "confidence": 0.8,
+      "evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Cash flow coverage is ample: FY2025 operating cash flow $27,537M against cash interest paid of $2,672M — roughly 10x coverage. Cash and equivalents rose to $19,628M at 2026-05-03.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Debt is being reduced rather than grown: $69,847M to $67,120M to $66,720M principal across FY2024, FY2025 and Q2 FY2026."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Net debt of approximately $47.1B is real leverage, incurred for VMware, and is the highest in this harness — Samsung, NVDA and TSM all hold net cash.",
+        "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): With $130,074M of goodwill and intangibles against $81,292M of equity, a large impairment would wipe out book equity. The 10-K notes a sustained decrease in market capitalisation below net book value as an impairment indicator.",
+        "This scores 8 rather than the 9 assigned to the other three names for exactly these two reasons."
+      ],
+      "missing_data": [
+        "Debt maturity schedule detail",
+        "Covenant terms"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 7,
+      "max_score": 15,
+      "confidence": 0.55,
+      "evidence": [
+        "At $357.16 (2026-09-03 close) and 4,758M shares, market capitalisation is approximately $1,699B; adding net debt of about $47.1B gives an enterprise value near $1,747B.",
+        "The growth is extraordinary and largely already visible: FY2026 revenue near $105.9B (+65.8%), with Q4 guided at $34.8B (+93% YoY) and AI semiconductor revenue guided to a $86.8B annualised run-rate.",
+        "INFERENCE: on ESTIMATED FY2026 non-GAAP EPS near $12.26 the multiple is roughly 29x — not a bull-case-or-better requirement for a business growing at this rate."
+      ],
+      "counter_evidence": [
+        "ON GAAP THE MULTIPLE IS THE HIGHEST IN THIS HARNESS. ESTIMATED FY2026 GAAP net income near $45B gives roughly $9.39 of GAAP EPS and a multiple near 38x. The roughly 20-percentage-point GAAP-to-non-GAAP margin gap is real cost: about half is SBC, which demonstrably dilutes shareholders since the share count is rising.",
+        "HONEST LIMITATION: Q3 FY2026 GAAP earnings were not available for this analysis — only headline revenue and adjusted EPS. The FY2026 GAAP figures above are the analyst's own estimates and carry material uncertainty.",
+        "INFERENCE: probability-weighted five-year return is only about +9.6% total, roughly 1.8% annualised. The current multiple already discounts a great deal of the growth that the guidance makes visible."
+      ],
+      "missing_data": [
+        "Q3 FY2026 GAAP net income and segment detail",
+        "FY2027 revenue guidance"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 4,
+      "max_score": 10,
+      "confidence": 0.7,
+      "evidence": [
+        "Permanent-loss risk is low in the ordinary sense: operating cash flow of $27.5B against $2.7B of cash interest leaves no plausible insolvency path.",
+        "The bull case is specific: if XPU becomes the dominant AI compute paradigm across multiple hyperscaler programmes, FY2031 revenue of $300-350B is reachable from a $106B base."
+      ],
+      "counter_evidence": [
+        "STRUCTURAL CAP: at roughly $1.70T a 10x outcome implies a $17T company. Modelled bull upside is +63% to +90%.",
+        "THE BEAR IS AMPLIFIED BY TWO THINGS THE OTHER NAMES LACK: leverage of about $47.1B net debt, and a 42% single-customer dependence. Losing or halving that one relationship is not a margin event, it is a business-model event. Modelled bear is -70% to -55%.",
+        "This scores 4 rather than 5 because the downside is levered and concentration-driven while the upside is capped — a worse outcome shape than NVDA's."
+      ],
+      "missing_data": [
+        "None material — an arithmetic and concentration constraint"
+      ]
+    }
+  },
+  "total_score": 68,
+  "classification": "Starter / Watch"
+
+
+}

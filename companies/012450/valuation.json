@@ -1,0 +1,170 @@
+{
+  "ticker": "012450",
+  "as_of": "2026-09-04",
+
+  "current_price": 1055000,
+  "implied_expectations": {
+    "market_price_source": "KRX close reported by Maeil Business Market, 2026-09-04",
+    "shares_outstanding": 51563401,
+    "market_cap_trillion_krw": 54.399,
+    "direct_listed_stake_market_value_trillion_krw": {"hanwha_ocean_30_44_pct": 8.096,"hanwha_systems_47_22_pct": 6.137,"kai_9_90_pct_post_period": 1.221,"total": 15.454},
+    "central_holding_company_discount_pct": 20,
+    "central_parent_net_debt_and_commitment_adjustment_trillion_krw": 3.0,
+    "implied_core_enterprise_value_trillion_krw": 45.036,
+    "implied_sustainable_core_ebit_trillion_krw_by_ev_ebit_multiple": {"15x": 3.002,"16x": 2.815,"18x": 2.502},
+    "fy2025_defense_aviation_space_segment_operating_profit_trillion_krw": 2.276,
+    "interpretation": "현재가는 상장 지분가치에 20% 할인과 중앙 재무조정을 적용할 때 핵심 방산·항공 사업에 약 45조원의 EV를 부여한다. 15~18배 EV/EBIT 기준 지속 EBIT 약 2.5~3.0조원이 필요해 FY2025 약 2.28조원 대비 추가 성장을 요구하지만 비현실적인 Bull Case만을 요구하는 수준은 아니다."
+  },
+  "scenarios": {
+    "bear": {"core_sustainable_ebit_trillion_krw": 1.8,"core_ev_ebit_multiple": 12,"core_enterprise_value_trillion_krw": 21.6,"recognized_listed_stakes_trillion_krw": 8.654,"net_debt_and_commitment_adjustment_trillion_krw": 4.5,"equity_value_trillion_krw": 25.754,"estimated_value_per_share": 499000,"return_vs_current_price_pct": -52.7,"description": "유럽 방산 주문의 정상화와 현지화 비용 증가, 한화오션 사이클 둔화, 대규모 투자 회수 지연이 겹쳐 핵심 EBIT와 자회사 가치가 동시에 하락한다."},
+    "base": {"core_sustainable_ebit_trillion_krw": 2.8,"core_ev_ebit_multiple": 16,"core_enterprise_value_trillion_krw": 44.8,"recognized_listed_stakes_trillion_krw": 12.363,"net_debt_and_commitment_adjustment_trillion_krw": 3.0,"equity_value_trillion_krw": 54.163,"estimated_value_per_share": 1050000,"return_vs_current_price_pct": -0.4,"description": "K9·천무 수출잔고가 높은 마진으로 전환되고 현지 생산투자가 계획대로 진행되지만, 투자비와 운전자본 때문에 FCF 전환은 점진적이다."},
+    "bull": {"core_sustainable_ebit_trillion_krw": 3.8,"core_ev_ebit_multiple": 18,"core_enterprise_value_trillion_krw": 68.4,"recognized_listed_stakes_trillion_krw": 15.763,"net_debt_and_commitment_adjustment_trillion_krw": 2.0,"equity_value_trillion_krw": 82.163,"estimated_value_per_share": 1593000,"return_vs_current_price_pct": 51.0,"description": "유럽·중동·호주에 이어 미국 지상방산/함정 MRO가 본격화되고 KAI·한화오션·한화시스템의 전략 시너지가 자본효율 훼손 없이 나타난다."}
+  },
+  "permanent_loss_case": {"estimated_value_range_per_share": [350000,550000],"drivers": ["방산 슈퍼사이클의 주문 피크아웃과 수출 프로젝트 마진 정상화","현지 생산·기술이전 비용 상승으로 증분 ROIC 하락","한화오션 조선 사이클 둔화와 대형 해외투자 손상","추가 대규모 유상증자 또는 저수익 지분투자로 주당가치 희석","중대재해·품질·계약이행 문제로 생산 및 납기 신뢰도 훼손"],"nature_of_loss": "파산보다는 높은 진입가격, 자본집약적 글로벌 확장과 주당가치 희석이 결합해 장기간 자본비용 이하 수익률을 만드는 형태의 영구손실이다."},
+  "expectation_gap_score": 6,
+  "asymmetry_score": 6,
+  "subjective_probabilities": {"bear_pct": 25,"base_pct": 50,"bull_pct": 25,"probability_weighted_value_per_share": 1048000,"expected_upside_vs_current_price_pct": -0.6},
+  "notes": "SOTP는 목표주가가 아니라 reverse-expectations 프레임이다. 상장 지분가치는 2026-09-04 종가 기준 보조 시장자료와 공개 지분율을 사용했다. KAI 9.90% 직접 지분은 반기말 이후 증가한 값이다. 모회사 순부채/투자약정 조정은 현금, 차입금, 미사용 증자자금의 용도제약 때문에 정확한 단일 순현금 수치보다 시나리오 조정치를 사용했다. 연결 실적은 한화오션·한화시스템 비지배지분을 포함하므로 모회사 주주가 100% 소유하는 것으로 평가하지 않았다."
+=======
+  "current_price": 1244000,
+  "implied_expectations": {
+    "price_basis": "KRW 1,244,000 per share, most recent close available (press-sourced, tier-4). Share count and equity are tier-1 from the 반기보고서.",
+    "shares_outstanding": 51563401,
+    "shares_basis": "FACT (tier-1): 발행주식총수 51,563,401 at 2026-06-30; treasury 114,613 (0.22%); 유통주식수 51,448,788.",
+    "market_cap_krw_trn": 64.14,
+    "net_debt_krw_trn": 7.4,
+    "net_debt_derivation": "FACT (tier-1): borrowings and bonds current KRW 9,545.3B plus non-current KRW 5,899.5B = KRW 15,444.8B, less cash and equivalents KRW 8,048.2B.",
+    "non_controlling_interests_krw_trn": 8.24,
+    "enterprise_value_krw_trn": 79.78,
+    "ev_note": "Includes net debt and non-controlling interests, because consolidated operating profit includes the minorities' share.",
+    "owners_equity_krw_trn": 12.0,
+    "bps_krw": 232703,
+    "financials_krw_bn": {
+      "H1_2026": {
+        "revenue": 15043.9,
+        "operating_profit": 2004.4,
+        "operating_margin_pct": 13.3,
+        "continuing_profit": 1606.8,
+        "owners_net_income": 897.1,
+        "operating_cash_flow": -370.7,
+        "investing_cash_flow": -3403.0,
+        "interest_paid": 264.7
+      },
+      "FY2025": {
+        "revenue": 26702.9,
+        "operating_profit": 3089.3,
+        "operating_margin_pct": 11.6,
+        "continuing_profit": 2202.0,
+        "owners_net_income": 1405.0
+      },
+      "FY2024": {
+        "revenue": 11240.1,
+        "operating_profit": 1731.9,
+        "owners_net_income": 2298.9,
+        "note": "Revenue is not comparable to FY2025 — Hanwha Ocean was consolidated. Owners' profit EXCEEDED FY2025 despite far lower revenue, so FY2024 evidently contained one-off items. Neither year is a clean earnings base."
+      }
+    },
+    "segments_h1_2026_krw_bn": {
+      "해양": {
+        "revenue": 9614.2,
+        "share_pct": 63.91,
+        "operating_profit": 1150.3,
+        "margin_pct": 12.0
+      },
+      "방산": {
+        "revenue": 4465.2,
+        "share_pct": 29.68,
+        "operating_profit": 903.7,
+        "margin_pct": 20.2
+      },
+      "항공": {
+        "revenue": 1459.0,
+        "share_pct": 9.7,
+        "operating_profit": 67.2,
+        "margin_pct": 4.6
+      },
+      "fy2025_comparison": "해양 54.5% of revenue with KRW 1,115.3B operating profit; 방산 38.9% with KRW 2,272.6B. Marine has overtaken defence on both revenue share and operating profit."
+    },
+    "order_backlog_krw_bn": {
+      "total": 114918.2,
+      "방산_한화에어로": 38307.3,
+      "해양_한화오션": 33008.4,
+      "항공_한화에어로": 31723.1,
+      "방산_한화시스템": 8537.9,
+      "IT서비스": 2780.7,
+      "항공우주": 557.4,
+      "years_of_revenue": 3.8
+    },
+    "dilution_2025": {
+      "shares_before": 45581161,
+      "shares_after": 51563401,
+      "new_shares": 5982240,
+      "dilution_pct": 13.1,
+      "tranches": "1,715,040 shares by third-party placement on 2025-04-29; 4,267,200 shares by rights issue with public offering on 2025-07-10",
+      "note": "Count has been FLAT since 2025-07-10 — a discrete event, not an ongoing pattern."
+    },
+    "multiples": {
+      "price_to_book": 5.35,
+      "trailing_pe_fy2025": 45.7,
+      "pe_on_h1_2026_annualised": 35.8,
+      "ev_to_annualised_operating_profit": 19.9,
+      "interpretation": "5.35x book and 35.8x forward owners' earnings for a business with NEGATIVE operating cash flow, net debt rising 24.6% in six months, a 13.1% dilution twelve months old, and 64% of revenue in shipbuilding."
+    },
+    "reverse_engineered_requirement": {
+      "method": "Solve for the owners' net income that justifies KRW 64.14T at a range of mature multiples, then compare with the current base.",
+      "at_15x": "requires roughly KRW 4.28T of owners' net income — about 2.4x the H1 2026 annualised KRW 1.79T",
+      "at_18x": "requires roughly KRW 3.56T — about 2.0x",
+      "at_22x": "requires roughly KRW 2.92T — about 1.6x",
+      "conclusion": "Even at a generous 22x the price requires owners' net income to rise about 60% from the current annualised level and STAY there. At a more normal 15-18x for a business with a cyclical revenue majority it requires a doubling or more. THE EXPECTATION GAP IS NEGATIVE."
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "narrative": "The marine upcycle turns, contract assets that are currently consuming cash are written down or delivered at thinner margin, and defence order intake stays soft. Leverage of KRW 7.40T net debt against a 1.08 current ratio forces either asset sales or a further equity call.",
+      "owners_net_income_krw_trn": "0.8-1.2",
+      "terminal_pe": 15,
+      "equity_value_krw_trn": "12-18",
+      "five_year_total_return_pct": "-81 to -72"
+    },
+    "base": {
+      "narrative": "The KRW 114.9T backlog is delivered at roughly current margins, defence stabilises after the current delivery trough, and marine normalises toward high single digit margins as the cycle matures. Operating cash flow turns positive as contract assets convert.",
+      "owners_net_income_krw_trn": "2.0-2.5",
+      "terminal_pe": 18,
+      "equity_value_krw_trn": "36-45",
+      "five_year_total_return_pct": "-44 to -30"
+    },
+    "bull": {
+      "narrative": "European rearmament orders accelerate, US naval MRO and the Philly Shipyard position scale, marine holds double-digit margins through the cycle, and operating cash flow inflects strongly positive as the backlog bills.",
+      "owners_net_income_krw_trn": "3.5-4.5",
+      "terminal_pe": 20,
+      "equity_value_krw_trn": "70-90",
+      "five_year_total_return_pct": "+9 to +40",
+      "note": "THE BULL CASE BARELY BEATS CASH. That is the clearest statement of how demanding the current price is."
+    }
+  },
+  "permanent_loss_case": {
+    "definition": "Permanent impairment of more than 70% of capital, not a drawdown.",
+    "required_conditions": "A marine cycle downturn while operating cash flow remains negative and net debt of KRW 7.40T is rising, with a 1.08 current ratio leaving no buffer — forcing dilutive recapitalisation at a depressed price.",
+    "why_higher_than_peers": "Leverage, negative cash generation and a cyclical revenue majority coincide here. None of the other four names in this harness has all three.",
+    "subjective_probability_pct": "8-12",
+    "mitigant": "Order backlog of KRW 114.9T means revenue is contracted rather than speculative, and total equity of KRW 20.24T provides a real buffer."
+  },
+  "subjective_probabilities": {
+    "bear": 0.3,
+    "base": 0.5,
+    "bull": 0.2,
+    "labelled": "EXPLICITLY SUBJECTIVE — analyst judgement, not derived from data.",
+    "returns_used_pct": {
+      "bear": -76.5,
+      "base": -37.0,
+      "bull": 24.5
+    },
+    "probability_weighted_five_year_total_return_pct": -36.6,
+    "annualised_pct": -8.7,
+    "sensitivity_warning": "THE ONLY NEGATIVE EXPECTED RETURN IN THIS HARNESS. Even shifting weights heavily toward the bull case (bear 0.15 / base 0.45 / bull 0.40) gives roughly -18% — still negative. The conclusion is robust to the weighting, which is unusual and is why the label is REJECT rather than WATCH."
+  },
+  "expectation_gap_score": 3,
+  "asymmetry_score": 3,
+  "notes": "Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. All financial inputs are tier-1 from the 반기보고서 (2026-06-30); the share price is press-sourced. The FY2025 [정정]영업보고서 was supplied and used for context but the decisive figures here come from the interim report. THE SINGLE MOST IMPORTANT MISSING NUMBER is FY2025 full-year operating cash flow, which would establish whether negative H1 2026 operating cash flow is working-capital timing in a long-cycle contract business or a structural condition."
+
+}

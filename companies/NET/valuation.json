@@ -1,0 +1,96 @@
+{
+  "ticker": "NET",
+  "as_of": "2026-09-04",
+  "current_price": 281.44,
+  "implied_expectations": {
+    "price_timestamp_utc": "2026-09-04T14:09:47Z",
+    "market_cap_usd_billion": 99.724,
+    "ttm_revenue_usd_billion": 2.51235,
+    "ttm_company_defined_fcf_usd_billion": 0.314873,
+    "ttm_stock_based_compensation_usd_billion": 0.507655,
+    "price_to_ttm_revenue": 39.69,
+    "price_to_ttm_company_defined_fcf": 316.71,
+    "valuation_method": "Ten-year DCF reverse expectations; current-cohort cash flows are adjusted for annual dilution.",
+    "base_reverse_assumptions": {
+      "discount_rate": 0.095,
+      "terminal_growth": 0.03,
+      "annual_dilution": 0.015,
+      "starting_fcf_margin": 0.1253,
+      "estimated_pro_forma_net_cash_usd_billion": 0.572
+    },
+    "required_constant_revenue_cagr_by_year_10_fcf_margin": {
+      "20_percent_margin": 0.3989,
+      "25_percent_margin": 0.3676,
+      "30_percent_margin": 0.3424,
+      "35_percent_margin": 0.3214,
+      "40_percent_margin": 0.3034
+    },
+    "required_year_10_revenue_usd_billion": {
+      "20_percent_margin": 72.1,
+      "25_percent_margin": 57.5,
+      "30_percent_margin": 47.7,
+      "35_percent_margin": 40.8,
+      "40_percent_margin": 35.6
+    },
+    "interpretation": "Even at a 30%-40% year-10 FCF margin, the price requires roughly 30%-34% revenue CAGR for a full decade. This is unrealistic Bull-case-or-better execution relative to FY2026 guidance growth of about 32%."
+  },
+  "scenarios": {
+    "bear": {
+      "revenue_growth_years_1_to_10": [0.25, 0.2, 0.16, 0.13, 0.11, 0.09, 0.08, 0.07, 0.06, 0.05],
+      "year_10_fcf_margin": 0.2,
+      "discount_rate": 0.105,
+      "terminal_growth": 0.025,
+      "annual_dilution": 0.025,
+      "year_10_revenue_usd_billion": 7.69,
+      "year_10_fcf_usd_billion": 1.54,
+      "value_per_share": 30.33,
+      "return_vs_current": -0.892,
+      "narrative": "Integrated-cloud competition and lower AI monetization push growth toward single digits; network and third-party costs limit margin expansion."
+    },
+    "base": {
+      "revenue_growth_years_1_to_10": [0.33, 0.29, 0.25, 0.22, 0.19, 0.16, 0.14, 0.12, 0.1, 0.08],
+      "year_10_fcf_margin": 0.3,
+      "discount_rate": 0.09,
+      "terminal_growth": 0.035,
+      "annual_dilution": 0.015,
+      "year_10_revenue_usd_billion": 13.76,
+      "year_10_fcf_usd_billion": 4.13,
+      "value_per_share": 110.46,
+      "return_vs_current": -0.608,
+      "narrative": "Cloudflare sustains strong near-term growth and executes security, SASE and developer cross-sell, but growth normalizes and SBC dilution persists."
+    },
+    "bull": {
+      "revenue_growth_years_1_to_10": [0.38, 0.35, 0.32, 0.29, 0.26, 0.23, 0.2, 0.18, 0.16, 0.14],
+      "year_10_fcf_margin": 0.38,
+      "discount_rate": 0.085,
+      "terminal_growth": 0.035,
+      "annual_dilution": 0.01,
+      "year_10_revenue_usd_billion": 23.13,
+      "year_10_fcf_usd_billion": 8.79,
+      "value_per_share": 260.17,
+      "return_vs_current": -0.076,
+      "narrative": "Cloudflare becomes a leading independent control plane for the Agentic Internet, security, SASE and edge compute while producing exceptional margin and dilution discipline."
+    }
+  },
+  "permanent_loss_case": {
+    "value_per_share_range": [14, 35],
+    "core_case_value_per_share": 14.47,
+    "drivers": [
+      "AI traffic raises inference, third-party technology and bandwidth costs faster than monetization.",
+      "DBNR approaches 100% and revenue growth drops below 20% as cloud and security vendors bundle competing products.",
+      "Long-run FCF margin stalls near 18%, annual dilution remains about 3%, and founder control delays capital-allocation changes.",
+      "Convertible-note settlement and Class C issuance erode per-share value despite low bankruptcy risk."
+    ],
+    "type": "valuation and dilution-driven permanent capital impairment, not the central bankruptcy case"
+  },
+  "expectation_gap_score": 0,
+  "asymmetry_score": 1,
+  "subjective_probabilities": {
+    "bear": 0.3,
+    "base": 0.5,
+    "bull": 0.2,
+    "probability_weighted_value_per_share": 116.37,
+    "return_vs_current": -0.587
+  },
+  "notes": "Facts: price snapshot, market capitalization and filed historical figures. Estimates: TTM calculations, pro-forma net cash, all DCF values and probabilities. Inference: current price requires unrealistic Bull-case-or-better execution. The DCF is highly sensitive to discount rate, terminal margin, growth duration and dilution; it is an expectations test, not a precise target price. Macro is excluded from valuation and the 100-point company score."
+}
