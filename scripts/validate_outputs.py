@@ -40,6 +40,9 @@ def validate_file(data_path: Path, schema_path: Path) -> list[str]:
 def main() -> int:
     errors: list[str] = []
     companies = ROOT / "companies"
+    if not companies.is_dir():
+        print("No companies/ directory yet - nothing to validate.")
+        return 0
     for company_dir in companies.iterdir():
         if not company_dir.is_dir():
             continue

@@ -1,0 +1,115 @@
+{
+  "ticker": "NVDA",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): $23,707M of gain on investments ran through H1 FY2027 net income, against $8,918M for all of FY2026, $1,030M in FY2025 and $238M in FY2024. Of the H1 figure, $12,500M is explicitly disclosed as unrealised marks on publicly held equity securities.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): This is why reported net income ($118,010M) exceeds operating income ($117,270M) for H1 FY2027. Roughly 17-20% of reported net income is investment revaluation rather than operations.",
+        "INFERENCE, stated as such: this is disclosed, GAAP-compliant treatment under the fair-value rules for equity securities, NOT an integrity failure. The flag is raised because earnings quality is materially affected and because the marked-up assets are stakes in companies whose spending is itself NVIDIA revenue."
+      ],
+      "resolution_needed": "Obtain the realised/unrealised split and cost basis of the $47,898M non-marketable portfolio, and confirm that valuation inputs for non-marketable stakes are third-party-led rounds rather than internal marks. Until then, use core earnings excluding investment gains for every valuation test."
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): H1 FY2027 operating cash flow $74,421M against capex of $4,434M. FY2026 operating cash flow $102,718M.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Equity $228,984M against total liabilities $91,288M at 2026-07-26."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Share count DECLINING through the fastest growth phase in company history: 24,661M (2023-01-29) to 24,100M (2026-08-21), down 2.3%.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): SBC $6,386M in FY2026 (3.0% of revenue) against $40,086M of buybacks; $39,044M of buybacks in H1 FY2027 alone."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.5,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): PRIMARY GATE. NVIDIA is simultaneously supplier to, investor in, and customer of parts of its own demand base. Equity investments held total roughly $90.7B ($42,783M public + $47,898M non-marketable) at 2026-07-26, up from roughly $5B a year earlier, with a further $25B of investment commitments and $29B of committed cloud-service purchases.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Non-marketable equity investments alone went $3,799M (2025-07-27) to $22,251M (2026-01-25) to $47,898M (2026-07-26) - a 12.6x increase in twelve months.",
+        "BOUNDING THE RISK, which matters: $25B of investment commitments against roughly $356B of annualised revenue caps the directly vendor-financed slice at well under 10% even on a worst-case 1:1 assumption. The earnings effect is larger and is measured at 17-20% of net income.",
+        "COUNTER-EVIDENCE: gross margin of 75.0% in H1 FY2027 is not the signature of bought revenue. Subsidised growth compresses margin; this does not."
+      ],
+      "resolution_needed": "Quantify revenue from entities in which NVIDIA holds equity or has investment commitments, as a percentage of total revenue. This is the single most important unresolved question in the file. Until answered, treat reported revenue growth as an upper bound on organic demand growth."
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.5,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): PRIMARY GATE. Total future commitments of $366B at 2026-07-26, of which supply and capacity is $279B - phased $92B in the remainder of FY2027, $87B in FY2028 and $88B in FY2029.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Supply and capacity commitments rose from $95.2B at 2026-01-25 to $279B at 2026-07-26, +193% in six months. The recorded excess-inventory purchase accrual is only $2,138M, so the accounting assumes these commitments will be consumed.",
+        "INFERENCE: current incremental ROIC near 100% is computed on a 2.8%-of-revenue capex base. The real capital commitment sits off balance sheet. If demand pauses, that $279B converts from a growth enabler into a write-down and cancellation liability, and incremental ROIC inverts sharply.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Long-term debt $7,469M to $32,366M in six months ($25B notes at 2026-06-30) - the commitments are now partly debt-funded."
+      ],
+      "resolution_needed": "Establish the cancellability and repricing terms of the $279B. The FY2026 10-K states these agreements are 'in certain instances' cancellable, reschedulable or adjustable without quantifying which. That quantification determines whether the bear case is a margin event or a balance-sheet event."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Customer concentration is rising fast, the standard signature of buyer power increasing: Customer One was 13% of Compute & Networking revenue in FY2024, 12% in FY2025, 22% in FY2026. Customer Two reached 14%. Top two at 36% versus 23% a year earlier.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Accounts-receivable concentration at H1 FY2027: 22%, 14%, 13%, 11%, 10% - roughly 70% in five customers.",
+        "COUNTER-EVIDENCE, and it is strong: gross margin recovered to 75.0% in H1 FY2027 from 71.1% in FY2026, and networking revenue grew 3.7x in two fiscal years. Pricing power and product scope are both intact today.",
+        "INFERENCE: a 75% gross margin is itself the business case for every customer's custom-silicon programme. The moat's success funds its challengers."
+      ],
+      "resolution_needed": "Track merchant-GPU versus custom-ASIC share of total accelerator deployments, and whether the top-customer percentage keeps climbing. A third consecutive year of rising concentration alongside any margin erosion would flip this to a material finding."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.65,
+      "evidence": [
+        "At $226.27 and 24,100M shares, market capitalisation is roughly $5,453B - 23.3x H1 FY2027 annualised diluted EPS of $9.70, or 28.0x core EPS of roughly $8.08 after stripping investment gains and taxing the remainder at the actual 16.5% rate.",
+        "INFERENCE: neither multiple requires bull-case-or-better execution. They require the current earnings base to hold and grow modestly. This is the clearest difference between NVDA and most of the AI complex, and it is why this veto reads PASS rather than INVESTIGATE.",
+        "The valuation risk sits in the DURATION of the earnings base, which is captured under incremental_roic_collapse, not in the multiple."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): PRIMARY GATE. Three concentrations compound. By end market: Data Center is 89.7% of FY2026 revenue. By customer: top two are 36% of Compute & Networking revenue, top five are roughly 70% of receivables. By geography: US is 69.3% of FY2026 revenue, and 76% of Taiwan-billed revenue is to US and European end customers.",
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): China including Hong Kong fell to roughly 7% of revenue in H1 FY2027 from 19.2% in FY2025 - a large market has effectively closed, removing a diversification leg.",
+        "INFERENCE from prior harness work: the customers behind that concentration are funding purchases from balance sheet rather than operating cash flow. Hyperscaler 2026 capex is guided above $725B while Alphabet posted its first negative-FCF quarter since 2004 and Meta's cash generation fell 91% YoY. The concentration and the funding fragility are the same exposure."
+      ],
+      "resolution_needed": "Identify the 22% customer and its funding structure. Establish what share of Data Center revenue is to entities whose AI spending is debt- or private-credit-financed rather than internally funded."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, SEC XBRL 10-K FY2026 / 10-Q Q2 FY2027): Equity $228,984M, total assets $320,272M against liabilities $91,288M, H1 operating cash flow $74,421M. No plausible insolvency path.",
+        "ESTIMATE (subjective): probability of permanent impairment above 70% is 2-3%. The bear outcome is a severe drawdown, not a loss of capital."
+      ],
+      "resolution_needed": null
+    }
+  ]
+}

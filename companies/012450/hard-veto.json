@@ -1,0 +1,122 @@
+{
+  "ticker": "012450",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "INVESTIGATE",
+      "severity": "LOW",
+      "confidence": 0.5,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Capital surplus rose KRW 1.42T in H1 2026 (KRW 2,887.3B to KRW 4,303.3B) with NO new shares issued — the count was flat at 51,563,401. This implies transactions in subsidiary interests, but the nature is not established in the material reviewed.",
+        "The FY2025 annual report supplied is a CORRECTED filing ([정정]영업보고서, 2026-03-19). The reason for the correction was not examined and should be.",
+        "INFERENCE: no integrity concern is identified. The flag is for two unexplained items, not for any evidence of misstatement.",
+        "RESOLVED: the March 2026 correction to the annual report changed three items — 기업결합 사항, 타회사 출자현황, and the 이사회 결의서. These are ADMINISTRATIVE corrections, not a restatement of financial statements. This removes one of the two concerns behind the flag."
+      ],
+      "resolution_needed": "Only one item remains: read note 25 (자본금과 자본잉여금) for the KRW 1.42T H1 2026 capital surplus movement that occurred with no share issuance."
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): PRIMARY GATE. H1 2026 operating cash flow was NEGATIVE KRW 370.7B against POSITIVE KRW 1,014.3B in H1 2025, while reporting KRW 2.00T of operating profit. Cash generated from operations before interest and tax was also negative, at KRW 139.8B.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Investing cash flow was negative KRW 3,403.0B and total borrowings rose from KRW 12.39T to KRW 15.44T (+24.6%) in six months to fund the gap.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Interest paid of KRW 264.7B in H1 2026 was funded from financing rather than operations.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): This follows a 2025 equity raise of 5,982,240 shares (13.1% of the pre-raise count) across a third-party placement (2025-04-29) and a rights issue with public offering (2025-07-10).",
+        "INFERENCE: taken together — equity raised in 2025, debt up 24.6% in H1 2026, and negative operating cash flow — the company is currently funding itself externally. Whether that is STRUCTURAL or a working-capital timing effect in a long-cycle contract business is the decisive open question.",
+        "MITIGANT (tier-3, KIS Rating): net debt/EBITDA was 1.6x at 2025-09-30 with financial coverage rated excellent, implying roughly 1.2-1.3x on the current annualised run-rate. The leverage LEVEL is conservative. This veto is about CASH CONVERSION and the direction of external funding, not about debt quantum or solvency."
+      ],
+      "resolution_needed": "OBTAIN FY2025 AND FY2026 FULL-YEAR OPERATING CASH FLOW. IMPORTANT CORRECTION: the FY2025 [정정]영업보고서 supplied for this analysis is an IMAGE-BASED PDF with no extractable text beyond the correction notice, so the figure could NOT be taken from it. The 반기보고서 carries only H1 comparatives. The number must come from the FY2025 사업보고서 or the audited cash flow statement, neither of which was supplied. If full-year operating cash flow is also negative or near zero, this veto moves to FAIL and REJECT becomes veto-driven rather than score-driven."
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Shares outstanding went from 45,581,161 (2024 year-end) to 51,563,401 — 5,982,240 new shares, or 13.1% dilution, in 2025: 1,715,040 via third-party placement on 2025-04-29 and 4,267,200 via rights issue with public offering on 2025-07-10.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): MITIGATING: the count has been FLAT at 51,563,401 from 2025-07-10 through 2026-06-30. The dilution was a discrete 2025 event, not an ongoing pattern. Treasury stock is only 114,613 shares (0.22%).",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Longer history is favourable: 50,630,000 shares (2022 and 2023 year-end), reduced to 45,581,161 by the 2024-09-01 spin-off, plus historical profit cancellations totalling 2,500,000 shares."
+      ],
+      "resolution_needed": "Establish the use of proceeds and whether management contemplates further raises. Given that borrowings rose 24.6% in the six months AFTER the raise, a further equity call cannot be ruled out — that would escalate this to HIGH."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): The FY2024-to-FY2025 revenue jump from KRW 11.24T to KRW 26.70T (+137%) is NOT organic — it reflects the consolidation of Hanwha Ocean. Presenting it as growth would be a category error.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Underlying defence revenue is DECLINING: H1 2026 KRW 4.47T against an FY2025 half-year run-rate of KRW 5.19T, about -14%.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): COUNTER: margins are expanding, not compressing — group operating margin 11.6% (FY2025) to 13.3% (H1 2026), and marine margin 7.7% to 12.0%. Growth bought with price would compress margin; this does not.",
+        "INFERENCE: the growth is real but its SOURCE has been misattributed. It is consolidation plus a marine upcycle, not defence expansion."
+      ],
+      "resolution_needed": "Separate organic from consolidation effects on a like-for-like basis, and establish defence order intake by quarter."
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Operating profit of KRW 2.00T in H1 2026 produced NEGATIVE KRW 370.7B of operating cash flow. Accounting returns and cash returns have decoupled.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Investing outflow of KRW 3,403.0B in the half against that negative operating cash flow means incremental invested capital is rising while incremental cash return is negative.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Defence — the high-margin segment at 20.2% — is shrinking, while marine at 12.0% is growing. Mix shift alone lowers blended incremental returns.",
+        "COUNTER: marine margin improved from 7.7% to 12.0%, so within-segment incremental returns are improving even as mix worsens."
+      ],
+      "resolution_needed": "Establish whether the negative operating cash flow reflects contract-asset build that reverses on milestone billing. Contract assets rose from KRW 6,487.7B to KRW 7,065.5B and inventory fell — the working-capital story needs the full cash flow note."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): The defence leg is deteriorating on BOTH lines: revenue about -14% versus the FY2025 run-rate AND margin down from 21.9% to 20.2%.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Revenue mix is shifting toward the lower-moat business: marine 54.5% of FY2025 revenue to 63.9% in H1 2026, while defence fell 38.9% to 29.7%.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): COUNTER: backlog of KRW 114.92T (about 3.8 years) is strong, and marine margin doubling is genuine operational improvement."
+      ],
+      "resolution_needed": "Determine whether the defence revenue decline is delivery-schedule timing or an order-intake trend. Quarterly defence order intake would settle it."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.7,
+      "evidence": [
+        "At KRW 1,244,000 the market capitalisation is about KRW 64.14T against equity attributable to owners of KRW 12.00T — a price-to-book of 5.35x — and 35.8x H1 2026 annualised owners' earnings, 45.7x FY2025.",
+        "INFERENCE: the modelled BULL case returns only +9% to +40% over five years. When the optimistic scenario barely beats cash, the price is close to requiring bull-case-or-better execution simply to avoid loss.",
+        "INFERENCE: probability-weighted five-year return is approximately NEGATIVE 37% — the only negative expected return in this harness.",
+        "This does not read FAIL because the backlog gives real visibility and the bull case is not impossible — but it is the closest any name in this harness has come."
+      ],
+      "resolution_needed": "Build a normalised owners' earnings estimate separating defence from marine, and re-test the multiple against it. The price would need to fall roughly 40-50% for the expectation gap to turn positive on current evidence."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "evidence": [
+        "INFERENCE: demand is a government-budget derivative on both legs — defence procurement budgets and, increasingly, US naval programmes. That is politically reversible in a way commercial demand is not.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Segment concentration is high and worsening in the wrong direction: marine is 63.9% of H1 2026 revenue, and marine is the more cyclical, lower-return business.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Non-controlling interests take about 44% of profit (H1 2026 continuing profit KRW 1,606.8B versus owners' share KRW 897.1B), so the parent's exposure to the marine business is economically smaller than the consolidated revenue implies — a genuine mitigant."
+      ],
+      "resolution_needed": "Establish defence backlog by counterparty country and the contractual firmness of European orders."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.55,
+      "evidence": [
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Net debt of about KRW 7.40T and rising, a current ratio of only 1.08 (current assets KRW 32.90T against current liabilities KRW 30.49T), and negative operating cash flow coincide.",
+        "ESTIMATE (subjective): probability of permanent impairment above 70% is 8-12%, materially higher than the 2-6% estimated for the other four names in this harness, because leverage, negative cash generation and a cyclical revenue majority occur together.",
+        "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): MITIGATING: backlog of KRW 114.92T means revenue is contracted rather than speculative, and total equity of KRW 20.24T provides a real buffer."
+      ],
+      "resolution_needed": "Same as external_capital_dependence — the full-year cash flow picture determines whether this is a leveraged cyclical with a cash problem or a long-cycle business with a timing artefact."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "ticker": "TSM",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): Large accelerated filer with a filed Section 404(b) management assessment and auditor attestation on internal control over financial reporting. No restatement or error-correction boxes checked on the 20-F cover.",
+        "FACT (tier-1, 2025 Form 20-F): Disclosure quality is high: customer concentration, node mix, platform and geographic revenue, capex and liquidity are all disclosed with three years of comparatives.",
+        "FACT (tier-1, Form SD CY2025, filed 2026-05-26): a conflict-minerals due-diligence framework with a reasonable country-of-origin inquiry is in place and reported. Minor, but a governance positive rather than a gap."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.95,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): Net cash of approximately US$64.9B — cash and current marketable securities US$97,820M against long-term debt US$32,929M, with short-term loans NIL at 2025 year-end.",
+        "FACT (tier-1, 2025 Form 20-F): 2025 capex of NT$1,272,411M was funded against only NT$86,900M of bond issuance — roughly 93% from operating cash flow of NT$2,274,976M.",
+        "FACT (tier-1, 2025 Form 20-F): Debt is fixed-rate at 0.41%-4.63% with maturities out to 35 years. No refinancing wall."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): 25,932,524,521 common shares outstanding at 2025-12-31. TSMC does not issue equity to fund operations and share count is stable.",
+        "FACT (tier-1, 2025 Form 20-F): Capital returns are dividend-only and rising — quarterly dividend raised from NT$5.00 to NT$6.00 per share during 2025, approximately NT$570.5B declared for the year.",
+        "COUNTER, recorded here rather than as a veto: there are no repurchases, so unlike 005930 and NVDA the share count is flat rather than falling. That is a weakness on the FCF-per-share test, not a dilution failure."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): THE CLEANEST PASS OF THE THREE COMPANIES ANALYSED IN THIS HARNESS. Gross margin EXPANDED 54.4% to 56.1% to 59.9% and operating margin 42.6% to 45.7% to 50.8% while revenue grew 31.6% in 2025 and 76% cumulatively over two years. Growth bought with price or subsidy compresses margin; this does the opposite.",
+        "FACT (tier-1, 2025 Form 20-F): The company attributes 2025 growth to 'an increase in ASP due to a higher proportion of advanced technology (7-nanometer and below) revenue and an increase in wafer shipments' — mix and volume, not discounting.",
+        "CONTRAST WITH THE OTHER TWO NAMES: 005930's growth was a memory ASP spike of +220% (a rent); NVDA's carries an unresolved circular-financing question. TSMC's is mix-driven and self-evidently arm's-length."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.65,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): Capex intensity is structurally high — 44.0%, 33.0% and 33.4% of revenue across 2023-25 — and 2026 guidance is US$52-56 billion against US$40,895M spent in 2025, a 27-37% step-up.",
+        "FACT (tier-1, 2025 Form 20-F): Depreciation and amortisation of NT$688,096M in 2025 will keep rising as the 2025-26 capex lands, compressing reported margins with a lag.",
+        "COUNTER-EVIDENCE, and it is strong: incremental ROIC is currently RISING, not falling. Operating margin expanded 8.2pp over two years while capital intensity stayed roughly flat. There is no present evidence of collapse.",
+        "INFERENCE: severity is MEDIUM rather than HIGH because, unlike NVDA, there are no off-balance-sheet supply commitments (the 20-F states there are no material off-balance-sheet arrangements), and unlike 005930 there is no shortage rent to be competed away — TSMC's pricing is node-based and contractual."
+      ],
+      "resolution_needed": "Track whether the 2026 US$52-56B capex converts into revenue at the historical incremental return, and whether gross margin holds above roughly 55% as the associated depreciation lands in 2027-28. A demand pause at 33% capex intensity is the mechanism to watch."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.8,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): Direction is unambiguously positive on every measurable dimension. Advanced-node mix 58% to 69% to 74% of wafer revenue (77% by Q2 2026). Gross margin +5.5pp and operating margin +8.2pp in two years. R&D rising in absolute terms while falling as a share of revenue.",
+        "FACT (tier-1, 2025 Form 20-F): 2-nanometer entered volume production in 2025 and A16 risk production is expected in 2026, extending rather than defending the node lead.",
+        "FACT (company IR/press): 2nm booked well into 2028 and CoWoS sold out through the 2026 capacity ramp — forward visibility that only a widening moat produces.",
+        "COUNTER: top-ten customer concentration rose 70% to 76% to 78%, so the moat is increasingly rented to fewer tenants; and overseas fabs cannot replicate the Taiwan cluster density."
+      ],
+      "resolution_needed": "Watch Intel 18A and Samsung SF2 yields at equivalent nodes. This flips to INVESTIGATE if a credible second source wins a leading-edge design from a top-five customer."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.55,
+      "evidence": [
+        "Trailing valuation is genuinely demanding: 39.7x FY2025 EPS of US$10.43 per ADS and 33.7x EV/EBIT, with a free-cash-flow yield of 1.47%.",
+        "ESTIMATE: on FY2026 revenue near US$170B (from +37.0% YTD through July and guidance of slightly above +40% in USD) and a 47% net margin, forward EPS is roughly US$15.42 per ADS — a forward P/E near 26.8x. At a 25x mature multiple the price requires that FY2026 level to PERSIST, not to grow further. That is not a bull case.",
+        "HONEST LIMITATION: the forward figure rests on the analyst's own margin assumption. At FY2025's 44.6% net margin instead, forward EPS is roughly US$14.65 and the multiple 28.3x."
+      ],
+      "resolution_needed": "Replace the estimated FY2026 margin with actual Q3 and Q4 2026 reported results. The veto reads INVESTIGATE rather than PASS only because the forward multiple depends on an analyst estimate, not because the level is unrealistic."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1, 2025 Form 20-F): PRIMARY GATE, AND IT IS GEOGRAPHIC. The overwhelming majority of capacity sits in Taiwan: nine fabs in Hsinchu Science Park, two in Central Taiwan, seven in Southern Taiwan, plus Fab 22 in Kaohsiung. Overseas capacity is Fab 11 (Washington), Fab 21 (Arizona), Fab 23 (Kumamoto), Fab 24 (Dresden, under construction), Fab 10 (Shanghai) and Fab 16 (Nanjing) — material but far from a substitute.",
+        "FACT (tier-1, 2025 Form 20-F): Customer concentration compounds it: top ten customers 70% to 76% to 78% of net revenue across 2023-25; largest 19%, second 17% in 2025.",
+        "FACT (tier-1, 2025 Form 20-F): Revenue geography adds a third layer: North America 75% of 2025 revenue, up from 68% in 2023.",
+        "FACT (tier-1, 2025 Form 20-F): Land under the Taiwan fabs is LEASED from science-park administrations, with Kaohsiung Fab 22 leases up for renewal by December 2026."
+      ],
+      "resolution_needed": "This gate is only partly researchable. Track the overseas capacity ramp — Arizona, Kumamoto and Dresden — as a share of total advanced-node output. The customer dimension can be monitored; the geographic dimension can only be SIZED, not resolved."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.4,
+      "evidence": [
+        "INFERENCE: this is the one veto where TSMC scores materially worse than either 005930 or NVDA. A Taiwan contingency would impair the majority of the asset base — a genuine permanent loss of capital rather than a drawdown. Neither 005930 (cycle risk) nor NVDA (demand risk) carries a comparable tail.",
+        "ESTIMATE (explicitly subjective, and genuinely unknowable): probability of an event causing permanent impairment above 70% is 3-7% over five years. Confidence on this number is deliberately set at 0.40 — it is a judgement, not a measurement.",
+        "FACT (tier-1, 2025 Form 20-F): Absent that contingency, financial survivability is excellent: net cash of approximately US$64.9B, no short-term loans, operating cash flow of US$72.5B exceeding total debt outstanding.",
+        "INFERENCE: the market applies a persistent valuation discount to TSMC versus US-listed AI peers for exactly this reason. The investment question is whether that discount over- or under-compensates."
+      ],
+      "resolution_needed": "NOT RESOLVABLE BY RESEARCH. No amount of analysis converts geopolitical probability into a measurement. This gate is therefore a POSITION-SIZING decision rather than a research task, and it is the reason the recommended band is STARTER rather than larger despite the highest business-quality score in this harness."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "ticker": "012450",
+  "as_of": "2026-09-04",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 10,
+      "max_score": 15,
+      "confidence": 0.8,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Order backlog is genuinely large: total 수주잔고 KRW 114.92T against H1 2026 annualised revenue of about KRW 30.1T — roughly 3.8 years of work. Defence backlog alone is KRW 46.85T (한화에어로 방산 38.31T + 한화시스템 방산 8.54T); 항공 31.72T; 해양 33.01T.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): H1 2026 revenue KRW 15.04T and operating profit KRW 2.00T (13.3% margin); FY2025 revenue KRW 26.70T and operating profit KRW 3.09T (11.6%).",
+        "INFERENCE: European rearmament is a treaty- and budget-driven demand shift measured in decades, and Korea's edge is deliverable production capacity while European primes are constrained. That structural case, made at screening, survives."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): THE SCREENING THESIS WAS WRONG ABOUT WHAT THIS COMPANY IS. 해양 (Hanwha Ocean) is 63.91% of H1 2026 revenue (KRW 9.61T of KRW 15.04T); 방산 is only 29.68%. By revenue this is now majority a SHIPBUILDING company, and shipbuilding is a cyclical industry with a historically poor record on returns on capital — not a structural-growth industry.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): DEFENCE REVENUE IS SHRINKING. 방산 H1 2026 revenue KRW 4.47T against an FY2025 half-year run-rate of KRW 5.19T — down about 14%. Defence operating margin also slipped from 21.9% (FY2025) to 20.2% (H1 2026).",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): The FY2024-to-FY2025 revenue jump from KRW 11.24T to KRW 26.70T (+137%) is NOT organic growth — it reflects the consolidation of Hanwha Ocean. Any growth-rate comparison spanning that boundary is meaningless."
+      ],
+      "missing_data": [
+        "Defence backlog split between European contracts and domestic/other",
+        "Order intake by quarter to establish whether the defence decline is timing or trend"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.7,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Defence segment operating margin of 20.2% in H1 2026 and 21.9% in FY2025 is high for weapons systems and indicates real product value — K9 self-propelled howitzers, Chunmoo launchers and related systems.",
+        "INFERENCE: Korea's competitive edge is delivery speed and production capacity at a time when European primes are capacity-constrained. That is genuine, quantifiable customer value.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Marine segment operating margin improved from 7.7% (FY2025) to 12.0% (H1 2026), so the shipbuilding business is at least earning better than its historical norm."
+      ],
+      "counter_evidence": [
+        "INFERENCE: demand is a government-budget derivative. Pricing is exposed to sovereign negotiating power, and export contracts typically carry offset and local-production obligations that transfer value to the customer country.",
+        "INFERENCE: shipbuilding customer value is structurally low — vessels are largely commoditised and contracts are fixed-price, which is why the industry's long-run returns have been poor.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Aviation (항공) segment operating margin is only 4.6% in H1 2026 (KRW 67.2B on KRW 1.46T) and the segment posted a PRE-TAX LOSS of KRW 19.9B."
+      ],
+      "missing_data": [
+        "Contract margin structure on European export orders, including offset obligations",
+        "Fixed-price versus escalation terms in the marine backlog"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 8,
+      "max_score": 15,
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Marine margin roughly doubling (7.7% to 12.0%) while marine revenue grew about 32% versus the FY2025 half-year run-rate is a genuine positive.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Backlog of KRW 114.92T provides multi-year visibility that most industrials do not have.",
+        "INFERENCE: local-production joint ventures in Europe and the US naval MRO and Philly Shipyard positions are attempts to convert an export relationship into an embedded one."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): THE DEFENCE LEG — the actual moat — IS DETERIORATING ON BOTH LINES: revenue down about 14% versus the FY2025 run-rate AND margin down from 21.9% to 20.2%. A moat scored on defence cannot be scored positively while defence shrinks.",
+        "INFERENCE: the mix is shifting toward the LOWER-moat business. Marine went from 54.5% of FY2025 revenue to 63.9% in H1 2026 while defence fell from 38.9% to 29.7%. The company is becoming more shipbuilder and less defence contractor.",
+        "INFERENCE: European local-production requirements, which win the orders, structurally lower the margin on them over time — the moat is being traded for market access."
+      ],
+      "missing_data": [
+        "Whether the defence revenue decline is a delivery-schedule artefact or an order-intake trend",
+        "Marine margin sustainability once the current backlog vintage is delivered"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 5,
+      "max_score": 15,
+      "confidence": 0.75,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Reported profitability is real on an accrual basis: H1 2026 operating profit KRW 2.00T at a 13.3% margin, up from 11.6% in FY2025.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Equity attributable to owners grew from KRW 5.00T (2024) to KRW 9.68T (2025) to KRW 12.00T (2026-06)."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): DECISIVE NEGATIVE: H1 2026 OPERATING CASH FLOW WAS NEGATIVE KRW 370.7B, against POSITIVE KRW 1,014.3B in H1 2025 — a swing of about KRW 1.39T — while reporting KRW 2.00T of operating profit. Cash generated from operations before interest and tax was also negative, at KRW 139.8B.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Investing cash flow was NEGATIVE KRW 3,403.0B in H1 2026 against KRW 952.0B a year earlier. Total borrowings rose from KRW 12.39T to KRW 15.44T in six months, +24.6%, funding the gap.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): SHAREHOLDERS WERE DILUTED 13.1% IN 2025. Shares went from 45,581,161 (2024 year-end) to 51,563,401 via a third-party placement of 1,715,040 shares on 2025-04-29 and a rights issue with public offering of 4,267,200 shares on 2025-07-10 — 5,982,240 new shares.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): NON-CONTROLLING INTERESTS TAKE ROUGHLY 44% OF PROFIT. H1 2026 continuing-operations profit was KRW 1,606.8B but only KRW 897.1B accrued to owners of the parent. Consolidated figures materially overstate what reaches Hanwha Aerospace shareholders."
+      ],
+      "missing_data": [
+        "FY2025 FULL-YEAR operating cash flow — the single most important missing number, needed to establish whether negative H1 2026 OCF is seasonal working-capital timing in a long-cycle contract business or a structural condition",
+        "Amount raised in the 2025 equity issuances"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 5,
+      "max_score": 10,
+      "confidence": 0.6,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Strategic expansion is being executed rather than announced: European local-production arrangements, US naval MRO entry and the Philly Shipyard position give the export franchise embedded footholds.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Retained earnings rose from KRW 4.75T (2024) to KRW 5.98T (2025) to KRW 6.50T (2026-06), so the accrual earnings are being retained rather than distributed at the top of a cycle."
+      ],
+      "counter_evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): The 2025 capital raise diluted existing holders 13.1% in a single year across two tranches. A rights issue plus third-party placement at that scale is a material call on shareholders.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Capital paid in is being consumed rather than compounded so far: despite the raise, borrowings still rose KRW 3.05T in H1 2026 because operating cash flow was negative.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Capital surplus rose a further KRW 1.42T in H1 2026 with NO new shares issued (count flat at 51,563,401), which implies transactions in subsidiary interests. The nature of that movement is not established in the material reviewed and needs the equity note.",
+        "INFERENCE: Hanwha group governance carries the usual Korean chaebol related-party and controlling-family considerations, which the scorecard's management category requires be weighed."
+      ],
+      "missing_data": [
+        "Explanation of the KRW 1.42T H1 2026 capital surplus increase",
+        "Stated use of proceeds from the 2025 raise and progress against it",
+        "Whether further equity raises are contemplated"
+      ]
+    },
+    "financial_survivability": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.75,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Cash and equivalents of KRW 8.05T at 2026-06-30, up from KRW 7.71T, and total equity of KRW 20.24T of which KRW 12.00T is attributable to owners.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Backlog of KRW 114.92T means the revenue base is contracted rather than speculative, which supports the ability to service debt through a downturn.",
+        "FACT (tier-3, KIS Rating, 2026-01): consolidated total borrowings of KRW 12,433.1B at 2025-09-30 with NET DEBT/EBITDA OF 1.6x, and financial coverage described as excellent. On H1 2026 annualised operating profit of about KRW 4.01T plus depreciation, current net debt of roughly KRW 7.40T implies net debt/EBITDA nearer 1.2-1.3x."
+      ],
+      "counter_evidence": [
+        "CORRECTION TO AN EARLIER DRAFT OF THIS FILE: the leverage LEVEL is moderate, not weak — net debt/EBITDA of roughly 1.2-1.6x is conservative by any conventional standard, and a rating agency describes coverage as excellent. Score raised 6 to 7. The concern is NOT solvency or debt quantum; it is CASH CONVERSION — a 1.08 current ratio and negative operating cash flow while borrowings rose 24.6% in six months. Those remain facts and are scored in category 4 and under external_capital_dependence, where they belong.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Total borrowings KRW 15.44T (current KRW 9.55T + non-current KRW 5.90T) against KRW 8.05T of cash gives net debt of roughly KRW 7.40T — and borrowings rose 24.6% in six months.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Liquidity is tight: current assets KRW 32.90T against current liabilities KRW 30.49T is a current ratio of only 1.08. Nearly two-thirds of the balance sheet is current liabilities.",
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Interest paid was KRW 264.7B in H1 2026 against NEGATIVE operating cash flow — interest is currently being funded from financing, not from operations.",
+        "This is the weakest survivability profile in this harness. Samsung, NVDA and TSM hold net cash; AVGO is levered but generates KRW-equivalent tens of billions of free cash flow. This company is levered AND cash-consuming."
+      ],
+      "missing_data": [
+        "Debt maturity schedule",
+        "Covenant terms on the KRW 9.55T of current borrowings"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 3,
+      "max_score": 15,
+      "confidence": 0.65,
+      "evidence": [
+        "FACT (tier-1, 한화에어로스페이스 반기보고서 2026-08-14, 기준일 2026-06-30): Backlog of KRW 114.92T — about 3.8 years of revenue — gives genuinely good forward visibility, which is worth something and is why this is not scored at zero.",
+        "The structural driver behind the defence backlog is uncorrelated with the AI-capex complex that dominates the rest of this harness, which has portfolio value."
+      ],
+      "counter_evidence": [
+        "At KRW 1,244,000 and 51,563,401 shares the market capitalisation is about KRW 64.14T. Against equity attributable to owners of KRW 12.00T (BPS about KRW 232,703) that is a PRICE-TO-BOOK OF 5.35x.",
+        "On FY2025 owners' net income of KRW 1,405.0B (EPS about KRW 27,247) the trailing P/E is 45.7x; on H1 2026 annualised owners' net income of KRW 1,794.3B (EPS about KRW 34,796) it is 35.8x.",
+        "INFERENCE: 5.35x book and 36x forward earnings for a business with NEGATIVE operating cash flow, net debt of KRW 7.40T rising, a 13.1% dilution twelve months old, and 64% of revenue in shipbuilding is a demanding price by any standard.",
+        "INFERENCE: probability-weighted five-year return is approximately NEGATIVE 37%. This is the only name in this harness with a negative expected return."
+      ],
+      "missing_data": [
+        "Consensus FY2026-27 owners' earnings",
+        "Normalised mid-cycle marine margin"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "confidence": 0.65,
+      "evidence": [
+        "At about KRW 64T of market capitalisation the company is small enough in absolute terms that a 3-5x outcome is not arithmetically impossible, unlike the mega-caps elsewhere in this harness.",
+        "The backlog provides a floor under revenue that a pure cyclical would not have."
+      ],
+      "counter_evidence": [
+        "THE ASYMMETRY IS INVERTED. Modelled bear is about -77%, base about -37%, and even the BULL case is only +9% to +40% — because 5.35x book and 36x earnings already price a great deal. A distribution whose bull case barely beats cash is not an asymmetry worth taking.",
+        "The downside is LEVERED: net debt of KRW 7.40T rising, a 1.08 current ratio, and negative operating cash flow mean a cyclical downturn in marine would compound rather than be absorbed.",
+        "Permanent-loss probability is materially higher than for the other four names — estimated 8-12% versus 2-6% elsewhere — because leverage, negative cash generation and a cyclical revenue majority coincide."
+      ],
+      "missing_data": [
+        "None material — this is the arithmetic of the current price against the modelled outcomes"
+      ]
+    }
+  },
+  "total_score": 48,
+  "classification": "Reject"
+}
