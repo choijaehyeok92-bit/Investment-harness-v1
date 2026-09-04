@@ -1,0 +1,116 @@
+{
+  "ticker": "005930",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.75,
+      "evidence": [
+        "FACT: On 2025-07-17 the Supreme Court confirmed acquittal of Chairman Lee Jae-yong on all 19 charges relating to the Samsung C&T / Cheil Industries merger and Samsung Biologics accounting, with the court finding no proof of crime. Roughly nine years of legal risk closed.",
+        "FACT (tier-1 filing, 2026-08-21): the audit committee is composed entirely of independent directors, all of whom attended; five independent directors attended the board resolution with none absent.",
+        "FACT: The 2026-08-21 filing is the confirmed disclosure following two prior 'unconfirmed' responses to press reports (2026-06-24, 2026-07-23) - the company followed the required disclosure escalation rather than leaving the market with rumour."
+      ],
+      "resolution_needed": "None material. The historically cited accounting concern was adjudicated and acquitted; residual governance questions belong to the capital-allocation scorecard category, not to this veto."
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.9,
+      "evidence": [
+        "FACT (tier-1 filing): distributable-profit headroom for treasury purchases of KRW 222,623,486,825,081, from separate-basis net assets of KRW 254,330,082,981,146.",
+        "FACT: A KRW 110T+ investment programme and a KRW 90-110T shareholder return are being funded concurrently from internal cash generation.",
+        "FACT: H1 2026 operating profit of KRW 146.7T (Q1 KRW 57.2T, Q2 KRW 89.5T) against FY2025 of KRW 43.60T."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.8,
+      "evidence": [
+        "FACT: Share count is decreasing, not increasing. On 2026-04-02 Samsung cancelled 73,359,314 common and 13,603,461 preferred treasury shares (approx. KRW 14.58T); common shares outstanding fell from 5,919,637,922 to 5,846,278,608 (-1.24%).",
+        "COUNTER-FACT: The KRW 15T buyback approved 2026-08-21 is explicitly for employee share compensation (performance incentives, special performance bonus, performance-conditioned stock) and is NOT for cancellation. At the KRW 281,500 reference price that is 53,285,968 shares, about 0.91% of common shares - it offsets dilution rather than reducing count."
+      ],
+      "resolution_needed": "Track annual SBC expense and share issuance under the new performance-conditioned stock programme against the cancellation run-rate. The veto flips to INVESTIGATE if employee-compensation buybacks persistently exceed cancellations."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.8,
+      "evidence": [
+        "FACT: Growth is price-and-mix driven within a genuine physical capacity shortage, not subsidy-, discount- or marketing-driven. Q2 2026 operating margin of 52.2% is the arithmetic proof that this is not bought revenue.",
+        "FACT: Demand is anchored to named customer platforms - HBM4 qualified at NVIDIA and AMD, position secured on the NVIDIA Rubin platform, Tesla AI5 in foundry."
+      ],
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "severity": "HIGH",
+      "confidence": 0.5,
+      "evidence": [
+        "FACT: Current incremental ROIC is at an unrepeatable peak - a 52.2% company-wide operating margin including the handset, display and Harman businesses.",
+        "ESTIMATE: Combined 2027 capex for Samsung, SK hynix and Micron is projected at US$146B (approx. KRW 209T), about 3.4x the US$43B of 2024. DRAM makers raised 2026 capex by an average of more than 40%, with meaningful shipment expansion arriving from H2 2027 onward.",
+        "FACT: Samsung's own absorption is enormous - KRW 110T+ of facility and R&D investment planned, Pyeongtaek P5 fab1 at KRW 60T+ with fab2 similar (2029 target), and a US$37B Taylor commitment.",
+        "INFERENCE: This is the exact mechanism by which memory incremental ROIC has collapsed in every prior cycle, and the capital is being committed now, at the peak. Sources genuinely disagree on the outcome - SK hynix's CEO publicly forecasts the industry's worst-ever shortage in 2027, while other analysis expects new-line startups to ease supply in 2028-2030."
+      ],
+      "resolution_needed": "PRIMARY GATE. Model normalised mid-cycle operating profit explicitly against the announced 2027-2029 industry capacity additions, and establish whether HBM's contracted, customer-qualified, capacity-reserved structure genuinely dampens cycle amplitude or merely delays it. Until this is answered no position should be taken."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.65,
+      "evidence": [
+        "FACT: Direction of change is positive, which is what this veto tests. HBM share rose 21% (Q1 2026) to 33% (Q2 2026) while SK hynix fell from 64% a year earlier to 50%.",
+        "FACT: Samsung passed HBM4 qualification at NVIDIA and AMD first and began shipping in Q2 2026, securing a Rubin platform position; SK hynix's HBM4 mass production slipped to Q3 2026 on interface sync issues with full-year shipments revised down.",
+        "FACT: Foundry utilisation exceeded 80% in Q1 2026, the highest in about a year, with the Tesla AI5 win and breakeven pulled forward from 2027 to 2026.",
+        "COUNTER: Sources conflict on the exact Q2 2026 share level (Counterpoint SK 50% / Samsung 33%; another report Samsung 38% / SK 25%, which appears to conflate a year-end target with an actual). Direction is consistent across sources; level is not."
+      ],
+      "resolution_needed": "Re-test at Q3 and Q4 2026. If Samsung's share gain proves to be a temporary allocation shift during a competitor's stumble rather than a durable technology lead, this flips to INVESTIGATE."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.5,
+      "evidence": [
+        "INFERENCE: At the 2026-09-03 close of KRW 250,000 the price does NOT require the current peak to persist - roughly 7x annualised H1 2026 earnings already discounts a large normalisation. On that test the veto does not trigger.",
+        "COUNTER-INFERENCE: But at a 12-15x normalised multiple the price requires mid-cycle operating profit of roughly KRW 145-180T, or 2.5-3.1x the previous all-time peak of KRW 58.9T (2018), sustained. Equivalently it requires about 50-60% of the current run-rate to become the new normal.",
+        "ESTIMATE: Forward P/B of approximately 2.3x (2026E BPS KRW 109,313) sits at or above the top of Samsung's historical 0.9x-2.1x range, on peak-inflated book.",
+        "CORRECTION: The screening run of 2026-09-04 cited a stale broker figure of approximately 1.4x forward P/B. That figure appears to reference 2025 and is superseded."
+      ],
+      "resolution_needed": "This is not an unrealistic-bull-case trigger, but it is a thin margin. Resolution requires the normalised-earnings model in the incremental_roic_collapse gate plus a verified preferred-share price and consolidated net cash position."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "severity": "MEDIUM",
+      "confidence": 0.6,
+      "evidence": [
+        "INFERENCE: Profit concentration is extreme. With company-wide operating margin at 52.2%, essentially all incremental profit is semiconductor, within semiconductor it is memory, and within memory the swing factor is HBM4 allocation at a small number of accelerator customers. MX, VD and Harman are no longer profit-material at the margin.",
+        "INFERENCE: The end-demand funding source is concentrated too - hyperscaler capex guided above $725B for 2026 is now exceeding those customers' operating cash flow, with Alphabet reporting its first negative-FCF quarter since 2004 and Meta's cash generation down 91% YoY.",
+        "FACT: Manufacturing footprint includes Chinese fabs subject to US export-control policy, and the Taylor, Texas build-out is a US$37B single-site commitment."
+      ],
+      "resolution_needed": "Quantify HBM revenue by customer and the share of DS operating profit attributable to HBM. Separately assess Chinese fab exposure under current export-control policy."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "severity": "LOW",
+      "confidence": 0.85,
+      "evidence": [
+        "FACT (tier-1 filing): KRW 222.6T of distributable-profit headroom and KRW 254.3T of separate-basis net assets.",
+        "INFERENCE: A bear outcome for this security is a large price decline, not an impairment of capital. Modelled bear case is roughly -50% over five years with the company remaining solidly profitable and self-funding.",
+        "ESTIMATE (subjective): probability of permanent impairment above 70% is approximately 3-5%, requiring a simultaneous geopolitical disruption to the fab base and a decisive loss of the process-node lead."
+      ],
+      "resolution_needed": null
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ticker": "005930",
+  "as_of": "2026-09-04",
+  "label": "WATCH",
+  "hard_veto_status": "INVESTIGATE",
+  "position_band": "NONE",
+  "macro_pacing": "slow",
+  "confidence": 0.55,
+  "rationale": "Business quality is genuinely improving and the improvement is measurable, not narrative: HBM share 21%->33% in one quarter, first to pass HBM4 qualification at NVIDIA and AMD with a Rubin platform position while SK hynix slipped to Q3 2026, foundry utilisation above 80% with Tesla AI5 and breakeven pulled forward a year, share count down 1.24% after a real KRW 14.58T cancellation, and a record KRW 90-110T shareholder return worth 5.5-6.7% yield. Survivability is best-in-class with KRW 222.6T of distributable-profit headroom confirmed in a tier-1 filing. The scorecard totals 66/100 (Starter / Watch). Two things nonetheless prevent a position. First, Hard Veto > Score: incremental_roic_collapse is unresolved at HIGH severity - the industry is committing US$146B of 2027 capex, 3.4x the 2024 level, which is the exact mechanism that has ended every prior memory cycle, and it is being committed at the peak. Second, the expectation gap is thinner than the screening run concluded. That run relied on a stale broker figure of approximately 1.4x forward P/B; the corrected figure is approximately 2.29x, at or above the top of the historical 0.9x-2.1x range on peak-inflated book. Reverse-engineering shows the price requires sustained mid-cycle operating profit of KRW 145-180T, some 2.5-3.1x the prior all-time peak. That is demanding but not an unrealistic bull case, so the valuation veto does not trigger - it simply leaves little margin. Probability-weighted five-year return is approximately +11% total, or 2.2% annualised, under explicitly subjective weights. Separately, the asymmetry category is structurally capped: at approximately KRW 1,634T of equity value this cannot be a power-law outcome, so under policy/investment-philosophy.md section 4 it is a low-permanent-loss duration-and-yield proposition rather than the kind of position this strategy exists to find. WATCH with band NONE, not STARTER, because the HIGH-severity gate is open; not REJECT, because the direction of business evidence is positive and no veto reads FAIL.",
+  "increase_evidence": [
+    "PRIMARY: a completed normalised mid-cycle earnings model showing operating profit durably above roughly KRW 180T against the announced 2027-2029 industry capacity additions - this closes the incremental_roic_collapse gate and is the single prerequisite for any position.",
+    "HBM share holding at or above 33% in Q3 and Q4 2026 AFTER SK hynix's HBM4 reaches mass production - this distinguishes a durable technology lead from a temporary allocation shift during a competitor's stumble.",
+    "Confirmation at the January 2027 board that a material portion of the KRW 90-110T return is delivered as buyback-and-cancel rather than dividend, with cancellations exceeding the KRW 15T employee-compensation buyback.",
+    "Foundry reaching sustained quarterly operating profit with a second large external logic customer beyond Tesla at Taylor.",
+    "Evidence that HBM contract structure genuinely dampens cycle amplitude - multi-year, capacity-reserved, price-fixed agreements disclosed rather than inferred.",
+    "A verified preferred-share price and consolidated net cash position that materially lower the true equity value or EV versus the estimates used here.",
+    "Price weakness that widens the gap WITHOUT any deterioration in the above business evidence. Per policy/position-sizing.yaml, price decline alone is never sufficient - it must accompany improving business evidence."
+  ],
+  "reduce_or_exit_evidence": [
+    "HBM share reversing back toward the low 20s once SK hynix HBM4 volume arrives, which would recast the Q2 2026 gain as a competitor stumble rather than a Samsung advance and flip the moat_shrinkage veto to INVESTIGATE.",
+    "DRAM or HBM contract prices rolling over while the US$146B of 2027 industry capex is still being spent - the classic signature of an incremental-ROIC collapse in progress.",
+    "Capex guidance rising further while operating cash flow falls, or any move to fund the return programme with debt.",
+    "The January 2027 board delivering the return predominantly as dividend while employee-compensation buybacks continue, leaving net share count flat or rising.",
+    "Foundry breakeven slipping again, or a Taylor write-down.",
+    "CXMT demonstrating credible leading-edge DRAM at volume, which would convert the three-player oligopoly assumption underlying every scenario here into a four-player one.",
+    "Any evidence contradicting the management_or_accounting_integrity PASS."
+  ]
+}

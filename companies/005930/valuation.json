@@ -1,0 +1,95 @@
+{
+  "ticker": "005930",
+  "as_of": "2026-09-04",
+  "current_price": 250000,
+  "implied_expectations": {
+    "price_basis": "KRW 250,000 common close 2026-09-03 (KOSPI 6,579.48). Cross-check: KRW 281,500 close 2026-08-21 is a tier-1 FACT from the DART treasury-purchase filing.",
+    "share_count_common": 5846278608,
+    "share_count_preferred": 802371203,
+    "share_count_derivation": "FACT (tier-1): the 2026-08-21 filing states 1% of common issued = 58,462,786 shares. Cross-checked against 5,919,637,922 less the 73,359,314 common cancelled on 2026-04-02 = 5,846,278,608. Preferred = 815,974,664 less 13,603,461 cancelled = 802,371,203.",
+    "market_cap_common_krw_trn": 1461.6,
+    "market_cap_preferred_krw_trn_estimate": 172.5,
+    "market_cap_total_krw_trn_estimate": 1634.1,
+    "preferred_price_assumption": "ESTIMATE KRW 215,000 (approx. 14% discount to common). NOT verified - this is the single largest unverified input and moves total equity value by roughly +/- KRW 20T per KRW 25,000 of preferred price.",
+    "net_cash_krw_trn": "unknown - not established in this run. Historically a large net cash position; being consumed concurrently by KRW 110T+ capex and KRW 90-110T of shareholder return.",
+    "earnings_anchors": {
+      "fy2025_actual_operating_profit_krw_trn": 43.6,
+      "fy2025_actual_revenue_krw_trn": 333.61,
+      "q1_2026_operating_profit_krw_trn": 57.2,
+      "q2_2026_operating_profit_krw_trn": 89.5,
+      "q2_2026_revenue_krw_trn": 171.5,
+      "q2_2026_operating_margin_pct": 52.2,
+      "h1_2026_annualised_operating_profit_krw_trn": 293.4,
+      "prior_all_time_peak_operating_profit_krw_trn": 58.9,
+      "prior_peak_year": 2018
+    },
+    "reverse_engineered_requirement": {
+      "method": "Solve for the normalised mid-cycle operating profit that justifies KRW 1,634T of equity value at a range of normalised P/E multiples, assuming net income at approximately 75% of operating profit.",
+      "at_10x_normalised_pe": "requires normalised operating profit of approximately KRW 218T",
+      "at_12x_normalised_pe": "requires normalised operating profit of approximately KRW 180T",
+      "at_15x_normalised_pe": "requires normalised operating profit of approximately KRW 145T",
+      "interpretation_1": "The price does NOT require the current peak to persist. At roughly 7x annualised H1 2026 earnings the market already discounts a severe normalisation - this is why the price_requires_unrealistic_bull_case veto does not trigger.",
+      "interpretation_2": "But it DOES require mid-cycle operating profit of roughly KRW 145-180T, which is 2.5-3.1x the prior all-time peak of KRW 58.9T, sustained. Equivalently, roughly 50-60% of the current run-rate must become the new normal.",
+      "interpretation_3": "In one sentence: the price requires the AI-memory regime change to be substantially real and permanent. It does not require it to be perfect."
+    },
+    "price_to_book_cross_check": {
+      "bps_2026e_krw": 109313,
+      "implied_forward_pb": 2.29,
+      "historical_pb_range": "approximately 0.9x at troughs to 2.1x at the 2017-2018 peak",
+      "note": "2.29x sits at or above the top of the historical range, and is computed on a book value that peak earnings have themselves inflated - book is not a stable anchor at a cycle peak.",
+      "correction": "The 2026-09-04 screening run cited approximately 1.4x forward P/B from a broker source and used it as a primary SCREEN_IN argument. That figure appears to reference 2025 and is stale. This correction materially weakens the original screening argument."
+    },
+    "shareholder_yield": {
+      "fy2026_announced_return_krw_trn": "90-110",
+      "yield_on_total_equity_value_pct": "5.5-6.7",
+      "note": "FACT: board approved 2026-08-21, roughly 5x the prior record of KRW 20.3T in 2020. Approximately KRW 30T of cash dividend in Q3 2026; the remainder's split between dividend and buyback-and-cancel is decided at the January 2027 board. A separate KRW 15T buyback is for employee share compensation and is NOT accretive.",
+      "unresolved_conflict": "Press reporting conflicts on the multi-year figure - a June 2026 report described KRW 90T of buyback split over three years, while three-year totals are separately reported at KRW 120-140T against a 2026-alone figure of KRW 90-110T. Recorded as unresolved rather than reconciled by assumption."
+    }
+  },
+  "scenarios": {
+    "bear": {
+      "narrative": "Memory reverts. The US$146B of 2027 industry capex lands through 2028-2029; HBM commoditises as all three suppliers qualify at HBM5; CXMT reaches scale in conventional DRAM with state support. The AI-memory market is permanently larger than the 2010s, but the pricing rent is competed away.",
+      "normalised_operating_profit_krw_trn": "70-90",
+      "note_on_level": "Still well above the KRW 58.9T 2018 peak - this bear does not assume the AI demand shift was fake, only that it does not confer durable pricing power.",
+      "terminal_multiple": "approximately 1.0x P/B on a book that stops compounding (ROE approximately 7-8%)",
+      "equity_value_krw_trn": "750-850",
+      "five_year_total_return_pct": "-55 to -48",
+      "capital_permanence": "Not a permanent loss. The company remains profitable, self-funding and solvent throughout."
+    },
+    "base": {
+      "narrative": "AI memory is a partial regime change. Cycle amplitude dampens but does not disappear because HBM is contracted and capacity-reserved while conventional DRAM and NAND are not. Samsung holds roughly 33-38% HBM share. Foundry reaches sustained breakeven to small profit on Tesla, and the value-up capital return continues at a reduced rate after 2026.",
+      "normalised_operating_profit_krw_trn": "130-160",
+      "terminal_multiple": "approximately 1.3x P/B, or 12x normalised net income of KRW 100-120T",
+      "equity_value_krw_trn": "1,350-1,450",
+      "cumulative_shareholder_return_krw_trn": "approximately 400 over five years",
+      "five_year_total_return_pct": "+10 to +25",
+      "note": "Does not require perfect execution - it requires Samsung to hold the position it has already won, and the memory market to settle above but not far above the level the price already embeds."
+    },
+    "bull": {
+      "narrative": "AI memory is a durable regime change: a three-player, contracted, capacity-reserved industry with structurally higher returns. Samsung converts its unique memory-plus-foundry-plus-packaging integration into HBM5/HBM6 leadership as the base die becomes a logic product, and foundry reaches real profitability with Tesla, and additional large-customer volume at Taylor. Normalised returns re-rate the whole company.",
+      "normalised_operating_profit_krw_trn": "200-250",
+      "terminal_multiple": "approximately 15x normalised net income of KRW 160-190T",
+      "equity_value_krw_trn": "2,400-2,850",
+      "five_year_total_return_pct": "+70 to +105",
+      "note": "Genuinely plausible rather than heroic - it requires the vertical-integration advantage to matter at HBM5 and the current share direction to continue, both of which have supporting evidence today."
+    }
+  },
+  "permanent_loss_case": {
+    "definition": "Permanent impairment of more than 70% of capital, not a price decline.",
+    "required_conditions": "Requires a simultaneous combination: geopolitical disruption to the Korean or Chinese fab base, OR CXMT achieving leading-edge DRAM parity under state subsidy while Samsung's process-node lead evaporates, OR a decisive HBM5 technology miss combined with large foundry write-offs.",
+    "why_low": "FACT (tier-1 filing): KRW 222.6T of distributable-profit headroom and KRW 254.3T of separate-basis net assets. Net cash position, diversified revenue base, and no external financing dependence. In the modelled bear case the company remains solidly profitable.",
+    "subjective_probability_pct": "3-5"
+  },
+  "subjective_probabilities": {
+    "bear": 0.3,
+    "base": 0.5,
+    "bull": 0.2,
+    "labelled": "EXPLICITLY SUBJECTIVE - these are the analyst's judgement, not derived from data.",
+    "probability_weighted_five_year_total_return_pct": 11.4,
+    "annualised_pct": 2.2,
+    "sensitivity_warning": "This is the single most important caveat in the analysis. The result is highly sensitive to these weights. At bear 0.20 / base 0.50 / bull 0.30 the weighted five-year return rises to approximately +30% and expectation_gap_score would be 8-9, lifting the total scorecard to 68-69. The verdict of WATCH rather than STARTER rests on a subjective probability judgement, and a reasonable analyst could weight it differently."
+  },
+  "expectation_gap_score": 6,
+  "asymmetry_score": 5,
+  "notes": "Step order followed per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price was used as a starting point. Two inputs are unverified and material: the preferred-share price (ESTIMATE KRW 215,000) and the consolidated net cash position (unknown). Both should be closed before this valuation is relied upon. The asymmetry score is capped structurally rather than by evidence: at approximately KRW 1,634T of equity value a 10x outcome is arithmetically implausible, so under policy/investment-philosophy.md section 4 this is a low-loss duration-and-yield proposition, not a power-law candidate."
+}
