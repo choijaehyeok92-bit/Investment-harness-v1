@@ -2,7 +2,7 @@
   "run_id": "2026-09-us-kr",
   "as_of": "2026-09-04",
   "harness_version": "1.0",
-  "stage": "STAGE_1_STARTED",
+  "stage": "STAGE_1_WAVE_01_SOURCE_MAPPING_COMPLETE",
   "purpose": "false-negative-minimizing research funnel; not a buy recommendation",
   "markets": {
     "US": {
@@ -11,6 +11,8 @@
       "queued": 24,
       "carried_forward": 5,
       "needs_reconciliation": 1,
+      "source_maps_completed": 5,
+      "initial_evidence_notes_completed": 5,
       "fresh_scores_completed": 0
     },
     "KR": {
@@ -19,11 +21,13 @@
       "queued": 30,
       "carried_forward": 0,
       "needs_reconciliation": 0,
+      "source_maps_completed": 5,
+      "initial_evidence_notes_completed": 5,
       "fresh_scores_completed": 0
     }
   },
   "next_checkpoint": {
-    "deliverable": "US-1 and KR-1 evidence sheets with provisional scores",
+    "deliverable": "Wave 01 financial normalization and Wave 02 source mapping",
     "promotion_cap_per_market": 15
   },
   "known_data_issues": [
