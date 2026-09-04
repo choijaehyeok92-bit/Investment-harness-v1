@@ -1,5 +1,100 @@
 {
   "ticker": "NVDA",
+
+  "as_of": "2026-09-03",
+  "current_price": 227.23,
+  "implied_expectations": {
+    "market_price_timestamp_utc": "2026-09-03T16:54:51Z",
+    "market_cap_billions": 5518.28,
+    "starting_ttm_revenue_billions": 302.97,
+    "starting_ttm_operating_income_billions": 197.579,
+    "starting_ttm_operating_margin_pct": 65.21,
+    "starting_ttm_operating_cash_flow_billions": 134.36,
+    "starting_ttm_capex_and_asset_principal_billions": 7.474,
+    "starting_ttm_fcf_billions": 126.886,
+    "starting_ttm_fcf_margin_pct": 41.88,
+    "common_shares_outstanding_billions": 24.147,
+    "cash_and_marketable_debt_securities_billions": 56.586,
+    "publicly_held_equity_securities_billions": 47.74,
+    "total_debt_billions": 33.366,
+    "net_financial_assets_before_nonmarketable_securities_billions": 70.96,
+    "nonmarketable_and_equity_method_securities_billions": 51.157,
+    "central_reverse_dcf_discount_rate_pct": 9,
+    "central_reverse_dcf_terminal_growth_pct": 3,
+    "implied_revenue_cagr_10y_by_terminal_fcf_margin_pct": {
+      "35_pct_margin": 17.07,
+      "40_pct_margin": 15.53,
+      "45_pct_margin": 14.18
+    },
+    "equivalent_constant_fcf_cagr_10y_pct": 15.02,
+    "interpretation": "현재 가격은 Q2의 비정상적으로 높은 수익성을 장기간 유지하면서 매출 또는 FCF가 약 15% 내외로 10년 성장하는 미래를 요구한다. 이는 불가능한 Bull Case는 아니지만 경쟁, 고객 신용, 공급 약정과 수출통제 위험을 충분히 할인한 가격도 아니다."
+  },
+  "scenarios": {
+    "bear": {
+      "revenue_growth_pct_years_1_to_5": [25, 15, 10, 8, 6],
+      "revenue_growth_pct_years_6_to_10": 4,
+      "terminal_fcf_margin_pct": 32,
+      "discount_rate_pct": 10.5,
+      "terminal_growth_pct": 2.5,
+      "nonmarketable_securities_recognition_pct": 25,
+      "fully_diluted_shares_billions": 24.4,
+      "year_10_revenue_billions": 667.3,
+      "year_10_fcf_billions": 213.5,
+      "estimated_value_per_share": 92,
+      "return_vs_current_price_pct": -59.5,
+      "description": "AI 인프라 선구매가 정상화되고 자체 ASIC·경쟁 GPU가 가격을 압박하며, 고객지원 약정과 재고비용으로 FCF 마진이 32%까지 낮아진다."
+    },
+    "base": {
+      "revenue_growth_pct_years_1_to_5": [32, 26, 21, 17, 13],
+      "revenue_growth_pct_years_6_to_10": 8.5,
+      "terminal_fcf_margin_pct": 38,
+      "discount_rate_pct": 9,
+      "terminal_growth_pct": 3,
+      "nonmarketable_securities_recognition_pct": 50,
+      "fully_diluted_shares_billions": 24.3,
+      "year_10_revenue_billions": 1212.1,
+      "year_10_fcf_billions": 460.6,
+      "estimated_value_per_share": 221,
+      "return_vs_current_price_pct": -2.7,
+      "description": "Blackwell과 Rubin 수요가 확장되되 성장률은 점진적으로 둔화하고, 공급·클라우드 약정 때문에 FCF 마진은 현재보다 낮은 38%로 정상화한다."
+    },
+    "bull": {
+      "revenue_growth_pct_years_1_to_5": [40, 35, 30, 25, 20],
+      "revenue_growth_pct_years_6_to_10": 12,
+      "terminal_fcf_margin_pct": 43,
+      "discount_rate_pct": 8.5,
+      "terminal_growth_pct": 3.5,
+      "nonmarketable_securities_recognition_pct": 75,
+      "fully_diluted_shares_billions": 24.2,
+      "year_10_revenue_billions": 1967.8,
+      "year_10_fcf_billions": 846.2,
+      "estimated_value_per_share": 447,
+      "return_vs_current_price_pct": 96.7,
+      "description": "에이전트·추론·물리 AI가 거대한 신규 컴퓨팅 수요를 만들고 CUDA·네트워킹·시스템 해자가 유지되어 높은 성장과 FCF 마진이 함께 지속된다."
+    }
+  },
+  "permanent_loss_case": {
+    "estimated_value_range_per_share": [65, 105],
+    "drivers": [
+      "최종 고객 AI 수익화보다 인프라 선구매와 NVIDIA 지원이 수요를 앞당긴 것으로 확인",
+      "대형 고객 자체 가속기와 경쟁 GPU 확산으로 가격·시장점유율·총마진이 동시 하락",
+      "공급·클라우드·리스 약정과 보증이 취소 불가능한 현금유출 또는 손실로 전환",
+      "수출통제와 중국 생태계 확대로 글로벌 개발자·고객 해자가 구조적으로 약화"
+    ],
+    "nature_of_loss": "파산보다 높은 진입가격과 장기 고정성 약정이 결합해 주당 내재가치가 회복되지 않는 영구적인 가치 훼손이다."
+  },
+  "expectation_gap_score": 6,
+  "asymmetry_score": 5,
+  "subjective_probabilities": {
+    "bear_pct": 30,
+    "base_pct": 50,
+    "bull_pct": 20,
+    "probability_weighted_value_per_share": 227.5,
+    "expected_upside_vs_current_price_pct": 0.1
+  },
+  "notes": "모든 시나리오는 사실이 아닌 추정이다. DCF는 10년 명시기간과 연말 현금흐름 할인을 사용하고, 시작 FCF는 회사 정의에 맞춰 TTM 영업현금흐름에서 유형·무형자산 취득과 관련 원금지급을 차감했다. 시나리오별 FCF 마진은 현재 41.88%에서 10년 차 목표까지 선형 이동한다. 순금융자산에는 현금, 시장성 채무·공개 지분증권에서 차입금을 뺀 710억 달러를 반영했고, 비시장성·지분법 증권 512억 달러는 25%/50%/75%만 인정했다. 4,220억 달러 미래약정과 최대 1,085억 달러 보증은 부채로 단순 합산하지 않고 시나리오 마진·할인율에 반영했다. 현재가는 장중 스냅샷이므로 거래 전에 재확인해야 한다."
+}
+=======
   "as_of": "2026-09-04",
   "current_price": 226.27,
   "implied_expectations": {
@@ -142,3 +237,4 @@
   "asymmetry_score": 5,
   "notes": "Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. Every financial input is tier-1 SEC XBRL from the FY2026 10-K and Q2 FY2027 10-Q; the price is a tier-1 Form 4 transacted price. Two material unknowns remain and both are disclosed rather than estimated away: the cancellability terms of the $279B supply commitments, and the share of revenue from entities NVIDIA holds equity in. The asymmetry score is capped structurally — at $5.45T a power-law outcome is arithmetically implausible, so this is a quality-and-duration proposition, not the outlier-magnitude candidate this strategy exists to find."
 }
+
