@@ -1,0 +1,57 @@
+{
+  "ticker": "AXON",
+  "as_of": "2026-09-05",
+  "current_price": 538.15,
+  "implied_expectations": {
+    "price_date": "2026-09-03",
+    "market_cap_billion": 43.72,
+    "enterprise_value_billion": 44.88,
+    "2026_revenue_midpoint_billion": 3.697,
+    "2026_adjusted_ebitda_midpoint_billion": 0.943,
+    "ev_to_2026_revenue": 12.1,
+    "ev_to_2026_adjusted_ebitda": 47.6,
+    "reverse_dcf": "Current price approximately requires 18%-20% annual revenue growth for 10 years if terminal owner-FCF margin reaches 20%-22%, annual dilution averages 1.5%, discount rate is 10%, and terminal multiple is 25x-30x."
+  },
+  "scenarios": {
+    "bear": {
+      "value_per_share": 269,
+      "revenue_cagr_10y": 0.14,
+      "terminal_owner_fcf_margin": 0.20,
+      "annual_dilution": 0.02,
+      "discount_rate": 0.11,
+      "terminal_multiple": 22,
+      "interpretation": "Growth decelerates toward mid-teens, SBC/dilution remains elevated and margin conversion improves only gradually."
+    },
+    "base": {
+      "value_per_share": 504,
+      "revenue_cagr_10y": 0.17,
+      "terminal_owner_fcf_margin": 0.23,
+      "annual_dilution": 0.015,
+      "discount_rate": 0.10,
+      "terminal_multiple": 25,
+      "interpretation": "Axon sustains high-teens long-duration growth, converts software mix into materially better owner cash flow and gradually moderates dilution."
+    },
+    "bull": {
+      "value_per_share": 949,
+      "revenue_cagr_10y": 0.21,
+      "terminal_owner_fcf_margin": 0.26,
+      "annual_dilution": 0.01,
+      "discount_rate": 0.095,
+      "terminal_multiple": 28,
+      "interpretation": "Axon becomes a global public-safety operating system, with AI, 911, enterprise and drones extending duration while dilution normalizes."
+    }
+  },
+  "permanent_loss_case": {
+    "description": "If ARR/NRR decelerate, new-market bookings fail to convert, SBC remains structurally high and acquisitions do not earn adequate returns, valuation could compress toward a mid-single-digit to high-single-digit sales multiple before per-share cash economics mature.",
+    "illustrative_downside_range_per_share": [180, 300]
+  },
+  "expectation_gap_score": 5,
+  "asymmetry_score": 7,
+  "subjective_probabilities": {
+    "bear": 0.30,
+    "base": 0.50,
+    "bull": 0.20,
+    "probability_weighted_value_per_share": 522
+  },
+  "notes": "Valuation uses the latest confirmed market close available in retrieved data: $538.15 on 2026-09-03. September 4 close was not available from the retrieved source at analysis time. Scenario values are model estimates, not price targets."
+}
