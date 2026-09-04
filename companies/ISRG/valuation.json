@@ -1,38 +1,97 @@
 {
   "ticker": "ISRG",
-  "as_of": "2026-09-05",
-  "current_price": 369.83,
+  "as_of": "2026-09-04",
+  "current_price": 365.56,
   "implied_expectations": {
-    "price_date": "2026-09-03",
-    "shares_outstanding_millions": 353.278,
-    "market_cap_usd_billions": 130.65,
-    "cash_and_investments_usd_billions": 8.63,
-    "approx_enterprise_value_usd_billions": 122.03,
-    "ltm_attributable_net_income_usd_billions": 3.139,
-    "ltm_simple_fcf_proxy_usd_billions": 3.223,
-    "approx_market_cap_to_ltm_net_income": 41.6,
-    "approx_ev_to_ltm_simple_fcf": 37.9,
+    "reference_time_utc": "2026-09-04 15:28",
+    "period_end_shares_m": 353.9,
+    "equity_value_proxy_usd_b": 129.4,
+    "cash_and_investments_usd_b": 8.63,
+    "ttm_revenue_usd_b": 11.0344,
+    "ttm_operating_income_usd_b": 3.4512,
+    "ttm_fcf_usd_b": 3.2226,
+    "ttm_fcf_margin": 0.292,
+    "equity_value_to_revenue": 11.7,
+    "equity_value_to_reported_fcf": 40.1,
+    "ttm_diluted_eps": 8.72,
+    "price_to_ttm_diluted_eps": 41.9,
     "reverse_dcf": {
-      "starting_fcf_usd_billions": 3.223,
-      "discount_rate": 0.10,
-      "horizon_years": 10,
-      "terminal_multiple_20x_implied_fcf_cagr": 0.130,
-      "terminal_multiple_22x_implied_fcf_cagr": 0.122,
-      "terminal_multiple_25x_implied_fcf_cagr": 0.110
+      "forecast_years": 10,
+      "discount_rate": 0.095,
+      "terminal_growth": 0.03,
+      "annual_net_dilution": 0.0,
+      "starting_fcf_margin": 0.292,
+      "required_revenue_cagr_at_24pct_terminal_margin": 0.167,
+      "required_revenue_cagr_at_28pct_terminal_margin": 0.149,
+      "required_revenue_cagr_at_30pct_terminal_margin": 0.141,
+      "required_revenue_cagr_at_32pct_terminal_margin": 0.134
     },
-    "interpretation": "The price still embeds durable low-to-mid-teens cash-flow growth for a long period. That is plausible for Intuitive but leaves limited room for execution error."
+    "interpretation": "The market price requires low-to-mid-teens revenue compounding for a decade while preserving high-20s to low-30s FCF margins. This is plausible but leaves little valuation margin of safety."
   },
   "scenarios": {
-    "bear": {"fcf_cagr_10y":0.08,"discount_rate":0.105,"terminal_fcf_multiple":20,"fair_value_per_share":250,"upside_downside_vs_reference":-0.324,"description":"Procedure growth decelerates toward high single digits, competitors gain share, leasing/capex intensity rises and the valuation normalizes."},
-    "base": {"fcf_cagr_10y":0.12,"discount_rate":0.10,"terminal_fcf_multiple":25,"fair_value_per_share":398,"upside_downside_vs_reference":0.076,"description":"Da Vinci remains the category leader, global procedure growth stays in the low-to-mid teens for several years, da Vinci 5/SP/Ion expand the ecosystem and margins remain structurally high."},
-    "bull": {"fcf_cagr_10y":0.15,"discount_rate":0.095,"terminal_fcf_multiple":28,"fair_value_per_share":562,"upside_downside_vs_reference":0.520,"description":"OUS adoption accelerates, da Vinci 5 and SP expand indications rapidly, Ion becomes a major second platform, and operating leverage sustains mid-teens FCF growth."}
+    "bear": {
+      "ten_year_revenue_cagr": 0.08,
+      "year_10_revenue_usd_b": 23.8,
+      "year_10_fcf_margin": 0.24,
+      "year_10_fcf_usd_b": 5.72,
+      "annual_net_dilution": 0.005,
+      "present_value_per_share_usd": 194,
+      "return_vs_current": -0.47,
+      "key_assumptions": [
+        "U.S. procedure growth matures and international adoption slows",
+        "Competitors take placements and create pricing pressure",
+        "Hospital economics and remanufactured instruments constrain recurring revenue",
+        "FCF margin compresses as manufacturing, leasing and service costs rise"
+      ]
+    },
+    "base": {
+      "ten_year_revenue_cagr": 0.14,
+      "year_10_revenue_usd_b": 40.9,
+      "year_10_fcf_margin": 0.30,
+      "year_10_fcf_usd_b": 12.27,
+      "annual_net_dilution": 0.0,
+      "present_value_per_share_usd": 362,
+      "return_vs_current": -0.01,
+      "key_assumptions": [
+        "Da Vinci procedure growth gradually moderates while remaining durable",
+        "International adoption, da Vinci 5, SP and Ion extend the growth runway",
+        "Recurring revenue remains near the mid-80 percent range",
+        "Repurchases broadly offset equity issuance"
+      ]
+    },
+    "bull": {
+      "ten_year_revenue_cagr": 0.18,
+      "year_10_revenue_usd_b": 57.8,
+      "year_10_fcf_margin": 0.33,
+      "year_10_fcf_usd_b": 19.06,
+      "annual_net_dilution": -0.003,
+      "present_value_per_share_usd": 536,
+      "return_vs_current": 0.47,
+      "key_assumptions": [
+        "Robotic assistance expands rapidly across global soft-tissue procedures",
+        "Da Vinci 5 improves pricing, utilization and consumable economics",
+        "Ion becomes a scaled interventional platform and SP expands indications",
+        "Moat strength and operating leverage sustain a low-30s FCF margin"
+      ]
+    }
   },
   "permanent_loss_case": {
-    "description": "A credible permanent-loss path is not insolvency but a combination of clinically credible competing platforms, hospital multi-vendor adoption, regulatory/antitrust constraints on instruments/service economics, slower procedure growth and a lasting valuation multiple reset.",
-    "signposts": ["Sustained da Vinci procedure growth below 10%","Recurring revenue share or I&A revenue per procedure structurally declines","Competitive losses spread beyond China into core U.S./European accounts","Material product-safety event or regulatory restriction","FCF per share stagnates despite continued high reinvestment"]
+    "present_value_per_share_usd_range": [100, 150],
+    "conditions": [
+      "A serious product-safety or cybersecurity event causes sustained loss of trust",
+      "Competitive systems cause major account losses and recurring-revenue pressure",
+      "Reimbursement or antitrust remedies impair procedure and instrument economics",
+      "Revenue growth falls toward low single digits and FCF margin compresses toward the high teens"
+    ]
   },
   "expectation_gap_score": 7,
-  "asymmetry_score": 7,
-  "subjective_probabilities": {"bear":0.25,"base":0.50,"bull":0.25,"probability_weighted_value_per_share":402},
-  "notes": "Reference price is the Intuitive investor-relations closing price for 2026-09-03. LTM simple FCF proxy = operating cash flow less cash purchases of PP&E; it is not a company-defined metric and does not fully capture the economics of operating-lease system transfers, inventory build, or share-based compensation."
+  "asymmetry_score": 5,
+  "subjective_probabilities": {
+    "permanent_loss": 0.05,
+    "bear": 0.2,
+    "base": 0.55,
+    "bull": 0.2,
+    "probability_weighted_value_usd_per_share": 351
+  },
+  "notes": "TTM FCF equals FY2025 operating cash flow plus H1 2026 operating cash flow less H1 2025 operating cash flow, minus similarly calculated TTM capital expenditures: $3.7064B - $0.4838B = $3.2226B. Scenario values are decision-framework estimates, not price targets."
 }
