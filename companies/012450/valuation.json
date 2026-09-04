@@ -1,0 +1,27 @@
+{
+  "ticker": "012450",
+  "as_of": "2026-09-04",
+  "current_price": 1055000,
+  "implied_expectations": {
+    "market_price_source": "KRX close reported by Maeil Business Market, 2026-09-04",
+    "shares_outstanding": 51563401,
+    "market_cap_trillion_krw": 54.399,
+    "direct_listed_stake_market_value_trillion_krw": {"hanwha_ocean_30_44_pct": 8.096,"hanwha_systems_47_22_pct": 6.137,"kai_9_90_pct_post_period": 1.221,"total": 15.454},
+    "central_holding_company_discount_pct": 20,
+    "central_parent_net_debt_and_commitment_adjustment_trillion_krw": 3.0,
+    "implied_core_enterprise_value_trillion_krw": 45.036,
+    "implied_sustainable_core_ebit_trillion_krw_by_ev_ebit_multiple": {"15x": 3.002,"16x": 2.815,"18x": 2.502},
+    "fy2025_defense_aviation_space_segment_operating_profit_trillion_krw": 2.276,
+    "interpretation": "현재가는 상장 지분가치에 20% 할인과 중앙 재무조정을 적용할 때 핵심 방산·항공 사업에 약 45조원의 EV를 부여한다. 15~18배 EV/EBIT 기준 지속 EBIT 약 2.5~3.0조원이 필요해 FY2025 약 2.28조원 대비 추가 성장을 요구하지만 비현실적인 Bull Case만을 요구하는 수준은 아니다."
+  },
+  "scenarios": {
+    "bear": {"core_sustainable_ebit_trillion_krw": 1.8,"core_ev_ebit_multiple": 12,"core_enterprise_value_trillion_krw": 21.6,"recognized_listed_stakes_trillion_krw": 8.654,"net_debt_and_commitment_adjustment_trillion_krw": 4.5,"equity_value_trillion_krw": 25.754,"estimated_value_per_share": 499000,"return_vs_current_price_pct": -52.7,"description": "유럽 방산 주문의 정상화와 현지화 비용 증가, 한화오션 사이클 둔화, 대규모 투자 회수 지연이 겹쳐 핵심 EBIT와 자회사 가치가 동시에 하락한다."},
+    "base": {"core_sustainable_ebit_trillion_krw": 2.8,"core_ev_ebit_multiple": 16,"core_enterprise_value_trillion_krw": 44.8,"recognized_listed_stakes_trillion_krw": 12.363,"net_debt_and_commitment_adjustment_trillion_krw": 3.0,"equity_value_trillion_krw": 54.163,"estimated_value_per_share": 1050000,"return_vs_current_price_pct": -0.4,"description": "K9·천무 수출잔고가 높은 마진으로 전환되고 현지 생산투자가 계획대로 진행되지만, 투자비와 운전자본 때문에 FCF 전환은 점진적이다."},
+    "bull": {"core_sustainable_ebit_trillion_krw": 3.8,"core_ev_ebit_multiple": 18,"core_enterprise_value_trillion_krw": 68.4,"recognized_listed_stakes_trillion_krw": 15.763,"net_debt_and_commitment_adjustment_trillion_krw": 2.0,"equity_value_trillion_krw": 82.163,"estimated_value_per_share": 1593000,"return_vs_current_price_pct": 51.0,"description": "유럽·중동·호주에 이어 미국 지상방산/함정 MRO가 본격화되고 KAI·한화오션·한화시스템의 전략 시너지가 자본효율 훼손 없이 나타난다."}
+  },
+  "permanent_loss_case": {"estimated_value_range_per_share": [350000,550000],"drivers": ["방산 슈퍼사이클의 주문 피크아웃과 수출 프로젝트 마진 정상화","현지 생산·기술이전 비용 상승으로 증분 ROIC 하락","한화오션 조선 사이클 둔화와 대형 해외투자 손상","추가 대규모 유상증자 또는 저수익 지분투자로 주당가치 희석","중대재해·품질·계약이행 문제로 생산 및 납기 신뢰도 훼손"],"nature_of_loss": "파산보다는 높은 진입가격, 자본집약적 글로벌 확장과 주당가치 희석이 결합해 장기간 자본비용 이하 수익률을 만드는 형태의 영구손실이다."},
+  "expectation_gap_score": 6,
+  "asymmetry_score": 6,
+  "subjective_probabilities": {"bear_pct": 25,"base_pct": 50,"bull_pct": 25,"probability_weighted_value_per_share": 1048000,"expected_upside_vs_current_price_pct": -0.6},
+  "notes": "SOTP는 목표주가가 아니라 reverse-expectations 프레임이다. 상장 지분가치는 2026-09-04 종가 기준 보조 시장자료와 공개 지분율을 사용했다. KAI 9.90% 직접 지분은 반기말 이후 증가한 값이다. 모회사 순부채/투자약정 조정은 현금, 차입금, 미사용 증자자금의 용도제약 때문에 정확한 단일 순현금 수치보다 시나리오 조정치를 사용했다. 연결 실적은 한화오션·한화시스템 비지배지분을 포함하므로 모회사 주주가 100% 소유하는 것으로 평가하지 않았다."
+}
