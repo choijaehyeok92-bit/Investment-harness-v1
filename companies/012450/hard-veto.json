@@ -3,6 +3,17 @@
   "as_of": "2026-09-04",
   "overall_status": "INVESTIGATE",
   "vetoes": [
+
+    {"id":"management_or_accounting_integrity","status":"PASS","evidence":["2026 반기보고서는 사업결합 PPA 완료에 따라 전반기 비교재무제표를 소급 조정한 내용을 명시적으로 공시했고, 이를 숨기지 않았다.","첨부된 2025 영업보고서 정정도 기업결합·타회사 출자·이사회 결의서 수정사항을 정정신고 형태로 공개했다.","현재 자료에서 회계부정, 감사의견 훼손, 경영진의 고의적 허위공시를 뒷받침하는 증거는 확인되지 않았다."],"severity":"LOW","confidence":0.82,"resolution_needed":null},
+    {"id":"external_capital_dependence","status":"PASS","evidence":["2026년 6월말 연결 현금및현금성자산 약 8.05조원, 국내 AA/A1 및 S&P A- 신용등급으로 금융시장 접근성이 높다.","대규모 유상증자와 차입이 있었지만 이는 주로 글로벌 생산기지·지분투자·전략투자 재원이며 영업 생존 자체가 외부자금에 의존한다는 증거는 부족하다.","다만 H1 영업활동현금흐름이 음수이고 향후 전략투자 규모가 커 외부조달 의존도는 계속 추적해야 한다."],"severity":"MEDIUM","confidence":0.78,"resolution_needed":null},
+    {"id":"persistent_dilution","status":"INVESTIGATE","evidence":["2025년 제3자배정 1,715,040주와 주주배정/일반공모 4,267,200주가 발행돼 전년말 대비 주식 수가 약 13% 증가했다.","조달액 약 4.22조원은 미래전략투자 재원이지만 2026년 6월말까지 상당 부분이 아직 집행되지 않았다.","한 차례 대규모 증자만으로 장기적 '지속 희석'을 단정할 수 없으므로 FAIL이 아니라 INVESTIGATE로 둔다."],"severity":"HIGH","confidence":0.92,"resolution_needed":"향후 3년 추가 유상증자 없이 FCF와 내부자금으로 전략투자를 감당하는지, 주당 FCF가 희석 전 추세를 회복하는지 확인한다."},
+    {"id":"low_quality_growth","status":"PASS","evidence":["방산 성장의 상당 부분은 K9·천무 등 장기 수출계약과 약 38조원 방산 수주잔고로 뒷받침된다.","고객은 정부·군이며 마케팅 보조금에 의존하는 소비성 성장이 아니다.","현지생산·금융지원 조건이 마진을 낮출 수 있으나 현재 자료만으로 성장의 본질이 저품질이라고 판단할 근거는 부족하다."],"severity":"MEDIUM","confidence":0.84,"resolution_needed":null},
+    {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":["2026년 반기 영업이익은 44% 증가했지만 연결 영업현금흐름은 약 -0.37조원이었다.","계약자산 증가, 계약부채 감소, 글로벌 생산거점·한화오션·KAI·미국 조선 투자 등 자본투입 범위가 급격히 확대되고 있다.","2025~2028 미래전략투자 계획과 2025년 대규모 증자의 경제적 수익률은 아직 관찰기간이 짧다."],"severity":"HIGH","confidence":0.86,"resolution_needed":"현지 생산법인 및 전략지분투자별 ROIC, 수주 전환 후 현금마진, 주당 FCF를 2~4년 추적한다."},
+    {"id":"moat_shrinkage","status":"PASS","evidence":["K9·천무의 다국가 수출과 현지법인 확대, 높은 국내 진입장벽은 현재 해자가 축소보다 확장 방향임을 지지한다.","Vertical Aerospace 계약 해지는 신규 사업 리스크이지만 핵심 지상방산 해자의 구조적 약화를 의미하지는 않는다."],"severity":"MEDIUM","confidence":0.83,"resolution_needed":null},
+    {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":["현재 시가총액 약 54.4조원에서 상장 지분가치를 조정하면 핵심 사업에 약 45조원 EV가 내재된다.","15~18배 EV/EBIT 가정에서 지속 EBIT 약 2.5~3.0조원이 필요하며 FY2025 방산·항공·우주 세그먼트 영업이익 약 2.28조원 대비 추가 성장을 요구한다.","약 115조원 공개 수주잔고와 방산 수출 확대를 고려하면 공격적이지만 비현실적 Bull Case 이상이라고 단정할 수 없다."],"severity":"HIGH","confidence":0.7,"resolution_needed":null},
+    {"id":"fatal_concentration","status":"INVESTIGATE","evidence":["2026년 반기 연결매출의 약 64%가 해양, 연결 영업이익의 약 57%가 해양에서 발생해 조선 사이클 비중이 높다.","핵심 방산 수주는 폴란드 등 소수 대규모 국가계약의 납품 타이밍과 예산집행에 영향을 받는다.","반면 유럽·호주·중동·국내·미국으로 국가와 제품군이 확대되고 있어 단일 고객에 치명적으로 의존한다고 확정하기는 어렵다."],"severity":"HIGH","confidence":0.82,"resolution_needed":"국가별 수주잔고와 EBIT/FCF 기여, 상위 3개 국가의 비중, 한화오션 제외 모회사 주주 귀속 이익 비중을 추적한다."},
+    {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":["Bear SOTP는 약 50만원으로 현재가 대비 약 53% 하방을 보여 파산 없이도 큰 자본손실이 가능하다.","높은 진입가격과 대규모 투자, 조선·방산 사이클, 추가 희석 가능성이 동시에 작동하면 회복기간이 길어질 수 있다.","반면 높은 신용등급, 대규모 현금, 장기 수주잔고는 지급불능 위험을 낮춘다."],"severity":"HIGH","confidence":0.76,"resolution_needed":"주당 FCF가 정상화되고 추가 희석 가능성이 낮아지거나, 가격이 Base 가치 대비 충분히 할인될 때 재평가한다."}
+=======
     {
       "id": "management_or_accounting_integrity",
       "status": "INVESTIGATE",
@@ -117,6 +128,4 @@
         "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): MITIGATING: backlog of KRW 114.92T means revenue is contracted rather than speculative, and total equity of KRW 20.24T provides a real buffer."
       ],
       "resolution_needed": "Same as external_capital_dependence — the full-year cash flow picture determines whether this is a leveraged cyclical with a cash problem or a long-cycle business with a timing artefact."
-    }
-  ]
-}
+    },
