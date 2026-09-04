@@ -1,6 +1,7 @@
 {
   "ticker": "AVGO",
   "as_of": "2026-09-04",
+
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
@@ -25,4 +26,6 @@
     "A hyperscaler capex guidance cut, given that the demand behind the concentration is AI capex funded from balance sheet rather than operating cash flow.",
     "Net debt rising materially from roughly $47.1B to fund acquisitions rather than being reduced."
   ]
+
+
 }

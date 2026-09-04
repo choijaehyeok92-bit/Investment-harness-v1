@@ -1,0 +1,23 @@
+{
+  "ticker": "AXON",
+  "as_of": "2026-09-05",
+  "label": "WATCH",
+  "hard_veto_status": "INVESTIGATE",
+  "position_band": "NONE",
+  "rationale": "Axon is a high-quality, founder-led public-safety technology platform with strengthening ecosystem economics, 39% ARR growth, 126% NRR and $15.1 billion future contracted bookings. However, current valuation still embeds high-teens-to-20% long-duration growth, first-half 2026 free cash flow is negative, stock-based compensation is extremely high, and share count continues to rise. The combination of valuation and dilution prevents a starter position under the harness despite strong business quality.",
+  "increase_evidence": [
+    "Price falls enough to create at least ~20% discount to a re-underwritten base value without business deterioration.",
+    "ARR remains above ~25% growth and NRR remains at or above ~120% while international/enterprise bookings convert to revenue.",
+    "GAAP operating margin and owner-FCF margin expand materially while annual net dilution trends toward <=1%-2%.",
+    "Carbyne, Dedrone and other acquisitions demonstrate measurable cross-sell, margin contribution and acceptable acquisition ROIC."
+  ],
+  "reduce_or_exit_evidence": [
+    "ARR growth falls below ~20% with NRR below ~115% for multiple quarters absent a temporary deployment timing issue.",
+    "Future contracted bookings growth materially decelerates and cancellations/appropriation issues rise.",
+    "SBC and net dilution remain structurally high without commensurate per-share FCF growth.",
+    "Major ecosystem categories lose share or Evidence.com switching costs weaken.",
+    "Acquisition spending continues to raise leverage while owner cash flow fails to inflect."
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.88
+}

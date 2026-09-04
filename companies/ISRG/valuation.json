@@ -1,0 +1,97 @@
+{
+  "ticker": "ISRG",
+  "as_of": "2026-09-04",
+  "current_price": 365.56,
+  "implied_expectations": {
+    "reference_time_utc": "2026-09-04 15:28",
+    "period_end_shares_m": 353.9,
+    "equity_value_proxy_usd_b": 129.4,
+    "cash_and_investments_usd_b": 8.63,
+    "ttm_revenue_usd_b": 11.0344,
+    "ttm_operating_income_usd_b": 3.4512,
+    "ttm_fcf_usd_b": 3.2226,
+    "ttm_fcf_margin": 0.292,
+    "equity_value_to_revenue": 11.7,
+    "equity_value_to_reported_fcf": 40.1,
+    "ttm_diluted_eps": 8.72,
+    "price_to_ttm_diluted_eps": 41.9,
+    "reverse_dcf": {
+      "forecast_years": 10,
+      "discount_rate": 0.095,
+      "terminal_growth": 0.03,
+      "annual_net_dilution": 0.0,
+      "starting_fcf_margin": 0.292,
+      "required_revenue_cagr_at_24pct_terminal_margin": 0.167,
+      "required_revenue_cagr_at_28pct_terminal_margin": 0.149,
+      "required_revenue_cagr_at_30pct_terminal_margin": 0.141,
+      "required_revenue_cagr_at_32pct_terminal_margin": 0.134
+    },
+    "interpretation": "The market price requires low-to-mid-teens revenue compounding for a decade while preserving high-20s to low-30s FCF margins. This is plausible but leaves little valuation margin of safety."
+  },
+  "scenarios": {
+    "bear": {
+      "ten_year_revenue_cagr": 0.08,
+      "year_10_revenue_usd_b": 23.8,
+      "year_10_fcf_margin": 0.24,
+      "year_10_fcf_usd_b": 5.72,
+      "annual_net_dilution": 0.005,
+      "present_value_per_share_usd": 194,
+      "return_vs_current": -0.47,
+      "key_assumptions": [
+        "U.S. procedure growth matures and international adoption slows",
+        "Competitors take placements and create pricing pressure",
+        "Hospital economics and remanufactured instruments constrain recurring revenue",
+        "FCF margin compresses as manufacturing, leasing and service costs rise"
+      ]
+    },
+    "base": {
+      "ten_year_revenue_cagr": 0.14,
+      "year_10_revenue_usd_b": 40.9,
+      "year_10_fcf_margin": 0.30,
+      "year_10_fcf_usd_b": 12.27,
+      "annual_net_dilution": 0.0,
+      "present_value_per_share_usd": 362,
+      "return_vs_current": -0.01,
+      "key_assumptions": [
+        "Da Vinci procedure growth gradually moderates while remaining durable",
+        "International adoption, da Vinci 5, SP and Ion extend the growth runway",
+        "Recurring revenue remains near the mid-80 percent range",
+        "Repurchases broadly offset equity issuance"
+      ]
+    },
+    "bull": {
+      "ten_year_revenue_cagr": 0.18,
+      "year_10_revenue_usd_b": 57.8,
+      "year_10_fcf_margin": 0.33,
+      "year_10_fcf_usd_b": 19.06,
+      "annual_net_dilution": -0.003,
+      "present_value_per_share_usd": 536,
+      "return_vs_current": 0.47,
+      "key_assumptions": [
+        "Robotic assistance expands rapidly across global soft-tissue procedures",
+        "Da Vinci 5 improves pricing, utilization and consumable economics",
+        "Ion becomes a scaled interventional platform and SP expands indications",
+        "Moat strength and operating leverage sustain a low-30s FCF margin"
+      ]
+    }
+  },
+  "permanent_loss_case": {
+    "present_value_per_share_usd_range": [100, 150],
+    "conditions": [
+      "A serious product-safety or cybersecurity event causes sustained loss of trust",
+      "Competitive systems cause major account losses and recurring-revenue pressure",
+      "Reimbursement or antitrust remedies impair procedure and instrument economics",
+      "Revenue growth falls toward low single digits and FCF margin compresses toward the high teens"
+    ]
+  },
+  "expectation_gap_score": 7,
+  "asymmetry_score": 5,
+  "subjective_probabilities": {
+    "permanent_loss": 0.05,
+    "bear": 0.2,
+    "base": 0.55,
+    "bull": 0.2,
+    "probability_weighted_value_usd_per_share": 351
+  },
+  "notes": "TTM FCF equals FY2025 operating cash flow plus H1 2026 operating cash flow less H1 2025 operating cash flow, minus similarly calculated TTM capital expenditures: $3.7064B - $0.4838B = $3.2226B. Scenario values are decision-framework estimates, not price targets."
+}

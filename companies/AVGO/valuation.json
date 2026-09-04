@@ -3,6 +3,7 @@
   "as_of": "2026-09-04",
   "current_price": 357.16,
   "implied_expectations": {
+
     "price_basis": "US$357.16, close 2026-09-03 (down 2.74% on the day, following the Q3 FY2026 release on 2026-09-02 after which the stock fell about 6.5% after hours). Market price is a tier-4 input; the share count is tier-1.",
     "shares_outstanding_millions": 4758,
     "shares_basis": "FACT (tier-1): 4,758M issued and outstanding at 2026-05-03 per the Q2 FY2026 10-Q balance sheet.",
@@ -188,4 +189,5 @@
   "expectation_gap_score": 7,
   "asymmetry_score": 4,
   "notes": "Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. FY2025 and H1 FY2026 figures are tier-1 from the 10-K and 10-Q; Q3 FY2026 and Q4 guidance are from the 2026-09-02 release, which post-dates the supplied filings and is headline-only. The FY2026 GAAP earnings build is the ANALYST'S OWN ESTIMATE and is the weakest input in this file. Valuation is assessed on GAAP because roughly half the non-GAAP add-back is SBC, which is demonstrably a real cost — the share count rose despite $8,450M of H1 repurchases."
-}
+          
+

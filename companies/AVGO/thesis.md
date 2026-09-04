@@ -1,3 +1,4 @@
+
 # Investment Thesis — AVGO (Broadcom Inc.)
 
 As of: 2026-09-04 · Price: US$357.16 · Position: NONE (`WATCH`)
@@ -217,3 +218,5 @@ for acting early, the disciplined call is to wait.** Band `NONE`.
 
 Macro pacing is **slow**: the AI-capex complex remains a single correlated exposure per
 the 2026-09-04 screening run.
+=======
+

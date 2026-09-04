@@ -3,6 +3,7 @@
   "as_of": "2026-09-04",
   "categories": {
     "structural_change_and_leadership": {
+
       "score": 13,
       "max_score": 15,
       "confidence": 0.85,
@@ -98,10 +99,86 @@
         "Explanation of the FY2025 tax benefit",
         "Stated leverage target and buyback framework"
       ]
+=======
+      "score": 15,
+      "max_score": 15,
+      "evidence": [
+        "AI data-center custom accelerators and Ethernet networking are expanding structurally; Q3 FY2026 AI semiconductor revenue reached $16.7B, +221% YoY, with Q4 guidance of $21.7B, +236% YoY.",
+        "Broadcom participates across custom XPUs, switching/routing silicon, NICs, PHYs, optics and AI racks/systems, positioning it as an infrastructure platform rather than a single-chip vendor.",
+        "Management indicated AI semiconductor revenue could reach roughly $115B in FY2027 and $230B in FY2028, implying a multi-year step-change in addressable revenue."
+      ],
+      "counter_evidence": [
+        "AI infrastructure spending is concentrated among a small number of hyperscalers/frontier-model companies and could normalize sharply after the current build-out.",
+        "Marvell and internal hyperscaler silicon teams are credible competitors in custom accelerators and networking."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Independent market-share estimates for custom accelerators by customer and Ethernet AI fabrics."]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Custom silicon can improve hyperscaler performance/watt and total cost of ownership versus general-purpose accelerators for stable workloads.",
+        "Broadcom's Ethernet portfolio addresses scale, latency, bandwidth and power bottlenecks in large AI clusters using open standards.",
+        "VMware Cloud Foundation provides an integrated private/hybrid cloud stack for mission-critical enterprise infrastructure."
+      ],
+      "counter_evidence": [
+        "Large hyperscalers have bargaining power and can multi-source or insource parts of the stack.",
+        "VMware licensing/product simplification has created customer pushback and potential migration risk."
+      ],
+      "confidence": 0.85,
+      "missing_data": ["Customer-level TCO benchmarks and renewal/retention metrics for VMware Cloud Foundation."]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "Broadcom's moat is broadening from merchant connectivity silicon into custom AI accelerators, networking systems and software.",
+        "Deep co-design relationships, leading-edge SerDes/networking IP, advanced packaging integration and supply commitments create switching and execution barriers.",
+        "VMware adds an enterprise installed base and recurring infrastructure-software economics, diversifying the semiconductor franchise."
+      ],
+      "counter_evidence": [
+        "Custom ASIC relationships are customer-specific and can be lost at redesign cycles.",
+        "Nvidia's CUDA/networking ecosystem remains a powerful competing architecture; Marvell is winning meaningful custom-silicon business."
+      ],
+      "confidence": 0.88,
+      "missing_data": ["Design-win duration and renewal rates for each major AI customer; exact AI networking share."]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "H1 FY2026 operating cash flow was $18.8B versus only $0.5B of capex; Q3 FCF was $13.7B, 46% of revenue.",
+        "Q3 revenue grew 86% YoY while GAAP operating income grew 171%, showing exceptional incremental operating leverage.",
+        "Broadcom's fabless model and software mix allow very high cash conversion despite rapid revenue growth."
+      ],
+      "counter_evidence": [
+        "H1 FY2026 stock-based compensation was $4.3B, so economic FCF should be assessed after dilution cost.",
+        "AI growth requires supply commitments and working-capital build; inventory and receivables rose materially in H1."
+      ],
+      "confidence": 0.92,
+      "missing_data": ["Customer-specific gross margins and normalized post-SBC FCF per share for the AI accelerator business."]
+    },
+    "management_and_capital_allocation": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Hock Tan has a long record of integrating acquisitions, focusing portfolios and expanding cash generation; VMware integration has already lifted infrastructure-software revenue.",
+        "FY2025 FCF was $26.9B; management simultaneously funded dividends, repurchases and debt service.",
+        "Executive compensation is overwhelmingly variable/long-term equity based, and the board extended Tan's leadership through FY2030 with performance-stock incentives."
+      ],
+      "counter_evidence": [
+        "The acquisition-led model created substantial goodwill/intangibles and debt, increasing execution consequences if a large transaction disappoints.",
+        "Aggressive VMware monetization can maximize near-term economics at the expense of customer goodwill or ecosystem breadth."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Long-run VMware logo-retention/churn metrics after licensing changes."]
+
     },
     "financial_survivability": {
       "score": 8,
       "max_score": 10,
+
       "confidence": 0.8,
       "evidence": [
         "FACT (tier-1, 10-K FY2025 / 10-Q Q2 FY2026): Cash flow coverage is ample: FY2025 operating cash flow $27,537M against cash interest paid of $2,672M — roughly 10x coverage. Cash and equivalents rose to $19,628M at 2026-05-03.",
@@ -156,4 +233,6 @@
   },
   "total_score": 68,
   "classification": "Starter / Watch"
+
+
 }

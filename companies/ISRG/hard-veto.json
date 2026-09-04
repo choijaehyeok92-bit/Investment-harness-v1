@@ -1,0 +1,105 @@
+{
+  "ticker": "ISRG",
+  "as_of": "2026-09-04",
+  "overall_status": "PASS",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "evidence": [
+        "No restatement, material weakness or management-integrity issue was identified in the supplied filings.",
+        "PwC has audited the company since FY2014, eight of ten director nominees were independent and all board committees were independent."
+      ],
+      "severity": "LOW",
+      "confidence": 0.93,
+      "resolution_needed": null
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "evidence": [
+        "The company held $8.63B of cash and investments at June 30, 2026 and generated $1.973B of H1 operating cash flow.",
+        "There is no meaningful financial-debt burden and current growth is internally funded."
+      ],
+      "severity": "LOW",
+      "confidence": 0.98,
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "PASS",
+      "evidence": [
+        "June period-end shares declined from 358.4M to 353.9M year over year as repurchases exceeded equity issuance.",
+        "TTM SBC was material but manageable at approximately 7.6% of revenue; the 2026 equity-plan increase adds potential future issuance and should be monitored."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.92,
+      "resolution_needed": null
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "evidence": [
+        "Revenue growth is supported by procedure growth, rising utilization, installed-base expansion and 85% recurring revenue rather than subsidies or promotional acquisition."
+      ],
+      "severity": "LOW",
+      "confidence": 0.95,
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "PASS",
+      "evidence": [
+        "H1 2026 operating income grew 38% on 21% revenue growth, while TTM FCF margin was approximately 29.2%.",
+        "Inventory and lease asset intensity are rising but do not currently indicate structural incremental-return collapse."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.9,
+      "resolution_needed": null
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "PASS",
+      "evidence": [
+        "Installed base, procedure volume, utilization and recurring revenue remain positive, and da Vinci 5 is scaling.",
+        "Competition is increasing, especially in China, but no persistent consolidated moat contraction is evident."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.86,
+      "resolution_needed": null
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "PASS",
+      "evidence": [
+        "At a 30% year-ten FCF margin, the reverse DCF requires approximately 14.1% annual revenue growth for ten years.",
+        "That requirement is demanding and close to the modeled Base case, but it is not unrealistic relative to current procedure growth and platform opportunities."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.8,
+      "resolution_needed": null
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "PASS",
+      "evidence": [
+        "Economics are concentrated in the da Vinci ecosystem, but revenue is diversified across procedures, geographies, hospitals, consumables, service and leases.",
+        "No fatal single-customer or single-regulation dependence was identified."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.86,
+      "resolution_needed": null
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "evidence": [
+        "Substantial net cash, recurring revenue, broad procedure exposure and positive FCF make bankruptcy or permanent loss from ordinary cyclical stress unlikely.",
+        "Product-safety, regulatory and antitrust events remain the most credible permanent-impairment paths but are not currently probable enough to trigger a veto."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.88,
+      "resolution_needed": null
+    }
+  ]
+}

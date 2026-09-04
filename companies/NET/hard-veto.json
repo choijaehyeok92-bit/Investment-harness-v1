@@ -1,0 +1,115 @@
+{
+  "ticker": "NET",
+  "as_of": "2026-09-04",
+  "overall_status": "FAIL",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "KPMG는 FY2025 재무제표에 적정 의견을 제시했고 회사는 Q2 공시통제가 효과적이라고 평가했다.",
+        "공동창업자 합산 의결권은 52.4%이며 Class C/Series FF 변경은 시간 sunset 없이 통제와 경제적 유동성을 분리한다.",
+        "2026년 8월 5일 현재 관련 소송 8건이 있었으나 원고 주장에는 아직 법원의 최종 판단이 없다."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.86,
+      "resolution_needed": "Class C/Series FF 소송 결과, 최종 시행조건, 독립이사 감독과 관련자 거래 공시를 확인한다."
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "evidence": [
+        "2026년 6월 말 현금·매도가능증권은 41.63억 달러였고 상반기 FCF는 1.405억 달러였다.",
+        "10억 달러 회전신용한도는 미인출이었고 2031 사채는 0% 이자다.",
+        "신규 25억 달러 사채를 제외해도 영업은 플러스 FCF를 냈다."
+      ],
+      "severity": "LOW",
+      "confidence": 0.9,
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "TTM SBC는 5.077억 달러로 매출의 20.2%, 회사 정의 FCF의 161%다.",
+        "기말 발행주식수는 2025년 말 3.519억 주에서 2026년 6월 3.559억 주로 1.1% 증가했다.",
+        "무의결권 Class C는 주식보상·인수에 사용될 예정이고 2030·2031 전환사채도 잠재 희석을 만든다."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.94,
+      "resolution_needed": "SBC/매출 15% 미만, 연간 순희석 1% 이하와 희석 후 FCF/주 증가를 최소 2년 확인한다."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "evidence": [
+        "Q2 매출 36%, Current RPO 35%, 대형고객 26.6% 성장과 DBNR 120%가 함께 개선됐다.",
+        "단일 고객이 FY2023~FY2025 매출의 10%를 넘지 않았고 상반기 FCF는 63% 증가했다.",
+        "성장에 높은 SBC와 마케팅이 수반되지만 고객 확장과 현금창출 증거가 있어 보조금 의존 성장으로 단정할 근거는 없다."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.84,
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "상반기 매출 35% 성장과 FCF 63% 성장은 증분 현금창출을 지지한다.",
+        "반면 총마진은 75%에서 72%로 하락했고 SBC를 포함한 TTM GAAP 영업은 손실이다.",
+        "20% 구조조정과 AI·GPU 인프라 투자의 정상화 증분수익률은 아직 관찰되지 않았다."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.8,
+      "resolution_needed": "총마진 회복, 구조조정 후 영업레버리지, 제품별 증분 총이익과 희석 후 FCF/주를 확인한다."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "PASS",
+      "evidence": [
+        "DBNR은 114%에서 120%로 개선됐고 대형고객과 Current RPO가 각각 약 27%, 35% 증가했다.",
+        "글로벌 네트워크 범위와 단일 스택의 제품 폭은 확대되고 있다.",
+        "총마진 하락은 경고지만 현재까지 고객 확장과 해자 지표의 지속적 수축은 확인되지 않았다."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.83,
+      "resolution_needed": null
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "FAIL",
+      "evidence": [
+        "현재가는 TTM 매출 약 39.7배와 회사 정의 FCF 약 316.7배다.",
+        "10년 차 FCF 마진 30%에서도 현재 가격은 10년 매출 CAGR 약 34.2%와 10년 차 매출 약 477억 달러를 요구한다.",
+        "성장 38%에서 14%로 둔화하고 FCF 마진 38%를 달성하는 Bull DCF도 주당 약 260달러로 현재가 281.44달러보다 낮다."
+      ],
+      "severity": "CRITICAL",
+      "confidence": 0.88,
+      "resolution_needed": "가격이 Base 가치 대비 최소 20% 할인되거나 실적 상향으로 내재 10년 성장 요구가 20%대 초반 이하로 낮아져야 한다."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "PASS",
+      "evidence": [
+        "FY2023~FY2025에 단일 고객이 매출의 10%를 넘지 않았다.",
+        "미국 매출은 Q2 51%였고 나머지는 EMEA, APAC와 기타 지역으로 분산됐다.",
+        "제품과 사용사례는 Application Services, SASE, 개발자 플랫폼과 소비자 서비스로 분산된다."
+      ],
+      "severity": "LOW",
+      "confidence": 0.9,
+      "resolution_needed": null
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "유동성과 플러스 FCF 때문에 파산 확률은 낮다.",
+        "그러나 Base 가치가 현재가보다 약 61% 낮고 주관적 확률가중가치는 약 59% 낮다.",
+        "높은 시작가격, 총마진 하락, SBC·전환사채 희석과 창업자 통제구조가 겹치면 회복 불가능한 자본손실이 가능하다."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.85,
+      "resolution_needed": "가격 안전마진과 희석 후 FCF/주의 장기 상승 경로가 함께 확인돼야 한다."
+    }
+  ]
+}

@@ -3,6 +3,7 @@
   "as_of": "2026-09-04",
   "overall_status": "INVESTIGATE",
   "vetoes": [
+
     {
       "id": "management_or_accounting_integrity",
       "status": "INVESTIGATE",
@@ -114,5 +115,5 @@
       ],
       "resolution_needed": null
     }
-  ]
+
 }

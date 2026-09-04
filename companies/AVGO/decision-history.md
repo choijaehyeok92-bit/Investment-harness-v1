@@ -1,3 +1,4 @@
+
 # Decision History — AVGO
 
 Append-only. Do not erase prior decisions.
@@ -114,3 +115,4 @@ Q4 FY2026 results and the FY2026 10-K (December 2026). Per `policy/monitoring.ya
 review checks thesis-critical KPIs only and does **not** evaluate price. Critical KPIs,
 in order: single-customer concentration percentage, share count, GAAP segment margins,
 and infrastructure software growth.
+

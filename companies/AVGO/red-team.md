@@ -1,3 +1,4 @@
+
 # Red Team — AVGO
 
 As of 2026-09-04 · per `agents/red-team.md`
@@ -153,3 +154,4 @@ re-examined at the next review.
 
 **Required before any move to STARTER:** the 42% customer identified and the XPU
 contract structure established. Both are answerable. Neither is answered today.
+

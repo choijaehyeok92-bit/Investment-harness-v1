@@ -1,0 +1,27 @@
+{
+  "ticker": "DDOG",
+  "as_of": "2026-09-04",
+  "label": "WATCH",
+  "hard_veto_status": "INVESTIGATE",
+  "position_band": "NONE",
+  "rationale": "Datadog is a high-quality AI-era observability and security platform: Q2 revenue grew 36%, low-120% dollar-based net retention and rapidly rising multi-product adoption support customer value and a widening platform moat. However, the largest customer began reducing usage after materially contributing to prior growth, calculated TTM SBC was 21.5% of revenue and period-end shares grew about 3%. At $213.81, a reverse DCF requires roughly 22%-24% revenue growth for ten years at 30%-35% year-ten FCF margins. Base value is approximately $168 and Bull value approximately $295, so the current price offers no margin of safety and requires near-Bull execution. Maintain WATCH with no position until multiple operating, dilution and valuation signals improve together.",
+  "increase_evidence": [
+    "The largest-customer usage reduction is absorbed while revenue excluding that customer grows at least 25% for two quarters.",
+    "Trailing dollar-based net retention remains at or above 120% and customers with at least $100,000 ARR continue growing at least 20%.",
+    "Four-, six- and eight-product adoption continues increasing without pricing or gross-retention deterioration.",
+    "GAAP gross margin returns to at least 80% while third-party hosting-cost growth does not exceed revenue growth.",
+    "SBC falls below 18% of revenue on a visible path to 15%, annual net dilution falls to 1.5% or less, and diluted FCF per share grows faster than revenue.",
+    "Price trades at least 20% below a refreshed Base value or stronger evidence reduces the implied ten-year revenue CAGR below 18%."
+  ],
+  "reduce_or_exit_evidence": [
+    "Normalized revenue growth excluding the largest customer falls below 20% and is not offset by diversified AI-native demand.",
+    "Dollar-based net retention falls below 110% for four quarters or $100,000+ ARR customer growth falls below 15%.",
+    "Multi-product adoption stalls or reverses at the four-, six- and eight-product thresholds.",
+    "GAAP gross margin falls below 75% because hosting or telemetry-processing costs structurally outgrow revenue.",
+    "SBC remains above 20% of revenue and annual net dilution above 3% for two years.",
+    "A material security incident, service failure or governance event damages customer trust or minority-shareholder alignment.",
+    "The market price continues to require the Bull case while business evidence fails to strengthen."
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.9
+}
