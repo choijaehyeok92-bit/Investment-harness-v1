@@ -1,0 +1,16 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {"id":"management_or_accounting_integrity","status":"PASS","evidence":["No material accounting-reliability or management-integrity issue identified in the supplied 10-K, 10-Q, Q3 8-K or proxy."],"severity":"LOW","confidence":0.9,"resolution_needed":null},
+    {"id":"external_capital_dependence","status":"PASS","evidence":["Broadcom generates very large positive FCF and is not structurally dependent on new equity/debt funding for operations."],"severity":"LOW","confidence":0.95,"resolution_needed":null},
+    {"id":"persistent_dilution","status":"PASS","evidence":["SBC is material, but repurchases are large and outstanding share growth is limited; monitor net dilution rather than gross SBC expense."],"severity":"MEDIUM","confidence":0.8,"resolution_needed":null},
+    {"id":"low_quality_growth","status":"PASS","evidence":["Growth is driven by mission-critical custom silicon/networking and infrastructure software rather than subsidies or promotional acquisition."],"severity":"LOW","confidence":0.92,"resolution_needed":null},
+    {"id":"incremental_roic_collapse","status":"PASS","evidence":["Revenue growth is currently accompanied by faster operating-income and FCF growth, not collapsing incremental economics."],"severity":"LOW","confidence":0.9,"resolution_needed":null},
+    {"id":"moat_shrinkage","status":"PASS","evidence":["Current evidence indicates moat broadening in AI custom compute/networking; no persistent moat contraction identified."],"severity":"MEDIUM","confidence":0.82,"resolution_needed":null},
+    {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":["Current price requires strong FCF growth, but not the full management AI-revenue bull trajectory; valuation is demanding rather than mathematically dependent on a perfect bull case."],"severity":"HIGH","confidence":0.72,"resolution_needed":null},
+    {"id":"fatal_concentration","status":"INVESTIGATE","evidence":["Top five end customers accounted for about 40% of FY2025 revenue; one distributor represented 32% of revenue. AI growth is concentrated among a small number of hyperscalers/frontier-model customers."],"severity":"HIGH","confidence":0.95,"resolution_needed":"Track customer-specific AI revenue concentration, design-win duration, and whether 2027-2028 growth broadens across customers."},
+    {"id":"permanent_loss_probability","status":"PASS","evidence":["High cash generation, diversified software earnings and manageable debt service make bankruptcy/permanent impairment unlikely under ordinary cyclical stress."],"severity":"MEDIUM","confidence":0.85,"resolution_needed":null}
+  ]
+}
