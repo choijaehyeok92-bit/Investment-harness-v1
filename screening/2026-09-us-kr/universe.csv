@@ -1,18 +1,18 @@
 market,ticker,company_name,sector,structural_theme,evidence_status,screening_status,batch
-US,MSFT,Microsoft,Software,Cloud and AI platform,UNREVIEWED,RESEARCHING,US-1
+US,MSFT,Microsoft,Software,Cloud and AI platform,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
 US,GOOGL,Alphabet,Interactive Media,Search cloud and AI platform,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
-US,AMZN,Amazon,Consumer and Cloud,E-commerce cloud and logistics,UNREVIEWED,RESEARCHING,US-1
-US,META,Meta Platforms,Interactive Media,Attention network and AI monetization,UNREVIEWED,RESEARCHING,US-1
+US,AMZN,Amazon,Consumer and Cloud,E-commerce cloud and logistics,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
+US,META,Meta Platforms,Interactive Media,Attention network and AI monetization,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
 US,NVDA,NVIDIA,Semiconductors,Accelerated computing platform,DATA_CONFLICT,NEEDS_RECONCILIATION,PRIOR
 US,AVGO,Broadcom,Semiconductors and Software,AI connectivity and infrastructure software,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
 US,AMD,Advanced Micro Devices,Semiconductors,Compute share gain and heterogeneous computing,UNREVIEWED,QUEUED,US-2
 US,ORCL,Oracle,Software,Cloud infrastructure and database installed base,UNREVIEWED,QUEUED,US-2
-US,NOW,ServiceNow,Software,Enterprise workflow platform,UNREVIEWED,RESEARCHING,US-1
+US,NOW,ServiceNow,Software,Enterprise workflow platform,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
 US,CRM,Salesforce,Software,Customer data and workflow platform,UNREVIEWED,QUEUED,US-2
 US,ADBE,Adobe,Software,Creative and document workflow platform,UNREVIEWED,QUEUED,US-2
 US,INTU,Intuit,Software,Financial operating system for consumers and SMBs,UNREVIEWED,QUEUED,US-2
 US,PANW,Palo Alto Networks,Cybersecurity,Security platform consolidation,UNREVIEWED,QUEUED,US-2
-US,CRWD,CrowdStrike,Cybersecurity,Cloud-native security platform,UNREVIEWED,RESEARCHING,US-1
+US,CRWD,CrowdStrike,Cybersecurity,Cloud-native security platform,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
 US,DDOG,Datadog,Software,Cloud observability and security,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
 US,NET,Cloudflare,Software,Edge network security and developer platform,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
 US,PLTR,Palantir Technologies,Software,Operational AI software,UNREVIEWED,QUEUED,US-2
@@ -40,20 +40,20 @@ US,CEG,Constellation Energy,Independent Power,Carbon-free baseload power,UNREVIE
 US,V,Visa,Financial Services,Global digital payments network,UNREVIEWED,QUEUED,US-3
 US,MA,Mastercard,Financial Services,Global digital payments network,UNREVIEWED,QUEUED,US-3
 KR,005930,Samsung Electronics,Technology Hardware,AI memory foundry and devices,UNREVIEWED,QUEUED,KR-2
-KR,000660,SK Hynix,Semiconductors,HBM and AI memory,UNREVIEWED,RESEARCHING,KR-1
-KR,207940,Samsung Biologics,Biotechnology,Global biologics CDMO,UNREVIEWED,RESEARCHING,KR-1
+KR,000660,SK Hynix,Semiconductors,HBM and AI memory,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
+KR,207940,Samsung Biologics,Biotechnology,Global biologics CDMO,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,373220,LG Energy Solution,Electrical Equipment,Global battery platform,UNREVIEWED,QUEUED,KR-2
 KR,006400,Samsung SDI,Electrical Equipment,Premium batteries and materials,UNREVIEWED,QUEUED,KR-2
-KR,005380,Hyundai Motor,Automobiles,Global auto share and software transition,UNREVIEWED,RESEARCHING,KR-1
+KR,005380,Hyundai Motor,Automobiles,Global auto share and software transition,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,000270,Kia,Automobiles,Global auto share and EV platform,UNREVIEWED,QUEUED,KR-2
 KR,012330,Hyundai Mobis,Auto Components,Electrification and vehicle systems,UNREVIEWED,QUEUED,KR-3
 KR,329180,HD Hyundai Heavy Industries,Machinery,Global shipbuilding cycle and service,UNREVIEWED,QUEUED,KR-3
 KR,009540,HD Korea Shipbuilding & Offshore Engineering,Machinery,Shipbuilding technology and backlog,UNREVIEWED,QUEUED,KR-2
 KR,042660,Hanwha Ocean,Machinery,Naval and high-value shipbuilding,UNREVIEWED,QUEUED,KR-3
-KR,012450,Hanwha Aerospace,Aerospace and Defense,Defense export platform,UNREVIEWED,RESEARCHING,KR-1
+KR,012450,Hanwha Aerospace,Aerospace and Defense,Defense export platform,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,047810,Korea Aerospace Industries,Aerospace and Defense,Aircraft export and installed base,UNREVIEWED,QUEUED,KR-3
 KR,064350,Hyundai Rotem,Machinery,Defense and rail exports,UNREVIEWED,QUEUED,KR-3
-KR,010120,LS ELECTRIC,Electrical Equipment,Grid automation and electrification,UNREVIEWED,RESEARCHING,KR-1
+KR,010120,LS ELECTRIC,Electrical Equipment,Grid automation and electrification,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,267260,HD Hyundai Electric,Electrical Equipment,Grid equipment supercycle,UNREVIEWED,RESEARCHING,KR-1
 KR,298040,Hyosung Heavy Industries,Electrical Equipment,Power equipment and grid expansion,UNREVIEWED,QUEUED,KR-3
 KR,034020,Doosan Enerbility,Heavy Electrical Equipment,Nuclear and gas-turbine infrastructure,UNREVIEWED,QUEUED,KR-2
