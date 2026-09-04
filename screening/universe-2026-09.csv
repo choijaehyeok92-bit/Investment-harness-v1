@@ -18,7 +18,7 @@ MELI,MercadoLibre,US-listed foreign issuer,NASDAQ,unknown,eCommerce / Fintech,SC
 ASTS,AST SpaceMobile,US,NASDAQ,unknown,Satellite Connectivity,SCREENED,WATCH
 RKLB,Rocket Lab,US,NASDAQ,unknown,Space Launch,SCREENED,WATCH
 005930,Samsung Electronics,KR,KOSPI,1461.6T KRW (common 2026-09-03),Semiconductors,DEEP_ANALYSIS_2026-09-04,WATCH
-012450,Hanwha Aerospace,KR,KOSPI,unknown,Defense,SCREENED,SCREEN_IN
+012450,Hanwha Aerospace,KR,KOSPI,64.1T KRW,Defense/Shipbuilding,DEEP_ANALYSIS_2026-09-04,REJECT
 034020,Doosan Enerbility,KR,KOSPI,unknown,Power Equipment / SMR,SCREENED,SCREEN_IN
 267260,HD Hyundai Electric,KR,KOSPI,unknown,Grid Equipment,SCREENED,SCREEN_IN
 207940,Samsung Biologics,KR,KOSPI,unknown,Biologics CDMO,SCREENED,SCREEN_IN
