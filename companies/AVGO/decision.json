@@ -1,0 +1,24 @@
+{
+  "ticker": "AVGO",
+  "as_of": "2026-09-04",
+  "label": "NORMAL",
+  "hard_veto_status": "INVESTIGATE",
+  "position_band": "NORMAL",
+  "rationale": "AVGO qualifies as a Core Outlier on business quality: AI custom compute/networking demand is structurally expanding, moat breadth is increasing, and cash conversion is exceptional. The Sep. 3 price embeds strong but not implausibly bullish FCF growth. The main unresolved gating risk is customer/design-win concentration, so a NORMAL rather than HIGH_CONVICTION band is appropriate until customer diversification and FY2027-2028 execution are further evidenced.",
+  "increase_evidence": [
+    "AI semiconductor revenue tracks or exceeds the FY2027 trajectory without gross-margin deterioration.",
+    "Additional hyperscaler/frontier-model customers reach material production scale, reducing single-customer dependence.",
+    "Ethernet networking share and attach rate rise alongside custom-accelerator deployments.",
+    "FCF/share grows faster than revenue after accounting for SBC and net dilution.",
+    "VMware retention and VCF adoption remain strong despite licensing changes."
+  ],
+  "reduce_or_exit_evidence": [
+    "Loss or material downsizing of a top custom-accelerator design win.",
+    "AI revenue growth decelerates well below capacity commitments while inventories/receivables build.",
+    "Persistent net share dilution despite large repurchases.",
+    "VMware customer attrition produces structural software revenue or margin decline.",
+    "Valuation re-rates to a level requiring the full bull case while evidence does not improve."
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.82
+}
