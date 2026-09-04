@@ -1,0 +1,81 @@
+market,ticker,company_name,sector,structural_theme,evidence_status,screening_status,batch
+US,MSFT,Microsoft,Software,Cloud and AI platform,UNREVIEWED,RESEARCHING,US-1
+US,GOOGL,Alphabet,Interactive Media,Search cloud and AI platform,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
+US,AMZN,Amazon,Consumer and Cloud,E-commerce cloud and logistics,UNREVIEWED,RESEARCHING,US-1
+US,META,Meta Platforms,Interactive Media,Attention network and AI monetization,UNREVIEWED,RESEARCHING,US-1
+US,NVDA,NVIDIA,Semiconductors,Accelerated computing platform,DATA_CONFLICT,NEEDS_RECONCILIATION,PRIOR
+US,AVGO,Broadcom,Semiconductors and Software,AI connectivity and infrastructure software,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
+US,AMD,Advanced Micro Devices,Semiconductors,Compute share gain and heterogeneous computing,UNREVIEWED,QUEUED,US-2
+US,ORCL,Oracle,Software,Cloud infrastructure and database installed base,UNREVIEWED,QUEUED,US-2
+US,NOW,ServiceNow,Software,Enterprise workflow platform,UNREVIEWED,RESEARCHING,US-1
+US,CRM,Salesforce,Software,Customer data and workflow platform,UNREVIEWED,QUEUED,US-2
+US,ADBE,Adobe,Software,Creative and document workflow platform,UNREVIEWED,QUEUED,US-2
+US,INTU,Intuit,Software,Financial operating system for consumers and SMBs,UNREVIEWED,QUEUED,US-2
+US,PANW,Palo Alto Networks,Cybersecurity,Security platform consolidation,UNREVIEWED,QUEUED,US-2
+US,CRWD,CrowdStrike,Cybersecurity,Cloud-native security platform,UNREVIEWED,RESEARCHING,US-1
+US,DDOG,Datadog,Software,Cloud observability and security,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
+US,NET,Cloudflare,Software,Edge network security and developer platform,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
+US,PLTR,Palantir Technologies,Software,Operational AI software,UNREVIEWED,QUEUED,US-2
+US,SNOW,Snowflake,Software,Cloud data platform,UNREVIEWED,QUEUED,US-2
+US,HUBS,HubSpot,Software,SMB customer platform,UNREVIEWED,QUEUED,US-3
+US,ANET,Arista Networks,Technology Hardware,Data-center networking,UNREVIEWED,QUEUED,US-2
+US,AMAT,Applied Materials,Semiconductor Equipment,Semiconductor process complexity,UNREVIEWED,QUEUED,US-3
+US,LRCX,Lam Research,Semiconductor Equipment,Memory and logic process intensity,UNREVIEWED,QUEUED,US-3
+US,KLAC,KLA,Semiconductor Equipment,Process control intensity,UNREVIEWED,QUEUED,US-3
+US,MPWR,Monolithic Power Systems,Semiconductors,High-performance power management,UNREVIEWED,QUEUED,US-3
+US,ISRG,Intuitive Surgical,Medical Devices,Robotic surgery ecosystem,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
+US,LLY,Eli Lilly,Pharmaceuticals,Metabolic and neuroscience innovation,UNREVIEWED,RESEARCHING,US-1
+US,VRTX,Vertex Pharmaceuticals,Biotechnology,Rare disease platform expansion,UNREVIEWED,RESEARCHING,US-1
+US,REGN,Regeneron Pharmaceuticals,Biotechnology,Antibody discovery engine,UNREVIEWED,QUEUED,US-3
+US,TMO,Thermo Fisher Scientific,Life Science Tools,Life-science picks and shovels,UNREVIEWED,QUEUED,US-3
+US,DHR,Danaher,Life Science Tools,Bioprocessing and diagnostics platform,UNREVIEWED,QUEUED,US-3
+US,BSX,Boston Scientific,Medical Devices,Minimally invasive procedures,UNREVIEWED,QUEUED,US-3
+US,SYK,Stryker,Medical Devices,Procedure growth and installed base,UNREVIEWED,QUEUED,US-3
+US,AXON,Axon Enterprise,Aerospace and Defense,Public-safety operating system,UNREVIEWED,RESEARCHING,US-1
+US,ETN,Eaton,Electrical Equipment,Grid and data-center electrification,UNREVIEWED,RESEARCHING,US-1
+US,VRT,Vertiv,Electrical Equipment,Data-center power and cooling,UNREVIEWED,RESEARCHING,US-1
+US,GEV,GE Vernova,Electrical Equipment,Power generation and grid modernization,UNREVIEWED,QUEUED,US-3
+US,PWR,Quanta Services,Construction and Engineering,Grid and utility infrastructure,UNREVIEWED,QUEUED,US-3
+US,CEG,Constellation Energy,Independent Power,Carbon-free baseload power,UNREVIEWED,QUEUED,US-2
+US,V,Visa,Financial Services,Global digital payments network,UNREVIEWED,QUEUED,US-3
+US,MA,Mastercard,Financial Services,Global digital payments network,UNREVIEWED,QUEUED,US-3
+KR,005930,Samsung Electronics,Technology Hardware,AI memory foundry and devices,UNREVIEWED,QUEUED,KR-2
+KR,000660,SK Hynix,Semiconductors,HBM and AI memory,UNREVIEWED,RESEARCHING,KR-1
+KR,207940,Samsung Biologics,Biotechnology,Global biologics CDMO,UNREVIEWED,RESEARCHING,KR-1
+KR,373220,LG Energy Solution,Electrical Equipment,Global battery platform,UNREVIEWED,QUEUED,KR-2
+KR,006400,Samsung SDI,Electrical Equipment,Premium batteries and materials,UNREVIEWED,QUEUED,KR-2
+KR,005380,Hyundai Motor,Automobiles,Global auto share and software transition,UNREVIEWED,RESEARCHING,KR-1
+KR,000270,Kia,Automobiles,Global auto share and EV platform,UNREVIEWED,QUEUED,KR-2
+KR,012330,Hyundai Mobis,Auto Components,Electrification and vehicle systems,UNREVIEWED,QUEUED,KR-3
+KR,329180,HD Hyundai Heavy Industries,Machinery,Global shipbuilding cycle and service,UNREVIEWED,QUEUED,KR-3
+KR,009540,HD Korea Shipbuilding & Offshore Engineering,Machinery,Shipbuilding technology and backlog,UNREVIEWED,QUEUED,KR-2
+KR,042660,Hanwha Ocean,Machinery,Naval and high-value shipbuilding,UNREVIEWED,QUEUED,KR-3
+KR,012450,Hanwha Aerospace,Aerospace and Defense,Defense export platform,UNREVIEWED,RESEARCHING,KR-1
+KR,047810,Korea Aerospace Industries,Aerospace and Defense,Aircraft export and installed base,UNREVIEWED,QUEUED,KR-3
+KR,064350,Hyundai Rotem,Machinery,Defense and rail exports,UNREVIEWED,QUEUED,KR-3
+KR,010120,LS ELECTRIC,Electrical Equipment,Grid automation and electrification,UNREVIEWED,RESEARCHING,KR-1
+KR,267260,HD Hyundai Electric,Electrical Equipment,Grid equipment supercycle,UNREVIEWED,RESEARCHING,KR-1
+KR,298040,Hyosung Heavy Industries,Electrical Equipment,Power equipment and grid expansion,UNREVIEWED,QUEUED,KR-3
+KR,034020,Doosan Enerbility,Heavy Electrical Equipment,Nuclear and gas-turbine infrastructure,UNREVIEWED,QUEUED,KR-2
+KR,454910,Doosan Robotics,Machinery,Collaborative robotics,UNREVIEWED,QUEUED,KR-3
+KR,402340,SK Square,Financial Services,Semiconductor capital allocation,UNREVIEWED,QUEUED,KR-2
+KR,035420,NAVER,Interactive Media,Search commerce and AI platform,UNREVIEWED,RESEARCHING,KR-1
+KR,035720,Kakao,Interactive Media,Messaging commerce and payments ecosystem,UNREVIEWED,QUEUED,KR-3
+KR,259960,Krafton,Entertainment,Global game franchise and publishing,UNREVIEWED,RESEARCHING,KR-1
+KR,352820,HYBE,Entertainment,Global fandom and music platform,UNREVIEWED,QUEUED,KR-3
+KR,068270,Celltrion,Biotechnology,Biosimilars and commercial platform,UNREVIEWED,QUEUED,KR-3
+KR,000100,Yuhan Corporation,Pharmaceuticals,Innovative drug pipeline and licensing,UNREVIEWED,QUEUED,KR-2
+KR,128940,Hanmi Pharmaceutical,Pharmaceuticals,Metabolic and oncology pipeline,UNREVIEWED,QUEUED,KR-3
+KR,196170,Alteogen,Biotechnology,Subcutaneous drug-delivery platform,UNREVIEWED,RESEARCHING,KR-1
+KR,141080,LigaChem Biosciences,Biotechnology,ADC platform licensing,UNREVIEWED,QUEUED,KR-3
+KR,145020,Hugel,Health Care Products,Global medical aesthetics,UNREVIEWED,QUEUED,KR-3
+KR,271560,Orion,Consumer Staples,Asian branded-snack expansion,UNREVIEWED,QUEUED,KR-2
+KR,003230,Samyang Foods,Consumer Staples,Global spicy-noodle brand,UNREVIEWED,QUEUED,KR-2
+KR,192820,Cosmax,Consumer Staples,Global cosmetics ODM,UNREVIEWED,QUEUED,KR-3
+KR,161890,Kolmar Korea,Consumer Staples,Cosmetics and health ODM,UNREVIEWED,QUEUED,KR-3
+KR,278470,APR,Consumer Discretionary,Beauty devices and global DTC brand,UNREVIEWED,RESEARCHING,KR-1
+KR,257720,SILICON2,Consumer Discretionary,K-beauty global distribution,UNREVIEWED,QUEUED,KR-3
+KR,009150,Samsung Electro-Mechanics,Technology Hardware,AI and auto electronic components,UNREVIEWED,QUEUED,KR-3
+KR,011070,LG Innotek,Technology Hardware,Optics and auto components,UNREVIEWED,QUEUED,KR-3
+KR,058470,LEENO Industrial,Semiconductor Equipment,Semiconductor test sockets,UNREVIEWED,QUEUED,KR-3
+KR,042700,Hanmi Semiconductor,Semiconductor Equipment,HBM packaging equipment,UNREVIEWED,QUEUED,KR-3
