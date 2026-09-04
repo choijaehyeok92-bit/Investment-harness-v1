@@ -400,6 +400,89 @@ Section II, which was within the extract.
 
 ---
 
+## Update 3 — FY2025 별도재무제표 (tier-1, pp.194–199), read 2026-09-04
+
+Supplied as filing screenshots — precisely the section beyond the earlier text
+extract. Score **held at 69**; verdict unchanged. Three findings, and the most
+important one is against the position.
+
+### The capex discipline is a three-year pattern, not one half-year
+
+**Parent (별도) basis, KRW trillion:**
+
+| | FY2023 | FY2024 | FY2025 |
+|---|---|---|---|
+| Revenue | 170.37 | 209.05 | 238.04 |
+| Operating profit | **−11.53** | 12.36 | 23.60 |
+| Operating cash flow | 34.46 | 52.49 | **68.73** |
+| **Tangible capex** | **45.03** | **38.25** | **37.75** |
+| Dividends paid | 9.81 | 9.81 | 9.81 |
+| Treasury purchases | 0 | 1.81 | 8.19 |
+| Share-based comp | 0 | 0 | **0.71** |
+| Basic EPS (KRW) | 3,739 | 3,472 | 5,027 |
+
+**Parent capex fell 16.2% while parent operating cash flow doubled.** The discipline
+identified in H1 2026 extends back three full years — direction-of-change evidence
+of the kind `agents/deep-analyst.md` prioritises.
+
+**But it is two-edged, and that matters.** Samsung's own underinvestment across
+FY2023–25 is part of *why* the current shortage exists. The industry's projected
+capex tripling into 2027 is the correction of exactly that underinvestment.
+Discipline here is a cycle mechanic, not only a virtue.
+
+### SBC quantified — a data gap open since initial underwriting is now closed
+
+**주식기준보상: KRW 0.71T in FY2025, zero in FY2023 and FY2024.** The
+performance-conditioned stock programme began in FY2025 and is small so far. Context
+that matters: the FY2026 employee-compensation buyback authorisation is **KRW 15T**,
+implying a very large step-up in programme scale. And the dividend held flat at
+**KRW 9.81T for three consecutive years** frames the FY2026 plan of KRW 90–110T as
+roughly a **10x step-change**, not a continuation.
+
+### The left tail is fatter than the modelled bear — this is the important finding
+
+**FY2023 parent operating result: a LOSS of KRW 11.53T** on KRW 170.37T of revenue.
+FY2023 segment operating profits sum to roughly **KRW 6.25T** before eliminations
+(DX 14.38 − DS 14.88 + SDC 5.57 + Harman 1.17).
+
+Against H1 2026 annualised group operating profit of **KRW 293.45T**, that is a
+**≈47x swing** — and the trough is only three years old.
+
+The recorded bear case (normalised group operating profit KRW 70–90T) is therefore
+the **modal** bear, sitting well above what this business actually produced in 2023.
+Bear return worsened to **−55% to −45%**; weighted five-year return falls
+**+8.4% → ≈+5.5%** total (**1.1%/yr**).
+
+This is the red team's "the true bear is worse than the recorded bear" — now
+evidenced rather than asserted.
+
+### Two verification results worth recording
+
+**Third independent tier-1 reconciliation.** Parent total equity of
+**KRW 254,330,083M** matches *to the won* the KRW 254,330,082,981,146 net-asset
+figure in the 2026-08-21 treasury filing. Three separate documents now reconcile
+exactly.
+
+**Method check passed.** Parent interest-bearing debt of **KRW 39.05T** *exceeds*
+consolidated debt of **KRW 25.24T**, because parent borrowings include intercompany
+loans that eliminate on consolidation. This confirms the KRW 167.54T net-cash figure
+was correctly computed on a **consolidated** basis — a parent-basis calculation would
+have understated it by roughly KRW 14T.
+
+### On not raising the score
+
+The capex evidence would support raising `incremental_roic_and_fcf_per_share` from
+13 to 14. **It was held at 13.** That category has already moved 10 → 12 → 13 across
+two prior updates as tier-1 documents arrived, and the red team's critique — that
+consistent one-directional revision is a bias rather than noise — applies
+symmetrically to upward moves. Held pending Q4 2026 data.
+
+Total remains **69/100**. Decision confidence rises **0.72 → 0.76**: a fourth tier-1
+document has reconciled against the previous three, and the expected-return
+conclusion has survived every one of them.
+
+---
+
 ## Correction to the 2026-09-04 screening run
 
 The screening run ranked 005930 first for deep work, resting substantially on a

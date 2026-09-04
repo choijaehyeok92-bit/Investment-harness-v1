@@ -226,6 +226,72 @@
       "ds_downside_swing_krw_trn_annualised": "150+",
       "hedge_as_pct_of_swing": "roughly 6-7",
       "verdict": "Real, but it offsets only about 6-7% of the DS swing. The prior framing implied more than the data supports."
+    },
+    "separate_basis_fy2023_25": {
+      "source": "삼성전자 사업보고서 제57기, 별도재무제표 4-1~4-5 (pp.194-199). Unit: KRW trillion unless noted.",
+      "revenue": {
+        "FY2023": 170.37,
+        "FY2024": 209.05,
+        "FY2025": 238.04
+      },
+      "operating_profit": {
+        "FY2023": -11.53,
+        "FY2024": 12.36,
+        "FY2025": 23.6
+      },
+      "net_income": {
+        "FY2023": 25.4,
+        "FY2024": 23.58,
+        "FY2025": 33.69
+      },
+      "basic_eps_krw": {
+        "FY2023": 3739,
+        "FY2024": 3472,
+        "FY2025": 5027
+      },
+      "operating_cash_flow": {
+        "FY2023": 34.46,
+        "FY2024": 52.49,
+        "FY2025": 68.73
+      },
+      "tangible_capex": {
+        "FY2023": 45.03,
+        "FY2024": 38.25,
+        "FY2025": 37.75
+      },
+      "dividends_paid": {
+        "FY2023": 9.81,
+        "FY2024": 9.81,
+        "FY2025": 9.81
+      },
+      "treasury_purchases": {
+        "FY2023": 0.0,
+        "FY2024": 1.81,
+        "FY2025": 8.19
+      },
+      "share_based_comp": {
+        "FY2023": 0.0,
+        "FY2024": 0.0,
+        "FY2025": 0.71
+      },
+      "equity": {
+        "FY2023": 224.79,
+        "FY2024": 236.4,
+        "FY2025": 254.33
+      },
+      "key_finding_1": "PARENT CAPEX FELL 16.2% ACROSS FY2023-25 (45.03 to 38.25 to 37.75) while parent operating cash flow doubled (34.46 to 68.73). The capex discipline identified in H1 2026 is a three-year pattern, not a single half-year.",
+      "key_finding_2": "TWO-EDGED: that same underinvestment is part of why the shortage exists. The industry's projected capex tripling into 2027 is the correction of it.",
+      "key_finding_3": "SBC quantified and small - KRW 0.71T in FY2025, zero in FY2023-24. The performance-conditioned stock programme began in FY2025. Note the FY2026 employee-compensation buyback authorisation is KRW 15T, implying a large step-up in programme scale.",
+      "reconciliation": "Parent total equity of KRW 254,330,083M matches to the won the KRW 254,330,082,981,146 net-asset figure in the 2026-08-21 treasury filing - a third independent tier-1 reconciliation across three documents.",
+      "method_check": "Parent interest-bearing debt of KRW 39.05T EXCEEDS consolidated debt of KRW 25.24T because parent borrowings include intercompany loans that eliminate on consolidation. This confirms net cash of KRW 167.54T was correctly computed on a consolidated basis."
+    },
+    "group_operating_profit_trough": {
+      "fy2023_segment_sum_krw_trn": 6.25,
+      "basis": "INFERENCE from tier-1 segment data (DX 14.38 + DS -14.88 + SDC 5.57 + Harman 1.17), before intersegment eliminations. Not the reported consolidated figure, which was not read.",
+      "parent_operating_result_fy2023_krw_trn": -11.53,
+      "h1_2026_annualised_krw_trn": 293.45,
+      "swing_multiple": 47,
+      "implication": "The trough-to-current swing is roughly 47x. The modelled bear (normalised group operating profit KRW 70-90T) is the MODAL bear, well above the FY2023 precedent. The left tail is materially fatter than the scenario table shows."
     }
   },
   "scenarios": {
@@ -235,9 +301,10 @@
       "note_on_level": "Still well above the KRW 58.9T 2018 peak - this bear does not assume the AI demand shift was fake, only that it does not confer durable pricing power.",
       "terminal_multiple": "approximately 1.0x P/B on a book that stops compounding (ROE approximately 7-8%)",
       "equity_value_krw_trn": "850-950",
-      "five_year_total_return_pct": "-48 to -42",
+      "five_year_total_return_pct": "-55 to -45",
       "capital_permanence": "Not a permanent loss. The company remains profitable, self-funding and solvent throughout.",
-      "revision_note": "Bear floor held at roughly -45%, but for a better-evidenced reason: the FY2023 precedent shows DS can post an operating LOSS (KRW 14.88T), so the downside is not merely lower profit. Offsetting that, the balance sheet is confirmed (net cash KRW 167.54T) and the 24.9% cumulative cancellation record means share count keeps falling through a trough."
+      "revision_note": "Bear floor held at roughly -45%, but for a better-evidenced reason: the FY2023 precedent shows DS can post an operating LOSS (KRW 14.88T), so the downside is not merely lower profit. Offsetting that, the balance sheet is confirmed (net cash KRW 167.54T) and the 24.9% cumulative cancellation record means share count keeps falling through a trough.",
+      "deep_tail_note": "FATTER TAIL NOW EVIDENCED. FY2023 produced a parent operating LOSS of KRW 11.53T and a group segment sum of roughly KRW 6.25T. A genuine oversupply is not bounded by the modelled KRW 70-90T normalised range. Probability of a deep-tail outcome (normalised group operating profit below KRW 40T) is low given a structurally larger AI-memory market, but it is not negligible and the FY2023 precedent is only three years old."
     },
     "base": {
       "narrative": "AI memory is a partial regime change. Cycle amplitude dampens but does not disappear because HBM is contracted and capacity-reserved while conventional DRAM and NAND are not. Samsung holds roughly 33-38% HBM share. Foundry reaches sustained breakeven to small profit on Tesla, and the value-up capital return continues at a reduced rate after 2026.",
@@ -269,12 +336,12 @@
     "base": 0.45,
     "bull": 0.2,
     "labelled": "EXPLICITLY SUBJECTIVE - these are the analyst's judgement, not derived from data.",
-    "probability_weighted_five_year_total_return_pct": 8.4,
-    "annualised_pct": 1.6,
+    "probability_weighted_five_year_total_return_pct": 5.5,
+    "annualised_pct": 1.1,
     "sensitivity_warning": "This is the single most important caveat in the analysis. The result is highly sensitive to these weights. At bear 0.20 / base 0.50 / bull 0.30 the weighted five-year return rises to approximately +30% and expectation_gap_score would be 8-9, lifting the total scorecard to 68-69. The verdict of WATCH rather than STARTER rests on a subjective probability judgement, and a reasonable analyst could weight it differently.",
-    "revision_note": "Bear weight raised 0.30 to 0.35 and base cut 0.50 to 0.45 because the normalised model now lands below the price requirement on generous assumptions. Weighted return falls from +14.9% to roughly +8.4% total (1.6%/yr). Still explicitly subjective, but now anchored on a three-year tier-1 segment series rather than intuition - the sensitivity warning is materially reduced, though not removed."
+    "revision_note": "Weights unchanged (bear 0.35 / base 0.45 / bull 0.20) but the bear return worsened to -55/-45 on the FY2023 evidence, cutting the weighted five-year return from +8.4% to roughly +5.5% total (1.1%/yr). This is the third successive downward revision to expected return as tier-1 documents arrived. The red team's one-directional-bias critique is noted and applies here; the revisions are nonetheless each driven by new measured data, not by re-weighting the same facts."
   },
   "expectation_gap_score": 5,
   "asymmetry_score": 5,
-  "notes": "Updated 2026-09-04 with 삼성전자 2026년 반기보고서 (tier-1). Two previously unknown inputs are now resolved: consolidated net cash (KRW 167.54T) and controlling-interest equity (KRW 565.06T). One remains unverified: the preferred-share price (ESTIMATE KRW 215,000), which moves total equity value by roughly +/- KRW 20T per KRW 25,000. The filing cut both ways and the two findings are of comparable weight. FAVOURABLE: capex discipline (operating cash flow +328% against capex +16.4%), free cash flow of KRW 112.39T in the half year, confirmed net cash, and a DX internal hedge that raises the bear floor. UNFAVOURABLE: memory ASP +220% proves the surge is price rather than competitive gain; DS is 97.4% of group operating profit at a 68.3% margin against 19.1% in FY2025; and P/B is 2.89x on measured book rather than the 2.29x previously stated. Net effect on the two valuation categories is neutral - expectation_gap stays at 6/15 and asymmetry at 5/10 - while business-quality category 4 rises from 10 to 12, taking the total from 66 to 68. Note 27 (segment), Note 29 (subsequent events) and Section 6 (dividends) were beyond the retrieved text extract and were not read. FURTHER UPDATE 2026-09-04 with 삼성전자 사업보고서 제57기 (FY2025, filed 2026-03-10), tier-1. This document supplied the missing normalisation baseline. AGAINST: the FY2023-H1 2026 DS series (-22.3% / 13.6% / 19.1% / 68.3% operating margin) and ASP compounding (+14% FY2025, +220% H1 2026, roughly 3.65x FY2024) allow a first-pass normalised model that lands at KRW 93-132T of group operating profit versus a KRW 145-183T price requirement. The gap is negative, not thin. expectation_gap_score cut 6 to 5. FOR: cumulative cancellation of 24.9% of all common shares ever issued, and FY2025 investment of KRW 90.4T (capex 52.65 + R&D 37.75) against KRW 43.6T of operating profit - counter-cyclical reinvestment sustained through the FY2023 DS loss. Categories 4 (12 to 13) and 5 (7 to 8) raised. Total 68 to 69. Section III (financial statements), Section 6 (dividends) and the notes were beyond the retrieved text extract of this filing and were not read; FY2025 balance-sheet and income-statement figures used here come from the interim report's comparative columns instead."
+  "notes": "Updated 2026-09-04 with 삼성전자 2026년 반기보고서 (tier-1). Two previously unknown inputs are now resolved: consolidated net cash (KRW 167.54T) and controlling-interest equity (KRW 565.06T). One remains unverified: the preferred-share price (ESTIMATE KRW 215,000), which moves total equity value by roughly +/- KRW 20T per KRW 25,000. The filing cut both ways and the two findings are of comparable weight. FAVOURABLE: capex discipline (operating cash flow +328% against capex +16.4%), free cash flow of KRW 112.39T in the half year, confirmed net cash, and a DX internal hedge that raises the bear floor. UNFAVOURABLE: memory ASP +220% proves the surge is price rather than competitive gain; DS is 97.4% of group operating profit at a 68.3% margin against 19.1% in FY2025; and P/B is 2.89x on measured book rather than the 2.29x previously stated. Net effect on the two valuation categories is neutral - expectation_gap stays at 6/15 and asymmetry at 5/10 - while business-quality category 4 rises from 10 to 12, taking the total from 66 to 68. Note 27 (segment), Note 29 (subsequent events) and Section 6 (dividends) were beyond the retrieved text extract and were not read. FURTHER UPDATE 2026-09-04 with 삼성전자 사업보고서 제57기 (FY2025, filed 2026-03-10), tier-1. This document supplied the missing normalisation baseline. AGAINST: the FY2023-H1 2026 DS series (-22.3% / 13.6% / 19.1% / 68.3% operating margin) and ASP compounding (+14% FY2025, +220% H1 2026, roughly 3.65x FY2024) allow a first-pass normalised model that lands at KRW 93-132T of group operating profit versus a KRW 145-183T price requirement. The gap is negative, not thin. expectation_gap_score cut 6 to 5. FOR: cumulative cancellation of 24.9% of all common shares ever issued, and FY2025 investment of KRW 90.4T (capex 52.65 + R&D 37.75) against KRW 43.6T of operating profit - counter-cyclical reinvestment sustained through the FY2023 DS loss. Categories 4 (12 to 13) and 5 (7 to 8) raised. Total 68 to 69. Section III (financial statements), Section 6 (dividends) and the notes were beyond the retrieved text extract of this filing and were not read; FY2025 balance-sheet and income-statement figures used here come from the interim report's comparative columns instead. FURTHER UPDATE 2026-09-04 with the FY2025 별도재무제표 (pp.194-199), supplied as filing screenshots - the section beyond the earlier text extract. Three findings: (1) parent capex fell 16.2% across FY2023-25 while parent operating cash flow doubled, extending the capex-discipline evidence from one half-year to three years - though the same underinvestment is part of why the shortage exists; (2) SBC quantified at KRW 0.71T in FY2025 (zero prior), closing a data gap; (3) the FY2023 trough - a parent operating LOSS of KRW 11.53T and a group segment sum near KRW 6.25T - shows the left tail is materially fatter than the modelled bear, worsening the bear return to -55/-45 and the weighted return to +5.5%. Scorecard total held at 69: category 4 was NOT raised to 14 despite supporting evidence, because it has already moved 10 to 12 to 13 across prior updates and the red team's one-directional-revision critique applies symmetrically to upward moves. Parent equity of KRW 254,330,083M reconciles to the won against the 2026-08-21 filing - a third independent tier-1 cross-check."
 }

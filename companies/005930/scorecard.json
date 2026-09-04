@@ -78,18 +78,22 @@
         "FACT (tier-1, 반기보고서 2026-06-30): Inventory discipline: inventory rose 35.6% (KRW 52.64T to 71.39T) while H1 revenue annualises to roughly +83% versus FY2025. Inventory days are falling, which is consistent with genuine shortage rather than channel loading.",
         "FACT (tier-1, 사업보고서 제57기, 2026-03-10): EXCEPTIONAL LONG-RUN RECORD, now verifiable: cumulative profit cancellations (이익소각) stood at 1,860,828,928 common and 378,696,686 preferred shares at FY2025 year-end, rising to 1,934,188,242 common by 2026-06-30. That is 24.9% of all common shares ever issued (7,780,466,850) retired over the company's history. This is not a one-cycle programme.",
         "FACT (tier-1, 사업보고서 제57기, 2026-03-10): COUNTER-CYCLICAL REINVESTMENT: FY2025 capex was KRW 52.65T (DS 47.48, SDC 2.80, other 2.12) and R&D was KRW 37.75T (11.3% of revenue) - KRW 90.4T of total investment against FY2025 operating profit of only KRW 43.6T, i.e. 2.07x. R&D intensity has been stable at 10.9% / 11.6% / 11.3% across FY2023-25. Samsung invested through the trough, including the year DS lost money. The 2026 windfall was pre-funded, not lucky.",
-        "CAPEX DISCIPLINE CONFIRMED ON A SECOND BASIS: H1 2026 capex of KRW 31.23T annualises to roughly KRW 62.5T against FY2025 capex of KRW 52.65T (+19%), consistent with the +16.4% measured on the H1-over-H1 cash-flow basis. Two independent bases agree that capex is growing in the teens while operating cash flow grew 328%."
+        "CAPEX DISCIPLINE CONFIRMED ON A SECOND BASIS: H1 2026 capex of KRW 31.23T annualises to roughly KRW 62.5T against FY2025 capex of KRW 52.65T (+19%), consistent with the +16.4% measured on the H1-over-H1 cash-flow basis. Two independent bases agree that capex is growing in the teens while operating cash flow grew 328%.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): PARENT CAPEX HAS BEEN FALLING FOR THREE YEARS: 유형자산 취득 of KRW 45.03T (FY2023) to KRW 38.25T (FY2024) to KRW 37.75T (FY2025) - down 16.2% - while parent operating cash flow rose KRW 34.46T to 52.49T to 68.73T. This is the direction-of-change evidence agents/deep-analyst.md prioritises, and it extends the H1 2026 discipline finding back three full years.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): Capital return ramping on a measured path: parent treasury purchases of KRW 0 (FY2023), KRW 1.81T (FY2024), KRW 8.19T (FY2025), KRW 13.25T (H1 2026 consolidated), against a dividend held flat at approximately KRW 9.81T in each of the three years.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): SBC NOW QUANTIFIED, CLOSING A PRIOR DATA GAP: the statement of changes in equity shows 주식기준보상 of KRW 711,447M (approximately KRW 0.71T) in FY2025 and ZERO in FY2023 and FY2024. The performance-conditioned stock programme began in FY2025 and is small so far."
       ],
       "counter_evidence": [
         "The forward commitments are still ahead, not behind: over KRW 110T of planned facility and R&D investment, Pyeongtaek P5 fab1 at KRW 60T+ with fab2 similar (2029 target), and a US$37B Taylor commitment. H1 restraint does not prove the plan will not be spent.",
         "ESTIMATE: combined 2027 capex for Samsung, SK hynix and Micron is projected at US$146B, roughly 3.4x 2024. Samsung's own restraint does not protect it - industry supply sets the price it receives, so the mechanism operates on Samsung regardless of Samsung's own discipline.",
         "FACT (tier-1, 반기보고서 2026-06-30): The employee-compensation treasury stock is confirmed NOT accretive. Note 2 to the treasury table states that the 36.67M shares acquired in 2026 for employee compensation would legally require cancellation within one year, but the company will instead seek shareholder approval for a hold-and-dispose plan - i.e. they will be handed to employees, not cancelled.",
-        "FACT (tier-1, 반기보고서 2026-06-30): Treasury cancellation is recorded at carrying cost, not market value: the statement of changes in equity shows KRW 5,346,072M for the 2026 cancellation versus the KRW 14.58T market value reported in the press. The economic return is the market value; the book entry is smaller."
+        "FACT (tier-1, 반기보고서 2026-06-30): Treasury cancellation is recorded at carrying cost, not market value: the statement of changes in equity shows KRW 5,346,072M for the 2026 cancellation versus the KRW 14.58T market value reported in the press. The economic return is the market value; the book entry is smaller.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): THE SAME FACT CUTS BOTH WAYS: parent capex falling 16.2% across FY2023-25 is part of WHY the current shortage exists. Samsung's own underinvestment helped create the rent it now collects, and the industry's projected capex tripling into 2027 is the correction of exactly that underinvestment. Discipline here is a cycle mechanic, not only a virtue.",
+        "SCORE HELD AT 13/15 DELIBERATELY. This category has already been raised 10 to 12 to 13 across two prior updates as tier-1 documents arrived. The new evidence would support 14, but the red team has flagged one-directional revision as a bias rather than noise, and that critique applies symmetrically to upward moves. Holding pending the Q4 2026 data."
       ],
       "missing_data": [
-        "Samsung's own 2026 and 2027 capex guidance - H1 actuals are known but the full-year plan is not disclosed here",
-        "Whether the KRW 90-110T return will be dividend or buyback-and-cancel - decided at the January 2027 board",
-        "Annual SBC expense under the performance-conditioned stock programme"
+        "Consolidated (not parent-only) capex series for FY2023-24, to confirm the declining trend holds at group level",
+        "Whether the KRW 90-110T FY2026 return will be dividend or buyback-and-cancel - decided at the January 2027 board"
       ]
     },
     "management_and_capital_allocation": {
@@ -123,11 +127,13 @@
         "FACT (tier-1 filing): Distributable-profit headroom for treasury purchases is KRW 222,623,486,825,081, computed from separate-basis net assets of KRW 254,330,082,981,146 at the prior fiscal year end.",
         "FACT: The KRW 110T+ investment programme and the KRW 90-110T shareholder return are being funded from operating cash flow, not external financing.",
         "FACT: Gross margin and operating leverage are at record levels (Q2 2026 OPM 52.2%), and the group retains a diversified non-memory revenue base (MX, VD, Harman) that cushions a memory trough.",
-        "FACT (tier-1, 반기보고서 2026-06-30): Net cash now measured rather than assumed: cash and equivalents KRW 92.92T plus short-term financial instruments KRW 97.04T, less total interest-bearing debt of KRW 22.41T (short-term borrowings 13.71 + current portion of long-term 1.21 + bonds 0.01 + long-term borrowings 7.49) = NET CASH OF KRW 167.54T. Total equity KRW 579.31T of which controlling interest KRW 565.06T; total assets KRW 759.48T against total liabilities KRW 180.17T."
+        "FACT (tier-1, 반기보고서 2026-06-30): Net cash now measured rather than assumed: cash and equivalents KRW 92.92T plus short-term financial instruments KRW 97.04T, less total interest-bearing debt of KRW 22.41T (short-term borrowings 13.71 + current portion of long-term 1.21 + bonds 0.01 + long-term borrowings 7.49) = NET CASH OF KRW 167.54T. Total equity KRW 579.31T of which controlling interest KRW 565.06T; total assets KRW 759.48T against total liabilities KRW 180.17T.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): THIRD INDEPENDENT RECONCILIATION: parent total equity at 2025-12-31 is KRW 254,330,083M, matching to the won the KRW 254,330,082,981,146 net-asset figure in the 2026-08-21 treasury-purchase filing. Parent total assets KRW 358.90T, total liabilities KRW 104.57T."
       ],
       "counter_evidence": [
         "INFERENCE: Survivability is not the risk here; the risk is that a fortress balance sheet is deployed into a capex race at the top of the cycle.",
-        "FACT: The KRW 254T net-asset figure is separate-basis as of the prior fiscal year end and is not the current consolidated equity position."
+        "FACT: The KRW 254T net-asset figure is separate-basis as of the prior fiscal year end and is not the current consolidated equity position.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): METHOD CHECK PASSED: parent interest-bearing debt of KRW 39.05T at 2025-12-31 EXCEEDS consolidated debt of KRW 25.24T, because parent borrowings include intercompany loans from subsidiaries that eliminate on consolidation. This confirms the net-cash figure of KRW 167.54T was correctly computed on a consolidated basis; a parent-basis calculation would have understated it materially."
       ],
       "missing_data": [
         "Current consolidated net cash position",
@@ -151,11 +157,11 @@
         "SECOND CORRECTION, same direction: with controlling-interest equity now measured at KRW 565.06T (2026-06-30), price-to-book at KRW 250,000 is approximately 2.89x on current book and roughly 2.5x on estimated year-end 2026 book - NOT the 2.29x stated in the prior version, which relied on a broker year-end BPS estimate of KRW 109,313. Actual BPS at 2026-06-30 is approximately KRW 86,051 ex-treasury. Against a historical range of roughly 0.9x-2.1x, the multiple is further above the band than previously stated.",
         "ESTIMATE: Forward price-to-book is approximately 2.3x against a 2026E BPS of KRW 109,313, versus a historical Samsung range of roughly 0.9x to 2.1x. That is at or above the top of the historical range, computed on a book value that peak earnings have themselves inflated.",
         "CORRECTION: The 2026-09-04 screening run cited a forward P/B of about 1.4x from a broker source and used it to argue the price did not require the peak to persist. That figure is stale - it appears to reference 2025 - and is superseded here. The corrected 2.3x materially weakens that argument.",
-        "INFERENCE: Probability-weighted five-year return is approximately +11% in total (roughly +2%/yr) under the subjective weights in valuation.json, which is unattractive against a Korean risk-free rate."
+        "INFERENCE: Probability-weighted five-year return is approximately +11% in total (roughly +2%/yr) under the subjective weights in valuation.json, which is unattractive against a Korean risk-free rate.",
+        "FACT (tier-1, 사업보고서 제57기 별도재무제표 4-1~4-5, pp.194-199): THE LEFT TAIL IS FATTER THAN THE MODELLED BEAR. Parent operating profit was a LOSS of KRW 11.53T in FY2023 (on KRW 170.37T of revenue), and the FY2023 segment operating profits sum to roughly KRW 6.25T before eliminations - the group trough. Against H1 2026 annualised operating profit of KRW 293.45T that is roughly a 47x swing. The recorded bear case (normalised group operating profit KRW 70-90T) is the MODAL bear, not the tail; the FY2023 precedent shows what a genuine oversupply produces."
       ],
       "missing_data": [
-        "Verified preferred-share price - the last remaining unverified valuation input",
-        "Announced industry capacity additions modelled against the normalised DS revenue and margin assumptions used above, which remain ESTIMATE"
+        "Verified preferred-share price - now the only remaining unverified valuation input"
       ]
     },
     "power_law_and_asymmetry": {

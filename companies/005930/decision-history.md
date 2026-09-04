@@ -300,3 +300,82 @@ ASP, capex, R&D and share-count data are from Section II, within the extract.
 - **Outstanding from initial underwriting:** the `moat_trajectory` re-score after Q4
   2026 — decompose the 21%→33% HBM share move into Samsung advance versus SK hynix
   retreat, discounted for having occurred inside a 220% ASP environment.
+
+---
+
+## 2026-09-04 (revision 3) — FY2025 별도재무제표 (tier-1, pp.194–199)
+
+- **Decision:** `WATCH` — unchanged · **Band:** `NONE` — unchanged
+- **Total score:** **69** / 100 — **held** (see "on not raising the score")
+- **Hard Veto:** `INVESTIGATE` — unchanged
+- **Red team:** `PASS`, confidence **0.78 → 0.80**
+- **Decision confidence:** 0.72 → **0.76**
+
+### Evidence change
+
+Source: FY2025 사업보고서 **별도재무제표 4-1~4-5 (pp.194–199)**, supplied as filing
+screenshots — the section beyond the earlier text extract.
+
+**For the position.** Parent capex fell **16.2%** across FY2023–25
+(KRW 45.03T → 38.25T → 37.75T) while parent operating cash flow doubled
+(34.46 → 68.73). The capex discipline is a **three-year pattern**, not one half-year.
+SBC quantified at **KRW 0.71T** in FY2025 (zero in FY2023–24), closing a data gap
+open since initial underwriting.
+
+**Against the position, and more important.** FY2023 parent operating result was a
+**LOSS of KRW 11.53T**; FY2023 segment operating profits sum to roughly **KRW 6.25T**.
+Against H1 2026 annualised **KRW 293.45T** that is a **≈47x swing**, three years old.
+The modelled bear (KRW 70–90T normalised) is the **modal** bear, not the tail.
+Bear return worsened to **−55/−45**; weighted five-year return **+8.4% → ≈+5.5%**
+total (**1.1%/yr**).
+
+**Two-edged, recorded as such.** The FY2023–25 underinvestment is part of *why* the
+shortage exists; the 2027 industry capex tripling corrects it.
+
+**Verification.** Parent equity **KRW 254,330,083M** matches *to the won* the
+2026-08-21 filing's net-asset figure — a **third independent tier-1 reconciliation**.
+Method check: parent debt KRW 39.05T > consolidated KRW 25.24T (intercompany loans
+eliminate on consolidation), confirming net cash of KRW 167.54T was correctly taken
+on a consolidated basis.
+
+### On not raising the score
+
+The capex evidence would support `incremental_roic_and_fcf_per_share` 13 → 14. **It
+was held at 13.** The category has already moved 10 → 12 → 13 across two prior
+updates, and the red team's critique that consistent one-directional revision is a
+bias applies symmetrically to upward moves. Held pending Q4 2026 data. Recorded so a
+future reviewer can see the judgement was deliberate.
+
+### Red-team dissent recorded — new
+
+**The dividend baseline reframes the return programme.** The parent dividend was
+**KRW 9.81T in each of FY2023, FY2024 and FY2025** — flat, through a swing from
+−KRW 11.53T to +KRW 23.6T of parent operating profit. The FY2026 plan of KRW 90–110T
+is roughly **10x** that baseline. The red team argues this is more consistent with a
+**one-off distribution of windfall rent** than a permanent policy change — in which
+case the 5.5–6.7% shareholder yield partly supporting the base case is **not durable
+and should not be capitalised**. Recorded as dissent; it sharpens the existing
+January 2027 trigger from "dividend vs buyback" to "**does any of it recur at a
+normalised earnings level**".
+
+New falsifier **F10**: FY2027 shareholder return reverting toward the KRW 10–20T
+historical baseline as memory normalises.
+
+### Expected-return trajectory across four tier-1 documents
+
+| Review | Weighted 5-yr total return |
+|---|---|
+| Initial underwriting | +11.4% |
+| Rev 1 (반기보고서) | +14.9% |
+| Rev 2 (사업보고서 §II) | +8.4% |
+| **Rev 3 (별도재무제표)** | **+5.5%** |
+
+The single upward move was itself data-driven and was partly reversed by better data.
+Every material input is now audited except the preferred-share price.
+
+### Outstanding
+
+Unchanged and now the last open item where the analysis rests on evidence collected
+inside the rent: the **`moat_trajectory` re-score after Q4 2026** — decompose the
+21%→33% HBM share move into Samsung advance versus SK hynix retreat, discounted for
+the +220% ASP environment in which all capacity cleared.

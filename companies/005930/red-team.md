@@ -344,3 +344,79 @@ review.
 **Standing revision requirement — now the only one left:** the moat-trajectory
 re-score after Q4 2026 remains outstanding. Everything else I raised has been
 addressed.
+
+---
+
+# Red Team addendum 3 — FY2025 별도재무제표 (tier-1), 2026-09-04
+
+Verdict **PASS**, confidence **0.78 → 0.80**. My "the true bear is worse than the
+recorded bear" claim from addendum 2 is now proven by the company's own numbers, and
+the analyst adopted it and re-cut the bear rather than defending the scenario table.
+
+## My addendum-2 attack #12 is confirmed
+
+I argued the normalised model was too kind because DS revenue of KRW 250–300T
+embeds a permanently larger market. The FY2023 parent figures settle the shape of
+the downside:
+
+**Parent operating result FY2023: a LOSS of KRW 11.53T.** Group segment sum ≈
+**KRW 6.25T**. Against H1 2026 annualised **KRW 293.45T** — a **47x swing**, three
+years old.
+
+The recorded bear (KRW 70–90T normalised) was never the tail; it was the modal case
+dressed as a bear. The analyst has now said so, worsened the bear to −55/−45, and
+cut the weighted return to +5.5%. That is the correct response and I withdraw the
+attack as addressed.
+
+## Where the analyst declined to move in its own favour — credit due
+
+The three-year parent capex decline (KRW 45.03T → 37.75T, −16.2%) is real, material,
+and would justify raising category 4 to 14/15. **The analyst held it at 13 and cited
+my own bias critique as the reason.** That is the first time in this file that a
+supported upward revision has been declined on process grounds. It materially reduces
+my concern that the score was drifting up with each new document while the valuation
+drifted down.
+
+I also note the analyst flagged the capex decline as **two-edged** without being
+prompted: Samsung's FY2023–25 underinvestment is part of why the shortage exists,
+and the 2027 capex tripling corrects it. That is the argument I would have made.
+
+## New attack #13 — the dividend baseline reframes the return programme
+
+Nobody has drawn this out. The parent dividend was **KRW 9.81T in each of FY2023,
+FY2024 and FY2025** — flat, through a year with an operating loss and a year with
+KRW 23.6T of operating profit. The FY2026 plan of **KRW 90–110T is roughly 10x that
+baseline.**
+
+Two readings, and the analysis does not distinguish them:
+
+1. A genuine policy regime change, permanently higher payout.
+2. A **one-off distribution of windfall rent**, which reverts with the rent.
+
+Reading 2 is more consistent with a dividend that did not move at all across a
+three-year swing from −KRW 11.53T to +KRW 23.6T of parent operating profit. If the
+return programme is windfall-linked, the 5.5–6.7% shareholder yield that partly
+supports the base case is **not a durable yield** and should not be capitalised into
+a five-year return.
+
+The analyst's own increase-trigger already asks what the January 2027 board decides.
+I would sharpen it: the question is not dividend-versus-buyback, it is **whether any
+of it recurs at a normalised earnings level.**
+
+## Falsifier — one addition
+
+| # | Falsifier | Observable by |
+|---|---|---|
+| F10 | FY2027 shareholder return reverting toward the KRW 10–20T historical baseline as memory normalises | January 2027 and January 2028 board disclosures |
+
+## Verdict: **PASS**, confidence 0.80
+
+Four tier-1 documents, each reconciling to the won against the others, and the
+expected-return conclusion has moved monotonically down through all four:
++11.4% → +14.9% → +8.4% → +5.5% weighted five-year total. The one upward move
+(revision 1) was itself driven by measured data and was partly reversed by better
+data. The analysis is now grounded in audited figures rather than broker estimates
+at every material point except the preferred-share price.
+
+**Outstanding, unchanged:** the `moat_trajectory` re-score after Q4 2026. It remains
+the last item where the analysis rests on evidence collected inside the rent.
