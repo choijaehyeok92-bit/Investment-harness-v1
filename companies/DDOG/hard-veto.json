@@ -1,0 +1,110 @@
+{
+  "ticker": "DDOG",
+  "as_of": "2026-09-04",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "evidence": [
+        "No material restatement, auditor qualification or accounting-integrity failure was identified in the supplied FY2025 10-K or Q2 2026 10-Q.",
+        "Management concluded disclosure controls were effective at June 30, 2026 and reported no material change in internal control over financial reporting.",
+        "The April 2025 unauthorized access to several source-code repositories was disclosed and credentials were revoked; the filing did not characterize the incident as materially impairing financial reporting."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.88,
+      "resolution_needed": null
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "evidence": [
+        "Datadog held approximately $4.985B of cash and marketable securities against $1.0B principal of notes at June 30, 2026.",
+        "H1 2026 operating cash flow was $650.5M and calculated TTM operating cash flow was approximately $1.229B."
+      ],
+      "severity": "LOW",
+      "confidence": 0.98,
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Calculated TTM total SBC was approximately $850.9M, equal to 21.5% of revenue and 79.3% of reported FCF.",
+        "Period-end common shares increased approximately 3.0% year over year to 359.0M at June 30, 2026.",
+        "Unrecognized compensation cost on unvested RSUs and restricted shares was approximately $1.94B, and Datadog had not materially offset dilution with repurchases."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.96,
+      "resolution_needed": "Establish a sustained path to SBC below 15% of revenue and annual net dilution at or below 1.5%, while diluted FCF per share grows faster than revenue."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "evidence": [
+        "Approximately 70% of Q2 revenue growth came from existing customers, trailing twelve-month dollar-based net retention was in the low-120% range and multi-product adoption increased at every disclosed threshold.",
+        "$100,000+ ARR customers increased 23% and represented 91% of ARR, supporting genuine customer expansion rather than subsidy-driven acquisition."
+      ],
+      "severity": "LOW",
+      "confidence": 0.93,
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "H1 GAAP operating income improved and reported FCF grew faster than revenue, so a structural collapse is not established.",
+        "However, TTM GAAP operating margin was only about 0.4%, SBC equaled 79.3% of reported FCF and Q2 cost of revenue grew 45% versus 36% revenue growth."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.86,
+      "resolution_needed": "Confirm sustained GAAP operating leverage, stable or improving gross margin and diluted owner FCF per share growth after the economic cost of SBC."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Large-customer growth, low-120% dollar-based net retention and broadening multi-product adoption indicate a strengthening platform moat.",
+        "The largest customer began reducing usage in Q3 2026, while Datadog faces native-cloud, bundled, specialist and open-source competition."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.78,
+      "resolution_needed": "Observe normalized retention, usage and competitive win rates after the largest-customer reduction for at least two quarters."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "At $213.81, a ten-year reverse DCF requires approximately 24.2% revenue CAGR at a 30% year-ten FCF margin or 22.3% CAGR at a 35% margin, assuming 2.5% annual dilution.",
+        "The Base scenario value is approximately $168, while the Bull scenario value is approximately $295; current price therefore requires execution materially above Base and close to Bull.",
+        "Such duration is possible for a leading AI-era observability platform, so the hurdle is near-Bull and uncertain rather than demonstrably impossible."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "resolution_needed": "Require either a price at least 20% below refreshed Base value or evidence strong enough to reduce the implied ten-year revenue CAGR below 18% without aggressive dilution or margin assumptions."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "The largest AI-native customer contributed approximately seven percentage points of Q4 2025 year-over-year revenue growth and began reducing usage in Q3 2026.",
+        "The customer was not identified and Datadog did not quantify its current ARR or expected duration of the reduction, preventing a clean normalized-growth calculation.",
+        "The broader base includes about 33,400 customers, which reduces but does not eliminate the near-term growth concentration signal."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.94,
+      "resolution_needed": "Disclose or demonstrate the largest customer's normalized revenue contribution and show that diversified customer growth offsets the reduction without material retention or margin damage."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "evidence": [
+        "Approximately $3.985B of calculated net cash, positive FCF and a diversified customer base make bankruptcy unlikely under ordinary cyclical stress.",
+        "Permanent impairment from valuation compression remains material, but the probability of solvency failure is low."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.93,
+      "resolution_needed": null
+    }
+  ]
+}

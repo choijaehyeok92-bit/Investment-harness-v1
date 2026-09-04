@@ -1,0 +1,45 @@
+ticker,company_name,market,listing,market_cap,sector,status,screen_verdict
+NVDA,NVIDIA,US,NASDAQ,5453B USD (2026-09-02),Semiconductors,DEEP_ANALYSIS_2026-09-04,STARTER
+AVGO,Broadcom,US,NASDAQ,1699B USD (2026-09-03),Semiconductors,DEEP_ANALYSIS_2026-09-04,WATCH
+TSM,Taiwan Semiconductor (ADR),US-listed foreign issuer,NYSE,2147B USD (2026-09-01),Semiconductors,DEEP_ANALYSIS_2026-09-04,STARTER
+GOOGL,Alphabet,US,NASDAQ,unknown,Internet Platform,SCREENED,SCREEN_IN
+NET,Cloudflare,US,NYSE,unknown,Software / Edge,SCREENED,SCREEN_IN
+DDOG,Datadog,US,NASDAQ,unknown,Software / Observability,SCREENED,SCREEN_IN
+ISRG,Intuitive Surgical,US,NASDAQ,133B USD,Medical Devices,SCREENED,SCREEN_IN
+AXON,Axon Enterprise,US,NASDAQ,unknown,Public Safety Tech,SCREENED,SCREEN_IN
+ANET,Arista Networks,US,NYSE,248.45B USD,AI Networking,SCREENED,WATCH
+VRT,Vertiv Holdings,US,NYSE,unknown,DC Power & Cooling,SCREENED,WATCH
+MU,Micron Technology,US,NASDAQ,unknown,Memory Semiconductors,SCREENED,WATCH
+PLTR,Palantir Technologies,US,NASDAQ,432.36B USD,Software / AI,SCREENED,WATCH
+MSFT,Microsoft,US,NASDAQ,unknown,Software / Cloud,SCREENED,WATCH
+AMZN,Amazon,US,NASDAQ,unknown,eCommerce / Cloud,SCREENED,WATCH
+META,Meta Platforms,US,NASDAQ,unknown,Internet Platform,SCREENED,WATCH
+MELI,MercadoLibre,US-listed foreign issuer,NASDAQ,unknown,eCommerce / Fintech,SCREENED,WATCH
+ASTS,AST SpaceMobile,US,NASDAQ,unknown,Satellite Connectivity,SCREENED,WATCH
+RKLB,Rocket Lab,US,NASDAQ,unknown,Space Launch,SCREENED,WATCH
+005930,Samsung Electronics,KR,KOSPI,1461.6T KRW (common 2026-09-03),Semiconductors,DEEP_ANALYSIS_2026-09-04,WATCH
+012450,Hanwha Aerospace,KR,KOSPI,64.1T KRW,Defense/Shipbuilding,DEEP_ANALYSIS_2026-09-04,REJECT
+034020,Doosan Enerbility,KR,KOSPI,unknown,Power Equipment / SMR,SCREENED,SCREEN_IN
+267260,HD Hyundai Electric,KR,KOSPI,unknown,Grid Equipment,SCREENED,SCREEN_IN
+207940,Samsung Biologics,KR,KOSPI,unknown,Biologics CDMO,SCREENED,SCREEN_IN
+214450,PharmaResearch,KR,KOSDAQ,unknown,Aesthetics / Medical Device,SCREENED,SCREEN_IN
+000660,SK hynix,KR,KOSPI,unknown,Memory Semiconductors,SCREENED,WATCH
+042700,Hanmi Semiconductor,KR,KOSPI,unknown,Semiconductor Equipment,SCREENED,WATCH
+042660,Hanwha Ocean,KR,KOSPI,unknown,Shipbuilding / Naval,SCREENED,WATCH
+009540,HD Korea Shipbuilding & Offshore,KR,KOSPI,unknown,Shipbuilding,SCREENED,WATCH
+196170,Alteogen,KR,KOSDAQ,29.96T KRW,Biotech Platform,SCREENED,WATCH
+141080,LigaChem Biosciences,KR,KOSDAQ,4.57T KRW,Biotech / ADC,SCREENED,WATCH
+035420,NAVER,KR,KOSPI,unknown,Internet Platform,SCREENED,WATCH
+259960,Krafton,KR,KOSPI,unknown,Games,SCREENED,WATCH
+LLY,Eli Lilly,US,NYSE,unknown,Pharmaceuticals,UNREVIEWED,DEFERRED
+TSLA,Tesla,US,NASDAQ,unknown,Autos / Autonomy,UNREVIEWED,DEFERRED
+AMD,Advanced Micro Devices,US,NASDAQ,unknown,Semiconductors,UNREVIEWED,DEFERRED
+CRWD,CrowdStrike,US,NASDAQ,unknown,Cybersecurity,UNREVIEWED,DEFERRED
+APP,AppLovin,US,NASDAQ,unknown,AdTech,UNREVIEWED,DEFERRED
+TTD,The Trade Desk,US,NASDAQ,unknown,AdTech,UNREVIEWED,DEFERRED
+005380,Hyundai Motor,KR,KOSPI,unknown,Autos,UNREVIEWED,DEFERRED
+373220,LG Energy Solution,KR,KOSPI,unknown,Batteries,UNREVIEWED,DEFERRED
+068270,Celltrion,KR,KOSPI,unknown,Biosimilars,UNREVIEWED,DEFERRED
+257720,Silicon2,KR,KOSDAQ,unknown,K-Beauty Distribution,UNREVIEWED,DEFERRED
+079550,LIG Nex1,KR,KOSPI,unknown,Defense,UNREVIEWED,DEFERRED
+035720,Kakao,KR,KOSPI,unknown,Internet Platform,UNREVIEWED,DEFERRED

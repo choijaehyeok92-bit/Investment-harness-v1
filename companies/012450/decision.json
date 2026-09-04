@@ -1,6 +1,7 @@
 {
   "ticker": "012450",
   "as_of": "2026-09-04",
+
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
@@ -23,4 +24,28 @@
   ],
   "macro_pacing": "company_specific",
   "confidence": 0.8
+=======
+  "label": "REJECT",
+  "hard_veto_status": "INVESTIGATE",
+  "position_band": "NONE",
+  "macro_pacing": "company_specific",
+  "confidence": 0.62,
+  "rationale": "Scorecard 47/100 — classification REJECT — with a business-quality subtotal of 41/75, far below every other name analysed in this harness (TSM 66, NVDA 62, 005930 59, AVGO 57). THE SCREENING RUN WAS WRONG ABOUT WHAT THIS COMPANY IS. The 2026-09-04 screen ranked 012450 fifth for deep work as a European-rearmament defence play uncorrelated with AI capex. The filings show that by revenue it is now 64% SHIPBUILDING — 해양 was KRW 9,614.2B of H1 2026's KRW 15,043.9B, against 방산 at 29.68% — and marine has overtaken defence on operating profit as well. Shipbuilding is a cyclical industry with a historically poor record on returns on capital, not a structural-growth industry. Correcting that misidentification is the main work of this analysis. THE DECISIVE FINDING is cash. H1 2026 operating cash flow was NEGATIVE KRW 370.7B against POSITIVE KRW 1,014.3B a year earlier — a KRW 1.39T swing — while the company reported KRW 2.00T of operating profit. Investing consumed a further KRW 3,403.0B, and total borrowings rose 24.6% in six months from KRW 12.39T to KRW 15.44T. Interest of KRW 264.7B was paid out of financing, not operations. This follows a 13.1% equity dilution in 2025 (5,982,240 new shares across a third-party placement and a rights issue). Equity raised, then debt raised, while operations consumed cash. AND THE MOAT LEG IS SHRINKING. Defence revenue fell about 14% versus the FY2025 half-year run-rate and defence margin slipped from 21.9% to 20.2%, while the lower-moat marine business grew. That is the opposite of the direction-of-change evidence the deep-analyst contract prioritises. WHAT IS GENUINELY GOOD: order backlog of KRW 114.92T, about 3.8 years of revenue, with defence backlog alone at KRW 46.85T. Group operating margin expanded from 11.6% to 13.3% and marine margin from 7.7% to 12.0%. Non-controlling interests taking about 44% of profit also means the parent's economic exposure to marine is smaller than consolidated revenue implies. THE PRICE MAKES IT A REJECT RATHER THAN A WATCH. At KRW 1,244,000 the market capitalisation of about KRW 64.14T is 5.35x owners' equity of KRW 12.00T and 35.8x H1 2026 annualised owners' earnings. Reverse-engineered, even a generous 22x multiple requires owners' net income to rise about 60% and stay there; at a normal 15-18x it requires a doubling. The modelled BULL CASE returns only +9% to +40% over five years, and the probability-weighted return is approximately NEGATIVE 37% — the only negative expected return in this harness, and robust to reweighting: even at bear 0.15 / base 0.45 / bull 0.40 it stays around -18%. REJECT is a statement about the INVESTMENT AT THIS PRICE, not a judgement that the company is bad. The backlog is real and the structural driver behind the defence leg is real. But the strategy exists to find asymmetric outliers, and a distribution whose optimistic case barely beats cash while the downside is levered is the opposite of that. Note that no Hard Veto reads FAIL — the label follows the score and the negative expected return, not a veto trigger. TWO CORRECTIONS APPLIED AFTER RED-TEAM REVIEW, NEITHER OF WHICH CHANGES THE VERDICT. FIRST, the red team returned REVISE partly on the ground that FY2025 operating cash flow was sitting unextracted in a supplied document. That premise is FALSE: the [정정]영업보고서 is an image-based PDF containing no machine-readable financial statements, and the 반기보고서 carries only H1 comparatives. The number is genuinely unavailable from what was supplied — the substantive criticism (it is decisive and unknown) stands, but the analysis did not ignore data it had. The correction also revealed what the March 2026 amendment changed: 기업결합 사항, 타회사 출자현황 and the 이사회 결의서 — administrative items, not a restatement. SECOND, the leverage characterisation was too harsh. Net debt/EBITDA was 1.6x at 2025-09-30 with coverage rated excellent, implying roughly 1.2-1.3x now — conservative by any conventional standard. financial_survivability is raised 6 to 7 and the total to 48/100, still firmly in the Reject band. The genuine concern is narrower than the earlier draft implied: not debt quantum or solvency, but CASH CONVERSION — a 1.08 current ratio and negative operating cash flow while borrowings rose 24.6% in six months.",
+  "increase_evidence": [
+    "PRIMARY: FY2025 and FY2026 full-year operating cash flow turning clearly positive. NOTE THIS CANNOT BE OBTAINED FROM THE DOCUMENTS SUPPLIED — the [정정]영업보고서 is image-based and the 반기보고서 carries only H1 comparatives. The FY2025 사업보고서 or audited cash flow statement is required. Without this number nothing else matters.",
+    "Defence revenue and margin re-accelerating — order intake, not just backlog — reversing the -14% revenue and 21.9%-to-20.2% margin decline.",
+    "Borrowings stabilising or falling from KRW 15.44T without a further equity raise, with the current ratio improving from 1.08.",
+    "A price decline of roughly 40-50%, which is what the normalised earnings analysis implies is required for the expectation gap to turn positive on current evidence. Per policy/position-sizing.yaml price alone is never sufficient — it must accompany at least the cash flow evidence above.",
+    "Marine margin sustaining at or above 12% through a full cycle, which would force a re-rating of the shipbuilding leg's quality.",
+    "Explanation of the KRW 1.42T H1 2026 capital surplus increase that occurred with no new shares issued."
+  ],
+  "reduce_or_exit_evidence": [
+    "Operating cash flow remaining negative for FY2026 as a whole — this would move external_capital_dependence from INVESTIGATE to FAIL and make REJECT a veto-driven conclusion rather than a score-driven one.",
+    "Any further equity raise, which would confirm structural external-capital dependence twelve months after the last one.",
+    "Defence backlog declining, not just defence revenue — that would remove the one genuinely strong element of the case.",
+    "Marine margin reverting toward the 7.7% FY2025 level as the current backlog vintage delivers.",
+    "Borrowings rising above roughly KRW 18T, or the current ratio falling below 1.0.",
+    "Any indication that European orders carry offset obligations materially heavier than assumed, transferring value to customer countries."
+  ]
+
 }
