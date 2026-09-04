@@ -1,0 +1,38 @@
+{
+  "ticker": "ISRG",
+  "as_of": "2026-09-05",
+  "current_price": 369.83,
+  "implied_expectations": {
+    "price_date": "2026-09-03",
+    "shares_outstanding_millions": 353.278,
+    "market_cap_usd_billions": 130.65,
+    "cash_and_investments_usd_billions": 8.63,
+    "approx_enterprise_value_usd_billions": 122.03,
+    "ltm_attributable_net_income_usd_billions": 3.139,
+    "ltm_simple_fcf_proxy_usd_billions": 3.223,
+    "approx_market_cap_to_ltm_net_income": 41.6,
+    "approx_ev_to_ltm_simple_fcf": 37.9,
+    "reverse_dcf": {
+      "starting_fcf_usd_billions": 3.223,
+      "discount_rate": 0.10,
+      "horizon_years": 10,
+      "terminal_multiple_20x_implied_fcf_cagr": 0.130,
+      "terminal_multiple_22x_implied_fcf_cagr": 0.122,
+      "terminal_multiple_25x_implied_fcf_cagr": 0.110
+    },
+    "interpretation": "The price still embeds durable low-to-mid-teens cash-flow growth for a long period. That is plausible for Intuitive but leaves limited room for execution error."
+  },
+  "scenarios": {
+    "bear": {"fcf_cagr_10y":0.08,"discount_rate":0.105,"terminal_fcf_multiple":20,"fair_value_per_share":250,"upside_downside_vs_reference":-0.324,"description":"Procedure growth decelerates toward high single digits, competitors gain share, leasing/capex intensity rises and the valuation normalizes."},
+    "base": {"fcf_cagr_10y":0.12,"discount_rate":0.10,"terminal_fcf_multiple":25,"fair_value_per_share":398,"upside_downside_vs_reference":0.076,"description":"Da Vinci remains the category leader, global procedure growth stays in the low-to-mid teens for several years, da Vinci 5/SP/Ion expand the ecosystem and margins remain structurally high."},
+    "bull": {"fcf_cagr_10y":0.15,"discount_rate":0.095,"terminal_fcf_multiple":28,"fair_value_per_share":562,"upside_downside_vs_reference":0.520,"description":"OUS adoption accelerates, da Vinci 5 and SP expand indications rapidly, Ion becomes a major second platform, and operating leverage sustains mid-teens FCF growth."}
+  },
+  "permanent_loss_case": {
+    "description": "A credible permanent-loss path is not insolvency but a combination of clinically credible competing platforms, hospital multi-vendor adoption, regulatory/antitrust constraints on instruments/service economics, slower procedure growth and a lasting valuation multiple reset.",
+    "signposts": ["Sustained da Vinci procedure growth below 10%","Recurring revenue share or I&A revenue per procedure structurally declines","Competitive losses spread beyond China into core U.S./European accounts","Material product-safety event or regulatory restriction","FCF per share stagnates despite continued high reinvestment"]
+  },
+  "expectation_gap_score": 7,
+  "asymmetry_score": 7,
+  "subjective_probabilities": {"bear":0.25,"base":0.50,"bull":0.25,"probability_weighted_value_per_share":402},
+  "notes": "Reference price is the Intuitive investor-relations closing price for 2026-09-03. LTM simple FCF proxy = operating cash flow less cash purchases of PP&E; it is not a company-defined metric and does not fully capture the economics of operating-lease system transfers, inventory build, or share-based compensation."
+}
