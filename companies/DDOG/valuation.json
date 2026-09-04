@@ -1,0 +1,137 @@
+{
+  "ticker": "DDOG",
+  "as_of": "2026-09-04",
+  "current_price": 213.81,
+  "implied_expectations": {
+    "price_timestamp_utc": "2026-09-04T14:39:12Z",
+    "period_end_basic_shares_m": 359.075,
+    "equity_value_proxy_usd_b": 76.774,
+    "market_data_market_cap_usd_b": 79.328,
+    "cash_and_marketable_securities_usd_b": 4.985,
+    "convertible_notes_principal_usd_b": 1.0,
+    "net_cash_proxy_usd_b": 3.985,
+    "enterprise_value_proxy_usd_b": 72.788,
+    "ttm_calculations_usd_b": {
+      "revenue": 3.966725,
+      "gaap_operating_income": 0.016329,
+      "operating_cash_flow": 1.229034,
+      "reported_free_cash_flow": 1.072769,
+      "total_stock_based_compensation": 0.850943
+    },
+    "current_multiples": {
+      "equity_value_to_ttm_revenue": 19.35,
+      "enterprise_value_to_ttm_revenue": 18.35,
+      "equity_value_to_reported_ttm_fcf": 71.57
+    },
+    "owner_economics": {
+      "reported_ttm_fcf_margin": 0.2704,
+      "ttm_gaap_operating_margin": 0.0041,
+      "ttm_total_sbc_to_revenue": 0.2145,
+      "ttm_total_sbc_to_reported_fcf": 0.7932,
+      "june_period_end_share_growth_yoy": 0.0297
+    },
+    "reverse_dcf": {
+      "forecast_years": 10,
+      "discount_rate": 0.095,
+      "terminal_growth_rate": 0.03,
+      "annual_share_dilution": 0.025,
+      "starting_revenue_usd_b": 3.966725,
+      "starting_reported_fcf_margin": 0.2704,
+      "net_cash_usd_b": 3.985438,
+      "required_constant_revenue_cagr_by_year_10_fcf_margin": {
+        "25_percent_margin": {
+          "revenue_cagr": 0.2649,
+          "year_10_revenue_usd_b": 41.576,
+          "year_10_fcf_usd_b": 10.394
+        },
+        "30_percent_margin": {
+          "revenue_cagr": 0.242,
+          "year_10_revenue_usd_b": 34.643,
+          "year_10_fcf_usd_b": 10.393
+        },
+        "35_percent_margin": {
+          "revenue_cagr": 0.2228,
+          "year_10_revenue_usd_b": 29.654,
+          "year_10_fcf_usd_b": 10.379
+        },
+        "40_percent_margin": {
+          "revenue_cagr": 0.2064,
+          "year_10_revenue_usd_b": 25.893,
+          "year_10_fcf_usd_b": 10.357
+        }
+      }
+    },
+    "interpretation": "The price embeds materially above-Base and near-Bull execution: roughly 22%-24% revenue growth for ten years with year-ten FCF margins of 30%-35%, while annual dilution remains around 2.5%."
+  },
+  "scenarios": {
+    "bear": {
+      "annual_revenue_growth_path": [0.22, 0.18, 0.16, 0.14, 0.12, 0.1, 0.09, 0.08, 0.07, 0.06],
+      "ten_year_revenue_cagr": 0.1209,
+      "year_10_revenue_usd_b": 12.422,
+      "year_10_reported_fcf_margin": 0.24,
+      "year_10_reported_fcf_usd_b": 2.981,
+      "annual_share_dilution": 0.03,
+      "present_value_per_share_usd": 81.36,
+      "return_vs_current": -0.6195,
+      "key_assumptions": [
+        "Largest-customer optimization reveals weaker normalized AI-native demand and growth decelerates rapidly.",
+        "Native-cloud, specialist and open-source competition limits pricing and multi-product expansion.",
+        "Hosting costs pressure gross margin and persistent SBC holds dilution near 3%."
+      ]
+    },
+    "base": {
+      "annual_revenue_growth_path": [0.3, 0.26, 0.24, 0.22, 0.2, 0.18, 0.16, 0.14, 0.12, 0.1],
+      "ten_year_revenue_cagr": 0.1905,
+      "year_10_revenue_usd_b": 22.676,
+      "year_10_reported_fcf_margin": 0.31,
+      "year_10_reported_fcf_usd_b": 7.03,
+      "annual_share_dilution": 0.02,
+      "present_value_per_share_usd": 167.85,
+      "return_vs_current": -0.215,
+      "key_assumptions": [
+        "Datadog absorbs the largest-customer reduction while large-customer and multi-product expansion remain healthy.",
+        "Revenue growth fades gradually from approximately 30% to 10% over ten years.",
+        "Reported FCF margin reaches 31% and annual dilution declines to 2%."
+      ]
+    },
+    "bull": {
+      "annual_revenue_growth_path": [0.34, 0.32, 0.3, 0.28, 0.26, 0.24, 0.22, 0.2, 0.18, 0.16],
+      "ten_year_revenue_cagr": 0.2487,
+      "year_10_revenue_usd_b": 36.554,
+      "year_10_reported_fcf_margin": 0.36,
+      "year_10_reported_fcf_usd_b": 13.16,
+      "annual_share_dilution": 0.015,
+      "present_value_per_share_usd": 295.11,
+      "return_vs_current": 0.3802,
+      "key_assumptions": [
+        "AI observability, security and autonomous operations become durable multi-billion-dollar growth vectors.",
+        "Datadog expands category leadership and sustains exceptionally strong cross-sell and retention.",
+        "Reported FCF margin reaches 36% while annual dilution falls to 1.5%."
+      ]
+    }
+  },
+  "permanent_loss_case": {
+    "present_value_per_share_usd": 41.54,
+    "present_value_per_share_usd_range": [35, 55],
+    "ten_year_revenue_cagr": 0.0408,
+    "year_10_reported_fcf_margin": 0.18,
+    "annual_share_dilution": 0.035,
+    "conditions": [
+      "A material security or availability failure permanently damages customer trust.",
+      "AI-native customer concentration unwinds and cloud-native growth normalizes sharply.",
+      "Hyperscaler-native and open-source tools commoditize observability while hosting costs remain high.",
+      "SBC and dilution remain structurally excessive as valuation multiples compress."
+    ]
+  },
+  "expectation_gap_score": 4,
+  "asymmetry_score": 4,
+  "subjective_probabilities": {
+    "permanent_loss": 0.1,
+    "bear": 0.2,
+    "base": 0.5,
+    "bull": 0.2,
+    "probability_weighted_value_usd_per_share": 163.42,
+    "expected_return_vs_current": -0.2357
+  },
+  "notes": "Scenario values are decision-framework estimates, not price targets. Reported FCF includes the benefit of SBC add-backs; annual dilution assumptions partially but imperfectly capture that economic cost. Macro was excluded from the company score."
+}
