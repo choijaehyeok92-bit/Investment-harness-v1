@@ -24,16 +24,16 @@ US,LRCX,Lam Research,Semiconductor Equipment,Memory and logic process intensity,
 US,KLAC,KLA,Semiconductor Equipment,Process control intensity,UNREVIEWED,QUEUED,US-3
 US,MPWR,Monolithic Power Systems,Semiconductors,High-performance power management,UNREVIEWED,QUEUED,US-3
 US,ISRG,Intuitive Surgical,Medical Devices,Robotic surgery ecosystem,FULL_ANALYSIS_AVAILABLE,CARRIED_FORWARD,PRIOR
-US,LLY,Eli Lilly,Pharmaceuticals,Metabolic and neuroscience innovation,UNREVIEWED,RESEARCHING,US-1
-US,VRTX,Vertex Pharmaceuticals,Biotechnology,Rare disease platform expansion,UNREVIEWED,RESEARCHING,US-1
+US,LLY,Eli Lilly,Pharmaceuticals,Metabolic and neuroscience innovation,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
+US,VRTX,Vertex Pharmaceuticals,Biotechnology,Rare disease platform expansion,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
 US,REGN,Regeneron Pharmaceuticals,Biotechnology,Antibody discovery engine,UNREVIEWED,QUEUED,US-3
 US,TMO,Thermo Fisher Scientific,Life Science Tools,Life-science picks and shovels,UNREVIEWED,QUEUED,US-3
 US,DHR,Danaher,Life Science Tools,Bioprocessing and diagnostics platform,UNREVIEWED,QUEUED,US-3
 US,BSX,Boston Scientific,Medical Devices,Minimally invasive procedures,UNREVIEWED,QUEUED,US-3
 US,SYK,Stryker,Medical Devices,Procedure growth and installed base,UNREVIEWED,QUEUED,US-3
-US,AXON,Axon Enterprise,Aerospace and Defense,Public-safety operating system,UNREVIEWED,RESEARCHING,US-1
-US,ETN,Eaton,Electrical Equipment,Grid and data-center electrification,UNREVIEWED,RESEARCHING,US-1
-US,VRT,Vertiv,Electrical Equipment,Data-center power and cooling,UNREVIEWED,RESEARCHING,US-1
+US,AXON,Axon Enterprise,Aerospace and Defense,Public-safety operating system,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
+US,ETN,Eaton,Electrical Equipment,Grid and data-center electrification,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
+US,VRT,Vertiv,Electrical Equipment,Data-center power and cooling,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,US-1
 US,GEV,GE Vernova,Electrical Equipment,Power generation and grid modernization,UNREVIEWED,QUEUED,US-3
 US,PWR,Quanta Services,Construction and Engineering,Grid and utility infrastructure,UNREVIEWED,QUEUED,US-3
 US,CEG,Constellation Energy,Independent Power,Carbon-free baseload power,UNREVIEWED,QUEUED,US-2
@@ -54,26 +54,26 @@ KR,012450,Hanwha Aerospace,Aerospace and Defense,Defense export platform,PRIMARY
 KR,047810,Korea Aerospace Industries,Aerospace and Defense,Aircraft export and installed base,UNREVIEWED,QUEUED,KR-3
 KR,064350,Hyundai Rotem,Machinery,Defense and rail exports,UNREVIEWED,QUEUED,KR-3
 KR,010120,LS ELECTRIC,Electrical Equipment,Grid automation and electrification,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
-KR,267260,HD Hyundai Electric,Electrical Equipment,Grid equipment supercycle,UNREVIEWED,RESEARCHING,KR-1
+KR,267260,HD Hyundai Electric,Electrical Equipment,Grid equipment supercycle,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,298040,Hyosung Heavy Industries,Electrical Equipment,Power equipment and grid expansion,UNREVIEWED,QUEUED,KR-3
 KR,034020,Doosan Enerbility,Heavy Electrical Equipment,Nuclear and gas-turbine infrastructure,UNREVIEWED,QUEUED,KR-2
 KR,454910,Doosan Robotics,Machinery,Collaborative robotics,UNREVIEWED,QUEUED,KR-3
 KR,402340,SK Square,Financial Services,Semiconductor capital allocation,UNREVIEWED,QUEUED,KR-2
-KR,035420,NAVER,Interactive Media,Search commerce and AI platform,UNREVIEWED,RESEARCHING,KR-1
+KR,035420,NAVER,Interactive Media,Search commerce and AI platform,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,035720,Kakao,Interactive Media,Messaging commerce and payments ecosystem,UNREVIEWED,QUEUED,KR-3
-KR,259960,Krafton,Entertainment,Global game franchise and publishing,UNREVIEWED,RESEARCHING,KR-1
+KR,259960,Krafton,Entertainment,Global game franchise and publishing,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,352820,HYBE,Entertainment,Global fandom and music platform,UNREVIEWED,QUEUED,KR-3
 KR,068270,Celltrion,Biotechnology,Biosimilars and commercial platform,UNREVIEWED,QUEUED,KR-3
 KR,000100,Yuhan Corporation,Pharmaceuticals,Innovative drug pipeline and licensing,UNREVIEWED,QUEUED,KR-2
 KR,128940,Hanmi Pharmaceutical,Pharmaceuticals,Metabolic and oncology pipeline,UNREVIEWED,QUEUED,KR-3
-KR,196170,Alteogen,Biotechnology,Subcutaneous drug-delivery platform,UNREVIEWED,RESEARCHING,KR-1
+KR,196170,Alteogen,Biotechnology,Subcutaneous drug-delivery platform,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,141080,LigaChem Biosciences,Biotechnology,ADC platform licensing,UNREVIEWED,QUEUED,KR-3
 KR,145020,Hugel,Health Care Products,Global medical aesthetics,UNREVIEWED,QUEUED,KR-3
 KR,271560,Orion,Consumer Staples,Asian branded-snack expansion,UNREVIEWED,QUEUED,KR-2
 KR,003230,Samyang Foods,Consumer Staples,Global spicy-noodle brand,UNREVIEWED,QUEUED,KR-2
 KR,192820,Cosmax,Consumer Staples,Global cosmetics ODM,UNREVIEWED,QUEUED,KR-3
 KR,161890,Kolmar Korea,Consumer Staples,Cosmetics and health ODM,UNREVIEWED,QUEUED,KR-3
-KR,278470,APR,Consumer Discretionary,Beauty devices and global DTC brand,UNREVIEWED,RESEARCHING,KR-1
+KR,278470,APR,Consumer Discretionary,Beauty devices and global DTC brand,PRIMARY_SOURCES_MAPPED,EVIDENCE_REVIEW,KR-1
 KR,257720,SILICON2,Consumer Discretionary,K-beauty global distribution,UNREVIEWED,QUEUED,KR-3
 KR,009150,Samsung Electro-Mechanics,Technology Hardware,AI and auto electronic components,UNREVIEWED,QUEUED,KR-3
 KR,011070,LG Innotek,Technology Hardware,Optics and auto components,UNREVIEWED,QUEUED,KR-3
