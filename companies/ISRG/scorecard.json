@@ -1,0 +1,135 @@
+{
+  "ticker": "ISRG",
+  "as_of": "2026-09-05",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "2025 da Vinci procedures increased 18% to ~3.153 million; Q2 2026 procedures increased 15% y/y to ~889,000.",
+        "OUS da Vinci procedures grew 20% y/y in Q2 2026, with strength in India, Italy and the UK; adoption remains materially earlier-stage than the U.S.",
+        "da Vinci 5 had an installed base of 1,710 systems at 2026-06-30, only 136 outside the U.S., leaving a multi-year global replacement/adoption runway.",
+        "Ion Q2 2026 biopsy procedures increased ~36% y/y to ~47,900, providing a second robotic platform beyond soft-tissue surgery."
+      ],
+      "counter_evidence": [
+        "U.S. da Vinci procedure growth slowed to ~12% in Q2 2026 from ~14% in Q2 2025.",
+        "China placements are being pressured by domestic competitors, industrial policy and tender/governance constraints."
+      ],
+      "confidence": 0.94,
+      "missing_data": ["Independent global robotic-surgery market share by procedure and geography"]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Procedure adoption continues across general surgery, gynecology and urology, while the company cites growing clinical and economic evidence and surgeon training as adoption drivers.",
+        "da Vinci instruments and accessories generate recurring per-procedure economics, while service contracts and system leasing lower customer adoption friction.",
+        "Japan added reimbursement for seven da Vinci procedures in 2026, including inguinal hernia repair, and added incremental reimbursement for high-volume robotic programs."
+      ],
+      "counter_evidence": [
+        "Hospital capital budgets, staffing, reimbursement and total procedure economics can constrain adoption.",
+        "More than half of da Vinci procedures are for benign conditions, increasing cost sensitivity and seasonality."
+      ],
+      "confidence": 0.9,
+      "missing_data": ["Independent procedure-level cost-effectiveness comparisons across major indications"]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "Recurring revenue was 85% of revenue in Q2 and H1 2026, linking economics to installed base, utilization, consumables, service and leases.",
+        "At 2025 year-end the da Vinci installed base was ~11,106 systems; the ecosystem includes systems, instruments, stapling, energy, vision, training, field service and digital tools.",
+        "Clinical-sales and service organizations are embedded at hospital accounts, increasing workflow integration and switching friction.",
+        "da Vinci 5, SP and Ion expand the platform while preserving common ecosystem economics."
+      ],
+      "counter_evidence": [
+        "Medtronic, Johnson & Johnson, CMR Surgical and multiple Chinese robotic-surgery companies are active or prospective competitors.",
+        "China already shows a local example of moat pressure through domestic competition and industrial policy.",
+        "Usage-based leases can make upgrades easier but may also lower switching friction if competing systems become credible."
+      ],
+      "confidence": 0.92,
+      "missing_data": ["Third-party surgeon retention and multi-vendor hospital adoption data"]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "2025 operating cash flow was $3.03B and simple FCF proxy (CFO less PP&E purchases) was ~$2.49B.",
+        "H1 2026 operating cash flow increased to $1.97B from $1.30B; simple H1 FCF proxy was ~$1.76B.",
+        "Shares outstanding declined from 355.1M at 2025 year-end to 353.9M at 2026-06-30 despite share-based compensation.",
+        "High recurring consumables/service mix and gross margins support strong incremental cash economics."
+      ],
+      "counter_evidence": [
+        "Leasing shifts system economics from upfront cash to multi-year recovery and requires balance-sheet capital.",
+        "Inventory and operating-lease asset build mean CFO-minus-capex is an imperfect measure of economic free cash flow.",
+        "H1 2026 share-based compensation expense was $426M pre-tax, a material cost of retaining talent."
+      ],
+      "confidence": 0.88,
+      "missing_data": ["Company-reported incremental ROIC by growth investment cohort", "Maintenance versus growth capex split"]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "Dave Rosa became CEO in 2025 after a multi-year succession process; Gary Guthart moved to Executive Chair and Craig Barratt serves as Lead Independent Director.",
+        "Executive PSUs are explicitly linked to multi-year procedure growth and relative adjusted operating margin.",
+        "The company maintains a debt-light balance sheet while funding R&D, manufacturing capacity, vertical integration and acquisitions from operating cash flow.",
+        "H1 2026 repurchases of $1.44B more than offset equity issuance/dilution at the share-count level."
+      ],
+      "counter_evidence": [
+        "2025 repurchases averaged $477.84 per share, materially above the September 2026 reference price near $370, raising questions about repurchase timing.",
+        "Share-based compensation remains substantial.",
+        "July 2026 bylaw amendments increased procedural requirements around shareholder nominations and proposals, a modest governance watch item."
+      ],
+      "confidence": 0.87,
+      "missing_data": ["Post-transition capital allocation track record under CEO Dave Rosa over a full cycle"]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "evidence": [
+        "At 2026-06-30 cash plus short- and long-term investments were ~$8.63B versus total liabilities of ~$2.58B.",
+        "The balance sheet reports no conventional funded debt line and operations are strongly cash generative.",
+        "The company states it expects to fund future growth from cash generated by operations."
+      ],
+      "counter_evidence": [
+        "Leasing expansion, acquisitions, manufacturing investment and supplier commitments consume capital and increase asset intensity.",
+        "Tariffs, supply-chain disruptions or hospital spending shocks can compress margins and cash flow."
+      ],
+      "confidence": 0.97,
+      "missing_data": []
+    },
+    "expectation_gap_and_valuation": {
+      "score": 7,
+      "max_score": 15,
+      "evidence": [
+        "At the 2026-09-03 close of $369.83, market capitalization is approximately $130.7B using 353.278M shares outstanding.",
+        "The share price is materially below the January 2026 52-week high, reducing but not eliminating valuation risk.",
+        "A base reverse-DCF/DCF framework using LTM simple FCF of ~$3.22B produces a base fair value near $398 per share."
+      ],
+      "counter_evidence": [
+        "Current enterprise value is roughly 38x LTM simple FCF and market capitalization roughly 42x LTM attributable net income.",
+        "Reverse DCF indicates the market still requires roughly 11%-13% annual FCF growth for a decade depending on terminal multiple assumptions of 20x-25x at a 10% discount rate.",
+        "Base-case upside is only high-single digits, leaving limited margin of safety despite excellent business quality."
+      ],
+      "confidence": 0.82,
+      "missing_data": ["Market-consensus long-term estimates intentionally excluded from primary underwriting"]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "evidence": [
+        "Robotic-assisted surgery remains a global penetration story, and da Vinci 5/SP/Ion create multiple growth vectors on top of a large installed base.",
+        "Net cash, high recurring revenue and strong cash generation reduce bankruptcy/permanent-capital-loss risk."
+      ],
+      "counter_evidence": [
+        "At an approximately $131B market capitalization, a 10x outcome requires a very large future earnings base and is less plausible than it was earlier in the company lifecycle.",
+        "Scenario analysis at the reference price shows meaningful downside in a de-rating case versus only modest base-case upside."
+      ],
+      "confidence": 0.83,
+      "missing_data": ["Long-run TAM and penetration by procedure with independent validation"]
+    }
+  },
+  "total_score": 83,
+  "classification": "Emerging Outlier"
+}
