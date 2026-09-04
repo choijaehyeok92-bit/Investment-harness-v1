@@ -1,0 +1,106 @@
+{
+  "ticker": "AXON",
+  "as_of": "2026-09-05",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "evidence": [
+        "No material accounting-integrity impairment identified in the reviewed 10-K, 10-Q, proxy or recent Form 4 filings.",
+        "Recent Form 4 tax-withholding dispositions are explicitly identified as such; the President's discretionary sale was under a disclosed 10b5-1 plan."
+      ],
+      "severity": "LOW",
+      "confidence": 0.88,
+      "resolution_needed": null
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "evidence": [
+        "Growth is supported by $15.1 billion future contracted bookings and a $300 million undrawn revolver.",
+        "Axon used debt and ATM equity for acquisitions, investments and tax obligations, but this does not yet appear to be a structurally necessary funding model for core operations."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.78,
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "Shares outstanding increased from 76.62 million at year-end 2024 to 80.21 million at year-end 2025 and 81.24 million at June 30, 2026.",
+        "2026 SBC guidance is $590-$620 million; Employee XSP has a 4.5 million-share approved pool and CEO Performance Award includes 679,102 XSUs.",
+        "Axon sold approximately 0.2 million shares through its ATM in Q2 2026 and had about 1.0 million ATM shares remaining."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.96,
+      "resolution_needed": "Demonstrate that annual net dilution falls toward low-single digits or below as XSP/CEO award amortization matures and that per-share FCF growth outpaces dilution."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "evidence": [
+        "ARR grew 39%, NRR reached 126% and future contracted bookings grew 41%, indicating customer expansion rather than subsidy-driven growth.",
+        "Software & Services grew 36% with software-only gross margin above 80%."
+      ],
+      "severity": "LOW",
+      "confidence": 0.94,
+      "resolution_needed": null
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "PASS",
+      "evidence": [
+        "No evidence of a structural collapse in product economics; Q2 GAAP operating margin improved and adjusted EBITDA grew more than 40%.",
+        "However, cash conversion is weak and acquisition intensity is high, so confidence is reduced."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.68,
+      "resolution_needed": null
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "PASS",
+      "evidence": [
+        "NRR, ARR, bookings and ecosystem breadth indicate expanding rather than contracting customer relationships and switching costs.",
+        "Competition remains material in nearly every adjacent category."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.88,
+      "resolution_needed": null
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "At the latest confirmed close, AXON trades near 12.1x midpoint 2026 revenue and 47.6x guided adjusted EBITDA.",
+        "Reverse valuation implies roughly 18%-20% annual revenue growth for a decade under still-strong terminal economics."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.88,
+      "resolution_needed": "Either valuation must compress materially or evidence must support a credible path to sustained high-teens revenue growth with 20%+ owner-FCF margin and contained dilution."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "PASS",
+      "evidence": [
+        "U.S. revenue is concentrated at 81% of first-half 2026 revenue, but the company is diversified across TASER, sensors, platform solutions and software/services with no identified single-customer dependency."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.85,
+      "resolution_needed": null
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "evidence": [
+        "Contracted backlog, recurring revenue and access to liquidity reduce bankruptcy risk.",
+        "Primary permanent-loss risk is valuation compression combined with dilution and acquisition misallocation rather than solvency."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.90,
+      "resolution_needed": null
+    }
+  ]
+}
