@@ -1,25 +1,28 @@
 {
   "ticker": "ISRG",
-  "as_of": "2026-09-05",
+  "as_of": "2026-09-04",
   "label": "WATCH",
   "hard_veto_status": "PASS",
   "position_band": "NONE",
-  "rationale": "ISRG is an Emerging Outlier-quality business with an unusually strong installed-base/consumables/service flywheel, high recurring revenue, global procedure runway, da Vinci 5/SP/Ion optionality, and a fortress balance sheet. The constraint is price rather than business quality: at $369.83 the market still embeds roughly 11%-13% ten-year FCF growth depending on terminal assumptions, while the base valuation produces only high-single-digit upside. Wait for either a larger margin of safety or additional evidence that FCF per share can compound above the market-implied rate.",
+  "rationale": "ISRG is an Emerging Outlier with exceptional company quality: it leads robotic-assisted soft-tissue surgery, generates 85% recurring revenue, is expanding procedures and installed base, produces strong operating leverage and FCF, holds substantial cash, and offsets dilution with repurchases. At $365.56, however, the stock is approximately equal to the modeled Base value and requires roughly 14% annual revenue growth for ten years at a 30% terminal FCF margin. The expectation gap and asymmetry are insufficient for entry despite the business quality.",
   "increase_evidence": [
-    "Price falls to at least ~20% below a conservatively updated base intrinsic value without thesis deterioration.",
-    "Da Vinci procedure growth remains >=14% globally with OUS growth >=18% while system utilization and recurring revenue remain strong.",
-    "Da Vinci 5 OUS rollout broadens materially and SP/Ion procedure growth converts into recurring revenue without margin dilution.",
-    "LTM FCF per share compounds at a mid-teens rate after accounting for share-based compensation and lease-related capital intensity.",
-    "Competitive pressure remains localized rather than spreading from China into core U.S. and European hospital accounts."
+    "Da Vinci procedure growth stabilizes at 15% or higher while utilization remains positive.",
+    "International procedure growth remains at least 18% and broadens across countries and specialties.",
+    "Da Vinci 5 improves recurring revenue per installed system without consolidated gross-margin deterioration.",
+    "Ion utilization accelerates as U.S. installed-base growth matures, confirming a durable second-platform model.",
+    "FCF per diluted share compounds at least 15% with flat or declining net shares.",
+    "Competitive launches do not cause material account losses, pricing pressure or weaker procedure growth.",
+    "Price falls at least 20% below a refreshed Base value, or stronger evidence raises Base value enough to create that gap."
   ],
   "reduce_or_exit_evidence": [
-    "Sustained global da Vinci procedure growth below 10% without a temporary macro or reimbursement explanation.",
-    "Material erosion in I&A revenue per procedure, recurring revenue share, or service economics indicating weaker ecosystem monetization.",
-    "Repeated competitive tender/account losses across major U.S. or European health systems.",
-    "Material product-safety, regulatory, antitrust, or reimbursement developments that impair the closed-loop instruments/service model.",
-    "FCF per share stagnates or declines for multiple years despite continued heavy reinvestment.",
-    "Price materially exceeds updated bull/base value without a commensurate improvement in long-duration fundamentals."
+    "Da Vinci procedure growth stays below 10% for four quarters while installed-base growth and utilization also weaken.",
+    "A serious product-safety, recall, regulatory or cybersecurity event produces sustained loss of trust.",
+    "Competitors win material account share and recurring instruments or service revenue grows slower than procedures.",
+    "Gross margin stays below 62% or FCF margin stays below 22% for two years.",
+    "Net dilution exceeds 1.5% annually despite positive FCF and authorized repurchases.",
+    "Management allocates material capital to low-return acquisitions or persistently repurchases above intrinsic value as per-share economics weaken.",
+    "Price requires the full Bull case without proportionate improvement in business evidence."
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.87
+  "confidence": 0.85
 }
