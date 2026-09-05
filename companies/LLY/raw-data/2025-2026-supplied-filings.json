@@ -1,0 +1,484 @@
+{
+  "ticker": "LLY",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow calculation, derived operating-margin calculation, or aggregation of insider transactions. Values below are extracted from the user-supplied SEC filing bodies only.",
+  "source_resolution": [
+    {
+      "accession": "0000059478-26-000013",
+      "body_file": "0000059478-26-000013.pdf",
+      "resolved_identity": "Eli Lilly and Company Form 10-K for fiscal year ended 2025-12-31",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0000059478-26-000077",
+      "body_file": "0000059478-26-000077.pdf",
+      "resolved_identity": "Eli Lilly and Company Form 8-K dated 2026-08-05, including Exhibit 99.1 Q2 2026 earnings release",
+      "source_character": "company SEC filing / furnished earnings release",
+      "confidence": "high"
+    },
+    {
+      "accession": "0000059478-26-000081",
+      "body_file": "0000059478-26-000081.pdf",
+      "resolved_identity": "Eli Lilly and Company Form 10-Q for quarter ended 2026-06-30",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0001214659-26-005225",
+      "body_file": "0001214659-26-005225.pdf",
+      "resolved_identity": "Notice of Exempt Solicitation regarding Eli Lilly; filed by Friends Fiduciary Corporation in support of Proposal 6 for an independent board chair",
+      "source_character": "third-party shareholder filer; not Lilly management",
+      "confidence": "high"
+    },
+    {
+      "accession": "0001861052-26-000006",
+      "body_file": "0001861052-26-000006.pdf",
+      "resolved_identity": "Eli Lilly Form 4 for Edgardo Hernandez, EVP & President, Manufacturing Operations",
+      "source_character": "Section 16 beneficial-ownership filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0001955972-26-000008",
+      "body_file": "0001955972-26-000008.pdf",
+      "resolved_identity": "Eli Lilly Form 4 for Eric Dozier, EVP, Chief People Officer",
+      "source_character": "Section 16 beneficial-ownership filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0002096888-26-000006",
+      "body_file": "0002096888-26-000006.pdf",
+      "resolved_identity": "Amended Eli Lilly Form 3 for Adrienne S. Brown, EVP, President LLY Imm",
+      "source_character": "Section 16 beneficial-ownership filing",
+      "confidence": "high"
+    }
+  ],
+  "fy2025_financials": {
+    "unit": "USD million unless otherwise stated",
+    "source": "2025 Form 10-K",
+    "period": "year ended 2025-12-31",
+    "income_statement": {
+      "revenue": 65179,
+      "cost_of_sales": 11052,
+      "research_and_development": 13337,
+      "marketing_selling_and_administrative": 11094,
+      "acquired_iprd": 2910,
+      "asset_impairment_restructuring_and_other_special_charges": 484,
+      "other_net_income_expense": 571,
+      "income_before_income_taxes": 25731,
+      "income_taxes": 5091,
+      "net_income": 20640,
+      "eps_basic": 23.0,
+      "eps_diluted": 22.95,
+      "weighted_average_shares_basic_million": 897.3,
+      "weighted_average_shares_diluted_million": 899.3,
+      "operating_income": null,
+      "operating_income_status": "not explicitly labeled in supplied 10-K; not derived"
+    },
+    "gross_margin_and_expense_metrics": {
+      "gross_margin": 54127,
+      "gross_margin_percent_of_revenue": 83.0,
+      "effective_tax_rate_percent": 19.8
+    },
+    "balance_sheet": {
+      "cash_and_cash_equivalents": 7268,
+      "accounts_receivable": 17760,
+      "inventories": 13744,
+      "total_current_assets": 55629,
+      "investments": 2802,
+      "property_and_equipment_net": 24675,
+      "total_assets": 112476,
+      "short_term_borrowings_and_current_maturities_of_long_term_debt": 1635,
+      "long_term_debt": 40868,
+      "total_current_liabilities": 35228,
+      "total_noncurrent_liabilities": 50713,
+      "total_equity": 26535,
+      "explicit_total_debt_md_and_a": 42500
+    },
+    "cash_flow": {
+      "net_cash_provided_by_operating_activities": 16813,
+      "purchases_of_property_and_equipment": 7841,
+      "purchases_of_iprd": 3008,
+      "cash_paid_for_acquisitions_net_of_cash_acquired": 661,
+      "net_cash_used_for_investing_activities": 10972,
+      "dividends_paid": 5384,
+      "proceeds_from_issuance_of_long_term_debt": 13167,
+      "repayments_of_long_term_debt": 778,
+      "purchases_of_common_stock": 4108,
+      "net_cash_used_for_financing_activities": 2213,
+      "cash_and_cash_equivalents_end_of_year": 7268,
+      "free_cash_flow": null,
+      "free_cash_flow_status": "not explicitly disclosed; CFO minus capex not derived"
+    },
+    "revenue_mix": {
+      "net_product_revenue": 60958,
+      "collaboration_and_other_revenue": 4221,
+      "regional_revenue": {
+        "US": 43481,
+        "Europe": 11558,
+        "Japan": 2132,
+        "China": 1951,
+        "rest_of_world": 6057
+      },
+      "selected_product_revenue": {
+        "Mounjaro": {"US": 13651, "outside_US": 9315, "total": 22965, "yoy_percent": 99},
+        "Zepbound": {"US": 13484, "outside_US": 58, "total": 13542, "yoy_percent": 175},
+        "Verzenio": {"US": 3464, "outside_US": 2259, "total": 5723, "yoy_percent": 8}
+      },
+      "therapeutic_area_revenue": {
+        "cardiometabolic_health": {"US": 33864, "outside_US": 14357},
+        "oncology": {"US": 5352, "outside_US": 4024},
+        "immunology": {"US": 2964, "outside_US": 2283},
+        "neuroscience": {"US": 997, "outside_US": 394},
+        "other": {"US": 304, "outside_US": 639}
+      }
+    },
+    "growth_decomposition": {
+      "revenue_yoy_percent": 45,
+      "US_revenue_yoy_percent": 43,
+      "outside_US_revenue_yoy_percent": 48,
+      "consolidated_volume_change_percent": 50,
+      "consolidated_price_change_percent": -6,
+      "consolidated_fx_change_percent": 1
+    },
+    "capital_and_manufacturing": {
+      "capital_expenditures_2025": 7800,
+      "capital_expenditures_2024": 5100,
+      "cash_and_cash_equivalents_2025_year_end": 7300,
+      "total_investments_2025_year_end": 2900,
+      "unfunded_venture_capital_commitments": 902,
+      "unused_committed_bank_credit_facilities": 10100,
+      "commercial_paper_support_availability": 10000,
+      "development_medicine_purchase_commitment_exposure_up_to": 10000,
+      "development_medicine_purchase_commitment_duration_up_to_years": 8,
+      "share_repurchases_2025": 4100,
+      "remaining_share_repurchase_authorization_2025_year_end": 10900
+    }
+  },
+  "q2_h1_2026_financials": {
+    "unit": "USD million unless otherwise stated",
+    "source": "2026 Q2 Form 10-Q; operating income additionally from furnished Q2 earnings release",
+    "quarter_ended_2026_06_30": {
+      "revenue": 22974,
+      "cost_of_sales": 3268,
+      "research_and_development": 3819,
+      "marketing_selling_and_administrative": 3430,
+      "acquired_iprd": 2776,
+      "asset_impairment_restructuring_and_other_special_charges": 703,
+      "income_before_income_taxes": 9247,
+      "income_taxes": 2152,
+      "net_income": 7095,
+      "eps_basic": 7.95,
+      "eps_diluted": 7.94,
+      "operating_income": 8978,
+      "operating_income_source": "Q2 2026 earnings release, Operating Results (Unaudited) - REPORTED",
+      "gross_margin": 19706,
+      "gross_margin_percent_of_revenue": 85.8,
+      "effective_tax_rate_percent": 23.3
+    },
+    "six_months_ended_2026_06_30": {
+      "revenue": 42773,
+      "cost_of_sales": 6845,
+      "research_and_development": 7329,
+      "marketing_selling_and_administrative": 6364,
+      "acquired_iprd": 3360,
+      "asset_impairment_restructuring_and_other_special_charges": 982,
+      "income_before_income_taxes": 18097,
+      "income_taxes": 3606,
+      "net_income": 14491,
+      "eps_basic": 16.22,
+      "eps_diluted": 16.19,
+      "operating_income": 17893,
+      "operating_income_source": "Q2 2026 earnings release, Operating Results (Unaudited) - REPORTED",
+      "gross_margin": 35928,
+      "gross_margin_percent_of_revenue": 84.0,
+      "effective_tax_rate_percent": 19.9
+    },
+    "balance_sheet_2026_06_30": {
+      "cash_and_cash_equivalents": 8950,
+      "accounts_receivable": 20083,
+      "inventories": 16793,
+      "total_current_assets": 64672,
+      "investments": 3856,
+      "goodwill": 8849,
+      "other_intangibles_net": 18110,
+      "property_and_equipment_net": 29286,
+      "total_assets": 142283,
+      "short_term_borrowings_and_current_maturities_of_long_term_debt": 7050,
+      "long_term_debt": 47858,
+      "explicit_total_debt_md_and_a": 54900,
+      "total_current_liabilities": 47741,
+      "total_noncurrent_liabilities": 60663,
+      "total_equity": 33879
+    },
+    "cash_flow_six_months_2026_06_30": {
+      "net_cash_provided_by_operating_activities": 16023,
+      "purchases_of_property_and_equipment": 5259,
+      "purchases_of_noncurrent_investments": 604,
+      "purchases_of_iprd": 3486,
+      "cash_paid_for_acquisitions_net_of_cash_acquired": 9805,
+      "net_cash_used_for_investing_activities": 19312,
+      "dividends_paid": 3094,
+      "net_change_in_short_term_borrowings": 5284,
+      "proceeds_from_issuance_of_long_term_debt": 8941,
+      "repayments_of_long_term_debt": 1623,
+      "purchases_of_common_stock": 3957,
+      "net_cash_provided_by_financing_activities": 4956,
+      "cash_and_cash_equivalents_end_of_period": 8950,
+      "free_cash_flow": null,
+      "free_cash_flow_status": "not explicitly disclosed; CFO minus capex not derived"
+    },
+    "revenue_by_region": {
+      "quarter": {"US": 14413, "outside_US": 8561},
+      "six_months": {"US": 26532, "outside_US": 16241}
+    },
+    "q2_growth_decomposition_percent": {
+      "US": {"volume": 37, "price": -3, "fx": 0, "reported_revenue_change": 33},
+      "outside_US": {"volume": 113, "price": -36, "fx": 4, "reported_revenue_change": 80},
+      "consolidated": {"volume": 60, "price": -13, "fx": 1, "reported_revenue_change": 48}
+    },
+    "h1_growth_decomposition_percent": {
+      "US": {"volume": 42, "price": -5, "fx": 0, "reported_revenue_change": 37},
+      "outside_US": {"volume": 104, "price": -31, "fx": 7, "reported_revenue_change": 81},
+      "consolidated": {"volume": 62, "price": -13, "fx": 2, "reported_revenue_change": 51}
+    },
+    "product_revenue": {
+      "Q2_2026": {
+        "Mounjaro": {"US": 4791, "outside_US": 5152, "total": 9943, "yoy_percent": 91},
+        "Zepbound": {"US": 4873, "outside_US": 55, "total": 4928, "yoy_percent": 46},
+        "Verzenio": {"US": 845, "outside_US": 629, "total": 1474, "yoy_percent": -1},
+        "Jardiance": {"US": 616, "outside_US": 615, "total": 1232, "yoy_percent": 79},
+        "Trulicity": {"US": 908, "outside_US": 312, "total": 1219, "yoy_percent": 12},
+        "Taltz": {"US": 539, "outside_US": 317, "total": 856, "yoy_percent": 1}
+      },
+      "H1_2026": {
+        "Mounjaro": {"US": 9024, "outside_US": 9582, "total": 18605, "yoy_percent": 106},
+        "Zepbound": {"US": 9006, "outside_US": 81, "total": 9088, "yoy_percent": 60},
+        "Verzenio": {"US": 1551, "outside_US": 1224, "total": 2776, "yoy_percent": 5},
+        "Jardiance": {"US": 1128, "outside_US": 1218, "total": 2346, "yoy_percent": 38},
+        "Trulicity": {"US": 1508, "outside_US": 630, "total": 2138, "yoy_percent": -2},
+        "Taltz": {"US": 956, "outside_US": 632, "total": 1588, "yoy_percent": -1}
+      },
+      "selected_newer_products_Q2_2026": {
+        "Jaypirca": 192,
+        "Ebglyss": 201,
+        "Kisunla": 167,
+        "Omvoh": 102,
+        "Inluriyo": 75,
+        "Foundayo": 98
+      }
+    },
+    "capital_allocation_and_liquidity": {
+      "cash_and_cash_equivalents_2026_06_30": 9000,
+      "investments_2026_06_30": 3900,
+      "unfunded_venture_capital_commitments": 806,
+      "may_2026_long_term_debt_issuance": 9000,
+      "business_development_cash_paid_2026_through_q2": 13300,
+      "july_2026_infectious_disease_acquisitions_cash_paid_approx": 2000,
+      "pending_ataibeckley_closing_payment_approx": 2800,
+      "unused_committed_bank_credit_facilities": 10100,
+      "commercial_paper_support_availability": 10000,
+      "share_repurchases_h1_2026": 4000,
+      "remaining_share_repurchase_authorization": 7000,
+      "dividends_paid_h1_2026": 3100,
+      "dividends_per_share_h1_2026": 3.46
+    }
+  },
+  "acquisitions_and_business_development_2026": {
+    "source": "2026 Q2 Form 10-Q",
+    "business_combinations": [
+      {
+        "company": "Kelonia Therapeutics, Inc.",
+        "acquisition_date": "2026-06-25",
+        "business_description": "in vivo chimeric antigen receptor T-cell (CAR-T) therapies",
+        "acquired_iprd_fair_value": 4695,
+        "goodwill": 1052,
+        "deferred_tax_liabilities_net": -822,
+        "acquisition_date_fair_value_of_consideration": 4897,
+        "cash_consideration_paid_or_to_be_paid_net_of_cash_acquired": 3086,
+        "contingent_consideration": 3750,
+        "primary_acquired_iprd_intangible": "KLN-1010"
+      },
+      {
+        "company": "Centessa Pharmaceuticals plc",
+        "acquisition_date": "2026-06-24",
+        "business_description": "orexin receptor 2 agonists for sleep-wake disorders",
+        "acquired_iprd_fair_value": 6058,
+        "goodwill": 1655,
+        "deferred_tax_liabilities_net": -1279,
+        "acquisition_date_fair_value_of_consideration": 6593,
+        "cash_consideration_paid_or_to_be_paid_net_of_cash_acquired": 5958,
+        "contingent_consideration": 1542,
+        "primary_acquired_iprd_intangible": "ORX750"
+      },
+      {
+        "company": "Ventyx Biosciences, Inc.",
+        "acquisition_date": "2026-03-04",
+        "business_description": "oral therapies for inflammatory-mediated diseases",
+        "acquired_iprd_fair_value": 977,
+        "goodwill": 232,
+        "deferred_tax_liabilities_net": -150,
+        "acquisition_date_fair_value_of_consideration": 1178,
+        "cash_consideration_paid_or_to_be_paid_net_of_cash_acquired": 1058,
+        "contingent_consideration": null,
+        "primary_acquired_iprd_intangible": "VTX3232"
+      }
+    ],
+    "asset_acquisitions_acquired_iprd": [
+      {
+        "counterparty": "Ajax Therapeutics, Inc.",
+        "asset": "AJ1-11095, oral Type II JAK2 inhibitor for myelofibrosis and polycythemia vera",
+        "acquisition_month": "2026-06",
+        "phase_at_arrangement": "Phase 1",
+        "acquired_iprd_charge": 909
+      },
+      {
+        "counterparty": "Orna Therapeutics, Inc.",
+        "asset": "ORN-252, CD19-targeting in vivo CAR-T therapy for B cell-driven autoimmune diseases",
+        "acquisition_month": "2026-05",
+        "phase_at_arrangement": "Phase 1",
+        "acquired_iprd_charge": 1233
+      }
+    ],
+    "subsequent_events": [
+      {
+        "event": "three infectious-disease portfolio acquisitions",
+        "timing": "2026-07",
+        "aggregate_consideration_up_to": 3900,
+        "unit": "USD million",
+        "note": "inclusive of upfront and additional potential milestone payments"
+      }
+    ]
+  },
+  "guidance_2026": {
+    "source": "2026-08-05 Q2 earnings release",
+    "revenue_range_usd_billion": [85.0, 87.0],
+    "performance_margin_percent_range_non_gaap": [49.0, 50.5],
+    "tax_rate_percent_range_non_gaap": [18.0, 19.0],
+    "eps_diluted_non_gaap_range": [35.5, 36.5],
+    "shares_outstanding_assumption_million": 894,
+    "definition_note": "Performance margin is defined by Lilly as gross margin less R&D and marketing, selling, and administrative expenses divided by revenue.",
+    "iprd_note": "Guidance does not include acquired IPR&D incurred after 2026-06-30."
+  },
+  "pipeline_and_regulatory": {
+    "source_10k_2025_year_end": [
+      {"compound": "Tirzepatide (Mounjaro/Zepbound)", "indication": "cardiovascular outcomes in type 2 diabetes", "status": "Submitted in U.S."},
+      {"compound": "Tirzepatide (Mounjaro/Zepbound)", "indication": "metabolic dysfunction-associated steatotic liver disease", "status": "Phase 3 initiated"},
+      {"compound": "Tirzepatide (Mounjaro/Zepbound)", "indication": "morbidity and mortality in obesity", "status": "Phase 3 ongoing"},
+      {"compound": "Tirzepatide (Mounjaro/Zepbound)", "indication": "type 1 diabetes", "status": "Phase 3 trials initiated"},
+      {"compound": "Orforglipron", "indication": "obesity", "status": "Submitted in U.S., EU, Japan"},
+      {"compound": "Orforglipron", "indication": "type 2 diabetes", "status": "Submitted in EU; Phase 3 ongoing"},
+      {"compound": "Orforglipron", "indication": "cardiovascular outcomes", "status": "Phase 3 initiated"},
+      {"compound": "Retatrutide", "indication": "cardiovascular / renal outcomes", "status": "Phase 3 ongoing"},
+      {"compound": "Retatrutide", "indication": "obesity, osteoarthritis, OSA", "status": "Phase 3; one trial met all primary and key secondary endpoints; other Phase 3 trials ongoing"},
+      {"compound": "Retatrutide", "indication": "type 2 diabetes", "status": "Phase 3 ongoing"}
+    ],
+    "q2_2026_updates": [
+      {"compound": "Orforglipron (Foundayo)", "development": "FDA approved for treatment of obesity."},
+      {"compound": "Orforglipron (Foundayo)", "development": "Submitted for type 2 diabetes in the U.S., EU, and Japan."},
+      {"compound": "Retatrutide", "development": "Phase 3 obesity trials met their primary endpoints."},
+      {"compound": "Retatrutide", "development": "A Phase 3 type 2 diabetes trial met the primary endpoint."},
+      {"compound": "Retatrutide", "development": "Earnings release states clinical data package is complete to support global registrations for obesity, obstructive sleep apnea, and knee osteoarthritis pain, with plans to submit a Biologics License Application to the U.S. FDA in Q1 2027."},
+      {"compound": "Ebglyss", "development": "U.S. FDA approval for one maintenance dose every eight weeks in moderate-to-severe atopic dermatitis."},
+      {"compound": "Jaypirca", "development": "European Commission approval as monotherapy for adults with chronic lymphocytic leukemia across all lines of therapy."}
+    ],
+    "licensing": [
+      {
+        "product": "Foundayo / orforglipron",
+        "counterparty": "Chugai Pharmaceutical Co., Ltd",
+        "rights": "worldwide development and commercialization rights",
+        "royalty": "mid single digits to low teens on worldwide net sales"
+      }
+    ]
+  },
+  "intellectual_property": {
+    "source": "2025 Form 10-K",
+    "Mounjaro_Zepbound_compound_patent": {"US": 2036, "major_European_countries": 2037, "Japan": 2040},
+    "Mounjaro_Zepbound_data_protection": {"US": 2027, "major_European_countries": 2033, "Japan": 2030}
+  },
+  "concentration_pricing_and_risk_disclosures": {
+    "company_disclosures": [
+      {"period": "FY2025", "fact": "Mounjaro and Zepbound accounted for 56% of total revenue.", "source": "2025 Form 10-K"},
+      {"period": "H1 2026", "fact": "Mounjaro and Zepbound accounted for 65% of total revenue.", "source": "2026 Q2 Form 10-Q"},
+      {"period": "FY2025", "fact": "Six products/product families with more than $3B each collectively accounted for 82% of total revenue: Mounjaro, Zepbound, Verzenio, Trulicity, Taltz, and Jardiance family.", "source": "2025 Form 10-K"},
+      {"period": "Q2 2026", "fact": "Worldwide revenue increased 48%, reflecting +60% volume, -13% realized price, and +1% FX.", "source": "2026 Q2 Form 10-Q"},
+      {"period": "Q2 2026", "fact": "U.S. price decreased 3%; outside-U.S. price decreased 36%, with China NRDL inclusion for Mounjaro cited as a major driver outside the U.S.", "source": "2026 Q2 Form 10-Q"},
+      {"period": "2026 onward", "fact": "Manufacturing expansion is expected to keep capital expenditures meaningfully higher in the near term; additional incretin-related capacity is expected over the next several years.", "source": "2026 Q2 Form 10-Q"},
+      {"period": "2025/2026", "fact": "Company identifies pricing/reimbursement, PBM actions, government pricing, supply/manufacturing, product concentration, competition, counterfeit/compounded incretins, litigation, and regulatory matters as material risks.", "source": "2025 Form 10-K / 2026 Q2 Form 10-Q"},
+      {"period": "as disclosed in 2025 Form 10-K", "fact": "Product-liability litigation involving Mounjaro, Trulicity, and Zepbound includes two federal MDLs focused on gastrointestinal injuries and NAION, plus other cases.", "source": "2025 Form 10-K"}
+    ],
+    "third_party_shareholder_filer": {
+      "source": "Notice of Exempt Solicitation by Friends Fiduciary Corporation",
+      "proposal": "Proposal 6: require an independent board chair, prospectively phased in for the next CEO transition.",
+      "assertions": [
+        "The filer argues Lilly faces financial, legal, and reputational risks related to insulin pricing and alleged anti-competitive conduct in insulin and GLP-1 markets.",
+        "The filer cites litigation and investigations and argues independent board leadership would improve oversight."
+      ],
+      "source_character_note": "These are shareholder-filer assertions and governance arguments, not Lilly management statements and not independently verified in this extraction."
+    }
+  },
+  "insider_and_beneficial_ownership_filings": [
+    {
+      "reporting_person": "Edgardo Hernandez",
+      "title": "EVP & President, Manufacturing Operations",
+      "form": "Form 4",
+      "transaction_date": "2026-09-02",
+      "transaction_code": "G",
+      "security": "Common Stock",
+      "amount": 13,
+      "acquired_or_disposed": "D",
+      "price": 0,
+      "direct_shares_following": 46082.717,
+      "indirect_401k_shares": 874.22,
+      "signed_date": "2026-09-04",
+      "source": "0001861052-26-000006"
+    },
+    {
+      "reporting_person": "Eric Dozier",
+      "title": "EVP, Chief People Officer",
+      "form": "Form 4",
+      "transaction_date": "2026-09-02",
+      "transaction_code": "G",
+      "security": "Common Stock",
+      "amount": 216,
+      "acquired_or_disposed": "D",
+      "price": 0,
+      "direct_shares_following": 14239.212,
+      "indirect_401k_shares": 413.44,
+      "signed_date": "2026-09-04",
+      "source": "0001955972-26-000008"
+    },
+    {
+      "reporting_person": "Adrienne S. Brown",
+      "title": "EVP, President LLY Imm",
+      "form": "Form 3 amendment",
+      "event_date_requiring_statement": "2025-11-07",
+      "original_filed_date": "2025-11-14",
+      "common_stock_direct_shares": 7045.237,
+      "restricted_stock_units": [
+        {"amount": 391, "exercisable_and_expiration_date": "2026-02-16"},
+        {"amount": 2530, "exercisable_and_expiration_date": "2026-11-01"},
+        {"amount": 394, "exercisable_and_expiration_date": "2027-02-16"},
+        {"amount": 354.091, "exercisable_and_expiration_date": "2028-02-16"}
+      ],
+      "amendment_explanation": "Corrects the number of shares previously reported to account for additional shares unintentionally omitted from the original Form 3 filing and subsequent Forms 4.",
+      "signed_date": "2026-09-04",
+      "source": "0002096888-26-000006"
+    }
+  ],
+  "other_disclosures": [
+    {"fact": "As of August 3, 2026, common shares outstanding were 941,357,065.", "source": "2026 Q2 Form 10-Q"},
+    {"fact": "On May 11, 2026, Chief Accounting Officer Donald Zakrowski adopted a Rule 10b5-1 sales plan for up to 2,000 shares between August 10, 2026 and May 10, 2027, subject to plan terms.", "source": "2026 Q2 Form 10-Q"},
+    {"fact": "Lilly committed an additional $4.5B to expand Indiana manufacturing sites.", "source": "2026-08-05 Q2 earnings release"}
+  ],
+  "source_coverage": [
+    {"source": "0000059478-26-000013", "fields_found": ["FY2025 financial statements", "cash flow", "balance sheet", "revenue by product/region", "pipeline", "IP dates", "capital/manufacturing", "risk disclosures", "litigation"], "notes": "Primary annual company filing."},
+    {"source": "0000059478-26-000077", "fields_found": ["Q2/H1 operating results", "selected product revenue", "2026 guidance", "pipeline/regulatory updates", "manufacturing commitment"], "notes": "Form 8-K with furnished Exhibit 99.1 earnings release."},
+    {"source": "0000059478-26-000081", "fields_found": ["Q2/H1 GAAP financials", "balance sheet", "cash flow", "product/region revenue", "pricing-volume decomposition", "acquisitions", "liquidity/debt", "pipeline updates", "risk updates", "share repurchases", "10b5-1 plan"], "notes": "Primary quarterly company filing."},
+    {"source": "0001214659-26-005225", "fields_found": ["shareholder governance proposal", "third-party risk assertions"], "notes": "Not Lilly management; assertions preserved as third-party statements."},
+    {"source": "0001861052-26-000006", "fields_found": ["Edgardo Hernandez Form 4 transaction and ownership"], "notes": "No aggregation or inference."},
+    {"source": "0001955972-26-000008", "fields_found": ["Eric Dozier Form 4 transaction and ownership"], "notes": "No aggregation or inference."},
+    {"source": "0002096888-26-000006", "fields_found": ["Adrienne Brown amended Form 3 ownership and RSUs"], "notes": "Correction language preserved."}
+  ]
+}
