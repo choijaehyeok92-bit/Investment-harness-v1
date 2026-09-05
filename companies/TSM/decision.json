@@ -1,28 +1,18 @@
 {
   "ticker": "TSM",
-  "as_of": "2026-09-04",
-  "label": "STARTER",
+  "as_of": "2026-09-05",
+  "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
-  "position_band": "STARTER",
-  "macro_pacing": "slow",
-  "confidence": 0.68,
-  "rationale": "Scorecard 79/100 (Emerging Outlier) — the highest total and, at 66/75, by some margin the highest BUSINESS-QUALITY subtotal in this harness (005930: 59, NVDA: 62). The defining evidence is that margins EXPANDED while volume grew: gross margin 54.4% to 56.1% to 59.9% and operating margin 42.6% to 45.7% to 50.8% across 2023-25, on revenue up 76% cumulatively. Growth bought with price or subsidy compresses margin; this does the opposite. That is why low_quality_growth and moat_shrinkage both read PASS — the only company in this harness where both do. Contrast 005930, whose margin surge was a +220% memory ASP spike (a rent), and NVDA, which carries an unresolved circular-financing question. Supporting evidence is unusually clean: advanced nodes 58% to 74% of wafer revenue (77% by Q2 2026) with 2nm in volume production and A16 risk production due in 2026; 2nm booked into 2028 and CoWoS sold out; net cash of about US$64.9B with nil short-term loans; capex roughly 93% self-funded; a 20% dividend increase in the same year as record capex; and overseas expansion structured with customer-partners (JASM, ESMC) sharing capital and risk. The expectation gap is positive but thin. At US$414.00 the market capitalisation of about US$2,147B is 39.7x trailing FY2025 EPS of US$10.43 per ADS, or roughly 26.8x on an ESTIMATED FY2026 base of US$15.42 — an estimate that rests on the analyst's own 47% net-margin assumption, since TSMC does not guide margin. At a 25x mature multiple the price requires the FY2026 level to PERSIST rather than grow. Forward visibility behind that is better than for either other name. Two Hard Veto items sit at HIGH severity, and critically they are THE SAME underlying exposure rather than two independent risks: fatal_concentration and permanent_loss_probability both reduce to Taiwan. The overwhelming majority of capacity sits on one island on leased science-park land, and overseas capacity is material but not a leading-edge substitute. THE DECISIVE POINT ON SIZING: this gate is not researchable. For NVDA the open gates are disclosure questions with definite answers — quantify equity-affiliated revenue, establish commitment cancellability. Here, no amount of analysis converts geopolitical probability into a measurement. A risk that can only be sized, never resolved, argues for a small position held with discipline rather than for waiting. STARTER at 1-2% is the correct expression: policy/position-sizing.yaml sizes on evidence, the business evidence is the strongest in this harness, and the dominant risk is bounded by position size rather than by further work. Probability-weighted five-year return is +37.9% total (6.6% annualised) after modelling the Taiwan contingency as a separate 5% tail at -80% — the best of the three names analysed, though the asymmetry category still scores only 4/10 because a high probability of a good-but-bounded outcome plus a small probability of near-total loss is a worse outcome SHAPE than a wider band with no catastrophic tail. Macro pacing is slow: the AI-capex complex remains one correlated exposure per the 2026-09-04 screening run, and TSMC sits underneath all of it.",
+  "position_band": "NONE",
+  "rationale": "기업 품질은 유지하지만 기존 기대수익률 5년 연 6.6%는 미국 9% 요구수익률보다 낮다. 연구로 없앨 수 없는 대만 위험이라는 이유만으로 낮은 보상에도 STARTER를 정당화할 수 없다. 76점 WATCH로 조정한다. 현재가를 성숙기 PER 25배로 나누는 계산은 미래의 시간가치와 필요한 성장률을 반영하지 않는다. 대만 사건 확률 5%와 손실 80%는 측정치가 아니라 주관적 스트레스 가정이다. 재평가 76/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "PRIMARY, and it is the only gate that further research can move: overseas advanced-node capacity (Arizona, Kumamoto, Dresden) rising to a materially larger share of total leading-edge output, which genuinely reduces the Taiwan single-point exposure rather than merely diversifying revenue.",
-    "FY2026 reported net margin confirming at or above the 47% assumed here, replacing the analyst estimate with actual results and firming the forward multiple.",
-    "Gross margin holding above roughly 55% as the 2025-26 capex depreciation lands in 2027-28 — evidence that incremental ROIC is holding at higher capital intensity.",
-    "Advanced-node mix continuing above 77% of wafer revenue with A16 moving from risk to volume production on schedule.",
-    "Top-ten customer concentration stabilising below 78%, or the second-largest customer's share stabilising after its 11% to 17% climb.",
-    "Initiation of share repurchases, or a further step-up in the dividend payout ratio, which would improve the FCF-per-share test where TSMC is weakest.",
-    "Price weakness that widens the gap WITHOUT deterioration in the above. Per policy/position-sizing.yaml price decline alone is never sufficient."
+    "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "A credible second source winning a leading-edge design from a top-five customer — Intel 18A or Samsung SF2 reaching competitive yield at an equivalent node. This is the cleanest moat falsifier.",
-    "Gross margin falling below roughly 55% outside a node transition, indicating pricing power is eroding as depreciation rises.",
-    "FY2027 capex guidance rising again while revenue growth decelerates — the combination that converts 33% capex intensity from a moat into a trap.",
-    "Advanced-node mix stalling or reversing, or A16 risk production slipping materially beyond 2026.",
-    "Any material adverse change in the Taiwan security situation. This would be acted on as a risk-budget decision, not as a research finding.",
-    "A sustained strengthening of the NT dollar against the US dollar — each 1% of USD depreciation costs roughly 0.3pp of operating margin.",
-    "Failure to secure renewal of the Kaohsiung Fab 22 or Southern Taiwan science-park land leases coming due from March and December 2026."
-  ]
+    "경쟁 파운드리의 첨단 공정 고객 확보와 해외 생산비·감가상각 증가로 주당 FCF 및 장기 자본수익률이 동시에 악화한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.69
 }

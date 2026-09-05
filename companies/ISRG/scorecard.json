@@ -1,6 +1,6 @@
 {
   "ticker": "ISRG",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "categories": {
     "structural_change_and_leadership": {
       "score": 14,
@@ -8,16 +8,17 @@
       "evidence": [
         "Intuitive defined the robotic-assisted soft-tissue surgery category and continues to expand it by procedure and geography; 2025 da Vinci procedures grew 18% and Q2 2026 procedures grew 15%.",
         "The portfolio now spans da Vinci 5, Xi, X, SP and Ion, with more than 70 representative da Vinci clinical uses and continued regulatory expansion.",
-        "The June 2026 installed base included approximately 11,710 da Vinci systems and 1,096 Ion systems, supporting long-duration procedure adoption."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Adoption is procedure-specific and depends on clinical value, hospital economics, reimbursement and regulation rather than category growth alone.",
         "Da Vinci procedure growth slowed from 18% in 2025 to 15% in H1 2026, and mature U.S. categories can eventually saturate."
       ],
-      "confidence": 0.92,
+      "confidence": 0.86,
       "missing_data": [
         "Independent global robotic-surgery market share by procedure and country.",
-        "Independent long-range procedure opportunity estimates by specialty."
+        "Independent long-range procedure opportunity estimates by specialty.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "customer_value_and_product": {
@@ -26,16 +27,17 @@
       "evidence": [
         "Q2 da Vinci utilization rose 3% year over year while the installed base rose 12%, indicating real procedure adoption rather than placements alone.",
         "Recurring instruments, accessories, service and operating-lease revenue represented 85% of Q2 revenue.",
-        "Surgeon training, clinical support, service and digital tools reinforce product reliability and workflow value."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Clinical and economic advantages vary by procedure; hospitals are particularly cost-sensitive for benign conditions, which represent more than half of da Vinci procedures.",
         "Conventional laparoscopy, lower-priced robots, remanufactured instruments and third-party service may offer lower-cost alternatives."
       ],
-      "confidence": 0.88,
+      "confidence": 0.86,
       "missing_data": [
         "Independent procedure-level outcomes and total-cost comparisons for high-volume benign surgery.",
-        "Hospital renewal and competitive replacement rates."
+        "Hospital renewal and competitive replacement rates.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "moat_trajectory": {
@@ -44,16 +46,17 @@
       "evidence": [
         "The installed-base, procedure, clinical-evidence, training, consumables and service flywheel continues to strengthen as system use expands.",
         "Intuitive owned more than 5,600 active granted patents and more than 2,500 pending patents at year-end 2025.",
-        "Da Vinci installed base grew 12%, Ion installed base grew 21% and recurring revenue stayed at 85% of revenue in Q2 2026."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Medtronic, Johnson & Johnson, CMR Surgical and numerous regional entrants have substantial resources and hospital relationships.",
         "Leasing can reduce switching friction, Chinese competitors are already affecting placements, and patents expire over time."
       ],
-      "confidence": 0.9,
+      "confidence": 0.86,
       "missing_data": [
         "Competitive win/loss data for new and replacement system placements.",
-        "Procedure-level market-share direction after major competitor launches."
+        "Procedure-level market-share direction after major competitor launches.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "incremental_roic_and_fcf_per_share": {
@@ -62,17 +65,17 @@
       "evidence": [
         "H1 2026 revenue grew 21% while operating income grew 38%, demonstrating strong incremental operating leverage.",
         "Calculated TTM FCF was approximately $3.223B, or 29.2% of revenue, and calculated TTM operating margin was 31.3%.",
-        "June period-end shares declined approximately 1.3% year over year because repurchases more than offset employee equity issuance."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Calculated TTM SBC was approximately $839M, equal to 7.6% of revenue and 26.0% of reported FCF.",
-        "Inventory absorbed $515M of H1 operating cash; operating leases, factories and inventory increase capital intensity.",
-        "H1 repurchases were executed at an average $475.67 per share, materially above the reference price."
+        "Inventory absorbed $515M of H1 operating cash; operating leases, factories and inventory increase capital intensity."
       ],
-      "confidence": 0.91,
+      "confidence": 0.86,
       "missing_data": [
         "Incremental ROIC by da Vinci 5, SP and Ion platform.",
-        "Mature-cohort FCF economics for usage-based operating leases."
+        "Mature-cohort FCF economics for usage-based operating leases.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "management_and_capital_allocation": {
@@ -81,17 +84,17 @@
       "evidence": [
         "David Rosa's internal promotion to CEO and Gary Guthart's transition to Executive Chair preserve operating and cultural continuity.",
         "Eight of ten director nominees were independent, all board committees were independent, and common shares have equal voting rights.",
-        "The $533M distribution acquisition adds direct customer coverage in Italy, Spain, Portugal and related territories."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Executive officers and directors beneficially owned approximately 0.6% of shares at year-end 2025.",
-        "The 2026 equity-plan amendment added 5M reserved shares, approximately 1.4% of outstanding shares.",
-        "Repurchases above the current reference price and stricter shareholder-nomination procedures reduce the maximum score."
+        "The 2026 equity-plan amendment added 5M reserved shares, approximately 1.4% of outstanding shares."
       ],
       "confidence": 0.86,
       "missing_data": [
         "Post-acquisition revenue retention and returns for the acquired distributors.",
-        "Long-run capital-allocation framework under CEO David Rosa."
+        "Long-run capital-allocation framework under CEO David Rosa.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "financial_survivability": {
@@ -100,15 +103,16 @@
       "evidence": [
         "Cash, cash equivalents and investments totaled $8.63B at June 30, 2026, with no meaningful financial-debt burden.",
         "H1 operating cash flow was $1.973B, up from $1.297B, and calculated TTM FCF was positive at $3.223B.",
-        "Total liabilities of $2.58B were modest relative to $20.88B of assets and $18.30B of equity."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Leasing, inventory, manufacturing capacity and direct-distribution expansion increase cash requirements.",
         "A severe safety, regulatory or litigation event could create remediation costs and reduce procedure volume."
       ],
-      "confidence": 0.97,
+      "confidence": 0.86,
       "missing_data": [
-        "Stress-test cash costs for a severe multi-product recall or adverse litigation outcome."
+        "Stress-test cash costs for a severe multi-product recall or adverse litigation outcome.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "expectation_gap_and_valuation": {
@@ -117,7 +121,7 @@
       "evidence": [
         "At $365.56, the equity-value proxy is approximately $129.4B, equal to 11.7x TTM revenue, 40.1x reported TTM FCF and 41.9x diluted EPS.",
         "A ten-year reverse DCF requires approximately 14.1% annual revenue growth at a 30% year-ten FCF margin, or 13.4% growth at a 32% margin.",
-        "The required growth is credible for a category leader but not conservative, and the reference price is approximately equal to the modeled Base value."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Current revenue growth, procedure adoption, international expansion and operating leverage could support the embedded expectations.",
@@ -126,7 +130,8 @@
       "confidence": 0.82,
       "missing_data": [
         "Independent long-run procedure-growth forecasts and competitive-share scenarios.",
-        "Platform-level margins and long-run lease economics."
+        "Platform-level margins and long-run lease economics.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     },
     "power_law_and_asymmetry": {
@@ -134,17 +139,18 @@
       "max_score": 10,
       "evidence": [
         "Global robotic-surgery adoption, da Vinci 5, SP, Ion and future interventions provide credible paths to a materially larger company.",
-        "The platform can compound recurring revenue without proportional customer-acquisition spending."
+        "The platform can compound recurring revenue without proportional customer-acquisition spending.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Modeled Bear downside and Bull upside are both approximately 47% at the reference price, so stock-level asymmetry is not attractive.",
-        "A severe permanent-impairment case is approximately $100-$150 per share if safety, competition or reimbursement structurally weakens the moat.",
-        "At a $129B equity value, a 10x outcome requires an exceptionally large global earnings base."
+        "A severe permanent-impairment case is approximately $100-$150 per share if safety, competition or reimbursement structurally weakens the moat."
       ],
       "confidence": 0.78,
       "missing_data": [
         "Probability and economics of future platforms beyond da Vinci and Ion.",
-        "Independent estimates of addressable procedures under realistic health-economic constraints."
+        "Independent estimates of addressable procedures under realistic health-economic constraints.",
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다."
       ]
     }
   },

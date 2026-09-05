@@ -1,6 +1,6 @@
 {
   "ticker": "DDOG",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "overall_status": "INVESTIGATE",
   "vetoes": [
     {
@@ -12,7 +12,7 @@
         "The April 2025 unauthorized access to several source-code repositories was disclosed and credentials were revoked; the filing did not characterize the incident as materially impairing financial reporting."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.88,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
@@ -23,7 +23,7 @@
         "H1 2026 operating cash flow was $650.5M and calculated TTM operating cash flow was approximately $1.229B."
       ],
       "severity": "LOW",
-      "confidence": 0.98,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
@@ -35,7 +35,7 @@
         "Unrecognized compensation cost on unvested RSUs and restricted shares was approximately $1.94B, and Datadog had not materially offset dilution with repurchases."
       ],
       "severity": "HIGH",
-      "confidence": 0.96,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "Establish a sustained path to SBC below 15% of revenue and annual net dilution at or below 1.5%, while diluted FCF per share grows faster than revenue."
     },
     {
@@ -46,7 +46,7 @@
         "$100,000+ ARR customers increased 23% and represented 91% of ARR, supporting genuine customer expansion rather than subsidy-driven acquisition."
       ],
       "severity": "LOW",
-      "confidence": 0.93,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
@@ -57,7 +57,7 @@
         "However, TTM GAAP operating margin was only about 0.4%, SBC equaled 79.3% of reported FCF and Q2 cost of revenue grew 45% versus 36% revenue growth."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.86,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "Confirm sustained GAAP operating leverage, stable or improving gross margin and diluted owner FCF per share growth after the economic cost of SBC."
     },
     {
@@ -80,7 +80,7 @@
         "Such duration is possible for a leading AI-era observability platform, so the hurdle is near-Bull and uncertain rather than demonstrably impossible."
       ],
       "severity": "HIGH",
-      "confidence": 0.9,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "Require either a price at least 20% below refreshed Base value or evidence strong enough to reduce the implied ten-year revenue CAGR below 18% without aggressive dilution or margin assumptions."
     },
     {
@@ -92,7 +92,7 @@
         "The broader base includes about 33,400 customers, which reduces but does not eliminate the near-term growth concentration signal."
       ],
       "severity": "HIGH",
-      "confidence": 0.94,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "Disclose or demonstrate the largest customer's normalized revenue contribution and show that diversified customer growth offsets the reduction without material retention or margin damage."
     },
     {
@@ -103,7 +103,7 @@
         "Permanent impairment from valuation compression remains material, but the probability of solvency failure is low."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.93,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     }
   ]

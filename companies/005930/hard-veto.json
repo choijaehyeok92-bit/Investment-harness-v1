@@ -1,6 +1,6 @@
 {
   "ticker": "005930",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "overall_status": "INVESTIGATE",
   "vetoes": [
     {
@@ -19,7 +19,7 @@
       "id": "external_capital_dependence",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.97,
+      "confidence": 0.78,
       "evidence": [
         "FACT (tier-1 filing): distributable-profit headroom for treasury purchases of KRW 222,623,486,825,081, from separate-basis net assets of KRW 254,330,082,981,146.",
         "FACT: A KRW 110T+ investment programme and a KRW 90-110T shareholder return are being funded concurrently from internal cash generation.",
@@ -33,7 +33,7 @@
       "id": "persistent_dilution",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.92,
+      "confidence": 0.78,
       "evidence": [
         "FACT: Share count is decreasing, not increasing. On 2026-04-02 Samsung cancelled 73,359,314 common and 13,603,461 preferred treasury shares (approx. KRW 14.58T); common shares outstanding fell from 5,919,637,922 to 5,846,278,608 (-1.24%).",
         "COUNTER-FACT: The KRW 15T buyback approved 2026-08-21 is explicitly for employee share compensation (performance incentives, special performance bonus, performance-conditioned stock) and is NOT for cancellation. At the KRW 281,500 reference price that is 53,285,968 shares, about 0.91% of common shares - it offsets dilution rather than reducing count.",
@@ -48,7 +48,7 @@
       "id": "low_quality_growth",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.8,
+      "confidence": 0.78,
       "evidence": [
         "FACT: Growth is price-and-mix driven within a genuine physical capacity shortage, not subsidy-, discount- or marketing-driven. Q2 2026 operating margin of 52.2% is the arithmetic proof that this is not bought revenue.",
         "FACT: Demand is anchored to named customer platforms - HBM4 qualified at NVIDIA and AMD, position secured on the NVIDIA Rubin platform, Tesla AI5 in foundry."
@@ -105,7 +105,7 @@
       "id": "fatal_concentration",
       "status": "INVESTIGATE",
       "severity": "MEDIUM",
-      "confidence": 0.9,
+      "confidence": 0.78,
       "evidence": [
         "FACT (tier-1, 반기보고서 2026-06-30): CONCENTRATION NOW MEASURED, NOT INFERRED: DS generated KRW 142.86T of the group's KRW 146.73T H1 operating profit - 97.4%. DX contributed KRW 2.15T (1.5%), SDC KRW 1.04T (0.7%) and Harman KRW 0.64T (0.4%). DS operating margin was 68.3%.",
         "INFERENCE: Profit concentration is extreme. With company-wide operating margin at 52.2%, essentially all incremental profit is semiconductor, within semiconductor it is memory, and within memory the swing factor is HBM4 allocation at a small number of accelerator customers. MX, VD and Harman are no longer profit-material at the margin.",
@@ -119,7 +119,7 @@
       "id": "permanent_loss_probability",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.85,
+      "confidence": 0.78,
       "evidence": [
         "FACT (tier-1 filing): KRW 222.6T of distributable-profit headroom and KRW 254.3T of separate-basis net assets.",
         "INFERENCE: A bear outcome for this security is a large price decline, not an impairment of capital. Modelled bear case is roughly -50% over five years with the company remaining solidly profitable and self-funding.",

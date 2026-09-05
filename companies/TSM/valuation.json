@@ -3,164 +3,175 @@
   "as_of": "2026-09-04",
   "current_price": 414.0,
   "implied_expectations": {
-    "price_basis": "US$414.00 per ADS, close 2026-09-01 (an alternative source quoted US$416.09 intraday). Not a tier-1 transacted price — the ADS price is the one input here that is not from a primary filing.",
-    "share_count": {
-      "common_shares": 25932524521,
-      "basis": "FACT (tier-1, 20-F cover): 25,932,524,521 common shares outstanding at 2025-12-31",
-      "ads_ratio": "1 ADS = 5 common shares",
-      "ads_equivalent_millions": 5186.5
-    },
-    "market_cap_usd_bn": 2147.2,
-    "source_conflict_resolved": "Aggregators reported market capitalisation of both US$1.93T and US$2.15-2.16T in early September 2026. Computing from the tier-1 share count (5,186.5M ADS x US$414.00) gives US$2,147B, confirming the higher figure. The US$1.93T quote is stale or wrong. Per policy/source-policy.yaml the conflict is shown and the preferred source explained rather than silently picked.",
-    "net_cash_usd_bn": 64.9,
-    "net_cash_derivation": "FACT (tier-1): cash, cash equivalents and current marketable securities NT$3,068,595M (US$97,820M) at 2025-12-31; short-term loans NIL; aggregate long-term debt NT$1,032,988M (US$32,929M).",
-    "enterprise_value_usd_bn": 2082.3,
-    "fy2025_audited_usd_m": {
-      "revenue": 121423,
-      "gross_profit": 72722,
-      "operating_income": 61718,
-      "net_income_to_parent": 54116,
-      "rd_expense": 7855,
-      "operating_cash_flow": 72521,
-      "capex": 40895,
-      "free_cash_flow": 31626,
-      "eps_per_ads": 10.43,
-      "margins_pct": {
-        "gross": 59.9,
-        "operating": 50.8,
-        "net": 44.6
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "price_basis": "US$414.00 per ADS, close 2026-09-01 (an alternative source quoted US$416.09 intraday). Not a tier-1 transacted price — the ADS price is the one input here that is not from a primary filing.",
+      "share_count": {
+        "common_shares": 25932524521,
+        "basis": "FACT (tier-1, 20-F cover): 25,932,524,521 common shares outstanding at 2025-12-31",
+        "ads_ratio": "1 ADS = 5 common shares",
+        "ads_equivalent_millions": 5186.5
+      },
+      "market_cap_usd_bn": 2147.2,
+      "source_conflict_resolved": "Aggregators reported market capitalisation of both US$1.93T and US$2.15-2.16T in early September 2026. Computing from the tier-1 share count (5,186.5M ADS x US$414.00) gives US$2,147B, confirming the higher figure. The US$1.93T quote is stale or wrong. Per policy/source-policy.yaml the conflict is shown and the preferred source explained rather than silently picked.",
+      "net_cash_usd_bn": 64.9,
+      "net_cash_derivation": "FACT (tier-1): cash, cash equivalents and current marketable securities NT$3,068,595M (US$97,820M) at 2025-12-31; short-term loans NIL; aggregate long-term debt NT$1,032,988M (US$32,929M).",
+      "enterprise_value_usd_bn": 2082.3,
+      "fy2025_audited_usd_m": {
+        "revenue": 121423,
+        "gross_profit": 72722,
+        "operating_income": 61718,
+        "net_income_to_parent": 54116,
+        "rd_expense": 7855,
+        "operating_cash_flow": 72521,
+        "capex": 40895,
+        "free_cash_flow": 31626,
+        "eps_per_ads": 10.43,
+        "margins_pct": {
+          "gross": 59.9,
+          "operating": 50.8,
+          "net": 44.6
+        }
+      },
+      "three_year_margin_trajectory_pct": {
+        "gross": {
+          "2023": 54.4,
+          "2024": 56.1,
+          "2025": 59.9
+        },
+        "operating": {
+          "2023": 42.6,
+          "2024": 45.7,
+          "2025": 50.8
+        },
+        "net": {
+          "2023": 39.4,
+          "2024": 40.0,
+          "2025": 44.5
+        },
+        "why_this_is_the_central_fact": "Margins EXPANDED while revenue grew 76% cumulatively over two years. That is the signature of a strengthening competitive position, not of a cyclical rent. It is the single clearest differentiator versus 005930, whose margin surge came from a +220% memory ASP spike."
+      },
+      "revenue_ntd_m": {
+        "2023": 2161736,
+        "2024": 2894308,
+        "2025": 3809054,
+        "growth_2025_pct": 31.6
+      },
+      "node_mix_pct_of_wafer_revenue": {
+        "le_7nm": {
+          "2023": 58,
+          "2024": 69,
+          "2025": 74,
+          "Q2_2026": 77
+        },
+        "2025_detail": {
+          "3nm": 24,
+          "5nm": 36,
+          "7nm": 14
+        }
+      },
+      "platform_mix_pct": {
+        "HPC": {
+          "2023": 43,
+          "2024": 51,
+          "2025": 58
+        },
+        "Smartphone": {
+          "2023": 38,
+          "2024": 35,
+          "2025": 29
+        }
+      },
+      "geography_pct": {
+        "North_America": {
+          "2023": 68,
+          "2024": 70,
+          "2025": 75
+        },
+        "China": {
+          "2023": 12,
+          "2024": 11,
+          "2025": 9
+        }
+      },
+      "customer_concentration_pct": {
+        "top_ten": {
+          "2023": 70,
+          "2024": 76,
+          "2025": 78
+        },
+        "largest": {
+          "2023": 25,
+          "2024": 22,
+          "2025": 19
+        },
+        "second_largest": {
+          "2023": 11,
+          "2024": 12,
+          "2025": 17
+        }
+      },
+      "capex": {
+        "ntd_m": {
+          "2023": 949817,
+          "2024": 956007,
+          "2025": 1272411
+        },
+        "usd_m_2025": 40895,
+        "pct_of_revenue": {
+          "2023": 44.0,
+          "2024": 33.0,
+          "2025": 33.4
+        },
+        "fy2026_guidance_usd_bn": "52-56",
+        "step_up_pct": "27-37",
+        "focus": "2nm and 3nm capacity (Fabs 20, 21, 22), specialty and advanced packaging (Fab 24), and R&D",
+        "self_funding": "2025 capex of NT$1,272,411M against only NT$86,900M of bond issuance — roughly 93% funded from operating cash flow."
+      },
+      "dividends": {
+        "2025_per_share_ntd": {
+          "Q1": 5.0,
+          "Q2": 5.0,
+          "Q3": 6.0,
+          "Q4": 6.0
+        },
+        "total_declared_ntd_m": 570516,
+        "per_share_increase_pct": 20,
+        "approx_ads_yield_pct": 0.85,
+        "note": "No share repurchases. Capital return is dividend-only, so there is essentially no income floor under the position."
+      },
+      "current_year_trading": {
+        "jan_jul_2026_revenue_ntd_m": 2872060,
+        "yoy_growth_pct": 37.0,
+        "july_2026_revenue_ntd_m": 467580,
+        "july_yoy_pct": 44.7,
+        "company_guidance": "FY2026 revenue growth slightly above +40% YoY in USD terms",
+        "forward_visibility": "2nm capacity booked well into 2028; CoWoS sold out through the 2026 ramp from roughly 75-80k to 120-130k wafers per month."
+      },
+      "multiples": {
+        "trailing_pe_on_fy2025": 39.7,
+        "trailing_ev_ebit": 33.7,
+        "trailing_fcf_yield_pct": 1.47,
+        "forward_pe_fy2026e": 26.8,
+        "forward_estimate_basis": "ESTIMATE: FY2026 revenue near US$170B (+40% on FY2025's US$121.4B, per company guidance) at a 47% net margin gives roughly US$80B of net income, or US$15.42 per ADS.",
+        "sensitivity": "HONEST LIMITATION — the forward multiple rests on the analyst's own margin assumption. TSMC does not guide margin. At FY2025's 44.6% net margin instead, FY2026 net income is roughly US$76B, EPS US$14.65 and the forward P/E 28.3x."
+      },
+      "reverse_engineered_requirement": {
+        "method": "Solve for the net income that justifies US$2,147B at a range of mature multiples, then compare with the FY2026 estimated base.",
+        "at_20x": "requires roughly US$107B of net income — about 34% above the FY2026 estimate",
+        "at_25x": "requires roughly US$86B — approximately the FY2026 estimated level",
+        "at_30x": "requires roughly US$72B — below the FY2026 estimate",
+        "conclusion": "At a 25x mature multiple the price requires the FY2026 estimated earnings level to PERSIST, not to grow. That is a positive expectation gap, and the visibility behind it is unusually good — 2nm booked into 2028 and CoWoS sold out. The gap is nonetheless thin, and it is thinner than it looks on trailing numbers (39.7x)."
       }
     },
-    "three_year_margin_trajectory_pct": {
-      "gross": {
-        "2023": 54.4,
-        "2024": 56.1,
-        "2025": 59.9
-      },
-      "operating": {
-        "2023": 42.6,
-        "2024": 45.7,
-        "2025": 50.8
-      },
-      "net": {
-        "2023": 39.4,
-        "2024": 40.0,
-        "2025": 44.5
-      },
-      "why_this_is_the_central_fact": "Margins EXPANDED while revenue grew 76% cumulatively over two years. That is the signature of a strengthening competitive position, not of a cyclical rent. It is the single clearest differentiator versus 005930, whose margin surge came from a +220% memory ASP spike."
-    },
-    "revenue_ntd_m": {
-      "2023": 2161736,
-      "2024": 2894308,
-      "2025": 3809054,
-      "growth_2025_pct": 31.6
-    },
-    "node_mix_pct_of_wafer_revenue": {
-      "le_7nm": {
-        "2023": 58,
-        "2024": 69,
-        "2025": 74,
-        "Q2_2026": 77
-      },
-      "2025_detail": {
-        "3nm": 24,
-        "5nm": 36,
-        "7nm": 14
-      }
-    },
-    "platform_mix_pct": {
-      "HPC": {
-        "2023": 43,
-        "2024": 51,
-        "2025": 58
-      },
-      "Smartphone": {
-        "2023": 38,
-        "2024": 35,
-        "2025": 29
-      }
-    },
-    "geography_pct": {
-      "North_America": {
-        "2023": 68,
-        "2024": 70,
-        "2025": 75
-      },
-      "China": {
-        "2023": 12,
-        "2024": 11,
-        "2025": 9
-      }
-    },
-    "customer_concentration_pct": {
-      "top_ten": {
-        "2023": 70,
-        "2024": 76,
-        "2025": 78
-      },
-      "largest": {
-        "2023": 25,
-        "2024": 22,
-        "2025": 19
-      },
-      "second_largest": {
-        "2023": 11,
-        "2024": 12,
-        "2025": 17
-      }
-    },
-    "capex": {
-      "ntd_m": {
-        "2023": 949817,
-        "2024": 956007,
-        "2025": 1272411
-      },
-      "usd_m_2025": 40895,
-      "pct_of_revenue": {
-        "2023": 44.0,
-        "2024": 33.0,
-        "2025": 33.4
-      },
-      "fy2026_guidance_usd_bn": "52-56",
-      "step_up_pct": "27-37",
-      "focus": "2nm and 3nm capacity (Fabs 20, 21, 22), specialty and advanced packaging (Fab 24), and R&D",
-      "self_funding": "2025 capex of NT$1,272,411M against only NT$86,900M of bond issuance — roughly 93% funded from operating cash flow."
-    },
-    "dividends": {
-      "2025_per_share_ntd": {
-        "Q1": 5.0,
-        "Q2": 5.0,
-        "Q3": 6.0,
-        "Q4": 6.0
-      },
-      "total_declared_ntd_m": 570516,
-      "per_share_increase_pct": 20,
-      "approx_ads_yield_pct": 0.85,
-      "note": "No share repurchases. Capital return is dividend-only, so there is essentially no income floor under the position."
-    },
-    "current_year_trading": {
-      "jan_jul_2026_revenue_ntd_m": 2872060,
-      "yoy_growth_pct": 37.0,
-      "july_2026_revenue_ntd_m": 467580,
-      "july_yoy_pct": 44.7,
-      "company_guidance": "FY2026 revenue growth slightly above +40% YoY in USD terms",
-      "forward_visibility": "2nm capacity booked well into 2028; CoWoS sold out through the 2026 ramp from roughly 75-80k to 120-130k wafers per month."
-    },
-    "multiples": {
-      "trailing_pe_on_fy2025": 39.7,
-      "trailing_ev_ebit": 33.7,
-      "trailing_fcf_yield_pct": 1.47,
-      "forward_pe_fy2026e": 26.8,
-      "forward_estimate_basis": "ESTIMATE: FY2026 revenue near US$170B (+40% on FY2025's US$121.4B, per company guidance) at a 47% net margin gives roughly US$80B of net income, or US$15.42 per ADS.",
-      "sensitivity": "HONEST LIMITATION — the forward multiple rests on the analyst's own margin assumption. TSMC does not guide margin. At FY2025's 44.6% net margin instead, FY2026 net income is roughly US$76B, EPS US$14.65 and the forward P/E 28.3x."
-    },
-    "reverse_engineered_requirement": {
-      "method": "Solve for the net income that justifies US$2,147B at a range of mature multiples, then compare with the FY2026 estimated base.",
-      "at_20x": "requires roughly US$107B of net income — about 34% above the FY2026 estimate",
-      "at_25x": "requires roughly US$86B — approximately the FY2026 estimated level",
-      "at_30x": "requires roughly US$72B — below the FY2026 estimate",
-      "conclusion": "At a 25x mature multiple the price requires the FY2026 estimated earnings level to PERSIST, not to grow. That is a positive expectation gap, and the visibility behind it is unusually good — 2nm booked into 2028 and CoWoS sold out. The gap is nonetheless thin, and it is thinner than it looks on trailing numbers (39.7x)."
-    }
+    "current_findings": [
+      "기업 품질은 유지하지만 기존 기대수익률 5년 연 6.6%는 미국 9% 요구수익률보다 낮다. 연구로 없앨 수 없는 대만 위험이라는 이유만으로 낮은 보상에도 STARTER를 정당화할 수 없다. 76점 WATCH로 조정한다.",
+      "현재가를 성숙기 PER 25배로 나누는 계산은 미래의 시간가치와 필요한 성장률을 반영하지 않는다. 대만 사건 확률 5%와 손실 80%는 측정치가 아니라 주관적 스트레스 가정이다."
+    ],
+    "current_model_limit": "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
   },
   "scenarios": {
     "bear": {
@@ -171,7 +182,8 @@
       "terminal_multiple": "approximately 18x",
       "equity_value_usd_bn": "1,350-1,710",
       "five_year_total_return_pct": "-32 to -15 (including dividends)",
-      "note": "Milder than either the 005930 or NVDA bear, because there is no rent to lose and no off-balance-sheet commitment to strand."
+      "note": "Milder than either the 005930 or NVDA bear, because there is no rent to lose and no off-balance-sheet commitment to strand.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
       "narrative": "AI and node migration keep compounding. TSMC retains the leading-edge monopoly, advanced-node mix keeps rising, and margins hold near current levels as overseas fab dilution offsets scale gains.",
@@ -180,7 +192,8 @@
       "fy2031_net_income_usd_bn": "144-171",
       "terminal_multiple": "18-20x",
       "equity_value_usd_bn": "2,592-3,420",
-      "five_year_total_return_pct": "+21 to +59 (including dividends)"
+      "five_year_total_return_pct": "+21 to +59 (including dividends)",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
       "narrative": "Leading-edge demand exceeds capacity through the decade. A16 and successors extend the lead, advanced packaging becomes a second profit pool with its own pricing power, and TSMC captures more of the value it enables.",
@@ -189,7 +202,8 @@
       "fy2031_net_income_usd_bn": "216-250",
       "terminal_multiple": "approximately 22x",
       "equity_value_usd_bn": "4,752-5,500",
-      "five_year_total_return_pct": "+121 to +156"
+      "five_year_total_return_pct": "+121 to +156",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
@@ -218,5 +232,5 @@
   },
   "expectation_gap_score": 9,
   "asymmetry_score": 4,
-  "notes": "Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. Every financial input is tier-1 from the 2025 Form 20-F; the ADS price is the sole non-primary input. The FY2026 forward estimate rests on the analyst's own margin assumption and is labelled ESTIMATE throughout. The asymmetry score of 4 is LOWER than NVDA's 5 despite TSMC having the better business — a high probability of a good-but-bounded outcome plus a small probability of near-total loss is a worse outcome shape than a wider band with no catastrophic tail."
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. Every financial input is tier-1 from the 2025 Form 20-F; the ADS price is the sole non-primary input. The FY2026 forward estimate rests on the analyst's own margin assumption and is labelled ESTIMATE throughout. The asymmetry score of 4 is LOWER than NVDA's 5 despite TSMC having the better business — a high probability of a good-but-bounded outcome plus a small probability of near-total loss is a worse outcome shape than a wider band with no catastrophic tail."
 }

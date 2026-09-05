@@ -1,3 +1,7 @@
+> 최신 추가 분석: [서비스나우(NOW) 한글 기업분석](companies/NOW/thesis.md) — 2026-09-05, 72/100 · WATCH · INVESTIGATE. NOW의 과거 42/50 스크리닝 이후 최초 정밀분석입니다. 최신 판단 우선순위는 [reviews/latest.json](reviews/latest.json)을 따릅니다.
+>
+> 기존 연구 스냅샷: [2026-09-05 Astra 재평가](reviews/2026-09-05-astra/README.md). 당시 40개 기존 판단 재심사, 50개 예비후보 미심사. 과거 스크리닝 점수·판정을 현재 승인으로 사용하지 마세요.
+
 # Investment Harness v1.1 — Codex + Claude Code
 
 A repository-native harness for long-horizon, expectation-gap, outlier-oriented equity research and screening.

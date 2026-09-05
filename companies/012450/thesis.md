@@ -1,3 +1,5 @@
+> 최신 판단: **2026-09-05 / WATCH / 보류 / INVESTIGATE**. [한글 재평가](re-evaluation-2026-09-05.md)가 아래 과거 서술보다 우선합니다. 아래 원문은 이력 비교를 위해 보존합니다.
+
 
 # 한화에어로스페이스 (012450) 투자 논지
 
@@ -445,4 +447,3 @@ and the negative expected return — not a veto trigger.
 - Defence **backlog** declining, not just revenue
 - Marine margin reverting toward 7.7%
 - Borrowings above ~KRW 18T, or current ratio below 1.0
-
