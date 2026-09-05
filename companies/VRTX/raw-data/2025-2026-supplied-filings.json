@@ -1,0 +1,596 @@
+{
+  "ticker": "VRTX",
+  "company": "Vertex Pharmaceuticals Incorporated",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow calculation, derived operating-margin calculation, or unsupported inference. Values are extracted from the five user-supplied filing bodies only.",
+  "source_resolution": [
+    {
+      "accession": "0000875320-26-000056",
+      "body_file": "0000875320-26-000056.pdf",
+      "resolved_identity": "Vertex Pharmaceuticals Incorporated Form 10-K for fiscal year ended 2025-12-31",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0000875320-26-000167",
+      "body_file": "0000875320-26-000167.pdf",
+      "resolved_identity": "Vertex Pharmaceuticals Incorporated Schedule 14A definitive additional materials / proxy supplement",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0000875320-26-000259",
+      "body_file": "0000875320-26-000259.pdf",
+      "resolved_identity": "Vertex Pharmaceuticals Incorporated Form 10-Q for quarter ended 2026-06-30",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0000875320-26-000264",
+      "body_file": "0000875320-26-000264.pdf",
+      "resolved_identity": "Vertex Pharmaceuticals Incorporated Form 8-K reporting CFO succession, dated 2026-08-27",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "accession": "0000875320-26-000267",
+      "body_file": "0000875320-26-000267.pdf",
+      "resolved_identity": "Vertex Pharmaceuticals Incorporated Form 4 for Kristen Ambrose, SVP & Chief Accounting Officer",
+      "source_character": "Section 16 beneficial-ownership filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 12001.3,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss)",
+      "confidence": "high"
+    },
+    {
+      "value": 11970.6,
+      "period": "FY2025 product revenues, net",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss)",
+      "confidence": "high"
+    },
+    {
+      "value": 30.7,
+      "period": "FY2025 other revenues",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss)",
+      "confidence": "high"
+    },
+    {
+      "value": 3333.9,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.3, Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 6320.8,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.3, Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 4173.3,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss), Income (loss) from operations",
+      "confidence": "high"
+    },
+    {
+      "value": -232.9,
+      "period": "FY2024 comparative",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss)",
+      "confidence": "high"
+    },
+    {
+      "value": 1246.9,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.3, Condensed Consolidated Statements of Income, Income from operations",
+      "confidence": "high"
+    },
+    {
+      "value": 2385.0,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.3, Condensed Consolidated Statements of Income, Income from operations",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": null,
+      "period": "FY2025 and Q2/H1 2026",
+      "unit": "percent",
+      "source": "supplied Form 10-K and Form 10-Q",
+      "original_location": "No explicit operating-margin metric located in the supplied filings",
+      "confidence": "high",
+      "note": "Not derived from revenue and operating income in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 3953.2,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss)",
+      "confidence": "high"
+    },
+    {
+      "value": -535.6,
+      "period": "FY2024 comparative",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.65, Consolidated Statements of Income (Loss)",
+      "confidence": "high"
+    },
+    {
+      "value": 1099.8,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.3, Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 2131.2,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.3, Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "USD millions",
+      "source": "supplied Form 10-K and Form 10-Q",
+      "original_location": "No explicit free cash flow metric located in the supplied filings",
+      "confidence": "high",
+      "note": "Not calculated as operating cash flow minus capital expenditures in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "capital_expenditures": [
+    {
+      "value": 437.6,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.69, Consolidated Statements of Cash Flows, Purchases of property and equipment",
+      "confidence": "high"
+    },
+    {
+      "value": 297.7,
+      "period": "FY2024 comparative",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.69, Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "value": 245.6,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.7, Condensed Consolidated Statements of Cash Flows, Purchases of property and equipment",
+      "confidence": "high"
+    },
+    {
+      "value": 186.4,
+      "period": "H1 2025 comparative",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.7, Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 3631.4,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.69, Consolidated Statements of Cash Flows, Net cash provided by operating activities",
+      "confidence": "high"
+    },
+    {
+      "value": 2553.5,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.7, Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 5084.8,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.67, Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_marketable_securities",
+      "value": 1523.3,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.67, Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_marketable_securities",
+      "value": 5712.3,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.67, Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "2022_revolving_credit_facility_drawn",
+      "value": 0,
+      "period": "2025-12-31",
+      "unit": "USD principal outstanding",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "PDF p.54, Credit Agreement; filing states no principal or interest outstanding",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 6143.5,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.5, Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_marketable_securities",
+      "value": 1708.9,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.5, Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_marketable_securities",
+      "value": 5789.1,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.5, Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "2026_revolver_capacity",
+      "value": 500.0,
+      "period": "entered 2026-07-30",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.18, Note L, 2026 Revolving Credit Agreement",
+      "confidence": "high",
+      "note": "The filing states the revolver had not been drawn to date."
+    },
+    {
+      "metric": "2026_term_loan_capacity",
+      "value": 4500.0,
+      "period": "entered 2026-07-30",
+      "unit": "USD millions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.22, Term Loan Credit Agreement",
+      "confidence": "high",
+      "note": "The filing states the term loan had not been drawn to date and was intended to finance a portion of the Crinetics acquisition."
+    },
+    {
+      "metric": "balance_sheet_interest_bearing_debt",
+      "value": null,
+      "period": "2025-12-31 and 2026-06-30",
+      "unit": "USD millions",
+      "source": "supplied Form 10-K and Form 10-Q",
+      "original_location": "Balance sheets do not present a separate debt line; credit facilities are disclosed separately",
+      "confidence": "high",
+      "note": "No debt amount is derived from total liabilities."
+    }
+  ],
+  "business_segment_performance": {
+    "segment_structure": {
+      "value": "one segment: pharmaceuticals",
+      "period": "FY2025",
+      "unit": "text",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "Note Q, Segment Information",
+      "confidence": "high"
+    },
+    "fy2025_product_revenues": [
+      {"product":"TRIKAFTA/KAFTRIO","value":10312.7,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations / Revenues by Product","confidence":"high"},
+      {"product":"ALYFTREK","value":837.8,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations / Revenues by Product","confidence":"high"},
+      {"product":"CASGEVY","value":115.8,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations; disclosed within Other product revenues","confidence":"high"},
+      {"product":"JOURNAVX","value":59.6,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations; disclosed within Other product revenues","confidence":"high"},
+      {"product":"Other product revenues","value":820.1,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations / Revenues by Product","confidence":"high"}
+    ],
+    "q2_2026_product_revenues": [
+      {"product":"TRIKAFTA/KAFTRIO","value":2497.2,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"ALYFTREK","value":573.6,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"Other CF products","value":137.1,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"CASGEVY","value":76.4,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"JOURNAVX","value":49.6,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"}
+    ],
+    "h1_2026_product_revenues": [
+      {"product":"TRIKAFTA/KAFTRIO","value":4851.9,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"ALYFTREK","value":998.0,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"Other CF products","value":273.0,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"CASGEVY","value":119.3,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"},
+      {"product":"JOURNAVX","value":78.6,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"PDF p.19, Note M Revenues by Product","confidence":"high"}
+    ],
+    "geographic_revenues": [
+      {"region":"United States","value":7548.6,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations, Revenues by Geographic Location","confidence":"high"},
+      {"region":"ex-U.S.","value":4452.7,"period":"FY2025","unit":"USD millions","source":"0000875320-26-000056 Form 10-K","original_location":"Results of Operations, Revenues by Geographic Location","confidence":"high"},
+      {"region":"United States","value":2056.4,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"MD&A, Total Revenues by Geographic Location","confidence":"high"},
+      {"region":"ex-U.S.","value":1277.5,"period":"Q2 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"MD&A, Total Revenues by Geographic Location","confidence":"high"},
+      {"region":"United States","value":3832.3,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"MD&A, Total Revenues by Geographic Location","confidence":"high"},
+      {"region":"ex-U.S.","value":2488.5,"period":"H1 2026","unit":"USD millions","source":"0000875320-26-000259 Form 10-Q","original_location":"MD&A, Total Revenues by Geographic Location","confidence":"high"}
+    ]
+  },
+  "guidance": [
+    {
+      "value": "Vertex expects total revenues to increase in 2026 due to continued CF product growth, including ALYFTREK globally, and increased contributions from CASGEVY and JOURNAVX.",
+      "period": "2026 qualitative outlook",
+      "unit": "management statement",
+      "source": "0000875320-26-000056 Form 10-K",
+      "original_location": "Results of Operations, Total Revenues",
+      "confidence": "high"
+    },
+    {
+      "value": "Complete enrollment in both Phase 3 suzetrigine DPN trials by the end of 2026.",
+      "period": "2026",
+      "unit": "clinical timeline",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.24, Business Updates / Acute and Peripheral Neuropathic Pain",
+      "confidence": "high"
+    },
+    {
+      "value": "Povetacicept IgAN accelerated-approval BLA accepted; PDUFA target action date November 30, 2026.",
+      "period": "2026",
+      "unit": "regulatory milestone",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.24, Business Updates / IgA Nephropathy",
+      "confidence": "high"
+    },
+    {
+      "value": "Complete full enrollment in AMPLITUDE in the second half of 2026 and share interim-analysis data in early 2027.",
+      "period": "H2 2026 / early 2027",
+      "unit": "clinical timeline",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.25, APOL1-Mediated Kidney Disease",
+      "confidence": "high"
+    },
+    {
+      "value": "Provide updated timelines for zimislecel and VX-017 programs in 2026.",
+      "period": "2026",
+      "unit": "clinical timeline",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.25, Type 1 Diabetes",
+      "confidence": "high"
+    },
+    {
+      "value": "Crinetics acquisition expected to close in the third quarter of 2026, subject to customary conditions.",
+      "period": "Q3 2026",
+      "unit": "transaction timeline",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF pp.21-22, Subsequent Events / Crinetics Acquisition",
+      "confidence": "high"
+    },
+    {
+      "value": "Future net interest income is expected to decrease due to the anticipated Crinetics acquisition.",
+      "period": "post-acquisition forward statement",
+      "unit": "management statement",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.31, Non-Operating Income (Expense), Net / Interest Income, Net",
+      "confidence": "high"
+    },
+    {
+      "value": null,
+      "period": "FY2026",
+      "unit": "numeric full-year revenue/EPS guidance",
+      "source": "supplied filings",
+      "original_location": "No numerical full-year revenue or EPS guidance extracted from the supplied Form 10-K, Form 10-Q, proxy supplement, Form 8-K, or Form 4",
+      "confidence": "high"
+    }
+  ],
+  "management_major_statements": [
+    {
+      "value": "The number of people with CF taking Vertex medicines is expected to continue to grow through approvals, reimbursement, younger patients, survival, and geographic expansion.",
+      "period": "Q2 2026 filing outlook",
+      "unit": "management statement",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.23, Business Updates / Cystic Fibrosis",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertex expects continued investment in research programs and commercialization capabilities supporting current and future launches.",
+      "period": "Q2 2026 filing outlook",
+      "unit": "management statement",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF pp.30-31, Research and Development / SG&A discussion",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertex expects cash flows from product sales plus cash, cash equivalents, and current marketable securities to be sufficient to fund operations for at least the next twelve months.",
+      "period": "as of Q2 2026 filing",
+      "unit": "liquidity statement",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.33, Sources and Uses of Liquidity",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "value": "Q2 2026 total revenue was $3,333.9 million versus $2,964.7 million in Q2 2025; filing reports 12% growth.",
+      "period": "Q2 2026 vs Q2 2025",
+      "unit": "USD millions / percent",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.28, MD&A revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 total revenue was $6,320.8 million versus $5,734.9 million in H1 2025; filing reports 10% growth.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "USD millions / percent",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.28, MD&A revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": "Q2 2026 TRIKAFTA/KAFTRIO revenue decreased 2% year over year to $2,497.2 million; ALYFTREK increased 266% to $573.6 million; CASGEVY increased 151% to $76.4 million; JOURNAVX increased 313% to $49.6 million.",
+      "period": "Q2 2026 vs Q2 2025",
+      "unit": "USD millions / percent",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.28, MD&A product-revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 TRIKAFTA/KAFTRIO revenue decreased 5% year over year to $4,851.9 million; ALYFTREK increased 374% to $998.0 million; CASGEVY increased 167% to $119.3 million; JOURNAVX increased 491% to $78.6 million.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "USD millions / percent",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.28, MD&A product-revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": "CASGEVY Q2 2026 revenue increased 78% versus Q1 2026 and 151% versus Q2 2025.",
+      "period": "Q2 2026 vs Q1 2026 and Q2 2025",
+      "unit": "percent",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.24, Business Updates / Sickle Cell Disease and Beta Thalassemia",
+      "confidence": "high"
+    },
+    {
+      "value": "JOURNAVX Q2 2026 revenue increased 71% versus Q1 2026 and more than 300% versus Q2 2025; approximately 535,000 prescriptions were filled in Q2 2026 and 900,000 in H1 2026.",
+      "period": "Q2/H1 2026",
+      "unit": "percent / prescriptions",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.24, Business Updates / Acute Pain",
+      "confidence": "high"
+    },
+    {
+      "value": "The 2025 Form 10-K stated zimislecel dosing was temporarily postponed pending internal manufacturing analysis; the Q2 2026 Form 10-Q states Vertex is enrolling and dosing patients and expects to provide updated zimislecel/VX-017 timelines in 2026.",
+      "period": "2025 Form 10-K to Q2 2026 Form 10-Q",
+      "unit": "status change in disclosed wording",
+      "source": "0000875320-26-000056 Form 10-K and 0000875320-26-000259 Form 10-Q",
+      "original_location": "10-K Business overview / T1D; 10-Q PDF p.25 Type 1 Diabetes",
+      "confidence": "high",
+      "note": "No inference is made regarding whether the prior manufacturing analysis was fully resolved."
+    }
+  ],
+  "risk_related_disclosures": [
+    {
+      "value": "The Q2 2026 Form 10-Q adds a risk factor that Vertex may be unable to complete the Crinetics acquisition, integrate Crinetics successfully, or realize expected commercial benefits. Risks include closing conditions, regulatory approvals, litigation, integration, retention, synergies, PALSONIFY commercial performance, and atumelnant development/approval/commercialization.",
+      "period": "Q2 2026",
+      "unit": "risk disclosure",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.35, Part II Item 1A Risk Factors",
+      "confidence": "high",
+      "new_vs_10k": true
+    },
+    {
+      "value": "Royalty Pharma arbitration alleges an approximately 8% ALYFTREK royalty burden versus Vertex's stated position of 4%, and seeks declaratory relief, alleged unpaid royalties, damages, costs, fees, and interest. Vertex states it intends to vigorously defend its position.",
+      "period": "ongoing as of 2026-06-30",
+      "unit": "legal contingency disclosure",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.19, Legal Matters and Other Contingencies",
+      "confidence": "high",
+      "new_vs_10k": false
+    },
+    {
+      "value": "As of June 30, 2026, Vertex stated there were no material loss contingencies accrued and no significant contingent liabilities accrued other than contingent consideration liabilities.",
+      "period": "2026-06-30",
+      "unit": "contingency disclosure",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF p.19, Legal Matters and Other Contingencies",
+      "confidence": "high"
+    },
+    {
+      "value": "The 2026 Revolver and 2026 Term Loan contain leverage covenants and restrictions; failure to comply may result in remedies including acceleration of outstanding loans.",
+      "period": "entered 2026-07-30",
+      "unit": "financing risk disclosure",
+      "source": "0000875320-26-000259 Form 10-Q",
+      "original_location": "PDF pp.18 and 22, Note L / credit agreements",
+      "confidence": "high"
+    }
+  ],
+  "corporate_governance_and_management_events": [
+    {
+      "value": "Suketu Upadhyay withdrew from standing for re-election as a director at the 2026 annual meeting due to scheduling conflicts associated with his forthcoming CFO role at Incyte; Vertex stated the departure was not due to disagreement with company operations, policies, or practices. The Board intended to reduce its size to ten members.",
+      "period": "2026-04-28 / 2026 annual meeting",
+      "unit": "governance event",
+      "source": "0000875320-26-000167 Schedule 14A additional materials",
+      "original_location": "PDF p.2, Withdrawal of Nominee for Election as Director",
+      "confidence": "high"
+    },
+    {
+      "value": "Jonathan Poole appointed Executive Vice President and Chief Financial Officer effective January 1, 2027; Charles F. Wagner, Jr. will cease serving as CFO on that date but remain Executive Vice President and Chief Operating Officer.",
+      "period": "effective 2027-01-01",
+      "unit": "management succession",
+      "source": "0000875320-26-000264 Form 8-K",
+      "original_location": "PDF p.2, Item 5.02",
+      "confidence": "high"
+    },
+    {
+      "value": "Jonathan Poole's stated base salary is $750,000 with a target annual bonus of 90% of base salary as of the effective date.",
+      "period": "effective 2027-01-01",
+      "unit": "USD / percent of base salary",
+      "source": "0000875320-26-000264 Form 8-K",
+      "original_location": "PDF p.2, Item 5.02",
+      "confidence": "high"
+    }
+  ],
+  "section_16_transactions": [
+    {
+      "reporting_person": "Kristen Ambrose",
+      "title": "SVP & Chief Accounting Officer",
+      "security": "Common Stock",
+      "transaction_date": "2026-08-28",
+      "transaction_code": "A",
+      "amount": 5000,
+      "acquired_or_disposed": "A",
+      "price": 0,
+      "shares_beneficially_owned_following": 11624,
+      "ownership_form": "D",
+      "award_note": "Restricted stock unit award that vests on 2029-03-01.",
+      "period": "2026-08-28",
+      "unit": "shares / USD per share",
+      "source": "0000875320-26-000267 Form 4",
+      "original_location": "PDF p.1, Table I and Explanation of Responses",
+      "confidence": "high",
+      "aggregation_note": "Transaction preserved as filed; not aggregated with other insider transactions."
+    }
+  ]
+}
