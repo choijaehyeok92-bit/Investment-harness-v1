@@ -1,0 +1,102 @@
+{
+  "ticker": "AMZN",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "Q2 2026 ended 2026-06-30",
+  "revenue": [
+    {"value":200606,"period":"Q2 2026","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.4 Consolidated Statements of Operations","confidence":"high"},
+    {"value":382125,"period":"Six months ended 2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.4 Consolidated Statements of Operations","confidence":"high"},
+    {"value":716924,"period":"FY2025","unit":"USD million","source":"2025 Form 10-K","location":"p.37 Consolidated Statements of Operations","confidence":"high"}
+  ],
+  "operating_income": [
+    {"value":27461,"period":"Q2 2026","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.4 Consolidated Statements of Operations","confidence":"high"},
+    {"value":51313,"period":"Six months ended 2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.4 Consolidated Statements of Operations","confidence":"high"},
+    {"value":79975,"period":"FY2025","unit":"USD million","source":"2025 Form 10-K","location":"p.37 Consolidated Statements of Operations","confidence":"high"}
+  ],
+  "operating_margin": [
+    {"value":13.7,"period":"Q2 2026","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"value":13.1,"period":"Q1 2026","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"value":11.4,"period":"Q2 2025","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"value":11.2,"period":"TTM ended Q4 2025 / FY2025","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15 Supplemental Financial Information and Business Metrics","confidence":"high"}
+  ],
+  "net_income": [
+    {"value":62647,"period":"Q2 2026","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.4 Consolidated Statements of Operations","confidence":"high"},
+    {"value":92902,"period":"Six months ended 2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.4 Consolidated Statements of Operations","confidence":"high"},
+    {"value":77670,"period":"FY2025","unit":"USD million","source":"2025 Form 10-K","location":"p.37 Consolidated Statements of Operations","confidence":"high"}
+  ],
+  "fcf": [
+    {"value":-7604,"period":"TTM ended 2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.33 Free Cash Flow reconciliation","confidence":"high"},
+    {"value":18184,"period":"TTM ended 2025-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.33 Free Cash Flow reconciliation","confidence":"high"},
+    {"value":11194,"period":"FY2025","unit":"USD million","source":"2025 Form 10-K","location":"p.28 Free Cash Flow reconciliation","confidence":"high"}
+  ],
+  "capex": [
+    {"value":53100,"period":"Q2 2026","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.27 Liquidity and Capital Resources; cash capital expenditures","confidence":"high"},
+    {"value":96300,"period":"Six months ended 2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.27 Liquidity and Capital Resources; cash capital expenditures","confidence":"high"},
+    {"value":169007,"period":"TTM ended 2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.33 FCF reconciliation; purchases of property and equipment net of proceeds/incentives","confidence":"high"},
+    {"value":128300,"period":"FY2025","unit":"USD million","source":"2025 Form 10-K","location":"p.23 Liquidity and Capital Resources; cash capital expenditures","confidence":"high"}
+  ],
+  "cash_and_debt": [
+    {"metric":"cash_and_cash_equivalents","value":78213,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"},
+    {"metric":"marketable_securities","value":44775,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"},
+    {"metric":"cash_cash_equivalents_and_marketable_securities","value":123000,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.27 Liquidity and Capital Resources","confidence":"high"},
+    {"metric":"long_term_debt","value":128894,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"},
+    {"metric":"total_face_value_long_term_debt","value":132995,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.17 Note 5 — Debt","confidence":"high"},
+    {"metric":"current_portion_long_term_debt","value":3330,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.17 Note 5 — Debt","confidence":"high"},
+    {"metric":"long_term_lease_liabilities","value":94338,"period":"2026-06-30","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"},
+    {"metric":"cash_and_cash_equivalents","value":86810,"period":"2025-12-31","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"},
+    {"metric":"marketable_securities","value":36219,"period":"2025-12-31","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"},
+    {"metric":"long_term_debt","value":65648,"period":"2025-12-31","unit":"USD million","source":"2026 Q2 Form 10-Q","location":"p.6 Consolidated Balance Sheets","confidence":"high"}
+  ],
+  "segment_results": [
+    {"segment":"North America","period":"Q2 2026","value":{"sales":116177,"operating_income":9123,"operating_margin_pct":7.9},"unit":"USD million; margin percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"segment":"International","period":"Q2 2026","value":{"sales":42197,"operating_income":1717,"operating_margin_pct":4.1},"unit":"USD million; margin percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"segment":"AWS","period":"Q2 2026","value":{"sales":42232,"operating_income":16621,"operating_margin_pct":39.4},"unit":"USD million; margin percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"segment":"North America","period":"Q1 2026","value":{"sales":104143,"operating_income":8267,"operating_margin_pct":7.9},"unit":"USD million; margin percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"segment":"International","period":"Q1 2026","value":{"sales":39789,"operating_income":1424,"operating_margin_pct":3.6},"unit":"USD million; margin percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"segment":"AWS","period":"Q1 2026","value":{"sales":37587,"operating_income":14161,"operating_margin_pct":37.7},"unit":"USD million; margin percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16 Supplemental Financial Information and Business Metrics","confidence":"high"},
+    {"segment":"North America","period":"FY2025","value":{"sales":426305,"operating_income":29619},"unit":"USD million","source":"2025 Form 10-K","location":"p.24 Net Sales; p.26 Operating Income","confidence":"high"},
+    {"segment":"International","period":"FY2025","value":{"sales":161894,"operating_income":4750},"unit":"USD million","source":"2025 Form 10-K","location":"p.24 Net Sales; p.26 Operating Income","confidence":"high"},
+    {"segment":"AWS","period":"FY2025","value":{"sales":128725,"operating_income":45606},"unit":"USD million","source":"2025 Form 10-K","location":"p.24 Net Sales; p.26 Operating Income","confidence":"high"}
+  ],
+  "revenue_categories_q2_2026": [
+    {"item":"Online stores","value":70432,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":15,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"},
+    {"item":"Physical stores","value":5794,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":4,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"},
+    {"item":"Third-party seller services","value":46780,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":16,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"},
+    {"item":"Advertising services","value":19809,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":26,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"},
+    {"item":"Subscription services","value":13730,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":12,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"},
+    {"item":"AWS","value":42232,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":37,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"},
+    {"item":"Other","value":1829,"period":"Q2 2026","unit":"USD million","reported_yoy_change_pct":22,"source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.17","confidence":"high"}
+  ],
+  "guidance": [
+    {"metric":"net_sales","value":{"low":197000,"high":202000,"growth_low_pct":9,"growth_high_pct":12,"fx_impact_bps":-80},"period":"Q3 2026","unit":"USD million; percent; basis points","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.8 Financial Guidance","confidence":"high"},
+    {"metric":"operating_income","value":{"low":22500,"high":26500,"comparison_q3_2025":17400},"period":"Q3 2026","unit":"USD million","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.8 Financial Guidance","confidence":"high"},
+    {"metric":"assumptions","value":"No impact from energy derivative contract remeasurements; no additional business acquisitions, restructurings, or legal settlements concluded.","period":"Q3 2026 guidance","unit":"text","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.8 Financial Guidance","confidence":"high"}
+  ],
+  "management_statements": [
+    {"speaker":"Andy Jassy","role":"President and CEO","value":"AWS grew 36.7% year over year in Q2, its fastest growth in 18 quarters; AWS AI and Chips businesses each exceeded $25 billion annual revenue run rates.","period":"Q2 2026 earnings release","unit":"management statement","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.5 CEO quote","confidence":"high"},
+    {"speaker":"Andy Jassy","role":"President and CEO","value":"Stores set record Prime delivery speeds in the first half; over 40% more items were delivered same-day or overnight; Grocery and Everyday Essentials grew meaningfully faster than the rest of the business.","period":"Q2 2026 earnings release","unit":"management statement","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.5 CEO quote","confidence":"high"},
+    {"speaker":"Andy Jassy","role":"President and CEO","value":"Advertising grew 26% year over year.","period":"Q2 2026 earnings release","unit":"management statement","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.5 CEO quote","confidence":"high"}
+  ],
+  "important_changes": [
+    {"item":"Net sales","value":{"from":167702,"to":200606,"reported_change_pct":20},"period":"Q2 2025 to Q2 2026","unit":"USD million; percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Operating income","value":{"from":19171,"to":27461,"reported_change_pct":43},"period":"Q2 2025 to Q2 2026","unit":"USD million; percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Operating margin","value":{"from":11.4,"to":13.7},"period":"Q2 2025 to Q2 2026","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Net income","value":{"from":18164,"to":62647,"reported_change_pct":245},"period":"Q2 2025 to Q2 2026","unit":"USD million; percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"FCF TTM","value":{"from":18184,"to":-7604,"reported_change_pct":-142},"period":"TTM ended 2025-06-30 to TTM ended 2026-06-30","unit":"USD million; percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Net PPE purchases TTM","value":{"from":102953,"to":169007,"reported_change_pct":64},"period":"TTM ended 2025-06-30 to TTM ended 2026-06-30","unit":"USD million; percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Net sales","value":{"from":181519,"to":200606},"period":"Q1 2026 to Q2 2026","unit":"USD million","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Operating income","value":{"from":23852,"to":27461},"period":"Q1 2026 to Q2 2026","unit":"USD million","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Operating margin","value":{"from":13.1,"to":13.7},"period":"Q1 2026 to Q2 2026","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"Net income","value":{"from":30255,"to":62647},"period":"Q1 2026 to Q2 2026","unit":"USD million","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.15","confidence":"high"},
+    {"item":"AWS sales","value":{"from":37587,"to":42232},"period":"Q1 2026 to Q2 2026","unit":"USD million","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16","confidence":"high"},
+    {"item":"AWS operating income","value":{"from":14161,"to":16621},"period":"Q1 2026 to Q2 2026","unit":"USD million","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16","confidence":"high"},
+    {"item":"AWS operating margin","value":{"from":37.7,"to":39.4},"period":"Q1 2026 to Q2 2026","unit":"percent","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.16","confidence":"high"},
+    {"item":"Q2 net income non-operating component","value":53400,"period":"Q2 2026","unit":"USD million pre-tax other income","source":"2026 Q2 Form 8-K Exhibit 99.1","location":"p.5 earnings release","confidence":"high","note":"Primarily from investments in Anthropic."}
+  ],
+  "new_risk_disclosures": [
+    {"item":"Xockets ITC patent proceeding","value":"In May 2026 Xockets filed an ITC complaint against Amazon.com, Amazon Web Services, Annapurna Labs, NVIDIA, and Microsoft concerning specified AWS/NVIDIA infrastructure products; in June 2026 the International Trade Commission instituted an investigation.","period":"May-June 2026; Q2 2026 disclosure","unit":"text","source":"2026 Q2 Form 10-Q","location":"p.16 Note 4 — Legal Proceedings","confidence":"high"},
+    {"item":"Globalstar merger commitment","value":"Definitive merger agreement entered April 13, 2026; cash/stock consideration; approximately $10.9 billion implied value including debt as of agreement date; expected close in 2027 subject to regulatory approvals and satellite replacement milestones.","period":"2026-04-13 agreement; Q2 2026 disclosure","unit":"USD billion plus text","source":"2026 Q2 Form 10-Q","location":"p.15 Note 4 — Commitments and Contingencies","confidence":"high"},
+    {"item":"Energy derivative contract remeasurement exposure","value":"Q2 2026 technology and infrastructure costs include net unrealized gains for energy contracts subject to derivative accounting; fair value measurements do not affect cash flows but may be material to future technology and infrastructure costs due to contract duration and valuation volatility.","period":"Q2 2026","unit":"text","source":"2026 Q2 Form 10-Q","location":"p.31 Technology and Infrastructure","confidence":"high"},
+    {"item":"Equity investment risk exposure","value":229700,"period":"2026-06-30","unit":"USD million recorded value of equity, equity warrant, and convertible debt investments in public and private companies","source":"2026 Q2 Form 10-Q","location":"p.36 Equity Investment Risk","confidence":"high","note":"Private-company investments primarily relate to Anthropic and OpenAI; private-company valuations are described as inherently more complex due to lack of readily available market data."}
+  ]
+}
