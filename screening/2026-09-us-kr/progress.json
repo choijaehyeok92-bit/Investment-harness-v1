@@ -2,7 +2,7 @@
   "run_id": "2026-09-us-kr",
   "as_of": "2026-09-04",
   "harness_version": "1.0",
-  "stage": "STAGE_1_WAVE_02_REVERSE_EXPECTATIONS_COMPLETE_WITH_3_EVIDENCE_GAPS",
+  "stage": "STAGE_1_WAVE_02_CUSTOM_MODELS_AND_RED_TEAM_COMPLETE",
   "purpose": "false-negative-minimizing research funnel; not a buy recommendation",
   "markets": {
     "US": {
@@ -18,7 +18,14 @@
       "valuation_inputs_completed": 10,
       "reverse_expectation_scenarios_completed": 10,
       "fresh_scores_completed": 10,
-      "screen_out_hard_veto": 1
+      "red_team_reviews_completed": 10,
+      "red_team_pass": 1,
+      "red_team_revise": 8,
+      "red_team_reject": 1,
+      "screen_in": 0,
+      "watch": 9,
+      "screen_out_hard_veto": 1,
+      "conditional_deep_dive_queue": 5
     },
     "KR": {
       "preliminary_candidates": 40,
@@ -32,29 +39,63 @@
       "provisional_nonvaluation_scorecards_completed": 10,
       "valuation_inputs_completed": 10,
       "reverse_expectation_scenarios_completed": 10,
-      "fresh_scores_completed": 7,
-      "scores_withheld_for_evidence": 3
+      "custom_valuation_models_completed": 3,
+      "fresh_scores_completed": 10,
+      "red_team_reviews_completed": 10,
+      "red_team_pass": 1,
+      "red_team_revise": 8,
+      "red_team_reject": 1,
+      "screen_in": 0,
+      "watch": 9,
+      "screen_out_hard_veto": 1,
+      "conditional_deep_dive_queue": 5
     }
   },
-  "next_checkpoint": {
-    "deliverable": "Resolve SK hynix, Hyundai Motor and Alteogen valuation-model gaps; red-team leading A/B candidates",
-    "promotion_cap_per_market": 10
+  "checkpoint_result": {
+    "all_20_scores_complete": true,
+    "red_team_reviews_complete": 20,
+    "red_team_pass": 2,
+    "red_team_revise": 16,
+    "red_team_reject": 2,
+    "screen_in": 0,
+    "watch": 18,
+    "screen_out": 2,
+    "new_screen_out": [
+      {
+        "ticker": "259960",
+        "company": "Krafton",
+        "hard_veto": "management_or_accounting_integrity"
+      }
+    ],
+    "retained_screen_out": [
+      {
+        "ticker": "CRWD",
+        "company": "CrowdStrike",
+        "hard_veto": "price_requires_unrealistic_bull_case"
+      }
+    ]
   },
-  "known_data_issues": [
+  "next_checkpoint": {
+    "deliverable": "Run full-company deep dives for the conditional top five in each market and resolve their INVESTIGATE gates",
+    "promotion_cap_per_market": 5,
+    "us_queue": ["NOW", "AMZN", "MSFT", "LLY", "VRTX"],
+    "kr_queue": ["035420", "005380", "207940", "278470", "196170"]
+  },
+  "open_model_limits": [
     {
       "ticker": "000660",
-      "path": "screening/2026-09-us-kr/valuation-inputs-wave-01-02.csv",
-      "issue": "Extraordinary non-operating items, cash/debt and current versus weighted shares require official reconciliation before scoring."
+      "path": "screening/2026-09-us-kr/special-models-wave-01-02.jsonl",
+      "issue": "Preliminary Q2 profit is extraordinary; audited cash conversion and cycle-normalized capex are still required to resolve the price gate."
     },
     {
       "ticker": "005380",
-      "path": "screening/2026-09-us-kr/valuation-inputs-wave-01-02.csv",
-      "issue": "Auto manufacturing, captive-finance debt and preferred equity require a separate FCFE model."
+      "path": "screening/2026-09-us-kr/special-models-wave-01-02.jsonl",
+      "issue": "The consolidated owner-earnings model preserves captive-finance economics but does not fully isolate class-specific FCFE and regulatory capital."
     },
     {
       "ticker": "196170",
-      "path": "screening/2026-09-us-kr/reverse-expectations-wave-01-02.csv",
-      "issue": "Conditional milestones and royalties require a contract-level probability tree rather than a smooth CAGR model."
+      "path": "screening/2026-09-us-kr/special-models-wave-01-02.jsonl",
+      "issue": "Confidential royalty tiers, milestone timing and program identities keep contract-tree confidence low."
     },
     {
       "ticker": "NVDA",
