@@ -1,0 +1,194 @@
+{
+  "ticker": "MSFT",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "supersedes_source_resolution_in": "companies/MSFT/raw-data/2026-FY.json",
+  "scope_note": "No investment judgment, valuation, scorecard, derived FCF, derived operating margin, or aggregated insider-sale calculations. This file resolves and extracts the user-supplied bodies for Microsoft IR nodes 35176 and 35181.",
+  "source_resolution": [
+    {
+      "node": 35176,
+      "url": "https://microsoft.gcs-web.com/node/35176/html",
+      "body_file": "0001193125-26-380280.pdf",
+      "resolved_identity": "Microsoft Form 8-K dated 2026-09-02, Exhibit 99.1 'FY27 Segments and Investor Metrics'; SEC accession 0001193125-26-380280",
+      "confidence": "high",
+      "basis": "user-supplied body"
+    },
+    {
+      "node": 35181,
+      "url": "https://microsoft.gcs-web.com/node/35181/html",
+      "body_file": "0000789019-26-000161.pdf",
+      "resolved_identity": "Microsoft Form 4 for Satya Nadella; earliest transaction date 2026-09-01; signed/filed 2026-09-02; SEC accession 0000789019-26-000161",
+      "confidence": "high",
+      "basis": "user-supplied body"
+    }
+  ],
+  "revenue": [
+    {"value": 331839, "period": "FY2026", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.18-20; Segment History / Products and Service Offerings Revenue", "confidence": "high"},
+    {"value": 281724, "period": "FY2025", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.18-20; comparative restated history", "confidence": "high"}
+  ],
+  "operating_income": [
+    {"value": 155237, "period": "FY2026", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.18; Segment History as Restated - Total", "confidence": "high"},
+    {"value": 128528, "period": "FY2025", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.18; Segment History as Restated - Total", "confidence": "high"}
+  ],
+  "operating_margin": [
+    {"value": null, "period": "FY2026", "unit": "percent", "source": "node 35176 / Exhibit 99.1", "location": "No explicit historical consolidated operating-margin percentage in supplied body", "confidence": "high", "status": "not explicitly disclosed; not calculated"}
+  ],
+  "net_income": [
+    {"value": null, "period": "FY2026", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "Not presented in supplied body", "confidence": "high", "status": "not disclosed in this source"}
+  ],
+  "fcf": [
+    {"value": null, "period": "FY2026", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "Not presented in supplied body", "confidence": "high", "status": "not disclosed in this source"}
+  ],
+  "capex": [
+    {"value": "over 50", "period": "Q1 FY2027 outlook", "unit": "USD billion", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23; FY27 Q1 Outlook", "confidence": "high", "label": "capital expenditures including impact of useful-life update"}
+  ],
+  "cash_and_debt": [
+    {"value": null, "period": "2026-09-02 source date", "unit": null, "source": "node 35176 / Exhibit 99.1", "location": "Not presented in supplied body", "confidence": "high", "status": "cash/debt not disclosed in this source"}
+  ],
+  "segment_history_restated": {
+    "period_order": ["Q1", "Q2", "Q3", "Q4", "Fiscal Year"],
+    "unit": "USD million",
+    "source": "node 35176 / Exhibit 99.1",
+    "location": "PDF p.18; Segment History as Restated",
+    "confidence": "high",
+    "FY2026": {
+      "Agents and Infra": {
+        "revenue": [61672, 64441, 67438, 74576, 268127],
+        "cost_of_revenue": [17701, 19307, 20949, 23460, 81417],
+        "operating_expenses": [11253, 11967, 12741, 14384, 50345],
+        "operating_income": [32718, 33167, 33748, 36732, 136365]
+      },
+      "Devices and Consumer": {
+        "revenue": [16001, 16832, 15448, 15431, 63712],
+        "cost_of_revenue": [6342, 6671, 5879, 6065, 24957],
+        "operating_expenses": [4416, 5053, 4919, 5495, 19883],
+        "operating_income": [5243, 5108, 4650, 3871, 18872]
+      },
+      "Total": {
+        "revenue": [77673, 81273, 82886, 90007, 331839],
+        "cost_of_revenue": [24043, 25978, 26828, 29525, 106374],
+        "operating_expenses": [15669, 17020, 17660, 19879, 70228],
+        "operating_income": [37961, 38275, 38398, 40603, 155237]
+      }
+    },
+    "FY2025": {
+      "Agents and Infra": {
+        "revenue": [50476, 52766, 54763, 60778, 218783],
+        "cost_of_revenue": [13619, 14630, 15510, 17533, 61292],
+        "operating_expenses": [10686, 11418, 11549, 13024, 46677],
+        "operating_income": [26171, 26718, 27704, 30221, 110814]
+      },
+      "Devices and Consumer": {
+        "revenue": [15109, 16866, 15303, 15663, 62941],
+        "cost_of_revenue": [6480, 7169, 6409, 6481, 26539],
+        "operating_expenses": [4248, 4762, 4598, 5080, 18688],
+        "operating_income": [4381, 4935, 4296, 4102, 17714]
+      },
+      "Total": {
+        "revenue": [65585, 69632, 70066, 76441, 281724],
+        "cost_of_revenue": [20099, 21799, 21919, 24014, 87831],
+        "operating_expenses": [14934, 16180, 16147, 18104, 65365],
+        "operating_income": [30552, 31653, 32000, 34323, 128528]
+      }
+    }
+  },
+  "product_service_offerings_revenue_restated": {
+    "period_order": ["Q1", "Q2", "Q3", "Q4", "Fiscal Year"],
+    "unit": "USD million",
+    "source": "node 35176 / Exhibit 99.1",
+    "location": "PDF p.20; Products and Service Offerings Revenue - As Restated",
+    "confidence": "high",
+    "FY2026": {
+      "Azure": [22384, 24129, 26008, 29417, 101938],
+      "Microsoft 365 cloud": [23694, 24466, 25418, 26721, 100299],
+      "Productivity and server licensing": [8678, 8814, 8760, 11033, 37285],
+      "Search and advertising": [5942, 6393, 6065, 6435, 24835],
+      "XBOX": [5508, 5958, 5341, 4983, 21790],
+      "Industry solutions": [4894, 4994, 5165, 5292, 20345],
+      "Windows OEM and devices": [4551, 4481, 4042, 4013, 17087],
+      "Frontier and support services": [2022, 2038, 2087, 2113, 8260],
+      "Total": [77673, 81273, 82886, 90007, 331839]
+    },
+    "FY2025": {
+      "Azure": [16021, 17337, 18540, 20712, 72610],
+      "Microsoft 365 cloud": [20017, 20686, 20967, 22935, 84605],
+      "Productivity and server licensing": [8051, 8307, 8731, 10302, 35391],
+      "Search and advertising": [5159, 5773, 5437, 5802, 22171],
+      "XBOX": [5621, 6581, 5721, 5532, 23455],
+      "Industry solutions": [4459, 4544, 4579, 4835, 18417],
+      "Windows OEM and devices": [4329, 4512, 4145, 4329, 17315],
+      "Frontier and support services": [1928, 1892, 1946, 1994, 7760],
+      "Total": [65585, 69632, 70066, 76441, 281724]
+    }
+  },
+  "guidance": [
+    {"value": "89.85-90.95", "period": "Q1 FY2027", "unit": "USD billion total company revenue", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high", "status": "no change to July 29 outlook"},
+    {"value": "75.15-75.75", "period": "Q1 FY2027", "unit": "USD billion Agents and Infra revenue", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "14.7-15.2", "period": "Q1 FY2027", "unit": "USD billion Devices and Consumer revenue", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "29.6-29.8", "period": "Q1 FY2027", "unit": "USD billion cost of revenue", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "16.8-16.9", "period": "Q1 FY2027", "unit": "USD billion operating expenses", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "roughly -100", "period": "Q1 FY2027", "unit": "USD million other income and expense, excluding impact from OpenAI investments", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "relatively flat year-over-year", "period": "Q1 FY2027", "unit": "operating margin direction", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "approximately 20", "period": "Q1 FY2027", "unit": "percent effective tax rate", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high"},
+    {"value": "over 50", "period": "Q1 FY2027", "unit": "USD billion capital expenditures", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.23", "confidence": "high", "note": "including impact of useful-life update"},
+    {"value": "44-45", "period": "Q1 FY2027", "unit": "percent constant-currency Azure revenue growth", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.24", "confidence": "high", "note": "FX expected to decrease revenue by less than 1 point"},
+    {"value": "approximately 17", "period": "Q1 FY2027", "unit": "percent constant-currency Microsoft 365 commercial cloud revenue growth", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.24", "confidence": "high"},
+    {"value": "approximately 18", "period": "Q1 FY2027", "unit": "percent constant-currency Microsoft 365 commercial cloud revenue growth adjusted for prior-year in-period revenue recognition", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.24", "confidence": "high"},
+    {"value": "decline in low-single digits", "period": "Q1 FY2027", "unit": "Productivity and server licensing revenue growth direction", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.24", "confidence": "high"},
+    {"value": "growth in high-single digits", "period": "Q1 FY2027", "unit": "Industry solutions cloud revenue growth direction", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.24", "confidence": "high"},
+    {"value": "growth in mid- to high-single digits", "period": "Q1 FY2027", "unit": "Search and advertising revenue ex TAC growth direction", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.24", "confidence": "high"}
+  ],
+  "management_statements": [
+    {"value": "There’s no question AI represents a profound shift in both technology and business.", "period": "September 2026", "unit": "verbatim management statement", "source": "node 35176 / Exhibit 99.1, Satya Nadella", "location": "PDF p.7", "confidence": "high"},
+    {"value": "It is changing what we build and how we operate, and it is blurring the boundaries between our products and reshaping our business models.", "period": "September 2026", "unit": "verbatim management statement", "source": "node 35176 / Exhibit 99.1, Satya Nadella", "location": "PDF p.7", "confidence": "high"},
+    {"value": "Beginning with FY27, we will transition from our current three reporting segments to two segments: Agents and Infra and Devices and Consumer.", "period": "FY2027 reporting change", "unit": "management statement excerpt", "source": "node 35176 / Exhibit 99.1, Satya Nadella", "location": "PDF p.7", "confidence": "high"},
+    {"value": "I have never been more confident in the opportunity ahead.", "period": "September 2026", "unit": "verbatim management statement", "source": "node 35176 / Exhibit 99.1, Satya Nadella", "location": "PDF p.8", "confidence": "high"}
+  ],
+  "important_changes": [
+    {"value": "Beginning in FY2027, reportable segments change from three segments to Agents and Infra and Devices and Consumer.", "period": "FY2027", "unit": "reporting structure change", "source": "node 35176 Form 8-K", "location": "PDF p.2 Item 7.01 / Exhibit 99.1", "confidence": "high"},
+    {"value": "FY2026 restated segment revenue: Agents and Infra 268127; Devices and Consumer 63712", "period": "FY2026", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.18", "confidence": "high"},
+    {"value": "FY2026 restated segment operating income: Agents and Infra 136365; Devices and Consumer 18872", "period": "FY2026", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.18", "confidence": "high"},
+    {"value": "Azure FY2026 restated revenue 101938; FY2025 72610", "period": "FY2026 vs FY2025", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.20", "confidence": "high"},
+    {"value": "Microsoft 365 cloud FY2026 restated revenue 100299; FY2025 84605", "period": "FY2026 vs FY2025", "unit": "USD million", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.20", "confidence": "high"}
+  ],
+  "risk_related_new_disclosures": [
+    {"value": "The 8-K states that the investor presentation contains forward-looking statements subject to risks and uncertainties discussed in Microsoft's Form 10-K, Forms 10-Q, and other SEC filings.", "period": "2026-09-02", "unit": "risk disclosure", "source": "node 35176 / Exhibit 99.1", "location": "PDF p.5", "confidence": "high", "note": "No separate new specific Risk Factors table is presented in this supplied body."}
+  ],
+  "management_transactions": {
+    "source": "node 35181 / Form 4",
+    "reporting_person": "Satya Nadella",
+    "role": "Chief Executive Officer",
+    "earliest_transaction_date": "2026-09-01",
+    "filing_signature_date": "2026-09-02",
+    "security": "Microsoft common stock",
+    "transaction_code": "S",
+    "sale_lots": [
+      {"shares_disposed": 1040, "weighted_average_price_usd": 498.2396, "direct_shares_owned_after": 572247.534, "location": "PDF p.1 Table I / footnote 1", "confidence": "high"},
+      {"shares_disposed": 5080, "weighted_average_price_usd": 499.4452, "direct_shares_owned_after": 567167.534, "location": "PDF p.1 Table I / footnote 2", "confidence": "high"},
+      {"shares_disposed": 24723, "weighted_average_price_usd": 500.4678, "direct_shares_owned_after": 542444.534, "location": "PDF p.1 Table I / footnote 3", "confidence": "high"},
+      {"shares_disposed": 32901, "weighted_average_price_usd": 501.1233, "direct_shares_owned_after": 509543.534, "location": "PDF p.1 Table I / footnote 4", "confidence": "high"},
+      {"shares_disposed": 4520, "weighted_average_price_usd": 502.2909, "direct_shares_owned_after": 505023.534, "location": "PDF p.1 Table I / footnote 5", "confidence": "high"},
+      {"shares_disposed": 7067, "weighted_average_price_usd": 503.4372, "direct_shares_owned_after": 497956.534, "location": "PDF p.1 Table I / footnote 6", "confidence": "high"},
+      {"shares_disposed": 9834, "weighted_average_price_usd": 504.1124, "direct_shares_owned_after": 488122.534, "location": "PDF p.1 Table I / footnote 7", "confidence": "high"},
+      {"shares_disposed": 1360, "weighted_average_price_usd": 505.1997, "direct_shares_owned_after": 486762.534, "location": "PDF p.1 Table I / footnote 8", "confidence": "high"}
+    ],
+    "indirect_holdings": [
+      {"shares": 51450, "ownership": "By GRAT 25-1"},
+      {"shares": 103985, "ownership": "By GRAT 25-2"},
+      {"shares": 116300, "ownership": "By GRAT 26-1"},
+      {"shares": 58270, "ownership": "By GRAT 26-2"},
+      {"shares": 101459, "ownership": "By GRAT 26-3"}
+    ],
+    "derivative_securities": "none reported in Table II",
+    "trading_plan": {
+      "rule": "Rule 10b5-1",
+      "adopted": "2026-03-08",
+      "statement": "The sale reported on this Form 4 were made pursuant to a Rule 10b5-1 trading plan adopted on March 8, 2026."
+    },
+    "confidence": "high"
+  },
+  "source_coverage": [
+    {"node": 35176, "requested_fields_found": ["revenue", "operating_income", "capex_guidance", "business_unit_results", "guidance", "management_statements", "important_changes", "risk_forward_looking_notice"], "requested_fields_not_present": ["net_income", "FCF", "cash_and_debt", "explicit historical consolidated operating margin"], "confidence": "high"},
+    {"node": 35181, "requested_fields_found": ["management_transaction_raw_data"], "requested_fields_not_present": ["revenue", "operating_income", "operating_margin", "net_income", "FCF", "CapEx", "cash_and_debt", "business_unit_results", "guidance", "management_statements", "risk_factor_disclosure"], "confidence": "high"}
+  ]
+}
