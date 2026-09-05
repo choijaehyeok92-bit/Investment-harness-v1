@@ -1,0 +1,579 @@
+{
+  "ticker": "035420",
+  "company": "NAVER Corporation",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow amount, unsupported growth calculation, or unsupported inference. Values are extracted from the three user-supplied NAVER filings only.",
+  "source_resolution": [
+    {
+      "file": "[NAVER]사업보고서(2026.03.13)(1).pdf",
+      "resolved_identity": "NAVER Corporation annual business report for fiscal year 2025, filed 2026-03-13",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "file": "[NAVER]반기보고서(2026.08.14)(1).pdf",
+      "resolved_identity": "NAVER Corporation half-year report for period 2026-01-01 through 2026-06-30, filed 2026-08-14",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "file": "[NAVER]주요사항보고서(유상증자결정)(2026.07.27).pdf",
+      "resolved_identity": "NAVER Corporation material report on third-party allotted capital increase, filed 2026-07-27",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 12035007.219,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.54",
+      "confidence": "high"
+    },
+    {
+      "value": 10737719.265,
+      "period": "FY2024 comparative",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.54",
+      "confidence": "high"
+    },
+    {
+      "value": 6629816.183,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high"
+    },
+    {
+      "value": 5701868.408,
+      "period": "H1 2025 comparative",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 2208138.389,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.54",
+      "confidence": "high"
+    },
+    {
+      "value": 1979263.439,
+      "period": "FY2024 comparative",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.54",
+      "confidence": "high"
+    },
+    {
+      "value": 1062066.553,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high"
+    },
+    {
+      "value": 1026855.081,
+      "period": "H1 2025 comparative",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": 18.3,
+      "period": "FY2025",
+      "unit": "percent",
+      "source": "2025 annual report",
+      "original_location": "Management discussion, profitability analysis, PDF p.344",
+      "confidence": "high",
+      "note": "Explicitly disclosed by the company; not derived."
+    },
+    {
+      "value": 18.4,
+      "period": "FY2024 comparative",
+      "unit": "percent",
+      "source": "2025 annual report",
+      "original_location": "Management discussion, profitability analysis, PDF p.344",
+      "confidence": "high",
+      "note": "Explicitly disclosed by the company; not derived."
+    },
+    {
+      "value": null,
+      "period": "H1 2026",
+      "unit": "percent",
+      "source": "2026 half-year report",
+      "original_location": "No explicit consolidated H1 operating-margin metric extracted",
+      "confidence": "high",
+      "note": "Not calculated from revenue and operating income in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 1818746.310,
+      "period": "FY2025 consolidated net income",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.54",
+      "confidence": "high"
+    },
+    {
+      "value": 1953214.735,
+      "period": "FY2025 profit attributable to owners of parent",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.54",
+      "confidence": "high"
+    },
+    {
+      "value": 995294.183,
+      "period": "H1 2026 consolidated net income",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high"
+    },
+    {
+      "value": 983946.431,
+      "period": "H1 2026 profit attributable to owners of parent",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high"
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 3095806.605,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of cash flows, PDF p.56",
+      "confidence": "high"
+    },
+    {
+      "value": 1186557.719,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of cash flows, PDF p.51",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "KRW millions",
+      "source": "supplied annual and half-year reports",
+      "original_location": "Company discloses its FCF definition for shareholder-return policy but not a standalone period FCF amount in the extracted sections",
+      "confidence": "high",
+      "company_definition": "consolidated operating income + non-cash expenses - cash taxes paid - CapEx",
+      "note": "No FCF amount derived in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "capital_expenditures": [
+    {
+      "value": 1317.1,
+      "period": "FY2025 cumulative",
+      "unit": "KRW billions",
+      "source": "2025 annual report",
+      "original_location": "Facilities investment (CapEx), PDF p.21",
+      "confidence": "high",
+      "components": {
+        "land_and_buildings": 73.0,
+        "servers_and_equipment": 1159.5,
+        "intangible_assets": 84.6
+      }
+    },
+    {
+      "value": 854.1,
+      "period": "H1 2026 cumulative",
+      "unit": "KRW billions",
+      "source": "2026 half-year report",
+      "original_location": "Facilities investment (CapEx), PDF p.20",
+      "confidence": "high",
+      "components": {
+        "land_and_buildings": 68.7,
+        "servers_and_equipment": 741.1,
+        "intangible_assets": 44.3
+      }
+    },
+    {
+      "value": 809757.146,
+      "period": "H1 2026 purchases of property, plant and equipment",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of cash flows, PDF p.51",
+      "confidence": "high"
+    },
+    {
+      "value": 44298.448,
+      "period": "H1 2026 purchases of intangible assets",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of cash flows, PDF p.51",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_liquidity": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 5984018.800,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_financial_products",
+      "value": 2336927.835,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 6384369.790,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_financial_products",
+      "value": 2017072.977,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    }
+  ],
+  "debt_components": [
+    {
+      "metric": "short_term_borrowings",
+      "value": 132159.574,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_long_term_borrowings",
+      "value": 0,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_bonds",
+      "value": 1597174.210,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_borrowings",
+      "value": 874112.668,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "bonds",
+      "value": 382248.923,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Consolidated statement of financial position, PDF p.53",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_borrowings",
+      "value": 764397.778,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_long_term_borrowings",
+      "value": 2221.350,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_bonds",
+      "value": 302811.710,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_borrowings",
+      "value": 1107136.176,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    },
+    {
+      "metric": "bonds",
+      "value": 1718026.480,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of financial position, PDF p.48",
+      "confidence": "high"
+    }
+  ],
+  "major_2026_bond_issuances": [
+    {
+      "name": "NAVER foreign senior unsecured green notes series 6",
+      "issue_date": "2026-04-21",
+      "maturity": "2031-04-21",
+      "coupon": 4.38,
+      "coupon_unit": "percent",
+      "krw_equivalent": 770750,
+      "krw_equivalent_unit": "KRW millions",
+      "foreign_principal": 500,
+      "foreign_principal_unit": "USD millions",
+      "ratings": ["Moody's A3", "S&P A-"],
+      "source": "2026 half-year report",
+      "original_location": "Debt note / debt issuance table, PDF pp.82 and 151",
+      "confidence": "high"
+    },
+    {
+      "name": "NAVER foreign senior unsecured green notes series 7",
+      "issue_date": "2026-04-21",
+      "maturity": "2033-04-21",
+      "coupon": 3.75,
+      "coupon_unit": "percent",
+      "krw_equivalent": 880545,
+      "krw_equivalent_unit": "KRW millions",
+      "foreign_principal": 500,
+      "foreign_principal_unit": "USD millions",
+      "ratings": ["Moody's A3", "S&P A-"],
+      "source": "2026 half-year report",
+      "original_location": "Debt note / debt issuance table, PDF pp.82 and 151",
+      "confidence": "high"
+    }
+  ],
+  "business_segment_performance": {
+    "segment_structure": {
+      "value": "single operating/reportable segment for accounting purposes; service-level revenue is separately disclosed",
+      "source": "2025 annual report",
+      "original_location": "Segment information note",
+      "confidence": "high"
+    },
+    "fy2025_service_revenue": [
+      {"service":"Search Platform","value":4168936,"unit":"KRW millions","period":"FY2025","share_percent":34.6,"source":"2025 annual report","original_location":"Service revenue table, PDF pp.18/21","confidence":"high"},
+      {"service":"Commerce","value":3688407,"unit":"KRW millions","period":"FY2025","share_percent":30.6,"source":"2025 annual report","original_location":"Service revenue table, PDF pp.18/21","confidence":"high"},
+      {"service":"Fintech","value":1690684,"unit":"KRW millions","period":"FY2025","share_percent":14.1,"source":"2025 annual report","original_location":"Service revenue table, PDF pp.18/21","confidence":"high"},
+      {"service":"Content","value":1899173,"unit":"KRW millions","period":"FY2025","share_percent":15.8,"source":"2025 annual report","original_location":"Service revenue table, PDF pp.18/21","confidence":"high"},
+      {"service":"Enterprise","value":587807,"unit":"KRW millions","period":"FY2025","share_percent":4.9,"source":"2025 annual report","original_location":"Service revenue table, PDF pp.18/21","confidence":"high"}
+    ],
+    "h1_2026_service_revenue": [
+      {"service":"NAVER Platform","value":3741951,"unit":"KRW millions","period":"H1 2026","share_percent":56.5,"source":"2026 half-year report","original_location":"Service revenue table, PDF p.21","confidence":"high"},
+      {"service":"Financial Platform","value":930315,"unit":"KRW millions","period":"H1 2026","share_percent":14.0,"source":"2026 half-year report","original_location":"Service revenue table, PDF p.21","confidence":"high"},
+      {"service":"Global Challenge","value":1957550,"unit":"KRW millions","period":"H1 2026","share_percent":29.5,"source":"2026 half-year report","original_location":"Service revenue table, PDF p.21","confidence":"high"}
+    ],
+    "h1_2025_comparative_under_2026_presentation": [
+      {"service":"NAVER Platform","value":3297800,"unit":"KRW millions","period":"H1 2025 comparative","share_percent":57.8,"source":"2026 half-year report","original_location":"Service revenue table, PDF p.21","confidence":"high"},
+      {"service":"Financial Platform","value":792255,"unit":"KRW millions","period":"H1 2025 comparative","share_percent":13.9,"source":"2026 half-year report","original_location":"Service revenue table, PDF p.21","confidence":"high"},
+      {"service":"Global Challenge","value":1611813,"unit":"KRW millions","period":"H1 2025 comparative","share_percent":28.3,"source":"2026 half-year report","original_location":"Service revenue table, PDF p.21","confidence":"high"}
+    ],
+    "presentation_change_note": "FY2025 report presents five service categories, while the H1 2026 report presents three broader service categories. Values are preserved as filed; no crosswalk is inferred beyond the labels disclosed by NAVER."
+  },
+  "research_and_development": [
+    {
+      "value": 2221750,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "2025 annual report",
+      "original_location": "Research and development activities, PDF p.33",
+      "confidence": "high",
+      "reported_ratio_to_revenue_percent": 18.5
+    },
+    {
+      "value": 633219,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Research and development activities, PDF p.25",
+      "confidence": "high",
+      "reported_ratio_to_revenue_percent": 18.7
+    }
+  ],
+  "capital_allocation_and_shareholder_return": [
+    {
+      "value": "For FY2025-FY2027, NAVER states shareholder returns will be cash dividends or share repurchases/cancellations at approximately 25%-35% of the two-year average consolidated FCF, subject to business conditions and debt repayment plans.",
+      "period": "FY2025-FY2027 policy",
+      "unit": "policy statement",
+      "source": "2025 annual report and 2026 half-year report",
+      "original_location": "Dividend policy sections",
+      "confidence": "high"
+    },
+    {
+      "value": 393596,
+      "period": "FY2025 cash dividend paid/approved",
+      "unit": "KRW millions",
+      "source": "2026 half-year report",
+      "original_location": "Dividend policy, PDF p.149",
+      "confidence": "high",
+      "per_share_dividend_krw": 2630,
+      "company_description": "30% of two-year average consolidated FCF"
+    },
+    {
+      "value": 4901094,
+      "period": "treasury shares cancelled 2026-08-03",
+      "unit": "shares",
+      "source": "2026 half-year report",
+      "original_location": "Post-period events / treasury share disclosures",
+      "confidence": "high",
+      "amount_krw_millions": 1017000
+    }
+  ],
+  "wallapop_acquisition": {
+    "target": "Wallapop, S.L.",
+    "purpose": "Acquire a strategic European C2C marketplace and user base to serve as a base for European business expansion",
+    "shares_acquired": 85215970,
+    "reported_acquisition_price_eur_millions": 563,
+    "reported_acquisition_price_excluding_C_Fund_eur_millions": 377,
+    "contract_date": "2025-08-05",
+    "completion_date": "2026-01-30",
+    "source": "2026 half-year report",
+    "original_location": "Major contracts, PDF p.24",
+    "confidence": "high"
+  },
+  "nvidia_third_party_capital_increase": {
+    "decision_date": "2026-07-24",
+    "filing_date": "2026-07-27",
+    "allottee": "NVIDIA Corporation",
+    "method": "third-party allotment",
+    "new_common_shares_provisional": 7241564,
+    "pre_increase_common_shares": 156977585,
+    "par_value_krw": 100,
+    "issue_price_krw": 204500,
+    "reference_price_krw": 204276,
+    "discount_or_premium_percent": 0,
+    "provisional_krw_proceeds": 1480899838000,
+    "subscription_total_usd": 1000000000,
+    "proceeds_use": "AI Factory-related new business",
+    "planned_use_krw_millions": {
+      "2026": 5035,
+      "2027": 692025,
+      "2028_and_after": 783840,
+      "total": 1480900
+    },
+    "condition_precedent": "NAVER must secure at least USD 9 billion of computing infrastructure for expansion of the AI Factory business, excluding funds raised through this capital increase.",
+    "payment_date_max_contractual": "2026-10-30",
+    "listing_date_max_contractual": "2026-11-20",
+    "lockup": "New shares are subject to mandatory electronic registration with Korea Securities Depository and a one-year restriction on withdrawal and sale.",
+    "final_share_count_note": "The disclosed share count and KRW proceeds are provisional. Final share count is determined using the KRW/USD market-average exchange rate at the contractual Measurement Date and the fixed issue price of KRW 204,500, with fractional shares discarded.",
+    "source": "2026-07-27 material report on capital increase",
+    "original_location": "PDF pp.3-7",
+    "confidence": "high"
+  },
+  "important_changes": [
+    {
+      "value": "FY2025 operating expenses were reported as KRW 9.8 trillion, up 12.2% year over year; operating income was KRW 2.2 trillion, up 11.6%, with operating margin 18.3%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "management-reported comparison",
+      "source": "2025 annual report",
+      "original_location": "Management discussion, PDF p.344",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 revenue was KRW 6.629816 trillion and operating income KRW 1.062067 trillion, versus H1 2025 revenue KRW 5.701868 trillion and operating income KRW 1.026855 trillion.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW",
+      "source": "2026 half-year report",
+      "original_location": "Consolidated statement of comprehensive income, PDF p.49",
+      "confidence": "high",
+      "note": "No growth percentages are derived here."
+    },
+    {
+      "value": "NAVER completed acquisition of Wallapop on 2026-01-30 and added Wallapop, S.L. to the consolidation scope.",
+      "period": "H1 2026",
+      "unit": "business combination status",
+      "source": "2026 half-year report",
+      "original_location": "Company history / major contracts / consolidation scope",
+      "confidence": "high"
+    },
+    {
+      "value": "NAVER issued two USD 500 million senior unsecured green-note tranches on 2026-04-21, maturing in 2031 and 2033, and states the proceeds are being used to refinance existing ESG bonds and fund eligible green projects.",
+      "period": "H1 2026",
+      "unit": "debt financing event",
+      "source": "2026 half-year report",
+      "original_location": "Debt issuance and use-of-proceeds sections",
+      "confidence": "high"
+    },
+    {
+      "value": "NAVER cancelled 4,901,094 treasury shares on 2026-08-03 after a 2026-07-24 board resolution; the half-year report states remaining treasury shares became 2,238,815 after the cancellation.",
+      "period": "post 2026-06-30 reporting date",
+      "unit": "capital structure event",
+      "source": "2026 half-year report",
+      "original_location": "Treasury share and post-period event disclosures",
+      "confidence": "high"
+    }
+  ],
+  "risk_and_commitment_disclosures": [
+    {
+      "value": "The third-party capital increase with NVIDIA is conditional on NAVER securing at least USD 9 billion of computing infrastructure for AI Factory expansion; payment/listing dates are contractual maximum dates and may be extended.",
+      "period": "2026-07-27 filing",
+      "unit": "transaction condition disclosure",
+      "source": "capital increase material report",
+      "original_location": "PDF p.4",
+      "confidence": "high"
+    },
+    {
+      "value": "The final share count and KRW proceeds of the NVIDIA capital increase depend on the KRW/USD market-average exchange rate at the Measurement Date; the disclosed 7,241,564 shares and KRW 1.480899838 trillion are provisional.",
+      "period": "2026-07-27 filing",
+      "unit": "transaction sizing disclosure",
+      "source": "capital increase material report",
+      "original_location": "PDF p.4",
+      "confidence": "high"
+    },
+    {
+      "value": "NAVER reports that public bonds are subject to investor-protection covenants including restrictions on collateral creation and asset disposals, and states it was in compliance as of 2026-06-30.",
+      "period": "2026-06-30",
+      "unit": "debt covenant disclosure",
+      "source": "2026 half-year report",
+      "original_location": "Debt financing / bond covenant section",
+      "confidence": "high"
+    }
+  ]
+}
