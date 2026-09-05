@@ -1,26 +1,18 @@
 {
   "ticker": "GOOGL",
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-05",
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
-  "rationale": "Alphabet is a high-quality AI, Search and Cloud platform with strengthening Cloud economics, but the current GOOGL price is approximately equal to Base modeled value and already requires long-duration double-digit growth plus FCF-margin recovery. The unprecedented 2026-2027 capex cycle, common and preferred dilution, rapidly rising debt and unresolved Search remedies leave external-capital dependence, incremental ROIC, moat shrinkage and concentration vetoes under investigation. With no existing portfolio exposure recorded in the repository, the correct new-coverage decision is WATCH rather than initiating a position.",
+  "rationale": "Search·Cloud·AI의 복수 이익원은 유지된다. 기존 Bull은 Base보다 할인율을 낮추고 영구성장률을 높여 비대칭을 증폭했다. 상방의 상당 부분이 자본비용 가정에서 생기므로 비대칭 점수를 6→5로 낮춘다. TTM Capex 약 1,324.02억 달러 이후 FCF는 약 532.73억 달러다. 투자자산 평가이익, 우선주 전환과 자금조달을 영업 현금창출·희석과 구분해야 한다. 재평가 69/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "Search commercial-query growth and revenue per query improve together after broad AI Mode and AI Overviews adoption.",
-    "Google Cloud sustains strong growth and operating margin above 25% after Wiz integration without evidence of capacity dumping.",
-    "TTM FCF per share reaccelerates after the capex peak and management provides evidence that AI investment cohorts earn returns above the cost of capital.",
-    "Net common dilution, including ATM issuance, SBC settlement and mandatory-convertible effects, is controlled and value-accretive repurchases resume.",
-    "The expectation gap widens to at least a 20%-25% discount to defensible Base value or operating evidence lowers the price-implied ten-year growth requirement below 10%."
+    "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "Search revenue, commercial-query monetization or market share declines structurally for four consecutive quarters.",
-    "AI capex fails to produce FCF-per-share recovery by 2028 or consolidated incremental ROIC falls below the cost of capital.",
-    "Cloud growth and operating margin deteriorate together with evidence of material unused capacity or price-led demand.",
-    "Annual net dilution exceeds 2% without offsetting FCF-per-share improvement.",
-    "Antitrust remedies cause structural deterioration in distribution, TAC, data access or advertising economics.",
-    "A material management-integrity or accounting-reliability issue causes a Hard Veto FAIL.",
-    "The market price embeds an unrealistic Bull Case or better."
+    "생성형 인터페이스 전환으로 검색의 수익화가 구조적으로 약해지고 높은 AI 설비투자에도 FCF/주가 회복되지 않는다.",
+    "중대한 경영진·회계 신뢰 훼손"
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.72
+  "confidence": 0.69
 }

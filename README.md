@@ -1,3 +1,5 @@
+> 현재 연구 상태: [2026-09-05 Astra 재평가](reviews/2026-09-05-astra/README.md). 40개 기존 판단 재심사, 50개 예비후보는 미심사. 과거 스크리닝 점수·판정을 현재 승인으로 사용하지 마세요.
+
 # Investment Harness v1.1 — Codex + Claude Code
 
 A repository-native harness for long-horizon, expectation-gap, outlier-oriented equity research and screening.

@@ -1,13 +1,13 @@
 {
   "ticker": "TSM",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "overall_status": "INVESTIGATE",
   "vetoes": [
     {
       "id": "management_or_accounting_integrity",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.85,
+      "confidence": 0.7899999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F): Large accelerated filer with a filed Section 404(b) management assessment and auditor attestation on internal control over financial reporting. No restatement or error-correction boxes checked on the 20-F cover.",
         "FACT (tier-1, 2025 Form 20-F): Disclosure quality is high: customer concentration, node mix, platform and geographic revenue, capex and liquidity are all disclosed with three years of comparatives.",
@@ -19,7 +19,7 @@
       "id": "external_capital_dependence",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.95,
+      "confidence": 0.7899999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F): Net cash of approximately US$64.9B — cash and current marketable securities US$97,820M against long-term debt US$32,929M, with short-term loans NIL at 2025 year-end.",
         "FACT (tier-1, 2025 Form 20-F): 2025 capex of NT$1,272,411M was funded against only NT$86,900M of bond issuance — roughly 93% from operating cash flow of NT$2,274,976M.",
@@ -31,7 +31,7 @@
       "id": "persistent_dilution",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.7899999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F): 25,932,524,521 common shares outstanding at 2025-12-31. TSMC does not issue equity to fund operations and share count is stable.",
         "FACT (tier-1, 2025 Form 20-F): Capital returns are dividend-only and rising — quarterly dividend raised from NT$5.00 to NT$6.00 per share during 2025, approximately NT$570.5B declared for the year.",
@@ -43,7 +43,7 @@
       "id": "low_quality_growth",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.7899999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F): THE CLEANEST PASS OF THE THREE COMPANIES ANALYSED IN THIS HARNESS. Gross margin EXPANDED 54.4% to 56.1% to 59.9% and operating margin 42.6% to 45.7% to 50.8% while revenue grew 31.6% in 2025 and 76% cumulatively over two years. Growth bought with price or subsidy compresses margin; this does the opposite.",
         "FACT (tier-1, 2025 Form 20-F): The company attributes 2025 growth to 'an increase in ASP due to a higher proportion of advanced technology (7-nanometer and below) revenue and an increase in wafer shipments' — mix and volume, not discounting.",
@@ -68,7 +68,7 @@
       "id": "moat_shrinkage",
       "status": "PASS",
       "severity": "LOW",
-      "confidence": 0.8,
+      "confidence": 0.7899999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F): Direction is unambiguously positive on every measurable dimension. Advanced-node mix 58% to 69% to 74% of wafer revenue (77% by Q2 2026). Gross margin +5.5pp and operating margin +8.2pp in two years. R&D rising in absolute terms while falling as a share of revenue.",
         "FACT (tier-1, 2025 Form 20-F): 2-nanometer entered volume production in 2025 and A16 risk production is expected in 2026, extending rather than defending the node lead.",
@@ -93,7 +93,7 @@
       "id": "fatal_concentration",
       "status": "INVESTIGATE",
       "severity": "HIGH",
-      "confidence": 0.85,
+      "confidence": 0.7899999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F): PRIMARY GATE, AND IT IS GEOGRAPHIC. The overwhelming majority of capacity sits in Taiwan: nine fabs in Hsinchu Science Park, two in Central Taiwan, seven in Southern Taiwan, plus Fab 22 in Kaohsiung. Overseas capacity is Fab 11 (Washington), Fab 21 (Arizona), Fab 23 (Kumamoto), Fab 24 (Dresden, under construction), Fab 10 (Shanghai) and Fab 16 (Nanjing) — material but far from a substitute.",
         "FACT (tier-1, 2025 Form 20-F): Customer concentration compounds it: top ten customers 70% to 76% to 78% of net revenue across 2023-25; largest 19%, second 17% in 2025.",

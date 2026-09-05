@@ -1,7 +1,7 @@
 {
   "ticker": "NET",
-  "as_of": "2026-09-04",
-  "overall_status": "FAIL",
+  "as_of": "2026-09-05",
+  "overall_status": "INVESTIGATE",
   "vetoes": [
     {
       "id": "management_or_accounting_integrity",
@@ -12,7 +12,7 @@
         "2026년 8월 5일 현재 관련 소송 8건이 있었으나 원고 주장에는 아직 법원의 최종 판단이 없다."
       ],
       "severity": "HIGH",
-      "confidence": 0.86,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "Class C/Series FF 소송 결과, 최종 시행조건, 독립이사 감독과 관련자 거래 공시를 확인한다."
     },
     {
@@ -24,7 +24,7 @@
         "신규 25억 달러 사채를 제외해도 영업은 플러스 FCF를 냈다."
       ],
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
@@ -36,7 +36,7 @@
         "무의결권 Class C는 주식보상·인수에 사용될 예정이고 2030·2031 전환사채도 잠재 희석을 만든다."
       ],
       "severity": "HIGH",
-      "confidence": 0.94,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "SBC/매출 15% 미만, 연간 순희석 1% 이하와 희석 후 FCF/주 증가를 최소 2년 확인한다."
     },
     {
@@ -48,7 +48,7 @@
         "성장에 높은 SBC와 마케팅이 수반되지만 고객 확장과 현금창출 증거가 있어 보조금 의존 성장으로 단정할 근거는 없다."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.84,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
@@ -60,7 +60,7 @@
         "20% 구조조정과 AI·GPU 인프라 투자의 정상화 증분수익률은 아직 관찰되지 않았다."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.8,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "총마진 회복, 구조조정 후 영업레버리지, 제품별 증분 총이익과 희석 후 FCF/주를 확인한다."
     },
     {
@@ -72,20 +72,19 @@
         "총마진 하락은 경고지만 현재까지 고객 확장과 해자 지표의 지속적 수축은 확인되지 않았다."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.83,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
       "id": "price_requires_unrealistic_bull_case",
-      "status": "FAIL",
+      "status": "INVESTIGATE",
       "evidence": [
-        "현재가는 TTM 매출 약 39.7배와 회사 정의 FCF 약 316.7배다.",
-        "10년 차 FCF 마진 30%에서도 현재 가격은 10년 매출 CAGR 약 34.2%와 10년 차 매출 약 477억 달러를 요구한다.",
-        "성장 38%에서 14%로 둔화하고 FCF 마진 38%를 달성하는 Bull DCF도 주당 약 260달러로 현재가 281.44달러보다 낮다."
+        "현재 분석가의 Bull 가치가 가격보다 낮다는 사실만으로 모든 현실적 Bull을 배제한 것은 아니다. 가격 Hard Veto는 FAIL→INVESTIGATE로 수정한다. 다만 높은 기대·희석과 58점의 낮은 투자매력 때문에 최종 REJECT는 유지한다.",
+        "비현실적 실행의 범위를 입증하지 못했으며 높은 가격 자체는 FAIL의 충분조건이 아니다."
       ],
-      "severity": "CRITICAL",
-      "confidence": 0.88,
-      "resolution_needed": "가격이 Base 가치 대비 최소 20% 할인되거나 실적 상향으로 내재 10년 성장 요구가 20%대 초반 이하로 낮아져야 한다."
+      "severity": "HIGH",
+      "confidence": 0.65,
+      "resolution_needed": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
     },
     {
       "id": "fatal_concentration",
@@ -96,7 +95,7 @@
         "제품과 사용사례는 Application Services, SASE, 개발자 플랫폼과 소비자 서비스로 분산된다."
       ],
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.7999999999999999,
       "resolution_needed": null
     },
     {
@@ -108,7 +107,7 @@
         "높은 시작가격, 총마진 하락, SBC·전환사채 희석과 창업자 통제구조가 겹치면 회복 불가능한 자본손실이 가능하다."
       ],
       "severity": "HIGH",
-      "confidence": 0.85,
+      "confidence": 0.7999999999999999,
       "resolution_needed": "가격 안전마진과 희석 후 FCF/주의 장기 상승 경로가 함께 확인돼야 한다."
     }
   ]

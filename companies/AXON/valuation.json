@@ -3,33 +3,46 @@
   "as_of": "2026-09-05",
   "current_price": 538.15,
   "implied_expectations": {
-    "price_date": "2026-09-03",
-    "market_cap_billion": 43.72,
-    "enterprise_value_billion": 44.88,
-    "2026_revenue_midpoint_billion": 3.697,
-    "2026_adjusted_ebitda_midpoint_billion": 0.943,
-    "ev_to_2026_revenue": 12.1,
-    "ev_to_2026_adjusted_ebitda": 47.6,
-    "reverse_dcf": "Current price approximately requires 18%-20% annual revenue growth for 10 years if terminal owner-FCF margin reaches 20%-22%, annual dilution averages 1.5%, discount rate is 10%, and terminal multiple is 25x-30x."
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "price_date": "2026-09-03",
+      "market_cap_billion": 43.72,
+      "enterprise_value_billion": 44.88,
+      "2026_revenue_midpoint_billion": 3.697,
+      "2026_adjusted_ebitda_midpoint_billion": 0.943,
+      "ev_to_2026_revenue": 12.1,
+      "ev_to_2026_adjusted_ebitda": 47.6,
+      "reverse_dcf": "Current price approximately requires 18%-20% annual revenue growth for 10 years if terminal owner-FCF margin reaches 20%-22%, annual dilution averages 1.5%, discount rate is 10%, and terminal multiple is 25x-30x."
+    },
+    "current_findings": [
+      "고객 유지·제품 확장은 지지하나 계약 총액은 취소 불가능한 확정 매출과 다르다. 기존 owner-FCF와 연간 희석률이 같은 SBC 비용을 중복 반영했을 가능성을 확인했다. 총점은 유지하되 기존 504달러 Base를 확정 내재가치로 사용하지 않는다.",
+      "반기 음의 FCF, 높은 SBC, 내부통제와 인수·신시장 실행이 주당가치 실현을 제한한다. 회사 분석 가격 538.15달러와 Wave 515.67달러를 동일 시각 비교로 취급할 수 없다."
+    ],
+    "current_model_limit": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
   },
   "scenarios": {
     "bear": {
       "value_per_share": 269,
       "revenue_cagr_10y": 0.14,
-      "terminal_owner_fcf_margin": 0.20,
+      "terminal_owner_fcf_margin": 0.2,
       "annual_dilution": 0.02,
       "discount_rate": 0.11,
       "terminal_multiple": 22,
-      "interpretation": "Growth decelerates toward mid-teens, SBC/dilution remains elevated and margin conversion improves only gradually."
+      "interpretation": "Growth decelerates toward mid-teens, SBC/dilution remains elevated and margin conversion improves only gradually.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
       "value_per_share": 504,
       "revenue_cagr_10y": 0.17,
       "terminal_owner_fcf_margin": 0.23,
       "annual_dilution": 0.015,
-      "discount_rate": 0.10,
+      "discount_rate": 0.1,
       "terminal_multiple": 25,
-      "interpretation": "Axon sustains high-teens long-duration growth, converts software mix into materially better owner cash flow and gradually moderates dilution."
+      "interpretation": "Axon sustains high-teens long-duration growth, converts software mix into materially better owner cash flow and gradually moderates dilution.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
       "value_per_share": 949,
@@ -38,20 +51,24 @@
       "annual_dilution": 0.01,
       "discount_rate": 0.095,
       "terminal_multiple": 28,
-      "interpretation": "Axon becomes a global public-safety operating system, with AI, 911, enterprise and drones extending duration while dilution normalizes."
+      "interpretation": "Axon becomes a global public-safety operating system, with AI, 911, enterprise and drones extending duration while dilution normalizes.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
     "description": "If ARR/NRR decelerate, new-market bookings fail to convert, SBC remains structurally high and acquisitions do not earn adequate returns, valuation could compress toward a mid-single-digit to high-single-digit sales multiple before per-share cash economics mature.",
-    "illustrative_downside_range_per_share": [180, 300]
+    "illustrative_downside_range_per_share": [
+      180,
+      300
+    ]
   },
   "expectation_gap_score": 5,
   "asymmetry_score": 7,
   "subjective_probabilities": {
-    "bear": 0.30,
-    "base": 0.50,
-    "bull": 0.20,
+    "bear": 0.3,
+    "base": 0.5,
+    "bull": 0.2,
     "probability_weighted_value_per_share": 522
   },
-  "notes": "Valuation uses the latest confirmed market close available in retrieved data: $538.15 on 2026-09-03. September 4 close was not available from the retrieved source at analysis time. Scenario values are model estimates, not price targets."
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): Valuation uses the latest confirmed market close available in retrieved data: $538.15 on 2026-09-03. September 4 close was not available from the retrieved source at analysis time. Scenario values are model estimates, not price targets."
 }

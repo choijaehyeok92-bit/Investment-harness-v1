@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-09-05",
+  "directory": "reviews/2026-09-05-astra",
+  "report": "reviews/2026-09-05-astra/README.md",
+  "authority": "Current reassessment overlay supersedes earlier decisions/scores only for explicitly reviewed tickers. Earlier screens and scenarios remain historical.",
+  "company_decisions": "companies/<TICKER>/decision.json",
+  "company_score_overlay": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+  "screen_decisions": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+  "qualitative_decisions": "reviews/2026-09-05-astra/qualitative-reassessments.jsonl",
+  "withheld_score_rule": "A null current review score is unknown, NOT zero or the preserved historical scorecard."
+}
