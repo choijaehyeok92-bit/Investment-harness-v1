@@ -1,0 +1,158 @@
+{
+  "ticker": "MSFT",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, or derived FCF/operating-margin calculation. Values are extracted from the requested Microsoft filing URLs or exact official SEC equivalents when the Microsoft-hosted HTML was too large or unavailable.",
+  "requested_sources": [
+    {
+      "url": "https://microsoft.gcs-web.com/node/34791/html",
+      "resolved_identity": "Microsoft Form 10-Q for quarter ended 2026-03-31, filed 2026-04-29; SEC accession 0001193125-26-191507",
+      "access_note": "Microsoft-hosted HTML exceeds fetch size; exact filing identity verified on Microsoft filing-detail page and values read from exact SEC filing."
+    },
+    {
+      "url": "https://microsoft.gcs-web.com/node/35081/html",
+      "resolved_identity": "PX14A6G Notice of Exempt Solicitation filed by Investor Advocates for Social Justice, July 2026 filing cycle",
+      "access_note": "Direct Microsoft-hosted HTML read successfully. Statements are third-party shareholder-filer assertions, not Microsoft management statements."
+    },
+    {
+      "url": "https://microsoft.gcs-web.com/node/35106/html",
+      "resolved_identity": "Microsoft Form 10-K for fiscal year ended 2026-06-30, filed 2026-07-29; SEC accession 0001193125-26-323660",
+      "access_note": "Microsoft-hosted HTML exceeds fetch size; exact filing identity verified on Microsoft filing-detail page and values read from exact SEC filing."
+    },
+    {
+      "url": "https://microsoft.gcs-web.com/node/35176/html",
+      "resolved_identity": null,
+      "access_note": "Direct Microsoft-hosted HTML returned cache miss in retrieval. No claim in this dataset is attributed to this node without independent exact filing identification."
+    },
+    {
+      "url": "https://microsoft.gcs-web.com/node/35181/html",
+      "resolved_identity": null,
+      "access_note": "Direct Microsoft-hosted HTML returned cache miss in retrieval. No claim in this dataset is attributed to this node without independent exact filing identification."
+    }
+  ],
+  "official_equivalent_sources_used": [
+    {
+      "source": "SEC 10-Q accession 0001193125-26-191507",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+      "relationship": "exact official equivalent of requested Microsoft node 34791"
+    },
+    {
+      "source": "SEC 10-K accession 0001193125-26-323660",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "relationship": "exact official equivalent of requested Microsoft node 35106"
+    },
+    {
+      "source": "SEC Exhibit 99.1, accession 0001193125-26-380280",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965dex991.htm",
+      "relationship": "official Microsoft FY27 Segments and Investor Metrics filing identified on Microsoft SEC-filings page; included for late-period reporting update, but not assigned to node 35176/35181 because direct node identity could not be verified"
+    }
+  ],
+  "revenue": [
+    {"value": 82886, "period": "Q3 FY2026, three months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Income Statements / Revenue; exact SEC equivalent of node 34791", "confidence": "high"},
+    {"value": 241832, "period": "Nine months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Income Statements / Revenue; exact SEC equivalent of node 34791", "confidence": "high"},
+    {"value": 331839, "period": "FY2026 ended 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Income Statements / Segment Reporting; exact SEC equivalent of node 35106", "confidence": "high"},
+    {"value": 281724, "period": "FY2025 ended 2025-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, comparative Income Statements / Segment Reporting", "confidence": "high"}
+  ],
+  "operating_income": [
+    {"value": 38398, "period": "Q3 FY2026, three months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Income Statements / Operating income; exact SEC equivalent of node 34791", "confidence": "high"},
+    {"value": 114634, "period": "Nine months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Income Statements / Operating income; exact SEC equivalent of node 34791", "confidence": "high"},
+    {"value": 155237, "period": "FY2026 ended 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8 / Segment Reporting Information", "confidence": "high"},
+    {"value": 128528, "period": "FY2025 ended 2025-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8 / comparative Segment Reporting Information", "confidence": "high"}
+  ],
+  "operating_margin": [
+    {"value": null, "period": "FY2026", "unit": "percent", "source": "2026 Form 10-K", "location": "No explicit consolidated operating-margin percentage identified in requested source", "confidence": "high", "status": "not explicitly disclosed; not calculated"}
+  ],
+  "net_income": [
+    {"value": 31778, "period": "Q3 FY2026, three months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Income Statements / Net income; exact SEC equivalent of node 34791", "confidence": "high"},
+    {"value": 97983, "period": "Nine months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Income Statements / Net income; exact SEC equivalent of node 34791", "confidence": "high"},
+    {"value": 133749, "period": "FY2026 ended 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Income Statements / Comprehensive Income Statements", "confidence": "high"},
+    {"value": 101832, "period": "FY2025 ended 2025-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, comparative income statements", "confidence": "high"}
+  ],
+  "fcf": [
+    {"value": null, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "No explicit Free Cash Flow line/definition identified in requested source", "confidence": "high", "status": "not explicitly disclosed; CFO minus CapEx not derived"}
+  ],
+  "capex": [
+    {"value": 30876, "period": "Q3 FY2026, three months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Cash Flows Statements, Additions to property and equipment", "confidence": "high"},
+    {"value": 80146, "period": "Nine months ended 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Cash Flows Statements, Additions to property and equipment", "confidence": "high"},
+    {"value": 115948, "period": "FY2026 ended 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Cash Flows Statements, Additions to property and equipment", "confidence": "high"},
+    {"value": 64551, "period": "FY2025 ended 2025-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, comparative Cash Flows Statements", "confidence": "high"},
+    {"value": 34566, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 7 Material Cash Requirements / Note 6 Property and Equipment", "confidence": "high", "label": "construction commitments, primarily datacenters"}
+  ],
+  "cash_and_debt": [
+    {"value": 32105, "period": "As of 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Balance Sheets, cash and cash equivalents", "confidence": "high"},
+    {"value": 46167, "period": "As of 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Balance Sheets, short-term investments", "confidence": "high"},
+    {"value": 78272, "period": "As of 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Liquidity and Capital Resources / total cash, cash equivalents, and short-term investments", "confidence": "high"},
+    {"value": 8839, "period": "As of 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Balance Sheets, current portion of long-term debt", "confidence": "high"},
+    {"value": 31423, "period": "As of 2026-03-31", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Balance Sheets, long-term debt", "confidence": "high"},
+    {"value": 20935, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Balance Sheets, cash and cash equivalents", "confidence": "high"},
+    {"value": 55908, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Balance Sheets, short-term investments", "confidence": "high"},
+    {"value": 76843, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 7 Liquidity and Capital Resources / Part II Item 8 Balance Sheets", "confidence": "high", "label": "cash + cash equivalents + short-term investments"},
+    {"value": 9227, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Balance Sheets, current portion of long-term debt", "confidence": "high"},
+    {"value": 31067, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Balance Sheets, long-term debt", "confidence": "high"},
+    {"value": 46136, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 7, Contractual Obligations, long-term debt principal payments", "confidence": "high", "label": "contractual principal payments; distinct from balance-sheet carrying amount"},
+    {"value": 36500, "period": "As of 2026-06-30", "unit": "USD million", "source": "2026 Form 10-K", "location": "Note 10 - Debt", "confidence": "high", "label": "estimated fair value of long-term debt including current portion"}
+  ],
+  "segment_results": [
+    {"segment": "Productivity and Business Processes", "metric": "revenue", "value": 35013, "period": "Q3 FY2026", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Segment Reporting Information", "confidence": "high"},
+    {"segment": "Productivity and Business Processes", "metric": "operating income", "value": 20973, "period": "Q3 FY2026", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Segment Reporting Information", "confidence": "high"},
+    {"segment": "Intelligent Cloud", "metric": "revenue", "value": 34681, "period": "Q3 FY2026", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Segment Reporting Information", "confidence": "high"},
+    {"segment": "Intelligent Cloud", "metric": "operating income", "value": 13753, "period": "Q3 FY2026", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Segment Reporting Information", "confidence": "high"},
+    {"segment": "More Personal Computing", "metric": "revenue", "value": 13192, "period": "Q3 FY2026", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Segment Reporting Information", "confidence": "high"},
+    {"segment": "More Personal Computing", "metric": "operating income", "value": 3672, "period": "Q3 FY2026", "unit": "USD million", "source": "2026 Q3 Form 10-Q", "location": "Segment Reporting Information", "confidence": "high"},
+    {"segment": "Productivity and Business Processes", "metric": "revenue", "value": 139996, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Segment Reporting Information", "confidence": "high"},
+    {"segment": "Productivity and Business Processes", "metric": "operating income", "value": 83879, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Segment Reporting Information", "confidence": "high"},
+    {"segment": "Intelligent Cloud", "metric": "revenue", "value": 137791, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Segment Reporting Information", "confidence": "high"},
+    {"segment": "Intelligent Cloud", "metric": "operating income", "value": 56972, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Segment Reporting Information", "confidence": "high"},
+    {"segment": "More Personal Computing", "metric": "revenue", "value": 54052, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Segment Reporting Information", "confidence": "high"},
+    {"segment": "More Personal Computing", "metric": "operating income", "value": 14386, "period": "FY2026", "unit": "USD million", "source": "2026 Form 10-K", "location": "Part II Item 8, Segment Reporting Information", "confidence": "high"},
+    {"segment": "Azure", "metric": "revenue", "value": 101938, "period": "FY2026, restated FY27 metric definition", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 17", "confidence": "high"},
+    {"segment": "Azure", "metric": "revenue", "value": 29417, "period": "Q4 FY2026, restated FY27 metric definition", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 17", "confidence": "high"},
+    {"segment": "Azure", "metric": "revenue", "value": 26008, "period": "Q3 FY2026, restated FY27 metric definition", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 17", "confidence": "high"},
+    {"segment": "Microsoft 365 cloud", "metric": "revenue", "value": 100299, "period": "FY2026, restated FY27 metric definition", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 17", "confidence": "high"},
+    {"segment": "Agents and Infra", "metric": "revenue", "value": 268127, "period": "FY2026 restated under FY27 segment structure", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 15", "confidence": "high"},
+    {"segment": "Agents and Infra", "metric": "operating income", "value": 136365, "period": "FY2026 restated under FY27 segment structure", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 15", "confidence": "high"},
+    {"segment": "Devices and Consumer", "metric": "revenue", "value": 63712, "period": "FY2026 restated under FY27 segment structure", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 15", "confidence": "high"},
+    {"segment": "Devices and Consumer", "metric": "operating income", "value": 18872, "period": "FY2026 restated under FY27 segment structure", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 15", "confidence": "high"}
+  ],
+  "guidance": [
+    {"value": "89.85-90.95", "period": "Q1 FY2027", "unit": "USD billion revenue", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 20, FY27 Q1 Adjusted Outlook; total company outlook unchanged", "confidence": "high"},
+    {"value": "75.15-75.75", "period": "Q1 FY2027", "unit": "USD billion revenue", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 20, Agents and Infra adjusted outlook", "confidence": "high"},
+    {"value": "14.7-15.2", "period": "Q1 FY2027", "unit": "USD billion revenue", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 20, Devices and Consumer adjusted outlook", "confidence": "high"},
+    {"value": "44-45", "period": "Q1 FY2027", "unit": "percent constant-currency Azure revenue growth", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 21", "confidence": "high"},
+    {"value": "approximately 17", "period": "Q1 FY2027", "unit": "percent constant-currency Microsoft 365 commercial cloud revenue growth", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 21", "confidence": "high"},
+    {"value": "relatively flat year-over-year", "period": "Q1 FY2027", "unit": "operating margin direction", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 20", "confidence": "high"},
+    {"value": "over 50", "period": "Q1 FY2027", "unit": "USD billion capital expenditures", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 20", "confidence": "high"}
+  ],
+  "management_statements": [
+    {"value": "Satya Nadella stated that AI is changing what Microsoft builds and how it operates, blurring product boundaries and reshaping business models.", "period": "September 2026", "unit": "management statement", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 4", "confidence": "high"},
+    {"value": "Nadella stated that the FY27 reporting change is intended to mirror how the business operates, allocates resources, and is headed.", "period": "September 2026", "unit": "management statement", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 4", "confidence": "high"},
+    {"value": "Nadella described Agents and Infra as combining apps and agents, Microsoft 365 and GitHub, model systems, and Azure infrastructure; Devices and Consumer combines search/advertising, XBOX, and Windows.", "period": "September 2026", "unit": "management statement", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 5", "confidence": "high"}
+  ],
+  "important_changes": [
+    {"value": "281724 -> 331839; reported +18%", "period": "FY2025 -> FY2026", "unit": "USD million / percent", "source": "2026 Form 10-K", "location": "Part II Item 7 and Item 8", "confidence": "high", "metric": "revenue"},
+    {"value": "128528 -> 155237; reported +21%", "period": "FY2025 -> FY2026", "unit": "USD million / percent", "source": "2026 Form 10-K", "location": "Part II Item 7 and Item 8", "confidence": "high", "metric": "operating income"},
+    {"value": "101832 -> 133749; reported +31%", "period": "FY2025 -> FY2026", "unit": "USD million / percent", "source": "2026 Form 10-K", "location": "Part II Item 7 and Item 8", "confidence": "high", "metric": "net income"},
+    {"value": "Microsoft Cloud revenue increased 27% to 214.4", "period": "FY2026 vs FY2025", "unit": "USD billion / percent", "source": "2026 Form 10-K", "location": "Part II Item 7, Overview - Highlights", "confidence": "high"},
+    {"value": "Commercial remaining performance obligation increased 84% to 678", "period": "FY2026 vs FY2025", "unit": "USD billion / percent", "source": "2026 Form 10-K", "location": "Part II Item 7, Overview - Highlights", "confidence": "high"},
+    {"value": "Azure and other cloud services revenue increased 41%", "period": "FY2026 vs FY2025", "unit": "percent", "source": "2026 Form 10-K", "location": "Part II Item 7, Overview - Highlights", "confidence": "high"},
+    {"value": "64551 -> 115948; increase stated as 51.4 billion", "period": "FY2025 -> FY2026", "unit": "USD million / USD billion change", "source": "2026 Form 10-K", "location": "Part II Item 7 Cash Flows / Item 8 Cash Flows Statements", "confidence": "high", "metric": "additions to property and equipment"},
+    {"value": "26008 -> 29417", "period": "Q3 FY2026 -> Q4 FY2026", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 17, Azure restated revenue", "confidence": "high", "metric": "Azure revenue; no QoQ percentage calculated"},
+    {"value": "82886 -> 90007", "period": "Q3 FY2026 -> Q4 FY2026", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 15/17", "confidence": "high", "metric": "total revenue; no QoQ percentage calculated"},
+    {"value": "38398 -> 40603", "period": "Q3 FY2026 -> Q4 FY2026", "unit": "USD million", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slide 15", "confidence": "high", "metric": "operating income; no QoQ percentage calculated"},
+    {"value": "Beginning FY2027, reporting changes from three segments to Agents and Infra plus Devices and Consumer", "period": "FY2027 reporting structure", "unit": "reporting change", "source": "Microsoft FY27 Segments and Investor Metrics", "location": "Exhibit 99.1 slides 4, 7-9", "confidence": "high"}
+  ],
+  "risk_related_new_disclosures": [
+    {"value": "The shareholder filer states that a recent GDPR complaint has increased regulatory risk related to Microsoft's human-rights due-diligence concerns.", "period": "PX14A6G filed July 2026", "unit": "third-party shareholder-filer assertion", "source": "PX14A6G by Investor Advocates for Social Justice", "location": "Requested node 35081, main statement and Appendix section 2", "confidence": "high that the filing states this; underlying allegation not independently verified", "source_character": "not Microsoft management"},
+    {"value": "The shareholder filer states that continued government/military technology contracts create material risk and cites employee protests, boycott/divestment calls, and human-rights concerns.", "period": "PX14A6G filed July 2026", "unit": "third-party shareholder-filer assertion", "source": "PX14A6G by Investor Advocates for Social Justice", "location": "Requested node 35081, main statement points 3-4 / Appendix", "confidence": "high that the filing states this; underlying allegations not independently verified", "source_character": "not Microsoft management"},
+    {"value": "The 10-K discloses $194.060B of purchase commitments, primarily related to datacenters, and $34.566B of construction commitments as of 2026-06-30.", "period": "As of 2026-06-30", "unit": "USD billion", "source": "2026 Form 10-K", "location": "Part II Item 7, Material Cash Requirements and Other Obligations", "confidence": "high", "source_character": "company disclosure"},
+    {"value": "The 10-K reports $27.8B of current other receivables related to activities facilitating server-component purchases and $11.3B of restricted investments under a supplier agreement.", "period": "As of 2026-06-30", "unit": "USD billion", "source": "2026 Form 10-K", "location": "Part II Item 8, Notes to Financial Statements, receivables/investments disclosure", "confidence": "high", "source_character": "company disclosure"}
+  ],
+  "source_coverage": [
+    {"source": "node 34791", "requested_fields_found": ["revenue", "operating_income", "net_income", "capex", "cash_and_debt", "segment_results", "important_changes"], "notes": "Exact 10-Q identity verified; values extracted from exact SEC equivalent because Microsoft-hosted HTML exceeded retrieval size."},
+    {"source": "node 35081", "requested_fields_found": ["risk_related_new_disclosures"], "notes": "Third-party shareholder solicitation; not treated as Microsoft management fact."},
+    {"source": "node 35106", "requested_fields_found": ["revenue", "operating_income", "net_income", "capex", "cash_and_debt", "segment_results", "important_changes", "risk_related_new_disclosures"], "notes": "Exact 10-K identity verified; values extracted from exact SEC equivalent because Microsoft-hosted HTML exceeded retrieval size."},
+    {"source": "node 35176", "requested_fields_found": [], "notes": "Direct retrieval cache miss; exact filing identity not verified, so no data attributed to this node."},
+    {"source": "node 35181", "requested_fields_found": [], "notes": "Direct retrieval cache miss; exact filing identity not verified, so no data attributed to this node."},
+    {"source": "Microsoft Sep 2026 FY27 Segments and Investor Metrics, SEC accession 0001193125-26-380280 Exhibit 99.1", "requested_fields_found": ["segment_results", "guidance", "management_statements", "important_changes"], "notes": "Official Microsoft filing visible on Microsoft SEC-filings page. Included as official source for late-period reporting update; not assigned to node 35176/35181 because direct node identity could not be verified."}
+  ]
+}
