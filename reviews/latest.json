@@ -2,7 +2,22 @@
   "as_of": "2026-09-05",
   "directory": "reviews/2026-09-05-astra",
   "report": "reviews/2026-09-05-astra/README.md",
-  "authority": "Current reassessment overlay supersedes earlier decisions/scores only for explicitly reviewed tickers. Earlier screens and scenarios remain historical.",
+  "authority": "Explicit latest_company_updates below supersede the same ticker's earlier reassessment/screen records, including records with the same date. Otherwise the current reassessment overlay applies only to explicitly reviewed tickers. Earlier snapshots and scenarios remain historical.",
+  "latest_company_updates": {
+    "NOW": {
+      "as_of": "2026-09-05",
+      "sequence": "after Astra reassessment at d5c1fe186eee66fd704e237e6d5abb4e65becd34",
+      "report": "companies/NOW/thesis.md",
+      "decision": "companies/NOW/decision.json",
+      "scorecard": "companies/NOW/scorecard.json",
+      "valuation": "companies/NOW/valuation.json",
+      "scope": "First full 100-point NOW analysis from six supplied PDFs; supersedes prior NOW 42/50 screen as current decision, without converting historical scales or changing prior snapshot counts.",
+      "status": "WATCH",
+      "hard_veto_status": "INVESTIGATE",
+      "total_score": 72,
+      "open_gates": ["persistent_dilution", "low_quality_growth", "incremental_roic_collapse", "moat_shrinkage"]
+    }
+  },
   "company_decisions": "companies/<TICKER>/decision.json",
   "company_score_overlay": "reviews/2026-09-05-astra/company-reassessments.jsonl",
   "screen_decisions": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
