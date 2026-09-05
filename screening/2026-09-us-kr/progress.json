@@ -2,7 +2,7 @@
   "run_id": "2026-09-us-kr",
   "as_of": "2026-09-04",
   "harness_version": "1.0",
-  "stage": "STAGE_1_WAVE_02_NORMALIZATION_AND_PROVISIONAL_SCORECARDS_COMPLETE",
+  "stage": "STAGE_1_WAVE_02_REVERSE_EXPECTATIONS_COMPLETE_WITH_3_EVIDENCE_GAPS",
   "purpose": "false-negative-minimizing research funnel; not a buy recommendation",
   "markets": {
     "US": {
@@ -15,7 +15,10 @@
       "initial_evidence_notes_completed": 10,
       "financial_normalizations_completed": 10,
       "provisional_nonvaluation_scorecards_completed": 10,
-      "fresh_scores_completed": 0
+      "valuation_inputs_completed": 10,
+      "reverse_expectation_scenarios_completed": 10,
+      "fresh_scores_completed": 10,
+      "screen_out_hard_veto": 1
     },
     "KR": {
       "preliminary_candidates": 40,
@@ -27,14 +30,32 @@
       "initial_evidence_notes_completed": 10,
       "financial_normalizations_completed": 10,
       "provisional_nonvaluation_scorecards_completed": 10,
-      "fresh_scores_completed": 0
+      "valuation_inputs_completed": 10,
+      "reverse_expectation_scenarios_completed": 10,
+      "fresh_scores_completed": 7,
+      "scores_withheld_for_evidence": 3
     }
   },
   "next_checkpoint": {
-    "deliverable": "Wave 01-02 fully diluted share reconciliation and reverse-expectation scenarios",
-    "promotion_cap_per_market": 15
+    "deliverable": "Resolve SK hynix, Hyundai Motor and Alteogen valuation-model gaps; red-team leading A/B candidates",
+    "promotion_cap_per_market": 10
   },
   "known_data_issues": [
+    {
+      "ticker": "000660",
+      "path": "screening/2026-09-us-kr/valuation-inputs-wave-01-02.csv",
+      "issue": "Extraordinary non-operating items, cash/debt and current versus weighted shares require official reconciliation before scoring."
+    },
+    {
+      "ticker": "005380",
+      "path": "screening/2026-09-us-kr/valuation-inputs-wave-01-02.csv",
+      "issue": "Auto manufacturing, captive-finance debt and preferred equity require a separate FCFE model."
+    },
+    {
+      "ticker": "196170",
+      "path": "screening/2026-09-us-kr/reverse-expectations-wave-01-02.csv",
+      "issue": "Conditional milestones and royalties require a contract-level probability tree rather than a smooth CAGR model."
+    },
     {
       "ticker": "NVDA",
       "path": "companies/NVDA/decision.json",
