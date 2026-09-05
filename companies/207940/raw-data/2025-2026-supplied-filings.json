@@ -1,0 +1,446 @@
+{
+  "ticker": "207940",
+  "company": "Samsung Biologics Co., Ltd.",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow amount, or unsupported inference. Values are extracted from the three user-supplied DART filings only. Where the company changed reporting presentation because of the 2025 human demerger, the source presentation is preserved rather than silently reconciled.",
+  "source_resolution": [
+    {
+      "file": "[삼성바이오로직스][정정]사업보고서(2026.05.15).pdf",
+      "resolved_identity": "Samsung Biologics corrected FY2025 business report, correction filed 2026-05-15; original business report filed 2026-03-12",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "file": "[삼성바이오로직스]반기보고서(2026.08.14).pdf",
+      "resolved_identity": "Samsung Biologics H1 2026 half-year report for 2026-01-01 through 2026-06-30, filed 2026-08-14",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "file": "[삼성바이오로직스][정정]주요사항보고서(타법인주식및출자증권양수결정)(2026.08.28).pdf",
+      "resolved_identity": "Corrected material report on acquisition of shares in PolyPeptide Group AG; correction filed 2026-08-28; initial filing dated 2026-07-20",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    }
+  ],
+  "accounting_and_structure_context": {
+    "human_demerger": {
+      "effective_date": "2025-11-01",
+      "surviving_company": "Samsung Biologics Co., Ltd.",
+      "new_company": "Samsung Epis Holdings Co., Ltd.",
+      "description": "Samsung Bioepis and related subsidiaries were separated through a human demerger. FY2025 and H1 2026 summary profit information is presented on a continuing-operations basis, with discontinued-operation profit separately disclosed for periods before completion of the demerger.",
+      "source": {
+        "document": "FY2025 corrected business report / H1 2026 half-year report",
+        "reported_pages": [40, 41, 42]
+      }
+    },
+    "issued_common_shares": {
+      "as_of_2026_06_30": 46290951,
+      "as_of_2025_12_31": 46290951,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 9
+      }
+    },
+    "major_shareholders_as_reported": {
+      "Samsung_C_and_T_percent": 43.06,
+      "Samsung_Electronics_percent": 31.22,
+      "other_percent": 25.72,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 43
+      }
+    }
+  },
+  "fy2025_continuing_operations_recast": {
+    "period": "2025-01-01/2025-12-31",
+    "income_statement_krw": {
+      "revenue": 4556971695180,
+      "cost_of_sales": 2040331283534,
+      "gross_profit": 2516640411646,
+      "selling_and_administrative_expenses": 447419145016,
+      "operating_income": 2069221266630,
+      "profit_before_tax": 2118631252684,
+      "income_tax_expense": 504300943228,
+      "continuing_operations_profit": 1614330309456,
+      "discontinued_operations_profit": 170021751137,
+      "net_income": 1784352060593,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_page": 44
+      }
+    },
+    "balance_sheet_krw": {
+      "cash_and_cash_equivalents": 148851266520,
+      "short_term_financial_products": 1307174500000,
+      "accounts_and_other_receivables": 676466918976,
+      "inventory": 2128164162722,
+      "property_plant_and_equipment": 6028651127383,
+      "total_assets": 11060741976837,
+      "current_liabilities": 2532917332501,
+      "current_bonds": 319712704765,
+      "noncurrent_bonds": 599011716516,
+      "total_liabilities": 3609631328852,
+      "total_equity": 7451110647985,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_pages": [42, 43]
+      }
+    },
+    "cash_flow_krw": {
+      "operating_cash_flow": 2247807426551,
+      "cash_generated_from_operations": 2840043194400,
+      "interest_received": 47207292123,
+      "interest_paid": -37080761605,
+      "income_taxes_paid": -602362298367,
+      "investing_cash_flow": -1862425927878,
+      "property_plant_and_equipment_acquisition": -1391740885639,
+      "intangible_asset_acquisition": -83332629654,
+      "financing_cash_flow": -620504462845,
+      "human_demerger_cash_outflow": -216417374705,
+      "treasury_share_acquisition": -92012513657,
+      "ending_cash_and_cash_equivalents": 148851266520,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_pages": [46, 47]
+      }
+    },
+    "sales_mix_reported_in_100m_krw": {
+      "product_antibody_drugs": {
+        "amount": 43583,
+        "percent": 95.6
+      },
+      "services_other": {
+        "amount": 1987,
+        "percent": 4.4
+      },
+      "total": 45570,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_page": 20
+      }
+    },
+    "geographic_sales_reported_in_100m_krw": {
+      "Korea": {
+        "amount": 3719,
+        "percent": 8.2
+      },
+      "Europe": {
+        "amount": 23677,
+        "percent": 52.0
+      },
+      "United_States": {
+        "amount": 17339,
+        "percent": 38.0
+      },
+      "Other": {
+        "amount": 835,
+        "percent": 1.8
+      },
+      "total": 45570,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_page": 20
+      }
+    },
+    "order_book_usd_millions": {
+      "minimum_purchase_volume_basis": {
+        "contract_total": 21153,
+        "delivered": 10449,
+        "backlog": 10704
+      },
+      "expected_demand_if_customer_products_succeed": {
+        "contract_total": 23881,
+        "delivered": 10449,
+        "backlog": 13432
+      },
+      "delivery_horizon_as_reported": "through 2037, contract-specific",
+      "exclusions_note": "Reported order totals and backlog exclude raw-material revenue actually consumed in production and revenue for services such as tech transfer and quality analysis.",
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_page": 25
+      }
+    },
+    "production_batches": {
+      "capacity": 1034,
+      "actual_production": 733,
+      "utilization_percent": 70.9,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_pages": [21, 22]
+      }
+    },
+    "rd_reported_in_100m_krw": {
+      "raw_material": 287,
+      "personnel": 935,
+      "depreciation": 205,
+      "other": 247,
+      "total_rd_expense": 1674,
+      "selling_and_administrative": 360,
+      "manufacturing_overhead": 1314,
+      "rd_to_revenue_percent": 3.7,
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_page": 31
+      }
+    },
+    "capacity_and_investment_facts": {
+      "Songdo_plant_capacity_liters": 785000,
+      "plant_5_capacity_liters": 180000,
+      "plant_5_construction_and_auxiliary_facilities_krw": 2010000000000,
+      "plant_5_completion_and_start": "2025-04",
+      "note": "The report states Plants 1-5 in Songdo total 785,000 liters after Plant 5 start-up and an additional 1,000-liter bioreactor in Plant 2.",
+      "source": {
+        "document": "FY2025 corrected business report",
+        "reported_pages": [21, 239]
+      }
+    }
+  },
+  "h1_2026": {
+    "period": "2026-01-01/2026-06-30",
+    "income_statement_krw": {
+      "revenue": 2578030056694,
+      "cost_of_sales": 1198257407663,
+      "gross_profit": 1379772649031,
+      "selling_and_administrative_expenses": 212576226066,
+      "operating_income": 1167196422965,
+      "profit_before_tax": 1225222075345,
+      "income_tax_expense": 325322468498,
+      "continuing_operations_profit": 899899606847,
+      "discontinued_operations_profit": 0,
+      "net_income": 899899606847,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 41
+      }
+    },
+    "balance_sheet_krw": {
+      "cash_and_cash_equivalents": 288575631853,
+      "short_term_financial_products": 1900000000000,
+      "accounts_and_other_receivables": 615771443792,
+      "inventory": 2344406492431,
+      "property_plant_and_equipment": 6467984511235,
+      "total_assets": 12652621086337,
+      "current_liabilities": 2966147143816,
+      "current_bonds_and_borrowings": 366131648789,
+      "noncurrent_bonds": 599227527623,
+      "total_liabilities": 4290697900998,
+      "total_equity": 8361923185339,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_pages": [40, 41]
+      }
+    },
+    "cash_flow_krw": {
+      "operating_cash_flow": 1392488374186,
+      "cash_generated_from_operations": 1748182573754,
+      "interest_received": 25466118557,
+      "interest_paid": -15513095924,
+      "income_taxes_paid": -365647222201,
+      "investing_cash_flow": -1313374651063,
+      "property_plant_and_equipment_acquisition": -172611419110,
+      "intangible_asset_acquisition": -17993318800,
+      "business_combination_net_cash_outflow": -533667531470,
+      "financing_cash_flow": 37435622011,
+      "short_term_borrowing_inflow": 44453486100,
+      "ending_cash_and_cash_equivalents": 288575631853,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_pages": [42, 43]
+      }
+    },
+    "sales_mix_reported_in_100m_krw": {
+      "product_antibody_drugs": {
+        "amount": 25159,
+        "percent": 97.6
+      },
+      "services_other": {
+        "amount": 621,
+        "percent": 2.4
+      },
+      "total": 25780,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 21
+      }
+    },
+    "geographic_sales_reported_in_100m_krw": {
+      "Korea": {
+        "amount": 4318,
+        "percent": 16.7
+      },
+      "Europe": {
+        "amount": 15275,
+        "percent": 59.3
+      },
+      "United_States": {
+        "amount": 5958,
+        "percent": 23.1
+      },
+      "Other": {
+        "amount": 229,
+        "percent": 0.9
+      },
+      "total": 25780,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 21
+      }
+    },
+    "order_book_usd_millions": {
+      "minimum_purchase_volume_basis": {
+        "contract_total": 21689,
+        "delivered": 11766,
+        "backlog": 9923
+      },
+      "expected_demand_if_customer_products_succeed": {
+        "contract_total": 24292,
+        "delivered": 11766,
+        "backlog": 12526
+      },
+      "delivery_horizon_as_reported": "through 2037, contract-specific",
+      "exclusions_note": "Reported order totals and backlog exclude raw-material revenue actually consumed in production and revenue for services such as tech transfer and quality analysis.",
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 22
+      }
+    },
+    "production_batches": {
+      "capacity": 541,
+      "actual_production": 378,
+      "utilization_percent": 69.9,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 18
+      }
+    },
+    "rd_reported_in_100m_krw": {
+      "raw_material": 112,
+      "personnel": 453,
+      "depreciation": 90,
+      "other": 164,
+      "total_rd_expense": 819,
+      "selling_and_administrative": 181,
+      "manufacturing_overhead": 638,
+      "rd_to_revenue_percent": 3.2,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 29
+      }
+    },
+    "production_capacity_liters": {
+      "Songdo_plants_1_to_5": 785000,
+      "Rockville_HGS": 60000,
+      "global_total_after_HGS_acquisition": 845000,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_page": 35
+      }
+    }
+  },
+  "human_genome_sciences_acquisition": {
+    "target": "Human Genome Sciences, Inc.",
+    "seller_group": "GlaxoSmithKline Holdings (America) Inc. / GSK related",
+    "buyer": "Samsung Biologics America, Inc.",
+    "ownership_acquired_percent": 100,
+    "agreement_board_date": "2025-12-19",
+    "acquisition_completion_date": "2026-03-31",
+    "reported_consideration_usd_approx": 353070000,
+    "reported_H1_2026_business_combination_net_cash_outflow_krw": 533667531470,
+    "facility_location": "Rockville, Maryland, United States",
+    "production_capacity_liters": 60000,
+    "stated_purpose": "Secure first U.S. manufacturing base and respond to long-term local demand.",
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [25, 110, 186]
+    }
+  },
+  "polyPeptide_group_acquisition_plan": {
+    "report_status": "corrected filing as of 2026-08-28",
+    "target": {
+      "company": "PolyPeptide Group AG",
+      "country": "Switzerland",
+      "business": "peptide CDMO",
+      "issued_shares": 33125001,
+      "treasury_shares_excluded_from_max_purchase": 108590
+    },
+    "transaction": {
+      "method": "public tender offer, directly or through a Swiss subsidiary to be established before commencement",
+      "maximum_shares_to_acquire": 33016411,
+      "maximum_post_acquisition_ownership_percent_of_non_treasury_shares": 100,
+      "offer_price_chf_per_share": 44.31,
+      "maximum_offer_value_chf": 1462957171.41,
+      "reported_maximum_acquisition_value_krw": 2706163546103,
+      "fx_rate_used_chf_krw": 1849.79,
+      "reported_total_assets_percent": 24.47,
+      "reported_equity_percent": 36.32,
+      "scheduled_settlement_date": "2026-11-30",
+      "stated_purpose": "Strengthen business competitiveness through acquisition of a peptide CDMO company."
+    },
+    "funding": {
+      "corrected_funding_method": "funds to be raised through a capital increase and similar financing; existing cash may be used if the funding process changes",
+      "correction_note": "The 2026-08-28 correction changed the funding description from existing cash and borrowings to funds raised through a capital increase and similar financing.",
+      "payment_timing": "within 10 trading days after tender completion and business-combination approval"
+    },
+    "conditions_and_commitments": {
+      "minimum_acceptance_condition_percent_of_fully_diluted_capital": 66.7,
+      "consequence_if_minimum_not_met": "No tendered shares will be purchased if the minimum acceptance condition is not met, unless applicable conditions are waived as permitted.",
+      "Draupnir_Holding_BV_committed_shares": 18375000,
+      "Draupnir_committed_percent_of_non_treasury_shares": 55.65,
+      "regulatory_and_other_conditions": "Settlement timing and completion may change depending on tender progress and business-combination / foreign-investment approvals."
+    },
+    "external_valuation": {
+      "firm": "Deloitte Anjin LLC",
+      "valuation_period": "2026-07-14/2026-07-17",
+      "valuation_range_chf_per_share_min": 31.43,
+      "valuation_range_chf_per_share_max": 63.22,
+      "offer_price_chf_per_share": 44.31,
+      "opinion_summary": "The evaluator reported that, considering past listed-company control-premium transactions, no basis was found to judge the CHF 44.31 acquisition price inappropriate from a materiality perspective."
+    },
+    "target_summary_financials_reported_in_million_krw": {
+      "FY2025": {
+        "assets": 1410209,
+        "liabilities": 828686,
+        "equity": 581523,
+        "capital": 613,
+        "revenue": 669198,
+        "net_income": -36143,
+        "audit_opinion": "unqualified",
+        "external_auditor": "BDO Ltd"
+      },
+      "FY2024": {
+        "assets": 1291748,
+        "liabilities": 681803,
+        "equity": 609944,
+        "capital": 613,
+        "revenue": 578402,
+        "net_income": -33403,
+        "audit_opinion": "unqualified",
+        "external_auditor": "BDO Ltd"
+      },
+      "FY2023": {
+        "assets": 1176521,
+        "liabilities": 525633,
+        "equity": 650888,
+        "capital": 613,
+        "revenue": 554641,
+        "net_income": -87827,
+        "audit_opinion": "unqualified",
+        "external_auditor": "BDO Ltd"
+      },
+      "source_note": "The material report states these figures use the 2026-07-16 EUR/KRW 1,707.36 and CHF/KRW 1,849.79 reference exchange rates where applicable."
+    },
+    "source": {
+      "document": "Corrected material report on acquisition of PolyPeptide Group AG shares",
+      "reported_pages": [1, 3, 4, 5]
+    }
+  },
+  "source_quality_notes": [
+    "The three sources are company-filed DART disclosures and are treated as primary sources.",
+    "FY2025 profit information was recast on a continuing-operations basis after the 2025-11-01 human demerger; discontinued-operation profit is separately retained.",
+    "Order-book figures are company-disclosed values in USD millions and use minimum-purchase and expected-demand scenarios; excluded raw-material and service revenue is noted explicitly.",
+    "The PolyPeptide acquisition share count and KRW consideration are maximum / estimated values and can change with tender participation and FX at completion.",
+    "No derived FCF, net debt, ROIC, valuation multiple, growth rate, or investment score is stored in this file."
+  ]
+}
