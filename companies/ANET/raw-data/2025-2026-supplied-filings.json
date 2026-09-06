@@ -1,0 +1,960 @@
+{
+  "ticker": "ANET",
+  "company": "Arista Networks, Inc.",
+  "market": "NYSE",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "Extracted only from the six user-supplied Google Drive filing bodies. No scorecard, valuation, investment decision, owner-FCF calculation, derived free cash flow, derived FY2025 operating margin, or unsupported reconciliation is included.",
+  "requested_sources": [
+    {
+      "drive_url": "https://drive.google.com/file/d/10lOKUaLA5ixVgvUnwGqal63C65IoH0h1/view?usp=drivesdk",
+      "resolved_identity": "Arista Networks Form 8-K dated 2026-08-04 with Exhibit 99.1 Q2 2026 earnings release",
+      "source_character": "company SEC filing and furnished earnings release",
+      "confidence": "high"
+    },
+    {
+      "drive_url": "https://drive.google.com/file/d/1B3BNpbHCRM6OdqR9w3IyyWeRIkRHbY2q/view?usp=drivesdk",
+      "resolved_identity": "Arista Networks Form 10-Q for quarter ended 2026-06-30",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "drive_url": "https://drive.google.com/file/d/1AwOhxAGsMwM4WTWhf386-wUIuLvUqidt/view?usp=drivesdk",
+      "resolved_identity": "Arista Networks Form 10-K for fiscal year ended 2025-12-31",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "drive_url": "https://drive.google.com/file/d/19_ijG2HCPGa_Fo4xWWMdpP8nEenunPut/view?usp=drivesdk",
+      "resolved_identity": "Arista Networks Form 4 for Chantelle Yvette Breithaupt, Senior Vice President and CFO, earliest transaction 2026-09-01",
+      "source_character": "Section 16 beneficial-ownership filing",
+      "confidence": "high"
+    },
+    {
+      "drive_url": "https://drive.google.com/file/d/1b7Ebm7VVks-6OYiVdK9GtrWxciUfRtzn/view?usp=drivesdk",
+      "resolved_identity": "Arista Networks Schedule 14A definitive additional materials for 2026 annual meeting",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "drive_url": "https://drive.google.com/file/d/19SYykVjg7aKyKDtPGdYt2gB_6JQqS3mU/view?usp=drivesdk",
+      "resolved_identity": "Arista Networks 2026 definitive proxy statement",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 9005.7,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Income / MD&A Revenue",
+      "confidence": "high"
+    },
+    {
+      "value": 7576.9,
+      "period": "FY2025 product revenue",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "MD&A Revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": 1428.8,
+      "period": "FY2025 service revenue",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "MD&A Revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": 3035.7,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q and 2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Condensed Consolidated Income Statements / Second Quarter Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "value": 5744.7,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "value": 2605.2,
+      "period": "Q2 2026 product revenue",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "value": 430.5,
+      "period": "Q2 2026 service revenue",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "value": 4916.5,
+      "period": "H1 2026 product revenue",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "value": 828.2,
+      "period": "H1 2026 service revenue",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 3856.1,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Income, Income from operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1378.0,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q and 2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Condensed Consolidated Income Statements / GAAP reconciliation table",
+      "confidence": "high"
+    },
+    {
+      "value": 2535.8,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q and 2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Condensed Consolidated Income Statements / GAAP reconciliation table",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": null,
+      "period": "FY2025",
+      "unit": "percent",
+      "source": "FY2025 Form 10-K",
+      "original_location": "No explicit FY2025 consolidated operating-margin percentage extracted from supplied filing",
+      "confidence": "high",
+      "note": "Not derived from revenue and operating income in DATA_EXTRACTION_ONLY mode."
+    },
+    {
+      "value": 45.4,
+      "period": "Q2 2026 GAAP operating margin",
+      "unit": "percent",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Second Quarter Financial Highlights / GAAP reconciliation table",
+      "confidence": "high"
+    },
+    {
+      "value": 44.1,
+      "period": "H1 2026 GAAP operating margin",
+      "unit": "percent",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "GAAP reconciliation table",
+      "confidence": "high"
+    },
+    {
+      "value": 49.9,
+      "period": "Q2 2026 non-GAAP operating margin",
+      "unit": "percent",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Second Quarter Financial Highlights / reconciliation table",
+      "confidence": "high"
+    },
+    {
+      "value": 48.9,
+      "period": "H1 2026 non-GAAP operating margin",
+      "unit": "percent",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "GAAP to non-GAAP reconciliation table",
+      "confidence": "high"
+    }
+  ],
+  "net_income": [
+    {
+      "value": 3511.4,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 1212.9,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q and 2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "value": 2235.8,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q and 2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "USD millions",
+      "source": "supplied Form 10-K, Form 10-Q and earnings release",
+      "original_location": "No explicit free cash flow metric extracted from supplied sources",
+      "confidence": "high",
+      "note": "OCF and purchase-of-property/equipment data are stored separately; FCF and owner-FCF are not calculated."
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 4371.9,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Cash Flows, Net cash provided by operating activities",
+      "confidence": "high"
+    },
+    {
+      "value": 2776.5,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Statements of Cash Flows, Net cash provided by operating activities",
+      "confidence": "high"
+    },
+    {
+      "value": 1841.8,
+      "period": "H1 2025 comparative",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    }
+  ],
+  "capital_expenditures": [
+    {
+      "value": 119.5,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Cash Flows, Purchases of property, equipment and intangible assets",
+      "confidence": "high",
+      "note": "This filing line combines property, equipment and intangible assets; no attempt was made to split it."
+    },
+    {
+      "value": 84.2,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Statements of Cash Flows, Purchases of property and equipment",
+      "confidence": "high"
+    },
+    {
+      "value": 52.4,
+      "period": "H1 2025 comparative",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Statements of Cash Flows, Purchases of property and equipment",
+      "confidence": "high"
+    },
+    {
+      "value": "170.0-195.0",
+      "period": "remaining Santa Clara property-project capex as of 2025-12-31 through end of FY2026",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Material Cash Requirements / Property Project; Note 5 Commitments and Contingencies",
+      "confidence": "high"
+    },
+    {
+      "value": "110.0-135.0",
+      "period": "remaining Santa Clara property-project capex as of 2026-06-30 through end of FY2026",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Note 5 Commitments and Contingencies / Property Project",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 1963.9,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "marketable_securities",
+      "value": 8779.1,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_liabilities",
+      "value": 7078.1,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q comparative balance sheet",
+      "original_location": "Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 2290.2,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "marketable_securities",
+      "value": 11053.1,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_liabilities",
+      "value": 8922.4,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "interest_bearing_debt",
+      "value": null,
+      "period": "2025-12-31 and 2026-06-30",
+      "unit": "USD millions",
+      "source": "supplied Form 10-K and Form 10-Q",
+      "original_location": "No separate borrowings or debt line extracted from the supplied balance sheets",
+      "confidence": "high",
+      "note": "Total liabilities are not treated as debt and no net-cash value is derived."
+    }
+  ],
+  "business_segment_performance": {
+    "segment_structure": {
+      "value": "one reportable segment",
+      "period": "FY2025",
+      "unit": "text",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Note 9 Segment and Geographical Information",
+      "confidence": "high"
+    },
+    "product_service_revenue": [
+      {
+        "value": 7576.9,
+        "period": "FY2025 product revenue",
+        "unit": "USD millions",
+        "source": "FY2025 Form 10-K",
+        "original_location": "MD&A Revenue table",
+        "confidence": "high"
+      },
+      {
+        "value": 1428.8,
+        "period": "FY2025 service revenue",
+        "unit": "USD millions",
+        "source": "FY2025 Form 10-K",
+        "original_location": "MD&A Revenue table",
+        "confidence": "high"
+      },
+      {
+        "value": 2605.2,
+        "period": "Q2 2026 product revenue",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Condensed Consolidated Income Statements",
+        "confidence": "high"
+      },
+      {
+        "value": 430.5,
+        "period": "Q2 2026 service revenue",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Condensed Consolidated Income Statements",
+        "confidence": "high"
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "Americas",
+        "value": 7122.1,
+        "period": "FY2025",
+        "unit": "USD millions",
+        "source": "FY2025 Form 10-K",
+        "original_location": "MD&A Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Europe, Middle East and Africa",
+        "value": 1070.3,
+        "period": "FY2025",
+        "unit": "USD millions",
+        "source": "FY2025 Form 10-K",
+        "original_location": "MD&A Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Asia-Pacific",
+        "value": 813.3,
+        "period": "FY2025",
+        "unit": "USD millions",
+        "source": "FY2025 Form 10-K",
+        "original_location": "MD&A Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Americas",
+        "value": 2337.9,
+        "period": "Q2 2026",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Europe, Middle East and Africa",
+        "value": 438.2,
+        "period": "Q2 2026",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Asia-Pacific",
+        "value": 259.6,
+        "period": "Q2 2026",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Americas",
+        "value": 4628.0,
+        "period": "H1 2026",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Europe, Middle East and Africa",
+        "value": 673.2,
+        "period": "H1 2026",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Revenue by Geography",
+        "confidence": "high"
+      },
+      {
+        "region": "Asia-Pacific",
+        "value": 443.5,
+        "period": "H1 2026",
+        "unit": "USD millions",
+        "source": "Q2 2026 Form 10-Q",
+        "original_location": "Revenue by Geography",
+        "confidence": "high"
+      }
+    ]
+  },
+  "customer_concentration": [
+    {
+      "value": 16,
+      "period": "FY2025 end customer 1 share of revenue",
+      "unit": "percent of total revenue",
+      "source": "FY2025 Form 10-K and repeated in Q2 2026 Form 10-Q",
+      "original_location": "Concentrations of Business and Credit Risk / Risk Factors",
+      "confidence": "high"
+    },
+    {
+      "value": 26,
+      "period": "FY2025 end customer 2 share of revenue",
+      "unit": "percent of total revenue",
+      "source": "FY2025 Form 10-K and repeated in Q2 2026 Form 10-Q",
+      "original_location": "Concentrations of Business and Credit Risk / Risk Factors",
+      "confidence": "high"
+    },
+    {
+      "value": 52,
+      "period": "2025-12-31 top two resellers share of accounts receivable",
+      "unit": "percent of total accounts receivable",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Concentrations of Business and Credit Risk",
+      "confidence": "high"
+    },
+    {
+      "value": "Current-quarter customer percentages not separately disclosed in supplied Q2 2026 filing; filing repeats FY2025/FY2024/FY2023 annual concentration history.",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Risk Factors / large-customer concentration discussion",
+      "confidence": "high"
+    }
+  ],
+  "remaining_performance_obligations": [
+    {
+      "value": 6.1,
+      "period": "2025-12-31 total future revenue from contract liabilities, deferred revenue and other performance obligations",
+      "unit": "USD billions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Revenue from Total Remaining Performance Obligations",
+      "confidence": "high",
+      "note": "Approximately 90% expected over the next two years and 10% in years three through five."
+    },
+    {
+      "value": 8.4,
+      "period": "2026-06-30 total future revenue from contract liabilities, deferred revenue and other performance obligations",
+      "unit": "USD billions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Revenue from Total Remaining Performance Obligations",
+      "confidence": "high",
+      "note": "Approximately 91% expected over the next two years and 9% in years three through five."
+    },
+    {
+      "value": 6865.9,
+      "period": "2026-06-30 deferred revenue ending balance",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Revenue note / Deferred revenue ending balance",
+      "confidence": "high"
+    },
+    {
+      "value": 1.3,
+      "period": "2026-06-30 other performance obligations",
+      "unit": "USD billions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Other Performance Obligations",
+      "confidence": "high",
+      "note": "Includes $427.8 million of unbilled multi-year PCS/service amounts and $875.1 million of binding contractual agreements primarily related to future product shipments."
+    }
+  ],
+  "purchase_commitments": [
+    {
+      "value": 6.8,
+      "period": "2025-12-31 non-cancellable purchase commitments not recorded on balance sheet",
+      "unit": "USD billions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Note 5 Commitments and Contingencies / Purchase Commitments",
+      "confidence": "high",
+      "note": "$6.3 billion had confirmed receipt dates within 12 months and $0.5 billion after 12 months."
+    },
+    {
+      "value": 53.0,
+      "period": "2025-12-31 deposits to contract manufacturers securing purchase commitments",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Note 5 Commitments and Contingencies / Purchase Commitments",
+      "confidence": "high"
+    },
+    {
+      "value": 9.7,
+      "period": "2026-06-30 non-cancellable purchase commitments not recorded on balance sheet",
+      "unit": "USD billions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Note 5 Commitments and Contingencies / Purchase Commitments",
+      "confidence": "high",
+      "note": "$9.4 billion had expected receipt dates within 12 months and $0.3 billion after 12 months."
+    },
+    {
+      "value": 124.4,
+      "period": "2026-06-30 deposits to contract manufacturers securing purchase commitments",
+      "unit": "USD millions",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Note 5 Commitments and Contingencies / Purchase Commitments",
+      "confidence": "high"
+    }
+  ],
+  "guidance": [
+    {
+      "value": 3.3,
+      "period": "Q3 2026 revenue guidance",
+      "unit": "USD billions, approximately",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Financial Outlook",
+      "confidence": "high"
+    },
+    {
+      "value": "48-49",
+      "period": "Q3 2026 non-GAAP operating margin guidance",
+      "unit": "percent",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Financial Outlook",
+      "confidence": "high"
+    },
+    {
+      "value": "1.06-1.08",
+      "period": "Q3 2026 non-GAAP diluted net income per share guidance",
+      "unit": "USD per diluted share",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Financial Outlook",
+      "confidence": "high"
+    }
+  ],
+  "management_major_statements": [
+    {
+      "value": "CEO Jayshree Ullal stated that the first $3 billion quarter reflected the Arista 2.0 platform strategy and described networking as the central nervous system for infrastructure spanning client, campus, data and AI centers.",
+      "period": "Q2 2026 earnings release",
+      "unit": "management statement paraphrase",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Management quotation preceding Second Quarter Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "value": "CFO Chantelle Breithaupt stated that Q2 2026 reflected strong broad-based growth, citing revenue growth of 37.7% and EPS growth of 39.7% year over year.",
+      "period": "Q2 2026 earnings release",
+      "unit": "management statement paraphrase",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Management quotation after Second Quarter Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "value": "Arista expects inventory and purchase commitments to remain elevated and volatile as it ramps new products and increases commitments in response to rapid AI-network deployments and tightening memory and silicon supply.",
+      "period": "Q2 2026 filing outlook",
+      "unit": "management statement paraphrase",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "MD&A Liquidity and Capital Resources / supply-chain discussion",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "value": "FY2025 total revenue $9,005.7 million versus $7,003.1 million in FY2024; filing reports 28.6% growth.",
+      "period": "FY2025 vs FY2024",
+      "unit": "USD millions / percent",
+      "source": "FY2025 Form 10-K",
+      "original_location": "MD&A Revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": "FY2025 product revenue $7,576.9 million versus $5,884.0 million in FY2024; filing reports 28.8% growth. Service revenue $1,428.8 million versus $1,119.1 million; filing reports 27.7% growth.",
+      "period": "FY2025 vs FY2024",
+      "unit": "USD millions / percent",
+      "source": "FY2025 Form 10-K",
+      "original_location": "MD&A Revenue table",
+      "confidence": "high"
+    },
+    {
+      "value": "Q2 2026 revenue $3,035.7 million versus $2,204.8 million in Q2 2025; earnings release reports 37.7% year-over-year growth and 12.1% sequential growth from Q1 2026.",
+      "period": "Q2 2026 vs Q2 2025 and Q1 2026",
+      "unit": "USD millions / percent",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Second Quarter Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "value": "Q2 2026 product revenue increased 38.8% year over year and H1 product revenue increased 37.7%; service revenue increased 31.3% in Q2 and 29.4% in H1.",
+      "period": "Q2/H1 2026 vs prior-year periods",
+      "unit": "percent",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "MD&A Revenue",
+      "confidence": "high"
+    },
+    {
+      "value": "Non-cancellable purchase commitments increased from $6.8 billion at 2025-12-31 to $9.7 billion at 2026-06-30; contract-manufacturer deposits increased from $53.0 million to $124.4 million.",
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "USD billions / USD millions",
+      "source": "FY2025 Form 10-K and Q2 2026 Form 10-Q",
+      "original_location": "Note 5 Commitments and Contingencies / Purchase Commitments",
+      "confidence": "high",
+      "note": "Only the reported period values are compared; no growth rate is calculated."
+    },
+    {
+      "value": "Total future revenue from contract liabilities, deferred revenue and other performance obligations was $6.1 billion at 2025-12-31 and $8.4 billion at 2026-06-30.",
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "USD billions",
+      "source": "FY2025 Form 10-K and Q2 2026 Form 10-Q",
+      "original_location": "Revenue from Total Remaining Performance Obligations",
+      "confidence": "high"
+    }
+  ],
+  "share_count_and_stock_compensation": [
+    {
+      "metric": "common_shares_issued_and_outstanding",
+      "value": 1256.5,
+      "period": "2025-12-31",
+      "unit": "million shares",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Balance Sheets / Consolidated Statements of Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "weighted_average_diluted_shares",
+      "value": 1275.7,
+      "period": "FY2025",
+      "unit": "million shares",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "metric": "stock_based_compensation_expense",
+      "value": 439.2,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Cash Flows / Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "employee_equity_plan_common_stock_issuance",
+      "value": 11.6,
+      "period": "FY2025",
+      "unit": "million shares",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "common_stock_repurchased",
+      "value": 15.9,
+      "period": "FY2025",
+      "unit": "million shares",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_value_of_common_stock_repurchased",
+      "value": 1607.3,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Consolidated Statements of Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "common_shares_issued_and_outstanding",
+      "value": 1261.2,
+      "period": "2026-06-30",
+      "unit": "million shares",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "common_shares_outstanding",
+      "value": 1261224648,
+      "period": "2026-07-30",
+      "unit": "shares",
+      "source": "Q2 2026 Form 10-Q cover page",
+      "original_location": "Form 10-Q cover page",
+      "confidence": "high"
+    },
+    {
+      "metric": "weighted_average_diluted_shares",
+      "value": 1276.0,
+      "period": "Q2 2026",
+      "unit": "million shares",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "metric": "weighted_average_diluted_shares",
+      "value": 1274.9,
+      "period": "H1 2026",
+      "unit": "million shares",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Income Statements",
+      "confidence": "high"
+    },
+    {
+      "metric": "stock_based_compensation_expense",
+      "value": 120.4,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1 and Q2 2026 Form 10-Q",
+      "original_location": "GAAP reconciliation / Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "stock_based_compensation_expense",
+      "value": 241.3,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1 and Q2 2026 Form 10-Q",
+      "original_location": "GAAP reconciliation / Stockholders' Equity",
+      "confidence": "high"
+    },
+    {
+      "metric": "employee_equity_plan_common_stock_issuance",
+      "value": 4.9,
+      "period": "H1 2026",
+      "unit": "million shares",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Condensed Consolidated Statements of Stockholders' Equity",
+      "confidence": "high"
+    }
+  ],
+  "risk_related_disclosures": [
+    {
+      "value": "Two end customers each accounted for more than 10% of annual revenue in each of 2025, 2024 and 2023; 2025 percentages were 16% and 26%. The company states order timing from high-volume customers is unpredictable and concentration can vary with deployment timing, spending cycles and evaluation/qualification periods.",
+      "period": "current disclosure in Q2 2026 Form 10-Q, based on annual history",
+      "unit": "risk disclosure",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Risk Factors / customer concentration",
+      "confidence": "high",
+      "new_vs_10k": false
+    },
+    {
+      "value": "The company states memory and silicon markets have experienced tightening supply conditions due to demand for AI infrastructure and advanced automotive systems; shortages, lead-time increases, allocation reductions or supplier decommitments could affect shipments, revenue and gross margins.",
+      "period": "Q2 2026",
+      "unit": "risk disclosure",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Risk Factors / supply commitments and shortages",
+      "confidence": "high",
+      "new_vs_10k": false,
+      "note": "FY2025 Form 10-K already discussed potential tightening in the memory market; the Q2 filing provides updated current wording."
+    },
+    {
+      "value": "The company relies on three primary contract-manufacturing partners for the vast majority of electronic manufacturing services and relies heavily on a single merchant-silicon supplier for switching chips.",
+      "period": "2025-12-31 disclosure",
+      "unit": "supplier concentration risk",
+      "source": "FY2025 Form 10-K",
+      "original_location": "Concentrations of Business and Credit Risk",
+      "confidence": "high"
+    },
+    {
+      "value": "Non-cancellable purchase commitments reached $9.7 billion at June 30, 2026, and the company states inventory and commitments are expected to remain elevated and volatile. It warns of excess/obsolete inventory and supplier-liability charges if demand or supplier performance differs from forecasts.",
+      "period": "Q2 2026",
+      "unit": "risk disclosure",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Note 5 Commitments and Contingencies / MD&A / Risk Factors",
+      "confidence": "high",
+      "new_vs_10k": "quantitative amount updated; underlying risk existed in FY2025 filing"
+    },
+    {
+      "value": "The company states AI networking demand estimates are difficult to forecast; customers may overestimate AI build-out demand and cancel, delay, reduce or modify purchase commitments, and AI Ethernet adoption must compete with InfiniBand and other Ethernet products.",
+      "period": "Q2 2026",
+      "unit": "risk disclosure",
+      "source": "Q2 2026 Form 10-Q",
+      "original_location": "Risk Factors / rapidly evolving networking market",
+      "confidence": "high"
+    },
+    {
+      "value": "The earnings release lists escalated or escalating U.S. tariffs and countermeasures, sole/limited-source component risks and key-component supply constraints among forward-looking risks.",
+      "period": "2026-08-04",
+      "unit": "forward-looking risk disclosure",
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "original_location": "Forward-Looking Statements",
+      "confidence": "high"
+    }
+  ],
+  "governance_and_ownership": [
+    {
+      "value": "Jayshree Ullal serves as Chief Executive Officer and Chairperson; the proxy states she is not independent under NYSE listing standards because of her CEO role.",
+      "period": "2026 proxy",
+      "unit": "governance disclosure",
+      "source": "2026 definitive proxy statement",
+      "original_location": "Board Leadership Structure",
+      "confidence": "high"
+    },
+    {
+      "value": 183799896,
+      "period": "2026 proxy beneficial ownership - The Bechtolsheim Family Trust",
+      "unit": "shares beneficially owned",
+      "source": "2026 definitive proxy statement",
+      "original_location": "Security Ownership of Certain Beneficial Owners and Management",
+      "confidence": "high",
+      "note": "Proxy reports 14.6% beneficial ownership."
+    },
+    {
+      "value": 73684608,
+      "period": "2026 proxy beneficial ownership - BlackRock, Inc.",
+      "unit": "shares beneficially owned",
+      "source": "2026 definitive proxy statement",
+      "original_location": "Security Ownership of Certain Beneficial Owners and Management",
+      "confidence": "high",
+      "note": "Proxy reports 5.9% beneficial ownership."
+    },
+    {
+      "value": "2026 annual meeting scheduled for 2026-05-29; proposals were election of Lewis Chew, Greg Lavender and Mark B. Templeton, advisory approval of named-executive compensation, and ratification of Ernst & Young LLP as independent auditor for FY2026.",
+      "period": "2026 annual meeting",
+      "unit": "proxy matter",
+      "source": "Schedule 14A definitive additional materials",
+      "original_location": "Voting Items",
+      "confidence": "high"
+    }
+  ],
+  "section_16_transactions": [
+    {
+      "reporting_person": "Chantelle Yvette Breithaupt",
+      "title": "Senior Vice President, CFO",
+      "security": "Common Stock",
+      "transaction_date": "2026-09-01",
+      "transaction_code": "S",
+      "amount": 612,
+      "acquired_or_disposed": "D",
+      "price": 195.77,
+      "shares_beneficially_owned_following": 69921,
+      "ownership_form": "D",
+      "period": "2026-09-01",
+      "unit": "shares / USD per share",
+      "source": "Form 4 supplied by user",
+      "original_location": "Table I and Explanation of Responses",
+      "confidence": "high",
+      "plan_note": "Sale was effected pursuant to a Rule 10b5-1 trading plan entered into on 2025-12-11 and modified on 2026-06-02.",
+      "aggregation_note": "Transaction preserved as filed; no additional transaction-value calculation performed."
+    }
+  ],
+  "source_coverage": [
+    {
+      "source": "2026-08-04 Form 8-K Exhibit 99.1",
+      "status": "used",
+      "data_used": "Q2 financial highlights, GAAP/non-GAAP margins, Q3 guidance, management remarks and forward-looking risk list"
+    },
+    {
+      "source": "Q2 2026 Form 10-Q",
+      "status": "used",
+      "data_used": "financial statements, cash flow, cash/securities, shares, geography, purchase commitments, RPO, customer/supplier concentration, risk disclosures"
+    },
+    {
+      "source": "FY2025 Form 10-K",
+      "status": "used",
+      "data_used": "FY2025 financial statements, cash flow, product/service and geographic revenue, customer concentration, supplier concentration, share/SBC/repurchase data, purchase commitments and RPO"
+    },
+    {
+      "source": "2026 Form 4 - Chantelle Breithaupt",
+      "status": "used",
+      "data_used": "single unaggregated Section 16 sale and Rule 10b5-1 plan note"
+    },
+    {
+      "source": "Schedule 14A definitive additional materials",
+      "status": "used",
+      "data_used": "annual-meeting voting items"
+    },
+    {
+      "source": "2026 definitive proxy statement",
+      "status": "used",
+      "data_used": "board leadership, beneficial ownership and executive/governance context"
+    }
+  ]
+}
