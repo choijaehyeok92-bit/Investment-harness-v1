@@ -1,0 +1,746 @@
+{
+  "ticker": "CRDO",
+  "company": "Credo Technology Group Holding Ltd",
+  "market": "NASDAQ",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "FY2027 Q1 ended 2026-08-01",
+  "scope_note": "투자판단, 가치평가, 원문에 없는 추론 및 파생 계산을 포함하지 않음. 사용자가 제공한 5개 PDF만 사용. FCF는 원문에 별도 공시되지 않아 계산하지 않음.",
+  "source_documents": [
+    {
+      "document": "Form 10-Q",
+      "file_name": "5dc6309a-2351-473d-a121-a726e57c924f.pdf",
+      "period": "FY2027 Q1 ended 2026-08-01",
+      "requested_field_extraction": "core financials, cash flow, segment information, customer concentration, risk update",
+      "confidence": "high"
+    },
+    {
+      "document": "Form 8-K / Exhibit 99.1",
+      "file_name": "89a0e394-08b4-4713-9bfb-a291bd7e1189.pdf",
+      "period": "Filed 2026-09-01; FY2027 Q1 results and FY2027 Q2 outlook",
+      "requested_field_extraction": "quarterly highlights, guidance, management commentary, quarter-over-quarter and year-over-year changes",
+      "confidence": "high"
+    },
+    {
+      "document": "Definitive Proxy Statement (Schedule 14A)",
+      "file_name": "250542a0-a9b9-4747-bf5d-ff16b4746f29.pdf",
+      "period": "2026 annual general meeting materials",
+      "requested_field_extraction": "no requested revenue, operating income, operating margin, net income, FCF, CapEx, cash/debt, segment, guidance or risk-update fields extracted",
+      "confidence": "high"
+    },
+    {
+      "document": "Form 10-K",
+      "file_name": "a4179788-9dac-4cf3-9082-3e17792eb967.pdf",
+      "period": "FY2026 ended 2026-05-02",
+      "requested_field_extraction": "annual financials, cash flow, segment information, customer concentration, baseline risk disclosures",
+      "confidence": "high"
+    },
+    {
+      "document": "Form 144",
+      "file_name": "d4589c4e-0784-4f81-9df8-8bc3afabaca7.pdf",
+      "period": "Notice dated 2026-09-04",
+      "requested_field_extraction": "no requested financial, guidance, business-segment, management-statement or risk-update fields extracted",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 479003,
+      "period": "FY2027 Q1, three months ended 2026-08-01",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.6, Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 223074,
+      "period": "FY2026 Q1 comparative, three months ended 2025-08-02",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.6, Condensed Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": 437003,
+      "period": "FY2026 Q4, three months ended 2026-05-02",
+      "unit": "USD thousand",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1, Condensed Consolidated Statements of Operations, three-month comparative table",
+      "confidence": "high"
+    },
+    {
+      "value": 1335116,
+      "period": "FY2026 ended 2026-05-02",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.78, Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 436775,
+      "period": "FY2025 ended 2025-05-03",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.78, Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 120700,
+      "period": "FY2027 Q1",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.6, Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 60742,
+      "period": "FY2026 Q1 comparative",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.6, Condensed Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": 155845,
+      "period": "FY2026 Q4",
+      "unit": "USD thousand",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1, Condensed Consolidated Statements of Operations, three-month comparative table",
+      "confidence": "high"
+    },
+    {
+      "value": 445005,
+      "period": "FY2026",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.78, Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 37124,
+      "period": "FY2025",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.78, Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": 25.2,
+      "period": "FY2027 Q1",
+      "unit": "percent",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.24, Results of Operations table, Operating income as percentage of revenue",
+      "confidence": "high"
+    },
+    {
+      "value": 27.2,
+      "period": "FY2026 Q1 comparative",
+      "unit": "percent",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.24, Results of Operations table comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": 33.3,
+      "period": "FY2026",
+      "unit": "percent",
+      "source": "Form 10-K",
+      "original_location": "PDF p.67, Results of Operations table, Operating income as percentage of revenue",
+      "confidence": "high"
+    },
+    {
+      "value": 8.5,
+      "period": "FY2025",
+      "unit": "percent",
+      "source": "Form 10-K",
+      "original_location": "PDF p.67, Results of Operations table comparative column",
+      "confidence": "high"
+    }
+  ],
+  "net_income": [
+    {
+      "value": 129425,
+      "period": "FY2027 Q1",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.6, Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 63399,
+      "period": "FY2026 Q1 comparative",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.6, Condensed Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": 169102,
+      "period": "FY2026 Q4",
+      "unit": "USD thousand",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1, Condensed Consolidated Statements of Operations, three-month comparative table",
+      "confidence": "high"
+    },
+    {
+      "value": 472279,
+      "period": "FY2026",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.78, Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 52183,
+      "period": "FY2025",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.78, Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    }
+  ],
+  "fcf": [
+    {
+      "value": null,
+      "period": "FY2027 Q1 / FY2026",
+      "unit": "not reported",
+      "source": "Form 10-Q, Form 8-K / Exhibit 99.1, and Form 10-K",
+      "original_location": "확인 불가 / 원문 미기재",
+      "confidence": "high",
+      "note": "Free Cash Flow line item or company-defined FCF metric was not identified in the supplied sources; no calculation performed."
+    }
+  ],
+  "capex": [
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 7282,
+      "period": "FY2027 Q1",
+      "unit": "USD thousand cash outflow",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.9, Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 2821,
+      "period": "FY2026 Q1 comparative",
+      "unit": "USD thousand cash outflow",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.9, Condensed Consolidated Statements of Cash Flows comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 57296,
+      "period": "FY2026",
+      "unit": "USD thousand cash outflow",
+      "source": "Form 10-K",
+      "original_location": "PDF p.79, Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 36061,
+      "period": "FY2025",
+      "unit": "USD thousand cash outflow",
+      "source": "Form 10-K",
+      "original_location": "PDF p.79, Consolidated Statements of Cash Flows comparative column",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 466869,
+      "period": "2026-08-01",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.5, Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_investments",
+      "value": 297389,
+      "period": "2026-08-01",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.5, Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_short_term_investments",
+      "value": 764.3,
+      "period": "2026-08-01",
+      "unit": "USD million",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, First Quarter of Fiscal Year 2027 Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_liabilities",
+      "value": 284237,
+      "period": "2026-08-01",
+      "unit": "USD thousand",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.5, Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "interest_bearing_debt",
+      "value": null,
+      "period": "2026-08-01",
+      "unit": "not separately reported",
+      "source": "Form 10-Q",
+      "original_location": "확인 불가 / 원문 미기재",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 1164952,
+      "period": "2026-05-02",
+      "unit": "USD thousand",
+      "source": "Form 10-K / Form 10-Q comparative balance sheet",
+      "original_location": "Form 10-K PDF p.77; Form 10-Q PDF p.5 comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_investments",
+      "value": 278334,
+      "period": "2026-05-02",
+      "unit": "USD thousand",
+      "source": "Form 10-K / Form 10-Q comparative balance sheet",
+      "original_location": "Form 10-K PDF p.77; Form 10-Q PDF p.5 comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_liabilities",
+      "value": 232007,
+      "period": "2026-05-02",
+      "unit": "USD thousand",
+      "source": "Form 10-K / Form 10-Q comparative balance sheet",
+      "original_location": "Form 10-K PDF p.77; Form 10-Q PDF p.5 comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 236328,
+      "period": "2025-05-03",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.77, Consolidated Balance Sheets comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_investments",
+      "value": 195010,
+      "period": "2025-05-03",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.77, Consolidated Balance Sheets comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_liabilities",
+      "value": 127675,
+      "period": "2025-05-03",
+      "unit": "USD thousand",
+      "source": "Form 10-K",
+      "original_location": "PDF p.77, Consolidated Balance Sheets comparative column",
+      "confidence": "high"
+    }
+  ],
+  "business_segment_performance": {
+    "segment_structure": {
+      "value": "single reportable segment at the consolidated level; CODM uses net income or loss to make operating decisions, allocate resources and evaluate financial performance",
+      "period": "FY2027 Q1",
+      "unit": "text",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.21, Note 13 Segment Information",
+      "confidence": "high"
+    },
+    "segment_q1_fy2027": [
+      {
+        "metric": "revenue",
+        "value": 479003,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.21, Note 13 Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "value": 169923,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.21, Note 13 Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "personnel_related_expenses",
+        "value": 43180,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.21, Note 13 Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "share_based_compensation",
+        "value": 87979,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.21, Note 13 Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "other_segment_items",
+        "value": 48496,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.21, Note 13 Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "net_income",
+        "value": 129425,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.21, Note 13 Segment Information",
+        "confidence": "high"
+      }
+    ],
+    "geographic_revenue_q1_fy2027": [
+      {
+        "region": "United States",
+        "value": 255442,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.12, Note 4 Revenue Recognition, geographic revenue table",
+        "confidence": "high"
+      },
+      {
+        "region": "Hong Kong",
+        "value": 91175,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.12, Note 4 Revenue Recognition, geographic revenue table",
+        "confidence": "high"
+      },
+      {
+        "region": "Malaysia",
+        "value": 74455,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.12, Note 4 Revenue Recognition, geographic revenue table",
+        "confidence": "high"
+      },
+      {
+        "region": "Mainland China",
+        "value": 1095,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.12, Note 4 Revenue Recognition, geographic revenue table",
+        "confidence": "high"
+      },
+      {
+        "region": "Rest of World",
+        "value": 56836,
+        "period": "FY2027 Q1",
+        "unit": "USD thousand",
+        "source": "Form 10-Q",
+        "original_location": "PDF p.12, Note 4 Revenue Recognition, geographic revenue table",
+        "confidence": "high"
+      }
+    ],
+    "annual_segment_fy2026": [
+      {
+        "metric": "revenue",
+        "value": 1335116,
+        "period": "FY2026",
+        "unit": "USD thousand",
+        "source": "Form 10-K",
+        "original_location": "PDF p.105, Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "cost_of_revenue",
+        "value": 426767,
+        "period": "FY2026",
+        "unit": "USD thousand",
+        "source": "Form 10-K",
+        "original_location": "PDF p.105, Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "personnel_related_expenses",
+        "value": 129178,
+        "period": "FY2026",
+        "unit": "USD thousand",
+        "source": "Form 10-K",
+        "original_location": "PDF p.105, Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "share_based_compensation",
+        "value": 182638,
+        "period": "FY2026",
+        "unit": "USD thousand",
+        "source": "Form 10-K",
+        "original_location": "PDF p.105, Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "other_segment_items",
+        "value": 124254,
+        "period": "FY2026",
+        "unit": "USD thousand",
+        "source": "Form 10-K",
+        "original_location": "PDF p.105, Segment Information",
+        "confidence": "high"
+      },
+      {
+        "metric": "net_income",
+        "value": 472279,
+        "period": "FY2026",
+        "unit": "USD thousand",
+        "source": "Form 10-K",
+        "original_location": "PDF p.105, Segment Information",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guidance": [
+    {
+      "metric": "revenue",
+      "value": {
+        "low": 525,
+        "high": 535
+      },
+      "period": "FY2027 Q2, three months ending 2026-10-31",
+      "unit": "USD million",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, Second Quarter of Fiscal 2027 Financial Outlook",
+      "confidence": "high"
+    },
+    {
+      "metric": "GAAP_gross_margin",
+      "value": {
+        "low": 62.9,
+        "high": 64.9
+      },
+      "period": "FY2027 Q2",
+      "unit": "percent",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, Second Quarter of Fiscal 2027 Financial Outlook",
+      "confidence": "high"
+    },
+    {
+      "metric": "non_GAAP_gross_margin",
+      "value": {
+        "low": 67.0,
+        "high": 69.0
+      },
+      "period": "FY2027 Q2",
+      "unit": "percent",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, Second Quarter of Fiscal 2027 Financial Outlook",
+      "confidence": "high"
+    },
+    {
+      "metric": "GAAP_operating_expenses",
+      "value": {
+        "low": 199,
+        "high": 204
+      },
+      "period": "FY2027 Q2",
+      "unit": "USD million",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, Second Quarter of Fiscal 2027 Financial Outlook",
+      "confidence": "high"
+    },
+    {
+      "metric": "non_GAAP_operating_expenses",
+      "value": {
+        "low": 100,
+        "high": 105
+      },
+      "period": "FY2027 Q2",
+      "unit": "USD million",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, Second Quarter of Fiscal 2027 Financial Outlook",
+      "confidence": "high"
+    }
+  ],
+  "management_statements": [
+    {
+      "value": "CEO Bill Brennan stated that Credo's connectivity portfolio now spans millimeters to kilometers across optics and copper and that the company intends to continue supplying reliable, energy-efficient data-center connectivity as AI infrastructure scales.",
+      "period": "FY2027 Q1 results",
+      "unit": "text",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, Management Commentary",
+      "confidence": "high"
+    },
+    {
+      "value": "Management states that its proprietary SerDes and DSP technologies can deliver performance similar to leading competitors at lower cost and on more available legacy process nodes.",
+      "period": "FY2027 Q1",
+      "unit": "text",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.22, MD&A Overview",
+      "confidence": "high"
+    },
+    {
+      "value": "Management states that Credo partnered with Oracle to develop ZeroFlap Optics to address Link Flap reliability issues in AI data centers and improve cluster turn-on and time to first revenue.",
+      "period": "FY2027 Q1",
+      "unit": "text",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.22, MD&A Overview",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "metric": "revenue_growth",
+      "value": {
+        "quarter_over_quarter": 9.6,
+        "year_over_year": 114.7
+      },
+      "period": "FY2027 Q1",
+      "unit": "percent",
+      "source": "Form 8-K / Exhibit 99.1",
+      "original_location": "Exhibit 99.1 p.4, First Quarter of Fiscal Year 2027 Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "metric": "revenue_increase_and_driver",
+      "value": "Revenue increased by $255.9 million year over year; increased AEC unit shipments contributed over 90% of the increase, primarily from ramp-up at hyperscale data center customers.",
+      "period": "FY2027 Q1 versus FY2026 Q1",
+      "unit": "text / USD",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.24, MD&A Revenue",
+      "confidence": "high"
+    },
+    {
+      "metric": "gross_margin_change",
+      "value": {
+        "current": 64.5,
+        "prior_year": 67.4,
+        "reported_change_percentage_points": -2.9
+      },
+      "period": "FY2027 Q1 versus FY2026 Q1",
+      "unit": "percent / percentage points",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.25, MD&A Gross Profit and Gross Margin",
+      "confidence": "high"
+    },
+    {
+      "metric": "operating_margin_comparison",
+      "value": {
+        "current": 25.2,
+        "prior_year": 27.2
+      },
+      "period": "FY2027 Q1 versus FY2026 Q1",
+      "unit": "percent",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.24, Results of Operations table",
+      "confidence": "high"
+    },
+    {
+      "metric": "annual_revenue_growth",
+      "value": 205.7,
+      "period": "FY2026 versus FY2025",
+      "unit": "percent",
+      "source": "Form 10-K",
+      "original_location": "PDF p.67, MD&A Revenue",
+      "confidence": "high"
+    },
+    {
+      "metric": "annual_revenue_increase_driver",
+      "value": "AEC solutions at hyperscale data center customers contributed over 99% of the FY2026 revenue increase.",
+      "period": "FY2026 versus FY2025",
+      "unit": "text",
+      "source": "Form 10-K",
+      "original_location": "PDF p.67, MD&A Revenue",
+      "confidence": "high"
+    },
+    {
+      "metric": "annual_gross_margin_change",
+      "value": {
+        "current": 68.0,
+        "prior_year": 64.8,
+        "reported_change_percentage_points": 3.2
+      },
+      "period": "FY2026 versus FY2025",
+      "unit": "percent / percentage points",
+      "source": "Form 10-K",
+      "original_location": "PDF p.67-68, MD&A Gross Profit and Gross Margin",
+      "confidence": "high"
+    },
+    {
+      "metric": "customer_revenue_concentration_contracting_party",
+      "value": {
+        "Customer_A": {
+          "FY2027_Q1": 43,
+          "FY2026_Q1": 50
+        },
+        "Customer_B": {
+          "FY2027_Q1": 28,
+          "FY2026_Q1": 35
+        }
+      },
+      "period": "FY2027 Q1 versus FY2026 Q1",
+      "unit": "percent of revenue",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.11, Note 3 Concentrations",
+      "confidence": "high"
+    },
+    {
+      "metric": "customer_revenue_concentration_end_customer_profile",
+      "value": {
+        "Customer_C": {
+          "FY2027_Q1": 28,
+          "FY2026_Q1": 35
+        },
+        "Customer_D": {
+          "FY2027_Q1": 33,
+          "FY2026_Q1": 33
+        },
+        "Customer_E": {
+          "FY2027_Q1": 13,
+          "FY2026_Q1": 20
+        },
+        "Customer_F": {
+          "FY2027_Q1": 10,
+          "FY2026_Q1": "less than 10"
+        }
+      },
+      "period": "FY2027 Q1 versus FY2026 Q1",
+      "unit": "percent of revenue",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.23, MD&A customer concentration table",
+      "confidence": "high"
+    }
+  ],
+  "risk_new_disclosures": [
+    {
+      "value": "As of the date of the FY2027 Q1 Form 10-Q, there were no material changes from the risk factors previously disclosed in the FY2026 Form 10-K.",
+      "period": "FY2027 Q1",
+      "unit": "text",
+      "source": "Form 10-Q",
+      "original_location": "PDF p.28, Part II Item 1A Risk Factors",
+      "confidence": "high"
+    }
+  ]
+}
