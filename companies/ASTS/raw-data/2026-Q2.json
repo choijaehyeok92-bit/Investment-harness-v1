@@ -1,0 +1,538 @@
+{
+  "ticker": "ASTS",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "Q2 2026 ended 2026-06-30",
+  "source_documents": [
+    {
+      "document": "2026 Q2 Form 10-Q",
+      "drive_id": "18yehVGA8T_1tnHRsP26W8WvrUwtUzal_",
+      "period": "Quarter ended 2026-06-30",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Q2 Form 8-K / Exhibit 99.1 / Business Update",
+      "drive_id": "1jvcu2nv41ixOScm6lmVoYrbp0LX5nMco",
+      "period": "Filed 2026-08-10; Q2 2026 results",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 DEFA14A",
+      "drive_id": "1z0nX9nq2OG_VkF80BHE9Wjg1llepFipt",
+      "period": "2026-04-28",
+      "requested_field_extraction": "no requested financial, guidance, management-statement, or risk-update fields identified",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Annual Report to Security Holders (ARS) document",
+      "drive_id": "19F8sXGEB-LeS5uJZvTDSThw1lsRP-VPA",
+      "period": "2026-04-28",
+      "requested_field_extraction": "source text only states: This format is in the process of being created from the filing. Please check back shortly.",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Form 4",
+      "drive_id": "1rpX98k2T2b77VzO8uEUIzMZqui1z2Rn9",
+      "period": "Earliest transaction 2026-08-31; filed 2026-09-01",
+      "requested_field_extraction": "no requested financial, guidance, management-statement, or risk-update fields identified",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 31520,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations; p.31 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1156,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations; p.31 Results of Operations comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": 46255,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations; p.33-34 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1874,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": "not separately stated",
+      "period": "Q2 2026 and six months ended 2026-06-30",
+      "unit": "not applicable",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations; total revenues and total operating expenses are presented without a separate operating income/loss line",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": "not stated; not calculated",
+      "period": "Q2 2026",
+      "unit": "not applicable",
+      "source": "2026 Q2 Form 10-Q and 2026 Q2 Form 8-K / Business Update",
+      "location": "Condensed Consolidated Statements of Operations and Second Quarter 2026 Financial Highlights",
+      "confidence": "high"
+    }
+  ],
+  "net_income": [
+    {
+      "metric": "net_loss_before_allocation_to_noncontrolling_interest",
+      "value": -299919,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss_attributable_to_common_stockholders",
+      "value": -230909,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss_attributable_to_common_stockholders",
+      "value": -99394,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss_before_allocation_to_noncontrolling_interest",
+      "value": -549500,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss_attributable_to_common_stockholders",
+      "value": -421921,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    }
+  ],
+  "fcf": [
+    {
+      "value": "not disclosed in supplied sources; not calculated from cash-flow components",
+      "period": "Q2 2026 / six months ended 2026-06-30",
+      "unit": "not applicable",
+      "source": "2026 Q2 Form 10-Q and 2026 Q2 Form 8-K / Business Update",
+      "location": "p.6 Condensed Consolidated Statements of Cash Flows; p.40 Historical Cash Flows; Second Quarter 2026 Financial Highlights",
+      "confidence": "high"
+    }
+  ],
+  "capex": [
+    {
+      "metric": "purchase_of_property_and_equipment",
+      "value": -859215,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Cash Flows; p.40 Historical Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchase_of_property_and_equipment",
+      "value": -430622,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Cash Flows comparative column; p.40 Historical Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment_in_accounts_payable_and_accrued_expenses",
+      "value": 61703,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Cash Flows, Non-cash investing and financing activities",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 2288253,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 2335683,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "restricted_cash_current",
+      "value": 6181,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "restricted_cash_noncurrent",
+      "value": 428400,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_cash_equivalents_and_restricted_cash_approximate",
+      "value": 2700,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1",
+      "location": "Second Quarter 2026 Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_portion_of_long_term_debt",
+      "value": 8494,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_debt_net",
+      "value": 2963422,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets; Note 6 Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_debt_net",
+      "value": 2207583,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Condensed Consolidated Balance Sheets comparative column; Note 6 Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "aggregate_fair_value_of_debt",
+      "value": 3500,
+      "period": "2026-06-30",
+      "unit": "USD million approximately",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 6 Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "2034_1.625_percent_convertible_notes_principal_subsequent_event",
+      "value": 1150,
+      "period": "Issued on or about 2026-07-20",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 6 Debt — 2034 1.625% Convertible Notes; subsequent event disclosure",
+      "confidence": "high"
+    },
+    {
+      "metric": "2034_1.625_percent_convertible_notes_net_proceeds_subsequent_event",
+      "value": 1131.2,
+      "period": "July 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Liquidity and Capital Resources — 2034 1.625% Convertible Notes",
+      "confidence": "high"
+    }
+  ],
+  "segment_results": [
+    {
+      "segment": "Consolidated single operating segment",
+      "value": "Company states it operates in one operating segment; consolidated net loss before allocation to noncontrolling interest is the reported measure of segment profit or loss.",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 2 Summary of Significant Accounting Policies — Segment",
+      "confidence": "high"
+    },
+    {
+      "segment": "Products",
+      "value": 24428,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 2 Revenue Recognition; p.31 Products Revenues",
+      "confidence": "high"
+    },
+    {
+      "segment": "Products",
+      "value": 50,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.31 Products Revenues comparative column",
+      "confidence": "high"
+    },
+    {
+      "segment": "Services",
+      "value": 7092,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 2 Revenue Recognition; p.31 Services Revenues",
+      "confidence": "high"
+    },
+    {
+      "segment": "Services",
+      "value": 1106,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.31 Services Revenues comparative column",
+      "confidence": "high"
+    },
+    {
+      "segment": "Products",
+      "value": 37834,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 2 Revenue Recognition; p.33-34 Products Revenues",
+      "confidence": "high"
+    },
+    {
+      "segment": "Services",
+      "value": 8421,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 2 Revenue Recognition; p.33-34 Services Revenues",
+      "confidence": "high"
+    },
+    {
+      "segment": "SpaceMobile Service",
+      "value": 0,
+      "period": "Through 2026-06-30",
+      "unit": "USD revenue recognized",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 2 Revenue Recognition — Company states no revenues have been recognized from the SpaceMobile Service to date",
+      "confidence": "high"
+    }
+  ],
+  "guidance": [
+    {
+      "metric": "full_year_revenue",
+      "value": {
+        "low": 150,
+        "high": 200
+      },
+      "period": "FY2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1 / Business Update",
+      "location": "Business Update — On track to achieve full year 2026 revenue guidance",
+      "confidence": "high"
+    },
+    {
+      "metric": "average_capital_cost_per_block_2_bluebird_satellite",
+      "value": {
+        "low": 21,
+        "high": 23
+      },
+      "period": "Estimate for a constellation of over 90 Block 2 BB satellites",
+      "unit": "USD million per satellite",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.35 Liquidity and Capital Resources",
+      "confidence": "high"
+    },
+    {
+      "metric": "satellite_constellation_target",
+      "value": "approximately 45 satellites in orbit",
+      "period": "early 2027 target",
+      "unit": "satellites",
+      "source": "2026 Q2 Form 8-K / Business Update presentation",
+      "location": "Business Update presentation — satellite deployment target note",
+      "confidence": "high"
+    }
+  ],
+  "management_statements": [
+    {
+      "speaker": "Abel Avellan",
+      "role": "Chairman and Chief Executive Officer",
+      "value": "AST SpaceMobile's differentiated technology platform and deep intellectual property portfolio, partner-first mobile network operator strategy, vertically integrated manufacturing capabilities, and comprehensive spectrum strategy are foundational to the space-based cellular broadband market we invented. With the largest phased arrays ever deployed in low Earth orbit and a native cellular architecture designed to work directly with standard, unmodified smartphones, we believe we are uniquely positioned to deliver scalable direct-to-device connectivity for both commercial and government customers around the world.",
+      "period": "Q2 2026 business update, 2026-08-10",
+      "unit": "verbatim management statement",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1",
+      "location": "Opening CEO remarks",
+      "confidence": "high"
+    },
+    {
+      "speaker": "Abel Avellan",
+      "role": "Chairman and Chief Executive Officer",
+      "value": "Following the recent orbital launch of BlueBirds 11, 12, and 13, our space-based cellular broadband network has now grown to 13 spacecraft in orbit, each the largest ever in low Earth orbit, with approximately 20,000 square feet of combined aperture hardware deployed. As we get ready to ship BlueBirds 14, 15, and 16 and continue expanding our constellation with production ongoing through BlueBird 46, we are preparing to initiate beta services with select strategic partners.",
+      "period": "Q2 2026 business update, 2026-08-10",
+      "unit": "verbatim management statement",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1",
+      "location": "Opening CEO remarks",
+      "confidence": "high"
+    },
+    {
+      "speaker": "Abel Avellan",
+      "role": "Chairman and Chief Executive Officer",
+      "value": "AST SpaceMobile is positioned at the forefront of large, diverse, and rapidly expanding market opportunity as the direct-to-device cellular broadband pioneer. Beyond addressing the connectivity needs of billions of mobile subscribers, we are pursuing a broad range of mission critical applications, including government communications and non-communications, radar, emergency response, Internet of Things, AI edge compute and other advanced connectivity solutions. Our growing commercial and government programs, expansive spectrum portfolio, and fortified balance sheet provide us with the flexibility to capture opportunities across an expanding total addressable market. We are continuing to scale our network, advance vertical integration, and secure additional access to orbit to take advantage of the growing number of opportunities in front of us.",
+      "period": "Q2 2026 business update, 2026-08-10",
+      "unit": "verbatim management statement",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1",
+      "location": "Opening CEO remarks",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "item": "Total revenue",
+      "value": {
+        "from": 1156,
+        "to": 31520,
+        "reported_dollar_change": 30364
+      },
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.31 Results of Operations comparative table",
+      "confidence": "high"
+    },
+    {
+      "item": "Total operating expenses",
+      "value": {
+        "from": 73953,
+        "to": 329097,
+        "reported_dollar_change": 255144
+      },
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.31 Results of Operations comparative table",
+      "confidence": "high"
+    },
+    {
+      "item": "Total operating expenses",
+      "value": {
+        "from": 164.1,
+        "to": 329.1,
+        "reported_increase": 165.0
+      },
+      "period": "Q1 2026 to Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1",
+      "location": "Second Quarter 2026 Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "item": "Adjusted operating expenses",
+      "value": {
+        "from": 91.2,
+        "to": 119.1,
+        "reported_increase": 27.9
+      },
+      "period": "Q1 2026 to Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1",
+      "location": "Second Quarter 2026 Financial Highlights",
+      "confidence": "high"
+    },
+    {
+      "item": "Purchase of property and equipment",
+      "value": {
+        "from": 430622,
+        "to": 859215,
+        "reported_increase": 428.6
+      },
+      "period": "Six months ended 2025-06-30 to six months ended 2026-06-30",
+      "unit": "USD thousand for from/to; USD million for reported increase",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.40 Historical Cash Flows — Investing activities",
+      "confidence": "high"
+    },
+    {
+      "item": "BB7 satellite involuntary conversion",
+      "value": {
+        "event": "BB7 was placed into a lower than planned orbit on 2026-04-19 and was de-orbited",
+        "insurance_recoveries": 32.5,
+        "net_loss_associated_with_event": 125.9
+      },
+      "period": "Q2 2026",
+      "unit": "USD million for monetary values",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 4 Property and Equipment",
+      "confidence": "high"
+    },
+    {
+      "item": "Revenue backlog",
+      "value": 1.30,
+      "period": "Q2 2026 business update",
+      "unit": "USD billion approximately",
+      "source": "2026 Q2 Form 8-K / Exhibit 99.1 / Business Update",
+      "location": "Business Update — revenue backlog",
+      "confidence": "high"
+    }
+  ],
+  "risk_related_new_disclosures": [
+    {
+      "value": "As of June 30, 2026, there have been no material changes from the risk factors previously disclosed in Part I, Item 1A. Risk Factors included in our Annual Report on Form 10-K for the year ended December 31, 2025.",
+      "period": "As of 2026-06-30",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A. Risk Factors, p.45",
+      "confidence": "high"
+    },
+    {
+      "value": "Inmarsat's appeal of the Bankruptcy Court's ruling requiring Inmarsat to provide regulatory support remains pending and, if that ruling is overturned on appeal, this could impair our ability to obtain regulatory approval for the Spectrum Usage Rights Transaction.",
+      "period": "Q2 2026 current-period disclosure",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Liquidity and Capital Resources — Spectrum Usage Rights Transaction and Related Financing",
+      "confidence": "high"
+    },
+    {
+      "value": "No assurance can be provided that the Spectrum Usage Rights Transaction will be consummated or that the related financing will be disbursed. The Spectrum Usage Rights Transaction and the disbursement of the related financing are subject to a number of conditions, including regulatory approval. Moreover, even if the Spectrum Usage Rights Transaction is consummated, the benefits of the transaction will be subject to, among other things, integration, technology and regulatory risks. The Spectrum Usage Rights Transaction may significantly increase our indebtedness and our annual required cash spend.",
+      "period": "Q2 2026 current-period disclosure",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Liquidity and Capital Resources — Spectrum Usage Rights Transaction and Related Financing",
+      "confidence": "high"
+    }
+  ]
+}
