@@ -1,0 +1,569 @@
+{
+  "ticker": "MELI",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "Q2 2026 ended 2026-06-30",
+  "source_documents": [
+    {
+      "document": "2025 Form 10-K",
+      "accession": "0001099590-26-000006",
+      "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2Qvc2VjLzAwMDEwOTk1OTAvMDAwMTA5OTU5MC0yNi0wMDAwMDYvZm9ybTEwLUstMDAwMTA5OTU5MC0yNi0wMDAwMDYucGRm",
+      "period": "FY2025 ended 2025-12-31",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Q2 Form 8-K and Exhibit 99.1 Shareholder Letter",
+      "accession": "0001099590-26-000021",
+      "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2Qvc2VjLzAwMDEwOTk1OTAvMDAwMTA5OTU5MC0yNi0wMDAwMjEvZm9ybTgtSy0wMDAxMDk5NTkwLTI2LTAwMDAyMS5wZGY",
+      "period": "Q2 2026",
+      "access_note": "Investor-relations PDF returned access error during extraction; same SEC accession filing and Exhibit 99.1 were read from SEC EDGAR without supplementing from unrelated sources.",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 DEFA14A",
+      "accession": "0001099590-26-000011",
+      "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2Qvc2VjLzAwMDEwOTk1OTAvMDAwMTA5OTU5MC0yNi0wMDAwMTEvZm9ybURFRkExNEEtMDAwMTA5OTU5MC0yNi0wMDAwMTEucGRm",
+      "period": "Filed 2026-04-23",
+      "requested_field_extraction": "no requested financial or guidance fields extracted",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Form 3",
+      "accession": "0001628280-26-045860",
+      "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2Qvc2VjLzAwMDEwOTk1OTAvMDAwMTYyODI4MC0yNi0wNDU4NjAvZm9ybUZvcm0tMy0wMDAxNjI4MjgwLTI2LTA0NTg2MC5wZGY",
+      "period": "Period of report 2026-06-17",
+      "requested_field_extraction": "no requested financial or guidance fields extracted",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Q2 Form 10-Q",
+      "accession": "0001099590-26-000023",
+      "source_url": "https://investor.mercadolibre.com/open-file?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2Qvc2VjLzAwMDEwOTk1OTAvMDAwMTA5OTU5MC0yNi0wMDAwMjMvZm9ybTEwLVEtMDAwMTA5OTU5MC0yNi0wMDAwMjMucGRm",
+      "period": "Q2 2026 ended 2026-06-30",
+      "access_note": "Investor-relations PDF returned access error during extraction; same SEC accession filing was read from SEC EDGAR without supplementing from unrelated sources.",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 10169,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Interim Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 19014,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Interim Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 28893,
+      "period": "FY2025 ended 2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.78 Consolidated Statements of Income",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 683,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Interim Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 1294,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Interim Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 3201,
+      "period": "FY2025 ended 2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.78 Consolidated Statements of Income",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": 6.7,
+      "period": "Q2 2026",
+      "unit": "percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.1 headline financial results; p.5 Consolidated Financial Results",
+      "confidence": "high"
+    },
+    {
+      "value": 6.9,
+      "period": "Q1 2026",
+      "unit": "percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.5 Consolidated Financial Results sequential comparison",
+      "confidence": "high"
+    },
+    {
+      "value": 11.1,
+      "period": "FY2025 ended 2025-12-31",
+      "unit": "percent",
+      "source": "2025 Form 10-K",
+      "location": "p.46 Operating income margins",
+      "confidence": "high"
+    }
+  ],
+  "net_income": [
+    {
+      "value": 466,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Interim Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 883,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.2 Interim Condensed Consolidated Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "value": 1997,
+      "period": "FY2025 ended 2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.78 Consolidated Statements of Income",
+      "confidence": "high"
+    }
+  ],
+  "fcf": [
+    {
+      "value": 214,
+      "period": "Q2 2026",
+      "unit": "USD million",
+      "metric": "Adjusted free cash flow",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.6 Looking ahead paragraph",
+      "confidence": "high"
+    },
+    {
+      "value": 158,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD million",
+      "metric": "Adjusted free cash flow",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.58 Adjusted free cash flow reconciliation",
+      "confidence": "high"
+    },
+    {
+      "value": 512,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD million",
+      "metric": "Adjusted free cash flow",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.58 Adjusted free cash flow reconciliation",
+      "confidence": "high"
+    },
+    {
+      "value": 1481,
+      "period": "FY2025 ended 2025-12-31",
+      "unit": "USD million",
+      "metric": "Adjusted free cash flow",
+      "source": "2025 Form 10-K",
+      "location": "p.61 Adjusted free cash flow reconciliation",
+      "confidence": "high"
+    }
+  ],
+  "capex": [
+    {
+      "value": 441,
+      "period": "Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.7 Key performance metrics",
+      "confidence": "high"
+    },
+    {
+      "value": 712,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.54 Capital expenditures; p.55 key performance metrics",
+      "confidence": "high"
+    },
+    {
+      "value": 543,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.54 Capital expenditures; p.55 key performance metrics",
+      "confidence": "high"
+    },
+    {
+      "value": 1327,
+      "period": "FY2025 ended 2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.56 Capital expenditures",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 3649,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.11 Note 3 — Cash and cash equivalents",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_cash_equivalents_restricted_cash_and_cash_equivalents",
+      "value": 16763,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.11 Note 3 — Cash and cash equivalents",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_loans_payable_and_other_financial_liabilities",
+      "value": 6482,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Interim Condensed Consolidated Balance Sheets; Note 10",
+      "confidence": "high"
+    },
+    {
+      "metric": "noncurrent_loans_payable_and_other_financial_liabilities",
+      "value": 4144,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.1 Interim Condensed Consolidated Balance Sheets; Note 10",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_debt",
+      "value": 13176,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.56 Net debt reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_debt",
+      "value": 6425,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.56 Net debt reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 3670,
+      "period": "2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.76 Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "total_debt",
+      "value": 11392,
+      "period": "2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.59 Net debt reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_debt",
+      "value": 4682,
+      "period": "2025-12-31",
+      "unit": "USD million",
+      "source": "2025 Form 10-K",
+      "location": "p.59 Net debt reconciliation",
+      "confidence": "high"
+    }
+  ],
+  "segment_results": [
+    {
+      "segment": "Brazil",
+      "value": {"net_revenues_and_financial_income": 5530, "direct_contribution": 550},
+      "period": "Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.17 Note 6 — Segments",
+      "confidence": "high"
+    },
+    {
+      "segment": "Mexico",
+      "value": {"net_revenues_and_financial_income": 2337, "direct_contribution": 306},
+      "period": "Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.17 Note 6 — Segments",
+      "confidence": "high"
+    },
+    {
+      "segment": "Argentina",
+      "value": {"net_revenues_and_financial_income": 1839, "direct_contribution": 623},
+      "period": "Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.17 Note 6 — Segments",
+      "confidence": "high"
+    },
+    {
+      "segment": "Other Countries",
+      "value": {"net_revenues_and_financial_income": 463, "direct_contribution": 65},
+      "period": "Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.17 Note 6 — Segments",
+      "confidence": "high"
+    },
+    {
+      "segment": "Commerce",
+      "value": 5762,
+      "period": "Q2 2026",
+      "unit": "USD million revenue",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.18 Note 6 — Revenue disaggregation by similar products and services",
+      "confidence": "high"
+    },
+    {
+      "segment": "Fintech",
+      "value": 4407,
+      "period": "Q2 2026",
+      "unit": "USD million revenue",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.18 Note 6 — Revenue disaggregation by similar products and services",
+      "confidence": "high"
+    },
+    {
+      "segment": "Commerce",
+      "value": 3839,
+      "period": "Q2 2025",
+      "unit": "USD million revenue",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.18 Note 6 — Revenue disaggregation by similar products and services",
+      "confidence": "high"
+    },
+    {
+      "segment": "Fintech",
+      "value": 2951,
+      "period": "Q2 2025",
+      "unit": "USD million revenue",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.18 Note 6 — Revenue disaggregation by similar products and services",
+      "confidence": "high"
+    }
+  ],
+  "guidance": [
+    {
+      "value": "No quantitative revenue, operating income, net income, FCF or CapEx guidance was stated in the supplied Q2 2026 Form 8-K / Exhibit 99.1 shareholder letter.",
+      "period": "Q2 2026 earnings release dated 2026-08-05",
+      "unit": "text",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "Entire shareholder letter; Looking ahead section",
+      "confidence": "high"
+    },
+    {
+      "value": "Management stated that it intends to continue investing at the scale and pace the opportunity demands.",
+      "period": "Q2 2026 earnings release dated 2026-08-05",
+      "unit": "text",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.6 Looking ahead section",
+      "confidence": "high"
+    }
+  ],
+  "management_statements": [
+    {
+      "speaker": "MercadoLibre management — Shareholder Letter",
+      "value": "Income from operations of $683 million declined 17% YoY, with a 6.7% margin that management described as broadly stable QoQ, while prioritizing long-term value creation over short-term profitability.",
+      "period": "Q2 2026",
+      "unit": "management statement",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.1 To our Shareholders",
+      "confidence": "high"
+    },
+    {
+      "speaker": "MercadoLibre management — Shareholder Letter",
+      "value": "Management stated that deeper engagement across Commerce and Fintech is expected to support long-term profitability and cash flow.",
+      "period": "Q2 2026",
+      "unit": "management statement",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.1 To our Shareholders",
+      "confidence": "high"
+    },
+    {
+      "speaker": "MercadoLibre management — Shareholder Letter",
+      "value": "Management said credit card NIMAL is expected to strengthen as newer card cohorts mature.",
+      "period": "Q2 2026",
+      "unit": "management statement",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.4 Credit discussion",
+      "confidence": "high"
+    },
+    {
+      "speaker": "MercadoLibre management — Shareholder Letter",
+      "value": "Management stated that it expects Latin America's digital-economy transformation to play out over decades, not years, and intends to continue investing at the scale and pace of the opportunity.",
+      "period": "Q2 2026",
+      "unit": "management statement",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.6 Looking ahead section",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "item": "Net revenues and financial income",
+      "value": {"from": 6790, "to": 10169, "reported_change_pct": 49.8},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.57 FX neutral reconciliation; p.2 Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "item": "Net revenues and financial income sequential change",
+      "value": {"from": 8845, "to": 10169, "reported_change_pct": 15},
+      "period": "Q1 2026 to Q2 2026",
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.44 sequential quarterly revenue table",
+      "confidence": "high"
+    },
+    {
+      "item": "Income from operations",
+      "value": {"from": 825, "to": 683, "reported_change_pct": -17.3},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.57 FX neutral reconciliation; p.2 Statements of Income",
+      "confidence": "high"
+    },
+    {
+      "item": "Operating margin",
+      "value": {"from": 6.9, "to": 6.7, "management_description": "broadly stable QoQ"},
+      "period": "Q1 2026 to Q2 2026",
+      "unit": "percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.5 Consolidated Financial Results",
+      "confidence": "high"
+    },
+    {
+      "item": "Operating margin YoY",
+      "value": {"to": 6.7, "reported_compression_bps": 550},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "percent; basis points",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.5 Consolidated Financial Results",
+      "confidence": "high"
+    },
+    {
+      "item": "Net income",
+      "value": {"from": 523, "to": 466, "reported_change_pct": -11},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.6 Consolidated Financial Results",
+      "confidence": "high"
+    },
+    {
+      "item": "Capital expenditures",
+      "value": {"from": 287, "to": 441},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1 Shareholder Letter",
+      "location": "p.7 key performance metrics",
+      "confidence": "high"
+    },
+    {
+      "item": "Commerce revenue",
+      "value": {"from": 3839, "to": 5762, "reported_change_pct": 50.0},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.18 Note 6; p.43 MD&A",
+      "confidence": "high"
+    },
+    {
+      "item": "Fintech revenue",
+      "value": {"from": 2951, "to": 4407, "reported_change_pct": 49.4},
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.18 Note 6; p.43 MD&A",
+      "confidence": "high"
+    }
+  ],
+  "risk_new_disclosures": [
+    {
+      "value": "As of June 30, 2026, there were no material changes in the risk factors from those disclosed in the 2025 Form 10-K.",
+      "period": "As of 2026-06-30",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.63 Part II Item 1A — Risk Factors",
+      "confidence": "high"
+    },
+    {
+      "value": {"probable_proceeding_related_liabilities_net_of_judicial_deposits": 172, "reasonably_possible_legal_actions_estimated_aggregate_loss_up_to": 622},
+      "period": "As of 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "pp.23-24 Note 8 — Commitments and Contingencies, Litigation and Other Legal Matters",
+      "confidence": "high"
+    },
+    {
+      "value": "In May 2026, specified Brazilian subsidiaries entered new intercompany IT and management service agreements with MercadoLibre S.R.L. and initiated new writs of mandamus on May 31, 2026 regarding Brazilian withholding tax. Management assessed the risk of losing at the 10% rate as probable and at the 15% rate as reasonably possible but not probable.",
+      "period": "Q2 2026 update",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.24 Note 8 — Tax Claims, Withholding Tax in the Brazil-Argentina Double Taxation Convention",
+      "confidence": "high"
+    },
+    {
+      "value": {"provision_for_disputed_amounts": 632, "judicial_deposits": 593, "reasonably_possible_differential_rate_amount": 3},
+      "period": "As of 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.24 Note 8 — Tax Claims, Withholding Tax in the Brazil-Argentina Double Taxation Convention",
+      "confidence": "high"
+    },
+    {
+      "value": "In June 2026, Brazil's Superior Court of Justice ruled against taxpayers under Theme 1369 regarding ICMS-DIFAL on interstate transactions involving goods acquired for consumption or fixed assets. The Company stated it was awaiting publication of the full decision to evaluate potential financial impacts.",
+      "period": "June 2026 update",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.24 Note 8 — Interstate rate of ICMS-DIFAL over fixed assets",
+      "confidence": "high"
+    },
+    {
+      "value": {"disputed_amount_exclusion_of_ICMS_tax_benefits": 152},
+      "period": "As of 2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.25 Note 8 — Exclusion of ICMS tax benefits from federal taxes base",
+      "confidence": "high"
+    }
+  ]
+}
