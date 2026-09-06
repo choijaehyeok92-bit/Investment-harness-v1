@@ -1,0 +1,120 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-09-05",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "S3 pp.4-5: Q2 구독매출 3,877M, CC +23%; AI ACV 1B 초과. IT·직원·고객·보안 업무를 실행하는 계층의 구조적 성장."
+      ],
+      "counter_evidence": [
+        "S3 p.8: 연방정부 온프레미스 매출 선인식과 인수 효과 때문에 Q2 성장률을 유기적 장기 성장률로 외삽할 수 없다."
+      ],
+      "confidence": 0.85,
+      "missing_data": [
+        "인수·환율·시점 효과를 제거한 제품별 성장률"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "S2 pp.37,46: ACV 기반 갱신율 98%, 통상 3년 계약. S3 p.4: 5M ACV 초과 고객 658개, 약23% 증가."
+      ],
+      "counter_evidence": [
+        "갱신율은 NRR이 아니며 존속 고객의 구매 축소를 일반적으로 포착하지 않는다. AI ACV는 인식매출·수금이 아니다."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "고객 독립 검증 ROI 및 AI 고객 코호트 NRR"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "evidence": [
+        "S2 갱신/장기 계약 및 S7 Siemens의 워크플로 통합은 전환비용과 실행 기반의 존속을 지지한다."
+      ],
+      "counter_evidence": [
+        "S8 Microsoft connector가 외부 UI에서도 NOW 기록을 다룰 수 있음을 확인. 경쟁/보완 양면성; AI 오케스트레이션 가격결정력 강화는 미입증."
+      ],
+      "confidence": 0.71,
+      "missing_data": [
+        "AI 경쟁 승패·가격/사용량·단위 추론비용"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "evidence": [
+        "S1/S2 계산: FY23~25 OCF-capex-SBC 1,100→1,669→2,621M, 기본 주당 약1.08→1.62→2.53달러."
+      ],
+      "counter_evidence": [
+        "H1 owner proxy 1,029→803M(-22%); 인수 포함 incremental ROIC unknown. TTM 확장 owner proxy 2,372M, 순이익·조정 FCF와 구별."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "인수별 세후 현금수익률 및 15% 시작/24% 만기 마진의 실제 달성"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "S4: 독립 선임이사, 상대 TSR 조정 성과보상; S2: 2B ASR 평균107.97달러, H1 주식 수 감소."
+      ],
+      "counter_evidence": [
+        "S2: H1 인수 순현금 8,776M와 환매 2,225M; 부채 원금7,600M. S4 보상은 ACV·비GAAP·매출 중심으로 주당 현금수익과 차이."
+      ],
+      "confidence": 0.77,
+      "missing_data": [
+        "Armis/Veza 회수기간·SBC 2029년 매출10% 미만 목표 이행"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "S2: 유동 금융자산6,707M, TTM OCF5,308M, 미인출 revolver3,000M; 공시상 covenant 준수."
+      ],
+      "counter_evidence": [
+        "CP2,100M 평균잔존81일, 순부채893M; 인수 후 현금·이자수입 감소. 전략투자2,073M는 현금성 자산에서 제외."
+      ],
+      "confidence": 0.87,
+      "missing_data": [
+        "CP 차환 현황, 인수 통합 스트레스와 현금이자 연간화"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 10,
+      "max_score": 15,
+      "evidence": [
+        "9% 할인, 만기 owner margin24%/23배에서 가격은 10년 매출 CAGR12.41% 요구. Base16% 가정 가치188.18달러."
+      ],
+      "counter_evidence": [
+        "시작15%/만기24% 마진은 추정. Base 가치77.9%가 잔존가치이고 9% 요구수익률은 불확실성 소거가 아니다."
+      ],
+      "confidence": 0.64,
+      "missing_data": [
+        "owner margin 검증과 유기적 장기 성장 지속"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "Bull22%/28%/28배에서409.78달러, 기준가 대비+190.1%; 실행·보안·직원 서비스 확장 여지."
+      ],
+      "counter_evidence": [
+        "Bear58.49(-58.6%), 구조적 손실18.75(-86.7%). 대형 시총에서 Bull은10년 매출7.30배를 요구; 성공확률 unknown."
+      ],
+      "confidence": 0.6,
+      "missing_data": [
+        "AI 경제성의 독립 검증 및 꼬리위험 빈도"
+      ]
+    }
+  },
+  "total_score": 72,
+  "classification": "Starter / Watch"
+}

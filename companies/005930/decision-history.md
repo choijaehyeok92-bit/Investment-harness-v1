@@ -478,3 +478,9 @@ Only one item remains open across the whole file: the **`moat_trajectory` re-sco
 after Q4 2026** — decompose the 21%→33% HBM share move into Samsung advance versus
 SK hynix retreat, discounted for the +220% ASP environment in which all capacity
 cleared. Every valuation input is now resolved.
+
+## 2026-09-05 — Astra 재심사
+
+- 과거: 69; 현재: 68/100, WATCH, INVESTIGATE, 포지션 밴드 NONE.
+- DS 마진의 전년·전전년 대비 급등은 기술 우위와 메모리 가격효과를 분리해야 한다. Capex와 R&D 지출 합계는 투입액이지 증분 ROIC 자체가 아니므로 재투자 점수를 13→12로 조정한다.
+- [현재 재평가](re-evaluation-2026-09-05.md). 이전 판정은 역사이며 주문·거래는 실행하지 않았다.

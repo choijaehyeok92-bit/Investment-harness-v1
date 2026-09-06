@@ -11,7 +11,7 @@
         "Recent Form 4 tax-withholding dispositions are explicitly identified as such; the President's discretionary sale was under a disclosed 10b5-1 plan."
       ],
       "severity": "LOW",
-      "confidence": 0.88,
+      "confidence": 0.76,
       "resolution_needed": null
     },
     {
@@ -22,7 +22,7 @@
         "Axon used debt and ATM equity for acquisitions, investments and tax obligations, but this does not yet appear to be a structurally necessary funding model for core operations."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.78,
+      "confidence": 0.76,
       "resolution_needed": null
     },
     {
@@ -34,7 +34,7 @@
         "Axon sold approximately 0.2 million shares through its ATM in Q2 2026 and had about 1.0 million ATM shares remaining."
       ],
       "severity": "HIGH",
-      "confidence": 0.96,
+      "confidence": 0.76,
       "resolution_needed": "Demonstrate that annual net dilution falls toward low-single digits or below as XSP/CEO award amortization matures and that per-share FCF growth outpaces dilution."
     },
     {
@@ -45,7 +45,7 @@
         "Software & Services grew 36% with software-only gross margin above 80%."
       ],
       "severity": "LOW",
-      "confidence": 0.94,
+      "confidence": 0.76,
       "resolution_needed": null
     },
     {
@@ -67,7 +67,7 @@
         "Competition remains material in nearly every adjacent category."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.88,
+      "confidence": 0.76,
       "resolution_needed": null
     },
     {
@@ -78,7 +78,7 @@
         "Reverse valuation implies roughly 18%-20% annual revenue growth for a decade under still-strong terminal economics."
       ],
       "severity": "HIGH",
-      "confidence": 0.88,
+      "confidence": 0.76,
       "resolution_needed": "Either valuation must compress materially or evidence must support a credible path to sustained high-teens revenue growth with 20%+ owner-FCF margin and contained dilution."
     },
     {
@@ -88,7 +88,7 @@
         "U.S. revenue is concentrated at 81% of first-half 2026 revenue, but the company is diversified across TASER, sensors, platform solutions and software/services with no identified single-customer dependency."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.85,
+      "confidence": 0.76,
       "resolution_needed": null
     },
     {
@@ -99,7 +99,7 @@
         "Primary permanent-loss risk is valuation compression combined with dilution and acquisition misallocation rather than solvency."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.90,
+      "confidence": 0.76,
       "resolution_needed": null
     }
   ]

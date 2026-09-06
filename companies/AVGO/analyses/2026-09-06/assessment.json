@@ -1,0 +1,449 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "AVGO",
+  "company_name": "Broadcom",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "companies/AVGO/decision-history.md",
+    "companies/AVGO/decision.json",
+    "companies/AVGO/evidence.jsonl",
+    "companies/AVGO/hard-veto.json",
+    "companies/AVGO/re-evaluation-2026-09-05.md",
+    "companies/AVGO/red-team.md",
+    "companies/AVGO/scorecard.json",
+    "companies/AVGO/thesis.md",
+    "companies/AVGO/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 3,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    }
+  ],
+  "historical_score_100": 71,
+  "review_method": "저장 증거 재검토; 신규 원문 전체 재실사 아님",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "confidence": 0.7999999999999999,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: AI 반도체 성장과 공식 Q3 실적 확인: 13→14."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다.",
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "Q3 FY2026 GAAP income statement and segment detail — only headline revenue and adjusted EPS are public as of this analysis",
+        "XPU programme backlog by customer",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "confidence": 0.75,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 소프트웨어 매출 +29%는 두 번째 고객가치 축의 반증 가능한 지지 근거: 8→9."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다.",
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "Identity of the 42% distributor and the end customers behind it",
+        "XPU programme win/loss record at generational transitions",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "confidence": 0.65,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 유통업체/최종고객 혼동을 제거하고 칩·네트워크·소프트웨어의 복수 해자를 반영: 10→12."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다.",
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "Whether the 42% customer relationship is contracted multi-year or order-by-order",
+        "Competitive win rate versus Marvell at recent XPU generations",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 11,
+      "max_score": 15,
+      "confidence": 0.75,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "FY2026 full-year buyback authorisation and pace",
+        "Cash tax rate normalised for the FY2025 benefit",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.65,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "Explanation of the FY2025 tax benefit",
+        "Stated leverage target and buyback framework",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "confidence": 0.7999999999999999,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "Debt maturity schedule detail",
+        "Covenant terms",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "confidence": 0.5,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조.",
+        "기존 5년 연 1.8% 수익과 9% 허들의 불일치, Q3 개선 후에도 완료되지 않은 owner-FCF 역산을 감안해 7→6."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "FY2027 revenue guidance",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+        "Q3 FY2026 GAAP net income and segment detail"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "confidence": 0.5,
+      "evidence": [
+        "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+        "기존 FY2025/H1 공시: 과거 근거는 baseline commit 참조.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      ],
+      "missing_data": [
+        "None material — an arithmetic and concentration constraint",
+        "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/scorecard.json"
+      ]
+    }
+  },
+  "structural_thesis": "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+  "customer_and_moat": "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+  "current_finding": "유통업체 42% 노출과 최종고객 42% 노출을 구별하는 규칙을 ANET에도 일관 적용한다. 세금 일회성·영업권 손상은 그 자체로 회계부정 또는 즉시 현금손실의 증거가 아니다.",
+  "economic_finding": "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다.",
+  "capital_and_survival": "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다.",
+  "next_evidence": "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+  "permanent_loss_case": "AI 투자 감속, 고객 자체 설계 전환과 부채·약정이 결합하는 경우. 영업권 손상은 과거 자본배분 실패의 신호일 수 있으나 그 자체가 현금 유출이나 파산은 아니다.",
+  "falsifiers": [
+    "여러 XPU 프로그램의 재수주 실패와 소프트웨어 고객 이탈이 동시에 나타나 SBC 이후 주당 현금흐름이 정체한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "increase_evidence": [
+    "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
+  ],
+  "sell_evidence": [
+    "여러 XPU 프로그램의 재수주 실패와 소프트웨어 고객 이탈이 동시에 나타나 SBC 이후 주당 현금흐름이 정체한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.55,
+        "resolution_needed": "Obtain the tax-footnote explanation of the FY2025 $397M benefit and confirm it is non-recurring. Use GAAP earnings, not the guided non-GAAP figure, for every valuation test in this file.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.82,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.8,
+        "resolution_needed": "Track whether buybacks are sized to at least offset SBC issuance over the next four quarters. If share count keeps rising through the AI revenue peak, this escalates to HIGH — a company cannot compound FCF per share while issuing net new stock at the top of its cycle.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.8,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "PASS",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.8,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.6,
+        "resolution_needed": "Establish whether XPU programmes are contracted multi-year or re-bid per generation, and track the competitive win rate versus Marvell at the next node transition.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "공식 Q3 FY2026 자료에는 GAAP 재무제표가 있다. 소프트웨어 매출 87.52억 달러(+29%)는 기존 저성장/단일 성장축 판단의 반증이다. 단일 유통업체 매출 42%를 최종고객 1곳의 경제적 수요 42%로 해석한 것도 정정한다.",
+          "비현실적 실행의 범위를 입증하지 못했으며 높은 가격 자체는 FAIL의 충분조건이 아니다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.65,
+        "resolution_needed": "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.82,
+        "resolution_needed": "Identify the 42% distributor and the end customers behind it, and establish whether the underlying XPU programmes are contracted multi-year. This is a disclosure question with a definite answer and it gates any position.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "PASS",
+        "evidence": [
+          "기존 원문·공식 Q3를 재심사한 현재 의견: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+          "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.75,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "HISTORICAL_MODEL_NOT_PROMOTED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+    ],
+    "source_path": "companies/AVGO/valuation.json"
+  },
+  "total_score_100": null,
+  "business_quality_75": 61,
+  "source_quality": {
+    "status": "STORED_ASSERTIONS_AND_INHERITED_RESEARCH",
+    "primary_document_reaudit": "선별 공식 IR 교차검증만 수행. 모든 PDF·웹 원문을 새로 감사했다는 뜻이 아님.",
+    "fact_estimate_inference_opinion": "원자료 숫자=보고 주장; 산식=계산치; 사업 연결=추론; 점수/판정=의견. 미래 전망은 사실 아님.",
+    "missing_data_rule": "unknown을 0·PASS로 대체하지 않으며 자료 결손을 기업 실패로 단정하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "claim_type": "inference",
+        "challenge": "사이클/선투자를 구조적 수요로 오인할 수 있다: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다."
+      },
+      {
+        "id": 2,
+        "claim_type": "inference",
+        "challenge": "시장 확대가 주당 현금으로 귀속되지 않을 수 있다: Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      },
+      {
+        "id": 3,
+        "claim_type": "inference",
+        "challenge": "매출 증가 자체는 해자 확대의 증명이 아니다: Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다."
+      },
+      {
+        "id": 4,
+        "claim_type": "inference",
+        "challenge": "고객 편익의 독립 검증과 경쟁 대안의 총비용 자료가 부족할 수 있다."
+      },
+      {
+        "id": 5,
+        "claim_type": "inference",
+        "challenge": "증분 ROIC는 이익률이 아니라 신규 투입자본 대비 세후 현금수익이다: Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다."
+      },
+      {
+        "id": 6,
+        "claim_type": "inference",
+        "challenge": "SBC·환매·기존 미행사 보상·신주발행을 동일 비용 두 번 차감하거나 모두 누락할 수 있다."
+      },
+      {
+        "id": 7,
+        "claim_type": "inference",
+        "challenge": "경영진의 인수·설비·환원 행동을 진술과 대조해야 한다: Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+      },
+      {
+        "id": 8,
+        "claim_type": "inference",
+        "challenge": "훌륭한 사업 가설을 시장도 이미 알고 있을 수 있다. 현재 가격 기대차이는 별도 입증 대상이다."
+      },
+      {
+        "id": 9,
+        "claim_type": "inference",
+        "challenge": "정상화 owner 마진·지속기간·만기 가치와 현금 시점이 민감도 핵심이다. 미완성 모형은 목표가를 제시하지 않는다."
+      },
+      {
+        "id": 10,
+        "claim_type": "inference",
+        "challenge": "AI 투자 감속, 고객 자체 설계 전환과 부채·약정이 결합하는 경우. 영업권 손상은 과거 자본배분 실패의 신호일 수 있으나 그 자체가 현금 유출이나 파산은 아니다."
+      }
+    ],
+    "strongest_bear_thesis": "AI 투자 감속, 고객 자체 설계 전환과 부채·약정이 결합하는 경우. 영업권 손상은 과거 자본배분 실패의 신호일 수 있으나 그 자체가 현금 유출이나 파산은 아니다.",
+    "three_hidden_assumptions": [
+      "Q3 매출 295.91억 달러, GAAP 영업이익 159.55억 달러, FCF 136.65억 달러. 칩 설계·네트워크와 인프라 소프트웨어 양쪽의 가치 창출을 확인했다.",
+      "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다.",
+      "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+    ],
+    "underweighted_evidence": "유통업체 42% 노출과 최종고객 42% 노출을 구별하는 규칙을 ANET에도 일관 적용한다. 세금 일회성·영업권 손상은 그 자체로 회계부정 또는 즉시 현금손실의 증거가 아니다.",
+    "falsifiers": [
+      "여러 XPU 프로그램의 재수주 실패와 소프트웨어 고객 이탈이 동시에 나타나 SBC 이후 주당 현금흐름이 정체한다.",
+      "중대한 경영진·회계 신뢰 훼손"
+    ],
+    "confidence": 0.55,
+    "verdict": "REVISE",
+    "independence": "단일 분석자의 적대적 재검토; 독립 검토자/멀티 에이전트 합의가 아님"
+  },
+  "completion_gate": {
+    "passed": false,
+    "open_items": [
+      "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+      "시장 기대 역산·현금 브리지 및 Bear/Base/Bull",
+      "전 항목 점수 및 근거 검증"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

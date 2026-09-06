@@ -1,3 +1,7 @@
+> 최신: [2026-09-06 하네스 최적화·93개 종목 재검토](reviews/2026-09-06-harness/README.md). 원자료 전용 24개 포함. 정밀 완료 1개·부분 분석 34개·예비 검토 58개이며, 93개 정밀실사 완료가 아닙니다. [현재 종목 인덱스](registry/companies.json)와 [새 구조 사용법](docs/HARNESS_V2.md)을 따릅니다.
+>
+> 기존 연구 스냅샷: [2026-09-05 Astra 재평가](reviews/2026-09-05-astra/README.md). 당시 40개 기존 판단 재심사, 50개 예비후보 미심사. 과거 스크리닝 점수·판정을 현재 승인으로 사용하지 마세요.
+
 # Investment Harness v1.1 — Codex + Claude Code
 
 A repository-native harness for long-horizon, expectation-gap, outlier-oriented equity research and screening.
@@ -20,8 +24,8 @@ The system separates company selection from portfolio risk pacing. Macro conditi
 
 1. `screener` — narrow the universe and identify candidates worth deeper work.
 2. `deep-analyst` — assess business quality, structural growth, moat trajectory, reinvestment and management.
-3. `valuation` — reverse-engineer market expectations and build Bear/Base/Bull scenarios.
-4. `hard-veto` — apply non-negotiable rejection/investigation gates.
+3. `hard-veto` — apply non-negotiable rejection/investigation gates.
+4. `valuation` — reverse-engineer market expectations, then build Bear/Base/Bull scenarios.
 5. `red-team` — attack the thesis, surface falsifiers, and challenge key assumptions.
 6. `portfolio-monitor` — assign status/position band and maintain the evidence ledger over time.
 

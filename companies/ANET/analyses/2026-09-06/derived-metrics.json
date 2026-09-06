@@ -1,0 +1,16 @@
+[
+  {
+    "label": "H1 OCF 증가율",
+    "operation": "growth",
+    "inputs": [
+      "obs-bb79fc60ea8ea4434a21",
+      "obs-e91427a6052a7cacc4a3"
+    ],
+    "accounting_scope": "consolidated, cash statement for OCF; no parent/finance/free-cash reinterpretation",
+    "comparability_note": "동일 연결 지표의 H1/H1 또는 Q2/Q2 비교. FY 분할·분기 연율화 아님. APR는 원자료의 재작성 비교열.",
+    "limitation": "산술 진단이며 증분 ROIC·내재가치·owner FCF 전체를 뜻하지 않음.",
+    "value": 0.5074926702139211,
+    "claim_type": "estimate",
+    "method_status": "CALCULATED_FROM_REPORTED_ASSERTIONS"
+  }
+]

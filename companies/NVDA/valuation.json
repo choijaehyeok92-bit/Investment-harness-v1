@@ -1,37 +1,210 @@
 {
   "ticker": "NVDA",
-
   "as_of": "2026-09-03",
   "current_price": 227.23,
   "implied_expectations": {
-    "market_price_timestamp_utc": "2026-09-03T16:54:51Z",
-    "market_cap_billions": 5518.28,
-    "starting_ttm_revenue_billions": 302.97,
-    "starting_ttm_operating_income_billions": 197.579,
-    "starting_ttm_operating_margin_pct": 65.21,
-    "starting_ttm_operating_cash_flow_billions": 134.36,
-    "starting_ttm_capex_and_asset_principal_billions": 7.474,
-    "starting_ttm_fcf_billions": 126.886,
-    "starting_ttm_fcf_margin_pct": 41.88,
-    "common_shares_outstanding_billions": 24.147,
-    "cash_and_marketable_debt_securities_billions": 56.586,
-    "publicly_held_equity_securities_billions": 47.74,
-    "total_debt_billions": 33.366,
-    "net_financial_assets_before_nonmarketable_securities_billions": 70.96,
-    "nonmarketable_and_equity_method_securities_billions": 51.157,
-    "central_reverse_dcf_discount_rate_pct": 9,
-    "central_reverse_dcf_terminal_growth_pct": 3,
-    "implied_revenue_cagr_10y_by_terminal_fcf_margin_pct": {
-      "35_pct_margin": 17.07,
-      "40_pct_margin": 15.53,
-      "45_pct_margin": 14.18
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "market_price_timestamp_utc": "2026-09-03T16:54:51Z",
+      "market_cap_billions": 5518.28,
+      "starting_ttm_revenue_billions": 302.97,
+      "starting_ttm_operating_income_billions": 197.579,
+      "starting_ttm_operating_margin_pct": 65.21,
+      "starting_ttm_operating_cash_flow_billions": 134.36,
+      "starting_ttm_capex_and_asset_principal_billions": 7.474,
+      "starting_ttm_fcf_billions": 126.886,
+      "starting_ttm_fcf_margin_pct": 41.88,
+      "common_shares_outstanding_billions": 24.147,
+      "cash_and_marketable_debt_securities_billions": 56.586,
+      "publicly_held_equity_securities_billions": 47.74,
+      "total_debt_billions": 33.366,
+      "net_financial_assets_before_nonmarketable_securities_billions": 70.96,
+      "nonmarketable_and_equity_method_securities_billions": 51.157,
+      "central_reverse_dcf_discount_rate_pct": 9,
+      "central_reverse_dcf_terminal_growth_pct": 3,
+      "implied_revenue_cagr_10y_by_terminal_fcf_margin_pct": {
+        "35_pct_margin": 17.07,
+        "40_pct_margin": 15.53,
+        "45_pct_margin": 14.18
+      },
+      "equivalent_constant_fcf_cagr_10y_pct": 15.02,
+      "interpretation": "현재 가격은 Q2의 비정상적으로 높은 수익성을 장기간 유지하면서 매출 또는 FCF가 약 15% 내외로 10년 성장하는 미래를 요구한다. 이는 불가능한 Bull Case는 아니지만 경쟁, 고객 신용, 공급 약정과 수출통제 위험을 충분히 할인한 가격도 아니다."
     },
-    "equivalent_constant_fcf_cagr_10y_pct": 15.02,
-    "interpretation": "현재 가격은 Q2의 비정상적으로 높은 수익성을 장기간 유지하면서 매출 또는 FCF가 약 15% 내외로 10년 성장하는 미래를 요구한다. 이는 불가능한 Bull Case는 아니지만 경쟁, 고객 신용, 공급 약정과 수출통제 위험을 충분히 할인한 가격도 아니다."
+    "current_findings": [
+      "서로 다른 76점 WATCH와 75점 STARTER를 하나의 판정으로 복구한다. 새 점수 73, WATCH. 플랫폼 우위는 유지되지만 고객 금융지원·공급약정과 큰 기준 지분가치가 비대칭을 제한한다.",
+      "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+    ],
+    "current_model_limit": "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+    "uniform_hurdle_diagnostic": {
+      "ticker": "NVDA",
+      "reference_price": 227.23,
+      "hurdle_rate": 0.09,
+      "terminal_company_fcf_growth": 0.03,
+      "as_of": "2026-09-05",
+      "model_status": "DIAGNOSTIC_NOT_OWNER_FCFE_COMPLETE",
+      "source_commit": "f09c7b0",
+      "source_path": "companies/NVDA/valuation.json",
+      "starting_revenue_usd_b": 302.97,
+      "starting_reported_fcf_margin": 0.4188,
+      "starting_shares_b": 24.3,
+      "net_financial_assets_usd_b": 70.96,
+      "method_changes": [
+        "All three cases use US 9% discount rate and 3% terminal company-FCF growth.",
+        "Unlisted investments excluded; inherited liquid financial assets are a proxy, not all proven excess cash.",
+        "No free negative dilution. Positive dilution continues in the terminal period.",
+        "Reported-FCF compensation/repurchase/interest-income bridge is incomplete; outputs are diagnostic, not actionable fair values."
+      ],
+      "scenarios": {
+        "bear": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.25,
+            0.15,
+            0.1,
+            0.08,
+            0.06,
+            0.04,
+            0.04,
+            0.04,
+            0.04,
+            0.04
+          ],
+          "fcf_margin_path": [
+            0.40892,
+            0.39904,
+            0.38916,
+            0.37928,
+            0.3694,
+            0.35952,
+            0.34964,
+            0.33976,
+            0.32988,
+            0.32
+          ],
+          "annual_positive_dilution": 0.0,
+          "terminal_per_share_growth": 0.030000000000000027,
+          "annual_fcf_per_share_usd": [
+            6.372967716049383,
+            7.15183750617284,
+            7.6722383527777795,
+            8.07565188466667,
+            8.337203529233337,
+            8.438784703148805,
+            8.535152845330733,
+            8.625728383362182,
+            8.709893719883615,
+            8.786991117913386
+          ],
+          "terminal_value_per_share_usd": 150.84334752417988,
+          "diagnostic_present_value_per_share_usd": 117.32007575296797,
+          "value_to_reference_price": 0.51630539872802,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        },
+        "base": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.32,
+            0.26,
+            0.21,
+            0.17,
+            0.13,
+            0.085,
+            0.085,
+            0.085,
+            0.085,
+            0.085
+          ],
+          "fcf_margin_path": [
+            0.41492,
+            0.41104,
+            0.40716,
+            0.40328,
+            0.3994,
+            0.39552,
+            0.39164,
+            0.38776,
+            0.38388,
+            0.38
+          ],
+          "annual_positive_dilution": 0.0,
+          "terminal_per_share_growth": 0.030000000000000027,
+          "annual_fcf_per_share_usd": [
+            6.828599685925926,
+            8.523577544533333,
+            10.216174576608001,
+            11.839019779466879,
+            13.249380293861709,
+            14.235925037064545,
+            15.29445561398871,
+            16.430081830597196,
+            17.64826206221805,
+            18.95482559198839
+          ],
+          "terminal_value_per_share_usd": 325.39117266246745,
+          "diagnostic_present_value_per_share_usd": 219.92800215416497,
+          "value_to_reference_price": 0.9678651681299344,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        },
+        "bull": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.4,
+            0.35,
+            0.3,
+            0.25,
+            0.2,
+            0.12,
+            0.12,
+            0.12,
+            0.12,
+            0.12
+          ],
+          "fcf_margin_path": [
+            0.41992,
+            0.42104,
+            0.42216,
+            0.42328,
+            0.4244,
+            0.42552,
+            0.42664,
+            0.42776,
+            0.42888,
+            0.43
+          ],
+          "annual_positive_dilution": 0.0,
+          "terminal_per_share_growth": 0.030000000000000027,
+          "annual_fcf_per_share_usd": [
+            7.329729520987655,
+            9.921526906666669,
+            12.932294648000001,
+            16.20825539666667,
+            19.50137098,
+            21.899175742080004,
+            24.591633904947212,
+            27.614933896216584,
+            31.00970635715938,
+            34.82156916062292
+          ],
+          "terminal_value_per_share_usd": 597.7702705906938,
+          "diagnostic_present_value_per_share_usd": 373.9990246255786,
+          "value_to_reference_price": 1.6459051385185874,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        }
+      }
+    }
   },
   "scenarios": {
     "bear": {
-      "revenue_growth_pct_years_1_to_5": [25, 15, 10, 8, 6],
+      "revenue_growth_pct_years_1_to_5": [
+        25,
+        15,
+        10,
+        8,
+        6
+      ],
       "revenue_growth_pct_years_6_to_10": 4,
       "terminal_fcf_margin_pct": 32,
       "discount_rate_pct": 10.5,
@@ -42,10 +215,17 @@
       "year_10_fcf_billions": 213.5,
       "estimated_value_per_share": 92,
       "return_vs_current_price_pct": -59.5,
-      "description": "AI 인프라 선구매가 정상화되고 자체 ASIC·경쟁 GPU가 가격을 압박하며, 고객지원 약정과 재고비용으로 FCF 마진이 32%까지 낮아진다."
+      "description": "AI 인프라 선구매가 정상화되고 자체 ASIC·경쟁 GPU가 가격을 압박하며, 고객지원 약정과 재고비용으로 FCF 마진이 32%까지 낮아진다.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
-      "revenue_growth_pct_years_1_to_5": [32, 26, 21, 17, 13],
+      "revenue_growth_pct_years_1_to_5": [
+        32,
+        26,
+        21,
+        17,
+        13
+      ],
       "revenue_growth_pct_years_6_to_10": 8.5,
       "terminal_fcf_margin_pct": 38,
       "discount_rate_pct": 9,
@@ -56,10 +236,17 @@
       "year_10_fcf_billions": 460.6,
       "estimated_value_per_share": 221,
       "return_vs_current_price_pct": -2.7,
-      "description": "Blackwell과 Rubin 수요가 확장되되 성장률은 점진적으로 둔화하고, 공급·클라우드 약정 때문에 FCF 마진은 현재보다 낮은 38%로 정상화한다."
+      "description": "Blackwell과 Rubin 수요가 확장되되 성장률은 점진적으로 둔화하고, 공급·클라우드 약정 때문에 FCF 마진은 현재보다 낮은 38%로 정상화한다.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
-      "revenue_growth_pct_years_1_to_5": [40, 35, 30, 25, 20],
+      "revenue_growth_pct_years_1_to_5": [
+        40,
+        35,
+        30,
+        25,
+        20
+      ],
       "revenue_growth_pct_years_6_to_10": 12,
       "terminal_fcf_margin_pct": 43,
       "discount_rate_pct": 8.5,
@@ -70,11 +257,15 @@
       "year_10_fcf_billions": 846.2,
       "estimated_value_per_share": 447,
       "return_vs_current_price_pct": 96.7,
-      "description": "에이전트·추론·물리 AI가 거대한 신규 컴퓨팅 수요를 만들고 CUDA·네트워킹·시스템 해자가 유지되어 높은 성장과 FCF 마진이 함께 지속된다."
+      "description": "에이전트·추론·물리 AI가 거대한 신규 컴퓨팅 수요를 만들고 CUDA·네트워킹·시스템 해자가 유지되어 높은 성장과 FCF 마진이 함께 지속된다.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
-    "estimated_value_range_per_share": [65, 105],
+    "estimated_value_range_per_share": [
+      65,
+      105
+    ],
     "drivers": [
       "최종 고객 AI 수익화보다 인프라 선구매와 NVIDIA 지원이 수요를 앞당긴 것으로 확인",
       "대형 고객 자체 가속기와 경쟁 GPU 확산으로 가격·시장점유율·총마진이 동시 하락",
@@ -92,149 +283,5 @@
     "probability_weighted_value_per_share": 227.5,
     "expected_upside_vs_current_price_pct": 0.1
   },
-  "notes": "모든 시나리오는 사실이 아닌 추정이다. DCF는 10년 명시기간과 연말 현금흐름 할인을 사용하고, 시작 FCF는 회사 정의에 맞춰 TTM 영업현금흐름에서 유형·무형자산 취득과 관련 원금지급을 차감했다. 시나리오별 FCF 마진은 현재 41.88%에서 10년 차 목표까지 선형 이동한다. 순금융자산에는 현금, 시장성 채무·공개 지분증권에서 차입금을 뺀 710억 달러를 반영했고, 비시장성·지분법 증권 512억 달러는 25%/50%/75%만 인정했다. 4,220억 달러 미래약정과 최대 1,085억 달러 보증은 부채로 단순 합산하지 않고 시나리오 마진·할인율에 반영했다. 현재가는 장중 스냅샷이므로 거래 전에 재확인해야 한다."
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): 모든 시나리오는 사실이 아닌 추정이다. DCF는 10년 명시기간과 연말 현금흐름 할인을 사용하고, 시작 FCF는 회사 정의에 맞춰 TTM 영업현금흐름에서 유형·무형자산 취득과 관련 원금지급을 차감했다. 시나리오별 FCF 마진은 현재 41.88%에서 10년 차 목표까지 선형 이동한다. 순금융자산에는 현금, 시장성 채무·공개 지분증권에서 차입금을 뺀 710억 달러를 반영했고, 비시장성·지분법 증권 512억 달러는 25%/50%/75%만 인정했다. 4,220억 달러 미래약정과 최대 1,085억 달러 보증은 부채로 단순 합산하지 않고 시나리오 마진·할인율에 반영했다. 현재가는 장중 스냅샷이므로 거래 전에 재확인해야 한다."
 }
-=======
-  "as_of": "2026-09-04",
-  "current_price": 226.27,
-  "implied_expectations": {
-    "price_basis": "USD 226.27 — the last reported transaction price in a Form 4 filed 2026-09-02 (director Mark A. Stevens, sales 2026-08-31 to 2026-09-02 at $220.06–$226.27). This is a TIER-1 transacted price, preferred here over a tier-4 aggregator quote. Cross-check: a market-cap aggregator reported $5,240B at 2026-09-01, implying roughly $217/share on 24,100M shares — a 4% difference across sources and dates, immaterial to the conclusion.",
-    "shares_outstanding_millions": 24100,
-    "shares_basis": "FACT (tier-1): 24,100M outstanding at 2026-08-21 per the Q2 FY2027 10-Q cover page.",
-    "market_cap_usd_bn": 5453,
-    "balance_sheet_2026_07_26_usd_m": {
-      "total_assets": 320272,
-      "total_liabilities": 91288,
-      "stockholders_equity": 228984,
-      "cash_and_equivalents": 22443,
-      "publicly_held_equity_securities": 42783,
-      "non_marketable_equity_securities": 47898,
-      "long_term_debt": 32366,
-      "inventory": 31575,
-      "receivables": 63059,
-      "note": "Marketable debt securities were not isolated in this extraction, so total liquidity is understated here."
-    },
-    "earnings_anchors_usd_m": {
-      "fy2024_revenue": 60922,
-      "fy2025_revenue": 130497,
-      "fy2026_revenue": 215938,
-      "h1_fy2027_revenue": 177837,
-      "q2_fy2027_revenue": 96221,
-      "h1_fy2027_revenue_growth_pct": 95.8,
-      "fy2026_operating_income": 130387,
-      "h1_fy2027_operating_income": 117270,
-      "fy2026_net_income": 120067,
-      "h1_fy2027_net_income": 118010,
-      "fy2026_diluted_eps": 4.9,
-      "h1_fy2027_diluted_eps": 4.85,
-      "gross_margin_pct": {
-        "FY2024": 72.7,
-        "FY2025": 75.0,
-        "FY2026": 71.1,
-        "H1_FY2027": 75.0
-      },
-      "fy2026_ocf": 102718,
-      "h1_fy2027_ocf": 74421,
-      "fy2026_capex": 6042,
-      "h1_fy2027_capex": 4434,
-      "annualised_revenue_run_rate": 355674,
-      "annualised_operating_income": 234540,
-      "annualised_reported_net_income": 236020,
-      "annualised_reported_eps": 9.7
-    },
-    "earnings_quality_adjustment": {
-      "h1_gain_on_investments_usd_m": 23707,
-      "history_usd_m": {
-        "FY2024": 238,
-        "FY2025": 1030,
-        "FY2026": 8918,
-        "H1_FY2027": 23707
-      },
-      "explicitly_unrealised_on_public_holdings_usd_m": 12500,
-      "why_it_matters": "Reported H1 net income ($118,010M) EXCEEDS operating income ($117,270M) because of these gains. Roughly 17-20% of reported net income is investment revaluation, not operations.",
-      "core_calculation": "H1 pretax $141,410M less $23,707M investment gain = $117,703M core pretax; taxed at the actual 16.5% effective rate gives core net income of roughly $98,282M for the half, $196,564M annualised, or roughly $8.08 of core annualised EPS.",
-      "core_annualised_eps": 8.08
-    },
-    "multiples": {
-      "pe_on_reported_annualised_eps": 23.3,
-      "pe_on_core_annualised_eps": 28.0,
-      "annualised_fcf_usd_bn": 140.0,
-      "fcf_yield_pct": 2.57,
-      "interpretation": "The headline 23.3x is not demanding for a business growing 96%. The honest figure is 28.0x once circular investment gains are stripped. Neither requires bull-case execution — which is why price_requires_unrealistic_bull_case reads PASS. The risk is duration of the earnings base, not the multiple."
-    },
-    "future_commitments_2026_07_26_usd_bn": {
-      "supply_and_capacity": 279,
-      "cloud_service_agreements": 29,
-      "data_center_leases_not_commenced": 25,
-      "equity_investments": 25,
-      "capital_expenditures": 8,
-      "total": 366,
-      "phasing": {
-        "remainder_FY2027": 120,
-        "FY2028": 100,
-        "FY2029": 98,
-        "FY2030": 16,
-        "FY2031": 10,
-        "FY2032_and_after": 22
-      },
-      "prior_period_comparison": "At 2026-01-25 the 10-K disclosed supply and capacity commitments of $95.2B, cloud service agreements $27B, investment commitments $11.4B and other $3.4B — roughly $137B total. Supply and capacity alone rose 193% in six months.",
-      "why_this_is_the_central_risk": "Supply commitments of $279B equal roughly 78% of annualised revenue and are the real capital commitment of a business whose reported capex is only 2.8% of revenue. The recorded excess-inventory accrual is $2,138M, so the accounts assume full consumption."
-    },
-    "reverse_engineered_requirement": {
-      "method": "Solve for the earnings level that justifies $5,453B at a range of mature multiples, then compare with the current base.",
-      "at_20x": "requires roughly $273B of net income",
-      "at_25x": "requires roughly $218B of net income",
-      "at_30x": "requires roughly $182B of net income",
-      "current_base": "Annualised reported net income $236B; core net income excluding investment gains $197B.",
-      "conclusion": "At 25x the price requires roughly the CURRENT core earnings base to persist, with no growth. At 20x it requires roughly 39% growth in core net income. Unlike the Samsung case, the required level is at or near what the business already earns rather than a multiple of any prior peak. THE EXPECTATION GAP IS POSITIVE, THOUGH THIN — and it depends entirely on the durability of a base built on 90% Data Center concentration and $279B of forward supply commitments."
-    }
-  },
-  "scenarios": {
-    "bear": {
-      "narrative": "AI capex digests. Hyperscaler spending — already exceeding those customers' operating cash flow — pauses or is re-phased. The $279B of supply commitments becomes an excess-inventory and cancellation problem, and the $90.7B equity portfolio marks down simultaneously with the demand it financed. Custom ASIC takes incremental share at the top three customers.",
-      "fy2032_revenue_usd_bn": "200-250",
-      "fy2032_net_income_usd_bn": "80-110",
-      "terminal_multiple": "approximately 22x",
-      "equity_value_usd_bn": "1,760-2,420",
-      "five_year_total_return_pct": "-68 to -56",
-      "note": "Severe but not ruinous — the company stays profitable and self-funding throughout. Note the two risks are correlated, not independent: the same demand pause triggers the supply write-down AND the investment mark-down."
-    },
-    "base": {
-      "narrative": "Accelerated computing keeps compounding but growth normalises from triple digits toward 20-30%. NVIDIA holds the majority of merchant accelerator share while custom silicon takes the price-sensitive tail. Networking attach continues. Gross margin settles in the low 70s.",
-      "fy2032_revenue_usd_bn": "600-750",
-      "fy2032_net_margin_pct": 50,
-      "fy2032_net_income_usd_bn": "300-375",
-      "terminal_multiple": "approximately 20x",
-      "equity_value_usd_bn": "6,000-7,500",
-      "five_year_total_return_pct": "+10 to +45",
-      "note": "Does not require perfect execution — it requires the installed base to keep expanding and NVIDIA to hold, not extend, its position."
-    },
-    "bull": {
-      "narrative": "Accelerated computing becomes the default compute paradigm and the CUDA-plus-NVLink-plus-rack-scale stack holds above 75% of accelerator value. Inference at scale grows faster than training, which favours the installed base. Networking and software become a second and third profit pool.",
-      "fy2032_revenue_usd_bn": "1,000-1,300",
-      "fy2032_net_income_usd_bn": "500-650",
-      "terminal_multiple": "approximately 22x",
-      "equity_value_usd_bn": "11,000-14,300",
-      "five_year_total_return_pct": "+100 to +160"
-    }
-  },
-  "permanent_loss_case": {
-    "definition": "Permanent impairment of more than 70% of capital, not a drawdown.",
-    "required_conditions": "Requires a decisive architectural displacement (custom silicon plus an open software stack breaking CUDA lock-in) combined with the supply commitments crystallising as losses, OR a Taiwan supply disruption removing manufacturing access.",
-    "why_low": "FACT (tier-1): equity $228,984M, liabilities $91,288M against assets $320,272M, H1 operating cash flow $74,421M, capex only 2.8% of revenue. Even the modelled bear leaves the company solidly profitable.",
-    "subjective_probability_pct": "2-3"
-  },
-  "subjective_probabilities": {
-    "bear": 0.3,
-    "base": 0.5,
-    "bull": 0.2,
-    "labelled": "EXPLICITLY SUBJECTIVE — analyst judgement, not derived from data.",
-    "probability_weighted_five_year_total_return_pct": 21.2,
-    "annualised_pct": 3.9,
-    "sensitivity_warning": "Highly sensitive to the bear weight, which is really a judgement about the durability of hyperscaler capex. At bear 0.20 / base 0.50 / bull 0.30 the weighted return rises to roughly +40% total. At bear 0.40 / base 0.45 / bull 0.15 it falls to roughly +6%. The whole verdict sits inside that range."
-  },
-  "expectation_gap_score": 8,
-  "asymmetry_score": 5,
-  "notes": "Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. Every financial input is tier-1 SEC XBRL from the FY2026 10-K and Q2 FY2027 10-Q; the price is a tier-1 Form 4 transacted price. Two material unknowns remain and both are disclosed rather than estimated away: the cancellability terms of the $279B supply commitments, and the share of revenue from entities NVIDIA holds equity in. The asymmetry score is capped structurally — at $5.45T a power-law outcome is arithmetically implausible, so this is a quality-and-duration proposition, not the outlier-magnitude candidate this strategy exists to find."
-}
-

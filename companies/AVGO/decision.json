@@ -1,31 +1,18 @@
 {
   "ticker": "AVGO",
-  "as_of": "2026-09-04",
-
+  "as_of": "2026-09-05",
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
-  "macro_pacing": "slow",
-  "confidence": 0.62,
-  "rationale": "Scorecard 68/100 (Starter / Watch), with a business-quality subtotal of 57/75 — the lowest of the four names analysed in this harness (TSM 66, NVDA 62, 005930 59). The operating economics are genuinely excellent. Capex is 1.0% of revenue, free cash flow margin 42.1%, semiconductor operating margin expanding 55.7% to 61.8%, infrastructure software at a 78.7% margin, and Q3 FY2026 AI semiconductor revenue of $16.7B grew 221% YoY with Q4 guided to $21.7B. FY2026 revenue lands near $105.9B, up 65.8%. low_quality_growth and incremental_roic_collapse both read PASS. Three things hold this at WATCH rather than STARTER. FIRST AND DECISIVE, concentration: one distributor customer went from 29% to 42% of TOTAL revenue in a single year, top five to 45%, distributors to 56%. That is the most extreme concentration in this harness — worse than NVDA's 22% and TSM's 19% — and it is amplified by roughly $47.1B of net debt, the only materially levered balance sheet of the four. Losing or halving one relationship at 42% of revenue is a business-model event, not a margin event. SECOND, the per-share test fails. Share count is RISING — 4,139M to 4,758M — uniquely among these names, and in H1 FY2026 it rose 17M DESPITE $8,450M of buybacks, because SBC of $4,268M (10.3% of revenue) issued more stock than repurchases retired. The strategy's core metric is FCF per share, and per-share compounding is being leaked. In fairness most of the multi-year increase was VMware acquisition currency, which is why persistent_dilution is INVESTIGATE at MEDIUM rather than HIGH. THIRD, valuation. At $357.16 the multiple is roughly 38x ESTIMATED FY2026 GAAP earnings — the highest of the four — and 29x non-GAAP. Valuation is assessed on GAAP because roughly half the non-GAAP add-back is SBC, which is demonstrably a real cost given the rising share count. Probability-weighted five-year return is only about +9.6% total (1.8% annualised), against NVDA's +21.2% and TSM's +37.9%. The expectation gap is POSITIVE but the thinnest of the four, and unlike TSM's unresearchable geopolitical gate, AVGO's primary gate is a DISCLOSURE QUESTION WITH A DEFINITE ANSWER — identify the 42% customer and establish whether the XPU programmes are contracted multi-year. When a gate can be resolved by waiting one or two quarters and the expected return does not compensate for acting early, the disciplined call is to wait. Band NONE.",
+  "rationale": "공식 Q3 FY2026 자료에는 GAAP 재무제표가 있다. 소프트웨어 매출 87.52억 달러(+29%)는 기존 저성장/단일 성장축 판단의 반증이다. 단일 유통업체 매출 42%를 최종고객 1곳의 경제적 수요 42%로 해석한 것도 정정한다. Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다. 재평가 71/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "PRIMARY, and it is answerable: identification of the 42% distributor and the end customers behind it, plus confirmation that the underlying XPU programmes are contracted multi-year rather than re-bid per generation. Below roughly 30% single-customer concentration, or with multi-year contracts confirmed, this moves toward STARTER.",
-    "Buybacks sized to at least offset SBC issuance, so that share count actually falls over four consecutive quarters.",
-    "Q3 and Q4 FY2026 GAAP actuals confirming the estimated $45B FY2026 GAAP net income, replacing the analyst's own build.",
-    "Infrastructure software re-accelerating above roughly 10%, restoring the second engine.",
-    "The tax footnote explaining the FY2025 $397M benefit and confirming it is non-recurring.",
-    "Semiconductor operating margin holding above 60% through the next XPU generation transition, evidencing that sockets are being retained rather than re-won on price.",
-    "Price weakness that widens the gap WITHOUT deterioration in the above. Per policy/position-sizing.yaml price decline alone is never sufficient."
+    "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "Single-customer concentration rising above roughly 45%, or any indication the 42% customer is in-sourcing or dual-sourcing its XPU programme.",
-    "Share count continuing to rise through the AI revenue peak — a company cannot compound FCF per share while issuing net new stock at the top of its cycle.",
-    "Semiconductor operating margin falling below roughly 55%, indicating XPU sockets are being defended on price.",
-    "Infrastructure software declining rather than merely decelerating, which would remove the high-margin floor under the bear case.",
-    "A goodwill impairment, or a sustained market capitalisation below net book value — the 10-K names this as an impairment indicator against $130,074M of goodwill and intangibles.",
-    "A hyperscaler capex guidance cut, given that the demand behind the concentration is AI capex funded from balance sheet rather than operating cash flow.",
-    "Net debt rising materially from roughly $47.1B to fund acquisitions rather than being reduced."
-  ]
-
-
+    "여러 XPU 프로그램의 재수주 실패와 소프트웨어 고객 이탈이 동시에 나타나 SBC 이후 주당 현금흐름이 정체한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "macro_pacing": "company_specific",
+  "confidence": 0.72
 }

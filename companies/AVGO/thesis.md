@@ -1,3 +1,5 @@
+> 최신 판단: **2026-09-05 / WATCH / 71/100 / INVESTIGATE**. [한글 재평가](re-evaluation-2026-09-05.md)가 아래 과거 서술보다 우선합니다. 아래 원문은 이력 비교를 위해 보존합니다.
+
 
 # Investment Thesis — AVGO (Broadcom Inc.)
 
@@ -219,4 +221,3 @@ for acting early, the disciplined call is to wait.** Band `NONE`.
 Macro pacing is **slow**: the AI-capex complex remains a single correlated exposure per
 the 2026-09-04 screening run.
 =======
-

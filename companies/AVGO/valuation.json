@@ -3,138 +3,168 @@
   "as_of": "2026-09-04",
   "current_price": 357.16,
   "implied_expectations": {
-
-    "price_basis": "US$357.16, close 2026-09-03 (down 2.74% on the day, following the Q3 FY2026 release on 2026-09-02 after which the stock fell about 6.5% after hours). Market price is a tier-4 input; the share count is tier-1.",
-    "shares_outstanding_millions": 4758,
-    "shares_basis": "FACT (tier-1): 4,758M issued and outstanding at 2026-05-03 per the Q2 FY2026 10-Q balance sheet.",
-    "market_cap_usd_bn": 1699.4,
-    "net_debt_usd_bn": 47.1,
-    "net_debt_derivation": "FACT (tier-1): total debt principal outstanding $66,720M less cash and equivalents $19,628M at 2026-05-03.",
-    "enterprise_value_usd_bn": 1746.5,
-    "fy2025_audited_usd_m": {
-      "revenue": 63887,
-      "gross_margin": 43294,
-      "operating_income": 25484,
-      "net_income": 23126,
-      "pretax_income": 22729,
-      "tax_provision": -397,
-      "rd": 10977,
-      "sbc": 7570,
-      "acquisition_intangible_amortisation": 8062,
-      "ocf": 27537,
-      "capex": 623,
-      "free_cash_flow": 26914,
-      "dividends_paid": 11142,
-      "buybacks_program": 2450,
-      "buybacks_tax_withholding": 3860,
-      "margins_pct": {
-        "gross": 67.8,
-        "operating": 39.9,
-        "fcf": 42.1
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "price_basis": "US$357.16, close 2026-09-03 (down 2.74% on the day, following the Q3 FY2026 release on 2026-09-02 after which the stock fell about 6.5% after hours). Market price is a tier-4 input; the share count is tier-1.",
+      "shares_outstanding_millions": 4758,
+      "shares_basis": "FACT (tier-1): 4,758M issued and outstanding at 2026-05-03 per the Q2 FY2026 10-Q balance sheet.",
+      "market_cap_usd_bn": 1699.4,
+      "net_debt_usd_bn": 47.1,
+      "net_debt_derivation": "FACT (tier-1): total debt principal outstanding $66,720M less cash and equivalents $19,628M at 2026-05-03.",
+      "enterprise_value_usd_bn": 1746.5,
+      "fy2025_audited_usd_m": {
+        "revenue": 63887,
+        "gross_margin": 43294,
+        "operating_income": 25484,
+        "net_income": 23126,
+        "pretax_income": 22729,
+        "tax_provision": -397,
+        "rd": 10977,
+        "sbc": 7570,
+        "acquisition_intangible_amortisation": 8062,
+        "ocf": 27537,
+        "capex": 623,
+        "free_cash_flow": 26914,
+        "dividends_paid": 11142,
+        "buybacks_program": 2450,
+        "buybacks_tax_withholding": 3860,
+        "margins_pct": {
+          "gross": 67.8,
+          "operating": 39.9,
+          "fcf": 42.1
+        }
+      },
+      "three_year_revenue_usd_m": {
+        "FY2023": 35819,
+        "FY2024": 51574,
+        "FY2025": 63887
+      },
+      "segments_usd_m": {
+        "FY2025": {
+          "semiconductor_revenue": 36858,
+          "semiconductor_op_income": 21232,
+          "semiconductor_op_margin_pct": 57.6,
+          "software_revenue": 27029,
+          "software_op_income": 20765,
+          "software_op_margin_pct": 76.8
+        },
+        "Q2_FY2026": {
+          "semiconductor_revenue": 15009,
+          "semiconductor_op_income": 9281,
+          "semiconductor_op_margin_pct": 61.8,
+          "software_revenue": 7178,
+          "software_op_income": 5647,
+          "software_op_margin_pct": 78.7
+        },
+        "note": "Semiconductor revenue grew 78.5% YoY in Q2 FY2026 while infrastructure software grew only 8.8%. The two-engine story is becoming a one-engine story."
+      },
+      "h1_fy2026_usd_m": {
+        "revenue": 41498,
+        "operating_income": 19351,
+        "net_income": 16659,
+        "diluted_eps": 3.41,
+        "ocf": 18753,
+        "sbc": 4268,
+        "buybacks": 8450,
+        "dividends": 6178,
+        "operating_margin_pct": 46.6
+      },
+      "q3_fy2026_and_guidance": {
+        "source": "Q3 FY2026 results released 2026-09-02, post-dating all supplied filings. Headline figures only — no GAAP income statement available.",
+        "q3_revenue_usd_bn": 29.6,
+        "q3_adjusted_eps": 3.32,
+        "q3_ai_semiconductor_revenue_usd_bn": 16.7,
+        "q3_ai_growth_yoy_pct": 221,
+        "q3_ai_growth_qoq_pct": 54,
+        "q4_guidance_revenue_usd_bn": 34.8,
+        "q4_guidance_growth_yoy_pct": 93,
+        "q4_guidance_ai_semiconductor_usd_bn": 21.7,
+        "q4_ai_growth_yoy_pct": 236,
+        "q4_guidance_non_gaap_operating_margin_pct": 66,
+        "fy2026_revenue_build_usd_m": 105898,
+        "fy2026_growth_pct": 65.8,
+        "q4_ai_annualised_run_rate_usd_bn": 86.8
+      },
+      "customer_concentration_pct": {
+        "single_distributor_customer": {
+          "FY2024": 28,
+          "FY2025": 32,
+          "H1_FY2026": 42
+        },
+        "top_five_end_customers": {
+          "FY2024": 40,
+          "FY2025": 40,
+          "H1_FY2026": 45
+        },
+        "distributors_total": {
+          "FY2025": 48,
+          "H1_FY2026": 56
+        },
+        "note": "The most extreme concentration trajectory in this harness — worse than NVDA's 12% to 22% top-customer move and TSM's 19%."
+      },
+      "share_count_millions": {
+        "FY2023": 4139,
+        "FY2024": 4686,
+        "FY2025": 4741,
+        "Q2_FY2026": 4758,
+        "note": "RISING, uniquely in this harness (Samsung -1.24%, NVDA -2.3%). H1 FY2026 buybacks of $8,450M did not prevent a 17M increase. Most of the multi-year rise was the 544M shares issued as VMware currency."
+      },
+      "balance_sheet_2025_11_02_usd_m": {
+        "total_assets": 171092,
+        "goodwill": 97801,
+        "intangibles_net": 32273,
+        "total_equity": 81292,
+        "ppe_net": 2530,
+        "note": "Goodwill plus intangibles is 76% of assets; goodwill alone exceeds book equity by roughly $16.5B, so tangible book value is deeply negative."
+      },
+      "earnings_quality_adjustment": {
+        "gaap_to_non_gaap_gap_pp": "approximately 20 percentage points of operating margin",
+        "components": "SBC around 10-12% of revenue plus acquisition intangible amortisation around 9-10%",
+        "why_it_matters": "Roughly half the add-back is SBC, which is a real cost — demonstrably so, because the share count is rising despite $8,450M of H1 buybacks. Every valuation test in this file therefore uses GAAP, with the non-GAAP figure shown alongside."
+      },
+      "multiples": {
+        "fy2026e_gaap_net_income_usd_bn": 45.1,
+        "fy2026e_gaap_eps": 9.39,
+        "pe_on_fy2026e_gaap": 38.0,
+        "fy2026e_non_gaap_eps": 12.26,
+        "pe_on_fy2026e_non_gaap": 29.1,
+        "estimate_warning": "BOTH ARE ESTIMATES. Q3 FY2026 GAAP earnings were not available — only headline revenue and adjusted EPS. The GAAP build assumes roughly 50% and 52% GAAP operating margins in Q3 and Q4 and carries material uncertainty."
+      },
+      "reverse_engineered_requirement": {
+        "method": "Solve for the GAAP net income that justifies $1,699B at a range of mature multiples, then compare with the FY2026 estimated base of roughly $45B.",
+        "at_25x": "requires roughly $68B — about 51% above the FY2026 estimate",
+        "at_30x": "requires roughly $57B — about 27% above",
+        "at_35x": "requires roughly $49B — about 9% above",
+        "conclusion": "At 30x GAAP the price requires roughly 27% growth beyond the FY2026 estimated base. With Q4 guided at +93% revenue YoY that is reachable, so the gap is POSITIVE — but it is the thinnest of the four names, because a 38x GAAP starting multiple already discounts much of what the guidance makes visible."
       }
     },
-    "three_year_revenue_usd_m": {
-      "FY2023": 35819,
-      "FY2024": 51574,
-      "FY2025": 63887
-    },
-    "segments_usd_m": {
-      "FY2025": {
-        "semiconductor_revenue": 36858,
-        "semiconductor_op_income": 21232,
-        "semiconductor_op_margin_pct": 57.6,
-        "software_revenue": 27029,
-        "software_op_income": 20765,
-        "software_op_margin_pct": 76.8
-      },
-      "Q2_FY2026": {
-        "semiconductor_revenue": 15009,
-        "semiconductor_op_income": 9281,
-        "semiconductor_op_margin_pct": 61.8,
-        "software_revenue": 7178,
-        "software_op_income": 5647,
-        "software_op_margin_pct": 78.7
-      },
-      "note": "Semiconductor revenue grew 78.5% YoY in Q2 FY2026 while infrastructure software grew only 8.8%. The two-engine story is becoming a one-engine story."
-    },
-    "h1_fy2026_usd_m": {
-      "revenue": 41498,
-      "operating_income": 19351,
-      "net_income": 16659,
-      "diluted_eps": 3.41,
-      "ocf": 18753,
-      "sbc": 4268,
-      "buybacks": 8450,
-      "dividends": 6178,
-      "operating_margin_pct": 46.6
-    },
-    "q3_fy2026_and_guidance": {
-      "source": "Q3 FY2026 results released 2026-09-02, post-dating all supplied filings. Headline figures only — no GAAP income statement available.",
-      "q3_revenue_usd_bn": 29.6,
-      "q3_adjusted_eps": 3.32,
-      "q3_ai_semiconductor_revenue_usd_bn": 16.7,
-      "q3_ai_growth_yoy_pct": 221,
-      "q3_ai_growth_qoq_pct": 54,
-      "q4_guidance_revenue_usd_bn": 34.8,
-      "q4_guidance_growth_yoy_pct": 93,
-      "q4_guidance_ai_semiconductor_usd_bn": 21.7,
-      "q4_ai_growth_yoy_pct": 236,
-      "q4_guidance_non_gaap_operating_margin_pct": 66,
-      "fy2026_revenue_build_usd_m": 105898,
-      "fy2026_growth_pct": 65.8,
-      "q4_ai_annualised_run_rate_usd_bn": 86.8
-    },
-    "customer_concentration_pct": {
-      "single_distributor_customer": {
-        "FY2024": 28,
-        "FY2025": 32,
-        "H1_FY2026": 42
-      },
-      "top_five_end_customers": {
-        "FY2024": 40,
-        "FY2025": 40,
-        "H1_FY2026": 45
-      },
-      "distributors_total": {
-        "FY2025": 48,
-        "H1_FY2026": 56
-      },
-      "note": "The most extreme concentration trajectory in this harness — worse than NVDA's 12% to 22% top-customer move and TSM's 19%."
-    },
-    "share_count_millions": {
-      "FY2023": 4139,
-      "FY2024": 4686,
-      "FY2025": 4741,
-      "Q2_FY2026": 4758,
-      "note": "RISING, uniquely in this harness (Samsung -1.24%, NVDA -2.3%). H1 FY2026 buybacks of $8,450M did not prevent a 17M increase. Most of the multi-year rise was the 544M shares issued as VMware currency."
-    },
-    "balance_sheet_2025_11_02_usd_m": {
-      "total_assets": 171092,
-      "goodwill": 97801,
-      "intangibles_net": 32273,
-      "total_equity": 81292,
-      "ppe_net": 2530,
-      "note": "Goodwill plus intangibles is 76% of assets; goodwill alone exceeds book equity by roughly $16.5B, so tangible book value is deeply negative."
-    },
-    "earnings_quality_adjustment": {
-      "gaap_to_non_gaap_gap_pp": "approximately 20 percentage points of operating margin",
-      "components": "SBC around 10-12% of revenue plus acquisition intangible amortisation around 9-10%",
-      "why_it_matters": "Roughly half the add-back is SBC, which is a real cost — demonstrably so, because the share count is rising despite $8,450M of H1 buybacks. Every valuation test in this file therefore uses GAAP, with the non-GAAP figure shown alongside."
-    },
-    "multiples": {
-      "fy2026e_gaap_net_income_usd_bn": 45.1,
-      "fy2026e_gaap_eps": 9.39,
-      "pe_on_fy2026e_gaap": 38.0,
-      "fy2026e_non_gaap_eps": 12.26,
-      "pe_on_fy2026e_non_gaap": 29.1,
-      "estimate_warning": "BOTH ARE ESTIMATES. Q3 FY2026 GAAP earnings were not available — only headline revenue and adjusted EPS. The GAAP build assumes roughly 50% and 52% GAAP operating margins in Q3 and Q4 and carries material uncertainty."
-    },
-    "reverse_engineered_requirement": {
-      "method": "Solve for the GAAP net income that justifies $1,699B at a range of mature multiples, then compare with the FY2026 estimated base of roughly $45B.",
-      "at_25x": "requires roughly $68B — about 51% above the FY2026 estimate",
-      "at_30x": "requires roughly $57B — about 27% above",
-      "at_35x": "requires roughly $49B — about 9% above",
-      "conclusion": "At 30x GAAP the price requires roughly 27% growth beyond the FY2026 estimated base. With Q4 guided at +93% revenue YoY that is reachable, so the gap is POSITIVE — but it is the thinnest of the four names, because a 38x GAAP starting multiple already discounts much of what the guidance makes visible."
+    "current_findings": [
+      "공식 Q3 FY2026 자료에는 GAAP 재무제표가 있다. 소프트웨어 매출 87.52억 달러(+29%)는 기존 저성장/단일 성장축 판단의 반증이다. 단일 유통업체 매출 42%를 최종고객 1곳의 경제적 수요 42%로 해석한 것도 정정한다.",
+      "Q3 SBC 20.19억 달러는 실제 보상비용이다. 낮은 자체 Capex가 파운드리·클라우드 약정 위험까지 없애지는 않는다. 과거 유통집중 자료는 최종고객별 분해가 여전히 필요하다."
+    ],
+    "current_model_limit": "Q3 10-Q의 공급·클라우드·보증 약정과 최종고객 노출을 확인하고 SBC 이후 주당 FCF로 10년 가격 기대치를 재작성한다.",
+    "new_primary_q3_fy2026_usd_b": {
+      "source": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "revenue": 29.591,
+      "gaap_operating_income": 15.955,
+      "gaap_net_income": 13.088,
+      "ocf": 14.197,
+      "capex": 0.532,
+      "fcf": 13.665,
+      "sbc": 2.019,
+      "cash": 23.975,
+      "short_debt": 2.252,
+      "long_debt": 57.167,
+      "net_debt_ex_leases_proxy": 35.444,
+      "gaap_diluted_shares_b": 4.887,
+      "software_revenue": 8.752,
+      "software_growth_yoy": 0.29,
+      "fcf_less_sbc_cost_proxy": 11.646,
+      "price_times_gaap_diluted_shares_equity_proxy": 1745.44092,
+      "note": "가격은 기존 357.16달러 유지. 희석 가중평균 주식수는 시점 기본주식수와 다르므로 지분가치 민감도다."
     }
   },
   "scenarios": {
@@ -145,7 +175,8 @@
       "terminal_multiple": "approximately 18x",
       "equity_value_usd_bn": "500-760",
       "five_year_total_return_pct": "-70 to -55",
-      "note": "The infrastructure software base — roughly $28B of revenue at a 78% margin — is the floor and is genuinely sticky. Without it the bear would be worse."
+      "note": "The infrastructure software base — roughly $28B of revenue at a 78% margin — is the floor and is genuinely sticky. Without it the bear would be worse.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
       "narrative": "The XPU franchise persists across two or three hyperscaler programmes, AI semiconductor revenue plateaus at a high level rather than compounding, and infrastructure software grows in the mid single digits. Margins hold near current levels.",
@@ -154,7 +185,8 @@
       "fy2031_gaap_net_income_usd_bn": "80-100",
       "terminal_multiple": "approximately 22x",
       "equity_value_usd_bn": "1,760-2,200",
-      "five_year_total_return_pct": "+4 to +37 (including dividends)"
+      "five_year_total_return_pct": "+4 to +37 (including dividends)",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
       "narrative": "Custom silicon becomes the dominant AI compute paradigm. Broadcom adds programmes beyond its current base, networking attach compounds alongside XPU, and the company captures a durable share of accelerator value.",
@@ -163,7 +195,8 @@
       "fy2031_gaap_net_income_usd_bn": "126-147",
       "terminal_multiple": "approximately 22x",
       "equity_value_usd_bn": "2,772-3,234",
-      "five_year_total_return_pct": "+63 to +90"
+      "five_year_total_return_pct": "+63 to +90",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
@@ -188,6 +221,5 @@
   },
   "expectation_gap_score": 7,
   "asymmetry_score": 4,
-  "notes": "Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. FY2025 and H1 FY2026 figures are tier-1 from the 10-K and 10-Q; Q3 FY2026 and Q4 guidance are from the 2026-09-02 release, which post-dates the supplied filings and is headline-only. The FY2026 GAAP earnings build is the ANALYST'S OWN ESTIMATE and is the weakest input in this file. Valuation is assessed on GAAP because roughly half the non-GAAP add-back is SBC, which is demonstrably a real cost — the share count rose despite $8,450M of H1 repurchases."
-          
-
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): Step order per agents/valuation.md: reverse expectations first, then scenarios, then asymmetry, then score. No target price used as a starting point. FY2025 and H1 FY2026 figures are tier-1 from the 10-K and 10-Q; Q3 FY2026 and Q4 guidance are from the 2026-09-02 release, which post-dates the supplied filings and is headline-only. The FY2026 GAAP earnings build is the ANALYST'S OWN ESTIMATE and is the weakest input in this file. Valuation is assessed on GAAP because roughly half the non-GAAP add-back is SBC, which is demonstrably a real cost — the share count rose despite $8,450M of H1 repurchases."
+}

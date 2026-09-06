@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-09-06",
+  "universe": 93,
+  "state_counts": {
+    "PRELIMINARY_REVIEW": 58,
+    "PARTIAL_ANALYSIS": 34,
+    "FULL_ANALYSIS": 1
+  },
+  "all_scope_reviewed": true,
+  "all_full_analyses_complete": false,
+  "remaining_full_analyses": 92,
+  "no_new_buy_approvals": true,
+  "baseline_lock": "harness/baseline-lock.json",
+  "report": "reviews/2026-09-06-harness/README.md"
+}
