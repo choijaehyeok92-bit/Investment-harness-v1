@@ -1,0 +1,655 @@
+{
+  "ticker": "PLTR",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "Q2 2026 ended 2026-06-30",
+  "revenue": [
+    {
+      "value": 1935464,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 3568047,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1003697,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1887552,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 4475446,
+      "period": "FY2025",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "p.86 Consolidated Statements of Operations",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 912004,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1666002,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 269317,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 445365,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 1414015,
+      "period": "FY2025",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "p.86 Consolidated Statements of Operations",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": 47,
+      "period": "Q2 2026",
+      "unit": "percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Financial Summary",
+      "confidence": "high"
+    },
+    {
+      "value": 32,
+      "period": "FY2025",
+      "unit": "percent",
+      "source": "2025 Form 10-K",
+      "location": "Results of Operations table; income from operations as percentage of revenue",
+      "confidence": "high"
+    }
+  ],
+  "net_income": [
+    {
+      "metric": "net_income",
+      "value": 1065962,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_income",
+      "value": 1942364,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_income",
+      "value": 328572,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_income",
+      "value": 546289,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_income_attributable_to_common_stockholders",
+      "value": 1061890,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_income",
+      "value": 1634644,
+      "period": "FY2025",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "p.86 Consolidated Statements of Operations",
+      "confidence": "high"
+    }
+  ],
+  "fcf": [
+    {
+      "metric": "adjusted_free_cash_flow",
+      "value": 1220359,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Adjusted Free Cash Flow and Adjusted Free Cash Flow Margin reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "adjusted_free_cash_flow",
+      "value": 568769,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Adjusted Free Cash Flow and Adjusted Free Cash Flow Margin reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "reported_gaap_fcf",
+      "value": null,
+      "period": "FY2025",
+      "unit": "not reported",
+      "source": "2025 Form 10-K",
+      "location": "No explicit free cash flow metric found in supplied filing text",
+      "confidence": "high"
+    }
+  ],
+  "capex": [
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 14554,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Adjusted Free Cash Flow reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 7634,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Adjusted Free Cash Flow reconciliation",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 21955,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.8 Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 13818,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.8 Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_and_equipment",
+      "value": 33882,
+      "period": "FY2025",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "p.89 Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 2030047,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.3 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "marketable_securities",
+      "value": 7379052,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.3 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_cash_equivalents_and_short_term_us_treasury_securities",
+      "value": 9.2,
+      "period": "Q2 2026",
+      "unit": "USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "metric": "outstanding_debt_balance",
+      "value": 0,
+      "period": "2026-06-30",
+      "unit": "USD",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 6 — Debt; 2014 Credit Facility",
+      "confidence": "high"
+    },
+    {
+      "metric": "undrawn_revolving_commitments",
+      "value": 500,
+      "period": "2026-06-30",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Liquidity and Capital Resources; Note 6 — Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 1423796,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "p.85 Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "marketable_securities",
+      "value": 5753247,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "p.85 Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "outstanding_debt_balance",
+      "value": 0,
+      "period": "2025-12-31",
+      "unit": "USD",
+      "source": "2025 Form 10-K",
+      "location": "Note 6 — Debt; 2014 Credit Facility",
+      "confidence": "high"
+    }
+  ],
+  "segment_results": [
+    {
+      "segment": "Government",
+      "period": "Three months ended 2026-06-30",
+      "value": {
+        "revenue": 990032,
+        "contribution": 701106,
+        "contribution_margin_pct": 71
+      },
+      "unit": "USD thousand; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Reportable segment financial information table",
+      "confidence": "high"
+    },
+    {
+      "segment": "Commercial",
+      "period": "Three months ended 2026-06-30",
+      "value": {
+        "revenue": 945432,
+        "contribution": 734944,
+        "contribution_margin_pct": 78
+      },
+      "unit": "USD thousand; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Reportable segment financial information table",
+      "confidence": "high"
+    },
+    {
+      "segment": "Government",
+      "period": "Six months ended 2026-06-30",
+      "value": {
+        "revenue": 1848442,
+        "contribution": 1330517,
+        "contribution_margin_pct": 72
+      },
+      "unit": "USD thousand; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Reportable segment financial information table",
+      "confidence": "high"
+    },
+    {
+      "segment": "Commercial",
+      "period": "Six months ended 2026-06-30",
+      "value": {
+        "revenue": 1719605,
+        "contribution": 1297900,
+        "contribution_margin_pct": 75
+      },
+      "unit": "USD thousand; percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Reportable segment financial information table",
+      "confidence": "high"
+    },
+    {
+      "segment": "U.S. total",
+      "period": "Q2 2026",
+      "value": {
+        "revenue": 1.573,
+        "reported_yoy_growth_pct": 115,
+        "reported_qoq_growth_pct": 23
+      },
+      "unit": "USD billion; percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "segment": "U.S. commercial",
+      "period": "Q2 2026",
+      "value": {
+        "revenue": 764,
+        "reported_yoy_growth_pct": 149,
+        "reported_qoq_growth_pct": 28
+      },
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "segment": "U.S. government",
+      "period": "Q2 2026",
+      "value": {
+        "revenue": 809,
+        "reported_yoy_growth_pct": 90,
+        "reported_qoq_growth_pct": 18
+      },
+      "unit": "USD million; percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "segment": "Government",
+      "period": "FY2025",
+      "value": {
+        "revenue": 2402287,
+        "contribution": 1576070,
+        "contribution_margin_pct": 66
+      },
+      "unit": "USD thousand; percent",
+      "source": "2025 Form 10-K",
+      "location": "Reportable segment financial information table",
+      "confidence": "high"
+    },
+    {
+      "segment": "Commercial",
+      "period": "FY2025",
+      "value": {
+        "revenue": 2073159,
+        "contribution": 1366627,
+        "contribution_margin_pct": 66
+      },
+      "unit": "USD thousand; percent",
+      "source": "2025 Form 10-K",
+      "location": "Reportable segment financial information table",
+      "confidence": "high"
+    }
+  ],
+  "guidance": [
+    {
+      "metric": "revenue",
+      "value": {
+        "low": 2.16,
+        "high": 2.164
+      },
+      "period": "Q3 2026",
+      "unit": "USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook",
+      "confidence": "high"
+    },
+    {
+      "metric": "adjusted_income_from_operations",
+      "value": {
+        "low": 1.292,
+        "high": 1.296
+      },
+      "period": "Q3 2026",
+      "unit": "USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook",
+      "confidence": "high"
+    },
+    {
+      "metric": "revenue",
+      "value": {
+        "low": 8.15,
+        "high": 8.158
+      },
+      "period": "FY2026",
+      "unit": "USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook; raised guidance",
+      "confidence": "high"
+    },
+    {
+      "metric": "us_commercial_revenue",
+      "value": {
+        "minimum": 3.424,
+        "growth_at_least_pct": 134
+      },
+      "period": "FY2026",
+      "unit": "USD billion; percent",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook; raised guidance",
+      "confidence": "high"
+    },
+    {
+      "metric": "adjusted_income_from_operations",
+      "value": {
+        "low": 4.889,
+        "high": 4.897
+      },
+      "period": "FY2026",
+      "unit": "USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook; raised guidance",
+      "confidence": "high"
+    },
+    {
+      "metric": "adjusted_free_cash_flow",
+      "value": {
+        "low": 4.5,
+        "high": 4.7
+      },
+      "period": "FY2026",
+      "unit": "USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook; raised guidance",
+      "confidence": "high"
+    },
+    {
+      "metric": "gaap_operating_income_and_net_income",
+      "value": "continue to expect GAAP operating income and net income in each quarter of this year",
+      "period": "remaining quarters of FY2026",
+      "unit": "management guidance statement",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Outlook",
+      "confidence": "high"
+    }
+  ],
+  "management_statements": [
+    {
+      "speaker": "Alex Karp",
+      "role": "Co-Founder and Chief Executive Officer",
+      "value": "Demand for AI sovereignty has now been unleashed. And Palantir is the only company that has demonstrated it can transform tokens into actual economic value. Our customers trust us to provide them with maximal control over their operations, data, and decisions. Their competitive advantage should never become the training data for future models. This quarter was otherworldly: our U.S. commercial revenue grew 149% year-over-year, our overall revenue grew 93% year-over-year, and our Rule of 40 score climbed to 155%. The sovereign AI revolution makes us very optimistic about the future.",
+      "period": "Q2 2026 earnings release dated 2026-08-03",
+      "unit": "verbatim management statement",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Opening CEO quote",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "item": "Revenue",
+      "value": {
+        "reported_yoy_growth_pct": 93,
+        "reported_qoq_growth_pct": 19,
+        "current": 1.935
+      },
+      "period": "Q2 2026",
+      "unit": "percent; USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "item": "U.S. revenue",
+      "value": {
+        "reported_yoy_growth_pct": 115,
+        "reported_qoq_growth_pct": 23,
+        "current": 1.573
+      },
+      "period": "Q2 2026",
+      "unit": "percent; USD billion",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "item": "U.S. commercial revenue",
+      "value": {
+        "reported_yoy_growth_pct": 149,
+        "reported_qoq_growth_pct": 28,
+        "current": 764
+      },
+      "period": "Q2 2026",
+      "unit": "percent; USD million",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "item": "U.S. government revenue",
+      "value": {
+        "reported_yoy_growth_pct": 90,
+        "reported_qoq_growth_pct": 18,
+        "current": 809
+      },
+      "period": "Q2 2026",
+      "unit": "percent; USD million",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Q2 2026 Highlights",
+      "confidence": "high"
+    },
+    {
+      "item": "Income from operations",
+      "value": {
+        "from": 269317,
+        "to": 912004
+      },
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "item": "Net income",
+      "value": {
+        "from": 328572,
+        "to": 1065962
+      },
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.4 Condensed Consolidated Statements of Operations",
+      "confidence": "high"
+    },
+    {
+      "item": "Adjusted free cash flow",
+      "value": {
+        "from": 568769,
+        "to": 1220359
+      },
+      "period": "Q2 2025 to Q2 2026",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 8-K Exhibit 99.1",
+      "location": "Adjusted Free Cash Flow reconciliation",
+      "confidence": "high"
+    },
+    {
+      "item": "Cash and cash equivalents",
+      "value": {
+        "from": 1423796,
+        "to": 2030047
+      },
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.3 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    }
+  ],
+  "new_risk_disclosures": [
+    {
+      "item": "Cloud hosting purchase commitment amendment",
+      "value": {
+        "minimum_total_commitment": 5.6,
+        "annual_minimum_low": 268,
+        "annual_minimum_high": 979,
+        "term_end": "2036-02-29"
+      },
+      "period": "Agreement amended March 2026; disclosed as of 2026-06-30",
+      "unit": "USD billion total; USD million annual",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 7 — Commitments and Contingencies, Purchase Commitments",
+      "confidence": "high"
+    },
+    {
+      "item": "Other material commitment changes",
+      "value": "As of June 30, 2026, except for the amended third-party cloud services agreement, there were no material changes outside the ordinary course of business to commitments disclosed in the 2025 Form 10-K.",
+      "period": "2026-06-30",
+      "unit": "disclosure statement",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 7 — Commitments and Contingencies, Purchase Commitments",
+      "confidence": "high"
+    }
+  ]
+}
