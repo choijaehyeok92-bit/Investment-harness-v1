@@ -1,0 +1,837 @@
+{
+  "ticker": "196170",
+  "company": "Alteogen Inc.",
+  "market": "KRX KOSDAQ",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow calculation, derived H1/Q2 operating-margin calculation, or unsupported reconciliation. Values are extracted only from the three Google Drive filings supplied by the user. Where the filings contain date or presentation differences, they are preserved rather than silently reconciled.",
+  "source_resolution": [
+    {
+      "drive_file_id": "1Fpt0Q74laFocVoilNgZJCpDyj1AbCvBz",
+      "resolved_identity": "Alteogen Inc. FY2025 Business Report for 2025-01-01 through 2025-12-31, filed 2026-03-23",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "drive_file_id": "1NesE-q-CHJMv-R-BWxiRPzuHNaMw3Qid",
+      "resolved_identity": "Alteogen Inc. H1 2026 Half-Year Report for 2026-01-01 through 2026-06-30, filed 2026-08-14",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "drive_file_id": "1nS_tN8x-QY3Vd4d2h3C3QN9TJ1qWW3tH",
+      "resolved_identity": "Alteogen Inc. corrected Major Matters Report - Bonus Issue Decision; original decision 2026-07-16, correction dated 2026-07-20",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 215858918957,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Statements of Comprehensive Income / summary financial information",
+      "confidence": "high"
+    },
+    {
+      "value": 140492885685,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, DART p.51",
+      "confidence": "high"
+    },
+    {
+      "value": 68894335061,
+      "period": "Q2 2026",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, 3-month column, DART p.51",
+      "confidence": "high"
+    },
+    {
+      "value": 102339078027,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, comparative cumulative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 106900077097,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Statements of Comprehensive Income",
+      "confidence": "high"
+    },
+    {
+      "value": 73480904822,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, DART p.51",
+      "confidence": "high"
+    },
+    {
+      "value": 34180255324,
+      "period": "Q2 2026",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 60591275114,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, comparative cumulative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": 49.5,
+      "period": "FY2025",
+      "unit": "percent",
+      "source": "FY2025 Business Report",
+      "original_location": "MD&A, key profitability indicators; company-disclosed operating profit / revenue metric",
+      "confidence": "high"
+    },
+    {
+      "value": null,
+      "period": "H1 2026",
+      "unit": "percent",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "No explicit H1 operating-margin percentage located in supplied report",
+      "confidence": "high",
+      "note": "Not derived from revenue and operating income in DATA_EXTRACTION_ONLY mode."
+    },
+    {
+      "value": null,
+      "period": "Q2 2026",
+      "unit": "percent",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "No explicit Q2 operating-margin percentage located in supplied report",
+      "confidence": "high",
+      "note": "Not derived from revenue and operating income in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 145172981930,
+      "period": "FY2025 consolidated net income",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Summary consolidated financial information / Consolidated Statements of Comprehensive Income",
+      "confidence": "high"
+    },
+    {
+      "value": 101332787820,
+      "period": "H1 2026 consolidated net income",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income",
+      "confidence": "high"
+    },
+    {
+      "value": 29988512589,
+      "period": "Q2 2026 consolidated net income",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 48720692608,
+      "period": "H1 2025 comparative consolidated net income",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income, comparative cumulative column",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "KRW",
+      "source": "supplied filings",
+      "original_location": "No explicit free-cash-flow amount located in supplied filings",
+      "confidence": "high",
+      "note": "No CFO-minus-CapEx calculation performed."
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 124127150186,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Statements of Cash Flows, operating cash flow",
+      "confidence": "high"
+    },
+    {
+      "value": 37550826893,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Cash Flows, DART p.53",
+      "confidence": "high"
+    },
+    {
+      "value": 63983759046,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Cash Flows, comparative column",
+      "confidence": "high"
+    }
+  ],
+  "capex": [
+    {
+      "metric": "purchase_of_property_plant_and_equipment",
+      "value": 23006600667,
+      "period": "FY2025",
+      "unit": "KRW cash outflow",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Statements of Cash Flows, acquisition of tangible assets",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchase_of_intangible_assets",
+      "value": 9461294513,
+      "period": "FY2025",
+      "unit": "KRW cash outflow",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Statements of Cash Flows, acquisition of intangible assets",
+      "confidence": "high",
+      "note": "Preserved separately; not added to tangible-asset CapEx."
+    },
+    {
+      "metric": "purchase_of_property_plant_and_equipment",
+      "value": 16227564118,
+      "period": "H1 2026",
+      "unit": "KRW cash outflow",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Cash Flows, acquisition of tangible assets",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchase_of_intangible_assets",
+      "value": 559187028,
+      "period": "H1 2026",
+      "unit": "KRW cash outflow",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Cash Flows, acquisition of intangible assets",
+      "confidence": "high",
+      "note": "Preserved separately; not added to tangible-asset CapEx."
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 66380706542,
+      "period": "2025-12-31",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Balance Sheet",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_financial_products",
+      "value": 363641391678,
+      "period": "2025-12-31",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Consolidated Balance Sheet",
+      "confidence": "high"
+    },
+    {
+      "metric": "company_reported_total_borrowings",
+      "value": 206082502824,
+      "period": "2025-12-31",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Risk management / capital management table",
+      "confidence": "high"
+    },
+    {
+      "metric": "company_reported_net_debt",
+      "value": 139701796282,
+      "period": "2025-12-31",
+      "unit": "KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "Risk management / capital management table",
+      "confidence": "high",
+      "note": "Company-reported metric; table deducts cash and cash equivalents from total borrowings. This value was not calculated by the extractor."
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 80369735611,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Balance Sheet, DART p.49",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_financial_products",
+      "value": 366469275444,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Balance Sheet, DART p.49",
+      "confidence": "high"
+    },
+    {
+      "metric": "company_reported_total_borrowings",
+      "value": 178594985130,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Risk management / capital management table",
+      "confidence": "high"
+    },
+    {
+      "metric": "company_reported_net_debt",
+      "value": 98225249519,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Risk management / capital management table",
+      "confidence": "high",
+      "note": "Company-reported metric; not recalculated by extractor."
+    },
+    {
+      "metric": "redemption_convertible_preferred_share_liability_undiscounted_cash_flow",
+      "value": 158329535944,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Financial risk / undiscounted non-derivative financial-liability cash-flow table",
+      "confidence": "high"
+    },
+    {
+      "metric": "convertible_bond_undiscounted_cash_flow",
+      "value": 2080476463,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Financial risk / undiscounted non-derivative financial-liability cash-flow table",
+      "confidence": "high"
+    }
+  ],
+  "business_performance": {
+    "fy2025_revenue_mix": [
+      {
+        "category": "ALT-B4 etc. technology-service revenue",
+        "value": 169442563,
+        "period": "FY2025",
+        "unit": "KRW thousands",
+        "reported_share": 78.5,
+        "source": "FY2025 Business Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "ALT-L9 technology-service revenue",
+        "value": 136930,
+        "period": "FY2025",
+        "unit": "KRW thousands",
+        "reported_share": 0.1,
+        "source": "FY2025 Business Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "other technology-service revenue",
+        "value": 4175350,
+        "period": "FY2025",
+        "unit": "KRW thousands",
+        "reported_share": 1.9,
+        "source": "FY2025 Business Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "merchandise sales",
+        "value": 13971165,
+        "period": "FY2025",
+        "unit": "KRW thousands",
+        "reported_share": 6.5,
+        "source": "FY2025 Business Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "product sales",
+        "value": 28132911,
+        "period": "FY2025",
+        "unit": "KRW thousands",
+        "reported_share": 13.0,
+        "source": "FY2025 Business Report",
+        "original_location": "Business section, major products/services revenue table; described as ALT-B4 commercial-production product sales",
+        "confidence": "high"
+      }
+    ],
+    "h1_2026_revenue_mix": [
+      {
+        "category": "ALT-B4 etc. technology-service revenue",
+        "value": 116364754,
+        "period": "H1 2026",
+        "unit": "KRW thousands",
+        "reported_share": 82.8,
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "ALT-L9 technology-service revenue",
+        "value": 11515761,
+        "period": "H1 2026",
+        "unit": "KRW thousands",
+        "reported_share": 8.2,
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "other technology-service revenue",
+        "value": 3191432,
+        "period": "H1 2026",
+        "unit": "KRW thousands",
+        "reported_share": 2.3,
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "merchandise sales",
+        "value": 9038314,
+        "period": "H1 2026",
+        "unit": "KRW thousands",
+        "reported_share": 6.4,
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      },
+      {
+        "category": "product sales",
+        "value": 382625,
+        "period": "H1 2026",
+        "unit": "KRW thousands",
+        "reported_share": 0.3,
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Business section, major products/services revenue table",
+        "confidence": "high"
+      }
+    ],
+    "h1_2026_contract_revenue_categories": [
+      {
+        "category": "service revenue",
+        "value": 131071947110,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Note 4 segment/entity-wide revenue information",
+        "confidence": "high"
+      },
+      {
+        "category": "merchandise revenue",
+        "value": 9038313575,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Note 4 segment/entity-wide revenue information",
+        "confidence": "high"
+      },
+      {
+        "category": "product revenue",
+        "value": 382625000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "Note 4 segment/entity-wide revenue information",
+        "confidence": "high"
+      }
+    ],
+    "major_customer_table_h1_2026": {
+      "values_as_parsed_from_company_table": [
+        {"customer_label":"A","value":38155785993,"unit":"KRW"},
+        {"customer_label":"B","value":8221366,"unit":"KRW"},
+        {"customer_label":"C","value":7567000000,"unit":"KRW"},
+        {"customer_label":"D","value":9674613206,"unit":"KRW"},
+        {"customer_label":"E","value":29472000000,"unit":"KRW"},
+        {"customer_label":"F","value":29966000000,"unit":"KRW"}
+      ],
+      "period": "H1 2026",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Note 4 major-customer disclosure",
+      "confidence": "medium",
+      "note": "Raw table values preserved as parsed. No percentage or threshold classification is derived because the extracted table formatting is ambiguous."
+    }
+  },
+  "license_out_contracts": [
+    {
+      "counterparty": "Sanofi",
+      "technology": "ALT-B4 recombinant hyaluronidase",
+      "territory": "worldwide",
+      "contract_date": "2019-11-29",
+      "contract_total": 1373000000,
+      "contract_total_unit": "USD, royalty excluded",
+      "received_amount_table": 13000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table / detailed contract disclosure",
+      "confidence": "high"
+    },
+    {
+      "counterparty": "MSD International Business GmbH",
+      "technology": "ALT-B4 recombinant hyaluronidase",
+      "territory": "worldwide",
+      "contract_date": "2020-06-24",
+      "contract_total": 4317000000,
+      "contract_total_unit": "USD, royalty excluded",
+      "received_amount_table": 36000000,
+      "received_amount_unit": "USD",
+      "development_status": "KEYTRUDA subcutaneous formulation: U.S. and EU approvals obtained and sales commenced; company narrative also states Korean MFDS approval obtained",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table and detailed MSD contract disclosure",
+      "confidence": "high",
+      "separately_disclosed_milestones": [
+        {"event":"initial payment installment 1","amount":8000000,"unit":"USD","received":"2020-07"},
+        {"event":"initial payment installment 2","amount":8000000,"unit":"USD","received":"2020-09"},
+        {"event":"signing fee for contract amendment","amount":20000000,"unit":"USD","received":"2024-03"},
+        {"event":"Phase 3 initiation","amount":13000000,"unit":"USD","received":"2023-05"},
+        {"event":"KEYTRUDA QLEX FDA approval","amount":25000000,"unit":"USD","received":"2025-10"},
+        {"event":"KEYTRUDA SC EMA approval","amount":15000000,"unit":"USD","received":"2025-12"}
+      ]
+    },
+    {
+      "counterparty": "Intas Pharmaceuticals Ltd.",
+      "technology": "ALT-B4 recombinant hyaluronidase for two counterparty-developed products",
+      "territory": "worldwide excluding certain Asian countries",
+      "contract_date": "2021-01-07",
+      "contract_end": "10 years after product launch",
+      "contract_total": 115000000,
+      "contract_total_unit": "USD, royalty excluded",
+      "received_amount_table": 6000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table / detailed contract disclosure",
+      "confidence": "high"
+    },
+    {
+      "counterparty": "Sandoz AG",
+      "technology": "ALT-B4 / recombinant hyaluronidase joint development and exclusive use across multiple products",
+      "territory": "worldwide",
+      "contract_date": "2024-07-30",
+      "contract_end": "royalty-period expiry",
+      "contract_total": null,
+      "received_amount_table": null,
+      "unit": "undisclosed by mutual agreement",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table / detailed Sandoz disclosure",
+      "confidence": "high"
+    },
+    {
+      "counterparty": "Daiichi Sankyo",
+      "technology": "ALT-B4 for Enhertu subcutaneous formulation",
+      "territory": "worldwide",
+      "contract_date": "2024-11-08",
+      "contract_end": "royalty-period expiry",
+      "contract_total": 300000000,
+      "contract_total_unit": "USD, royalty excluded",
+      "received_amount_table": 20000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table / detailed Daiichi Sankyo disclosure",
+      "confidence": "high"
+    },
+    {
+      "counterparty": "MedImmune Ltd. (AstraZeneca subsidiary, U.K.)",
+      "technology": "ALT-B4 for two AstraZeneca oncology products",
+      "territory": "worldwide",
+      "contract_date_table": "2025-03-15",
+      "contract_effective_date_detailed_disclosure": "2025-03-17",
+      "contract_end": "royalty-period expiry",
+      "contract_total": 750000000,
+      "contract_total_unit": "USD plus royalty",
+      "received_amount_table": 25000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table and detailed MedImmune Ltd. disclosure",
+      "confidence": "high",
+      "source_discrepancy_note": "The summary-table date and detailed contract effective date differ in the extracted filing text; both are preserved."
+    },
+    {
+      "counterparty": "MedImmune, LLC (AstraZeneca subsidiary, U.S.)",
+      "technology": "ALT-B4 for one AstraZeneca oncology product",
+      "territory": "worldwide",
+      "contract_date_table": "2025-03-15",
+      "contract_effective_date_detailed_disclosure": "2025-03-17",
+      "contract_end": "royalty-period expiry",
+      "contract_total": 600000000,
+      "contract_total_unit": "USD plus royalty",
+      "received_amount_table": 20000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table and detailed MedImmune LLC disclosure",
+      "confidence": "high",
+      "source_discrepancy_note": "The summary-table date and detailed contract effective date differ in the extracted filing text; both are preserved."
+    },
+    {
+      "counterparty": "Tesaro, Inc. (GSK subsidiary)",
+      "technology": "ALT-B4 for subcutaneous dostarlimab",
+      "territory": "worldwide",
+      "contract_date": "2026-01-20",
+      "contract_end": "royalty-period expiry",
+      "contract_total": 285000000,
+      "contract_total_unit": "USD, royalty excluded",
+      "received_amount_table": 20000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table and detailed Tesaro disclosure",
+      "confidence": "high"
+    },
+    {
+      "counterparty": "Biogen International GMBH",
+      "technology": "ALT-B4 for two Biogen biologics",
+      "territory": "worldwide",
+      "contract_date": "2026-03-25",
+      "contract_end": "royalty-period expiry",
+      "contract_total": 579000000,
+      "contract_total_unit": "USD, royalty excluded",
+      "received_amount_table": 20000000,
+      "received_amount_unit": "USD",
+      "development_status": "undisclosed",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "License-out contract summary table and detailed Biogen disclosure",
+      "confidence": "high"
+    }
+  ],
+  "pipeline_and_regulatory_status": [
+    {
+      "asset": "ALT-B4 / KEYTRUDA subcutaneous formulation",
+      "value": "Company states the partner MSD product using ALT-B4 obtained U.S. FDA, EU/EC, and Korean MFDS approvals; the contract-summary table states U.S. and EU approval and sales commencement.",
+      "period": "status disclosed in H1 2026 report",
+      "unit": "regulatory/commercial status",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "R&D progress / MSD license contract disclosure",
+      "confidence": "high"
+    },
+    {
+      "asset": "ALT-L9 / Eyluxvi",
+      "value": "EU marketing authorization obtained 2025-09-17.",
+      "period": "2025-09-17",
+      "unit": "regulatory milestone",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "R&D progress section",
+      "confidence": "high"
+    },
+    {
+      "asset": "ALT-L9 / EYZANFY",
+      "value": "Korean MFDS marketing authorization reported in detailed narrative as 2026-05-14; company-history section lists 2026-05-15.",
+      "period": "May 2026",
+      "unit": "regulatory milestone",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "R&D progress narrative and company-history section",
+      "confidence": "high",
+      "source_discrepancy_note": "Both dates from the supplied filing are preserved."
+    },
+    {
+      "asset": "ALT-P1",
+      "value": "Global Phase 2 in India with license-out partner Cristalia is in progress.",
+      "period": "H1 2026 status",
+      "unit": "clinical-development status",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "R&D pipeline table",
+      "confidence": "high"
+    },
+    {
+      "asset": "ALT-P7",
+      "value": "Phase 1 completed; combination-treatment research ongoing.",
+      "period": "H1 2026 status",
+      "unit": "clinical-development status",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "R&D pipeline table",
+      "confidence": "high"
+    }
+  ],
+  "guidance": [
+    {
+      "value": null,
+      "period": "FY2026",
+      "unit": "numeric revenue / operating-profit / EPS guidance",
+      "source": "supplied FY2025 and H1 2026 reports",
+      "original_location": "No explicit numeric FY2026 company guidance located in the supplied filings",
+      "confidence": "high"
+    },
+    {
+      "value": "Company states that upfront payments, milestones and post-commercialization royalties from global license agreements are expected to support continuing operating cash generation.",
+      "period": "H1 2026 company outlook statement",
+      "unit": "management statement",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Business overview / license-out strategy discussion",
+      "confidence": "high"
+    }
+  ],
+  "management_major_statements": [
+    {
+      "value": "The company describes ALT-B4 (berahyaluronidase alfa) as its core asset for converting IV biologics to SC formulations and states that it has license arrangements with MSD/Merck, AstraZeneca, Sanofi, GSK, Daiichi Sankyo, Sandoz, Biogen and Intas.",
+      "period": "H1 2026 filing",
+      "unit": "management statement",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Business overview",
+      "confidence": "high"
+    },
+    {
+      "value": "Revenue recognition for license arrangements can be based on upfront payments, milestones, royalties and progress-based technical services under K-IFRS 1115; invoiced amount and recognized revenue can differ where progress-based recognition applies.",
+      "period": "FY2025/H1 2026 filing policy",
+      "unit": "accounting/management disclosure",
+      "source": "FY2025 Business Report and H1 2026 Half-Year Report",
+      "original_location": "Business section / revenue-recognition explanation",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "value": "FY2025 revenue KRW 215.859bn versus FY2024 KRW 102.855bn; company MD&A reports revenue growth of 109.9%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "KRW / percent",
+      "source": "FY2025 Business Report",
+      "original_location": "Summary financials and MD&A profitability/growth indicators",
+      "confidence": "high"
+    },
+    {
+      "value": "FY2025 operating income KRW 106.900bn versus FY2024 KRW 25.404bn; company MD&A reports operating-income growth of 320.8%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "KRW / percent",
+      "source": "FY2025 Business Report",
+      "original_location": "Summary financials and MD&A profitability/growth indicators",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 revenue KRW 140.493bn versus H1 2025 KRW 102.339bn; operating income KRW 73.481bn versus KRW 60.591bn; consolidated net income KRW 101.333bn versus KRW 48.721bn.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Consolidated Statements of Comprehensive Income",
+      "confidence": "high",
+      "note": "Direct period values only; no extractor-calculated growth percentages."
+    },
+    {
+      "value": "ALT-L9 revenue in the major-products table is KRW 11.516bn-equivalent (11,515,761 thousand) in H1 2026 versus KRW 0.137bn-equivalent (136,930 thousand) for FY2025; product sales are 382,625 thousand in H1 2026 versus 28,132,911 thousand for FY2025.",
+      "period": "H1 2026 vs FY2025 revenue-mix table",
+      "unit": "KRW thousands",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Business section, major products/services revenue table",
+      "confidence": "high",
+      "note": "Different period lengths are preserved; no annualization."
+    },
+    {
+      "value": "Two new ALT-B4 license agreements were disclosed in H1 2026: Tesaro/GSK effective 2026-01-20 and Biogen International GMBH effective 2026-03-25.",
+      "period": "H1 2026",
+      "unit": "contract events",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Company history / license-out contract summary",
+      "confidence": "high"
+    },
+    {
+      "value": "Company-reported total borrowings are KRW 178.595bn at 2026-06-30 versus KRW 206.083bn at 2025-12-31; company-reported net debt is KRW 98.225bn versus KRW 139.702bn.",
+      "period": "2026-06-30 vs 2025-12-31",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Capital-management table",
+      "confidence": "high"
+    }
+  ],
+  "risk_related_disclosures": [
+    {
+      "value": "License agreements generally provide that clinical, registration or commercialization failure can terminate the agreement; the filing states that such termination does not create a penalty-payment obligation for Alteogen in the disclosed contract terms.",
+      "period": "current as of H1 2026",
+      "unit": "contract-risk disclosure",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Detailed license-out contract terms",
+      "confidence": "high",
+      "new_vs_fy2025": false
+    },
+    {
+      "value": "At 2026-06-30, the financial-liability cash-flow table includes KRW 158.330bn of redemption-convertible-preferred-share liability and KRW 2.080bn of convertible-bond cash flow on an undiscounted basis.",
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "Financial-risk / non-derivative financial-liability maturity table",
+      "confidence": "high",
+      "new_vs_fy2025": "not established from supplied evidence"
+    },
+    {
+      "value": "The parent provides a KRW 1.0bn pledged deposit with a KRW 1.1bn secured amount to Hana Bank in connection with a guarantee for Alteogen Biologics. The FY2025 report shows the same substantive guarantee structure dated 2025-03-04; H1 2026 shows a 2026-03-04 guarantee date.",
+      "period": "H1 2026",
+      "unit": "KRW / guarantee disclosure",
+      "source": "FY2025 Business Report and H1 2026 Half-Year Report",
+      "original_location": "Contingencies and commitments / related-party guarantee disclosures",
+      "confidence": "high",
+      "new_vs_fy2025": false,
+      "note": "Treated as continuation/renewal rather than a newly identified risk because the FY2025 report disclosed the same amount and structure."
+    },
+    {
+      "value": "The H1 2026 report states there were no sanctions disclosed in the sanctions section and no additional post-reporting-date matters in that section.",
+      "period": "H1 2026 filing",
+      "unit": "disclosure status",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "XI. Investor protection information, sanctions / subsequent matters",
+      "confidence": "high"
+    },
+    {
+      "value": "No clearly new material risk-factor disclosure versus the FY2025 report was identified from the three supplied documents beyond updated financing balances, licensing activity, regulatory/commercial milestones and the separate bonus-issue filing.",
+      "period": "comparison through 2026-07-20 supplied filings",
+      "unit": "source-comparison status",
+      "source": "FY2025 Business Report, H1 2026 Half-Year Report, corrected Bonus Issue Decision",
+      "original_location": "cross-document comparison",
+      "confidence": "medium"
+    }
+  ],
+  "capital_actions": [
+    {
+      "event": "bonus_issue",
+      "decision_date": "2026-07-16",
+      "correction_date": "2026-07-20",
+      "record_date": "2026-08-06",
+      "listing_date_original": "2026-08-20",
+      "listing_date_corrected": "2026-08-26",
+      "common_shares_to_issue": 16068790,
+      "preferred_shares_to_issue": 122037,
+      "shares_per_existing_share": 0.3,
+      "par_value_per_share": 500,
+      "unit_par_value": "KRW",
+      "pre_issue_common_shares": 53586343,
+      "pre_issue_preferred_shares": 406793,
+      "treasury_common_shares_excluded_from_allocation": 23708,
+      "funding_source_share_premium": 8095413500,
+      "funding_source_unit": "KRW",
+      "post_issue_table": {
+        "common_excluding_treasury": 69631425,
+        "treasury_common": 23708,
+        "redemption_convertible_preferred": 528830,
+        "total": 70183963
+      },
+      "source": "Corrected Major Matters Report - Bonus Issue Decision",
+      "original_location": "DART pp.1-4, bonus-issue decision table",
+      "confidence": "high",
+      "note": "Post-issue values are stored exactly as the company's allocation table presents them; no independent share-count reconciliation is performed."
+    }
+  ]
+}
