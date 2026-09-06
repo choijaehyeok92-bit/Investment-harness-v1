@@ -1,0 +1,687 @@
+{
+  "ticker": "278470",
+  "company": "APR Co., Ltd.",
+  "market": "KRX KOSPI",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow amount, derived operating-margin calculation, or unsupported inference. Values are extracted only from the two Google Drive filings supplied by the user. Where the 2026 half-year report restates comparative operating profit under K-IFRS 1118, both the original FY2025 filing presentation and the later restated comparative presentation are preserved rather than silently reconciled.",
+  "source_resolution": [
+    {
+      "drive_file_id": "1Un6af3K9XtqVlQssIS7xXTDXrqMRCWd_",
+      "resolved_identity": "APR Co., Ltd. FY2025 Business Report for 2025-01-01 through 2025-12-31, filed 2026-03-23",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "drive_file_id": "1BWuzRfJxif1Sj7SbJ7sus9VUSCe5TRt2",
+      "resolved_identity": "APR Co., Ltd. H1 2026 Half-Year Report for 2026-01-01 through 2026-06-30, filed 2026-08-14",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    }
+  ],
+  "accounting_presentation_change": {
+    "standard": "K-IFRS 1118 Presentation and Disclosure in Financial Statements",
+    "effective_for_company": "2026-01-01 early adoption",
+    "reported_effect": "The H1 2026 report restated prior-period income-statement presentation for comparability. Revenue, pretax profit, net income, total assets, total liabilities and total equity were unaffected by the reclassification, while operating-profit presentation changed.",
+    "fy2025_operating_income_original_krw": 365520628934,
+    "fy2025_operating_income_recast_krw": 361391394715,
+    "fy2024_operating_income_original_krw": 122705544449,
+    "fy2024_operating_income_recast_krw": 125010562715,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_page": 28
+    },
+    "confidence": "high"
+  },
+  "revenue": [
+    {
+      "value": 1527344973381,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 1360888888861,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 767533293305,
+      "period": "Q2 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 593767620563,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 327734894608,
+      "period": "Q2 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income, 3-month comparative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 365520628934,
+      "period": "FY2025 original filing presentation",
+      "unit": "KRW",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 361391394715,
+      "period": "FY2025 restated comparative under K-IFRS 1118",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.28, summarized consolidated financial information",
+      "confidence": "high"
+    },
+    {
+      "value": 342824708032,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 190553013038,
+      "period": "Q2 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 136884790182,
+      "period": "H1 2025 comparative restated under K-IFRS 1118",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31 and p.40, comparative restatement disclosure",
+      "confidence": "high"
+    },
+    {
+      "value": 81257513114,
+      "period": "Q2 2025 comparative restated under K-IFRS 1118",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, 3-month comparative column",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": null,
+      "period": "FY2025, Q2 2026, H1 2026",
+      "unit": "percent",
+      "source": "supplied filings",
+      "original_location": "No explicit current-period consolidated operating-margin percentage located in the supplied filings",
+      "confidence": "high",
+      "note": "Not derived from operating income divided by revenue in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 289654813287,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 258793447596,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 141529504826,
+      "period": "Q2 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 116250326398,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, consolidated statement of comprehensive income",
+      "confidence": "high"
+    },
+    {
+      "value": 66309082291,
+      "period": "Q2 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31, 3-month comparative column",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "KRW",
+      "source": "supplied filings",
+      "original_location": "No explicit free-cash-flow metric located in the supplied filings",
+      "confidence": "high",
+      "note": "Not calculated as operating cash flow minus capital expenditures in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 341046397295,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.33, consolidated statement of cash flows, cash flows from operating activities",
+      "confidence": "high"
+    },
+    {
+      "value": 86404149570,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.33, consolidated statement of cash flows",
+      "confidence": "high"
+    },
+    {
+      "value": 116067068380,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.33, consolidated statement of cash flows",
+      "confidence": "high"
+    }
+  ],
+  "capital_expenditures": [
+    {
+      "metric": "property_plant_and_equipment_increase_cash_outflow",
+      "value": 15411405167,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.34, consolidated statement of cash flows, increase in property, plant and equipment",
+      "confidence": "high"
+    },
+    {
+      "metric": "intangible_asset_increase_cash_outflow",
+      "value": 2506371609,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.34, consolidated statement of cash flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "property_plant_and_equipment_increase_cash_outflow",
+      "value": 16794134780,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.34, consolidated statement of cash flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "intangible_asset_increase_cash_outflow",
+      "value": 1127211290,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.34, consolidated statement of cash flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "property_plant_and_equipment_increase_cash_outflow",
+      "value": 7700083308,
+      "period": "H1 2025 comparative",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.34, consolidated statement of cash flows",
+      "confidence": "high"
+    }
+  ],
+  "cash_assets_liabilities": {
+    "fy2025_12_31": {
+      "cash_and_cash_equivalents_krw": 154350192148,
+      "accounts_and_other_receivables_krw": 91114168447,
+      "inventory_krw": 165457160456,
+      "current_financial_assets_other_krw": 32591663092,
+      "total_assets_krw": 771737546894,
+      "current_liabilities_krw": 238368989084,
+      "noncurrent_liabilities_krw": 87568747496,
+      "total_liabilities_krw": 325937736580,
+      "current_lease_liabilities_krw": 22492488636,
+      "noncurrent_lease_liabilities_krw": 78219359846,
+      "current_amortized_cost_financial_liabilities_krw": 2355225636,
+      "total_equity_krw": 445799810314,
+      "source": {
+        "document": "FY2025 business report",
+        "reported_pages": [28, 30]
+      }
+    },
+    "h1_2026_06_30": {
+      "cash_and_cash_equivalents_krw": 94463145498,
+      "accounts_and_other_receivables_krw": 191598733307,
+      "inventory_krw": 369883998811,
+      "current_amortized_cost_financial_assets_krw": 20097364984,
+      "total_assets_krw": 1102085656477,
+      "current_liabilities_krw": 382337630468,
+      "noncurrent_liabilities_krw": 71714231348,
+      "total_liabilities_krw": 454051861816,
+      "current_lease_liabilities_krw": 25486795404,
+      "noncurrent_lease_liabilities_krw": 59421329093,
+      "current_amortized_cost_financial_liabilities_krw": 9112308314,
+      "total_equity_krw": 648033794500,
+      "source": {
+        "document": "H1 2026 half-year report",
+        "reported_pages": [28, 30]
+      }
+    },
+    "conventional_debt_note": {
+      "value": null,
+      "period": "2025-12-31 and 2026-06-30",
+      "unit": "KRW",
+      "source": "supplied filings",
+      "original_location": "The supplied consolidated balance-sheet extracts present lease liabilities and amortized-cost financial liabilities; no unsupported aggregate 'debt' value is derived from total liabilities.",
+      "confidence": "high"
+    }
+  },
+  "business_and_product_performance": {
+    "fy2025_product_mix_reported_in_krw_millions": [
+      {
+        "category": "Cosmetics / beauty",
+        "amount": 1077126,
+        "share_percent": 70.5
+      },
+      {
+        "category": "Beauty devices",
+        "amount": 406984,
+        "share_percent": 26.7
+      },
+      {
+        "category": "Other",
+        "amount": 43235,
+        "share_percent": 2.8
+      }
+    ],
+    "h1_2026_product_mix_reported_in_krw_millions": [
+      {
+        "category": "Cosmetics / beauty",
+        "amount": 1100824,
+        "share_percent": 80.9
+      },
+      {
+        "category": "Beauty devices",
+        "amount": 244645,
+        "share_percent": 18.0
+      },
+      {
+        "category": "Other",
+        "amount": 15420,
+        "share_percent": 1.1
+      }
+    ],
+    "domestic_export_sales_reported_in_krw_millions": [
+      {
+        "period": "FY2025",
+        "domestic": 301586,
+        "export": 1225759,
+        "total": 1527345
+      },
+      {
+        "period": "H1 2026",
+        "domestic": 128630,
+        "export": 1232259,
+        "total": 1360889
+      },
+      {
+        "period": "FY2024",
+        "domestic": 322956,
+        "export": 399798,
+        "total": 722754
+      }
+    ],
+    "sales_channel_mix_percent": [
+      {
+        "period": "H1 2026",
+        "online": 61.4,
+        "offline": 38.6
+      },
+      {
+        "period": "FY2025",
+        "online": 66.6,
+        "offline": 33.4
+      },
+      {
+        "period": "FY2024",
+        "online": 75.8,
+        "offline": 24.2
+      }
+    ],
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [16, 18, 19]
+    },
+    "confidence": "high"
+  },
+  "segment_information": {
+    "fy2025_reported_in_krw_thousands": {
+      "cosmetics_segment_revenue_before_eliminations": 1949970104,
+      "apparel_fashion_segment_revenue_before_eliminations": 25088912,
+      "segment_total_revenue_before_eliminations": 1975059016,
+      "intersegment_and_other_adjustments_revenue": -447714043,
+      "consolidated_revenue": 1527344973,
+      "cosmetics_segment_operating_income": 376031448,
+      "apparel_fashion_segment_operating_loss": -7792842,
+      "segment_total_operating_income": 368238606,
+      "intersegment_and_other_adjustments_operating_income": -2717977,
+      "consolidated_operating_income": 365520629
+    },
+    "h1_2026_reported_in_krw_thousands": {
+      "cosmetics_segment_revenue_before_eliminations": 1772987466,
+      "apparel_fashion_segment_revenue_before_eliminations": 5596573,
+      "segment_total_revenue_before_eliminations": 1778584039,
+      "intersegment_and_other_adjustments_revenue": -417695150,
+      "consolidated_revenue": 1360888889,
+      "cosmetics_segment_operating_income": 344067543,
+      "apparel_fashion_segment_operating_income": 501505,
+      "segment_total_operating_income": 344569048,
+      "intersegment_and_other_adjustments_operating_income": -1744340,
+      "consolidated_operating_income": 342824708
+    },
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [120, 56]
+    },
+    "confidence": "high"
+  },
+  "major_customer": [
+    {
+      "customer_label": "Customer A",
+      "revenue": 155727670,
+      "period": "FY2025",
+      "unit": "KRW thousands",
+      "source": "FY2025 business report",
+      "original_location": "PDF p.121, segment note, major customer disclosure",
+      "company_statement": "Customer A represented 10% or more of FY2025 revenue.",
+      "confidence": "high"
+    },
+    {
+      "customer_label": "Customer A",
+      "revenue": 160298480,
+      "period": "H1 2026",
+      "unit": "KRW thousands",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.56, segment note, major customer disclosure",
+      "company_statement": "Customer A represented 10% or more of H1 2026 revenue.",
+      "confidence": "high"
+    }
+  ],
+  "research_and_development": {
+    "capitalized_rd_expense": {
+      "value": 0,
+      "period": "recent three fiscal years through H1 2026 filing date",
+      "unit": "KRW",
+      "source": "FY2025 business report and H1 2026 half-year report",
+      "original_location": "II. Business, Major Contracts and R&D Activities",
+      "company_statement": "The company states that no research and development costs exist under K-IFRS 1038 and that costs incurred in product development are expensed through selling and administrative expenses.",
+      "confidence": "high"
+    },
+    "organizations": [
+      "APR Device R&D Center (ADC)",
+      "Global Skin Science Institute"
+    ]
+  },
+  "share_count_and_capital_allocation": {
+    "issued_common_shares_2026_06_30": 37438155,
+    "treasury_shares_2026_06_30": 0,
+    "shares_outstanding_2026_06_30": 37438155,
+    "issued_common_shares_2025_12_31": 37430655,
+    "h1_2026_basic_weighted_average_shares": 37436801,
+    "h1_2026_diluted_weighted_average_shares": 37438155,
+    "h1_2026_dividend_paid_krw": 56157232500,
+    "stated_2024_2026_shareholder_return_policy": "At least 25% of adjusted consolidated net income each year through cash dividends or treasury-share repurchase and cancellation.",
+    "company_statement_on_2024_2025_buybacks": "The company states it acquired KRW 90 billion of treasury shares in aggregate during 2024-2025 and cancelled all of them.",
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [6, 32, 82, 141]
+    },
+    "confidence": "high"
+  },
+  "guidance_and_forward_company_statements": [
+    {
+      "value": "The company plans to expand production scale in response to higher beauty-device demand and new product launches.",
+      "period": "forward-looking qualitative plan disclosed in H1 2026 report",
+      "unit": "company statement",
+      "source": "H1 2026 half-year report",
+      "original_location": "I. Company Overview, amended business-purpose discussion, future plan",
+      "confidence": "high"
+    },
+    {
+      "value": "The company is pursuing licensing/approval procedures related to products and manufacturing facilities for a medical-device business; the sales-launch timing will be determined by approval progress and commercialization readiness.",
+      "period": "as of H1 2026 filing",
+      "unit": "company statement",
+      "source": "H1 2026 half-year report",
+      "original_location": "I. Company Overview, medical-device new-business discussion, PDF pp.13-14",
+      "confidence": "high"
+    },
+    {
+      "value": "The company states that future spending for the medical-device new business may vary with licensing, facility upgrades, quality-system establishment, production preparation and commercialization.",
+      "period": "as of H1 2026 filing",
+      "unit": "company statement",
+      "source": "H1 2026 half-year report",
+      "original_location": "I. Company Overview, medical-device new-business discussion, PDF p.13",
+      "confidence": "high"
+    },
+    {
+      "value": null,
+      "period": "FY2026",
+      "unit": "numeric revenue/profit guidance",
+      "source": "supplied filings",
+      "original_location": "No explicit numerical FY2026 revenue, operating-profit, EPS, or FCF guidance located in the two supplied filings",
+      "confidence": "high"
+    }
+  ],
+  "management_major_statements": [
+    {
+      "value": "The company states that it has internalized the beauty-device value chain across planning, R&D, production, sales and after-sales service through ADC and APR Factory.",
+      "period": "FY2025 / H1 2026",
+      "unit": "company statement",
+      "source": "FY2025 business report and H1 2026 half-year report",
+      "original_location": "I. Company Overview and II. Business Overview",
+      "confidence": "high"
+    },
+    {
+      "value": "The company describes a cross-selling model between cosmetics and home beauty devices and states an intention to extend the portfolio into medical devices.",
+      "period": "H1 2026",
+      "unit": "company statement",
+      "source": "H1 2026 half-year report",
+      "original_location": "I. Company Overview, new-business discussion",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "metric": "revenue",
+      "previous_value": 593767620563,
+      "current_value": 1360888888861,
+      "period": "H1 2025 to H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31",
+      "confidence": "high",
+      "note": "Values preserved without calculating a percentage change."
+    },
+    {
+      "metric": "operating_income_KIFRS1118",
+      "previous_value": 136884790182,
+      "current_value": 342824708032,
+      "period": "H1 2025 comparative to H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_income",
+      "previous_value": 116250326398,
+      "current_value": 258793447596,
+      "period": "H1 2025 to H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.31",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_from_operating_activities",
+      "previous_value": 116067068380,
+      "current_value": 86404149570,
+      "period": "H1 2025 to H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.33",
+      "confidence": "high"
+    },
+    {
+      "metric": "inventory",
+      "previous_value": 165457160456,
+      "current_value": 369883998811,
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF pp.28, 30",
+      "confidence": "high"
+    },
+    {
+      "metric": "accounts_and_other_receivables",
+      "previous_value": 91114168447,
+      "current_value": 191598733307,
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF pp.28, 30",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "previous_value": 154350192148,
+      "current_value": 94463145498,
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF pp.28, 30, 34",
+      "confidence": "high"
+    },
+    {
+      "metric": "product_mix",
+      "previous_value": "FY2025 cosmetics/beauty 70.5%, beauty devices 26.7%, other 2.8%",
+      "current_value": "H1 2026 cosmetics/beauty 80.9%, beauty devices 18.0%, other 1.1%",
+      "period": "FY2025 to H1 2026",
+      "unit": "percent of consolidated revenue",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.16",
+      "confidence": "high"
+    },
+    {
+      "metric": "domestic_export_sales",
+      "previous_value": "FY2025 domestic KRW 301,586 million; export KRW 1,225,759 million",
+      "current_value": "H1 2026 domestic KRW 128,630 million; export KRW 1,232,259 million",
+      "period": "FY2025 vs H1 2026 reported values",
+      "unit": "KRW millions",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.18",
+      "confidence": "high",
+      "note": "Periods are different lengths; no rate comparison is inferred."
+    },
+    {
+      "metric": "sales_channel_mix",
+      "previous_value": "FY2025 online 66.6%, offline 33.4%",
+      "current_value": "H1 2026 online 61.4%, offline 38.6%",
+      "period": "FY2025 to H1 2026",
+      "unit": "percent of consolidated revenue",
+      "source": "H1 2026 half-year report",
+      "original_location": "PDF p.19",
+      "confidence": "high"
+    }
+  ],
+  "risk_related_disclosures": [
+    {
+      "value": "The company identifies intensifying industry competition as a principal risk for the home beauty-device business and for the medical-device expansion area.",
+      "period": "FY2025 and H1 2026 filings",
+      "unit": "risk disclosure",
+      "source": "FY2025 business report and H1 2026 half-year report",
+      "original_location": "I. Company Overview, new-business risk sections",
+      "confidence": "high"
+    },
+    {
+      "value": "The consolidated entity states that liabilities exposed to interest-rate changes include short-term borrowings and that it monitors market interest rates and the mix of floating and fixed rates.",
+      "period": "H1 2026",
+      "unit": "risk disclosure",
+      "source": "H1 2026 half-year report",
+      "original_location": "II. Business, Risk Management, PDF p.19",
+      "confidence": "high"
+    },
+    {
+      "value": "The consolidated entity states that it monitors customer/counterparty credit quality and liquidity forecasts and maintains unused borrowing limits to meet operating-funding needs.",
+      "period": "H1 2026",
+      "unit": "risk disclosure",
+      "source": "H1 2026 half-year report",
+      "original_location": "II. Business, Risk Management, PDF p.19",
+      "confidence": "high"
+    },
+    {
+      "value": "One legal case was pending against the consolidated entity at period end; the company states it does not expect the case to have a significant effect on the financial statements.",
+      "period": "2026-06-30",
+      "unit": "legal contingency",
+      "source": "H1 2026 half-year report",
+      "original_location": "Note 25 / XI. Investor Protection, PDF pp.79 and 196",
+      "confidence": "high"
+    },
+    {
+      "value": "APR US INC maintained a deposit related to U.S. customs-payment obligations; a EUR 50,000 deposit was also disclosed as pledged in connection with a payment guarantee.",
+      "period": "2026-06-30",
+      "unit": "guarantee / restricted-cash disclosure",
+      "source": "H1 2026 half-year report",
+      "original_location": "Note 7 and Note 25, PDF pp.55 and 79",
+      "confidence": "high"
+    },
+    {
+      "value": "APR disclosed a KRW 8 million administrative fine imposed by the Financial Supervisory Service on 2025-01-13 related to foreign-exchange reporting requirements; the filing states the fine was paid and follow-up control procedures were strengthened.",
+      "period": "reported in H1 2026 filing; event date 2025-01-13",
+      "unit": "KRW millions / regulatory disclosure",
+      "source": "H1 2026 half-year report",
+      "original_location": "XI. Investor Protection, administrative sanctions",
+      "confidence": "high"
+    },
+    {
+      "value": "Medical-device commercialization is subject to product and manufacturing-facility approval procedures; sales commencement depends on the progress of approvals and business preparation.",
+      "period": "H1 2026",
+      "unit": "regulatory/new-business risk disclosure",
+      "source": "H1 2026 half-year report",
+      "original_location": "I. Company Overview, medical-device new-business discussion, PDF pp.13-14",
+      "confidence": "high"
+    }
+  ]
+}
