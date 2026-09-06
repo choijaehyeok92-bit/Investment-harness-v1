@@ -1,0 +1,844 @@
+{
+  "ticker": "VRT",
+  "company": "Vertiv Holdings Co",
+  "market": "NYSE",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "Extracted only from the five user-supplied Google Drive filing bodies. No scorecard, valuation, investment decision, derived free cash flow, derived consolidated operating margin, or unsupported reconciliation is included.",
+  "source_resolution": [
+    {
+      "source_key": "proxy_additional_materials_2026",
+      "drive_url": "https://drive.google.com/file/d/1DlBdQaKn0Njknk4kUoBRanBpmk8z-Wdd/view?usp=drivesdk",
+      "resolved_identity": "Vertiv Holdings Co Schedule 14A definitive additional materials for the June 17, 2026 annual meeting",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "source_key": "form4_monser_2026-09-02",
+      "drive_url": "https://drive.google.com/file/d/1UTQb4ZSQfh0OD5jVmOZUxE9tvgo7diYl/view?usp=drivesdk",
+      "resolved_identity": "Vertiv Holdings Co Form 4 for director Edward L. Monser, reporting September 1, 2026 transactions",
+      "source_character": "Section 16 beneficial-ownership filing",
+      "confidence": "high"
+    },
+    {
+      "source_key": "form10k_fy2025",
+      "drive_url": "https://drive.google.com/file/d/1JG2TL3iKTg2qap_nE_hDHPcwso24a6p3/view?usp=drivesdk",
+      "resolved_identity": "Vertiv Holdings Co Form 10-K for fiscal year ended December 31, 2025",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "source_key": "form10q_q2_2026",
+      "drive_url": "https://drive.google.com/file/d/1nLSfPSsAWNRzxInDiCN0uJpC40i8hjiw/view?usp=drivesdk",
+      "resolved_identity": "Vertiv Holdings Co Form 10-Q for quarter ended June 30, 2026",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    },
+    {
+      "source_key": "form8k_uig_2026-09-02",
+      "drive_url": "https://drive.google.com/file/d/126PCZcnVstf-kvL7AN9y5T_rlLDCNkKp/view?usp=drivesdk",
+      "resolved_identity": "Vertiv Holdings Co Form 8-K dated September 2, 2026 regarding agreement to acquire Utility Innovation Holdings, Inc. / UtilityInnovation Group",
+      "source_character": "company SEC filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 10229.9,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Earnings / MD&A Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 8390.6,
+      "period": "FY2025 product net sales",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Earnings",
+      "confidence": "high"
+    },
+    {
+      "value": 1839.3,
+      "period": "FY2025 service net sales",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Earnings",
+      "confidence": "high"
+    },
+    {
+      "value": 3274.3,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    },
+    {
+      "value": 5923.8,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    },
+    {
+      "value": 4782.5,
+      "period": "H1 2026 product net sales",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    },
+    {
+      "value": 1141.3,
+      "period": "H1 2026 service net sales",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 1829.7,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Earnings / MD&A Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 637.9,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    },
+    {
+      "value": 1078.0,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": null,
+      "period": "FY2025 / Q2 2026 / H1 2026 consolidated",
+      "unit": "percent",
+      "source": "form10k_fy2025 and form10q_q2_2026",
+      "original_location": "No explicit consolidated operating-margin percentage located in the supplied 10-K or 10-Q",
+      "confidence": "high",
+      "note": "Not derived from operating profit divided by net sales in DATA_EXTRACTION_ONLY mode. Explicit segment margins are stored separately."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 1332.8,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Earnings / MD&A Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 497.8,
+      "period": "Q2 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    },
+    {
+      "value": 887.9,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "USD millions",
+      "source": "form10k_fy2025 and form10q_q2_2026",
+      "original_location": "No explicit free-cash-flow amount located in the supplied filings",
+      "confidence": "high",
+      "note": "Not calculated as operating cash flow minus capital expenditures."
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 2113.8,
+      "period": "FY2025",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Cash Flows / MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    },
+    {
+      "value": 1866.6,
+      "period": "H1 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Cash Flows, p.5; MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    }
+  ],
+  "capital_expenditures": [
+    {
+      "value": 220.0,
+      "period": "FY2025",
+      "unit": "USD millions cash outflow",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Cash Flows / MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    },
+    {
+      "value": 6.4,
+      "period": "FY2025 capitalized software investment",
+      "unit": "USD millions cash outflow",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "value": 285.9,
+      "period": "H1 2026",
+      "unit": "USD millions cash outflow",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Cash Flows, p.5",
+      "confidence": "high"
+    },
+    {
+      "value": 2.6,
+      "period": "H1 2026 capitalized software investment",
+      "unit": "USD millions cash outflow",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Cash Flows, p.5",
+      "confidence": "high"
+    },
+    {
+      "value": 288.5,
+      "period": "H1 2026 management-defined capital expenditures including capitalized software",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Capital Resources and Liquidity",
+      "confidence": "high",
+      "note": "Stored separately from the cash-flow-statement capital-expenditure line because management explicitly includes capitalized software in this figure."
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 1728.4,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_investments",
+      "value": 99.5,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "term_loan_principal",
+      "value": 2076.1,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Note 6 - Debt / Market Risk",
+      "confidence": "high",
+      "note": "Term Loan due 2032; stated borrowing rate 5.61% at 2025-12-31."
+    },
+    {
+      "metric": "senior_secured_notes_principal",
+      "value": 850.0,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high",
+      "note": "Senior Secured Notes due 2028 at 4.125%."
+    },
+    {
+      "metric": "long_term_debt_net",
+      "value": 2892.1,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "abl_revolver_borrowings",
+      "value": 0,
+      "period": "2025-12-31",
+      "unit": "USD millions",
+      "source": "form10k_fy2025",
+      "original_location": "Quantitative and Qualitative Disclosures About Market Risk",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 2810.6,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Balance Sheets, p.4",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_investments",
+      "value": 300.0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Balance Sheets, p.4",
+      "confidence": "high"
+    },
+    {
+      "metric": "current_portion_long_term_debt",
+      "value": 0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Balance Sheets, p.4",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_debt_net",
+      "value": 2939.8,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Balance Sheets, p.4",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_secured_notes_due_2028_principal",
+      "value": 850.0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_notes_due_2036_principal",
+      "value": 600.0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_notes_due_2046_principal",
+      "value": 500.0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_notes_due_2056_principal",
+      "value": 500.0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_notes_due_2066_principal",
+      "value": 500.0,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_unsecured_revolver_commitment",
+      "value": 2500.0,
+      "period": "2026-06-30",
+      "unit": "USD millions committed capacity",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt / MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    },
+    {
+      "metric": "senior_unsecured_revolver_availability",
+      "value": 2483.6,
+      "period": "2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 6 - Debt / MD&A Capital Resources and Liquidity",
+      "confidence": "high",
+      "note": "Availability net of $16.4 million of letters of credit, subject to customary conditions."
+    }
+  ],
+  "business_segment_performance": {
+    "fy2025": [
+      {
+        "segment": "Americas",
+        "net_sales": 6386.3,
+        "operating_profit": 1714.3,
+        "segment_margin": 26.8,
+        "period": "FY2025",
+        "unit": "USD millions / percent",
+        "source": "form10k_fy2025",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      },
+      {
+        "segment": "Asia Pacific",
+        "net_sales": 2019.2,
+        "operating_profit": 222.1,
+        "segment_margin": 11.0,
+        "period": "FY2025",
+        "unit": "USD millions / percent",
+        "source": "form10k_fy2025",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      },
+      {
+        "segment": "Europe, Middle East & Africa",
+        "net_sales": 1824.4,
+        "operating_profit": 377.4,
+        "segment_margin": 20.7,
+        "period": "FY2025",
+        "unit": "USD millions / percent",
+        "source": "form10k_fy2025",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      }
+    ],
+    "q2_2026": [
+      {
+        "segment": "Americas",
+        "net_sales": 2070.8,
+        "operating_profit": 571.4,
+        "segment_margin": 27.6,
+        "period": "Q2 2026",
+        "unit": "USD millions / percent",
+        "source": "form10q_q2_2026",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      },
+      {
+        "segment": "Asia Pacific",
+        "net_sales": 719.9,
+        "operating_profit": 95.6,
+        "segment_margin": 13.3,
+        "period": "Q2 2026",
+        "unit": "USD millions / percent",
+        "source": "form10q_q2_2026",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      },
+      {
+        "segment": "Europe, Middle East & Africa",
+        "net_sales": 483.6,
+        "operating_profit": 124.2,
+        "segment_margin": 25.7,
+        "period": "Q2 2026",
+        "unit": "USD millions / percent",
+        "source": "form10q_q2_2026",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      }
+    ],
+    "h1_2026": [
+      {
+        "segment": "Americas",
+        "net_sales": 3885.2,
+        "operating_profit": 1061.6,
+        "segment_margin": 27.3,
+        "period": "H1 2026",
+        "unit": "USD millions / percent",
+        "source": "form10q_q2_2026",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      },
+      {
+        "segment": "Asia Pacific",
+        "net_sales": 1233.6,
+        "operating_profit": 163.0,
+        "segment_margin": 13.2,
+        "period": "H1 2026",
+        "unit": "USD millions / percent",
+        "source": "form10q_q2_2026",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      },
+      {
+        "segment": "Europe, Middle East & Africa",
+        "net_sales": 805.0,
+        "operating_profit": 177.7,
+        "segment_margin": 22.1,
+        "period": "H1 2026",
+        "unit": "USD millions / percent",
+        "source": "form10q_q2_2026",
+        "original_location": "MD&A Business Segments",
+        "confidence": "high"
+      }
+    ]
+  },
+  "guidance": [
+    {
+      "value": [550.0, 570.0],
+      "period": "FY2026",
+      "unit": "USD millions capital expenditures including capitalized software",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Capital Resources and Liquidity",
+      "confidence": "high",
+      "note": "Management stated the spending is intended to support capacity expansion across the business."
+    },
+    {
+      "value": "Acquisition expected to close in Q4 2026, subject to customary closing conditions including HSR waiting-period expiration or termination.",
+      "period": "Q4 2026",
+      "unit": "transaction timeline",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Form 8-K Item 1.01",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertiv expects the UtilityInnovation Group acquisition to be accretive to adjusted earnings per share in the first year following completion.",
+      "period": "first year after acquisition completion",
+      "unit": "management forward-looking statement",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Exhibit 99.1 press release",
+      "confidence": "high"
+    },
+    {
+      "value": null,
+      "period": "FY2026",
+      "unit": "numeric revenue / EPS guidance",
+      "source": "five supplied filings",
+      "original_location": "No numeric full-year revenue or EPS guidance located in the supplied filing bodies",
+      "confidence": "high"
+    }
+  ],
+  "management_major_statements": [
+    {
+      "value": "Management states that demand for data centers supporting AI and high-performance compute remains very robust and that Vertiv anticipates further global capacity investment.",
+      "period": "Q2 2026 filing outlook",
+      "unit": "management statement",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Outlook and Trends - Growth and Capacity Expansion",
+      "confidence": "high"
+    },
+    {
+      "value": "Management states that continued AI and high-performance-computing adoption is increasing demand for power, thermal and infrastructure-management solutions, with continued investment in product, technology, capacity and capabilities.",
+      "period": "Q2 2026 filing outlook",
+      "unit": "management statement",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Outlook and Trends - Artificial Intelligence and High-Performance Compute Demand",
+      "confidence": "high"
+    },
+    {
+      "value": "Management identifies evolving customer requirements toward higher-density infrastructure, including hybrid air/liquid cooling, converged physical infrastructure and high-voltage direct-current power architectures.",
+      "period": "Q2 2026 filing outlook",
+      "unit": "management statement",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Outlook and Trends - Technology and Portfolio Expansion",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertiv believes current cash, cash equivalents, short-term investments and revolver availability provide adequate near-term liquidity for the next 12 months of independent operations.",
+      "period": "as of 2026-06-30 filing",
+      "unit": "liquidity statement",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    },
+    {
+      "value": "The UtilityInnovation Group acquisition is intended to extend Vertiv upstream to grid interconnect through microgrid controls, onsite generation and energy-storage orchestration, and behind-the-meter power architecture.",
+      "period": "2026-09-02",
+      "unit": "management strategic statement",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Exhibit 99.1 press release",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "value": "FY2025 net sales were $10,229.9 million versus $8,011.8 million in FY2024; filing reports +27.7%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "USD millions / percent",
+      "source": "form10k_fy2025",
+      "original_location": "MD&A Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": "FY2025 operating profit was $1,829.7 million versus $1,367.4 million in FY2024; filing reports +33.8%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "USD millions / percent",
+      "source": "form10k_fy2025",
+      "original_location": "MD&A Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": "FY2025 net income was $1,332.8 million versus $495.8 million in FY2024; filing reports +168.8%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "USD millions / percent",
+      "source": "form10k_fy2025",
+      "original_location": "MD&A Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": "FY2025 operating cash flow was $2,113.8 million versus $1,319.3 million in FY2024; filing reports +60.2%.",
+      "period": "FY2025 vs FY2024",
+      "unit": "USD millions / percent",
+      "source": "form10k_fy2025",
+      "original_location": "MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    },
+    {
+      "value": "Q2 2026 net sales were $3,274.3 million versus $2,638.1 million in Q2 2025; filing reports +24.1%. Acquisition-related sales were $129.7 million and foreign-currency impact was +$35.9 million.",
+      "period": "Q2 2026 vs Q2 2025",
+      "unit": "USD millions / percent",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Comparison of Three Months Ended June 30, 2026 and 2025",
+      "confidence": "high"
+    },
+    {
+      "value": "Q2 2026 net income was $497.8 million versus $324.2 million in Q2 2025; filing reports +53.5%.",
+      "period": "Q2 2026 vs Q2 2025",
+      "unit": "USD millions / percent",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Comparison of Three Months Ended June 30, 2026 and 2025",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 net sales were $5,923.8 million versus $4,674.1 million in H1 2025; filing reports +26.7%. Acquisition-related sales were $226.3 million and foreign-currency impact was +$92.6 million.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "USD millions / percent",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Comparison of Six Months Ended June 30, 2026 and 2025",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 net income was $887.9 million versus $488.7 million in H1 2025; filing reports +81.7%.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "USD millions / percent",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Comparison of Six Months Ended June 30, 2026 and 2025",
+      "confidence": "high"
+    },
+    {
+      "value": "H1 2026 operating cash flow was $1,866.6 million, a $1,240.4 million increase from H1 2025; deferred revenue was cited as the primary driver of the positive working-capital change.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "MD&A Capital Resources and Liquidity",
+      "confidence": "high"
+    },
+    {
+      "value": "The 2032 Term Loan had $2,076.1 million principal at 2025 year-end and was zero at June 30, 2026; at June 30, 2026 the company instead had four new Senior Notes tranches totaling individually reported principal amounts of $600 million, $500 million, $500 million and $500 million, plus the existing $850 million Senior Secured Notes.",
+      "period": "2025-12-31 to 2026-06-30",
+      "unit": "USD millions",
+      "source": "form10k_fy2025 and form10q_q2_2026",
+      "original_location": "Note 6 - Debt",
+      "confidence": "high",
+      "note": "No aggregate debt amount is calculated from the tranche values."
+    }
+  ],
+  "risk_related_new_disclosures": [
+    {
+      "value": "The Q2 2026 Form 10-Q states that, other than the noted financing-covenant update, risk factors had not materially changed from the FY2025 Form 10-K.",
+      "period": "Q2 2026",
+      "unit": "risk-factor status",
+      "source": "form10q_q2_2026",
+      "original_location": "Part II, Item 1A. Risk Factors",
+      "confidence": "high"
+    },
+    {
+      "value": "The Q2 2026 Form 10-Q adds/updates the restrictive-covenant risk for the new Senior Unsecured Revolving Credit Facility and Senior Notes. The revolver requires a maximum consolidated net-debt-to-EBITDA ratio of 4.00:1.00, with an optional 4.50:1.00 step-up for four fiscal quarters after a qualifying acquisition involving at least $750 million of cash consideration, subject to conditions.",
+      "period": "Q2 2026",
+      "unit": "formal risk-factor disclosure",
+      "source": "form10q_q2_2026",
+      "original_location": "Part II, Item 1A. Risk Factors",
+      "confidence": "high",
+      "new_vs_10k": true
+    },
+    {
+      "value": "As of June 30, 2026, outstanding bank guarantees and bonds totaled $304.8 million; the company states these instruments can require customer payments for non-performance.",
+      "period": "2026-06-30",
+      "unit": "USD millions / contingency disclosure",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 13 - Commitments and Contingencies / Bank Guarantees and Bonds",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertiv initiated claims for refunds of certain IEEPA tariffs after a 2026 court process, but states that the amount, timing and likelihood of any recovery remain uncertain and any refund may be less than the full amount paid.",
+      "period": "Q2 2026",
+      "unit": "legal / tariff contingency disclosure",
+      "source": "form10q_q2_2026",
+      "original_location": "International Emergency Economic Power Act (IEEPA) disclosure; MD&A Outlook and Trends",
+      "confidence": "high",
+      "new_specific_2026_disclosure": true
+    },
+    {
+      "value": "The UtilityInnovation Group acquisition is subject to customary closing conditions including expiration or termination of the Hart-Scott-Rodino waiting period.",
+      "period": "2026-09-01 agreement",
+      "unit": "transaction closing condition",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Form 8-K Item 1.01",
+      "confidence": "high",
+      "note": "Stored as a transaction condition, not reclassified as a formal Item 1A risk factor."
+    }
+  ],
+  "acquisitions_and_portfolio_events": [
+    {
+      "value": "PurgeRite acquisition closed December 4, 2025. Total consideration transferred was $1,138.3 million net of $14.4 million cash acquired; gross consideration was $1,152.7 million, comprising $1,003.5 million cash, $139.2 million contingent consideration and $10.0 million other. Additional contingent cash consideration can be up to $250.0 million if specified performance metrics are achieved.",
+      "period": "2025-12-04 / as updated at 2026-06-30",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 3 - Acquisitions",
+      "confidence": "high"
+    },
+    {
+      "value": "At June 30, 2026, the recorded PurgeRite contingent earnout liability was $206.1 million. Vertiv recognized contingent-consideration fair-value losses of $28.8 million in Q2 2026 and $62.0 million in H1 2026.",
+      "period": "Q2/H1 2026",
+      "unit": "USD millions",
+      "source": "form10q_q2_2026",
+      "original_location": "Note 3 - Acquisitions / MD&A Corporate and Other",
+      "confidence": "high"
+    },
+    {
+      "value": "The company completed acquisitions of BMarko Structures, LLC on April 10, 2026, Strategic Thermal Labs, LLC on April 24, 2026, and ThermoKey S.p.A on June 11, 2026.",
+      "period": "Q2 2026",
+      "unit": "acquisition completion dates",
+      "source": "form10q_q2_2026",
+      "original_location": "Controls and Procedures / acquisition integration disclosure",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertiv agreed on September 1, 2026 to acquire Utility Innovation Holdings, Inc., operating as UtilityInnovation Group (UIG), for approximately $1.45 billion cash at closing plus up to $1.15 billion additional cash in two earnout tranches based on EBITDA targets.",
+      "period": "2026-09-01 agreement",
+      "unit": "USD billions",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Form 8-K Item 1.01 / Exhibit 99.1",
+      "confidence": "high",
+      "note": "The two consideration components are preserved separately; no total maximum consideration is calculated."
+    },
+    {
+      "value": "At the approximately $1.45 billion upfront purchase price, Vertiv states the UIG acquisition represents approximately 13x expected UIG 2027 EBITDA.",
+      "period": "2026-09-02 announcement",
+      "unit": "reported transaction multiple",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Exhibit 99.1 press release",
+      "confidence": "high"
+    },
+    {
+      "value": "Vertiv expects to fund the UIG acquisition from existing resources.",
+      "period": "2026-09-01 agreement",
+      "unit": "financing statement",
+      "source": "form8k_uig_2026-09-02",
+      "original_location": "Form 8-K Item 1.01",
+      "confidence": "high"
+    }
+  ],
+  "capital_structure": [
+    {
+      "value": 382598464,
+      "period": "2026-02-09",
+      "unit": "Class A common shares issued and outstanding",
+      "source": "form10k_fy2025",
+      "original_location": "Form 10-K cover page",
+      "confidence": "high"
+    },
+    {
+      "value": 384936985,
+      "period": "2026-06-30",
+      "unit": "Class A common shares issued and outstanding",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Balance Sheets, p.4",
+      "confidence": "high"
+    },
+    {
+      "value": 384988173,
+      "period": "2026-07-27",
+      "unit": "Class A common shares outstanding",
+      "source": "form10q_q2_2026",
+      "original_location": "Form 10-Q cover page",
+      "confidence": "high"
+    },
+    {
+      "value": 392511287,
+      "period": "H1 2026",
+      "unit": "diluted weighted-average shares",
+      "source": "form10q_q2_2026",
+      "original_location": "Condensed Consolidated Statements of Earnings, p.2",
+      "confidence": "high"
+    }
+  ],
+  "section_16_transactions": [
+    {
+      "reporting_person": "Edward L. Monser",
+      "role": "Director",
+      "transaction_date": "2026-09-01",
+      "security": "Class A Common Stock",
+      "transaction_code": "M",
+      "amount": 15287,
+      "acquired_or_disposed": "A",
+      "price": 11.5,
+      "shares_beneficially_owned_following": 31787,
+      "ownership_form": "D",
+      "source": "form4_monser_2026-09-02",
+      "original_location": "Form 4 Table I / Table II",
+      "confidence": "high",
+      "note": "Exercise of fully vested stock options; derivative-security balance following transaction was zero."
+    },
+    {
+      "reporting_person": "Edward L. Monser",
+      "role": "Director",
+      "transaction_date": "2026-09-01",
+      "security": "Class A Common Stock",
+      "transaction_code": "S",
+      "sale_lots": [
+        {"shares": 880, "reported_weighted_average_price": 249.4284},
+        {"shares": 1040, "reported_weighted_average_price": 250.5797},
+        {"shares": 1440, "reported_weighted_average_price": 251.5618},
+        {"shares": 2280, "reported_weighted_average_price": 252.5283},
+        {"shares": 1000, "reported_weighted_average_price": 253.3695},
+        {"shares": 3040, "reported_weighted_average_price": 254.6258},
+        {"shares": 3520, "reported_weighted_average_price": 255.5791},
+        {"shares": 2087, "reported_weighted_average_price": 256.3607}
+      ],
+      "direct_shares_beneficially_owned_following_last_reported_sale": 16500,
+      "indirect_spouse_shares_reported": 918,
+      "source": "form4_monser_2026-09-02",
+      "original_location": "Form 4 Table I and footnotes 1-10",
+      "confidence": "high",
+      "note": "Sales were automatically effected under a Rule 10b5-1 trading plan adopted May 22, 2026. Sale lots are preserved individually; no aggregate sale price or total sale proceeds are calculated."
+    }
+  ],
+  "corporate_governance_events": [
+    {
+      "value": "The 2026 annual meeting was scheduled for June 17, 2026. The proxy additional materials list eleven director nominees, an advisory vote on 2025 named-executive compensation, and ratification of Ernst & Young LLP as independent auditor for FY2026; the board recommendation shown is 'For' on each listed item.",
+      "period": "2026 annual meeting",
+      "unit": "governance disclosure",
+      "source": "proxy_additional_materials_2026",
+      "original_location": "Schedule 14A definitive additional materials / Voting Items",
+      "confidence": "high"
+    }
+  ]
+}
