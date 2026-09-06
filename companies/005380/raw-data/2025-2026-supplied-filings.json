@@ -1,0 +1,668 @@
+{
+  "ticker": "005380",
+  "company": "HYUNDAI MOTOR COMPANY",
+  "market": "KRX KOSPI",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "No investment judgment, valuation, scorecard, derived free-cash-flow calculation, derived operating-margin calculation, or unsupported reconciliation. Values are extracted only from the three Google Drive filings supplied by the user. Consolidated cash flow and debt include financial subsidiaries where the filing reports them on a consolidated basis.",
+  "source_resolution": [
+    {
+      "drive_file_id": "1ol7dB4-QyPTLIY5nqmhoHxjJuIpj-jM3",
+      "resolved_identity": "Hyundai Motor Company FY2025 Business Report for 2025-01-01 through 2025-12-31, filed 2026-03-18",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "drive_file_id": "1q23JZ_WJi8erHOgWiLKGqZpNNRs-L4jk",
+      "resolved_identity": "Hyundai Motor Company H1 2026 Half-Year Report for 2026-01-01 through 2026-06-30, filed 2026-08-14",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    },
+    {
+      "drive_file_id": "1nkdfOOGBHnZ6hzlOMJ2mTL4vVB9wjUVZ",
+      "resolved_identity": "Hyundai Motor Company Material Event Report - Treasury Stock Disposal Decision, filed 2026-07-23",
+      "source_character": "company DART filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 186254472,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.70 and consolidated income statement p.74",
+      "confidence": "high"
+    },
+    {
+      "value": 95154214,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.64 and consolidated income statement p.68",
+      "confidence": "high"
+    },
+    {
+      "value": 49215328,
+      "period": "Q2 2026",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68, consolidated income statement, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 92694438,
+      "period": "H1 2025 comparative",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68, comparative consolidated income statement",
+      "confidence": "high"
+    },
+    {
+      "value": 48286677,
+      "period": "Q2 2025 comparative",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68, comparative 3-month column",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 11467851,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.70 and consolidated income statement p.74",
+      "confidence": "high"
+    },
+    {
+      "value": 5365574,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.64 and p.68",
+      "confidence": "high"
+    },
+    {
+      "value": 2850888,
+      "period": "Q2 2026",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 7235206,
+      "period": "H1 2025 comparative",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68",
+      "confidence": "high"
+    },
+    {
+      "value": 3601597,
+      "period": "Q2 2025 comparative",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": 6.2,
+      "period": "FY2025",
+      "unit": "percent",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.411, Management Discussion and Analysis - Overview; company explicitly states operating margin 6.2%",
+      "confidence": "high"
+    },
+    {
+      "value": null,
+      "period": "H1 2026",
+      "unit": "percent",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "No explicit consolidated H1 2026 operating-margin percentage located in supplied filing",
+      "confidence": "high",
+      "note": "Not derived from revenue and operating income in DATA_EXTRACTION_ONLY mode."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 10364775,
+      "period": "FY2025 consolidated net income",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.70 and consolidated income statement",
+      "confidence": "high"
+    },
+    {
+      "value": 9445987,
+      "period": "FY2025 net income attributable to owners of parent",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.70 summary financial information",
+      "confidence": "high"
+    },
+    {
+      "value": 5472888,
+      "period": "H1 2026 consolidated net income",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68-69 consolidated income statement",
+      "confidence": "high"
+    },
+    {
+      "value": 4856197,
+      "period": "H1 2026 net income attributable to owners of parent",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.64 and p.68",
+      "confidence": "high"
+    },
+    {
+      "value": 2887962,
+      "period": "Q2 2026 consolidated net income",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68, 3-month column",
+      "confidence": "high"
+    },
+    {
+      "value": 6632564,
+      "period": "H1 2025 comparative consolidated net income",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68-69",
+      "confidence": "high"
+    },
+    {
+      "value": 3250390,
+      "period": "Q2 2025 comparative consolidated net income",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68",
+      "confidence": "high"
+    }
+  ],
+  "free_cash_flow": [
+    {
+      "value": null,
+      "period": "FY2025 and H1 2026",
+      "unit": "KRW millions",
+      "source": "supplied FY2025 Business Report and H1 2026 Half-Year Report",
+      "original_location": "No explicit company-defined free-cash-flow amount located in supplied filings",
+      "confidence": "high",
+      "note": "No OCF-minus-CapEx calculation performed."
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": -5991270,
+      "period": "FY2025 consolidated cash flow from operating activities",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.79, consolidated statement of cash flows",
+      "confidence": "high",
+      "note": "Reported consolidated figure includes financial subsidiaries."
+    },
+    {
+      "value": 4849653,
+      "period": "H1 2026 consolidated cash flow from operating activities",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.71, consolidated statement of cash flows",
+      "confidence": "high",
+      "note": "Reported consolidated figure includes financial subsidiaries."
+    },
+    {
+      "value": 8137177,
+      "period": "H1 2026 cash generated from operations before interest/tax/dividend lines as presented",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.71 and Note 33 p.140",
+      "confidence": "high"
+    }
+  ],
+  "capital_expenditures": [
+    {
+      "value": 8366764,
+      "period": "FY2025",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.79, consolidated statement of cash flows, acquisition of property plant and equipment",
+      "confidence": "high"
+    },
+    {
+      "value": 4003527,
+      "period": "H1 2026",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.71-72, consolidated statement of cash flows, acquisition of property plant and equipment",
+      "confidence": "high"
+    },
+    {
+      "value": 3856673,
+      "period": "H1 2025 comparative",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.71-72 comparative cash flow statement",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 18360566,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.70 and p.73 consolidated balance sheet",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_financial_instruments",
+      "value": 5857507,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.70 and p.73",
+      "confidence": "high"
+    },
+    {
+      "metric": "borrowings_and_bonds_carrying_amount",
+      "value": 175389838,
+      "period": "2025-12-31",
+      "unit": "KRW millions",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.150, financial liabilities fair value and carrying amount table",
+      "confidence": "high",
+      "note": "Consolidated amount includes financial subsidiaries."
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 20256150,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.64 and p.66 consolidated balance sheet",
+      "confidence": "high"
+    },
+    {
+      "metric": "short_term_financial_instruments",
+      "value": 5737868,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.64 and p.66",
+      "confidence": "high"
+    },
+    {
+      "metric": "borrowings_and_bonds_carrying_amount",
+      "value": 188805180,
+      "period": "2026-06-30",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.108, financial liabilities fair value and carrying amount table",
+      "confidence": "high",
+      "note": "Consolidated amount includes financial subsidiaries."
+    }
+  ],
+  "business_segment_performance": {
+    "fy2025": [
+      {
+        "segment": "Vehicle",
+        "revenue": 145631818,
+        "operating_income": 8470939,
+        "period": "FY2025",
+        "unit": "KRW millions",
+        "source": "FY2025 Business Report",
+        "original_location": "DART PDF pp.35 and 40, segment financial information",
+        "confidence": "high"
+      },
+      {
+        "segment": "Finance",
+        "revenue": 30232775,
+        "operating_income": 2164043,
+        "period": "FY2025",
+        "unit": "KRW millions",
+        "source": "FY2025 Business Report",
+        "original_location": "DART PDF pp.60-61, finance segment information",
+        "confidence": "high"
+      },
+      {
+        "segment": "Other",
+        "revenue": 10389879,
+        "operating_income": 832869,
+        "period": "FY2025",
+        "unit": "KRW millions",
+        "source": "FY2025 Business Report",
+        "original_location": "DART PDF pp.35 and 40",
+        "confidence": "high"
+      }
+    ],
+    "h1_2026": [
+      {
+        "segment": "Vehicle",
+        "revenue": 71371243,
+        "operating_income": 3758387,
+        "period": "H1 2026 external-customer revenue / segment operating income as business-section table",
+        "unit": "KRW millions",
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "DART PDF pp.29 and 34",
+        "confidence": "high"
+      },
+      {
+        "segment": "Finance",
+        "revenue": 18494685,
+        "operating_income": 1338210,
+        "period": "H1 2026",
+        "unit": "KRW millions",
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "DART PDF pp.54-55 and Note 37",
+        "confidence": "high"
+      },
+      {
+        "segment": "Other",
+        "revenue": 5288286,
+        "operating_income": 268977,
+        "period": "H1 2026",
+        "unit": "KRW millions",
+        "source": "H1 2026 Half-Year Report",
+        "original_location": "DART PDF pp.29 and 34",
+        "confidence": "high"
+      }
+    ],
+    "h1_2026_geographic_revenue": [
+      {"region":"Korea","value":26184909,"period":"H1 2026","unit":"KRW millions","source":"H1 2026 Half-Year Report","original_location":"DART PDF Note 37 segment information","confidence":"high"},
+      {"region":"North America","value":44840419,"period":"H1 2026","unit":"KRW millions","source":"H1 2026 Half-Year Report","original_location":"DART PDF Note 37 segment information","confidence":"high"},
+      {"region":"Asia","value":8799013,"period":"H1 2026","unit":"KRW millions","source":"H1 2026 Half-Year Report","original_location":"DART PDF Note 37 segment information","confidence":"high"},
+      {"region":"Europe","value":12342342,"period":"H1 2026","unit":"KRW millions","source":"H1 2026 Half-Year Report","original_location":"DART PDF Note 37 segment information","confidence":"high"},
+      {"region":"Other","value":2987531,"period":"H1 2026","unit":"KRW millions","source":"H1 2026 Half-Year Report","original_location":"DART PDF Note 37 segment information","confidence":"high"}
+    ]
+  },
+  "guidance_and_stated_targets": [
+    {
+      "value": 5550000,
+      "period": "2030 target",
+      "unit": "vehicles global sales",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF pp.50-51, long-term strategy",
+      "confidence": "high"
+    },
+    {
+      "value": 3300000,
+      "period": "2030 target",
+      "unit": "electrified vehicles sold, HEV/EV/EREV/FCEV",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF pp.50-51",
+      "confidence": "high"
+    },
+    {
+      "value": 1200000,
+      "period": "strategic additional production capacity target",
+      "unit": "vehicles",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.51, Manufacturing Excellence",
+      "confidence": "high"
+    },
+    {
+      "value": 200000,
+      "period": "HMGMA capacity addition by 2028",
+      "unit": "vehicles per year",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.51",
+      "confidence": "high"
+    },
+    {
+      "value": 250000,
+      "period": "Pune plant added capacity",
+      "unit": "vehicles per year",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.51",
+      "confidence": "high"
+    },
+    {
+      "value": 200000,
+      "period": "Ulsan EV dedicated plant added capacity from 2026",
+      "unit": "vehicles per year",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.51",
+      "confidence": "high"
+    },
+    {
+      "value": "18 or more",
+      "period": "by 2030",
+      "unit": "hybrid models",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.51-52, New Product Innovation",
+      "confidence": "high"
+    },
+    {
+      "value": "7 or more",
+      "period": "by 2030",
+      "unit": "Hyundai N models",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.52",
+      "confidence": "high"
+    },
+    {
+      "value": 350000,
+      "period": "2030 target",
+      "unit": "Genesis vehicles annual sales",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.52",
+      "confidence": "high"
+    },
+    {
+      "value": "15 countries / 80% of total sales",
+      "period": "2030 target",
+      "unit": "sales-finance coverage",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF long-term strategy section",
+      "confidence": "high"
+    },
+    {
+      "value": null,
+      "period": "FY2026",
+      "unit": "numeric annual revenue / operating-margin guidance",
+      "source": "three supplied filings",
+      "original_location": "No explicit FY2026 consolidated revenue or operating-margin guidance located in the supplied documents",
+      "confidence": "high"
+    }
+  ],
+  "management_major_statements": [
+    {
+      "value": "Management stated that Hyundai sold 4.14 million vehicles globally in 2025, recorded a record KRW 186.3 trillion of revenue, KRW 11.47 trillion of operating income, a 6.2% operating margin, and KRW 10.36 trillion of net income amid global trade uncertainty and tariff pressure.",
+      "period": "FY2025 MD&A",
+      "unit": "management statement",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.411, MD&A Overview",
+      "confidence": "high"
+    },
+    {
+      "value": "For H1 2026, the company states that its vehicle segment sold about 1.97 million units and generated about KRW 71 trillion of consolidated vehicle-segment revenue, and that it will respond to market uncertainty through Manufacturing Excellence, New Product Innovation, Advanced Tech & SDV, and Investing for the Future & Innovative Partnerships.",
+      "period": "H1 2026",
+      "unit": "management statement",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.29, vehicle segment overview",
+      "confidence": "high"
+    },
+    {
+      "value": "The company identifies global scale, diversified powertrains and product portfolio, localized value chains, and group-company synergies as four core competitive capabilities supporting its 2030 strategy.",
+      "period": "H1 2026 long-term strategy",
+      "unit": "management statement",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF pp.50-51",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "value": "H1 revenue: KRW 95,154,214 million in 2026 versus KRW 92,694,438 million in 2025; H1 operating income: KRW 5,365,574 million versus KRW 7,235,206 million; H1 consolidated net income: KRW 5,472,888 million versus KRW 6,632,564 million.",
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF pp.68-69 consolidated income statement",
+      "confidence": "high",
+      "note": "Period values preserved without calculating new growth percentages."
+    },
+    {
+      "value": "Q2 revenue: KRW 49,215,328 million in 2026 versus KRW 48,286,677 million in 2025; Q2 operating income: KRW 2,850,888 million versus KRW 3,601,597 million; Q2 consolidated net income: KRW 2,887,962 million versus KRW 3,250,390 million.",
+      "period": "Q2 2026 vs Q2 2025",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.68 consolidated income statement",
+      "confidence": "high",
+      "note": "Period values preserved without calculating new growth percentages."
+    },
+    {
+      "value": "FY2025 vehicle-segment revenue increased 6.5% year over year to KRW 145.632 trillion; vehicle-segment operating income decreased 25.8% to KRW 8.471 trillion. The filing attributes the operating-income decline to North American tariff effects and increased incentives.",
+      "period": "FY2025 vs FY2024",
+      "unit": "company-reported percent / KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.413-415, MD&A segment discussion",
+      "confidence": "high"
+    },
+    {
+      "value": "FY2025 finance-segment revenue increased 6.3% year over year to KRW 30.233 trillion and operating income increased 20.5% to KRW 2.164 trillion, as stated by the company.",
+      "period": "FY2025 vs FY2024",
+      "unit": "company-reported percent / KRW",
+      "source": "FY2025 Business Report",
+      "original_location": "DART PDF p.413-415, MD&A segment discussion",
+      "confidence": "high"
+    },
+    {
+      "value": "Consolidated cash and cash equivalents were KRW 20,256,150 million at June 30, 2026 versus KRW 18,360,566 million at December 31, 2025; borrowings and bonds carrying amount was KRW 188,805,180 million versus KRW 175,389,838 million.",
+      "period": "2026-06-30 vs 2025-12-31",
+      "unit": "KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF pp.64-66 and p.108",
+      "confidence": "high",
+      "note": "No derived net-debt calculation."
+    }
+  ],
+  "risk_related_disclosures": [
+    {
+      "value": "The H1 2026 filing states that Hyundai Motor and consolidated entities continue to be defendants in domestic and overseas lawsuits, including product-liability matters, and continue to be investigated by domestic and overseas authorities regarding Theta II engine recalls; outcomes and effects cannot be predicted.",
+      "period": "2026-06-30",
+      "unit": "legal / recall contingency disclosure",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.154 and investor-protection section pp.365-367",
+      "confidence": "high",
+      "new_vs_fy2025": false,
+      "note": "The same Theta II recall / investigation disclosure is present in the supplied FY2025 Business Report."
+    },
+    {
+      "value": "A new Hyundai Rotem proceeding disclosed in the H1 2026 report was filed on June 25, 2026 against the legal administrator of STX in rehabilitation. The primary claim amount is KRW 55,612 million and the alternative claim amount is KRW 79,446 million. The filing states that if Hyundai Rotem loses, approximately KRW 28.3 billion of prepaid amounts would have to be returned to STX, and the probability of loss cannot currently be reasonably predicted.",
+      "period": "filed 2026-06-25; disclosed in H1 2026 report",
+      "unit": "legal contingency / KRW millions",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF pp.366-368, Hyundai Rotem significant litigation",
+      "confidence": "high",
+      "new_vs_fy2025": true
+    },
+    {
+      "value": "As of June 30, 2026 the consolidated group had a KRW 3,349,350 million commitment to contribute capital through 2030 to related party HMG Future Complex Co., Ltd. for a new research and office hub.",
+      "period": "2026-06-30 through 2030",
+      "unit": "KRW millions commitment",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF Note 36 / investor-protection section, commitment disclosure",
+      "confidence": "high",
+      "new_vs_fy2025": "not located in the supplied FY2025 report under the same disclosure wording"
+    },
+    {
+      "value": "The company continues to identify tariff and trade-policy uncertainty as an operating risk, including U.S. import vehicle/parts tariffs. HMGMA localization and added U.S. production capacity are described as measures intended in part to minimize tariff impact.",
+      "period": "FY2025 and H1 2026",
+      "unit": "business-risk disclosure",
+      "source": "FY2025 Business Report and H1 2026 Half-Year Report",
+      "original_location": "business environment and long-term strategy sections",
+      "confidence": "high",
+      "new_vs_fy2025": false
+    }
+  ],
+  "share_and_capital_allocation_data": [
+    {
+      "metric": "issued_common_shares",
+      "value": 204757766,
+      "period": "2026-06-30",
+      "unit": "shares",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.15, total shares outstanding section",
+      "confidence": "high"
+    },
+    {
+      "metric": "issued_preferred_shares",
+      "value": 60632342,
+      "period": "2026-06-30",
+      "unit": "shares",
+      "source": "H1 2026 Half-Year Report",
+      "original_location": "DART PDF p.15",
+      "confidence": "high"
+    },
+    {
+      "metric": "treasury_common_shares_before_2026_07_23_disposal",
+      "value": 2341700,
+      "period": "2026-07-23 filing date",
+      "unit": "shares",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF pp.2-3",
+      "confidence": "high"
+    },
+    {
+      "metric": "treasury_other_shares_before_2026_07_23_disposal",
+      "value": 1214332,
+      "period": "2026-07-23 filing date",
+      "unit": "shares",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF pp.2-3",
+      "confidence": "high"
+    },
+    {
+      "metric": "planned_treasury_common_share_disposal",
+      "value": 2747,
+      "period": "planned disposal date 2026-07-31",
+      "unit": "common shares",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF p.2",
+      "confidence": "high"
+    },
+    {
+      "metric": "reference_disposal_price",
+      "value": 418000,
+      "period": "board resolution reference price based on 2026-07-22 closing price",
+      "unit": "KRW per common share",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF p.2",
+      "confidence": "high"
+    },
+    {
+      "metric": "planned_disposal_amount",
+      "value": 1148246000,
+      "period": "2026-07-31 planned disposal",
+      "unit": "KRW",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF p.2",
+      "confidence": "high"
+    },
+    {
+      "metric": "stated_dilution_effect",
+      "value": 0.001,
+      "period": "2026-07-23 decision",
+      "unit": "percent of issued common shares",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF p.4, additional disclosure",
+      "confidence": "high"
+    },
+    {
+      "metric": "disposal_purpose",
+      "value": "Executive stock compensation for recruitment and retention of executives with critical skills; counterparties: Philippe Guerin-Boutaud 169 shares, Pete Jolly 700 shares, Kim Hye-in 1,878 shares.",
+      "period": "2026-07-23 decision / 2026-07-31 planned disposal",
+      "unit": "text / shares",
+      "source": "Treasury Stock Disposal Decision",
+      "original_location": "DART PDF pp.2-4",
+      "confidence": "high"
+    }
+  ]
+}
