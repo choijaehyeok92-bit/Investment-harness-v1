@@ -1,0 +1,113 @@
+{
+  "ticker": "214450",
+  "company": "주식회사 파마리서치",
+  "market": "KOSDAQ",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "H1 2026 ended 2026-06-30",
+  "scope_note": "투자판단, 가치평가, 파생 계산, 원문에 없는 추론을 포함하지 않음. 사용자가 제공한 2026년 반기보고서와 2025년 사업보고서만 사용. 영업이익률과 FCF는 원문에 명시된 수치가 없어 계산하지 않음.",
+  "source_documents": [
+    {
+      "document": "2026 Half-Year Report (제26기 반기보고서)",
+      "drive_id": "1ZL5hQwWmt2Fke0zFOO0Lzuc93Dj3iAHR",
+      "period": "2026-01-01 through 2026-06-30",
+      "filed": "2026-08-14",
+      "confidence": "high"
+    },
+    {
+      "document": "2025 Business Report (제25기 사업보고서)",
+      "drive_id": "1fKgjfUCkpuhLU9d1qhRe5Z30d1DPogFV",
+      "period": "2025-01-01 through 2025-12-31",
+      "filed": "2026-03-19",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {"value":178704799285,"period":"Q2 2026 (three months ended 2026-06-30)","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서, 제26기 반기 3개월","confidence":"high"},
+    {"value":324805059793,"period":"H1 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서, 제26기 반기 누적","confidence":"high"},
+    {"value":140607447466,"period":"Q2 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서, 제25기 반기 3개월 비교열","confidence":"high"},
+    {"value":257517417773,"period":"H1 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서, 제25기 반기 누적 비교열","confidence":"high"},
+    {"value":536289118812,"period":"FY2025","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.38, 연결 포괄손익계산서","confidence":"high"},
+    {"value":350115068641,"period":"FY2024 comparative","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.38, 연결 포괄손익계산서 비교열","confidence":"high"}
+  ],
+  "operating_income": [
+    {"value":66469662181,"period":"Q2 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서","confidence":"high"},
+    {"value":123762004754,"period":"H1 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서","confidence":"high"},
+    {"value":55877690378,"period":"Q2 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서 비교열","confidence":"high"},
+    {"value":100611274981,"period":"H1 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서 비교열","confidence":"high"},
+    {"value":214395758571,"period":"FY2025","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.38, 연결 포괄손익계산서","confidence":"high"},
+    {"value":126050757121,"period":"FY2024 comparative","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.38, 연결 포괄손익계산서 비교열","confidence":"high"}
+  ],
+  "operating_margin": [
+    {"value":null,"period":"Q2 2026 / H1 2026","unit":"percent","source":"2026 Half-Year Report","original_location":"확인 불가 / 원문 미기재","confidence":"high","note":"매출액과 영업이익으로 계산하지 않음."},
+    {"value":null,"period":"FY2025","unit":"percent","source":"2025 Business Report","original_location":"확인 불가 / 원문 미기재","confidence":"high","note":"매출액과 영업이익으로 계산하지 않음."}
+  ],
+  "net_income": [
+    {"value":56228701360,"period":"Q2 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서, 반기순이익 3개월","confidence":"high"},
+    {"value":104977191967,"period":"H1 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서, 반기순이익 누적","confidence":"high"},
+    {"value":42044835186,"period":"Q2 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서 비교열","confidence":"high"},
+    {"value":78071684000,"period":"H1 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서 비교열","confidence":"high"},
+    {"value":168255434874,"period":"FY2025","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.39, 연결 포괄손익계산서, 당기순이익","confidence":"high"},
+    {"value":88943035620,"period":"FY2024 comparative","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.39, 연결 포괄손익계산서 비교열","confidence":"high"}
+  ],
+  "fcf": [
+    {"value":null,"period":"H1 2026 and FY2025","unit":"not reported","source":"2026 Half-Year Report and 2025 Business Report","original_location":"확인 불가 / 원문 미기재","confidence":"high","note":"영업활동현금흐름에서 CapEx를 차감하는 계산을 수행하지 않음."}
+  ],
+  "operating_cash_flow": [
+    {"value":64258667155,"period":"H1 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.39, 연결 현금흐름표, 영업활동현금흐름","confidence":"high"},
+    {"value":74528735924,"period":"H1 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.39, 연결 현금흐름표 비교열","confidence":"high"},
+    {"value":183162279104,"period":"FY2025","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.41, 연결 현금흐름표","confidence":"high"},
+    {"value":138121879153,"period":"FY2024 comparative","unit":"KRW","source":"2025 Business Report","original_location":"DART PDF p.41, 연결 현금흐름표 비교열","confidence":"high"}
+  ],
+  "capex": [
+    {"metric":"유형자산의 취득","value":21090725430,"period":"H1 2026","unit":"KRW cash outflow","source":"2026 Half-Year Report","original_location":"DART PDF p.39, 연결 현금흐름표","confidence":"high"},
+    {"metric":"유형자산의 취득","value":15821555057,"period":"H1 2025 comparative","unit":"KRW cash outflow","source":"2026 Half-Year Report","original_location":"DART PDF p.39, 연결 현금흐름표 비교열","confidence":"high"},
+    {"metric":"유형자산의 취득","value":29727158506,"period":"FY2025","unit":"KRW cash outflow","source":"2025 Business Report","original_location":"DART PDF p.42, 연결 현금흐름표","confidence":"high"},
+    {"metric":"유형자산의 취득","value":36414698107,"period":"FY2024 comparative","unit":"KRW cash outflow","source":"2025 Business Report","original_location":"DART PDF p.42, 연결 현금흐름표 비교열","confidence":"high"}
+  ],
+  "cash_and_debt": [
+    {"metric":"현금및현금성자산","value":220289875319,"period":"2026-06-30","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.35, 연결 재무상태표; p.45 현금및현금성자산 주석","confidence":"high"},
+    {"metric":"현금및현금성자산","value":175663243434,"period":"2025-12-31","unit":"KRW","source":"2026 Half-Year Report / 2025 Business Report","original_location":"2026 Half-Year Report DART PDF p.35 비교열; 2025 Business Report 현금및현금성자산 주석","confidence":"high"},
+    {"metric":"차입금_사채포함","value":213712495353,"period":"2026-06-30","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.93, 위험관리(연결), 자본위험관리","confidence":"high"},
+    {"metric":"차입금_사채포함","value":211622910759,"period":"2025-12-31","unit":"KRW","source":"2026 Half-Year Report / 2025 Business Report","original_location":"2026 Half-Year Report DART PDF p.93 비교열; 2025 Business Report 위험관리","confidence":"high"},
+    {"metric":"은행차입금","value":476917536,"period":"2026-06-30","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.66-67, 19. 차입금(연결)","confidence":"high"},
+    {"metric":"유동성전환사채","value":5976167604,"period":"2026-06-30","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.36 연결 재무상태표 / 복합금융상품 변동내역","confidence":"high"},
+    {"metric":"전환상환우선주부채","value":207259410213,"period":"2026-06-30","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.36 연결 재무상태표 / 복합금융상품 변동내역","confidence":"high"}
+  ],
+  "business_segment_performance": {
+    "product_sales": [
+      {"segment":"의료기기","value":176232,"period":"H1 2026","unit":"KRW million","share_percent":54.2,"source":"2026 Half-Year Report","original_location":"DART PDF p.17, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"화장품","value":102326,"period":"H1 2026","unit":"KRW million","share_percent":31.5,"source":"2026 Half-Year Report","original_location":"DART PDF p.17, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"의약품","value":39818,"period":"H1 2026","unit":"KRW million","share_percent":12.3,"source":"2026 Half-Year Report","original_location":"DART PDF p.17, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"기타","value":6429,"period":"H1 2026","unit":"KRW million","share_percent":2.0,"source":"2026 Half-Year Report","original_location":"DART PDF p.17, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"의료기기","value":314435,"period":"FY2025","unit":"KRW million","share_percent":58.6,"source":"2025 Business Report","original_location":"DART PDF p.18, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"화장품","value":131645,"period":"FY2025","unit":"KRW million","share_percent":24.6,"source":"2025 Business Report","original_location":"DART PDF p.18, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"의약품","value":82540,"period":"FY2025","unit":"KRW million","share_percent":15.4,"source":"2025 Business Report","original_location":"DART PDF p.18, 주요 제품 등의 현황","confidence":"high"},
+      {"segment":"기타","value":7669,"period":"FY2025","unit":"KRW million","share_percent":1.4,"source":"2025 Business Report","original_location":"DART PDF p.18, 주요 제품 등의 현황","confidence":"high"}
+    ],
+    "geographic_revenue": [
+      {"segment":"국내","value":181843640359,"period":"H1 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.45, 3. 부문별정보(연결), 지역에 대한 공시","confidence":"high"},
+      {"segment":"해외","value":142961419434,"period":"H1 2026","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.45, 3. 부문별정보(연결), 지역에 대한 공시","confidence":"high"},
+      {"segment":"국내","value":154464995651,"period":"H1 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.45, 3. 부문별정보(연결), 지역에 대한 공시 비교표","confidence":"high"},
+      {"segment":"해외","value":103052422122,"period":"H1 2025 comparative","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.45, 3. 부문별정보(연결), 지역에 대한 공시 비교표","confidence":"high"}
+    ]
+  },
+  "guidance": [
+    {"value":null,"period":"H1 2026 / FY2026","unit":"not reported","source":"2026 Half-Year Report","original_location":"DART PDF p.179, IV. 이사의 경영진단 및 분석의견 - 각 항목 '해당사항 없음'","confidence":"high","note":"정량 회사 Guidance는 제공 원문에 기재되지 않음."}
+  ],
+  "management_statements": [
+    {"value":"회사는 PDRN 및 PN 기반 재생의학 사업을 통해 미용 및 항노화 분야 제품을 개발·공급하고, 국내 천연자원 활용 기술 개발과 임상 근거 축적으로 사업 경쟁력을 강화하며 글로벌 시장에서 지속적인 성장을 도모한다고 기재했다.","period":"FY2025 management discussion","unit":"text","source":"2025 Business Report","original_location":"DART PDF p.234, IV. 이사의 경영진단 및 분석의견, 2. 개요","confidence":"high"},
+    {"value":"2025년 연결 매출 5,363억원, 영업이익 2,144억원, 당기순이익 1,683억원을 기록했고 전년 대비 각각 53%, 70%, 89% 증가했다고 기재했다. 국내 외국인 의료관광 유입 확대와 중국·일본·동남아·북미 등 해외 유통망 확대 및 브랜드 인지도 제고를 매출 성장 요인으로 제시했다.","period":"FY2025","unit":"text and percent","source":"2025 Business Report","original_location":"DART PDF p.234-235, IV. 이사의 경영진단 및 분석의견, 2. 개요 / 3. 영업실적","confidence":"high"}
+  ],
+  "important_changes": [
+    {"metric":"FY2025 explicit YoY change","value":{"revenue_growth_percent":53,"operating_income_growth_percent":70,"net_income_growth_percent":89},"period":"FY2025 vs FY2024","unit":"percent","source":"2025 Business Report","original_location":"DART PDF p.234-235, 이사의 경영진단 및 분석의견","confidence":"high"},
+    {"metric":"Q2 reported comparison","value":{"revenue":{"Q2_2026":178704799285,"Q2_2025":140607447466},"operating_income":{"Q2_2026":66469662181,"Q2_2025":55877690378},"net_income":{"Q2_2026":56228701360,"Q2_2025":42044835186}},"period":"Q2 2026 vs Q2 2025","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서","confidence":"high","note":"변화율을 계산하지 않고 원문 비교열의 값을 그대로 기록."},
+    {"metric":"H1 reported comparison","value":{"revenue":{"H1_2026":324805059793,"H1_2025":257517417773},"operating_income":{"H1_2026":123762004754,"H1_2025":100611274981},"net_income":{"H1_2026":104977191967,"H1_2025":78071684000}},"period":"H1 2026 vs H1 2025","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.37, 연결 포괄손익계산서","confidence":"high","note":"변화율을 계산하지 않고 원문 비교열의 값을 그대로 기록."},
+    {"metric":"product_mix_reported","value":{"H1_2026":{"의료기기":54.2,"화장품":31.5,"의약품":12.3,"기타":2.0},"FY2025":{"의료기기":58.6,"화장품":24.6,"의약품":15.4,"기타":1.4}},"period":"H1 2026 and FY2025","unit":"percent of sales","source":"2026 Half-Year Report and 2025 Business Report","original_location":"2026 Half-Year Report DART PDF p.17; 2025 Business Report DART PDF p.18","confidence":"high","note":"서로 다른 기간의 원문 공시 비중을 병렬 기록하며 증감폭은 계산하지 않음."}
+  ],
+  "new_risk_disclosures": [
+    {"metric":"financial_risk_management_strategy_change","value":"전반적인 금융위험 관리 전략은 전기와 동일","period":"H1 2026","unit":"text","source":"2026 Half-Year Report","original_location":"DART PDF p.95, 31. 위험관리(연결)","confidence":"high","note":"원문은 신규 위험관리 전략을 공시하지 않고 전기와 동일하다고 명시."},
+    {"metric":"maximum_credit_risk_exposure","value":{"2026-06-30":732274087690,"2025-12-31":564449062852},"period":"2026-06-30 vs 2025-12-31","unit":"KRW","source":"2026 Half-Year Report","original_location":"DART PDF p.22, 위험관리 및 파생거래, 신용위험 최대 노출","confidence":"high","note":"현재·전기말 원문 수치를 그대로 기록하며 증감률은 계산하지 않음."},
+    {"metric":"liquidity_risk_management_assessment","value":"경영진은 영업활동현금흐름과 금융자산의 현금유입으로 금융부채를 상환가능하다고 판단","period":"H1 2026","unit":"text","source":"2026 Half-Year Report","original_location":"DART PDF p.23, 위험관리 및 파생거래, 유동성위험","confidence":"high"}
+  ]
+}
