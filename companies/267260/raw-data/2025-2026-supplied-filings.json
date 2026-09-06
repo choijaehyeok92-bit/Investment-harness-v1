@@ -1,0 +1,867 @@
+{
+  "ticker": "267260",
+  "company": "HD Hyundai Electric Co., Ltd.",
+  "company_ko": "에이치디현대일렉트릭 주식회사",
+  "market": "KRX",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "scope_note": "Extracted only from the two user-supplied Google Drive filing bodies: FY2025 사업보고서 and H1 2026 반기보고서. No scorecard, valuation, investment decision, derived free cash flow, derived operating margin, or unsupported reconciliation is included.",
+  "requested_sources": [
+    {
+      "drive_url": "https://drive.google.com/file/d/18jgcJtIo-DFaUlzIU5xlJMaoI8R_xwhz/view?usp=drivesdk",
+      "resolved_identity": "HD Hyundai Electric FY2025 사업보고서",
+      "period": "2025-01-01 to 2025-12-31",
+      "filing_date": "2026-03-16",
+      "source_character": "company regulatory filing",
+      "confidence": "high"
+    },
+    {
+      "drive_url": "https://drive.google.com/file/d/1Bt_VL4FRciHICBy0JPdeb6h5ood5ox5N/view?usp=drivesdk",
+      "resolved_identity": "HD Hyundai Electric H1 2026 반기보고서",
+      "period": "2026-01-01 to 2026-06-30",
+      "filing_date": "2026-08-14",
+      "source_character": "company regulatory filing",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 4079497658529,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 포괄손익계산서 / 요약재무정보",
+      "confidence": "high"
+    },
+    {
+      "value": 3322349007529,
+      "period": "FY2024 comparator",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 포괄손익계산서 / 요약재무정보",
+      "confidence": "high"
+    },
+    {
+      "value": 2178313164743,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 요약재무정보 / 연결재무제표",
+      "confidence": "high"
+    },
+    {
+      "value": 1920887000000,
+      "period": "H1 2025 comparator",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "주석 25. 수익 > 전반기 누적 수익(매출액)",
+      "confidence": "high"
+    },
+    {
+      "value": 1141813000000,
+      "period": "Q2 2026",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "주석 25. 수익 > 당반기 3개월 수익(매출액)",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "value": 995313437790,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 포괄손익계산서",
+      "confidence": "high"
+    },
+    {
+      "value": 668970713547,
+      "period": "FY2024 comparator",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 포괄손익계산서",
+      "confidence": "high"
+    },
+    {
+      "value": 545303822428,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 요약재무정보; II. 사업의 내용 > 위험관리 이자보상배율 산출근거",
+      "confidence": "high"
+    },
+    {
+      "value": 427321000000,
+      "period": "H1 2025 comparator",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 위험관리 > 이자보상배율 산출근거",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": null,
+      "period": "FY2025",
+      "unit": "%",
+      "source": "FY2025 사업보고서",
+      "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+      "confidence": "high",
+      "note": "No exact consolidated operating-margin percentage was extracted. Management stated only that operating margin exceeded 20% for two consecutive years. No ratio was derived from revenue and operating income."
+    },
+    {
+      "value": null,
+      "period": "H1 2026",
+      "unit": "%",
+      "source": "H1 2026 반기보고서",
+      "location": "supplied filing body",
+      "confidence": "high",
+      "note": "No explicit consolidated H1 operating-margin percentage identified; not calculated."
+    }
+  ],
+  "net_income": [
+    {
+      "value": 731816191305,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 포괄손익계산서",
+      "confidence": "high"
+    },
+    {
+      "value": 498409535389,
+      "period": "FY2024 comparator",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 포괄손익계산서",
+      "confidence": "high"
+    },
+    {
+      "value": 413828105435,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 요약재무정보 / 연결현금흐름표",
+      "confidence": "high"
+    },
+    {
+      "value": 295326202873,
+      "period": "H1 2025 comparator",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "연결현금흐름표 > 반기순이익",
+      "confidence": "high"
+    }
+  ],
+  "operating_cash_flow": [
+    {
+      "value": 959572657325,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표",
+      "confidence": "high"
+    },
+    {
+      "value": 1033722426199,
+      "period": "FY2024 comparator",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표",
+      "confidence": "high"
+    },
+    {
+      "value": 480269932949,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표",
+      "confidence": "high"
+    },
+    {
+      "value": 456999366688,
+      "period": "H1 2025 comparator",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표",
+      "confidence": "high"
+    }
+  ],
+  "fcf": [
+    {
+      "value": null,
+      "period": "FY2025",
+      "unit": "KRW",
+      "source": "FY2025 사업보고서",
+      "location": "supplied filing body",
+      "confidence": "high",
+      "note": "Explicit free-cash-flow amount not identified; no CFO-minus-CapEx calculation performed."
+    },
+    {
+      "value": null,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "supplied filing body",
+      "confidence": "high",
+      "note": "Explicit free-cash-flow amount not identified; no derived calculation performed."
+    }
+  ],
+  "capex": [
+    {
+      "value": 233500152700,
+      "period": "FY2025",
+      "unit": "KRW",
+      "metric": "유형자산의 취득",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표 > 투자활동현금흐름",
+      "confidence": "high"
+    },
+    {
+      "value": 121640871886,
+      "period": "FY2024 comparator",
+      "unit": "KRW",
+      "metric": "유형자산의 취득",
+      "source": "FY2025 사업보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표 > 투자활동현금흐름",
+      "confidence": "high"
+    },
+    {
+      "value": 139882641673,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "metric": "유형자산의 취득",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표 > 투자활동현금흐름",
+      "confidence": "high"
+    },
+    {
+      "value": 61093755421,
+      "period": "H1 2025 comparator",
+      "unit": "KRW",
+      "metric": "유형자산의 취득",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표 > 투자활동현금흐름",
+      "confidence": "high"
+    },
+    {
+      "value": 9161233522,
+      "period": "H1 2026",
+      "unit": "KRW",
+      "metric": "무형자산의 취득",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 연결 현금흐름표 > 투자활동현금흐름",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": {
+    "FY2025": [
+      {
+        "value": 950781542257,
+        "period": "2025-12-31",
+        "unit": "KRW",
+        "metric": "현금및현금성자산",
+        "source": "FY2025 사업보고서",
+        "location": "연결 재무상태표 / 주석 6 현금및현금성자산",
+        "confidence": "high"
+      },
+      {
+        "value": 17261026153,
+        "period": "2025-12-31",
+        "unit": "KRW",
+        "metric": "단기금융자산",
+        "source": "FY2025 사업보고서",
+        "location": "연결 재무상태표",
+        "confidence": "high"
+      },
+      {
+        "value": 968711000000,
+        "period": "2025-12-31",
+        "unit": "KRW",
+        "metric": "예금잔액 - 회사 자본관리 정의",
+        "source": "FY2025 사업보고서",
+        "location": "위험관리 > 자본관리",
+        "confidence": "high",
+        "note": "Company states deposits include cash and cash equivalents plus short/long-term financial products."
+      },
+      {
+        "value": 186060000000,
+        "period": "2025-12-31",
+        "unit": "KRW",
+        "metric": "차입금 - 회사 자본관리 정의",
+        "source": "FY2025 사업보고서",
+        "location": "위험관리 > 자본관리",
+        "confidence": "high"
+      },
+      {
+        "value": 2736880000000,
+        "period": "2025-12-31",
+        "unit": "KRW",
+        "metric": "부채총계",
+        "source": "FY2025 사업보고서",
+        "location": "위험관리 > 자본관리",
+        "confidence": "high"
+      }
+    ],
+    "H1_2026": [
+      {
+        "value": 988054179610,
+        "period": "2026-06-30",
+        "unit": "KRW",
+        "metric": "현금및현금성자산",
+        "source": "H1 2026 반기보고서",
+        "location": "연결 재무상태표 / 주석 5 현금및현금성자산",
+        "confidence": "high"
+      },
+      {
+        "value": 21040517297,
+        "period": "2026-06-30",
+        "unit": "KRW",
+        "metric": "단기금융자산",
+        "source": "H1 2026 반기보고서",
+        "location": "연결 재무상태표",
+        "confidence": "high"
+      },
+      {
+        "value": 1009952000000,
+        "period": "2026-06-30",
+        "unit": "KRW",
+        "metric": "예금잔액 - 회사 자본관리 정의",
+        "source": "H1 2026 반기보고서",
+        "location": "위험관리 > 자본관리",
+        "confidence": "high"
+      },
+      {
+        "value": 114467000000,
+        "period": "2026-06-30",
+        "unit": "KRW",
+        "metric": "차입금 - 회사 자본관리 정의",
+        "source": "H1 2026 반기보고서",
+        "location": "위험관리 > 자본관리",
+        "confidence": "high"
+      },
+      {
+        "value": 3233511000000,
+        "period": "2026-06-30",
+        "unit": "KRW",
+        "metric": "부채총계",
+        "source": "H1 2026 반기보고서",
+        "location": "위험관리 > 자본관리",
+        "confidence": "high"
+      }
+    ],
+    "net_debt": {
+      "value": null,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "source": "H1 2026 반기보고서",
+      "location": "위험관리 > 자본관리",
+      "confidence": "high",
+      "note": "Company did not present a net-debt ratio because deposits exceeded borrowings. No net-debt amount was calculated."
+    }
+  },
+  "product_and_business_performance": {
+    "H1_2026_sales_mix": [
+      {
+        "value": 1476122000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "metric": "전력기기 매출",
+        "share_reported": "67.8%",
+        "source": "H1 2026 반기보고서",
+        "location": "II. 사업의 내용 > 주요 제품 및 서비스",
+        "confidence": "high"
+      },
+      {
+        "value": 351638000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "metric": "회전기기 매출",
+        "share_reported": "16.1%",
+        "source": "H1 2026 반기보고서",
+        "location": "II. 사업의 내용 > 주요 제품 및 서비스",
+        "confidence": "high"
+      },
+      {
+        "value": 350553000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "metric": "배전기기 외 매출",
+        "share_reported": "16.1%",
+        "source": "H1 2026 반기보고서",
+        "location": "II. 사업의 내용 > 주요 제품 및 서비스",
+        "confidence": "high"
+      }
+    ],
+    "FY2025_sales_mix_values": [
+      {
+        "value": 2835195000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "metric": "전력기기 매출",
+        "source": "H1 2026 반기보고서 comparator table",
+        "location": "II. 사업의 내용 > 매출실적",
+        "confidence": "high"
+      },
+      {
+        "value": 588664000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "metric": "회전기기 매출",
+        "source": "H1 2026 반기보고서 comparator table",
+        "location": "II. 사업의 내용 > 매출실적",
+        "confidence": "high"
+      },
+      {
+        "value": 655639000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "metric": "배전기기 외 매출",
+        "source": "H1 2026 반기보고서 comparator table",
+        "location": "II. 사업의 내용 > 매출실적",
+        "confidence": "high"
+      }
+    ],
+    "geography_and_export": [
+      {
+        "value": 1706656000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "metric": "해외매출/수출금액",
+        "share_reported": "78%",
+        "source": "H1 2026 반기보고서",
+        "location": "II. 사업의 내용 > 사업의 개요; 주석 25 수익",
+        "confidence": "high"
+      },
+      {
+        "value": 471657000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "metric": "국내매출",
+        "source": "H1 2026 반기보고서",
+        "location": "주석 25. 수익 > 국내매출과 해외매출",
+        "confidence": "high"
+      },
+      {
+        "value": 3147338000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "metric": "해외매출",
+        "source": "FY2025 사업보고서",
+        "location": "주석 27. 수익 > 국내매출과 해외매출",
+        "confidence": "high"
+      },
+      {
+        "value": 932160000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "metric": "국내매출",
+        "source": "FY2025 사업보고서",
+        "location": "주석 27. 수익 > 국내매출과 해외매출",
+        "confidence": "high"
+      }
+    ],
+    "major_customers": [
+      {
+        "value": 347203000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "customer": "NextEra Energy",
+        "share_reported": "15.9% of H1 consolidated sales",
+        "source": "H1 2026 반기보고서",
+        "location": "II. 사업의 내용 > 매출 및 수주상황 > 주요매출처",
+        "confidence": "high"
+      },
+      {
+        "value": 109097000000,
+        "period": "H1 2026",
+        "unit": "KRW",
+        "customer": "사우디 전력청",
+        "share_reported": "5.0% of H1 consolidated sales",
+        "source": "H1 2026 반기보고서",
+        "location": "II. 사업의 내용 > 매출 및 수주상황 > 주요매출처",
+        "confidence": "high"
+      },
+      {
+        "value": 421224000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "customer": "사우디 전력청",
+        "share_reported": "10.3% of FY2025 consolidated sales",
+        "source": "FY2025 사업보고서",
+        "location": "II. 사업의 내용 > 주요매출처",
+        "confidence": "high"
+      },
+      {
+        "value": 406676000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "customer": "Xcel Energy",
+        "share_reported": "9.9% of FY2025 consolidated sales",
+        "source": "FY2025 사업보고서",
+        "location": "II. 사업의 내용 > 주요매출처",
+        "confidence": "high"
+      },
+      {
+        "value": 358881000000,
+        "period": "FY2025",
+        "unit": "KRW",
+        "customer": "NextEra Energy",
+        "share_reported": "8.8% of FY2025 consolidated sales",
+        "source": "FY2025 사업보고서",
+        "location": "II. 사업의 내용 > 주요매출처",
+        "confidence": "high"
+      }
+    ],
+    "order_and_contract_data": [
+      {
+        "value": 4274000000,
+        "period": "FY2025",
+        "unit": "USD",
+        "metric": "연결 기준 수주",
+        "source": "FY2025 사업보고서",
+        "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+        "confidence": "high"
+      },
+      {
+        "value": 3822000000,
+        "period": "FY2025 target",
+        "unit": "USD",
+        "metric": "연간 수주 목표",
+        "source": "FY2025 사업보고서",
+        "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+        "confidence": "high"
+      },
+      {
+        "value": 213295000000,
+        "period": "2026-06-30",
+        "unit": "KRW",
+        "metric": "건설계약 기말 계약잔액",
+        "source": "H1 2026 반기보고서",
+        "location": "주석 25. 수익 > 건설 계약 변동내역",
+        "confidence": "high",
+        "note": "This is the accounting construction-contract balance disclosed in Note 25, not the full company order backlog table."
+      }
+    ]
+  },
+  "production_and_investment": [
+    {
+      "value": 211800000000,
+      "period": "project total",
+      "unit": "KRW",
+      "metric": "울산 변압기공장 증설 예상/총 투자액",
+      "project_period": "2025-02 to 2027-12",
+      "purpose": "생산능력확충",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 원재료 및 생산설비 > 투자현황",
+      "confidence": "high"
+    },
+    {
+      "value": 116563000000,
+      "period": "project total",
+      "unit": "KRW",
+      "metric": "청주 배전캠퍼스 신축 총 투자액",
+      "project_period": "2023-05 to 2026-12",
+      "purpose": "생산능력확충",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 원재료 및 생산설비 > 투자현황",
+      "confidence": "high"
+    },
+    {
+      "value": 385205000000,
+      "period": "project total",
+      "unit": "KRW",
+      "metric": "HD Hyundai Power Transformers USA 제2공장 신축 총 투자액",
+      "project_period": "2025-01 to 2027-12",
+      "purpose": "생산능력확충",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 원재료 및 생산설비 > 투자현황",
+      "confidence": "high",
+      "note": "Filing states project is conducted in USD and uses KRW/USD 1,455.8 from the 2025-01-20 investment-plan disclosure for report translation."
+    },
+    {
+      "value": 13000000,
+      "period": "post-completion expected annual capacity",
+      "unit": "units/year",
+      "metric": "청주 배전캠퍼스 중저압차단기 연간 생산량",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 기타 참고사항 > 배전기기",
+      "confidence": "high",
+      "note": "Company states this is expected to be roughly twice the previous level."
+    }
+  ],
+  "guidance": [
+    {
+      "value": null,
+      "period": "FY2026",
+      "unit": null,
+      "metric": "revenue / operating income / operating margin financial guidance",
+      "source": "H1 2026 반기보고서",
+      "location": "supplied filing body",
+      "confidence": "high",
+      "note": "No explicit FY2026 consolidated revenue, operating-income, or operating-margin numerical guidance was identified in the supplied H1 filing."
+    },
+    {
+      "value": "The company plans to continue expanding global capacity as electricity demand, renewables, data centers and grid replacement drive power-equipment demand.",
+      "period": "2026 and after",
+      "unit": "qualitative",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "IV. 이사의 경영진단 및 분석의견; II. 사업의 내용 > 기타 참고사항",
+      "confidence": "high"
+    },
+    {
+      "value": "CEMS projects are being executed at HD Hyundai Heavy Industries Ulsan plant and HD Construction Equipment Ulsan plant, with an intention to validate the platform/business model and expand to external customers as a subscription SaaS business.",
+      "period": "2026 and after",
+      "unit": "qualitative",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 사업의 개요",
+      "confidence": "high"
+    },
+    {
+      "value": "30% or more",
+      "period": "current dividend policy",
+      "unit": "% of separate-company net income",
+      "metric": "basic dividend payout policy",
+      "source": "H1 2026 반기보고서",
+      "location": "III. 재무에 관한 사항 > 배당에 관한 사항",
+      "confidence": "high",
+      "note": "Company states policy can change depending on management conditions."
+    }
+  ],
+  "management_statements": [
+    {
+      "value": "Management stated FY2025 consolidated orders were $4.274B, revenue KRW 4.0795T and operating income KRW 995.3B, all exceeding management targets; FY2025 order target had been $3.822B.",
+      "period": "FY2025",
+      "unit": "qualitative with disclosed values",
+      "source": "FY2025 사업보고서",
+      "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+      "confidence": "high"
+    },
+    {
+      "value": "Management stated global power-equipment demand remained firm and AI/data-center power-infrastructure investment was expanding, and expected a favorable market environment to continue in 2026.",
+      "period": "2026 outlook as stated in FY2025 report",
+      "unit": "qualitative",
+      "source": "FY2025 사업보고서",
+      "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+      "confidence": "high"
+    },
+    {
+      "value": "The company expects distribution-equipment demand to expand with electrification, distributed generation, renewable-energy adoption, semiconductor and data-center investment, and aging domestic facility replacement.",
+      "period": "H1 2026 filing outlook",
+      "unit": "qualitative",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 기타 참고사항 > 배전기기",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "value": "+23%",
+      "period": "FY2025 vs FY2024",
+      "unit": "%",
+      "metric": "revenue change as stated by management",
+      "source": "FY2025 사업보고서",
+      "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+      "confidence": "high"
+    },
+    {
+      "value": "+49%",
+      "period": "FY2025 vs FY2024",
+      "unit": "%",
+      "metric": "operating income change as stated by management",
+      "source": "FY2025 사업보고서",
+      "location": "IV. 이사의 경영진단 및 분석의견 > 개요",
+      "confidence": "high"
+    },
+    {
+      "value": {
+        "current": 2178313164743,
+        "prior": 1920887000000
+      },
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW",
+      "metric": "revenue side-by-side disclosed values",
+      "source": "H1 2026 반기보고서",
+      "location": "요약재무정보 / 주석 25 수익",
+      "confidence": "high",
+      "note": "No growth percentage calculated."
+    },
+    {
+      "value": {
+        "current": 545303822428,
+        "prior": 427321000000
+      },
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW",
+      "metric": "operating income side-by-side disclosed values",
+      "source": "H1 2026 반기보고서",
+      "location": "위험관리 > 이자보상배율 산출근거",
+      "confidence": "high",
+      "note": "No growth percentage calculated."
+    },
+    {
+      "value": {
+        "current": 413828105435,
+        "prior": 295326202873
+      },
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW",
+      "metric": "net income side-by-side disclosed values",
+      "source": "H1 2026 반기보고서",
+      "location": "연결현금흐름표 / 요약재무정보",
+      "confidence": "high",
+      "note": "No growth percentage calculated."
+    },
+    {
+      "value": {
+        "current": 139882641673,
+        "prior": 61093755421
+      },
+      "period": "H1 2026 vs H1 2025",
+      "unit": "KRW",
+      "metric": "property, plant and equipment purchases side-by-side disclosed values",
+      "source": "H1 2026 반기보고서",
+      "location": "연결 현금흐름표",
+      "confidence": "high",
+      "note": "No growth percentage calculated."
+    },
+    {
+      "value": {
+        "FY2025": {
+          "Saudi_Electricity": "10.3%",
+          "Xcel_Energy": "9.9%",
+          "NextEra_Energy": "8.8%"
+        },
+        "H1_2026": {
+          "NextEra_Energy": "15.9%",
+          "Saudi_Electricity": "5.0%"
+        }
+      },
+      "period": "FY2025 to H1 2026",
+      "unit": "% of consolidated sales",
+      "metric": "major-customer concentration disclosed values",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 주요매출처",
+      "confidence": "high"
+    }
+  ],
+  "risk_related_new_disclosures": [
+    {
+      "value": "No newly identified material litigation compared with the FY2025 filing. H1 2026 continues to list the same four principal matters: two 170kV GIS administrative cases, one 170kV GIS damages case, and the Canadian large-transformer anti-dumping NVR appeal.",
+      "period": "H1 2026 vs FY2025",
+      "unit": "qualitative comparison",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "주요 소송사건 / XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+      "confidence": "high"
+    },
+    {
+      "value": 304759000000,
+      "period": "2026-06-30",
+      "unit": "KRW",
+      "metric": "provided/received guarantee exposure - KRW portion disclosed in H1 filing",
+      "source": "H1 2026 반기보고서",
+      "location": "주석 35. 우발부채, 우발자산 및 약정사항",
+      "confidence": "medium",
+      "note": "Guarantee tables contain multiple currencies and categories; values should remain unaggregated. The filing separately states received performance guarantees of KRW 385,759M, USD 805,858k, CNY 240,000k, and EUR 60,000k."
+    },
+    {
+      "value": {
+        "KRW": 385759000000,
+        "USD_thousand": 805858,
+        "CNY_thousand": 240000,
+        "EUR_thousand": 60000
+      },
+      "period": "2026-06-30",
+      "unit": "mixed currency, unaggregated",
+      "metric": "financial-institution guarantees received for export/domestic construction performance",
+      "source": "H1 2026 반기보고서",
+      "location": "주석 35. 우발부채, 우발자산 및 약정사항",
+      "confidence": "high"
+    },
+    {
+      "value": {
+        "USD_KRW_forward_notional_thousand_USD": 522600,
+        "weighted_average_forward_rate_KRW": 1446.87,
+        "average_maturity": "2027-04-30",
+        "contracts": 174
+      },
+      "period": "2026-06-30",
+      "unit": "USD thousand / KRW per USD / count",
+      "metric": "currency-forward risk-management exposure",
+      "source": "H1 2026 반기보고서",
+      "location": "위험관리 및 파생거래 / 주석 19 파생금융상품",
+      "confidence": "high"
+    },
+    {
+      "value": "The company remains jointly liable under Korean Commercial Act Article 530-9(1) for pre-spin-off debts of the former company due to the 2017 demerger.",
+      "period": "current disclosure at 2026-06-30",
+      "unit": "qualitative",
+      "source": "H1 2026 반기보고서",
+      "location": "주석 35 우발부채 / 36 주요 소송사건",
+      "confidence": "high",
+      "note": "This is a continuing disclosure, not labeled new."
+    }
+  ],
+  "litigation": [
+    {
+      "name": "한전 170kV GIS 부당공동행위 관련 공정위 과징금 등 처분 취소소송",
+      "court_case": "서울고등법원 2025누6106",
+      "status_character": "continuing from FY2025",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "주요 소송사건",
+      "confidence": "high"
+    },
+    {
+      "name": "한전 170kV GIS 부당공동행위 관련 입찰참가자격제한처분 등의 취소소송",
+      "court_case": "서울행정법원 2025구합54809",
+      "status_character": "continuing from FY2025",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "주요 소송사건",
+      "confidence": "high"
+    },
+    {
+      "name": "한전 170kV GIS 부당공동행위 관련 손해배상청구소송",
+      "court_case": "서울동부지방법원 2025가합101418",
+      "status_character": "continuing from FY2025",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "주요 소송사건",
+      "confidence": "high"
+    },
+    {
+      "name": "캐나다 대형변압기 반덤핑 NVR 101,102,104,120 항소",
+      "court_case": "캐나다 국제무역재판소",
+      "status_character": "continuing from FY2025",
+      "source": "FY2025 사업보고서 and H1 2026 반기보고서",
+      "location": "주요 소송사건",
+      "confidence": "high"
+    }
+  ],
+  "research_and_development": [
+    {
+      "value": "2.4%",
+      "period": "FY2025",
+      "unit": "% of revenue",
+      "metric": "연구개발비/매출액 비율",
+      "source": "FY2025 사업보고서",
+      "location": "II. 사업의 내용 > 주요계약 및 연구개발활동",
+      "confidence": "high"
+    },
+    {
+      "value": "2.3%",
+      "period": "H1 2026",
+      "unit": "% of revenue",
+      "metric": "연구개발비/매출액 비율",
+      "source": "H1 2026 반기보고서",
+      "location": "II. 사업의 내용 > 주요계약 및 연구개발활동",
+      "confidence": "high"
+    }
+  ],
+  "source_coverage": {
+    "FY2025_annual_report": "used",
+    "H1_2026_semiannual_report": "used",
+    "derived_ratios": "not used",
+    "external_sources": "not used",
+    "scorecard_or_investment_judgment": "not generated"
+  }
+}
