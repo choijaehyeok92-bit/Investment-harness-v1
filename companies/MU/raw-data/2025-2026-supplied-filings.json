@@ -7,7 +7,7 @@
   "scope_note": "Extracted only from the four user-supplied Google Drive filing bodies. No scorecard, valuation, investment decision, owner-FCF calculation, derived free cash flow, derived net debt, or unsupported normalization is included.",
   "requested_sources": [
     {
-      "value": "Micron Technology Form 8-K dated 2026-08-26, earliest event 2026-08-24, with Exhibit 99.1 leadership appointments",
+      "value": "Form 8-K dated 2026-08-26, earliest event 2026-08-24, with Exhibit 99.1 leadership appointments",
       "period": "2026-08-26",
       "unit": "filing identity",
       "source": "Google Drive file 1rV4IZuo52UO2BciRFHkefi3zHRAJwNco",
@@ -15,7 +15,7 @@
       "confidence": "high"
     },
     {
-      "value": "Micron Technology Form 10-K for fiscal year ended 2025-08-28",
+      "value": "Form 10-K for fiscal year ended 2025-08-28",
       "period": "FY2025",
       "unit": "filing identity",
       "source": "Google Drive file 1KfSpAGB5Gz6lQLKqoiuJweaV9TCvfJOo",
@@ -23,7 +23,7 @@
       "confidence": "high"
     },
     {
-      "value": "Micron Technology Form 10-Q for quarter ended 2026-05-28",
+      "value": "Form 10-Q for quarter ended 2026-05-28",
       "period": "Q3 FY2026",
       "unit": "filing identity",
       "source": "Google Drive file 1CbJRNPA-xlHweXc_8ruM7DGD04cn99-v",
@@ -31,7 +31,7 @@
       "confidence": "high"
     },
     {
-      "value": "Micron Technology Form 4 for director Alexis Bjorlin, earliest transaction 2026-06-26",
+      "value": "Form 4 for director Alexis Bjorlin, earliest transaction 2026-06-26",
       "period": "2026-06-26",
       "unit": "filing identity",
       "source": "Google Drive file 1bqO3BW_rt1i9xuFbWMSnkEC0Fp1UT09X",
@@ -40,956 +40,154 @@
     }
   ],
   "revenue": [
-    {
-      "value": 37378,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Results of Operations / Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 41456,
-      "period": "Q3 FY2026",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    },
-    {
-      "value": 23860,
-      "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Revenue by Business Unit total",
-      "confidence": "high"
-    },
-    {
-      "value": 78959,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    }
+    {"value": 37378, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "MD&A Results of Operations / Consolidated Results", "confidence": "high"},
+    {"value": 41456, "period": "Q3 FY2026", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"},
+    {"value": 23860, "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Revenue by Business Unit total", "confidence": "high"},
+    {"value": 78959, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"}
   ],
   "operating_income": [
-    {
-      "value": 9770,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Results of Operations / Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 33318,
-      "period": "Q3 FY2026",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    },
-    {
-      "value": 16135,
-      "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 55589,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    }
+    {"value": 9770, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 33318, "period": "Q3 FY2026", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"},
+    {"value": 16135, "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 55589, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"}
   ],
   "operating_margin": [
-    {
-      "value": 26,
-      "period": "FY2025",
-      "unit": "percent",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Results of Operations / Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 80,
-      "period": "Q3 FY2026",
-      "unit": "percent",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 68,
-      "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q",
-      "unit": "percent",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 70,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "percent",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Consolidated Results",
-      "confidence": "high"
-    }
+    {"value": 26, "period": "FY2025", "unit": "percent", "source": "FY2025 Form 10-K", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 80, "period": "Q3 FY2026", "unit": "percent", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 68, "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q", "unit": "percent", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 70, "period": "Nine months ended 2026-05-28", "unit": "percent", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Consolidated Results", "confidence": "high"}
   ],
   "net_income": [
-    {
-      "value": 8539,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Results of Operations / Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 28243,
-      "period": "Q3 FY2026",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    },
-    {
-      "value": 13785,
-      "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": 47268,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    }
+    {"value": 8539, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 28243, "period": "Q3 FY2026", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"},
+    {"value": 13785, "period": "Q2 FY2026 comparative disclosed in Q3 Form 10-Q", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": 47268, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"}
   ],
   "free_cash_flow": [
-    {
-      "value": null,
-      "period": "FY2025 and nine months FY2026",
-      "unit": "USD millions",
-      "source": "supplied FY2025 Form 10-K and Q3 FY2026 Form 10-Q",
-      "original_location": "No explicit free cash flow amount extracted from supplied sources",
-      "confidence": "high",
-      "note": "Operating cash flow and PP&E expenditures are stored separately. FCF and owner-FCF are not calculated in DATA_EXTRACTION_ONLY mode."
-    }
+    {"value": null, "period": "FY2025 and nine months FY2026", "unit": "USD millions", "source": "supplied FY2025 Form 10-K and Q3 FY2026 Form 10-Q", "original_location": "No explicit free cash flow amount extracted from supplied sources", "confidence": "high", "note": "Operating cash flow and PP&E expenditures are stored separately; FCF and owner-FCF are not calculated."}
   ],
   "operating_cash_flow": [
-    {
-      "value": 17525,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Statements of Cash Flows / Cash Flows",
-      "confidence": "high"
-    },
-    {
-      "value": 45702,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Cash Flows",
-      "confidence": "high"
-    },
-    {
-      "value": 11795,
-      "period": "Nine months ended 2025-05-29 comparative",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Cash Flows",
-      "confidence": "high"
-    }
+    {"value": 17525, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Consolidated Statements of Cash Flows", "confidence": "high"},
+    {"value": 45702, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Cash Flows", "confidence": "high"},
+    {"value": 11795, "period": "Nine months ended 2025-05-29 comparative", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Cash Flows", "confidence": "high"}
   ],
   "capex": [
-    {
-      "value": 15857,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Statements of Cash Flows, Expenditures for property, plant, and equipment",
-      "confidence": "high"
-    },
-    {
-      "value": 19602,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Cash Flows, Expenditures for property, plant, and equipment",
-      "confidence": "high"
-    },
-    {
-      "value": 10199,
-      "period": "Nine months ended 2025-05-29 comparative",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Cash Flows",
-      "confidence": "high"
-    },
-    {
-      "value": 4.5,
-      "period": "Q1 FY2026 expected capex baseline disclosed at FY2025 year-end",
-      "unit": "USD billions, net of government incentives",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Liquidity and Capital Resources / Capital Expenditures",
-      "confidence": "high",
-      "note": "Company stated this quarterly level served as a reasonable baseline for planned FY2026 capital expenditures at that time."
-    },
-    {
-      "value": 27,
-      "period": "FY2026 current estimate as of Q3 FY2026 filing",
-      "unit": "USD billions, net of government incentives",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Capital Expenditures",
-      "confidence": "high"
-    },
-    {
-      "value": 2.93,
-      "period": "PP&E purchase obligations as of 2026-05-28",
-      "unit": "USD billions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Capital Expenditures",
-      "confidence": "high",
-      "note": "Substantially all expected to be paid within one year."
-    }
+    {"value": 15857, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Consolidated Statements of Cash Flows, Expenditures for property plant and equipment", "confidence": "high"},
+    {"value": 19602, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Cash Flows, Expenditures for property plant and equipment", "confidence": "high"},
+    {"value": 10199, "period": "Nine months ended 2025-05-29 comparative", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Cash Flows", "confidence": "high"},
+    {"value": 4.5, "period": "Q1 FY2026 expected capex baseline disclosed at FY2025 year-end", "unit": "USD billions net of government incentives", "source": "FY2025 Form 10-K", "original_location": "Liquidity and Capital Resources / Capital Expenditures", "confidence": "high", "note": "Company stated this quarterly level served as a reasonable baseline for planned FY2026 capital expenditures at that time."},
+    {"value": 27, "period": "FY2026 current estimate as of Q3 FY2026 filing", "unit": "USD billions net of government incentives", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / Capital Expenditures", "confidence": "high"},
+    {"value": 2.93, "period": "PP&E purchase obligations as of 2026-05-28", "unit": "USD billions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / Capital Expenditures", "confidence": "high", "note": "Substantially all expected to be paid within one year."}
   ],
   "cash_and_debt": [
-    {
-      "value": 9642,
-      "period": "2025-08-28",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "cash_and_cash_equivalents"
-    },
-    {
-      "value": 665,
-      "period": "2025-08-28",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "short_term_investments"
-    },
-    {
-      "value": 1629,
-      "period": "2025-08-28",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Marketable Investments note",
-      "confidence": "high",
-      "metric": "long_term_marketable_investments"
-    },
-    {
-      "value": 560,
-      "period": "2025-08-28",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "current_debt"
-    },
-    {
-      "value": 14017,
-      "period": "2025-08-28",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "long_term_debt"
-    },
-    {
-      "value": 24995,
-      "period": "2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "cash_and_cash_equivalents"
-    },
-    {
-      "value": 1027,
-      "period": "2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "short_term_investments"
-    },
-    {
-      "value": 4106,
-      "period": "2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "long_term_marketable_investments"
-    },
-    {
-      "value": 582,
-      "period": "2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "current_debt"
-    },
-    {
-      "value": 5140,
-      "period": "2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "high",
-      "metric": "long_term_debt"
-    },
-    {
-      "value": 5.72,
-      "period": "2026-05-28",
-      "unit": "USD billions carrying value",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Risk Factors / debt obligations",
-      "confidence": "high",
-      "metric": "company_stated_debt_carrying_value"
-    },
-    {
-      "value": 2.0,
-      "period": "2026-05-28",
-      "unit": "USD billions available",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources",
-      "confidence": "high",
-      "metric": "revolving_credit_facility_availability"
-    }
+    {"value": 9642, "period": "2025-08-28", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "cash_and_cash_equivalents"},
+    {"value": 665, "period": "2025-08-28", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "short_term_investments"},
+    {"value": 1629, "period": "2025-08-28", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Marketable Investments note", "confidence": "high", "metric": "long_term_marketable_investments"},
+    {"value": 560, "period": "2025-08-28", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "current_debt"},
+    {"value": 14017, "period": "2025-08-28", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "long_term_debt"},
+    {"value": 24995, "period": "2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "cash_and_cash_equivalents"},
+    {"value": 1027, "period": "2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "short_term_investments"},
+    {"value": 4106, "period": "2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "long_term_marketable_investments"},
+    {"value": 582, "period": "2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "current_debt"},
+    {"value": 5140, "period": "2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Balance Sheets", "confidence": "high", "metric": "long_term_debt"},
+    {"value": 5.72, "period": "2026-05-28", "unit": "USD billions carrying value", "source": "Q3 FY2026 Form 10-Q", "original_location": "Risk Factors / debt obligations", "confidence": "high", "metric": "company_stated_debt_carrying_value"},
+    {"value": 2.0, "period": "2026-05-28", "unit": "USD billions available", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources", "confidence": "high", "metric": "revolving_credit_facility_availability"}
   ],
   "technology_revenue": [
-    {
-      "value": 28578,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "DRAM"
-    },
-    {
-      "value": 8503,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "NAND"
-    },
-    {
-      "value": 297,
-      "period": "FY2025",
-      "unit": "USD millions",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "Other, primarily NOR"
-    },
-    {
-      "value": 31328,
-      "period": "Q3 FY2026",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "DRAM"
-    },
-    {
-      "value": 9943,
-      "period": "Q3 FY2026",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "NAND"
-    },
-    {
-      "value": 185,
-      "period": "Q3 FY2026",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "Other, primarily NOR"
-    },
-    {
-      "value": 60908,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "DRAM"
-    },
-    {
-      "value": 17683,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "NAND"
-    },
-    {
-      "value": 368,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Revenue by Technology",
-      "confidence": "high",
-      "technology": "Other, primarily NOR"
-    }
+    {"value": 28578, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Revenue by Technology", "confidence": "high", "technology": "DRAM"},
+    {"value": 8503, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Revenue by Technology", "confidence": "high", "technology": "NAND"},
+    {"value": 297, "period": "FY2025", "unit": "USD millions", "source": "FY2025 Form 10-K", "original_location": "Revenue by Technology", "confidence": "high", "technology": "Other primarily NOR"},
+    {"value": 31328, "period": "Q3 FY2026", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Revenue by Technology", "confidence": "high", "technology": "DRAM"},
+    {"value": 9943, "period": "Q3 FY2026", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Revenue by Technology", "confidence": "high", "technology": "NAND"},
+    {"value": 185, "period": "Q3 FY2026", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Revenue by Technology", "confidence": "high", "technology": "Other primarily NOR"},
+    {"value": 60908, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Revenue by Technology", "confidence": "high", "technology": "DRAM"},
+    {"value": 17683, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Revenue by Technology", "confidence": "high", "technology": "NAND"},
+    {"value": 368, "period": "Nine months ended 2026-05-28", "unit": "USD millions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Revenue by Technology", "confidence": "high", "technology": "Other primarily NOR"}
   ],
   "asp_and_bit_shipments": [
-    {
-      "value": "DRAM sales +62%; ASP increased in the low-40% range; bit shipments increased in the mid-teens percentage range",
-      "period": "FY2025 vs FY2024",
-      "unit": "company-reported percentage ranges",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "NAND sales +18%; bit shipments increased in the high-teens percentage range; NAND ASP change not separately quantified in this statement",
-      "period": "FY2025 vs FY2024",
-      "unit": "company-reported percentage ranges",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "DRAM sales +67%; ASP increased in the low-60% range; bit shipments increased in the low-single-digit percentage range",
-      "period": "Q3 FY2026 vs Q2 FY2026",
-      "unit": "company-reported percentage ranges",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "NAND sales +99%; ASP increased in the mid-80% range; bit shipments increased in the mid-single-digit percentage range",
-      "period": "Q3 FY2026 vs Q2 FY2026",
-      "unit": "company-reported percentage ranges",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "DRAM sales +343%; ASP increased in the low-260% range; bit shipments increased in the low-20% range",
-      "period": "Q3 FY2026 vs Q3 FY2025",
-      "unit": "company-reported percentage ranges",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "NAND sales +361%; ASP increased in the mid-310% range; bit shipments increased in the low-double-digit range",
-      "period": "Q3 FY2026 vs Q3 FY2025",
-      "unit": "company-reported percentage ranges",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "DRAM sales +211%; ASP increased approximately 140%; bit shipments increased approximately 30%",
-      "period": "Nine months FY2026 vs Nine months FY2025",
-      "unit": "company-reported percentages",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "NAND sales +183%; ASP increased approximately 130%; bit shipments increased in the low-20% range",
-      "period": "Nine months FY2026 vs Nine months FY2025",
-      "unit": "company-reported percentages",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    }
+    {"value": "DRAM sales +62%; ASP increased in the low-40% range; bit shipments increased in the mid-teens percentage range", "period": "FY2025 vs FY2024", "unit": "company-reported percentage ranges", "source": "FY2025 Form 10-K", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "NAND sales +18%; bit shipments increased in the high-teens percentage range; NAND ASP change not separately quantified in this statement", "period": "FY2025 vs FY2024", "unit": "company-reported percentage ranges", "source": "FY2025 Form 10-K", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "DRAM sales +67%; ASP increased in the low-60% range; bit shipments increased in the low-single-digit percentage range", "period": "Q3 FY2026 vs Q2 FY2026", "unit": "company-reported percentage ranges", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "NAND sales +99%; ASP increased in the mid-80% range; bit shipments increased in the mid-single-digit percentage range", "period": "Q3 FY2026 vs Q2 FY2026", "unit": "company-reported percentage ranges", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "DRAM sales +343%; ASP increased in the low-260% range; bit shipments increased in the low-20% range", "period": "Q3 FY2026 vs Q3 FY2025", "unit": "company-reported percentage ranges", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "NAND sales +361%; ASP increased in the mid-310% range; bit shipments increased in the low-double-digit range", "period": "Q3 FY2026 vs Q3 FY2025", "unit": "company-reported percentage ranges", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "DRAM sales +211%; ASP increased approximately 140%; bit shipments increased approximately 30%", "period": "Nine months FY2026 vs Nine months FY2025", "unit": "company-reported percentages", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "NAND sales +183%; ASP increased approximately 130%; bit shipments increased in the low-20% range", "period": "Nine months FY2026 vs Nine months FY2025", "unit": "company-reported percentages", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"}
   ],
   "business_unit_results": [
-    {
-      "value": 13524,
-      "period": "FY2025",
-      "unit": "USD millions revenue",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "CMBU",
-      "operating_income_usd_millions": 6129
-    },
-    {
-      "value": 7229,
-      "period": "FY2025",
-      "unit": "USD millions revenue",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "CDBU",
-      "operating_income_usd_millions": 2180
-    },
-    {
-      "value": 11859,
-      "period": "FY2025",
-      "unit": "USD millions revenue",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "MCBU",
-      "operating_income_usd_millions": 1981
-    },
-    {
-      "value": 4753,
-      "period": "FY2025",
-      "unit": "USD millions revenue",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "AEBU",
-      "operating_income_usd_millions": 557
-    },
-    {
-      "value": 13769,
-      "period": "Q3 FY2026",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "CMBU",
-      "operating_income_usd_millions": 10793,
-      "segment_operating_margin_percent": 78
-    },
-    {
-      "value": 11524,
-      "period": "Q3 FY2026",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "CDBU",
-      "operating_income_usd_millions": 9519,
-      "segment_operating_margin_percent": 83
-    },
-    {
-      "value": 11521,
-      "period": "Q3 FY2026",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "MCBU",
-      "operating_income_usd_millions": 9873,
-      "segment_operating_margin_percent": 86
-    },
-    {
-      "value": 4634,
-      "period": "Q3 FY2026",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "AEBU",
-      "operating_income_usd_millions": 3493,
-      "segment_operating_margin_percent": 75
-    },
-    {
-      "value": 26802,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "CMBU",
-      "operating_income_usd_millions": 18804,
-      "segment_operating_margin_percent": 70
-    },
-    {
-      "value": 19590,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "CDBU",
-      "operating_income_usd_millions": 14218,
-      "segment_operating_margin_percent": 73
-    },
-    {
-      "value": 23487,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "MCBU",
-      "operating_income_usd_millions": 17726,
-      "segment_operating_margin_percent": 75
-    },
-    {
-      "value": 9062,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions revenue",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "business_unit": "AEBU",
-      "operating_income_usd_millions": 5802,
-      "segment_operating_margin_percent": 64
-    }
+    {"value": 13524, "period": "FY2025", "unit": "USD millions revenue", "source": "FY2025 Form 10-K", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "CMBU", "operating_income_usd_millions": 6129},
+    {"value": 7229, "period": "FY2025", "unit": "USD millions revenue", "source": "FY2025 Form 10-K", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "CDBU", "operating_income_usd_millions": 2180},
+    {"value": 11859, "period": "FY2025", "unit": "USD millions revenue", "source": "FY2025 Form 10-K", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "MCBU", "operating_income_usd_millions": 1981},
+    {"value": 4753, "period": "FY2025", "unit": "USD millions revenue", "source": "FY2025 Form 10-K", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "AEBU", "operating_income_usd_millions": 557},
+    {"value": 13769, "period": "Q3 FY2026", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "CMBU", "operating_income_usd_millions": 10793, "segment_operating_margin_percent": 78},
+    {"value": 11524, "period": "Q3 FY2026", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "CDBU", "operating_income_usd_millions": 9519, "segment_operating_margin_percent": 83},
+    {"value": 11521, "period": "Q3 FY2026", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "MCBU", "operating_income_usd_millions": 9873, "segment_operating_margin_percent": 86},
+    {"value": 4634, "period": "Q3 FY2026", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "AEBU", "operating_income_usd_millions": 3493, "segment_operating_margin_percent": 75},
+    {"value": 26802, "period": "Nine months ended 2026-05-28", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "CMBU", "operating_income_usd_millions": 18804, "segment_operating_margin_percent": 70},
+    {"value": 19590, "period": "Nine months ended 2026-05-28", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "CDBU", "operating_income_usd_millions": 14218, "segment_operating_margin_percent": 73},
+    {"value": 23487, "period": "Nine months ended 2026-05-28", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "MCBU", "operating_income_usd_millions": 17726, "segment_operating_margin_percent": 75},
+    {"value": 9062, "period": "Nine months ended 2026-05-28", "unit": "USD millions revenue", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "business_unit": "AEBU", "operating_income_usd_millions": 5802, "segment_operating_margin_percent": 64}
   ],
   "customer_concentration": [
-    {
-      "value": 17,
-      "period": "FY2025",
-      "unit": "percent of total revenue from one customer",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Note 28 Certain Concentrations",
-      "confidence": "high",
-      "note": "Primarily included in CMBU."
-    },
-    {
-      "value": 10,
-      "period": "First nine months FY2026",
-      "unit": "percent of total revenue from one customer",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Segment and Other Information",
-      "confidence": "high",
-      "note": "Primarily included in CMBU; comparable first-nine-month FY2025 customer concentration was 16%."
-    }
+    {"value": 17, "period": "FY2025", "unit": "percent of total revenue from one customer", "source": "FY2025 Form 10-K", "original_location": "Note 28 Certain Concentrations", "confidence": "high", "note": "Primarily included in CMBU."},
+    {"value": 10, "period": "First nine months FY2026", "unit": "percent of total revenue from one customer", "source": "Q3 FY2026 Form 10-Q", "original_location": "Segment and Other Information", "confidence": "high", "note": "Primarily included in CMBU; comparable first-nine-month FY2025 concentration was 16%."}
   ],
-  "guidance_and_forward_commitments": [
-    {
-      "value": 27,
-      "period": "FY2026 capex estimate as of Q3 FY2026 filing",
-      "unit": "USD billions net of government incentives",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Capital Expenditures",
-      "confidence": "high"
-    },
-    {
-      "value": 22,
-      "period": "strategic customer agreements concluded to date, including agreements executed after 2026-05-28",
-      "unit": "USD billions cash deposits and related financial commitments expected",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Strategic Customer Agreements",
-      "confidence": "high"
-    },
-    {
-      "value": 18,
-      "period": "strategic customer agreements concluded to date",
-      "unit": "USD billions expected cash deposits",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Strategic Customer Agreements",
-      "confidence": "high"
-    },
-    {
-      "value": "First Boise DRAM fab initial wafer output projected mid-calendar 2027; second Idaho fab initial wafer output expected late calendar 2028; first New York fab expected to provide supply in 2030 and beyond",
-      "period": "Q3 FY2026 filing outlook",
-      "unit": "facility timing",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / U.S. manufacturing expansion",
-      "confidence": "high"
-    },
-    {
-      "value": "Singapore HBM advanced packaging facility expected to expand advanced packaging capacity beginning in first half calendar 2027; additional NAND wafer fab expected operational in second half calendar 2028",
-      "period": "Q3 FY2026 filing outlook",
-      "unit": "facility timing",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / international investments",
-      "confidence": "high"
-    },
-    {
-      "value": "Taiwan Tongluo fab expected to support meaningful product shipments beginning mid-calendar 2027; a similar-sized second cleanroom is under construction",
-      "period": "Q3 FY2026 filing outlook",
-      "unit": "facility timing",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / international investments",
-      "confidence": "high"
-    }
+  "guidance": [
+    {"value": 27, "period": "FY2026 capex estimate as of Q3 FY2026 filing", "unit": "USD billions net of government incentives", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / Capital Expenditures", "confidence": "high"},
+    {"value": null, "period": "Q4 FY2026 revenue or EPS guidance", "unit": "not disclosed in supplied sources", "source": "supplied four filing bodies", "original_location": "No numeric Q4 revenue/EPS guidance identified", "confidence": "high"}
+  ],
+  "strategic_customer_agreements": [
+    {"value": 22, "period": "agreements concluded to date including agreements executed after 2026-05-28", "unit": "USD billions expected cash deposits and related financial commitments", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / Strategic Customer Agreements", "confidence": "high"},
+    {"value": 18, "period": "agreements concluded to date", "unit": "USD billions expected cash deposits", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / Strategic Customer Agreements", "confidence": "high"},
+    {"value": "Binding commitments for specific volumes over multi-year contract terms; agreements provide customers contracted supply assurance and greater pricing visibility", "period": "Q3/Q4 FY2026", "unit": "contract characteristic", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A and Liquidity / Strategic Customer Agreements", "confidence": "high"}
+  ],
+  "manufacturing_and_capacity_timing": [
+    {"value": "First Boise DRAM fab initial wafer output projected mid-calendar 2027; second Idaho fab initial wafer output expected late calendar 2028; first New York fab expected to provide supply in 2030 and beyond", "period": "Q3 FY2026 filing outlook", "unit": "facility timing", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / U.S. manufacturing expansion", "confidence": "high"},
+    {"value": "Singapore HBM advanced packaging facility expected to expand advanced packaging capacity beginning in first half calendar 2027; additional NAND wafer fab expected operational in second half calendar 2028", "period": "Q3 FY2026 filing outlook", "unit": "facility timing", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / international investments", "confidence": "high"},
+    {"value": "Taiwan Tongluo fab expected to support meaningful product shipments beginning mid-calendar 2027; a similar-sized second cleanroom is under construction", "period": "Q3 FY2026 filing outlook", "unit": "facility timing", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / international investments", "confidence": "high"},
+    {"value": 6.4, "period": "U.S. CHIPS Act direct grants announced/agreed", "unit": "USD billions up to", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / U.S. manufacturing expansion", "confidence": "high"},
+    {"value": 35, "period": "qualified U.S. semiconductor manufacturing investments", "unit": "percent investment tax credit", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / U.S. manufacturing expansion", "confidence": "high"}
   ],
   "management_major_statements": [
-    {
-      "value": "Company stated AI-driven memory and storage growth was outpacing industry supply in Q3 FY2026, with robust DRAM and NAND demand and constrained supply contributing to higher pricing and improved profitability across the portfolio.",
-      "period": "Q3 FY2026",
-      "unit": "management/company statement paraphrase",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Industry Conditions / Memory and Storage Demand",
-      "confidence": "high"
-    },
-    {
-      "value": "Company stated customers are increasingly seeking committed long-term access to advanced memory technology and supply; strategic agreements provide customers supply assurance and pricing visibility and provide Micron greater visibility and stability.",
-      "period": "Q3/Q4 FY2026 agreements",
-      "unit": "management/company statement paraphrase",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Strategic Customer Agreements",
-      "confidence": "high"
-    },
-    {
-      "value": "CEO Sanjay Mehrotra said Micron is aligning its organization to meet customer needs in an AI-enabled future and expressed confidence in Manish Bhatia and Scott DeBoer to guide the company through the next phase of innovation and growth.",
-      "period": "2026-08-26",
-      "unit": "management statement paraphrase",
-      "source": "Form 8-K Exhibit 99.1",
-      "original_location": "Leadership appointment press release",
-      "confidence": "high"
-    }
+    {"value": "Company stated AI-driven memory and storage growth was outpacing industry supply in Q3 FY2026, with robust DRAM and NAND demand and constrained supply contributing to higher pricing and improved profitability across the portfolio.", "period": "Q3 FY2026", "unit": "management/company statement paraphrase", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Industry Conditions / Memory and Storage Demand", "confidence": "high"},
+    {"value": "Company stated customers are increasingly seeking committed long-term access to advanced memory technology and supply; strategic agreements provide supply assurance and pricing visibility to customers and greater visibility and stability to Micron.", "period": "Q3/Q4 FY2026 agreements", "unit": "management/company statement paraphrase", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Strategic Customer Agreements", "confidence": "high"},
+    {"value": "CEO Sanjay Mehrotra said Micron is aligning its organization to meet customer needs in an AI-enabled future and expressed confidence in Manish Bhatia and Scott DeBoer to guide the company through the next phase of innovation and growth.", "period": "2026-08-26", "unit": "management statement paraphrase", "source": "Form 8-K Exhibit 99.1", "original_location": "Leadership appointment press release", "confidence": "high"}
   ],
   "leadership_changes": [
-    {
-      "value": "Manish Bhatia appointed President and Chief Operating Officer, effective immediately; expanded accountability includes global operations and business units and operating P&L spanning capital investment, manufacturing execution, customer demand, pricing and delivery.",
-      "period": "2026-08-26",
-      "unit": "leadership change",
-      "source": "Form 8-K Item 5.02 and Exhibit 99.1",
-      "original_location": "Item 5.02 / press release",
-      "confidence": "high"
-    },
-    {
-      "value": "Scott DeBoer appointed President and Chief Technology and Products Officer, effective immediately; responsibilities include technology and product roadmap, Micron Research Labs and customer technology requirements.",
-      "period": "2026-08-26",
-      "unit": "leadership change",
-      "source": "Form 8-K Item 5.02 and Exhibit 99.1",
-      "original_location": "Item 5.02 / press release",
-      "confidence": "high"
-    },
-    {
-      "value": "Sumit Sadana transitioned from Executive Vice President and Chief Business Officer to Senior Advisor to the CEO.",
-      "period": "2026-08-26",
-      "unit": "leadership change",
-      "source": "Form 8-K Item 5.02 and Exhibit 99.1",
-      "original_location": "Item 5.02 / press release",
-      "confidence": "high"
-    }
+    {"value": "Manish Bhatia appointed President and Chief Operating Officer; expanded accountability includes global operations and business units and operating P&L spanning capital investment, manufacturing execution, customer demand, pricing and delivery.", "period": "2026-08-26", "unit": "leadership change", "source": "Form 8-K Item 5.02 and Exhibit 99.1", "original_location": "Item 5.02 / press release", "confidence": "high"},
+    {"value": "Scott DeBoer appointed President and Chief Technology and Products Officer; responsibilities include technology and product roadmap, Micron Research Labs and customer technology requirements.", "period": "2026-08-26", "unit": "leadership change", "source": "Form 8-K Item 5.02 and Exhibit 99.1", "original_location": "Item 5.02 / press release", "confidence": "high"},
+    {"value": "Sumit Sadana transitioned from Executive Vice President and Chief Business Officer to Senior Advisor to the CEO.", "period": "2026-08-26", "unit": "leadership change", "source": "Form 8-K Item 5.02 and Exhibit 99.1", "original_location": "Item 5.02 / press release", "confidence": "high"}
   ],
   "important_changes": [
-    {
-      "value": "FY2025 revenue was $37.378 billion versus $25.111 billion in FY2024; company reported a 49% increase.",
-      "period": "FY2025 vs FY2024",
-      "unit": "USD billions / percent",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "FY2025 operating income was $9.770 billion and operating margin 26%, versus $1.304 billion and 5% in FY2024.",
-      "period": "FY2025 vs FY2024",
-      "unit": "USD billions / percent",
-      "source": "FY2025 Form 10-K",
-      "original_location": "MD&A Consolidated Results",
-      "confidence": "high"
-    },
-    {
-      "value": "Q3 FY2026 revenue was $41.456 billion versus $23.860 billion in Q2 FY2026; company reported total revenue increased 74% sequentially, driven by DRAM and NAND sales increases.",
-      "period": "Q3 FY2026 vs Q2 FY2026",
-      "unit": "USD billions / percent",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Total Revenue",
-      "confidence": "high"
-    },
-    {
-      "value": "Q3 FY2026 consolidated gross margin was 85% versus 74% in Q2 FY2026; company attributed the improvement to DRAM and NAND margin improvements, primarily ASP increases, with continued execution and favorable mix also contributing.",
-      "period": "Q3 FY2026 vs Q2 FY2026",
-      "unit": "percent",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "MD&A Consolidated Gross Margin",
-      "confidence": "high"
-    },
-    {
-      "value": "FY2026 capex estimate increased from the FY2025 year-end disclosure of a $4.5 billion Q1 baseline for planned FY2026 spending to a current FY2026 estimate of approximately $27 billion net of government incentives.",
-      "period": "FY2025 year-end disclosure vs Q3 FY2026 disclosure",
-      "unit": "USD billions",
-      "source": "FY2025 Form 10-K and Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Capital Expenditures",
-      "confidence": "high",
-      "note": "The two disclosures use different framing: one is a Q1 quarterly baseline, the other is a full-year estimate. They are preserved without deriving a percentage change."
-    },
-    {
-      "value": "Debt carrying value was $5.72 billion as of 2026-05-28 after $9.38 billion of debt repayments during the first nine months of FY2026.",
-      "period": "Nine months FY2026",
-      "unit": "USD billions",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Liquidity and Capital Resources / Financing Activities and Risk Factors",
-      "confidence": "high"
-    }
+    {"value": "FY2025 revenue $37.378B versus $25.111B FY2024; company reported +49%.", "period": "FY2025 vs FY2024", "unit": "USD billions / percent", "source": "FY2025 Form 10-K", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "FY2025 operating income $9.770B and operating margin 26%, versus $1.304B and 5% FY2024.", "period": "FY2025 vs FY2024", "unit": "USD billions / percent", "source": "FY2025 Form 10-K", "original_location": "MD&A Consolidated Results", "confidence": "high"},
+    {"value": "Q3 FY2026 revenue $41.456B versus $23.860B Q2 FY2026; company reported +74% sequentially, driven by DRAM and NAND sales increases.", "period": "Q3 FY2026 vs Q2 FY2026", "unit": "USD billions / percent", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Total Revenue", "confidence": "high"},
+    {"value": "Q3 FY2026 consolidated gross margin 85% versus 74% Q2 FY2026; company attributed improvement primarily to DRAM/NAND ASP increases, with execution and favorable mix also contributing.", "period": "Q3 FY2026 vs Q2 FY2026", "unit": "percent", "source": "Q3 FY2026 Form 10-Q", "original_location": "MD&A Consolidated Gross Margin", "confidence": "high"},
+    {"value": "Debt carrying value $5.72B at 2026-05-28 after $9.38B of debt repayments during the first nine months of FY2026.", "period": "Nine months FY2026", "unit": "USD billions", "source": "Q3 FY2026 Form 10-Q", "original_location": "Liquidity and Capital Resources / Financing Activities and Risk Factors", "confidence": "high"}
   ],
   "risk_related_new_disclosures": [
-    {
-      "value": "On 2025-10-06, YMTC filed multiple patent infringement complaints against Micron and subsidiaries in the Eastern District of Texas, the English High Court, the Unified Patent Court in Dusseldorf, and Munich Regional Court alleging infringement by certain 3D NAND, LPDRAM, NAND and DRAM products; complaints seek injunctions, attorneys' fees, damages and costs.",
-      "period": "2025-10-06",
-      "unit": "legal risk disclosure",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Legal Proceedings",
-      "confidence": "high",
-      "new_vs_fy2025_10k": true,
-      "note": "Event occurred after the FY2025 Form 10-K filing date of 2025-10-03."
-    },
-    {
-      "value": "On 2026-03-06, Nextech Semiconductor filed a patent infringement complaint against Micron and MSP in the Western District of Texas alleging six U.S. patents are infringed by certain DRAM, NAND and SSD products and seeking an injunction, damages, attorneys' fees and costs.",
-      "period": "2026-03-06",
-      "unit": "legal risk disclosure",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Legal Proceedings",
-      "confidence": "high",
-      "new_vs_fy2025_10k": true
-    },
-    {
-      "value": "On 2026-05-21, the appeals court affirmed the German Federal Patent Court invalidity ruling for one Netlist patent; the appeal concerning the second patent had not yet been decided as of the Q3 filing.",
-      "period": "2026-05-21 update",
-      "unit": "legal proceeding update",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Legal Proceedings",
-      "confidence": "high",
-      "new_vs_fy2025_10k": "supplemental update"
-    },
-    {
-      "value": "Q3 filing states demand for HBM and other advanced products may fluctuate; HBM requires more wafers and cleanroom space per bit than conventional DRAM, and a shift of capacity from HBM to conventional DRAM if HBM demand weakens could increase conventional DRAM supply and pressure pricing.",
-      "period": "Q3 FY2026",
-      "unit": "business risk disclosure",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Risk Factors / technology and product demand",
-      "confidence": "high",
-      "new_vs_fy2025_10k": "current disclosure; not classified as wholly new without a line-by-line risk-factor diff"
-    },
-    {
-      "value": "Government incentives are conditioned on outcomes and compliance requirements and can be reduced, terminated or clawed back; failure to obtain expected incentives may affect cost structure, capex and R&D spending.",
-      "period": "Q3 FY2026",
-      "unit": "government incentive risk disclosure",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Risk Factors / government incentives",
-      "confidence": "high",
-      "new_vs_fy2025_10k": "current disclosure; underlying risk existed previously"
-    }
+    {"value": "On 2025-10-06 YMTC filed multiple patent infringement complaints against Micron and subsidiaries in the Eastern District of Texas, the English High Court, the Unified Patent Court in Dusseldorf, and Munich Regional Court concerning certain 3D NAND, LPDRAM, NAND and DRAM products; complaints seek injunctions, attorneys' fees, damages and costs.", "period": "2025-10-06", "unit": "legal risk disclosure", "source": "Q3 FY2026 Form 10-Q", "original_location": "Legal Proceedings", "confidence": "high", "new_vs_fy2025_10k": true, "note": "Event occurred after the FY2025 Form 10-K filing date of 2025-10-03."},
+    {"value": "On 2026-03-06 Nextech Semiconductor filed a patent infringement complaint against Micron and MSP in the Western District of Texas alleging six U.S. patents are infringed by certain DRAM, NAND and SSD products and seeking an injunction, damages, attorneys' fees and costs.", "period": "2026-03-06", "unit": "legal risk disclosure", "source": "Q3 FY2026 Form 10-Q", "original_location": "Legal Proceedings", "confidence": "high", "new_vs_fy2025_10k": true},
+    {"value": "On 2026-05-21 the appeals court affirmed the German Federal Patent Court invalidity ruling for one Netlist patent; the appeal concerning the second patent had not yet been decided.", "period": "2026-05-21 update", "unit": "legal proceeding update", "source": "Q3 FY2026 Form 10-Q", "original_location": "Legal Proceedings", "confidence": "high", "new_vs_fy2025_10k": "supplemental update"},
+    {"value": "Q3 filing states HBM demand may fluctuate; HBM requires more wafers and cleanroom space per bit than conventional DRAM, and a shift of capacity from HBM to conventional DRAM if HBM demand weakens could increase conventional DRAM supply and pressure pricing.", "period": "Q3 FY2026", "unit": "business risk disclosure", "source": "Q3 FY2026 Form 10-Q", "original_location": "Risk Factors / technology and product demand", "confidence": "high", "new_vs_fy2025_10k": "current disclosure; not classified as wholly new without a line-by-line risk-factor diff"},
+    {"value": "Government incentives are conditioned on outcomes and compliance requirements and can be reduced, terminated or clawed back; failure to obtain expected incentives may affect cost structure, capex and R&D spending.", "period": "Q3 FY2026", "unit": "government incentive risk disclosure", "source": "Q3 FY2026 Form 10-Q", "original_location": "Risk Factors / government incentives", "confidence": "high", "new_vs_fy2025_10k": "current disclosure; underlying risk existed previously"}
   ],
   "stock_based_compensation_and_share_count": [
-    {
-      "value": 975,
-      "period": "FY2025",
-      "unit": "USD millions expense recognized in statements of operations",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Note 18 Stock-Based Compensation Expense",
-      "confidence": "high"
-    },
-    {
-      "value": 341,
-      "period": "Q3 FY2026",
-      "unit": "USD millions expense recognized in statements of operations",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Stock-Based Compensation Expense table",
-      "confidence": "high"
-    },
-    {
-      "value": 918,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "USD millions expense recognized in statements of operations",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Stock-Based Compensation Expense table",
-      "confidence": "high"
-    },
-    {
-      "value": 1122399977,
-      "period": "2025-08-28 approximate outstanding common shares from balance sheet display",
-      "unit": "shares, approximately based on reported 1,122 million outstanding",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Consolidated Balance Sheets",
-      "confidence": "medium",
-      "note": "For exact post-year-end share count, Form 10-K cover reports 1,122,466,035 shares outstanding as of 2025-09-26."
-    },
-    {
-      "value": 1122466035,
-      "period": "2025-09-26",
-      "unit": "shares outstanding",
-      "source": "FY2025 Form 10-K",
-      "original_location": "Form 10-K cover",
-      "confidence": "high"
-    },
-    {
-      "value": 1129393151,
-      "period": "2026-06-17",
-      "unit": "shares outstanding",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Form 10-Q cover",
-      "confidence": "high"
-    },
-    {
-      "value": 1145,
-      "period": "Q3 FY2026",
-      "unit": "million diluted weighted-average shares",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    },
-    {
-      "value": 1142,
-      "period": "Nine months ended 2026-05-28",
-      "unit": "million diluted weighted-average shares",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "Consolidated Statements of Operations",
-      "confidence": "high"
-    }
+    {"value": 975, "period": "FY2025", "unit": "USD millions expense recognized in statements of operations", "source": "FY2025 Form 10-K", "original_location": "Stock-Based Compensation Expense table", "confidence": "high"},
+    {"value": 341, "period": "Q3 FY2026", "unit": "USD millions expense recognized in statements of operations", "source": "Q3 FY2026 Form 10-Q", "original_location": "Stock-Based Compensation Expense table", "confidence": "high"},
+    {"value": 918, "period": "Nine months ended 2026-05-28", "unit": "USD millions expense recognized in statements of operations", "source": "Q3 FY2026 Form 10-Q", "original_location": "Stock-Based Compensation Expense table", "confidence": "high"},
+    {"value": 1122466035, "period": "2025-09-26", "unit": "shares outstanding", "source": "FY2025 Form 10-K", "original_location": "Form 10-K cover", "confidence": "high"},
+    {"value": 1129393151, "period": "2026-06-17", "unit": "shares outstanding", "source": "Q3 FY2026 Form 10-Q", "original_location": "Form 10-Q cover", "confidence": "high"},
+    {"value": 1145, "period": "Q3 FY2026", "unit": "million diluted weighted-average shares", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"},
+    {"value": 1142, "period": "Nine months ended 2026-05-28", "unit": "million diluted weighted-average shares", "source": "Q3 FY2026 Form 10-Q", "original_location": "Consolidated Statements of Operations", "confidence": "high"}
   ],
   "section_16_transactions": [
-    {
-      "value": 25,
-      "period": "2026-06-26",
-      "unit": "shares sold",
-      "source": "Form 4 for Alexis Bjorlin",
-      "original_location": "Table I",
-      "confidence": "high",
-      "reporting_person": "Alexis Bjorlin",
-      "relationship": "Director",
-      "security": "Common Stock",
-      "transaction_code": "S",
-      "price_usd_per_share": 1132.33,
-      "ownership_after_transaction": "235 shares indirectly held by Trust; separate Table I line reports 63 shares directly owned",
-      "plan_note": "Form 4 did not mark the Rule 10b5-1(c) transaction-plan checkbox. No transaction-value total was calculated."
-    }
+    {"value": 25, "period": "2026-06-26", "unit": "shares sold", "source": "Form 4 for Alexis Bjorlin", "original_location": "Table I", "confidence": "high", "reporting_person": "Alexis Bjorlin", "relationship": "Director", "security": "Common Stock", "transaction_code": "S", "price_usd_per_share": 1132.33, "ownership_after_transaction": "235 shares indirectly held by Trust; separate Table I line reports 63 shares directly owned", "plan_note": "Form 4 did not mark the Rule 10b5-1(c) transaction-plan checkbox. No transaction-value total was calculated."}
   ],
   "source_coverage": [
-    {
-      "value": "used",
-      "period": "FY2025",
-      "unit": "coverage status",
-      "source": "FY2025 Form 10-K",
-      "original_location": "financial statements, MD&A, segments, concentrations, cash flow, capex and risk sections",
-      "confidence": "high"
-    },
-    {
-      "value": "used",
-      "period": "Q3 FY2026",
-      "unit": "coverage status",
-      "source": "Q3 FY2026 Form 10-Q",
-      "original_location": "financial statements, MD&A, segments, ASP/bit shipment, strategic agreements, capital resources, risks and legal proceedings",
-      "confidence": "high"
-    },
-    {
-      "value": "used",
-      "period": "2026-08-26",
-      "unit": "coverage status",
-      "source": "Form 8-K and Exhibit 99.1",
-      "original_location": "leadership appointments and CEO comments",
-      "confidence": "high"
-    },
-    {
-      "value": "used",
-      "period": "2026-06-26",
-      "unit": "coverage status",
-      "source": "Form 4 for Alexis Bjorlin",
-      "original_location": "Table I",
-      "confidence": "high"
-    }
+    {"value": "used", "period": "FY2025", "unit": "coverage status", "source": "FY2025 Form 10-K", "original_location": "financial statements, MD&A, segments, concentrations, cash flow, capex and risk sections", "confidence": "high"},
+    {"value": "used", "period": "Q3 FY2026", "unit": "coverage status", "source": "Q3 FY2026 Form 10-Q", "original_location": "financial statements, MD&A, segments, ASP/bit shipment, strategic agreements, capital resources, risks and legal proceedings", "confidence": "high"},
+    {"value": "used", "period": "2026-08-26", "unit": "coverage status", "source": "Form 8-K and Exhibit 99.1", "original_location": "leadership appointments and CEO comments", "confidence": "high"},
+    {"value": "used", "period": "2026-06-26", "unit": "coverage status", "source": "Form 4 for Alexis Bjorlin", "original_location": "Table I", "confidence": "high"}
   ]
 }
