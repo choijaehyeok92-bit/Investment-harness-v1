@@ -127,3 +127,8 @@ KPIs, in order: the commitments note (supply and capacity total, and the
 excess-inventory accrual), customer concentration, gross margin, gain on investments
 as a share of net income.
 
+## 2026-09-05 — Astra 재심사
+
+- 과거: 76 WATCH / 75 STARTER 충돌; 현재: 73/100, WATCH, INVESTIGATE, 포지션 밴드 NONE.
+- 서로 다른 76점 WATCH와 75점 STARTER를 하나의 판정으로 복구한다. 새 점수 73, WATCH. 플랫폼 우위는 유지되지만 고객 금융지원·공급약정과 큰 기준 지분가치가 비대칭을 제한한다.
+- [현재 재평가](re-evaluation-2026-09-05.md). 이전 판정은 역사이며 주문·거래는 실행하지 않았다.

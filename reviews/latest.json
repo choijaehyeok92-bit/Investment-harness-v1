@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-09-06",
+  "directory": "reviews/2026-09-06-harness",
+  "report": "reviews/2026-09-06-harness/README.md",
+  "authority": "registry/companies.json -> companies/<ticker>/latest.json is the single current decision authority for all 93 issuers. Earlier overlays and scores remain historical.",
+  "registry": "registry/companies.json",
+  "prior_review": "reviews/2026-09-05-astra",
+  "completed_scope": "93 evidence-level reviews, not 93 complete investment underwritings",
+  "state_counts": {
+    "PRELIMINARY_REVIEW": 58,
+    "PARTIAL_ANALYSIS": 34,
+    "FULL_ANALYSIS": 1
+  },
+  "score_rule": "Null is unknown. Neither zero nor a inherited 50/100 score."
+}

@@ -1,0 +1,5 @@
+[
+  {"ticker":"CRDO","company_name":"Credo Technology Group","market":"US-listed foreign issuer","added_from_commit":"5890f91","note":"추가 원자료 발견으로 2026-09-06 범위에 포함"},
+  {"ticker":"TEM","company_name":"Tempus AI","market":"US","added_from_commit":"cae6229","note":"추가 원자료 발견으로 2026-09-06 범위에 포함"},
+  {"ticker":"TMDX","company_name":"TransMedics Group","market":"US","added_from_commit":"56a4090","note":"추가 원자료 발견으로 2026-09-06 범위에 포함"}
+]

@@ -116,3 +116,8 @@ review checks thesis-critical KPIs only and does **not** evaluate price. Critica
 in order: single-customer concentration percentage, share count, GAAP segment margins,
 and infrastructure software growth.
 
+## 2026-09-05 — Astra 재심사
+
+- 과거: 68; 현재: 71/100, WATCH, INVESTIGATE, 포지션 밴드 NONE.
+- 공식 Q3 FY2026 자료에는 GAAP 재무제표가 있다. 소프트웨어 매출 87.52억 달러(+29%)는 기존 저성장/단일 성장축 판단의 반증이다. 단일 유통업체 매출 42%를 최종고객 1곳의 경제적 수요 42%로 해석한 것도 정정한다.
+- [현재 재평가](re-evaluation-2026-09-05.md). 이전 판정은 역사이며 주문·거래는 실행하지 않았다.

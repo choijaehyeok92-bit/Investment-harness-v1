@@ -1,27 +1,18 @@
 {
   "ticker": "DDOG",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
-  "rationale": "Datadog is a high-quality AI-era observability and security platform: Q2 revenue grew 36%, low-120% dollar-based net retention and rapidly rising multi-product adoption support customer value and a widening platform moat. However, the largest customer began reducing usage after materially contributing to prior growth, calculated TTM SBC was 21.5% of revenue and period-end shares grew about 3%. At $213.81, a reverse DCF requires roughly 22%-24% revenue growth for ten years at 30%-35% year-ten FCF margins. Base value is approximately $168 and Bull value approximately $295, so the current price offers no margin of safety and requires near-Bull execution. Maintain WATCH with no position until multiple operating, dilution and valuation signals improve together.",
+  "rationale": "관측·보안 플랫폼의 성장과 충분한 현금은 인정한다. 다만 TTM SBC가 보고 FCF의 약 79%이므로 보고 FCF 마진을 그대로 높은 재투자 품질로 해석했던 점수를 10→8로 조정한다. TTM SBC 약 8.51억 달러, 연간 기본주식수 증가 약 2.97%. 보고 FCF-보상비용 프록시는 약 2.22억 달러다. 이 차액은 정확한 경제적 SBC 공정가치 측정이 아니라 민감도 지표다. 재평가 68/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "The largest-customer usage reduction is absorbed while revenue excluding that customer grows at least 25% for two quarters.",
-    "Trailing dollar-based net retention remains at or above 120% and customers with at least $100,000 ARR continue growing at least 20%.",
-    "Four-, six- and eight-product adoption continues increasing without pricing or gross-retention deterioration.",
-    "GAAP gross margin returns to at least 80% while third-party hosting-cost growth does not exceed revenue growth.",
-    "SBC falls below 18% of revenue on a visible path to 15%, annual net dilution falls to 1.5% or less, and diluted FCF per share grows faster than revenue.",
-    "Price trades at least 20% below a refreshed Base value or stronger evidence reduces the implied ten-year revenue CAGR below 18%."
+    "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "Normalized revenue growth excluding the largest customer falls below 20% and is not offset by diversified AI-native demand.",
-    "Dollar-based net retention falls below 110% for four quarters or $100,000+ ARR customer growth falls below 15%.",
-    "Multi-product adoption stalls or reverses at the four-, six- and eight-product thresholds.",
-    "GAAP gross margin falls below 75% because hosting or telemetry-processing costs structurally outgrow revenue.",
-    "SBC remains above 20% of revenue and annual net dilution above 3% for two years.",
-    "A material security incident, service failure or governance event damages customer trust or minority-shareholder alignment.",
-    "The market price continues to require the Bull case while business evidence fails to strengthen."
+    "대형고객 최적화 이후에도 매출 성장·다중제품 채택이 지속 둔화하고 SBC 이후 FCF/주가 2년 정체한다.",
+    "중대한 경영진·회계 신뢰 훼손"
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.9
+  "confidence": 0.7
 }

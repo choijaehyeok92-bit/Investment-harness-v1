@@ -1,0 +1,482 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "012450",
+  "company_name": "Hanwha Aerospace",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "companies/012450/decision-history.md",
+    "companies/012450/decision.json",
+    "companies/012450/evidence.jsonl",
+    "companies/012450/hard-veto.json",
+    "companies/012450/re-evaluation-2026-09-05.md",
+    "companies/012450/red-team.md",
+    "companies/012450/scorecard.json",
+    "companies/012450/thesis.md",
+    "companies/012450/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 2,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 14,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    }
+  ],
+  "historical_score_100": 71,
+  "review_method": "저장 증거 재검토; 신규 원문 전체 재실사 아님",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "유럽 재무장, 중동 분쟁 상시화, 인도-태평양 긴장과 공급망 현지화 요구가 지상·대공·유도무기 수요의 구조적 확대를 지지한다.",
+        "2026년 6월말 공개 수주잔고는 항공 약 31.7조원, 방산 약 38.3조원, 한화시스템 방산 약 8.5조원, 해양 약 33.0조원 등 총 약 115조원 수준이다.",
+        "K9·K239 천무의 다국가 수출, 폴란드·호주·루마니아·핀란드 등 현지 생산/협력 거점 확대가 단순 한국 내수 방산업체에서 글로벌 체계기업으로의 전환을 보여준다."
+      ],
+      "counter_evidence": [
+        "국방비 증액은 정치·재정 여건에 따라 둔화될 수 있고, 최근의 재무장 속도가 장기 정상 성장률을 과장할 수 있다.",
+        "해양 매출이 2026년 반기 연결매출의 약 64%를 차지해 그룹 외형의 상당 부분이 조선 사이클에 노출된다."
+      ],
+      "confidence": 0.9,
+      "missing_data": [
+        "국가별 10년 예산에서 한화 제품군에 직접 귀속 가능한 SAM",
+        "현지생산 전환 후 프로젝트별 장기 점유율 및 재수주율"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "K9 자주포는 평원·설원·사막 등 다양한 환경의 운용실적을 확보했고, 천무도 여러 국가에서 수출이 성사돼 성능·납기·패키지 경쟁력을 검증받았다.",
+        "대형 무기체계 고객은 도입 후 교육·탄약·정비·부품·현지생산까지 장기간 연결되므로 초기 체계 채택이 반복 매출로 이어질 가능성이 높다.",
+        "한화오션은 잠수함·수상함과 미 해군 MRO 경험을 보유하고 있어 육상 방산 외 해양 방산 고객가치 축이 존재한다."
+      ],
+      "counter_evidence": [
+        "주요 고객이 정부·군으로 집중돼 가격보다 외교·정치·산업협력 조건이 수주를 좌우할 수 있다.",
+        "현지화·기술이전·공동생산 요구가 강해질수록 고객가치는 높아져도 한화의 장기 마진과 독점적 경제성은 희석될 수 있다."
+      ],
+      "confidence": 0.86,
+      "missing_data": [
+        "국가별 K9/천무 재구매율과 후속지원 매출총이익률",
+        "경쟁 체계 대비 총수명주기비용(TCO)의 독립 검증"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "한화디펜스와 ㈜한화 방산부문 통합 후 화력·기동·대공·유도무기·무인체계로 제품군이 확장돼 번들링과 공동 R&D 범위가 넓어졌다.",
+        "국내 방산은 자본·기술집약성, 방산업체 지정 및 오랜 인증·운용 실적 때문에 진입장벽이 높다.",
+        "폴란드·독일·루마니아·중동·미국 등 현지 법인과 생산능력 투자는 장기적으로 납기·정비·정치적 수용성에서 경쟁우위를 강화할 수 있다."
+      ],
+      "counter_evidence": [
+        "현지생산과 기술이전은 장기적으로 현지 파트너의 역량을 높여 일부 해자를 이전할 수 있다.",
+        "Rheinmetall, KNDS, BAE, Lockheed Martin 등 대형 글로벌 방산기업과 한국 동종업체가 유사 시장에서 경쟁한다.",
+        "2026년 8월 Vertical Aerospace VX4 관련 약 4,548억원 계약이 사업 조기종료로 해지돼 신규 항공사업의 모든 확장이 성공하는 것은 아니다."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "해외 설치기반별 유지보수·탄약·부품의 반복매출 비중",
+        "현지법인별 수익성 및 현지 조달률 변화"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": null,
+      "max_score": 15,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "2026년 반기 연결매출은 전년 동기 대비 약 27.5%, 영업이익은 약 44.1% 증가해 증분 영업레버리지는 강했다.",
+        "방산부문 2026년 반기 영업이익은 약 0.90조원, 공개 방산 수주잔고는 약 38.3조원으로 향후 이익 성장의 가시성이 높다.",
+        "대규모 선급금/계약부채 구조는 정상적으로 전환될 경우 장기 프로젝트의 외부자금 부담을 낮출 수 있다."
+      ],
+      "counter_evidence": [
+        "2026년 반기 연결 영업활동현금흐름은 약 -0.37조원으로 영업이익 약 2.00조원과 큰 괴리가 있었다.",
+        "계약자산은 6.49조원에서 7.07조원으로 증가하고 계약부채는 15.99조원에서 15.04조원으로 감소해 운전자본의 현금 기여가 약해졌다.",
+        "2025년 약 4.22조원의 유상증자로 주식 수가 크게 늘었고, 해외 생산기지·지분투자·한화오션·KAI 등 신규 자본투자의 장기 ROIC는 아직 검증되지 않았다."
+      ],
+      "confidence": 0.35,
+      "missing_data": [
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "경영진은 K9·천무 수출 확대, 호주·유럽 생산거점 구축, 한화오션 통합과 미국 조선/MRO 진출을 빠르게 실행했다.",
+        "이사회는 9명 중 독립이사 5명이며 감사·내부거래·보상·ESG 등 위원회를 운영한다.",
+        "2025년 조달한 자금 중 미사용액을 금융권 예금 등으로 보관하고 사용내역을 공시해 자금관리 투명성은 확인된다."
+      ],
+      "counter_evidence": [
+        "2025년 제3자배정과 주주배정으로 약 4.22조원의 대규모 자본을 조달해 기존 주주가 약 13% 수준 희석됐고, 상당액의 투자집행은 아직 초기 단계다.",
+        "한화오션 추가 지분, 미국·유럽 방산 거점, KAI 지분 확대 등 자본배분 범위가 동시에 넓어져 자본효율 검증이 어려워졌다.",
+        "2026년 6월 대전사업장 중대재해로 5명이 사망하고 2명이 부상했으며 부분 생산중단과 전사 안전점검이 발생해 운영통제의 중대한 실패가 있었다."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "11조원 미래전략투자의 프로젝트별 hurdle rate와 사후평가 체계",
+        "KAI 지분 확대의 최종 지배구조 목표와 투자한도",
+        "중대재해 후 안전투자·자동화의 정량 KPI"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": null,
+      "max_score": 10,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "2026년 6월말 연결 현금및현금성자산은 약 8.05조원이고 국내 회사채 AA, CP A1, S&P A- 등급을 확보했다.",
+        "연결 계약부채 약 15.0조원은 장기 수주 사업의 고객 선급/진행대가가 상당함을 보여준다.",
+        "2026년 7월 5억달러 해외채권을 발행할 수 있을 정도로 자본시장 접근성이 높다."
+      ],
+      "counter_evidence": [
+        "2026년 6월말 연결 차입금·사채는 유동 9.55조원, 비유동 5.90조원으로 총 약 15.4조원이며 H1 영업현금흐름이 음수였다.",
+        "글로벌 생산기지·조선·KAI·항공우주 투자가 동시에 진행돼 현금수요가 큰 상태다.",
+        "연결 자본 중 비지배지분이 약 8.24조원으로 한화오션·한화시스템 등 연결 실적을 모회사 주주가 100% 소유하는 것으로 해석해서는 안 된다."
+      ],
+      "confidence": 0.35,
+      "missing_data": [
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "2026-09-04 종가 1,055,000원과 발행주식수 51.56백만주 기준 시가총액은 약 54.4조원이다.",
+        "한화오션·한화시스템·KAI의 모회사 직접 지분 시가를 합산하면 약 15.5조원이며, 20% 할인과 중앙 순부채/자본약정 조정을 적용한 역산에서 현재가는 핵심 방산·항공 사업의 지속 EBIT 약 2.8조원에 16배 수준의 가치를 요구한다.",
+        "FY2025 방산·항공·항공우주 세그먼트 영업이익 합계가 약 2.28조원이므로 요구되는 이익 상승은 강한 수주잔고를 감안하면 불가능한 수준은 아니다."
+      ],
+      "counter_evidence": [
+        "Base SOTP 약 1.05백만원은 현재가와 거의 같아 명확한 안전마진이 없다.",
+        "현재 가격은 방산 수출 고마진, 한화오션 가치, KAI 전략가치와 해외 현지화의 성공을 상당 부분 이미 반영한다.",
+        "SOTP는 상장 자회사와 비상장/해외 사업의 중복·지배구조·순부채 분류에 민감해 절대값 신뢰도가 제한적이다."
+      ],
+      "confidence": 0.5,
+      "missing_data": [
+        "KAI 및 해외 자회사 투자 후 최신 모회사 순부채",
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "방산 수출 프로젝트별 정상 EBIT/FCF 마진",
+        "한화오션·한화시스템 지분에 적용할 합리적 장기 할인율"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "유럽·중동·호주·미국에서 K9·천무·장갑차·유도무기·함정/MRO가 동시에 확장되면 한국 내수 방산업체에서 글로벌 종합 방산기업으로 재평가될 여지가 있다.",
+        "KAI 지분 확대와 한화오션/한화시스템 연결은 육·해·공·우주 전 영역의 장기 옵션가치를 제공한다.",
+        "Bull SOTP는 핵심 EBIT 3.8조원과 해외/상장자회사 가치 상승 시 약 159만원의 경로를 보여준다."
+      ],
+      "counter_evidence": [
+        "Bear SOTP 약 50만원은 현재가 대비 50% 이상 하방을 의미하고, Bull 약 159만원의 상승폭과 비교하면 현재가의 비대칭성이 특별히 우호적이지 않다.",
+        "현재 시가총액이 이미 50조원을 넘어 장기 10배급 power-law 결과를 만들기 위한 절대 규모가 매우 크다."
+      ],
+      "confidence": 0.5,
+      "missing_data": [
+        "2030년 이후 반복 MRO·탄약·부품 서비스의 이익률",
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "미국 지상방산/함정 시장에서의 실제 수주 전환률"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/012450/scorecard.json"
+      ]
+    }
+  },
+  "structural_thesis": "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+  "customer_and_moat": "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+  "current_finding": "연결 전액 이익과 지분가치 합산의 중복, 비지배지분·보증·별도 현금 누락이 해결되지 않았다. 71/48 충돌을 새 숫자로 덮지 않고 총점과 해당 항목을 보류한다.",
+  "economic_finding": "반기 영업현금흐름 약 -0.37조 원, 계약자산 증가, 대규모 증자와 중대재해는 투자효율·통제 위험이다. 단 한 번의 증자나 낮은 현금전환만으로 영구적 자금의존 또는 회계부정을 확정할 수는 없다.",
+  "capital_and_survival": "2026년 6월말 연결 차입금·사채는 유동 9.55조원, 비유동 5.90조원으로 총 약 15.4조원이며 H1 영업현금흐름이 음수였다.",
+  "next_evidence": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+  "permanent_loss_case": "해양 사이클 하락, 해외 현지화 비용과 모회사 추가 자금지원이 동시에 발생해 높은 수주잔고가 주주 현금으로 전환되지 않는다.",
+  "falsifiers": [
+    "반복 중대재해·납기 실패 또는 추가 저수익 지분투자/증자가 프로젝트의 주당 현금수익 증가를 지속적으로 초과한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "increase_evidence": [
+    "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
+  ],
+  "sell_evidence": [
+    "반복 중대재해·납기 실패 또는 추가 저수익 지분투자/증자가 프로젝트의 주당 현금수익 증가를 지속적으로 초과한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Capital surplus rose KRW 1.42T in H1 2026 (KRW 2,887.3B to KRW 4,303.3B) with NO new shares issued — the count was flat at 51,563,401. This implies transactions in subsidiary interests, but the nature is not established in the material reviewed.",
+          "The FY2025 annual report supplied is a CORRECTED filing ([정정]영업보고서, 2026-03-19). The reason for the correction was not examined and should be.",
+          "INFERENCE: no integrity concern is identified. The flag is for two unexplained items, not for any evidence of misstatement.",
+          "RESOLVED: the March 2026 correction to the annual report changed three items — 기업결합 사항, 타회사 출자현황, and the 이사회 결의서. These are ADMINISTRATIVE corrections, not a restatement of financial statements. This removes one of the two concerns behind the flag."
+        ],
+        "severity": "LOW",
+        "confidence": 0.5,
+        "resolution_needed": "Only one item remains: read note 25 (자본금과 자본잉여금) for the KRW 1.42T H1 2026 capital surplus movement that occurred with no share issuance.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): PRIMARY GATE. H1 2026 operating cash flow was NEGATIVE KRW 370.7B against POSITIVE KRW 1,014.3B in H1 2025, while reporting KRW 2.00T of operating profit. Cash generated from operations before interest and tax was also negative, at KRW 139.8B.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Investing cash flow was negative KRW 3,403.0B and total borrowings rose from KRW 12.39T to KRW 15.44T (+24.6%) in six months to fund the gap.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Interest paid of KRW 264.7B in H1 2026 was funded from financing rather than operations.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): This follows a 2025 equity raise of 5,982,240 shares (13.1% of the pre-raise count) across a third-party placement (2025-04-29) and a rights issue with public offering (2025-07-10).",
+          "INFERENCE: taken together — equity raised in 2025, debt up 24.6% in H1 2026, and negative operating cash flow — the company is currently funding itself externally. Whether that is STRUCTURAL or a working-capital timing effect in a long-cycle contract business is the decisive open question.",
+          "MITIGANT (tier-3, KIS Rating): net debt/EBITDA was 1.6x at 2025-09-30 with financial coverage rated excellent, implying roughly 1.2-1.3x on the current annualised run-rate. The leverage LEVEL is conservative. This veto is about CASH CONVERSION and the direction of external funding, not about debt quantum or solvency."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.58,
+        "resolution_needed": "OBTAIN FY2025 AND FY2026 FULL-YEAR OPERATING CASH FLOW. IMPORTANT CORRECTION: the FY2025 [정정]영업보고서 supplied for this analysis is an IMAGE-BASED PDF with no extractable text beyond the correction notice, so the figure could NOT be taken from it. The 반기보고서 carries only H1 comparatives. The number must come from the FY2025 사업보고서 or the audited cash flow statement, neither of which was supplied. If full-year operating cash flow is also negative or near zero, this veto moves to FAIL and REJECT becomes veto-driven rather than score-driven.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Shares outstanding went from 45,581,161 (2024 year-end) to 51,563,401 — 5,982,240 new shares, or 13.1% dilution, in 2025: 1,715,040 via third-party placement on 2025-04-29 and 4,267,200 via rights issue with public offering on 2025-07-10.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): MITIGATING: the count has been FLAT at 51,563,401 from 2025-07-10 through 2026-06-30. The dilution was a discrete 2025 event, not an ongoing pattern. Treasury stock is only 114,613 shares (0.22%).",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Longer history is favourable: 50,630,000 shares (2022 and 2023 year-end), reduced to 45,581,161 by the 2024-09-01 spin-off, plus historical profit cancellations totalling 2,500,000 shares."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.58,
+        "resolution_needed": "Establish the use of proceeds and whether management contemplates further raises. Given that borrowings rose 24.6% in the six months AFTER the raise, a further equity call cannot be ruled out — that would escalate this to HIGH.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): The FY2024-to-FY2025 revenue jump from KRW 11.24T to KRW 26.70T (+137%) is NOT organic — it reflects the consolidation of Hanwha Ocean. Presenting it as growth would be a category error.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Underlying defence revenue is DECLINING: H1 2026 KRW 4.47T against an FY2025 half-year run-rate of KRW 5.19T, about -14%.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): COUNTER: margins are expanding, not compressing — group operating margin 11.6% (FY2025) to 13.3% (H1 2026), and marine margin 7.7% to 12.0%. Growth bought with price would compress margin; this does not.",
+          "INFERENCE: the growth is real but its SOURCE has been misattributed. It is consolidation plus a marine upcycle, not defence expansion."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.58,
+        "resolution_needed": "Separate organic from consolidation effects on a like-for-like basis, and establish defence order intake by quarter.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Operating profit of KRW 2.00T in H1 2026 produced NEGATIVE KRW 370.7B of operating cash flow. Accounting returns and cash returns have decoupled.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Investing outflow of KRW 3,403.0B in the half against that negative operating cash flow means incremental invested capital is rising while incremental cash return is negative.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Defence — the high-margin segment at 20.2% — is shrinking, while marine at 12.0% is growing. Mix shift alone lowers blended incremental returns.",
+          "COUNTER: marine margin improved from 7.7% to 12.0%, so within-segment incremental returns are improving even as mix worsens."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.58,
+        "resolution_needed": "Establish whether the negative operating cash flow reflects contract-asset build that reverses on milestone billing. Contract assets rose from KRW 6,487.7B to KRW 7,065.5B and inventory fell — the working-capital story needs the full cash flow note.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): The defence leg is deteriorating on BOTH lines: revenue about -14% versus the FY2025 run-rate AND margin down from 21.9% to 20.2%.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Revenue mix is shifting toward the lower-moat business: marine 54.5% of FY2025 revenue to 63.9% in H1 2026, while defence fell 38.9% to 29.7%.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): COUNTER: backlog of KRW 114.92T (about 3.8 years) is strong, and marine margin doubling is genuine operational improvement."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.58,
+        "resolution_needed": "Determine whether the defence revenue decline is delivery-schedule timing or an order-intake trend. Quarterly defence order intake would settle it.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "At KRW 1,244,000 the market capitalisation is about KRW 64.14T against equity attributable to owners of KRW 12.00T — a price-to-book of 5.35x — and 35.8x H1 2026 annualised owners' earnings, 45.7x FY2025.",
+          "INFERENCE: the modelled BULL case returns only +9% to +40% over five years. When the optimistic scenario barely beats cash, the price is close to requiring bull-case-or-better execution simply to avoid loss.",
+          "INFERENCE: probability-weighted five-year return is approximately NEGATIVE 37% — the only negative expected return in this harness.",
+          "This does not read FAIL because the backlog gives real visibility and the bull case is not impossible — but it is the closest any name in this harness has come."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.58,
+        "resolution_needed": "Build a normalised owners' earnings estimate separating defence from marine, and re-test the multiple against it. The price would need to fall roughly 40-50% for the expectation gap to turn positive on current evidence.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "INFERENCE: demand is a government-budget derivative on both legs — defence procurement budgets and, increasingly, US naval programmes. That is politically reversible in a way commercial demand is not.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Segment concentration is high and worsening in the wrong direction: marine is 63.9% of H1 2026 revenue, and marine is the more cyclical, lower-return business.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Non-controlling interests take about 44% of profit (H1 2026 continuing profit KRW 1,606.8B versus owners' share KRW 897.1B), so the parent's exposure to the marine business is economically smaller than the consolidated revenue implies — a genuine mitigant."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.58,
+        "resolution_needed": "Establish defence backlog by counterparty country and the contractual firmness of European orders.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): Net debt of about KRW 7.40T and rising, a current ratio of only 1.08 (current assets KRW 32.90T against current liabilities KRW 30.49T), and negative operating cash flow coincide.",
+          "ESTIMATE (subjective): probability of permanent impairment above 70% is 8-12%, materially higher than the 2-6% estimated for the other four names in this harness, because leverage, negative cash generation and a cyclical revenue majority occur together.",
+          "FACT (tier-1, 반기보고서 2026-08-14, 기준일 2026-06-30): MITIGATING: backlog of KRW 114.92T means revenue is contracted rather than speculative, and total equity of KRW 20.24T provides a real buffer."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.55,
+        "resolution_needed": "Same as external_capital_dependence — the full-year cash flow picture determines whether this is a leveraged cyclical with a cash problem or a long-cycle business with a timing artefact.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "HISTORICAL_MODEL_NOT_PROMOTED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.1,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다."
+    ],
+    "source_path": "companies/012450/valuation.json"
+  },
+  "total_score_100": null,
+  "business_quality_75": null,
+  "source_quality": {
+    "status": "STORED_ASSERTIONS_AND_INHERITED_RESEARCH",
+    "primary_document_reaudit": "선별 공식 IR 교차검증만 수행. 모든 PDF·웹 원문을 새로 감사했다는 뜻이 아님.",
+    "fact_estimate_inference_opinion": "원자료 숫자=보고 주장; 산식=계산치; 사업 연결=추론; 점수/판정=의견. 미래 전망은 사실 아님.",
+    "missing_data_rule": "unknown을 0·PASS로 대체하지 않으며 자료 결손을 기업 실패로 단정하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "claim_type": "inference",
+        "challenge": "사이클/선투자를 구조적 수요로 오인할 수 있다: 과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다."
+      },
+      {
+        "id": 2,
+        "claim_type": "inference",
+        "challenge": "시장 확대가 주당 현금으로 귀속되지 않을 수 있다: 반기 영업현금흐름 약 -0.37조 원, 계약자산 증가, 대규모 증자와 중대재해는 투자효율·통제 위험이다. 단 한 번의 증자나 낮은 현금전환만으로 영구적 자금의존 또는 회계부정을 확정할 수는 없다."
+      },
+      {
+        "id": 3,
+        "claim_type": "inference",
+        "challenge": "매출 증가 자체는 해자 확대의 증명이 아니다: 과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다."
+      },
+      {
+        "id": 4,
+        "claim_type": "inference",
+        "challenge": "고객 편익의 독립 검증과 경쟁 대안의 총비용 자료가 부족할 수 있다."
+      },
+      {
+        "id": 5,
+        "claim_type": "inference",
+        "challenge": "증분 ROIC는 이익률이 아니라 신규 투입자본 대비 세후 현금수익이다: 모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다."
+      },
+      {
+        "id": 6,
+        "claim_type": "inference",
+        "challenge": "SBC·환매·기존 미행사 보상·신주발행을 동일 비용 두 번 차감하거나 모두 누락할 수 있다."
+      },
+      {
+        "id": 7,
+        "claim_type": "inference",
+        "challenge": "경영진의 인수·설비·환원 행동을 진술과 대조해야 한다: 2026년 6월말 연결 차입금·사채는 유동 9.55조원, 비유동 5.90조원으로 총 약 15.4조원이며 H1 영업현금흐름이 음수였다."
+      },
+      {
+        "id": 8,
+        "claim_type": "inference",
+        "challenge": "훌륭한 사업 가설을 시장도 이미 알고 있을 수 있다. 현재 가격 기대차이는 별도 입증 대상이다."
+      },
+      {
+        "id": 9,
+        "claim_type": "inference",
+        "challenge": "정상화 owner 마진·지속기간·만기 가치와 현금 시점이 민감도 핵심이다. 미완성 모형은 목표가를 제시하지 않는다."
+      },
+      {
+        "id": 10,
+        "claim_type": "inference",
+        "challenge": "해양 사이클 하락, 해외 현지화 비용과 모회사 추가 자금지원이 동시에 발생해 높은 수주잔고가 주주 현금으로 전환되지 않는다."
+      }
+    ],
+    "strongest_bear_thesis": "해양 사이클 하락, 해외 현지화 비용과 모회사 추가 자금지원이 동시에 발생해 높은 수주잔고가 주주 현금으로 전환되지 않는다.",
+    "three_hidden_assumptions": [
+      "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+      "반기 영업현금흐름 약 -0.37조 원, 계약자산 증가, 대규모 증자와 중대재해는 투자효율·통제 위험이다. 단 한 번의 증자나 낮은 현금전환만으로 영구적 자금의존 또는 회계부정을 확정할 수는 없다.",
+      "2026년 6월말 연결 차입금·사채는 유동 9.55조원, 비유동 5.90조원으로 총 약 15.4조원이며 H1 영업현금흐름이 음수였다."
+    ],
+    "underweighted_evidence": "연결 전액 이익과 지분가치 합산의 중복, 비지배지분·보증·별도 현금 누락이 해결되지 않았다. 71/48 충돌을 새 숫자로 덮지 않고 총점과 해당 항목을 보류한다.",
+    "falsifiers": [
+      "반복 중대재해·납기 실패 또는 추가 저수익 지분투자/증자가 프로젝트의 주당 현금수익 증가를 지속적으로 초과한다.",
+      "중대한 경영진·회계 신뢰 훼손"
+    ],
+    "confidence": 0.55,
+    "verdict": "REVISE",
+    "independence": "단일 분석자의 적대적 재검토; 독립 검토자/멀티 에이전트 합의가 아님"
+  },
+  "completion_gate": {
+    "passed": false,
+    "open_items": [
+      "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+      "시장 기대 역산·현금 브리지 및 Bear/Base/Bull",
+      "전 항목 점수 및 근거 검증"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

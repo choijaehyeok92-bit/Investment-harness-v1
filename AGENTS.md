@@ -73,6 +73,15 @@ A stock analysis is incomplete unless it contains:
 
 ## Output discipline
 
+Resolve current research through `reviews/latest.json` -> `registry/companies.json`
+-> `companies/<TICKER>/latest.json`. See `docs/HARNESS_V2.md`.
+Root-level historical company files and old screening scores are not automatically
+current. Preserve raw extractions; write new judgments under dated `analyses/`
+directories. Unknown scores are null, never zero or a converted 50-point score.
+Distinguish PRELIMINARY_REVIEW, PARTIAL_ANALYSIS and FULL_ANALYSIS; an evidence-level
+review is not a completed underwriting or a buy approval. Run `harness.validate`
+and existing validators before promoting a new latest pointer.
+
 Use machine-readable JSON where a schema exists.
 Use Markdown for narrative thesis and decision history.
 Do not invent unavailable data.
