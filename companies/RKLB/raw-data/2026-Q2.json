@@ -1,0 +1,685 @@
+{
+  "ticker": "RKLB",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-06",
+  "primary_period": "Q2 2026 ended 2026-06-30",
+  "source_documents": [
+    {
+      "document": "2026 Form 4 - Adam C. Spice",
+      "drive_id": "1kvLLEtSwmByI2SqRzsJvg1mYkhaoZ-Ex",
+      "period": "Earliest transaction 2026-09-02; signed 2026-09-04",
+      "requested_field_extraction": "no requested company financial, guidance, business-segment, management-statement, or risk-update fields extracted",
+      "confidence": "high"
+    },
+    {
+      "document": "2026-08-13 Form 8-K - Iridium transaction financial information and pro forma information",
+      "drive_id": "1SOwNzciFpb0-58Le7iG5onPlQ648CenG",
+      "period": "2026-08-13",
+      "requested_field_extraction": "transaction and risk disclosure only; Iridium and pro forma combined figures are not recorded as Rocket Lab actual-period results",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 Q2 Form 10-Q",
+      "drive_id": "1YtmiyF_KB-aZ3Y9AseUEoNNclL1gKbT4",
+      "period": "Quarter ended 2026-06-30",
+      "confidence": "high"
+    },
+    {
+      "document": "2026 DEFA14A annual shareholder meeting materials",
+      "drive_id": "1UXijj9a7j8n_S4ngLuv8cZuw1kFW4Bc1",
+      "period": "2026 annual shareholder meeting; meeting date 2026-05-20",
+      "requested_field_extraction": "no requested company financial, guidance, business-segment, management-statement, or risk-update fields extracted",
+      "confidence": "high"
+    },
+    {
+      "document": "2025 Annual Report to Shareholders / Form 10-K materials",
+      "drive_id": "1Z45dZx0g18yHMW_Yg8oYpWIFnvRtlmyD",
+      "period": "FY2025 ended 2025-12-31; materials issued in 2026",
+      "confidence": "high"
+    },
+    {
+      "document": "2025 Form 10-K",
+      "drive_id": "1nmugA7ecywFn9bkE2nZ_MH_bSRGgEb-U",
+      "period": "FY2025 ended 2025-12-31",
+      "confidence": "high"
+    }
+  ],
+  "revenue": [
+    {
+      "value": 234066,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss; p.39 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 144498,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss comparative column; p.39 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "value": 434414,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss",
+      "confidence": "high"
+    },
+    {
+      "value": 267067,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": 601799,
+      "period": "Year ended 2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "F-5 Consolidated Statements of Operations and Comprehensive Loss",
+      "confidence": "high"
+    }
+  ],
+  "operating_income": [
+    {
+      "metric": "operating_loss",
+      "value": -57514,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss; p.39 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "operating_loss",
+      "value": -59639,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss comparative column; p.39 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "operating_loss",
+      "value": -113483,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss",
+      "confidence": "high"
+    },
+    {
+      "metric": "operating_loss",
+      "value": -118827,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "operating_loss",
+      "value": -228838,
+      "period": "Year ended 2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "Consolidated Statements of Operations and Comprehensive Loss; MD&A FY2025 results table",
+      "confidence": "high"
+    }
+  ],
+  "operating_margin": [
+    {
+      "value": -24.6,
+      "period": "Three months ended 2026-06-30",
+      "unit": "percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Results of Operations table, Operating loss as percentage of revenue",
+      "confidence": "high"
+    },
+    {
+      "value": -41.3,
+      "period": "Three months ended 2025-06-30",
+      "unit": "percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Results of Operations table comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": -26.1,
+      "period": "Six months ended 2026-06-30",
+      "unit": "percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Six months Results of Operations table, Operating loss as percentage of revenue",
+      "confidence": "high"
+    },
+    {
+      "value": -44.5,
+      "period": "Six months ended 2025-06-30",
+      "unit": "percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Six months Results of Operations table comparative column",
+      "confidence": "high"
+    },
+    {
+      "value": -38.1,
+      "period": "Year ended 2025-12-31",
+      "unit": "percent",
+      "source": "2025 Form 10-K",
+      "location": "MD&A FY2025 results table, Operating loss as percentage of revenue",
+      "confidence": "high"
+    }
+  ],
+  "net_income": [
+    {
+      "metric": "net_loss",
+      "value": -49258,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss; p.39 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss",
+      "value": -66414,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss comparative column; p.39 Results of Operations",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss",
+      "value": -94280,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss",
+      "value": -127030,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.6 Condensed Consolidated Statements of Operations and Comprehensive Loss comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss",
+      "value": -198209,
+      "period": "Year ended 2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "F-5 Consolidated Statements of Operations and Comprehensive Loss",
+      "confidence": "high"
+    }
+  ],
+  "fcf": [
+    {
+      "value": "not disclosed in supplied sources; not calculated from cash-flow components",
+      "period": "Q2 2026 / six months ended 2026-06-30 / FY2025",
+      "unit": "not applicable",
+      "source": "2026 Q2 Form 10-Q and 2025 Form 10-K",
+      "location": "Condensed Consolidated Statements of Cash Flows and Consolidated Statements of Cash Flows; no Free Cash Flow line item identified",
+      "confidence": "high"
+    }
+  ],
+  "capex": [
+    {
+      "metric": "purchases_of_property_equipment_and_software",
+      "value": -53112,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.8 Condensed Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_equipment_and_software",
+      "value": -60719,
+      "period": "Six months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.8 Condensed Consolidated Statements of Cash Flows comparative column",
+      "confidence": "high"
+    },
+    {
+      "metric": "purchases_of_property_equipment_and_software",
+      "value": -156285,
+      "period": "Year ended 2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "Consolidated Statements of Cash Flows",
+      "confidence": "high"
+    }
+  ],
+  "cash_and_debt": [
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 2129485,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.5 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "marketable_securities_current",
+      "value": 172700,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.5 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "marketable_securities_noncurrent",
+      "value": 85405,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.5 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "restricted_cash",
+      "value": 8413,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.5 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "convertible_senior_notes_net",
+      "value": 13129,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.5 Condensed Consolidated Balance Sheets; Note on Convertible Senior Notes",
+      "confidence": "high"
+    },
+    {
+      "metric": "convertible_senior_notes_principal_outstanding_before_unamortized_discount_and_issuance_costs",
+      "value": 13366,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note on Convertible Senior Notes, p.24-25",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_borrowings_net",
+      "value": 1716,
+      "period": "2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.5 Condensed Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "cash_and_cash_equivalents",
+      "value": 828660,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "F-4 Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "convertible_senior_notes_net",
+      "value": 152395,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "F-4 Consolidated Balance Sheets",
+      "confidence": "high"
+    },
+    {
+      "metric": "long_term_borrowings_net_excluding_current_installments",
+      "value": 1716,
+      "period": "2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "F-4 Consolidated Balance Sheets",
+      "confidence": "high"
+    }
+  ],
+  "business_segments": [
+    {
+      "segment": "Launch Services",
+      "metric": "revenue",
+      "value": 44586,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Launch Services",
+      "metric": "cost_of_revenues",
+      "value": 25476,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Launch Services",
+      "metric": "gross_profit",
+      "value": 19110,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Space Systems",
+      "metric": "revenue",
+      "value": 189480,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Space Systems",
+      "metric": "cost_of_revenues",
+      "value": 124014,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Space Systems",
+      "metric": "gross_profit",
+      "value": 65466,
+      "period": "Three months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Launch Services",
+      "metric": "revenue",
+      "value": 46646,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32 comparative column",
+      "confidence": "high"
+    },
+    {
+      "segment": "Space Systems",
+      "metric": "revenue",
+      "value": 97852,
+      "period": "Three months ended 2025-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32 comparative column",
+      "confidence": "high"
+    },
+    {
+      "segment": "Launch Services",
+      "metric": "revenue",
+      "value": 108249,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Space Systems",
+      "metric": "revenue",
+      "value": 326165,
+      "period": "Six months ended 2026-06-30",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Note 18 Segments, p.32",
+      "confidence": "high"
+    },
+    {
+      "segment": "Launch Services",
+      "metric": "revenue",
+      "value": 199042,
+      "period": "Year ended 2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "Note 18 Segments",
+      "confidence": "high"
+    },
+    {
+      "segment": "Space Systems",
+      "metric": "revenue",
+      "value": 402757,
+      "period": "Year ended 2025-12-31",
+      "unit": "USD thousand",
+      "source": "2025 Form 10-K",
+      "location": "Note 18 Segments",
+      "confidence": "high"
+    }
+  ],
+  "guidance": [
+    {
+      "metric": "financial_guidance",
+      "value": "no explicit revenue, operating-income, adjusted-EBITDA, or free-cash-flow guidance identified in the supplied sources; not inferred",
+      "period": "As of supplied 2026 Q2 and subsequent filings through 2026-09-04",
+      "unit": "not applicable",
+      "source": "Supplied RKLB documents",
+      "location": "2026 Q2 Form 10-Q and supplied subsequent filings",
+      "confidence": "high"
+    },
+    {
+      "metric": "Neutron_target_delivery_to_launch_pad",
+      "value": "Production of the Stage 1 tank is currently aligned with the target delivery of Neutron to the launch pad in Q4 2026.",
+      "period": "Management statement in Q2 2026 Form 10-Q",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.35 Recent Developments - Neutron Update",
+      "confidence": "high"
+    },
+    {
+      "metric": "Neutron_launch_timing_qualification",
+      "value": "Exact launch timing will also depend on the outcome of first stage qualification and other critical tests occurring later in 2026.",
+      "period": "Management statement in Q2 2026 Form 10-Q",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.35 Recent Developments - Neutron Update",
+      "confidence": "high"
+    },
+    {
+      "metric": "Iridium_transaction_expected_close",
+      "value": "if approved, is expected to close in 2027",
+      "period": "Statement as of Q2 2026 Form 10-Q",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.35 Recent Developments - Pending Acquisition",
+      "confidence": "high"
+    }
+  ],
+  "management_statements": [
+    {
+      "speaker": "Sir Peter Beck",
+      "value": "While we’ve updated Neutron’s first launch timeline to Q4 2026 to ensure the highest standards of reliability...",
+      "period": "2025 Annual Report to Shareholders materials issued in 2026",
+      "unit": "text",
+      "source": "2025 Annual Report to Shareholders / Form 10-K materials",
+      "location": "Shareholder letter preceding Form 10-K",
+      "confidence": "high"
+    },
+    {
+      "speaker": "Sir Peter Beck",
+      "value": "As we look ahead, we are well-positioned to build on this momentum, with a healthy balance sheet...",
+      "period": "2025 Annual Report to Shareholders materials issued in 2026",
+      "unit": "text",
+      "source": "2025 Annual Report to Shareholders / Form 10-K materials",
+      "location": "Shareholder letter preceding Form 10-K",
+      "confidence": "high"
+    },
+    {
+      "speaker": "Management",
+      "value": "While the window for an end-of-year launch date is narrowing...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.35 Recent Developments - Neutron Update",
+      "confidence": "high"
+    }
+  ],
+  "important_changes": [
+    {
+      "metric": "total_revenue_yoy_change",
+      "value": 89568,
+      "period": "Q2 2026 versus Q2 2025",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Revenues table and narrative",
+      "confidence": "high",
+      "reported_percent_change": 62
+    },
+    {
+      "metric": "space_systems_revenue_yoy_change",
+      "value": 91600,
+      "period": "Q2 2026 versus Q2 2025",
+      "unit": "USD thousand approximate as stated",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Revenues narrative",
+      "confidence": "high",
+      "reported_percent_change": 94
+    },
+    {
+      "metric": "launch_services_revenue_yoy_change",
+      "value": -2100,
+      "period": "Q2 2026 versus Q2 2025",
+      "unit": "USD thousand approximate as stated",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Revenues narrative",
+      "confidence": "high",
+      "reported_percent_change": -4
+    },
+    {
+      "metric": "operating_loss_margin",
+      "value": {
+        "Q2_2026": -24.6,
+        "Q2_2025": -41.3
+      },
+      "period": "Q2 2026 versus Q2 2025",
+      "unit": "percent",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Results of Operations table",
+      "confidence": "high"
+    },
+    {
+      "metric": "net_loss",
+      "value": {
+        "Q2_2026": -49258,
+        "Q2_2025": -66414
+      },
+      "period": "Q2 2026 versus Q2 2025",
+      "unit": "USD thousand",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "p.39 Results of Operations table",
+      "confidence": "high"
+    },
+    {
+      "metric": "qoq_changes",
+      "value": "no direct Q2 2026 versus Q1 2026 comparison identified in supplied sources; not derived from six-month figures",
+      "period": "Q2 2026",
+      "unit": "not applicable",
+      "source": "Supplied RKLB documents",
+      "location": "2026 Q2 Form 10-Q",
+      "confidence": "high"
+    }
+  ],
+  "new_risk_disclosures": [
+    {
+      "value": "Other than as set forth below, there have been no material changes from the risk factors previously disclosed...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.48",
+      "confidence": "high"
+    },
+    {
+      "value": "The Iridium Transaction is subject to conditions... and the Iridium Merger Agreement may be terminated...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.48",
+      "confidence": "high"
+    },
+    {
+      "value": "We have secured committed debt financing to finance the Cash Consideration.",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.49",
+      "confidence": "high"
+    },
+    {
+      "metric": "Iridium_transaction_bridge_financing_commitment",
+      "value": 3600,
+      "period": "Q2 2026 disclosure",
+      "unit": "USD million",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.49",
+      "confidence": "high",
+      "context": "senior secured bridge facility financing commitment"
+    },
+    {
+      "value": "We expect to incur or assume substantial additional indebtedness in connection with the Iridium Transaction...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.49",
+      "confidence": "high"
+    },
+    {
+      "value": "The Iridium Transaction is subject to the requirements of the Hart-Scott-Rodino Antitrust Improvements Act of 1976...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.49-50",
+      "confidence": "high"
+    },
+    {
+      "value": "The Iridium Transaction is subject to the receipt of certain regulatory approvals and consents, including from the FCC...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.50",
+      "confidence": "high"
+    },
+    {
+      "value": "We may fail to realize the anticipated benefits and synergies of the Iridium Transaction...",
+      "period": "Q2 2026",
+      "unit": "text",
+      "source": "2026 Q2 Form 10-Q",
+      "location": "Part II, Item 1A Risk Factors, p.50-51",
+      "confidence": "high"
+    }
+  ],
+  "extraction_notes": [
+    "No investment judgment is included.",
+    "No metric was derived by subtraction, addition, ratio calculation, or other inference unless the source itself explicitly reported the resulting metric.",
+    "Free cash flow is not calculated because no FCF metric was identified in the supplied sources.",
+    "Iridium pro forma combined financial statements are not treated as Rocket Lab actual historical results.",
+    "Form 4 and DEFA14A documents were reviewed but did not supply the requested company financial fields."
+  ]
+}
