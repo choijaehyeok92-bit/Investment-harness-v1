@@ -148,11 +148,18 @@
     },
     "capital_investment": {
       "capex_including_finance_lease_principal_usd_millions": 72215,
-      "2026_capex_guidance_at_10k_usd_billions": [115, 135],
+      "2026_capex_guidance_at_10k_usd_billions": [
+        115,
+        135
+      ],
       "uncommenced_lease_obligations_usd_millions": 103770,
       "source": {
         "document": "FY2025 Form 10-K",
-        "pdf_pages": [62, 78, 109]
+        "pdf_pages": [
+          62,
+          78,
+          109
+        ]
       }
     },
     "audit": {
@@ -218,13 +225,23 @@
       "cash_income_taxes_paid_net": 1999,
       "source": {
         "document": "Q2 2026 Form 10-Q",
-        "pdf_pages": [10, 11],
-        "reported_pages": [10, 11]
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "reported_pages": [
+          10,
+          11
+        ]
       }
     },
     "segments_usd_millions": {
-      "family_of_apps": {"operating_income": 50294},
-      "reality_labs": {"operating_loss": -8647},
+      "family_of_apps": {
+        "operating_income": 50294
+      },
+      "reality_labs": {
+        "operating_loss": -8647
+      },
       "source": {
         "document": "Q2 2026 Form 10-Q",
         "pdf_page": 44,
@@ -239,7 +256,10 @@
       "drivers_as_reported": "Ad impressions increased across all regions, especially Asia-Pacific; average price per ad increased due to advertising demand that management believes was mostly driven by ongoing improvements to ad performance from targeting and measurement tools, plus favorable FX.",
       "source": {
         "document": "Q2 2026 Form 10-Q",
-        "pdf_pages": [42, 43],
+        "pdf_pages": [
+          42,
+          43
+        ],
         "reported_page": 42
       }
     },
@@ -253,18 +273,33 @@
       "class_b_outstanding_2026_07_24": 342377716,
       "source": {
         "document": "Q2 2026 Form 10-Q",
-        "pdf_pages": [1, 9],
-        "reported_pages": [1, 9]
+        "pdf_pages": [
+          1,
+          9
+        ],
+        "reported_pages": [
+          1,
+          9
+        ]
       }
     },
     "tax_context": {
       "six_month_tax_benefit_usd_millions": 2113,
       "explanation": "H1 2026 tax benefit primarily reflects U.S. Treasury Notice 2026-7 relief from CAMT related to expensing previously capitalized U.S. R&D costs.",
-      "remaining_2026_expected_effective_tax_rate_percent": [15, 17],
+      "remaining_2026_expected_effective_tax_rate_percent": [
+        15,
+        17
+      ],
       "source": {
         "document": "Q2 2026 Form 10-Q",
-        "pdf_pages": [45, 46],
-        "reported_pages": [45, 46]
+        "pdf_pages": [
+          45,
+          46
+        ],
+        "reported_pages": [
+          45,
+          46
+        ]
       }
     }
   },
@@ -328,14 +363,26 @@
       "rd_yoy_percent": 67,
       "source": {
         "document": "Q2 2026 Form 10-Q / earnings release",
-        "pdf_pages": [43, 44]
+        "pdf_pages": [
+          43,
+          44
+        ]
       }
     }
   },
   "forward_guidance_and_commitments": {
-    "q3_2026_revenue_guidance_usd_billions": [61, 64],
-    "fy2026_expense_guidance_usd_billions": [165, 169],
-    "fy2026_capex_including_finance_lease_principal_guidance_usd_billions": [130, 145],
+    "q3_2026_revenue_guidance_usd_billions": [
+      61,
+      64
+    ],
+    "fy2026_expense_guidance_usd_billions": [
+      165,
+      169
+    ],
+    "fy2026_capex_including_finance_lease_principal_guidance_usd_billions": [
+      130,
+      145
+    ],
     "fy2026_operating_income_guidance": "above FY2025 operating income",
     "uncommenced_lease_obligations_as_of_2026_06_30_usd_billions": 278.99,
     "additional_data_center_leases_entered_july_2026_usd_billions": 68.0,
@@ -346,8 +393,14 @@
     "restricted_money_market_funds_for_infrastructure_escrow_usd_billions": 10.8,
     "notes_principal_outstanding_usd_billions": 84.0,
     "source": {
-      "documents": ["Q2 2026 Form 10-Q", "Q2 2026 earnings release"],
-      "pdf_pages": [47, 5]
+      "documents": [
+        "Q2 2026 Form 10-Q",
+        "Q2 2026 earnings release"
+      ],
+      "pdf_pages": [
+        47,
+        5
+      ]
     }
   },
   "governance": {
@@ -361,8 +414,14 @@
     "committee_structure_2025": "Board restructured committees, establishing Audit & Privacy Committee and Risk & Strategy Committee.",
     "source": {
       "document": "2026 Proxy Statement",
-      "pdf_pages": [5, 65],
-      "reported_pages": [3, 63]
+      "pdf_pages": [
+        5,
+        65
+      ],
+      "reported_pages": [
+        3,
+        63
+      ]
     }
   },
   "insider_transactions_2026_08_18": {
@@ -375,7 +434,10 @@
         "reported_price_usd": 558.0,
         "remaining_direct_shares": 1957,
         "plan_adopted": "2026-02-25",
-        "source": {"document": "Form 4 Mahoney", "pdf_page": 1}
+        "source": {
+          "document": "Form 4 Mahoney",
+          "pdf_page": 1
+        }
       },
       {
         "officer": "Susan J. Li",
@@ -385,7 +447,14 @@
         "approx_gross_proceeds_usd_calculated": 5063389.3,
         "remaining_indirect_shares": 13186,
         "plan_adopted": "2025-11-25",
-        "source": {"document": "Form 4 Li", "pdf_pages": [1, 2, 3]}
+        "source": {
+          "document": "Form 4 Li",
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ]
+        }
       },
       {
         "officer": "Andrew Bosworth",
@@ -395,7 +464,10 @@
         "remaining_direct_shares": 828,
         "remaining_indirect_trust_shares": 69170,
         "plan_adopted": "2025-01-31",
-        "source": {"document": "Form 4 Bosworth", "pdf_page": 1}
+        "source": {
+          "document": "Form 4 Bosworth",
+          "pdf_page": 1
+        }
       }
     ]
   }
