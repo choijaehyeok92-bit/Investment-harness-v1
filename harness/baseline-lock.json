@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-09-06",
+  "as_of": "2026-09-07",
   "main_commit": "56a4090edbad3990f8ee0a44ec5255d32f592ac2",
   "integrated_research_commit": "9da08ac501d79b66b619d11c1241274535cfa290",
   "universe_count": 93,
   "legacy_full_packages": 11,
-  "raw_only_tickers": 24,
+  "raw_only_tickers": 25,
   "raw_file_sha256": {
     "companies/000660/raw-data/2025-2026-supplied-filings.json": "5808db5859a458b4b90699e2a28a62c1523dda54f157db57f2ff6a3e0c9684da",
     "companies/005380/raw-data/2025-2026-supplied-filings.json": "1104063b30a2d209b2780b25e1a7f6235bc5fdabcdf767eb17bf0dc455906ada",
@@ -30,7 +30,8 @@
     "companies/VRTX/raw-data/2025-2026-supplied-filings.json": "548b83390d3b04d20ce4f612dcba7f585183375c6f4b1b89d14acc0fa92e73b9",
     "companies/CRDO/raw-data/2027-Q1.json": "c7f3714a7b23df50bb6ec3939ad81b299b0dbb85a249fdfb4415b583556718d1",
     "companies/TEM/raw-data/2026-Q2.json": "5fd335f342f45e977309c76bf1a133ffea7a28bbcc391c35ddeec9c0372197c0",
-    "companies/TMDX/raw-data/2026-Q2.json": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95"
+    "companies/TMDX/raw-data/2026-Q2.json": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95",
+    "companies/META/raw-data/2025-2026-supplied-filings.json": "ce352cb8da8a35ee3e974c2b3087bbd6a49248720269dd229b93e6abcd209d20"
   },
   "policy_sha256": {
     "policy/hard-veto.yaml": "884037580e7ac38f5b7ee870415b13077cd3f76adaf2b41a8d95451fa23413d7",
