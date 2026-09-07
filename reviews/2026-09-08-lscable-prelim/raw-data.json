@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "LSCABLE",
+  "ticker_note": "Internal research identifier. LS Cable & System Ltd. is K-OTC designated, not a KRX-listed common-stock issuer.",
+  "company": "LS전선 주식회사",
+  "company_en": "LS Cable & System Ltd.",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "source_resolution": [
+    {
+      "source_id": "FY2025_BUSINESS_REPORT",
+      "file": "[LS전선]사업보고서(2026.03.17).pdf",
+      "sha256": "4e756d060b75e1fb3ae4245cdfff595aa48fbdd962722570ef8fb834ebe29327",
+      "pages": 371,
+      "report_period": "2025-01-01/2025-12-31",
+      "filing_date": "2026-03-17",
+      "source_character": "DART annual business report; K-IFRS consolidated and separate financial statements",
+      "confidence": "high"
+    },
+    {
+      "source_id": "H1_2026_HALF_YEAR_REPORT",
+      "file": "[LS전선]반기보고서(2026.08.14).pdf",
+      "sha256": "68c0235f7ed79b2947ea630b15a506d27c7079dca5b1f7c36a6e6fcdd8bb0aea",
+      "pages": 280,
+      "report_period": "2026-01-01/2026-06-30",
+      "filing_date": "2026-08-14",
+      "source_character": "DART half-year report; K-IFRS interim consolidated and separate financial statements",
+      "confidence": "high"
+    }
+  ],
+  "corporate_and_ownership": {
+    "business": "Power cables, communications cables, submarine/HVDC cable manufacturing, installation and maintenance; expanding turnkey submarine cable capability and overseas production.",
+    "market_status": {
+      "status": "K-OTC designated",
+      "designation_date": "2014-08-20"
+    },
+    "major_shareholder": {
+      "name": "㈜LS",
+      "ownership_percent_2026_06_30": 92.63,
+      "shares_2026_06_30": 22302411
+    },
+    "shares": {
+      "issued_common_shares": 24076283,
+      "treasury_shares": 677204,
+      "circulating_shares": 23399079
+    },
+    "2025_rights_offering": {
+      "new_common_shares": 1752718,
+      "percent_of_prior_or_existing_disclosed_base": 7.85,
+      "issue_price_krw": 88500,
+      "date": "2025-12-19"
+    },
+    "credit_ratings_2026_06_30": {
+      "commercial_paper": "A1",
+      "corporate_bonds": "A+ (Positive)"
+    }
+  },
+  "fy2025": {
+    "unit": "KRW million unless stated",
+    "income_statement": {
+      "revenue": 7588160,
+      "operating_income": 279845,
+      "net_income": 100571
+    },
+    "cash_flow": {
+      "operating_cash_flow": 729079,
+      "ppe_purchases": 489459
+    },
+    "balance_sheet": {
+      "cash_and_cash_equivalents": 880169,
+      "financial_institution_deposits": 396319,
+      "inventory": 1456629,
+      "total_assets": 9003343,
+      "total_liabilities": 6846653,
+      "total_equity": 2156690,
+      "borrowings_and_bonds_total": 2935073
+    },
+    "sales_and_orders": {
+      "exports_krw_100m": 40357,
+      "domestic_krw_100m": 35524,
+      "order_backlog_krw_100m": 76300,
+      "backlog_yoy_growth_percent": 21.6
+    },
+    "raw_materials": {
+      "copper_share_of_production_raw_material_cost_approx_percent": 65,
+      "lme_copper_avg_usd_per_mt": 9945,
+      "raw_material_purchases_krw_100m": 39896
+    },
+    "audit": {
+      "auditor": "한영회계법인",
+      "financial_statement_opinion": "적정의견",
+      "internal_control_opinion": "적정의견",
+      "key_audit_matter": "수주산업"
+    }
+  },
+  "h1_2026": {
+    "unit": "KRW million unless stated",
+    "income_statement": {
+      "revenue": 4523185,
+      "revenue_prior_h1": 3833115,
+      "operating_income": 238403,
+      "operating_income_prior_h1": 165602,
+      "net_income": 50414,
+      "net_income_prior_h1": 52666
+    },
+    "cash_flow": {
+      "operating_cash_flow": -704150,
+      "operating_cash_flow_prior_h1": 298164,
+      "cash_generated_from_operations": -628779,
+      "ppe_purchases": 246008,
+      "investing_cash_flow": -152412,
+      "financing_cash_flow": 908021
+    },
+    "working_capital_bridge": {
+      "operating_asset_liability_change_total": -970588,
+      "accounts_receivable": -254965,
+      "contract_assets": -34377,
+      "inventory": -645345,
+      "trade_payables": -78804,
+      "other_payables": 155657,
+      "accrued_expenses": 115065,
+      "contract_liabilities": 19854,
+      "derivative_assets_liabilities": -179619
+    },
+    "balance_sheet_2026_06_30": {
+      "cash_and_cash_equivalents": 979582,
+      "financial_institution_deposits": 239154,
+      "accounts_receivable": 1793927,
+      "contract_assets_current": 1229383,
+      "inventory": 2114873,
+      "ppe": 2562937,
+      "total_assets": 10483786,
+      "total_liabilities": 8270972,
+      "total_equity": 2212814,
+      "borrowings_and_bonds_total": 4015997
+    },
+    "sales_and_orders": {
+      "revenue_growth_yoy_percent_reported": 18.0,
+      "exports_krw_100m": 22647,
+      "domestic_krw_100m": 22585,
+      "order_backlog_krw_100m": 95535,
+      "backlog_growth_vs_2025_year_end_percent": 25.2,
+      "order_backlog_split_krw_100m": {
+        "LS_Cable": 78336,
+        "domestic_subsidiaries": 8713,
+        "overseas_subsidiaries": 8486
+      }
+    },
+    "raw_materials": {
+      "copper_share_of_production_raw_material_cost_approx_percent": 65,
+      "lme_copper_avg_usd_per_mt": 13083,
+      "lme_copper_avg_yoy_percent": 38.71,
+      "raw_material_purchases_krw_100m": 29003,
+      "raw_material_purchases_yoy_percent": 35
+    },
+    "investment_plan": {
+      "2026_invested_to_date_krw_100m": 4797,
+      "future_expected_investment_krw_100m": 8084,
+      "2026_total_plan_krw_100m": 12881,
+      "parent_plan_krw_100m": 9869,
+      "domestic_subs_plan_krw_100m": 2029,
+      "overseas_subs_plan_krw_100m": 983
+    },
+    "review_and_controls": {
+      "interim_reviewer": "안진회계법인",
+      "review_conclusion": "No matter was found indicating the interim financial statements were not fairly presented in all material respects under K-IFRS 1034.",
+      "2025_internal_control_management_assessment": "중요성의 관점에서 효과적으로 설계되어 운영되고 있다고 판단"
+    }
+  },
+  "strategic_projects_and_risks": {
+    "positive_projects": [
+      {"project": "TenneT Offshore 2GW BalWin4", "contract_value_krw_100m": 8617, "end": "2029-09-30"},
+      {"project": "TenneT Offshore 2GW LanWin1", "contract_value_krw_100m": 8247, "end": "2030-09-30"},
+      {"project": "TenneT Offshore 2GW LanWin5", "contract_value_krw_100m": 9073, "end": "2031-09-30"},
+      {"project": "MOG2 Submarine Power Cable System Lot 2", "contract_value_krw_100m": 2821, "end": "2029-04-14"},
+      {"project": "US 345kV submarine cable via LS Cable Systems America", "contract_value_krw_100m": 2363, "end": "2030-04-13"},
+      {"project": "US 345kV underground cable via LS Cable Systems America", "contract_value_krw_100m": 2162, "end": "2029-10-15"}
+    ],
+    "cancelled_projects": [
+      {"project": "Atlantic Shores Offshore Wind reservation agreement", "contract_value_krw_100m": 2500, "cancellation_disclosed": "2025-05-02"},
+      {"project": "Anma Offshore Wind farm", "contract_value_krw_100m": 1771, "cancellation_disclosed": "2026-04-27"}
+    ],
+    "technology_and_capacity": [
+      "525kV HVDC cable mass production began in 2024.",
+      "Donghae submarine cable Plant 5 completed in 2025-07.",
+      "LS GreenLink USA Inc. began construction of a large U.S. submarine cable plant in 2025-04; the supplied filings do not state a final total project investment amount.",
+      "LS Marine Solution completed GL2030 cable-laying vessel payload expansion in 2026-06.",
+      "High/extra-high-voltage cable utilization was 99.4% and submarine cable utilization was 78.0% in H1 2026."
+    ]
+  },
+  "derived_metrics": {
+    "character": "Mechanical calculations from reported values; not company-reported metrics unless explicitly labeled.",
+    "fy2025_operating_margin_percent": 3.69,
+    "fy2025_net_margin_percent": 1.33,
+    "fy2025_ocf_less_ppe_purchases_krw_million": 239620,
+    "fy2025_ocf_less_ppe_purchases_margin_percent": 3.16,
+    "h1_2026_revenue_growth_percent": 18.0,
+    "h1_2026_operating_income_growth_percent": 43.96,
+    "h1_2026_operating_margin_percent": 5.27,
+    "h1_2025_operating_margin_percent": 4.32,
+    "h1_2026_net_income_growth_percent": -4.28,
+    "h1_2026_ocf_less_ppe_purchases_krw_million": -950158,
+    "cash_plus_deposits_less_borrowings_2026_06_30_krw_million": -2797261,
+    "borrowings_to_total_equity_2026_06_30_percent": 181.49,
+    "inventory_growth_vs_2025_year_end_percent": 45.19,
+    "inventory_as_percent_of_total_assets_2026_06_30": 20.17,
+    "backlog_growth_vs_2025_year_end_percent": 25.21,
+    "guardrails": [
+      "OCF less PPE purchases is a diagnostic, not a complete owner-FCF measure.",
+      "No half-year metric is annualized.",
+      "Backlog is not treated as guaranteed revenue; cancellations already occurred in supplied disclosures.",
+      "K-OTC price/illiquidity and 92.63% parent ownership require a separate minority-shareholder valuation/liquidity analysis."
+    ]
+  }
+}
