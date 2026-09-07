@@ -1,0 +1,257 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "MPWR",
+  "company_name": "Monolithic Power Systems, Inc.",
+  "as_of": "2026-09-08",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This checkpoint does not modify companies/MPWR/latest.json or the current registry authority. Current canonical authority remains the 2026-09-06 preliminary review until a separate canonical harness run promotes it.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "source_paths": [
+    "reviews/2026-09-08-mpwr-prelim/raw-data.json"
+  ],
+  "business_quality_75": 61,
+  "total_score_100": null,
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "confidence": 0.9,
+      "evidence": [
+        "Q2 2026 revenue grew 47.6% YoY and enterprise-data revenue grew 164.3%, primarily from AI and server power-management solutions.",
+        "MPS reported 14 consecutive years of revenue growth through 2025, and FY2025 revenue grew 26.4% versus an 8.7% increase for the analog industry cited in the proxy.",
+        "The fabless model combines system-level knowledge, power-semiconductor design and proprietary process/integration/packaging while outsourcing manufacturing, assembly and test."
+      ],
+      "counter_evidence": [
+        "The recent growth mix has shifted rapidly toward AI/server enterprise data, increasing exposure to a fast-changing capital-spending cycle.",
+        "The semiconductor business remains cyclical and customers can cancel or reschedule orders without significant penalty."
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "confidence": 0.8,
+      "evidence": [
+        "Gross margin stayed around 55% while Q2 revenue grew 47.6%, suggesting strong value capture despite substantial mix change.",
+        "Enterprise-data growth, communications growth and product-mix commentary indicate rising content for integrated power solutions rather than only unit-volume growth."
+      ],
+      "counter_evidence": [
+        "88% of H1 2026 sales were through distribution arrangements, so end-customer retention, switching cost and realized pricing power are not independently visible in the supplied filings.",
+        "Customers may cancel or reschedule orders without significant penalty."
+      ]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "confidence": 0.8,
+      "evidence": [
+        "MPS describes differentiated capabilities in system-level power design, proprietary semiconductor processes, system integration and packaging.",
+        "Q2 2026 enterprise-data revenue increased 164.3% and communications revenue 78.3% while gross margin remained 55.2%, evidence consistent with expanding relevance in high-performance power-management applications.",
+        "The outsourced manufacturing model preserves engineering focus and historically low fixed-capital intensity."
+      ],
+      "counter_evidence": [
+        "Independent evidence on design-win retention, competitive win/loss rates, end-customer market share and long-term ASP retention remains missing.",
+        "Channel and geographic concentration can obscure the durability of apparent end-demand."
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "confidence": 0.85,
+      "evidence": [
+        "FY2025 operating cash flow was $838.2M against $172.0M of PPE purchases, producing a mechanical OCF-minus-PPE diagnostic of $666.2M.",
+        "H1 2026 operating margin expanded to about 30.5% while revenue grew 37.1%, showing strong operating leverage.",
+        "The balance sheet carries substantial excess liquidity relative to total liabilities."
+      ],
+      "counter_evidence": [
+        "H1 2026 OCF declined 3.2% YoY despite 37.1% revenue growth because working-capital needs rose, including cash uses of $111.2M for inventory and $88.0M for receivables.",
+        "H1 PPE purchases rose to $153.3M from $88.5M, while diluted weighted-average shares increased 2.6% YoY; per-share cash compounding therefore needs further normalization."
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 5,
+      "max_score": 10,
+      "confidence": 0.85,
+      "evidence": [
+        "Founder Michael Hsing remains Chairman, President and CEO; the board also has a lead independent director and six of seven directors were classified as independent.",
+        "The company maintains large liquidity, funds R&D, pays dividends and has expanded its share-repurchase authorization."
+      ],
+      "counter_evidence": [
+        "A material deferred-tax accounting error required restatement of FY2024 and 2025 quarterly financial statements, and the related material weakness remained unremediated at June 30, 2026.",
+        "FY2025 GAAP SBC was $227.4M and shares outstanding increased about 1.85% while actual repurchases were minimal; H1 2026 share count increased another 0.89% from year-end.",
+        "CEO 2025 total compensation was about $19.9M, and substantial additional performance-stock awards remain possible."
+      ]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "confidence": 0.95,
+      "evidence": [
+        "At June 30, 2026 cash and short-term investments totaled $1.414B, working capital was $1.979B and total liabilities were $790.8M.",
+        "No separate borrowings or debt line appears in the supplied June 2026 balance sheet, and management states existing liquidity plus operating cash flow is sufficient for at least the next 12 months."
+      ],
+      "counter_evidence": [
+        "Working-capital intensity and capital expenditures increased with growth, so liquidity should still be monitored through a semiconductor downturn."
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "confidence": 0.15,
+      "evidence": [
+        "Primary-source operating performance is materially stronger than the prior screening-level record."
+      ],
+      "counter_evidence": [
+        "No synchronized current quote, reverse DCF, or Bear/Base/Bull valuation was performed from the supplied filings."
+      ],
+      "missing_data": [
+        "Synchronized MPWR quote and diluted share count",
+        "9% hurdle-rate reverse DCF",
+        "10-year normalized owner-cash scenarios",
+        "AI/server growth and terminal margin expectations embedded in price"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "confidence": 0.4,
+      "evidence": [
+        "If power-management content per AI server and data-center system continues to rise, MPS has a plausible path to disproportionate revenue and cash-flow growth."
+      ],
+      "counter_evidence": [
+        "The upside is inseparable from valuation, customer/channel concentration, AI capex durability and dilution, none of which is fully resolved in this checkpoint."
+      ],
+      "missing_data": [
+        "Price-linked downside/upside distribution",
+        "AI accelerator/server customer concentration and content per system",
+        "Normalized share-count and SBC economics"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "confidence": 0.95,
+        "evidence": [
+          "FY2024 audited financial statements and 2025 quarterly statements were restated for a material deferred-tax accounting error, and the related material weakness remained unremediated as of June 30, 2026.",
+          "The proxy characterizes the error as unintentional and non-cash and states that it did not involve misconduct by executives or employees; management states the current Q2 financial statements fairly present the company under U.S. GAAP."
+        ],
+        "resolution_needed": "Verify successful remediation and operating effectiveness of the deferred-tax controls, with no further material restatements or control failures."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "confidence": 0.95,
+        "evidence": [
+          "June 2026 cash plus short-term investments was $1.414B versus $790.8M of total liabilities, with $1.979B of working capital and positive operating cash flow."
+        ],
+        "resolution_needed": "Routine monitoring through a semiconductor downturn and higher-capex period."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "confidence": 0.9,
+        "evidence": [
+          "Shares outstanding rose from 47.823M at 2024 year-end to 48.709M at 2025 year-end, about 1.85%, while FY2025 GAAP SBC was $227.4M and repurchases were only $7.7M.",
+          "Shares increased another 0.89% in H1 2026; July 2026 MPSU grants can earn up to approximately 697,000 shares across executives and employees."
+        ],
+        "resolution_needed": "Build a four-year SBC, issuance, vesting, withholding and buyback bridge and require normalized owner cash per diluted share to grow faster than dilution."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "confidence": 0.85,
+        "evidence": [
+          "Revenue, operating income and net income grew rapidly in H1 2026, but OCF declined 3.2% YoY because working-capital needs increased; inventory and receivables expanded materially."
+        ],
+        "resolution_needed": "Track channel inventory, sell-through, receivable collections and OCF conversion for at least four additional quarters."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "confidence": 0.8,
+        "evidence": [
+          "H1 2026 PPE purchases increased 73% YoY while MPS is securing additional manufacturing capacity; aggregate cash generation remains strong but project-level post-tax returns are not disclosed."
+        ],
+        "resolution_needed": "Estimate incremental post-tax cash ROIC on manufacturing-capacity commitments and compare with the 9% U.S. hurdle."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "confidence": 0.75,
+        "evidence": [
+          "Reported growth and margins are strong, but the supplied filings do not establish independent design-win retention, market-share progression or pricing power by end customer."
+        ],
+        "resolution_needed": "Obtain independent design-win, socket retention, content-per-system, ASP and competitor evidence across AI/server, automotive and communications."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "confidence": 0.98,
+        "evidence": [
+          "No synchronized stock price or reverse valuation was performed in this supplied-file checkpoint."
+        ],
+        "resolution_needed": "Run reverse DCF at the 9% hurdle using current price and fully diluted shares, then compare embedded AI/server growth with realistic Bear/Base/Bull cases."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "confidence": 0.9,
+        "evidence": [
+          "88% of H1 2026 sales were through distribution arrangements and 93% of direct-customer sales were in Asia.",
+          "At June 30, 2026 three channel counterparties represented 33%, 20% and 15% of accounts receivable."
+        ],
+        "resolution_needed": "Map distributor exposure to ultimate end customers and quantify revenue, receivable and AI-server customer concentration under a loss-of-counterparty scenario."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "confidence": 0.9,
+        "evidence": [
+          "The balance sheet is exceptionally strong, but permanent-loss probability cannot be resolved without valuation while control remediation, dilution and AI/channel concentration remain open."
+        ],
+        "resolution_needed": "Complete price-linked Bear/Base/Bull valuation with normalized FCF/share, dilution, channel loss, AI-cycle and control-remediation scenarios."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "required_return": 0.09,
+    "price_status": "NO_SYNCHRONIZED_QUOTE_IN_SUPPLIED_SOURCE_SET",
+    "reverse_expectations": null,
+    "scenarios": {"bear": null, "base": null, "bull": null},
+    "missing_data": [
+      "Current synchronized market price",
+      "Fully diluted normalized share count",
+      "Normalized owner FCF after SBC dilution and growth capex",
+      "AI/server customer concentration and durable content-per-system assumptions"
+    ]
+  },
+  "core_thesis": "MPWR은 높은 마진과 낮은 재무 레버리지를 가진 팹리스 전력반도체 복리기업이며, 2026년에는 AI·서버용 전력관리 솔루션이 엔터프라이즈 데이터 매출을 급격히 가속시키고 있다. 55%대 매출총이익률과 순유동성은 사업 품질을 지지한다. 반면 매출 고성장에 비해 상반기 영업현금흐름은 운전자본 증가로 둔화했고, SBC·주식수 희석이 지속되며, 2024/2025 세금회계 재작성으로 발생한 material weakness가 2026년 6월까지 해소되지 않았다. 따라서 핵심 검증 질문은 AI 디자인윈이 9% 허들을 충분히 넘는 세후 주당 현금복리로 전환되는가이다.",
+  "strongest_bear_thesis": "AI 데이터센터 수요가 강해도 특정 고객·유통채널과 아시아에 집중된 성장일 수 있고, 운전자본·증설투자·SBC 희석과 내부통제 실패가 주당 현금수익률을 낮출 수 있다. 특히 현재 가격이 AI 하이퍼그로스를 이미 장기간 반영한다면 우수한 기업이어도 투자수익률은 낮아질 수 있다.",
+  "falsifiers": [
+    "Enterprise Data 성장률이 급격히 둔화하는 동시에 매출총이익률과 영업레버리지가 하락하고 다른 최종시장이 이를 보완하지 못한다.",
+    "재고·매출채권 증가로 OCF/FCF 전환이 4개 분기 이상 이익·매출 성장에 지속적으로 뒤처진다.",
+    "FY2026 말까지 material weakness가 실질적으로 해소되지 않거나 추가 중대한 restatement·control failure가 발생한다.",
+    "정상화 기준 주식수 희석이 연 2% 안팎 이상 지속되면서 owner cash per share 증가가 이를 상쇄하지 못한다.",
+    "주요 유통사 또는 핵심 AI/서버 최종고객의 상실이 성장·마진에 구조적 손상을 준다."
+  ],
+  "next_evidence": [
+    "현재가·완전희석 주식수와 9% hurdle reverse DCF, Bear/Base/Bull 시나리오",
+    "AI 서버/가속기 고객별 design-win 지속률, content per system, ASP 및 최종고객 집중도",
+    "최근 8개 분기 재고·매출채권·채널 sell-through와 OCF 전환 브리지",
+    "증설·wafer capacity commitment별 투자액과 세후 cash ROIC",
+    "FY2026 내부통제 remediation 결과와 감사인 평가",
+    "SBC·MPSU·RSU·발행주식·실제 자사주매입을 연결한 주당 가치 브리지"
+  ]
+}

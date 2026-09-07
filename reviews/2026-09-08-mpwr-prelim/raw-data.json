@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "MPWR",
+  "company": "Monolithic Power Systems, Inc.",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "authority_status": "NON_CURRENT_RESEARCH_CHECKPOINT",
+  "source_resolution": [
+    {
+      "source_id": "FY2025_10K",
+      "file": "MPS_2025_Form_10-K.pdf",
+      "sha256": "7fb80ea5e8de46cc2580e80a93d1e043c49f43011ee0b552afe559ec0c5619be",
+      "pages": 83,
+      "report_period": "2025-01-01/2025-12-31",
+      "filing_date": "2026-02-27",
+      "source_character": "SEC Form 10-K; audited U.S. GAAP financial statements; includes restatement disclosures",
+      "confidence": "high"
+    },
+    {
+      "source_id": "2026_PROXY",
+      "file": "2025_Proxy_Final_IR_Website_.pdf",
+      "sha256": "fc659161bb91a070b194b61886e8cd94ef2e98b2fcba80e9eb7e26e71d893153",
+      "pages": 58,
+      "filing_date": "2026-04-30",
+      "source_character": "Definitive proxy statement for the 2026 annual meeting",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_2026_10Q",
+      "file": "MPWR_Q2_26_10-Q.pdf",
+      "sha256": "8ba0f2bfdb74f8b3e3d89951a0044d95f58cc832c7cfeecd1189b81eaf747d70",
+      "pages": 34,
+      "report_period": "2026-01-01/2026-06-30",
+      "filing_date": "2026-08-05",
+      "source_character": "SEC Form 10-Q; unaudited U.S. GAAP interim financial statements",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_2026_8K_WRAPPER",
+      "file": "Q2_2026_Earnings_Release_8-K.pdf",
+      "sha256": "8f93a80d635bc9c6bf2196832bf68a1ef475a107fc82ca0f7af439794520599b",
+      "pages": 3,
+      "report_date": "2026-07-30",
+      "source_character": "SEC Form 8-K Item 2.02 wrapper",
+      "source_limitation": "The supplied PDF states that the Q2 earnings press release is Exhibit 99.1, but the 3-page supplied PDF does not contain the Exhibit 99.1 press-release content. No revenue guidance was inferred from this wrapper.",
+      "confidence": "high"
+    }
+  ],
+  "business_model": {
+    "description": "Fabless global provider of high-performance semiconductor-based power electronics solutions for enterprise data, storage and computing, automotive, communications, consumer and industrial end markets.",
+    "core_strengths_reported": [
+      "system-level knowledge",
+      "semiconductor design expertise",
+      "proprietary semiconductor process, system-integration and packaging technologies"
+    ],
+    "manufacturing_model": "Uses third parties to manufacture, assemble and test ICs, limiting fixed manufacturing intensity while concentrating internal resources on engineering and design.",
+    "sales_cycle_and_order_characteristics": {
+      "typical_supply_chain_lead_time_weeks": "16-26",
+      "customers_can_cancel_or_reschedule_without_significant_penalty": true
+    }
+  },
+  "fy2025": {
+    "unit": "USD thousand unless stated",
+    "income_statement": {
+      "revenue": 2790459,
+      "gross_profit": 1539741,
+      "gross_margin_percent_reported": 55.2,
+      "operating_income": 728636,
+      "operating_margin_percent_reported": 26.1,
+      "net_income": 621483,
+      "diluted_eps_usd": 12.86,
+      "weighted_average_diluted_shares_thousand": 48309
+    },
+    "cash_flow": {
+      "operating_cash_flow": 838202,
+      "ppe_purchases": 172013,
+      "gaap_stock_based_compensation_expense": 227444,
+      "repurchases_of_common_stock": 7686,
+      "dividends_and_dividend_equivalents_paid": 284797
+    },
+    "balance_sheet_2025_12_31": {
+      "cash_and_cash_equivalents": 1099302,
+      "short_term_investments": 157243,
+      "accounts_receivable": 255626,
+      "inventories": 564649,
+      "property_and_equipment_net": 627689,
+      "total_assets": 4194199,
+      "total_liabilities": 662702,
+      "total_stockholders_equity": 3531497,
+      "shares_issued_and_outstanding_thousand": 48709,
+      "separate_borrowings_or_debt_line_presented": false
+    },
+    "end_market_revenue": {
+      "storage_and_computing": {"revenue": 732522, "percent": 26.3, "yoy_growth_percent": 46.0},
+      "enterprise_data": {"revenue": 701846, "percent": 25.2, "yoy_growth_percent": -2.0},
+      "automotive": {"revenue": 592518, "percent": 21.2, "yoy_growth_percent": 43.1},
+      "communications": {"revenue": 309064, "percent": 11.1, "yoy_growth_percent": 36.8},
+      "consumer": {"revenue": 255155, "percent": 9.1, "yoy_growth_percent": 26.3},
+      "industrial": {"revenue": 199354, "percent": 7.1, "yoy_growth_percent": 35.3}
+    },
+    "channel_concentration": {
+      "sales_through_distribution_percent": 85,
+      "distributor_A_revenue_percent": 26,
+      "distributor_B_revenue_percent": 18,
+      "distributor_C_revenue_percent": 10,
+      "accounts_receivable_concentration_percent": {"distributor_A": 35, "distributor_B": 14, "distributor_C": 11}
+    }
+  },
+  "q2_2026": {
+    "unit": "USD thousand unless stated",
+    "revenue": 980642,
+    "revenue_prior_year": 664574,
+    "gross_profit": 541070,
+    "gross_margin_percent_reported": 55.2,
+    "operating_income": 303894,
+    "net_income": 257298,
+    "diluted_eps_usd": 5.22,
+    "weighted_average_diluted_shares_thousand": 49260,
+    "end_market_revenue": {
+      "enterprise_data": {"revenue": 380561, "percent": 38.8, "yoy_growth_percent": 164.3, "reported_driver": "AI and server power-management solutions"},
+      "storage_and_computing": {"revenue": 199830, "percent": 20.4, "yoy_growth_percent": 2.3},
+      "automotive": {"revenue": 157068, "percent": 16.0, "yoy_growth_percent": 8.2},
+      "communications": {"revenue": 131571, "percent": 13.4, "yoy_growth_percent": 78.3},
+      "consumer": {"revenue": 56805, "percent": 5.8, "yoy_growth_percent": -4.8},
+      "industrial": {"revenue": 54807, "percent": 5.6, "yoy_growth_percent": 17.3}
+    }
+  },
+  "h1_2026": {
+    "unit": "USD thousand unless stated",
+    "income_statement": {
+      "revenue": 1784827,
+      "revenue_prior_h1": 1302128,
+      "gross_profit": 986135,
+      "gross_margin_percent_reported": 55.3,
+      "operating_income": 545046,
+      "operating_income_prior_h1": 333517,
+      "net_income": 450524,
+      "net_income_prior_h1": 270061,
+      "diluted_eps_usd": 9.15,
+      "weighted_average_diluted_shares_thousand": 49251,
+      "weighted_average_diluted_shares_prior_h1_thousand": 48012
+    },
+    "cash_flow": {
+      "operating_cash_flow": 478159,
+      "operating_cash_flow_prior_h1": 494024,
+      "ppe_purchases": 153272,
+      "gaap_stock_based_compensation_expense": 94282,
+      "repurchases_of_common_stock": 4048,
+      "dividends_and_dividend_equivalents_paid": 179496
+    },
+    "working_capital_cash_flow_bridge": {
+      "accounts_receivable": -88002,
+      "inventories": -111194,
+      "accounts_payable": 33276,
+      "income_tax_liabilities": 32640,
+      "other_accrued_liabilities": 19211
+    },
+    "balance_sheet_2026_06_30": {
+      "cash_and_cash_equivalents": 1005587,
+      "short_term_investments": 408174,
+      "accounts_receivable": 343620,
+      "inventories": 675849,
+      "property_and_equipment_net": 774549,
+      "total_assets": 4686207,
+      "total_liabilities": 790783,
+      "total_stockholders_equity": 3895424,
+      "shares_issued_and_outstanding_thousand": 49142,
+      "separate_borrowings_or_debt_line_presented": false
+    },
+    "channel_and_geography": {
+      "sales_through_distribution_percent": 88,
+      "direct_customer_sales_in_asia_percent": 93,
+      "accounts_receivable_concentration_percent": {"distributor_A": 33, "value_added_reseller_A": 20, "distributor_B": 15}
+    }
+  },
+  "stock_compensation_and_capital_return": {
+    "fy2025_share_count_change": {"start_thousand": 47823, "end_thousand": 48709, "net_increase_thousand": 886},
+    "h1_2026_share_count_change": {"start_thousand": 48709, "end_thousand": 49142, "net_increase_thousand": 433},
+    "unamortized_rsu_compensation_2026_06_30_usd_thousand": 350000,
+    "july_2026_mpsu_maximum_shares_approximately_thousand": 697,
+    "repurchase_program": {
+      "february_2025_authorization_usd_million": 500,
+      "q2_2026_actual_repurchases_usd_thousand": 4048,
+      "july_2026_additional_authorization_usd_million": 500
+    }
+  },
+  "accounting_and_controls": {
+    "restatement": {
+      "status": "MATERIAL_PRIOR_PERIOD_RESTATEMENT",
+      "cause_reported": "Unintentional deferred-income-tax accounting error associated with a one-time foreign-jurisdiction tax incentive.",
+      "2024_income_tax_benefit_and_deferred_tax_adjustment_usd_thousand": -194642,
+      "affected_periods": ["FY2024 audited financial statements", "2025 unaudited quarterly financial statements"],
+      "reported_character": "Non-cash; proxy states no executive or employee misconduct and no effect on revenue, gross margin, operating expenses or the cited non-GAAP operating metrics."
+    },
+    "material_weakness": {
+      "status_2026_06_30": "NOT_REMEDIATED",
+      "area": "Review controls over deferred income taxes and related tax expense/benefit",
+      "disclosure_controls_effective_2026_06_30": false,
+      "management_target": "Expected remediation by end of FY2026, without assurance as to timing"
+    }
+  },
+  "governance": {
+    "founder_ceo": "Michael Hsing",
+    "roles": ["Founder", "Chairman", "President", "Chief Executive Officer"],
+    "founder_beneficial_ownership_2026_04_15_percent": 2.1,
+    "founder_beneficial_shares": 1034099,
+    "all_current_executives_and_directors_ownership_percent": 3.6,
+    "board_members": 7,
+    "independent_directors": 6,
+    "lead_independent_director": "Herbert Chang",
+    "ceo_total_compensation_2025_usd": 19930736,
+    "ceo_stock_awards_2025_usd": 12686332,
+    "ceo_non_equity_incentive_2025_usd": 6210000
+  },
+  "derived_metrics": {
+    "character": "Mechanical calculations from supplied reported values; not company-reported metrics unless explicitly labeled.",
+    "fy2025_ocf_less_ppe_purchases_usd_thousand": 666189,
+    "fy2025_ocf_less_ppe_purchases_margin_percent": 23.87,
+    "fy2025_gaap_sbc_as_percent_revenue": 8.15,
+    "fy2025_share_count_growth_percent": 1.85,
+    "q2_2026_revenue_growth_percent": 47.56,
+    "q2_2026_operating_income_growth_percent": 84.45,
+    "q2_2026_operating_margin_percent": 30.99,
+    "q2_2026_net_income_growth_percent": 90.58,
+    "h1_2026_revenue_growth_percent": 37.07,
+    "h1_2026_operating_income_growth_percent": 63.42,
+    "h1_2026_operating_margin_percent": 30.54,
+    "h1_2026_net_income_growth_percent": 66.82,
+    "h1_2026_ocf_growth_percent": -3.21,
+    "h1_2026_ocf_less_ppe_purchases_usd_thousand": 324887,
+    "h1_2026_ocf_less_ppe_purchases_margin_percent": 18.20,
+    "h1_2026_share_count_growth_vs_year_end_percent": 0.89,
+    "h1_2026_diluted_weighted_share_growth_yoy_percent": 2.58,
+    "inventory_growth_vs_2025_year_end_percent": 19.69,
+    "accounts_receivable_growth_vs_2025_year_end_percent": 34.42,
+    "cash_plus_short_term_investments_minus_total_liabilities_usd_thousand": 622978,
+    "guardrails": [
+      "OCF less PPE purchases is a diagnostic, not a complete owner-FCF measure.",
+      "The absence of a separate debt line in the supplied balance sheets is not treated as proof that every financing obligation is zero.",
+      "No current stock price, reverse DCF or Bear/Base/Bull valuation was inferred from the supplied filings.",
+      "The supplied 8-K wrapper does not contain Exhibit 99.1 press-release details; no Q3 guidance was invented."
+    ]
+  }
+}
