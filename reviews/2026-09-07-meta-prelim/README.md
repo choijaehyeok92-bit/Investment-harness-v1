@@ -2,10 +2,10 @@
 
 ## 상태
 
-이 실행은 사용자 제공 SEC PDF 8개를 `companies/META/raw-data/2025-2026-supplied-filings.json`으로 구조화하고, 이를 바탕으로 비가격 초벌분석을 작성한 증거 보강 실행이다.
+이 실행은 사용자 제공 SEC PDF 8개를 비권한 staging 증거로 구조화하고, 이를 바탕으로 비가격 초벌분석을 기록한 증거 보강 실행이다.
 
-- 원자료: FY2025 10-K, Q2 2026 10-Q, Q2 2026 8-K/실적발표, 2026 Proxy 및 추가자료, Form 4 3개
-- 분석 산출물: `companies/META/analyses/2026-09-07-prelim/`
+- staged 원자료: `reviews/2026-09-07-meta-prelim/raw/META-2025-2026-supplied-filings.json`
+- 원자료 구성: FY2025 10-K, Q2 2026 10-Q, Q2 2026 8-K/실적발표, 2026 Proxy 및 추가자료, Form 4 3개
 - 잠정 연구 상태: `PARTIAL_ANALYSIS`
 - 잠정 판정: `WATCH`
 - 사업품질(가격 제외 앞 6개 항목): `56/75`
@@ -32,9 +32,11 @@
 
 ## 하네스 권한 처리
 
-이번 파일은 새 증거와 초벌분석을 저장하지만 **현재 권한 파일인 `companies/META/latest.json`과 `registry/companies.json`은 의도적으로 변경하지 않는다.** 현재 하네스의 재현 가능한 권한 스냅샷은 기존 2026-09-06 실행이다. 새 raw 파일은 `harness/baseline-lock.json`에 SHA256을 등록해 immutable baseline으로 편입한다.
+이번 실행은 **staging review**다. 새 원자료는 canonical renderer가 자동 수집하는 `companies/<ticker>/raw-data/*.json` 아래에 두지 않고 review 디렉터리에 격리했다. 따라서 현재 권한 파일인 `companies/META/latest.json`, `registry/companies.json`, `reviews/latest.json` 및 2026-09-06 재현 가능한 산출물은 변경하지 않는다.
 
-META를 공식 `PARTIAL_ANALYSIS` 또는 `FULL_ANALYSIS` 현재 상태로 승격하려면 다음 canonical run에서 registry/latest/observations/derived/reverse-DCF 산출물을 생성하고 `python -m harness.validate`를 통과시킨다. 이는 과거 판단을 덮어쓰지 않고 기록을 보존한다는 하네스 운영 규칙을 따른다.
+`harness/baseline-lock.json`도 기존 2026-09-06 frozen baseline으로 복원했다. 이 방식으로 새 증거를 보존하면서도 `harness.build --check`, `harness.deep_report --check`, `harness.validate`가 현재 권한 스냅샷과 다른 META 산출물을 암묵적으로 재생성하는 문제를 피한다.
+
+META를 공식 `PARTIAL_ANALYSIS` 또는 `FULL_ANALYSIS` 현재 상태로 승격할 때에는 별도 canonical run에서 staged raw를 정식 raw-data로 승격하고 registry/latest/observations/derived/reverse-DCF 산출물을 함께 생성한 뒤 전체 검증을 통과시킨다. 과거 판단을 덮어쓰지 않고 기록을 보존한다.
 
 ## 다음 조사 순서
 
