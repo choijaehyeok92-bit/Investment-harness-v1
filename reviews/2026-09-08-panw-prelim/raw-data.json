@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "PANW",
+  "company": "Palo Alto Networks, Inc.",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "authority_status": "NON_CURRENT_RESEARCH_CHECKPOINT",
+  "source_resolution": [
+    {
+      "source_id": "FY2025_10K",
+      "user_url": "https://investors.paloaltonetworks.com/node/19656/html",
+      "resolution_status": "DIRECT_NODE_BLOCKED_BUT_EQUIVALENT_COMPANY_AND_SEC_FILING_VERIFIED",
+      "form": "10-K",
+      "filing_date": "2025-08-29",
+      "report_period_end": "2025-07-31",
+      "accession": "0001327567-25-000027",
+      "sec_document": "panw-20250731.htm",
+      "source_character": "Audited FY2025 U.S. GAAP annual report with ICFR auditor attestation",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q3_FY2026_10Q",
+      "user_url": "https://investors.paloaltonetworks.com/node/20571/html",
+      "resolution_status": "DIRECT_NODE_RETRIEVED",
+      "form": "10-Q",
+      "report_period_end": "2026-04-30",
+      "source_character": "Unaudited interim U.S. GAAP financial statements; includes CyberArk purchase accounting and nine-month cash flow",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q4_FY2026_8K",
+      "user_url": "https://investors.paloaltonetworks.com/node/20771/html",
+      "resolution_status": "DIRECT_NODE_CACHE_MISS; EQUIVALENT_COMPANY_SEC_INDEX_FILING_RESOLVED",
+      "form": "8-K",
+      "filing_date": "2026-09-01",
+      "report_period": "2026-09-01",
+      "accession": "0001327567-26-000019",
+      "exhibit": "EX-99.1 Q4/FY2026 earnings release",
+      "source_character": "Current report plus unaudited preliminary Q4/FY2026 results and FY2027 guidance",
+      "confidence": "high_for_equivalent_filing; direct_node_mapping_not_independently_retrieved"
+    },
+    {
+      "source_id": "SEP3_2026_FORM4_PAIR",
+      "user_urls": [
+        "https://investors.paloaltonetworks.com/node/20781/html",
+        "https://investors.paloaltonetworks.com/node/20786/html"
+      ],
+      "resolution_status": "DIRECT_NODES_CACHE_MISS; COMPANY_SEC_INDEX_SHOWS_TWO_SEP3_FORM4_FILINGS",
+      "equivalent_filings": [
+        {
+          "reporting_person": "Helle Thorning-Schmidt",
+          "role": "Director",
+          "accession": "0002055370-26-000007",
+          "filing_date": "2026-09-03",
+          "transaction_date": "2026-09-01"
+        },
+        {
+          "reporting_person": "Josh D. Paul",
+          "role": "Chief Accounting Officer",
+          "accession": "0001882285-26-000022",
+          "filing_date": "2026-09-03",
+          "transaction_date": "2026-09-01"
+        }
+      ],
+      "node_to_accession_assignment": "not independently verified because the two supplied direct node pages were unavailable to the crawler",
+      "confidence": "high_for_filing_pair; not_assigned_per_node"
+    }
+  ],
+  "fy2025_10k": {
+    "unit": "USD million unless stated",
+    "income_statement": {
+      "revenue": 9221.5,
+      "gross_margin_percent": 73.4,
+      "operating_income": 1242.9,
+      "operating_margin_percent": 13.5,
+      "net_income": 1133.9,
+      "diluted_eps_usd": 1.6,
+      "weighted_average_diluted_shares_million": 709.3
+    },
+    "revenue_mix": {
+      "product_revenue": 1801.9,
+      "product_share_percent": 19.5,
+      "subscription_and_support_revenue": 7419.6,
+      "subscription_and_support_share_percent": 80.5,
+      "subscription_and_support_yoy_growth_percent": 15.5
+    },
+    "operating_metrics": {
+      "ngs_arr_usd_billion": 5.6,
+      "remaining_performance_obligations_usd_billion": 15.8
+    },
+    "cash_flow": {
+      "operating_cash_flow": 3716.0,
+      "purchases_property_equipment_and_other_assets": 246.2,
+      "free_cash_flow_company_non_gaap": 3469.8,
+      "gaap_stock_based_compensation_expense": 1300.1,
+      "common_stock_repurchases": 0.0,
+      "employee_plan_share_sale_proceeds": 370.5,
+      "taxes_paid_on_net_share_settlement": 183.8
+    },
+    "balance_sheet_2025_07_31": {
+      "cash_and_cash_equivalents": 2268.6,
+      "investments_total": 6190.2,
+      "cash_plus_investments": 8458.8
+    },
+    "concentration": {
+      "single_end_customer_over_10_percent_revenue": false,
+      "top_three_distributors_revenue_percent": 44.2,
+      "top_three_distributors_gross_accounts_receivable_percent": 44.8
+    },
+    "commitments_and_acquisition_context": {
+      "operating_lease_obligations": 417.4,
+      "purchase_commitments_usd_billion": 7.1,
+      "ibm_qradar_contingent_consideration_liability": 513.6,
+      "cyberark_agreement_announced_2025_07_30": {
+        "cash_per_cybr_share_usd": 45.0,
+        "panw_shares_per_cybr_share": 2.2005,
+        "approx_equity_value_usd_billion_at_announcement": 25.0,
+        "status_at_fy2025_year_end": "not yet closed"
+      }
+    },
+    "shares_outstanding_2025_08_18_million": 668.9,
+    "audit_and_controls": {
+      "financial_statement_opinion": "unqualified",
+      "icfr_opinion": "effective in all material respects",
+      "critical_audit_matter": "revenue recognition, including contracts, performance obligations and timing"
+    }
+  },
+  "q3_and_nine_months_fy2026_10q": {
+    "unit": "USD million unless stated",
+    "q3": {
+      "revenue": 3002,
+      "revenue_prior_year": 2289,
+      "product_revenue": 594,
+      "subscription_and_support_revenue": 2408,
+      "gross_margin_percent": 67.6,
+      "gross_margin_prior_year_percent": 72.9,
+      "operating_income_loss": -183,
+      "operating_margin_percent": -6.1,
+      "operating_income_prior_year": 219,
+      "share_based_compensation_expense": 684,
+      "share_based_compensation_prior_year": 326,
+      "accelerated_sbc_related_to_cyberark_and_koi": 177
+    },
+    "nine_months": {
+      "revenue": 8070,
+      "revenue_prior_year": 6685,
+      "subscription_and_support_share_percent": 80.9,
+      "operating_income": 523,
+      "operating_margin_percent": 6.5,
+      "operating_income_prior_year": 746,
+      "operating_cash_flow": 3196,
+      "operating_cash_flow_prior_year": 2695,
+      "purchases_property_equipment_and_other_assets": 337,
+      "free_cash_flow_company_non_gaap": 2859,
+      "share_based_compensation_expense": 1355,
+      "repurchases_of_common_stock": 1000,
+      "employee_plan_share_sale_proceeds": 264,
+      "taxes_paid_on_net_share_settlement": 125
+    },
+    "balance_sheet_2026_04_30": {
+      "cash_and_cash_equivalents": 2364,
+      "investments": 4628,
+      "cash_plus_investments": 6992,
+      "working_capital_deficit": -1293,
+      "credit_agreement_amount_outstanding": 0,
+      "credit_agreement_covenants": "compliant"
+    },
+    "cyberark_acquisition": {
+      "closed": "2026-02-11",
+      "cash_per_cybr_share_usd": 45.0,
+      "panw_shares_per_cybr_share": 2.2005,
+      "purchase_consideration_usd_billion": 21.1,
+      "goodwill": 14802,
+      "identified_intangible_assets": 6279,
+      "cash_acquired": 743,
+      "investments_acquired": 1217,
+      "convertible_notes_assumed": 1303,
+      "deferred_revenue_assumed": 776,
+      "deferred_tax_liabilities_assumed": 274,
+      "noncash_equity_consideration_in_cash_flow_disclosure": 18862,
+      "shares_issued_for_business_acquisition_million": 112
+    },
+    "commitments": {
+      "purchase_commitments_usd_billion": 8.6,
+      "contingent_consideration_obligation": 240
+    },
+    "concentration": {
+      "top_two_distributors_revenue_percent": 31,
+      "top_two_distributors_accounts_receivable_percent": 29
+    },
+    "unrecognized_share_based_compensation_2026_04_30": {
+      "amount_usd_billion": 3.6,
+      "weighted_average_recognition_period_years": 2.6
+    }
+  },
+  "q4_and_fy2026_8k_release": {
+    "character": "unaudited preliminary results in Form 8-K Exhibit 99.1; not a substitute for the FY2026 audited 10-K",
+    "unit": "USD million unless stated",
+    "q4": {
+      "revenue": 3410,
+      "revenue_yoy_growth_percent_reported": 34,
+      "ngs_arr_usd_billion": 9.1,
+      "ngs_arr_yoy_growth_percent_reported": 63,
+      "remaining_performance_obligations_usd_billion": 21.2,
+      "rpo_yoy_growth_percent_reported": 34,
+      "gaap_operating_income": 172,
+      "gaap_operating_income_prior_year": 497,
+      "gaap_net_income_loss": -282,
+      "gaap_diluted_eps_usd": -0.35,
+      "operating_cash_flow": 1357,
+      "free_cash_flow_company_non_gaap": 1254,
+      "adjusted_free_cash_flow_company_non_gaap": 1289
+    },
+    "fy2026": {
+      "product_revenue": 2280,
+      "subscription_and_support_revenue": 9200,
+      "total_revenue": 11480,
+      "total_revenue_prior_year": 9221,
+      "gross_profit": 8077,
+      "gaap_operating_income": 695,
+      "gaap_operating_income_prior_year": 1243,
+      "gaap_net_income": 307,
+      "gaap_net_income_prior_year": 1134,
+      "gaap_diluted_eps_usd": 0.4,
+      "weighted_average_diluted_shares_million": 764,
+      "weighted_average_diluted_shares_prior_year_million": 709,
+      "non_gaap_share_based_compensation_related_charges": 1712,
+      "note_on_non_gaap_sbc_related_charges": "Company definition includes share-based compensation-related charges including share-based payroll tax; it is not treated here as identical to pure GAAP SBC expense.",
+      "acquisition_related_costs_non_gaap_adjustment": 295,
+      "amortization_acquired_intangibles": 638,
+      "operating_cash_flow": 4553,
+      "purchases_property_equipment_and_other_assets": 440,
+      "free_cash_flow_company_non_gaap": 4113,
+      "adjusted_free_cash_flow_company_non_gaap": 4414,
+      "adjusted_free_cash_flow_margin_percent": 38.4
+    },
+    "balance_sheet_2026_07_31_preliminary": {
+      "cash_and_cash_equivalents": 2514,
+      "short_term_investments": 557,
+      "long_term_investments": 4835,
+      "cash_plus_investments": 7906,
+      "goodwill": 22010,
+      "intangible_assets_net": 7017,
+      "total_assets": 48460,
+      "long_term_convertible_senior_notes": 1774,
+      "total_liabilities": 20968,
+      "total_stockholders_equity": 27492
+    },
+    "fy2027_guidance": {
+      "ngs_arr_usd_billion": [
+        11.075,
+        11.175
+      ],
+      "ngs_arr_growth_percent": [
+        22,
+        23
+      ],
+      "rpo_usd_billion": [
+        25.2,
+        25.4
+      ],
+      "rpo_growth_percent": [
+        19,
+        20
+      ],
+      "revenue_usd_billion": [
+        14.1,
+        14.2
+      ],
+      "revenue_growth_percent": [
+        23,
+        24
+      ],
+      "non_gaap_operating_margin_percent": 29.5,
+      "non_gaap_diluted_eps_usd": [
+        4.16,
+        4.19
+      ],
+      "fully_diluted_share_count_million": [
+        844,
+        847
+      ],
+      "adjusted_free_cash_flow_margin_percent": 38
+    },
+    "management_context": {
+      "fy2030_ngs_arr_target_usd_billion": 20,
+      "fy2028_adjusted_fcf_margin_target_percent": 40,
+      "q4_net_new_ngs_arr_comment": "nearly $1 billion in a single quarter",
+      "large_llm_customer_note": "FY2026 net new NGS ARR included a nine-figure benefit from a large LLM customer migrating to Chronosphere; management expects the tail end of the migration through Q1 FY2027 with less contribution than Q4."
+    }
+  },
+  "sep3_2026_form4s": {
+    "helle_thorning_schmidt": {
+      "role": "Director",
+      "transaction_date": "2026-09-01",
+      "transaction_code": "F",
+      "shares_withheld": 211,
+      "price_usd": 382.13,
+      "shares_beneficially_owned_after": 5687,
+      "ownership_form": "direct",
+      "filing_explanation": "Not a sale; shares withheld by issuer for income-tax withholding/remittance on vesting and net settlement of RSUs."
+    },
+    "josh_d_paul": {
+      "role": "Chief Accounting Officer",
+      "transaction_date": "2026-09-01",
+      "transaction_code": "S",
+      "shares_sold": 900,
+      "price_usd": 373.68,
+      "gross_proceeds_usd": 336312,
+      "shares_beneficially_owned_after": 72484,
+      "ownership_form": "direct",
+      "rule_10b5_1_status": "not verified from the inaccessible supplied direct node or an accessible exact-form note in this extraction; no plan inference is made"
+    }
+  },
+  "derived_metrics": {
+    "character": "Mechanical calculations from the reported values above; not company-reported unless explicitly labeled.",
+    "fy2026_revenue_growth_percent": 24.49,
+    "fy2026_gaap_operating_margin_percent": 6.05,
+    "fy2025_gaap_operating_margin_percent": 13.48,
+    "fy2026_gaap_operating_margin_change_percentage_points": -7.43,
+    "fy2026_subscription_and_support_share_percent": 80.14,
+    "fy2026_operating_cash_flow_margin_percent": 39.66,
+    "fy2026_company_fcf_margin_percent": 35.83,
+    "fy2026_weighted_average_diluted_share_growth_percent": 7.76,
+    "fy2026_non_gaap_sbc_related_charges_as_percent_revenue": 14.91,
+    "q3_fy2026_gaap_operating_margin_percent_reported": -6.1,
+    "nine_months_fy2026_fcf_less_gaap_sbc_diagnostic": 1504,
+    "nine_months_fy2026_fcf_less_gaap_sbc_diagnostic_margin_percent": 18.64,
+    "goodwill_plus_intangibles_as_percent_total_assets_2026_07_31": 59.9,
+    "cash_plus_investments_minus_convertible_notes_2026_07_31": 6132,
+    "guardrails": [
+      "The nine-month FCF-less-GAAP-SBC figure is a conservative diagnostic, not a complete owner-FCF measure and must not be double-counted with future dilution.",
+      "The FY2026 $1.712B share-based-compensation-related non-GAAP adjustment includes share-based payroll tax and is not treated as pure GAAP SBC.",
+      "FY2026 full-year figures in the Sep. 1 earnings release are unaudited preliminary figures; no FY2026 audit/ICFR conclusion is inferred.",
+      "The direct supplied nodes 20771/20781/20786 were unavailable to the crawler. Equivalent filings were resolved from Palo Alto Networks' SEC filing index; the two Sep. 3 Form 4 nodes are not individually assigned to accessions.",
+      "No current stock price, reverse DCF, Bear/Base/Bull valuation or buy authorization is inferred from the supplied filings."
+    ]
+  }
+}
