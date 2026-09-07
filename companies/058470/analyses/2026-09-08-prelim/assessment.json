@@ -1,0 +1,335 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "058470",
+  "company_name": "LEENO Industrial",
+  "as_of": "2026-09-08",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This checkpoint does not modify companies/058470/latest.json or current registry authority. Current canonical authority remains the 2026-09-06 preliminary review until a separate canonical harness run promotes it.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "source_paths": [
+    "reviews/2026-09-08-058470-prelim/raw-data.json"
+  ],
+  "historical_records": [],
+  "historical_score_100": null,
+  "review_method": "사용자 제공 2025 사업보고서와 2026 반기보고서의 1차 원문을 구조화·교차검증한 비권위 연구 체크포인트",
+  "portfolio_context": "실제 보유·세금·위험예산과 동기화 현재가가 제공되지 않아 신규 매수 승인이나 포지션 변경 지시가 아니다.",
+  "structural_thesis": "리노공업은 반도체 테스트용 소모성 정밀부품인 LEENO PIN과 IC TEST SOCKET에서 높은 마진과 수출 성장을 보이고 있다. FY2025와 H1 2026의 매출·영업이익 성장과 신규 고성능 소켓/프로브카드 R&D는 구조적 수요를 지지하지만, 상위 3개 고객 및 반도체 제품 집중도와 신규 공장 증분 ROIC를 함께 검증해야 한다.",
+  "customer_and_moat": "H1 2026 매출 +27.3%, 영업이익 +36.7%, 영업이익률 49.7%는 제품 가치와 가격/원가 구조의 강도를 시사한다. 다만 상위 3개 고객이 매출의 약 55.9%이고 개별 고객 유지율·설계인 기간·독립 점유율이 공시되지 않아 해자의 깊이는 추가 검증이 필요하다.",
+  "current_finding": "FY2025 매출 +33.9%, 영업이익 +42.5%에 이어 H1 2026 매출 +27.3%, 영업이익 +36.7%, 순이익 +50.9% 성장. 반면 H1 OCF는 -15.6%, 단순 OCF-PPE 진단은 약 272억원으로 -43.7% 감소했는데, 법인세 납부 증가와 약 414억원의 유형자산 취득, 신규 공장 투자가 주요 확인 항목이다.",
+  "economic_finding": "기존 사업의 현금창출력과 무차입 재무구조는 매우 강하지만, 총 971.8억원 규모의 신규 공장이 2026년 6월까지 약 785.5억원 집행된 상태여서 향후 2~3년간 가동률·수율·증분 세후 현금수익률이 한국 주식 10% 허들을 상회하는지가 핵심이다.",
+  "capital_and_survival": "2026년 6월말 차입금은 0원이고 금융자산은 약 5,622억원, 총부채는 약 801억원, 자기자본은 약 7,768억원이다. 외부자본 의존성은 낮다. 다만 최대주주 이채윤 대표가 2026년 6월 700만주를 시간외매매로 처분해 지분이 34.66%에서 25.48%로 낮아진 점은 동기와 장기 정렬을 확인할 필요가 있다.",
+  "next_evidence": "동기화 현재가·10% reverse DCF, 상위 고객별 설계인 지속기간/재수주/ASP, 글로벌 경쟁사 대비 점유율·win/loss, 부산 에코델타 신공장 가동률·수율·증분 ROIC, maintenance vs growth CAPEX, 최대주주 블록매각의 경제적 맥락",
+  "permanent_loss_case": "고객집중과 반도체 테스트기술 변화로 주요 설계인이 이탈하고, 신규 공장 수익률이 10% 허들을 하회하는 동시에 시장가격이 지속적인 고성장·초고마진을 이미 요구한다면 사업 존속과 별개로 영구손실이 발생할 수 있다.",
+  "falsifiers": [
+    "상위 고객 매출 감소와 함께 IC TEST SOCKET/LEENO PIN 매출, 마진, 현금전환이 동반 악화.",
+    "신규 공장 램프업 후에도 증분 세후 현금수익률이 10%를 2~3년 지속 하회.",
+    "반도체 테스트 구조 변화 또는 경쟁사 기술이 리노공업의 설계인·가격결정력·재주문을 구조적으로 훼손.",
+    "최대주주 지분 축소가 지속되고 자본배분/주주권 정렬 악화가 주당 가치 개선 없이 확대."
+  ],
+  "increase_evidence": [
+    "신공장 가동률 상승과 함께 매출·마진·owner cash per share가 동반 개선되고 성장 CAPEX 정상화.",
+    "상위 고객별 반복 설계인/재수주와 독립 시장점유율·가격결정력 자료에서 해자 강화 확인.",
+    "동기화 현재가 기준 10% reverse DCF가 보수적 성장·마진 가정으로도 충족."
+  ],
+  "sell_evidence": [
+    "주요 고객 이탈, 기술 대체, 신공장 저수익이 장기 추세로 확인되고 밸류에이션이 이를 보상하지 못하는 경우."
+  ],
+  "business_quality_75": 61,
+  "total_score_100": null,
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "FY2025 매출 +33.9%, 영업이익 +42.5%; H1 2026 매출 +27.3%, 영업이익 +36.7%.",
+        "IC TEST SOCKET 및 LEENO PIN 중심 매출과 83.7% 수출 비중.",
+        "WLC Probe Card, 80um pitch pin, 15,000핀 이상 Large Device Socket 및 cooling Lid 연구를 진행."
+      ],
+      "counter_evidence": [
+        "반도체 테스트 수요는 고객 설계 및 기술 변화에 민감하고 독립 장기 점유율 데이터가 없음."
+      ],
+      "confidence": 0.85,
+      "missing_data": [
+        "독립 시장점유율, 고객 설계인 기간, 테스트 아키텍처 변화별 수혜/위협"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "H1 2026 영업이익률 49.7%, Q2 영업이익률 51.3%.",
+        "IC TEST SOCKET은 H1 매출의 약 68.5%, 반도체 관련 제품/상품은 약 91.8%.",
+        "고객 맞춤 테스트 소모품과 고핀수/고발열 대응 제품 개발이 지속."
+      ],
+      "counter_evidence": [
+        "개별 고객의 반복구매율·ASP·교체주기·qualification 비용이 공시되지 않음."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "고객별 ASP, 재주문율, qualification/설계교체 비용, 제품별 수명주기"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "매출 성장과 함께 H1 2026 영업이익률이 49.7%로 매우 높은 수준.",
+        "수출 매출 비중 약 83.7%로 글로벌 고객 기반을 보유.",
+        "고부가 프로브카드 및 고핀수/냉각 제품 R&D로 기술 범위를 확대."
+      ],
+      "counter_evidence": [
+        "상위 3개 고객이 H1 매출의 약 55.9%로 높음.",
+        "독립 경쟁사 대비 점유율·win/loss·가격탄력성 자료 부재."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "상위 고객 설계인 유지, 경쟁사 대비 점유율/성능/가격, customer concentration 장기 추세"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "FY2025 단순 OCF-PPE 진단 약 1,195억원, 매출의 약 32.1%.",
+        "2025년말 대비 H1 2026 발행주식·자기주식 수 변동 없음.",
+        "무차입 상태에서 성장투자를 내부 현금으로 집행 가능."
+      ],
+      "counter_evidence": [
+        "H1 2026 OCF -15.6% YoY, 단순 OCF-PPE 진단 약 272억원으로 -43.7%.",
+        "신규 공장 971.8억원 계획 중 785.5억원 집행; 정상화 증분 ROIC가 아직 확인되지 않음."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "maintenance vs growth CAPEX",
+        "신공장 가동률·수율·증분 EBIT/FCF 및 세후 ROIC"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "무차입경영 목표와 0% 타인자본조달비율 유지.",
+        "최근 3년 현금배당성향 약 40%, FY2025 배당총액 약 607억원.",
+        "신공장 투자 목적이 생산능력 확대와 R&D 역량 확대로 핵심 사업과 정합."
+      ],
+      "counter_evidence": [
+        "최대주주/CEO가 2026년 6월 700만주를 시간외매매로 처분해 지분이 34.66%에서 25.48%로 감소.",
+        "공시만으로 매각 동기와 장기 자본배분 의도를 확정할 수 없음."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "최대주주 블록매각의 맥락",
+        "신공장 투자 후 실제 ROIC",
+        "장기 자사주/배당 규율"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "2026-06-30 차입금 0원, 금융자산 약 5,622억원.",
+        "총부채 약 801억원 vs 자기자본 약 7,768억원; 부채/자본 약 10.3%.",
+        "FY2025 OCF 약 1,795억원 및 최근 AA+/CR-1 신용평가."
+      ],
+      "counter_evidence": [
+        "대규모 성장 CAPEX가 진행 중이지만 현 재무구조에서는 생존 리스크보다 투자수익률 리스크가 핵심."
+      ],
+      "confidence": 0.96,
+      "missing_data": [
+        "신공장 잔여 투자 및 운영자금 스트레스 시나리오"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "withheld",
+      "evidence": [
+        "동기화 현재 시장가격과 reverse DCF가 이번 입력에 포함되지 않음."
+      ],
+      "counter_evidence": [],
+      "confidence": 0.0,
+      "missing_data": [
+        "현재가",
+        "10% reverse DCF",
+        "Bear/Base/Bull"
+      ],
+      "source_paths": []
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "withheld",
+      "evidence": [
+        "높은 마진과 테스트 복잡도 상승은 upside 경로이나 가격 의존적 비대칭은 확정되지 않음."
+      ],
+      "counter_evidence": [
+        "높은 고객·제품 집중도는 하방 꼬리를 키울 수 있음."
+      ],
+      "confidence": 0.35,
+      "missing_data": [
+        "valuation and scenario distribution"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-058470-prelim/raw-data.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "FY2025 감사의견 적정, 내부회계관리제도 적정; H1 2026 검토에서 중요성 관점의 부적정 표시사항이 발견되지 않음."
+        ],
+        "resolution_needed": "Continue monitoring revenue-recognition KAM and governance.",
+        "severity": "LOW",
+        "confidence": 0.94,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "2026-06-30 차입금 0원, 금융자산 약 5,622억원, 강한 OCF."
+        ],
+        "resolution_needed": "Monitor remaining factory spend.",
+        "severity": "LOW",
+        "confidence": 0.97,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "2025YE와 2026-06-30 발행주식 76,211,850주 및 자기주식 316,250주 동일; 2025년 1:5 주식분할은 경제적 희석이 아님."
+        ],
+        "resolution_needed": "Monitor future equity compensation or issuance.",
+        "severity": "LOW",
+        "confidence": 0.96,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "H1 매출 +27.3%, 영업이익 +36.7%, 순이익 +50.9%; 영업이익률 49.7%로 성장과 수익성 동반."
+        ],
+        "resolution_needed": "Verify customer-level retention and mix.",
+        "severity": "LOW",
+        "confidence": 0.9,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "H1 OCF-PPE 진단이 YoY -43.7%; 971.8억원 신공장 투자 정상화 수익률 미확정."
+        ],
+        "resolution_needed": "Track post-ramp incremental after-tax cash return versus 10% hurdle for 2-3 years.",
+        "severity": "MEDIUM_HIGH",
+        "confidence": 0.88,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "마진과 매출은 강하지만 독립 점유율/설계인 유지/가격탄력성 자료 부재."
+        ],
+        "resolution_needed": "Verify customer design retention, win/loss and competitor performance.",
+        "severity": "MEDIUM",
+        "confidence": 0.7,
+        "basis": "EVIDENCE_GATE_OPEN"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "동기화 현재가와 10% reverse DCF 미실시."
+        ],
+        "resolution_needed": "Run 10% reverse DCF and Bear/Base/Bull scenarios.",
+        "severity": "UNKNOWN",
+        "confidence": 0.2,
+        "basis": "VALUATION_GATE_OPEN"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "H1 상위 3개 고객 매출 비중 약 55.9%; 반도체 관련 제품/상품 약 91.8%."
+        ],
+        "resolution_needed": "Map customer identity, qualification durability, end-market correlation and downside if one major design is lost.",
+        "severity": "HIGH",
+        "confidence": 0.93,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "사업 질은 강하지만 고객집중, 신공장 ROIC, valuation이 영구손실 확률을 좌우."
+        ],
+        "resolution_needed": "Complete valuation and concentration stress test.",
+        "severity": "UNKNOWN",
+        "confidence": 0.5,
+        "basis": "VALUATION_AND_CONCENTRATION_GATES_OPEN"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.1,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "Current market price",
+      "normalized owner FCF/share",
+      "10% reverse DCF",
+      "Bear/Base/Bull"
+    ],
+    "model_required": "ESTABLISH_FROM_PRIMARY_FILINGS_AND_CURRENT_QUOTE"
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_HIGH",
+    "notes": "Core financial evidence comes from the audited FY2025 annual report and reviewed H1 2026 semiannual report. Valuation and independent customer/competitive evidence are not included in this checkpoint."
+  }
+}
