@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "PWR",
+  "company_name": "Quanta Services, Inc.",
+  "as_of": "2026-09-08",
+  "authority_status": "NON_CURRENT_RESEARCH_ARTIFACT",
+  "basis": "Five user-supplied SEC filing PDFs; reported facts are separated from calculations and preliminary inferences.",
+  "sources": [
+    {
+      "form": "DEFA14A",
+      "filing_date": "2026-04-10",
+      "file": "PWR (Quanta Services Inc.) Additional proxy soliciting materials - definitive (DEFA14A) 2026-04-10.pdf",
+      "sha256": "bad1f0fd64a8c8cf735ed46141d0bc6a6466066616b036cc52ea55006212dde7",
+      "pages": 3,
+      "use": "Annual-meeting notice and agenda cross-check"
+    },
+    {
+      "form": "10-K",
+      "period_end": "2025-12-31",
+      "filing_date": "2026-02-19",
+      "file": "PWR (Quanta Services Inc.) Annual report pursuant to Section 13 or 15(d) (10-K) 2026-02-19.pdf",
+      "sha256": "124ae931428b7c6206dc4be8fd4822bd5dc35aa0d46b748a66f714c7de94a80f",
+      "pages": 148,
+      "use": "FY2025 financials, segments, backlog, debt, acquisitions, audit and risks"
+    },
+    {
+      "form": "10-Q",
+      "period_end": "2026-06-30",
+      "filing_date": "2026-07-30",
+      "file": "PWR (Quanta Services Inc.) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-07-30.pdf",
+      "sha256": "ab297234a4ba6b91c73a71550ce914d2409ef30e78ec0cbf07bea126faf670f3",
+      "pages": 88,
+      "use": "Q2/H1 2026 financials, backlog, working capital, debt, acquisitions and controls"
+    },
+    {
+      "form": "DEF 14A",
+      "filing_date": "2026-04-10",
+      "file": "PWR (Quanta Services Inc.) Other definitive proxy statements (DEF 14A) 2026-04-10.pdf",
+      "sha256": "0985006900ca1c7ead7ac339146c757c80a3f7658d0e2afda01540ae5d94d8e1",
+      "pages": 105,
+      "use": "Governance, ownership, executive compensation and related-party transactions"
+    },
+    {
+      "form": "8-K",
+      "event_date": "2026-08-06",
+      "file": "PWR (Quanta Services Inc.) Current report pursuant to Section 13 or 15(d) (8-K) 2026-08-06.pdf",
+      "sha256": "7bd3b392c816dbcd4c70a4594e255a00fb3e68f6be672cd934a417a9c716d26e",
+      "pages": 89,
+      "use": "August 2026 senior-note issuance"
+    }
+  ],
+  "reported_facts": {
+    "business": {
+      "description": "Comprehensive infrastructure solutions across electric and gas utility, power generation, large load centers, manufacturing, communications, pipeline and energy markets.",
+      "reportable_segments": [
+        "Electric Infrastructure Solutions",
+        "Underground Utility and Infrastructure Solutions"
+      ],
+      "demand_drivers_2026": [
+        "grid modernization, reliability and hardening",
+        "transmission and substation expansion",
+        "data centers and other technology load growth",
+        "domestic manufacturing reshoring",
+        "electrification",
+        "renewable generation, battery storage and interconnection"
+      ]
+    },
+    "fy2025_usd_m": {
+      "revenue": 28479.697,
+      "gross_profit": 4275.081,
+      "operating_income": 1611.509,
+      "net_income_attributable_common": 1028.378,
+      "diluted_eps_usd": 6.80,
+      "weighted_average_diluted_shares_m": 151.291,
+      "operating_cash_flow": 2229.970,
+      "capex": 609.154,
+      "stock_based_compensation": 181.947,
+      "share_repurchases": 134.555,
+      "dividends_paid": 60.416,
+      "cash_tax_withholding_for_stock_comp": 112.299
+    },
+    "fy2025_segments_usd_m": {
+      "electric": {
+        "revenue": 23001.468,
+        "operating_income": 2360.262,
+        "operating_margin": 0.103,
+        "reported_acquired_business_revenue_contribution_approx": 1870.0
+      },
+      "underground_and_infrastructure": {
+        "revenue": 5478.229,
+        "operating_income": 398.276,
+        "operating_margin": 0.073,
+        "reported_acquired_business_revenue_contribution_approx": 925.0
+      },
+      "corporate_and_non_allocated_costs": -1147.029
+    },
+    "backlog_usd_m": {
+      "2025_12_31": {
+        "remaining_performance_obligations": 23763.014,
+        "backlog": 43976.408,
+        "electric_backlog": 36166.706,
+        "underground_and_infrastructure_backlog": 7809.702
+      },
+      "2026_06_30": {
+        "remaining_performance_obligations": 33550.0,
+        "backlog": 53440.0,
+        "rpo_growth_vs_2025_12_31": 0.412,
+        "backlog_growth_vs_2025_12_31": 0.215
+      }
+    },
+    "q2_2026_usd_m": {
+      "revenue": 9556.997,
+      "revenue_growth_yoy": 0.411,
+      "gross_profit": 1545.178,
+      "gross_margin": 0.162,
+      "operating_income": 694.834,
+      "operating_margin": 0.073,
+      "net_income_attributable_common": 451.381,
+      "diluted_eps_usd": 2.96,
+      "electric_revenue": 7837.805,
+      "electric_margin": 0.115,
+      "underground_and_infrastructure_revenue": 1719.192,
+      "underground_and_infrastructure_margin": 0.091,
+      "reported_acquired_business_revenue_contribution_approx": 930.0
+    },
+    "h1_2026_usd_m": {
+      "revenue": 17431.784,
+      "operating_income": 1033.613,
+      "net_income_attributable_common": 672.006,
+      "diluted_eps_usd": 4.41,
+      "weighted_average_diluted_shares_m": 152.289,
+      "operating_cash_flow": 1487.188,
+      "capex": 451.048,
+      "stock_based_compensation": 126.013,
+      "dividends_paid": 33.695,
+      "share_repurchases": 0.0,
+      "cash_tax_withholding_for_stock_comp": 152.953
+    },
+    "balance_sheet_2026_06_30_usd_m": {
+      "cash_and_cash_equivalents": 506.431,
+      "accounts_receivable": 8532.311,
+      "contract_assets": 1534.265,
+      "total_current_assets": 11859.754,
+      "goodwill": 7868.886,
+      "total_assets": 28291.820,
+      "current_maturities_long_term_and_short_term_debt": 683.022,
+      "long_term_debt_net_current": 5421.862,
+      "total_liabilities": 18549.877,
+      "stockholders_equity": 9637.942,
+      "shares_outstanding_m": 150.273799
+    },
+    "debt_and_liquidity": {
+      "gross_long_term_debt_obligations_2026_06_30_usd_m": 6096.174,
+      "available_commitments_plus_cash_2026_06_30_usd_m": 2770.0,
+      "fy2026_capex_guidance_usd_m": [750.0, 800.0],
+      "august_2026_new_senior_notes_usd_m": 2000.0,
+      "august_2026_notes": [
+        {"principal_usd_m": 500.0, "coupon": 0.0485, "maturity": "2029-08-09"},
+        {"principal_usd_m": 750.0, "coupon": 0.0530, "maturity": "2033-08-09"},
+        {"principal_usd_m": 750.0, "coupon": 0.0555, "maturity": "2036-08-09"}
+      ],
+      "use_of_august_2026_note_proceeds": "NOT_STATED_IN_SUPPLIED_2026_08_06_8K_EXCERPT_REVIEWED"
+    },
+    "acquisitions": {
+      "fy2025_cash_paid_net_acquired_cash_usd_m": 3052.116,
+      "dynamic_systems": {
+        "cash_consideration_approx_usd_m": 1260.0,
+        "quanta_shares_issued": 518772,
+        "share_consideration_fair_value_usd_m": 218.8,
+        "potential_contingent_consideration_usd_m": 216.0
+      },
+      "h1_2026_three_deals": {
+        "cash_consideration_approx_usd_m": 1090.0,
+        "shares_issued": 182733,
+        "share_consideration_fair_value_usd_m": 128.3
+      }
+    },
+    "risk_and_contract_quality": {
+      "no_customer_ge_10pct_revenue_h1_2026_or_h1_2025": true,
+      "no_customer_ge_10pct_receivables_2026_06_30_or_2025_12_31": true,
+      "unapproved_change_orders_and_claims_2026_06_30_usd_m": 411.1,
+      "unapproved_change_orders_and_claims_2025_12_31_usd_m": 983.6,
+      "fixed_price_contract_risk": "Larger and more complex projects more commonly use fixed-price structures and can generate estimate revisions, losses, change orders or claims."
+    },
+    "governance": {
+      "independent_director_ratio_proxy_visual": 0.90,
+      "separate_independent_chair_and_ceo": true,
+      "single_class_common_stock": true,
+      "ceo_beneficial_shares_2026_03_26": 707757,
+      "all_directors_and_current_executives_beneficial_shares_2026_03_26": 949397,
+      "all_directors_and_current_executives_percent": 0.006,
+      "ltip_performance_weight_ceo_and_president_electric": 0.70,
+      "ltip_performance_weight_other_neos": 0.60,
+      "ltip_metrics": ["ROIC", "cumulative adjusted EPS", "relative TSR"],
+      "related_party_transactions": "Facility leases and family employment involving certain executives/directors were disclosed; company states market-rate support and Audit Committee review policy."
+    },
+    "audit_and_controls": {
+      "fy2025_financial_statement_opinion": "UNQUALIFIED",
+      "fy2025_icfr_opinion": "EFFECTIVE_UNQUALIFIED",
+      "q2_2026_disclosure_controls": "EFFECTIVE",
+      "q2_2026_icfr_note": "Three acquired businesses are being integrated; otherwise no material ICFR change reported."
+    }
+  },
+  "calculated_metrics": {
+    "label": "CALCULATED_NOT_COMPANY_REPORTED",
+    "fy2025_revenue_growth": 0.2031,
+    "fy2025_operating_margin": 0.0566,
+    "fy2025_simple_fcf_usd_m": 1620.816,
+    "fy2024_simple_fcf_usd_m": 1477.118,
+    "fy2023_simple_fcf_usd_m": 1141.149,
+    "fy2025_simple_fcf_growth": 0.0973,
+    "simple_fcf_cagr_2023_2025": 0.1918,
+    "fy2025_simple_fcf_margin": 0.0569,
+    "fy2025_simple_fcf_per_diluted_share_usd": 10.71,
+    "fy2025_sbc_to_simple_fcf": 0.1123,
+    "fy2025_diluted_share_growth": 0.0082,
+    "h1_2026_revenue_growth": 0.3403,
+    "h1_2026_operating_income_growth": 0.6962,
+    "h1_2026_operating_margin": 0.0593,
+    "h1_2026_simple_fcf_usd_m": 1036.140,
+    "h1_2025_simple_fcf_usd_m": 265.798,
+    "h1_2026_simple_fcf_growth": 2.8982,
+    "h1_2026_simple_fcf_per_diluted_share_usd": 6.80,
+    "shares_outstanding_growth_2025_12_31_to_2026_06_30": 0.0047,
+    "q2_2026_acquisition_share_of_revenue_growth_approx": 0.3341,
+    "h1_2026_acquisition_share_of_revenue_growth_approx": 0.3909,
+    "h1_2026_working_capital_cash_flow_contribution_usd_m": 104.512,
+    "h1_2025_working_capital_cash_flow_contribution_usd_m": -350.427,
+    "h1_working_capital_swing_yoy_usd_m": 454.939
+  },
+  "calculation_notes": [
+    "Simple FCF = operating cash flow - capital expenditures; this is a diagnostic, not a company-defined owner-earnings measure.",
+    "Acquisition share of revenue growth is a rough bridge using management's stated acquired-business revenue contributions and consolidated revenue change; it is not a formal organic-growth disclosure.",
+    "H1 working-capital contribution sums reported changes in receivables, contract assets, inventories, prepaid/current assets, accounts payable/accruals, contract liabilities and other assets/liabilities. It is used to flag that H1 2026 OCF growth benefited from a roughly $455M year-over-year working-capital swing.",
+    "The August 2026 note filing establishes $2.0B of new senior notes but the supplied filing reviewed here does not establish the use of proceeds; net leverage impact remains open pending a debt/proceeds bridge."
+  ],
+  "open_questions": [
+    "Post-close ROIC and FCF contribution for CEI, Dynamic Systems and 2026 acquisition cohorts",
+    "Backlog/RPO conversion into revenue, margin and cash after normalizing working capital",
+    "Exact use of proceeds and pro-forma net debt after the August 2026 $2.0B note issuance",
+    "Fixed-price mix, loss-project history and aging/realization of change orders and claims",
+    "Synchronized share price, 9% reverse DCF and Bear/Base/Bull valuation",
+    "Longitudinal SBC, acquisition-share issuance, repurchase and FCF-per-share bridge"
+  ]
+}
