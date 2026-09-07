@@ -1,0 +1,359 @@
+{
+  "ticker": "ETN",
+  "company": "Eaton Corporation plc",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "as_of": "2026-09-08",
+  "scope_note": "Reported values are extracted from the four user-supplied QuoteMedia filing links after resolving the matching filings to canonical SEC EDGAR documents. Analyst calculations are isolated under derived_metrics and are not reported facts. No live market quote, target price, reverse DCF, or external estimate is inserted.",
+  "source_resolution": [
+    {
+      "source_id": "FY2025_10K",
+      "user_url": "https://app.quotemedia.com/data/downloadFiling?webmasterId=102399&ref=319819585&type=HTML&symbol=ETN&cdn=a0556defa823fdd6bd1744f9205d3be3&companyName=Eaton+Corporation+PLC&formType=10-K&formDescription=Annual+report+pursuant+to+Section+13+or+15%28d%29&dateFiled=2026-02-26",
+      "canonical_sec_url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000007/etn-20251231.htm",
+      "accession": "0001551182-26-000007",
+      "resolved_identity": "Eaton Corporation plc Form 10-K for year ended 2025-12-31",
+      "filing_date": "2026-02-26",
+      "source_character": "SEC Form 10-K / Inline XBRL",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_2026_10Q",
+      "user_url": "https://app.quotemedia.com/data/downloadFiling?webmasterId=102399&ref=320231941&type=HTML&symbol=ETN&cdn=5fddf8bf7a0a4f51e4006ceb667b5e18&companyName=Eaton+Corporation+PLC&formType=10-Q&formDescription=General+form+for+quarterly+reports+under+Section+13+or+15%28d%29&dateFiled=2026-07-31",
+      "canonical_sec_url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000030/etn-20260630.htm",
+      "accession": "0001551182-26-000030",
+      "resolved_identity": "Eaton Corporation plc Form 10-Q for quarter and six months ended 2026-06-30",
+      "filing_date": "2026-07-31",
+      "source_character": "SEC Form 10-Q / Inline XBRL",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_2026_8K",
+      "user_url": "https://app.quotemedia.com/data/downloadFiling?webmasterId=102399&ref=320230608&type=HTML&symbol=ETN&cdn=4d4b9f09aae6166fcbb8355c82fdf4de&companyName=Eaton+Corporation+PLC&formType=8-K&formDescription=Current+report+pursuant+to+Section+13+or+15%28d%29&dateFiled=2026-07-31",
+      "canonical_sec_url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn06302026exhibit99.htm",
+      "accession": "0001551182-26-000027",
+      "resolved_identity": "Eaton Corporation plc Form 8-K with Q2 2026 earnings release",
+      "filing_date": "2026-07-31",
+      "source_character": "SEC Form 8-K / Exhibit 99 earnings release",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM4_20260903",
+      "user_url": "https://app.quotemedia.com/data/downloadFiling?webmasterId=102399&ref=320332252&type=HTML&symbol=ETN&cdn=c4c6dd99ea439fbccb0da47c983d059a&companyName=Eaton+Corporation+PLC&formType=4&formDescription=Statement+of+changes+in+beneficial+ownership+of+securities&dateFiled=2026-09-03",
+      "canonical_sec_url": "https://www.sec.gov/Archives/edgar/data/1551182/000110465926105152/xslF345X06/tm2624771-1_4seq1.xml",
+      "accession": "0001104659-26-105152",
+      "resolved_identity": "Shawn M. Black Form 4; earliest transaction 2026-09-01, filed 2026-09-03",
+      "filing_date": "2026-09-03",
+      "source_character": "SEC Form 4",
+      "confidence": "high"
+    }
+  ],
+  "fy2025": {
+    "period": "2025-01-01/2025-12-31",
+    "unit": "USD millions unless otherwise stated",
+    "income_statement": {
+      "net_sales": 27448,
+      "net_income": 4090,
+      "net_income_attributable_to_eaton_ordinary_shareholders": 4087,
+      "diluted_eps_usd": 10.45,
+      "diluted_weighted_average_shares_millions": 391.2,
+      "source": "FY2025_10K"
+    },
+    "cash_flow": {
+      "operating_cash_flow": 4472,
+      "capital_expenditures": 919,
+      "business_acquisitions_net_of_cash": 1490,
+      "source": "FY2025_10K"
+    },
+    "balance_sheet_at_2025_12_31": {
+      "cash": 622,
+      "short_term_investments": 181,
+      "short_term_debt": 1,
+      "current_portion_long_term_debt": 1136,
+      "long_term_debt": 8758,
+      "total_assets": 41251,
+      "goodwill": 15769,
+      "other_intangible_assets": 5054,
+      "source": "FY2025_10K"
+    },
+    "segments": {
+      "electrical_americas": {
+        "net_sales": 13276,
+        "operating_profit": 3972,
+        "operating_margin_percent": 29.9,
+        "organic_growth_percent": 12,
+        "backlog": 13246,
+        "organic_backlog_change_percent": 19,
+        "organic_orders_change_percent": 16,
+        "book_to_bill": 1.2
+      },
+      "electrical_global": {
+        "net_sales": 6815,
+        "operating_profit": 1323,
+        "operating_margin_percent": 19.4,
+        "organic_growth_percent": 7,
+        "backlog": 2034,
+        "organic_backlog_change_percent": 13,
+        "organic_orders_change_percent": 6,
+        "book_to_bill": 1.0
+      },
+      "aerospace": {
+        "net_sales": 4249,
+        "operating_profit": 1013,
+        "operating_margin_percent": 23.9,
+        "organic_growth_percent": 12,
+        "backlog": 4316,
+        "organic_backlog_change_percent": 13,
+        "organic_orders_change_percent": 11,
+        "book_to_bill": 1.1
+      },
+      "mobility_legacy_vehicle_and_emobility": {
+        "vehicle_net_sales": 2505,
+        "vehicle_operating_profit": 419,
+        "vehicle_operating_margin_percent": 16.7,
+        "emobility_net_sales": 604,
+        "emobility_operating_loss": -14,
+        "emobility_operating_margin_percent": -2.3
+      },
+      "source": "FY2025_10K"
+    },
+    "capital_allocation": {
+      "share_repurchases_cost": 1900,
+      "shares_repurched_millions": 5.7,
+      "repurchase_program_authorization_total": 9000,
+      "source": "FY2025_10K"
+    },
+    "audit_and_controls": {
+      "financial_statement_opinion": "unqualified",
+      "internal_control_opinion": "effective in all material respects",
+      "audit_scope_caveat": "2025-acquired entities were excluded from ICFR assessment and represented approximately 3.7% of total assets and 1.7% of 2025 net sales.",
+      "source": "FY2025_10K"
+    }
+  },
+  "q2_and_h1_2026": {
+    "quarter_period": "2026-04-01/2026-06-30",
+    "six_month_period": "2026-01-01/2026-06-30",
+    "unit": "USD millions unless otherwise stated",
+    "q2_income_statement": {
+      "net_sales": 8531,
+      "net_sales_prior_year": 7028,
+      "net_income_attributable_to_eaton_ordinary_shareholders": 821,
+      "net_income_prior_year": 982,
+      "diluted_eps_usd": 2.11,
+      "diluted_eps_prior_year_usd": 2.51,
+      "diluted_weighted_average_shares_millions": 389.5,
+      "gross_profit_margin_percent": 33.5,
+      "gross_profit_margin_prior_year_percent": 37.0,
+      "source": "Q2_2026_10Q / Q2_2026_8K"
+    },
+    "h1_income_statement": {
+      "net_sales": 15982,
+      "net_sales_prior_year": 13404,
+      "net_income_attributable_to_eaton_ordinary_shareholders": 1687,
+      "net_income_prior_year": 1945,
+      "diluted_eps_usd": 4.33,
+      "diluted_eps_prior_year_usd": 4.96,
+      "diluted_weighted_average_shares_millions": 389.4,
+      "gross_profit_margin_percent": 34.5,
+      "gross_profit_margin_prior_year_percent": 37.6,
+      "source": "Q2_2026_10Q"
+    },
+    "cash_flow": {
+      "h1_operating_cash_flow": 1634,
+      "h1_operating_cash_flow_prior_year": 1156,
+      "h1_capital_expenditures": 446,
+      "h1_capital_expenditures_prior_year": 349,
+      "q2_operating_cash_flow": 1127,
+      "q2_capital_expenditures": 253,
+      "q2_company_reported_free_cash_flow": 874,
+      "business_acquisitions_net_of_cash_h1": 11079,
+      "share_repurchases_h1": 0,
+      "source": "Q2_2026_10Q / Q2_2026_8K"
+    },
+    "balance_sheet_at_2026_06_30": {
+      "cash": 483,
+      "short_term_investments": 212,
+      "accounts_receivable_net": 6673,
+      "inventory": 5417,
+      "property_plant_equipment_net": 4702,
+      "goodwill": 20229,
+      "other_intangible_assets": 12611,
+      "total_assets": 56181,
+      "short_term_debt": 2091,
+      "current_portion_long_term_debt": 11,
+      "long_term_debt": 18509,
+      "operating_lease_liabilities_noncurrent": 715,
+      "total_equity": 20299,
+      "source": "Q2_2026_10Q / Q2_2026_8K"
+    },
+    "segments_q2": {
+      "electrical_americas": {
+        "net_sales": 3951,
+        "net_sales_yoy_change_percent": 18,
+        "organic_growth_percent": 18,
+        "operating_profit": 1088,
+        "operating_margin_percent": 27.5,
+        "backlog": 15175,
+        "backlog_yoy_change_percent": 33,
+        "organic_backlog_change_percent": 33,
+        "organic_orders_change_percent": 41,
+        "book_to_bill": 1.3
+      },
+      "electrical_global": {
+        "net_sales": 2517,
+        "net_sales_yoy_change_percent": 44,
+        "organic_growth_percent": 18,
+        "acquisition_growth_percent": 25,
+        "operating_profit": 499,
+        "operating_margin_percent": 19.8,
+        "backlog": 3602,
+        "backlog_yoy_change_percent": 103,
+        "organic_backlog_change_percent": 54,
+        "organic_orders_change_percent": 33,
+        "book_to_bill": 1.1
+      },
+      "aerospace": {
+        "net_sales": 1222,
+        "net_sales_yoy_change_percent": 13,
+        "organic_growth_percent": 7,
+        "acquisition_growth_percent": 6,
+        "operating_profit": 278,
+        "operating_margin_percent": 22.8,
+        "backlog": 5164,
+        "backlog_yoy_change_percent": 28,
+        "organic_backlog_change_percent": 18,
+        "organic_orders_change_percent": 17,
+        "book_to_bill": 1.2
+      },
+      "mobility": {
+        "net_sales": 841,
+        "organic_growth_percent": -2,
+        "operating_profit": 109,
+        "operating_margin_percent": 13.0
+      },
+      "source": "Q2_2026_10Q / Q2_2026_8K"
+    },
+    "segments_h1": {
+      "electrical_americas": {
+        "net_sales": 7551,
+        "net_sales_prior_year": 6360,
+        "operating_profit": 2010,
+        "operating_profit_prior_year": 1891,
+        "operating_margin_percent": 26.6,
+        "operating_margin_prior_year_percent": 29.7,
+        "organic_growth_percent": 16
+      },
+      "electrical_global": {
+        "net_sales": 4463,
+        "net_sales_prior_year": 3362,
+        "operating_profit": 873,
+        "operating_profit_prior_year": 653,
+        "operating_margin_percent": 19.6,
+        "operating_margin_prior_year_percent": 19.4,
+        "organic_growth_percent": 14
+      },
+      "aerospace": {
+        "net_sales": 2362,
+        "net_sales_prior_year": 2059,
+        "operating_profit": 582,
+        "operating_profit_prior_year": 466,
+        "operating_margin_percent": 24.7,
+        "operating_margin_prior_year_percent": 22.6,
+        "organic_growth_percent": 8
+      },
+      "mobility": {
+        "net_sales": 1607,
+        "net_sales_prior_year": 1624,
+        "operating_profit": 198,
+        "operating_profit_prior_year": 194,
+        "operating_margin_percent": 12.3,
+        "operating_margin_prior_year_percent": 11.9,
+        "organic_growth_percent": -4
+      },
+      "source": "Q2_2026_10Q"
+    },
+    "acquisitions": {
+      "ultra_pcs": {
+        "acquisition_date": "2026-01-23",
+        "cash_consideration_net_of_cash": 1529,
+        "sales_since_acquisition_to_2026_06_30": 111,
+        "segment_operating_profit_since_acquisition": 31,
+        "segment": "Aerospace"
+      },
+      "boyd_thermal": {
+        "acquisition_date": "2026-03-12",
+        "cash_consideration_net_of_cash": 9549,
+        "segment": "Electrical Global",
+        "sales_since_acquisition_to_2026_06_30": 524,
+        "segment_operating_profit_since_acquisition": 121,
+        "adjusted_preliminary_goodwill": 3733,
+        "adjusted_preliminary_other_intangible_assets": 7190,
+        "goodwill_tax_deductible": false,
+        "acquisition_transaction_cost_h1": 36
+      },
+      "source": "Q2_2026_10Q"
+    },
+    "debt_and_liquidity": {
+      "revolver_capacity": 4000,
+      "revolver_outstanding": 0,
+      "commercial_paper_program_capacity": 4000,
+      "commercial_paper_outstanding": 2088,
+      "us_notes_face_amount_issued_2026": 8500,
+      "euro_notes_face_amount_eur_millions": 1200,
+      "euro_notes_usd_equivalent_face_amount": 1390,
+      "debt_covenant_status": "in compliance",
+      "source": "Q2_2026_10Q"
+    },
+    "guidance": {
+      "full_year_2026_organic_growth_percent_range": [11, 13],
+      "full_year_2026_segment_margin_percent_range": [24.1, 24.5],
+      "full_year_2026_diluted_eps_usd_range": [10.36, 10.56],
+      "full_year_2026_adjusted_eps_usd_range": [13.4, 13.6],
+      "planned_2026_capex": 1150,
+      "source": "Q2_2026_8K / Q2_2026_10Q",
+      "character": "company guidance, not realized fact"
+    },
+    "mobility_separation": {
+      "transaction": "Reverse Morris Trust with Dana",
+      "announcement_in_q2_2026": "definitive agreements entered 2026-06-10",
+      "eaton_shareholders_expected_ownership_percent_minimum": 50.1,
+      "expected_close": "Q1 2027",
+      "source": "Q2_2026_10Q / Q2_2026_8K",
+      "character": "planned transaction; subject to closing conditions"
+    }
+  },
+  "insider_form4_2026_09_03": {
+    "reporting_person": "Shawn M. Black",
+    "relationship": "Officer; President - Aerospace Group of Eaton Corporation, a subsidiary of the issuer",
+    "transaction_date": "2026-09-01",
+    "security": "Restricted Stock Units",
+    "rsus_granted": 4605,
+    "exercise_or_derivative_price_usd": 0,
+    "vesting_schedule": "33% on first anniversary, 33% on second anniversary, remaining 34% on third anniversary of grant date",
+    "interpretation_guardrail": "This filing reports an equity award grant, not an open-market share sale; it is not classified as discretionary bearish insider evidence.",
+    "source": "FORM4_20260903"
+  },
+  "derived_metrics": {
+    "calculation_character": "mechanical calculations from reported values; not company-reported metrics unless otherwise indicated",
+    "fy2025_revenue_growth_percent": 10.3,
+    "fy2025_ocf_less_capex_usd_millions": 3553,
+    "fy2025_ocf_less_capex_per_diluted_share_usd": 9.08,
+    "h1_2026_revenue_growth_percent_yoy": 19.2,
+    "q2_2026_revenue_growth_percent_yoy": 21.4,
+    "h1_2026_ocf_less_capex_usd_millions": 1188,
+    "q2_2026_segment_operating_margin_percent": 23.1,
+    "q2_2026_electrical_americas_operating_margin_percent": 27.5,
+    "q2_2026_electrical_global_operating_margin_percent": 19.8,
+    "q2_2026_aerospace_operating_margin_percent": 22.8,
+    "boyd_reported_since_acquisition_segment_operating_margin_percent": 23.1,
+    "cash_plus_short_term_investments_usd_millions": 695,
+    "reported_debt_components_total_usd_millions": 20611,
+    "reported_debt_less_cash_and_short_term_investments_usd_millions": 19916,
+    "boyd_goodwill_as_percent_of_cash_consideration": 39.1,
+    "boyd_other_intangibles_as_percent_of_cash_consideration": 75.3,
+    "guardrails": [
+      "OCF minus capex is a limited cash-generation proxy, not complete owner FCF; it does not separately deduct acquisition spending, working-capital normalization, equity compensation, or debt service.",
+      "Debt components are summed from reported short-term debt, current portion of long-term debt and long-term debt; leases and other obligations are shown separately.",
+      "Boyd goodwill and intangible percentages are simple ratios to cash consideration and should not be added together as a purchase-premium percentage because identifiable net assets and liabilities are separately recognized.",
+      "Backlog is defined by Eaton as orders to which customers are firmly committed, but the filings reviewed here do not establish that all backlog is non-cancelable or economically equivalent to cash revenue."
+    ]
+  }
+}
