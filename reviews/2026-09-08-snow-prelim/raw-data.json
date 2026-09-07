@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "SNOW",
+  "company": "Snowflake Inc.",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "authority_status": "NON_CURRENT_RESEARCH_CHECKPOINT",
+  "source_resolution": [
+    {
+      "source_id": "FY2026_10K",
+      "file": "ba13b967-90b8-476b-ad4b-9f71a1cf7831.pdf",
+      "sha256": "6851f61cf7b2a2c804b1baeafdc98f1430b1ae7e89ecf42e65598684e9815a86",
+      "pages": 208,
+      "report_period": "fiscal year ended 2026-01-31",
+      "source_character": "SEC Form 10-K; audited U.S. GAAP financial statements",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_FY2027_10Q",
+      "file": "3d09ace8-e982-4b72-a0c1-1fc050dff92a.pdf",
+      "sha256": "2a054f7453ce00edcd7a3d1c8d483f34d7d8923dccc0613f1b9fcaed9ba2bd5b",
+      "pages": 232,
+      "report_period": "six months ended 2026-07-31",
+      "source_character": "SEC Form 10-Q; unaudited U.S. GAAP interim financial statements",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_FY2027_8K_EARNINGS",
+      "file": "28ed6ad0-102e-4e6e-974f-7122c64fe019.pdf",
+      "sha256": "0f1260f3f0c466ebd9df06b6e3dcb9da92e0b68e03cd9e3a1e15eeef98eebe00",
+      "pages": 19,
+      "report_date": "2026-09-02",
+      "source_character": "Form 8-K plus Exhibit 99.1 Q2 FY2027 earnings release",
+      "confidence": "high"
+    },
+    {
+      "source_id": "2026_PROXY_SUPPLEMENT",
+      "file": "a254b6d2-5971-45e2-ae68-a7a15a7acb12.pdf",
+      "sha256": "dbc067da2cc2c2579c8270b4e474021bda44c0c1ee552d728a426c2570514f0a",
+      "pages": 3,
+      "source_character": "Definitive additional proxy materials for 2026 annual meeting",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM144_MARK_GARRETT",
+      "file": "66bd7576-77f4-4d95-ae15-a53c08ac061b.pdf",
+      "sha256": "1b4d8cf57a7394d0129ec7d689cc354ba1254897159a200c79ce3abc858609c0",
+      "pages": 2,
+      "notice_date": "2026-09-04",
+      "source_character": "SEC Form 144 proposed sale notice",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM144_MICHAEL_SPEISER",
+      "file": "ac2155fa-a5be-414e-ad73-ad0f6b0dc8d0.pdf",
+      "sha256": "17f6d5862d678d1dab8105edb823b506a9c18009ed1e2e67f752f92fe970f4a4",
+      "pages": 2,
+      "notice_date": "2026-09-04",
+      "source_character": "SEC Form 144 proposed sale notice",
+      "confidence": "high"
+    }
+  ],
+  "business_model": {
+    "description": "Cloud-based AI Data Cloud platform delivered through a consumption-based model. Customers pay primarily according to platform consumption rather than a fixed-seat subscription model.",
+    "single_operating_segment": true,
+    "key_cost_driver": "Third-party public-cloud infrastructure, including AI inference and GPU costs, is the dominant component of product cost of revenue."
+  },
+  "fy2026": {
+    "unit": "USD million unless stated",
+    "revenue": 4683.946,
+    "revenue_prior_year": 3626.396,
+    "product_revenue": 4472.3,
+    "product_revenue_prior_year": 3462.4,
+    "gross_profit": 3146.141,
+    "operating_loss": -1435.165,
+    "net_loss": -1329.035,
+    "weighted_average_basic_and_diluted_shares_million": 337.493,
+    "weighted_average_basic_and_diluted_shares_prior_year_million": 332.707,
+    "operating_cash_flow": 1221.942,
+    "ppe_purchases": 101.628,
+    "company_non_gaap_free_cash_flow": 1120.3,
+    "stock_based_compensation": 1599.547,
+    "taxes_paid_net_share_settlement": 672.867,
+    "common_stock_repurchases": 873.537,
+    "ending_common_shares_outstanding_million": 343.918,
+    "prior_year_ending_common_shares_outstanding_million": 333.865,
+    "cash_and_cash_equivalents": 2828.163,
+    "short_term_investments": 1201.523,
+    "long_term_investments": 755.013,
+    "convertible_senior_notes_net": 2279.827,
+    "net_revenue_retention_rate_percent": 125,
+    "customers_over_1m_ttm_product_revenue": 733,
+    "customers_over_1m_ttm_product_revenue_prior_year": 576,
+    "forbes_global_2000_customers": 790,
+    "remaining_performance_obligations": 9771.5,
+    "remaining_performance_obligations_prior_year": 6867.5,
+    "third_party_cloud_infrastructure_percent_of_product_cost": 71,
+    "audit": {
+      "financial_statements": "unqualified / fairly presented in all material respects",
+      "icfr": "effective in all material respects as of 2026-01-31",
+      "auditor": "PricewaterhouseCoopers LLP"
+    }
+  },
+  "q2_fy2027": {
+    "unit": "USD million unless stated",
+    "quarter_end": "2026-07-31",
+    "revenue": 1546.793,
+    "revenue_prior_year": 1144.969,
+    "product_revenue": 1491.9,
+    "product_revenue_prior_year": 1090.5,
+    "gross_profit": 1036.718,
+    "gaap_product_gross_profit": 1057.4,
+    "gaap_product_gross_margin_percent": 70.9,
+    "operating_loss": -262.967,
+    "net_loss": -191.720,
+    "stock_based_compensation": 423.582,
+    "operating_cash_flow": 91.357,
+    "company_non_gaap_free_cash_flow": 83.803,
+    "company_non_gaap_adjusted_free_cash_flow": 92.303,
+    "cash_outflow_employee_payroll_tax_net_share_settlement": 184.9,
+    "net_revenue_retention_rate_percent": 126,
+    "customers_over_1m_ttm_product_revenue": 828,
+    "forbes_global_2000_customers": 829,
+    "remaining_performance_obligations": 9004.3,
+    "remaining_performance_obligations_yoy_growth_percent_reported": 30,
+    "weighted_average_basic_and_diluted_shares_million": 349.257,
+    "weighted_average_basic_and_diluted_shares_prior_year_million": 335.215,
+    "third_party_cloud_infrastructure_percent_of_product_cost": 75,
+    "third_party_cloud_infrastructure_percent_of_product_cost_prior_year": 70,
+    "ai_product_usage": {
+      "coco_accounts": 9100,
+      "coco_net_adds_in_quarter": 2000,
+      "cowork_accounts": 5800,
+      "ga_product_capabilities_first_half": 330,
+      "ga_product_capabilities_growth_percent": 35,
+      "net_new_customers_in_quarter": 692
+    }
+  },
+  "h1_fy2027": {
+    "unit": "USD million unless stated",
+    "revenue": 2937.744,
+    "revenue_prior_year": 2187.043,
+    "operating_loss": -589.121,
+    "net_loss": -487.291,
+    "stock_based_compensation": 826.052,
+    "operating_cash_flow": 334.580,
+    "ppe_purchases": 18.005,
+    "company_non_gaap_free_cash_flow": 316.575,
+    "taxes_paid_net_share_settlement": 327.742,
+    "common_stock_repurchases": 300.003,
+    "cash_paid_business_combinations": 254.449,
+    "non_cash_consideration_business_combinations": 420.590,
+    "ending_common_shares_outstanding_million": 352.455,
+    "starting_common_shares_outstanding_million": 343.918,
+    "weighted_average_basic_and_diluted_shares_million": 347.356,
+    "weighted_average_basic_and_diluted_shares_prior_year_million": 333.957,
+    "cash_and_cash_equivalents": 1707.187,
+    "short_term_investments": 637.508,
+    "long_term_investments": 1984.482,
+    "convertible_senior_notes_net": 2283.985,
+    "disclosure_controls_effective": true,
+    "material_icfr_change_in_q2": false
+  },
+  "guidance_fy2027": {
+    "q3_product_revenue_low": 1588,
+    "q3_product_revenue_high": 1593,
+    "q3_product_revenue_growth_percent": "37-38",
+    "q3_non_gaap_operating_margin_percent": 15.5,
+    "full_year_product_revenue": 6070,
+    "full_year_product_revenue_growth_percent": 36,
+    "full_year_non_gaap_product_gross_margin_percent": 74.0,
+    "full_year_non_gaap_operating_margin_percent": 14.5,
+    "full_year_non_gaap_adjusted_fcf_margin_percent": 23.0,
+    "full_year_non_gaap_diluted_shares_million": 380,
+    "notes_conversion_net_dilution_estimate_in_guidance_million_shares": 10
+  },
+  "ai_and_cloud_commitments": {
+    "amended_ai_service_provider_total_minimum_commitment": 390,
+    "remaining_minimum_commitment_2026_07_31": 270,
+    "incremental_first_contract_year_commitment": 190,
+    "contract_end": "2028-11",
+    "observation": "AI inference and GPU-related cloud infrastructure costs rose as a percentage of product cost, making unit economics of AI workloads a key incremental-ROIC question."
+  },
+  "recent_acquisitions": {
+    "observe": {
+      "acquisition_date": "2026-02-02",
+      "preliminary_purchase_consideration": 595.8,
+      "cash_component": 285.7,
+      "stock_component": 285.3,
+      "stock_component_million_shares_approx": 1.5,
+      "description": "AI-powered observability platform"
+    },
+    "natoma": {
+      "acquisition_date": "2026-06-03",
+      "preliminary_purchase_consideration": 128.3,
+      "cash_component": 17.7,
+      "stock_component": 110.5,
+      "stock_component_million_shares_approx": 0.5,
+      "post_combination_employee_stock_compensation_fair_value": 54.4,
+      "post_combination_employee_shares_million_approx": 0.2,
+      "description": "enterprise Model Context Protocol platform for AI agents"
+    }
+  },
+  "governance": {
+    "2025_say_on_pay_support_percent_approx": 30,
+    "2026_proxy_advisor_position": "ISS and Glass Lewis recommended against the 2026 Say-on-Pay proposal; company disagreed.",
+    "stockholder_outreach": "Company requested engagement with 38 large institutional stockholders; 12 accepted, representing about 26% of outstanding shares.",
+    "fy2027_prsu_redesign": "Three-year cumulative performance period and three-year cliff vesting; product revenue carries 70% weighting among performance metrics.",
+    "interpretation_guardrail": "The supplied proxy document is a supplement, not the full definitive proxy statement; no unsupported executive-pay totals were inferred."
+  },
+  "insider_rule_144": [
+    {
+      "person": "Mark S. Garrett",
+      "relationship": "Director",
+      "proposed_sale_shares": 50000,
+      "aggregate_market_value_reported": 17500000,
+      "approximate_sale_date": "2026-09-04",
+      "acquisition": "50,000 shares via stock option exercise on 2026-09-04 for cash",
+      "rule_10b5_1_plan_date_disclosed": null,
+      "interpretation": "Proposed sale notice only; no 10b5-1 plan date was disclosed in the supplied Form 144, so a preplanned-sale characterization was not inferred."
+    },
+    {
+      "person": "Michael L. Speiser",
+      "relationship": "Affiliate",
+      "proposed_sale_shares": 50741,
+      "aggregate_market_value_reported": 17955783.63,
+      "approximate_sale_date": "2026-09-04",
+      "rule_10b5_1_plan_date_disclosed": "2024-12-27",
+      "recent_sales": [
+        {"date": "2026-07-06", "shares": 50741, "gross_proceeds": 13086427},
+        {"date": "2026-08-07", "shares": 50741, "gross_proceeds": 16443118}
+      ],
+      "interpretation": "The proposed sale is linked to a disclosed Rule 10b5-1 plan adopted 2024-12-27 and is not treated as a discretionary bearish signal."
+    }
+  ],
+  "derived_metrics": {
+    "character": "Mechanical calculations from supplied reported values; not company-reported metrics unless explicitly labeled.",
+    "fy2026_revenue_growth_percent": 29.16,
+    "fy2026_product_revenue_growth_percent": 29.17,
+    "fy2026_gaap_operating_margin_percent": -30.64,
+    "fy2026_company_fcf_margin_percent": 23.92,
+    "fy2026_sbc_as_percent_revenue": 34.15,
+    "fy2026_fcf_less_sbc_usd_million": -479.25,
+    "fy2026_fcf_less_equity_tax_withholding_usd_million": 447.43,
+    "fy2026_ending_share_count_growth_percent": 3.01,
+    "fy2026_rpo_growth_percent": 42.29,
+    "fy2026_customers_over_1m_growth_percent": 27.26,
+    "fy2026_cash_plus_investments_usd_million": 4784.70,
+    "q2_fy2027_revenue_growth_percent": 35.09,
+    "q2_fy2027_product_revenue_growth_percent": 36.81,
+    "q2_fy2027_gaap_operating_margin_percent": -17.00,
+    "q2_fy2027_sbc_as_percent_revenue": 27.38,
+    "q2_fy2027_company_fcf_margin_percent": 5.42,
+    "q2_fy2027_fcf_less_equity_tax_withholding_usd_million": -101.10,
+    "q2_fy2027_weighted_average_share_growth_yoy_percent": 4.19,
+    "h1_fy2027_revenue_growth_percent": 34.32,
+    "h1_fy2027_gaap_operating_margin_percent": -20.05,
+    "h1_fy2027_sbc_as_percent_revenue": 28.12,
+    "h1_fy2027_company_fcf_margin_percent": 10.78,
+    "h1_fy2027_fcf_less_sbc_usd_million": -509.48,
+    "h1_fy2027_fcf_less_equity_tax_withholding_usd_million": -11.17,
+    "h1_fy2027_ending_share_count_growth_percent": 2.48,
+    "h1_fy2027_weighted_average_share_growth_yoy_percent": 4.01,
+    "h1_fy2027_cash_plus_investments_usd_million": 4329.18,
+    "guardrails": [
+      "Company-defined/non-GAAP free cash flow excludes financing cash outflows for taxes paid on net share settlement of equity awards.",
+      "FCF less SBC is a conservative economic diagnostic, not a complete owner-FCF measure; do not double-count it with a separate future dilution charge.",
+      "RPO is contracted future revenue but timing depends on customer consumption and can move sequentially even when year-over-year growth remains strong.",
+      "No synchronized current stock price, reverse DCF, or Bear/Base/Bull valuation was inferred from the supplied filings."
+    ]
+  }
+}
