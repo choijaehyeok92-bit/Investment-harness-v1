@@ -1,0 +1,45 @@
+{
+  "revenue": 0.479003,
+  "operating_profit": 0.1207,
+  "ocf": null,
+  "cash_capex": 0.007282,
+  "sbc": 0.087979,
+  "additional_cash_investment": null,
+  "ticker": "CRDO",
+  "period": "Q1 FY2027 ended 2026-08-01",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.25198172036500815,
+  "ocf_less_named_capex": null,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "ocf",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/CRDO/raw-data/2027-Q1.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/CRDO/raw-data/2027-Q1.json",
+      "sha256": "c7f3714a7b23df50bb6ec3939ad81b299b0dbb85a249fdfb4415b583556718d1"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results/",
+    "location": "September1 release, Q1 income statement and GAAP reconciliation",
+    "facts": {
+      "diluted_shares_m": 194.378,
+      "q1_sbc_usd_m": 87.979,
+      "q1_revenue_usd_m": 479.003,
+      "cash_and_short_investments_usd_m": 764.258
+    }
+  }
+}

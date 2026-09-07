@@ -1,0 +1,41 @@
+{
+  "revenue": 2.578030056694,
+  "operating_profit": 1.167196422965,
+  "ocf": 1.392488374186,
+  "cash_capex": 0.17261141911,
+  "sbc": null,
+  "additional_cash_investment": 0.0179933188,
+  "ticker": "207940",
+  "period": "H1 2026 continuing",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.45274740685598636,
+  "ocf_less_named_capex": 1.2198769550759998,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/207940/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/207940/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "36c2680772edda2048c62b951678c0cc95c94f3595fb4b5f6b168ac4fa8a0cea"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://samsungbiologics.com/kr/ir/stock-info/stock-charts",
+    "location": "Stock information 2026-09-04",
+    "facts": {
+      "price_krw": 1447000
+    }
+  }
+}

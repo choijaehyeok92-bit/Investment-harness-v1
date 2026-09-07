@@ -1,0 +1,425 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-09-05",
+  "current_price": 141.26,
+  "implied_expectations": {
+    "method": "10-year annual owner distributions plus year-10 equity FCF multiple",
+    "claim_type": "estimate",
+    "hurdle": 0.09,
+    "shares_m": 1033.862,
+    "initial_owner_margin": 0.15,
+    "reverse_grid": [
+      {
+        "terminal_owner_margin": 0.2,
+        "terminal_equity_fcf_multiple": 18,
+        "required_10y_revenue_cagr": 0.16850113264713296,
+        "repriced_value": 141.25999999999993
+      },
+      {
+        "terminal_owner_margin": 0.2,
+        "terminal_equity_fcf_multiple": 23,
+        "required_10y_revenue_cagr": 0.1451349504502225,
+        "repriced_value": 141.26000000000022
+      },
+      {
+        "terminal_owner_margin": 0.2,
+        "terminal_equity_fcf_multiple": 28,
+        "required_10y_revenue_cagr": 0.12619408497003792,
+        "repriced_value": 141.2600000000001
+      },
+      {
+        "terminal_owner_margin": 0.24,
+        "terminal_equity_fcf_multiple": 18,
+        "required_10y_revenue_cagr": 0.14702481849915594,
+        "repriced_value": 141.2600000000001
+      },
+      {
+        "terminal_owner_margin": 0.24,
+        "terminal_equity_fcf_multiple": 23,
+        "required_10y_revenue_cagr": 0.12412684382091077,
+        "repriced_value": 141.26000000000022
+      },
+      {
+        "terminal_owner_margin": 0.24,
+        "terminal_equity_fcf_multiple": 28,
+        "required_10y_revenue_cagr": 0.10556116374725655,
+        "repriced_value": 141.25999999999982
+      },
+      {
+        "terminal_owner_margin": 0.28,
+        "terminal_equity_fcf_multiple": 18,
+        "required_10y_revenue_cagr": 0.12903932382291783,
+        "repriced_value": 141.26000000000002
+      },
+      {
+        "terminal_owner_margin": 0.28,
+        "terminal_equity_fcf_multiple": 23,
+        "required_10y_revenue_cagr": 0.10654640473258603,
+        "repriced_value": 141.25999999999993
+      },
+      {
+        "terminal_owner_margin": 0.28,
+        "terminal_equity_fcf_multiple": 28,
+        "required_10y_revenue_cagr": 0.08830401827069145,
+        "repriced_value": 141.26000000000025
+      }
+    ],
+    "base_hurdle_sensitivity": {
+      "0.08": 204.86502591057612,
+      "0.09": 188.1844039647022,
+      "0.1": 173.05386076271213,
+      "0.12": 146.82843219734235
+    },
+    "base_share_count_sensitivity": {
+      "1033.862": 188.1844039647022,
+      "1034.334": 188.0985293452163,
+      "1050": 185.2920992873857
+    },
+    "base_start_margin_sensitivity": "See financial-inputs.json: 15% is a forecast assumption, not an audited normalized FCF bridge."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "revenue_cagr": 0.08,
+      "terminal_owner_margin": 0.16,
+      "terminal_equity_fcf_multiple": 18,
+      "discount_rate": 0.09,
+      "fair_value_per_share": 58.485005454994585,
+      "upside_downside": -0.5859761754566432,
+      "annual_distribution_irr": -0.01496574434560699,
+      "year_10_terminal_price": 88.59907338918484,
+      "terminal_pv_fraction": 0.6399111325950955,
+      "years": [
+        {
+          "year": 1,
+          "revenue_usd_m": 15910.560000000001,
+          "owner_margin": 0.151,
+          "owner_fcf_usd_m": 2402.49456,
+          "owner_fcf_per_share": 2.3238058464282467
+        },
+        {
+          "year": 2,
+          "revenue_usd_m": 17183.4048,
+          "owner_margin": 0.152,
+          "owner_fcf_usd_m": 2611.8775296,
+          "owner_fcf_per_share": 2.52633091224941
+        },
+        {
+          "year": 3,
+          "revenue_usd_m": 18558.077184,
+          "owner_margin": 0.153,
+          "owner_fcf_usd_m": 2839.385809152,
+          "owner_fcf_per_share": 2.7463876311848194
+        },
+        {
+          "year": 4,
+          "revenue_usd_m": 20042.723358720006,
+          "owner_margin": 0.154,
+          "owner_fcf_usd_m": 3086.579397242881,
+          "owner_fcf_per_share": 2.985484907311499
+        },
+        {
+          "year": 5,
+          "revenue_usd_m": 21646.141227417607,
+          "owner_margin": 0.155,
+          "owner_fcf_usd_m": 3355.151890249729,
+          "owner_fcf_per_share": 3.245260866778863
+        },
+        {
+          "year": 6,
+          "revenue_usd_m": 23377.832525611015,
+          "owner_margin": 0.156,
+          "owner_fcf_usd_m": 3646.9418739953185,
+          "owner_fcf_per_share": 3.527493876354212
+        },
+        {
+          "year": 7,
+          "revenue_usd_m": 25248.0591276599,
+          "owner_margin": 0.157,
+          "owner_fcf_usd_m": 3963.9452830426044,
+          "owner_fcf_per_share": 3.8341144979142325
+        },
+        {
+          "year": 8,
+          "revenue_usd_m": 27267.903857872694,
+          "owner_margin": 0.158,
+          "owner_fcf_usd_m": 4308.328809543886,
+          "owner_fcf_per_share": 4.1672184581151885
+        },
+        {
+          "year": 9,
+          "revenue_usd_m": 29449.33616650251,
+          "owner_margin": 0.159,
+          "owner_fcf_usd_m": 4682.444450473899,
+          "owner_fcf_per_share": 4.529080719161647
+        },
+        {
+          "year": 10,
+          "revenue_usd_m": 31805.283059822716,
+          "owner_margin": 0.16,
+          "owner_fcf_usd_m": 5088.845289571635,
+          "owner_fcf_per_share": 4.922170743843602
+        }
+      ]
+    },
+    "base": {
+      "claim_type": "estimate",
+      "revenue_cagr": 0.16,
+      "terminal_owner_margin": 0.24,
+      "terminal_equity_fcf_multiple": 23,
+      "discount_rate": 0.09,
+      "fair_value_per_share": 188.1844039647022,
+      "upside_downside": 0.3321846521641103,
+      "annual_distribution_irr": 0.12478409972161197,
+      "year_10_terminal_price": 346.9909174669938,
+      "terminal_pv_fraction": 0.7788781128759262,
+      "years": [
+        {
+          "year": 1,
+          "revenue_usd_m": 17089.12,
+          "owner_margin": 0.159,
+          "owner_fcf_usd_m": 2717.17008,
+          "owner_fcf_per_share": 2.6281748241061185
+        },
+        {
+          "year": 2,
+          "revenue_usd_m": 19823.3792,
+          "owner_margin": 0.16799999999999998,
+          "owner_fcf_usd_m": 3330.3277055999997,
+          "owner_fcf_per_share": 3.2212497466779895
+        },
+        {
+          "year": 3,
+          "revenue_usd_m": 22995.119871999996,
+          "owner_margin": 0.177,
+          "owner_fcf_usd_m": 4070.136217343999,
+          "owner_fcf_per_share": 3.936827368975742
+        },
+        {
+          "year": 4,
+          "revenue_usd_m": 26674.339051519994,
+          "owner_margin": 0.186,
+          "owner_fcf_usd_m": 4961.427063582719,
+          "owner_fcf_per_share": 4.79892583689382
+        },
+        {
+          "year": 5,
+          "revenue_usd_m": 30942.233299763186,
+          "owner_margin": 0.195,
+          "owner_fcf_usd_m": 6033.735493453822,
+          "owner_fcf_per_share": 5.8361130338999025
+        },
+        {
+          "year": 6,
+          "revenue_usd_m": 35892.990627725296,
+          "owner_margin": 0.20400000000000001,
+          "owner_fcf_usd_m": 7322.170088055961,
+          "owner_fcf_per_share": 7.082347632523452
+        },
+        {
+          "year": 7,
+          "revenue_usd_m": 41635.86912816134,
+          "owner_margin": 0.213,
+          "owner_fcf_usd_m": 8868.440124298366,
+          "owner_fcf_per_share": 8.577972809038696
+        },
+        {
+          "year": 8,
+          "revenue_usd_m": 48297.60818866715,
+          "owner_margin": 0.22199999999999998,
+          "owner_fcf_usd_m": 10722.069017884107,
+          "owner_fcf_per_share": 10.370889942646219
+        },
+        {
+          "year": 9,
+          "revenue_usd_m": 56025.2254988539,
+          "owner_margin": 0.23099999999999998,
+          "owner_fcf_usd_m": 12941.82709023525,
+          "owner_fcf_per_share": 12.517944455096764
+        },
+        {
+          "year": 10,
+          "revenue_usd_m": 64989.26157867051,
+          "owner_margin": 0.24,
+          "owner_fcf_usd_m": 15597.42277888092,
+          "owner_fcf_per_share": 15.08656162899973
+        }
+      ]
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "revenue_cagr": 0.22,
+      "terminal_owner_margin": 0.28,
+      "terminal_equity_fcf_multiple": 28,
+      "discount_rate": 0.09,
+      "fair_value_per_share": 409.78079013695816,
+      "upside_downside": 1.9008975657437222,
+      "annual_distribution_irr": 0.22190121296532983,
+      "year_10_terminal_price": 816.0438697763717,
+      "terminal_pv_fraction": 0.8411954825391131,
+      "years": [
+        {
+          "year": 1,
+          "revenue_usd_m": 17973.04,
+          "owner_margin": 0.163,
+          "owner_fcf_usd_m": 2929.60552,
+          "owner_fcf_per_share": 2.8336523830066294
+        },
+        {
+          "year": 2,
+          "revenue_usd_m": 21927.108799999998,
+          "owner_margin": 0.176,
+          "owner_fcf_usd_m": 3859.1711487999996,
+          "owner_fcf_per_share": 3.732772022571677
+        },
+        {
+          "year": 3,
+          "revenue_usd_m": 26751.072736,
+          "owner_margin": 0.189,
+          "owner_fcf_usd_m": 5055.952747104,
+          "owner_fcf_per_share": 4.890355528207826
+        },
+        {
+          "year": 4,
+          "revenue_usd_m": 32636.308737919993,
+          "owner_margin": 0.202,
+          "owner_fcf_usd_m": 6592.534365059839,
+          "owner_fcf_per_share": 6.37660961043141
+        },
+        {
+          "year": 5,
+          "revenue_usd_m": 39816.29666026239,
+          "owner_margin": 0.21500000000000002,
+          "owner_fcf_usd_m": 8560.503781956415,
+          "owner_fcf_per_share": 8.280122281268113
+        },
+        {
+          "year": 6,
+          "revenue_usd_m": 48575.88192552012,
+          "owner_margin": 0.22800000000000004,
+          "owner_fcf_usd_m": 11075.301079018589,
+          "owner_fcf_per_share": 10.712552622128086
+        },
+        {
+          "year": 7,
+          "revenue_usd_m": 59262.575949134545,
+          "owner_margin": 0.24100000000000002,
+          "owner_fcf_usd_m": 14282.280803741427,
+          "owner_fcf_per_share": 13.81449439455307
+        },
+        {
+          "year": 8,
+          "revenue_usd_m": 72300.34265794414,
+          "owner_margin": 0.254,
+          "owner_fcf_usd_m": 18364.287035117814,
+          "owner_fcf_per_share": 17.762802999934046
+        },
+        {
+          "year": 9,
+          "revenue_usd_m": 88206.41804269186,
+          "owner_margin": 0.267,
+          "owner_fcf_usd_m": 23551.11361739873,
+          "owner_fcf_per_share": 22.779745862986285
+        },
+        {
+          "year": 10,
+          "revenue_usd_m": 107611.83001208407,
+          "owner_margin": 0.28,
+          "owner_fcf_usd_m": 30131.312403383545,
+          "owner_fcf_per_share": 29.144423920584703
+        }
+      ]
+    }
+  },
+  "permanent_loss_case": {
+    "claim_type": "estimate",
+    "revenue_cagr": 0,
+    "terminal_owner_margin": 0.1,
+    "terminal_equity_fcf_multiple": 12,
+    "discount_rate": 0.09,
+    "fair_value_per_share": 18.746471018655846,
+    "upside_downside": -0.8672910164331314,
+    "annual_distribution_irr": -0.1566291804209698,
+    "year_10_terminal_price": 17.09938076841977,
+    "terminal_pv_fraction": 0.38529722317425896,
+    "years": [
+      {
+        "year": 1,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.145,
+        "owner_fcf_usd_m": 2136.14,
+        "owner_fcf_per_share": 2.066175176184055
+      },
+      {
+        "year": 2,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.13999999999999999,
+        "owner_fcf_usd_m": 2062.4799999999996,
+        "owner_fcf_per_share": 1.9949277563156391
+      },
+      {
+        "year": 3,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.135,
+        "owner_fcf_usd_m": 1988.8200000000002,
+        "owner_fcf_per_share": 1.9236803364472241
+      },
+      {
+        "year": 4,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.13,
+        "owner_fcf_usd_m": 1915.16,
+        "owner_fcf_per_share": 1.8524329165788083
+      },
+      {
+        "year": 5,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.125,
+        "owner_fcf_usd_m": 1841.5,
+        "owner_fcf_per_share": 1.7811854967103926
+      },
+      {
+        "year": 6,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.12,
+        "owner_fcf_usd_m": 1767.84,
+        "owner_fcf_per_share": 1.7099380768419767
+      },
+      {
+        "year": 7,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.115,
+        "owner_fcf_usd_m": 1694.18,
+        "owner_fcf_per_share": 1.6386906569735613
+      },
+      {
+        "year": 8,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.11,
+        "owner_fcf_usd_m": 1620.52,
+        "owner_fcf_per_share": 1.5674432371051454
+      },
+      {
+        "year": 9,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.10500000000000001,
+        "owner_fcf_usd_m": 1546.8600000000001,
+        "owner_fcf_per_share": 1.4961958172367298
+      },
+      {
+        "year": 10,
+        "revenue_usd_m": 14732,
+        "owner_margin": 0.1,
+        "owner_fcf_usd_m": 1473.2,
+        "owner_fcf_per_share": 1.4249483973683141
+      }
+    ],
+    "cause": "AI front ends commoditize workflows while acquisitions fail, limiting sales and owner margin for a decade.",
+    "probability": null,
+    "not_a_price_floor": true
+  },
+  "expectation_gap_score": 10,
+  "asymmetry_score": 6,
+  "subjective_probabilities": null,
+  "notes": "FCFE-style owner proxy, not true legal distributable cash or an EV DCF. SBC replacement expense deducted; future share count held constant without free repurchases. No separate future dilution charge for the same compensation. Debt interest and ordinary cash income remain within margins; cash/debt is not added again. Principal refinancing and required liquidity are assumed viable; a refinancing/liquidity stress is not fully captured. 100% available owner cash is valued as annual distribution, not a forecast dividend. Future acquisition purchase prices and speculative strategic-investment exits excluded: growth must be funded from modeled reinvestment; serial debt-funded M&A invalidates Base. Terminal value is an equity P/FCF multiple, not EV/FCF. Probabilities unknown; no calibrated expected return."
+}

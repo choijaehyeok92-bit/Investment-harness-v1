@@ -1,0 +1,768 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.36676424603874247,
+    "required_owner_margin_delta": 0.4107305509412854,
+    "price_reference": 64.26,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 19.97209990938942,
+    "implied_year_10_owner_cash": 3.5949779836900957,
+    "residual_price": 4.263256414560601e-14
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 0.95,
+              "owner_margin": -0.3,
+              "owner_cash_before_attribution": -0.285,
+              "ownership": 1,
+              "attributable_cash": -0.285
+            }
+          ],
+          "special_cash_adjustment": -0.15,
+          "owner_cash": -0.43499999999999994,
+          "cash_deficit": 0.43499999999999994,
+          "available_cash_used": 0.43499999999999994,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.064,
+              "owner_margin": -0.205,
+              "owner_cash_before_attribution": -0.21812,
+              "ownership": 1,
+              "attributable_cash": -0.21812
+            }
+          ],
+          "special_cash_adjustment": -0.2,
+          "owner_cash": -0.41812000000000005,
+          "cash_deficit": 0.41812000000000005,
+          "available_cash_used": 0.41812000000000005,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.19168,
+              "owner_margin": -0.10999999999999999,
+              "owner_cash_before_attribution": -0.1310848,
+              "ownership": 1,
+              "attributable_cash": -0.1310848
+            }
+          ],
+          "special_cash_adjustment": -0.2,
+          "owner_cash": -0.3310848,
+          "cash_deficit": 0.3310848,
+          "available_cash_used": 0.3310848,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.3346816000000004,
+              "owner_margin": -0.014999999999999958,
+              "owner_cash_before_attribution": -0.020020223999999948,
+              "ownership": 1,
+              "attributable_cash": -0.020020223999999948
+            }
+          ],
+          "special_cash_adjustment": -0.1,
+          "owner_cash": -0.12002022399999995,
+          "cash_deficit": 0.12002022399999995,
+          "available_cash_used": 0.12002022399999995,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.4948433920000004,
+              "owner_margin": 0.08000000000000002,
+              "owner_cash_before_attribution": 0.11958747136000006,
+              "ownership": 1,
+              "attributable_cash": 0.11958747136000006
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.11958747136000006,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.5546371276800004,
+              "owner_margin": 0.08000000000000002,
+              "owner_cash_before_attribution": 0.12437097021440005,
+              "ownership": 1,
+              "attributable_cash": 0.12437097021440005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.12437097021440005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.6168226127872005,
+              "owner_margin": 0.08000000000000002,
+              "owner_cash_before_attribution": 0.12934580902297607,
+              "ownership": 1,
+              "attributable_cash": 0.12934580902297607
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.12934580902297607,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.6814955172986885,
+              "owner_margin": 0.08000000000000002,
+              "owner_cash_before_attribution": 0.1345196413838951,
+              "ownership": 1,
+              "attributable_cash": 0.1345196413838951
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.1345196413838951,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.7487553379906362,
+              "owner_margin": 0.08000000000000002,
+              "owner_cash_before_attribution": 0.13990042703925093,
+              "ownership": 1,
+              "attributable_cash": 0.13990042703925093
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.13990042703925093,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.8187055515102617,
+              "owner_margin": 0.08000000000000002,
+              "owner_cash_before_attribution": 0.14549644412082097,
+              "ownership": 1,
+              "attributable_cash": 0.14549644412082097
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.14549644412082097,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": -0.6756666039111575,
+      "pv_terminal": 0.9833483257844718,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 0.30768172187331433,
+      "equity_value": 0.30768172187331433,
+      "value_per_share": 0.5143627279120657,
+      "value_to_price": 0.008004399749643102,
+      "upside_downside": -0.9919956002503569,
+      "terminal_fraction_of_operating_pv": 3.195992013426648,
+      "year_10_revenue": 1.8187055515102617,
+      "year_10_owner_cash": 0.14549644412082097,
+      "year_10_owner_cash_per_share": 0.2432316987952404,
+      "year_10_exit_price": 3.8917071807238464,
+      "irr_roots": [
+        -0.23530124991399243
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 1.304225024,
+      "unrestricted_cash_after_reserve": 1.6294849999999999,
+      "external_funding_gap": 0.0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 2.339379568684393,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.2,
+              "owner_margin": -0.2,
+              "owner_cash_before_attribution": -0.24,
+              "ownership": 1,
+              "attributable_cash": -0.24
+            }
+          ],
+          "special_cash_adjustment": -0.15,
+          "owner_cash": -0.39,
+          "cash_deficit": 0.39,
+          "available_cash_used": 0.39,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.512,
+              "owner_margin": -0.10500000000000001,
+              "owner_cash_before_attribution": -0.15876,
+              "ownership": 1,
+              "attributable_cash": -0.15876
+            }
+          ],
+          "special_cash_adjustment": -0.15,
+          "owner_cash": -0.30876000000000003,
+          "cash_deficit": 0.30876000000000003,
+          "available_cash_used": 0.30876000000000003,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.9051200000000001,
+              "owner_margin": -0.010000000000000009,
+              "owner_cash_before_attribution": -0.019051200000000018,
+              "ownership": 1,
+              "attributable_cash": -0.019051200000000018
+            }
+          ],
+          "special_cash_adjustment": -0.1,
+          "owner_cash": -0.11905120000000002,
+          "cash_deficit": 0.11905120000000002,
+          "available_cash_used": 0.11905120000000002,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 2.4004512,
+              "owner_margin": 0.08500000000000002,
+              "owner_cash_before_attribution": 0.20403835200000006,
+              "ownership": 1,
+              "attributable_cash": 0.20403835200000006
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.20403835200000006,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 3.024568512,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 0.54442233216,
+              "ownership": 1,
+              "attributable_cash": 0.54442233216
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.54442233216,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 3.3875167334400005,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 0.6097530120192001,
+              "ownership": 1,
+              "attributable_cash": 0.6097530120192001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.6097530120192001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 3.794018741452801,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 0.6829233734615041,
+              "ownership": 1,
+              "attributable_cash": 0.6829233734615041
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.6829233734615041,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 4.2493009904271375,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 0.7648741782768848,
+              "ownership": 1,
+              "attributable_cash": 0.7648741782768848
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.7648741782768848,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 4.759217109278394,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 0.8566590796701109,
+              "ownership": 1,
+              "attributable_cash": 0.8566590796701109
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.8566590796701109,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 5.330323162391802,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 0.9594581692305244,
+              "ownership": 1,
+              "attributable_cash": 0.9594581692305244
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.9594581692305244,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 1.7095163898659806,
+      "pv_terminal": 8.916280987841176,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 10.625797377707157,
+      "equity_value": 10.625797377707157,
+      "value_per_share": 17.76353204266295,
+      "value_to_price": 0.27643218242550494,
+      "upside_downside": -0.7235678175744951,
+      "terminal_fraction_of_operating_pv": 0.8391164136582792,
+      "year_10_revenue": 5.330323162391802,
+      "year_10_owner_cash": 0.9594581692305244,
+      "year_10_owner_cash_per_share": 1.603961126576534,
+      "year_10_exit_price": 35.28714478468374,
+      "irr_roots": [
+        -0.04317241690026613
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0.8178112000000001,
+      "unrestricted_cash_after_reserve": 1.6294849999999999,
+      "external_funding_gap": 0.0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 18.94980395110681,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 1.5,
+              "owner_margin": -0.12,
+              "owner_cash_before_attribution": -0.18,
+              "ownership": 1,
+              "attributable_cash": -0.18
+            }
+          ],
+          "special_cash_adjustment": -0.2,
+          "owner_cash": -0.38,
+          "cash_deficit": 0.38,
+          "available_cash_used": 0.38,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 2.0999999999999996,
+              "owner_margin": -0.022499999999999992,
+              "owner_cash_before_attribution": -0.04724999999999997,
+              "ownership": 1,
+              "attributable_cash": -0.04724999999999997
+            }
+          ],
+          "special_cash_adjustment": -0.2,
+          "owner_cash": -0.24724999999999997,
+          "cash_deficit": 0.24724999999999997,
+          "available_cash_used": 0.24724999999999997,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 2.9399999999999995,
+              "owner_margin": 0.07500000000000001,
+              "owner_cash_before_attribution": 0.2205,
+              "ownership": 1,
+              "attributable_cash": 0.2205
+            }
+          ],
+          "special_cash_adjustment": -0.1,
+          "owner_cash": 0.1205,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 4.115999999999999,
+              "owner_margin": 0.1725,
+              "owner_cash_before_attribution": 0.7100099999999997,
+              "ownership": 1,
+              "attributable_cash": 0.7100099999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.7100099999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 5.762399999999999,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 1.5558479999999997,
+              "ownership": 1,
+              "attributable_cash": 1.5558479999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.5558479999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 6.914879999999998,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 1.8670175999999996,
+              "ownership": 1,
+              "attributable_cash": 1.8670175999999996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.8670175999999996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 8.297855999999998,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 2.2404211199999997,
+              "ownership": 1,
+              "attributable_cash": 2.2404211199999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.2404211199999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 9.957427199999996,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 2.6885053439999993,
+              "ownership": 1,
+              "attributable_cash": 2.6885053439999993
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.6885053439999993,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 11.948912639999996,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 3.226206412799999,
+              "ownership": 1,
+              "attributable_cash": 3.226206412799999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.226206412799999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "launch_and_space_systems",
+              "revenue": 14.338695167999994,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 3.8714476953599988,
+              "ownership": 1,
+              "attributable_cash": 3.8714476953599988
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.8714476953599988,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 7.859377553149628,
+      "pv_terminal": 45.78955765584122,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 53.64893520899085,
+      "equity_value": 53.64893520899085,
+      "value_per_share": 89.68687673633161,
+      "value_to_price": 1.3956874686637348,
+      "upside_downside": 0.39568746866373483,
+      "terminal_fraction_of_operating_pv": 0.8535035686629527,
+      "year_10_revenue": 14.338695167999994,
+      "year_10_owner_cash": 3.8714476953599988,
+      "year_10_owner_cash_per_share": 6.472039955542643,
+      "year_10_exit_price": 181.21711875519404,
+      "irr_roots": [
+        0.12817232015769886
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0.62725,
+      "unrestricted_cash_after_reserve": 1.6294849999999999,
+      "external_funding_gap": 0.0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 90.61758124650846,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 17.341826925980968
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 21.35345092944843
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 25.365074932915896
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 14.367402790715694
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 17.76353204266295
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 21.1596612946102
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 11.926412832526145
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 14.815036191185827
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 17.703659549845508
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 14.375879474130386
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 17.76353204266295
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 21.15118461119551
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.7148574645553805,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 18.698454781750474
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 17.76353204266295
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 16.917649564440904
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 16.14866549332995
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "unclosed_transaction": {
+      "status": "CONDITIONAL",
+      "note": "6월598.180438백만주는 자사주를 제외한 실제 분모이다. Iridium 약8B EV를 모두 주주 대가로 보거나 신규 매출을 공짜로 넣지 않는다. 미완료 거래는 별도 범위로 스트레스하고 3.6B bridge 금융 실행을 감시한다.",
+      "acquired_business_incremental_npv_test": [
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+          "value_per_share": 1.698532042662947
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+          "value_per_share": 11.337532042662946
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": 0,
+          "value_per_share": 17.76353204266295
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+          "value_per_share": 24.18953204266295
+        }
+      ],
+      "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+    }
+  }
+}

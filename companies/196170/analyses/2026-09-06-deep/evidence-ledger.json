@@ -1,0 +1,122 @@
+{
+  "ticker": "196170",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-d8dac146d704593423d9",
+    "obs-ef09eab84affffe4809a",
+    "obs-e5e8424a033afed574fb",
+    "obs-86f04b28bfbcf37c5b9c",
+    "obs-a4a2f8e464de4e7d717f",
+    "obs-08a1d26b17294c442dd1",
+    "obs-571b5ddc759c3787bac6",
+    "obs-368688235ffcbe0dd342",
+    "obs-053b3bc5ac39f1ff0fdc",
+    "obs-542cb9aa25020a5366b3",
+    "obs-e8291b78eb740940dd69",
+    "obs-9af67cff2c40c3ec0ded",
+    "obs-c044e606cdfc79e64f01",
+    "obs-c4ae833cf77b7a628a3f",
+    "obs-bd1eb7417a04d4485790",
+    "obs-cbd615afbc3835a58183",
+    "obs-a5cb14a6efebfb9b624a",
+    "obs-0eca80e923729eb9cb7d",
+    "obs-986753be7f20180674b1",
+    "obs-1f4ac355b912aa7266a4",
+    "obs-0579b0de15cbe645f226",
+    "obs-c4186dd2d322fc85bd29",
+    "obs-a5b49c86a3e790c6d187",
+    "obs-995fe2091903ab36f9e0",
+    "obs-68edf9314534a3300c62",
+    "obs-7fc64dcc08edd97a4cd3",
+    "obs-a1fb31dafeab0a678197",
+    "obs-a4d46f00876bd8f26770",
+    "obs-35530291662cc6026910",
+    "obs-1c30761dbc65973c434a",
+    "obs-a40669696b3850513b9b",
+    "obs-453fc16fe128da8b4b91",
+    "obs-35bf6c857fd4c564a6f3",
+    "obs-e180aef97c71065f0529",
+    "obs-39ff7fdd9088c3db1104",
+    "obs-58876e897162bdc9d0ce",
+    "obs-be81c850b7e7c1347c17",
+    "obs-a66f22a818220ff44e55",
+    "obs-4fcb9ff9c5fbca841424",
+    "obs-51409e06ac9c3606474e",
+    "obs-eda22714bc92c8fadcf4",
+    "obs-387d57c3614e336caacb",
+    "obs-b047d3bf41972e33055c",
+    "obs-8dc78306766f50b77844",
+    "obs-182d6493a988bb612417",
+    "obs-c20767c365bd711682bc",
+    "obs-260119a8ec6108af0783",
+    "obs-f731ca2e4e637fabe6bd",
+    "obs-5b1cb7128e2ba1bd16fe",
+    "obs-e2b2a6c2249a822dc8c5",
+    "obs-afc33556fbf95959a81c",
+    "obs-873cf3127f5249afc25e",
+    "obs-c9df5f708e7877d1fd8c",
+    "obs-3878e4199f551757c76d",
+    "obs-b5ca40f30f125cd7cb1b",
+    "obs-ea466d8a6be02d5bc03e",
+    "obs-30f0b56e7273a15f8130",
+    "obs-91cb89a6ffeb96649ab9"
+  ],
+  "financial_bridge": {
+    "revenue": 0.140492885685,
+    "operating_profit": 0.073480904822,
+    "ocf": 0.037550826893,
+    "cash_capex": 0.016227564118,
+    "sbc": null,
+    "additional_cash_investment": 0.000559187028,
+    "ticker": "196170",
+    "period": "H1 2026",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.5230222474521022,
+    "ocf_less_named_capex": 0.021323262775000004,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/196170/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/196170/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "a65348f9f172404536ec3480ade4220c676713b52bc7d0ef0731c6bacfa950fa"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://www.alteogen.com/en/sub/ir/news.php?bid=13&idx=359&mode=view&page=1",
+      "location": "Company announcement September2, agreement terms paragraph",
+      "facts": {
+        "maximum_option_milestone_and_royalty_amount_usd_m": 3223
+      },
+      "note": "All options and milestones conditional. Announcement says maximum includes royalties; do not add another unlimited royalty stream to the same headline amount. Not current cash or guaranteed backlog."
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://www.alteogen.com/en/sub/ir/news.php?bid=13&idx=359&mode=view&page=1",
+      "location": "Company announcement September2, agreement terms paragraph",
+      "facts": {
+        "maximum_option_milestone_and_royalty_amount_usd_m": 3223
+      },
+      "note": "All options and milestones conditional. Announcement says maximum includes royalties; do not add another unlimited royalty stream to the same headline amount. Not current cash or guaranteed backlog."
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

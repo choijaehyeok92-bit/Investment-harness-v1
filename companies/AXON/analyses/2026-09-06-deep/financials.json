@@ -1,0 +1,50 @@
+{
+  "revenue": null,
+  "operating_profit": null,
+  "ocf": -0.0114,
+  "cash_capex": 0.0442,
+  "sbc": 0.2787,
+  "additional_cash_investment": null,
+  "ticker": "AXON",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": null,
+  "ocf_less_named_capex": -0.055600000000000004,
+  "ocf_less_capex_sbc_known_subtotal": -0.3343,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "revenue",
+    "operating_profit",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/AXON/valuation.json",
+    "companies/AXON/thesis.md"
+  ],
+  "sources": [
+    {
+      "path": "companies/AXON/valuation.json",
+      "sha256": "6294fb8d23c68eef4b43c6480d1f96aa3c57a9796b357d74e7eea77e1dfd0d08"
+    },
+    {
+      "path": "companies/AXON/thesis.md",
+      "sha256": "9689ffb705dfb727d06fffe40d6e3f9a13cab14233d450161e1f2bec8fa562f4"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://investor.axon.com/2026-08-05-Axon-reports-Q2-2026-revenue-of-904-million%2C-up-35-year-over-year",
+    "location": "Liquidity and cash flow tables",
+    "facts": {
+      "cash_and_investments_usd_m_rounded": 685,
+      "h1_ocf_usd_m_rounded": -11.4,
+      "h1_sbc_usd_m_rounded": 278.7
+    }
+  }
+}

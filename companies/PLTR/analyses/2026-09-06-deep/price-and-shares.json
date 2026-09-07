@@ -1,0 +1,11 @@
+{
+  "ticker": "PLTR",
+  "price": 174.33,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 2568.694,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다."
+}

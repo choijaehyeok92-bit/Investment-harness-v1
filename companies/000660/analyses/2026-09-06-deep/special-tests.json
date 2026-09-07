@@ -1,0 +1,31 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 1052476.3272736764
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 999852.5109099925
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 952240.4865809452
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 908956.828099993
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "correlated_tail_risk": {
+    "claim_type": "inference",
+    "principal_loss_stress": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "probability": null,
+    "note": "Joint supply/customer/geography capital shock. Stress severity, not estimated likelihood; do not multiply assumed independent probabilities."
+  }
+}

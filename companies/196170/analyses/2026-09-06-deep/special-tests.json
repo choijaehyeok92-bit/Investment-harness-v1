@@ -1,0 +1,50 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 144786.45157085385
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 137547.12899231116
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 130997.26570696301
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 125042.84453846468
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "royalty_diagnostic": {
+    "net_cash_conversion_assumption": 0.6,
+    "fx_krw_per_usd_assumption": 1400,
+    "note": "All terminal owner cash assumed royalty-driven for a transparent upper requirement. Rate is not a confidential contract fact; milestones excluded. Underlying licensed-product sales, not Alteogen reported sales.",
+    "required_licensed_product_sales_usd_b": [
+      {
+        "royalty_rate_assumption": 0.01,
+        "product_sales": 228.340300964256
+      },
+      {
+        "royalty_rate_assumption": 0.02,
+        "product_sales": 114.170150482128
+      },
+      {
+        "royalty_rate_assumption": 0.03,
+        "product_sales": 76.113433654752
+      }
+    ]
+  },
+  "convertible_rights": {
+    "method": "Primary denominator/claim treatment stated in model inputs. Alternate conversion removes the corresponding claim cost before adding conversion shares.",
+    "note": "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다.",
+    "contractual_conversion_count_unknown": false,
+    "additional_share_stress_not_contract_fact": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  }
+}

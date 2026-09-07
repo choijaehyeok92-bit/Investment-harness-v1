@@ -1,0 +1,11 @@
+{
+  "ticker": "AXON",
+  "price": 515.67,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 81.24,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "기말 81.24백만주. 신규 보상은 owner margin에 비용화, 무상 환매 없음. 내부통제·신사업 인수·구독 회수기간 위험은 신규 진입 veto 조사로 유지한다."
+}

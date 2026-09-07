@@ -1,0 +1,1225 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.17622304763168117,
+    "required_owner_margin_delta": 0.03778897451571615,
+    "price_reference": 258.51,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 4007.6530183812993,
+    "implied_year_10_owner_cash": 240.45918110287795,
+    "residual_price": -2.8421709430404007e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 172.2,
+              "owner_margin": -0.12513034410844628,
+              "owner_cash_before_attribution": -21.54744525547445,
+              "ownership": 1,
+              "attributable_cash": -21.54744525547445
+            },
+            {
+              "component": "North_America",
+              "revenue": 459.20000000000005,
+              "owner_margin": -0.012513034410844628,
+              "owner_cash_before_attribution": -5.745985401459854,
+              "ownership": 1,
+              "attributable_cash": -5.745985401459854
+            },
+            {
+              "component": "International",
+              "revenue": 188.6,
+              "owner_margin": -0.0291970802919708,
+              "owner_cash_before_attribution": -5.506569343065692,
+              "ownership": 1,
+              "attributable_cash": -5.506569343065692
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -32.8,
+          "cash_deficit": 32.8,
+          "available_cash_used": 28.212999999999994,
+          "new_funding_required": 4.587000000000003
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 196.30800000000002,
+              "owner_margin": -0.0771646142355611,
+              "owner_cash_before_attribution": -15.14803109135453,
+              "ownership": 1,
+              "attributable_cash": -15.14803109135453
+            },
+            {
+              "component": "North_America",
+              "revenue": 472.97600000000006,
+              "owner_margin": -0.0053684634008176035,
+              "owner_cash_before_attribution": -2.539154345465107,
+              "ownership": 1,
+              "attributable_cash": -2.539154345465107
+            },
+            {
+              "component": "International",
+              "revenue": 198.03,
+              "owner_margin": -0.01973518046119263,
+              "owner_cash_before_attribution": -3.908157786729977,
+              "ownership": 1,
+              "attributable_cash": -3.908157786729977
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -21.595343223549616,
+          "cash_deficit": 21.595343223549616,
+          "available_cash_used": 0.0,
+          "new_funding_required": 21.595343223549616
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 223.79112000000003,
+              "owner_margin": -0.029198884362675925,
+              "owner_cash_before_attribution": -6.534451034273733,
+              "ownership": 1,
+              "attributable_cash": -6.534451034273733
+            },
+            {
+              "component": "North_America",
+              "revenue": 487.16528000000005,
+              "owner_margin": 0.0017761076092094215,
+              "owner_cash_before_attribution": 0.8652579607506385,
+              "ownership": 1,
+              "attributable_cash": 0.8652579607506385
+            },
+            {
+              "component": "International",
+              "revenue": 207.9315,
+              "owner_margin": -0.010273280630414466,
+              "owner_cash_before_attribution": -2.1361386514030256,
+              "ownership": 1,
+              "attributable_cash": -2.1361386514030256
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -7.80533172492612,
+          "cash_deficit": 7.80533172492612,
+          "available_cash_used": 0.0,
+          "new_funding_required": 7.80533172492612
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 255.12187680000005,
+              "owner_margin": 0.018766845510209268,
+              "owner_cash_before_attribution": 4.787832848180243,
+              "ownership": 1,
+              "attributable_cash": 4.787832848180243
+            },
+            {
+              "component": "North_America",
+              "revenue": 501.78023840000003,
+              "owner_margin": 0.008920678619236448,
+              "owner_cash_before_attribution": 4.476220244250248,
+              "ownership": 1,
+              "attributable_cash": 4.476220244250248
+            },
+            {
+              "component": "International",
+              "revenue": 218.328075,
+              "owner_margin": -0.0008113807996362986,
+              "owner_cash_before_attribution": -0.1771472080765538,
+              "ownership": 1,
+              "attributable_cash": -0.1771472080765538
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 9.086905884353937,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 290.8389395520001,
+              "owner_margin": 0.06673257538309443,
+              "owner_cash_before_attribution": 19.408431457993093,
+              "ownership": 1,
+              "attributable_cash": 19.408431457993093
+            },
+            {
+              "component": "North_America",
+              "revenue": 516.8336455520001,
+              "owner_margin": 0.01606524962926347,
+              "owner_cash_before_attribution": 8.303061532595159,
+              "ownership": 1,
+              "attributable_cash": 8.303061532595159
+            },
+            {
+              "component": "International",
+              "revenue": 229.24447875000004,
+              "owner_margin": 0.008650519031141866,
+              "owner_cash_before_attribution": 1.9830837262110723,
+              "ownership": 1,
+              "attributable_cash": 1.9830837262110723
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 29.694576716799325,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 308.28927592512014,
+              "owner_margin": 0.06673257538309443,
+              "owner_cash_before_attribution": 20.57293734547268,
+              "ownership": 1,
+              "attributable_cash": 20.57293734547268
+            },
+            {
+              "component": "North_America",
+              "revenue": 524.5861502352801,
+              "owner_margin": 0.01606524962926347,
+              "owner_cash_before_attribution": 8.427607455584086,
+              "ownership": 1,
+              "attributable_cash": 8.427607455584086
+            },
+            {
+              "component": "International",
+              "revenue": 236.12181311250004,
+              "owner_margin": 0.008650519031141866,
+              "owner_cash_before_attribution": 2.0425762379974044,
+              "ownership": 1,
+              "attributable_cash": 2.0425762379974044
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 31.04312103905417,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 326.78663248062736,
+              "owner_margin": 0.06673257538309443,
+              "owner_cash_before_attribution": 21.80731358620104,
+              "ownership": 1,
+              "attributable_cash": 21.80731358620104
+            },
+            {
+              "component": "North_America",
+              "revenue": 532.4549424888091,
+              "owner_margin": 0.01606524962926347,
+              "owner_cash_before_attribution": 8.554021567417845,
+              "ownership": 1,
+              "attributable_cash": 8.554021567417845
+            },
+            {
+              "component": "International",
+              "revenue": 243.20546750587502,
+              "owner_margin": 0.008650519031141866,
+              "owner_cash_before_attribution": 2.1038535251373265,
+              "ownership": 1,
+              "attributable_cash": 2.1038535251373265
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 32.46518867875621,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 346.39383042946497,
+              "owner_margin": 0.06673257538309443,
+              "owner_cash_before_attribution": 23.1157524013731,
+              "ownership": 1,
+              "attributable_cash": 23.1157524013731
+            },
+            {
+              "component": "North_America",
+              "revenue": 540.4417666261413,
+              "owner_margin": 0.01606524962926347,
+              "owner_cash_before_attribution": 8.682331890929113,
+              "ownership": 1,
+              "attributable_cash": 8.682331890929113
+            },
+            {
+              "component": "International",
+              "revenue": 250.5016315310513,
+              "owner_margin": 0.008650519031141866,
+              "owner_cash_before_attribution": 2.1669691308914465,
+              "ownership": 1,
+              "attributable_cash": 2.1669691308914465
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 33.96505342319366,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 367.177460255233,
+              "owner_margin": 0.06673257538309443,
+              "owner_cash_before_attribution": 24.502697545455494,
+              "ownership": 1,
+              "attributable_cash": 24.502697545455494
+            },
+            {
+              "component": "North_America",
+              "revenue": 548.5483931255334,
+              "owner_margin": 0.01606524962926347,
+              "owner_cash_before_attribution": 8.812566869293049,
+              "ownership": 1,
+              "attributable_cash": 8.812566869293049
+            },
+            {
+              "component": "International",
+              "revenue": 258.01668047698286,
+              "owner_margin": 0.008650519031141866,
+              "owner_cash_before_attribution": 2.23197820481819,
+              "ownership": 1,
+              "attributable_cash": 2.23197820481819
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 35.54724261956673,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 389.20810787054694,
+              "owner_margin": 0.06673257538309443,
+              "owner_cash_before_attribution": 25.972859398182823,
+              "ownership": 1,
+              "attributable_cash": 25.972859398182823
+            },
+            {
+              "component": "North_America",
+              "revenue": 556.7766190224163,
+              "owner_margin": 0.01606524962926347,
+              "owner_cash_before_attribution": 8.944755372332443,
+              "ownership": 1,
+              "attributable_cash": 8.944755372332443
+            },
+            {
+              "component": "International",
+              "revenue": 265.7571808912923,
+              "owner_margin": 0.008650519031141866,
+              "owner_cash_before_attribution": 2.2989375509627354,
+              "ownership": 1,
+              "attributable_cash": 2.2989375509627354
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 37.216552321478005,
+          "cash_deficit": 0,
+          "available_cash_used": 0.0,
+          "new_funding_required": 0.0
+        }
+      ],
+      "pv_interim_owner_cash": 56.84466661366262,
+      "pv_terminal": 251.53078233585833,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 308.37544894952094,
+      "equity_value": 308.37544894952094,
+      "value_per_share": 28.58951270895993,
+      "value_to_price": 0.11059344980449472,
+      "upside_downside": -0.8894065501955053,
+      "terminal_fraction_of_operating_pv": 0.8156640977506361,
+      "year_10_revenue": 1211.7419077842555,
+      "year_10_owner_cash": 37.216552321478005,
+      "year_10_owner_cash_per_share": 3.4503495631804917,
+      "year_10_exit_price": 55.20559301088787,
+      "irr_roots": [
+        -0.12559318651207502
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 62.200674948475736,
+      "unrestricted_cash_after_reserve": 28.212999999999994,
+      "external_funding_gap": 33.98767494847574,
+      "funding_only_new_shares_m": 375.6436606318158,
+      "funding_only_share_increase": 0.034825954031870776,
+      "alternative_dilution_financing_value_per_share": 32.4916769580424,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 195.29999999999998,
+              "owner_margin": -0.06256517205422314,
+              "owner_cash_before_attribution": -12.218978102189778,
+              "ownership": 1,
+              "attributable_cash": -12.218978102189778
+            },
+            {
+              "component": "North_America",
+              "revenue": 520.8000000000001,
+              "owner_margin": -0.006256517205422314,
+              "owner_cash_before_attribution": -3.2583941605839417,
+              "ownership": 1,
+              "attributable_cash": -3.2583941605839417
+            },
+            {
+              "component": "International",
+              "revenue": 213.9,
+              "owner_margin": -0.0145985401459854,
+              "owner_cash_before_attribution": -3.122627737226277,
+              "ownership": 1,
+              "attributable_cash": -3.122627737226277
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -18.599999999999998,
+          "cash_deficit": 18.599999999999998,
+          "available_cash_used": 18.599999999999998,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 234.35999999999996,
+              "owner_margin": -0.006884333810810703,
+              "owner_cash_before_attribution": -1.613412471901596,
+              "ownership": 1,
+              "attributable_cash": -1.613412471901596
+            },
+            {
+              "component": "North_America",
+              "revenue": 567.6720000000001,
+              "owner_margin": 0.004946761873491346,
+              "owner_cash_before_attribution": 2.80813820624858,
+              "ownership": 1,
+              "attributable_cash": 2.80813820624858
+            },
+            {
+              "component": "International",
+              "revenue": 237.42900000000003,
+              "owner_margin": -0.005758593690803929,
+              "owner_cash_before_attribution": -1.3672571414138863,
+              "ownership": 1,
+              "attributable_cash": -1.3672571414138863
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -0.1725314070669024,
+          "cash_deficit": 0.1725314070669024,
+          "available_cash_used": 0.1725314070669024,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 281.23199999999997,
+              "owner_margin": 0.04879650443260174,
+              "owner_cash_before_attribution": 13.72313853458945,
+              "ownership": 1,
+              "attributable_cash": 13.72313853458945
+            },
+            {
+              "component": "North_America",
+              "revenue": 618.7624800000002,
+              "owner_margin": 0.016150040952405006,
+              "owner_cash_before_attribution": 9.993039391811687,
+              "ownership": 1,
+              "attributable_cash": 9.993039391811687
+            },
+            {
+              "component": "International",
+              "revenue": 263.54619,
+              "owner_margin": 0.003081352764377541,
+              "owner_cash_before_attribution": 0.8120787810976687,
+              "ownership": 1,
+              "attributable_cash": 0.8120787810976687
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 24.528256707498805,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 337.4783999999999,
+              "owner_margin": 0.10447734267601418,
+              "owner_cash_before_attribution": 35.25884644255297,
+              "ownership": 1,
+              "attributable_cash": 35.25884644255297
+            },
+            {
+              "component": "North_America",
+              "revenue": 674.4511032000001,
+              "owner_margin": 0.027353320031318663,
+              "owner_cash_before_attribution": 18.448476871305534,
+              "ownership": 1,
+              "attributable_cash": 18.448476871305534
+            },
+            {
+              "component": "International",
+              "revenue": 292.5362709000001,
+              "owner_margin": 0.011921299219559011,
+              "owner_cash_before_attribution": 3.4874124179728745,
+              "ownership": 1,
+              "attributable_cash": 3.4874124179728745
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 57.19473573183138,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 404.97407999999996,
+              "owner_margin": 0.16015818091942663,
+              "owner_cash_before_attribution": 64.85991197231834,
+              "ownership": 1,
+              "attributable_cash": 64.85991197231834
+            },
+            {
+              "component": "North_America",
+              "revenue": 735.1517024880003,
+              "owner_margin": 0.03855659911023233,
+              "owner_cash_before_attribution": 28.344949478034614,
+              "ownership": 1,
+              "attributable_cash": 28.344949478034614
+            },
+            {
+              "component": "International",
+              "revenue": 324.7152606990001,
+              "owner_margin": 0.020761245674740483,
+              "owner_cash_before_attribution": 6.741493301709345,
+              "ownership": 1,
+              "attributable_cash": 6.741493301709345
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 99.9463547520623,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 441.42174719999997,
+              "owner_margin": 0.16015818091942663,
+              "owner_cash_before_attribution": 70.697304049827,
+              "ownership": 1,
+              "attributable_cash": 70.697304049827
+            },
+            {
+              "component": "North_America",
+              "revenue": 768.2335290999603,
+              "owner_margin": 0.03855659911023233,
+              "owner_cash_before_attribution": 29.620472204546168,
+              "ownership": 1,
+              "attributable_cash": 29.620472204546168
+            },
+            {
+              "component": "International",
+              "revenue": 344.1981763409401,
+              "owner_margin": 0.020761245674740483,
+              "owner_cash_before_attribution": 7.145982899811905,
+              "ownership": 1,
+              "attributable_cash": 7.145982899811905
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 107.46375915418507,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 481.149704448,
+              "owner_margin": 0.16015818091942663,
+              "owner_cash_before_attribution": 77.06006141431143,
+              "ownership": 1,
+              "attributable_cash": 77.06006141431143
+            },
+            {
+              "component": "North_America",
+              "revenue": 802.8040379094584,
+              "owner_margin": 0.03855659911023233,
+              "owner_cash_before_attribution": 30.953393453750746,
+              "ownership": 1,
+              "attributable_cash": 30.953393453750746
+            },
+            {
+              "component": "International",
+              "revenue": 364.8500669213966,
+              "owner_margin": 0.020761245674740483,
+              "owner_cash_before_attribution": 7.574741873800621,
+              "ownership": 1,
+              "attributable_cash": 7.574741873800621
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 115.5881967418628,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 524.45317784832,
+              "owner_margin": 0.16015818091942663,
+              "owner_cash_before_attribution": 83.99546694159947,
+              "ownership": 1,
+              "attributable_cash": 83.99546694159947
+            },
+            {
+              "component": "North_America",
+              "revenue": 838.930219615384,
+              "owner_margin": 0.03855659911023233,
+              "owner_cash_before_attribution": 32.346296159169526,
+              "ownership": 1,
+              "attributable_cash": 32.346296159169526
+            },
+            {
+              "component": "International",
+              "revenue": 386.74107093668033,
+              "owner_margin": 0.020761245674740483,
+              "owner_cash_before_attribution": 8.029226386228657,
+              "ownership": 1,
+              "attributable_cash": 8.029226386228657
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 124.37098948699766,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 571.653963854669,
+              "owner_margin": 0.16015818091942663,
+              "owner_cash_before_attribution": 91.55505896634344,
+              "ownership": 1,
+              "attributable_cash": 91.55505896634344
+            },
+            {
+              "component": "North_America",
+              "revenue": 876.6820794980762,
+              "owner_margin": 0.03855659911023233,
+              "owner_cash_before_attribution": 33.80187948633215,
+              "ownership": 1,
+              "attributable_cash": 33.80187948633215
+            },
+            {
+              "component": "International",
+              "revenue": 409.94553519288127,
+              "owner_margin": 0.020761245674740483,
+              "owner_cash_before_attribution": 8.51097996940238,
+              "ownership": 1,
+              "attributable_cash": 8.51097996940238
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 133.86791842207796,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 623.1028206015891,
+              "owner_margin": 0.16015818091942663,
+              "owner_cash_before_attribution": 99.79501427331434,
+              "ownership": 1,
+              "attributable_cash": 99.79501427331434
+            },
+            {
+              "component": "North_America",
+              "revenue": 916.1327730754897,
+              "owner_margin": 0.03855659911023233,
+              "owner_cash_before_attribution": 35.3229640632171,
+              "ownership": 1,
+              "attributable_cash": 35.3229640632171
+            },
+            {
+              "component": "International",
+              "revenue": 434.54226730445407,
+              "owner_margin": 0.020761245674740483,
+              "owner_cash_before_attribution": 9.02163876756652,
+              "ownership": 1,
+              "attributable_cash": 9.02163876756652
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 144.13961710409797,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 419.45542035124606,
+      "pv_terminal": 1339.4949032647085,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 1758.9503236159544,
+      "equity_value": 1758.9503236159544,
+      "value_per_share": 163.0724261699551,
+      "value_to_price": 0.6308167040731697,
+      "upside_downside": -0.3691832959268303,
+      "terminal_fraction_of_operating_pv": 0.7615308319288107,
+      "year_10_revenue": 1973.7778609815327,
+      "year_10_owner_cash": 144.13961710409797,
+      "year_10_owner_cash_per_share": 13.363195510861788,
+      "year_10_exit_price": 293.9903012389593,
+      "irr_roots": [
+        0.03775459913244872
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 18.7725314070669,
+      "unrestricted_cash_after_reserve": 28.212999999999994,
+      "external_funding_gap": 0.0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 164.66791440624172,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 218.4,
+              "owner_margin": 0.0,
+              "owner_cash_before_attribution": 0.0,
+              "ownership": 1,
+              "attributable_cash": 0.0
+            },
+            {
+              "component": "North_America",
+              "revenue": 582.4000000000001,
+              "owner_margin": 0.0,
+              "owner_cash_before_attribution": 0.0,
+              "ownership": 1,
+              "attributable_cash": 0.0
+            },
+            {
+              "component": "International",
+              "revenue": 239.20000000000002,
+              "owner_margin": 0.0,
+              "owner_cash_before_attribution": 0.0,
+              "ownership": 1,
+              "attributable_cash": 0.0
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.0,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 273.0,
+              "owner_margin": 0.06005931784478497,
+              "owner_cash_before_attribution": 16.396193771626297,
+              "ownership": 1,
+              "attributable_cash": 16.396193771626297
+            },
+            {
+              "component": "North_America",
+              "revenue": 663.9360000000001,
+              "owner_margin": 0.014458724666337122,
+              "owner_cash_before_attribution": 9.599667820069206,
+              "ownership": 1,
+              "attributable_cash": 9.599667820069206
+            },
+            {
+              "component": "International",
+              "revenue": 277.472,
+              "owner_margin": 0.00778546712802768,
+              "owner_cash_before_attribution": 2.1602491349480966,
+              "ownership": 1,
+              "attributable_cash": 2.1602491349480966
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 28.1561107266436,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 341.25,
+              "owner_margin": 0.12011863568956994,
+              "owner_cash_before_attribution": 40.990484429065745,
+              "ownership": 1,
+              "attributable_cash": 40.990484429065745
+            },
+            {
+              "component": "North_America",
+              "revenue": 756.8870400000003,
+              "owner_margin": 0.028917449332674244,
+              "owner_cash_before_attribution": 21.887242629757793,
+              "ownership": 1,
+              "attributable_cash": 21.887242629757793
+            },
+            {
+              "component": "International",
+              "revenue": 321.86752,
+              "owner_margin": 0.01557093425605536,
+              "owner_cash_before_attribution": 5.011777993079584,
+              "ownership": 1,
+              "attributable_cash": 5.011777993079584
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 67.88950505190313,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 426.5625,
+              "owner_margin": 0.18017795353435492,
+              "owner_cash_before_attribution": 76.85715830449827,
+              "ownership": 1,
+              "attributable_cash": 76.85715830449827
+            },
+            {
+              "component": "North_America",
+              "revenue": 862.8512256000004,
+              "owner_margin": 0.043376173999011364,
+              "owner_cash_before_attribution": 37.42718489688583,
+              "ownership": 1,
+              "attributable_cash": 37.42718489688583
+            },
+            {
+              "component": "International",
+              "revenue": 373.36632319999995,
+              "owner_margin": 0.023356401384083042,
+              "owner_cash_before_attribution": 8.720493707958475,
+              "ownership": 1,
+              "attributable_cash": 8.720493707958475
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 123.00483690934257,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 533.203125,
+              "owner_margin": 0.2402372713791399,
+              "owner_cash_before_attribution": 128.09526384083046,
+              "ownership": 1,
+              "attributable_cash": 128.09526384083046
+            },
+            {
+              "component": "North_America",
+              "revenue": 983.6503971840007,
+              "owner_margin": 0.05783489866534849,
+              "owner_cash_before_attribution": 56.88932104326647,
+              "ownership": 1,
+              "attributable_cash": 56.88932104326647
+            },
+            {
+              "component": "International",
+              "revenue": 433.1049349119999,
+              "owner_margin": 0.03114186851211072,
+              "owner_cash_before_attribution": 13.487696934975773,
+              "ownership": 1,
+              "attributable_cash": 13.487696934975773
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 198.4722818190727,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 597.1875,
+              "owner_margin": 0.2402372713791399,
+              "owner_cash_before_attribution": 143.4666955017301,
+              "ownership": 1,
+              "attributable_cash": 143.4666955017301
+            },
+            {
+              "component": "North_America",
+              "revenue": 1057.4241769728008,
+              "owner_margin": 0.05783489866534849,
+              "owner_cash_before_attribution": 61.15602012151146,
+              "ownership": 1,
+              "attributable_cash": 61.15602012151146
+            },
+            {
+              "component": "International",
+              "revenue": 472.08437905407993,
+              "owner_margin": 0.03114186851211072,
+              "owner_cash_before_attribution": 14.701589659123593,
+              "ownership": 1,
+              "attributable_cash": 14.701589659123593
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 219.32430528236515,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 668.8500000000001,
+              "owner_margin": 0.2402372713791399,
+              "owner_cash_before_attribution": 160.68269896193775,
+              "ownership": 1,
+              "attributable_cash": 160.68269896193775
+            },
+            {
+              "component": "North_America",
+              "revenue": 1136.7309902457607,
+              "owner_margin": 0.05783489866534849,
+              "owner_cash_before_attribution": 65.74272163062481,
+              "ownership": 1,
+              "attributable_cash": 65.74272163062481
+            },
+            {
+              "component": "International",
+              "revenue": 514.5719731689471,
+              "owner_margin": 0.03114186851211072,
+              "owner_cash_before_attribution": 16.024732728444718,
+              "ownership": 1,
+              "attributable_cash": 16.024732728444718
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 242.4501533210073,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 749.1120000000002,
+              "owner_margin": 0.2402372713791399,
+              "owner_cash_before_attribution": 179.96462283737029,
+              "ownership": 1,
+              "attributable_cash": 179.96462283737029
+            },
+            {
+              "component": "North_America",
+              "revenue": 1221.9858145141927,
+              "owner_margin": 0.05783489866534849,
+              "owner_cash_before_attribution": 70.67342575292167,
+              "ownership": 1,
+              "attributable_cash": 70.67342575292167
+            },
+            {
+              "component": "International",
+              "revenue": 560.8834507541525,
+              "owner_margin": 0.03114186851211072,
+              "owner_cash_before_attribution": 17.466958674004747,
+              "ownership": 1,
+              "attributable_cash": 17.466958674004747
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 268.1050072642967,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 839.0054400000004,
+              "owner_margin": 0.2402372713791399,
+              "owner_cash_before_attribution": 201.56037757785475,
+              "ownership": 1,
+              "attributable_cash": 201.56037757785475
+            },
+            {
+              "component": "North_America",
+              "revenue": 1313.634750602757,
+              "owner_margin": 0.05783489866534849,
+              "owner_cash_before_attribution": 75.97393268439079,
+              "ownership": 1,
+              "attributable_cash": 75.97393268439079
+            },
+            {
+              "component": "International",
+              "revenue": 611.3629613220263,
+              "owner_margin": 0.03114186851211072,
+              "owner_cash_before_attribution": 19.038984954665175,
+              "ownership": 1,
+              "attributable_cash": 19.038984954665175
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 296.5732952169107,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "AWS",
+              "revenue": 939.6860928000004,
+              "owner_margin": 0.2402372713791399,
+              "owner_cash_before_attribution": 225.74762288719734,
+              "ownership": 1,
+              "attributable_cash": 225.74762288719734
+            },
+            {
+              "component": "North_America",
+              "revenue": 1412.1573568979638,
+              "owner_margin": 0.05783489866534849,
+              "owner_cash_before_attribution": 81.6719776357201,
+              "ownership": 1,
+              "attributable_cash": 81.6719776357201
+            },
+            {
+              "component": "International",
+              "revenue": 666.3856278410086,
+              "owner_margin": 0.03114186851211072,
+              "owner_cash_before_attribution": 20.75249360058504,
+              "ownership": 1,
+              "attributable_cash": 20.75249360058504
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 328.17209412350246,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 965.3860213531673,
+      "pv_terminal": 3881.456294221985,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 4846.8423155751525,
+      "equity_value": 4846.8423155751525,
+      "value_per_share": 449.3511414462291,
+      "value_to_price": 1.7382350448579518,
+      "upside_downside": 0.7382350448579518,
+      "terminal_fraction_of_operating_pv": 0.8008216569680977,
+      "year_10_revenue": 3018.229077538973,
+      "year_10_owner_cash": 328.17209412350246,
+      "year_10_owner_cash_per_share": 30.42486127748025,
+      "year_10_exit_price": 851.8961157694471,
+      "irr_roots": [
+        0.15686028740372626
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 28.212999999999994,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 449.3511414462291,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 105.07702961125533
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 193.89925815586466
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 282.721486700474
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 87.30622050828534
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 163.0724261699551
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 238.83863183162487
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 72.7060280881574
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 137.67650220049273
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 202.64697631282806
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 134.84863517771524
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 163.0724261699551
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 191.296217162195
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.5464388185325862,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 171.655185442058
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 163.0724261699551
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 155.30707254281438
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 148.24766015450462
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-09-06",
+  "status": "PASS",
+  "scope": "34 prior partial research studies; frozen historical outputs preserved",
+  "unit_tests_passed": 31,
+  "issuer_registry_count": 93,
+  "raw_files_unchanged": 25,
+  "policy_files_unchanged": 8,
+  "observations_with_valid_raw_pointers": 2298,
+  "historical_derived_metrics_reproduced": 12,
+  "frozen_artifacts_reproduced": 434,
+  "deep_renderer_artifacts_reproduced": 380,
+  "company_scenarios": 102,
+  "reverse_models_reprice_reference": 34,
+  "additional_checks": [
+    "Multiple IRR roots retained; constant-cash analytical perpetuity identity",
+    "USD/KRW conversion and TSM 5:1 ADS; ASTS economic LLC interests",
+    "Negative cash not clipped; capital-call PV and dilution alternative separate",
+    "Fixed satellite spending does not cancel cash-margin sensitivity",
+    "No unknown OCF replaced with an estimated fact",
+    "All prior output validators, Astra 20 model diagnostics, NOW cash model passed"
+  ],
+  "limitations": "Technical calculation/lineage verification. Not a full independent audit of original filings, confidential rights or forecast accuracy. All 34 studies keep buy_authorized=false."
+}

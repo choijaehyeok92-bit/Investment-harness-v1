@@ -1,0 +1,735 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "NOW",
+  "company_name": "ServiceNow",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "companies/NOW/decision-history.md",
+    "companies/NOW/decision.json",
+    "companies/NOW/evidence.jsonl",
+    "companies/NOW/financial-inputs.json",
+    "companies/NOW/hard-veto.json",
+    "companies/NOW/red-team.md",
+    "companies/NOW/scorecard.json",
+    "companies/NOW/sources.json",
+    "companies/NOW/thesis.md",
+    "companies/NOW/valuation.json",
+    "companies/NOW/valuation_model.py"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 4,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    }
+  ],
+  "historical_score_100": 72,
+  "review_method": "저장 증거 재검토; 신규 원문 전체 재실사 아님",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P1",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "S3 pp.4-5: Q2 구독매출 3,877M, CC +23%; AI ACV 1B 초과. IT·직원·고객·보안 업무를 실행하는 계층의 구조적 성장."
+      ],
+      "counter_evidence": [
+        "S3 p.8: 연방정부 온프레미스 매출 선인식과 인수 효과 때문에 Q2 성장률을 유기적 장기 성장률로 외삽할 수 없다."
+      ],
+      "confidence": 0.85,
+      "missing_data": [
+        "인수·환율·시점 효과를 제거한 제품별 성장률"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "S2 pp.37,46: ACV 기반 갱신율 98%, 통상 3년 계약. S3 p.4: 5M ACV 초과 고객 658개, 약23% 증가."
+      ],
+      "counter_evidence": [
+        "갱신율은 NRR이 아니며 존속 고객의 구매 축소를 일반적으로 포착하지 않는다. AI ACV는 인식매출·수금이 아니다."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "고객 독립 검증 ROI 및 AI 고객 코호트 NRR"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "evidence": [
+        "S2 갱신/장기 계약 및 S7 Siemens의 워크플로 통합은 전환비용과 실행 기반의 존속을 지지한다."
+      ],
+      "counter_evidence": [
+        "S8 Microsoft connector가 외부 UI에서도 NOW 기록을 다룰 수 있음을 확인. 경쟁/보완 양면성; AI 오케스트레이션 가격결정력 강화는 미입증."
+      ],
+      "confidence": 0.71,
+      "missing_data": [
+        "AI 경쟁 승패·가격/사용량·단위 추론비용"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "evidence": [
+        "S1/S2 계산: FY23~25 OCF-capex-SBC 1,100→1,669→2,621M, 기본 주당 약1.08→1.62→2.53달러."
+      ],
+      "counter_evidence": [
+        "H1 owner proxy 1,029→803M(-22%); 인수 포함 incremental ROIC unknown. TTM 확장 owner proxy 2,372M, 순이익·조정 FCF와 구별."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "인수별 세후 현금수익률 및 15% 시작/24% 만기 마진의 실제 달성"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "S4: 독립 선임이사, 상대 TSR 조정 성과보상; S2: 2B ASR 평균107.97달러, H1 주식 수 감소."
+      ],
+      "counter_evidence": [
+        "S2: H1 인수 순현금 8,776M와 환매 2,225M; 부채 원금7,600M. S4 보상은 ACV·비GAAP·매출 중심으로 주당 현금수익과 차이."
+      ],
+      "confidence": 0.77,
+      "missing_data": [
+        "Armis/Veza 회수기간·SBC 2029년 매출10% 미만 목표 이행"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "S2: 유동 금융자산6,707M, TTM OCF5,308M, 미인출 revolver3,000M; 공시상 covenant 준수."
+      ],
+      "counter_evidence": [
+        "CP2,100M 평균잔존81일, 순부채893M; 인수 후 현금·이자수입 감소. 전략투자2,073M는 현금성 자산에서 제외."
+      ],
+      "confidence": 0.87,
+      "missing_data": [
+        "CP 차환 현황, 인수 통합 스트레스와 현금이자 연간화"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 10,
+      "max_score": 15,
+      "evidence": [
+        "9% 할인, 만기 owner margin24%/23배에서 가격은 10년 매출 CAGR12.41% 요구. Base16% 가정 가치188.18달러."
+      ],
+      "counter_evidence": [
+        "시작15%/만기24% 마진은 추정. Base 가치77.9%가 잔존가치이고 9% 요구수익률은 불확실성 소거가 아니다."
+      ],
+      "confidence": 0.64,
+      "missing_data": [
+        "owner margin 검증과 유기적 장기 성장 지속"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "Bull22%/28%/28배에서409.78달러, 기준가 대비+190.1%; 실행·보안·직원 서비스 확장 여지."
+      ],
+      "counter_evidence": [
+        "Bear58.49(-58.6%), 구조적 손실18.75(-86.7%). 대형 시총에서 Bull은10년 매출7.30배를 요구; 성공확률 unknown."
+      ],
+      "confidence": 0.6,
+      "missing_data": [
+        "AI 경제성의 독립 검증 및 꼬리위험 빈도"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NOW/scorecard.json"
+      ]
+    }
+  },
+  "structural_thesis": "S3 pp.4-5: Q2 구독매출 3,877M, CC +23%; AI ACV 1B 초과. IT·직원·고객·보안 업무를 실행하는 계층의 구조적 성장.",
+  "customer_and_moat": "S2 갱신/장기 계약 및 S7 Siemens의 워크플로 통합은 전환비용과 실행 기반의 존속을 지지한다.",
+  "current_finding": "최신 NOW 72/100과 현금대체 SBC 모형을 우선 적용한다. Base 할인만으로 4개 INVESTIGATE를 통과시키지 않는다. 새 공시 없이 동일 점수를 재명명해 상향하지 않는다.",
+  "economic_finding": "100점 정밀분석72점(기업품질56/75, 기대차이·비대칭16/25). 기존42/50은 과거 스크리닝으로 보존. Base188.18달러 대비141.26달러 가격은 잠재 기대차이가 있으나 SBC·성장의 질·인수 증가ROIC·AI 해자의 4개 조사 항목 미해결. 실제현금→SBC owner proxy 연결은 검증했지만 미래 정상화 마진/인수 ROI는 가정이다. 하드베토 우선에 따라 관찰 유지.",
+  "capital_and_survival": "CP2,100M 평균잔존81일, 순부채893M; 인수 후 현금·이자수입 감소. 전략투자2,073M는 현금성 자산에서 제외.",
+  "next_evidence": "두 차례 연속 분기에서 선반영 제외 cRPO·구독 유기성 확인 및 AI 고객 확장 증거 확보. / TTM OCF-capex-SBC 주당 성장 재가속, SBC/매출 하락 경로와 2029년10% 미만 목표에 대한 이행 확인. / Armis/Veza 현금수익·통합비용/CP 차환 확인으로 해당 INVESTIGATE 해소. / 검증한 보수적 가치 대비 충분한 할인과 9% 초과 수익률; 가격 하락만으로 증액하지 않는다.",
+  "permanent_loss_case": "회계 신뢰 훼손이나 신규 자금 없이는 지속사업 유지 곤란이 확인되면 하드베토 재판정.",
+  "falsifiers": [
+    "유기적 CC cRPO 성장15% 미만이 2분기 이어지고 기존 고객 축소·가격압박 동반 시 논지 재심사.",
+    "TTM 경제적 주당 FCF 감소가 2회 분기 갱신에서 지속하고 SBC/매출 개선이 없으면 축소 검토.",
+    "고객 AI 도입이 NOW 지출 축소로 연결되고 단위마진 악화 지속, 또는 대형 인수 회수 실패·차환 부담으로 경제가치 훼손 시 EXIT 검토.",
+    "회계 신뢰 훼손이나 신규 자금 없이는 지속사업 유지 곤란이 확인되면 하드베토 재판정."
+  ],
+  "increase_evidence": [
+    "두 차례 연속 분기에서 선반영 제외 cRPO·구독 유기성 확인 및 AI 고객 확장 증거 확보.",
+    "TTM OCF-capex-SBC 주당 성장 재가속, SBC/매출 하락 경로와 2029년10% 미만 목표에 대한 이행 확인.",
+    "Armis/Veza 현금수익·통합비용/CP 차환 확인으로 해당 INVESTIGATE 해소.",
+    "검증한 보수적 가치 대비 충분한 할인과 9% 초과 수익률; 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "유기적 CC cRPO 성장15% 미만이 2분기 이어지고 기존 고객 축소·가격압박 동반 시 논지 재심사.",
+    "TTM 경제적 주당 FCF 감소가 2회 분기 갱신에서 지속하고 SBC/매출 개선이 없으면 축소 검토.",
+    "고객 AI 도입이 NOW 지출 축소로 연결되고 단위마진 악화 지속, 또는 대형 인수 회수 실패·차환 부담으로 경제가치 훼손 시 EXIT 검토.",
+    "회계 신뢰 훼손이나 신규 자금 없이는 지속사업 유지 곤란이 확인되면 하드베토 재판정."
+  ],
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "S1 감사재무제표 및 S2 GAAP/비GAAP 조정표를 대조. 첨부 범위에서 회계 신뢰를 부정할 근거는 발견하지 못했다. 조정 지표 선호 자체를 부정행위로 단정하지 않는다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.8,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "S2 유동자산6,707M와 TTM OCF5,308M가 지속사업을 지원한다. 인수금융 사용은 곧 생존의 외부자금 의존을 뜻하지 않는다. CP 차환은 감시한다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.84,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "H1 실제 주식 수는 감소했지만 2,225M 환매 현금 소요. SBC CF1,199M/OP조정1,213M; RSU46.824M와 미인식보상4.9B. 희석 실패 확정이 아니라 경제적 비용/향후 발행 검증."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.89,
+        "resolution_needed": "SBC/매출과 현금 재원 포함 주당 owner FCF가 함께 개선되는지 확인. 38M 추가 한도는 즉시 발행이 아님.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "S3 p.8 연방정부 온프레미스 Q3→Q2 매출 이동, S2 인수 추가, H1 조정FCF+14% 대비 OCF-capex+0.2%. 허위매출을 뜻하지 않지만 headline 성장의 질을 추가 확인."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.86,
+        "resolution_needed": "Q3 이후 선반영 해소, 유기적 cRPO와 수금, 인수비용 실제 현금 지속성 확인.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "S2 H1 GAAP OP665M vs809M, M&A 순현금8,776M. 무형자산 상각이 일부 설명하나 인수 포함 증가 ROIC는 unknown."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.78,
+        "resolution_needed": "Armis/Veza 분리 매출·현금·통합비용 또는 실현 ROI 근거 확보.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "98% 갱신/고객 확장은 긍정적; AI 앞단 경쟁과 hyperscaler 비용이 가격/마진에 미치는 순효과 불명. 감소 확정 아님."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.73,
+        "resolution_needed": "고객 코호트 확장, AI 단위경제성, Microsoft 등과의 경쟁 승패 확인.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "9%/24%/23배 역산 CAGR12.41%는 강한 실행을 요구하지만 Q2 CC23%와 비교해 비현실적 Bull만 요구하는 수준은 아님. Base 위쪽 가치라도 매수 승인 아님."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.7,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "기업 워크플로 플랫폼 의존은 있으나 여러 고객·제품·지역이 존재; S2 해외매출37%. 치명적인 단일고객 의존 근거 없음."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.77,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "PASS",
+        "evidence": [
+          "현금창출과 유동성은 단기 생존을 지지. AI 가격압박+인수 실패의 심각한 손실 경로는 있으나 발생확률이 veto 수준이라는 근거는 없음. 확률 unknown."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.64,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "method": "10-year annual owner distributions plus year-10 equity FCF multiple",
+      "claim_type": "estimate",
+      "hurdle": 0.09,
+      "shares_m": 1033.862,
+      "initial_owner_margin": 0.15,
+      "reverse_grid": [
+        {
+          "terminal_owner_margin": 0.2,
+          "terminal_equity_fcf_multiple": 18,
+          "required_10y_revenue_cagr": 0.16850113264713296,
+          "repriced_value": 141.25999999999993
+        },
+        {
+          "terminal_owner_margin": 0.2,
+          "terminal_equity_fcf_multiple": 23,
+          "required_10y_revenue_cagr": 0.1451349504502225,
+          "repriced_value": 141.26000000000022
+        },
+        {
+          "terminal_owner_margin": 0.2,
+          "terminal_equity_fcf_multiple": 28,
+          "required_10y_revenue_cagr": 0.12619408497003792,
+          "repriced_value": 141.2600000000001
+        },
+        {
+          "terminal_owner_margin": 0.24,
+          "terminal_equity_fcf_multiple": 18,
+          "required_10y_revenue_cagr": 0.14702481849915594,
+          "repriced_value": 141.2600000000001
+        },
+        {
+          "terminal_owner_margin": 0.24,
+          "terminal_equity_fcf_multiple": 23,
+          "required_10y_revenue_cagr": 0.12412684382091077,
+          "repriced_value": 141.26000000000022
+        },
+        {
+          "terminal_owner_margin": 0.24,
+          "terminal_equity_fcf_multiple": 28,
+          "required_10y_revenue_cagr": 0.10556116374725655,
+          "repriced_value": 141.25999999999982
+        },
+        {
+          "terminal_owner_margin": 0.28,
+          "terminal_equity_fcf_multiple": 18,
+          "required_10y_revenue_cagr": 0.12903932382291783,
+          "repriced_value": 141.26000000000002
+        },
+        {
+          "terminal_owner_margin": 0.28,
+          "terminal_equity_fcf_multiple": 23,
+          "required_10y_revenue_cagr": 0.10654640473258603,
+          "repriced_value": 141.25999999999993
+        },
+        {
+          "terminal_owner_margin": 0.28,
+          "terminal_equity_fcf_multiple": 28,
+          "required_10y_revenue_cagr": 0.08830401827069145,
+          "repriced_value": 141.26000000000025
+        }
+      ],
+      "base_hurdle_sensitivity": {
+        "0.08": 204.86502591057612,
+        "0.09": 188.1844039647022,
+        "0.1": 173.05386076271213,
+        "0.12": 146.82843219734235
+      },
+      "base_share_count_sensitivity": {
+        "1033.862": 188.1844039647022,
+        "1034.334": 188.0985293452163,
+        "1050": 185.2920992873857
+      },
+      "base_start_margin_sensitivity": "See financial-inputs.json: 15% is a forecast assumption, not an audited normalized FCF bridge."
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "revenue_cagr": 0.08,
+        "terminal_owner_margin": 0.16,
+        "terminal_equity_fcf_multiple": 18,
+        "discount_rate": 0.09,
+        "fair_value_per_share": 58.485005454994585,
+        "upside_downside": -0.5859761754566432,
+        "annual_distribution_irr": -0.01496574434560699,
+        "year_10_terminal_price": 88.59907338918484,
+        "terminal_pv_fraction": 0.6399111325950955,
+        "years": [
+          {
+            "year": 1,
+            "revenue_usd_m": 15910.560000000001,
+            "owner_margin": 0.151,
+            "owner_fcf_usd_m": 2402.49456,
+            "owner_fcf_per_share": 2.3238058464282467
+          },
+          {
+            "year": 2,
+            "revenue_usd_m": 17183.4048,
+            "owner_margin": 0.152,
+            "owner_fcf_usd_m": 2611.8775296,
+            "owner_fcf_per_share": 2.52633091224941
+          },
+          {
+            "year": 3,
+            "revenue_usd_m": 18558.077184,
+            "owner_margin": 0.153,
+            "owner_fcf_usd_m": 2839.385809152,
+            "owner_fcf_per_share": 2.7463876311848194
+          },
+          {
+            "year": 4,
+            "revenue_usd_m": 20042.723358720006,
+            "owner_margin": 0.154,
+            "owner_fcf_usd_m": 3086.579397242881,
+            "owner_fcf_per_share": 2.985484907311499
+          },
+          {
+            "year": 5,
+            "revenue_usd_m": 21646.141227417607,
+            "owner_margin": 0.155,
+            "owner_fcf_usd_m": 3355.151890249729,
+            "owner_fcf_per_share": 3.245260866778863
+          },
+          {
+            "year": 6,
+            "revenue_usd_m": 23377.832525611015,
+            "owner_margin": 0.156,
+            "owner_fcf_usd_m": 3646.9418739953185,
+            "owner_fcf_per_share": 3.527493876354212
+          },
+          {
+            "year": 7,
+            "revenue_usd_m": 25248.0591276599,
+            "owner_margin": 0.157,
+            "owner_fcf_usd_m": 3963.9452830426044,
+            "owner_fcf_per_share": 3.8341144979142325
+          },
+          {
+            "year": 8,
+            "revenue_usd_m": 27267.903857872694,
+            "owner_margin": 0.158,
+            "owner_fcf_usd_m": 4308.328809543886,
+            "owner_fcf_per_share": 4.1672184581151885
+          },
+          {
+            "year": 9,
+            "revenue_usd_m": 29449.33616650251,
+            "owner_margin": 0.159,
+            "owner_fcf_usd_m": 4682.444450473899,
+            "owner_fcf_per_share": 4.529080719161647
+          },
+          {
+            "year": 10,
+            "revenue_usd_m": 31805.283059822716,
+            "owner_margin": 0.16,
+            "owner_fcf_usd_m": 5088.845289571635,
+            "owner_fcf_per_share": 4.922170743843602
+          }
+        ]
+      },
+      "base": {
+        "claim_type": "estimate",
+        "revenue_cagr": 0.16,
+        "terminal_owner_margin": 0.24,
+        "terminal_equity_fcf_multiple": 23,
+        "discount_rate": 0.09,
+        "fair_value_per_share": 188.1844039647022,
+        "upside_downside": 0.3321846521641103,
+        "annual_distribution_irr": 0.12478409972161197,
+        "year_10_terminal_price": 346.9909174669938,
+        "terminal_pv_fraction": 0.7788781128759262,
+        "years": [
+          {
+            "year": 1,
+            "revenue_usd_m": 17089.12,
+            "owner_margin": 0.159,
+            "owner_fcf_usd_m": 2717.17008,
+            "owner_fcf_per_share": 2.6281748241061185
+          },
+          {
+            "year": 2,
+            "revenue_usd_m": 19823.3792,
+            "owner_margin": 0.16799999999999998,
+            "owner_fcf_usd_m": 3330.3277055999997,
+            "owner_fcf_per_share": 3.2212497466779895
+          },
+          {
+            "year": 3,
+            "revenue_usd_m": 22995.119871999996,
+            "owner_margin": 0.177,
+            "owner_fcf_usd_m": 4070.136217343999,
+            "owner_fcf_per_share": 3.936827368975742
+          },
+          {
+            "year": 4,
+            "revenue_usd_m": 26674.339051519994,
+            "owner_margin": 0.186,
+            "owner_fcf_usd_m": 4961.427063582719,
+            "owner_fcf_per_share": 4.79892583689382
+          },
+          {
+            "year": 5,
+            "revenue_usd_m": 30942.233299763186,
+            "owner_margin": 0.195,
+            "owner_fcf_usd_m": 6033.735493453822,
+            "owner_fcf_per_share": 5.8361130338999025
+          },
+          {
+            "year": 6,
+            "revenue_usd_m": 35892.990627725296,
+            "owner_margin": 0.20400000000000001,
+            "owner_fcf_usd_m": 7322.170088055961,
+            "owner_fcf_per_share": 7.082347632523452
+          },
+          {
+            "year": 7,
+            "revenue_usd_m": 41635.86912816134,
+            "owner_margin": 0.213,
+            "owner_fcf_usd_m": 8868.440124298366,
+            "owner_fcf_per_share": 8.577972809038696
+          },
+          {
+            "year": 8,
+            "revenue_usd_m": 48297.60818866715,
+            "owner_margin": 0.22199999999999998,
+            "owner_fcf_usd_m": 10722.069017884107,
+            "owner_fcf_per_share": 10.370889942646219
+          },
+          {
+            "year": 9,
+            "revenue_usd_m": 56025.2254988539,
+            "owner_margin": 0.23099999999999998,
+            "owner_fcf_usd_m": 12941.82709023525,
+            "owner_fcf_per_share": 12.517944455096764
+          },
+          {
+            "year": 10,
+            "revenue_usd_m": 64989.26157867051,
+            "owner_margin": 0.24,
+            "owner_fcf_usd_m": 15597.42277888092,
+            "owner_fcf_per_share": 15.08656162899973
+          }
+        ]
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "revenue_cagr": 0.22,
+        "terminal_owner_margin": 0.28,
+        "terminal_equity_fcf_multiple": 28,
+        "discount_rate": 0.09,
+        "fair_value_per_share": 409.78079013695816,
+        "upside_downside": 1.9008975657437222,
+        "annual_distribution_irr": 0.22190121296532983,
+        "year_10_terminal_price": 816.0438697763717,
+        "terminal_pv_fraction": 0.8411954825391131,
+        "years": [
+          {
+            "year": 1,
+            "revenue_usd_m": 17973.04,
+            "owner_margin": 0.163,
+            "owner_fcf_usd_m": 2929.60552,
+            "owner_fcf_per_share": 2.8336523830066294
+          },
+          {
+            "year": 2,
+            "revenue_usd_m": 21927.108799999998,
+            "owner_margin": 0.176,
+            "owner_fcf_usd_m": 3859.1711487999996,
+            "owner_fcf_per_share": 3.732772022571677
+          },
+          {
+            "year": 3,
+            "revenue_usd_m": 26751.072736,
+            "owner_margin": 0.189,
+            "owner_fcf_usd_m": 5055.952747104,
+            "owner_fcf_per_share": 4.890355528207826
+          },
+          {
+            "year": 4,
+            "revenue_usd_m": 32636.308737919993,
+            "owner_margin": 0.202,
+            "owner_fcf_usd_m": 6592.534365059839,
+            "owner_fcf_per_share": 6.37660961043141
+          },
+          {
+            "year": 5,
+            "revenue_usd_m": 39816.29666026239,
+            "owner_margin": 0.21500000000000002,
+            "owner_fcf_usd_m": 8560.503781956415,
+            "owner_fcf_per_share": 8.280122281268113
+          },
+          {
+            "year": 6,
+            "revenue_usd_m": 48575.88192552012,
+            "owner_margin": 0.22800000000000004,
+            "owner_fcf_usd_m": 11075.301079018589,
+            "owner_fcf_per_share": 10.712552622128086
+          },
+          {
+            "year": 7,
+            "revenue_usd_m": 59262.575949134545,
+            "owner_margin": 0.24100000000000002,
+            "owner_fcf_usd_m": 14282.280803741427,
+            "owner_fcf_per_share": 13.81449439455307
+          },
+          {
+            "year": 8,
+            "revenue_usd_m": 72300.34265794414,
+            "owner_margin": 0.254,
+            "owner_fcf_usd_m": 18364.287035117814,
+            "owner_fcf_per_share": 17.762802999934046
+          },
+          {
+            "year": 9,
+            "revenue_usd_m": 88206.41804269186,
+            "owner_margin": 0.267,
+            "owner_fcf_usd_m": 23551.11361739873,
+            "owner_fcf_per_share": 22.779745862986285
+          },
+          {
+            "year": 10,
+            "revenue_usd_m": 107611.83001208407,
+            "owner_margin": 0.28,
+            "owner_fcf_usd_m": 30131.312403383545,
+            "owner_fcf_per_share": 29.144423920584703
+          }
+        ]
+      }
+    },
+    "required_return": 0.09,
+    "price_status": "FROZEN_2026_09_04_REFERENCE_NOT_LIVE",
+    "missing_data": [
+      "두 차례 연속 분기에서 선반영 제외 cRPO·구독 유기성 확인 및 AI 고객 확장 증거 확보. / TTM OCF-capex-SBC 주당 성장 재가속, SBC/매출 하락 경로와 2029년10% 미만 목표에 대한 이행 확인. / Armis/Veza 현금수익·통합비용/CP 차환 확인으로 해당 INVESTIGATE 해소. / 검증한 보수적 가치 대비 충분한 할인과 9% 초과 수익률; 가격 하락만으로 증액하지 않는다."
+    ],
+    "source_path": "companies/NOW/valuation.json",
+    "model_required": "AFTER_INTEREST_CASH_REPLACEMENT_SBC_FCFE"
+  },
+  "total_score_100": 72,
+  "business_quality_75": 56,
+  "source_quality": {
+    "status": "STORED_ASSERTIONS_AND_INHERITED_RESEARCH",
+    "primary_document_reaudit": "선별 공식 IR 교차검증만 수행. 모든 PDF·웹 원문을 새로 감사했다는 뜻이 아님.",
+    "fact_estimate_inference_opinion": "원자료 숫자=보고 주장; 산식=계산치; 사업 연결=추론; 점수/판정=의견. 미래 전망은 사실 아님.",
+    "missing_data_rule": "unknown을 0·PASS로 대체하지 않으며 자료 결손을 기업 실패로 단정하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "claim_type": "inference",
+        "challenge": "사이클/선투자를 구조적 수요로 오인할 수 있다: S3 pp.4-5: Q2 구독매출 3,877M, CC +23%; AI ACV 1B 초과. IT·직원·고객·보안 업무를 실행하는 계층의 구조적 성장."
+      },
+      {
+        "id": 2,
+        "claim_type": "inference",
+        "challenge": "시장 확대가 주당 현금으로 귀속되지 않을 수 있다: 100점 정밀분석72점(기업품질56/75, 기대차이·비대칭16/25). 기존42/50은 과거 스크리닝으로 보존. Base188.18달러 대비141.26달러 가격은 잠재 기대차이가 있으나 SBC·성장의 질·인수 증가ROIC·AI 해자의 4개 조사 항목 미해결. 실제현금→SBC owner proxy 연결은 검증했지만 미래 정상화 마진/인수 ROI는 가정이다. 하드베토 우선에 따라 관찰 유지."
+      },
+      {
+        "id": 3,
+        "claim_type": "inference",
+        "challenge": "매출 증가 자체는 해자 확대의 증명이 아니다: S2 갱신/장기 계약 및 S7 Siemens의 워크플로 통합은 전환비용과 실행 기반의 존속을 지지한다."
+      },
+      {
+        "id": 4,
+        "claim_type": "inference",
+        "challenge": "고객 편익의 독립 검증과 경쟁 대안의 총비용 자료가 부족할 수 있다."
+      },
+      {
+        "id": 5,
+        "claim_type": "inference",
+        "challenge": "증분 ROIC는 이익률이 아니라 신규 투입자본 대비 세후 현금수익이다: 두 차례 연속 분기에서 선반영 제외 cRPO·구독 유기성 확인 및 AI 고객 확장 증거 확보. / TTM OCF-capex-SBC 주당 성장 재가속, SBC/매출 하락 경로와 2029년10% 미만 목표에 대한 이행 확인. / Armis/Veza 현금수익·통합비용/CP 차환 확인으로 해당 INVESTIGATE 해소. / 검증한 보수적 가치 대비 충분한 할인과 9% 초과 수익률; 가격 하락만으로 증액하지 않는다."
+      },
+      {
+        "id": 6,
+        "claim_type": "inference",
+        "challenge": "SBC·환매·기존 미행사 보상·신주발행을 동일 비용 두 번 차감하거나 모두 누락할 수 있다."
+      },
+      {
+        "id": 7,
+        "claim_type": "inference",
+        "challenge": "경영진의 인수·설비·환원 행동을 진술과 대조해야 한다: CP2,100M 평균잔존81일, 순부채893M; 인수 후 현금·이자수입 감소. 전략투자2,073M는 현금성 자산에서 제외."
+      },
+      {
+        "id": 8,
+        "claim_type": "inference",
+        "challenge": "훌륭한 사업 가설을 시장도 이미 알고 있을 수 있다. 현재 가격 기대차이는 별도 입증 대상이다."
+      },
+      {
+        "id": 9,
+        "claim_type": "inference",
+        "challenge": "정상화 owner 마진·지속기간·만기 가치와 현금 시점이 민감도 핵심이다. 미완성 모형은 목표가를 제시하지 않는다."
+      },
+      {
+        "id": 10,
+        "claim_type": "inference",
+        "challenge": "회계 신뢰 훼손이나 신규 자금 없이는 지속사업 유지 곤란이 확인되면 하드베토 재판정."
+      }
+    ],
+    "strongest_bear_thesis": "회계 신뢰 훼손이나 신규 자금 없이는 지속사업 유지 곤란이 확인되면 하드베토 재판정.",
+    "three_hidden_assumptions": [
+      "S2 갱신/장기 계약 및 S7 Siemens의 워크플로 통합은 전환비용과 실행 기반의 존속을 지지한다.",
+      "100점 정밀분석72점(기업품질56/75, 기대차이·비대칭16/25). 기존42/50은 과거 스크리닝으로 보존. Base188.18달러 대비141.26달러 가격은 잠재 기대차이가 있으나 SBC·성장의 질·인수 증가ROIC·AI 해자의 4개 조사 항목 미해결. 실제현금→SBC owner proxy 연결은 검증했지만 미래 정상화 마진/인수 ROI는 가정이다. 하드베토 우선에 따라 관찰 유지.",
+      "CP2,100M 평균잔존81일, 순부채893M; 인수 후 현금·이자수입 감소. 전략투자2,073M는 현금성 자산에서 제외."
+    ],
+    "underweighted_evidence": "최신 NOW 72/100과 현금대체 SBC 모형을 우선 적용한다. Base 할인만으로 4개 INVESTIGATE를 통과시키지 않는다. 새 공시 없이 동일 점수를 재명명해 상향하지 않는다.",
+    "falsifiers": [
+      "유기적 CC cRPO 성장15% 미만이 2분기 이어지고 기존 고객 축소·가격압박 동반 시 논지 재심사.",
+      "TTM 경제적 주당 FCF 감소가 2회 분기 갱신에서 지속하고 SBC/매출 개선이 없으면 축소 검토.",
+      "고객 AI 도입이 NOW 지출 축소로 연결되고 단위마진 악화 지속, 또는 대형 인수 회수 실패·차환 부담으로 경제가치 훼손 시 EXIT 검토.",
+      "회계 신뢰 훼손이나 신규 자금 없이는 지속사업 유지 곤란이 확인되면 하드베토 재판정."
+    ],
+    "confidence": 0.55,
+    "verdict": "REVISE",
+    "independence": "단일 분석자의 적대적 재검토; 독립 검토자/멀티 에이전트 합의가 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "open_items": [],
+    "research_complete_is_not_investment_approval": true
+  }
+}

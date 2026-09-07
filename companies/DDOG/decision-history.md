@@ -19,3 +19,9 @@ Append-only. Do not erase prior decisions.
 - **Macro pacing:** company_specific; macro did not change the company score or Hard Veto.
 
 This entry is the baseline for future quarterly reviews and annual re-underwrites.
+
+## 2026-09-05 — Astra 재심사
+
+- 과거: 70; 현재: 68/100, WATCH, INVESTIGATE, 포지션 밴드 NONE.
+- 관측·보안 플랫폼의 성장과 충분한 현금은 인정한다. 다만 TTM SBC가 보고 FCF의 약 79%이므로 보고 FCF 마진을 그대로 높은 재투자 품질로 해석했던 점수를 10→8로 조정한다.
+- [현재 재평가](re-evaluation-2026-09-05.md). 이전 판정은 역사이며 주문·거래는 실행하지 않았다.

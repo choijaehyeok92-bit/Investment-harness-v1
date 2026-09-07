@@ -3,30 +3,198 @@
   "as_of": "2026-09-03",
   "current_price": 341.84,
   "implied_expectations": {
-    "market_price_timestamp_utc": "2026-09-03T16:11:33Z",
-    "goog_price": 338.42,
-    "googl_market_cap_billions": 4180.7,
-    "starting_ttm_revenue_billions": 445.866,
-    "starting_ttm_operating_income_billions": 147.628,
-    "starting_ttm_operating_margin_pct": 33.11,
-    "starting_ttm_operating_cash_flow_billions": 185.675,
-    "starting_ttm_capex_billions": 132.402,
-    "starting_ttm_fcf_billions": 53.273,
-    "starting_ttm_fcf_margin_pct": 11.95,
-    "common_shares_outstanding_billions": 12.23,
-    "cash_and_short_term_marketable_securities_billions": 242.474,
-    "long_term_debt_billions_at_2026_06_30": 98.165,
-    "mandatory_convertible_preferred_liquidation_value_billions": 19.0,
-    "net_financial_assets_before_nonmarketable_securities_billions": 125.309,
-    "reverse_dcf_discount_rate_pct": 8.5,
-    "reverse_dcf_terminal_growth_pct": 3.5,
-    "reverse_dcf_nonmarketable_securities_haircut_pct": 50,
-    "implied_revenue_cagr_10y_by_terminal_fcf_margin_pct": {
-      "20_pct_margin": 13.56,
-      "22_pct_margin": 12.39,
-      "24_pct_margin": 11.33
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "market_price_timestamp_utc": "2026-09-03T16:11:33Z",
+      "goog_price": 338.42,
+      "googl_market_cap_billions": 4180.7,
+      "starting_ttm_revenue_billions": 445.866,
+      "starting_ttm_operating_income_billions": 147.628,
+      "starting_ttm_operating_margin_pct": 33.11,
+      "starting_ttm_operating_cash_flow_billions": 185.675,
+      "starting_ttm_capex_billions": 132.402,
+      "starting_ttm_fcf_billions": 53.273,
+      "starting_ttm_fcf_margin_pct": 11.95,
+      "common_shares_outstanding_billions": 12.23,
+      "cash_and_short_term_marketable_securities_billions": 242.474,
+      "long_term_debt_billions_at_2026_06_30": 98.165,
+      "mandatory_convertible_preferred_liquidation_value_billions": 19.0,
+      "net_financial_assets_before_nonmarketable_securities_billions": 125.309,
+      "reverse_dcf_discount_rate_pct": 8.5,
+      "reverse_dcf_terminal_growth_pct": 3.5,
+      "reverse_dcf_nonmarketable_securities_haircut_pct": 50,
+      "implied_revenue_cagr_10y_by_terminal_fcf_margin_pct": {
+        "20_pct_margin": 13.56,
+        "22_pct_margin": 12.39,
+        "24_pct_margin": 11.33
+      },
+      "interpretation": "The market price does not require an implausible bull case, but it does require long-duration double-digit revenue growth and a recovery from roughly 12% TTM FCF margin to 20%-24% despite unprecedented AI capital intensity and potential dilution."
     },
-    "interpretation": "The market price does not require an implausible bull case, but it does require long-duration double-digit revenue growth and a recovery from roughly 12% TTM FCF margin to 20%-24% despite unprecedented AI capital intensity and potential dilution."
+    "current_findings": [
+      "Search·Cloud·AI의 복수 이익원은 유지된다. 기존 Bull은 Base보다 할인율을 낮추고 영구성장률을 높여 비대칭을 증폭했다. 상방의 상당 부분이 자본비용 가정에서 생기므로 비대칭 점수를 6→5로 낮춘다.",
+      "TTM Capex 약 1,324.02억 달러 이후 FCF는 약 532.73억 달러다. 투자자산 평가이익, 우선주 전환과 자금조달을 영업 현금창출·희석과 구분해야 한다."
+    ],
+    "current_model_limit": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+    "uniform_hurdle_diagnostic": {
+      "ticker": "GOOGL",
+      "reference_price": 341.84,
+      "hurdle_rate": 0.09,
+      "terminal_company_fcf_growth": 0.03,
+      "as_of": "2026-09-05",
+      "model_status": "DIAGNOSTIC_NOT_OWNER_FCFE_COMPLETE",
+      "source_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "source_path": "companies/GOOGL/valuation.json",
+      "starting_revenue_usd_b": 445.866,
+      "starting_reported_fcf_margin": 0.1195,
+      "starting_shares_b": 12.5,
+      "net_financial_assets_usd_b": 125.309,
+      "method_changes": [
+        "All three cases use US 9% discount rate and 3% terminal company-FCF growth.",
+        "Unlisted investments excluded; inherited liquid financial assets are a proxy, not all proven excess cash.",
+        "No free negative dilution. Positive dilution continues in the terminal period.",
+        "Reported-FCF compensation/repurchase/interest-income bridge is incomplete; outputs are diagnostic, not actionable fair values."
+      ],
+      "scenarios": {
+        "bear": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.08,
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "fcf_margin_path": [
+            0.1276,
+            0.1357,
+            0.1438,
+            0.1519,
+            0.16,
+            0.164,
+            0.168,
+            0.172,
+            0.176,
+            0.18
+          ],
+          "annual_positive_dilution": 0.0,
+          "terminal_per_share_growth": 0.030000000000000027,
+          "annual_fcf_per_share_usd": [
+            4.9155121382399996,
+            5.645750759654399,
+            6.46136828281037,
+            7.371351804809504,
+            8.385579933318514,
+            9.024980403234052,
+            9.707356970307847,
+            10.435408743080934,
+            11.211997300705562,
+            12.040156192234951
+          ],
+          "terminal_value_per_share_usd": 206.6893479667001,
+          "diagnostic_present_value_per_share_usd": 148.43250327798705,
+          "value_to_reference_price": 0.43421630961264646,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        },
+        "base": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.14,
+            0.09,
+            0.09,
+            0.09,
+            0.09,
+            0.09
+          ],
+          "fcf_margin_path": [
+            0.1396,
+            0.1597,
+            0.1798,
+            0.1999,
+            0.22,
+            0.224,
+            0.228,
+            0.23199999999999998,
+            0.236,
+            0.24
+          ],
+          "annual_positive_dilution": 0.0,
+          "terminal_per_share_growth": 0.030000000000000027,
+          "annual_fcf_per_share_usd": [
+            5.676551896320001,
+            7.403020667193602,
+            9.501640276743938,
+            12.042774171891375,
+            15.109193408255917,
+            16.768457557089842,
+            18.604004786106998,
+            20.634126010134814,
+            22.87897661572017,
+            25.360763909628805
+          ],
+          "terminal_value_per_share_usd": 435.35978044862804,
+          "diagnostic_present_value_per_share_usd": 282.830430093413,
+          "value_to_reference_price": 0.8273766384665721,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        },
+        "bull": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.19,
+            0.12,
+            0.12,
+            0.12,
+            0.12,
+            0.12
+          ],
+          "fcf_margin_path": [
+            0.1476,
+            0.1757,
+            0.2038,
+            0.2319,
+            0.26,
+            0.264,
+            0.268,
+            0.272,
+            0.276,
+            0.28
+          ],
+          "annual_positive_dilution": 0.0,
+          "terminal_per_share_growth": 0.030000000000000027,
+          "annual_fcf_per_share_usd": [
+            6.265095016319999,
+            8.874829683585599,
+            12.250093594322975,
+            16.58757643956311,
+            22.13107438723944,
+            25.16813874930369,
+            28.615411087087104,
+            32.527607587948566,
+            36.96666932936273,
+            42.002708339449825
+          ],
+          "terminal_value_per_share_usd": 721.0464931605558,
+          "diagnostic_present_value_per_share_usd": 445.1621056795003,
+          "value_to_reference_price": 1.3022528249458822,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        }
+      }
+    }
   },
   "scenarios": {
     "bear": {
@@ -40,7 +208,8 @@
       "fully_diluted_shares_billions": 12.65,
       "estimated_value_per_share": 132,
       "return_vs_current_price_pct": -61.4,
-      "description": "Search growth slows materially, AI capex remains structurally heavy, Cloud competes on price and FCF margin recovers only modestly."
+      "description": "Search growth slows materially, AI capex remains structurally heavy, Cloud competes on price and FCF margin recovers only modestly.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
       "revenue_cagr_years_1_5_pct": 14,
@@ -53,7 +222,8 @@
       "fully_diluted_shares_billions": 12.5,
       "estimated_value_per_share": 339,
       "return_vs_current_price_pct": -0.8,
-      "description": "Search monetization remains resilient, Cloud and AI sustain strong growth, and FCF margin normalizes after the infrastructure build without perfect execution."
+      "description": "Search monetization remains resilient, Cloud and AI sustain strong growth, and FCF margin normalizes after the infrastructure build without perfect execution.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
       "revenue_cagr_years_1_5_pct": 19,
@@ -66,11 +236,15 @@
       "fully_diluted_shares_billions": 12.4,
       "estimated_value_per_share": 668,
       "return_vs_current_price_pct": 95.4,
-      "description": "Alphabet's full-stack AI position drives Search expansion, Cloud leadership, high utilization and strong FCF conversion, while dilution remains contained."
+      "description": "Alphabet's full-stack AI position drives Search expansion, Cloud leadership, high utilization and strong FCF conversion, while dilution remains contained.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
-    "estimated_value_range_per_share": [80, 120],
+    "estimated_value_range_per_share": [
+      80,
+      120
+    ],
     "drivers": [
       "Structural Search advertising erosion and loss of distribution advantages",
       "Cloud price competition and underutilized AI capacity",
@@ -88,5 +262,5 @@
     "probability_weighted_value_per_share": 369.5,
     "expected_upside_vs_current_price_pct": 8.1
   },
-  "notes": "All scenario outputs are estimates, not facts. Ten-year annual DCF uses year-end cash-flow discounting. Net financial assets equal June 2026 cash and short-term marketable securities less June long-term debt and preferred liquidation value; the August 2026 $25 billion debt issue is discussed separately because a matching post-issue cash balance is unavailable. Non-marketable securities are recognized with scenario-specific haircuts. Current displayed P/E is distorted by large unrealized equity gains. GOOG and GOOGL have the same operating value, but the observed class price spread should be applied at trade time."
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): All scenario outputs are estimates, not facts. Ten-year annual DCF uses year-end cash-flow discounting. Net financial assets equal June 2026 cash and short-term marketable securities less June long-term debt and preferred liquidation value; the August 2026 $25 billion debt issue is discussed separately because a matching post-issue cash balance is unavailable. Non-marketable securities are recognized with scenario-specific haircuts. Current displayed P/E is distorted by large unrealized equity gains. GOOG and GOOGL have the same operating value, but the observed class price spread should be applied at trade time."
 }

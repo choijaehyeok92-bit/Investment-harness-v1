@@ -1,0 +1,97 @@
+{
+  "ticker": "000660",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-15086548a5e757e58772",
+    "obs-4335e185f7837ae13ba9",
+    "obs-23d17448d1af2a5c4e0f",
+    "obs-258695e34088d8512977",
+    "obs-85de414354454fd508e8",
+    "obs-913fadd8d5fe198cb019",
+    "obs-1e3bbc4e6758196af82c",
+    "obs-b1f3b6e9fd1ed24e8d31",
+    "obs-3b81a48c0b8badac2163",
+    "obs-c4f422fa44344f3ff258",
+    "obs-2cf42ad5c8957df8fe32",
+    "obs-3addfc61651e83ed1bd8",
+    "obs-241a7d9cf1a3c509b1f0",
+    "obs-6c2c5dd1fa28cccf8952",
+    "obs-d5586befec3001926b75",
+    "obs-3efc6f562baf9acfa6ed",
+    "obs-45238c0f7b4d4634866f",
+    "obs-a20b41bcd3f7c9a0f6b3",
+    "obs-963f7f13b6725dc2fa7b",
+    "obs-c54096f3a00b857fdaef",
+    "obs-09b7188490aad09d84f9",
+    "obs-aa269b2a718a93e23c30",
+    "obs-b9e2fc8607ddedb2a0b8",
+    "obs-9cc8e43df85c2d7f8999",
+    "obs-201a7a9bddc311d25fc5",
+    "obs-653ea31f8da323938cf1",
+    "obs-32c485f6f27a26651851",
+    "obs-934b95f887420137fa75",
+    "obs-e8040c899f460989cddd",
+    "obs-df3163940fb01a20cf06",
+    "obs-5107c36d39e03b8c8cdb",
+    "obs-8253a01a5b51b2d1644b",
+    "obs-0787c02b1f365d5a2204",
+    "obs-96078555fa087f2dda15",
+    "obs-7d1191ff858bace8ab1d",
+    "obs-134d45d967d249e4227b",
+    "obs-a25fbea6daec5f2d3336",
+    "obs-ad77dd06309ad41ab950",
+    "obs-70556d496c9438392a11",
+    "obs-176443d708d502c7db52",
+    "obs-fbad6201cf61726548cc",
+    "obs-6dceb7da1dc410bfc00c",
+    "obs-60b26fb374c86001a7a3",
+    "obs-1ed995f5bb5c66873be0",
+    "obs-2cb9bb5c238d92c29660",
+    "obs-5db535f1d1c9c20f1e1f",
+    "obs-563d79f3c965cbf45fdd",
+    "obs-8b5fbc26e38b63ecef32",
+    "obs-22803387ba8eb89342ca"
+  ],
+  "financial_bridge": {
+    "revenue": 131.895033,
+    "operating_profit": 98.152891,
+    "ocf": 91.742501,
+    "cash_capex": 18.328836,
+    "sbc": null,
+    "additional_cash_investment": null,
+    "ticker": "000660",
+    "period": "H1 2026",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.7441742783445074,
+    "ocf_less_named_capex": 73.41366500000001,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc",
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/000660/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/000660/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "5808db5859a458b4b90699e2a28a62c1523dda54f157db57f2ff6a3e0c9684da"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

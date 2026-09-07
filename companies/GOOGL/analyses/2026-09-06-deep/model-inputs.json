@@ -1,0 +1,89 @@
+{
+  "ticker": "GOOGL",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 338.46,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 12230.0,
+  "liquidity_cash": 242.474,
+  "minimum_cash_reserve": 80.0,
+  "quality_scores": [
+    14,
+    9,
+    12,
+    9,
+    6,
+    9
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 18,
+    "base": 25,
+    "bull": 30
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "search_youtube_cloud",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 475.0,
+          "growth_2_5": 0.05,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": 0.04,
+          "owner_margin_mature": 0.12
+        },
+        "base": {
+          "revenue_year_1": 530.0,
+          "growth_2_5": 0.11,
+          "growth_6_10": 0.07,
+          "owner_margin_year_1": 0.06,
+          "owner_margin_mature": 0.2
+        },
+        "bull": {
+          "revenue_year_1": 590.0,
+          "growth_2_5": 0.17,
+          "growth_6_10": 0.1,
+          "owner_margin_year_1": 0.08,
+          "owner_margin_mature": 0.26
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM 매출 445.866B·OCF 185.675B−PPE 132.402B=53.273B. SBC 약 28.1B를 경제비용으로 보아 owner proxy 약25.2B로 낮춘다.",
+  "economic_risk": "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다.",
+  "rights_and_capital": "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다.",
+  "model_family": "platform_capex",
+  "falsifier": "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토.",
+  "investigate_veto_indices": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.34,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0536,
+    "working_capital_cash_cost_to_revenue": 0.005,
+    "interest_net_debt_service_other_claims_to_revenue": 0.01
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "separate_equity_value": {
+    "bear": -19,
+    "base": -19,
+    "bull": -19
+  },
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

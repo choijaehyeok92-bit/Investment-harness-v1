@@ -1,0 +1,8 @@
+{
+  "as_of": "2026-09-06",
+  "assessment": "companies/NET/analyses/2026-09-06-deep/assessment.json",
+  "thesis": "companies/NET/analyses/2026-09-06-deep/thesis.ko.md",
+  "authority": "현재 판정은 이 버전. 루트의 이전 scorecard/decision/thesis는 감사 가능한 과거 기록.",
+  "research_state": "FULL_ANALYSIS",
+  "run": "2026-09-06-deep"
+}

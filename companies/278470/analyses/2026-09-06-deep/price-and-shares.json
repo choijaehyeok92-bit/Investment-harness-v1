@@ -1,0 +1,11 @@
+{
+  "ticker": "278470",
+  "price": 394000.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 37.438155,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "37.438155백만주 분모, 6월 현금0.094463조원에서0.05조원 유보를 추정 적용한다. 리스부채0.084908조원과 상각후원가 금융부채0.009112조원을 총부채로 대체하지 않는다. 광고·판매 수수료·운전자본 비용 이후 주당 현금으로 판단한다."
+}

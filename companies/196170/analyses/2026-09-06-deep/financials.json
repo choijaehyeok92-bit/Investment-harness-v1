@@ -1,0 +1,42 @@
+{
+  "revenue": 0.140492885685,
+  "operating_profit": 0.073480904822,
+  "ocf": 0.037550826893,
+  "cash_capex": 0.016227564118,
+  "sbc": null,
+  "additional_cash_investment": 0.000559187028,
+  "ticker": "196170",
+  "period": "H1 2026",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.5230222474521022,
+  "ocf_less_named_capex": 0.021323262775000004,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/196170/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/196170/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "a65348f9f172404536ec3480ade4220c676713b52bc7d0ef0731c6bacfa950fa"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://www.alteogen.com/en/sub/ir/news.php?bid=13&idx=359&mode=view&page=1",
+    "location": "Company announcement September2, agreement terms paragraph",
+    "facts": {
+      "maximum_option_milestone_and_royalty_amount_usd_m": 3223
+    },
+    "note": "All options and milestones conditional. Announcement says maximum includes royalties; do not add another unlimited royalty stream to the same headline amount. Not current cash or guaranteed backlog."
+  }
+}

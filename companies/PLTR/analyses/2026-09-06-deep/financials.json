@@ -1,0 +1,42 @@
+{
+  "revenue": 3.568047,
+  "operating_profit": 1.666002,
+  "ocf": 2.115332,
+  "cash_capex": 0.021955,
+  "sbc": 0.466801,
+  "additional_cash_investment": 0.0,
+  "ticker": "PLTR",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.46692266105239083,
+  "ocf_less_named_capex": 2.093377,
+  "ocf_less_capex_sbc_known_subtotal": 1.6265759999999998,
+  "owner_cash_proxy": 1.6265759999999998,
+  "owner_proxy_complete": true,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/PLTR/raw-data/2026-Q2.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/PLTR/raw-data/2026-Q2.json",
+      "sha256": "1812d23e1be12b5ba100697d0789d562225d64d687d50294fdf50d4892a54784"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+    "location": "Cash Flow Statements; SBC reconciliation; diluted EPS table",
+    "facts": {
+      "ocf_h1_usd_m": 2115.332,
+      "sbc_h1_usd_m": 466.801,
+      "diluted_shares_q2_m": 2568.694
+    },
+    "note": "Balance sheet securities7.379052B differ from Treasury-only7.194962B; do not add both."
+  }
+}

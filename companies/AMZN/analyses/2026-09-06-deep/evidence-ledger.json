@@ -1,0 +1,79 @@
+{
+  "ticker": "AMZN",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-bdb1af5b6cf5d4714c59",
+    "obs-3567261d866ecc395cfb",
+    "obs-2443f7f45beef366e894",
+    "obs-52e5170fdef11b0eec2a",
+    "obs-e1eca62d272acf7d13da",
+    "obs-0852cc208e40fe2cb2e6",
+    "obs-27e2b2fc948034b4b55b",
+    "obs-61c2fad84003de835305",
+    "obs-158bcb6f6e251f0be430",
+    "obs-cc95a89389451a128d95",
+    "obs-7b4994640129c3605971",
+    "obs-aa3fdf5e5be698400a09",
+    "obs-777d422a54ddbaf982e5",
+    "obs-9303fa3610e51da2d007",
+    "obs-fca41f359591a53b555d",
+    "obs-38e4a361424235a9a97f",
+    "obs-911b94f3d5f1213abbe5",
+    "obs-364fa85c0fccbf923311",
+    "obs-f8ab2e82ae9cdede386f",
+    "obs-99afd63d576778fec14d",
+    "obs-2c69ff5352593e78cc43",
+    "obs-c16d7e3d26c933b82b34",
+    "obs-3e49c3fe6aa1ec008555",
+    "obs-8dd8648b7a152bea81bb",
+    "obs-dfc6bc7d6a023d9caca8",
+    "obs-0e7b3f7980a22872b93a",
+    "obs-8be59fedd21112d49f51",
+    "obs-a7677b3c665712ea79e8",
+    "obs-6a593c53b8ee41c8424b",
+    "obs-5022534bee06bbdb0a4b",
+    "obs-0c4c7a50f6ae13989968",
+    "obs-04ca29b63671d6b1a41a",
+    "obs-7875fe375ab19bfb573b",
+    "obs-bef952c7147e0e299747"
+  ],
+  "financial_bridge": {
+    "revenue": 775.68,
+    "operating_profit": 93.712,
+    "ocf": 161.403,
+    "cash_capex": 169.007,
+    "sbc": 19.314,
+    "additional_cash_investment": 1.907,
+    "ticker": "AMZN",
+    "period": "TTM through 2026-06-30",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.12081270627062707,
+    "ocf_less_named_capex": -7.604000000000013,
+    "ocf_less_capex_sbc_known_subtotal": -26.918000000000013,
+    "owner_cash_proxy": -28.825000000000014,
+    "owner_proxy_complete": true,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/AMZN/raw-data/2026-Q2.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/AMZN/raw-data/2026-Q2.json",
+        "sha256": "85dfebfcfce88a4b79db10d990b86ce32e04656eb4bba2aa7c45e7a60665873b"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

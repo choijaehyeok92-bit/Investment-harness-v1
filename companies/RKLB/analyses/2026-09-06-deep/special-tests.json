@@ -1,0 +1,44 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 18.698454781750474
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 17.76353204266295
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 16.917649564440904
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 16.14866549332995
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "unclosed_transaction": {
+    "status": "CONDITIONAL",
+    "note": "6월598.180438백만주는 자사주를 제외한 실제 분모이다. Iridium 약8B EV를 모두 주주 대가로 보거나 신규 매출을 공짜로 넣지 않는다. 미완료 거래는 별도 범위로 스트레스하고 3.6B bridge 금융 실행을 감시한다.",
+    "acquired_business_incremental_npv_test": [
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+        "value_per_share": 1.698532042662947
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+        "value_per_share": 11.337532042662946
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0,
+        "value_per_share": 17.76353204266295
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+        "value_per_share": 24.18953204266295
+      }
+    ],
+    "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+  }
+}

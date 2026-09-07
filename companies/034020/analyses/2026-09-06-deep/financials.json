@@ -1,0 +1,43 @@
+{
+  "revenue": 8.985938,
+  "operating_profit": 0.547774,
+  "ocf": null,
+  "cash_capex": 0.16374,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "034020",
+  "period": "H1 2026",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.060959022864391,
+  "ocf_less_named_capex": null,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "ocf",
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/034020/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/034020/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "849bc41f3b2e468a5d0f3d7ce6cb2f63cb07332d80f60e57eecb2769b7722d83"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://kr.investing.com/equities/doosan-heavy-ind.---const.",
+    "location": "Reference market quote tier4",
+    "facts": {
+      "price_krw": 79200
+    }
+  }
+}

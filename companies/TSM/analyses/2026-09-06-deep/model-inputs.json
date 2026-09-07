@@ -1,0 +1,82 @@
+{
+  "ticker": "TSM",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 428.91,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 5186.5049042,
+  "liquidity_cash": 97.82,
+  "minimum_cash_reserve": 40.0,
+  "quality_scores": [
+    14,
+    9,
+    13,
+    12,
+    9,
+    9
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "foundry",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 165.0,
+          "growth_2_5": 0.04,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": 0.2,
+          "owner_margin_mature": 0.18
+        },
+        "base": {
+          "revenue_year_1": 185.0,
+          "growth_2_5": 0.13,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.27
+        },
+        "bull": {
+          "revenue_year_1": 205.0,
+          "growth_2_5": 0.2,
+          "growth_6_10": 0.11,
+          "owner_margin_year_1": 0.3,
+          "owner_margin_mature": 0.33
+        }
+      }
+    }
+  ],
+  "financial_finding": "20-F 보통주25,932,524,521주를 5로 나누어5,186.504904M ADS로 계산한다. 시세 제공업체가 보통주를 ADS처럼 계산한 시가총액을 배제한다.",
+  "economic_risk": "FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다.",
+  "rights_and_capital": "해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다.",
+  "model_family": "foundry_geo",
+  "falsifier": "주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성.",
+  "investigate_veto_indices": [
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.49,
+    "cash_tax_rate": 0.2,
+    "da_less_all_capex_to_revenue": -0.102,
+    "working_capital_cash_cost_to_revenue": 0.015,
+    "interest_net_debt_service_other_claims_to_revenue": 0.005
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

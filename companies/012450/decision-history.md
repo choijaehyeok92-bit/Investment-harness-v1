@@ -219,3 +219,8 @@ the documents supplied. The FY2025 사업보고서 or the audited cash flow stat
 required. Until then the `external_capital_dependence` veto stays at `INVESTIGATE`
 rather than resolving either way.
 
+## 2026-09-05 — Astra 재심사
+
+- 과거: 71 / 48 충돌; 현재: 보류, WATCH, INVESTIGATE, 포지션 밴드 NONE.
+- 71점 WATCH와 48점 REJECT가 합쳐진 파일이었다. 연결 매출·이익의 100%를 모회사 주주에게 귀속시킬 수 없고 서로 다른 가격 1,055,000원과 1,244,000원의 판단도 혼합됐다. 현재 100점 총점은 보류한다.
+- [현재 재평가](re-evaluation-2026-09-05.md). 이전 판정은 역사이며 주문·거래는 실행하지 않았다.

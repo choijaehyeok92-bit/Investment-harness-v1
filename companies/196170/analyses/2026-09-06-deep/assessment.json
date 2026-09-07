@@ -1,0 +1,1085 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "196170",
+  "company_name": "Alteogen",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "REJECT",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/196170/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/196170/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 19,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/196170/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "바이오의약품 피하주사 전환 플랫폼",
+  "customer_and_moat": "파트너의 제형 전환·투여 편의 가치; 기술권·특허·대체 플랫폼과 상업 로열티 유지가 핵심",
+  "current_finding": "FY25/H1 동기 차감 TTM 매출 0.254조원·OCF 0.098조원. 계약 최대 총액은 조건부 마일스톤이며 현재 매출·현금과 다르다.",
+  "economic_finding": "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다.",
+  "capital_and_survival": "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다.",
+  "next_evidence": "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+  "permanent_loss_case": "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+  ],
+  "increase_evidence": [
+    "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "바이오의약품 피하주사 전환 플랫폼"
+      ],
+      "counter_evidence": [
+        "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "파트너의 제형 전환·투여 편의 가치; 기술권·특허·대체 플랫폼과 상업 로열티 유지가 핵심"
+      ],
+      "counter_evidence": [
+        "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "파트너의 제형 전환·투여 편의 가치; 기술권·특허·대체 플랫폼과 상업 로열티 유지가 핵심"
+      ],
+      "counter_evidence": [
+        "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY25/H1 동기 차감 TTM 매출 0.254조원·OCF 0.098조원. 계약 최대 총액은 조건부 마일스톤이며 현재 매출·현금과 다르다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다."
+      ],
+      "counter_evidence": [
+        "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 1,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 288,500.00; Base/가격 0.48배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 27.5%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.04배, Bull/가격 1.93배. 2상태 손익분기 Bull 확률 50.9%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/196170/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/196170/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+        ],
+        "resolution_needed": "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+        ],
+        "resolution_needed": "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "PASS",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다."
+        ],
+        "resolution_needed": "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+        ],
+        "resolution_needed": "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.27461398206807186,
+      "required_owner_margin_delta": 0.5089778570671593,
+      "price_reference": 288500.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 3.9959552668744798,
+      "implied_year_10_owner_cash": 1.9180585280997502,
+      "residual_price": -4.656612873077393e-10
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.25,
+                "owner_margin": 0.15,
+                "owner_cash_before_attribution": 0.0375,
+                "ownership": 1,
+                "attributable_cash": 0.0375
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.0375,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.28,
+                "owner_margin": 0.1625,
+                "owner_cash_before_attribution": 0.045500000000000006,
+                "ownership": 1,
+                "attributable_cash": 0.045500000000000006
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.045500000000000006,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.31360000000000005,
+                "owner_margin": 0.175,
+                "owner_cash_before_attribution": 0.054880000000000005,
+                "ownership": 1,
+                "attributable_cash": 0.054880000000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.054880000000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.3512320000000001,
+                "owner_margin": 0.1875,
+                "owner_cash_before_attribution": 0.06585600000000003,
+                "ownership": 1,
+                "attributable_cash": 0.06585600000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.06585600000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.39337984000000015,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 0.07867596800000004,
+                "ownership": 1,
+                "attributable_cash": 0.07867596800000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.07867596800000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.40124743680000013,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 0.08024948736000004,
+                "ownership": 1,
+                "attributable_cash": 0.08024948736000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.08024948736000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.40927238553600015,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 0.08185447710720004,
+                "ownership": 1,
+                "attributable_cash": 0.08185447710720004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.08185447710720004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.4174578332467202,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 0.08349156664934404,
+                "ownership": 1,
+                "attributable_cash": 0.08349156664934404
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.08349156664934404,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.42580698991165455,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 0.08516139798233091,
+                "ownership": 1,
+                "attributable_cash": 0.08516139798233091
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.08516139798233091,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.4343231297098877,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 0.08686462594197754,
+                "ownership": 1,
+                "attributable_cash": 0.08686462594197754
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.08686462594197754,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 0.40261777607504834,
+        "pv_terminal": 0.5358411779317732,
+        "separate_equity_value": -0.22,
+        "unfloored_equity_value": 0.7184589540068216,
+        "equity_value": 0.7184589540068216,
+        "value_per_share": 10314.51557212333,
+        "value_to_price": 0.035752220353980346,
+        "upside_downside": -0.9642477796460196,
+        "terminal_fraction_of_operating_pv": 0.5709798767905179,
+        "year_10_revenue": 0.4343231297098877,
+        "year_10_owner_cash": 0.08686462594197754,
+        "year_10_owner_cash_per_share": 1247.0671176807248,
+        "year_10_exit_price": 19953.073882891596,
+        "irr_roots": [
+          -0.21873447111546956
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.030369735610999996,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 10314.51557212333,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.45,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 0.1575,
+                "ownership": 1,
+                "attributable_cash": 0.1575
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.1575,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.5760000000000001,
+                "owner_margin": 0.38249999999999995,
+                "owner_cash_before_attribution": 0.22032,
+                "ownership": 1,
+                "attributable_cash": 0.22032
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.22032,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.73728,
+                "owner_margin": 0.415,
+                "owner_cash_before_attribution": 0.3059712,
+                "ownership": 1,
+                "attributable_cash": 0.3059712
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3059712,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.9437184000000002,
+                "owner_margin": 0.4475,
+                "owner_cash_before_attribution": 0.4223139840000001,
+                "ownership": 1,
+                "attributable_cash": 0.4223139840000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.4223139840000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.2079595520000002,
+                "owner_margin": 0.48,
+                "owner_cash_before_attribution": 0.5798205849600001,
+                "ownership": 1,
+                "attributable_cash": 0.5798205849600001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.5798205849600001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.2925167206400003,
+                "owner_margin": 0.48,
+                "owner_cash_before_attribution": 0.6204080259072001,
+                "ownership": 1,
+                "attributable_cash": 0.6204080259072001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6204080259072001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.3829928910848002,
+                "owner_margin": 0.48,
+                "owner_cash_before_attribution": 0.6638365877207041,
+                "ownership": 1,
+                "attributable_cash": 0.6638365877207041
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6638365877207041,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.4798023934607363,
+                "owner_margin": 0.48,
+                "owner_cash_before_attribution": 0.7103051488611534,
+                "ownership": 1,
+                "attributable_cash": 0.7103051488611534
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7103051488611534,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.583388561002988,
+                "owner_margin": 0.48,
+                "owner_cash_before_attribution": 0.7600265092814342,
+                "ownership": 1,
+                "attributable_cash": 0.7600265092814342
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7600265092814342,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.6942257602731974,
+                "owner_margin": 0.48,
+                "owner_cash_before_attribution": 0.8132283649311347,
+                "ownership": 1,
+                "attributable_cash": 0.8132283649311347
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.8132283649311347,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 2.861694308522712,
+        "pv_terminal": 6.897764255204879,
+        "separate_equity_value": -0.178595,
+        "unfloored_equity_value": 9.580863563727592,
+        "equity_value": 9.580863563727592,
+        "value_per_share": 137547.12899231116,
+        "value_to_price": 0.47676647830957075,
+        "upside_downside": -0.5232335216904292,
+        "terminal_fraction_of_operating_pv": 0.7067773493953237,
+        "year_10_revenue": 1.6942257602731974,
+        "year_10_owner_cash": 0.8132283649311347,
+        "year_10_owner_cash_per_share": 11675.067290893474,
+        "year_10_exit_price": 256851.48039965643,
+        "irr_roots": [
+          0.014461434612685564
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.030369735610999996,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 137547.12899231116,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.7,
+                "owner_margin": 0.45,
+                "owner_cash_before_attribution": 0.315,
+                "ownership": 1,
+                "attributable_cash": 0.315
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.315,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 0.9799999999999999,
+                "owner_margin": 0.4875,
+                "owner_cash_before_attribution": 0.47774999999999995,
+                "ownership": 1,
+                "attributable_cash": 0.47774999999999995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.47774999999999995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.3719999999999997,
+                "owner_margin": 0.525,
+                "owner_cash_before_attribution": 0.7202999999999998,
+                "ownership": 1,
+                "attributable_cash": 0.7202999999999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7202999999999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 1.9207999999999994,
+                "owner_margin": 0.5625,
+                "owner_cash_before_attribution": 1.0804499999999997,
+                "ownership": 1,
+                "attributable_cash": 1.0804499999999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0804499999999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 2.6891199999999995,
+                "owner_margin": 0.6,
+                "owner_cash_before_attribution": 1.6134719999999996,
+                "ownership": 1,
+                "attributable_cash": 1.6134719999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.6134719999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 3.0118143999999996,
+                "owner_margin": 0.6,
+                "owner_cash_before_attribution": 1.8070886399999997,
+                "ownership": 1,
+                "attributable_cash": 1.8070886399999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8070886399999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 3.3732321279999997,
+                "owner_margin": 0.6,
+                "owner_cash_before_attribution": 2.0239392767999997,
+                "ownership": 1,
+                "attributable_cash": 2.0239392767999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.0239392767999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 3.7780199833600006,
+                "owner_margin": 0.6,
+                "owner_cash_before_attribution": 2.2668119900160004,
+                "ownership": 1,
+                "attributable_cash": 2.2668119900160004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.2668119900160004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 4.2313823813632006,
+                "owner_margin": 0.6,
+                "owner_cash_before_attribution": 2.53882942881792,
+                "ownership": 1,
+                "attributable_cash": 2.53882942881792
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.53882942881792,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "royalties_and_licenses",
+                "revenue": 4.739148267126785,
+                "owner_margin": 0.6,
+                "owner_cash_before_attribution": 2.843488960276071,
+                "ownership": 1,
+                "attributable_cash": 2.843488960276071
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.843488960276071,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 8.2513108765846,
+        "pv_terminal": 30.69606644163905,
+        "separate_equity_value": -0.15833,
+        "unfloored_equity_value": 38.78904731822365,
+        "equity_value": 38.78904731822365,
+        "value_per_share": 556872.7766010246,
+        "value_to_price": 1.9302349275598771,
+        "upside_downside": 0.9302349275598771,
+        "terminal_fraction_of_operating_pv": 0.7881420664306509,
+        "year_10_revenue": 4.739148267126785,
+        "year_10_owner_cash": 2.843488960276071,
+        "year_10_owner_cash_per_share": 40822.3893603946,
+        "year_10_exit_price": 1143026.9020910487,
+        "irr_roots": [
+          0.18189335666071338
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.030369735610999996,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 556872.7766010246,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/196170/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "royalty_contract",
+    "missing_data": [
+      "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 61,
+  "business_quality_75": 57,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.45,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "바이오의약품 피하주사 전환 플랫폼",
+        "response": "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "파트너의 제형 전환·투여 편의 가치; 기술권·특허·대체 플랫폼과 상업 로열티 유지가 핵심",
+        "response": "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "FY25/H1 동기 차감 TTM 매출 0.254조원·OCF 0.098조원. 계약 최대 총액은 조건부 마일스톤이며 현재 매출·현금과 다르다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 288,500.00; Base/가격 0.48배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 27.5%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 70.7%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다.",
+      "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "FY25/H1 동기 차감 TTM 매출 0.254조원·OCF 0.098조원. 계약 최대 총액은 조건부 마일스톤이며 현재 매출·현금과 다르다.",
+    "falsifiers": [
+      "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+    ],
+    "confidence": 0.45,
+    "verdict": "REJECT",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "external_capital_dependence",
+      "persistent_dilution",
+      "fatal_concentration",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

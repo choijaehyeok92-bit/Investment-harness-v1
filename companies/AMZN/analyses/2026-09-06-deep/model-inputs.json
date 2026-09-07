@@ -1,0 +1,138 @@
+{
+  "ticker": "AMZN",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 258.51,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 10786.313572,
+  "liquidity_cash": 78.213,
+  "minimum_cash_reserve": 50.0,
+  "quality_scores": [
+    14,
+    9,
+    13,
+    8,
+    7,
+    9
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "AWS",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 172.2,
+          "growth_2_5": 0.14,
+          "growth_6_10": 0.06,
+          "owner_margin_year_1": -0.12513034410844628,
+          "owner_margin_mature": 0.06673257538309442
+        },
+        "base": {
+          "revenue_year_1": 195.29999999999998,
+          "growth_2_5": 0.2,
+          "growth_6_10": 0.09,
+          "owner_margin_year_1": -0.06256517205422314,
+          "owner_margin_mature": 0.1601581809194266
+        },
+        "bull": {
+          "revenue_year_1": 218.4,
+          "growth_2_5": 0.25,
+          "growth_6_10": 0.12,
+          "owner_margin_year_1": 0.0,
+          "owner_margin_mature": 0.2402372713791399
+        }
+      }
+    },
+    {
+      "name": "North_America",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 459.20000000000005,
+          "growth_2_5": 0.03,
+          "growth_6_10": 0.015,
+          "owner_margin_year_1": -0.012513034410844628,
+          "owner_margin_mature": 0.01606524962926347
+        },
+        "base": {
+          "revenue_year_1": 520.8000000000001,
+          "growth_2_5": 0.09,
+          "growth_6_10": 0.045,
+          "owner_margin_year_1": -0.006256517205422314,
+          "owner_margin_mature": 0.03855659911023233
+        },
+        "bull": {
+          "revenue_year_1": 582.4000000000001,
+          "growth_2_5": 0.14,
+          "growth_6_10": 0.075,
+          "owner_margin_year_1": 0.0,
+          "owner_margin_mature": 0.05783489866534849
+        }
+      }
+    },
+    {
+      "name": "International",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 188.6,
+          "growth_2_5": 0.049999999999999996,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": -0.0291970802919708,
+          "owner_margin_mature": 0.008650519031141867
+        },
+        "base": {
+          "revenue_year_1": 213.9,
+          "growth_2_5": 0.11,
+          "growth_6_10": 0.06,
+          "owner_margin_year_1": -0.0145985401459854,
+          "owner_margin_mature": 0.020761245674740483
+        },
+        "bull": {
+          "revenue_year_1": 239.20000000000002,
+          "growth_2_5": 0.16,
+          "growth_6_10": 0.09,
+          "owner_margin_year_1": 0.0,
+          "owner_margin_mature": 0.03114186851211072
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM OCF 161.403B−순현금 PPE 169.007B=−7.604B; SBC 19.314B와 금융리스·금융약정 원금 1.907B 차감 후 owner proxy −28.825B.",
+  "economic_risk": "Q2 기타이익 53.415B를 반복 영업현금으로 넣지 않는다. AWS·북미·국제 부문 매출 안의 광고를 별도 가산하지 않는다.",
+  "rights_and_capital": "보통주 10,786.314백만주, H1 신규 차입 66.998B. 유지 Capex를 임의 축소하여 음수 현금을 삭제하지 않는다. 첫 4년 cash margin 전환과 AWS 투자 회수 지연을 민감도로 제시한다.",
+  "model_family": "segment_capex",
+  "falsifier": "AWS 사용률·단위 현금수익 증가보다 설비·리스비용이 더 빨리 늘고 소매 개선도 이를 상쇄하지 못하면 복리 가정 하향.",
+  "investigate_veto_indices": [
+    1,
+    4,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.13,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0327,
+    "working_capital_cash_cost_to_revenue": 0.005,
+    "interest_net_debt_service_other_claims_to_revenue": 0.005
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "segment_assumption_note": "부문별 매출 배분·성장률·현금마진은 분석 추정이며, 연결 owner 현금의 초기 합계와 성숙 고정믹스 합계를 보존한다. 이후 믹스 변화로 연결 현금마진이 변한다. 공시하지 않은 부문 FCF를 실제치로 만들지 않았다. 공시 부문 근거는 원자료/이전 thesis, 숫자 가정은 components에 공개.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

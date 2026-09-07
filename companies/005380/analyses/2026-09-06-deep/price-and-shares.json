@@ -1,0 +1,11 @@
+{
+  "ticker": "005380",
+  "price": 383500.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 265.390108,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다."
+}

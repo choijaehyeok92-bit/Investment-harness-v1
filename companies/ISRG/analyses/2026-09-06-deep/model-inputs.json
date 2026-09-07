@@ -1,0 +1,79 @@
+{
+  "ticker": "ISRG",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 366.7,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 353.9,
+  "liquidity_cash": 8.63,
+  "minimum_cash_reserve": 2.0,
+  "quality_scores": [
+    14,
+    9,
+    14,
+    13,
+    8,
+    10
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 18,
+    "base": 25,
+    "bull": 30
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "robotic_surgery",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 12.0,
+          "growth_2_5": 0.07,
+          "growth_6_10": 0.04,
+          "owner_margin_year_1": 0.19,
+          "owner_margin_mature": 0.18
+        },
+        "base": {
+          "revenue_year_1": 13.2,
+          "growth_2_5": 0.13,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": 0.22,
+          "owner_margin_mature": 0.23
+        },
+        "bull": {
+          "revenue_year_1": 14.5,
+          "growth_2_5": 0.18,
+          "growth_6_10": 0.11,
+          "owner_margin_year_1": 0.24,
+          "owner_margin_mature": 0.28
+        }
+      }
+    }
+  ],
+  "financial_finding": "첨부 10-K·Q2 10-Q를 재대조했다. TTM OCF3.7064B−PPE0.4838B=FCF3.2226B; 손익계산서 SBC0.8393B 차감 proxy2.3833B. 별도 자본화 SBC0.1348B는 재고·상각 중복 확인 전 단순 재차감하지 않으며 초기 현금마진·재투자 민감도에 반영한다.",
+  "economic_risk": "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다.",
+  "rights_and_capital": "기말 353.9백만주, 현금·투자 8.63B. 환매를 무상으로 간주하지 않고 미래 보상비용을 마진에 포함한다. 손상·임대잔존가치·서비스 유지 Capex를 제외하지 않는다.",
+  "model_family": "procedure_recurring",
+  "falsifier": "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토.",
+  "investigate_veto_indices": [],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.33,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0207,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

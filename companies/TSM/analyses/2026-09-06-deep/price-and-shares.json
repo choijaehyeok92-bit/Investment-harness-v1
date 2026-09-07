@@ -1,0 +1,11 @@
+{
+  "ticker": "TSM",
+  "price": 428.91,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 5186.5049042,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다."
+}

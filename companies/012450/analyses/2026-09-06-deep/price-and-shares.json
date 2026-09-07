@@ -1,0 +1,11 @@
+{
+  "ticker": "012450",
+  "price": 1055000.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 51.563401,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "별도 순차입·보증의 확정 합계는 미공개/미연결이다. 따라서 순차입·자본약정 2/3/6조원을 추정 스트레스로 명시하며 2조원 현금/2조원 유보는 조달능력을 인정하지 않는 분석 가정이다. 자회사 가치와 자회사 현금을 중복 가산하지 않는다."
+}

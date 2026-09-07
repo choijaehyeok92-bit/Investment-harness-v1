@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-09-05",
+  "invalid_files_before": 13,
+  "affected_companies": [
+    "012450",
+    "AVGO",
+    "NVDA"
+  ],
+  "files": [
+    {
+      "path": "companies/012450/decision.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 27 column 1 (char 1250)",
+      "recovery_source": "18bc9b2",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/012450/scorecard.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 161 column 1 (char 6193)",
+      "recovery_source": "b5810b5",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/012450/hard-veto.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 16 column 1 (char 3237)",
+      "recovery_source": "18bc9b2",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/012450/valuation.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 28 column 1 (char 3200)",
+      "recovery_source": "367f55843d769da7e7b123007d78ac0b83eb83ef:first-SOTP",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/012450/evidence.jsonl",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "recovery_source": "valid historical ledger entries retained; lone separator removed",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/AVGO/scorecard.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 102 column 1 (char 9366)",
+      "recovery_source": "1404eec",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/AVGO/hard-veto.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 119 column 1 (char 9511)",
+      "recovery_source": "1404eec",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/AVGO/valuation.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 194 column 1 (char 9991)",
+      "recovery_source": "1404eec",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/NVDA/decision.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Extra data: line 26 column 1 (char 1179)",
+      "recovery_source": "f09c7b0",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/NVDA/scorecard.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting ',' delimiter: line 58 column 1 (char 2157)",
+      "recovery_source": "f09c7b0",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/NVDA/hard-veto.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting property name enclosed in double quotes: line 3 column 1 (char 22)",
+      "recovery_source": "f09c7b0",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/NVDA/valuation.json",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Extra data: line 97 column 1 (char 4200)",
+      "recovery_source": "f09c7b0",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    },
+    {
+      "path": "companies/NVDA/evidence.jsonl",
+      "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "recovery_source": "valid historical ledger entries retained; lone separator removed",
+      "policy": "Prior bytes recoverable from Git history; do not silently select a conflicting verdict. Current review adjudicates the economic judgment."
+    }
+  ]
+}

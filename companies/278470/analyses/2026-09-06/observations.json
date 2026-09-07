@@ -1,0 +1,3485 @@
+[
+  {
+    "id": "obs-1d6671967869afd009f4",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/accounting_presentation_change/fy2025_operating_income_original_krw",
+    "metric": "fy2025_operating_income_original_krw",
+    "value": 365520628934,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_page": 28
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-f0e432a20133d99b2a2c",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/accounting_presentation_change/fy2025_operating_income_recast_krw",
+    "metric": "fy2025_operating_income_recast_krw",
+    "value": 361391394715,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_page": 28
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-6e155d3a2e79198163ae",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/accounting_presentation_change/fy2024_operating_income_original_krw",
+    "metric": "fy2024_operating_income_original_krw",
+    "value": 122705544449,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_page": 28
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-7f5ac94d9d5494916c2b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/accounting_presentation_change/fy2024_operating_income_recast_krw",
+    "metric": "fy2024_operating_income_recast_krw",
+    "value": 125010562715,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_page": 28
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-dc82c312b637cc7c4a97",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/revenue/0/value",
+    "metric": "revenue",
+    "value": 1527344973381,
+    "period": "FY2025",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 1527344973381,
+    "source": "FY2025 business report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-1b4258652fb57c2107f4",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/revenue/1/value",
+    "metric": "revenue",
+    "value": 1360888888861,
+    "period": "H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 1360888888861,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-333e9796e7aef448bf72",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/revenue/2/value",
+    "metric": "revenue",
+    "value": 767533293305,
+    "period": "Q2 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 767533293305,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income, 3-month column",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-e7b958f0df270ba1239b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/revenue/3/value",
+    "metric": "revenue",
+    "value": 593767620563,
+    "period": "H1 2025 comparative",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 593767620563,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-e906aeec8fd8b4e2fad9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/revenue/4/value",
+    "metric": "revenue",
+    "value": 327734894608,
+    "period": "Q2 2025 comparative",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 327734894608,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income, 3-month comparative column",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-44c1bc19a82a2b15ac38",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_income/0/value",
+    "metric": "operating_income",
+    "value": 365520628934,
+    "period": "FY2025 original filing presentation",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 365520628934,
+    "source": "FY2025 business report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-61a9b16db0bd586aa266",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_income/1/value",
+    "metric": "operating_income",
+    "value": 361391394715,
+    "period": "FY2025 restated comparative under K-IFRS 1118",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 361391394715,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.28, summarized consolidated financial information",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-55e95289cfd54754c529",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_income/2/value",
+    "metric": "operating_income",
+    "value": 342824708032,
+    "period": "H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 342824708032,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-933de583c0b602c54483",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_income/3/value",
+    "metric": "operating_income",
+    "value": 190553013038,
+    "period": "Q2 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 190553013038,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income, 3-month column",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-66f2c26076d4d1566756",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_income/4/value",
+    "metric": "operating_income",
+    "value": 136884790182,
+    "period": "H1 2025 comparative restated under K-IFRS 1118",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 136884790182,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31 and p.40, comparative restatement disclosure",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-d7edce156c9002434ac6",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_income/5/value",
+    "metric": "operating_income",
+    "value": 81257513114,
+    "period": "Q2 2025 comparative restated under K-IFRS 1118",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 81257513114,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, 3-month comparative column",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-b28d83df92ce5cf0e4c1",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_margin/0/value",
+    "metric": "operating_margin",
+    "value": null,
+    "period": "FY2025, Q2 2026, H1 2026",
+    "unit": "percent",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "supplied filings",
+    "location": "No explicit current-period consolidated operating-margin percentage located in the supplied filings",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "VALUE_NOT_REPORTED"
+    ]
+  },
+  {
+    "id": "obs-ce7b05419e3a14d5794d",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/net_income/0/value",
+    "metric": "net_income",
+    "value": 289654813287,
+    "period": "FY2025",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 289654813287,
+    "source": "FY2025 business report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-8aff89dc6011aa19eddc",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/net_income/1/value",
+    "metric": "net_income",
+    "value": 258793447596,
+    "period": "H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 258793447596,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-0679ca3d540921340d33",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/net_income/2/value",
+    "metric": "net_income",
+    "value": 141529504826,
+    "period": "Q2 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 141529504826,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income, 3-month column",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-7de28a13349a81d2429d",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/net_income/3/value",
+    "metric": "net_income",
+    "value": 116250326398,
+    "period": "H1 2025 comparative",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 116250326398,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, consolidated statement of comprehensive income",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-3ccc9283c79ae9566e8a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/net_income/4/value",
+    "metric": "net_income",
+    "value": 66309082291,
+    "period": "Q2 2025 comparative",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 66309082291,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31, 3-month comparative column",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-571aabebf619fa63019a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/free_cash_flow/0/value",
+    "metric": "free_cash_flow",
+    "value": null,
+    "period": "FY2025 and H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": null,
+    "source": "supplied filings",
+    "location": "No explicit free-cash-flow metric located in the supplied filings",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "VALUE_NOT_REPORTED"
+    ]
+  },
+  {
+    "id": "obs-6cf31a5e88030316d7ec",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_cash_flow/0/value",
+    "metric": "operating_cash_flow",
+    "value": 341046397295,
+    "period": "FY2025",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 341046397295,
+    "source": "FY2025 business report",
+    "location": "PDF p.33, consolidated statement of cash flows, cash flows from operating activities",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-b2430fc777079fecd291",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_cash_flow/1/value",
+    "metric": "operating_cash_flow",
+    "value": 86404149570,
+    "period": "H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 86404149570,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.33, consolidated statement of cash flows",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-5b3ab1285f8e9971afc9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/operating_cash_flow/2/value",
+    "metric": "operating_cash_flow",
+    "value": 116067068380,
+    "period": "H1 2025 comparative",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 116067068380,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.33, consolidated statement of cash flows",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-80c70ec53a3c6c540cc6",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/capital_expenditures/0/value",
+    "metric": "property_plant_and_equipment_increase_cash_outflow",
+    "value": 15411405167,
+    "period": "FY2025",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 15411405167,
+    "source": "FY2025 business report",
+    "location": "PDF p.34, consolidated statement of cash flows, increase in property, plant and equipment",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-24a14ce1e3bf1f6e5df6",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/capital_expenditures/1/value",
+    "metric": "intangible_asset_increase_cash_outflow",
+    "value": 2506371609,
+    "period": "FY2025",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 2506371609,
+    "source": "FY2025 business report",
+    "location": "PDF p.34, consolidated statement of cash flows",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-c97b04592c258dcdf87c",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/capital_expenditures/2/value",
+    "metric": "property_plant_and_equipment_increase_cash_outflow",
+    "value": 16794134780,
+    "period": "H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 16794134780,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.34, consolidated statement of cash flows",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-86fa6cedca2eed335cc1",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/capital_expenditures/3/value",
+    "metric": "intangible_asset_increase_cash_outflow",
+    "value": 1127211290,
+    "period": "H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 1127211290,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.34, consolidated statement of cash flows",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-1cedf41f4c201d2395a5",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/capital_expenditures/4/value",
+    "metric": "property_plant_and_equipment_increase_cash_outflow",
+    "value": 7700083308,
+    "period": "H1 2025 comparative",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 7700083308,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.34, consolidated statement of cash flows",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-05f9ed89965c4845e1a6",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/cash_and_cash_equivalents_krw",
+    "metric": "cash_and_cash_equivalents_krw",
+    "value": 154350192148,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-e58e374f3542251cbf05",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/accounts_and_other_receivables_krw",
+    "metric": "accounts_and_other_receivables_krw",
+    "value": 91114168447,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-89cff0154613accfb8d8",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/inventory_krw",
+    "metric": "inventory_krw",
+    "value": 165457160456,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-f53f06643ecf61c17f3f",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/current_financial_assets_other_krw",
+    "metric": "current_financial_assets_other_krw",
+    "value": 32591663092,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-563501b04b917d6c45b8",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/total_assets_krw",
+    "metric": "total_assets_krw",
+    "value": 771737546894,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-679534b3481dc6ce33f2",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/current_liabilities_krw",
+    "metric": "current_liabilities_krw",
+    "value": 238368989084,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-98108f64f0cefcd29872",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/noncurrent_liabilities_krw",
+    "metric": "noncurrent_liabilities_krw",
+    "value": 87568747496,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-8db8389d3a15c274a397",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/total_liabilities_krw",
+    "metric": "total_liabilities_krw",
+    "value": 325937736580,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b33df3b058650cd918b0",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/current_lease_liabilities_krw",
+    "metric": "current_lease_liabilities_krw",
+    "value": 22492488636,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-44009bef0aeab6ee58b1",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/noncurrent_lease_liabilities_krw",
+    "metric": "noncurrent_lease_liabilities_krw",
+    "value": 78219359846,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b1e45c80057e3abb6559",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/current_amortized_cost_financial_liabilities_krw",
+    "metric": "current_amortized_cost_financial_liabilities_krw",
+    "value": 2355225636,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-ed657019281364daf1fa",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/fy2025_12_31/total_equity_krw",
+    "metric": "total_equity_krw",
+    "value": 445799810314,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-79d0253eb45d2b21f10c",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/cash_and_cash_equivalents_krw",
+    "metric": "cash_and_cash_equivalents_krw",
+    "value": 94463145498,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-6bf7e9ec969f5b9d8096",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/accounts_and_other_receivables_krw",
+    "metric": "accounts_and_other_receivables_krw",
+    "value": 191598733307,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-526c04b6cdfda7245f6e",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/inventory_krw",
+    "metric": "inventory_krw",
+    "value": 369883998811,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-cd2bc5bcaba743451b45",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/current_amortized_cost_financial_assets_krw",
+    "metric": "current_amortized_cost_financial_assets_krw",
+    "value": 20097364984,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-1dc26041f075a4eac34a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/total_assets_krw",
+    "metric": "total_assets_krw",
+    "value": 1102085656477,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-6d592bbc79f2bbe790c7",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/current_liabilities_krw",
+    "metric": "current_liabilities_krw",
+    "value": 382337630468,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b6045d9a75a60bf31201",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/noncurrent_liabilities_krw",
+    "metric": "noncurrent_liabilities_krw",
+    "value": 71714231348,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-8864b41946b9155cf937",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/total_liabilities_krw",
+    "metric": "total_liabilities_krw",
+    "value": 454051861816,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-dcf9f8a5768d6be72626",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/current_lease_liabilities_krw",
+    "metric": "current_lease_liabilities_krw",
+    "value": 25486795404,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-95a8aabad458a1c59f16",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/noncurrent_lease_liabilities_krw",
+    "metric": "noncurrent_lease_liabilities_krw",
+    "value": 59421329093,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-0a9c3b26a7f1fbc6b8e0",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/current_amortized_cost_financial_liabilities_krw",
+    "metric": "current_amortized_cost_financial_liabilities_krw",
+    "value": 9112308314,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-ea668f82769242f76022",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/h1_2026_06_30/total_equity_krw",
+    "metric": "total_equity_krw",
+    "value": 648033794500,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        28,
+        30
+      ]
+    },
+    "location": null,
+    "extraction_confidence": null,
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-9624ef534327fe70481b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/cash_assets_liabilities/conventional_debt_note/value",
+    "metric": "cash_assets_liabilities",
+    "value": null,
+    "period": "2025-12-31 and 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": null,
+    "source": "supplied filings",
+    "location": "The supplied consolidated balance-sheet extracts present lease liabilities and amortized-cost financial liabilities; no unsupported aggregate 'debt' value is derived from total liabilities.",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "VALUE_NOT_REPORTED"
+    ]
+  },
+  {
+    "id": "obs-ebb4545988f5e1826fc2",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/fy2025_product_mix_reported_in_krw_millions/0/amount",
+    "metric": "amount",
+    "value": 1077126,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-c7d5b1752a0a3d142951",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/fy2025_product_mix_reported_in_krw_millions/0/share_percent",
+    "metric": "share_percent",
+    "value": 70.5,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-03d35d01fc9486ebc6c4",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/fy2025_product_mix_reported_in_krw_millions/1/amount",
+    "metric": "amount",
+    "value": 406984,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-70770e9eadcc554a4bbc",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/fy2025_product_mix_reported_in_krw_millions/1/share_percent",
+    "metric": "share_percent",
+    "value": 26.7,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-0cd59037191d9c75793b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/fy2025_product_mix_reported_in_krw_millions/2/amount",
+    "metric": "amount",
+    "value": 43235,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-9a073bb4715d6697485b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/fy2025_product_mix_reported_in_krw_millions/2/share_percent",
+    "metric": "share_percent",
+    "value": 2.8,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-389aef27173dc1642c05",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/h1_2026_product_mix_reported_in_krw_millions/0/amount",
+    "metric": "amount",
+    "value": 1100824,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-92c8a3735c0c771172f9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/h1_2026_product_mix_reported_in_krw_millions/0/share_percent",
+    "metric": "share_percent",
+    "value": 80.9,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-4ae63333fc8ed9abba45",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/h1_2026_product_mix_reported_in_krw_millions/1/amount",
+    "metric": "amount",
+    "value": 244645,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-9f4aa1f428e5b2b78c43",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/h1_2026_product_mix_reported_in_krw_millions/1/share_percent",
+    "metric": "share_percent",
+    "value": 18.0,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-0437fafe7fd4b5189ff5",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/h1_2026_product_mix_reported_in_krw_millions/2/amount",
+    "metric": "amount",
+    "value": 15420,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-76bd0d479de5886f4224",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/h1_2026_product_mix_reported_in_krw_millions/2/share_percent",
+    "metric": "share_percent",
+    "value": 1.1,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-55b0b27147c8e8c94283",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/0/domestic",
+    "metric": "domestic",
+    "value": 301586,
+    "period": "FY2025",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-f9d3b43311a400a2cd55",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/0/export",
+    "metric": "export",
+    "value": 1225759,
+    "period": "FY2025",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-672f46c55ce372c81ac1",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/0/total",
+    "metric": "total",
+    "value": 1527345,
+    "period": "FY2025",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-5db00b4fd6f2593366f2",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/1/domestic",
+    "metric": "domestic",
+    "value": 128630,
+    "period": "H1 2026",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-0ae29a0c9f0514e42366",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/1/export",
+    "metric": "export",
+    "value": 1232259,
+    "period": "H1 2026",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-a20972f5435e0626f063",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/1/total",
+    "metric": "total",
+    "value": 1360889,
+    "period": "H1 2026",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-f41f2c5f26ac1ae6d0a3",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/2/domestic",
+    "metric": "domestic",
+    "value": 322956,
+    "period": "FY2024",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-54fc4b6278372fee5f19",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/2/export",
+    "metric": "export",
+    "value": 399798,
+    "period": "FY2024",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-6cc5b81d05d35250f2ec",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/domestic_export_sales_reported_in_krw_millions/2/total",
+    "metric": "total",
+    "value": 722754,
+    "period": "FY2024",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b450bc7354f501de944f",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/sales_channel_mix_percent/0/online",
+    "metric": "online",
+    "value": 61.4,
+    "period": "H1 2026",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-e67a72da33c19598d747",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/sales_channel_mix_percent/0/offline",
+    "metric": "offline",
+    "value": 38.6,
+    "period": "H1 2026",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-8528b45760c88342ac49",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/sales_channel_mix_percent/1/online",
+    "metric": "online",
+    "value": 66.6,
+    "period": "FY2025",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-6f44be6816d5e644f1ac",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/sales_channel_mix_percent/1/offline",
+    "metric": "offline",
+    "value": 33.4,
+    "period": "FY2025",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-c746f987c83b6a5298ca",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/sales_channel_mix_percent/2/online",
+    "metric": "online",
+    "value": 75.8,
+    "period": "FY2024",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-e7ec024cc1d1d72c7434",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/business_and_product_performance/sales_channel_mix_percent/2/offline",
+    "metric": "offline",
+    "value": 24.2,
+    "period": "FY2024",
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        16,
+        18,
+        19
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-c71755ac137a60663521",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/cosmetics_segment_revenue_before_eliminations",
+    "metric": "cosmetics_segment_revenue_before_eliminations",
+    "value": 1949970104,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-fda2dee19917c326917c",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/apparel_fashion_segment_revenue_before_eliminations",
+    "metric": "apparel_fashion_segment_revenue_before_eliminations",
+    "value": 25088912,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-aee5fa76eac95b44d50c",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/segment_total_revenue_before_eliminations",
+    "metric": "segment_total_revenue_before_eliminations",
+    "value": 1975059016,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b751d37ff36a507a1085",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/intersegment_and_other_adjustments_revenue",
+    "metric": "intersegment_and_other_adjustments_revenue",
+    "value": -447714043,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-1b6493e3498388c3f5e9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/consolidated_revenue",
+    "metric": "consolidated_revenue",
+    "value": 1527344973,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-d6792768068b672100f0",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/cosmetics_segment_operating_income",
+    "metric": "cosmetics_segment_operating_income",
+    "value": 376031448,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-1ca4e347c793668489f8",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/apparel_fashion_segment_operating_loss",
+    "metric": "apparel_fashion_segment_operating_loss",
+    "value": -7792842,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-4c98fb7128b9230e534e",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/segment_total_operating_income",
+    "metric": "segment_total_operating_income",
+    "value": 368238606,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-5d5311ea2228466ba22a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/intersegment_and_other_adjustments_operating_income",
+    "metric": "intersegment_and_other_adjustments_operating_income",
+    "value": -2717977,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-9c38ff9529e8eb26a7be",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/fy2025_reported_in_krw_thousands/consolidated_operating_income",
+    "metric": "consolidated_operating_income",
+    "value": 365520629,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-4d9667aa237c1f636345",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/cosmetics_segment_revenue_before_eliminations",
+    "metric": "cosmetics_segment_revenue_before_eliminations",
+    "value": 1772987466,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-738e2d5d0378f66a96b9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/apparel_fashion_segment_revenue_before_eliminations",
+    "metric": "apparel_fashion_segment_revenue_before_eliminations",
+    "value": 5596573,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-36cb6523aa0ac3665cf9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/segment_total_revenue_before_eliminations",
+    "metric": "segment_total_revenue_before_eliminations",
+    "value": 1778584039,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-4a9cea11904f9168bc4a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/intersegment_and_other_adjustments_revenue",
+    "metric": "intersegment_and_other_adjustments_revenue",
+    "value": -417695150,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-dafb2c2c81df0c895ec2",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/consolidated_revenue",
+    "metric": "consolidated_revenue",
+    "value": 1360888889,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-43333df608374697b43b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/cosmetics_segment_operating_income",
+    "metric": "cosmetics_segment_operating_income",
+    "value": 344067543,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-2e015a0d3b96b2d972a0",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/apparel_fashion_segment_operating_income",
+    "metric": "apparel_fashion_segment_operating_income",
+    "value": 501505,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-823978bef392235a81fe",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/segment_total_operating_income",
+    "metric": "segment_total_operating_income",
+    "value": 344569048,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-3f61a3a80d138a6caf4a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/intersegment_and_other_adjustments_operating_income",
+    "metric": "intersegment_and_other_adjustments_operating_income",
+    "value": -1744340,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-e2fb5ac2f35f202963d3",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/segment_information/h1_2026_reported_in_krw_thousands/consolidated_operating_income",
+    "metric": "consolidated_operating_income",
+    "value": 342824708,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "FY2025 business report and H1 2026 half-year report",
+      "reported_pages": [
+        120,
+        56
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-7adb38f139dd81233e00",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/major_customer/0/revenue",
+    "metric": "revenue",
+    "value": 155727670,
+    "period": "FY2025",
+    "unit": "KRW thousands",
+    "currency": "KRW",
+    "value_base_currency": 155727670000.0,
+    "source": "FY2025 business report",
+    "location": "PDF p.121, segment note, major customer disclosure",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-b78b19305c42cfb97b8e",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/major_customer/1/revenue",
+    "metric": "revenue",
+    "value": 160298480,
+    "period": "H1 2026",
+    "unit": "KRW thousands",
+    "currency": "KRW",
+    "value_base_currency": 160298480000.0,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.56, segment note, major customer disclosure",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-01717c35d445c4b7ec9f",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/research_and_development/capitalized_rd_expense/value",
+    "metric": "research_and_development",
+    "value": 0,
+    "period": "recent three fiscal years through H1 2026 filing date",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 0,
+    "source": "FY2025 business report and H1 2026 half-year report",
+    "location": "II. Business, Major Contracts and R&D Activities",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-cdbf0ec5f99d5ab625b8",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/issued_common_shares_2026_06_30",
+    "metric": "issued_common_shares_2026_06_30",
+    "value": 37438155,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-2f21c950fe3f34b868da",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/treasury_shares_2026_06_30",
+    "metric": "treasury_shares_2026_06_30",
+    "value": 0,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-f7680d85efe509d6136d",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/shares_outstanding_2026_06_30",
+    "metric": "shares_outstanding_2026_06_30",
+    "value": 37438155,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-ce0999948e9f0be6b8d9",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/issued_common_shares_2025_12_31",
+    "metric": "issued_common_shares_2025_12_31",
+    "value": 37430655,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b7d45fab23b92b6aef5b",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/h1_2026_basic_weighted_average_shares",
+    "metric": "h1_2026_basic_weighted_average_shares",
+    "value": 37436801,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-6a1914e6d68801d8ab46",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/h1_2026_diluted_weighted_average_shares",
+    "metric": "h1_2026_diluted_weighted_average_shares",
+    "value": 37438155,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-b7e50fdc0a886707360c",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/share_count_and_capital_allocation/h1_2026_dividend_paid_krw",
+    "metric": "h1_2026_dividend_paid_krw",
+    "value": 56157232500,
+    "period": null,
+    "unit": null,
+    "currency": null,
+    "value_base_currency": null,
+    "source": {
+      "document": "H1 2026 half-year report",
+      "reported_pages": [
+        6,
+        32,
+        82,
+        141
+      ]
+    },
+    "location": null,
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "PERIOD_NOT_EXPLICIT",
+      "UNIT_NOT_EXPLICIT",
+      "LOCATION_NOT_EXPLICIT"
+    ]
+  },
+  {
+    "id": "obs-213b484c4985ef5ec58f",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/guidance_and_forward_company_statements/0/value",
+    "metric": "guidance_and_forward_company_statements",
+    "value": "The company plans to expand production scale in response to higher beauty-device demand and new product launches.",
+    "period": "forward-looking qualitative plan disclosed in H1 2026 report",
+    "unit": "company statement",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "I. Company Overview, amended business-purpose discussion, future plan",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-c3fec91f642edf6910db",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/guidance_and_forward_company_statements/1/value",
+    "metric": "guidance_and_forward_company_statements",
+    "value": "The company is pursuing licensing/approval procedures related to products and manufacturing facilities for a medical-device business; the sales-launch timing will be determined by approval progress and commercialization readiness.",
+    "period": "as of H1 2026 filing",
+    "unit": "company statement",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "I. Company Overview, medical-device new-business discussion, PDF pp.13-14",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-daafc9afe24aac91ffbc",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/guidance_and_forward_company_statements/2/value",
+    "metric": "guidance_and_forward_company_statements",
+    "value": "The company states that future spending for the medical-device new business may vary with licensing, facility upgrades, quality-system establishment, production preparation and commercialization.",
+    "period": "as of H1 2026 filing",
+    "unit": "company statement",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "I. Company Overview, medical-device new-business discussion, PDF p.13",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-850330d5d3a95b5faaeb",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/guidance_and_forward_company_statements/3/value",
+    "metric": "guidance_and_forward_company_statements",
+    "value": null,
+    "period": "FY2026",
+    "unit": "numeric revenue/profit guidance",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "supplied filings",
+    "location": "No explicit numerical FY2026 revenue, operating-profit, EPS, or FCF guidance located in the two supplied filings",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": [
+      "VALUE_NOT_REPORTED"
+    ]
+  },
+  {
+    "id": "obs-dfc73e20c9f08cfbac55",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/management_major_statements/0/value",
+    "metric": "management_major_statements",
+    "value": "The company states that it has internalized the beauty-device value chain across planning, R&D, production, sales and after-sales service through ADC and APR Factory.",
+    "period": "FY2025 / H1 2026",
+    "unit": "company statement",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "FY2025 business report and H1 2026 half-year report",
+    "location": "I. Company Overview and II. Business Overview",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-828a55f885d644c9180a",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/management_major_statements/1/value",
+    "metric": "management_major_statements",
+    "value": "The company describes a cross-selling model between cosmetics and home beauty devices and states an intention to extend the portfolio into medical devices.",
+    "period": "H1 2026",
+    "unit": "company statement",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "I. Company Overview, new-business discussion",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-21e95a63b0679f369960",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/0/previous_value",
+    "metric": "previous_value",
+    "value": 593767620563,
+    "period": "H1 2025 to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 593767620563,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-6776421faacb74f11025",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/0/current_value",
+    "metric": "current_value",
+    "value": 1360888888861,
+    "period": "H1 2025 to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 1360888888861,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-0e64766e1a5cd04762e0",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/1/previous_value",
+    "metric": "previous_value",
+    "value": 136884790182,
+    "period": "H1 2025 comparative to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 136884790182,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-6e0aa248c5ae3161c632",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/1/current_value",
+    "metric": "current_value",
+    "value": 342824708032,
+    "period": "H1 2025 comparative to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 342824708032,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-03d4700a8c4211a1c94f",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/2/previous_value",
+    "metric": "previous_value",
+    "value": 116250326398,
+    "period": "H1 2025 to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 116250326398,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-5589456d8f6ea5efb292",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/2/current_value",
+    "metric": "current_value",
+    "value": 258793447596,
+    "period": "H1 2025 to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 258793447596,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.31",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-713c1fb42082d8cc27a1",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/3/previous_value",
+    "metric": "previous_value",
+    "value": 116067068380,
+    "period": "H1 2025 to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 116067068380,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.33",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-e14df738a208b86644eb",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/3/current_value",
+    "metric": "current_value",
+    "value": 86404149570,
+    "period": "H1 2025 to H1 2026",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 86404149570,
+    "source": "H1 2026 half-year report",
+    "location": "PDF p.33",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-5dd37ff43338c938ef98",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/4/previous_value",
+    "metric": "previous_value",
+    "value": 165457160456,
+    "period": "2025-12-31 to 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 165457160456,
+    "source": "H1 2026 half-year report",
+    "location": "PDF pp.28, 30",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-6d580eb6aa8ecb953c33",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/4/current_value",
+    "metric": "current_value",
+    "value": 369883998811,
+    "period": "2025-12-31 to 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 369883998811,
+    "source": "H1 2026 half-year report",
+    "location": "PDF pp.28, 30",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-d3ed3df35bd4eda347d0",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/5/previous_value",
+    "metric": "previous_value",
+    "value": 91114168447,
+    "period": "2025-12-31 to 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 91114168447,
+    "source": "H1 2026 half-year report",
+    "location": "PDF pp.28, 30",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-51f9c17280fd68c5cc4f",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/5/current_value",
+    "metric": "current_value",
+    "value": 191598733307,
+    "period": "2025-12-31 to 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 191598733307,
+    "source": "H1 2026 half-year report",
+    "location": "PDF pp.28, 30",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-e18401580d7972051cf2",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/6/previous_value",
+    "metric": "previous_value",
+    "value": 154350192148,
+    "period": "2025-12-31 to 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 154350192148,
+    "source": "H1 2026 half-year report",
+    "location": "PDF pp.28, 30, 34",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-f908f48a5f1a57b72213",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/important_changes/6/current_value",
+    "metric": "current_value",
+    "value": 94463145498,
+    "period": "2025-12-31 to 2026-06-30",
+    "unit": "KRW",
+    "currency": "KRW",
+    "value_base_currency": 94463145498,
+    "source": "H1 2026 half-year report",
+    "location": "PDF pp.28, 30, 34",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-b0aa6179461a07bf2af7",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/0/value",
+    "metric": "risk_related_disclosures",
+    "value": "The company identifies intensifying industry competition as a principal risk for the home beauty-device business and for the medical-device expansion area.",
+    "period": "FY2025 and H1 2026 filings",
+    "unit": "risk disclosure",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "FY2025 business report and H1 2026 half-year report",
+    "location": "I. Company Overview, new-business risk sections",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-34bf7becb580f91ade49",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/1/value",
+    "metric": "risk_related_disclosures",
+    "value": "The consolidated entity states that liabilities exposed to interest-rate changes include short-term borrowings and that it monitors market interest rates and the mix of floating and fixed rates.",
+    "period": "H1 2026",
+    "unit": "risk disclosure",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "II. Business, Risk Management, PDF p.19",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-2a8e0cf6f42112ea0303",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/2/value",
+    "metric": "risk_related_disclosures",
+    "value": "The consolidated entity states that it monitors customer/counterparty credit quality and liquidity forecasts and maintains unused borrowing limits to meet operating-funding needs.",
+    "period": "H1 2026",
+    "unit": "risk disclosure",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "II. Business, Risk Management, PDF p.19",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-9887944d29dbfac48b76",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/3/value",
+    "metric": "risk_related_disclosures",
+    "value": "One legal case was pending against the consolidated entity at period end; the company states it does not expect the case to have a significant effect on the financial statements.",
+    "period": "2026-06-30",
+    "unit": "legal contingency",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "Note 25 / XI. Investor Protection, PDF pp.79 and 196",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-f5756a18fd6ec13b8453",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/4/value",
+    "metric": "risk_related_disclosures",
+    "value": "APR US INC maintained a deposit related to U.S. customs-payment obligations; a EUR 50,000 deposit was also disclosed as pledged in connection with a payment guarantee.",
+    "period": "2026-06-30",
+    "unit": "guarantee / restricted-cash disclosure",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "Note 7 and Note 25, PDF pp.55 and 79",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-7f1e1da95aef407a507d",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/5/value",
+    "metric": "risk_related_disclosures",
+    "value": "APR disclosed a KRW 8 million administrative fine imposed by the Financial Supervisory Service on 2025-01-13 related to foreign-exchange reporting requirements; the filing states the fine was paid and follow-up control procedures were strengthened.",
+    "period": "reported in H1 2026 filing; event date 2025-01-13",
+    "unit": "KRW millions / regulatory disclosure",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "XI. Investor Protection, administrative sanctions",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  },
+  {
+    "id": "obs-203d712ca4e1e6263a9d",
+    "ticker": "278470",
+    "kind": "reported_assertion",
+    "raw_path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "raw_sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "json_pointer": "/risk_related_disclosures/6/value",
+    "metric": "risk_related_disclosures",
+    "value": "Medical-device commercialization is subject to product and manufacturing-facility approval procedures; sales commencement depends on the progress of approvals and business preparation.",
+    "period": "H1 2026",
+    "unit": "regulatory/new-business risk disclosure",
+    "currency": null,
+    "value_base_currency": null,
+    "source": "H1 2026 half-year report",
+    "location": "I. Company Overview, medical-device new-business discussion, PDF pp.13-14",
+    "extraction_confidence": "high",
+    "verification": "RAW_ASSERTION_NOT_FULL_SOURCE_REAUDIT",
+    "flags": []
+  }
+]

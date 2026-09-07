@@ -1,0 +1,57 @@
+{
+  "as_of": "2026-09-05",
+  "baseline_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+  "review_status": "COMPLETED_AT_EXISTING_EVIDENCE_LEVEL",
+  "all_research_gates_closed": false,
+  "harness_policy_changed": false,
+  "market_prices_refreshed": false,
+  "unique_universe": 90,
+  "unique_previously_assessed_reassessed": 40,
+  "preliminary_only_not_claimed_complete": 50,
+  "company_packages_reviewed": 10,
+  "company_scores_numeric": 9,
+  "company_total_withheld": [
+    "012450"
+  ],
+  "wave_screen_reviews": 20,
+  "wave_provisional_numeric_scores": 16,
+  "wave_totals_withheld": [
+    "000660",
+    "005380",
+    "012450",
+    "196170"
+  ],
+  "additional_qualitative_reviews": 12,
+  "company_wave_overlap": [
+    "AXON",
+    "012450"
+  ],
+  "repaired_invalid_files": 13,
+  "new_buy_approvals": 0,
+  "orders_executed": 0,
+  "us_research_priority_not_promotion": [
+    "NOW",
+    "AMZN",
+    "MSFT",
+    "LLY",
+    "VRTX"
+  ],
+  "kr_research_priority_not_promotion": [
+    "035420",
+    "207940",
+    "278470"
+  ],
+  "kr_data_repair_priority": [
+    "005380",
+    "000660",
+    "012450",
+    "196170"
+  ],
+  "existing_company_quality_watch_priority": [
+    "ISRG",
+    "TSM",
+    "NVDA"
+  ],
+  "valuation_model_tests": "20 models: IRR residual, timing distinction and sensitivity monotonicity passed",
+  "next_action": "Resolve named cash-flow/ownership/source gates before promoting, not fill a five-name quota."
+}

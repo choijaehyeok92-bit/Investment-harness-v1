@@ -1,0 +1,41 @@
+{
+  "revenue": 331.839,
+  "operating_profit": 155.237,
+  "ocf": 182.935,
+  "cash_capex": 115.948,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "MSFT",
+  "period": "FY2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.4678081840892722,
+  "ocf_less_named_capex": 66.98700000000001,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "ocf_derivation": "182.935B is inferred from stored normalized FCF66.987B plus FY26 cash PPE115.948B; not a separately extracted raw OCF observation. Historical normalization source: screening/2026-09-us-kr/valuation-inputs-wave-01-02.csv.",
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/MSFT/raw-data/2026-FY.json",
+    "companies/MSFT/raw-data/2026-09-02-nodes-35176-35181.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/MSFT/raw-data/2026-FY.json",
+      "sha256": "2dfb8ace769ec0f222ad2b9ce697b92dcec20894b26388237014e18bb271afc6"
+    },
+    {
+      "path": "companies/MSFT/raw-data/2026-09-02-nodes-35176-35181.json",
+      "sha256": "0b9015ac4a83efd25f6a5915982bd40c75af13ccc76eadd117392169931e8d01"
+    }
+  ]
+}

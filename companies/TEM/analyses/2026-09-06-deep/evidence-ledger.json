@@ -1,0 +1,116 @@
+{
+  "ticker": "TEM",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-0bfe060a2022e3c1a8fa",
+    "obs-7c0a9d3fde305d10a39c",
+    "obs-6363285f744a2cf5dfa0",
+    "obs-6f1f21faf24edfff8883",
+    "obs-08ddc8e26c625e7312a7",
+    "obs-43367330b370f81faa01",
+    "obs-bf3c29ed739dc2f5de96",
+    "obs-13f4525584062ff9b878",
+    "obs-5b31e541b1d07163348c",
+    "obs-f00c15d452888bceaf63",
+    "obs-2615d81e03e942b570ef",
+    "obs-6620bcf0487acf721ab9",
+    "obs-0dc91a005497e781b773",
+    "obs-531081f001781ed19e07",
+    "obs-7b00d64f63c1aaea2a48",
+    "obs-3ba924a2424b1a8a1da4",
+    "obs-089d47410dd714c32c19",
+    "obs-28c1cf6d5337fdab45ee",
+    "obs-d418c6ff14fbb2661e71",
+    "obs-4c611415b34780ecdfb4",
+    "obs-084ccf6b77e73265465e",
+    "obs-7db14616e0d89bb8d010",
+    "obs-d2caff8c01989e5c6d50",
+    "obs-fe940737328e608ffb0e",
+    "obs-9594a4796961b5982a32",
+    "obs-8f0405d51ee31fa913bd",
+    "obs-a64e58ba46c975574c83",
+    "obs-c11409de8a025a2899b0",
+    "obs-01aada20520b903d77e7",
+    "obs-b72b3fa672603a7bc04d",
+    "obs-37da5a67d18d0a604598",
+    "obs-92f3c51c36d82714f075",
+    "obs-8cad502f225ed56acc65",
+    "obs-ba9a666a77fe2019fcba",
+    "obs-d9455a812cb7991ecde2",
+    "obs-6132128cf256aefce308",
+    "obs-f140bb294b171be85cb4",
+    "obs-4aeaf4571348c81f6559",
+    "obs-11be69b67210ebf6a6ca",
+    "obs-16753ee839757f77cc3f",
+    "obs-78da3334dbf6853d9e17",
+    "obs-6634276694b043d99eb4",
+    "obs-99608da842db6824df1b",
+    "obs-88f40f0f7b179336f932",
+    "obs-f903dcaeccd16cfd60d3",
+    "obs-f6e9b3542590d7befcc1"
+  ],
+  "financial_bridge": {
+    "revenue": 0.730602,
+    "operating_profit": -0.160624,
+    "ocf": -0.080802,
+    "cash_capex": 0.014327,
+    "sbc": 0.106827,
+    "additional_cash_investment": null,
+    "ticker": "TEM",
+    "period": "H1 2026",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": -0.21985157445503845,
+    "ocf_less_named_capex": -0.09512899999999999,
+    "ocf_less_capex_sbc_known_subtotal": -0.201956,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/TEM/raw-data/2026-Q2.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/TEM/raw-data/2026-Q2.json",
+        "sha256": "5fd335f342f45e977309c76bf1a133ffea7a28bbcc391c35ddeec9c0372197c0"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-reports-second-quarter-2026-results",
+      "location": "Balance sheets and H1 cash flows",
+      "facts": {
+        "class_a_shares": 175200077,
+        "class_b_shares": 5043789,
+        "h1_ocf_usd_m": -80.802,
+        "h1_sbc_usd_m": 106.827,
+        "convertible_promissory_note_liability_usd_m": 187.929
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-reports-second-quarter-2026-results",
+      "location": "Balance sheets and H1 cash flows",
+      "facts": {
+        "class_a_shares": 175200077,
+        "class_b_shares": 5043789,
+        "h1_ocf_usd_m": -80.802,
+        "h1_sbc_usd_m": 106.827,
+        "convertible_promissory_note_liability_usd_m": 187.929
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

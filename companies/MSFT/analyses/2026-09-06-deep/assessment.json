@@ -1,0 +1,1085 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "MSFT",
+  "company_name": "Microsoft",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/MSFT/raw-data/2026-09-02-nodes-35176-35181.json",
+    "companies/MSFT/raw-data/2026-FY.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 1,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P1",
+  "structural_thesis": "클라우드·업무 소프트웨어·AI 배포 기반",
+  "customer_and_moat": "Azure·M365의 결합과 전환비용; 유료 AI 채택이 기존 제품의 가격 대체인지 신규 경제성인지 분리",
+  "current_finding": "FY26 매출331.839B·영업이익155.237B. OCF−현금PPE 66.987B는 SBC·리스 원금 차감 전으로 유지한다. AI Capex와 회계 내용연수 변경을 현금과 혼동하지 않는다.",
+  "economic_finding": "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다.",
+  "capital_and_survival": "7,443백만주 반올림 분모. FY26 현금PPE115.948B 이후 더 높은 투자 계획의 현금회복을 5년에 걸쳐 모델링한다. 금융리스의 원금비용은 순현금 재투자 항목에 포함하는 추정이다.",
+  "next_evidence": "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+  "permanent_loss_case": "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향."
+  ],
+  "increase_evidence": [
+    "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "클라우드·업무 소프트웨어·AI 배포 기반"
+      ],
+      "counter_evidence": [
+        "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Azure·M365의 결합과 전환비용; 유료 AI 채택이 기존 제품의 가격 대체인지 신규 경제성인지 분리"
+      ],
+      "counter_evidence": [
+        "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Azure·M365의 결합과 전환비용; 유료 AI 채택이 기존 제품의 가격 대체인지 신규 경제성인지 분리"
+      ],
+      "counter_evidence": [
+        "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY26 매출331.839B·영업이익155.237B. OCF−현금PPE 66.987B는 SBC·리스 원금 차감 전으로 유지한다. AI Capex와 회계 내용연수 변경을 현금과 혼동하지 않는다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [
+        "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "7,443백만주 반올림 분모. FY26 현금PPE115.948B 이후 더 높은 투자 계획의 현금회복을 5년에 걸쳐 모델링한다. 금융리스의 원금비용은 순현금 재투자 항목에 포함하는 추정이다."
+      ],
+      "counter_evidence": [
+        "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "7,443백만주 반올림 분모. FY26 현금PPE115.948B 이후 더 높은 투자 계획의 현금회복을 5년에 걸쳐 모델링한다. 금융리스의 원금비용은 순현금 재투자 항목에 포함하는 추정이다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 499.70; Base/가격 0.92배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 12.0%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.29배, Bull/가격 2.03배. 2상태 손익분기 Bull 확률 40.7%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+        ],
+        "resolution_needed": "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+        "severity": "MATERIAL",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다."
+        ],
+        "resolution_needed": "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+        "severity": "MATERIAL",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향."
+        ],
+        "resolution_needed": "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+        "severity": "MATERIAL",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.12015121250514504,
+      "required_owner_margin_delta": 0.020795596404883515,
+      "price_reference": 499.7,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 1110.580058836923,
+      "implied_year_10_owner_cash": 266.5392141208615,
+      "residual_price": -2.8421709430404007e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 365.0,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 36.5,
+                "ownership": 1,
+                "attributable_cash": 36.5
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 36.5,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 390.55,
+                "owner_margin": 0.115,
+                "owner_cash_before_attribution": 44.913250000000005,
+                "ownership": 1,
+                "attributable_cash": 44.913250000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 44.913250000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 417.8885,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 54.32550500000001,
+                "ownership": 1,
+                "attributable_cash": 54.32550500000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 54.32550500000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 447.14069500000005,
+                "owner_margin": 0.14500000000000002,
+                "owner_cash_before_attribution": 64.83540077500001,
+                "ownership": 1,
+                "attributable_cash": 64.83540077500001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 64.83540077500001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 478.4405436500001,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 76.55048698400002,
+                "ownership": 1,
+                "attributable_cash": 76.55048698400002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 76.55048698400002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 492.7937599595001,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 78.84700159352002,
+                "ownership": 1,
+                "attributable_cash": 78.84700159352002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 78.84700159352002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 507.5775727582851,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 81.21241164132562,
+                "ownership": 1,
+                "attributable_cash": 81.21241164132562
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 81.21241164132562,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 522.8048999410337,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 83.64878399056539,
+                "ownership": 1,
+                "attributable_cash": 83.64878399056539
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 83.64878399056539,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 538.4890469392648,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 86.15824751028237,
+                "ownership": 1,
+                "attributable_cash": 86.15824751028237
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 86.15824751028237,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 554.6437183474427,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 88.74299493559083,
+                "ownership": 1,
+                "attributable_cash": 88.74299493559083
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 88.74299493559083,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 419.4976924549955,
+        "pv_terminal": 674.748001747493,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 1094.2456942024885,
+        "equity_value": 1094.2456942024885,
+        "value_per_share": 147.01675321812286,
+        "value_to_price": 0.29421003245571914,
+        "upside_downside": -0.7057899675442809,
+        "terminal_fraction_of_operating_pv": 0.616632996887655,
+        "year_10_revenue": 554.6437183474427,
+        "year_10_owner_cash": 88.74299493559083,
+        "year_10_owner_cash_per_share": 11.923014232915603,
+        "year_10_exit_price": 214.61425619248084,
+        "irr_roots": [
+          -0.052462464435713396
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 36.843,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 147.01675321812286,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 25,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 400.0,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 56.00000000000001,
+                "ownership": 1,
+                "attributable_cash": 56.00000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 56.00000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 456.00000000000006,
+                "owner_margin": 0.165,
+                "owner_cash_before_attribution": 75.24000000000001,
+                "ownership": 1,
+                "attributable_cash": 75.24000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 75.24000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 519.8400000000001,
+                "owner_margin": 0.19,
+                "owner_cash_before_attribution": 98.76960000000003,
+                "ownership": 1,
+                "attributable_cash": 98.76960000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 98.76960000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 592.6176000000002,
+                "owner_margin": 0.215,
+                "owner_cash_before_attribution": 127.41278400000003,
+                "ownership": 1,
+                "attributable_cash": 127.41278400000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 127.41278400000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 675.5840640000004,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 162.1401753600001,
+                "ownership": 1,
+                "attributable_cash": 162.1401753600001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 162.1401753600001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 729.6307891200005,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 175.11138938880012,
+                "ownership": 1,
+                "attributable_cash": 175.11138938880012
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 175.11138938880012,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 788.0012522496005,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 189.12030053990412,
+                "ownership": 1,
+                "attributable_cash": 189.12030053990412
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 189.12030053990412,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 851.0413524295685,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 204.24992458309643,
+                "ownership": 1,
+                "attributable_cash": 204.24992458309643
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 204.24992458309643,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 919.1246606239341,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 220.58991854974417,
+                "ownership": 1,
+                "attributable_cash": 220.58991854974417
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 220.58991854974417,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 992.654633473849,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 238.23711203372375,
+                "ownership": 1,
+                "attributable_cash": 238.23711203372375
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 238.23711203372375,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 899.1891080081114,
+        "pv_terminal": 2515.848268166597,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 3415.0373761747082,
+        "equity_value": 3415.0373761747082,
+        "value_per_share": 458.8253897856655,
+        "value_to_price": 0.918201700591686,
+        "upside_downside": -0.08179829940831396,
+        "terminal_fraction_of_operating_pv": 0.7366971400426306,
+        "year_10_revenue": 992.654633473849,
+        "year_10_owner_cash": 238.23711203372375,
+        "year_10_owner_cash_per_share": 32.00821067227243,
+        "year_10_exit_price": 800.2052668068109,
+        "irr_roots": [
+          0.0796764793156014
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 36.843,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 458.8253897856655,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 30,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 435.0,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 78.3,
+                "ownership": 1,
+                "attributable_cash": 78.3
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 78.3,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 522.0,
+                "owner_margin": 0.2125,
+                "owner_cash_before_attribution": 110.925,
+                "ownership": 1,
+                "attributable_cash": 110.925
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 110.925,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 626.4,
+                "owner_margin": 0.245,
+                "owner_cash_before_attribution": 153.468,
+                "ownership": 1,
+                "attributable_cash": 153.468
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 153.468,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 751.68,
+                "owner_margin": 0.27749999999999997,
+                "owner_cash_before_attribution": 208.59119999999996,
+                "ownership": 1,
+                "attributable_cash": 208.59119999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 208.59119999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 902.016,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 279.62496,
+                "ownership": 1,
+                "attributable_cash": 279.62496
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 279.62496,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 1001.2377600000001,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 310.38370560000004,
+                "ownership": 1,
+                "attributable_cash": 310.38370560000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 310.38370560000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 1111.3739136000002,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 344.52591321600005,
+                "ownership": 1,
+                "attributable_cash": 344.52591321600005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 344.52591321600005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 1233.6250440960002,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 382.4237636697601,
+                "ownership": 1,
+                "attributable_cash": 382.4237636697601
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 382.4237636697601,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 1369.3237989465604,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 424.4903776734337,
+                "ownership": 1,
+                "attributable_cash": 424.4903776734337
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 424.4903776734337,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "software_cloud_ai",
+                "revenue": 1519.9494168306821,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 471.1843192175115,
+                "ownership": 1,
+                "attributable_cash": 471.1843192175115
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 471.1843192175115,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 1573.157209976114,
+        "pv_terminal": 5971.000454317946,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 7544.15766429406,
+        "equity_value": 7544.15766429406,
+        "value_per_share": 1013.5909800206987,
+        "value_to_price": 2.028398999441062,
+        "upside_downside": 1.028398999441062,
+        "terminal_fraction_of_operating_pv": 0.7914734447529178,
+        "year_10_revenue": 1519.9494168306821,
+        "year_10_owner_cash": 471.1843192175115,
+        "year_10_owner_cash_per_share": 63.305699209661626,
+        "year_10_exit_price": 1899.170976289849,
+        "irr_roots": [
+          0.17860951515873003
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 36.843,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 1013.5909800206987,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/MSFT/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "platform_capex",
+    "missing_data": [
+      "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 75,
+  "business_quality_75": 64,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.7,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "클라우드·업무 소프트웨어·AI 배포 기반",
+        "response": "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "Azure·M365의 결합과 전환비용; 유료 AI 채택이 기존 제품의 가격 대체인지 신규 경제성인지 분리",
+        "response": "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "FY26 매출331.839B·영업이익155.237B. OCF−현금PPE 66.987B는 SBC·리스 원금 차감 전으로 유지한다. AI Capex와 회계 내용연수 변경을 현금과 혼동하지 않는다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "7,443백만주 반올림 분모. FY26 현금PPE115.948B 이후 더 높은 투자 계획의 현금회복을 5년에 걸쳐 모델링한다. 금융리스의 원금비용은 순현금 재투자 항목에 포함하는 추정이다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 499.70; Base/가격 0.92배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 12.0%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 73.7%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "9월2일 부문 재분류는 총매출·영업이익을 늘리지 않는다. M365·Azure·개발 생태계의 교차판매와 대규모 컴퓨팅 재투자 수익을 별개로 평가한다.",
+      "7,443백만주 반올림 분모. FY26 현금PPE115.948B 이후 더 높은 투자 계획의 현금회복을 5년에 걸쳐 모델링한다. 금융리스의 원금비용은 순현금 재투자 항목에 포함하는 추정이다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "FY26 매출331.839B·영업이익155.237B. OCF−현금PPE 66.987B는 SBC·리스 원금 차감 전으로 유지한다. AI Capex와 회계 내용연수 변경을 현금과 혼동하지 않는다.",
+    "falsifiers": [
+      "AI 관련 수익 증가보다 전체 설비·리스 현금부담이 계속 빨리 늘고 고객 사용률·가격이 낮아지면 ROIC 가정 하향."
+    ],
+    "confidence": 0.7,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "incremental_roic_collapse",
+      "fatal_concentration",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "두 raw 파일 병합 보존, 리스 포함 투자·SBC·OpenAI 손익 조정, 재분류 부문별 투자효율",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

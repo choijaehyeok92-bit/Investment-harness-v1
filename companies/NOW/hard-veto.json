@@ -1,0 +1,97 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-09-05",
+  "overall_status": "INVESTIGATE",
+  "vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "evidence": [
+        "S1 감사재무제표 및 S2 GAAP/비GAAP 조정표를 대조. 첨부 범위에서 회계 신뢰를 부정할 근거는 발견하지 못했다. 조정 지표 선호 자체를 부정행위로 단정하지 않는다."
+      ],
+      "severity": "LOW",
+      "confidence": 0.8,
+      "resolution_needed": null
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "evidence": [
+        "S2 유동자산6,707M와 TTM OCF5,308M가 지속사업을 지원한다. 인수금융 사용은 곧 생존의 외부자금 의존을 뜻하지 않는다. CP 차환은 감시한다."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.84,
+      "resolution_needed": null
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "H1 실제 주식 수는 감소했지만 2,225M 환매 현금 소요. SBC CF1,199M/OP조정1,213M; RSU46.824M와 미인식보상4.9B. 희석 실패 확정이 아니라 경제적 비용/향후 발행 검증."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.89,
+      "resolution_needed": "SBC/매출과 현금 재원 포함 주당 owner FCF가 함께 개선되는지 확인. 38M 추가 한도는 즉시 발행이 아님."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "S3 p.8 연방정부 온프레미스 Q3→Q2 매출 이동, S2 인수 추가, H1 조정FCF+14% 대비 OCF-capex+0.2%. 허위매출을 뜻하지 않지만 headline 성장의 질을 추가 확인."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.86,
+      "resolution_needed": "Q3 이후 선반영 해소, 유기적 cRPO와 수금, 인수비용 실제 현금 지속성 확인."
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "S2 H1 GAAP OP665M vs809M, M&A 순현금8,776M. 무형자산 상각이 일부 설명하나 인수 포함 증가 ROIC는 unknown."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.78,
+      "resolution_needed": "Armis/Veza 분리 매출·현금·통합비용 또는 실현 ROI 근거 확보."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "INVESTIGATE",
+      "evidence": [
+        "98% 갱신/고객 확장은 긍정적; AI 앞단 경쟁과 hyperscaler 비용이 가격/마진에 미치는 순효과 불명. 감소 확정 아님."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.73,
+      "resolution_needed": "고객 코호트 확장, AI 단위경제성, Microsoft 등과의 경쟁 승패 확인."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "PASS",
+      "evidence": [
+        "9%/24%/23배 역산 CAGR12.41%는 강한 실행을 요구하지만 Q2 CC23%와 비교해 비현실적 Bull만 요구하는 수준은 아님. Base 위쪽 가치라도 매수 승인 아님."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.7,
+      "resolution_needed": null
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "PASS",
+      "evidence": [
+        "기업 워크플로 플랫폼 의존은 있으나 여러 고객·제품·지역이 존재; S2 해외매출37%. 치명적인 단일고객 의존 근거 없음."
+      ],
+      "severity": "MEDIUM",
+      "confidence": 0.77,
+      "resolution_needed": null
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "evidence": [
+        "현금창출과 유동성은 단기 생존을 지지. AI 가격압박+인수 실패의 심각한 손실 경로는 있으나 발생확률이 veto 수준이라는 근거는 없음. 확률 unknown."
+      ],
+      "severity": "HIGH",
+      "confidence": 0.64,
+      "resolution_needed": null
+    }
+  ]
+}

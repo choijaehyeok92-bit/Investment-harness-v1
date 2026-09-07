@@ -1,0 +1,154 @@
+# Taiwan Semiconductor (ADR) (TSM) — 원자료 기반 정밀 분석
+
+2026-09-06 | **WATCH · 73/100 · 기업 품질 66/75 · Hard Veto INVESTIGATE**
+
+연구 구성은 완료했다. 아래 가격은 명시 가정에 따른 현금가치 범위이며 확정 목표가·매수 승인이 아니다. 중요 미확인 사항은 veto와 신뢰도에 남겨 두었다.
+
+## 0. 분석 전략
+
+저장된 원자료의 단위·기간·연결 범위를 확인 → 주당 현금·권리 정규화 → 시장 기대 역산 → Bear/Base/Bull → 하드베토·반증 → 판정 순으로 평가했다. 보고 주장, 계산치, 미래 추정, 의견을 구분한다.
+
+## 1. 기본 정보와 기준 시점
+
+참조가격 **428.91 USD**(9월4일), 가치평가 분모 **5,186.504904백만주**. FILING_ECONOMIC_SHARE_BRIDGE. 날짜가 다른 주가와 공시 분모를 연결한 참조치이며 실시간 시총이 아니다. 금액 표 단위는 USD billion.
+
+해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다.
+
+## 2. 기업·산업·해자
+
+**구조적 가설:** FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Advanced technologies (7nm and below) as a share of total wafer revenue: 58% (2023), 69% (2024), 74% (2025). Within 2025: 3nm 24%, 5nm 36%, 7nm 14%. Q2 2026 reached 77% (company IR).
+
+**고객 가치와 경쟁:** FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE CLEAREST WIDENING-MOAT EVIDENCE IN THIS HARNESS. Gross margin +5.5pp and operating margin +8.2pp in two years (42.6% to 45.7% to 50.8%) while revenue grew 76% cumulatively. Margin expansion during volume growth is the signature of a strengthening position, not a cyclical rent.
+
+**반대 증거:** FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다.
+
+## 3. 재무와 주당 현금
+
+**보고 주장 및 계산:** 20-F 보통주25,932,524,521주를 5로 나누어5,186.504904M ADS로 계산한다. 시세 제공업체가 보통주를 ADS처럼 계산한 시가총액을 배제한다.
+
+| FY2025 translated at 31.37 NTD/USD | 금액/비율 |
+|---|---:|
+| 매출 | 121.423 |
+| 영업손익 | unknown |
+| 영업현금 | 72.521 |
+| 명시 현금투자 | 40.561 |
+| SBC | unknown |
+| 추가 투자·원금 | unknown |
+| OCF−명시 투자 소계 | 31.959 |
+| OCF−투자−SBC 알려진 비용 소계 | unknown |
+| 추가 명시비용 차감 owner proxy | unknown |
+
+누락 현금·SBC·투자 항목을 0으로 간주하지 않았다. 위 소계는 전체 주주 현금의 확정치가 아니다. 실제 증분 ROIC는 경제적 투자자본 코호트가 부족해 수치 산출을 보류한다. 이익률을 ROIC로 바꾸지 않았다.
+
+**미래 현금마진의 경제적 연결(모두 추정):**
+
+| Base 성숙기 가정 | 매출 대비 |
+|---|---:|
+| SBC 포함 경제적 영업마진 | 49.00% |
+| 세율(영업이익 대비) | 20.00% |
+| D&A−전체 재투자 | -10.20% |
+| 운전자본·신용자본 비용 | 1.50% |
+| 이자·순원금·기타 현금 비용 | 0.50% |
+
+영업마진×(1−세율)+(D&A−전체 재투자)−운전자본−금융 현금비용. 신규 보상은 비용에 포함하며 같은 보상의 미래 희석을 다시 차감하지 않는다. 기존 전환권리·확정 부채·M&A는 별도 분석한다.
+
+연결 매출과 전체 주주 현금의 관계를 사용한다. 자회사 전액 가치·고객 예치금을 추가 가산하지 않는다.
+
+**자금조달:** 인정 유동성 97.820, 최소 유보 40.000(유보는 추정). Base 음수 현금 합계 0.000, 유보 후 현금 초과 조달 부족 0.000. STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES.
+
+## 4. 시장 기대와 가치평가
+
+**먼저 역산:** Base의 첫 12개월 매출·현금경제·종료배수를 고정하면 이후 9년 요구 성장률은 **15.1%**, 10년차 요구 매출은 **654.271**다. 이는 시장의 유일한 기대 추정이 아니라 가격을 정당화하는 조건부 조합이다. 위성 모델은 공개한 매출 경로에 성장 스트레스를 가한 값이다.
+
+동일 요구수익률 **9%**, 10년 현금과 종료가치. 할인율은 Bull에 유리하게 낮추지 않았다. 거시 전망은 기업 점수에 직접 가산하지 않았다.
+
+| 시나리오 | 주당 현재가치 | 기준가 대비 | 10년차 매출 | 10년차 owner 현금 | 종료배수 | 연간현금 포함 IRR |
+|---|---:|---:|---:|---:|---:|---:|
+| Bear | 96.28 | -77.6% | 223.771 | 40.279 | 16x | -8.7% |
+| Base | 309.90 | -27.7% | 443.205 | 119.665 | 22x | 5.0% |
+| Bull | 702.08 | +63.7% | 716.298 | 236.378 | 28x | 15.2% |
+
+IRR은 배당·분배가능 현금과 종료가치의 계산치다. 음수 현금은 주주의 추가 자금 부담 등가로 반영했으므로 회사의 실제 배당 정책이나 확약 수익률이 아니다. 별도 지분 표식은 시점0 가치 등가다. 차입·인수의 실제 집행은 달라질 수 있다.
+
+**사업 경로별 추정 가정:**
+
+| 부문 | 경우 | 첫 12개월 매출 | 2~5년 성장 | 6~10년 성장 | 초기→성숙 현금마진 |
+|---|---|---:|---:|---:|---:|
+| foundry | bear | 165.000 | 4.0% | 3.0% | 20.0%→18.0% |
+| foundry | base | 185.000 | 13.0% | 8.0% | 25.0%→27.0% |
+| foundry | bull | 205.000 | 20.0% | 11.0% | 30.0%→33.0% |
+**민감도(기준 시나리오 주당가치):**
+
+| 할인율 | 현금마진 −3%p | 기준 | +3%p |
+|---|---:|---:|---:|
+| 7% | 323.52 | 364.18 | 404.84 |
+| 9% | 275.28 | 309.90 | 344.52 |
+| 11% | 235.42 | 265.05 | 294.69 |
+
+Base 종료가치 의존도 69.2%. 장기 성장·마진의 작은 변경이 결론을 바꿀 수 있다. Bear/Bull 2상태 손익분기 Bull 확률은 54.9%로, 실제 확률을 추정한 수치가 아니다.
+
+종목 특수 스트레스(권리·조달·전환·SOTP·로열티/가입자 요구량)는 [특수조건 분석](special-tests.json)에 산식과 가정을 저장했다. 서로 독립인 손실처럼 모두 합산하지 않는다.
+
+## 5. 경영진·자본배분·하드베토
+
+해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다.
+
+| 하드베토 | 판정 | 확인 근거/한계 |
+|---|---|---|
+| management_or_accounting_integrity | PASS | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| external_capital_dependence | PASS | Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| persistent_dilution | PASS | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| low_quality_growth | PASS | 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. |
+| incremental_roic_collapse | PASS | 실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| moat_shrinkage | PASS | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| price_requires_unrealistic_bull_case | PASS | 가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다. |
+| fatal_concentration | INVESTIGATE | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| permanent_loss_probability | INVESTIGATE | 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. |
+
+INVESTIGATE는 확인된 회사 실패가 아니다. PASS도 독립 감사 보증이 아니라 현재 근거에서 발동 조건을 찾지 못했다는 의미다. 본 모델 Bull보다 주가가 높다는 이유만으로 비현실적 가격 veto를 FAIL로 만들지 않는다.
+
+## 6. 최종 판정·SWOT·신뢰도
+
+| 항목 | 점수 | 신뢰도 | 근거 | 반대 근거 |
+|---|---:|---:|---|---|
+| 구조 변화 | 14/15 | 70% | FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Advanced technologies (7nm and below) as a share of total wafer revenue: 58% (2023), 69% (2024), 74% (2025). Within 2025: 3nm 24%, 5nm 36%, 7nm 14%. Q2 2026 reached 77% (company IR). | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| 고객 가치 | 9/10 | 70% | FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE CLEAREST WIDENING-MOAT EVIDENCE IN THIS HARNESS. Gross margin +5.5pp and operating margin +8.2pp in two years (42.6% to 45.7% to 50.8%) while revenue grew 76% cumulatively. Margin expansion during volume growth is the signature of a strengthening position, not a cyclical rent. | 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. |
+| 해자 방향 | 13/15 | 70% | FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE CLEAREST WIDENING-MOAT EVIDENCE IN THIS HARNESS. Gross margin +5.5pp and operating margin +8.2pp in two years (42.6% to 45.7% to 50.8%) while revenue grew 76% cumulatively. Margin expansion during volume growth is the signature of a strengthening position, not a cyclical rent. | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| 증분 ROIC·주당 현금 | 12/15 | 70% | 20-F 보통주25,932,524,521주를 5로 나누어5,186.504904M ADS로 계산한다. 시세 제공업체가 보통주를 ADS처럼 계산한 시가총액을 배제한다. | 실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| 경영진·자본배분 | 9/10 | 70% | 해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다. | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| 재무 생존 | 9/10 | 70% | 해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다. | Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| 기대차·가치 | 4/15 | 55% | 기준가 428.91; Base/가격 0.72배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 15.1%. | 가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다. |
+| 비대칭 | 3/10 | 55% | Bear/가격 0.22배, Bull/가격 1.64배. 2상태 손익분기 Bull 확률 54.9%; 실제 확률 추정 아님. | 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. |
+
+**결론: WATCH, 73/100.** 점수는 분석 의견이며 관측값이 아니다. 현재 신규 매수 승인과 포지션 배정은 없다. 연구 구성 완료와 투자 가능성 확인은 구분한다.
+
+| SWOT | 요지 |
+|---|---|
+| 강점 | FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE CLEAREST WIDENING-MOAT EVIDENCE IN THIS HARNESS. Gross margin +5.5pp and operating margin +8.2pp in two years (42.6% to 45.7% to 50.8%) while revenue grew 76% cumulatively. Margin expansion during volume growth is the signature of a strengthening position, not a cyclical rent. |
+| 약점 | FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다. |
+| 기회 | FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Advanced technologies (7nm and below) as a share of total wafer revenue: 58% (2023), 69% (2024), 74% (2025). Within 2025: 3nm 24%, 5nm 36%, 7nm 14%. Q2 2026 reached 77% (company IR). |
+| 위협 | 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. |
+
+**영구손실·논지 반증:** 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.
+
+**증액 전 필요한 증거:** 배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다. SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것. INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다.
+
+**매도·축소 증거:** 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. 통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공.
+
+**적대적 검토 10개:**
+
+1. **구조 변화** — FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Advanced technologies (7nm and below) as a share of total wafer revenue: 58% (2023), 69% (2024), 74% (2025). Within 2025: 3nm 24%, 5nm 36%, 7nm 14%. Q2 2026 reached 77% (company IR). / 대응: FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다.
+2. **고객 경제** — FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE CLEAREST WIDENING-MOAT EVIDENCE IN THIS HARNESS. Gross margin +5.5pp and operating margin +8.2pp in two years (42.6% to 45.7% to 50.8%) while revenue grew 76% cumulatively. Margin expansion during volume growth is the signature of a strengthening position, not a cyclical rent. / 대응: 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성.
+3. **해자와 경쟁** — 성장이 장기 초과이익으로 귀속된다는 가정 / 대응: FY25 OCF NT2,274,976M−PPE NT1,272,411M=NT1,002,565M. USD 환산은 관측된 결산표 환산율 근사이며 향후 FX는 고정 사실이 아니다.
+4. **현금과 회계** — 20-F 보통주25,932,524,521주를 5로 나누어5,186.504904M ADS로 계산한다. 시세 제공업체가 보통주를 ADS처럼 계산한 시가총액을 배제한다. / 대응: 보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.
+5. **증분 자본수익** — 모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정 / 대응: 경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.
+6. **보상·권리** — 해외 공장의 수익성·재투자와 대만 중심 위험은 별개다. 9% 할인율 일관 적용 후 생산중단/자산접근 제한의 영구손실을 추가한다. 정상 Bear는 지정학 파국 시나리오를 대체하지 않는다. / 대응: SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.
+7. **생존·조달** — Base 신규조달 부족 0.000USD billion / 대응: 자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.
+8. **시장 기대** — 기준가 428.91; Base/가격 0.72배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 15.1%. / 대응: 역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.
+9. **종료가치** — Base 종료가치 비중 69.2% / 대응: 종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.
+10. **영구손실** — 주요 고객의 선단 노드 이탈·수율 경쟁력 약화 또는 대만 자산·배당 접근의 장기 제한이 발생하면 가치 가정 재작성. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다. / 대응: 정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.
+
+**출처와 신뢰도:** 원자료 해시·정확한 JSON 위치는 [관측값](observations.json), 보고 기간·현금 연결은 [재무](financials.json), 선택 공시 대조는 [증거](evidence-ledger.json), 계산은 [모형](valuation.json)에 있다. 모든 원문·계약의 독립 재감사는 아니다.
+
+**추후 관측이 필요한 사항:** 배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다. 미래 계약 성과와 투자회수율의 미확정성은 보고서 작성으로 사라지지 않는다.
+

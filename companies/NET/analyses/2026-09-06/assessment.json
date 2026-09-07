@@ -1,0 +1,464 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "NET",
+  "company_name": "Cloudflare",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "REJECT",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "companies/NET/decision-history.md",
+    "companies/NET/decision.json",
+    "companies/NET/evidence.jsonl",
+    "companies/NET/hard-veto.json",
+    "companies/NET/re-evaluation-2026-09-05.md",
+    "companies/NET/red-team.md",
+    "companies/NET/scorecard.json",
+    "companies/NET/thesis.md",
+    "companies/NET/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 8,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    }
+  ],
+  "historical_score_100": 58,
+  "review_method": "저장 증거 재검토; 신규 원문 전체 재실사 아님",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "Cloudflare는 보안, 애플리케이션 성능, SASE와 개발자 컴퓨팅을 단일 Connectivity Cloud로 통합하며 네트워크 장비와 포인트 클라우드의 통합 전환을 주도한다.",
+        "글로벌 네트워크는 125개국 330개 이상 도시에서 13,000개 이상의 네트워크와 상호연결된다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "퍼블릭 클라우드와 기존 네트워크·보안 업체는 번들링, 고객관계와 더 큰 자본을 활용할 수 있다.",
+        "AI 에이전트 트래픽이 Cloudflare의 고마진 수익으로 전환되는 정도는 아직 공시되지 않았다."
+      ],
+      "confidence": 0.7799999999999999,
+      "missing_data": [
+        "제품군별 시장점유율과 독립적인 트래픽 점유율",
+        "AI 관련 매출과 유료 워크로드 성장률",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Q2 연환산 매출 10만 달러 초과 고객은 4,698개로 전년 대비 26.6% 증가했다.",
+        "Dollar-based net retention은 전년 114%에서 120%로 개선돼 기존 고객 확장과 교차판매를 보여준다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "고객별 제품 수, 순수 로고 유지율, 경쟁사 대비 TCO와 대형계약 할인율은 공시되지 않는다.",
+        "회사는 2026년부터 전체 유료고객 수를 핵심 KPI에서 제외했다."
+      ],
+      "confidence": 0.7799999999999999,
+      "missing_data": [
+        "제품별 NPS·갱신율·코호트 총마진",
+        "고객당 제품 수와 경쟁 대체율",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "evidence": [
+        "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다.",
+        "DBNR 120%, 대형고객 27% 증가와 Current RPO 35% 증가는 해자 강화와 교차판매의 방향성 증거다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "2026년 상반기 총마진은 75%에서 72%로 하락해 규모 확대가 아직 단위원가 개선으로 연결되지 않았다.",
+        "AWS, Microsoft, Google과 보안·SASE·CDN 전문업체가 각 제품군에서 직접 경쟁한다."
+      ],
+      "confidence": 0.7799999999999999,
+      "missing_data": [
+        "독립 시장점유율 시계열",
+        "제품별 가격·원가·해지 사유",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 7,
+      "max_score": 15,
+      "evidence": [
+        "FY2025 FCF는 56% 증가했고 2026년 상반기 FCF는 63% 증가했다.",
+        "2026년 상반기 매출이 35% 증가하는 동안 유형자산·자본화 소프트웨어 지출은 전년보다 감소했다.",
+        "2026-09-05 재심사 의견: SBC가 보고 FCF보다 큰 현재 상태와 확정되지 않은 수익성 전환: 8→7."
+      ],
+      "counter_evidence": [
+        "TTM SBC 5.077억 달러는 TTM FCF의 161%이고 매출의 20.2%다.",
+        "기말 발행주식수는 6개월 동안 1.1% 늘었고 FY2026 비GAAP EPS 가이던스는 약 3.74억 희석주식수를 사용한다.",
+        "기준가 281.44달러, TTM 매출 약 25.12억 달러와 SBC 약 5.08억 달러. 보고 FCF 약 3.15억 달러보다 SBC가 크다. 높은 매출 성장만으로 주당 경제가치 성장이 확인되지는 않는다."
+      ],
+      "confidence": 0.7799999999999999,
+      "missing_data": [
+        "SBC를 차감한 장기 소유주 현금흐름",
+        "제품별 증분 총마진과 CAC 회수기간",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 5,
+      "max_score": 10,
+      "evidence": [
+        "공동창업자는 장기간 단일 글로벌 네트워크와 다제품 플랫폼을 확장했다.",
+        "VoidZero와 Replicate 인수는 개발자·AI 플랫폼 확장 전략과 일치하고 2031 사채는 0% 이자와 높은 전환 프리미엄을 확보했다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "공동창업자는 합산 52.4% 의결권을 보유하고 새 Series FF에는 시간 기반 sunset이 없어 장기 통제와 경제적 유동성을 분리한다.",
+        "2026년 8월 5일 현재 자본구조 변경 관련 소송 8건이 있었고 원고들은 충분한 대가 없이 창업자 통제를 보존한다고 주장한다."
+      ],
+      "confidence": 0.7799999999999999,
+      "missing_data": [
+        "Class C/Series FF 소송의 최종 결과와 실제 시행 조건",
+        "인수별 매출·현금수익률",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "2026년 6월 말 현금·현금성자산과 매도가능증권은 41.63억 달러로 전환사채 장부금액 32.70억 달러를 상회했다.",
+        "상반기 OCF 2.759억 달러와 FCF 1.405억 달러를 창출했고 10억 달러 회전신용한도는 미인출이었다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "2030·2031 사채 원금 합계는 45억 달러이고 주가 상승 시 희석 또는 추가 현금정산이 발생할 수 있다.",
+        "회사는 여전히 GAAP 영업손실을 내고 있고 OCF의 상당 부분이 SBC add-back이다."
+      ],
+      "confidence": 0.7799999999999999,
+      "missing_data": [
+        "2026 사채 만기와 캡드콜의 최종 정산액",
+        "구조조정 후 정상화 현금비용과 장기 순현금",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "evidence": [
+        "현재 시가총액은 TTM 매출의 약 39.7배, 회사 정의 FCF의 약 316.7배다.",
+        "10년 차 FCF 마진 30%를 가정해도 현재가는 10년 매출 CAGR 약 34.2%와 10년 차 매출 약 477억 달러를 요구한다.",
+        "2026-09-05 재심사 의견: 비현실적 실행의 확정과 단순 고평가를 분리해 0→1. 싸다는 판단이 아니다."
+      ],
+      "counter_evidence": [
+        "AI 에이전트, 개발자 컴퓨팅, SASE와 보안 통합이 예상보다 빠르게 커지면 장기간 30%대 성장이 가능할 수 있다.",
+        "DCF는 할인율·마진·희석에 매우 민감하며 분류되지 않은 신사업 옵션을 과소평가할 수 있다.",
+        "기준가 281.44달러, TTM 매출 약 25.12억 달러와 SBC 약 5.08억 달러. 보고 FCF 약 3.15억 달러보다 SBC가 크다. 높은 매출 성장만으로 주당 경제가치 성장이 확인되지는 않는다."
+      ],
+      "confidence": 0.5,
+      "missing_data": [
+        "AI·Workers·SASE의 독립 매출과 마진",
+        "제품별 장기 TAM과 점유율",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "evidence": [
+        "플랫폼 성공 시 Cloudflare가 현재보다 훨씬 큰 기업이 될 수 있는 경로는 존재한다.",
+        "Bull 시나리오는 10년 차 매출 231억 달러와 FCF 88억 달러를 제시한다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "Bull 가치 260달러는 현재가보다 약 8% 낮고 Base 가치 110달러는 약 61% 낮다.",
+        "주관적 확률가중가치 약 116달러는 현재가보다 59% 낮아 상방보다 영구손실 위험이 크다."
+      ],
+      "confidence": 0.5,
+      "missing_data": [
+        "장기 제품별 단위경제와 시장점유율",
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "포트폴리오 내 기존 보유비중과 대체 투자기회"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NET/scorecard.json"
+      ]
+    }
+  },
+  "structural_thesis": "Cloudflare는 보안, 애플리케이션 성능, SASE와 개발자 컴퓨팅을 단일 Connectivity Cloud로 통합하며 네트워크 장비와 포인트 클라우드의 통합 전환을 주도한다.",
+  "customer_and_moat": "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다.",
+  "current_finding": "SBC 이후 현금이 음수라는 점과 높은 시장 기대에 대한 기존 부정 판단을 유지한다. 낮은 자체 Bull만으로 가격 veto를 FAIL로 만들지 않으며 58점은 과거 점수로 보존한다.",
+  "economic_finding": "기준가 281.44달러, TTM 매출 약 25.12억 달러와 SBC 약 5.08억 달러. 보고 FCF 약 3.15억 달러보다 SBC가 크다. 높은 매출 성장만으로 주당 경제가치 성장이 확인되지는 않는다.",
+  "capital_and_survival": "2030·2031 사채 원금 합계는 45억 달러이고 주가 상승 시 희석 또는 추가 현금정산이 발생할 수 있다.",
+  "next_evidence": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+  "permanent_loss_case": "현금이 남아 있어도 네트워크 가격경쟁·AI 수익화 실패와 희석이 결합하면 고가 매수자의 영구손실이 클 수 있다.",
+  "falsifiers": [
+    "고객 유지와 총마진이 구조적으로 악화하고 순희석이 높은 상태에서 FCF/주 성장도 사라진다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "increase_evidence": [
+    "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
+  ],
+  "sell_evidence": [
+    "고객 유지와 총마진이 구조적으로 악화하고 순희석이 높은 상태에서 FCF/주 성장도 사라진다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "KPMG는 FY2025 재무제표에 적정 의견을 제시했고 회사는 Q2 공시통제가 효과적이라고 평가했다.",
+          "공동창업자 합산 의결권은 52.4%이며 Class C/Series FF 변경은 시간 sunset 없이 통제와 경제적 유동성을 분리한다.",
+          "2026년 8월 5일 현재 관련 소송 8건이 있었으나 원고 주장에는 아직 법원의 최종 판단이 없다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": "Class C/Series FF 소송 결과, 최종 시행조건, 독립이사 감독과 관련자 거래 공시를 확인한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "2026년 6월 말 현금·매도가능증권은 41.63억 달러였고 상반기 FCF는 1.405억 달러였다.",
+          "10억 달러 회전신용한도는 미인출이었고 2031 사채는 0% 이자다.",
+          "신규 25억 달러 사채를 제외해도 영업은 플러스 FCF를 냈다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "TTM SBC는 5.077억 달러로 매출의 20.2%, 회사 정의 FCF의 161%다.",
+          "기말 발행주식수는 2025년 말 3.519억 주에서 2026년 6월 3.559억 주로 1.1% 증가했다.",
+          "무의결권 Class C는 주식보상·인수에 사용될 예정이고 2030·2031 전환사채도 잠재 희석을 만든다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": "SBC/매출 15% 미만, 연간 순희석 1% 이하와 희석 후 FCF/주 증가를 최소 2년 확인한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Q2 매출 36%, Current RPO 35%, 대형고객 26.6% 성장과 DBNR 120%가 함께 개선됐다.",
+          "단일 고객이 FY2023~FY2025 매출의 10%를 넘지 않았고 상반기 FCF는 63% 증가했다.",
+          "성장에 높은 SBC와 마케팅이 수반되지만 고객 확장과 현금창출 증거가 있어 보조금 의존 성장으로 단정할 근거는 없다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "상반기 매출 35% 성장과 FCF 63% 성장은 증분 현금창출을 지지한다.",
+          "반면 총마진은 75%에서 72%로 하락했고 SBC를 포함한 TTM GAAP 영업은 손실이다.",
+          "20% 구조조정과 AI·GPU 인프라 투자의 정상화 증분수익률은 아직 관찰되지 않았다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": "총마진 회복, 구조조정 후 영업레버리지, 제품별 증분 총이익과 희석 후 FCF/주를 확인한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "DBNR은 114%에서 120%로 개선됐고 대형고객과 Current RPO가 각각 약 27%, 35% 증가했다.",
+          "글로벌 네트워크 범위와 단일 스택의 제품 폭은 확대되고 있다.",
+          "총마진 하락은 경고지만 현재까지 고객 확장과 해자 지표의 지속적 수축은 확인되지 않았다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "현재 분석가의 Bull 가치가 가격보다 낮다는 사실만으로 모든 현실적 Bull을 배제한 것은 아니다. 가격 Hard Veto는 FAIL→INVESTIGATE로 수정한다. 다만 높은 기대·희석과 58점의 낮은 투자매력 때문에 최종 REJECT는 유지한다.",
+          "비현실적 실행의 범위를 입증하지 못했으며 높은 가격 자체는 FAIL의 충분조건이 아니다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.65,
+        "resolution_needed": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "FY2023~FY2025에 단일 고객이 매출의 10%를 넘지 않았다.",
+          "미국 매출은 Q2 51%였고 나머지는 EMEA, APAC와 기타 지역으로 분산됐다.",
+          "제품과 사용사례는 Application Services, SASE, 개발자 플랫폼과 소비자 서비스로 분산된다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "유동성과 플러스 FCF 때문에 파산 확률은 낮다.",
+          "그러나 Base 가치가 현재가보다 약 61% 낮고 주관적 확률가중가치는 약 59% 낮다.",
+          "높은 시작가격, 총마진 하락, SBC·전환사채 희석과 창업자 통제구조가 겹치면 회복 불가능한 자본손실이 가능하다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.7999999999999999,
+        "resolution_needed": "가격 안전마진과 희석 후 FCF/주의 장기 상승 경로가 함께 확인돼야 한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "HISTORICAL_MODEL_NOT_PROMOTED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+    ],
+    "source_path": "companies/NET/valuation.json"
+  },
+  "total_score_100": null,
+  "business_quality_75": 56,
+  "source_quality": {
+    "status": "STORED_ASSERTIONS_AND_INHERITED_RESEARCH",
+    "primary_document_reaudit": "선별 공식 IR 교차검증만 수행. 모든 PDF·웹 원문을 새로 감사했다는 뜻이 아님.",
+    "fact_estimate_inference_opinion": "원자료 숫자=보고 주장; 산식=계산치; 사업 연결=추론; 점수/판정=의견. 미래 전망은 사실 아님.",
+    "missing_data_rule": "unknown을 0·PASS로 대체하지 않으며 자료 결손을 기업 실패로 단정하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "claim_type": "inference",
+        "challenge": "사이클/선투자를 구조적 수요로 오인할 수 있다: Cloudflare는 보안, 애플리케이션 성능, SASE와 개발자 컴퓨팅을 단일 Connectivity Cloud로 통합하며 네트워크 장비와 포인트 클라우드의 통합 전환을 주도한다."
+      },
+      {
+        "id": 2,
+        "claim_type": "inference",
+        "challenge": "시장 확대가 주당 현금으로 귀속되지 않을 수 있다: 기준가 281.44달러, TTM 매출 약 25.12억 달러와 SBC 약 5.08억 달러. 보고 FCF 약 3.15억 달러보다 SBC가 크다. 높은 매출 성장만으로 주당 경제가치 성장이 확인되지는 않는다."
+      },
+      {
+        "id": 3,
+        "claim_type": "inference",
+        "challenge": "매출 증가 자체는 해자 확대의 증명이 아니다: 광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다."
+      },
+      {
+        "id": 4,
+        "claim_type": "inference",
+        "challenge": "고객 편익의 독립 검증과 경쟁 대안의 총비용 자료가 부족할 수 있다."
+      },
+      {
+        "id": 5,
+        "claim_type": "inference",
+        "challenge": "증분 ROIC는 이익률이 아니라 신규 투입자본 대비 세후 현금수익이다: 총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다."
+      },
+      {
+        "id": 6,
+        "claim_type": "inference",
+        "challenge": "SBC·환매·기존 미행사 보상·신주발행을 동일 비용 두 번 차감하거나 모두 누락할 수 있다."
+      },
+      {
+        "id": 7,
+        "claim_type": "inference",
+        "challenge": "경영진의 인수·설비·환원 행동을 진술과 대조해야 한다: 2030·2031 사채 원금 합계는 45억 달러이고 주가 상승 시 희석 또는 추가 현금정산이 발생할 수 있다."
+      },
+      {
+        "id": 8,
+        "claim_type": "inference",
+        "challenge": "훌륭한 사업 가설을 시장도 이미 알고 있을 수 있다. 현재 가격 기대차이는 별도 입증 대상이다."
+      },
+      {
+        "id": 9,
+        "claim_type": "inference",
+        "challenge": "정상화 owner 마진·지속기간·만기 가치와 현금 시점이 민감도 핵심이다. 미완성 모형은 목표가를 제시하지 않는다."
+      },
+      {
+        "id": 10,
+        "claim_type": "inference",
+        "challenge": "현금이 남아 있어도 네트워크 가격경쟁·AI 수익화 실패와 희석이 결합하면 고가 매수자의 영구손실이 클 수 있다."
+      }
+    ],
+    "strongest_bear_thesis": "현금이 남아 있어도 네트워크 가격경쟁·AI 수익화 실패와 희석이 결합하면 고가 매수자의 영구손실이 클 수 있다.",
+    "three_hidden_assumptions": [
+      "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다.",
+      "기준가 281.44달러, TTM 매출 약 25.12억 달러와 SBC 약 5.08억 달러. 보고 FCF 약 3.15억 달러보다 SBC가 크다. 높은 매출 성장만으로 주당 경제가치 성장이 확인되지는 않는다.",
+      "2030·2031 사채 원금 합계는 45억 달러이고 주가 상승 시 희석 또는 추가 현금정산이 발생할 수 있다."
+    ],
+    "underweighted_evidence": "SBC 이후 현금이 음수라는 점과 높은 시장 기대에 대한 기존 부정 판단을 유지한다. 낮은 자체 Bull만으로 가격 veto를 FAIL로 만들지 않으며 58점은 과거 점수로 보존한다.",
+    "falsifiers": [
+      "고객 유지와 총마진이 구조적으로 악화하고 순희석이 높은 상태에서 FCF/주 성장도 사라진다.",
+      "중대한 경영진·회계 신뢰 훼손"
+    ],
+    "confidence": 0.55,
+    "verdict": "REJECT",
+    "independence": "단일 분석자의 적대적 재검토; 독립 검토자/멀티 에이전트 합의가 아님"
+  },
+  "completion_gate": {
+    "passed": false,
+    "open_items": [
+      "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+      "시장 기대 역산·현금 브리지 및 Bear/Base/Bull",
+      "전 항목 점수 및 근거 검증"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

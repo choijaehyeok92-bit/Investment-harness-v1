@@ -1,0 +1,158 @@
+{
+  "ticker": "ASTS",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 62.31,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 389.167494,
+  "liquidity_cash": 3.419453,
+  "minimum_cash_reserve": 0.5,
+  "quality_scores": [
+    12,
+    8,
+    8,
+    3,
+    5,
+    3
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "commercial_satellite",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 0.15,
+          "growth_2_5": 0.35,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": -5.0,
+          "owner_margin_mature": 0.12,
+          "revenue_path": [
+            0.15,
+            0.3,
+            0.6,
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.3,
+            3.5
+          ],
+          "cash_path": [
+            -2,
+            -1.8,
+            -1.5,
+            -1,
+            -0.7,
+            -0.4,
+            -0.1,
+            0.1,
+            0.25,
+            0.42
+          ]
+        },
+        "base": {
+          "revenue_year_1": 0.4,
+          "growth_2_5": 0.55,
+          "growth_6_10": 0.15,
+          "owner_margin_year_1": -3.0,
+          "owner_margin_mature": 0.24,
+          "revenue_path": [
+            0.4,
+            1,
+            2,
+            3.5,
+            5.5,
+            7.5,
+            9.5,
+            12,
+            14,
+            16
+          ],
+          "cash_path": [
+            -2.1,
+            -1.5,
+            -0.8,
+            -0.1,
+            0.5,
+            1.2,
+            1.8,
+            2.6,
+            3.2,
+            3.84
+          ]
+        },
+        "bull": {
+          "revenue_year_1": 0.8,
+          "growth_2_5": 0.75,
+          "growth_6_10": 0.2,
+          "owner_margin_year_1": -2.0,
+          "owner_margin_mature": 0.32,
+          "revenue_path": [
+            0.8,
+            2,
+            4,
+            7,
+            11,
+            15,
+            20,
+            25,
+            30,
+            35
+          ],
+          "cash_path": [
+            -2.2,
+            -1.2,
+            -0.2,
+            0.8,
+            2.2,
+            3.8,
+            5.5,
+            7.2,
+            9.2,
+            11.2
+          ]
+        }
+      }
+    }
+  ],
+  "financial_finding": "H1 OCF −0.145B−PPE 0.859B=−1.004B; 주파수·Ligado 투자 포함 현금부담은 더 크다. 6월 제한현금 0.435B는 runway에 넣지 않는다.",
+  "economic_risk": "Class A 299.789백만주에 B/C와 연결된 교환가능 LLC 경제지분 89.378백만주를 포함해 389.167백만주로 평가한다. B/C 자체 의결권이 현금권리라는 뜻은 아니다.",
+  "rights_and_capital": "7월 전환사채 순유입 1.1312B를 현금에 가산하되 부채·상환 경로도 모형에 반영한다. 가입자 수·통신사 수익배분·위성 교체 Capex는 수익화 이후에도 필요하다. 실험 성공은 자기조달 사업의 증명이 아니다.",
+  "model_family": "milestone_funding",
+  "falsifier": "발사·커버리지·상업 가입자 유입 지연으로 보유 현금보다 건설·교체 비용이 커지고 조달 창구가 닫히면 지분가치 영구손실.",
+  "investigate_veto_indices": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.45,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.08,
+    "working_capital_cash_cost_to_revenue": 0.02,
+    "interest_net_debt_service_other_claims_to_revenue": 0.0155
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

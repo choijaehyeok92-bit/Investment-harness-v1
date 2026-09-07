@@ -1,0 +1,29 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Evidence-aware investment assessment (implementation v2; policy unchanged)",
+  "type":"object",
+  "required":["schema_version","ticker","as_of","research_state","decision","buy_authorized","position_band","categories","hard_veto","total_score_100","business_quality_75","valuation","red_team","completion_gate","source_quality","falsifiers","increase_evidence","sell_evidence"],
+  "properties":{
+    "schema_version":{"const":"2.0.0"},
+    "ticker":{"type":"string","pattern":"^[A-Z0-9]+$"},
+    "as_of":{"type":"string","pattern":"^\\d{4}-\\d{2}-\\d{2}$"},
+    "research_state":{"enum":["PRELIMINARY_REVIEW","PARTIAL_ANALYSIS","FULL_ANALYSIS"]},
+    "decision":{"enum":["REJECT","WATCH","STARTER","NORMAL","HIGH_CONVICTION","CORE_WINNER","EXCEPTIONAL_WINNER","HOLD","REDUCE","EXIT"]},
+    "buy_authorized":{"type":"boolean"},
+    "position_band":{"type":"string"},
+    "total_score_100":{"type":["number","null"],"minimum":0,"maximum":100},
+    "business_quality_75":{"type":["number","null"],"minimum":0,"maximum":75},
+    "categories":{"type":"object","minProperties":8,"maxProperties":8,"additionalProperties":{"$ref":"#/$defs/category"}},
+    "hard_veto":{"type":"object","required":["overall_status","items"],"properties":{
+      "overall_status":{"enum":["PASS","INVESTIGATE","FAIL"]},
+      "items":{"type":"array","minItems":9,"maxItems":9,"items":{"type":"object","required":["id","status","evidence","resolution_needed"],"properties":{"status":{"enum":["PASS","INVESTIGATE","FAIL"]}}}}
+    }},
+    "red_team":{"type":"object","required":["attacks","verdict","independence"],"properties":{"attacks":{"type":"array","minItems":10,"maxItems":10},"verdict":{"enum":["PASS","REVISE","REJECT"]}}},
+    "falsifiers":{"type":"array","minItems":1},"increase_evidence":{"type":"array","minItems":1},"sell_evidence":{"type":"array","minItems":1}
+  },
+  "$defs":{"category":{"type":"object","required":["score","max_score","evidence","counter_evidence","confidence","missing_data"],"properties":{
+    "score":{"type":["number","null"],"minimum":0},"max_score":{"type":"number"},
+    "evidence":{"type":"array","minItems":1},"counter_evidence":{"type":"array","minItems":1},
+    "confidence":{"type":"number","minimum":0,"maximum":1},"missing_data":{"type":"array"}
+  }}}
+}

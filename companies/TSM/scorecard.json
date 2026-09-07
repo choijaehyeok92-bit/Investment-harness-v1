@@ -1,162 +1,160 @@
 {
   "ticker": "TSM",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "categories": {
     "structural_change_and_leadership": {
       "score": 14,
       "max_score": 15,
-      "confidence": 0.9,
+      "confidence": 0.7699999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Advanced technologies (7nm and below) as a share of total wafer revenue: 58% (2023), 69% (2024), 74% (2025). Within 2025: 3nm 24%, 5nm 36%, 7nm 14%. Q2 2026 reached 77% (company IR).",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): HPC platform revenue NT$934,769M (43% of revenue, 2023) to NT$1,476,891M (51%, 2024) to NT$2,192,931M (58%, 2025) — +48% YoY in 2025. Smartphone fell from 38% to 29% of revenue over the same period. The mix shift to AI compute is complete and measured.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): 2-nanometer technology entered VOLUME PRODUCTION in 2025; 16-angstrom (A16) development on track with risk production expected in 2026.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Net revenue NT$2,161,736M (2023) to NT$2,894,308M (2024) to NT$3,809,054M / US$121,423M (2025), +31.6% YoY. January–July 2026 revenue NT$2,872,060M, +37.0% YoY (company monthly disclosures).",
-        "INFERENCE: TSMC is the physical precondition for the entire AI build-out. NVIDIA's accelerators, AMD's, Broadcom's custom ASICs and Google's TPUs are all fabricated here. It does not define the architecture, which is why this scores 14 rather than 15 — but it defines what is physically possible."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Geographic revenue concentration is intensifying: North America 68% (2023) to 70% (2024) to 75% (2025). China fell from 12% to 9%; EMEA from 6% to 3%.",
-        "INFERENCE: TSMC captures the enabling layer, not the application layer. Its customers earn far higher returns on the same silicon — NVIDIA's 75% gross margin against TSMC's 59.9%. The value split favours the customer.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Every 1% depreciation of the US dollar against the NT dollar reduces operating margin by approximately 0.3 percentage points based on 2025 results. Substantially all sales are USD-denominated while a large share of costs is not."
+        "INFERENCE: TSMC captures the enabling layer, not the application layer. Its customers earn far higher returns on the same silicon — NVIDIA's 75% gross margin against TSMC's 59.9%. The value split favours the customer."
       ],
       "missing_data": [
         "Wafer pricing by node — not disclosed",
-        "Capacity allocation by customer"
+        "Capacity allocation by customer",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "customer_value_and_product": {
       "score": 9,
       "max_score": 10,
-      "confidence": 0.85,
+      "confidence": 0.7699999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE DEFINITIVE PROOF OF CUSTOMER VALUE: gross margin EXPANDED from 54.4% (2023) to 56.1% (2024) to 59.9% (2025) while revenue grew 31.6%. Customers are paying more per wafer, not less, and doing so voluntarily in a market with alternatives.",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): 2025 revenue growth was 'mainly attributed to an increase in ASP due to a higher proportion of advanced technology (7-nanometer and below) revenue and an increase in wafer shipments' — mix and volume, in the company's own words.",
-        "INFERENCE: switching costs are among the highest in any industry. A design is tied to a specific process design kit; moving nodes or foundries requires a full redesign and requalification measured in years. Leading-edge access is existential for the customer's product roadmap.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Advanced packaging (CoWoS, SoIC, 3DFabric) is a second, newer layer of customer value that did not exist a decade ago — and CoWoS capacity has remained booked out through the 2026 ramp from roughly 75-80k to 120-130k wafers per month."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Customer concentration is rising: the ten largest customers were 70% (2023), 76% (2024) and 78% (2025) of net revenue.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): The second-largest customer went from 11% (2023) to 12% (2024) to 17% (2025) of net revenue — a very fast increase, while the largest fell from 25% to 19%.",
-        "INFERENCE: the largest customers are also the best capitalised buyers in the world and have both the incentive and the resources to fund second-source alternatives (Intel Foundry, Samsung Foundry) if TSMC's pricing outruns its value."
+        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): The second-largest customer went from 11% (2023) to 12% (2024) to 17% (2025) of net revenue — a very fast increase, while the largest fell from 25% to 19%."
       ],
       "missing_data": [
         "Named customer identities — not disclosed in the 20-F",
-        "Contract duration and price-escalation terms"
+        "Contract duration and price-escalation terms",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "moat_trajectory": {
       "score": 13,
       "max_score": 15,
-      "confidence": 0.8,
+      "confidence": 0.7699999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE CLEAREST WIDENING-MOAT EVIDENCE IN THIS HARNESS. Gross margin +5.5pp and operating margin +8.2pp in two years (42.6% to 45.7% to 50.8%) while revenue grew 76% cumulatively. Margin expansion during volume growth is the signature of a strengthening position, not a cyclical rent.",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): The node lead is extending, not narrowing: 2nm in volume production in 2025 and A16 risk production expected in 2026, while competitors remain a generation behind. Advanced-node mix 58% to 77% of wafer revenue in under three years.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): R&D NT$182,370M / NT$204,182M / NT$246,427M across 2023-25 — rising in absolute terms every year while FALLING as a share of revenue (8.5% to 7.1% to 6.5%). That is operating leverage on the moat itself.",
-        "FACT (company IR/press): 2nm capacity is booked well into 2028 and CoWoS remains sold out through the 2026 capacity ramp. Forward visibility of this length is itself a moat artefact."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Geographic dispersion structurally raises cost and dilutes the Taiwan cluster advantage: fabs now operating or under construction in Arizona (Fab 21), Kumamoto (Fab 23, JASM), Dresden (Fab 24, ESMC), Washington (Fab 11), Shanghai (Fab 10) and Nanjing (Fab 16). Overseas fabs cannot replicate the density of the Hsinchu/Tainan supplier ecosystem.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Rising customer concentration (top ten at 78%) means the moat is increasingly rented to a small number of tenants.",
-        "INFERENCE: Intel 18A and Samsung SF2 are the two credible challengers. Neither has displaced TSMC, but a moat scored on the absence of a successful challenge is scored on a negative."
+        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Rising customer concentration (top ten at 78%) means the moat is increasingly rented to a small number of tenants."
       ],
       "missing_data": [
         "Yield comparison versus Intel 18A and Samsung SF2 at equivalent nodes",
-        "Overseas fab gross margin versus Taiwan fabs"
+        "Overseas fab gross margin versus Taiwan fabs",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "incremental_roic_and_fcf_per_share": {
       "score": 12,
       "max_score": 15,
-      "confidence": 0.8,
+      "confidence": 0.7699999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Incremental ROIC is RISING, which is what this category actually asks: operating margin went 42.6% to 45.7% to 50.8% while capital intensity stayed roughly flat (capex 44.0%, 33.0% and 33.4% of revenue across 2023-25). More profit per unit of capital deployed, three years running.",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Operating cash flow NT$1,241,967M (2023) to NT$1,826,177M (2024) to NT$2,274,976M / US$72,521M (2025). Free cash flow after capex was roughly US$31.6B in 2025 against US$26.9B in 2024.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Dividends rising and paid quarterly: NT$5.00 per share for Q1 and Q2 2025, raised to NT$6.00 for Q3 and Q4 — approximately NT$570.5B declared for the year, a 20% per-share increase within twelve months.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Capex is overwhelmingly self-funded: 2025 capex of NT$1,272,411M against only NT$86,900M of corporate bonds issued — roughly 93% funded from operating cash flow."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): THE STRUCTURAL LIMITATION: capex was 33.4% of revenue in 2025 (NT$1,272,411M / US$40,895M) and 2026 guidance is US$52-56 billion, a 27-37% step-up. This is the opposite of the asset-light model — TSMC must spend roughly a third of revenue every year simply to hold its position.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Depreciation and amortisation of NT$688,096M in 2025 (up from NT$662,796M) will keep climbing as the 2025-26 capex lands, compressing reported margins with a lag.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): There are no share repurchases. Shares outstanding were 25,932,524,521 at 2025-12-31 and per-share returns come from dividends alone, at roughly a 0.85% yield on the current ADS price. This is materially weaker on the FCF-per-share test than either 005930 or NVDA, both of which are retiring stock."
+        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Depreciation and amortisation of NT$688,096M in 2025 (up from NT$662,796M) will keep climbing as the 2025-26 capex lands, compressing reported margins with a lag."
       ],
       "missing_data": [
         "Return on invested capital by fab vintage",
-        "Overseas fab capex as a share of the 2026 US$52-56B guidance"
+        "Overseas fab capex as a share of the 2026 US$52-56B guidance",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "management_and_capital_allocation": {
       "score": 9,
       "max_score": 10,
-      "confidence": 0.85,
+      "confidence": 0.7699999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): BEST CAPITAL-ALLOCATION RECORD IN THIS HARNESS. Capex ~93% self-funded from operating cash flow; short-term loans NIL at 2025 year-end; long-term debt of NT$1,032,988M at fixed rates of 0.41%-4.63% with maturities out to 35 years. Conservative liability management alongside the largest capex programme in the industry.",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Overseas expansion is structured to share risk rather than absorb it: JASM (Kumamoto) is 72.6% TSMC-owned with Sony, DENSO and Toyota as minorities; ESMC (Dresden) is 70.0% TSMC-owned with Bosch, Infineon and NXP each holding 10%. Partners are also customers.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Government incentives secured on scale: up to US$6.6B direct funding plus up to US$5B in loans under the US CHIPS Act for TSMC Arizona (November 2024), and up to EUR5B of German state aid for ESMC (December 2024).",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Dividend raised 20% per share within 2025 (NT$5.00 to NT$6.00 quarterly) while simultaneously funding a record capex year — capital returns and reinvestment are not being traded off against each other."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): TSMC gave the US Department of Commerce an 'irrevocable, absolute and unconditional guarantee' covering TSMC Arizona's financial obligations. The incentives carry compliance and milestone conditions, with forfeiture or clawback risk on non-compliance.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): CHIPS Act incentives carry restrictions on expansion in 'foreign countries of concern' and on joint research or technology licensing with 'foreign entities of concern' — accepting subsidy constrains future strategic freedom.",
-        "INFERENCE: capital return is dividend-only with no buyback. For a company generating US$31.6B of free cash flow and holding US$97.8B of liquidity, the absence of repurchases is a defensible but debatable choice."
+        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): CHIPS Act incentives carry restrictions on expansion in 'foreign countries of concern' and on joint research or technology licensing with 'foreign entities of concern' — accepting subsidy constrains future strategic freedom."
       ],
       "missing_data": [
         "Stated hurdle rate for overseas fab investment",
-        "Whether overseas fabs are expected to earn the corporate average return"
+        "Whether overseas fabs are expected to earn the corporate average return",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "financial_survivability": {
       "score": 9,
       "max_score": 10,
-      "confidence": 0.92,
+      "confidence": 0.7699999999999999,
       "evidence": [
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Cash, cash equivalents and current marketable securities of NT$3,068,595M (US$97,820M) at 2025-12-31, up from NT$2,422,019M a year earlier. Short-term loans NIL. Aggregate long-term debt NT$1,032,988M (US$32,929M). NET CASH OF APPROXIMATELY US$64.9 BILLION.",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Operating cash flow of US$72,521M in 2025 alone exceeds total debt outstanding.",
-        "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Debt is long-dated and cheap — fixed coupons of 0.41% to 4.63% with maturities out to 35 years. There is no refinancing wall."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "INFERENCE: survivability in the ordinary financial sense is not in question. The survivability risk here is not financial but physical and geopolitical, and is scored under fatal_concentration and permanent_loss_probability rather than here.",
         "FACT (tier-1, 2025 Form 20-F, FY ended 2025-12-31): Land under the Hsinchu, Southern Taiwan and Kaohsiung fabs is LEASED from science-park administrations, with Kaohsiung (Fab 22) leases up for renewal by December 2026 and some Southern Taiwan leases from March 2026. Renewal is routine but the assets sit on leased ground."
       ],
       "missing_data": [
-        "None material for this category"
+        "None material for this category",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "expectation_gap_and_valuation": {
-      "score": 9,
+      "score": 7,
       "max_score": 15,
       "confidence": 0.6,
       "evidence": [
         "At US$414.00 per ADS (2026-09-01 close) and 25,932,524,521 common shares at a 1:5 ADS ratio (5,186.5M ADS), market capitalisation is approximately US$2,147B. Net cash of US$64.9B gives an enterprise value of roughly US$2,082B.",
         "ESTIMATE: with January-July 2026 revenue +37.0% YoY and company guidance of slightly above +40% growth in USD, FY2026 revenue lands near US$170B. At a 47% net margin — modestly above FY2025's 44.6%, consistent with the three-year trend — FY2026 net income is roughly US$80B, or about US$15.42 per ADS. That is a forward P/E near 26.8x against a trailing 39.7x on FY2025 EPS of US$10.43.",
-        "INFERENCE: at a 25x mature multiple the price requires roughly the FY2026 estimated earnings level to PERSIST, not to grow. That is a positive expectation gap, and forward visibility is unusually good — 2nm booked into 2028 and CoWoS sold out."
+        "2026-09-05 재심사 의견: 가격÷25배를 미래 요구수익률 충족으로 해석한 오류와 연 6.6%/9% 격차 반영: 9→7."
       ],
       "counter_evidence": [
         "The trailing multiple is genuinely high: 39.7x FY2025 earnings and 33.7x EV/EBIT, with a free-cash-flow yield of only 1.47% because capex absorbs roughly a third of revenue.",
         "HONEST LIMITATION: the forward multiple depends on the analyst's own 47% net-margin assumption. TSMC does not guide margin. If FY2026 net margin holds at FY2025's 44.6% instead, FY2026 net income is roughly US$76B and the forward P/E is 28.3x rather than 26.8x.",
-        "Dividend yield is only about 0.85%, so essentially the entire expected return must come from capital appreciation — there is no income floor under the position."
+        "현재가를 성숙기 PER 25배로 나누는 계산은 미래의 시간가치와 필요한 성장률을 반영하지 않는다. 대만 사건 확률 5%와 손실 80%는 측정치가 아니라 주관적 스트레스 가정이다."
       ],
       "missing_data": [
         "Company margin guidance — not provided",
-        "FY2026 capex actual versus the US$52-56B guidance"
+        "FY2026 capex actual versus the US$52-56B guidance",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     },
     "power_law_and_asymmetry": {
-      "score": 4,
+      "score": 3,
       "max_score": 10,
       "confidence": 0.7,
       "evidence": [
         "The base case is unusually well supported for a company of this size: 2nm booked into 2028, CoWoS sold out, and a node lead that has widened rather than narrowed. Modelled base return is +21% to +59% over five years.",
-        "Bull upside is real if leading-edge demand keeps exceeding capacity: +121% to +156% modelled."
+        "Bull upside is real if leading-edge demand keeps exceeding capacity: +121% to +156% modelled.",
+        "2026-09-05 재심사 의견: 성공 상방과 생산지역 집중의 비대칭을 과소평가한 부분: 4→3."
       ],
       "counter_evidence": [
         "STRUCTURAL CAP: at roughly US$2.15T a 10x outcome implies a US$21.5T company. This fails the outlier-magnitude test in policy/investment-philosophy.md section 4.",
         "AND THE TAIL IS FATTER THAN EITHER 005930 OR NVDA. The permanent-loss case for TSMC is a Taiwan contingency, which would impair the majority of the asset base — a genuine loss of capital rather than a drawdown. Estimated at 3-7% over five years (explicitly subjective and genuinely unknowable).",
-        "This is why the score is 4 rather than the 5 assigned to NVDA despite TSMC having the better business: high probability of a good-but-bounded outcome, plus a small probability of near-total loss, is a worse outcome shape than a wider band with no catastrophic tail."
+        "현재가를 성숙기 PER 25배로 나누는 계산은 미래의 시간가치와 필요한 성장률을 반영하지 않는다. 대만 사건 확률 5%와 손실 80%는 측정치가 아니라 주관적 스트레스 가정이다."
       ],
       "missing_data": [
-        "None — this is an arithmetic and geopolitical constraint, not an evidence gap"
+        "None — this is an arithmetic and geopolitical constraint, not an evidence gap",
+        "배당의 현금 시점과 정상화 Capex를 포함한 9% 허들 역산, 해외 생산의 실질 대체가능성과 고객집중을 검증한다."
       ]
     }
   },
-  "total_score": 79,
+  "total_score": 76,
   "classification": "Emerging Outlier"
 }

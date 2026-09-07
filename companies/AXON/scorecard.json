@@ -8,14 +8,16 @@
       "evidence": [
         "Axon is expanding from TASER/body cameras into an integrated public-safety operating system spanning sensors, evidence, records, real-time operations, 911, drones/counter-drone, training and AI.",
         "Q2 2026 revenue grew 35.3% year over year; Software & Services grew 36.2% and Platform Solutions grew 122.6%.",
-        "International and enterprise bookings each approximately tripled year over year in Q2 2026, broadening the addressable market beyond U.S. state/local law enforcement."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "U.S. revenue still represented 81% of first-half 2026 revenue, leaving geographic concentration high.",
         "Several adjacent markets such as 911, drones, records and AI report drafting have established competitors."
       ],
-      "confidence": 0.93,
-      "missing_data": []
+      "confidence": 0.74,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
+      ]
     },
     "customer_value_and_product": {
       "score": 9,
@@ -23,14 +25,16 @@
       "evidence": [
         "Net revenue retention reached 126% in Q2 2026, indicating strong expansion within existing customer relationships.",
         "ARR grew 39% to $1.639 billion, driven by premium software including AI Era and Axon 911.",
-        "The integrated hardware/software workflow reduces evidence handling, reporting and response friction for public-safety customers."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Public-sector procurement and appropriations can delay deployments even when product value is high.",
         "The customer-value case for newer enterprise, 911 and drone offerings is less mature than for TASER, body cameras and Evidence.com."
       ],
-      "confidence": 0.91,
-      "missing_data": []
+      "confidence": 0.74,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
+      ]
     },
     "moat_trajectory": {
       "score": 13,
@@ -38,14 +42,16 @@
       "evidence": [
         "Axon combines installed hardware sockets, Evidence.com data, mission-critical workflows, long-duration contracts and AI applications into an integrated ecosystem.",
         "Future contracted bookings reached $15.1 billion, up 41% year over year; GAAP remaining performance obligations were approximately $9.8 billion.",
-        "ARR growth of 39% and NRR of 126% support continued cross-sell and switching-cost expansion."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Competition is broad across 911, drones, public-safety software, body cameras and AI, including Motorola Solutions, Flock Safety, RapidSOS, Versaterm and many specialized vendors.",
         "Acquisitions are increasingly important to ecosystem breadth, creating integration risk."
       ],
-      "confidence": 0.90,
-      "missing_data": []
+      "confidence": 0.74,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
+      ]
     },
     "incremental_roic_and_fcf_per_share": {
       "score": 7,
@@ -53,17 +59,17 @@
       "evidence": [
         "Revenue growth remains above 30% and Q2 2026 GAAP operating margin improved to 5.1% from a slight loss a year earlier.",
         "Management guides to approximately 25.5% adjusted EBITDA margin for 2026.",
-        "Software-only gross margin remained above 80%, showing attractive economics in the highest-value layer."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "First-half 2026 operating cash flow was negative $11.4 million and free cash flow was negative $55.6 million due to working-capital investment and growth spending.",
-        "Stock-based compensation was $278.7 million in first-half 2026 and full-year guidance is $590-$620 million, a large economic cost relative to revenue and adjusted EBITDA.",
-        "Shares outstanding rose from 76.62 million at year-end 2024 to 80.21 million at year-end 2025 and 81.24 million at June 30, 2026."
+        "Stock-based compensation was $278.7 million in first-half 2026 and full-year guidance is $590-$620 million, a large economic cost relative to revenue and adjusted EBITDA."
       ],
-      "confidence": 0.94,
+      "confidence": 0.74,
       "missing_data": [
         "Long-run post-XSP normalized stock-based compensation as a percentage of revenue remains uncertain.",
-        "A clean multi-year incremental ROIC series is not directly disclosed."
+        "A clean multi-year incremental ROIC series is not directly disclosed.",
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
       ]
     },
     "management_and_capital_allocation": {
@@ -72,16 +78,16 @@
       "evidence": [
         "Founder-led culture and long-horizon operating goals are explicit; compensation uses revenue, adjusted EBITDA, stock-price and service hurdles.",
         "Management has successfully expanded from TASER into body cameras, cloud evidence, AI, drones and 911 while sustaining 30%+ revenue growth.",
-        "President Joshua Isner's August 31, 2026 sale was executed under a Rule 10b5-1 plan adopted June 1, 2026; other recent Form 4 dispositions reviewed were tax withholding on vested awards rather than discretionary sales."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "The Employee XSP and CEO Performance Award create material potential dilution and very high reported SBC.",
-        "Capital allocation is increasingly acquisition-heavy: Carbyne cost approximately $552 million cash in 2026 and Dedrone generated substantial goodwill.",
-        "Axon also issued shares through its ATM program in Q2 2026 while carrying net debt."
+        "Capital allocation is increasingly acquisition-heavy: Carbyne cost approximately $552 million cash in 2026 and Dedrone generated substantial goodwill."
       ],
-      "confidence": 0.88,
+      "confidence": 0.74,
       "missing_data": [
-        "Long-run acquisition ROIC for Dedrone, Carbyne and Prepared is not yet observable."
+        "Long-run acquisition ROIC for Dedrone, Carbyne and Prepared is not yet observable.",
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
       ]
     },
     "financial_survivability": {
@@ -90,16 +96,16 @@
       "evidence": [
         "Future contracted bookings of $15.1 billion and $9.8 billion of GAAP remaining performance obligations provide substantial revenue visibility.",
         "Axon had $685 million of cash, cash equivalents, restricted cash and short-term investments at June 30, 2026 and an undrawn $300 million revolving credit facility.",
-        "The company was in compliance with credit covenants and has no remaining 2027 convertible notes."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Outstanding senior notes were $1.75 billion, producing roughly $1.1 billion net debt at June 30, 2026.",
-        "First-half operating cash flow was negative and acquisitions consumed significant cash.",
-        "Public-sector working-capital needs and contract assets can create cash-flow timing volatility."
+        "First-half operating cash flow was negative and acquisitions consumed significant cash."
       ],
-      "confidence": 0.91,
+      "confidence": 0.74,
       "missing_data": [
-        "Detailed maturity schedule and interest-rate sensitivity for all debt were not re-underwritten in this review."
+        "Detailed maturity schedule and interest-rate sensitivity for all debt were not re-underwritten in this review.",
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
       ]
     },
     "expectation_gap_and_valuation": {
@@ -108,15 +114,16 @@
       "evidence": [
         "At $538.15, market capitalization is about $43.7 billion and enterprise value about $44.9 billion.",
         "Using the midpoint of 2026 revenue guidance, enterprise value is roughly 12.1x 2026 revenue and 47.6x guided adjusted EBITDA.",
-        "A reverse DCF suggests the current price requires roughly 18%-20% annual revenue growth for a decade under assumptions of 20%-22% terminal owner-FCF margin, 1.5% annual dilution, a 10% discount rate and a 25x-30x terminal multiple."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Axon's 30%+ current growth, 39% ARR growth, 126% NRR and expanding product surface make sustained high-teens long-duration growth plausible.",
         "The share price is materially below its 52-week high, reducing but not eliminating valuation risk."
       ],
-      "confidence": 0.84,
+      "confidence": 0.74,
       "missing_data": [
-        "The September 4, 2026 closing price was not available in the retrieved market source; valuation uses the latest confirmed September 3 close of $538.15."
+        "The September 4, 2026 closing price was not available in the retrieved market source; valuation uses the latest confirmed September 3 close of $538.15.",
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
       ]
     },
     "power_law_and_asymmetry": {
@@ -124,14 +131,17 @@
       "max_score": 10,
       "evidence": [
         "If Axon becomes the dominant public-safety operating system across devices, cloud, AI, communications and drones, the addressable market and monetization surface can compound for many years.",
-        "International, enterprise, AI Era, 911 and counter-drone businesses provide multiple independent upside options."
+        "International, enterprise, AI Era, 911 and counter-drone businesses provide multiple independent upside options.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "The starting valuation is high enough that a deceleration to ordinary software/hardware growth could cause a severe multiple compression.",
         "Bear-case valuation work indicates potential downside of roughly 50% if long-term growth and margin expectations normalize materially."
       ],
-      "confidence": 0.86,
-      "missing_data": []
+      "confidence": 0.74,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다."
+      ]
     }
   },
   "total_score": 69,

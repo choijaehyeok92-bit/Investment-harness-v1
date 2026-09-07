@@ -1,6 +1,6 @@
 {
   "ticker": "ISRG",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "overall_status": "PASS",
   "vetoes": [
     {
@@ -11,7 +11,7 @@
         "PwC has audited the company since FY2014, eight of ten director nominees were independent and all board committees were independent."
       ],
       "severity": "LOW",
-      "confidence": 0.93,
+      "confidence": 0.88,
       "resolution_needed": null
     },
     {
@@ -22,7 +22,7 @@
         "There is no meaningful financial-debt burden and current growth is internally funded."
       ],
       "severity": "LOW",
-      "confidence": 0.98,
+      "confidence": 0.88,
       "resolution_needed": null
     },
     {
@@ -33,7 +33,7 @@
         "TTM SBC was material but manageable at approximately 7.6% of revenue; the 2026 equity-plan increase adds potential future issuance and should be monitored."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.92,
+      "confidence": 0.88,
       "resolution_needed": null
     },
     {
@@ -43,7 +43,7 @@
         "Revenue growth is supported by procedure growth, rising utilization, installed-base expansion and 85% recurring revenue rather than subsidies or promotional acquisition."
       ],
       "severity": "LOW",
-      "confidence": 0.95,
+      "confidence": 0.88,
       "resolution_needed": null
     },
     {
@@ -54,7 +54,7 @@
         "Inventory and lease asset intensity are rising but do not currently indicate structural incremental-return collapse."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.9,
+      "confidence": 0.88,
       "resolution_needed": null
     },
     {

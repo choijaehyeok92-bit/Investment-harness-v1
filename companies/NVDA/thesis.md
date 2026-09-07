@@ -1,3 +1,5 @@
+> 최신 판단: **2026-09-05 / WATCH / 73/100 / INVESTIGATE**. [한글 재평가](re-evaluation-2026-09-05.md)가 아래 과거 서술보다 우선합니다. 아래 원문은 이력 비교를 위해 보존합니다.
+
 
 # NVIDIA (NVDA) 투자 논지
 
@@ -467,4 +469,3 @@ probability-weighted five-year return of only **+21% total (3.9%/yr)**.
 
 Macro pacing is **slow**: per the 2026-09-04 screening run the AI-capex complex is
 treated as a single correlated exposure, and NVDA is its centre of gravity.
-

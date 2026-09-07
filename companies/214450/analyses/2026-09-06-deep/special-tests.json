@@ -1,0 +1,31 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 667012.9780248066
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 633662.3291235663
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 603487.9324986346
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 576056.6628396057
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "convertible_rights": {
+    "method": "Primary denominator/claim treatment stated in model inputs. Alternate conversion removes the corresponding claim cost before adding conversion shares.",
+    "note": "차입·사채 0.214조원 대부분은 RCPS 0.207조원이다. 전환상환우선권을 부채 차감과 전환주식 증가로 동시에 반영하지 않는다. 기본 모델은 상환 현금 비용, 전환은 별도 권리 민감도이다.",
+    "contractual_conversion_count_unknown": true,
+    "additional_share_stress_not_contract_fact": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  }
+}

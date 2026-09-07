@@ -1,0 +1,1085 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "PLTR",
+  "company_name": "Palantir Technologies",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/PLTR/raw-data/2026-Q2.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/qualitative-reassessments.jsonl",
+      "line": 3,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/PLTR/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "기업·정부 데이터 기반 AI 실행 소프트웨어",
+  "customer_and_moat": "업무 데이터와 실행 통합의 전환비용; 부트캠프 채택이 장기 독립적 고객 ROI로 이어지는지 검증",
+  "current_finding": "TTM 매출6.155941B. H1 공시 OCF2.115332B−PPE0.021955B−SBC0.466801B=owner proxy1.626576B. 조정 FCF보다 보수적이나 이자수익·선수금 타이밍을 추가 정상화해야 한다.",
+  "economic_finding": "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다.",
+  "capital_and_survival": "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다.",
+  "next_evidence": "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+  "permanent_loss_case": "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향."
+  ],
+  "increase_evidence": [
+    "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기업·정부 데이터 기반 AI 실행 소프트웨어"
+      ],
+      "counter_evidence": [
+        "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "업무 데이터와 실행 통합의 전환비용; 부트캠프 채택이 장기 독립적 고객 ROI로 이어지는지 검증"
+      ],
+      "counter_evidence": [
+        "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "업무 데이터와 실행 통합의 전환비용; 부트캠프 채택이 장기 독립적 고객 ROI로 이어지는지 검증"
+      ],
+      "counter_evidence": [
+        "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM 매출6.155941B. H1 공시 OCF2.115332B−PPE0.021955B−SBC0.466801B=owner proxy1.626576B. 조정 FCF보다 보수적이나 이자수익·선수금 타이밍을 추가 정상화해야 한다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다."
+      ],
+      "counter_evidence": [
+        "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 4,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 174.33; Base/가격 0.66배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 29.6%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.15배, Bull/가격 2.04배. 2상태 손익분기 Bull 확률 44.8%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/PLTR/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+        ],
+        "resolution_needed": "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+        ],
+        "resolution_needed": "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향."
+        ],
+        "resolution_needed": "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.29638342180708965,
+      "required_owner_margin_delta": 0.18149844447132885,
+      "price_reference": 174.33,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 111.69274722704041,
+      "implied_year_10_owner_cash": 39.092461529464146,
+      "residual_price": 1.7053025658242404e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 9.0,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 2.25,
+                "ownership": 1,
+                "attributable_cash": 2.25
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.25,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 10.62,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 2.655,
+                "ownership": 1,
+                "attributable_cash": 2.655
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.655,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 12.5316,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 3.1329,
+                "ownership": 1,
+                "attributable_cash": 3.1329
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.1329,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 14.787287999999998,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 3.6968219999999996,
+                "ownership": 1,
+                "attributable_cash": 3.6968219999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.6968219999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 17.448999839999995,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 4.362249959999999,
+                "ownership": 1,
+                "attributable_cash": 4.362249959999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.362249959999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 18.844919827199995,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 4.711229956799999,
+                "ownership": 1,
+                "attributable_cash": 4.711229956799999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.711229956799999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 20.352513413375995,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 5.088128353343999,
+                "ownership": 1,
+                "attributable_cash": 5.088128353343999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.088128353343999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 21.98071448644608,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 5.49517862161152,
+                "ownership": 1,
+                "attributable_cash": 5.49517862161152
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.49517862161152,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 23.739171645361765,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 5.934792911340441,
+                "ownership": 1,
+                "attributable_cash": 5.934792911340441
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.934792911340441,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 25.63830537699071,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 6.409576344247678,
+                "ownership": 1,
+                "attributable_cash": 6.409576344247678
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.409576344247678,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 25.962534892343495,
+        "pv_terminal": 43.3195890469309,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 69.2821239392744,
+        "equity_value": 69.2821239392744,
+        "value_per_share": 26.971731136240596,
+        "value_to_price": 0.15471652117386905,
+        "upside_downside": -0.845283478826131,
+        "terminal_fraction_of_operating_pv": 0.6252635829250905,
+        "year_10_revenue": 25.63830537699071,
+        "year_10_owner_cash": 6.409576344247678,
+        "year_10_owner_cash_per_share": 2.4952666001663406,
+        "year_10_exit_price": 39.92426560266145,
+        "irr_roots": [
+          -0.11487261243084729
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.030047000000000157,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 26.971731136240592,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 10.8,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 3.4560000000000004,
+                "ownership": 1,
+                "attributable_cash": 3.4560000000000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.4560000000000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 14.256000000000002,
+                "owner_margin": 0.3275,
+                "owner_cash_before_attribution": 4.668840000000001,
+                "ownership": 1,
+                "attributable_cash": 4.668840000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.668840000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 18.817920000000004,
+                "owner_margin": 0.33499999999999996,
+                "owner_cash_before_attribution": 6.304003200000001,
+                "ownership": 1,
+                "attributable_cash": 6.304003200000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.304003200000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 24.839654400000004,
+                "owner_margin": 0.34249999999999997,
+                "owner_cash_before_attribution": 8.507581632,
+                "ownership": 1,
+                "attributable_cash": 8.507581632
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.507581632,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 32.78834380800001,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 11.475920332800001,
+                "ownership": 1,
+                "attributable_cash": 11.475920332800001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 11.475920332800001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 38.034478817280004,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 13.312067586048,
+                "ownership": 1,
+                "attributable_cash": 13.312067586048
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 13.312067586048,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 44.11999542804481,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 15.441998399815683,
+                "ownership": 1,
+                "attributable_cash": 15.441998399815683
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 15.441998399815683,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 51.179194696531965,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 17.912718143786186,
+                "ownership": 1,
+                "attributable_cash": 17.912718143786186
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 17.912718143786186,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 59.36786584797708,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 20.778753046791977,
+                "ownership": 1,
+                "attributable_cash": 20.778753046791977
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 20.778753046791977,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 68.8667243836534,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 24.10335353427869,
+                "ownership": 1,
+                "attributable_cash": 24.10335353427869
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 24.10335353427869,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 70.57697891883042,
+        "pv_terminal": 223.99337433674773,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 294.57035325557814,
+        "equity_value": 294.57035325557814,
+        "value_per_share": 114.67709009153218,
+        "value_to_price": 0.6578161537975803,
+        "upside_downside": -0.3421838462024197,
+        "terminal_fraction_of_operating_pv": 0.7604070533955068,
+        "year_10_revenue": 68.8667243836534,
+        "year_10_owner_cash": 24.10335353427869,
+        "year_10_owner_cash_per_share": 9.383505210927689,
+        "year_10_exit_price": 206.43711464040913,
+        "irr_roots": [
+          0.041637815811493506
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.030047000000000157,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 114.67709009153218,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 12.5,
+                "owner_margin": 0.38,
+                "owner_cash_before_attribution": 4.75,
+                "ownership": 1,
+                "attributable_cash": 4.75
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.75,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 18.125,
+                "owner_margin": 0.3925,
+                "owner_cash_before_attribution": 7.1140625,
+                "ownership": 1,
+                "attributable_cash": 7.1140625
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.1140625,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 26.28125,
+                "owner_margin": 0.405,
+                "owner_cash_before_attribution": 10.64390625,
+                "ownership": 1,
+                "attributable_cash": 10.64390625
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.64390625,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 38.1078125,
+                "owner_margin": 0.4175,
+                "owner_cash_before_attribution": 15.91001171875,
+                "ownership": 1,
+                "attributable_cash": 15.91001171875
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 15.91001171875,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 55.256328124999996,
+                "owner_margin": 0.43,
+                "owner_cash_before_attribution": 23.760221093749998,
+                "ownership": 1,
+                "attributable_cash": 23.760221093749998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 23.760221093749998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 67.4127203125,
+                "owner_margin": 0.43,
+                "owner_cash_before_attribution": 28.987469734375,
+                "ownership": 1,
+                "attributable_cash": 28.987469734375
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 28.987469734375,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 82.24351878124999,
+                "owner_margin": 0.43,
+                "owner_cash_before_attribution": 35.364713075937495,
+                "ownership": 1,
+                "attributable_cash": 35.364713075937495
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 35.364713075937495,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 100.33709291312499,
+                "owner_margin": 0.43,
+                "owner_cash_before_attribution": 43.14494995264374,
+                "ownership": 1,
+                "attributable_cash": 43.14494995264374
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 43.14494995264374,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 122.41125335401247,
+                "owner_margin": 0.43,
+                "owner_cash_before_attribution": 52.63683894222536,
+                "ownership": 1,
+                "attributable_cash": 52.63683894222536
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 52.63683894222536,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "aip_government_commercial",
+                "revenue": 149.34172909189522,
+                "owner_margin": 0.43,
+                "owner_cash_before_attribution": 64.21694350951495,
+                "ownership": 1,
+                "attributable_cash": 64.21694350951495
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 64.21694350951495,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 154.9225571775857,
+        "pv_terminal": 759.5260658784141,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 914.4486230559999,
+        "equity_value": 914.4486230559999,
+        "value_per_share": 355.9974925218807,
+        "value_to_price": 2.042089672012165,
+        "upside_downside": 1.0420896720121648,
+        "terminal_fraction_of_operating_pv": 0.830583639942669,
+        "year_10_revenue": 149.34172909189522,
+        "year_10_owner_cash": 64.21694350951495,
+        "year_10_owner_cash_per_share": 24.99984175207905,
+        "year_10_exit_price": 699.9955690582134,
+        "irr_roots": [
+          0.17636159760014214
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.030047000000000157,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 355.9974925218807,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/PLTR/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "sbc_platform",
+    "missing_data": [
+      "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 70,
+  "business_quality_75": 61,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "기업·정부 데이터 기반 AI 실행 소프트웨어",
+        "response": "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "업무 데이터와 실행 통합의 전환비용; 부트캠프 채택이 장기 독립적 고객 ROI로 이어지는지 검증",
+        "response": "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "TTM 매출6.155941B. H1 공시 OCF2.115332B−PPE0.021955B−SBC0.466801B=owner proxy1.626576B. 조정 FCF보다 보수적이나 이자수익·선수금 타이밍을 추가 정상화해야 한다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 174.33; Base/가격 0.66배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 29.6%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 76.0%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다.",
+      "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "TTM 매출6.155941B. H1 공시 OCF2.115332B−PPE0.021955B−SBC0.466801B=owner proxy1.626576B. 조정 FCF보다 보수적이나 이자수익·선수금 타이밍을 추가 정상화해야 한다.",
+    "falsifiers": [
+      "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "persistent_dilution",
+      "incremental_roic_collapse",
+      "price_requires_unrealistic_bull_case",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "GAAP OCF→조정 FCF→SBC 브리지·총발행/환매·정부집중, 10년 가격 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

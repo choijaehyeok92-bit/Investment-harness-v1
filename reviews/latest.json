@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-09-06",
+  "directory": "reviews/2026-09-06-deep",
+  "report": "reviews/2026-09-06-deep/README.md",
+  "registry": "registry/companies.json",
+  "prior_review": "reviews/2026-09-06-harness",
+  "authority": "registry -> company latest -> dated assessment",
+  "completed_scope": "34 prior partial raw-based studies completed with conditional scenario models; 58 preliminary remain unchanged; no buy approvals.",
+  "state_counts": {
+    "PRELIMINARY_REVIEW": 58,
+    "FULL_ANALYSIS": 35
+  },
+  "score_rule": "Unknown facts stay null. Analyst forecasts and opinion scores labeled explicitly."
+}

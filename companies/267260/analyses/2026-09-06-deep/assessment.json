@@ -1,0 +1,1084 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "267260",
+  "company_name": "HD Hyundai Electric",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/267260/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/267260/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 16,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P1",
+  "structural_thesis": "전력망 교체와 데이터센터 전력 설비 수요",
+  "customer_and_moat": "고전압 인증·납기·설치 기반은 해자 가설; 공급 증설 후에도 가격이 유지되는지 확인",
+  "current_finding": "TTM 매출 4.337조원·OCF−PPE 0.671조원. 무형자산 취득을 제외한 수치이므로 이를 완전 owner FCF로 과장하지 않는다.",
+  "economic_finding": "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다.",
+  "capital_and_survival": "9월4일 회사 홈페이지 기준 714,000원. 분모 36.05백만주는 반올림 추정이며 ±1% 시험. 증설 Capex와 운전자본을 owner margin에 포함하고 수주잔고를 가치에 가산하지 않는다.",
+  "next_evidence": "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+  "permanent_loss_case": "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향."
+  ],
+  "increase_evidence": [
+    "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "전력망 교체와 데이터센터 전력 설비 수요"
+      ],
+      "counter_evidence": [
+        "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "고전압 인증·납기·설치 기반은 해자 가설; 공급 증설 후에도 가격이 유지되는지 확인"
+      ],
+      "counter_evidence": [
+        "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "고전압 인증·납기·설치 기반은 해자 가설; 공급 증설 후에도 가격이 유지되는지 확인"
+      ],
+      "counter_evidence": [
+        "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM 매출 4.337조원·OCF−PPE 0.671조원. 무형자산 취득을 제외한 수치이므로 이를 완전 owner FCF로 과장하지 않는다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "9월4일 회사 홈페이지 기준 714,000원. 분모 36.05백만주는 반올림 추정이며 ±1% 시험. 증설 Capex와 운전자본을 owner margin에 포함하고 수주잔고를 가치에 가산하지 않는다."
+      ],
+      "counter_evidence": [
+        "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "9월4일 회사 홈페이지 기준 714,000원. 분모 36.05백만주는 반올림 추정이며 ±1% 시험. 증설 Capex와 운전자본을 owner margin에 포함하고 수주잔고를 가치에 가산하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 714,000.00; Base/가격 0.91배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 11.3%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.29배, Bull/가격 2.27배. 2상태 손익분기 Bull 확률 35.9%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/267260/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/267260/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+        ],
+        "resolution_needed": "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향."
+        ],
+        "resolution_needed": "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.11287418204718336,
+      "required_owner_margin_delta": 0.01723995636621982,
+      "price_reference": 714000.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 13.615009486225636,
+      "implied_year_10_owner_cash": 2.4507017075206146,
+      "residual_price": -3.4924596548080444e-10
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 12,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 4.5,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.54,
+                "ownership": 1,
+                "attributable_cash": 0.54
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.54,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 4.7250000000000005,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.5670000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.5670000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.5670000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 4.96125,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.5953499999999999,
+                "ownership": 1,
+                "attributable_cash": 0.5953499999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.5953499999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.2093125,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.6251175,
+                "ownership": 1,
+                "attributable_cash": 0.6251175
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6251175,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.469778125000001,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.6563733750000001,
+                "ownership": 1,
+                "attributable_cash": 0.6563733750000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6563733750000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.6338714687500016,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.6760645762500002,
+                "ownership": 1,
+                "attributable_cash": 0.6760645762500002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6760645762500002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.802887612812501,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.6963465135375001,
+                "ownership": 1,
+                "attributable_cash": 0.6963465135375001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6963465135375001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.976974241196876,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.7172369089436251,
+                "ownership": 1,
+                "attributable_cash": 0.7172369089436251
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7172369089436251,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 6.156283468432783,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.7387540162119339,
+                "ownership": 1,
+                "attributable_cash": 0.7387540162119339
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7387540162119339,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 6.340971972485766,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 0.7609166366982919,
+                "ownership": 1,
+                "attributable_cash": 0.7609166366982919
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7609166366982919,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 3.9215424152214537,
+        "pv_terminal": 3.520395637131782,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 7.441938052353236,
+        "equity_value": 7.441938052353236,
+        "value_per_share": 206433.78786000656,
+        "value_to_price": 0.28912295218488315,
+        "upside_downside": -0.7108770478151168,
+        "terminal_fraction_of_operating_pv": 0.4730482318404395,
+        "year_10_revenue": 6.340971972485766,
+        "year_10_owner_cash": 0.7609166366982919,
+        "year_10_owner_cash_per_share": 21107.257606055253,
+        "year_10_exit_price": 253287.0912726631,
+        "irr_roots": [
+          -0.05677911409180064
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.6089999999999999,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 206433.78786000656,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.2,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 0.8320000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.8320000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.8320000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 5.8759999999999994,
+                "owner_margin": 0.165,
+                "owner_cash_before_attribution": 0.96954,
+                "ownership": 1,
+                "attributable_cash": 0.96954
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.96954,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 6.639879999999999,
+                "owner_margin": 0.16999999999999998,
+                "owner_cash_before_attribution": 1.1287795999999997,
+                "ownership": 1,
+                "attributable_cash": 1.1287795999999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1287795999999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 7.503064399999999,
+                "owner_margin": 0.175,
+                "owner_cash_before_attribution": 1.3130362699999998,
+                "ownership": 1,
+                "attributable_cash": 1.3130362699999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.3130362699999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 8.478462771999997,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.5261232989599993,
+                "ownership": 1,
+                "attributable_cash": 1.5261232989599993
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5261232989599993,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 9.071955166039997,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.6329519298871993,
+                "ownership": 1,
+                "attributable_cash": 1.6329519298871993
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.6329519298871993,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 9.706992027662796,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.7472585649793033,
+                "ownership": 1,
+                "attributable_cash": 1.7472585649793033
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7472585649793033,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 10.386481469599193,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.8695666645278548,
+                "ownership": 1,
+                "attributable_cash": 1.8695666645278548
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8695666645278548,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 11.113535172471137,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.0004363310448046,
+                "ownership": 1,
+                "attributable_cash": 2.0004363310448046
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.0004363310448046,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 11.891482634544118,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.140466874217941,
+                "ownership": 1,
+                "attributable_cash": 2.140466874217941
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.140466874217941,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 8.614297402624889,
+        "pv_terminal": 14.854367512816777,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 23.468664915441664,
+        "equity_value": 23.468664915441664,
+        "value_per_share": 651003.1876682849,
+        "value_to_price": 0.9117691704037603,
+        "upside_downside": -0.08823082959623973,
+        "terminal_fraction_of_operating_pv": 0.632944718685001,
+        "year_10_revenue": 11.891482634544118,
+        "year_10_owner_cash": 2.140466874217941,
+        "year_10_owner_cash_per_share": 59374.94796721057,
+        "year_10_exit_price": 1068749.0634097904,
+        "irr_roots": [
+          0.08798578221628162
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.6089999999999999,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 651003.1876682849,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 24,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 6.0,
+                "owner_margin": 0.19,
+                "owner_cash_before_attribution": 1.1400000000000001,
+                "ownership": 1,
+                "attributable_cash": 1.1400000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1400000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 7.199999999999999,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 1.44,
+                "ownership": 1,
+                "attributable_cash": 1.44
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.44,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 8.64,
+                "owner_margin": 0.21000000000000002,
+                "owner_cash_before_attribution": 1.8144000000000002,
+                "ownership": 1,
+                "attributable_cash": 1.8144000000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8144000000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 10.367999999999999,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 2.28096,
+                "ownership": 1,
+                "attributable_cash": 2.28096
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.28096,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 12.4416,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 2.861568,
+                "ownership": 1,
+                "attributable_cash": 2.861568
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.861568,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 13.68576,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 3.1477248,
+                "ownership": 1,
+                "attributable_cash": 3.1477248
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.1477248,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 15.054336000000001,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 3.4624972800000005,
+                "ownership": 1,
+                "attributable_cash": 3.4624972800000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.4624972800000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 16.559769600000003,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 3.808747008000001,
+                "ownership": 1,
+                "attributable_cash": 3.808747008000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.808747008000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 18.215746560000003,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 4.189621708800001,
+                "ownership": 1,
+                "attributable_cash": 4.189621708800001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.189621708800001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "power_equipment",
+                "revenue": 20.037321216000006,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 4.608583879680001,
+                "ownership": 1,
+                "attributable_cash": 4.608583879680001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.608583879680001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 15.808409758399506,
+        "pv_terminal": 42.643406126009744,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 58.45181588440925,
+        "equity_value": 58.45181588440925,
+        "value_per_share": 1621409.5945744591,
+        "value_to_price": 2.27088178511829,
+        "upside_downside": 1.27088178511829,
+        "terminal_fraction_of_operating_pv": 0.7295480128511105,
+        "year_10_revenue": 20.037321216000006,
+        "year_10_owner_cash": 4.608583879680001,
+        "year_10_owner_cash_per_share": 127838.66517836343,
+        "year_10_exit_price": 3068127.964280722,
+        "irr_roots": [
+          0.2100034615096239
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.6089999999999999,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 1621409.5945744591,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/267260/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "power_cycle",
+    "missing_data": [
+      "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 74,
+  "business_quality_75": 63,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "전력망 교체와 데이터센터 전력 설비 수요",
+        "response": "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "고전압 인증·납기·설치 기반은 해자 가설; 공급 증설 후에도 가격이 유지되는지 확인",
+        "response": "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "TTM 매출 4.337조원·OCF−PPE 0.671조원. 무형자산 취득을 제외한 수치이므로 이를 완전 owner FCF로 과장하지 않는다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "9월4일 회사 홈페이지 기준 714,000원. 분모 36.05백만주는 반올림 추정이며 ±1% 시험. 증설 Capex와 운전자본을 owner margin에 포함하고 수주잔고를 가치에 가산하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 714,000.00; Base/가격 0.91배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 11.3%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 63.3%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "변압기 공급 부족과 장기 수주가 가격결정력을 지지한다. 선수금 선유입·구리 가격·증설 후 납기 단축으로 정상 마진은 낮아질 수 있다.",
+      "9월4일 회사 홈페이지 기준 714,000원. 분모 36.05백만주는 반올림 추정이며 ±1% 시험. 증설 Capex와 운전자본을 owner margin에 포함하고 수주잔고를 가치에 가산하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "TTM 매출 4.337조원·OCF−PPE 0.671조원. 무형자산 취득을 제외한 수치이므로 이를 완전 owner FCF로 과장하지 않는다.",
+    "falsifiers": [
+      "신규 수주 단가와 수주잔고 현금 전환이 동반 하락하고 증설 생산성이 자본비용을 밑돌면 정상화 가정 하향."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "incremental_roic_collapse",
+      "price_requires_unrealistic_bull_case",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "수주 가격/취소/선수금, 생산 증설 후 운전자본, 10% 요구수익률 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

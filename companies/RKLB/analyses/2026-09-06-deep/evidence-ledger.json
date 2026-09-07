@@ -1,0 +1,99 @@
+{
+  "ticker": "RKLB",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-2b11c95c3ba6fde93860",
+    "obs-6baabb1758bcaabe578e",
+    "obs-3a93cafc4e9ac729868b",
+    "obs-27f2e27b586b5f071d95",
+    "obs-72eddccdb6401f3e97c1",
+    "obs-d3ffcf79ac510219329b",
+    "obs-90f5e3c3bdddbc505f5f",
+    "obs-8d70f79f5343153a79e4",
+    "obs-4d9fe123b20014d1865c",
+    "obs-b795fc77ba91515d0706",
+    "obs-5a4e9987b7b97d3e981e",
+    "obs-8d372b2ab929713aee81",
+    "obs-885526f861e49c6e5d0e",
+    "obs-63982bd131487bd26ef2",
+    "obs-9ffaf318cc292105c69a",
+    "obs-7fff52865917acf2f8ad",
+    "obs-11a03936bbfe760fd08d",
+    "obs-0026d2d3feffba938254",
+    "obs-eb2e30f659add9bb01b2",
+    "obs-e5b931707b486e1d2623",
+    "obs-0bb9fb27647a38080be2",
+    "obs-5117b1260b65a94576b6",
+    "obs-8cd366e03c581e346e52",
+    "obs-270034d895b848948e1d",
+    "obs-3ea5fc89bce8214c9747",
+    "obs-6ad5623b41f1d4fd6161",
+    "obs-2660fffd0ea5b9812aff",
+    "obs-d57a2c6714c8073f4379",
+    "obs-1ee12f88af031dcaf9c1",
+    "obs-5c9dbaf885069c100889",
+    "obs-3f8bb54cf1598350593a",
+    "obs-74f20536e7c2ae1479b0",
+    "obs-09ac6e2e3960013a409f"
+  ],
+  "financial_bridge": {
+    "revenue": 0.434414,
+    "operating_profit": -0.113483,
+    "ocf": -0.134407,
+    "cash_capex": 0.053112,
+    "sbc": 0.047677,
+    "additional_cash_investment": 0.0,
+    "ticker": "RKLB",
+    "period": "H1 2026",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": -0.26123237280566464,
+    "ocf_less_named_capex": -0.187519,
+    "ocf_less_capex_sbc_known_subtotal": -0.235196,
+    "owner_cash_proxy": -0.235196,
+    "owner_proxy_complete": true,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/RKLB/raw-data/2026-Q2.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/RKLB/raw-data/2026-Q2.json",
+        "sha256": "582db9edf98c494be9accdda4d3dd49cfcb1e2d302daa235e4202cdeae3dea18"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm",
+      "location": "Common shares and H1 consolidated cash flows",
+      "facts": {
+        "actual_common_shares": 598180438,
+        "h1_ocf_usd_m": -134.407,
+        "h1_sbc_usd_m": 47.677,
+        "h1_ppe_software_usd_m": 53.112
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm",
+      "location": "Common shares and H1 consolidated cash flows",
+      "facts": {
+        "actual_common_shares": 598180438,
+        "h1_ocf_usd_m": -134.407,
+        "h1_sbc_usd_m": 47.677,
+        "h1_ppe_software_usd_m": 53.112
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

@@ -4,20 +4,15 @@
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
-  "rationale": "Axon is a high-quality, founder-led public-safety technology platform with strengthening ecosystem economics, 39% ARR growth, 126% NRR and $15.1 billion future contracted bookings. However, current valuation still embeds high-teens-to-20% long-duration growth, first-half 2026 free cash flow is negative, stock-based compensation is extremely high, and share count continues to rise. The combination of valuation and dilution prevents a starter position under the harness despite strong business quality.",
+  "rationale": "고객 유지·제품 확장은 지지하나 계약 총액은 취소 불가능한 확정 매출과 다르다. 기존 owner-FCF와 연간 희석률이 같은 SBC 비용을 중복 반영했을 가능성을 확인했다. 총점은 유지하되 기존 504달러 Base를 확정 내재가치로 사용하지 않는다. 반기 음의 FCF, 높은 SBC, 내부통제와 인수·신시장 실행이 주당가치 실현을 제한한다. 회사 분석 가격 538.15달러와 Wave 515.67달러를 동일 시각 비교로 취급할 수 없다. 재평가 69/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "Price falls enough to create at least ~20% discount to a re-underwritten base value without business deterioration.",
-    "ARR remains above ~25% growth and NRR remains at or above ~120% while international/enterprise bookings convert to revenue.",
-    "GAAP operating margin and owner-FCF margin expand materially while annual net dilution trends toward <=1%-2%.",
-    "Carbyne, Dedrone and other acquisitions demonstrate measurable cross-sell, margin contribution and acceptable acquisition ROIC."
+    "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "ARR growth falls below ~20% with NRR below ~115% for multiple quarters absent a temporary deployment timing issue.",
-    "Future contracted bookings growth materially decelerates and cancellations/appropriation issues rise.",
-    "SBC and net dilution remain structurally high without commensurate per-share FCF growth.",
-    "Major ecosystem categories lose share or Evidence.com switching costs weaken.",
-    "Acquisition spending continues to raise leverage while owner cash flow fails to inflect."
+    "NRR 120% 하회가 4개 분기 지속하면서 계약 현금전환과 SBC 이후 FCF/주가 개선되지 않는다.",
+    "중대한 경영진·회계 신뢰 훼손"
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.88
+  "confidence": 0.66
 }

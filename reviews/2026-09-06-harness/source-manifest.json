@@ -1,0 +1,758 @@
+[
+  {
+    "path": "companies/000660/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "5808db5859a458b4b90699e2a28a62c1523dda54f157db57f2ff6a3e0c9684da",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005380/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "1104063b30a2d209b2780b25e1a7f6235bc5fdabcdf767eb17bf0dc455906ada",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/decision-history.md",
+    "sha256": "5c233152595e79090c1d9514b002aa2222beb46e7acf1c42f04a998c7479aed8",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/decision.json",
+    "sha256": "cafe309311e6f542fc52f5b5199074924b962b705b7970ad2d0ae943e2608360",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/evidence.jsonl",
+    "sha256": "c7029a60ffa58c6bfa96a5f9249ed4ebfab0682bfd5b89e9788cb54c3c2c974b",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/hard-veto.json",
+    "sha256": "cac73c4f0828dc98a2aae26b6df4b8bdd9a1a1ec921453de3dae385e663a4a83",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/re-evaluation-2026-09-05.md",
+    "sha256": "4145be204442c12942b5dbe8cb413096a840c4b2b9baf05ea1ca4ca34cc395ae",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/red-team.md",
+    "sha256": "4942713f53317b38582234319d6cbf8a2355e04b087db6764872f693fd22abcb",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/scorecard.json",
+    "sha256": "ece6cb3f43e5006f0cdc13264c8b3f435e6072786ece2133feb32d522520c495",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/thesis.md",
+    "sha256": "168ae2ecf28e6624a2e968a084889ca50a13284871ac4a20dc09746add6c6e6a",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/005930/valuation.json",
+    "sha256": "fb776e75234fe6526917ef196ff721a891f1b066112f14f2f06a41575ff59ea2",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/decision-history.md",
+    "sha256": "9ea337f03eea93e167eff1dc30825852b84929dcf17c58cd47fd9d271f20f214",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/decision.json",
+    "sha256": "a614f2de5c720fdb1dee280f731af389328abd2361c7430de4d56dc4db4ae797",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/evidence.jsonl",
+    "sha256": "372eb27054104f6f2aab8d87e138632563c72d10564f7c69bb5462a8a9a675a0",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/hard-veto.json",
+    "sha256": "cfe940c34248e846dcee915a934f0cb5382ee1755cf9b47ccc936f5c5d1b5a6c",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/re-evaluation-2026-09-05.md",
+    "sha256": "4f8995daa44bcf28a1607544dffc015385b7d34d6ef1c00e63bc8aea56127f1d",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/red-team.md",
+    "sha256": "bc902530d2606ccd40cd9899422671c63f7747310c3b80f6916bf010c3c4f2f5",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/scorecard.json",
+    "sha256": "77afe0430829ac24a2b54d50e0cdf234cfb0ebfc031e95dab0f8f46b54da9558",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/thesis.md",
+    "sha256": "c70e52cfb78fa97c24a6936d24e7f6e6bd415436787c5df44c3a45171111c622",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/012450/valuation.json",
+    "sha256": "4db2a26daffe66607fb5549e2327445bb09b0170b46b63b6617161a6bcf7b633",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/034020/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "849bc41f3b2e468a5d0f3d7ce6cb2f63cb07332d80f60e57eecb2769b7722d83",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/035420/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "2f788682e205e464c64641d4a28cb487361ad8349324b20cb2e97d8a5199a903",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/042700/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "0c9789d4aa8669bb9de92ffe69fd986ae4b7ae5e1d6655ec25b061c0c7d564c5",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/196170/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "a65348f9f172404536ec3480ade4220c676713b52bc7d0ef0731c6bacfa950fa",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/207940/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "36c2680772edda2048c62b951678c0cc95c94f3595fb4b5f6b168ac4fa8a0cea",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/214450/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "a544d1fe3bd5650b856c3469a92f4bc9c68c2efeb58a754233ba451556fc9ae8",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/267260/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "35e65e9b34654fe799dfd66680ab7b9e42042dbecd0a157f0710b282bf64c7a6",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AMZN/raw-data/2026-Q2.json",
+    "sha256": "85dfebfcfce88a4b79db10d990b86ce32e04656eb4bba2aa7c45e7a60665873b",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ANET/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "57217a1374e43626ddd1e96640782b90e431831e719e46c3782382e7085603ad",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ASTS/raw-data/2026-Q2.json",
+    "sha256": "c175381df5a818e6c60a708344b3e54ee2b26458debeddebb4dfa759ff44731c",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/decision-history.md",
+    "sha256": "b2b2dc637ad6392eeb1eb7f5464c3adf5f5be9b6ff53b94421fdcd1d40ae12f3",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/decision.json",
+    "sha256": "31008dd16037754e6a11df3a0a51c02e53c1a3c128848207f5979612892265ed",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/evidence.jsonl",
+    "sha256": "016c9a09f049aa4d4dc621e80e057ff722fceff22dbeb1f5885596874a564135",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/hard-veto.json",
+    "sha256": "50b8c135a74efae38f2559b627907d120e4eb7bf75676db0edb6d7efa7719cf7",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/re-evaluation-2026-09-05.md",
+    "sha256": "0b13a98b228bed00bd5c60e1f80544cb0a204c514e2c4a21a300c2de2cddc3e4",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/red-team.md",
+    "sha256": "a4b37c3341d42d51594ad86cd5fc0f22ad209292db47b948cb62223c17cc3dbb",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/scorecard.json",
+    "sha256": "df5809a343d14040d06180c9206d94e0524a856912647fe210779c44248b0e02",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/thesis.md",
+    "sha256": "ca7e57ba5d32314ba398e4ec1165eaf3e90e3aaff65de514915a05438ac07bd0",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AVGO/valuation.json",
+    "sha256": "488e54d96f1ea7492da4e89c8f78ff2009009b44f4ab7c370042a7aa77f34fe1",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/decision-history.md",
+    "sha256": "8d83a593199e746116e9f0f58e2c7e6b534f32f7d1bb7ea91bf354599e4be836",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/decision.json",
+    "sha256": "6341128ff40121e6997a69208952f93915f3d38aff9c83ab27583340af1bf4ba",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/evidence.jsonl",
+    "sha256": "7862d1b814b5d55771c7706ff2c9ea02d15b583663331bc6f63b04b7c153e907",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/hard-veto.json",
+    "sha256": "9143f4b7ad841c54e0d8ee0d49a54e0459e38e61ec44de81e39493fecd4c501f",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/re-evaluation-2026-09-05.md",
+    "sha256": "6a377fa75f64660dab2e067e39b285a179d2b8ad268c713f824bc5e9eafa0068",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/red-team.md",
+    "sha256": "1b36cb192328d4e2c6626d0f84393044b353721efe64bdf4bc7f9e40e99c7824",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/scorecard.json",
+    "sha256": "c2fc11e1fb3d96552e7f51eef255407b2de9768895446b549593bacc6a801c79",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/thesis.md",
+    "sha256": "9689ffb705dfb727d06fffe40d6e3f9a13cab14233d450161e1f2bec8fa562f4",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/AXON/valuation.json",
+    "sha256": "6294fb8d23c68eef4b43c6480d1f96aa3c57a9796b357d74e7eea77e1dfd0d08",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/decision-history.md",
+    "sha256": "47cdfc8de4827173d03e8598f455abf3f5d2521017ad26a3579600d391ed9ac7",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/decision.json",
+    "sha256": "7f5ca1c977833704facee5c531a0a0cbcd223850886a16c57caa8e6f60e0e671",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/evidence.jsonl",
+    "sha256": "3cd1ca4d3e021717276a20321851d33ef31852f71ea59c75e82f2308ce5a6073",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/hard-veto.json",
+    "sha256": "25934cc8a15830232da7bd63e8625646f1095696f00895c093c0de776a431649",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/re-evaluation-2026-09-05.md",
+    "sha256": "08f62c53d4bfbd4c3c3a6fa7ee1d47b2aad7371108c6cdbd389dd9023441cd4f",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/red-team.md",
+    "sha256": "3faa93c53800dccb57e60548e78ddd2d9f2be393643f2d36a7b953d91e1d2bf6",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/scorecard.json",
+    "sha256": "ce54cec775a5f1f6eef11e7d9da57e763623a8ec1bc3a4173130a4d4cd020ae2",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/thesis.md",
+    "sha256": "ca942242044a61c9844210243b884df813541211843d6b4fc1309c71ec4205c1",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/DDOG/valuation.json",
+    "sha256": "0491a0890ea4dabe26bc503d834ed449a029289736742ef26a558049217a8e3e",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/decision-history.md",
+    "sha256": "b096ffe0f4e0e52b29072f592b195993c79b5f3a13f2324476f7dbf03a1c4fcf",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/decision.json",
+    "sha256": "e5888ee9cf0a85ad34eb5e691a104d74401bb249bfea91b00bb2a544d82f8760",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/evidence.jsonl",
+    "sha256": "d4d1248666b8e1764cce6dced150eaae241a8eb3af78885f2ba779d6a9a63a4a",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/hard-veto.json",
+    "sha256": "cd367c6322195a5e5891ed545bee7501bf1fa6c59521f3a4abb153e6b2593996",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/re-evaluation-2026-09-05.md",
+    "sha256": "203c0dd7e305eed561d7de317cf0cc725ee2f481089ba5725cdfb89446cd1ab1",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/red-team.md",
+    "sha256": "07d3da63fdfa01f866f55b73a649a150ac416ab2a5a455a72c761decaea5ca70",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/scorecard.json",
+    "sha256": "6a7e003ba4866d0f81085aab9f6ac829d7d96c8e5026727f132e08c3bc375ed2",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/thesis.md",
+    "sha256": "365da24f8d37242414b1b42efef5ed4069c349a9d00fcd12b9ab3aad3aceb34c",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/GOOGL/valuation.json",
+    "sha256": "3898361b476dbe51655ac17c9b67dc16fbc50e8a7a7e438f10c5e5414fb6c118",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/decision-history.md",
+    "sha256": "0dad5a3fff8b92c0f9f741b0507059a03419bf42c7bd1b1ed11fde9a88cfe519",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/decision.json",
+    "sha256": "6fd0c0acf7cb8e0bd0ae3d3581092bc04b16966a1c9d7d70455abee316ab6d38",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/evidence.jsonl",
+    "sha256": "0da493f9c308068cd32c9f99e80cfb4042f3df2b983b7d877241495d548cd7b0",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/hard-veto.json",
+    "sha256": "bca679c45580cc80e93ba6e82c04f22b95bb8430817f5078a86fb1bc9a26d354",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/re-evaluation-2026-09-05.md",
+    "sha256": "dc045b1b96ee649ed60f4fda8c9898db1c330800cb4df0e30db77fa5d8e9bdef",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/red-team.md",
+    "sha256": "9bb5cebdbc11859d84c0a90e49e2075d8b72f76c463d28daca4bfc11a11279b6",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/scorecard.json",
+    "sha256": "2d19327acfc029f455381d71963070115b0d7cb250af7c19ac64da79a53342da",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/thesis.md",
+    "sha256": "42b095165507e53c84b357685db7412be147f2deb0c6b69f16690f2d8b153ae5",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/ISRG/valuation.json",
+    "sha256": "6f81cf10ec9bc3338315daf29cc92667d106b32d21843fed36a0e8f90181d750",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/LLY/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "87037e371f2797d68003512c045f6f663ee1aa1dbe331b7c6b3e4bcd42be4b5d",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/MSFT/raw-data/2026-09-02-nodes-35176-35181.json",
+    "sha256": "0b9015ac4a83efd25f6a5915982bd40c75af13ccc76eadd117392169931e8d01",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/MSFT/raw-data/2026-FY.json",
+    "sha256": "2dfb8ace769ec0f222ad2b9ce697b92dcec20894b26388237014e18bb271afc6",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/MU/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "1ea1fb411729f28299eebba8d29f1164ba76dd7ab28f313e68842d038126a5e9",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/decision-history.md",
+    "sha256": "01e969bd6dd7aea8e929796f4c38d7100578b0aec7279fcdfc8edce981242fd1",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/decision.json",
+    "sha256": "b1a01c9008ab8f4b7c2807c939c72313bcc5a256f3d0c362a9599dd8d2a4af91",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/evidence.jsonl",
+    "sha256": "a814d6a83b1ec39f734af902035382c7ef1b6795686f98e45d8d4a940208ec77",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/hard-veto.json",
+    "sha256": "71115856fdccfd41c7dd4b91d3a6d5a8f5350d5917085b9e851a016b610e0bfb",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/re-evaluation-2026-09-05.md",
+    "sha256": "e21003d4e4c1575e85a516fd821f259a88c72c717f3fa78bbcca5eb779453582",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/red-team.md",
+    "sha256": "b58fd5c59a053f64353eb6f23465106fb3375a46a4a9eb2598f0cd29d1a93da4",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/scorecard.json",
+    "sha256": "bad7a1d2b84db93ad278cf135ce61d17ac78d298cf4e81fa09ecbe0e292ec9a9",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/thesis.md",
+    "sha256": "2d9f206ef15372945e2f32409b5f0fc204df26540746efa89511503bbb8fafcb",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NET/valuation.json",
+    "sha256": "366c28023638187324a6bf636f17126b722f3abce484525f04bb51a8ddca0f70",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/decision-history.md",
+    "sha256": "391123be04fe91ec9e4df65a4fa4e7ecee8af4cefa445cbeb56ba86702f47c70",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/decision.json",
+    "sha256": "8b783e55ef7a44b1679bbc49cd70385a3c31286770c5d79113468e72edff123d",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/evidence.jsonl",
+    "sha256": "53bd11c4fbfaa49ab6b7d29261dc7199eda62e14031188ba8be57c139d5d9348",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/financial-inputs.json",
+    "sha256": "c7e8b613bf1695060e1982459c83a849bcd83da61559a9ff7760886d14febf42",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/hard-veto.json",
+    "sha256": "70661e941890f8e51452682e2a1a6a15ff5166a3c88c243de9b1cd4327d2be76",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/red-team.md",
+    "sha256": "03677e907590638188ae10fdeca92481d7c592f6852e1dae4172c6dbd715faf4",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/scorecard.json",
+    "sha256": "dad907180b76f5eca982e703570b27dbd2af501a4f3af329ff590cd929f8f337",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/sources.json",
+    "sha256": "681fd573cffb9be27347ea919bdc28cdbc2cba3b1c604750de75db7f24e3fb12",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/thesis.md",
+    "sha256": "809e1a368fc6d5a3e6b40766df3048d56c49e81fc98821b2812fe54331dc6d02",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/valuation.json",
+    "sha256": "3c6e4c61d59a055dc53cd3d73b502ced4f0db38788b2bceb4d8bf04da7a5c93c",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NOW/valuation_model.py",
+    "sha256": "97659b40ea5785f5bc979f7af7bf8934504beac174e3c39a52ecf60a6fd14a0a",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/decision-history.md",
+    "sha256": "550166271f6edc1e0e5fa2c0a24b723ae9514faf1afadffaa3b62c605830dbb9",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/decision.json",
+    "sha256": "7b42d56e543e323cf6a2a3b81e64588959d5322a48aaddb0ecbc555858f74182",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/evidence.jsonl",
+    "sha256": "acc6af5a74723f2df8c27c1fdde39d2554c20a4e3ef688a2c77fab7f5d25723b",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/hard-veto.json",
+    "sha256": "f1afb9fcb00919849d868101bd4e570f0ecee13341abe8faee2473c0fdd6e637",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/re-evaluation-2026-09-05.md",
+    "sha256": "c2b5e9e225048437d88b01f861d92eea7985c8c140d9f8fce338b64f7bf89aab",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/red-team.md",
+    "sha256": "77c17ff118422a12a3e6f53e04108b9ec4f46bed3f1914f64b308114d5caa862",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/scorecard.json",
+    "sha256": "4420f3aa5b066a5b69a2eac0edacc76370f9ca0a710d01ac4aa677b2f80617e1",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/thesis.md",
+    "sha256": "e080df76745038d7b8ff7091de64701b7743125df705b677fa2738aa6e2d665f",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/NVDA/valuation.json",
+    "sha256": "d4b62a38bc5177bd76d96818ad1a409d62bdfe279df1c5cd46bc22e5f372eb7d",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/PLTR/raw-data/2026-Q2.json",
+    "sha256": "1812d23e1be12b5ba100697d0789d562225d64d687d50294fdf50d4892a54784",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/RKLB/raw-data/2026-Q2.json",
+    "sha256": "582db9edf98c494be9accdda4d3dd49cfcb1e2d302daa235e4202cdeae3dea18",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/VRT/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "7d1dd1c110dfdd3c7d7fe6b098f2dfc148b42d3038490c0a08fcb653fc1610ff",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/VRTX/raw-data/2025-2026-supplied-filings.json",
+    "sha256": "548b83390d3b04d20ce4f612dcba7f585183375c6f4b1b89d14acc0fa92e73b9",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/MELI/raw-data/2026-Q2.json",
+    "sha256": "dbd4a2092bc6543e9104bba917fbb3d0b75e3d91d5e5a5922eee3f2f2fb4adca",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/decision-history.md",
+    "sha256": "3bc07de191e48353c1566de5e6004c31f740772aee025f94eb931c615a05cd91",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/decision.json",
+    "sha256": "9e800d3d1f58c7d301517ea5691429fbdc4309d33a2e2c8b55c474f2ec9a0bb6",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/evidence.jsonl",
+    "sha256": "833d0052ee34cddb26540104c2e34528b4b5792a65348e7028227c8a664828f9",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/hard-veto.json",
+    "sha256": "c788716364e1a572d7d9f711f0fdb67a30ec9b56ef9983ac39bb187aad9eb188",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/re-evaluation-2026-09-05.md",
+    "sha256": "3bc83d6468f4f829eb07603a8846a86f4e6b1e6ad6ae6c6d8cd1b895dc7419c7",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/red-team.md",
+    "sha256": "f6d05087c849b94686988ff549b652d66379ad37493e26946bc73ad50af0afbe",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/scorecard.json",
+    "sha256": "c0195b2a47f3aac7755a6b41635db561c03c6d82b4b79db71cda3e9326baf7ed",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/thesis.md",
+    "sha256": "19636b93ef8f563bd7ce89166eede2b5e8a1327f7fb5e4163a8e415d89e9625b",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TSM/valuation.json",
+    "sha256": "b818dd703c6aa605ba86e58e319af4ae02eb7e577a0cb985d0dec8de6e785158",
+    "kind": "inherited_analysis",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/CRDO/raw-data/2027-Q1.json",
+    "sha256": "c7f3714a7b23df50bb6ec3939ad81b299b0dbb85a249fdfb4415b583556718d1",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TEM/raw-data/2026-Q2.json",
+    "sha256": "5fd335f342f45e977309c76bf1a133ffea7a28bbcc391c35ddeec9c0372197c0",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  },
+  {
+    "path": "companies/TMDX/raw-data/2026-Q2.json",
+    "sha256": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95",
+    "kind": "raw_assertions",
+    "verified_primary_document": false
+  }
+]

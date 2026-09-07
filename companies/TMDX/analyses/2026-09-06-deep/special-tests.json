@@ -1,0 +1,31 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 116.2861948409927
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 110.47188509894306
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 105.21131914185052
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 100.4289864535846
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "convertible_rights": {
+    "method": "Primary denominator/claim treatment stated in model inputs. Alternate conversion removes the corresponding claim cost before adding conversion shares.",
+    "note": "Q2 희석40.709227M은 기존 전환채 포함 proxy. 전환채 원금을 또 차감하지 않고 미전환 이자·금융리스 유지 현금은 margin에 반영한다. 2030년까지 HQ200~240M 투자와 6월 내부통제 미개선은 별도 검증 항목.",
+    "contractual_conversion_count_unknown": false,
+    "additional_share_stress_not_contract_fact": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  }
+}

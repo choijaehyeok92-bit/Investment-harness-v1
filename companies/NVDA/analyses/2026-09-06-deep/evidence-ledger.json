@@ -1,0 +1,51 @@
+{
+  "ticker": "NVDA",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [],
+  "financial_bridge": {
+    "revenue": 302.97,
+    "operating_profit": 197.579,
+    "ocf": 134.36,
+    "cash_capex": 7.474,
+    "sbc": null,
+    "additional_cash_investment": 0.0,
+    "ticker": "NVDA",
+    "period": "TTM through 2026-07-26",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.6521404759547149,
+    "ocf_less_named_capex": 126.88600000000001,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/NVDA/valuation.json",
+      "companies/NVDA/thesis.md"
+    ],
+    "sources": [
+      {
+        "path": "companies/NVDA/valuation.json",
+        "sha256": "d4b62a38bc5177bd76d96818ad1a409d62bdfe279df1c5cd46bc22e5f372eb7d"
+      },
+      {
+        "path": "companies/NVDA/thesis.md",
+        "sha256": "e080df76745038d7b8ff7091de64701b7743125df705b677fa2738aa6e2d665f"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

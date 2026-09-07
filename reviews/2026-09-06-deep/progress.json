@@ -1,0 +1,15 @@
+{
+  "scope": 34,
+  "completed": 34,
+  "prior_partial_remaining": 0,
+  "state_counts": {
+    "PRELIMINARY_REVIEW": 58,
+    "FULL_ANALYSIS": 35
+  },
+  "decision_counts": {
+    "WATCH": 25,
+    "REJECT": 9
+  },
+  "buy_authorizations": 0,
+  "definition": "Research composition complete; underwriting vetoes and uncertain facts persist explicitly."
+}

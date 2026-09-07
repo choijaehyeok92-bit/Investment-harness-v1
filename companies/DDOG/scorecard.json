@@ -1,6 +1,6 @@
 {
   "ticker": "DDOG",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "categories": {
     "structural_change_and_leadership": {
       "score": 14,
@@ -8,16 +8,17 @@
       "evidence": [
         "Cloud migration, distributed applications, DevSecOps and AI workloads structurally increase telemetry, observability and security complexity.",
         "Datadog reported monitoring trillions of events per hour and millions of servers and containers, with more than 20 products and over 1,000 integrations.",
-        "The company launched more than 100 DASH 2026 capabilities across autonomous operations, AI security and agent building, and acquired Adaptive ML."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "AI can lower the cost of building competing analytics and automation tools even as it expands telemetry demand.",
         "Hyperscaler-native monitoring, broad technology vendors, specialists and open-source stacks create persistent competitive pressure."
       ],
-      "confidence": 0.91,
+      "confidence": 0.7799999999999999,
       "missing_data": [
         "Independent 2026 market-share estimates across observability, logs, cloud security and AI monitoring.",
-        "Revenue and ARR contribution from recently launched AI products."
+        "Revenue and ARR contribution from recently launched AI products.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "customer_value_and_product": {
@@ -26,16 +27,17 @@
       "evidence": [
         "Q2 revenue grew 36%, with approximately 70% of the dollar increase attributable to existing customers.",
         "Trailing twelve-month dollar-based net retention was in the low-120% range, compared with about 120% a year earlier.",
-        "As of June 2026, 58% of customers used four or more products, 37% used six or more, 22% used eight or more and 13% used ten or more; all thresholds improved year over year."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Usage-based pricing can create customer budget volatility and incentives to optimize or reduce telemetry ingestion.",
         "The largest customer began reducing usage in Q3 2026 despite otherwise strong retention metrics."
       ],
-      "confidence": 0.93,
+      "confidence": 0.7799999999999999,
       "missing_data": [
         "Gross retention, cohort-level usage expansion and customer-level total-cost-of-ownership benchmarks.",
-        "Retention and expansion rates by product count."
+        "Retention and expansion rates by product count.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "moat_trajectory": {
@@ -44,35 +46,37 @@
       "evidence": [
         "Customers with at least $100,000 ARR rose 23% to approximately 4,720 and represented 91% of ARR.",
         "Multi-product adoption broadened at every disclosed threshold, supporting increasing workflow embedding and cross-product data correlation.",
-        "A unified platform, more than 1,000 integrations, accumulated operational context and strong brand create switching friction."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "AWS, Azure and Google Cloud control the underlying infrastructure and can bundle native monitoring; Microsoft, Cisco, Dynatrace, Elastic and open source remain credible alternatives.",
         "Largest-customer usage contraction demonstrates that expansion is not irreversible and may expose concentration below reported company-wide metrics."
       ],
-      "confidence": 0.82,
+      "confidence": 0.7799999999999999,
       "missing_data": [
         "Independent product-level market share and win/loss data.",
-        "Identity, ARR and normalized usage path of the largest customer."
+        "Identity, ARR and normalized usage path of the largest customer.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "incremental_roic_and_fcf_per_share": {
-      "score": 10,
+      "score": 8,
       "max_score": 15,
       "evidence": [
         "H1 2026 revenue grew 34% while GAAP operating income improved to $12.8M from a $47.9M loss and H1 FCF increased to $567.8M from $409.7M.",
         "Calculated TTM reported FCF was approximately $1.073B, equal to 27.0% of revenue, with low conventional capital expenditure.",
-        "R&D remained the largest operating expense and repeated product launches show a long reinvestment runway."
+        "2026-09-05 재심사 의견: GAAP 영업이익률 약 0.4%와 SBC/보고 FCF 약 79%를 반영: 10→8."
       ],
       "counter_evidence": [
         "Calculated TTM total SBC was approximately $850.9M, 21.5% of revenue and 79.3% of reported FCF.",
         "June period-end shares increased approximately 3.0% year over year and TTM GAAP operating margin was only about 0.4%.",
-        "Q2 cost of revenue grew 45%, faster than revenue, because third-party cloud infrastructure and software costs increased."
+        "TTM SBC 약 8.51억 달러, 연간 기본주식수 증가 약 2.97%. 보고 FCF-보상비용 프록시는 약 2.22억 달러다. 이 차액은 정확한 경제적 SBC 공정가치 측정이 아니라 민감도 지표다."
       ],
-      "confidence": 0.94,
+      "confidence": 0.7799999999999999,
       "missing_data": [
         "Product-level contribution margins and normalized owner FCF after the economic cost of SBC.",
-        "A multi-year diluted FCF-per-share bridge including RSUs, acquisitions and capped calls."
+        "A multi-year diluted FCF-per-share bridge including RSUs, acquisitions and capped calls.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "management_and_capital_allocation": {
@@ -81,17 +85,17 @@
       "evidence": [
         "Co-founders Olivier Pomel and Alexis Le-Quoc have led Datadog since 2010 and repeatedly expanded the platform into new adjacent products.",
         "Management prioritizes R&D over sales and marketing and has preserved a large net-cash balance while generating positive operating cash flow.",
-        "The September 2026 CTO and CPO share sales were executed under pre-arranged Rule 10b5-1 plans and were small relative to disclosed remaining ownership."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "SBC remains economically large, annual net dilution is about 3%, and the company has not materially offset dilution with repurchases.",
-        "The founders held a combined 32.8% of total voting power at March 31, 2026; aggregate Class B stock represented approximately 42% of voting power at June 30.",
-        "Nevada redomiciliation and dual-class control reduce minority-stockholder influence, while 2026 acquisitions included restricted-share consideration."
+        "The founders held a combined 32.8% of total voting power at March 31, 2026; aggregate Class B stock represented approximately 42% of voting power at June 30."
       ],
-      "confidence": 0.87,
+      "confidence": 0.7799999999999999,
       "missing_data": [
         "Post-acquisition revenue and retention outcomes for the 2025-2026 acquired businesses.",
-        "Board-approved long-term targets for SBC intensity and net dilution."
+        "Board-approved long-term targets for SBC intensity and net dilution.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "financial_survivability": {
@@ -100,15 +104,16 @@
       "evidence": [
         "Cash and marketable securities totaled approximately $4.985B at June 30, 2026 versus $1.0B principal of 0% notes due 2029.",
         "Calculated net cash was approximately $3.985B and H1 operating cash flow was $650.5M.",
-        "Current operations and organic investment are not structurally dependent on external capital."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "The 2029 notes have an initial conversion price of approximately $217.60 and may create equity dilution if conditions are met.",
         "Non-cancelable cloud/software purchase commitments and operating leases create fixed obligations even if usage growth slows."
       ],
-      "confidence": 0.97,
+      "confidence": 0.7799999999999999,
       "missing_data": [
-        "Exact quarterly schedule of non-cancelable cloud commitments after June 2026."
+        "Exact quarterly schedule of non-cancelable cloud commitments after June 2026.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "expectation_gap_and_valuation": {
@@ -117,17 +122,17 @@
       "evidence": [
         "At $213.81, the equity value proxy using June period-end shares was approximately $76.8B, or 19.4x calculated TTM revenue and 71.6x reported TTM FCF.",
         "A ten-year reverse DCF requires approximately 24.2% revenue CAGR at a 30% year-ten FCF margin, or 22.3% CAGR at a 35% margin, assuming 2.5% annual dilution.",
-        "The company's FY2026 revenue guide midpoint of $4.46B implies approximately 30% growth, leaving a plausible path to the required near-term trajectory."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "The Base scenario value is approximately $168, 22% below the reference price, and the Bull scenario value of approximately $295 offers only 38% upside.",
-        "The reverse DCF requires near-Bull growth duration while the largest customer has already begun reducing usage.",
-        "Reported FCF does not deduct SBC, which was 79.3% of calculated TTM FCF."
+        "The reverse DCF requires near-Bull growth duration while the largest customer has already begun reducing usage."
       ],
-      "confidence": 0.85,
+      "confidence": 0.7799999999999999,
       "missing_data": [
         "Normalized revenue growth excluding the largest customer.",
-        "Consensus-free evidence for sustainable 2031-2036 market share and owner FCF margin."
+        "Consensus-free evidence for sustainable 2031-2036 market share and owner FCF margin.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     },
     "power_law_and_asymmetry": {
@@ -136,19 +141,19 @@
       "evidence": [
         "A unified observability, security and automation platform for AI workloads could support a much larger revenue and cash-flow base over ten years.",
         "The Bull scenario reaches approximately $36.6B year-ten revenue and $13.2B reported FCF, producing a present value near $295 per share.",
-        "Net cash and positive FCF reduce bankruptcy risk and preserve strategic optionality."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "The modeled Bear value is approximately $81 and the permanent-impairment range is approximately $35-$55 versus a $213.81 reference price.",
-        "Subjective probability-weighted value is approximately $163, about 24% below the reference price.",
-        "At roughly $77B equity value, a 10x outcome requires an extremely large absolute cash-flow result and is not a reasonable base objective."
+        "Subjective probability-weighted value is approximately $163, about 24% below the reference price."
       ],
       "confidence": 0.76,
       "missing_data": [
-        "Long-run market-size, product-level margin and dilution outcomes needed to distinguish a 3x outcome from a merely good business result."
+        "Long-run market-size, product-level margin and dilution outcomes needed to distinguish a 3x outcome from a merely good business result.",
+        "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다."
       ]
     }
   },
-  "total_score": 70,
+  "total_score": 68,
   "classification": "Starter / Watch"
 }

@@ -1,0 +1,1255 @@
+[
+  {
+    "ticker": "000100",
+    "company_name": "Yuhan Corporation",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "000270",
+    "company_name": "Kia",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "000660",
+    "company_name": "SK Hynix",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "003230",
+    "company_name": "Samyang Foods",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "005380",
+    "company_name": "Hyundai Motor",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "005930",
+    "company_name": "Samsung Electronics",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 68,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "006400",
+    "company_name": "Samsung SDI",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "009150",
+    "company_name": "Samsung Electro-Mechanics",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "009540",
+    "company_name": "HD Korea Shipbuilding & Offshore Engineering",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "010120",
+    "company_name": "LS ELECTRIC",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 35,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "011070",
+    "company_name": "LG Innotek",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "012330",
+    "company_name": "Hyundai Mobis",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "012450",
+    "company_name": "Hanwha Aerospace",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0",
+      "screening-50-v1.0"
+    ],
+    "company_score_100": null,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL",
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH"
+  },
+  {
+    "ticker": "034020",
+    "company_name": "Doosan Enerbility",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "035420",
+    "company_name": "NAVER",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 34,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "035720",
+    "company_name": "Kakao",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "042660",
+    "company_name": "Hanwha Ocean",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "042700",
+    "company_name": "Hanmi Semiconductor",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "047810",
+    "company_name": "Korea Aerospace Industries",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "058470",
+    "company_name": "LEENO Industrial",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "064350",
+    "company_name": "Hyundai Rotem",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "068270",
+    "company_name": "Celltrion",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "079550",
+    "company_name": "LIG Nex1",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "128940",
+    "company_name": "Hanmi Pharmaceutical",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "141080",
+    "company_name": "LigaChem Biosciences",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "145020",
+    "company_name": "Hugel",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "161890",
+    "company_name": "Kolmar Korea",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "192820",
+    "company_name": "Cosmax",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "196170",
+    "company_name": "Alteogen",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "207940",
+    "company_name": "Samsung Biologics",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 38,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "214450",
+    "company_name": "PharmaResearch",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "257720",
+    "company_name": "SILICON2",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "259960",
+    "company_name": "Krafton",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 36,
+    "current_screen_decision": "SCREEN_OUT",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "267260",
+    "company_name": "HD Hyundai Electric",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 37,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "271560",
+    "company_name": "Orion",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "278470",
+    "company_name": "APR",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 36,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "298040",
+    "company_name": "Hyosung Heavy Industries",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "329180",
+    "company_name": "HD Hyundai Heavy Industries",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "352820",
+    "company_name": "HYBE",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "373220",
+    "company_name": "LG Energy Solution",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "402340",
+    "company_name": "SK Square",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "454910",
+    "company_name": "Doosan Robotics",
+    "market": "KR",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "ADBE",
+    "company_name": "Adobe",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "AMAT",
+    "company_name": "Applied Materials",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "AMD",
+    "company_name": "Advanced Micro Devices",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "AMZN",
+    "company_name": "Amazon",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 41,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "ANET",
+    "company_name": "Arista Networks",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "APP",
+    "company_name": "AppLovin",
+    "market": "US",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "ASTS",
+    "company_name": "AST SpaceMobile",
+    "market": "US",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "AVGO",
+    "company_name": "Broadcom",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 71,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "AXON",
+    "company_name": "Axon Enterprise",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0",
+      "screening-50-v1.0"
+    ],
+    "company_score_100": 69,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL",
+    "screen_score_50": 38,
+    "current_screen_decision": "WATCH"
+  },
+  {
+    "ticker": "BSX",
+    "company_name": "Boston Scientific",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "CEG",
+    "company_name": "Constellation Energy",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "CRM",
+    "company_name": "Salesforce",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "CRWD",
+    "company_name": "CrowdStrike",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 37,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "DDOG",
+    "company_name": "Datadog",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 68,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "DHR",
+    "company_name": "Danaher",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "ETN",
+    "company_name": "Eaton",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 35,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "GEV",
+    "company_name": "GE Vernova",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "GOOGL",
+    "company_name": "Alphabet",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 69,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL",
+    "aliases_same_business": [
+      "GOOG"
+    ]
+  },
+  {
+    "ticker": "HUBS",
+    "company_name": "HubSpot",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "INTU",
+    "company_name": "Intuit",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "ISRG",
+    "company_name": "Intuitive Surgical",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 80,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "KLAC",
+    "company_name": "KLA",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "LLY",
+    "company_name": "Eli Lilly",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 40,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "LRCX",
+    "company_name": "Lam Research",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "MA",
+    "company_name": "Mastercard",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "META",
+    "company_name": "Meta Platforms",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 37,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "MPWR",
+    "company_name": "Monolithic Power Systems",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "MSFT",
+    "company_name": "Microsoft",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 39,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "MU",
+    "company_name": "Micron Technology",
+    "market": "US",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "NET",
+    "company_name": "Cloudflare",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 58,
+    "current_company_decision": "REJECT",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "NOW",
+    "company_name": "ServiceNow",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 42,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "NVDA",
+    "company_name": "NVIDIA",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 73,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "ORCL",
+    "company_name": "Oracle",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "PANW",
+    "company_name": "Palo Alto Networks",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "PLTR",
+    "company_name": "Palantir Technologies",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "PWR",
+    "company_name": "Quanta Services",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "REGN",
+    "company_name": "Regeneron Pharmaceuticals",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "RKLB",
+    "company_name": "Rocket Lab",
+    "market": "US",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "SNOW",
+    "company_name": "Snowflake",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "SYK",
+    "company_name": "Stryker",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "TMO",
+    "company_name": "Thermo Fisher Scientific",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "TSLA",
+    "company_name": "Tesla",
+    "market": "US",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "TTD",
+    "company_name": "The Trade Desk",
+    "market": "US",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "V",
+    "company_name": "Visa",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_status": "UNREVIEWED_PRELIMINARY_ONLY",
+    "review_levels": [],
+    "score": null,
+    "decision": null,
+    "note": "예비/보류 목록에만 있었음. 이번 재평가 완료 종목으로 계산하지 않는다."
+  },
+  {
+    "ticker": "VRT",
+    "company_name": "Vertiv",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv",
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 37,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "VRTX",
+    "company_name": "Vertex Pharmaceuticals",
+    "market": "US",
+    "inherited_universes": [
+      "screening/2026-09-us-kr/universe.csv"
+    ],
+    "review_levels": [
+      "screening-50-v1.0"
+    ],
+    "screen_score_50": 37,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "MELI",
+    "company_name": "MercadoLibre",
+    "market": "US-listed foreign issuer",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "QUALITATIVE"
+    ],
+    "screen_score_50": null,
+    "current_screen_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  },
+  {
+    "ticker": "TSM",
+    "company_name": "Taiwan Semiconductor (ADR)",
+    "market": "US-listed foreign issuer",
+    "inherited_universes": [
+      "screening/universe-2026-09.csv"
+    ],
+    "review_levels": [
+      "company-100-v1.0"
+    ],
+    "company_score_100": 76,
+    "current_company_decision": "WATCH",
+    "review_status": "REASSESSED_AT_EXISTING_EVIDENCE_LEVEL"
+  }
+]

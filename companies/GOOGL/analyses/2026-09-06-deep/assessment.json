@@ -1,0 +1,1093 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "GOOGL",
+  "company_name": "Alphabet",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/GOOGL/decision-history.md",
+    "companies/GOOGL/decision.json",
+    "companies/GOOGL/evidence.jsonl",
+    "companies/GOOGL/hard-veto.json",
+    "companies/GOOGL/re-evaluation-2026-09-05.md",
+    "companies/GOOGL/red-team.md",
+    "companies/GOOGL/scorecard.json",
+    "companies/GOOGL/thesis.md",
+    "companies/GOOGL/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 6,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": 69,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "2026 Q2 revenue grew 24% and Google Cloud revenue grew 82% as AI infrastructure and enterprise AI demand accelerated."
+      ],
+      "counter_evidence": [
+        "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cloud operating margin improved from 14.1% in 2024 to 23.7% in 2025 and 35.6% in Q2 2026, supporting scale-economy evidence."
+      ],
+      "counter_evidence": [
+        "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cloud operating margin improved from 14.1% in 2024 to 23.7% in 2025 and 35.6% in Q2 2026, supporting scale-economy evidence."
+      ],
+      "counter_evidence": [
+        "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 9,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM 매출 445.866B·OCF 185.675B−PPE 132.402B=53.273B. SBC 약 28.1B를 경제비용으로 보아 owner proxy 약25.2B로 낮춘다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다."
+      ],
+      "counter_evidence": [
+        "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 338.46; Base/가격 0.77배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 12.4%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.23배, Bull/가격 1.78배. 2상태 손익분기 Bull 확률 49.8%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "structural_thesis": "2026 Q2 revenue grew 24% and Google Cloud revenue grew 82% as AI infrastructure and enterprise AI demand accelerated.",
+  "customer_and_moat": "Cloud operating margin improved from 14.1% in 2024 to 23.7% in 2025 and 35.6% in Q2 2026, supporting scale-economy evidence.",
+  "current_finding": "TTM 매출 445.866B·OCF 185.675B−PPE 132.402B=53.273B. SBC 약 28.1B를 경제비용으로 보아 owner proxy 약25.2B로 낮춘다.",
+  "economic_finding": "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다.",
+  "capital_and_survival": "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다.",
+  "next_evidence": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+  "permanent_loss_case": "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+  ],
+  "increase_evidence": [
+    "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+        ],
+        "resolution_needed": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+        ],
+        "resolution_needed": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+        ],
+        "resolution_needed": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+        ],
+        "resolution_needed": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.12425092804557047,
+      "required_owner_margin_delta": 0.05611558551151505,
+      "price_reference": 338.46,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 1520.7056596487619,
+      "implied_year_10_owner_cash": 304.14113192975236,
+      "residual_price": 1.1368683772161603e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 475.0,
+                "owner_margin": 0.04,
+                "owner_cash_before_attribution": 19.0,
+                "ownership": 1,
+                "attributable_cash": 19.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 19.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 498.75,
+                "owner_margin": 0.06,
+                "owner_cash_before_attribution": 29.924999999999997,
+                "ownership": 1,
+                "attributable_cash": 29.924999999999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 29.924999999999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 523.6875,
+                "owner_margin": 0.07999999999999999,
+                "owner_cash_before_attribution": 41.894999999999996,
+                "ownership": 1,
+                "attributable_cash": 41.894999999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 41.894999999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 549.871875,
+                "owner_margin": 0.09999999999999999,
+                "owner_cash_before_attribution": 54.9871875,
+                "ownership": 1,
+                "attributable_cash": 54.9871875
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 54.9871875,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 577.3654687500001,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 69.28385625000001,
+                "ownership": 1,
+                "attributable_cash": 69.28385625000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 69.28385625000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 594.6864328125001,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 71.36237193750001,
+                "ownership": 1,
+                "attributable_cash": 71.36237193750001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 71.36237193750001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 612.5270257968751,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 73.50324309562501,
+                "ownership": 1,
+                "attributable_cash": 73.50324309562501
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 73.50324309562501,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 630.9028365707813,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 75.70834038849375,
+                "ownership": 1,
+                "attributable_cash": 75.70834038849375
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 75.70834038849375,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 649.8299216679048,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 77.97959060014858,
+                "ownership": 1,
+                "attributable_cash": 77.97959060014858
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 77.97959060014858,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 669.324819317942,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 80.31897831815304,
+                "ownership": 1,
+                "attributable_cash": 80.31897831815304
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 80.31897831815304,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 349.5400351617188,
+        "pv_terminal": 610.6968799273506,
+        "separate_equity_value": -19,
+        "unfloored_equity_value": 941.2369150890693,
+        "equity_value": 941.2369150890693,
+        "value_per_share": 76.961317668771,
+        "value_to_price": 0.2273867448702092,
+        "upside_downside": -0.7726132551297908,
+        "terminal_fraction_of_operating_pv": 0.6359856305573336,
+        "year_10_revenue": 669.324819317942,
+        "year_10_owner_cash": 80.31897831815304,
+        "year_10_owner_cash_per_share": 6.567373533781932,
+        "year_10_exit_price": 118.21272360807481,
+        "irr_roots": [
+          -0.07512946977431839
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 162.474,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 76.961317668771,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 25,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 530.0,
+                "owner_margin": 0.06,
+                "owner_cash_before_attribution": 31.799999999999997,
+                "ownership": 1,
+                "attributable_cash": 31.799999999999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 31.799999999999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 588.3000000000001,
+                "owner_margin": 0.095,
+                "owner_cash_before_attribution": 55.88850000000001,
+                "ownership": 1,
+                "attributable_cash": 55.88850000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 55.88850000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 653.0130000000001,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 84.89169000000003,
+                "ownership": 1,
+                "attributable_cash": 84.89169000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 84.89169000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 724.8444300000001,
+                "owner_margin": 0.165,
+                "owner_cash_before_attribution": 119.59933095000002,
+                "ownership": 1,
+                "attributable_cash": 119.59933095000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 119.59933095000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 804.5773173000002,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 160.91546346000007,
+                "ownership": 1,
+                "attributable_cash": 160.91546346000007
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 160.91546346000007,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 860.8977295110003,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 172.17954590220006,
+                "ownership": 1,
+                "attributable_cash": 172.17954590220006
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 172.17954590220006,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 921.1605705767703,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 184.23211411535408,
+                "ownership": 1,
+                "attributable_cash": 184.23211411535408
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 184.23211411535408,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 985.6418105171442,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 197.12836210342886,
+                "ownership": 1,
+                "attributable_cash": 197.12836210342886
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 197.12836210342886,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1054.6367372533446,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 210.92734745066892,
+                "ownership": 1,
+                "attributable_cash": 210.92734745066892
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 210.92734745066892,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1128.4613088610786,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 225.69226177221572,
+                "ownership": 1,
+                "attributable_cash": 225.69226177221572
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 225.69226177221572,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 825.9077476951435,
+        "pv_terminal": 2383.3712601328666,
+        "separate_equity_value": -19,
+        "unfloored_equity_value": 3190.27900782801,
+        "equity_value": 3190.27900782801,
+        "value_per_share": 260.8568281134922,
+        "value_to_price": 0.7707168590483137,
+        "upside_downside": -0.22928314095168634,
+        "terminal_fraction_of_operating_pv": 0.7426500638677392,
+        "year_10_revenue": 1128.4613088610786,
+        "year_10_owner_cash": 225.69226177221572,
+        "year_10_owner_cash_per_share": 18.453987062323442,
+        "year_10_exit_price": 461.34967655808606,
+        "irr_roots": [
+          0.05934920384479503
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 162.474,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 260.8568281134922,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 30,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 590.0,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 47.2,
+                "ownership": 1,
+                "attributable_cash": 47.2
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 47.2,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 690.3,
+                "owner_margin": 0.125,
+                "owner_cash_before_attribution": 86.2875,
+                "ownership": 1,
+                "attributable_cash": 86.2875
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 86.2875,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 807.6509999999998,
+                "owner_margin": 0.16999999999999998,
+                "owner_cash_before_attribution": 137.30066999999997,
+                "ownership": 1,
+                "attributable_cash": 137.30066999999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 137.30066999999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 944.9516699999998,
+                "owner_margin": 0.21500000000000002,
+                "owner_cash_before_attribution": 203.16460905,
+                "ownership": 1,
+                "attributable_cash": 203.16460905
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 203.16460905,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1105.5934538999998,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 287.45429801399996,
+                "ownership": 1,
+                "attributable_cash": 287.45429801399996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 287.45429801399996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1216.1527992899998,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 316.19972781539997,
+                "ownership": 1,
+                "attributable_cash": 316.19972781539997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 316.19972781539997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1337.768079219,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 347.81970059694,
+                "ownership": 1,
+                "attributable_cash": 347.81970059694
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 347.81970059694,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1471.5448871409,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 382.60167065663404,
+                "ownership": 1,
+                "attributable_cash": 382.60167065663404
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 382.60167065663404,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1618.6993758549902,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 420.8618377222975,
+                "ownership": 1,
+                "attributable_cash": 420.8618377222975
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 420.8618377222975,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "search_youtube_cloud",
+                "revenue": 1780.5693134404892,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 462.9480214945272,
+                "ownership": 1,
+                "attributable_cash": 462.9480214945272
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 462.9480214945272,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 1512.8574848477865,
+        "pv_terminal": 5866.627419307978,
+        "separate_equity_value": -19,
+        "unfloored_equity_value": 7360.4849041557645,
+        "equity_value": 7360.4849041557645,
+        "value_per_share": 601.8385040192776,
+        "value_to_price": 1.7781672989992248,
+        "upside_downside": 0.7781672989992248,
+        "terminal_fraction_of_operating_pv": 0.7949914520462236,
+        "year_10_revenue": 1780.5693134404892,
+        "year_10_owner_cash": 462.9480214945272,
+        "year_10_owner_cash_per_share": 37.85347681884932,
+        "year_10_exit_price": 1135.6043045654797,
+        "irr_roots": [
+          0.1605224235343875
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 162.474,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 601.8385040192776,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/GOOGL/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "platform_capex",
+    "missing_data": [
+      "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 70,
+  "business_quality_75": 59,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "2026 Q2 revenue grew 24% and Google Cloud revenue grew 82% as AI infrastructure and enterprise AI demand accelerated.",
+        "response": "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "Cloud operating margin improved from 14.1% in 2024 to 23.7% in 2025 and 35.6% in Q2 2026, supporting scale-economy evidence.",
+        "response": "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "TTM 매출 445.866B·OCF 185.675B−PPE 132.402B=53.273B. SBC 약 28.1B를 경제비용으로 보아 owner proxy 약25.2B로 낮춘다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 338.46; Base/가격 0.77배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 12.4%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 74.3%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "검색·YouTube의 현금기반과 Cloud/AI의 자본회수 시간을 분리한다. AI 사용량이나 비상장 투자 평가이익은 독립적 고객 현금의 대체물이 아니다.",
+      "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "TTM 매출 445.866B·OCF 185.675B−PPE 132.402B=53.273B. SBC 약 28.1B를 경제비용으로 보아 owner proxy 약25.2B로 낮춘다.",
+    "falsifiers": [
+      "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "management_or_accounting_integrity",
+      "persistent_dilution",
+      "incremental_roic_collapse",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

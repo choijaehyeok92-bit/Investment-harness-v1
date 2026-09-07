@@ -1,0 +1,101 @@
+{
+  "ticker": "MU",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-9d1acb805b64f3a76807",
+    "obs-3b2d9518a97ba85e4631",
+    "obs-f5bea8c7d3c5976c5647",
+    "obs-4c2c0e866aa46937bb1e",
+    "obs-e7328e2d53185f52bc06",
+    "obs-220c4ed8ec6ebca98de9",
+    "obs-cef30722eaa4e9074d73",
+    "obs-e2b82a3a1563aaec31f8",
+    "obs-28c0e5906e6e47f2208e",
+    "obs-57c8eb8cc2617cc49ab6",
+    "obs-7e856647e9f2369f71d4",
+    "obs-824802e95e60740444b0",
+    "obs-6d7c2bf86e3b30759f35",
+    "obs-ab8f7a6b3d00faf6edff",
+    "obs-6f81215bf4d6d071e524",
+    "obs-ef6af939b14ac856a2b1",
+    "obs-1f2bd1fc9deed1bfc670",
+    "obs-e1c14186b9c3d69f933f",
+    "obs-a1c0e33155f0438a73ac",
+    "obs-ee31e55312ea24f2ae43",
+    "obs-b97eef293f8d0db319a5",
+    "obs-daf3081f7b2a14686afa",
+    "obs-67b60fc2e5fe2481f769",
+    "obs-c27d099bcdfdb6ad41a1",
+    "obs-c4ad7320c8646bfd7108",
+    "obs-8201ef0ce7813af73152",
+    "obs-650bec4ffdcd4a9b0f3f",
+    "obs-483c84268656ab188557",
+    "obs-9eacc789e7a5396e1be3",
+    "obs-d37cd27d0788a14d7343",
+    "obs-843a71850da88d7bac4c",
+    "obs-02d47dffb0d2924c2e9e",
+    "obs-7ddef20fba1483de3aa9",
+    "obs-55a37f48fbda9651fe72",
+    "obs-51536c8e8f4068f4ccba",
+    "obs-3be04504fddfc3277cff",
+    "obs-56e98950b127cd741ecb",
+    "obs-3cef91e495214e062dcb",
+    "obs-985053e903b3641e3d02",
+    "obs-c7ac62d160d6258eecee",
+    "obs-fc89f1c7664f7e6e5f79",
+    "obs-0e32d5b8049776ef3596",
+    "obs-c5941883e5e6e7487e17",
+    "obs-8f412233cf4ca47d5bd5",
+    "obs-c5ce599828ec0504b430",
+    "obs-cba4ad807500258fe190",
+    "obs-ada3ccb00f3f73943add",
+    "obs-526dc193c2e5cbcf3564",
+    "obs-7e1d5006458b8f92be78",
+    "obs-96b22776579c1480f3e8",
+    "obs-d92f7bea55b90f965ccd",
+    "obs-e47e4a2f0671e2851c03",
+    "obs-cce45f43322c104e6770",
+    "obs-ffa6583d7f26ae6f1d99"
+  ],
+  "financial_bridge": {
+    "revenue": 78.959,
+    "operating_profit": 55.589,
+    "ocf": 45.702,
+    "cash_capex": 19.602,
+    "sbc": 0.918,
+    "additional_cash_investment": null,
+    "ticker": "MU",
+    "period": "Nine months FY2026 ended 2026-05-28",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.7040236071885408,
+    "ocf_less_named_capex": 26.099999999999998,
+    "ocf_less_capex_sbc_known_subtotal": 25.182,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/MU/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/MU/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "1ea1fb411729f28299eebba8d29f1164ba76dd7ab28f313e68842d038126a5e9"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

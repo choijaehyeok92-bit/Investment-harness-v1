@@ -1,0 +1,11 @@
+{
+  "ticker": "042700",
+  "price": 230000.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 95.3122,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "차입금 null은 무차입의 증거가 아니다. 현금 885.8억원만 유동성에 인정하고 리스·신공장·환매 재원을 점검한다. 95.3122백만주 분모는 시세 정보 기반 추정으로 ±5% 민감도를 표시한다."
+}

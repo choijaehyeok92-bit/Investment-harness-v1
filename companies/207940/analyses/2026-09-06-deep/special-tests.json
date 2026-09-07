@@ -1,0 +1,44 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 1211840.5696330233
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 1151248.541151372
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 1096427.1820489257
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 1046589.5828648836
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "unclosed_transaction": {
+    "status": "CONDITIONAL",
+    "note": "46.291백만주 분할 후 분모를 사용한다. PolyPeptide 공개매수 총 현금은 조건부이며 본체 가치에 인수 매출을 공짜로 넣지 않는다. 환율·조달을 포함한 2.2~3.0조원 조건부 인수 현금 스트레스 적용.",
+    "acquired_business_incremental_npv_test": [
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+        "value_per_share": 789498.541151372
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+        "value_per_share": 1006548.541151372
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0,
+        "value_per_share": 1151248.541151372
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+        "value_per_share": 1295948.541151372
+      }
+    ],
+    "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+  }
+}

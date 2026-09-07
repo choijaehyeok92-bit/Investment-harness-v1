@@ -1,0 +1,124 @@
+{
+  "ticker": "207940",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-1fb03a25452bfc6638db",
+    "obs-ceb27aa68e579bd969d6",
+    "obs-749729a63ca43cb13fdc",
+    "obs-c6b4a798fb5309d55759",
+    "obs-16444b66c170346d8407",
+    "obs-659823d0c34203f4bcdb",
+    "obs-0d285ac3c3154141673a",
+    "obs-cfe0fa361d720430a5ba",
+    "obs-0dbdfba9b6286f9b3801",
+    "obs-da71851fb1f292588a61",
+    "obs-3c71f47ddbde5bf77461",
+    "obs-5b33f3e9a54e83489060",
+    "obs-fdc4922553be9a708f1f",
+    "obs-f06dc21fcdc7ed807a6b",
+    "obs-a07c851dd57fb2c3eabc",
+    "obs-0d91f41a25f5100d2c4d",
+    "obs-5db83d4cbdb689872a37",
+    "obs-0f5165d9ff45523a85b8",
+    "obs-7029266dfa6872152744",
+    "obs-814c7e61824d3e35e22e",
+    "obs-f1842825e7542a99b9f6",
+    "obs-b5d42a13f0643b416738",
+    "obs-20b8a762f43da90064a2",
+    "obs-4343310fd61b9a0ff25d",
+    "obs-1fe219788a608e170c2c",
+    "obs-960ffb691fd1e6ec6e55",
+    "obs-f549f2a01e528a4de611",
+    "obs-c3d8d85889c4046c85e2",
+    "obs-1ff12f7e9f7d8bfc442d",
+    "obs-4c2917bc0bd11982ad60",
+    "obs-ad26530b575b7bb9f045",
+    "obs-d1f9b6b0b17e4e5550b2",
+    "obs-c5ee8e2aaa6e28a07caa",
+    "obs-55e97b29b3b5ce381748",
+    "obs-071885901ba0fac2a2b0",
+    "obs-0d816994a2c8b6a0718c",
+    "obs-c37529e6229c642a3eee",
+    "obs-2d7ad49e45373bf21b4d",
+    "obs-fbce5674c91e552debb4",
+    "obs-8dea3442d71a05110b68",
+    "obs-897d11bc864fa718925b",
+    "obs-edccd482f4639009a3c4",
+    "obs-e92f75fafa395a45d4e8",
+    "obs-82ba88db7803db52a705",
+    "obs-945c186bb9e3109312cb",
+    "obs-cdbab17f78bd68f3e1af",
+    "obs-651483eef4756f47c43b",
+    "obs-59c3214a6d3b237970f9",
+    "obs-0547cfc530a55c9d4a33",
+    "obs-0dfa6927140514e80fb1",
+    "obs-e151f50b1a4a473a465a",
+    "obs-cb307a601b004a33419a",
+    "obs-c4044b8d745f51ec62b4",
+    "obs-f001baa7aab31b425978",
+    "obs-586246409b1084bcce7e",
+    "obs-e93e451216be83807240",
+    "obs-2daf128832214c15b8c4",
+    "obs-733802d9ded8ae26e822",
+    "obs-a22bb4551c87c53731ab",
+    "obs-f1a95c66fb5119a4fbc1",
+    "obs-44a01e67e8189dae092e",
+    "obs-f781c2a8c5803e6c48b8"
+  ],
+  "financial_bridge": {
+    "revenue": 2.578030056694,
+    "operating_profit": 1.167196422965,
+    "ocf": 1.392488374186,
+    "cash_capex": 0.17261141911,
+    "sbc": null,
+    "additional_cash_investment": 0.0179933188,
+    "ticker": "207940",
+    "period": "H1 2026 continuing",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.45274740685598636,
+    "ocf_less_named_capex": 1.2198769550759998,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/207940/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/207940/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "36c2680772edda2048c62b951678c0cc95c94f3595fb4b5f6b168ac4fa8a0cea"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://samsungbiologics.com/kr/ir/stock-info/stock-charts",
+      "location": "Stock information 2026-09-04",
+      "facts": {
+        "price_krw": 1447000
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://samsungbiologics.com/kr/ir/stock-info/stock-charts",
+      "location": "Stock information 2026-09-04",
+      "facts": {
+        "price_krw": 1447000
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

@@ -1,0 +1,1099 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "012450",
+  "company_name": "Hanwha Aerospace",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/012450/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/012450/decision-history.md",
+    "companies/012450/decision.json",
+    "companies/012450/evidence.jsonl",
+    "companies/012450/hard-veto.json",
+    "companies/012450/re-evaluation-2026-09-05.md",
+    "companies/012450/red-team.md",
+    "companies/012450/scorecard.json",
+    "companies/012450/thesis.md",
+    "companies/012450/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 2,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 14,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/012450/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": 71,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다."
+      ],
+      "counter_evidence": [
+        "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다."
+      ],
+      "counter_evidence": [
+        "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다."
+      ],
+      "counter_evidence": [
+        "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 7,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "연결 이익을 전액 보통주 몫으로 계산하지 않는다. 방산·항공 본체 현금과 Ocean·Systems·KAI 지분 표식을 분리한 SOTP 범위이다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "별도 순차입·보증의 확정 합계는 미공개/미연결이다. 따라서 순차입·자본약정 2/3/6조원을 추정 스트레스로 명시하며 2조원 현금/2조원 유보는 조달능력을 인정하지 않는 분석 가정이다. 자회사 가치와 자회사 현금을 중복 가산하지 않는다."
+      ],
+      "counter_evidence": [
+        "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "별도 순차입·보증의 확정 합계는 미공개/미연결이다. 따라서 순차입·자본약정 2/3/6조원을 추정 스트레스로 명시하며 2조원 현금/2조원 유보는 조달능력을 인정하지 않는 분석 가정이다. 자회사 가치와 자회사 현금을 중복 가산하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 1,055,000.00; Base/가격 1.00배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 10.4%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.28배, Bull/가격 2.31배. 2상태 손익분기 Bull 확률 35.4%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/012450/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/012450/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "structural_thesis": "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+  "customer_and_moat": "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+  "current_finding": "연결 이익을 전액 보통주 몫으로 계산하지 않는다. 방산·항공 본체 현금과 Ocean·Systems·KAI 지분 표식을 분리한 SOTP 범위이다.",
+  "economic_finding": "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다.",
+  "capital_and_survival": "별도 순차입·보증의 확정 합계는 미공개/미연결이다. 따라서 순차입·자본약정 2/3/6조원을 추정 스트레스로 명시하며 2조원 현금/2조원 유보는 조달능력을 인정하지 않는 분석 가정이다. 자회사 가치와 자회사 현금을 중복 가산하지 않는다.",
+  "next_evidence": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+  "permanent_loss_case": "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+  ],
+  "increase_evidence": [
+    "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+        ],
+        "resolution_needed": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+        ],
+        "resolution_needed": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+        ],
+        "resolution_needed": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+        ],
+        "resolution_needed": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+        ],
+        "resolution_needed": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.45,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.10417976441834498,
+      "required_owner_margin_delta": 0.0004485258103513537,
+      "price_reference": 1055000.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 41.476965554170654,
+      "implied_year_10_owner_cash": 3.7329268998753586,
+      "residual_price": -1.1641532182693481e-09
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 14.0,
+                "owner_margin": 0.05,
+                "owner_cash_before_attribution": 0.7000000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.7000000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7000000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 14.98,
+                "owner_margin": 0.051250000000000004,
+                "owner_cash_before_attribution": 0.7677250000000001,
+                "ownership": 1,
+                "attributable_cash": 0.7677250000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7677250000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 16.0286,
+                "owner_margin": 0.052500000000000005,
+                "owner_cash_before_attribution": 0.8415015000000001,
+                "ownership": 1,
+                "attributable_cash": 0.8415015000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.8415015000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 17.150602000000003,
+                "owner_margin": 0.05375,
+                "owner_cash_before_attribution": 0.9218448575000001,
+                "ownership": 1,
+                "attributable_cash": 0.9218448575000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9218448575000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 18.351144140000002,
+                "owner_margin": 0.055,
+                "owner_cash_before_attribution": 1.0093129277000001,
+                "ownership": 1,
+                "attributable_cash": 1.0093129277000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0093129277000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 18.901678464200003,
+                "owner_margin": 0.055,
+                "owner_cash_before_attribution": 1.0395923155310003,
+                "ownership": 1,
+                "attributable_cash": 1.0395923155310003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0395923155310003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 19.468728818126003,
+                "owner_margin": 0.055,
+                "owner_cash_before_attribution": 1.0707800849969302,
+                "ownership": 1,
+                "attributable_cash": 1.0707800849969302
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0707800849969302,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 20.052790682669784,
+                "owner_margin": 0.055,
+                "owner_cash_before_attribution": 1.1029034875468382,
+                "ownership": 1,
+                "attributable_cash": 1.1029034875468382
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1029034875468382,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 20.654374403149877,
+                "owner_margin": 0.055,
+                "owner_cash_before_attribution": 1.1359905921732432,
+                "ownership": 1,
+                "attributable_cash": 1.1359905921732432
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1359905921732432,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 21.274005635244375,
+                "owner_margin": 0.055,
+                "owner_cash_before_attribution": 1.1700703099384406,
+                "ownership": 1,
+                "attributable_cash": 1.1700703099384406
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1700703099384406,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 5.743114530097488,
+        "pv_terminal": 7.217804098519964,
+        "separate_equity_value": 2.4997000000000007,
+        "unfloored_equity_value": 15.460618628617453,
+        "equity_value": 15.460618628617453,
+        "value_per_share": 299837.06134157936,
+        "value_to_price": 0.28420574534746856,
+        "upside_downside": -0.7157942546525314,
+        "terminal_fraction_of_operating_pv": 0.5568898552131324,
+        "year_10_revenue": 21.274005635244375,
+        "year_10_owner_cash": 1.1700703099384406,
+        "year_10_owner_cash_per_share": 22691.876161125227,
+        "year_10_exit_price": 363070.0185780036,
+        "irr_roots": [
+          -0.06587212188210817
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 299837.06134157936,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 17.0,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.1900000000000002,
+                "ownership": 1,
+                "attributable_cash": 1.1900000000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1900000000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 19.380000000000003,
+                "owner_margin": 0.07500000000000001,
+                "owner_cash_before_attribution": 1.4535000000000005,
+                "ownership": 1,
+                "attributable_cash": 1.4535000000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.4535000000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 22.093200000000007,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 1.7674560000000006,
+                "ownership": 1,
+                "attributable_cash": 1.7674560000000006
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7674560000000006,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 25.186248000000006,
+                "owner_margin": 0.08499999999999999,
+                "owner_cash_before_attribution": 2.1408310800000003,
+                "ownership": 1,
+                "attributable_cash": 2.1408310800000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.1408310800000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 28.712322720000014,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 2.5841090448000013,
+                "ownership": 1,
+                "attributable_cash": 2.5841090448000013
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.5841090448000013,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 30.722185310400018,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 2.7649966779360016,
+                "ownership": 1,
+                "attributable_cash": 2.7649966779360016
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.7649966779360016,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 32.87273828212802,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 2.9585464453915216,
+                "ownership": 1,
+                "attributable_cash": 2.9585464453915216
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.9585464453915216,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 35.17382996187698,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 3.165644696568928,
+                "ownership": 1,
+                "attributable_cash": 3.165644696568928
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.165644696568928,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 37.63599805920837,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 3.387239825328753,
+                "ownership": 1,
+                "attributable_cash": 3.387239825328753
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.387239825328753,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 40.27051792335296,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 3.6243466131017663,
+                "ownership": 1,
+                "attributable_cash": 3.6243466131017663
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.6243466131017663,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 14.06734868440508,
+        "pv_terminal": 30.741535335456792,
+        "separate_equity_value": 9.3632,
+        "unfloored_equity_value": 54.17208401986187,
+        "equity_value": 54.17208401986187,
+        "value_per_share": 1050591.7563479156,
+        "value_to_price": 0.9958215699980243,
+        "upside_downside": -0.004178430001975708,
+        "terminal_fraction_of_operating_pv": 0.6860589369248825,
+        "year_10_revenue": 40.27051792335296,
+        "year_10_owner_cash": 3.6243466131017663,
+        "year_10_owner_cash_per_share": 70289.13032912175,
+        "year_10_exit_price": 1546360.8672406783,
+        "irr_roots": [
+          0.0993566473237587
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 1050591.7563479156,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 20.0,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 1.7999999999999998,
+                "ownership": 1,
+                "attributable_cash": 1.7999999999999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7999999999999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 24.0,
+                "owner_margin": 0.0975,
+                "owner_cash_before_attribution": 2.34,
+                "ownership": 1,
+                "attributable_cash": 2.34
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.34,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 28.799999999999997,
+                "owner_margin": 0.105,
+                "owner_cash_before_attribution": 3.0239999999999996,
+                "ownership": 1,
+                "attributable_cash": 3.0239999999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.0239999999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 34.559999999999995,
+                "owner_margin": 0.11249999999999999,
+                "owner_cash_before_attribution": 3.887999999999999,
+                "ownership": 1,
+                "attributable_cash": 3.887999999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.887999999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 41.471999999999994,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 4.976639999999999,
+                "ownership": 1,
+                "attributable_cash": 4.976639999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.976639999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 45.6192,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 5.474304,
+                "ownership": 1,
+                "attributable_cash": 5.474304
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.474304,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 50.18112,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 6.0217344,
+                "ownership": 1,
+                "attributable_cash": 6.0217344
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.0217344,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 55.19923200000001,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 6.623907840000001,
+                "ownership": 1,
+                "attributable_cash": 6.623907840000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.623907840000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 60.71915520000001,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 7.2862986240000005,
+                "ownership": 1,
+                "attributable_cash": 7.2862986240000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.2862986240000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "parent_defense_aviation",
+                "revenue": 66.79107072000001,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 8.0149284864,
+                "ownership": 1,
+                "attributable_cash": 8.0149284864
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.0149284864,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 27.038391565404734,
+        "pv_terminal": 86.52285300929512,
+        "separate_equity_value": 11.908600000000002,
+        "unfloored_equity_value": 125.46984457469986,
+        "equity_value": 125.46984457469986,
+        "value_per_share": 2433312.0419015777,
+        "value_to_price": 2.30645691175505,
+        "upside_downside": 1.30645691175505,
+        "terminal_fraction_of_operating_pv": 0.7619047619047619,
+        "year_10_revenue": 66.79107072000001,
+        "year_10_owner_cash": 8.0149284864,
+        "year_10_owner_cash_per_share": 155438.32119219602,
+        "year_10_exit_price": 4352272.993381488,
+        "irr_roots": [
+          0.23112565812024954
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 2433312.0419015777,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/012450/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "parent_sotp",
+    "missing_data": [
+      "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 67,
+  "business_quality_75": 55,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.45,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "CONSERVATIVE_ASSUMPTION_NOT_REPORTED_CASH"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "response": "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "과거 71점 복구본; 2026-09-05 현재 총점은 보류. 최신 판단은 re-evaluation-2026-09-05.md 및 reviews/latest.json을 따른다.",
+        "response": "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "연결 이익을 전액 보통주 몫으로 계산하지 않는다. 방산·항공 본체 현금과 Ocean·Systems·KAI 지분 표식을 분리한 SOTP 범위이다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "별도 순차입·보증의 확정 합계는 미공개/미연결이다. 따라서 순차입·자본약정 2/3/6조원을 추정 스트레스로 명시하며 2조원 현금/2조원 유보는 조달능력을 인정하지 않는 분석 가정이다. 자회사 가치와 자회사 현금을 중복 가산하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 1,055,000.00; Base/가격 1.00배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 10.4%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 68.6%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "본체 FY25 방산·항공 영업이익 2.276조원과 H1 연결 OCF −0.371조원 사이의 차이는 선수금·운전자본·비지배지분 확인 필요성을 뜻한다.",
+      "별도 순차입·보증의 확정 합계는 미공개/미연결이다. 따라서 순차입·자본약정 2/3/6조원을 추정 스트레스로 명시하며 2조원 현금/2조원 유보는 조달능력을 인정하지 않는 분석 가정이다. 자회사 가치와 자회사 현금을 중복 가산하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "연결 이익을 전액 보통주 몫으로 계산하지 않는다. 방산·항공 본체 현금과 Ocean·Systems·KAI 지분 표식을 분리한 SOTP 범위이다.",
+    "falsifiers": [
+      "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+    ],
+    "confidence": 0.45,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "management_or_accounting_integrity",
+      "external_capital_dependence",
+      "persistent_dilution",
+      "incremental_roic_collapse",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

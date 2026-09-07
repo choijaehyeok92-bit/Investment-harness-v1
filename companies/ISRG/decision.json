@@ -1,28 +1,18 @@
 {
   "ticker": "ISRG",
-  "as_of": "2026-09-04",
+  "as_of": "2026-09-05",
   "label": "WATCH",
   "hard_veto_status": "PASS",
   "position_band": "NONE",
-  "rationale": "ISRG is an Emerging Outlier with exceptional company quality: it leads robotic-assisted soft-tissue surgery, generates 85% recurring revenue, is expanding procedures and installed base, produces strong operating leverage and FCF, holds substantial cash, and offsets dilution with repurchases. At $365.56, however, the stock is approximately equal to the modeled Base value and requires roughly 14% annual revenue growth for ten years at a 30% terminal FCF margin. The expectation gap and asymmetry are insufficient for entry despite the business quality.",
+  "rationale": "이용량 기반 반복매출·임상/교육 생태계·재무 생존성이 기존 정밀분석 중 가장 설득력 있다. 80점은 유지하지만 높은 기업 품질을 현재 가격의 안전마진과 동일시하지 않는다. 기존 362달러 Base는 365.56달러 기준가와 유사하다. 9.5%에서 9%로 할인율을 낮춘 비교는 가치 개선이 아니라 정책 민감도다. 환매로 희석을 상쇄하면서 환매 재원을 차감하지 않으면 현금과 주당효과를 중복 계산한다. 재평가 80/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "Da Vinci procedure growth stabilizes at 15% or higher while utilization remains positive.",
-    "International procedure growth remains at least 18% and broadens across countries and specialties.",
-    "Da Vinci 5 improves recurring revenue per installed system without consolidated gross-margin deterioration.",
-    "Ion utilization accelerates as U.S. installed-base growth matures, confirming a durable second-platform model.",
-    "FCF per diluted share compounds at least 15% with flat or declining net shares.",
-    "Competitive launches do not cause material account losses, pricing pressure or weaker procedure growth.",
-    "Price falls at least 20% below a refreshed Base value, or stronger evidence raises Base value enough to create that gap."
+    "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "Da Vinci procedure growth stays below 10% for four quarters while installed-base growth and utilization also weaken.",
-    "A serious product-safety, recall, regulatory or cybersecurity event produces sustained loss of trust.",
-    "Competitors win material account share and recurring instruments or service revenue grows slower than procedures.",
-    "Gross margin stays below 62% or FCF margin stays below 22% for two years.",
-    "Net dilution exceeds 1.5% annually despite positive FCF and authorized repurchases.",
-    "Management allocates material capital to low-return acquisitions or persistently repurchases above intrinsic value as per-share economics weaken.",
-    "Price requires the full Bull case without proportionate improvement in business evidence."
+    "절차 성장 10% 미만이 4개 분기 지속하면서 경쟁사의 계정 확보·가격 압박과 기구/서비스 수익성 악화가 동반된다.",
+    "중대한 경영진·회계 신뢰 훼손"
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.85
+  "confidence": 0.78
 }

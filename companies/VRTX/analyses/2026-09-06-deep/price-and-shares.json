@@ -1,0 +1,11 @@
+{
+  "ticker": "VRTX",
+  "price": 546.12,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 256.0,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "13.6415B 현금·증권과 8.8B Crinetics 거래는 별도. 4.5B term loan/0.5B revolver는 약정 용량과 6월 실제 차입을 구분한다. 매수대가 차감·신약 가치를 상쇄하는 증분 NPV 범위를 사용한다."
+}

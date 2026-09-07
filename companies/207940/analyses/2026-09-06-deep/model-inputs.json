@@ -1,0 +1,89 @@
+{
+  "ticker": "207940",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 1447000.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 46.290951,
+  "liquidity_cash": 0.288575631853,
+  "minimum_cash_reserve": 0.2,
+  "quality_scores": [
+    13,
+    9,
+    13,
+    11,
+    7,
+    8
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "continuing_cdmo",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 5.0,
+          "growth_2_5": 0.06,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": 0.24,
+          "owner_margin_mature": 0.24
+        },
+        "base": {
+          "revenue_year_1": 5.8,
+          "growth_2_5": 0.13,
+          "growth_6_10": 0.07,
+          "owner_margin_year_1": 0.3,
+          "owner_margin_mature": 0.32
+        },
+        "bull": {
+          "revenue_year_1": 6.5,
+          "growth_2_5": 0.18,
+          "growth_6_10": 0.1,
+          "owner_margin_year_1": 0.34,
+          "owner_margin_mature": 0.38
+        }
+      }
+    }
+  ],
+  "financial_finding": "분할 이후 계속사업 FY25 매출 4.557조원·영업이익 2.069조원, H1 매출 2.578조원·영업이익 1.167조원이다. 분할 전 Epis 매출을 더하지 않는다.",
+  "economic_risk": "H1 OCF−PPE−무형자산=1.202조원이나 HGS 인수 현금 0.534조원은 별도 자본배분이다. 최소 계약 backlog와 예상 추가 발주를 구별한다.",
+  "rights_and_capital": "46.291백만주 분할 후 분모를 사용한다. PolyPeptide 공개매수 총 현금은 조건부이며 본체 가치에 인수 매출을 공짜로 넣지 않는다. 환율·조달을 포함한 2.2~3.0조원 조건부 인수 현금 스트레스 적용.",
+  "model_family": "cdmo_capacity",
+  "falsifier": "증설 후 이용률·수율·배치 수금이 4개 분기 개선되지 않고 고객 집중·품질 이슈가 동반되면 장기 계약 해자 가설 무효.",
+  "investigate_veto_indices": [
+    1,
+    4,
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.44,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": 0.015,
+    "working_capital_cash_cost_to_revenue": 0.015,
+    "interest_net_debt_service_other_claims_to_revenue": 0.01
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "separate_equity_value": {
+    "bear": -3,
+    "base": 0,
+    "bull": 1.5
+  },
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

@@ -1,6 +1,6 @@
 {
   "ticker": "GOOGL",
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-05",
   "overall_status": "INVESTIGATE",
   "vetoes": [
     {
@@ -11,7 +11,7 @@
         "The Q2 2026 filing separates operating results from large unrealized equity-security gains."
       ],
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.7899999999999999,
       "resolution_needed": null
     },
     {
@@ -22,7 +22,7 @@
         "Despite that liquidity, it raised $49.6 billion net equity and preferred capital through June, issued $51.8 billion of debt in H1, and issued another $25.0 billion of notes in August to fund an extraordinary AI infrastructure cycle."
       ],
       "severity": "HIGH",
-      "confidence": 0.82,
+      "confidence": 0.7899999999999999,
       "resolution_needed": "Establish that external financing is temporary and that AI infrastructure can generate returns above the cost of capital without recurring equity issuance after 2027."
     },
     {
@@ -34,7 +34,7 @@
         "TTM SBC was approximately $28.1 billion."
       ],
       "severity": "HIGH",
-      "confidence": 0.88,
+      "confidence": 0.7899999999999999,
       "resolution_needed": "Track quarterly fully diluted shares, ATM issuance, preferred conversion economics, buybacks and FCF per share through the capex peak."
     },
     {
@@ -45,7 +45,7 @@
         "Cloud operating margin expanded materially while revenue accelerated."
       ],
       "severity": "LOW",
-      "confidence": 0.9,
+      "confidence": 0.7899999999999999,
       "resolution_needed": null
     },
     {
@@ -90,7 +90,7 @@
         "Cloud, subscriptions and YouTube provide meaningful and fast-growing diversification but are not yet enough to make Search impairment immaterial."
       ],
       "severity": "HIGH",
-      "confidence": 0.86,
+      "confidence": 0.7899999999999999,
       "resolution_needed": "Confirm that Cloud and subscriptions continue increasing their share of durable operating profit while Search withstands AI and regulatory changes."
     },
     {
@@ -101,7 +101,7 @@
         "Permanent loss is more plausibly caused by prolonged low returns on AI capital, Search erosion and dilution than by bankruptcy."
       ],
       "severity": "MEDIUM",
-      "confidence": 0.82,
+      "confidence": 0.7899999999999999,
       "resolution_needed": null
     }
   ]

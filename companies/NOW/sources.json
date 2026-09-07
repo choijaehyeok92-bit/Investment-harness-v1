@@ -1,0 +1,146 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-09-05",
+  "page_convention": "1-based physical PDF pages, not printed report page numbers",
+  "verification": "All six user uploads read locally. Q2 cash-flow reconciliation visually checked; statement amounts crosschecked between10-Q and8-K. FY annual andQ2 earnings crosschecked with public primary sources. SHA256 records identify supplied copies, not independent authentication of every SEC exhibit. No unsupported external source replaces uploaded financial statements.",
+  "sources": [
+    {
+      "id": "S1",
+      "filename": "0505eb02-5a4e-449e-a662-edef3bc70e7b.pdf",
+      "title": "FY2025 10-K",
+      "period_or_information_date": "2025-12-31",
+      "physical_pdf_pages": [
+        54,
+        74,
+        77
+      ],
+      "sha256": "9df2ca4d9cf5b5f1c0adc998419052c4fe8a73491cbc568f009d7bb60e356378",
+      "quality": "primary_uploaded_filing",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S2",
+      "filename": "6faae98b-cbe0-4b6a-a7a0-77de75aebba1.pdf",
+      "title": "Q2 2026 10-Q",
+      "period_or_information_date": "2026-06-30",
+      "physical_pdf_pages": [
+        4,
+        6,
+        10,
+        16,
+        17,
+        23,
+        24,
+        27,
+        28,
+        29,
+        37,
+        41,
+        46,
+        47
+      ],
+      "sha256": "9a58698ed1c495f71ecd8c8540986284405dcb7bdf2f50c11365d19deb78753f",
+      "quality": "primary_uploaded_filing",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S3",
+      "filename": "eec100e7-2187-44e3-94c4-da988ce483e7.pdf",
+      "title": "July 22 2026 8-K earnings",
+      "period_or_information_date": "2026-06-30",
+      "physical_pdf_pages": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        16,
+        20
+      ],
+      "sha256": "6651d834b28cc3fd73af8ec92d72f306c3f85813b1e27b80c9aef913891f4874",
+      "quality": "primary_uploaded_filing",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S4",
+      "filename": "bdd52c6f-4200-4ef5-8ea0-892ffe4043a7.pdf",
+      "title": "May 21 2026 Investor Outreach",
+      "period_or_information_date": "2026-05-11",
+      "physical_pdf_pages": [
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sha256": "d23786d9c0aa39cdb79f12855d80f34c52d635d143bbedee7ee6a8d812dc3f08",
+      "quality": "primary_management_presentation",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S5",
+      "filename": "69bf0d60-0de8-49a2-8ca6-69117e569e9b.pdf",
+      "title": "Canney Form4 signed September 1",
+      "period_or_information_date": "2026-08-28",
+      "physical_pdf_pages": [
+        1,
+        2
+      ],
+      "sha256": "c15c46c9bbf1b107d5fe2dafadd3ab8a1a3ce5328764f93a14053ef2080c6948",
+      "quality": "primary_uploaded_filing",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S6",
+      "filename": "da925c43-a770-4cd9-b26f-6a68b75d985d.pdf",
+      "title": "Fipps Form4 signed September 1",
+      "period_or_information_date": "2026-08-31",
+      "physical_pdf_pages": [
+        1,
+        2
+      ],
+      "sha256": "99ef5c63d18a3107aebfd9fd35834d7aa7cc685abca761b8c6a21b1552f924b6",
+      "quality": "primary_uploaded_filing",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S7",
+      "url": "https://press.siemens.com/global/en/pressrelease/siemens-and-servicenow-strengthen-shopfloor-security-and-drive-generative-ai-powered",
+      "date": "2024-10-23",
+      "accessed": "2026-09-05",
+      "quality": "primary_partner_announcement",
+      "limitation": "Confirms integration intent, not independently audited ROI or present market share."
+    },
+    {
+      "id": "S8",
+      "url": "https://learn.microsoft.com/en-us/connectors/service-now/",
+      "accessed": "2026-09-05",
+      "quality": "primary_competitor_documentation",
+      "limitation": "Connector CRUD capabilities show interoperability, not demonstrated replacement or price erosion."
+    },
+    {
+      "id": "S9",
+      "url": "https://finance.yahoo.com/quote/NOW/history/",
+      "secondary_confirmation": "https://www.marketwatch.com/investing/stock/now",
+      "date": "2026-09-04",
+      "accessed": "2026-09-05",
+      "quality": "secondary_market_price",
+      "close_usd": 141.26
+    },
+    {
+      "id": "S10",
+      "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "date": "2026-07-22",
+      "quality": "primary_IR_crosscheck",
+      "accessed": "2026-09-05"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
+      "quality": "primary_SEC_annual_crosscheck",
+      "accessed": "2026-09-05"
+    }
+  ]
+}

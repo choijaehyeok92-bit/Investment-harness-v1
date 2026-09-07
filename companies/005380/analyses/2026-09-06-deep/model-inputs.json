@@ -1,0 +1,138 @@
+{
+  "ticker": "005380",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 383500.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 265.390108,
+  "liquidity_cash": 20.25615,
+  "minimum_cash_reserve": 15.0,
+  "quality_scores": [
+    10,
+    8,
+    10,
+    8,
+    7,
+    8
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 12,
+    "base": 18,
+    "bull": 24
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "Vehicle",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 142.45000000000002,
+          "growth_2_5": 0.0,
+          "growth_6_10": 0.01,
+          "owner_margin_year_1": 0.02,
+          "owner_margin_mature": 0.015469613259668507
+        },
+        "base": {
+          "revenue_year_1": 157.85,
+          "growth_2_5": 0.05,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": 0.03,
+          "owner_margin_mature": 0.02707182320441989
+        },
+        "bull": {
+          "revenue_year_1": 177.1,
+          "growth_2_5": 0.08,
+          "growth_6_10": 0.04,
+          "owner_margin_year_1": 0.04,
+          "owner_margin_mature": 0.03867403314917127
+        }
+      }
+    },
+    {
+      "name": "Finance_after_credit_capital",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 31.450000000000003,
+          "growth_2_5": 0.02,
+          "growth_6_10": 0.02,
+          "owner_margin_year_1": 0.02,
+          "owner_margin_mature": 0.03977900552486188
+        },
+        "base": {
+          "revenue_year_1": 34.85,
+          "growth_2_5": 0.07,
+          "growth_6_10": 0.04,
+          "owner_margin_year_1": 0.03,
+          "owner_margin_mature": 0.0696132596685083
+        },
+        "bull": {
+          "revenue_year_1": 39.1,
+          "growth_2_5": 0.1,
+          "growth_6_10": 0.05,
+          "owner_margin_year_1": 0.04,
+          "owner_margin_mature": 0.0994475138121547
+        }
+      }
+    },
+    {
+      "name": "Other",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 11.1,
+          "growth_2_5": -0.01,
+          "growth_6_10": 0.01,
+          "owner_margin_year_1": 0.02,
+          "owner_margin_mature": 0.022099447513812157
+        },
+        "base": {
+          "revenue_year_1": 12.299999999999999,
+          "growth_2_5": 0.04,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": 0.03,
+          "owner_margin_mature": 0.038674033149171276
+        },
+        "bull": {
+          "revenue_year_1": 13.799999999999999,
+          "growth_2_5": 0.07,
+          "growth_6_10": 0.04,
+          "owner_margin_year_1": 0.04,
+          "owner_margin_mature": 0.05524861878453039
+        }
+      }
+    }
+  ],
+  "financial_finding": "H1 연결 OCF 4.850조원에서 PPE 4.004조원을 빼면 0.846조원이나 금융채권 변동이 포함되어 자동차 owner FCF로 해석할 수 없다.",
+  "economic_risk": "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다.",
+  "rights_and_capital": "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다.",
+  "model_family": "auto_finance_cash_partition",
+  "falsifier": "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다.",
+  "investigate_veto_indices": [
+    3,
+    4,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.065,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": -0.005,
+    "working_capital_cash_cost_to_revenue": 0.003,
+    "interest_net_debt_service_other_claims_to_revenue": 0.00575
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "segment_assumption_note": "부문별 매출 배분·성장률·현금마진은 분석 추정이며, 연결 owner 현금의 초기 합계와 성숙 고정믹스 합계를 보존한다. 이후 믹스 변화로 연결 현금마진이 변한다. 공시하지 않은 부문 FCF를 실제치로 만들지 않았다. 공시 부문 근거는 원자료/이전 thesis, 숫자 가정은 components에 공개.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

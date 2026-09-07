@@ -1,0 +1,11 @@
+{
+  "ticker": "005930",
+  "price": 255500.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 6648.649811,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "보통주와 우선주 총 6,648.650백만주에 동일 경제적 현금권리 근사를 적용한다. 보통주 기준 암묵가치와 실제 두 종류 시가총액은 구분. 15조원 직원 보상용 환매는 무상 주당 증가가 아니다."
+}

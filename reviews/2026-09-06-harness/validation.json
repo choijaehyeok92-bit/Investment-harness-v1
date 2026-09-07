@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-09-06",
+  "status": "PASS",
+  "scope": {"issuers":93,"raw_only_at_baseline":24,"raw_files_unchanged":25,"policy_files_unchanged":8},
+  "research_state_counts": {"FULL_ANALYSIS":1,"PARTIAL_ANALYSIS":34,"PRELIMINARY_REVIEW":58},
+  "current_decisions": {"WATCH":92,"REJECT":1},
+  "observations_with_valid_raw_pointers":2298,
+  "reproduced_derived_metrics":12,
+  "reproduced_generated_artifacts":470,
+  "unit_tests_passed":18,
+  "checks":["harness v2 schema and semantic validation","baseline raw/policy SHA256 invariants","93-issuer registry including final main additions","observation JSON pointer and raw value identity","derived calculation reproduction","deterministic generated artifact reproduction","legacy output schemas","historical Astra 90/40/50 snapshot consistency","20 legacy annual-cash-flow IRR and sensitivity diagnostics","NOW reverse-price and annual IRR residuals below 1e-8 USD"],
+  "reproduction_command":"bash scripts/check_harness.sh (Python environment with jsonschema)",
+  "limits":["Tests establish consistency and calculation reproducibility, not truth of all source assertions or future assumptions.","No assertion that 93 complete investment underwritings or independent multi-reviewer audits were performed."]
+}

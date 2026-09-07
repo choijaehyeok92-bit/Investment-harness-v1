@@ -1,0 +1,11 @@
+{
+  "ticker": "AMZN",
+  "price": 258.51,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 10786.313572,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "보통주 10,786.314백만주, H1 신규 차입 66.998B. 유지 Capex를 임의 축소하여 음수 현금을 삭제하지 않는다. 첫 4년 cash margin 전환과 AWS 투자 회수 지연을 민감도로 제시한다."
+}

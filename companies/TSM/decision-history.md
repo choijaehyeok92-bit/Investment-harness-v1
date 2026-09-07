@@ -115,3 +115,9 @@ Q3 2026 results (October 2026). Per `policy/monitoring.yaml` the quarterly revie
 checks thesis-critical KPIs only and does **not** evaluate price. Critical KPIs, in
 order: gross margin (against the ~55% floor), advanced-node mix, FY2026 capex actual
 versus the US$52–56B guidance, and any FY2027 capex signal.
+
+## 2026-09-05 — Astra 재심사
+
+- 과거: 79; 현재: 76/100, WATCH, INVESTIGATE, 포지션 밴드 NONE.
+- 기업 품질은 유지하지만 기존 기대수익률 5년 연 6.6%는 미국 9% 요구수익률보다 낮다. 연구로 없앨 수 없는 대만 위험이라는 이유만으로 낮은 보상에도 STARTER를 정당화할 수 없다. 76점 WATCH로 조정한다.
+- [현재 재평가](re-evaluation-2026-09-05.md). 이전 판정은 역사이며 주문·거래는 실행하지 않았다.

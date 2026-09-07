@@ -1,53 +1,18 @@
 {
   "ticker": "NVDA",
-
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-05",
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
-  "rationale": "NVIDIA는 구조적 AI 전환을 주도하는 명확한 플랫폼 리더로 76점의 Emerging Outlier다. 그러나 현재가 227.23달러는 Base 가치 221달러와 유사하고, 10년간 약 14%~17% 매출 CAGR과 높은 FCF 마진을 요구한다. 동시에 데이터센터·상위 고객 집중, 4,220억 달러 미래약정, 최대 1,085억 달러 보증, DSO 상승과 고객 생태계 금융지원으로 성장의 현금 품질과 증분 ROIC를 조사해야 한다. 저장소에 기존 NVDA 보유정보가 없으므로 신규 포지션 없이 WATCH로 둔다.",
+  "rationale": "서로 다른 76점 WATCH와 75점 STARTER를 하나의 판정으로 복구한다. 새 점수 73, WATCH. 플랫폼 우위는 유지되지만 고객 금융지원·공급약정과 큰 기준 지분가치가 비대칭을 제한한다. 첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다. 재평가 73/100. 점수는 매수 승인이 아니며 가치평가/조사 한계는 최신 재심사 파일에 명시했다.",
   "increase_evidence": [
-    "향후 최소 2개 분기에서 DSO와 AR/매출이 안정되면서 OCF 및 FCF/주가 다시 증가",
-    "AI 클라우드의 제3자 사용으로 360억 달러 서비스 약정이 감소하고 관련 제품대금이 정상 회수됨이 확인",
-    "Rubin 양산 전환 중 총마진 72% 이상, 재고충당금과 공급약정 손실이 통제",
-    "상위 고객·간접 AI 연구회사 의존도가 낮아지고 엔터프라이즈·소버린·물리 AI 수요가 분산",
-    "동일한 사업 가정에서 가격이 Base 가치 대비 최소 20% 할인되거나 실적 상향으로 내재 장기 성장 요구가 12% 이하로 낮아짐"
+    "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "데이터센터 매출·총마진·시장점유율이 경쟁 제품 또는 자체 ASIC으로 4개 분기 이상 구조적으로 하락",
-    "AI 클라우드 고객의 연체·채무불이행으로 NVIDIA 약정·리스·보증이 손실로 현실화",
-    "공급 약정이 매출로 전환되지 않고 재고·구매의무 충당금이 반복적으로 매출의 3%를 초과",
-    "주당 FCF가 2년 이상 감소하고 자사주 매입 후에도 발행주식수가 순증가",
-    "회계·경영진 신뢰성 훼손, 해자 수축 또는 가격이 비현실적 Bull Case 이상을 요구해 Hard Veto가 FAIL로 전환"
+    "고객의 자금조달 약화와 가동률 저하, 주문 취소가 동시에 발생하고 공급/보증 약정이 순현금과 정상화 FCF를 훼손한다.",
+    "중대한 경영진·회계 신뢰 훼손"
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.78
+  "confidence": 0.68
 }
-=======
-  "as_of": "2026-09-04",
-  "label": "STARTER",
-  "hard_veto_status": "INVESTIGATE",
-  "position_band": "STARTER",
-  "macro_pacing": "slow",
-  "confidence": 0.62,
-  "rationale": "Scorecard 75/100 (Emerging Outlier), the highest in this harness to date. Business quality is exceptional and tier-1 verified: revenue $60.9B to $130.5B to $215.9B across FY2024-26 and $177.8B in H1 FY2027 (+95.8%), on capex of only 2.8% of revenue, with return on equity near 100%, gross margin recovered to 75.0%, networking revenue up 3.7x in two years, and — unusually — SHARE COUNT DOWN 2.3% during the fastest growth phase in company history. The decisive difference from the Samsung case is that the expectation gap here is POSITIVE. At $226.27 the market capitalisation of roughly $5,453B is 23.3x annualised reported EPS, or 28.0x once the $23.7B of H1 investment gains are stripped and the remainder taxed at the actual 16.5% rate. At a 25x mature multiple the price requires roughly the current core earnings base to persist with no growth. It does not require a bull case, which is why price_requires_unrealistic_bull_case reads PASS. Three Hard Veto items nonetheless sit at HIGH severity and none is resolved. (1) low_quality_growth: NVIDIA is simultaneously supplier to, investor in and customer of parts of its own demand base — roughly $90.7B of equity stakes held, $25B more committed, $29B of committed cloud-service purchases, and 17-20% of reported net income coming from marking those stakes up. Bounded at under 10% of revenue on a worst-case assumption, and a 75% gross margin is not the signature of bought revenue, but unquantified. (2) incremental_roic_collapse: $279B of supply and capacity commitments, up 193% in six months, against a recorded excess-inventory accrual of $2,138M. (3) fatal_concentration: Data Center 89.7% of revenue, top two customers 36% of segment revenue, top five 70% of receivables, US 69.3% of revenue — and those customers are funding purchases from balance sheet rather than operating cash flow. A STARTER position at 1-2% is the correct expression: policy/position-sizing.yaml defines STARTER as 'attractive thesis, but evidence is still limited', which describes this precisely. No veto reads FAIL; the risks are bounded and quantified rather than open-ended; permanent-loss probability is 2-3%. But probability-weighted five-year return is only +21% total (3.9% annualised) on subjective weights, the bear is a modelled -56% to -68%, and the asymmetry category is structurally capped at $5.45T — so this is a quality-and-duration position, not the power-law candidate this strategy exists to find. Macro pacing is SLOW: per the 2026-09-04 screening run the AI-capex complex is treated as one correlated exposure, and NVDA is its centre of gravity.",
-  "increase_evidence": [
-    "PRIMARY: quantification of revenue from entities in which NVIDIA holds equity or has investment commitments, as a percentage of total revenue. Below roughly 5% and stable, the low_quality_growth gate closes and the position can move toward NORMAL.",
-    "Disclosure of cancellability and repricing terms on the $279B supply commitments showing meaningful flexibility - this converts the bear from a balance-sheet event to a margin event.",
-    "Top-customer concentration stabilising or falling from 22%, which would show the FY2026 jump was a Blackwell-allocation artefact rather than rising buyer power.",
-    "Gross margin holding at or above 75% through the Rubin ramp, evidencing that pricing power survives the custom-ASIC challenge.",
-    "Networking and software revenue continuing to grow faster than compute, widening the moat's surface area.",
-    "Investment gains falling as a share of net income, so reported earnings converge on core earnings.",
-    "Price weakness that widens the gap WITHOUT deterioration in the above. Per policy/position-sizing.yaml price decline alone is never sufficient."
-  ],
-  "reduce_or_exit_evidence": [
-    "Any evidence that revenue to equity-affiliated entities exceeds roughly 10% of total, or is growing faster than third-party revenue.",
-    "Supply commitments continuing to rise while sequential revenue growth decelerates - the combination that converts the commitment into a write-down.",
-    "A material increase in the excess-inventory purchase obligation accrual from $2,138M, which would be management's own signal that commitments will not be consumed.",
-    "Gross margin falling below roughly 70% outside a product transition, indicating custom silicon is setting the price.",
-    "Top-customer concentration rising for a third consecutive year, especially alongside any margin erosion.",
-    "A hyperscaler capex guidance cut, given that Data Center is 89.7% of revenue and those customers' free cash flow is already deteriorating.",
-    "Investment portfolio marking down materially, which would hit reported earnings and signal the demand it financed is weakening - the two risks are correlated, not independent."
-  ]
-}
-

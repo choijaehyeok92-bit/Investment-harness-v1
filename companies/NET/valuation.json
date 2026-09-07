@@ -3,40 +3,219 @@
   "as_of": "2026-09-04",
   "current_price": 281.44,
   "implied_expectations": {
-    "price_timestamp_utc": "2026-09-04T14:09:47Z",
-    "market_cap_usd_billion": 99.724,
-    "ttm_revenue_usd_billion": 2.51235,
-    "ttm_company_defined_fcf_usd_billion": 0.314873,
-    "ttm_stock_based_compensation_usd_billion": 0.507655,
-    "price_to_ttm_revenue": 39.69,
-    "price_to_ttm_company_defined_fcf": 316.71,
-    "valuation_method": "Ten-year DCF reverse expectations; current-cohort cash flows are adjusted for annual dilution.",
-    "base_reverse_assumptions": {
-      "discount_rate": 0.095,
-      "terminal_growth": 0.03,
-      "annual_dilution": 0.015,
-      "starting_fcf_margin": 0.1253,
-      "estimated_pro_forma_net_cash_usd_billion": 0.572
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "price_timestamp_utc": "2026-09-04T14:09:47Z",
+      "market_cap_usd_billion": 99.724,
+      "ttm_revenue_usd_billion": 2.51235,
+      "ttm_company_defined_fcf_usd_billion": 0.314873,
+      "ttm_stock_based_compensation_usd_billion": 0.507655,
+      "price_to_ttm_revenue": 39.69,
+      "price_to_ttm_company_defined_fcf": 316.71,
+      "valuation_method": "Ten-year DCF reverse expectations; current-cohort cash flows are adjusted for annual dilution.",
+      "base_reverse_assumptions": {
+        "discount_rate": 0.095,
+        "terminal_growth": 0.03,
+        "annual_dilution": 0.015,
+        "starting_fcf_margin": 0.1253,
+        "estimated_pro_forma_net_cash_usd_billion": 0.572
+      },
+      "required_constant_revenue_cagr_by_year_10_fcf_margin": {
+        "20_percent_margin": 0.3989,
+        "25_percent_margin": 0.3676,
+        "30_percent_margin": 0.3424,
+        "35_percent_margin": 0.3214,
+        "40_percent_margin": 0.3034
+      },
+      "required_year_10_revenue_usd_billion": {
+        "20_percent_margin": 72.1,
+        "25_percent_margin": 57.5,
+        "30_percent_margin": 47.7,
+        "35_percent_margin": 40.8,
+        "40_percent_margin": 35.6
+      },
+      "interpretation": "Even at a 30%-40% year-10 FCF margin, the price requires roughly 30%-34% revenue CAGR for a full decade. This is unrealistic Bull-case-or-better execution relative to FY2026 guidance growth of about 32%."
     },
-    "required_constant_revenue_cagr_by_year_10_fcf_margin": {
-      "20_percent_margin": 0.3989,
-      "25_percent_margin": 0.3676,
-      "30_percent_margin": 0.3424,
-      "35_percent_margin": 0.3214,
-      "40_percent_margin": 0.3034
-    },
-    "required_year_10_revenue_usd_billion": {
-      "20_percent_margin": 72.1,
-      "25_percent_margin": 57.5,
-      "30_percent_margin": 47.7,
-      "35_percent_margin": 40.8,
-      "40_percent_margin": 35.6
-    },
-    "interpretation": "Even at a 30%-40% year-10 FCF margin, the price requires roughly 30%-34% revenue CAGR for a full decade. This is unrealistic Bull-case-or-better execution relative to FY2026 guidance growth of about 32%."
+    "current_findings": [
+      "현재 분석가의 Bull 가치가 가격보다 낮다는 사실만으로 모든 현실적 Bull을 배제한 것은 아니다. 가격 Hard Veto는 FAIL→INVESTIGATE로 수정한다. 다만 높은 기대·희석과 58점의 낮은 투자매력 때문에 최종 REJECT는 유지한다.",
+      "기준가 281.44달러, TTM 매출 약 25.12억 달러와 SBC 약 5.08억 달러. 보고 FCF 약 3.15억 달러보다 SBC가 크다. 높은 매출 성장만으로 주당 경제가치 성장이 확인되지는 않는다."
+    ],
+    "current_model_limit": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+    "uniform_hurdle_diagnostic": {
+      "ticker": "NET",
+      "reference_price": 281.44,
+      "hurdle_rate": 0.09,
+      "terminal_company_fcf_growth": 0.03,
+      "as_of": "2026-09-05",
+      "model_status": "DIAGNOSTIC_NOT_OWNER_FCFE_COMPLETE",
+      "source_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "source_path": "companies/NET/valuation.json",
+      "starting_revenue_usd_b": 2.51235,
+      "starting_reported_fcf_margin": 0.1253,
+      "starting_shares_b": 0.354338,
+      "net_financial_assets_usd_b": 0.572,
+      "method_changes": [
+        "All three cases use US 9% discount rate and 3% terminal company-FCF growth.",
+        "Unlisted investments excluded; inherited liquid financial assets are a proxy, not all proven excess cash.",
+        "No free negative dilution. Positive dilution continues in the terminal period.",
+        "Reported-FCF compensation/repurchase/interest-income bridge is incomplete; outputs are diagnostic, not actionable fair values."
+      ],
+      "scenarios": {
+        "bear": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.25,
+            0.2,
+            0.16,
+            0.13,
+            0.11,
+            0.09,
+            0.08,
+            0.07,
+            0.06,
+            0.05
+          ],
+          "fcf_margin_path": [
+            0.13277,
+            0.14024,
+            0.14771,
+            0.15518,
+            0.16265000000000002,
+            0.17012,
+            0.17759000000000003,
+            0.18506,
+            0.19253,
+            0.2
+          ],
+          "annual_positive_dilution": 0.025,
+          "terminal_per_share_growth": 0.004878048780487809,
+          "annual_fcf_per_share_usd": [
+            1.1480175174482021,
+            1.4196387442529297,
+            1.692193265480614,
+            1.9598841009105075,
+            2.2245789494153727,
+            2.4742966222743856,
+            2.7215403997275094,
+            2.960525106581331,
+            3.1851992244904612,
+            3.3894842470821627
+          ],
+          "terminal_value_per_share_usd": 40.0133956962135,
+          "diagnostic_present_value_per_share_usd": 32.25363067089659,
+          "value_to_reference_price": 0.11460215559585202,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        },
+        "base": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.33,
+            0.29,
+            0.25,
+            0.22,
+            0.19,
+            0.16,
+            0.14,
+            0.12,
+            0.1,
+            0.08
+          ],
+          "fcf_margin_path": [
+            0.14277,
+            0.16024,
+            0.17770999999999998,
+            0.19518,
+            0.21265,
+            0.23012,
+            0.24758999999999998,
+            0.26505999999999996,
+            0.28253,
+            0.3
+          ],
+          "annual_positive_dilution": 0.015,
+          "terminal_per_share_growth": 0.014778325123152802,
+          "annual_fcf_per_share_usd": [
+            1.3264319379645504,
+            1.8920935931185403,
+            2.584208296799688,
+            3.4114950989816153,
+            4.357684103294038,
+            5.389353482785391,
+            6.512597123604955,
+            7.6933818276666175,
+            8.88718674551506,
+            10.041040170447499
+          ],
+          "terminal_value_per_share_usd": 135.45869516124347,
+          "diagnostic_present_value_per_share_usd": 87.85791923625219,
+          "value_to_reference_price": 0.31217282275530195,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        },
+        "bull": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.38,
+            0.35,
+            0.32,
+            0.29,
+            0.26,
+            0.23,
+            0.2,
+            0.18,
+            0.16,
+            0.14
+          ],
+          "fcf_margin_path": [
+            0.15077,
+            0.17624,
+            0.20171,
+            0.22718,
+            0.25265000000000004,
+            0.27812000000000003,
+            0.30359,
+            0.32906,
+            0.35453,
+            0.38
+          ],
+          "annual_positive_dilution": 0.01,
+          "terminal_per_share_growth": 0.01980198019801982,
+          "annual_fcf_per_share_usd": [
+            1.4606126563779318,
+            2.282112257120137,
+            3.4135990282517965,
+            4.910475047930952,
+            6.81274113466659,
+            9.13310694432822,
+            11.844961590318322,
+            14.99967749584746,
+            18.560789024058472,
+            22.454868585524135
+          ],
+          "terminal_value_per_share_usd": 326.2131825541589,
+          "diagnostic_present_value_per_share_usd": 190.69780204376204,
+          "value_to_reference_price": 0.6775788873072841,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
+        }
+      }
+    }
   },
   "scenarios": {
     "bear": {
-      "revenue_growth_years_1_to_10": [0.25, 0.2, 0.16, 0.13, 0.11, 0.09, 0.08, 0.07, 0.06, 0.05],
+      "revenue_growth_years_1_to_10": [
+        0.25,
+        0.2,
+        0.16,
+        0.13,
+        0.11,
+        0.09,
+        0.08,
+        0.07,
+        0.06,
+        0.05
+      ],
       "year_10_fcf_margin": 0.2,
       "discount_rate": 0.105,
       "terminal_growth": 0.025,
@@ -45,10 +224,22 @@
       "year_10_fcf_usd_billion": 1.54,
       "value_per_share": 30.33,
       "return_vs_current": -0.892,
-      "narrative": "Integrated-cloud competition and lower AI monetization push growth toward single digits; network and third-party costs limit margin expansion."
+      "narrative": "Integrated-cloud competition and lower AI monetization push growth toward single digits; network and third-party costs limit margin expansion.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
-      "revenue_growth_years_1_to_10": [0.33, 0.29, 0.25, 0.22, 0.19, 0.16, 0.14, 0.12, 0.1, 0.08],
+      "revenue_growth_years_1_to_10": [
+        0.33,
+        0.29,
+        0.25,
+        0.22,
+        0.19,
+        0.16,
+        0.14,
+        0.12,
+        0.1,
+        0.08
+      ],
       "year_10_fcf_margin": 0.3,
       "discount_rate": 0.09,
       "terminal_growth": 0.035,
@@ -57,10 +248,22 @@
       "year_10_fcf_usd_billion": 4.13,
       "value_per_share": 110.46,
       "return_vs_current": -0.608,
-      "narrative": "Cloudflare sustains strong near-term growth and executes security, SASE and developer cross-sell, but growth normalizes and SBC dilution persists."
+      "narrative": "Cloudflare sustains strong near-term growth and executes security, SASE and developer cross-sell, but growth normalizes and SBC dilution persists.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
-      "revenue_growth_years_1_to_10": [0.38, 0.35, 0.32, 0.29, 0.26, 0.23, 0.2, 0.18, 0.16, 0.14],
+      "revenue_growth_years_1_to_10": [
+        0.38,
+        0.35,
+        0.32,
+        0.29,
+        0.26,
+        0.23,
+        0.2,
+        0.18,
+        0.16,
+        0.14
+      ],
       "year_10_fcf_margin": 0.38,
       "discount_rate": 0.085,
       "terminal_growth": 0.035,
@@ -69,11 +272,15 @@
       "year_10_fcf_usd_billion": 8.79,
       "value_per_share": 260.17,
       "return_vs_current": -0.076,
-      "narrative": "Cloudflare becomes a leading independent control plane for the Agentic Internet, security, SASE and edge compute while producing exceptional margin and dilution discipline."
+      "narrative": "Cloudflare becomes a leading independent control plane for the Agentic Internet, security, SASE and edge compute while producing exceptional margin and dilution discipline.",
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
-    "value_per_share_range": [14, 35],
+    "value_per_share_range": [
+      14,
+      35
+    ],
     "core_case_value_per_share": 14.47,
     "drivers": [
       "AI traffic raises inference, third-party technology and bandwidth costs faster than monetization.",
@@ -92,5 +299,5 @@
     "probability_weighted_value_per_share": 116.37,
     "return_vs_current": -0.587
   },
-  "notes": "Facts: price snapshot, market capitalization and filed historical figures. Estimates: TTM calculations, pro-forma net cash, all DCF values and probabilities. Inference: current price requires unrealistic Bull-case-or-better execution. The DCF is highly sensitive to discount rate, terminal margin, growth duration and dilution; it is an expectations test, not a precise target price. Macro is excluded from valuation and the 100-point company score."
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): Facts: price snapshot, market capitalization and filed historical figures. Estimates: TTM calculations, pro-forma net cash, all DCF values and probabilities. Inference: current price requires unrealistic Bull-case-or-better execution. The DCF is highly sensitive to discount rate, terminal margin, growth duration and dilution; it is an expectations test, not a precise target price. Macro is excluded from valuation and the 100-point company score."
 }

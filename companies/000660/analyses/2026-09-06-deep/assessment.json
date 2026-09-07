@@ -1,0 +1,1084 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "000660",
+  "company_name": "SK Hynix",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/000660/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/000660/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 11,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/000660/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "HBM과 고대역 메모리 공급 제약의 수혜",
+  "customer_and_moat": "고객 인증·수율은 진입장벽이나 매 세대 재경쟁하며 높은 ASP 자체가 영구 해자는 아님",
+  "current_finding": "메모리 최고 마진을 정상화한다. FY25/H1 비교로 계산한 TTM OCF−유형자산 취득은 91.794조원이다. 과거 27.823조원을 현재 FCF로 재사용하지 않는다.",
+  "economic_finding": "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다.",
+  "capital_and_survival": "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다.",
+  "next_evidence": "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+  "permanent_loss_case": "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+  ],
+  "increase_evidence": [
+    "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "HBM과 고대역 메모리 공급 제약의 수혜"
+      ],
+      "counter_evidence": [
+        "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "고객 인증·수율은 진입장벽이나 매 세대 재경쟁하며 높은 ASP 자체가 영구 해자는 아님"
+      ],
+      "counter_evidence": [
+        "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "고객 인증·수율은 진입장벽이나 매 세대 재경쟁하며 높은 ASP 자체가 영구 해자는 아님"
+      ],
+      "counter_evidence": [
+        "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "메모리 최고 마진을 정상화한다. FY25/H1 비교로 계산한 TTM OCF−유형자산 취득은 91.794조원이다. 과거 27.823조원을 현재 FCF로 재사용하지 않는다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다."
+      ],
+      "counter_evidence": [
+        "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 4,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 1,647,000.00; Base/가격 0.61배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 13.7%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.16배, Bull/가격 1.77배. 2상태 손익분기 Bull 확률 52.3%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/000660/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/000660/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+        ],
+        "resolution_needed": "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+        ],
+        "resolution_needed": "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.13740390594973262,
+      "required_owner_margin_delta": 0.13106100092030837,
+      "price_reference": 1647000.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 637.1804372464512,
+      "implied_year_10_owner_cash": 114.69247870436122,
+      "residual_price": -1.6298145055770874e-09
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 12,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 200.0,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 50.0,
+                "ownership": 1,
+                "attributable_cash": 50.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 50.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 127.4,
+                "owner_margin": 0.2125,
+                "owner_cash_before_attribution": 27.0725,
+                "ownership": 1,
+                "attributable_cash": 27.0725
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 27.0725,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 124.85199999999999,
+                "owner_margin": 0.175,
+                "owner_cash_before_attribution": 21.849099999999996,
+                "ownership": 1,
+                "attributable_cash": 21.849099999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 21.849099999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 122.35495999999999,
+                "owner_margin": 0.1375,
+                "owner_cash_before_attribution": 16.823807,
+                "ownership": 1,
+                "attributable_cash": 16.823807
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 16.823807,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 119.9078608,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 11.99078608,
+                "ownership": 1,
+                "attributable_cash": 11.99078608
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 11.99078608,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 122.30601801599998,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 12.230601801599999,
+                "ownership": 1,
+                "attributable_cash": 12.230601801599999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.230601801599999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 124.75213837631999,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 12.475213837632,
+                "ownership": 1,
+                "attributable_cash": 12.475213837632
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.475213837632,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 127.2471811438464,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 12.724718114384642,
+                "ownership": 1,
+                "attributable_cash": 12.724718114384642
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.724718114384642,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 129.7921247667233,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 12.97921247667233,
+                "ownership": 1,
+                "attributable_cash": 12.97921247667233
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.97921247667233,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 132.3879672620578,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 13.23879672620578,
+                "ownership": 1,
+                "attributable_cash": 13.23879672620578
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 13.23879672620578,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 133.03065629423406,
+        "pv_terminal": 61.24955085492346,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 194.28020714915752,
+        "equity_value": 194.28020714915752,
+        "value_per_share": 260199.02920895393,
+        "value_to_price": 0.15798362429201818,
+        "upside_downside": -0.8420163757079818,
+        "terminal_fraction_of_operating_pv": 0.3152639774977153,
+        "year_10_revenue": 132.3879672620578,
+        "year_10_owner_cash": 13.23879672620578,
+        "year_10_owner_cash_per_share": 17730.68963946881,
+        "year_10_exit_price": 212768.27567362573,
+        "irr_roots": [
+          -0.14922275816646297
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 62.957922999999994,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 260199.02920895396,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 17,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 250.0,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 87.5,
+                "ownership": 1,
+                "attributable_cash": 87.5
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 87.5,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 214.0,
+                "owner_margin": 0.3075,
+                "owner_cash_before_attribution": 65.80499999999999,
+                "ownership": 1,
+                "attributable_cash": 65.80499999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 65.80499999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 228.98000000000002,
+                "owner_margin": 0.265,
+                "owner_cash_before_attribution": 60.67970000000001,
+                "ownership": 1,
+                "attributable_cash": 60.67970000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 60.67970000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 245.00860000000003,
+                "owner_margin": 0.22249999999999998,
+                "owner_cash_before_attribution": 54.5144135,
+                "ownership": 1,
+                "attributable_cash": 54.5144135
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 54.5144135,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 262.15920200000005,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 47.18865636000001,
+                "ownership": 1,
+                "attributable_cash": 47.18865636000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 47.18865636000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 272.6455700800001,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 49.07620261440001,
+                "ownership": 1,
+                "attributable_cash": 49.07620261440001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 49.07620261440001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 283.5513928832001,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 51.039250718976014,
+                "ownership": 1,
+                "attributable_cash": 51.039250718976014
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 51.039250718976014,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 294.8934485985281,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 53.08082074773505,
+                "ownership": 1,
+                "attributable_cash": 53.08082074773505
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 53.08082074773505,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 306.68918654246926,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 55.204053577644466,
+                "ownership": 1,
+                "attributable_cash": 55.204053577644466
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 55.204053577644466,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 318.95675400416803,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 57.41221572075025,
+                "ownership": 1,
+                "attributable_cash": 57.41221572075025
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 57.41221572075025,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 370.2566692549845,
+        "pv_terminal": 376.2932065410704,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 746.549875796055,
+        "equity_value": 746.549875796055,
+        "value_per_share": 999852.5109099925,
+        "value_to_price": 0.6070749914450471,
+        "upside_downside": -0.39292500855495294,
+        "terminal_fraction_of_operating_pv": 0.5040429564599747,
+        "year_10_revenue": 318.95675400416803,
+        "year_10_owner_cash": 57.41221572075025,
+        "year_10_owner_cash_per_share": 76892.04687642334,
+        "year_10_exit_price": 1307164.7968991967,
+        "irr_roots": [
+          0.02975376734285773
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 62.957922999999994,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 999852.5109099924,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 300.0,
+                "owner_margin": 0.42,
+                "owner_cash_before_attribution": 126.0,
+                "ownership": 1,
+                "attributable_cash": 126.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 126.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 322.04999999999995,
+                "owner_margin": 0.3775,
+                "owner_cash_before_attribution": 121.57387499999999,
+                "ownership": 1,
+                "attributable_cash": 121.57387499999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 121.57387499999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 363.9164999999999,
+                "owner_margin": 0.33499999999999996,
+                "owner_cash_before_attribution": 121.91202749999997,
+                "ownership": 1,
+                "attributable_cash": 121.91202749999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 121.91202749999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 411.2256449999999,
+                "owner_margin": 0.2925,
+                "owner_cash_before_attribution": 120.28350116249996,
+                "ownership": 1,
+                "attributable_cash": 120.28350116249996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 120.28350116249996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 464.6849788499998,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 116.17124471249996,
+                "ownership": 1,
+                "attributable_cash": 116.17124471249996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 116.17124471249996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 497.2129273694998,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 124.30323184237496,
+                "ownership": 1,
+                "attributable_cash": 124.30323184237496
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 124.30323184237496,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 532.0178322853648,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 133.0044580713412,
+                "ownership": 1,
+                "attributable_cash": 133.0044580713412
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 133.0044580713412,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 569.2590805453403,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 142.31477013633508,
+                "ownership": 1,
+                "attributable_cash": 142.31477013633508
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 142.31477013633508,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 609.1072161835143,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 152.27680404587858,
+                "ownership": 1,
+                "attributable_cash": 152.27680404587858
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 152.27680404587858,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "memory",
+                "revenue": 651.7447213163604,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 162.9361803290901,
+                "ownership": 1,
+                "attributable_cash": 162.9361803290901
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 162.9361803290901,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 793.1108174528296,
+        "pv_terminal": 1382.0169204855356,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 2175.127737938365,
+        "equity_value": 2175.127737938365,
+        "value_per_share": 2913143.516377421,
+        "value_to_price": 1.768757447709424,
+        "upside_downside": 0.7687574477094239,
+        "terminal_fraction_of_operating_pv": 0.6353727628867637,
+        "year_10_revenue": 651.7447213163604,
+        "year_10_owner_cash": 162.9361803290901,
+        "year_10_owner_cash_per_share": 218220.0470483086,
+        "year_10_exit_price": 4800841.035062789,
+        "irr_roots": [
+          0.18350749727535975
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 62.957922999999994,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 2913143.516377421,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/000660/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "memory_cycle",
+    "missing_data": [
+      "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 68,
+  "business_quality_75": 61,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "HBM과 고대역 메모리 공급 제약의 수혜",
+        "response": "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "고객 인증·수율은 진입장벽이나 매 세대 재경쟁하며 높은 ASP 자체가 영구 해자는 아님",
+        "response": "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "메모리 최고 마진을 정상화한다. FY25/H1 비교로 계산한 TTM OCF−유형자산 취득은 91.794조원이다. 과거 27.823조원을 현재 FCF로 재사용하지 않는다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 1,647,000.00; Base/가격 0.61배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 13.7%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 50.4%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다.",
+      "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "메모리 최고 마진을 정상화한다. FY25/H1 비교로 계산한 TTM OCF−유형자산 취득은 91.794조원이다. 과거 27.823조원을 현재 FCF로 재사용하지 않는다.",
+    "falsifiers": [
+      "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "incremental_roic_collapse",
+      "price_requires_unrealistic_bull_case",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

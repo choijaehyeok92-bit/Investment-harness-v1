@@ -1,0 +1,101 @@
+{
+  "ticker": "VRTX",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-1b97e46dd64e42814acf",
+    "obs-d042de839cf043b55196",
+    "obs-68b8cd57a780f887249c",
+    "obs-b635a5c8f04309bcef4e",
+    "obs-f8329d008240f3bb1b50",
+    "obs-f3e59f71b0e4deb0425f",
+    "obs-6ac3f69c5d75404c56ea",
+    "obs-28f322b5b53fb101fa99",
+    "obs-f4344a5d6a4773f04fab",
+    "obs-9368afcd1c7033aea68b",
+    "obs-caba327f9e313d33eca5",
+    "obs-a3de717dbe322f207f4c",
+    "obs-2b69c310bf2f68ed9965",
+    "obs-fb32b11372f02bae4cf4",
+    "obs-111fe4c63399cfc5693b",
+    "obs-e81f32506947d84e7e6c",
+    "obs-c0a797033a62b3bd3da7",
+    "obs-645cbbe9288649bd2e79",
+    "obs-21651f1d86f289e4e0e3",
+    "obs-c37484d0df98868aaf46",
+    "obs-8c42948cd3d2f21f8c59",
+    "obs-0415131b0fba42087205",
+    "obs-50d6a1b4f8c9ce381ade",
+    "obs-7f578848a36d217d85bb",
+    "obs-77d6cb9b6d537ec6bd0c",
+    "obs-b157b9f9d2b730516b27",
+    "obs-fc020c98e5fb2c76e6bb",
+    "obs-5a78b01c3085b120fbf3",
+    "obs-811788ce78200c236b8d",
+    "obs-995ec50209ba2552e285",
+    "obs-fa3e0e7fbcbcccbbe6ef",
+    "obs-82b59fbc98400640d491",
+    "obs-57c0d36afd289d132978",
+    "obs-ed9a6b9fd120be79c328",
+    "obs-13e4c1a0274d41418168",
+    "obs-ddaf310c65addc2ad1da",
+    "obs-24f03e9719cb65c5f4b5",
+    "obs-ad75842a58e7a1716840",
+    "obs-53509e8c9ece5e4df0c4",
+    "obs-9517a30b81eaa27266a7",
+    "obs-0da807c98807fc3fc9e6",
+    "obs-7de23a3bad3380d9ed21",
+    "obs-2a91717d53cab315ee66",
+    "obs-2f577c8184828f3492b1",
+    "obs-9564bdaf215b4a05c8ac",
+    "obs-219bdb683be1c9efd07f",
+    "obs-ae94ce94db04c86581b2",
+    "obs-8587cbaddfb04e7ee29d",
+    "obs-edc802ae645b27d3a684",
+    "obs-a9bc4f65835f94e09c0d",
+    "obs-5bee1e40de24e412b326",
+    "obs-f42bccd20d398b429c0f",
+    "obs-6412c2217e5edd9df641"
+  ],
+  "financial_bridge": {
+    "revenue": 6.3208,
+    "operating_profit": 2.385,
+    "ocf": 2.5535,
+    "cash_capex": 0.2456,
+    "sbc": null,
+    "additional_cash_investment": null,
+    "ticker": "VRTX",
+    "period": "H1 2026",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.3773256549803822,
+    "ocf_less_named_capex": 2.3079,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc",
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/VRTX/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/VRTX/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "548b83390d3b04d20ce4f612dcba7f585183375c6f4b1b89d14acc0fa92e73b9"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

@@ -1,0 +1,41 @@
+{
+  "revenue": 2.178313164743,
+  "operating_profit": 0.545303822428,
+  "ocf": 0.480269932949,
+  "cash_capex": 0.139882641673,
+  "sbc": null,
+  "additional_cash_investment": 0.009161233522,
+  "ticker": "267260",
+  "period": "H1 2026",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.2503330702187331,
+  "ocf_less_named_capex": 0.340387291276,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/267260/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/267260/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "35e65e9b34654fe799dfd66680ab7b9e42042dbecd0a157f0710b282bf64c7a6"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://www.hd-hyundaielectric.com/elect/en/",
+    "location": "Investor stock information2026-09-04 16:00:02",
+    "facts": {
+      "price_krw": 714000
+    }
+  }
+}

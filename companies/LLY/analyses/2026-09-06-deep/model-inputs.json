@@ -1,0 +1,111 @@
+{
+  "ticker": "LLY",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 1149.36,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 899.3,
+  "liquidity_cash": 8.95,
+  "minimum_cash_reserve": 6.0,
+  "quality_scores": [
+    14,
+    9,
+    13,
+    11,
+    7,
+    8
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "GLP1",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 56.550000000000004,
+          "growth_2_5": 0.07,
+          "growth_6_10": -0.035,
+          "owner_margin_year_1": 0.14,
+          "owner_margin_mature": 0.16100000000161
+        },
+        "base": {
+          "revenue_year_1": 63.7,
+          "growth_2_5": 0.15,
+          "growth_6_10": 0.035,
+          "owner_margin_year_1": 0.22,
+          "owner_margin_mature": 0.28750000000287496
+        },
+        "bull": {
+          "revenue_year_1": 71.5,
+          "growth_2_5": 0.23,
+          "growth_6_10": 0.085,
+          "owner_margin_year_1": 0.27,
+          "owner_margin_mature": 0.36800000000367994
+        }
+      }
+    },
+    {
+      "name": "Other_approved_products",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 30.45,
+          "growth_2_5": -0.015,
+          "growth_6_10": 0.007857142899999999,
+          "owner_margin_year_1": 0.14,
+          "owner_margin_mature": 0.10099999999701002
+        },
+        "base": {
+          "revenue_year_1": 34.3,
+          "growth_2_5": 0.065,
+          "growth_6_10": 0.07785714290000001,
+          "owner_margin_year_1": 0.22,
+          "owner_margin_mature": 0.1803571428518036
+        },
+        "bull": {
+          "revenue_year_1": 38.5,
+          "growth_2_5": 0.14500000000000002,
+          "growth_6_10": 0.1278571429,
+          "owner_margin_year_1": 0.27,
+          "owner_margin_mature": 0.23085714285030862
+        }
+      }
+    }
+  ],
+  "financial_finding": "H1 매출 42.773B·영업이익 17.893B·OCF 16.023B−PPE 5.259B=10.764B. IPRD·인수 현금은 이익 성장과 별도 자본배분으로 기록한다.",
+  "economic_risk": "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다.",
+  "rights_and_capital": "현재 승인 약물에 기반한 매출 경로이며 미승인 파이프라인을 전액 매출로 가산하지 않는다. 신약 R&D 지속 비용과 생산능력 투자, 54.908B 차입 부담을 owner margin에 포함한다.",
+  "model_family": "drug_lifecycle",
+  "falsifier": "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축.",
+  "investigate_veto_indices": [
+    4,
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.4,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.036,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0.02
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "segment_assumption_note": "부문별 매출 배분·성장률·현금마진은 분석 추정이며, 연결 owner 현금의 초기 합계와 성숙 고정믹스 합계를 보존한다. 이후 믹스 변화로 연결 현금마진이 변한다. 공시하지 않은 부문 FCF를 실제치로 만들지 않았다. 공시 부문 근거는 원자료/이전 thesis, 숫자 가정은 components에 공개.",
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

@@ -1,0 +1,43 @@
+{
+  "revenue": 0.363881,
+  "operating_profit": 0.037033,
+  "ocf": 0.041842,
+  "cash_capex": 0.043749,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "TMDX",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.10177228269681572,
+  "ocf_less_named_capex": -0.001907000000000006,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/TMDX/raw-data/2026-Q2.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/TMDX/raw-data/2026-Q2.json",
+      "sha256": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://investors.transmedics.com/news-releases/news-release-details/transmedics-reports-second-quarter-2026-financial-results",
+    "location": "EPS table and cash flow statement",
+    "facts": {
+      "q2_diluted_shares": 40709227,
+      "h1_ocf_usd_m": 41.842
+    }
+  }
+}

@@ -1,51 +1,18 @@
 {
   "ticker": "012450",
-  "as_of": "2026-09-04",
-
+  "as_of": "2026-09-05",
   "label": "WATCH",
   "hard_veto_status": "INVESTIGATE",
   "position_band": "NONE",
-  "rationale": "한화에어로스페이스는 K9·천무 수출과 유럽·중동·호주·미국의 구조적 재무장, 약 115조원 수준의 공개 수주잔고를 바탕으로 강한 사업 모멘텀을 보인다. 그러나 2025년 약 4.22조원 유상증자로 큰 희석이 발생한 뒤에도 2026년 반기 연결 영업현금흐름은 음수였고, 글로벌 생산기지·한화오션·KAI 등으로 자본배분 범위가 급격히 확대됐다. 2026-09-04 종가 1,055,000원에서 Base SOTP가 약 1,050,000원으로 현재가와 유사해 expectation gap도 충분하지 않다. 따라서 SCREEN_IN 기업이지만 신규 포지션 없이 WATCH로 둔다.",
+  "rationale": "71점 WATCH와 48점 REJECT가 합쳐진 파일이었다. 연결 매출·이익의 100%를 모회사 주주에게 귀속시킬 수 없고 서로 다른 가격 1,055,000원과 1,244,000원의 판단도 혼합됐다. 현재 100점 총점은 보류한다. 반기 영업현금흐름 약 -0.37조 원, 계약자산 증가, 대규모 증자와 중대재해는 투자효율·통제 위험이다. 단 한 번의 증자나 낮은 현금전환만으로 영구적 자금의존 또는 회계부정을 확정할 수는 없다. 모회사 귀속 현금흐름과 재무조정의 근거 부족. 기존 71점 scorecard는 복구한 과거 기록이며 현행 점수가 아니다.",
   "increase_evidence": [
-    "향후 2~4개 분기에서 연결 OCF/FCF가 영업이익과 동행하며 주당 FCF가 개선",
-    "방산 수출잔고가 높은 마진으로 매출화되는 동시에 계약자산/매출채권 증가율이 매출 증가율 아래로 안정",
-    "폴란드·호주·루마니아·중동 현지생산 투자에서 프로젝트 ROIC와 후속 수주가 확인",
-    "2025~2028 전략투자를 추가 대규모 증자 없이 감당하고 희석주식수가 안정",
-    "KAI·한화오션·한화시스템 투자 논리가 명확해지고 지분투자 수익률 또는 사업 시너지가 정량 확인",
-    "동일 사업 가정에서 가격이 Base SOTP 대비 최소 20% 이상 할인되거나 실적 상향으로 Base 가치가 의미 있게 상승"
+    "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
   ],
   "reduce_or_exit_evidence": [
-    "K9·천무 등 핵심 수출 수주잔고가 취소·지연되거나 신규 수주가 4개 분기 이상 구조적으로 둔화",
-    "현지생산 확대로 방산 EBIT 마진과 현금 ROIC가 지속 하락",
-    "한화오션 조선 사이클 둔화와 전략지분 손상이 동시에 발생",
-    "추가 대규모 유상증자 또는 반복적 외부자본 조달로 주당가치가 계속 희석",
-    "중대재해·품질·납기 문제로 생산중단 또는 고객 신뢰 훼손이 반복",
-    "현재 가격이 추가 상승해 Base/Bull 실행까지 요구하면서 expectation gap이 더 악화"
+    "반복 중대재해·납기 실패 또는 추가 저수익 지분투자/증자가 프로젝트의 주당 현금수익 증가를 지속적으로 초과한다.",
+    "중대한 경영진·회계 신뢰 훼손"
   ],
   "macro_pacing": "company_specific",
-  "confidence": 0.8
-=======
-  "label": "REJECT",
-  "hard_veto_status": "INVESTIGATE",
-  "position_band": "NONE",
-  "macro_pacing": "company_specific",
-  "confidence": 0.62,
-  "rationale": "Scorecard 47/100 — classification REJECT — with a business-quality subtotal of 41/75, far below every other name analysed in this harness (TSM 66, NVDA 62, 005930 59, AVGO 57). THE SCREENING RUN WAS WRONG ABOUT WHAT THIS COMPANY IS. The 2026-09-04 screen ranked 012450 fifth for deep work as a European-rearmament defence play uncorrelated with AI capex. The filings show that by revenue it is now 64% SHIPBUILDING — 해양 was KRW 9,614.2B of H1 2026's KRW 15,043.9B, against 방산 at 29.68% — and marine has overtaken defence on operating profit as well. Shipbuilding is a cyclical industry with a historically poor record on returns on capital, not a structural-growth industry. Correcting that misidentification is the main work of this analysis. THE DECISIVE FINDING is cash. H1 2026 operating cash flow was NEGATIVE KRW 370.7B against POSITIVE KRW 1,014.3B a year earlier — a KRW 1.39T swing — while the company reported KRW 2.00T of operating profit. Investing consumed a further KRW 3,403.0B, and total borrowings rose 24.6% in six months from KRW 12.39T to KRW 15.44T. Interest of KRW 264.7B was paid out of financing, not operations. This follows a 13.1% equity dilution in 2025 (5,982,240 new shares across a third-party placement and a rights issue). Equity raised, then debt raised, while operations consumed cash. AND THE MOAT LEG IS SHRINKING. Defence revenue fell about 14% versus the FY2025 half-year run-rate and defence margin slipped from 21.9% to 20.2%, while the lower-moat marine business grew. That is the opposite of the direction-of-change evidence the deep-analyst contract prioritises. WHAT IS GENUINELY GOOD: order backlog of KRW 114.92T, about 3.8 years of revenue, with defence backlog alone at KRW 46.85T. Group operating margin expanded from 11.6% to 13.3% and marine margin from 7.7% to 12.0%. Non-controlling interests taking about 44% of profit also means the parent's economic exposure to marine is smaller than consolidated revenue implies. THE PRICE MAKES IT A REJECT RATHER THAN A WATCH. At KRW 1,244,000 the market capitalisation of about KRW 64.14T is 5.35x owners' equity of KRW 12.00T and 35.8x H1 2026 annualised owners' earnings. Reverse-engineered, even a generous 22x multiple requires owners' net income to rise about 60% and stay there; at a normal 15-18x it requires a doubling. The modelled BULL CASE returns only +9% to +40% over five years, and the probability-weighted return is approximately NEGATIVE 37% — the only negative expected return in this harness, and robust to reweighting: even at bear 0.15 / base 0.45 / bull 0.40 it stays around -18%. REJECT is a statement about the INVESTMENT AT THIS PRICE, not a judgement that the company is bad. The backlog is real and the structural driver behind the defence leg is real. But the strategy exists to find asymmetric outliers, and a distribution whose optimistic case barely beats cash while the downside is levered is the opposite of that. Note that no Hard Veto reads FAIL — the label follows the score and the negative expected return, not a veto trigger. TWO CORRECTIONS APPLIED AFTER RED-TEAM REVIEW, NEITHER OF WHICH CHANGES THE VERDICT. FIRST, the red team returned REVISE partly on the ground that FY2025 operating cash flow was sitting unextracted in a supplied document. That premise is FALSE: the [정정]영업보고서 is an image-based PDF containing no machine-readable financial statements, and the 반기보고서 carries only H1 comparatives. The number is genuinely unavailable from what was supplied — the substantive criticism (it is decisive and unknown) stands, but the analysis did not ignore data it had. The correction also revealed what the March 2026 amendment changed: 기업결합 사항, 타회사 출자현황 and the 이사회 결의서 — administrative items, not a restatement. SECOND, the leverage characterisation was too harsh. Net debt/EBITDA was 1.6x at 2025-09-30 with coverage rated excellent, implying roughly 1.2-1.3x now — conservative by any conventional standard. financial_survivability is raised 6 to 7 and the total to 48/100, still firmly in the Reject band. The genuine concern is narrower than the earlier draft implied: not debt quantum or solvency, but CASH CONVERSION — a 1.08 current ratio and negative operating cash flow while borrowings rose 24.6% in six months.",
-  "increase_evidence": [
-    "PRIMARY: FY2025 and FY2026 full-year operating cash flow turning clearly positive. NOTE THIS CANNOT BE OBTAINED FROM THE DOCUMENTS SUPPLIED — the [정정]영업보고서 is image-based and the 반기보고서 carries only H1 comparatives. The FY2025 사업보고서 or audited cash flow statement is required. Without this number nothing else matters.",
-    "Defence revenue and margin re-accelerating — order intake, not just backlog — reversing the -14% revenue and 21.9%-to-20.2% margin decline.",
-    "Borrowings stabilising or falling from KRW 15.44T without a further equity raise, with the current ratio improving from 1.08.",
-    "A price decline of roughly 40-50%, which is what the normalised earnings analysis implies is required for the expectation gap to turn positive on current evidence. Per policy/position-sizing.yaml price alone is never sufficient — it must accompany at least the cash flow evidence above.",
-    "Marine margin sustaining at or above 12% through a full cycle, which would force a re-rating of the shipbuilding leg's quality.",
-    "Explanation of the KRW 1.42T H1 2026 capital surplus increase that occurred with no new shares issued."
-  ],
-  "reduce_or_exit_evidence": [
-    "Operating cash flow remaining negative for FY2026 as a whole — this would move external_capital_dependence from INVESTIGATE to FAIL and make REJECT a veto-driven conclusion rather than a score-driven one.",
-    "Any further equity raise, which would confirm structural external-capital dependence twelve months after the last one.",
-    "Defence backlog declining, not just defence revenue — that would remove the one genuinely strong element of the case.",
-    "Marine margin reverting toward the 7.7% FY2025 level as the current backlog vintage delivers.",
-    "Borrowings rising above roughly KRW 18T, or the current ratio falling below 1.0.",
-    "Any indication that European orders carry offset obligations materially heavier than assumed, transferring value to customer countries."
-  ]
-
+  "confidence": 0.48
 }

@@ -1,0 +1,11 @@
+{
+  "ticker": "034020",
+  "price": 79200.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 640.561146,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "별도 지분 처분가능 가치와 별도 순부채는 범위 추정으로 표시한다. 자회사 연결 매출을 본체 성장 가정에 더하지 않았다. 본체 마진 5% 현금화에도 현재 가격이 요구하는 기간을 별도 역산한다."
+}

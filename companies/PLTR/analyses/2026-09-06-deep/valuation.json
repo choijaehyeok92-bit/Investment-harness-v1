@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.29638342180708965,
+    "required_owner_margin_delta": 0.18149844447132885,
+    "price_reference": 174.33,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 111.69274722704041,
+    "implied_year_10_owner_cash": 39.092461529464146,
+    "residual_price": 1.7053025658242404e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 9.0,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 2.25,
+              "ownership": 1,
+              "attributable_cash": 2.25
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.25,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 10.62,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 2.655,
+              "ownership": 1,
+              "attributable_cash": 2.655
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.655,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 12.5316,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 3.1329,
+              "ownership": 1,
+              "attributable_cash": 3.1329
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.1329,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 14.787287999999998,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 3.6968219999999996,
+              "ownership": 1,
+              "attributable_cash": 3.6968219999999996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.6968219999999996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 17.448999839999995,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 4.362249959999999,
+              "ownership": 1,
+              "attributable_cash": 4.362249959999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.362249959999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 18.844919827199995,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 4.711229956799999,
+              "ownership": 1,
+              "attributable_cash": 4.711229956799999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.711229956799999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 20.352513413375995,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 5.088128353343999,
+              "ownership": 1,
+              "attributable_cash": 5.088128353343999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.088128353343999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 21.98071448644608,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 5.49517862161152,
+              "ownership": 1,
+              "attributable_cash": 5.49517862161152
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.49517862161152,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 23.739171645361765,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 5.934792911340441,
+              "ownership": 1,
+              "attributable_cash": 5.934792911340441
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.934792911340441,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 25.63830537699071,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 6.409576344247678,
+              "ownership": 1,
+              "attributable_cash": 6.409576344247678
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.409576344247678,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 25.962534892343495,
+      "pv_terminal": 43.3195890469309,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 69.2821239392744,
+      "equity_value": 69.2821239392744,
+      "value_per_share": 26.971731136240596,
+      "value_to_price": 0.15471652117386905,
+      "upside_downside": -0.845283478826131,
+      "terminal_fraction_of_operating_pv": 0.6252635829250905,
+      "year_10_revenue": 25.63830537699071,
+      "year_10_owner_cash": 6.409576344247678,
+      "year_10_owner_cash_per_share": 2.4952666001663406,
+      "year_10_exit_price": 39.92426560266145,
+      "irr_roots": [
+        -0.11487261243084729
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.030047000000000157,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 26.971731136240592,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 10.8,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 3.4560000000000004,
+              "ownership": 1,
+              "attributable_cash": 3.4560000000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.4560000000000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 14.256000000000002,
+              "owner_margin": 0.3275,
+              "owner_cash_before_attribution": 4.668840000000001,
+              "ownership": 1,
+              "attributable_cash": 4.668840000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.668840000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 18.817920000000004,
+              "owner_margin": 0.33499999999999996,
+              "owner_cash_before_attribution": 6.304003200000001,
+              "ownership": 1,
+              "attributable_cash": 6.304003200000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.304003200000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 24.839654400000004,
+              "owner_margin": 0.34249999999999997,
+              "owner_cash_before_attribution": 8.507581632,
+              "ownership": 1,
+              "attributable_cash": 8.507581632
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 8.507581632,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 32.78834380800001,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 11.475920332800001,
+              "ownership": 1,
+              "attributable_cash": 11.475920332800001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 11.475920332800001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 38.034478817280004,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 13.312067586048,
+              "ownership": 1,
+              "attributable_cash": 13.312067586048
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 13.312067586048,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 44.11999542804481,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 15.441998399815683,
+              "ownership": 1,
+              "attributable_cash": 15.441998399815683
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 15.441998399815683,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 51.179194696531965,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 17.912718143786186,
+              "ownership": 1,
+              "attributable_cash": 17.912718143786186
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 17.912718143786186,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 59.36786584797708,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 20.778753046791977,
+              "ownership": 1,
+              "attributable_cash": 20.778753046791977
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 20.778753046791977,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 68.8667243836534,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 24.10335353427869,
+              "ownership": 1,
+              "attributable_cash": 24.10335353427869
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 24.10335353427869,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 70.57697891883042,
+      "pv_terminal": 223.99337433674773,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 294.57035325557814,
+      "equity_value": 294.57035325557814,
+      "value_per_share": 114.67709009153218,
+      "value_to_price": 0.6578161537975803,
+      "upside_downside": -0.3421838462024197,
+      "terminal_fraction_of_operating_pv": 0.7604070533955068,
+      "year_10_revenue": 68.8667243836534,
+      "year_10_owner_cash": 24.10335353427869,
+      "year_10_owner_cash_per_share": 9.383505210927689,
+      "year_10_exit_price": 206.43711464040913,
+      "irr_roots": [
+        0.041637815811493506
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.030047000000000157,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 114.67709009153218,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 12.5,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 4.75,
+              "ownership": 1,
+              "attributable_cash": 4.75
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.75,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 18.125,
+              "owner_margin": 0.3925,
+              "owner_cash_before_attribution": 7.1140625,
+              "ownership": 1,
+              "attributable_cash": 7.1140625
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.1140625,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 26.28125,
+              "owner_margin": 0.405,
+              "owner_cash_before_attribution": 10.64390625,
+              "ownership": 1,
+              "attributable_cash": 10.64390625
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 10.64390625,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 38.1078125,
+              "owner_margin": 0.4175,
+              "owner_cash_before_attribution": 15.91001171875,
+              "ownership": 1,
+              "attributable_cash": 15.91001171875
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 15.91001171875,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 55.256328124999996,
+              "owner_margin": 0.43,
+              "owner_cash_before_attribution": 23.760221093749998,
+              "ownership": 1,
+              "attributable_cash": 23.760221093749998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 23.760221093749998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 67.4127203125,
+              "owner_margin": 0.43,
+              "owner_cash_before_attribution": 28.987469734375,
+              "ownership": 1,
+              "attributable_cash": 28.987469734375
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 28.987469734375,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 82.24351878124999,
+              "owner_margin": 0.43,
+              "owner_cash_before_attribution": 35.364713075937495,
+              "ownership": 1,
+              "attributable_cash": 35.364713075937495
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 35.364713075937495,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 100.33709291312499,
+              "owner_margin": 0.43,
+              "owner_cash_before_attribution": 43.14494995264374,
+              "ownership": 1,
+              "attributable_cash": 43.14494995264374
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 43.14494995264374,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 122.41125335401247,
+              "owner_margin": 0.43,
+              "owner_cash_before_attribution": 52.63683894222536,
+              "ownership": 1,
+              "attributable_cash": 52.63683894222536
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 52.63683894222536,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "aip_government_commercial",
+              "revenue": 149.34172909189522,
+              "owner_margin": 0.43,
+              "owner_cash_before_attribution": 64.21694350951495,
+              "ownership": 1,
+              "attributable_cash": 64.21694350951495
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 64.21694350951495,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 154.9225571775857,
+      "pv_terminal": 759.5260658784141,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 914.4486230559999,
+      "equity_value": 914.4486230559999,
+      "value_per_share": 355.9974925218807,
+      "value_to_price": 2.042089672012165,
+      "upside_downside": 1.0420896720121648,
+      "terminal_fraction_of_operating_pv": 0.830583639942669,
+      "year_10_revenue": 149.34172909189522,
+      "year_10_owner_cash": 64.21694350951495,
+      "year_10_owner_cash_per_share": 24.99984175207905,
+      "year_10_exit_price": 699.9955690582134,
+      "irr_roots": [
+        0.17636159760014214
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.030047000000000157,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 355.9974925218807,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 124.24538283312114
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 135.9282608167387
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 147.6111388003563
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 104.81702047789571
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 114.67709009153218
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 124.53715970516863
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 88.81906225886607
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 97.17801575090732
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 105.53696924294856
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 94.85862005324284
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 114.67709009153218
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 134.49556012982148
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.4478624051903513,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 120.71272641213915
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 114.67709009153218
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 109.21627627764968
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 104.25190008321107
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

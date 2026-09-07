@@ -1,0 +1,85 @@
+{
+  "ticker": "NET",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 278.92,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 355.931,
+  "liquidity_cash": 4.163,
+  "minimum_cash_reserve": 2.0,
+  "quality_scores": [
+    14,
+    9,
+    12,
+    6,
+    6,
+    8
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "connectivity_security_workers",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 3.0,
+          "growth_2_5": 0.15,
+          "growth_6_10": 0.06,
+          "owner_margin_year_1": -0.07,
+          "owner_margin_mature": 0.07
+        },
+        "base": {
+          "revenue_year_1": 3.5,
+          "growth_2_5": 0.28,
+          "growth_6_10": 0.13,
+          "owner_margin_year_1": -0.04,
+          "owner_margin_mature": 0.18
+        },
+        "bull": {
+          "revenue_year_1": 4.0,
+          "growth_2_5": 0.4,
+          "growth_6_10": 0.2,
+          "owner_margin_year_1": 0.0,
+          "owner_margin_mature": 0.28
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM 회사 FCF0.314873B−SBC0.507655B=owner proxy−0.192782B. 보고 FCF 흑자와 현재 주주의 경제적 현금은 다르다.",
+  "economic_risk": "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다.",
+  "rights_and_capital": "6월 A322.176M+B33.755M=355.931M주. 8월 전환채 발행은 이자 0%라도 희석·만기 의무가 사라진 것이 아니다. 동일 SBC의 현금 차감과 미래 연간희석을 이중 적용하지 않는다.",
+  "model_family": "sbc_platform",
+  "falsifier": "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기.",
+  "investigate_veto_indices": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.28,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0262,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0.005
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "liquidity_note": "6월말 현금·시장성증권4.163B. 8월 사채 조달현금은 만기·캡드콜과 함께 확정 정산 전 가용현금 증가로 미반영.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

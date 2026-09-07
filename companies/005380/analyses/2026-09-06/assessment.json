@@ -1,0 +1,395 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "005380",
+  "company_name": "Hyundai Motor",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "companies/005380/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 13,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "저장 증거 재검토; 신규 원문 전체 재실사 아님",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "자동차·하이브리드·전동화 포트폴리오",
+  "customer_and_moat": "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리",
+  "current_finding": "H1 26 매출 95.154214조·영업이익 5.365574조 원, 전년 92.694438조·7.235206조 원. OCF 4.849653조이며 세전 영업창출현금 8.137177조가 아니다.",
+  "economic_finding": "매출 증가에도 이익 감소. 연결 금융채권과 차입 때문에 연결 OCF 또는 부채 전액을 자동차 DCF에 넣으면 왜곡된다.",
+  "capital_and_survival": "6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가.",
+  "next_evidence": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+  "permanent_loss_case": "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락",
+  "falsifiers": [
+    "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락"
+  ],
+  "increase_evidence": [
+    "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+    "보수적 주당 현금모델·가격 역산 및 9개 veto 해소"
+  ],
+  "sell_evidence": [
+    "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락가 지속 확인될 때 논지 폐기 또는 보유 축소 검토"
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "자동차·하이브리드·전동화 포트폴리오"
+      ],
+      "counter_evidence": [
+        "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리"
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리"
+      ],
+      "counter_evidence": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리"
+      ],
+      "counter_evidence": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "매출 증가에도 이익 감소. 연결 금융채권과 차입 때문에 연결 OCF 또는 부채 전액을 자동차 DCF에 넣으면 왜곡된다."
+      ],
+      "counter_evidence": [
+        "매출 증가에도 이익 감소. 연결 금융채권과 차입 때문에 연결 OCF 또는 부채 전액을 자동차 DCF에 넣으면 왜곡된다."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가."
+      ],
+      "counter_evidence": [
+        "6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가."
+      ],
+      "counter_evidence": [
+        "6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가."
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "가격에 내재된 성장·마진·기간을 아직 확정하지 않음"
+      ],
+      "counter_evidence": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락"
+      ],
+      "counter_evidence": [
+        "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락"
+      ],
+      "confidence": 0.45,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      ],
+      "source_paths": [
+        "companies/005380/raw-data/2025-2026-supplied-filings.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "감사·내부통제·거래 및 경영진 진술 원문을 검증했는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "제한현금·확정 투자·만기를 반영한 외부조달 없는 생존 경로가 있는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "SBC 경제비용과 총발행·환매 재원을 분리해 희석을 검증했는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "매출·이익 증가가 독립적 고객 현금과 연결되는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "새 자본의 세후 현금수익이 자본비용을 넘는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "점유·유지·가격결정력이 성장과 별개로 강화되는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "가격·주식 수·현금 모델의 역산으로 현실적 Bull 범위를 시험했는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "고객·제품·지역·금융 노출이 복합 충격에도 치명적이지 않은가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "사업 존속과 별개로 고가·희석·권리 손상의 영구손실을 평가했는가?"
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "UNKNOWN",
+        "confidence": 0.25,
+        "basis": "EVIDENCE_GATE_OPEN_NOT_ASSERTED_COMPANY_FAILURE"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.1,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+      "동일 시각 가격/주식 수 및 검증한 owner cash-flow 브리지"
+    ],
+    "model_required": "AUTO_FINANCE_SOTP"
+  },
+  "total_score_100": null,
+  "business_quality_75": null,
+  "source_quality": {
+    "status": "STORED_ASSERTIONS_AND_INHERITED_RESEARCH",
+    "primary_document_reaudit": "선별 공식 IR 교차검증만 수행. 모든 PDF·웹 원문을 새로 감사했다는 뜻이 아님.",
+    "fact_estimate_inference_opinion": "원자료 숫자=보고 주장; 산식=계산치; 사업 연결=추론; 점수/판정=의견. 미래 전망은 사실 아님.",
+    "missing_data_rule": "unknown을 0·PASS로 대체하지 않으며 자료 결손을 기업 실패로 단정하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "claim_type": "inference",
+        "challenge": "사이클/선투자를 구조적 수요로 오인할 수 있다: 자동차·하이브리드·전동화 포트폴리오"
+      },
+      {
+        "id": 2,
+        "claim_type": "inference",
+        "challenge": "시장 확대가 주당 현금으로 귀속되지 않을 수 있다: 매출 증가에도 이익 감소. 연결 금융채권과 차입 때문에 연결 OCF 또는 부채 전액을 자동차 DCF에 넣으면 왜곡된다."
+      },
+      {
+        "id": 3,
+        "claim_type": "inference",
+        "challenge": "매출 증가 자체는 해자 확대의 증명이 아니다: 브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리"
+      },
+      {
+        "id": 4,
+        "claim_type": "inference",
+        "challenge": "고객 편익의 독립 검증과 경쟁 대안의 총비용 자료가 부족할 수 있다."
+      },
+      {
+        "id": 5,
+        "claim_type": "inference",
+        "challenge": "증분 ROIC는 이익률이 아니라 신규 투입자본 대비 세후 현금수익이다: 자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거"
+      },
+      {
+        "id": 6,
+        "claim_type": "inference",
+        "challenge": "SBC·환매·기존 미행사 보상·신주발행을 동일 비용 두 번 차감하거나 모두 누락할 수 있다."
+      },
+      {
+        "id": 7,
+        "claim_type": "inference",
+        "challenge": "경영진의 인수·설비·환원 행동을 진술과 대조해야 한다: 6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가."
+      },
+      {
+        "id": 8,
+        "claim_type": "inference",
+        "challenge": "훌륭한 사업 가설을 시장도 이미 알고 있을 수 있다. 현재 가격 기대차이는 별도 입증 대상이다."
+      },
+      {
+        "id": 9,
+        "claim_type": "inference",
+        "challenge": "정상화 owner 마진·지속기간·만기 가치와 현금 시점이 민감도 핵심이다. 미완성 모형은 목표가를 제시하지 않는다."
+      },
+      {
+        "id": 10,
+        "claim_type": "inference",
+        "challenge": "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락"
+      }
+    ],
+    "strongest_bear_thesis": "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락",
+    "three_hidden_assumptions": [
+      "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리",
+      "매출 증가에도 이익 감소. 연결 금융채권과 차입 때문에 연결 OCF 또는 부채 전액을 자동차 DCF에 넣으면 왜곡된다.",
+      "6월 연결 차입 188.805180조는 금융사업 포함. 보통주·우선주·비지배지분의 청구권, 자동차의 사용가능 현금을 별도로 평가."
+    ],
+    "underweighted_evidence": "H1 26 매출 95.154214조·영업이익 5.365574조 원, 전년 92.694438조·7.235206조 원. OCF 4.849653조이며 세전 영업창출현금 8.137177조가 아니다.",
+    "falsifiers": [
+      "관세·인센티브·제품믹스 악화로 자동차 정상화 이익과 금융 신용수익이 함께 하락"
+    ],
+    "confidence": 0.55,
+    "verdict": "REVISE",
+    "independence": "단일 분석자의 적대적 재검토; 독립 검토자/멀티 에이전트 합의가 아님"
+  },
+  "completion_gate": {
+    "passed": false,
+    "open_items": [
+      "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+      "시장 기대 역산·현금 브리지 및 Bear/Base/Bull",
+      "전 항목 점수 및 근거 검증"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

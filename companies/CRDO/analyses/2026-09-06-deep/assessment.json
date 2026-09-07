@@ -1,0 +1,1080 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "CRDO",
+  "company_name": "Credo Technology Group",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US-listed foreign issuer",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/CRDO/raw-data/2027-Q1.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/CRDO/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "AI 데이터센터 연결·AEC·광학 확장",
+  "customer_and_moat": "SerDes/DSP·신뢰성과 전력 효율의 가치; 고객 측 독립 검증 및 광학 전환에서의 경쟁우위는 추가 확인",
+  "current_finding": "FY26 매출1.335116B와 Q1 FY27 0.479003B, 전년Q1 0.223074B로 TTM1.591045B. Q1 GAAP 영업마진25.2%와 SBC87.979M을 함께 본다.",
+  "economic_finding": "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다.",
+  "capital_and_survival": "Q1 GAAP 희석194.378M주 사용. 현금·단기투자1.443286B→0.764258B, 영업권·무형자산 급증은 인수 부담이다. 조정마진48.2%를 owner margin으로 복사하지 않는다.",
+  "next_evidence": "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+  "permanent_loss_case": "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효."
+  ],
+  "increase_evidence": [
+    "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "AI 데이터센터 연결·AEC·광학 확장"
+      ],
+      "counter_evidence": [
+        "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "SerDes/DSP·신뢰성과 전력 효율의 가치; 고객 측 독립 검증 및 광학 전환에서의 경쟁우위는 추가 확인"
+      ],
+      "counter_evidence": [
+        "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "SerDes/DSP·신뢰성과 전력 효율의 가치; 고객 측 독립 검증 및 광학 전환에서의 경쟁우위는 추가 확인"
+      ],
+      "counter_evidence": [
+        "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 9,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY26 매출1.335116B와 Q1 FY27 0.479003B, 전년Q1 0.223074B로 TTM1.591045B. Q1 GAAP 영업마진25.2%와 SBC87.979M을 함께 본다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q1 GAAP 희석194.378M주 사용. 현금·단기투자1.443286B→0.764258B, 영업권·무형자산 급증은 인수 부담이다. 조정마진48.2%를 owner margin으로 복사하지 않는다."
+      ],
+      "counter_evidence": [
+        "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q1 GAAP 희석194.378M주 사용. 현금·단기투자1.443286B→0.764258B, 영업권·무형자산 급증은 인수 부담이다. 조정마진48.2%를 owner margin으로 복사하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 170.57; Base/가격 0.93배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 19.1%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.15배, Bull/가격 3.58배. 2상태 손익분기 Bull 확률 24.7%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/CRDO/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/CRDO/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+        ],
+        "resolution_needed": "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+        ],
+        "resolution_needed": "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다."
+        ],
+        "resolution_needed": "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효."
+        ],
+        "resolution_needed": "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.19117404676943772,
+      "required_owner_margin_delta": 0.018688773926937047,
+      "price_reference": 170.57,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 11.346054476843182,
+      "implied_year_10_owner_cash": 2.7230530744423636,
+      "residual_price": 0.0
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.0,
+                "owner_margin": 0.15,
+                "owner_cash_before_attribution": 0.3,
+                "ownership": 1,
+                "attributable_cash": 0.3
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.16,
+                "owner_margin": 0.145,
+                "owner_cash_before_attribution": 0.3132,
+                "ownership": 1,
+                "attributable_cash": 0.3132
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3132,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.3328,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 0.32659200000000005,
+                "ownership": 1,
+                "attributable_cash": 0.32659200000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.32659200000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.5194240000000003,
+                "owner_margin": 0.135,
+                "owner_cash_before_attribution": 0.3401222400000001,
+                "ownership": 1,
+                "attributable_cash": 0.3401222400000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3401222400000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.7209779200000006,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.3537271296000001,
+                "ownership": 1,
+                "attributable_cash": 0.3537271296000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3537271296000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.8026072576000005,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.36433894348800006,
+                "ownership": 1,
+                "attributable_cash": 0.36433894348800006
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.36433894348800006,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.8866854753280005,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.37526911179264005,
+                "ownership": 1,
+                "attributable_cash": 0.37526911179264005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.37526911179264005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.973286039587841,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.3865271851464193,
+                "ownership": 1,
+                "attributable_cash": 0.3865271851464193
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3865271851464193,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 3.0624846207754763,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.3981230007008119,
+                "ownership": 1,
+                "attributable_cash": 0.3981230007008119
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3981230007008119,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 3.1543591593987403,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.41006669072183627,
+                "ownership": 1,
+                "attributable_cash": 0.41006669072183627
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.41006669072183627,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 2.2349189265733993,
+        "pv_terminal": 2.771465627341692,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 5.006384553915091,
+        "equity_value": 5.006384553915091,
+        "value_per_share": 25.75592172938857,
+        "value_to_price": 0.15099913073452878,
+        "upside_downside": -0.8490008692654712,
+        "terminal_fraction_of_operating_pv": 0.5535862452224832,
+        "year_10_revenue": 3.1543591593987403,
+        "year_10_owner_cash": 0.41006669072183627,
+        "year_10_owner_cash_per_share": 2.109635301946909,
+        "year_10_exit_price": 33.75416483115055,
+        "irr_roots": [
+          -0.12480127026256288
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.464258,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 25.75592172938857,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.35,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 0.517,
+                "ownership": 1,
+                "attributable_cash": 0.517
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.517,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.9375,
+                "owner_margin": 0.225,
+                "owner_cash_before_attribution": 0.6609375000000001,
+                "ownership": 1,
+                "attributable_cash": 0.6609375000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6609375000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 3.671875,
+                "owner_margin": 0.22999999999999998,
+                "owner_cash_before_attribution": 0.84453125,
+                "ownership": 1,
+                "attributable_cash": 0.84453125
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.84453125,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 4.58984375,
+                "owner_margin": 0.235,
+                "owner_cash_before_attribution": 1.07861328125,
+                "ownership": 1,
+                "attributable_cash": 1.07861328125
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.07861328125,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 5.7373046875,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 1.376953125,
+                "ownership": 1,
+                "attributable_cash": 1.376953125
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.376953125,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 6.425781250000001,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 1.5421875000000003,
+                "ownership": 1,
+                "attributable_cash": 1.5421875000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5421875000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 7.196875000000001,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 1.7272500000000002,
+                "ownership": 1,
+                "attributable_cash": 1.7272500000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7272500000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 8.060500000000003,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 1.9345200000000007,
+                "ownership": 1,
+                "attributable_cash": 1.9345200000000007
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.9345200000000007,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 9.027760000000004,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 2.1666624000000008,
+                "ownership": 1,
+                "attributable_cash": 2.1666624000000008
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.1666624000000008,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 10.111091200000004,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 2.426661888000001,
+                "ownership": 1,
+                "attributable_cash": 2.426661888000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.426661888000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 8.199715808523067,
+        "pv_terminal": 22.551060535808112,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 30.75077634433118,
+        "equity_value": 30.75077634433118,
+        "value_per_share": 158.20090928156057,
+        "value_to_price": 0.9274837854344877,
+        "upside_downside": -0.07251621456551227,
+        "terminal_fraction_of_operating_pv": 0.7333493074546503,
+        "year_10_revenue": 10.111091200000004,
+        "year_10_owner_cash": 2.426661888000001,
+        "year_10_owner_cash_per_share": 12.48424146765581,
+        "year_10_exit_price": 274.6533122884278,
+        "irr_roots": [
+          0.08090702944998418
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.464258,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 158.20090928156057,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 2.7,
+                "owner_margin": 0.27,
+                "owner_cash_before_attribution": 0.7290000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.7290000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7290000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 3.78,
+                "owner_margin": 0.28250000000000003,
+                "owner_cash_before_attribution": 1.06785,
+                "ownership": 1,
+                "attributable_cash": 1.06785
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.06785,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 5.292,
+                "owner_margin": 0.29500000000000004,
+                "owner_cash_before_attribution": 1.5611400000000002,
+                "ownership": 1,
+                "attributable_cash": 1.5611400000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5611400000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 7.4087999999999985,
+                "owner_margin": 0.3075,
+                "owner_cash_before_attribution": 2.2782059999999995,
+                "ownership": 1,
+                "attributable_cash": 2.2782059999999995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.2782059999999995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 10.372319999999998,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 3.3191423999999996,
+                "ownership": 1,
+                "attributable_cash": 3.3191423999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.3191423999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 12.446783999999997,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 3.9829708799999994,
+                "ownership": 1,
+                "attributable_cash": 3.9829708799999994
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.9829708799999994,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 14.936140799999997,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 4.779565055999999,
+                "ownership": 1,
+                "attributable_cash": 4.779565055999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.779565055999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 17.923368959999994,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 5.735478067199998,
+                "ownership": 1,
+                "attributable_cash": 5.735478067199998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.735478067199998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 21.508042751999994,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 6.882573680639998,
+                "ownership": 1,
+                "attributable_cash": 6.882573680639998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.882573680639998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "connectivity",
+                "revenue": 25.809651302399992,
+                "owner_margin": 0.32,
+                "owner_cash_before_attribution": 8.259088416767998,
+                "ownership": 1,
+                "attributable_cash": 8.259088416767998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.259088416767998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 21.069835746033842,
+        "pv_terminal": 97.68438966579461,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 118.75422541182846,
+        "equity_value": 118.75422541182846,
+        "value_per_share": 610.9447849644943,
+        "value_to_price": 3.5817833438734494,
+        "upside_downside": 2.5817833438734494,
+        "terminal_fraction_of_operating_pv": 0.8225761174142171,
+        "year_10_revenue": 25.809651302399992,
+        "year_10_owner_cash": 8.259088416767998,
+        "year_10_owner_cash_per_share": 42.489831239996285,
+        "year_10_exit_price": 1189.7152747198961,
+        "irr_roots": [
+          0.25244879164177847
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.464258,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 610.9447849644943,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/CRDO/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "equipment_concentration",
+    "missing_data": [
+      "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 70,
+  "business_quality_75": 57,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "AI 데이터센터 연결·AEC·광학 확장",
+        "response": "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "SerDes/DSP·신뢰성과 전력 효율의 가치; 고객 측 독립 검증 및 광학 전환에서의 경쟁우위는 추가 확인",
+        "response": "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "FY26 매출1.335116B와 Q1 FY27 0.479003B, 전년Q1 0.223074B로 TTM1.591045B. Q1 GAAP 영업마진25.2%와 SBC87.979M을 함께 본다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "Q1 GAAP 희석194.378M주 사용. 현금·단기투자1.443286B→0.764258B, 영업권·무형자산 급증은 인수 부담이다. 조정마진48.2%를 owner margin으로 복사하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 170.57; Base/가격 0.93배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 19.1%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 73.3%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "AEC·광 연결 경쟁력은 고객별 설계 채택과 전력·오류율 개선으로 입증해야 한다. 계약 상대방 43%/28%와 최종고객 28%/33%/13%/10%를 합산하지 않는다.",
+      "Q1 GAAP 희석194.378M주 사용. 현금·단기투자1.443286B→0.764258B, 영업권·무형자산 급증은 인수 부담이다. 조정마진48.2%를 owner margin으로 복사하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "FY26 매출1.335116B와 Q1 FY27 0.479003B, 전년Q1 0.223074B로 TTM1.591045B. Q1 GAAP 영업마진25.2%와 SBC87.979M을 함께 본다.",
+    "falsifiers": [
+      "핵심 하이퍼스케일러 설계 탈락과 경쟁 광연결 전환이 동시에 발생해 높은 성장이 현금·가격결정력으로 이어지지 않으면 논지 무효."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "persistent_dilution",
+      "incremental_roic_collapse",
+      "fatal_concentration",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "최종고객별 계약·AEC/광학 수익성·OCF와 SBC/희석·현금 감소 브리지·가격 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

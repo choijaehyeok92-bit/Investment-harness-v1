@@ -1,3 +1,5 @@
+> 최신 판단: **2026-09-05 / WATCH / 68/100 / INVESTIGATE**. [한글 재평가](re-evaluation-2026-09-05.md)가 아래 과거 서술보다 우선합니다. 아래 원문은 이력 비교를 위해 보존합니다.
+
 # Investment Thesis — 005930 삼성전자 (Samsung Electronics)
 
 As of: 2026-09-04 · Price: KRW 250,000 (common, 2026-09-03 close) · Position: NONE

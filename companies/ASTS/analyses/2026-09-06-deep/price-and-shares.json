@@ -1,0 +1,11 @@
+{
+  "ticker": "ASTS",
+  "price": 62.31,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 389.167494,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "7월 전환사채 순유입 1.1312B를 현금에 가산하되 부채·상환 경로도 모형에 반영한다. 가입자 수·통신사 수익배분·위성 교체 Capex는 수익화 이후에도 필요하다. 실험 성공은 자기조달 사업의 증명이 아니다."
+}

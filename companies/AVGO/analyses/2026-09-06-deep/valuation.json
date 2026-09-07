@@ -1,0 +1,985 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.11824318884047325,
+    "required_owner_margin_delta": -0.031067335725476347,
+    "price_reference": 357.895,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 396.45541725956036,
+    "implied_year_10_owner_cash": 130.83028769565487,
+    "residual_price": -5.684341886080802e-14
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 85.0,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 22.950000000000003,
+              "ownership": 1,
+              "attributable_cash": 22.950000000000003
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 40.0,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 10.8,
+              "ownership": 1,
+              "attributable_cash": 10.8
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 33.75,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 95.2,
+              "owner_margin": 0.2679940119760479,
+              "owner_cash_before_attribution": 25.51302994011976,
+              "ownership": 1,
+              "attributable_cash": 25.51302994011976
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 40.8,
+              "owner_margin": 0.25863772455089823,
+              "owner_cash_before_attribution": 10.552419161676648,
+              "ownership": 1,
+              "attributable_cash": 10.552419161676648
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 36.06544910179641,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 106.62400000000001,
+              "owner_margin": 0.26598802395209575,
+              "owner_cash_before_attribution": 28.36070706586826,
+              "ownership": 1,
+              "attributable_cash": 28.36070706586826
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 41.616,
+              "owner_margin": 0.24727544910179639,
+              "owner_cash_before_attribution": 10.290615089820358,
+              "ownership": 1,
+              "attributable_cash": 10.290615089820358
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 38.65132215568862,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 119.41888000000003,
+              "owner_margin": 0.2639820359281437,
+              "owner_cash_before_attribution": 31.524439070658687,
+              "ownership": 1,
+              "attributable_cash": 31.524439070658687
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 42.44832000000001,
+              "owner_margin": 0.2359131736526946,
+              "owner_cash_before_attribution": 10.01411788742515,
+              "ownership": 1,
+              "attributable_cash": 10.01411788742515
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 41.53855695808384,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 133.74914560000005,
+              "owner_margin": 0.26197604790419154,
+              "owner_cash_before_attribution": 35.0390725748503,
+              "ownership": 1,
+              "attributable_cash": 35.0390725748503
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 43.2972864,
+              "owner_margin": 0.22455089820359278,
+              "owner_cash_before_attribution": 9.722444550898201,
+              "ownership": 1,
+              "attributable_cash": 9.722444550898201
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 44.761517125748504,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 139.76785715200003,
+              "owner_margin": 0.26197604790419154,
+              "owner_cash_before_attribution": 36.61583084071856,
+              "ownership": 1,
+              "attributable_cash": 36.61583084071856
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 43.513772831999994,
+              "owner_margin": 0.22455089820359278,
+              "owner_cash_before_attribution": 9.771056773652692,
+              "ownership": 1,
+              "attributable_cash": 9.771056773652692
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 46.38688761437125,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 146.05741072384004,
+              "owner_margin": 0.26197604790419154,
+              "owner_cash_before_attribution": 38.263543228550894,
+              "ownership": 1,
+              "attributable_cash": 38.263543228550894
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 43.73134169615999,
+              "owner_margin": 0.22455089820359278,
+              "owner_cash_before_attribution": 9.819912057520954,
+              "ownership": 1,
+              "attributable_cash": 9.819912057520954
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 48.083455286071846,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 152.62999420641282,
+              "owner_margin": 0.26197604790419154,
+              "owner_cash_before_attribution": 39.98540267383568,
+              "ownership": 1,
+              "attributable_cash": 39.98540267383568
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 43.94999840464078,
+              "owner_margin": 0.22455089820359278,
+              "owner_cash_before_attribution": 9.869011617808557,
+              "ownership": 1,
+              "attributable_cash": 9.869011617808557
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 49.85441429164423,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 159.4983439457014,
+              "owner_margin": 0.26197604790419154,
+              "owner_cash_before_attribution": 41.78474579415829,
+              "ownership": 1,
+              "attributable_cash": 41.78474579415829
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 44.169748396663984,
+              "owner_margin": 0.22455089820359278,
+              "owner_cash_before_attribution": 9.9183566758976,
+              "ownership": 1,
+              "attributable_cash": 9.9183566758976
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 51.70310247005589,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 166.67576942325795,
+              "owner_margin": 0.26197604790419154,
+              "owner_cash_before_attribution": 43.665059354895405,
+              "ownership": 1,
+              "attributable_cash": 43.665059354895405
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 44.390597138647294,
+              "owner_margin": 0.22455089820359278,
+              "owner_cash_before_attribution": 9.967948459277086,
+              "ownership": 1,
+              "attributable_cash": 9.967948459277086
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 53.63300781417249,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 275.12689634849187,
+      "pv_terminal": 362.48259371243813,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 637.60949006093,
+      "equity_value": 637.60949006093,
+      "value_per_share": 134.00787937388188,
+      "value_to_price": 0.3744335052847396,
+      "upside_downside": -0.6255664947152604,
+      "terminal_fraction_of_operating_pv": 0.5685025071973117,
+      "year_10_revenue": 211.06636656190523,
+      "year_10_owner_cash": 53.63300781417249,
+      "year_10_owner_cash_per_share": 11.272174824332176,
+      "year_10_exit_price": 180.3547971893148,
+      "irr_roots": [
+        -0.030331682338853583
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 9.628,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 134.00787937388188,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 98.60000000000001,
+              "owner_margin": 0.31,
+              "owner_cash_before_attribution": 30.566000000000003,
+              "ownership": 1,
+              "attributable_cash": 30.566000000000003
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 46.4,
+              "owner_margin": 0.31,
+              "owner_cash_before_attribution": 14.384,
+              "ownership": 1,
+              "attributable_cash": 14.384
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 44.95,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 119.30600000000001,
+              "owner_margin": 0.31895209580838324,
+              "owner_cash_before_attribution": 38.05289874251498,
+              "ownership": 1,
+              "attributable_cash": 38.05289874251498
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 51.504000000000005,
+              "owner_margin": 0.3066017964071856,
+              "owner_cash_before_attribution": 15.79121892215569,
+              "ownership": 1,
+              "attributable_cash": 15.79121892215569
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 53.84411766467066,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 144.36026,
+              "owner_margin": 0.3279041916167664,
+              "owner_cash_before_attribution": 47.336334356886226,
+              "ownership": 1,
+              "attributable_cash": 47.336334356886226
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 57.16944000000001,
+              "owner_margin": 0.30320359281437126,
+              "owner_cash_before_attribution": 17.333979607185633,
+              "ownership": 1,
+              "attributable_cash": 17.333979607185633
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 64.67031396407185,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 174.6759146,
+              "owner_margin": 0.3368562874251496,
+              "owner_cash_before_attribution": 58.840680094748485,
+              "ownership": 1,
+              "attributable_cash": 58.840680094748485
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 63.45807840000001,
+              "owner_margin": 0.29980538922155686,
+              "owner_cash_before_attribution": 19.025073893964073,
+              "ownership": 1,
+              "attributable_cash": 19.025073893964073
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 77.86575398871256,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 211.357856666,
+              "owner_margin": 0.34580838323353286,
+              "owner_cash_before_attribution": 73.08931869737424,
+              "ownership": 1,
+              "attributable_cash": 73.08931869737424
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 70.43846702400002,
+              "owner_margin": 0.29640718562874246,
+              "owner_cash_before_attribution": 20.878467770586827,
+              "ownership": 1,
+              "attributable_cash": 20.878467770586827
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 93.96778646796106,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 231.43685304926998,
+              "owner_margin": 0.34580838323353286,
+              "owner_cash_before_attribution": 80.03280397362478,
+              "ownership": 1,
+              "attributable_cash": 80.03280397362478
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 74.31258271032002,
+              "owner_margin": 0.29640718562874246,
+              "owner_cash_before_attribution": 22.026783497969102,
+              "ownership": 1,
+              "attributable_cash": 22.026783497969102
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 102.05958747159389,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 253.42335408895065,
+              "owner_margin": 0.34580838323353286,
+              "owner_cash_before_attribution": 87.63592035111914,
+              "ownership": 1,
+              "attributable_cash": 87.63592035111914
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 78.39977475938761,
+              "owner_margin": 0.29640718562874246,
+              "owner_cash_before_attribution": 23.238256590357402,
+              "ownership": 1,
+              "attributable_cash": 23.238256590357402
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 110.87417694147655,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 277.4985727274009,
+              "owner_margin": 0.34580838323353286,
+              "owner_cash_before_attribution": 95.96133278447545,
+              "ownership": 1,
+              "attributable_cash": 95.96133278447545
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 82.71176237115392,
+              "owner_margin": 0.29640718562874246,
+              "owner_cash_before_attribution": 24.516360702827058,
+              "ownership": 1,
+              "attributable_cash": 24.516360702827058
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 120.4776934873025,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 303.860937136504,
+              "owner_margin": 0.34580838323353286,
+              "owner_cash_before_attribution": 105.07765939900061,
+              "ownership": 1,
+              "attributable_cash": 105.07765939900061
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 87.2609093015674,
+              "owner_margin": 0.29640718562874246,
+              "owner_cash_before_attribution": 25.864760541482546,
+              "ownership": 1,
+              "attributable_cash": 25.864760541482546
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 130.94241994048315,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 332.7277261644719,
+              "owner_margin": 0.34580838323353286,
+              "owner_cash_before_attribution": 115.06003704190567,
+              "ownership": 1,
+              "attributable_cash": 115.06003704190567
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 92.0602593131536,
+              "owner_margin": 0.29640718562874246,
+              "owner_cash_before_attribution": 27.287322371264086,
+              "ownership": 1,
+              "attributable_cash": 27.287322371264086
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 142.34735941316976,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 555.1191252084591,
+      "pv_terminal": 1322.8393848821286,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 1877.9585100905877,
+      "equity_value": 1877.9585100905877,
+      "value_per_share": 394.6949369673366,
+      "value_to_price": 1.1028232776857365,
+      "upside_downside": 0.10282327768573651,
+      "terminal_fraction_of_operating_pv": 0.7044028809871409,
+      "year_10_revenue": 424.7879854776255,
+      "year_10_owner_cash": 142.34735941316976,
+      "year_10_owner_cash_per_share": 29.917477808568677,
+      "year_10_exit_price": 658.1845117885108,
+      "irr_roots": [
+        0.10229249963476927
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 9.628,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 394.6949369673366,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 112.2,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 39.269999999999996,
+              "ownership": 1,
+              "attributable_cash": 39.269999999999996
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 52.800000000000004,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 18.48,
+              "ownership": 1,
+              "attributable_cash": 18.48
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 57.75,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 143.616,
+              "owner_margin": 0.3672904191616766,
+              "owner_cash_before_attribution": 52.74878083832335,
+              "ownership": 1,
+              "attributable_cash": 52.74878083832335
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 62.304,
+              "owner_margin": 0.3523203592814371,
+              "owner_cash_before_attribution": 21.95096766467066,
+              "ownership": 1,
+              "attributable_cash": 21.95096766467066
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 74.69974850299401,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 183.82848,
+              "owner_margin": 0.3845808383233532,
+              "owner_cash_before_attribution": 70.69691094610778,
+              "ownership": 1,
+              "attributable_cash": 70.69691094610778
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 73.51872,
+              "owner_margin": 0.3546407185628742,
+              "owner_cash_before_attribution": 26.072731688622753,
+              "ownership": 1,
+              "attributable_cash": 26.072731688622753
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 96.76964263473053,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 235.30045440000004,
+              "owner_margin": 0.4018712574850299,
+              "owner_cash_before_attribution": 94.56048949652694,
+              "ownership": 1,
+              "attributable_cash": 94.56048949652694
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 86.75208959999999,
+              "owner_margin": 0.3569610778443113,
+              "owner_cash_before_attribution": 30.967119408862267,
+              "ownership": 1,
+              "attributable_cash": 30.967119408862267
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 125.5276089053892,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 301.184581632,
+              "owner_margin": 0.4191616766467065,
+              "owner_cash_before_attribution": 126.24503421700597,
+              "ownership": 1,
+              "attributable_cash": 126.24503421700597
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 102.36746572799998,
+              "owner_margin": 0.35928143712574845,
+              "owner_cash_before_attribution": 36.77873020167664,
+              "ownership": 1,
+              "attributable_cash": 36.77873020167664
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 163.02376441868262,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 338.832654336,
+              "owner_margin": 0.4191616766467065,
+              "owner_cash_before_attribution": 142.02566349413172,
+              "ownership": 1,
+              "attributable_cash": 142.02566349413172
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 111.06870031487998,
+              "owner_margin": 0.35928143712574845,
+              "owner_cash_before_attribution": 39.90492226881915,
+              "ownership": 1,
+              "attributable_cash": 39.90492226881915
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 181.93058576295087,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 381.186736128,
+              "owner_margin": 0.4191616766467065,
+              "owner_cash_before_attribution": 159.77887143089816,
+              "ownership": 1,
+              "attributable_cash": 159.77887143089816
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 120.50953984164478,
+              "owner_margin": 0.35928143712574845,
+              "owner_cash_before_attribution": 43.296840661668774,
+              "ownership": 1,
+              "attributable_cash": 43.296840661668774
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 203.07571209256693,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 428.835078144,
+              "owner_margin": 0.4191616766467065,
+              "owner_cash_before_attribution": 179.75123035976046,
+              "ownership": 1,
+              "attributable_cash": 179.75123035976046
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 130.75285072818457,
+              "owner_margin": 0.35928143712574845,
+              "owner_cash_before_attribution": 46.977072117910616,
+              "ownership": 1,
+              "attributable_cash": 46.977072117910616
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 226.72830247767106,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 482.439462912,
+              "owner_margin": 0.4191616766467065,
+              "owner_cash_before_attribution": 202.22013415473052,
+              "ownership": 1,
+              "attributable_cash": 202.22013415473052
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 141.86684304008025,
+              "owner_margin": 0.35928143712574845,
+              "owner_cash_before_attribution": 50.97012324793302,
+              "ownership": 1,
+              "attributable_cash": 50.97012324793302
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 253.19025740266352,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "Semiconductor_AI_networking",
+              "revenue": 542.744395776,
+              "owner_margin": 0.4191616766467065,
+              "owner_cash_before_attribution": 227.49765092407182,
+              "ownership": 1,
+              "attributable_cash": 227.49765092407182
+            },
+            {
+              "component": "Infrastructure_software",
+              "revenue": 153.92552469848707,
+              "owner_margin": 0.35928143712574845,
+              "owner_cash_before_attribution": 55.30258372400732,
+              "ownership": 1,
+              "attributable_cash": 55.30258372400732
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 282.80023464807914,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 954.8496644896973,
+      "pv_terminal": 3344.820508623587,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 4299.670173113284,
+      "equity_value": 4299.670173113284,
+      "value_per_share": 903.6717471864827,
+      "value_to_price": 2.524963319371555,
+      "upside_downside": 1.524963319371555,
+      "terminal_fraction_of_operating_pv": 0.7779249044588193,
+      "year_10_revenue": 696.6699204744871,
+      "year_10_owner_cash": 282.80023464807914,
+      "year_10_owner_cash_per_share": 59.4367874417989,
+      "year_10_exit_price": 1664.230048370369,
+      "irr_roots": [
+        0.2097763972021197
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 9.628,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 903.6717471864827,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 422.8711326655235
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 464.6820063238339
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 506.49287998214425
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 359.1592824530429
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 394.6949369673366
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 430.2305914816303
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 306.5577637680592
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 336.9114885519668
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 367.2652133358743
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 331.5076072603298
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 394.6949369673366
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 457.8822666743433
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.2908894778475304,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 415.46835470245964
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 394.6949369673366
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 375.899939968892
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 358.8135790612151
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

@@ -1,0 +1,1084 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "278470",
+  "company_name": "APR",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/278470/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/278470/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 20,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/278470/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P1",
+  "structural_thesis": "뷰티 디바이스·화장품의 해외 확장",
+  "customer_and_moat": "디바이스 설치 기반·소모품 재구매는 해자 가설; 광고 의존 및 판매채널의 가격 경쟁을 구분",
+  "current_finding": "TTM 매출 2.294조원·OCF−PPE 0.287조원. H1 재고 0.165→0.370조원으로 현금전환 저하가 매출 고성장에 가려진다.",
+  "economic_finding": "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다.",
+  "capital_and_survival": "37.438155백만주 분모, 6월 현금0.094463조원에서0.05조원 유보를 추정 적용한다. 리스부채0.084908조원과 상각후원가 금융부채0.009112조원을 총부채로 대체하지 않는다. 광고·판매 수수료·운전자본 비용 이후 주당 현금으로 판단한다.",
+  "next_evidence": "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+  "permanent_loss_case": "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+  ],
+  "increase_evidence": [
+    "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "뷰티 디바이스·화장품의 해외 확장"
+      ],
+      "counter_evidence": [
+        "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "디바이스 설치 기반·소모품 재구매는 해자 가설; 광고 의존 및 판매채널의 가격 경쟁을 구분"
+      ],
+      "counter_evidence": [
+        "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 9,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "디바이스 설치 기반·소모품 재구매는 해자 가설; 광고 의존 및 판매채널의 가격 경쟁을 구분"
+      ],
+      "counter_evidence": [
+        "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 9,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM 매출 2.294조원·OCF−PPE 0.287조원. H1 재고 0.165→0.370조원으로 현금전환 저하가 매출 고성장에 가려진다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "37.438155백만주 분모, 6월 현금0.094463조원에서0.05조원 유보를 추정 적용한다. 리스부채0.084908조원과 상각후원가 금융부채0.009112조원을 총부채로 대체하지 않는다. 광고·판매 수수료·운전자본 비용 이후 주당 현금으로 판단한다."
+      ],
+      "counter_evidence": [
+        "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "37.438155백만주 분모, 6월 현금0.094463조원에서0.05조원 유보를 추정 적용한다. 리스부채0.084908조원과 상각후원가 금융부채0.009112조원을 총부채로 대체하지 않는다. 광고·판매 수수료·운전자본 비용 이후 주당 현금으로 판단한다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 394,000.00; Base/가격 1.09배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 10.1%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.21배, Bull/가격 3.28배. 2상태 손익분기 Bull 확률 25.8%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/278470/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/278470/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+        ],
+        "resolution_needed": "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+        ],
+        "resolution_needed": "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+        ],
+        "resolution_needed": "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.10072191497160554,
+      "required_owner_margin_delta": -0.012720166136675572,
+      "price_reference": 394000.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 7.5901174661941795,
+      "implied_year_10_owner_cash": 1.2144187945910687,
+      "residual_price": 4.0745362639427185e-10
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 2.6,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 0.23399999999999999,
+                "ownership": 1,
+                "attributable_cash": 0.23399999999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.23399999999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 2.6780000000000004,
+                "owner_margin": 0.0875,
+                "owner_cash_before_attribution": 0.234325,
+                "ownership": 1,
+                "attributable_cash": 0.234325
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.234325,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 2.75834,
+                "owner_margin": 0.08499999999999999,
+                "owner_cash_before_attribution": 0.23445889999999997,
+                "ownership": 1,
+                "attributable_cash": 0.23445889999999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.23445889999999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 2.8410902,
+                "owner_margin": 0.0825,
+                "owner_cash_before_attribution": 0.2343899415,
+                "ownership": 1,
+                "attributable_cash": 0.2343899415
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.2343899415,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 2.9263229060000007,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.23410583248000005,
+                "ownership": 1,
+                "attributable_cash": 0.23410583248000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.23410583248000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 2.984849364120001,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.23878794912960008,
+                "ownership": 1,
+                "attributable_cash": 0.23878794912960008
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.23878794912960008,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.0445463514024005,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.24356370811219205,
+                "ownership": 1,
+                "attributable_cash": 0.24356370811219205
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.24356370811219205,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.105437278430449,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.24843498227443594,
+                "ownership": 1,
+                "attributable_cash": 0.24843498227443594
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.24843498227443594,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.1675460239990576,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.25340368191992463,
+                "ownership": 1,
+                "attributable_cash": 0.25340368191992463
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.25340368191992463,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.230896944479039,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.25847175555832314,
+                "ownership": 1,
+                "attributable_cash": 0.25847175555832314
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.25847175555832314,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 1.4707824941835934,
+        "pv_terminal": 1.5944328138013066,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 3.0652153079849,
+        "equity_value": 3.0652153079849,
+        "value_per_share": 81874.10164803527,
+        "value_to_price": 0.20780228844679002,
+        "upside_downside": -0.79219771155321,
+        "terminal_fraction_of_operating_pv": 0.5201699240010325,
+        "year_10_revenue": 3.230896944479039,
+        "year_10_owner_cash": 0.25847175555832314,
+        "year_10_owner_cash_per_share": 6903.966169228242,
+        "year_10_exit_price": 110463.45870765187,
+        "irr_roots": [
+          -0.08922146421328897
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.044463145498,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 81874.10164803527,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.2,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 0.41600000000000004,
+                "ownership": 1,
+                "attributable_cash": 0.41600000000000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.41600000000000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.7119999999999997,
+                "owner_margin": 0.1375,
+                "owner_cash_before_attribution": 0.5104,
+                "ownership": 1,
+                "attributable_cash": 0.5104
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.5104,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 4.3059199999999995,
+                "owner_margin": 0.14500000000000002,
+                "owner_cash_before_attribution": 0.6243584,
+                "ownership": 1,
+                "attributable_cash": 0.6243584
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.6243584,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 4.994867199999999,
+                "owner_margin": 0.1525,
+                "owner_cash_before_attribution": 0.7617172479999998,
+                "ownership": 1,
+                "attributable_cash": 0.7617172479999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.7617172479999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 5.7940459519999985,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 0.9270473523199998,
+                "ownership": 1,
+                "attributable_cash": 0.9270473523199998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9270473523199998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 6.199629168639999,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 0.9919406669823998,
+                "ownership": 1,
+                "attributable_cash": 0.9919406669823998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9919406669823998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 6.633603210444798,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.0613765136711677,
+                "ownership": 1,
+                "attributable_cash": 1.0613765136711677
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0613765136711677,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 7.097955435175935,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.1356728696281497,
+                "ownership": 1,
+                "attributable_cash": 1.1356728696281497
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1356728696281497,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 7.594812315638251,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.2151699705021202,
+                "ownership": 1,
+                "attributable_cash": 1.2151699705021202
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.2151699705021202,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 8.12644917773293,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.3002318684372687,
+                "ownership": 1,
+                "attributable_cash": 1.3002318684372687
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.3002318684372687,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 5.016001063429004,
+        "pv_terminal": 11.028504774725027,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 16.04450583815403,
+        "equity_value": 16.04450583815403,
+        "value_per_share": 428560.2706157403,
+        "value_to_price": 1.0877164228825895,
+        "upside_downside": 0.08771642288258952,
+        "terminal_fraction_of_operating_pv": 0.6873695510458856,
+        "year_10_revenue": 8.12644917773293,
+        "year_10_owner_cash": 1.3002318684372687,
+        "year_10_owner_cash_per_share": 34730.12675002998,
+        "year_10_exit_price": 764062.7885006595,
+        "irr_roots": [
+          0.11077183769001764
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.044463145498,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 428560.2706157403,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 3.8,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 0.608,
+                "ownership": 1,
+                "attributable_cash": 0.608
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.608,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 4.826,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 0.82042,
+                "ownership": 1,
+                "attributable_cash": 0.82042
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.82042,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 6.12902,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.1032236,
+                "ownership": 1,
+                "attributable_cash": 1.1032236
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1032236,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 7.783855400000001,
+                "owner_margin": 0.19,
+                "owner_cash_before_attribution": 1.4789325260000001,
+                "ownership": 1,
+                "attributable_cash": 1.4789325260000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.4789325260000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 9.885496358000001,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 1.9770992716000002,
+                "ownership": 1,
+                "attributable_cash": 1.9770992716000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.9770992716000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 11.071755920960003,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 2.2143511841920005,
+                "ownership": 1,
+                "attributable_cash": 2.2143511841920005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.2143511841920005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 12.400366631475203,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 2.4800733262950407,
+                "ownership": 1,
+                "attributable_cash": 2.4800733262950407
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.4800733262950407,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 13.88841062725223,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 2.777682125450446,
+                "ownership": 1,
+                "attributable_cash": 2.777682125450446
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.777682125450446,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 15.555019902522499,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 3.1110039805045,
+                "ownership": 1,
+                "attributable_cash": 3.1110039805045
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.1110039805045,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "beauty_devices_cosmetics",
+                "revenue": 17.421622290825198,
+                "owner_margin": 0.2,
+                "owner_cash_before_attribution": 3.4843244581650397,
+                "ownership": 1,
+                "attributable_cash": 3.4843244581650397
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.4843244581650397,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 10.778532240313764,
+        "pv_terminal": 37.614021565140135,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 48.3925538054539,
+        "equity_value": 48.3925538054539,
+        "value_per_share": 1292599.8571632043,
+        "value_to_price": 3.280710297368539,
+        "upside_downside": 2.280710297368539,
+        "terminal_fraction_of_operating_pv": 0.7772687863582225,
+        "year_10_revenue": 17.421622290825198,
+        "year_10_owner_cash": 3.4843244581650397,
+        "year_10_owner_cash_per_share": 93068.80796249279,
+        "year_10_exit_price": 2605926.622949798,
+        "irr_roots": [
+          0.2589698772039871
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.044463145498,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 1292599.8571632043,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/278470/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "consumer_brand",
+    "missing_data": [
+      "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 68,
+  "business_quality_75": 53,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "뷰티 디바이스·화장품의 해외 확장",
+        "response": "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "디바이스 설치 기반·소모품 재구매는 해자 가설; 광고 의존 및 판매채널의 가격 경쟁을 구분",
+        "response": "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "TTM 매출 2.294조원·OCF−PPE 0.287조원. H1 재고 0.165→0.370조원으로 현금전환 저하가 매출 고성장에 가려진다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "37.438155백만주 분모, 6월 현금0.094463조원에서0.05조원 유보를 추정 적용한다. 리스부채0.084908조원과 상각후원가 금융부채0.009112조원을 총부채로 대체하지 않는다. 광고·판매 수수료·운전자본 비용 이후 주당 현금으로 판단한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 394,000.00; Base/가격 1.09배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 10.1%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 68.7%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "FY25와 H1 비교 영업이익은 정정값을 사용한다. 회계상 제품개발 R&D 비용을 Capex로 다시 더하지 않는다.",
+      "37.438155백만주 분모, 6월 현금0.094463조원에서0.05조원 유보를 추정 적용한다. 리스부채0.084908조원과 상각후원가 금융부채0.009112조원을 총부채로 대체하지 않는다. 광고·판매 수수료·운전자본 비용 이후 주당 현금으로 판단한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "TTM 매출 2.294조원·OCF−PPE 0.287조원. H1 재고 0.165→0.370조원으로 현금전환 저하가 매출 고성장에 가려진다.",
+    "falsifiers": [
+      "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "low_quality_growth",
+      "incremental_roic_collapse",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

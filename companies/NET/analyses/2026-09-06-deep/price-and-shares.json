@@ -1,0 +1,11 @@
+{
+  "ticker": "NET",
+  "price": 278.92,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 355.931,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "6월 A322.176M+B33.755M=355.931M주. 8월 전환채 발행은 이자 0%라도 희석·만기 의무가 사라진 것이 아니다. 동일 SBC의 현금 차감과 미래 연간희석을 이중 적용하지 않는다."
+}

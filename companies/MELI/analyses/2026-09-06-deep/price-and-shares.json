@@ -1,0 +1,11 @@
+{
+  "ticker": "MELI",
+  "price": 1978.36,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 50.697,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "현금3.649B와 제한현금 포함16.763B를 구분한다. 금융부채·신용자산을 양쪽 모두 제외하지 않은 채 한쪽만 가치 가산하지 않는다. 본 모델의 owner margin은 대손·필요 금융자본 재투자 후 현금이다."
+}

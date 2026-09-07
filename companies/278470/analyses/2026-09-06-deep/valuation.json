@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "KRW trillion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.10072191497160554,
+    "required_owner_margin_delta": -0.012720166136675572,
+    "price_reference": 394000.0,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.1,
+    "implied_year_10_revenue": 7.5901174661941795,
+    "implied_year_10_owner_cash": 1.2144187945910687,
+    "residual_price": 4.0745362639427185e-10
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.1,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 2.6,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 0.23399999999999999,
+              "ownership": 1,
+              "attributable_cash": 0.23399999999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.23399999999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 2.6780000000000004,
+              "owner_margin": 0.0875,
+              "owner_cash_before_attribution": 0.234325,
+              "ownership": 1,
+              "attributable_cash": 0.234325
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.234325,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 2.75834,
+              "owner_margin": 0.08499999999999999,
+              "owner_cash_before_attribution": 0.23445889999999997,
+              "ownership": 1,
+              "attributable_cash": 0.23445889999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.23445889999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 2.8410902,
+              "owner_margin": 0.0825,
+              "owner_cash_before_attribution": 0.2343899415,
+              "ownership": 1,
+              "attributable_cash": 0.2343899415
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.2343899415,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 2.9263229060000007,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 0.23410583248000005,
+              "ownership": 1,
+              "attributable_cash": 0.23410583248000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.23410583248000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 2.984849364120001,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 0.23878794912960008,
+              "ownership": 1,
+              "attributable_cash": 0.23878794912960008
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.23878794912960008,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.0445463514024005,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 0.24356370811219205,
+              "ownership": 1,
+              "attributable_cash": 0.24356370811219205
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.24356370811219205,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.105437278430449,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 0.24843498227443594,
+              "ownership": 1,
+              "attributable_cash": 0.24843498227443594
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.24843498227443594,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.1675460239990576,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 0.25340368191992463,
+              "ownership": 1,
+              "attributable_cash": 0.25340368191992463
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.25340368191992463,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.230896944479039,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 0.25847175555832314,
+              "ownership": 1,
+              "attributable_cash": 0.25847175555832314
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.25847175555832314,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 1.4707824941835934,
+      "pv_terminal": 1.5944328138013066,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 3.0652153079849,
+      "equity_value": 3.0652153079849,
+      "value_per_share": 81874.10164803527,
+      "value_to_price": 0.20780228844679002,
+      "upside_downside": -0.79219771155321,
+      "terminal_fraction_of_operating_pv": 0.5201699240010325,
+      "year_10_revenue": 3.230896944479039,
+      "year_10_owner_cash": 0.25847175555832314,
+      "year_10_owner_cash_per_share": 6903.966169228242,
+      "year_10_exit_price": 110463.45870765187,
+      "irr_roots": [
+        -0.08922146421328897
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.044463145498,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 81874.10164803527,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.1,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.2,
+              "owner_margin": 0.13,
+              "owner_cash_before_attribution": 0.41600000000000004,
+              "ownership": 1,
+              "attributable_cash": 0.41600000000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.41600000000000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.7119999999999997,
+              "owner_margin": 0.1375,
+              "owner_cash_before_attribution": 0.5104,
+              "ownership": 1,
+              "attributable_cash": 0.5104
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.5104,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 4.3059199999999995,
+              "owner_margin": 0.14500000000000002,
+              "owner_cash_before_attribution": 0.6243584,
+              "ownership": 1,
+              "attributable_cash": 0.6243584
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.6243584,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 4.994867199999999,
+              "owner_margin": 0.1525,
+              "owner_cash_before_attribution": 0.7617172479999998,
+              "ownership": 1,
+              "attributable_cash": 0.7617172479999998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.7617172479999998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 5.7940459519999985,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 0.9270473523199998,
+              "ownership": 1,
+              "attributable_cash": 0.9270473523199998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.9270473523199998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 6.199629168639999,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 0.9919406669823998,
+              "ownership": 1,
+              "attributable_cash": 0.9919406669823998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.9919406669823998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 6.633603210444798,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 1.0613765136711677,
+              "ownership": 1,
+              "attributable_cash": 1.0613765136711677
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.0613765136711677,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 7.097955435175935,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 1.1356728696281497,
+              "ownership": 1,
+              "attributable_cash": 1.1356728696281497
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1356728696281497,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 7.594812315638251,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 1.2151699705021202,
+              "ownership": 1,
+              "attributable_cash": 1.2151699705021202
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.2151699705021202,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 8.12644917773293,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 1.3002318684372687,
+              "ownership": 1,
+              "attributable_cash": 1.3002318684372687
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.3002318684372687,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 5.016001063429004,
+      "pv_terminal": 11.028504774725027,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 16.04450583815403,
+      "equity_value": 16.04450583815403,
+      "value_per_share": 428560.2706157403,
+      "value_to_price": 1.0877164228825895,
+      "upside_downside": 0.08771642288258952,
+      "terminal_fraction_of_operating_pv": 0.6873695510458856,
+      "year_10_revenue": 8.12644917773293,
+      "year_10_owner_cash": 1.3002318684372687,
+      "year_10_owner_cash_per_share": 34730.12675002998,
+      "year_10_exit_price": 764062.7885006595,
+      "irr_roots": [
+        0.11077183769001764
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.044463145498,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 428560.2706157403,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.1,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 3.8,
+              "owner_margin": 0.16,
+              "owner_cash_before_attribution": 0.608,
+              "ownership": 1,
+              "attributable_cash": 0.608
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.608,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 4.826,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 0.82042,
+              "ownership": 1,
+              "attributable_cash": 0.82042
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.82042,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 6.12902,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 1.1032236,
+              "ownership": 1,
+              "attributable_cash": 1.1032236
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1032236,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 7.783855400000001,
+              "owner_margin": 0.19,
+              "owner_cash_before_attribution": 1.4789325260000001,
+              "ownership": 1,
+              "attributable_cash": 1.4789325260000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.4789325260000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 9.885496358000001,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 1.9770992716000002,
+              "ownership": 1,
+              "attributable_cash": 1.9770992716000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.9770992716000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 11.071755920960003,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 2.2143511841920005,
+              "ownership": 1,
+              "attributable_cash": 2.2143511841920005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.2143511841920005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 12.400366631475203,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 2.4800733262950407,
+              "ownership": 1,
+              "attributable_cash": 2.4800733262950407
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.4800733262950407,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 13.88841062725223,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 2.777682125450446,
+              "ownership": 1,
+              "attributable_cash": 2.777682125450446
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.777682125450446,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 15.555019902522499,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 3.1110039805045,
+              "ownership": 1,
+              "attributable_cash": 3.1110039805045
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.1110039805045,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "beauty_devices_cosmetics",
+              "revenue": 17.421622290825198,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 3.4843244581650397,
+              "ownership": 1,
+              "attributable_cash": 3.4843244581650397
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.4843244581650397,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 10.778532240313764,
+      "pv_terminal": 37.614021565140135,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 48.3925538054539,
+      "equity_value": 48.3925538054539,
+      "value_per_share": 1292599.8571632043,
+      "value_to_price": 3.280710297368539,
+      "upside_downside": 2.280710297368539,
+      "terminal_fraction_of_operating_pv": 0.7772687863582225,
+      "year_10_revenue": 17.421622290825198,
+      "year_10_owner_cash": 3.4843244581650397,
+      "year_10_owner_cash_per_share": 93068.80796249279,
+      "year_10_exit_price": 2605926.622949798,
+      "irr_roots": [
+        0.2589698772039871
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.044463145498,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 1292599.8571632043,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 407394.351705436
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0,
+      "value_per_share": 502883.49213769886
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 598372.6325699617
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 347051.2630027957
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0,
+      "value_per_share": 428560.2706157403
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 510069.27822868485
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 297103.3982557059
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0,
+      "value_per_share": 367034.6025726185
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 436965.8068895312
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 361610.43406818475
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 428560.2706157403
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 495510.1071632959
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.25780065958797893,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 451116.0743323582
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 428560.2706157403
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 408152.6386816574
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 389600.2460143093
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

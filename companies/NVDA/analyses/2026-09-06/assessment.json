@@ -1,0 +1,467 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "NVDA",
+  "company_name": "NVIDIA",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "companies/NVDA/decision-history.md",
+    "companies/NVDA/decision.json",
+    "companies/NVDA/evidence.jsonl",
+    "companies/NVDA/hard-veto.json",
+    "companies/NVDA/re-evaluation-2026-09-05.md",
+    "companies/NVDA/red-team.md",
+    "companies/NVDA/scorecard.json",
+    "companies/NVDA/thesis.md",
+    "companies/NVDA/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 9,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    }
+  ],
+  "historical_score_100": 73,
+  "review_method": "저장 증거 재검토; 신규 원문 전체 재실사 아님",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "NVIDIA는 GPU, CPU, DPU, NVLink, 네트워킹, CUDA와 시스템 소프트웨어를 결합해 데이터센터를 단일 컴퓨팅 단위로 재정의하고 있다.",
+        "FY2027 Q2 Data Center 매출은 전년 동기 대비 117% 증가한 890억 달러였고, Blackwell Ultra가 성장을 주도했다.",
+        "2026-09-05 재심사 의견: 최종 AI 수요의 자생성과 순환성 불확실성을 반영해 만점 15→14."
+      ],
+      "counter_evidence": [
+        "AI 인프라 수요가 최종 애플리케이션 수익보다 선구매와 용량 선점에 의해 과장됐을 가능성이 있다.",
+        "대형 클라우드 고객은 자체 가속기와 소프트웨어를 개발하며, 중국에서는 현지 생태계가 확대되고 있다.",
+        "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "가속 컴퓨팅 전체 시장의 독립적인 5~10년 수요 추정",
+        "최종 사용자 워크로드별 GPU 사용률과 경제적 투자회수기간",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Blackwell과 Rubin은 칩뿐 아니라 랙, 인터커넥트, 네트워킹과 소프트웨어를 함께 최적화하는 풀스택 제품이다.",
+        "Q2 Hyperscale 매출은 전년 동기 대비 102%, AI Clouds, Industrial & Enterprise 매출은 138% 증가했다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "회사는 고객별 AI 프로젝트 수익률, 토큰당 총비용과 재구매율을 공시하지 않는다.",
+        "대형 고객의 자체 ASIC, AMD·Huawei 등 대체재와 높은 시스템 가격은 고객 협상력과 장기 가격결정력을 제한할 수 있다."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "고객 코호트별 재구매율·가동률·투자회수기간",
+        "동일 워크로드에서 경쟁 대안 대비 총소유비용의 독립 검증",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "FY2026 Compute & Networking 매출은 67% 증가했고 Q2 FY2027에는 다시 114% 증가해 제품 전환 중에도 플랫폼 채택이 가속됐다.",
+        "GPU, NVLink, InfiniBand/Ethernet, CUDA와 도메인 소프트웨어의 공동 설계는 단일 칩 성능을 넘어서는 전환비용과 생태계 효과를 만든다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "클라우드 사업자가 자체 CPU·XPU를 설계하고 NVIDIA는 NVLink Fusion으로 이를 수용하고 있어 연산칩 독점력 일부가 네트워킹·소프트웨어로 이동할 수 있다.",
+        "수출통제로 중국 데이터센터 시장에서 사실상 배제되면서 현지 경쟁자의 개발자·고객 생태계가 커지고 있다."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "데이터센터 가속기 및 네트워킹 시장점유율의 독립 시계열",
+        "CUDA 워크로드의 경쟁 플랫폼 이전률과 소프트웨어 유료화 비중",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 12,
+      "max_score": 15,
+      "evidence": [
+        "FY2025에서 FY2026로 매출이 854억 달러 증가하는 동안 영업이익은 489억 달러 증가해 약 57%의 증분 영업마진을 기록했다.",
+        "TTM 단순 FCF는 약 1,269억 달러, TTM FCF 마진은 약 41.9%이며 H1 FY2027 FCF는 전년 동기보다 303억 달러 증가했다.",
+        "2026-09-05 재심사 의견: Fabless라는 이유로 공급·클라우드 약정/고객지원에 투입된 자본을 제외할 수 없음: 13→12."
+      ],
+      "counter_evidence": [
+        "H1 FY2027 매출이 96% 증가했지만 AR은 246억 달러, 재고는 102억 달러 증가했고 Q2 DSO는 전분기 45일에서 60일로 늘었다.",
+        "공급·클라우드·리스·투자·CapEx 약정은 4,220억 달러이고, 지분증권 매입 424억 달러는 회사 정의 FCF에서 차감되지 않는다.",
+        "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "공급·클라우드·보증 약정의 프로젝트별 예상 IRR과 회수기간",
+        "AI 클라우드 고객별 제3자 사용률과 NVIDIA 제품대금 현금회수 추이",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "창업자 CEO가 1993년부터 회사를 이끌며 GPU, CUDA, Mellanox, Blackwell로 반복적인 R&D 성과를 만들었고 2026년 3월 기준 지분 3.58%를 보유했다.",
+        "이사회 10명 중 9명이 Nasdaq 기준 독립 이사이고 독립 Lead Director, clawback, 임원 주식보유·헤지금지 정책이 있다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "회사는 Q2에 250억 달러 채권을 발행하면서 H1에 자사주와 배당으로 461억 달러를 환원하고 지분증권에 424억 달러를 투자했다.",
+        "현 보유·약정 지분투자, AI 클라우드 구매약정과 최대 1,085억 달러 보증은 고객 생태계 지원과 매출 창출의 경계를 흐린다."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "생태계 투자·보증의 프로젝트별 승인 기준과 사후 수익률",
+        "2026년 이후 자사주 매입가격 대비 내재가치에 관한 이사회 판단",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "2026년 7월 말 현금·현금성자산과 시장성 채무증권은 566억 달러이고 시장성 지분증권은 별도로 428억 달러였다.",
+        "TTM 영업현금흐름은 약 1,344억 달러이며 Q2 총마진 75%, 영업마진 66%로 자체 자금조달력이 매우 높다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "4,220억 달러의 미래 약정과 조건 충족 시 최대 1,085억 달러의 보증 노출은 현재 유동자산을 크게 넘는다.",
+        "AR 증가와 장기 결제조건은 매출 성장과 현금 유입 시점의 차이를 키웠고, 공급 약정은 수요 오판 시 재고 손실로 전환된다."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "SB Energy 보증의 단계별 실제 발효 확률과 회수권 가치",
+        "미개시 리스 재양도 가능성 및 상대방 신용도",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "evidence": [
+        "현재가 227.23달러에서 중앙 역산 DCF는 10년 매출 CAGR 약 14.2%~17.1%와 35%~45%의 장기 FCF 마진을 요구한다.",
+        "Q3 FY2027 회사 매출 가이던스 1,080억 달러는 전분기 대비 약 12% 성장을 뜻하며 단기 모멘텀은 내재 기대를 지지한다.",
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
+      ],
+      "counter_evidence": [
+        "약 5.52조 달러의 시가총액은 10년 이상 높은 성장과 현재에 가까운 FCF 마진 지속을 이미 반영한다.",
+        "Bear 가치 92달러 대비 하방이 약 60%여서 실행·고객 신용·규제 위험을 흡수할 안전마진이 없다."
+      ],
+      "confidence": 0.5,
+      "missing_data": [
+        "FY2028 이후 공급 약정과 보증의 현금흐름 영향",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+        "최종 고객의 AI 매출과 데이터센터 가동률에 대한 독립 자료"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "evidence": [
+        "Bull 시나리오는 AI 추론·에이전트·물리 AI가 확장되고 플랫폼 지배력이 유지될 경우 주당 약 447달러의 가치 경로를 제공한다.",
+        "NVIDIA는 하드웨어, 네트워킹과 소프트웨어 전반에서 시장 확대를 스스로 촉진할 수 있다.",
+        "2026-09-05 재심사 의견: 크게 성장한 지분가치와 서로 연동된 꼬리손실을 반영: 5→4."
+      ],
+      "counter_evidence": [
+        "Bear/Base/Bull 92/221/447달러와 주관적 확률 30%/50%/20%의 확률가중 가치는 약 227달러로 현재가와 같다.",
+        "영구손실은 파산보다 높은 진입가격, 고객·공급 약정, 해자 약화가 겹쳐 장기간 자본비용을 밑도는 형태로 발생할 가능성이 크다.",
+        "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+      ],
+      "confidence": 0.5,
+      "missing_data": [
+        "경쟁 가속기 확산 시 가격탄력성과 고객 이탈률",
+        "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+        "새 소프트웨어·서비스 매출과 총이익 기여도"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/NVDA/scorecard.json"
+      ]
+    }
+  },
+  "structural_thesis": "NVIDIA는 GPU, CPU, DPU, NVLink, 네트워킹, CUDA와 시스템 소프트웨어를 결합해 데이터센터를 단일 컴퓨팅 단위로 재정의하고 있다.",
+  "customer_and_moat": "FY2026 Compute & Networking 매출은 67% 증가했고 Q2 FY2027에는 다시 114% 증가해 제품 전환 중에도 플랫폼 채택이 가속됐다.",
+  "current_finding": "고객 지원·공급·클라우드·보증을 같은 AI 투자 사이클에 연결된 스트레스로 평가한다. 서로 독립적인 확률로 곱하거나 명목 약정을 즉시 손실 전액으로 처리하지 않는다.",
+  "economic_finding": "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다.",
+  "capital_and_survival": "4,220억 달러의 미래 약정과 조건 충족 시 최대 1,085억 달러의 보증 노출은 현재 유동자산을 크게 넘는다.",
+  "next_evidence": "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+  "permanent_loss_case": "수요 감속, 재고·공급약정 손실, 투자자산 평가하락과 보증 실행이 같은 고객군에서 함께 발생한다. 이 위험을 독립 확률로 곱해 축소하지 않는다.",
+  "falsifiers": [
+    "고객의 자금조달 약화와 가동률 저하, 주문 취소가 동시에 발생하고 공급/보증 약정이 순현금과 정상화 FCF를 훼손한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "increase_evidence": [
+    "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+    "사업 악화 없이 검증된 주당 가치 대비 안전마진 확보"
+  ],
+  "sell_evidence": [
+    "고객의 자금조달 약화와 가동률 저하, 주문 취소가 동시에 발생하고 공급/보증 약정이 순현금과 정상화 FCF를 훼손한다.",
+    "중대한 경영진·회계 신뢰 훼손"
+  ],
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "FY2026 10-K는 PwC의 무수정 감사의견과 내부통제 유효성 의견을 포함한다.",
+          "Q2 FY2027 10-Q는 공시통제·내부통제의 중대한 변경이나 재작성 사항을 보고하지 않았다.",
+          "GAAP 순이익에 포함된 대규모 지분증권 평가이익은 별도 공시됐고 회사는 이를 Non-GAAP에서 제외했다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.78,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "TTM 영업현금흐름은 약 1,344억 달러이고 2026년 7월 말 현금·현금성자산 및 시장성 채무증권은 566억 달러였다.",
+          "Q2에 250억 달러 채권을 발행했지만 회사의 영업 생존이 외부자본 조달에 구조적으로 의존한다는 증거는 없다.",
+          "다만 일부 AI 클라우드·모델 고객의 인프라 구축은 NVIDIA의 투자·구매약정·신용지원에 의존할 수 있다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.78,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "발행주식수는 2025년 1월 244.77억 주, 2026년 1월 243.04억 주, 2026년 7월 241.47억 주로 감소했다.",
+          "H1 FY2027 SBC 40억 달러와 주식보상 세금 45억 달러를 398억 달러 자사주 매입이 상쇄했다."
+        ],
+        "severity": "LOW",
+        "confidence": 0.78,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Q2 Data Center 매출 890억 달러는 전년 동기보다 117% 증가했고 총마진은 75%여서 제품 수요와 경제성은 강하다.",
+          "동시에 NVIDIA는 AI 클라우드가 NVIDIA 인프라를 구매하면 360억 달러의 클라우드 서비스를 약정하고, 고객·모델사·금융사에 지분투자하며, 데이터센터 리스와 보증을 제공한다.",
+          "AR은 반년 동안 246억 달러 증가했고 Q2 DSO는 전분기 45일에서 60일로 늘어 매출 성장의 독립적 현금회수 품질을 추가 검증해야 한다.",
+          "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.78,
+        "resolution_needed": "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "과거 증분 영업마진과 FCF 성장은 매우 높지만 H1 FY2027 OCF 744억 달러는 영업이익 1,173억 달러보다 낮았다.",
+          "공급 약정은 2026년 1월 952억 달러에서 7월 2,790억 달러로 급증했고, 회사 정의 FCF가 차감하지 않는 지분증권 매입도 H1에 424억 달러였다.",
+          "대규모 장기약정의 투자수익률이 아직 관찰되지 않아 높은 과거 ROIC를 미래에 그대로 외삽할 수 없다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.78,
+        "resolution_needed": "Rubin 전환 이후 공급약정 대비 매출·총이익·현금회수, 재고충당금, 파트너 투자수익을 코호트로 확인한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Blackwell Ultra 확산, 750만 명 이상의 개발자, Q2 Compute & Networking 114% 성장과 75% 총마진은 해자 확장을 지지한다.",
+          "자체 ASIC, AMD·Huawei와 수출통제는 위협이지만 현재 공시에는 지속적인 경쟁우위 수축을 입증하는 매출·마진 추세가 없다."
+        ],
+        "severity": "MEDIUM",
+        "confidence": 0.78,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "중앙 역산 DCF에서 현재가는 10년 매출 CAGR 약 14.2%~17.1%와 장기 FCF 마진 35%~45%를 요구한다.",
+          "요구치는 공격적이나 Q2 매출 106% 성장, Q3 1,080억 달러 가이드와 플랫폼 리더십을 고려하면 비현실적인 Bull Case 이상이라고 단정할 수 없다.",
+          "Base 가치 약 221달러가 현재가 227.23달러에 근접한다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.72,
+        "resolution_needed": null,
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Q2 Data Center는 총매출의 약 92.5%였고 H1 FY2027 직접 고객 세 곳이 각각 총매출의 16%, 15%, 13%를 차지했다.",
+          "한 AI 연구·배포 회사가 고객의 클라우드 서비스를 통해 의미 있는 간접 수요를 만들었다고 회사가 추정했다.",
+          "중국 데이터센터 컴퓨팅은 Q3 가이던스에 포함되지 않아 단일 지역 충격은 현재 숫자에 일부 반영됐지만 제품·고객 집중은 여전히 높다.",
+          "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.78,
+        "resolution_needed": "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Bear DCF 가치는 약 92달러로 현재가보다 약 60% 낮아 파산 없이도 큰 영구자본손실이 가능하다.",
+          "4,220억 달러 미래약정과 최대 1,085억 달러 보증은 고객수요 둔화나 신용사건 발생 시 하방을 증폭할 수 있다.",
+          "강한 현금창출과 순현금·투자자산은 단기 지급불능 가능성을 낮춘다.",
+          "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+        ],
+        "severity": "HIGH",
+        "confidence": 0.78,
+        "resolution_needed": "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+        "basis": "REVIEWED_EXISTING_FILE_NOT_NEW_AUDIT"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "HISTORICAL_MODEL_NOT_PROMOTED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+    ],
+    "source_path": "companies/NVDA/valuation.json"
+  },
+  "total_score_100": null,
+  "business_quality_75": 63,
+  "source_quality": {
+    "status": "STORED_ASSERTIONS_AND_INHERITED_RESEARCH",
+    "primary_document_reaudit": "선별 공식 IR 교차검증만 수행. 모든 PDF·웹 원문을 새로 감사했다는 뜻이 아님.",
+    "fact_estimate_inference_opinion": "원자료 숫자=보고 주장; 산식=계산치; 사업 연결=추론; 점수/판정=의견. 미래 전망은 사실 아님.",
+    "missing_data_rule": "unknown을 0·PASS로 대체하지 않으며 자료 결손을 기업 실패로 단정하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "claim_type": "inference",
+        "challenge": "사이클/선투자를 구조적 수요로 오인할 수 있다: NVIDIA는 GPU, CPU, DPU, NVLink, 네트워킹, CUDA와 시스템 소프트웨어를 결합해 데이터센터를 단일 컴퓨팅 단위로 재정의하고 있다."
+      },
+      {
+        "id": 2,
+        "claim_type": "inference",
+        "challenge": "시장 확대가 주당 현금으로 귀속되지 않을 수 있다: 첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다."
+      },
+      {
+        "id": 3,
+        "claim_type": "inference",
+        "challenge": "매출 증가 자체는 해자 확대의 증명이 아니다: FY2026 Compute & Networking 매출은 67% 증가했고 Q2 FY2027에는 다시 114% 증가해 제품 전환 중에도 플랫폼 채택이 가속됐다."
+      },
+      {
+        "id": 4,
+        "claim_type": "inference",
+        "challenge": "고객 편익의 독립 검증과 경쟁 대안의 총비용 자료가 부족할 수 있다."
+      },
+      {
+        "id": 5,
+        "claim_type": "inference",
+        "challenge": "증분 ROIC는 이익률이 아니라 신규 투입자본 대비 세후 현금수익이다: 공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다."
+      },
+      {
+        "id": 6,
+        "claim_type": "inference",
+        "challenge": "SBC·환매·기존 미행사 보상·신주발행을 동일 비용 두 번 차감하거나 모두 누락할 수 있다."
+      },
+      {
+        "id": 7,
+        "claim_type": "inference",
+        "challenge": "경영진의 인수·설비·환원 행동을 진술과 대조해야 한다: 4,220억 달러의 미래 약정과 조건 충족 시 최대 1,085억 달러의 보증 노출은 현재 유동자산을 크게 넘는다."
+      },
+      {
+        "id": 8,
+        "claim_type": "inference",
+        "challenge": "훌륭한 사업 가설을 시장도 이미 알고 있을 수 있다. 현재 가격 기대차이는 별도 입증 대상이다."
+      },
+      {
+        "id": 9,
+        "claim_type": "inference",
+        "challenge": "정상화 owner 마진·지속기간·만기 가치와 현금 시점이 민감도 핵심이다. 미완성 모형은 목표가를 제시하지 않는다."
+      },
+      {
+        "id": 10,
+        "claim_type": "inference",
+        "challenge": "수요 감속, 재고·공급약정 손실, 투자자산 평가하락과 보증 실행이 같은 고객군에서 함께 발생한다. 이 위험을 독립 확률로 곱해 축소하지 않는다."
+      }
+    ],
+    "strongest_bear_thesis": "수요 감속, 재고·공급약정 손실, 투자자산 평가하락과 보증 실행이 같은 고객군에서 함께 발생한다. 이 위험을 독립 확률로 곱해 축소하지 않는다.",
+    "three_hidden_assumptions": [
+      "FY2026 Compute & Networking 매출은 67% 증가했고 Q2 FY2027에는 다시 114% 증가해 제품 전환 중에도 플랫폼 채택이 가속됐다.",
+      "첨부 Q2 10-Q의 공급·용량 약정 2,790억 달러와 8월 SB Energy 보증 최대 1,050억 달러를 분리해야 한다. 보증은 조건부·장기 노출이며 전액 즉시 손실도, 무위험도 아니다. 투자자산 평가이익을 반복 영업이익으로 자본화하지 않는다.",
+      "4,220억 달러의 미래 약정과 조건 충족 시 최대 1,085억 달러의 보증 노출은 현재 유동자산을 크게 넘는다."
+    ],
+    "underweighted_evidence": "고객 지원·공급·클라우드·보증을 같은 AI 투자 사이클에 연결된 스트레스로 평가한다. 서로 독립적인 확률로 곱하거나 명목 약정을 즉시 손실 전액으로 처리하지 않는다.",
+    "falsifiers": [
+      "고객의 자금조달 약화와 가동률 저하, 주문 취소가 동시에 발생하고 공급/보증 약정이 순현금과 정상화 FCF를 훼손한다.",
+      "중대한 경영진·회계 신뢰 훼손"
+    ],
+    "confidence": 0.55,
+    "verdict": "REVISE",
+    "independence": "단일 분석자의 적대적 재검토; 독립 검토자/멀티 에이전트 합의가 아님"
+  },
+  "completion_gate": {
+    "passed": false,
+    "open_items": [
+      "공급·클라우드 약정 만기/취소권, 보증 발동·회수 조건과 투자관계 고객 매출을 대조하고 고객 최종 현금창출로 수요를 검증한다.",
+      "시장 기대 역산·현금 브리지 및 Bear/Base/Bull",
+      "전 항목 점수 및 근거 검증"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

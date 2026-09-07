@@ -3,69 +3,248 @@
   "as_of": "2026-09-04",
   "current_price": 213.81,
   "implied_expectations": {
-    "price_timestamp_utc": "2026-09-04T14:39:12Z",
-    "period_end_basic_shares_m": 359.075,
-    "equity_value_proxy_usd_b": 76.774,
-    "market_data_market_cap_usd_b": 79.328,
-    "cash_and_marketable_securities_usd_b": 4.985,
-    "convertible_notes_principal_usd_b": 1.0,
-    "net_cash_proxy_usd_b": 3.985,
-    "enterprise_value_proxy_usd_b": 72.788,
-    "ttm_calculations_usd_b": {
-      "revenue": 3.966725,
-      "gaap_operating_income": 0.016329,
-      "operating_cash_flow": 1.229034,
-      "reported_free_cash_flow": 1.072769,
-      "total_stock_based_compensation": 0.850943
+    "latest_review": "re-evaluation-2026-09-05.md",
+    "review_as_of": "2026-09-05",
+    "reference_price_is_frozen": true,
+    "current_required_return": 0.09,
+    "legacy_implied_expectations_NOT_REVALIDATED": {
+      "price_timestamp_utc": "2026-09-04T14:39:12Z",
+      "period_end_basic_shares_m": 359.075,
+      "equity_value_proxy_usd_b": 76.774,
+      "market_data_market_cap_usd_b": 79.328,
+      "cash_and_marketable_securities_usd_b": 4.985,
+      "convertible_notes_principal_usd_b": 1.0,
+      "net_cash_proxy_usd_b": 3.985,
+      "enterprise_value_proxy_usd_b": 72.788,
+      "ttm_calculations_usd_b": {
+        "revenue": 3.966725,
+        "gaap_operating_income": 0.016329,
+        "operating_cash_flow": 1.229034,
+        "reported_free_cash_flow": 1.072769,
+        "total_stock_based_compensation": 0.850943
+      },
+      "current_multiples": {
+        "equity_value_to_ttm_revenue": 19.35,
+        "enterprise_value_to_ttm_revenue": 18.35,
+        "equity_value_to_reported_ttm_fcf": 71.57
+      },
+      "owner_economics": {
+        "reported_ttm_fcf_margin": 0.2704,
+        "ttm_gaap_operating_margin": 0.0041,
+        "ttm_total_sbc_to_revenue": 0.2145,
+        "ttm_total_sbc_to_reported_fcf": 0.7932,
+        "june_period_end_share_growth_yoy": 0.0297
+      },
+      "reverse_dcf": {
+        "forecast_years": 10,
+        "discount_rate": 0.095,
+        "terminal_growth_rate": 0.03,
+        "annual_share_dilution": 0.025,
+        "starting_revenue_usd_b": 3.966725,
+        "starting_reported_fcf_margin": 0.2704,
+        "net_cash_usd_b": 3.985438,
+        "required_constant_revenue_cagr_by_year_10_fcf_margin": {
+          "25_percent_margin": {
+            "revenue_cagr": 0.2649,
+            "year_10_revenue_usd_b": 41.576,
+            "year_10_fcf_usd_b": 10.394
+          },
+          "30_percent_margin": {
+            "revenue_cagr": 0.242,
+            "year_10_revenue_usd_b": 34.643,
+            "year_10_fcf_usd_b": 10.393
+          },
+          "35_percent_margin": {
+            "revenue_cagr": 0.2228,
+            "year_10_revenue_usd_b": 29.654,
+            "year_10_fcf_usd_b": 10.379
+          },
+          "40_percent_margin": {
+            "revenue_cagr": 0.2064,
+            "year_10_revenue_usd_b": 25.893,
+            "year_10_fcf_usd_b": 10.357
+          }
+        }
+      },
+      "interpretation": "The price embeds materially above-Base and near-Bull execution: roughly 22%-24% revenue growth for ten years with year-ten FCF margins of 30%-35%, while annual dilution remains around 2.5%."
     },
-    "current_multiples": {
-      "equity_value_to_ttm_revenue": 19.35,
-      "enterprise_value_to_ttm_revenue": 18.35,
-      "equity_value_to_reported_ttm_fcf": 71.57
-    },
-    "owner_economics": {
-      "reported_ttm_fcf_margin": 0.2704,
-      "ttm_gaap_operating_margin": 0.0041,
-      "ttm_total_sbc_to_revenue": 0.2145,
-      "ttm_total_sbc_to_reported_fcf": 0.7932,
-      "june_period_end_share_growth_yoy": 0.0297
-    },
-    "reverse_dcf": {
-      "forecast_years": 10,
-      "discount_rate": 0.095,
-      "terminal_growth_rate": 0.03,
-      "annual_share_dilution": 0.025,
+    "current_findings": [
+      "관측·보안 플랫폼의 성장과 충분한 현금은 인정한다. 다만 TTM SBC가 보고 FCF의 약 79%이므로 보고 FCF 마진을 그대로 높은 재투자 품질로 해석했던 점수를 10→8로 조정한다.",
+      "TTM SBC 약 8.51억 달러, 연간 기본주식수 증가 약 2.97%. 보고 FCF-보상비용 프록시는 약 2.22억 달러다. 이 차액은 정확한 경제적 SBC 공정가치 측정이 아니라 민감도 지표다."
+    ],
+    "current_model_limit": "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다.",
+    "uniform_hurdle_diagnostic": {
+      "ticker": "DDOG",
+      "reference_price": 213.81,
+      "hurdle_rate": 0.09,
+      "terminal_company_fcf_growth": 0.03,
+      "as_of": "2026-09-05",
+      "model_status": "DIAGNOSTIC_NOT_OWNER_FCFE_COMPLETE",
+      "source_commit": "367f55843d769da7e7b123007d78ac0b83eb83ef",
+      "source_path": "companies/DDOG/valuation.json",
       "starting_revenue_usd_b": 3.966725,
       "starting_reported_fcf_margin": 0.2704,
-      "net_cash_usd_b": 3.985438,
-      "required_constant_revenue_cagr_by_year_10_fcf_margin": {
-        "25_percent_margin": {
-          "revenue_cagr": 0.2649,
-          "year_10_revenue_usd_b": 41.576,
-          "year_10_fcf_usd_b": 10.394
+      "starting_shares_b": 0.359075,
+      "net_financial_assets_usd_b": 3.985,
+      "method_changes": [
+        "All three cases use US 9% discount rate and 3% terminal company-FCF growth.",
+        "Unlisted investments excluded; inherited liquid financial assets are a proxy, not all proven excess cash.",
+        "No free negative dilution. Positive dilution continues in the terminal period.",
+        "Reported-FCF compensation/repurchase/interest-income bridge is incomplete; outputs are diagnostic, not actionable fair values."
+      ],
+      "scenarios": {
+        "bear": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.22,
+            0.18,
+            0.16,
+            0.14,
+            0.12,
+            0.1,
+            0.09,
+            0.08,
+            0.07,
+            0.06
+          ],
+          "fcf_margin_path": [
+            0.26736,
+            0.26432,
+            0.26127999999999996,
+            0.25823999999999997,
+            0.2552,
+            0.25216,
+            0.24911999999999998,
+            0.24608,
+            0.24303999999999998,
+            0.24
+          ],
+          "annual_positive_dilution": 0.03,
+          "terminal_per_share_growth": 0.0,
+          "annual_fcf_per_share_usd": [
+            3.4983717930037335,
+            3.9622724828512417,
+            4.411042524986159,
+            4.825321080549546,
+            5.1851839957975185,
+            5.471610296201466,
+            5.720537419294512,
+            5.925037241736321,
+            6.079097036948309,
+            6.1779046567093925
+          ],
+          "terminal_value_per_share_usd": 68.6433850745488,
+          "diagnostic_present_value_per_share_usd": 71.60672324278207,
+          "value_to_reference_price": 0.3349082046807075,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
         },
-        "30_percent_margin": {
-          "revenue_cagr": 0.242,
-          "year_10_revenue_usd_b": 34.643,
-          "year_10_fcf_usd_b": 10.393
+        "base": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.3,
+            0.26,
+            0.24,
+            0.22,
+            0.2,
+            0.18,
+            0.16,
+            0.14,
+            0.12,
+            0.1
+          ],
+          "fcf_margin_path": [
+            0.27436,
+            0.27831999999999996,
+            0.28228,
+            0.28624,
+            0.2902,
+            0.29416,
+            0.29812,
+            0.30208,
+            0.30604,
+            0.31
+          ],
+          "annual_positive_dilution": 0.02,
+          "terminal_per_share_growth": 0.009803921568627416,
+          "annual_fcf_per_share_usd": [
+            3.8628771702345217,
+            4.840663502314071,
+            5.96845742472055,
+            7.238889938815629,
+            8.634160803950184,
+            10.12484019022102,
+            11.669533369561721,
+            13.215665260192676,
+            14.701549192841043,
+            16.05976238771427
+          ],
+          "terminal_value_per_share_usd": 202.21950194799132,
+          "diagnostic_present_value_per_share_usd": 152.09050648234157,
+          "value_to_reference_price": 0.7113348603074766,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
         },
-        "35_percent_margin": {
-          "revenue_cagr": 0.2228,
-          "year_10_revenue_usd_b": 29.654,
-          "year_10_fcf_usd_b": 10.379
-        },
-        "40_percent_margin": {
-          "revenue_cagr": 0.2064,
-          "year_10_revenue_usd_b": 25.893,
-          "year_10_fcf_usd_b": 10.357
+        "bull": {
+          "claim_type": "estimate",
+          "growth_path": [
+            0.34,
+            0.32,
+            0.3,
+            0.28,
+            0.26,
+            0.24,
+            0.22,
+            0.2,
+            0.18,
+            0.16
+          ],
+          "fcf_margin_path": [
+            0.27936,
+            0.28831999999999997,
+            0.29728,
+            0.30623999999999996,
+            0.3152,
+            0.32416,
+            0.33311999999999997,
+            0.34208,
+            0.35104,
+            0.36
+          ],
+          "annual_positive_dilution": 0.015,
+          "terminal_per_share_growth": 0.014778325123152802,
+          "annual_fcf_per_share_usd": [
+            4.074270902390482,
+            5.468501537229133,
+            7.221652249019015,
+            9.381595909536003,
+            11.986862355498388,
+            15.060326115364594,
+            18.60242013726515,
+            22.584559704418105,
+            26.943655416628097,
+            31.578708002298846
+          ],
+          "terminal_value_per_share_usd": 426.0126947264945,
+          "diagnostic_present_value_per_share_usd": 275.63952057671446,
+          "value_to_reference_price": 1.289179741717948,
+          "note": "Positive terminal dilution lowers per-share terminal growth; cash distributions and funded buybacks must still be reconciled before investment use."
         }
       }
-    },
-    "interpretation": "The price embeds materially above-Base and near-Bull execution: roughly 22%-24% revenue growth for ten years with year-ten FCF margins of 30%-35%, while annual dilution remains around 2.5%."
+    }
   },
   "scenarios": {
     "bear": {
-      "annual_revenue_growth_path": [0.22, 0.18, 0.16, 0.14, 0.12, 0.1, 0.09, 0.08, 0.07, 0.06],
+      "annual_revenue_growth_path": [
+        0.22,
+        0.18,
+        0.16,
+        0.14,
+        0.12,
+        0.1,
+        0.09,
+        0.08,
+        0.07,
+        0.06
+      ],
       "ten_year_revenue_cagr": 0.1209,
       "year_10_revenue_usd_b": 12.422,
       "year_10_reported_fcf_margin": 0.24,
@@ -77,10 +256,22 @@
         "Largest-customer optimization reveals weaker normalized AI-native demand and growth decelerates rapidly.",
         "Native-cloud, specialist and open-source competition limits pricing and multi-product expansion.",
         "Hosting costs pressure gross margin and persistent SBC holds dilution near 3%."
-      ]
+      ],
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "base": {
-      "annual_revenue_growth_path": [0.3, 0.26, 0.24, 0.22, 0.2, 0.18, 0.16, 0.14, 0.12, 0.1],
+      "annual_revenue_growth_path": [
+        0.3,
+        0.26,
+        0.24,
+        0.22,
+        0.2,
+        0.18,
+        0.16,
+        0.14,
+        0.12,
+        0.1
+      ],
       "ten_year_revenue_cagr": 0.1905,
       "year_10_revenue_usd_b": 22.676,
       "year_10_reported_fcf_margin": 0.31,
@@ -92,10 +283,22 @@
         "Datadog absorbs the largest-customer reduction while large-customer and multi-product expansion remain healthy.",
         "Revenue growth fades gradually from approximately 30% to 10% over ten years.",
         "Reported FCF margin reaches 31% and annual dilution declines to 2%."
-      ]
+      ],
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     },
     "bull": {
-      "annual_revenue_growth_path": [0.34, 0.32, 0.3, 0.28, 0.26, 0.24, 0.22, 0.2, 0.18, 0.16],
+      "annual_revenue_growth_path": [
+        0.34,
+        0.32,
+        0.3,
+        0.28,
+        0.26,
+        0.24,
+        0.22,
+        0.2,
+        0.18,
+        0.16
+      ],
       "ten_year_revenue_cagr": 0.2487,
       "year_10_revenue_usd_b": 36.554,
       "year_10_reported_fcf_margin": 0.36,
@@ -107,12 +310,16 @@
         "AI observability, security and autonomous operations become durable multi-billion-dollar growth vectors.",
         "Datadog expands category leadership and sustains exceptionally strong cross-sell and retention.",
         "Reported FCF margin reaches 36% while annual dilution falls to 1.5%."
-      ]
+      ],
+      "review_status": "LEGACY_SCENARIO_ARCHIVED_FOR_COMPARISON_NOT_CURRENT_APPROVED_VALUE"
     }
   },
   "permanent_loss_case": {
     "present_value_per_share_usd": 41.54,
-    "present_value_per_share_usd_range": [35, 55],
+    "present_value_per_share_usd_range": [
+      35,
+      55
+    ],
     "ten_year_revenue_cagr": 0.0408,
     "year_10_reported_fcf_margin": 0.18,
     "annual_share_dilution": 0.035,
@@ -133,5 +340,5 @@
     "probability_weighted_value_usd_per_share": 163.42,
     "expected_return_vs_current": -0.2357
   },
-  "notes": "Scenario values are decision-framework estimates, not price targets. Reported FCF includes the benefit of SBC add-backs; annual dilution assumptions partially but imperfectly capture that economic cost. Macro was excluded from the company score."
+  "notes": "2026-09-05 재심사: 상위 scenarios와 legacy_implied_expectations는 복구·보존한 과거 추정치이며 승인된 현재 가치가 아니다. 최신 판단은 re-evaluation-2026-09-05.md, 통일 허들 진단은 implied_expectations.uniform_hurdle_diagnostic(해당 종목)을 참조. 보고 FCF와 owner-FCFE의 비용·희석 브리지는 미완성이다. 총점 보류 종목의 상위 기대차/비대칭 점수도 과거 스냅샷이다.\n기존 모델 메모(과거): Scenario values are decision-framework estimates, not price targets. Reported FCF includes the benefit of SBC add-backs; annual dilution assumptions partially but imperfectly capture that economic cost. Macro was excluded from the company score."
 }

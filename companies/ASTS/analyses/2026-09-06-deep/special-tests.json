@@ -1,0 +1,38 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 103.41367041607738
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 98.2429868952735
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 93.56474942407
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 89.31180626843044
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "satellite_subscriber_requirement": {
+    "note": "Net monthly revenue retained by AST after MNO sharing; not consumer bill. No claim these subscriber counts or capacity are achievable.",
+    "paying_users_m": [
+      {
+        "net_arpu_usd_month": 2,
+        "users_m": 434.11418617849813
+      },
+      {
+        "net_arpu_usd_month": 5,
+        "users_m": 173.64567447139925
+      },
+      {
+        "net_arpu_usd_month": 10,
+        "users_m": 86.82283723569962
+      }
+    ]
+  }
+}

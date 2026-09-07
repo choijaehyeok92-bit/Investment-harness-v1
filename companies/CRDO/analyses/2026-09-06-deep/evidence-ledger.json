@@ -1,0 +1,108 @@
+{
+  "ticker": "CRDO",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-43046cd99516ca0f3819",
+    "obs-edfcbafb6d68604b068a",
+    "obs-6ed59e0b36eccbfedb7f",
+    "obs-81cd6d275cea634b7bf1",
+    "obs-e4c5e063f3d811cd0d9f",
+    "obs-64ee7f152358860a092d",
+    "obs-fd0f515adc442ce93044",
+    "obs-820dcddf401bf29eb658",
+    "obs-2c3f389d41ec0dc924a6",
+    "obs-a06434034e250d5a1b20",
+    "obs-f9eeffe01b28a1911c81",
+    "obs-c9f6c9fec82483d42b18",
+    "obs-fd2001dd88ed40cd0d1b",
+    "obs-37f73b11cd49b205de61",
+    "obs-5227ff7d9d99d4948926",
+    "obs-1c03ee72a42f9257d037",
+    "obs-082b1befb5b187f3c222",
+    "obs-330942a95f61f0e601db",
+    "obs-8a6c8763a11e97ab7084",
+    "obs-ed348cf7bc3bf401d755",
+    "obs-caa45fe6f11a104db351",
+    "obs-d766816fa1750d50fb55",
+    "obs-39480ac6815e67cbd062",
+    "obs-fe981bb68149d21a3b60",
+    "obs-5b7d3127a7fb4e54a530",
+    "obs-999be268dacad3c33772",
+    "obs-c99f0221752e5702c130",
+    "obs-f14c95159809e118561a",
+    "obs-8e0ca840507827eac72a",
+    "obs-25d21ef065dfe952d4e4",
+    "obs-7beb2ca5cf2fd5eb70f8",
+    "obs-2454a716d99f2ebd6f62",
+    "obs-5bd4e67bb93152fdd802",
+    "obs-8a369120a3321537d46c",
+    "obs-28ffde471f477390c31e",
+    "obs-311cbd17ed447ad90411",
+    "obs-c6e27d9990cd6bde779b",
+    "obs-ef38cae7606dee3b5e86",
+    "obs-5d359006e95d5b24afc0"
+  ],
+  "financial_bridge": {
+    "revenue": 0.479003,
+    "operating_profit": 0.1207,
+    "ocf": null,
+    "cash_capex": 0.007282,
+    "sbc": 0.087979,
+    "additional_cash_investment": null,
+    "ticker": "CRDO",
+    "period": "Q1 FY2027 ended 2026-08-01",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.25198172036500815,
+    "ocf_less_named_capex": null,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "ocf",
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/CRDO/raw-data/2027-Q1.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/CRDO/raw-data/2027-Q1.json",
+        "sha256": "c7f3714a7b23df50bb6ec3939ad81b299b0dbb85a249fdfb4415b583556718d1"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results/",
+      "location": "September1 release, Q1 income statement and GAAP reconciliation",
+      "facts": {
+        "diluted_shares_m": 194.378,
+        "q1_sbc_usd_m": 87.979,
+        "q1_revenue_usd_m": 479.003,
+        "cash_and_short_investments_usd_m": 764.258
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-First-Quarter-of-Fiscal-Year-2027-Financial-Results/",
+      "location": "September1 release, Q1 income statement and GAAP reconciliation",
+      "facts": {
+        "diluted_shares_m": 194.378,
+        "q1_sbc_usd_m": 87.979,
+        "q1_revenue_usd_m": 479.003,
+        "cash_and_short_investments_usd_m": 764.258
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

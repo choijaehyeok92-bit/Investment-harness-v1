@@ -1,0 +1,755 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.12425092804557047,
+    "required_owner_margin_delta": 0.05611558551151505,
+    "price_reference": 338.46,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 1520.7056596487619,
+    "implied_year_10_owner_cash": 304.14113192975236,
+    "residual_price": 1.1368683772161603e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 18,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 475.0,
+              "owner_margin": 0.04,
+              "owner_cash_before_attribution": 19.0,
+              "ownership": 1,
+              "attributable_cash": 19.0
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 19.0,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 498.75,
+              "owner_margin": 0.06,
+              "owner_cash_before_attribution": 29.924999999999997,
+              "ownership": 1,
+              "attributable_cash": 29.924999999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 29.924999999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 523.6875,
+              "owner_margin": 0.07999999999999999,
+              "owner_cash_before_attribution": 41.894999999999996,
+              "ownership": 1,
+              "attributable_cash": 41.894999999999996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 41.894999999999996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 549.871875,
+              "owner_margin": 0.09999999999999999,
+              "owner_cash_before_attribution": 54.9871875,
+              "ownership": 1,
+              "attributable_cash": 54.9871875
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 54.9871875,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 577.3654687500001,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 69.28385625000001,
+              "ownership": 1,
+              "attributable_cash": 69.28385625000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 69.28385625000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 594.6864328125001,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 71.36237193750001,
+              "ownership": 1,
+              "attributable_cash": 71.36237193750001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 71.36237193750001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 612.5270257968751,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 73.50324309562501,
+              "ownership": 1,
+              "attributable_cash": 73.50324309562501
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 73.50324309562501,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 630.9028365707813,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 75.70834038849375,
+              "ownership": 1,
+              "attributable_cash": 75.70834038849375
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 75.70834038849375,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 649.8299216679048,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 77.97959060014858,
+              "ownership": 1,
+              "attributable_cash": 77.97959060014858
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 77.97959060014858,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 669.324819317942,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 80.31897831815304,
+              "ownership": 1,
+              "attributable_cash": 80.31897831815304
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 80.31897831815304,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 349.5400351617188,
+      "pv_terminal": 610.6968799273506,
+      "separate_equity_value": -19,
+      "unfloored_equity_value": 941.2369150890693,
+      "equity_value": 941.2369150890693,
+      "value_per_share": 76.961317668771,
+      "value_to_price": 0.2273867448702092,
+      "upside_downside": -0.7726132551297908,
+      "terminal_fraction_of_operating_pv": 0.6359856305573336,
+      "year_10_revenue": 669.324819317942,
+      "year_10_owner_cash": 80.31897831815304,
+      "year_10_owner_cash_per_share": 6.567373533781932,
+      "year_10_exit_price": 118.21272360807481,
+      "irr_roots": [
+        -0.07512946977431839
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 162.474,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 76.961317668771,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 25,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 530.0,
+              "owner_margin": 0.06,
+              "owner_cash_before_attribution": 31.799999999999997,
+              "ownership": 1,
+              "attributable_cash": 31.799999999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 31.799999999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 588.3000000000001,
+              "owner_margin": 0.095,
+              "owner_cash_before_attribution": 55.88850000000001,
+              "ownership": 1,
+              "attributable_cash": 55.88850000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 55.88850000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 653.0130000000001,
+              "owner_margin": 0.13,
+              "owner_cash_before_attribution": 84.89169000000003,
+              "ownership": 1,
+              "attributable_cash": 84.89169000000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 84.89169000000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 724.8444300000001,
+              "owner_margin": 0.165,
+              "owner_cash_before_attribution": 119.59933095000002,
+              "ownership": 1,
+              "attributable_cash": 119.59933095000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 119.59933095000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 804.5773173000002,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 160.91546346000007,
+              "ownership": 1,
+              "attributable_cash": 160.91546346000007
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 160.91546346000007,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 860.8977295110003,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 172.17954590220006,
+              "ownership": 1,
+              "attributable_cash": 172.17954590220006
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 172.17954590220006,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 921.1605705767703,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 184.23211411535408,
+              "ownership": 1,
+              "attributable_cash": 184.23211411535408
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 184.23211411535408,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 985.6418105171442,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 197.12836210342886,
+              "ownership": 1,
+              "attributable_cash": 197.12836210342886
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 197.12836210342886,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1054.6367372533446,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 210.92734745066892,
+              "ownership": 1,
+              "attributable_cash": 210.92734745066892
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 210.92734745066892,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1128.4613088610786,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 225.69226177221572,
+              "ownership": 1,
+              "attributable_cash": 225.69226177221572
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 225.69226177221572,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 825.9077476951435,
+      "pv_terminal": 2383.3712601328666,
+      "separate_equity_value": -19,
+      "unfloored_equity_value": 3190.27900782801,
+      "equity_value": 3190.27900782801,
+      "value_per_share": 260.8568281134922,
+      "value_to_price": 0.7707168590483137,
+      "upside_downside": -0.22928314095168634,
+      "terminal_fraction_of_operating_pv": 0.7426500638677392,
+      "year_10_revenue": 1128.4613088610786,
+      "year_10_owner_cash": 225.69226177221572,
+      "year_10_owner_cash_per_share": 18.453987062323442,
+      "year_10_exit_price": 461.34967655808606,
+      "irr_roots": [
+        0.05934920384479503
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 162.474,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 260.8568281134922,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 30,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 590.0,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 47.2,
+              "ownership": 1,
+              "attributable_cash": 47.2
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 47.2,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 690.3,
+              "owner_margin": 0.125,
+              "owner_cash_before_attribution": 86.2875,
+              "ownership": 1,
+              "attributable_cash": 86.2875
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 86.2875,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 807.6509999999998,
+              "owner_margin": 0.16999999999999998,
+              "owner_cash_before_attribution": 137.30066999999997,
+              "ownership": 1,
+              "attributable_cash": 137.30066999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 137.30066999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 944.9516699999998,
+              "owner_margin": 0.21500000000000002,
+              "owner_cash_before_attribution": 203.16460905,
+              "ownership": 1,
+              "attributable_cash": 203.16460905
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 203.16460905,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1105.5934538999998,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 287.45429801399996,
+              "ownership": 1,
+              "attributable_cash": 287.45429801399996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 287.45429801399996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1216.1527992899998,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 316.19972781539997,
+              "ownership": 1,
+              "attributable_cash": 316.19972781539997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 316.19972781539997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1337.768079219,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 347.81970059694,
+              "ownership": 1,
+              "attributable_cash": 347.81970059694
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 347.81970059694,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1471.5448871409,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 382.60167065663404,
+              "ownership": 1,
+              "attributable_cash": 382.60167065663404
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 382.60167065663404,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1618.6993758549902,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 420.8618377222975,
+              "ownership": 1,
+              "attributable_cash": 420.8618377222975
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 420.8618377222975,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "search_youtube_cloud",
+              "revenue": 1780.5693134404892,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 462.9480214945272,
+              "ownership": 1,
+              "attributable_cash": 462.9480214945272
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 462.9480214945272,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 1512.8574848477865,
+      "pv_terminal": 5866.627419307978,
+      "separate_equity_value": -19,
+      "unfloored_equity_value": 7360.4849041557645,
+      "equity_value": 7360.4849041557645,
+      "value_per_share": 601.8385040192776,
+      "value_to_price": 1.7781672989992248,
+      "upside_downside": 0.7781672989992248,
+      "terminal_fraction_of_operating_pv": 0.7949914520462236,
+      "year_10_revenue": 1780.5693134404892,
+      "year_10_owner_cash": 462.9480214945272,
+      "year_10_owner_cash_per_share": 37.85347681884932,
+      "year_10_exit_price": 1135.6043045654797,
+      "irr_roots": [
+        0.1605224235343875
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 162.474,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 601.8385040192776,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 260.04628350943324
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 308.8077691471551
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 357.5692547848771
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 219.36933162969459
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 260.8568281134922
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 302.34432459729
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 185.84081493039616
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 221.32179637019027
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 256.8027778099844
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 221.88101028629902
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 260.8568281134922
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 299.8326459406855
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.49820927472470355,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 274.5861348563076
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 260.8568281134922
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 248.4350743938021
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 237.14257101226562
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "convertible_rights": {
+      "method": "Primary denominator/claim treatment stated in model inputs. Alternate conversion removes the corresponding claim cost before adding conversion shares.",
+      "note": "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다.",
+      "contractual_conversion_count_unknown": true,
+      "additional_share_stress_not_contract_fact": [
+        0.05,
+        0.1,
+        0.2
+      ]
+    }
+  }
+}

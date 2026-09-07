@@ -1,6 +1,6 @@
 {
   "ticker": "GOOGL",
-  "as_of": "2026-09-03",
+  "as_of": "2026-09-05",
   "categories": {
     "structural_change_and_leadership": {
       "score": 14,
@@ -8,16 +8,17 @@
       "evidence": [
         "2026 Q2 revenue grew 24% and Google Cloud revenue grew 82% as AI infrastructure and enterprise AI demand accelerated.",
         "Alphabet controls a differentiated stack spanning Gemini models, TPUs, data centers, Google Cloud, Search, YouTube, Android and Chrome.",
-        "Gemini models processed 22 billion direct-API tokens per minute and the Gemini app reached 950 million MAU in Q2 2026."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Frontier-model performance can converge and enterprise customers can use multi-cloud and open-model alternatives.",
         "AI compute expansion is increasingly capital intensive and may lower the economic quality of growth."
       ],
-      "confidence": 0.9,
+      "confidence": 0.7699999999999999,
       "missing_data": [
         "Independent market-share series for generative AI inference and enterprise AI workloads",
-        "Product-level AI revenue and retention"
+        "Product-level AI revenue and retention",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "customer_value_and_product": {
@@ -26,16 +27,17 @@
       "evidence": [
         "Search reduces discovery costs while connecting advertisers with high-intent demand; Q2 2026 Search & other revenue grew 17%.",
         "Google Cloud combines infrastructure, security, data and AI products; Q2 2026 Cloud revenue grew 82%.",
-        "Paid subscriptions reached 350 million in Q1 2026, led by YouTube and Google One."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "AI-generated answers may reduce referrals to publishers and weaken the ecosystem that supplies searchable content.",
         "Large cloud customers have bargaining power and can multi-source compute."
       ],
-      "confidence": 0.88,
+      "confidence": 0.7699999999999999,
       "missing_data": [
         "AI Mode revenue per query and advertiser ROI",
-        "Cloud net revenue retention and workload churn"
+        "Cloud net revenue retention and workload churn",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "moat_trajectory": {
@@ -44,16 +46,17 @@
       "evidence": [
         "Cloud operating margin improved from 14.1% in 2024 to 23.7% in 2025 and 35.6% in Q2 2026, supporting scale-economy evidence.",
         "Search revenue accelerated despite broad deployment of AI search experiences.",
-        "First-party distribution, custom TPUs, data and a global infrastructure footprint reinforce one another."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "US Search remedies require data sharing, syndication and distribution restrictions that could narrow the moat.",
         "Generative AI can lower the cost of producing a credible search interface and shift user discovery behavior."
       ],
-      "confidence": 0.78,
+      "confidence": 0.7699999999999999,
       "missing_data": [
         "Commercial-query share across Google and AI-native competitors",
-        "Measured effect of final antitrust remedies on default distribution and TAC"
+        "Measured effect of final antitrust remedies on default distribution and TAC",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "incremental_roic_and_fcf_per_share": {
@@ -62,18 +65,17 @@
       "evidence": [
         "TTM operating income was approximately $147.6 billion and Cloud operating profit scaled rapidly.",
         "TTM operating cash flow was approximately $185.7 billion.",
-        "FY2025 common share repurchases totaled $45.4 billion."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "FY2025 FCF of approximately $73.3 billion was nearly flat versus FY2024 despite 15% revenue growth.",
-        "H1 2026 FCF fell to approximately $4.3 billion because capex rose to $80.6 billion; TTM FCF declined to $53.3 billion.",
-        "Common shares outstanding rose from 12.088 billion at 2025 year-end to 12.230 billion at June 2026, before future preferred conversion and any ATM issuance."
+        "H1 2026 FCF fell to approximately $4.3 billion because capex rose to $80.6 billion; TTM FCF declined to $53.3 billion."
       ],
       "confidence": 0.65,
       "missing_data": [
         "Maintenance versus growth capex split",
         "AI infrastructure cohort utilization, payback period and incremental ROIC",
-        "Fully diluted share path after preferred conversion and ATM usage"
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "management_and_capital_allocation": {
@@ -82,17 +84,17 @@
       "evidence": [
         "Wiz and Intersect have clear strategic links to cloud security and data-center energy bottlenecks.",
         "Management has maintained strong investment in R&D while expanding Search, subscriptions and Cloud profitability.",
-        "The $40 billion ATM was described primarily as a mechanism to meet employee-equity tax obligations rather than operating survival."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Alphabet simultaneously used common equity, a Berkshire private placement, 6.25% mandatory convertible preferred stock and substantial new debt to finance the AI build-out.",
-        "The company repurchased stock before issuing common equity, raising questions about repurchase and issuance price discipline.",
-        "Founder-controlled Class B super-voting shares limit outside shareholder influence."
+        "The company repurchased stock before issuing common equity, raising questions about repurchase and issuance price discipline."
       ],
       "confidence": 0.72,
       "missing_data": [
         "Board hurdle rates and expected payback for the 2026-2027 AI infrastructure plan",
-        "Wiz post-acquisition organic growth and return on purchase price"
+        "Wiz post-acquisition organic growth and return on purchase price",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "financial_survivability": {
@@ -101,58 +103,60 @@
       "evidence": [
         "Cash, cash equivalents and short-term marketable securities were $242.5 billion at June 30, 2026.",
         "TTM operating cash flow was approximately $185.7 billion and the company stated liquidity is sufficient for the foreseeable future.",
-        "There was no commercial paper outstanding at June 30, 2026."
+        "2026-09-05 재심사 의견: 기존 지지·반대근거 재심사. 상세 현재 finding/counter_evidence는 재평가 레코드와 re-evaluation-2026-09-05.md 참조."
       ],
       "counter_evidence": [
         "Long-term debt reached $98.2 billion by June 2026 and another $25.0 billion of notes were issued in August.",
-        "Non-commenced data-center leases were $85.2 billion plus a $5.8 billion short-term lease commitment.",
-        "A large portion of marketable and non-marketable securities is equity-linked and should not be treated as cash-equivalent loss protection."
+        "Non-commenced data-center leases were $85.2 billion plus a $5.8 billion short-term lease commitment."
       ],
-      "confidence": 0.88,
+      "confidence": 0.7699999999999999,
       "missing_data": [
         "Post-August-2026 pro forma cash and debt balance",
-        "Updated purchase commitments and financial guarantees after Q2"
+        "Updated purchase commitments and financial guarantees after Q2",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "expectation_gap_and_valuation": {
-      "score": 7,
+      "score": 5,
       "max_score": 15,
       "evidence": [
         "Base-case DCF value of approximately $339 per share is close to the $341.84 GOOGL market price.",
         "At a 22% long-term FCF margin, the current price implies approximately 12.4% annual revenue growth for ten years, below current growth but demanding in duration.",
-        "Cloud growth and margin expansion provide a credible path to exceed embedded expectations."
+        "2026-09-05 재심사 의견: 9%/3% 통일 및 비상장 투자 제외 진단에서 Base 약 283달러로 기준가보다 낮음. 이 값은 owner-FCFE 완성값이 아니나 기존 기대차의 가정 민감성을 보여 7→5."
       ],
       "counter_evidence": [
         "The market already capitalizes much of the AI and Cloud success; probability-weighted value offers only about 8% upside.",
         "Displayed P/E near 17x is distorted by very large unrealized equity gains; a core operating earnings check is materially more expensive.",
-        "Base value depends on FCF margin recovering to 24% after an unprecedented capex cycle."
+        "TTM Capex 약 1,324.02억 달러 이후 FCF는 약 532.73억 달러다. 투자자산 평가이익, 우선주 전환과 자금조달을 영업 현금창출·희석과 구분해야 한다."
       ],
       "confidence": 0.67,
       "missing_data": [
         "Post-Q2 2026 ATM issuance and fully diluted share count",
-        "Reliable split of recurring maintenance capex and discretionary growth capex"
+        "Reliable split of recurring maintenance capex and discretionary growth capex",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     },
     "power_law_and_asymmetry": {
-      "score": 6,
+      "score": 5,
       "max_score": 10,
       "evidence": [
         "Bull-case value of approximately $668 offers about 95% upside if Alphabet converts AI distribution and infrastructure into durable high-margin cash flow.",
         "Search, YouTube, Cloud, Gemini and Waymo provide multiple independent paths to a much larger enterprise.",
-        "The balance sheet makes bankruptcy-style permanent loss unlikely."
+        "2026-09-05 재심사 의견: Bull 할인율 8%·영구성장률 4%와 Base 8.5%·3.5%의 차이가 상방을 늘린 효과를 별도 취급: 6→5."
       ],
       "counter_evidence": [
         "Bear-case value of approximately $132 implies about 61% downside, greater than the probability-weighted expected upside.",
         "A permanent-loss outcome can occur through low returns on massive capex without any solvency crisis.",
-        "At the current price, the expected value is not sufficiently asymmetric for a concentrated initial position."
+        "TTM Capex 약 1,324.02억 달러 이후 FCF는 약 532.73억 달러다. 투자자산 평가이익, 우선주 전환과 자금조달을 영업 현금창출·희석과 구분해야 한다."
       ],
       "confidence": 0.6,
       "missing_data": [
         "Waymo standalone economics and external valuation durability",
-        "AI infrastructure salvage value and economic useful life"
+        "AI infrastructure salvage value and economic useful life",
+        "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다."
       ]
     }
   },
-  "total_score": 72,
+  "total_score": 69,
   "classification": "Starter / Watch"
 }
