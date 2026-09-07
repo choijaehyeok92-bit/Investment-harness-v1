@@ -1,0 +1,262 @@
+{
+  "schema_version": "2.0.0-review-checkpoint",
+  "ticker": "PWR",
+  "company_name": "Quanta Services, Inc.",
+  "as_of": "2026-09-08",
+  "authority_status": "NON_CURRENT_RESEARCH_ARTIFACT",
+  "authority_note": "This checkpoint does not replace companies/PWR/latest.json or the current canonical 2026-09-06 assessment. Promotion requires a canonical deep run.",
+  "research_state_candidate": "PARTIAL_ANALYSIS",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority_candidate": "P1",
+  "required_return": 0.09,
+  "score_status": "VALUATION_GATE_OPEN_TOTAL_WITHHELD",
+  "source_path": "reviews/2026-09-08-PWR-prelim/raw-data.json",
+  "thesis": "Quanta is showing unusually strong secular demand, execution and backlog growth across grid modernization, power delivery, data-center and large-load infrastructure. The principal underwriting issue has shifted from demand validation to capital-allocation quality: whether an acquisition-heavy strategy and rising debt can produce durable post-tax incremental returns comfortably above the 9% hurdle while preserving per-share free-cash-flow compounding.",
+  "business_quality_75": 60,
+  "total_score_100": null,
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "confidence": 0.88,
+      "evidence": [
+        "Q2 2026 filing identifies multi-year grid modernization, transmission/substation expansion, data-center load growth, reshoring and electrification as demand drivers.",
+        "Backlog reached $53.44B at June 30, 2026, up 21.5% from December 31, 2025; RPO reached $33.55B, up 41.2%.",
+        "Q2 consolidated revenue grew 41.1% and operating income 87.6%, with both reportable segments expanding margins."
+      ],
+      "counter_evidence": [
+        "Part of growth is acquisition-driven and the infrastructure cycle remains exposed to project timing, regulation, weather and customer capital budgets.",
+        "Electric represents roughly 82% of H1 revenue, so the structural thesis is concentrated in power-related infrastructure."
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "confidence": 0.84,
+      "evidence": [
+        "Services are mission-critical for power delivery, grid reliability, load-center infrastructure, utility systems and recurring maintenance.",
+        "No customer represented 10% or more of consolidated revenue in H1 2026 or H1 2025, reducing single-customer dependency.",
+        "Quanta's breadth across engineering, procurement, construction, maintenance and specialized craft labor supports a total-solutions proposition."
+      ],
+      "counter_evidence": [
+        "MSAs often do not commit customers to specific volumes.",
+        "Project awards remain competitively bid and can be deferred, resized or cancelled."
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "confidence": 0.78,
+      "evidence": [
+        "Backlog and RPO are expanding while segment margins improve, consistent with stronger demand and execution rather than pure low-margin volume growth.",
+        "Quanta combines geographic scale, specialized labor, utility relationships and cross-discipline execution capabilities that are difficult to assemble quickly.",
+        "Q2 Electric margin improved to 11.5% from 10.1%; Underground and Infrastructure improved to 9.1% from 6.9%."
+      ],
+      "counter_evidence": [
+        "The moat is execution- and labor-based rather than protected by a proprietary product monopoly.",
+        "Large complex projects carry fixed-price and change-order risk; aggressive bidding can impair realized economics."
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "confidence": 0.72,
+      "evidence": [
+        "Calculated simple FCF was about $1.62B in 2025, versus $1.48B in 2024 and $1.14B in 2023; the two-year CAGR was about 19.2%.",
+        "Calculated FY2025 simple FCF per diluted share was about $10.71, up despite modest diluted-share growth.",
+        "H1 2026 calculated simple FCF was about $1.04B, versus $0.27B in H1 2025."
+      ],
+      "counter_evidence": [
+        "H1 2026 OCF benefited from an approximately $455M favorable year-over-year working-capital swing, so current cash growth should not be annualized mechanically.",
+        "2025 acquisition cash spend was about $3.05B and H1 2026 added roughly $1.09B of cash consideration plus shares; cohort-level post-close ROIC is not yet established.",
+        "August 2026 added $2.0B of senior notes and the supplied filing does not establish the use-of-proceeds bridge."
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.76,
+      "evidence": [
+        "Long-term incentive metrics explicitly include ROIC, cumulative adjusted EPS and relative TSR; the CEO and President-Electric have 70% of LTI tied to performance measures.",
+        "The company has continued dividends and maintains a $1.0B repurchase authorization as of June 30, 2026.",
+        "Management has expanded capabilities into mechanical, civil and large-load-center infrastructure aligned with identified customer demand."
+      ],
+      "counter_evidence": [
+        "Capital allocation is acquisition-heavy and increasingly debt-funded, which raises the burden of proof on integration and incremental returns.",
+        "The proxy discloses related-party facility leases and family employment involving certain executives/directors; these are disclosed and subject to policy but merit ongoing governance monitoring.",
+        "H1 2026 had no common-stock repurchases while share count edged higher."
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "confidence": 0.82,
+      "evidence": [
+        "H1 2026 operating cash flow was $1.49B and June 2026 available credit commitments plus cash were about $2.77B.",
+        "No customer was 10% or more of consolidated revenue or receivables in the disclosed H1 periods.",
+        "FY2025 financial statements received an unqualified audit opinion and internal controls were effective; Q2 2026 disclosure controls were also effective."
+      ],
+      "counter_evidence": [
+        "Gross long-term debt obligations were about $6.10B at June 30, 2026 before the subsequent $2.0B senior-note issuance.",
+        "The company is capital intensive, expects $750M-$800M of 2026 capex and has material contractual, bonding, insurance and project obligations.",
+        "Fixed-price project errors, weather events or claim collection issues can create large cash and margin volatility."
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "confidence": 0.15,
+      "evidence": [
+        "No synchronized current quote and no 9% reverse DCF were included in this supplied-filings extraction."
+      ],
+      "counter_evidence": [
+        "A strong business can still be a poor investment if the market price requires an unrealistic continuation of current growth and margins."
+      ],
+      "missing_data": [
+        "Synchronized share price and enterprise value",
+        "9% reverse DCF / reverse expectations",
+        "Bear/Base/Bull cash-flow scenarios",
+        "Pro-forma net debt after August 2026 notes"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.66,
+      "evidence": [
+        "Grid modernization, data-center power demand, reshoring and electrification create a multi-year opportunity set with large addressable infrastructure spend.",
+        "Backlog growth and expanding margins provide operating leverage if execution remains strong."
+      ],
+      "counter_evidence": [
+        "Construction economics are ultimately bounded by labor, project risk and capital intensity; upside is less unconstrained than a software-like model.",
+        "M&A and leverage can convert a favorable demand cycle into permanent capital impairment if integration returns disappoint."
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "confidence": 0.86,
+        "evidence": [
+          "PwC issued unqualified FY2025 financial-statement and ICFR opinions.",
+          "Q2 2026 disclosure controls were reported effective.",
+          "Related-party transactions are disclosed and subject to an Audit Committee approval policy; they remain a monitoring item rather than an integrity failure on current evidence."
+        ]
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "confidence": 0.80,
+        "evidence": [
+          "The company generates substantial operating cash flow and had about $2.77B of available commitments plus cash at June 30, 2026.",
+          "External capital is being used for growth, acquisitions and capital structure management rather than to fund a structurally cash-negative core business."
+        ],
+        "monitor": "The August $2.0B note issuance materially increases financing obligations; pro-forma leverage still needs reconciliation."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "confidence": 0.70,
+        "evidence": [
+          "Shares outstanding rose about 0.47% from year-end 2025 to June 30, 2026; this is not yet persistent/fatal dilution.",
+          "The company retains a $1.0B repurchase authorization."
+        ],
+        "monitor": "Acquisition-share issuance and SBC should be tracked against FCF-per-share growth; diluted weighted-average shares rose about 0.9% year over year in H1."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "confidence": 0.78,
+        "evidence": [
+          "Q2 revenue grew 41.1% while consolidated operating margin expanded to 7.3% from 5.5%.",
+          "Both segments posted material operating-margin improvement.",
+          "Management-disclosed acquired-business revenue explains only about one-third of Q2 revenue growth on a rough bridge, indicating a large non-acquisition growth component."
+        ],
+        "monitor": "H1 cash conversion was helped by working capital and acquisition contributions are meaningful, so organic cash economics need multi-period confirmation."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "confidence": 0.88,
+        "evidence": [
+          "2025 acquisition cash spend was about $3.05B; H1 2026 added about $1.09B cash plus equity consideration; another acquisition closed after June quarter-end.",
+          "August 2026 added $2.0B of senior notes at 4.85%-5.55% coupons.",
+          "Current filings do not yet provide a clean post-close cohort ROIC/FCF bridge showing returns comfortably above the 9% hurdle."
+        ],
+        "resolution_needed": "Build CEI, Dynamic Systems and 2026-deal post-close revenue/margin/FCF/ROIC cohorts and compare to 9% required return."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "confidence": 0.74,
+        "evidence": [
+          "Backlog and RPO expanded sharply into June 2026 while Electric and Underground margins improved.",
+          "No evidence in supplied filings of customer concentration deterioration or broad project-loss pressure overwhelming growth."
+        ],
+        "monitor": "Track bidding discipline, fixed-price losses, skilled-labor availability and margin retention."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "confidence": 0.95,
+        "evidence": [
+          "No synchronized quote or reverse DCF is included in this checkpoint."
+        ],
+        "resolution_needed": "Run a 9% reverse DCF and explicit Bear/Base/Bull valuation against current price and pro-forma net debt."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "confidence": 0.80,
+        "evidence": [
+          "No customer represented 10% or more of disclosed H1 revenue or receivables.",
+          "Electric is about 82% of revenue, but it spans utilities, power generation, technology load centers and communications rather than a single customer/product dependency."
+        ],
+        "monitor": "Power-infrastructure concentration remains a cyclical/regulatory exposure even if it is not currently fatal."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "confidence": 0.78,
+        "evidence": [
+          "Business survival appears robust, but permanent-loss risk depends on valuation and whether acquisition-heavy reinvestment earns adequate returns after financing costs.",
+          "Fixed-price project losses and working-capital/claim collection can create cash shocks in an otherwise growing business."
+        ],
+        "resolution_needed": "Combine valuation, post-August leverage and acquisition-cohort ROIC into a downside loss-of-capital case."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "price_status": "NO_SYNCHRONIZED_QUOTE_IN_SUPPLIED_FILINGS_RUN",
+    "required_return": 0.09,
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    }
+  },
+  "falsifiers": [
+    "Backlog and RPO stop converting into revenue and cash while receivables, contract assets or claims structurally absorb cash.",
+    "Electric or Underground segment margins regress materially despite the current strong demand environment.",
+    "CEI, Dynamic Systems and 2026 acquisition cohorts fail to generate post-tax cash returns above the 9% hurdle after integration.",
+    "Debt-funded acquisitions push leverage/refinancing risk materially higher without commensurate per-share FCF growth.",
+    "Fixed-price losses, unapproved claims or change-order write-downs become persistent and material.",
+    "SBC and acquisition share issuance outpace repurchases and underlying FCF-per-share growth."
+  ],
+  "next_evidence": [
+    "Synchronized current quote plus 9% reverse DCF and Bear/Base/Bull valuation",
+    "Acquisition cohort bridge for CEI, Dynamic Systems and 2026 deals: purchase price -> incremental revenue -> margin -> FCF -> post-tax ROIC",
+    "Exact use of proceeds and pro-forma net debt after August 2026 $2.0B note issuance",
+    "Backlog/RPO conversion and working-capital normalization across at least four quarters",
+    "Fixed-price contract mix, loss-project history, unapproved claim aging and realized collections",
+    "Four-quarter share-count/SBC/acquisition-stock/repurchase bridge"
+  ],
+  "preliminary_conclusion": "Primary filings materially strengthen the prior PWR screen: demand, backlog, margins, cash generation and governance are substantially better evidenced than in the 2026-09-06 preliminary record. PWR merits promotion to a P1 valuation/reinvestment-quality review, but no buy authorization is justified until the 9% price gate and acquisition-return/debt bridge are completed."
+}
