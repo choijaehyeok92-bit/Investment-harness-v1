@@ -1,0 +1,159 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "SNOW",
+  "company_name": "Snowflake Inc.",
+  "as_of": "2026-09-08",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This checkpoint does not modify companies/SNOW/latest.json or current registry authority. Current canonical authority remains the 2026-09-06 preliminary review until a separate canonical harness run promotes it.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "business_quality_75": 55,
+  "total_score_100": null,
+  "source_paths": [
+    "reviews/2026-09-08-snow-prelim/raw-data.json"
+  ],
+  "historical_records": [],
+  "historical_score_100": null,
+  "review_method": "User-supplied FY2026 10-K, Q2 FY2027 10-Q, Q2 earnings 8-K/Exhibit 99.1, proxy supplement and two Form 144 notices were structured and cross-checked as a non-current research checkpoint.",
+  "portfolio_context": "No synchronized current quote, tax basis, position size, or portfolio risk budget was supplied. This is not a buy approval or automatic portfolio action.",
+  "structural_thesis": "Snowflake is showing accelerating product consumption and enterprise AI adoption while retaining strong large-customer expansion metrics. The central investment question is whether this growth converts into durable per-share owner cash after very high stock compensation, equity-tax cash outflows, cloud/AI infrastructure costs and acquisition-related share issuance.",
+  "customer_and_moat": "Q2 FY2027 product revenue grew about 37%, NRR was 126%, customers above $1M TTM product revenue reached 828, RPO was $9.0B and the company added 692 net new customers. These support a strong customer-value and platform-expansion thesis, but competitive share and independent workload-retention evidence remain incomplete.",
+  "current_finding": "Operational growth accelerated and management raised FY2027 product-revenue guidance to 36%. However, SBC remains economically dominant: FY2026 SBC exceeded company-defined FCF and H1 FY2027 FCF less SBC remained negative. Share count continued to rise despite repurchases.",
+  "economic_finding": "The company produces substantial reported FCF, but its FCF definition excludes financing cash outflows for taxes paid on net share settlement. H1 FY2027 FCF of $316.6M was almost fully consumed by $327.7M of those cash outflows before considering the separate $826.1M SBC expense or dilution.",
+  "capital_and_survival": "Liquidity is strong: July 2026 cash plus short- and long-term investments was about $4.33B against about $2.28B net convertible notes. Near-term survival is not the issue; owner economics, dilution and AI infrastructure returns are.",
+  "next_evidence": "Synchronized price and 9% reverse DCF; gross and net share dilution bridge; SBC by cohort and repurchase economics; AI workload gross margin and cloud-commitment utilization; independent competitive share/retention evidence; acquisition cash ROIC for Observe and Natoma.",
+  "permanent_loss_case": "Revenue and AI usage can continue growing while shareholders still suffer if SBC and acquisition shares dilute per-share value, AI/cloud cost intensity prevents durable margin conversion, or the market price already requires sustained high-thirties growth and strong margin expansion.",
+  "falsifiers": [
+    "NRR falls materially below the current mid-120s while product-revenue growth decelerates and RPO/customer expansion weaken together.",
+    "SBC plus equity-related cash outflows remain at a level that prevents durable growth in owner cash per share despite revenue growth.",
+    "AI inference/GPU cost intensity rises without corresponding product gross-margin or consumption monetization improvement.",
+    "Observe/Natoma and future acquisitions consume cash and shares without measurable incremental product revenue, retention, or cash returns above the 9% hurdle."
+  ],
+  "increase_evidence": [
+    "SBC as a percent of revenue continues falling and net share count stabilizes or declines without value-destructive repurchases.",
+    "Product revenue, NRR and large-customer cohorts remain strong while GAAP operating loss narrows and owner-cash-per-share grows.",
+    "AI product adoption converts into measurable incremental consumption and stable/improving product gross margin.",
+    "Reverse DCF shows the current price requires assumptions below a defensible Base case."
+  ],
+  "sell_evidence": [
+    "Persistent 4%+ annualized gross/net dilution with no offsetting acceleration in owner cash per share.",
+    "Material deterioration in enterprise retention or consumption with simultaneous competitive share loss.",
+    "AI/cloud commitments or acquisitions produce structurally lower incremental returns while the valuation remains demanding."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Q2 product revenue +37% YoY", "FY2027 product-revenue guidance raised to +36%", "CoCo >9,100 accounts and CoWork 5,800 accounts"],
+      "counter_evidence": ["AI infrastructure costs are rising and some spending precedes monetization"],
+      "confidence": 0.82,
+      "missing_data": ["Independent AI workload monetization and competitive-share evidence"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["NRR 126%", "828 customers above $1M TTM product revenue", "692 net new customers in Q2", "RPO $9.0B, +30% YoY"],
+      "counter_evidence": ["Consumption-based customers can optimize or delay usage; RPO timing depends on future consumption"],
+      "confidence": 0.86,
+      "missing_data": ["Independent retention by workload and cohort"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Large-customer count +27% in FY2026", "RPO +42% in FY2026", "NRR remained 125-126% through Q2 FY2027"],
+      "counter_evidence": ["Primary filings acknowledge highly competitive markets; no independent share data was supplied"],
+      "confidence": 0.72,
+      "missing_data": ["Databricks/hyperscaler relative workload share, win/loss and pricing data"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["FY2026 company FCF $1.12B", "H1 FY2027 product growth accelerated"],
+      "counter_evidence": ["FY2026 SBC $1.60B exceeded FCF", "H1 FY2027 SBC $826M versus FCF $317M", "H1 equity-tax cash outflow $328M nearly consumed company FCF", "ending share count +2.48% in six months despite $300M repurchases"],
+      "confidence": 0.9,
+      "missing_data": ["Normalized owner FCF/share framework that avoids double-counting SBC and dilution", "AI workload contribution margin"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Repurchase program deployed $873.5M in FY2026 and $300M in H1 FY2027", "FY2027 PRSU design moved to a three-year cumulative performance period"],
+      "counter_evidence": ["Share count still rose despite repurchases", "2025 Say-on-Pay support was only about 30% and ISS/Glass Lewis opposed the 2026 proposal", "Observe and Natoma use meaningful stock consideration"],
+      "confidence": 0.76,
+      "missing_data": ["Full 2026 proxy compensation tables", "Repurchase price versus intrinsic value", "Acquisition post-close returns"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["July 2026 cash plus investments about $4.33B", "0% notes net about $2.28B", "positive OCF and positive company-defined FCF", "FY2026 audit and ICFR opinions were clean"],
+      "counter_evidence": ["2027 note maturity is approaching and conversion can be settled partly in shares", "AI/cloud minimum commitments are increasing"],
+      "confidence": 0.9,
+      "missing_data": ["Full contractual commitment ladder and conversion settlement strategy"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "withheld",
+      "evidence": ["No synchronized current market price was supplied"],
+      "counter_evidence": [],
+      "confidence": 0.0,
+      "missing_data": ["Current quote", "9% reverse DCF", "Bear/Base/Bull valuation"],
+      "source_paths": []
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "withheld",
+      "evidence": ["AI Data Cloud offers a large upside path, but price-dependent asymmetry is not established"],
+      "counter_evidence": ["Persistent dilution can transfer operating success away from per-share owners"],
+      "confidence": 0.35,
+      "missing_data": ["Valuation and scenario distribution"],
+      "source_paths": ["reviews/2026-09-08-snow-prelim/raw-data.json"]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {"id": "management_or_accounting_integrity", "status": "PASS", "evidence": ["FY2026 PwC opinion was unqualified and ICFR effective; July 2026 disclosure controls effective"], "resolution_needed": null, "severity": "LOW", "confidence": 0.92, "basis": "PRIMARY_FILINGS"},
+      {"id": "external_capital_dependence", "status": "PASS", "evidence": ["Cash plus investments exceeded net notes and operations generated positive OCF/FCF"], "resolution_needed": "Monitor 2027 note maturity and cloud commitments", "severity": "LOW", "confidence": 0.88, "basis": "PRIMARY_FILINGS"},
+      {"id": "persistent_dilution", "status": "INVESTIGATE", "evidence": ["FY2026 ending shares +3.01%; H1 FY2027 ending shares +2.48%; H1 weighted average shares +4.01% YoY despite repurchases"], "resolution_needed": "Build 8-quarter gross issuance/withholding/repurchase/share-count bridge and owner-FCF/share series", "severity": "HIGH", "confidence": 0.93, "basis": "PRIMARY_FILINGS"},
+      {"id": "low_quality_growth", "status": "PASS", "evidence": ["Product revenue growth, NRR, RPO and large-customer growth are all positive"], "resolution_needed": "Continue monitoring consumption cohorts", "severity": "LOW", "confidence": 0.82, "basis": "PRIMARY_FILINGS"},
+      {"id": "incremental_roic_collapse", "status": "INVESTIGATE", "evidence": ["AI/GPU cloud costs rose to 75% of product cost in Q2; AI minimum-spend commitment increased; acquisitions use cash and stock"], "resolution_needed": "Quantify AI workload contribution margin and acquisition cash ROIC versus 9% hurdle", "severity": "MEDIUM_HIGH", "confidence": 0.84, "basis": "PRIMARY_FILINGS"},
+      {"id": "moat_shrinkage", "status": "INVESTIGATE", "evidence": ["NRR and customer metrics are strong, but independent competitive share data are absent"], "resolution_needed": "Verify workload share, win/loss and pricing versus Databricks and hyperscalers", "severity": "MEDIUM", "confidence": 0.65, "basis": "EVIDENCE_GATE_OPEN"},
+      {"id": "price_requires_unrealistic_bull_case", "status": "INVESTIGATE", "evidence": ["No synchronized quote or reverse DCF"], "resolution_needed": "Run 9% reverse DCF and scenarios", "severity": "UNKNOWN", "confidence": 0.2, "basis": "VALUATION_GATE_OPEN"},
+      {"id": "fatal_concentration", "status": "INVESTIGATE", "evidence": ["Third-party cloud infrastructure is the dominant product cost and contractual cloud/AI commitments are material"], "resolution_needed": "Map cloud-provider dependency, contractual minimums and customer concentration", "severity": "MEDIUM", "confidence": 0.62, "basis": "PRIMARY_FILINGS_PARTIAL"},
+      {"id": "permanent_loss_probability", "status": "INVESTIGATE", "evidence": ["Business growth is strong but dilution and valuation can still create permanent per-share loss"], "resolution_needed": "Complete valuation and owner-cash-per-share model", "severity": "UNKNOWN", "confidence": 0.45, "basis": "VALUATION_AND_DILUTION_GATES_OPEN"}
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {"bear": null, "base": null, "bull": null},
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": ["Current market price", "normalized owner FCF/share", "reverse DCF", "Bear/Base/Bull"],
+    "model_required": "ESTABLISH_FROM_PRIMARY_FILINGS_AND_CURRENT_QUOTE"
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_HIGH_WITH_PROXY_SCOPE_LIMITATION",
+    "notes": "Financial evidence comes from audited 10-K, filed 10-Q and earnings 8-K. Governance evidence is limited to a proxy supplement rather than the complete definitive proxy."
+  }
+}
