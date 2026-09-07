@@ -1,0 +1,335 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "003230",
+  "company_name": "Samyang Foods",
+  "as_of": "2026-09-08",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This checkpoint does not modify companies/003230/latest.json or current registry authority. Current canonical authority remains the 2026-09-06 preliminary review until a separate canonical harness run promotes it.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "source_paths": [
+    "reviews/2026-09-08-003230-prelim/raw-data.json"
+  ],
+  "historical_records": [],
+  "historical_score_100": null,
+  "review_method": "사용자 제공 2025 사업보고서와 2026 반기보고서의 1차 원문을 구조화·교차검증한 비권위 연구 체크포인트",
+  "portfolio_context": "실제 보유·세금·위험예산과 동기화 현재가가 제공되지 않아 신규 매수 승인이나 포지션 변경 지시가 아니다.",
+  "structural_thesis": "불닭을 중심으로 한 글로벌 매운맛 브랜드 확장과 수출 중심 생산능력 증설이 매출·이익 성장을 이끌고 있으며, H1 2026에는 이익과 영업현금흐름이 동시에 개선됐다.",
+  "customer_and_moat": "수출 비중 상승과 해외 직수출 중심 판매는 글로벌 수요의 확장을 지지하지만, 브랜드별·지역별 sell-through, 반복구매, 가격탄력성과 독립적 점유율 데이터가 없어 경제적 해자의 깊이는 추가 검증이 필요하다.",
+  "current_finding": "FY2025 매출 36.1%, 영업이익 52.1% 성장에 이어 H1 2026 매출 37.2%, 영업이익 39.1%, 순이익 54.1% 성장. H1 OCF도 107.6% 증가했고 대규모 증설기 이후 단순 OCF-PPE 진단이 양전했다.",
+  "economic_finding": "사업 품질은 높지만 90% 이상의 면·스낵 집중과 밀양 2공장·후속 설비의 증분 현금수익률을 2~3년 추적해야 한다. 정확한 불닭 브랜드 집중도는 공시자료만으로 분리할 수 없다.",
+  "capital_and_survival": "H1 2026 현금+단기금융자산 약 7,493억원이 리스 제외 차입금 약 6,018억원을 상회하며 AA-/Stable 신용등급을 확보했다. 다만 2,270억원 사옥 취득과 후속 설비투자는 자본배분 효율을 계속 검증해야 한다.",
+  "next_evidence": "동기화 현재가·10% reverse DCF, 불닭/지역별 sell-through와 재고, 밀양2공장 가동률·수율·증분 ROIC, 유지보수 vs 성장 CAPEX, 판매장려금과 특수관계자 거래 경제성",
+  "permanent_loss_case": "브랜드 집중이 높은 상태에서 해외 수요가 둔화하고 증설 자본의 수익률이 10% 허들을 하회하며, 높은 기대가 밸류에이션에 이미 반영되어 멀티플 축소와 현금전환 악화가 동시에 발생하는 경우",
+  "falsifiers": [
+    "수출 성장 둔화와 동시에 매출채권·재고가 매출보다 지속적으로 빠르게 증가하고 영업현금흐름이 악화",
+    "밀양2공장 램프업 완료 후에도 증분 세후 현금수익률이 한국 주식 10% 요구수익률을 2~3년 동안 하회",
+    "면·스낵/불닭 집중이 높은 상태에서 지역별 sell-through·반복구매·가격결정력이 구조적으로 약화",
+    "관련자 거래 또는 비핵심 자본배분이 확대되지만 주당 owner earnings 개선으로 연결되지 않음"
+  ],
+  "increase_evidence": [
+    "밀양2공장 가동률 상승과 함께 매출·마진·현금전환이 동반 개선되고 재고일수/매출채권일수가 안정",
+    "독립 자료에서 주요 지역의 불닭 sell-through, 반복구매, 점유율 및 가격결정력 유지 확인",
+    "동기화 현재가 기준 10% reverse DCF가 보수적 성장·마진 가정으로도 충족"
+  ],
+  "sell_evidence": [
+    "브랜드·지역 수요 훼손과 증설 수익성 저하가 장기 추세로 확인되고 밸류에이션도 이를 보상하지 못하는 경우"
+  ],
+  "business_quality_75": 61,
+  "total_score_100": null,
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "FY2023~FY2025 매출 2년 CAGR 약 40.4%, 영업이익 CAGR 약 88.5%.",
+        "H1 2026 매출 +37.2%, 영업이익 +39.1%; 제품 수출이 전체 매출의 약 82.9%.",
+        "밀양 수출 중심 생산기지 및 2공장 증설로 글로벌 수요 대응능력을 확대."
+      ],
+      "counter_evidence": [
+        "글로벌 K-food/매운맛 트렌드의 지속기간과 정상화 성장률은 공시만으로 확정할 수 없음."
+      ],
+      "confidence": 0.88,
+      "missing_data": [
+        "브랜드별·지역별 독립 sell-through 및 시장점유율"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "H1 2026 면·스낵 매출 1.345조원, 이 중 수출 약 1.183조원으로 해외 수요가 핵심.",
+        "해외사업부 판매는 직수출 95.2%로 보고되어 유통경로의 글로벌화가 진전."
+      ],
+      "counter_evidence": [
+        "반복구매율, 가격탄력성, NPS/고객 유지율은 공시자료에 없음."
+      ],
+      "confidence": 0.8,
+      "missing_data": [
+        "지역별 소비자 sell-through, 반복구매, 가격/프로모션 탄력성"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "수출 제품 매출 비중이 FY2025 약 80.0%에서 H1 2026 약 82.9%로 상승.",
+        "수출 중심 생산능력과 해외 법인 확장을 동반한 글로벌 유통 기반 강화.",
+        "영업이익률이 FY2023 12.4% → FY2024 19.9% → FY2025 22.3% → H1 2026 23.8%로 개선."
+      ],
+      "counter_evidence": [
+        "면·스낵이 총매출의 약 90.6%이며 정확한 불닭 브랜드 의존도는 별도 공시되지 않음.",
+        "독립 점유율·브랜드 검색/재구매 데이터가 없어 해자 강화의 외부 검증이 미완료."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "불닭 브랜드별 매출/지역 점유율, 경쟁사 대비 가격·유통·재구매 데이터"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "FY2025 대규모 CAPEX로 OCF-PPE 단순 진단은 -1,397억원이었으나 H1 2026에는 +1,649억원으로 회복.",
+        "H1 2026 OCF +107.6% YoY, 영업이익 +39.1% YoY.",
+        "발행주식 수 7,533,015주는 2025년말 대비 H1 2026 변동 없음."
+      ],
+      "counter_evidence": [
+        "밀양2공장과 후속 설비의 정상화된 증분 ROIC는 아직 충분한 가동기간이 없음.",
+        "OCF-PPE는 유지보수/성장 CAPEX를 분리하지 않은 진단치라 owner FCF로 직접 사용할 수 없음."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "밀양2공장 투자액·가동률·증분 EBIT/FCF, maintenance vs growth capex"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "2025 연결 감사 및 내부회계관리제도에서 적정의견과 중요한 취약점 없음.",
+        "생산능력 증설과 해외 판매법인 확장은 핵심 성장전략과 정합적."
+      ],
+      "counter_evidence": [
+        "2025년 사옥 취득 2,270억원은 비핵심 자본배분으로 투자수익 검증 필요.",
+        "최대주주·특수관계인 44.98% 및 관련자 거래가 존재해 거래조건·주주권 정렬을 지속 점검해야 함."
+      ],
+      "confidence": 0.75,
+      "missing_data": [
+        "사옥의 경제적 편익, 특수관계자 거래 조건/정책, 장기 자본환원 규율"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "H1 2026 현금+단기금융자산 약 7,493억원 vs 리스 제외 차입금 약 6,018억원으로 순현금 약 1,475억원.",
+        "AA-/Stable 신용등급 및 사채 covenant 준수.",
+        "H1 2026 OCF 2,683억원으로 유동성 창출력이 강함."
+      ],
+      "counter_evidence": [
+        "증설·해외법인 확대와 2026년 신규 사채 2,000억원 발행으로 총부채는 증가.",
+        "일부 자산이 차입금 관련 담보로 제공됨."
+      ],
+      "confidence": 0.9,
+      "missing_data": [
+        "향후 2~3년 CAPEX/채무 만기 스케줄과 스트레스 테스트"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "analysis",
+      "evidence": [
+        "기업 실적은 강하지만 현재 시장가격과 기대 성장률을 동기화하지 않았음."
+      ],
+      "counter_evidence": [
+        "가격 없이 기대차를 점수화하면 품질과 가격을 혼동하게 됨."
+      ],
+      "confidence": 0.2,
+      "missing_data": [
+        "동기화 현재가, 주식수/순현금 업데이트, 10% reverse DCF, Bear/Base/Bull"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "analysis",
+      "evidence": [
+        "글로벌 브랜드 확장과 수출 인프라는 장기 상방 잠재력을 제공."
+      ],
+      "counter_evidence": [
+        "가격·브랜드 집중·증설 수익성을 함께 반영하지 않아 현재 비대칭성 판단은 보류."
+      ],
+      "confidence": 0.3,
+      "missing_data": [
+        "밸류에이션 시나리오와 브랜드별 TAM/점유율, 장기 증분 ROIC"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-003230-prelim/raw-data.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "FY2025 연결 감사 적정의견, 내부회계관리제도 감사 적정의견, 중요한 취약점 없음. 2026 감사인 변경은 지정감사 계약 만료 후 감사위원회 선정으로 설명됨."
+        ],
+        "resolution_needed": "판매장려금 변동대가 및 특수관계자 거래를 정기 추적",
+        "severity": "LOW",
+        "confidence": 0.9,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "H1 2026 현금+단기금융자산이 리스 제외 차입금을 상회하고 OCF가 강함. AA-/Stable 신용등급."
+        ],
+        "resolution_needed": "대규모 CAPEX와 만기 스케줄 정기 스트레스 테스트",
+        "severity": "LOW",
+        "confidence": 0.9,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "발행주식수 7,533,015주로 2025년말과 2026-06-30 사이 변동 없음; H1 의결권 없는 자기주식은 2주."
+        ],
+        "resolution_needed": "향후 주식기준보상·증자 여부 추적",
+        "severity": "LOW",
+        "confidence": 0.9,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "H1 2026 매출 +37.2%, 영업이익 +39.1%, 순이익 +54.1%, OCF +107.6%로 이익과 현금이 동반 성장."
+        ],
+        "resolution_needed": "수출 sell-through와 운전자본 정상화 추적",
+        "severity": "LOW",
+        "confidence": 0.85,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "증설기 이후 현금전환은 개선됐으나 밀양2공장과 후속 설비의 완전 램프업 후 증분 세후 현금수익률이 아직 미확정."
+        ],
+        "resolution_needed": "2~3년 정상화 증분 ROIC/FCF 및 유지보수 CAPEX 분리",
+        "severity": "MEDIUM",
+        "confidence": 0.75,
+        "basis": "OPEN_EVIDENCE_GATE"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "수출·마진은 강화됐지만 독립 점유율, 반복구매, 가격결정력 데이터가 없음."
+        ],
+        "resolution_needed": "지역별 sell-through·시장점유율·가격/프로모션 데이터",
+        "severity": "MEDIUM",
+        "confidence": 0.7,
+        "basis": "OPEN_EVIDENCE_GATE"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "동기화 현재가와 10% reverse DCF 미실행."
+        ],
+        "resolution_needed": "현재가 기준 reverse DCF와 Bear/Base/Bull",
+        "severity": "UNKNOWN",
+        "confidence": 0.2,
+        "basis": "VALUATION_GATE_OPEN"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "H1 2026 면·스낵이 총매출 약 90.6%; 정확한 불닭 브랜드 집중도는 공시되지 않음."
+        ],
+        "resolution_needed": "브랜드/지역별 매출·sell-through 및 충격 시나리오",
+        "severity": "MEDIUM",
+        "confidence": 0.8,
+        "basis": "PRIMARY_FILINGS_PLUS_MISSING_SEGMENT_DETAIL"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "사업 존속성은 강하지만 가격, 브랜드 집중, 증설 수익률을 결합한 영구손실 확률은 미평가."
+        ],
+        "resolution_needed": "10% hurdle valuation + concentration/downside stress test",
+        "severity": "UNKNOWN",
+        "confidence": 0.35,
+        "basis": "VALUATION_AND_SCENARIO_GATE_OPEN"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.1,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "동기화 현재가",
+      "최신 순현금/주식수 재확인",
+      "10% reverse DCF",
+      "Bear/Base/Bull 시나리오"
+    ],
+    "model_required": "ESTABLISH_FROM_PRIMARY_FILINGS_AND_SYNCHRONIZED_MARKET_PRICE"
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+    "primary_document_reaudit": "사용자 제공 2025 사업보고서와 2026 반기보고서의 핵심 사업·재무·감사·지배구조 항목을 재검토.",
+    "fact_estimate_inference_opinion": "공시 숫자=보고 사실; 산식=기계적 계산; 사업 연결=추론; 점수/판정=분석 의견.",
+    "missing_data_rule": "공시되지 않은 불닭 브랜드별 매출·독립 sell-through·현재 주가는 추정하지 않음."
+  }
+}

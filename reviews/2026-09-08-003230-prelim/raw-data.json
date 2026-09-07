@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "003230",
+  "company": "Samyang Foods Inc.",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "authority_status": "NON_CURRENT_RESEARCH_CHECKPOINT",
+  "source_resolution": [
+    {
+      "source_id": "FY2025_ANNUAL_REPORT",
+      "file": "[삼양식품]사업보고서(2026.03.18).pdf",
+      "sha256": "60408796281d15127879d81a68a071cd4c4b1e50529a31e8be74d30ac6f9abc5",
+      "pages": 318,
+      "report_period": "2025-01-01/2025-12-31",
+      "filing_date": "2026-03-18",
+      "source_character": "DART annual report; audited K-IFRS consolidated and separate financial statements; Deloitte/Anjin audit",
+      "confidence": "high"
+    },
+    {
+      "source_id": "H1_2026_HALF_YEAR_REPORT",
+      "file": "[삼양식품]반기보고서(2026.08.14).pdf",
+      "sha256": "dff8b65d50dfe4b8ff3cd6f7178a9dd14433503813fbcc85b7b699f847123b17",
+      "pages": 196,
+      "report_period": "2026-01-01/2026-06-30",
+      "filing_date": "2026-08-14",
+      "source_character": "DART half-year report; K-IFRS interim financial statements reviewed by EY/HanYoung",
+      "confidence": "high"
+    }
+  ],
+  "business_model": {
+    "description": "Korean food manufacturer centered on noodles and snacks, sauces and seasonings, frozen foods and related logistics/services.",
+    "reported_global_growth_engine": "Buldak and Korean spicy-flavor products; the filing describes the Buldak brand as a driver of global K-food expansion.",
+    "manufacturing_footprint": {
+      "plants": ["Wonju", "Iksan", "Miryang"],
+      "miryang_role": "Noodles and sauces, primarily export-oriented production.",
+      "miryang_second_factory": "Completed to respond to domestic/export noodle volume growth and improve capacity efficiency, cost and quality."
+    },
+    "key_raw_materials": ["flour/wheat", "potato starch", "refined palm oil"],
+    "procurement_notes": [
+      "Flour and refined palm oil are purchased from subsidiary Samyang Flour.",
+      "Key inputs are sourced from multiple suppliers, but input prices and supply conditions can affect procurement costs."
+    ]
+  },
+  "fy2025": {
+    "unit": "KRW million unless stated",
+    "income_statement": {
+      "revenue": 2351785,
+      "revenue_fy2024": 1728015,
+      "revenue_fy2023": 1192915,
+      "gross_profit": 1053029,
+      "operating_income": 524188,
+      "operating_income_fy2024": 344569,
+      "operating_income_fy2023": 147514,
+      "net_income": 388674,
+      "net_income_fy2024": 271256,
+      "net_income_fy2023": 126591,
+      "basic_eps_krw": 52156,
+      "diluted_eps_krw": 52156
+    },
+    "cash_flow": {
+      "operating_cash_flow": 309287,
+      "operating_cash_flow_fy2024": 357905,
+      "ppe_purchases": 448988,
+      "ppe_purchases_fy2024": 228450,
+      "dividends_paid": 29833
+    },
+    "balance_sheet_2025_12_31": {
+      "cash_and_cash_equivalents": 332841,
+      "short_term_financial_assets": 45243,
+      "accounts_receivable": 185202,
+      "inventories": 245011,
+      "property_plant_equipment": 1072621,
+      "total_assets": 2196496,
+      "short_term_borrowings": 92341,
+      "current_long_term_debt": 50044,
+      "long_term_borrowings": 296884,
+      "total_liabilities": 924956,
+      "total_equity": 1271540
+    },
+    "sales_mix": {
+      "noodle_snack": 2155518,
+      "noodle_snack_reported_percent": 91.7,
+      "sauces_seasonings": 70627,
+      "frozen": 61319,
+      "total_export_product_sales": 1882157,
+      "total_sales": 2351785
+    }
+  },
+  "h1_2026": {
+    "unit": "KRW million unless stated",
+    "income_statement": {
+      "revenue": 1484715,
+      "revenue_prior_h1": 1082091,
+      "gross_profit": 673466,
+      "gross_profit_prior_h1": 500393,
+      "operating_income": 353314,
+      "operating_income_prior_h1": 254076,
+      "net_income": 282054,
+      "net_income_prior_h1": 183034,
+      "basic_eps_krw": 37414,
+      "diluted_eps_krw": 37414
+    },
+    "cash_flow": {
+      "operating_cash_flow": 268262,
+      "operating_cash_flow_prior_h1": 129200,
+      "cash_generated_from_operations": 375629,
+      "ppe_purchases": 103333,
+      "ppe_purchases_prior_h1": 324933,
+      "dividends_paid": 19586
+    },
+    "working_capital_cash_effect": {
+      "accounts_receivable": -64574,
+      "inventories": -35804,
+      "accounts_payable": 26939
+    },
+    "balance_sheet_2026_06_30": {
+      "cash_and_cash_equivalents": 630597,
+      "short_term_financial_assets": 118715,
+      "accounts_receivable": 256385,
+      "inventories": 277639,
+      "property_plant_equipment": 1157697,
+      "total_assets": 2748715,
+      "short_term_borrowings": 36884,
+      "current_long_term_debt": 210036,
+      "long_term_borrowings": 354910,
+      "current_lease_liabilities": 26240,
+      "noncurrent_lease_liabilities": 44935,
+      "total_liabilities": 1200447,
+      "total_equity": 1548267
+    },
+    "sales_mix": {
+      "noodle_snack": 1344886,
+      "noodle_snack_reported_percent": 90.6,
+      "noodle_snack_export": 1183178,
+      "noodle_snack_domestic": 161708,
+      "sauces_seasonings": 53381,
+      "frozen": 33807,
+      "total_export_product_sales": 1230840,
+      "total_domestic_product_sales": 206958,
+      "total_product_sales": 1437798,
+      "total_sales": 1484715,
+      "overseas_channel_direct_export_percent": 95.2,
+      "overseas_channel_local_percent": 4.8
+    },
+    "shares": {
+      "issued_shares": 7533015,
+      "voting_shares": 7533013,
+      "non_voting_treasury_shares": 2
+    }
+  },
+  "capital_allocation_and_capacity": {
+    "hq_property_acquisition_krw_million": 227000,
+    "hq_property_purpose_reported": "Secure headquarters and expand/improve office infrastructure.",
+    "ongoing_equipment_projects": {
+      "planned_total_krw_million": 155417,
+      "spent_to_report_date_krw_million": 57744
+    },
+    "2026_bonds": [
+      {"principal_krw_million": 90000, "maturity": "2028-04-24", "coupon": 0.0389},
+      {"principal_krw_million": 110000, "maturity": "2029-04-24", "coupon": 0.0401}
+    ],
+    "credit_rating_2026": "AA-/Stable from multiple Korean rating agencies"
+  },
+  "governance_and_controls": {
+    "major_shareholder_and_related_parties_percent": 44.98,
+    "samyang_roundsquare_direct_percent": 35.48,
+    "fy2025_audit": {
+      "auditor": "Deloitte/Anjin",
+      "consolidated_opinion": "unqualified",
+      "going_concern_material_uncertainty": "none reported",
+      "emphasis": "none reported",
+      "key_audit_matter": "accuracy of variable consideration including sales incentives"
+    },
+    "fy2025_internal_accounting_control": {
+      "auditor_opinion": "unqualified",
+      "material_weakness_reported": false
+    },
+    "2026_auditor_change": "Deloitte/Anjin to EY/HanYoung for 2026-2028 after the designated-auditor engagement expired; selected by the audit committee.",
+    "h1_2026_related_party_transactions_krw_million": {
+      "sales": 35434,
+      "purchases_and_other": 23528
+    }
+  },
+  "derived_metrics": {
+    "character": "Mechanical calculations from supplied reported values; not company-reported metrics unless explicitly labeled.",
+    "fy2025_revenue_growth_percent": 36.10,
+    "fy2025_operating_income_growth_percent": 52.13,
+    "fy2025_net_income_growth_percent": 43.29,
+    "fy2025_operating_margin_percent": 22.29,
+    "fy2024_operating_margin_percent": 19.94,
+    "fy2023_operating_margin_percent": 12.37,
+    "fy2023_to_fy2025_revenue_cagr_percent": 40.41,
+    "fy2023_to_fy2025_operating_income_cagr_percent": 88.51,
+    "fy2025_ocf_less_ppe_purchases_krw_million": -139701,
+    "fy2024_ocf_less_ppe_purchases_krw_million": 129454,
+    "h1_2026_revenue_growth_percent": 37.21,
+    "h1_2026_operating_income_growth_percent": 39.06,
+    "h1_2026_net_income_growth_percent": 54.10,
+    "h1_2026_operating_cash_flow_growth_percent": 107.63,
+    "h1_2026_operating_margin_percent": 23.80,
+    "h1_2025_operating_margin_percent": 23.48,
+    "h1_2026_ocf_less_ppe_purchases_krw_million": 164929,
+    "h1_2025_ocf_less_ppe_purchases_krw_million": -195734,
+    "h1_2026_cash_plus_short_term_financial_assets_krw_million": 749312,
+    "h1_2026_borrowings_excluding_leases_krw_million": 601830,
+    "h1_2026_net_cash_excluding_leases_krw_million": 147482,
+    "h1_2026_net_cash_including_lease_liabilities_krw_million": 76307,
+    "accounts_receivable_growth_vs_2025_year_end_percent": 38.43,
+    "inventory_growth_vs_2025_year_end_percent": 13.32,
+    "fy2025_export_product_sales_as_percent_total_sales": 80.03,
+    "h1_2026_export_product_sales_as_percent_total_sales": 82.90,
+    "fy2025_noodle_snack_as_percent_total_sales": 91.65,
+    "h1_2026_noodle_snack_as_percent_total_sales": 90.58,
+    "h1_2026_noodle_snack_export_as_percent_noodle_snack_sales": 87.98,
+    "share_count_change_vs_2025_year_end_percent": 0.0,
+    "guardrails": [
+      "OCF less PPE purchases is a simple diagnostic, not normalized owner FCF. Expansion and headquarters capex can distort it.",
+      "Exact Buldak brand revenue, regional sell-through, retention and market share are not separately disclosed in the supplied filings. Noodle/snack concentration is not treated as identical to Buldak concentration.",
+      "No synchronized current stock price, reverse DCF or Bear/Base/Bull valuation was inferred from the supplied filings.",
+      "H1 2026 financial statements are interim reviewed statements; no FY2026 annual audit opinion exists yet."
+    ]
+  }
+}
