@@ -1,0 +1,236 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "058470",
+  "company": "LEENO Industrial Inc. / 리노공업주식회사",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "authority_status": "NON_CURRENT_RESEARCH_CHECKPOINT",
+  "source_resolution": [
+    {
+      "source_id": "FY2025_ANNUAL_REPORT",
+      "file": "[리노공업]사업보고서(2026.03.18)(4).pdf",
+      "sha256": "220070fe382dc74ec73bb15a9443c718becb013ebe383bda6a9235a05fc46e30",
+      "pages": 205,
+      "report_period": "2025-01-01 to 2025-12-31",
+      "source_character": "DART annual report; audited separate K-IFRS financial statements",
+      "confidence": "high"
+    },
+    {
+      "source_id": "H1_2026_SEMIANNUAL_REPORT",
+      "file": "[리노공업]반기보고서(2026.08.14)(4).pdf",
+      "sha256": "f32c0bd17661294cb939fd85408f8ef76ffb7ae7a8d3f19769db2d60a790385a",
+      "pages": 160,
+      "report_period": "2026-01-01 to 2026-06-30",
+      "source_character": "DART semiannual report; reviewed interim K-IFRS financial statements",
+      "confidence": "high"
+    }
+  ],
+  "business_model": {
+    "description": "Designs, manufactures and sells proprietary spring contact probes (LEENO PIN), semiconductor IC test sockets, and medical-device components such as ultrasound-probe parts.",
+    "subsidiaries": "No consolidated subsidiaries as of 2026-06-30.",
+    "economic_character": "Semiconductor test pins and sockets are consumable precision components used in electrical/package testing; medical components are a smaller adjacent business."
+  },
+  "share_structure": {
+    "ticker": "058470",
+    "market": "KOSDAQ",
+    "stock_split_2025": "1:5 stock split reflected in 2025 and 2026 share figures; capital unchanged.",
+    "issued_common_shares_2026_06_30": 76211850,
+    "treasury_shares_2026_06_30": 316250,
+    "shares_in_float_2026_06_30": 75895600,
+    "treasury_share_percent": 0.41,
+    "issued_common_shares_2025_12_31": 76211850,
+    "treasury_shares_2025_12_31": 316250,
+    "dilution_observation": "No change in issued shares or treasury shares between 2025 year-end and 2026-06-30."
+  },
+  "fy2025": {
+    "unit": "KRW unless stated",
+    "revenue": 372534084608,
+    "revenue_2024": 278186189427,
+    "operating_income": 176997188289,
+    "operating_income_2024": 124201343872,
+    "net_income": 151960670406,
+    "net_income_2024": 113279046428,
+    "basic_eps_post_split_krw": 2002,
+    "operating_cash_flow": 179468846374,
+    "ppe_purchases": 59954233830,
+    "intangible_purchases": 282097350,
+    "dividends_paid": 45537360000,
+    "cash_ending": 85202812409,
+    "financial_assets_total_ending": 538596726542,
+    "financial_liabilities_schedule_total": 13179909417,
+    "borrowings_total": 0,
+    "equity": 731218952370,
+    "rd_expense": 13096963167,
+    "rd_as_percent_revenue_reported": 3.52,
+    "dividend_payout_ratio_percent_reported": 39.96,
+    "audit": {
+      "auditor": "Sung Hyun Accounting Corporation / 성현회계법인",
+      "financial_statement_opinion": "unqualified / 적정의견",
+      "going_concern_material_uncertainty": "none disclosed",
+      "emphasis": "none disclosed",
+      "key_audit_matter": "appropriateness of revenue",
+      "internal_control_opinion": "unqualified / 적정의견; no identified issue disclosed"
+    },
+    "sales_by_product_krw_thousand": {
+      "leeno_pin": 87100284,
+      "ic_test_socket": 243944034,
+      "semiconductor_related_merchandise": 138455,
+      "medical_device_components": 38137860,
+      "medical_merchandise": 3213452,
+      "total": 372534085
+    }
+  },
+  "h1_2026": {
+    "unit": "KRW unless stated",
+    "revenue": 242958602798,
+    "revenue_h1_2025": 190932307676,
+    "gross_profit": 130369779050,
+    "gross_profit_h1_2025": 97632124078,
+    "operating_income": 120814329893,
+    "operating_income_h1_2025": 88382117361,
+    "net_income": 106318582280,
+    "net_income_h1_2025": 70454648204,
+    "basic_eps_krw": 1401,
+    "operating_cash_flow": 68532599008,
+    "operating_cash_flow_h1_2025": 81154545756,
+    "ppe_purchases": 41366098543,
+    "ppe_purchases_h1_2025": 32932782623,
+    "intangible_purchases": 477080943,
+    "income_taxes_paid": 30113083637,
+    "income_taxes_paid_h1_2025": 19159396067,
+    "dividends_paid": 60716480000,
+    "cash_ending": 86771663199,
+    "other_current_financial_assets": 340041996800,
+    "financial_assets_total": 562206585467,
+    "total_assets": 856864674888,
+    "total_liabilities": 80100758256,
+    "equity": 776763916632,
+    "borrowings_total": 0,
+    "financial_liabilities_schedule": {
+      "trade_payables": 5664808672,
+      "other_payables": 7401724723,
+      "lease_liabilities": 113376022,
+      "total": 13179909417
+    },
+    "rd_expense": 6836132502,
+    "rd_as_percent_revenue_reported": 2.81,
+    "sales_by_product_krw_thousand": {
+      "leeno_pin": 56486659,
+      "ic_test_socket": 166384497,
+      "semiconductor_related_merchandise": 56787,
+      "medical_device_components": 18574688,
+      "medical_merchandise": 1455972,
+      "total": 242958603
+    },
+    "sales_by_channel_krw_thousand": {
+      "exports_total": 203441879,
+      "domestic_total": 39516724,
+      "semiconductor_products_exports": 202224362,
+      "semiconductor_products_domestic": 20646794,
+      "medical_components_exports": 1196715,
+      "medical_components_domestic": 17377973
+    },
+    "major_customers": {
+      "definition": "Each disclosed customer is a single external customer representing 10% or more of revenue.",
+      "customer_A_revenue": 57880601736,
+      "customer_B_revenue": 47565603618,
+      "customer_C_revenue": 30257731440,
+      "top3_revenue": 135703936794,
+      "h1_2025_top3_revenue": 109909883190
+    },
+    "review": {
+      "auditor": "Sung Hyun Accounting Corporation / 성현회계법인",
+      "conclusion": "No matter came to the auditor's attention causing them to believe the H1 2026 interim financial statements were not fairly presented in all material respects under K-IFRS 1034."
+    }
+  },
+  "q2_2026": {
+    "unit": "KRW unless stated",
+    "revenue": 143187426964,
+    "revenue_q2_2025": 112522064123,
+    "gross_profit": 78876119380,
+    "operating_income": 73513742404,
+    "operating_income_q2_2025": 53444357551,
+    "net_income": 65922968641,
+    "net_income_q2_2025": 41110227661,
+    "basic_eps_krw": 869
+  },
+  "capital_projects": {
+    "busan_eco_delta_city_factory": {
+      "board_approval_date": "2024-11-08",
+      "investment_period": "2024-11-11 to 2026-11-10",
+      "purpose": "Increase production capacity and R&D capability",
+      "total_planned_cost_ex_land_krw": 97182000000,
+      "spent_by_2026_06_30_krw": 78553778109,
+      "land_contract_date": "2022-12-22",
+      "observation": "Construction-in-progress reached KRW 157.665B at 2026-06-30. Incremental post-ramp cash ROIC remains unproven."
+    }
+  },
+  "rd_pipeline_examples": [
+    "Low-resistance / low-load spring pin with Multi-Tip structure",
+    "Logic-device WLC probe card",
+    "80um-pitch LEENO PIN",
+    "Water-cooled cooler Lid",
+    "Large Device Test Socket and Lid supporting 15,000+ pins and high heat/load"
+  ],
+  "governance_and_ownership": {
+    "ceo_and_largest_shareholder": "Lee Chae-yoon / 이채윤",
+    "ceo_tenure": "Representative director since 1996-12",
+    "largest_holder_shares_2025_year_end": 26418345,
+    "largest_holder_percent_2025_year_end": 34.66,
+    "largest_holder_shares_2026_06_30": 19418345,
+    "largest_holder_percent_2026_06_30": 25.48,
+    "2026_06_16_disposition": {
+      "shares": 7000000,
+      "method": "off-hours block sale / 시간외매매",
+      "interpretation_guardrail": "The supplied filings do not establish the economic motive for the sale; it is treated as an alignment/governance item to investigate, not automatically as a bearish signal."
+    },
+    "board_change_2026": "Audit committee system introduced with independent directors; all listed directors showed 100% attendance in the H1 disclosure."
+  },
+  "capital_policy": {
+    "borrowings_policy": "Targets 0% debt-to-capital ratio / 무차입경영",
+    "h1_2026_borrowings": 0,
+    "dividend_policy": "Uses distributable profit and historical payout; recent three-year payout ratios were about 40%, with stated future reference around 30% of net income subject to results.",
+    "fy2025_cash_dividend_total": 60716480000
+  },
+  "derived_metrics": {
+    "character": "Mechanical calculations from reported values; not company-reported metrics unless explicitly labeled.",
+    "fy2025_revenue_growth_percent": 33.92,
+    "fy2025_operating_income_growth_percent": 42.51,
+    "fy2025_net_income_growth_percent": 34.15,
+    "fy2025_operating_margin_percent": 47.51,
+    "fy2025_ocf_less_ppe_capex_krw": 119514612544,
+    "fy2025_ocf_less_ppe_capex_margin_percent": 32.08,
+    "h1_2026_revenue_growth_percent": 27.25,
+    "h1_2026_operating_income_growth_percent": 36.7,
+    "h1_2026_net_income_growth_percent": 50.9,
+    "h1_2026_gross_margin_percent": 53.66,
+    "h1_2026_operating_margin_percent": 49.73,
+    "h1_2026_net_margin_percent": 43.76,
+    "h1_2026_ocf_growth_percent": -15.55,
+    "h1_2026_ocf_less_ppe_capex_krw": 27166500465,
+    "h1_2026_ocf_less_ppe_capex_growth_percent": -43.66,
+    "h1_2026_ocf_less_ppe_capex_margin_percent": 11.18,
+    "q2_2026_revenue_growth_percent": 27.25,
+    "q2_2026_operating_income_growth_percent": 37.55,
+    "q2_2026_net_income_growth_percent": 60.36,
+    "q2_2026_operating_margin_percent": 51.34,
+    "semiconductor_related_h1_revenue_share_percent": 91.76,
+    "ic_test_socket_h1_revenue_share_percent": 68.48,
+    "exports_h1_revenue_share_percent": 83.74,
+    "top3_customer_h1_revenue_share_percent": 55.85,
+    "customer_A_share_percent": 23.82,
+    "customer_B_share_percent": 19.58,
+    "customer_C_share_percent": 12.45,
+    "liabilities_to_equity_percent": 10.31,
+    "factory_spend_percent_of_plan": 80.83,
+    "h1_2026_cash_plus_other_current_financial_assets_krw": 426813659999
+  },
+  "research_gaps": [
+    "Synchronized current market price, 10% KR required-return reverse DCF and Bear/Base/Bull valuation.",
+    "Customer identities, design-in duration, renewal/requalification behavior, unit ASP and independent share/win-loss data.",
+    "Maintenance versus growth CAPEX and post-ramp incremental ROIC of the Busan Eco Delta City factory.",
+    "Top-three customer concentration trend beyond disclosed annual/semiannual snapshots.",
+    "Economic rationale and any proceeds use/context for the largest shareholder's June 2026 block sale.",
+    "Independent evidence on competitive positioning versus global test-socket/probe competitors and semiconductor test architecture shifts."
+  ]
+}
