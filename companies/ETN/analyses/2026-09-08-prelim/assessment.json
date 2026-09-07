@@ -1,0 +1,219 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "ETN",
+  "company_name": "Eaton Corporation plc",
+  "as_of": "2026-09-08",
+  "research_state": "PARTIAL_ANALYSIS",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "source_path": "reviews/2026-09-08-etn-prelim/raw-data.json",
+  "business_quality_75": 59,
+  "total_score_100": null,
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "confidence": 0.9,
+      "evidence": [
+        "Q2 2026 organic sales grew 14%; Electrical Americas organic orders rose 41% and backlog rose 33%, while Electrical Global organic orders rose 33% and backlog rose 103%.",
+        "Data-center and machine-OEM demand are explicit growth drivers in both Electrical Americas and Electrical Global, while Aerospace orders and backlog also expanded."
+      ],
+      "counter_evidence": [
+        "Demand is partly exposed to data-center construction, commodity inflation and other cyclical end-markets; backlog growth should not be equated mechanically with permanent secular growth."
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "confidence": 0.75,
+      "evidence": [
+        "Eaton reports strong firm-order growth and book-to-bill above 1.0 across Electrical Americas, Electrical Global and Aerospace, consistent with products being embedded in customers' capacity and power-management plans.",
+        "No single customer represented more than 10% of consolidated net sales in 2025, reducing dependence on one buyer."
+      ],
+      "counter_evidence": [
+        "The supplied filings do not independently measure switching costs, project cancellation economics or customer-level total-cost savings versus competitors."
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "confidence": 0.75,
+      "evidence": [
+        "Electrical Americas maintained a 27.5% Q2 operating margin despite commodity pressure, and Electrical Global/Aerospace margins remained near 20%/23% while orders and backlog accelerated.",
+        "The Boyd Thermal acquisition broadens Eaton into thermal-management systems for data centers and other end-markets, potentially increasing content per project."
+      ],
+      "counter_evidence": [
+        "The filings do not establish that current scarcity/pricing conditions are permanent; competitors can add capacity and large projects may rebid at lower margins."
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 9,
+      "max_score": 15,
+      "confidence": 0.7,
+      "evidence": [
+        "FY2025 operating cash flow was $4.472B and capex $0.919B; H1 2026 operating cash flow rose to $1.634B from $1.156B despite lower net income.",
+        "Q2 company-reported free cash flow was $874M and 2026 capex guidance of about $1.15B remains modest relative to sales."
+      ],
+      "counter_evidence": [
+        "Eaton spent about $11.1B on acquisitions in H1 2026 and materially increased debt. Boyd's $9.55B purchase price included $3.73B of preliminary goodwill and $7.19B of other intangibles, so acquisition ROIC is not yet established.",
+        "H1 2026 consolidated gross margin fell to 34.5% from 37.6%, and Electrical Americas H1 operating margin fell to 26.6% from 29.7%, largely due to commodity inflation and higher acquisition-related amortization."
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "confidence": 0.7,
+      "evidence": [
+        "Management is concentrating the portfolio on Electrical and Aerospace and has agreed to separate Mobility through a Reverse Morris Trust transaction.",
+        "The company suspended 2026 share repurchases after the Boyd acquisition rather than layering buybacks on top of the acquisition funding need."
+      ],
+      "counter_evidence": [
+        "Boyd and Ultra PCS were large, debt-funded acquisitions; the purchase price and subsequent margin/cash returns need to justify the sharp increase in leverage and intangible assets."
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "confidence": 0.85,
+      "evidence": [
+        "Eaton had a $4B revolver with no borrowings, remained in compliance with debt covenants and continued to generate positive operating cash flow.",
+        "The 2026 acquisition financing was spread across multiple U.S. and euro note maturities rather than a single near-term maturity."
+      ],
+      "counter_evidence": [
+        "At June 2026 reported short-term debt plus current and long-term debt totaled about $20.6B versus only $0.695B of cash plus short-term investments, and net interest expense nearly tripled year over year in H1."
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "confidence": 0.2,
+      "evidence": [
+        "Business evidence is materially stronger than the prior preliminary-review record."
+      ],
+      "counter_evidence": [
+        "No synchronized market price, fully diluted share bridge or reverse DCF was completed in this checkpoint."
+      ],
+      "missing_data": [
+        "Synchronized market price, post-Mobility share/capital structure, Boyd normalization, and a 10-year owner-cash reverse DCF."
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "confidence": 0.4,
+      "evidence": [
+        "If data-center electrification and thermal-management content per project compound for many years, Eaton can plausibly sustain above-market cash growth from a large installed base."
+      ],
+      "counter_evidence": [
+        "The current share price may already capitalize a long duration of AI/data-center growth, and leverage from Boyd raises downside sensitivity if order growth normalizes."
+      ],
+      "missing_data": [
+        "Price-implied order growth, margin duration, Boyd acquisition ROIC, normalized cycle margins and downside terminal returns."
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "confidence": 0.9,
+        "evidence": [
+          "The FY2025 auditor expressed unqualified opinions on the financial statements and internal control over financial reporting; management also concluded ICFR was effective."
+        ],
+        "resolution_needed": "Continue routine control monitoring, especially integration controls for acquisitions excluded from the 2025 ICFR scope."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "INVESTIGATE",
+        "confidence": 0.85,
+        "evidence": [
+          "Eaton used substantial debt and commercial paper to fund 2026 acquisitions; reported debt components rose to about $20.6B by June 2026."
+        ],
+        "resolution_needed": "Build a maturity-by-maturity debt service and liquidity model under lower orders/margins without assuming equity issuance."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "confidence": 0.75,
+        "evidence": [
+          "Diluted weighted-average shares declined from 391.2M in FY2025 to 389.4M in H1 2026, and the September Form 4 was an RSU grant rather than an open-market sale."
+        ],
+        "resolution_needed": "Track equity-compensation issuance and Mobility transaction share mechanics after the separation."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "confidence": 0.8,
+        "evidence": [
+          "Sales growth was accompanied by higher segment operating profit, higher operating cash flow and rising firm orders/backlog across the core businesses."
+        ],
+        "resolution_needed": "Verify backlog conversion to cash and distinguish acquisition growth from organic growth."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "confidence": 0.9,
+        "evidence": [
+          "The $9.55B Boyd acquisition and $1.53B Ultra PCS acquisition materially increased goodwill, intangibles and debt; realized multi-year returns are not yet observable."
+        ],
+        "resolution_needed": "Estimate after-tax cash ROIC for Boyd and Ultra PCS using realized revenue, margins, integration costs, working capital and incremental financing cost."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "confidence": 0.7,
+        "evidence": [
+          "Orders/backlog and margins are strong, but the filings do not prove that current power-equipment scarcity and pricing will survive competitor capacity additions."
+        ],
+        "resolution_needed": "Obtain independent evidence on lead times, cancellations, pricing retention, specification lock-in and competitive win/loss rates."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "confidence": 0.95,
+        "evidence": [
+          "No synchronized reverse valuation was performed."
+        ],
+        "resolution_needed": "Reverse DCF the current synchronized quote using normalized post-Boyd owner cash and leverage."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "confidence": 0.7,
+        "evidence": [
+          "No single customer exceeded 10% of 2025 net sales and Eaton sells across Electrical Americas, Electrical Global, Aerospace and Mobility end-markets."
+        ],
+        "resolution_needed": "Still quantify data-center end-market concentration and key supplier/commodity dependencies."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "confidence": 0.85,
+        "evidence": [
+          "A high-expectation entry price combined with debt-funded acquisition risk could impair per-share value even if backlog remains strong."
+        ],
+        "resolution_needed": "Complete price-linked bear/base/bull owner-cash scenarios including Boyd deleveraging and margin normalization."
+      }
+    ]
+  },
+  "core_thesis": "Eaton is showing unusually strong evidence of structural demand in electrical power management: organic growth is double-digit, firm orders and backlog are accelerating, and core segment margins remain high. The principal unresolved issue is no longer whether demand exists, but whether the Boyd-led acquisition and capacity cycle converts that demand into high-return per-share cash after leverage, integration costs and normalized margins.",
+  "strongest_bear_thesis": "The market may be capitalizing a long data-center/electrification supercycle just as Eaton has levered up for Boyd. If supply catches up, commodity costs stay elevated, backlog conversion slows, or Boyd earns an inadequate return on its large goodwill/intangible base, per-share owner cash could underperform despite headline revenue growth.",
+  "falsifiers": [
+    "Electrical Americas/Global organic orders and backlog decelerate materially while capacity and acquisition-related costs remain elevated.",
+    "Electrical Americas normalized margin fails to recover as commodity pressure eases.",
+    "Boyd and Ultra PCS fail to produce after-tax cash returns above the 9% U.S. hurdle after financing and integration costs.",
+    "Debt reduction lags materially while interest expense and acquisition amortization absorb a growing share of segment profit."
+  ],
+  "next_evidence": [
+    "Backlog cancellation/termination rights, deposits and conversion history by major end-market.",
+    "Price-versus-volume decomposition and lead-time normalization for Electrical Americas/Global.",
+    "Boyd stand-alone revenue, margin, working capital, capex and financing bridge sufficient to estimate acquisition ROIC.",
+    "Synchronized price and reverse DCF using normalized owner cash after debt service and Mobility separation."
+  ]
+}
