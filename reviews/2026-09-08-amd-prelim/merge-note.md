@@ -1,0 +1,1 @@
+This branch is additive only. It does not mutate the frozen 2026-09-06 raw-data set, current registry authority, or latest pointers. Merge intent: preserve the new AMD raw extraction and preliminary research checkpoint while keeping historical harness reproducibility unchanged.
