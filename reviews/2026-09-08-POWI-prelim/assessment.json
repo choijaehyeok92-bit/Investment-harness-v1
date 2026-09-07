@@ -1,0 +1,279 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "POWI",
+  "company_name": "Power Integrations, Inc.",
+  "as_of": "2026-09-08",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "WITHHELD_WHERE_POLICY_GATE_OPEN",
+  "source_paths": [
+    "reviews/2026-09-08-POWI-prelim/raw-data.json"
+  ],
+  "historical_records": [],
+  "historical_score_100": null,
+  "review_method": "사용자 제공 FY2025 10-K, H1 2026 10-Q, 2026 proxy/additional proxy, Form 3, 8-K 원문 추출 및 교차검산. 동기화 시세와 reverse DCF는 수행하지 않음.",
+  "portfolio_context": "비권위 초벌분석 체크포인트. 현재 포트폴리오 편입 승인, 자동매매 또는 기존 PWR(Quanta Services) 판정 변경이 아님.",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_REVIEWED",
+  "priority": "P1",
+  "structural_thesis": "고전압 전력변환의 시스템 레벨 통합과 독자 PowiGaN을 기반으로 산업·고전력·AI 데이터센터·전기화 응용으로 주소가능시장을 확장할 가능성이 있다. 다만 2026년 상반기 매출 성장률은 2.6%에 그쳐 선택적 성장 옵션이 실적에 본격 반영됐다고 보기는 이르다.",
+  "customer_and_moat": "통합 IC는 부품 수, 설계 복잡도, 크기, 신뢰성, 효율과 출시기간을 개선하는 고객가치를 제공하고 특허·공정 노하우·설계지원이 진입장벽을 보완한다. 반면 대형 반도체사와 중국 공급자의 경쟁, 가격압력, 69~72%의 유통사 의존과 높은 고객집중은 해자 강도를 제한한다.",
+  "current_finding": "FY2025 매출은 5.9% 성장했고 단순 FCF는 36.4% 증가했지만 GAAP 영업이익은 43.1% 감소했다. 2025년에는 직원소송 비용과 전 CEO 주식보상 수정이라는 비경상 항목이 컸다. H1 2026 매출은 2.6% 증가, 매출총이익은 0.5% 감소, OCF는 24.2% 감소했다. 산업 매출 믹스는 38%에서 H1 2026 42%로 상승했다.",
+  "economic_finding": "FY2025 단순 FCF는 $87.1M이나 SBC가 $39.7M으로 단순 FCF의 45.6%였다. H1 2026 단순 FCF는 $35.7M으로 18.4% 감소했고 SBC는 $17.6M, 단순 FCF의 49.2%였다. 2025년 순주식수는 2.6% 감소했으나 H1 2026에는 0.8% 증가했고 2026 proxy는 추가 2.0M주(당시 주식수의 약 3.6%) 인센티브 풀 확대를 요청했다.",
+  "capital_and_survival": "2026-06-30 현금+단기투자자산은 $262.6M, 총부채는 $98.5M, 운전자본은 $404.5M이다. 무담보 $100M 리볼버는 미사용 상태이고 약정 준수 중이어서 생존 리스크는 낮다. 다만 2025년 자사주매입+배당은 단순 FCF의 약 1.67배로 현금성자산을 활용한 공격적 환원 성격이 있다.",
+  "next_evidence": "동기화 현재가와 9% reverse DCF, PowiGaN/고전력/AI 데이터센터 설계승인 및 매출 기여, 유통 sell-through와 Avnet 의존도, 8개 분기 완전희석 주식수·SBC·환매 bridge, Odyssey/vertical-GaN 투자수익, Sunil Gupta 후임과 운영 연속성, 직원소송 항소 결과.",
+  "permanent_loss_case": "PowiGaN과 산업·고전력 확장이 기대만큼 매출·마진으로 전환되지 않는 동안 고객/유통/아시아 집중, 가격경쟁과 SBC 희석이 지속되고 시장가격이 높은 성장 기대를 선반영해 회수 가능한 주당 현금가치가 훼손되는 경우.",
+  "falsifiers": [
+    "산업·고전력·GaN 매출 증가가 4~6개 분기 동안 기존 소비자 매출 약화를 상쇄하지 못한다.",
+    "제품 믹스 정상화 이후에도 매출총이익률이 약 53% 이하에 머물거나 추가 하락하고 비경상 항목을 제외한 영업마진이 고한자릿수 이상으로 회복되지 않는다.",
+    "OCF/단순 FCF 약세가 지속되고 SBC가 단순 FCF의 약 35~40% 이상을 장기간 차지하면서 주식수가 순증한다.",
+    "최대 고객 매출 비중이 30% 이상에 고착되고 유통사·아시아 집중과 채널 재고 또는 매출채권 위험이 동시에 악화된다.",
+    "PowiGaN/vertical-GaN의 설계승인, 매출 성장 또는 총마진 프리미엄을 확인하지 못한다."
+  ],
+  "increase_evidence": [
+    "PowiGaN·고전력·AI 데이터센터 관련 실제 설계승인과 반복 매출이 확인되고 산업 믹스 상승이 회사 전체 성장률 가속으로 연결됨",
+    "비경상비용 정상화 후 영업마진과 주당 FCF가 구조적으로 상승함",
+    "SBC를 포함한 완전희석 주식수 증가가 자사주매입을 제외해도 통제되고 추가 2M 인센티브 풀의 사용이 주당가치 창출과 연동됨",
+    "고객 A/Avnet 및 유통사 집중도가 낮아지거나 경제적 의존성이 충분히 완화됨",
+    "9% reverse DCF에서 보수적 가정으로도 기대수익률 여유가 확인됨"
+  ],
+  "sell_evidence": [
+    "GaN·고전력 확장 실패와 기존 시장 가격경쟁이 동시에 발생해 장기 주당 FCF가 하락 추세로 전환",
+    "대규모 희석이 반복되며 환매가 경제적 희석 상쇄에 실패",
+    "핵심 고객/유통사 상실 또는 공급망 차질이 구조적 매출·마진 훼손으로 이어짐",
+    "현재 가격이 비현실적 Bull case를 요구하는 것으로 reverse DCF에서 확인됨"
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "mixed",
+      "evidence": [
+        "PowiGaN은 최대 1700V까지 확장됐고 AI 데이터센터, 통신 인프라, EV 충전 및 향후 drivetrain 응용을 목표로 한다.",
+        "CEO Jennifer Lloyd는 2025-07 취임 전 Analog Devices에서 멀티마켓 전력사업 등 반도체 사업 리더십 경험이 있다.",
+        "H1 2026 산업 매출 믹스가 42%로 전년 동기 37%보다 상승했다."
+      ],
+      "counter_evidence": [
+        "H1 2026 매출 성장률은 2.6%에 불과하며 신규 성장축의 경제적 규모는 아직 검증되지 않았다.",
+        "2026-08 운영담당 SVP Sunil Gupta가 사임해 실행 연속성 확인이 필요하다."
+      ],
+      "confidence": 0.68,
+      "missing_data": ["GaN/고전력/AI 응용별 실제 매출과 design-win 전환율", "운영부문 후임 및 공급망 KPI"]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "mixed",
+      "evidence": [
+        "시스템 레벨 통합으로 부품 수·설계 복잡도·크기 감소, 신뢰성·효율·time-to-market 개선을 회사가 제시한다.",
+        "기술지원, reference design, 품질 및 납기 이력이 고객가치의 일부다."
+      ],
+      "counter_evidence": [
+        "유통사 매출 비중이 H1 2026 72%로 높아 최종 고객의 독립적 retention·ROAS형 지표를 직접 관찰하기 어렵다.",
+        "대체 discrete 설계 및 경쟁 IC와 BOM 비용이 유사해 가격결정력의 절대 수준은 제한될 수 있다."
+      ],
+      "confidence": 0.7,
+      "missing_data": ["고객별 설계 유지율", "제품군별 ASP 및 socket share", "독립적 고객 만족/전환비용 데이터"]
+    },
+    "moat_trajectory": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "mixed",
+      "evidence": [
+        "2025년 말 281개 미국 특허와 329개 해외 특허, 독자 고전압 공정 노하우와 PowiGaN을 보유한다.",
+        "통합 제품, 설계지원, 독자 공정과 장기 foundry 관계가 복합 진입장벽을 형성한다."
+      ],
+      "counter_evidence": [
+        "Infineon, ST, TI, Renesas, InnoScience, Navitas 및 중국 업체와 경쟁하며 중국 공급자 경쟁 심화를 회사가 예상한다.",
+        "H1 2026 gross margin은 53.5%로 전년 동기 55.2%보다 하락했다."
+      ],
+      "confidence": 0.65,
+      "missing_data": ["GaN 점유율/ASP/마진", "중국 경쟁자 대비 제품별 성능·가격", "장기 gross-margin bridge"]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "mixed",
+      "evidence": [
+        "FY2025 OCF $111.5M, 단순 FCF $87.1M으로 전년 대비 단순 FCF가 약 36.4% 증가했다.",
+        "fabless 구조와 구형 공정 활용은 자본집약도를 낮춘다.",
+        "FY2025 말 주식수는 전년 대비 약 2.6% 감소했다."
+      ],
+      "counter_evidence": [
+        "H1 2026 OCF는 24.2%, 단순 FCF는 18.4% 감소했다.",
+        "SBC는 FY2025 단순 FCF의 45.6%, H1 2026의 49.2%로 경제적으로 유의미하다.",
+        "H1 2026 주식수는 0.8% 증가했고 vertical-GaN 투자수익은 아직 검증 전이다."
+      ],
+      "confidence": 0.62,
+      "missing_data": ["8개 분기 주당 FCF bridge", "성장 R&D와 유지 R&D 구분", "Odyssey/vertical-GaN incremental return"]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "mixed",
+      "evidence": [
+        "2025년 자사주매입으로 순주식수가 감소했고 배당도 지속했다.",
+        "CEO/Chair 분리, 5x CEO 주식보유 가이드라인, clawback, double-trigger vesting 등 거버넌스를 강화했다."
+      ],
+      "counter_evidence": [
+        "2025년 자사주매입+배당이 단순 FCF의 약 1.67배여서 현금성자산을 소진하는 환원 지속성은 점검이 필요하다.",
+        "2026 proxy의 추가 2M주 인센티브 풀은 당시 주식수의 약 3.6%다.",
+        "CEO 보유 직접주식은 취임 초기 기준 작았고, 2026년 운영담당 임원 이탈이 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": ["환매 평균단가 대비 내재가치", "2M 인센티브 풀 실제 발행률", "경영진 turnover 이후 실행 KPI"]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "fact",
+      "evidence": [
+        "2026-06 현금+단기투자자산 $262.6M, 총부채 $98.5M, 운전자본 $404.5M이다.",
+        "$100M 무담보 리볼버가 미사용이며 약정 준수 상태다.",
+        "FY2025 및 H1 2026 모두 양의 OCF와 단순 FCF를 창출했다."
+      ],
+      "counter_evidence": ["고객·유통·공급 집중으로 경기충격 시 현금창출 변동성은 존재한다."],
+      "confidence": 0.9,
+      "missing_data": []
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "unknown",
+      "evidence": ["2026 proxy에 2026-04-13 종가 $53.38가 있으나 동기화 현재가가 아니므로 사용하지 않는다."],
+      "counter_evidence": [],
+      "confidence": 0.1,
+      "missing_data": ["동기화 현재가", "9% reverse DCF", "Bear/Base/Bull 가치범위"]
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "PowiGaN과 vertical-GaN이 AI 전력·EV·고전력 응용으로 성공하면 기존 AC-DC 시장보다 큰 TAM 확장 옵션이 있다.",
+        "강한 순현금성 유동성이 기술개발 실패 구간의 생존성을 높인다."
+      ],
+      "counter_evidence": [
+        "higher-power vertical-GaN 개발은 수년이 걸릴 수 있고 현재 매출 성장률은 낮다.",
+        "고객 집중과 경쟁 심화로 성공 시 경제적 과실의 크기가 제한될 수 있다."
+      ],
+      "confidence": 0.55,
+      "missing_data": ["AI/EV/고전력 디자인윈 파이프라인", "신규 TAM의 실제 gross profit pool"]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": ["FY2025 재무제표와 ICFR에 Deloitte 무수정 의견", "H1 2026 disclosure controls effective, Q2 ICFR 중요 변경 없음"],
+        "resolution_needed": null,
+        "severity": "LOW",
+        "confidence": 0.86,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": ["2026-06 현금+단기투자 $262.6M, 총부채 $98.5M", "$100M revolver 미사용·약정 준수", "양의 OCF/FCF"],
+        "resolution_needed": null,
+        "severity": "LOW",
+        "confidence": 0.9,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": ["2025 순주식수 -2.6%였으나 H1 2026 +0.8%, 8/3 기준 +1.0%", "proxy 추가 2M주 인센티브 풀 약 3.6%", "SBC/단순 FCF 비중 약 46~49%"],
+        "resolution_needed": "8개 분기 완전희석 주식수·SBC·환매·인센티브풀 사용 bridge",
+        "severity": "MEDIUM",
+        "confidence": 0.8,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": ["산업 믹스는 개선됐으나 H1 매출 +2.6%, gross profit -0.5%", "유통사 72% 의존으로 최종 sell-through 검증 필요"],
+        "resolution_needed": "제품군별/최종시장 sell-through, ASP, 재고 및 디자인윈 검증",
+        "severity": "MEDIUM",
+        "confidence": 0.7,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": ["H1 OCF -24.2%, 단순 FCF -18.4%", "GaN/산업 성장 R&D의 incremental return 미확정"],
+        "resolution_needed": "신규 R&D/제품별 매출·gross profit·주당 FCF 전환 추적",
+        "severity": "MEDIUM",
+        "confidence": 0.65,
+        "basis": "PRIMARY_FILINGS_PLUS_CALCULATION"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": ["특허·통합설계·PowiGaN 장점", "동시에 중국/GaN 경쟁 심화 및 H1 gross margin 55.2%→53.5%"],
+        "resolution_needed": "제품별 점유율, ASP, gross margin, design-win 유지율",
+        "severity": "MEDIUM",
+        "confidence": 0.67,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": ["동기화 현재가와 reverse DCF 미수행"],
+        "resolution_needed": "현재가 동기화 후 9% reverse DCF 및 Bear/Base/Bull",
+        "severity": "UNKNOWN",
+        "confidence": 0.2,
+        "basis": "VALUATION_GATE_OPEN"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": ["H1 최대 고객 31%, top-10 AR 90%, 유통사 72%, Asia 81%", "주요 wafer 공급자 3곳에 집중"],
+        "resolution_needed": "최대 고객 경제적 의존성, 유통 재고, foundry 대체 가능성 stress test",
+        "severity": "HIGH",
+        "confidence": 0.85,
+        "basis": "PRIMARY_FILINGS"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": ["기술·고객·희석 리스크와 가치평가 미완료", "강한 유동성은 생존 리스크를 낮춤"],
+        "resolution_needed": "valuation 및 moat/concentration stress test 완료",
+        "severity": "UNKNOWN",
+        "confidence": 0.45,
+        "basis": "PARTIAL_ANALYSIS"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {"bear": null, "base": null, "bull": null},
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": ["동기화 현재가", "normalised owner FCF", "reverse DCF", "Bear/Base/Bull"],
+    "model_required": "ESTABLISH_FROM_PRIMARY_FILINGS_AND_SYNCHRONIZED_QUOTE"
+  },
+  "total_score_100": null,
+  "business_quality_75": 53,
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_REVIEWED",
+    "primary_document_reaudit": "사용자 제공 6개 SEC/Proxy 문서에서 재무, 사업, 지배구조, 법률, 소유권 항목을 선별 추출·교차검산.",
+    "fact_estimate_inference_opinion": "공시 숫자=보고 사실; 성장률/FCF/SBC 비율=기계적 계산; 사업 연결과 점수=추론·의견.",
+    "missing_data_rule": "현재가와 독립적 sell-through 등 미확인 항목은 unknown/INVESTIGATE로 유지하고 PASS로 보간하지 않음."
+  },
+  "red_team": {
+    "attacks": [
+      {"id": 1, "attack": "PowiGaN/AI 서사는 현재 2~3% 매출성장과 맞지 않으며 신규 TAM이 기존 사업 둔화를 가리는 narrative일 수 있다."},
+      {"id": 2, "attack": "최대 고객 30%대, 유통사 70%대, Asia 80%대 집중은 단일 채널 충격을 회사 전체 실적으로 증폭시킬 수 있다."},
+      {"id": 3, "attack": "FY2025 FCF는 강했지만 SBC가 FCF의 약 46%, 자본환원이 FCF의 167%여서 주당 가치창출과 현금환원의 질을 분리해야 한다."},
+      {"id": 4, "attack": "2026 이익 개선은 전년 소송비용과 현 구조조정 기저효과가 커서 구조적 마진 개선으로 오인할 수 있다."},
+      {"id": 5, "attack": "추가 2M주 인센티브 풀과 H1 순희석은 2025 자사주 소각 효과를 되돌릴 가능성이 있다."}
+    ]
+  }
+}
