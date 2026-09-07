@@ -1,0 +1,324 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "PANW",
+  "company_name": "Palo Alto Networks",
+  "as_of": "2026-09-08",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This checkpoint does not modify companies/PANW/latest.json or current registry authority. Current canonical authority remains the 2026-09-06 preliminary review until a separate canonical harness run promotes it.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "source_paths": [
+    "reviews/2026-09-08-panw-prelim/raw-data.json"
+  ],
+  "historical_records": [],
+  "historical_score_100": null,
+  "review_method": "사용자 제공 PANW IR/SEC 5개 링크 및 동일 공시의 공식 company/SEC equivalents를 구조화·교차검증한 비권위 초벌 체크포인트",
+  "portfolio_context": "실제 보유·세금·위험예산 및 동기화 현재가 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "structural_thesis": "Network & AI Security, Cortex, Cloud, Identity를 묶는 플랫폼화와 약 80% subscription/support 매출 구조가 NGS ARR·RPO 성장을 견인한다.",
+  "customer_and_moat": "Q4 FY2026 NGS ARR $9.10B(+63%)와 RPO $21.2B(+34%)는 플랫폼 채택 확대를 지지하지만 대형 LLM 고객 및 인수 기여가 섞여 있어 유기적 retention·win-rate 검증이 필요하다.",
+  "current_finding": "FY2026 잠정 매출은 $11.48B(+24.5%), 회사 정의 FCF는 $4.113B이지만 GAAP 영업마진은 6.1%로 FY2025 13.5%에서 하락했고 CyberArk 인수 및 SBC가 주당 경제의 핵심 검증 항목이 됐다.",
+  "economic_finding": "현금창출력은 강하지만 CyberArk $21.1B 인수, goodwill+intangibles의 자산 비중 약 59.9%, 높은 SBC를 감안하면 증분 ROIC와 owner cash per share는 아직 확정할 수 없다.",
+  "capital_and_survival": "2026-07-31 잠정 cash+investments $7.906B, long-term convertible notes $1.774B, FY2026 OCF $4.553B으로 생존성은 강하다. 다만 2026-04-30 purchase commitments $8.6B와 대형 M&A 통합 리스크를 추적한다.",
+  "next_evidence": "동기화 현재가·9% reverse DCF, CyberArk/Chronosphere 유기적 ARR 분해, M&A 증분 ROIC, retention/win-rate, SBC·환매·M&A 주식수 브리지, FY2026 audited 10-K",
+  "permanent_loss_case": "대형 M&A가 낮은 증분 현금수익률을 기록하고 SBC·주식발행이 지속되는 동안 시장가격이 높은 성장 기대를 선반영해 주당 내재가치가 장기간 회복되지 않는 경우",
+  "falsifiers": [
+    "NGS ARR·RPO 성장 둔화가 retention 또는 competitive win-rate 악화와 동반됨",
+    "CyberArk 포함 인수자본의 3~5년 세후 증분 현금수익률이 9% 요구수익률에 미달함",
+    "SBC와 M&A 발행 이후 FCF/share가 지속적으로 정체 또는 감소함",
+    "FY2026 audited 10-K에서 현재 잠정치 또는 내부통제 판단을 훼손하는 중대한 이슈가 확인됨"
+  ],
+  "increase_evidence": [
+    "유기적 NGS ARR·RPO·renewal 성장과 독립적 win-rate 개선",
+    "CyberArk 교차판매·시너지로 9%를 유의하게 상회하는 증분 ROIC",
+    "SBC 포함 주당 현금흐름 성장과 순희석 억제",
+    "9% reverse DCF에서 현실적 Base 이하 기대가 현재 가격에 반영됨"
+  ],
+  "sell_evidence": [
+    "플랫폼화 지표가 둔화하는 가운데 M&A 통합비용·SBC가 구조적으로 증가",
+    "대형 인수의 goodwill 손상 또는 현금수익률 붕괴",
+    "현재 가격이 실현 가능성이 낮은 FY2030 bull case를 요구"
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY2026 revenue +24.5%; Q4 NGS ARR $9.10B +63%; RPO $21.2B +34%; FY2027 revenue guidance +23~24%"
+      ],
+      "counter_evidence": [
+        "FY2026 ARR includes acquisition effects and a nine-figure contribution from one large LLM customer migration"
+      ],
+      "confidence": 0.85,
+      "missing_data": [
+        "organic ARR bridge by platform and acquisition"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Subscription/support remains ~80% of revenue; RPO growth supports contracted customer demand; 70,000+ customers reported in Q4 release"
+      ],
+      "counter_evidence": [
+        "Independent renewal, NRR, cohort retention and price realization are not in supplied sources"
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "NRR/renewal by platform, independent customer ROI, competitive win-rate"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "NGS ARR and RPO accelerated; broad platform strategy spans network, security operations, cloud and identity"
+      ],
+      "counter_evidence": [
+        "CyberArk/Chronosphere contribution obscures organic moat trajectory; distributor concentration remains meaningful"
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "organic vs acquired ARR, retention, cross-sell cohort data"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 7,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY2026 OCF $4.553B and company FCF $4.113B; nine-month OCF grew 18.6%"
+      ],
+      "counter_evidence": [
+        "CyberArk purchase consideration $21.1B; goodwill+intangibles ~59.9% of preliminary FY2026 assets; high SBC and M&A share issuance; GAAP operating margin fell"
+      ],
+      "confidence": 0.67,
+      "missing_data": [
+        "3-5 year acquisition ROIC bridge, owner FCF/share normalization, maintenance vs growth investment"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Platform strategy has produced rapid ARR/RPO growth; FY2026 $1.0B nine-month repurchases partially offset employee issuance"
+      ],
+      "counter_evidence": [
+        "CyberArk is a very large $21.1B capital allocation decision; recurring acquisition/SBC adjustments are material; FY2025 had no common-stock repurchases"
+      ],
+      "confidence": 0.68,
+      "missing_data": [
+        "post-deal synergy realization, acquisition ROIC, full share-count bridge"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Preliminary FY2026 cash+investments $7.906B vs $1.774B long-term convertible notes; FY2026 OCF $4.553B; no Credit Agreement draw at 2026-04-30"
+      ],
+      "counter_evidence": [
+        "Purchase commitments were $8.6B at 2026-04-30; acquisition integration expands liabilities and execution obligations"
+      ],
+      "confidence": 0.9,
+      "missing_data": [
+        "FY2026 audited debt/commitment schedule"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY2027 company revenue guidance $14.1-$14.2B and FY2030 NGS ARR target $20B provide explicit expectations to test"
+      ],
+      "counter_evidence": [
+        "No synchronized current quote or reverse DCF in supplied source set"
+      ],
+      "confidence": 0.2,
+      "missing_data": [
+        "current quote, 9% reverse DCF, Bear/Base/Bull"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cybersecurity platformization and AI security can support power-law upside if cross-platform economics scale"
+      ],
+      "counter_evidence": [
+        "Asymmetry cannot be assessed without price; large acquisition capital and dilution can reduce per-share upside"
+      ],
+      "confidence": 0.3,
+      "missing_data": [
+        "valuation and per-share scenario distribution"
+      ],
+      "source_paths": [
+        "reviews/2026-09-08-panw-prelim/raw-data.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "FY2025 10-K received unqualified financial-statement opinion and effective ICFR opinion; no FY2026 audit opinion inferred from the unaudited 8-K release"
+        ],
+        "resolution_needed": "Review FY2026 audited 10-K when filed",
+        "severity": "LOW",
+        "confidence": 0.84,
+        "basis": "FY2025_PRIMARY_AUDIT_SUPPORTS_PASS_WITH_FY2026_LIMIT"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "FY2026 preliminary cash+investments $7.906B, OCF $4.553B, convertible notes $1.774B; no credit agreement balance at Apr. 30"
+        ],
+        "resolution_needed": "Reconcile audited FY2026 commitments and maturities",
+        "severity": "LOW",
+        "confidence": 0.9,
+        "basis": "STRONG_LIQUIDITY_AND_INTERNAL_CASH_GENERATION"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FY2026 weighted diluted shares rose ~7.8%; 112M shares were issued for acquisition; SBC remains high and must be separated from M&A issuance"
+        ],
+        "resolution_needed": "4-quarter gross issuance, SBC vesting, tax withholding, repurchase and M&A share bridge",
+        "severity": "MEDIUM",
+        "confidence": 0.82,
+        "basis": "MATERIAL_SHARE_ISSUANCE_AND_SBC_REQUIRE_PER_SHARE_TEST"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Revenue growth is accompanied by NGS ARR, RPO and operating cash flow growth; FY2026 OCF $4.553B"
+        ],
+        "resolution_needed": "Decompose organic versus acquired growth and large LLM customer contribution",
+        "severity": "LOW",
+        "confidence": 0.72,
+        "basis": "CONTRACTED_DEMAND_AND_CASH_SUPPORT_GROWTH"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "CyberArk purchase consideration $21.1B with $14.8B goodwill and $6.3B identified intangibles; return on this capital is not yet observable"
+        ],
+        "resolution_needed": "3-5 year post-tax incremental cash return and synergy bridge versus 9% hurdle",
+        "severity": "HIGH",
+        "confidence": 0.94,
+        "basis": "LARGE_ACQUISITION_CAPITAL_BASE_UNPROVEN_RETURN"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "NGS ARR/RPO are strong but supplied sources lack independent renewal, retention and win-rate evidence; acquisition effects are material"
+        ],
+        "resolution_needed": "Organic platform cohorts, retention, NRR, price realization and competitive win-rate",
+        "severity": "MEDIUM",
+        "confidence": 0.75,
+        "basis": "POSITIVE_REPORTED_TRAJECTORY_BUT_INDEPENDENT_MOAT_EVIDENCE_OPEN"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "No synchronized current quote or reverse DCF was provided/run in this source-bound checkpoint"
+        ],
+        "resolution_needed": "Current quote plus 9% reverse DCF and Bear/Base/Bull scenarios",
+        "severity": "UNKNOWN",
+        "confidence": 0.98,
+        "basis": "VALUATION_GATE_OPEN"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "No single end customer exceeded 10% of FY2025 revenue; distributor concentration was meaningful but not individually fatal and declined to top-two 31% of nine-month FY2026 revenue"
+        ],
+        "resolution_needed": "Monitor distributor sell-through and any large-customer/platform concentration",
+        "severity": "LOW",
+        "confidence": 0.78,
+        "basis": "END_CUSTOMER_DIVERSIFICATION_OFFSETS_CHANNEL_CONCENTRATION"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Valuation is not established and large M&A plus dilution can create permanent per-share value loss even if revenue grows"
+        ],
+        "resolution_needed": "Reverse DCF, acquisition ROIC and per-share cash compounding stress test",
+        "severity": "UNKNOWN",
+        "confidence": 0.9,
+        "basis": "PRICE_AND_CAPITAL_ALLOCATION_GATES_OPEN"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {
+      "bear": null,
+      "base": null,
+      "bull": null
+    },
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": [
+      "current price",
+      "9% reverse DCF",
+      "organic/acquired ARR bridge",
+      "normalized owner FCF/share"
+    ],
+    "model_required": "ESTABLISH_FROM_SYNCHRONIZED_QUOTE_AND_PRIMARY_FILINGS"
+  },
+  "total_score_100": null,
+  "business_quality_75": 58,
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_WITH_RESOLVED_EQUIVALENTS",
+    "primary_document_reaudit": "FY2025 10-K, Q3 FY2026 10-Q, Sep. 1 2026 8-K/Exhibit 99.1 and Sep. 3 Form 4 filing set reviewed. Direct investor nodes 20771/20781/20786 were unavailable, so equivalent official filing index/SEC records were used and node-to-accession mapping was not invented.",
+    "fact_estimate_inference_opinion": "원문 공시 숫자=보고 사실; 산식=계산치; 사업 연결=추론; 점수·veto 판정=의견. FY2026 8-K 연간 수치는 unaudited preliminary.",
+    "missing_data_rule": "확인되지 않은 최신 10-K 감사의견, 현재 주가, organic ARR decomposition, 10b5-1 note는 추정하지 않음."
+  }
+}
