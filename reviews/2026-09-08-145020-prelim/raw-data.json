@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "145020",
+  "company_name": "Hugel, Inc.",
+  "as_of": "2026-09-08",
+  "authority_status": "NON_CURRENT_RESEARCH_ARTIFACT",
+  "scope": "User-supplied FY2025 business report, H1 2026 report, and 2026-08-06 treasury-stock disposition report. This file is staged outside canonical companies/145020/raw-data to preserve frozen harness reproducibility until a separate canonical promotion run.",
+  "source_manifest": [
+    {
+      "document": "[휴젤]사업보고서(2026.03.20).pdf",
+      "period": "FY2025",
+      "filing_date": "2026-03-20",
+      "size_bytes": 1965233,
+      "sha256": "1eae0a33b0d1e293370a41a1fb7d47bfb3c5f60527b2e542acd6b3bb884c5cdf",
+      "source_type": "DART primary filing supplied by user"
+    },
+    {
+      "document": "[휴젤]반기보고서(2026.08.14).pdf",
+      "period": "H1 2026",
+      "filing_date": "2026-08-14",
+      "size_bytes": 1871413,
+      "sha256": "d5bd0fff6938962a57c933b30d9ada5cd16cb87e4cc4e766e287d6aa09e5322d",
+      "source_type": "DART primary filing supplied by user"
+    },
+    {
+      "document": "[휴젤]주요사항보고서(자기주식처분결정)(2026.08.06).pdf",
+      "period": "2026-08-06 event",
+      "filing_date": "2026-08-06",
+      "size_bytes": 223089,
+      "sha256": "0661904d918b2db9bb903f941175815db306c407954843e4dea76048f7ee249c",
+      "source_type": "DART primary filing supplied by user"
+    }
+  ],
+  "business": {
+    "description": "Global medical-aesthetics company centered on botulinum toxin, HA filler/skinbooster, cosmetics and threads.",
+    "key_products": ["Botulax/Letybo toxin", "The Chaeum filler", "Byryzn skinbooster", "Wellage cosmetics", "Blue Rose threads"],
+    "global_approval_claim_fy2025": {
+      "approved_countries": 69,
+      "pending_countries": 5,
+      "us_fda_letybo_approval_date": "2024-02-29",
+      "company_claim": "Company states it had entered the U.S., Europe and China major toxin markets and was the only Korean toxin company with China approval at the filing date."
+    },
+    "product_mix_million_krw": {
+      "FY2025": {
+        "toxin": 230499,
+        "toxin_pct": 54.22,
+        "filler": 130232,
+        "filler_pct": 30.63,
+        "cosmetics": 56326,
+        "cosmetics_pct": 13.25,
+        "medical_device": 5383,
+        "medical_device_pct": 1.27,
+        "other": 2670,
+        "other_pct": 0.63,
+        "total": 425110
+      },
+      "H1_2026": {
+        "toxin": 147117,
+        "toxin_pct": 57.80,
+        "filler_and_skinbooster": 65940,
+        "filler_and_skinbooster_pct": 25.91,
+        "cosmetics": 36528,
+        "cosmetics_pct": 14.35,
+        "thread": 2644,
+        "thread_pct": 1.04,
+        "other": 2314,
+        "other_pct": 0.91,
+        "total": 254543
+      }
+    },
+    "h1_2026_product_growth": {
+      "toxin_yoy_pct": 45.72,
+      "filler_and_skinbooster_yoy_pct": -3.74,
+      "other_medical_device_yoy_pct": -3.79,
+      "cosmetics_yoy_pct": 36.45,
+      "other_yoy_pct": 109.34
+    },
+    "h1_2026_geographic_revenue_million_krw": {
+      "korea": 88341,
+      "asia": 82199,
+      "americas": 35874,
+      "europe_middle_east": 37512,
+      "other": 10616,
+      "americas_yoy_pct": 109.45
+    },
+    "export_mix": {
+      "FY2025_export_revenue_million_krw": 276247,
+      "FY2025_export_pct_calculated": 64.98,
+      "H1_2026_export_revenue_million_krw": 166202,
+      "H1_2026_export_pct_calculated": 65.29
+    },
+    "hugel_america_h1_2026": {
+      "revenue_million_krw": 32744,
+      "revenue_yoy_pct_calculated": 36.68,
+      "net_income_million_krw": -4974,
+      "prior_h1_revenue_million_krw": 23957,
+      "prior_h1_net_income_million_krw": 3068,
+      "note": "Revenue grew but the U.S. intermediate holding group swung from profit to loss; cause and contribution margin require separate validation."
+    }
+  },
+  "financials": {
+    "FY2025_million_krw": {
+      "revenue": 425110,
+      "revenue_yoy_pct_calculated": 13.96,
+      "operating_income": 200851,
+      "operating_income_yoy_pct_calculated": 20.83,
+      "operating_margin_pct_calculated": 47.25,
+      "net_income": 146974,
+      "net_income_yoy_pct_calculated": 2.68,
+      "parent_net_income": 140872,
+      "basic_eps_krw": 13061,
+      "operating_cash_flow": 150059,
+      "ppe_capex": 13395,
+      "intangible_acquisitions": 16128,
+      "ocf_minus_ppe_diagnostic": 136664,
+      "ocf_minus_ppe_minus_intangibles_diagnostic": 120536,
+      "sbc_expense": 7422,
+      "ocf_minus_ppe_minus_sbc_diagnostic": 129242
+    },
+    "H1_2026_million_krw": {
+      "revenue": 254543,
+      "revenue_yoy_pct_calculated": 27.22,
+      "gross_profit": 195846,
+      "gross_margin_pct_calculated": 76.94,
+      "operating_income": 103655,
+      "operating_income_yoy_pct_calculated": 8.40,
+      "operating_margin_pct_calculated": 40.72,
+      "prior_h1_operating_margin_pct_calculated": 47.79,
+      "net_income": 85345,
+      "net_income_yoy_pct_calculated": 23.51,
+      "parent_net_income": 82595,
+      "basic_eps_krw": 7645,
+      "diluted_eps_krw": 7493,
+      "operating_cash_flow": 98319,
+      "operating_cash_flow_yoy_pct_calculated": 46.88,
+      "ppe_capex": 25944,
+      "intangible_acquisitions": 6198,
+      "ocf_minus_ppe_diagnostic": 72375,
+      "prior_h1_ocf_minus_ppe_diagnostic": 60717,
+      "ocf_minus_ppe_yoy_pct_calculated": 19.20,
+      "ocf_minus_ppe_minus_intangibles_diagnostic": 66177,
+      "sbc_expense": 9555,
+      "prior_h1_sbc_expense": 2575,
+      "sbc_yoy_pct_calculated": 271.13,
+      "ocf_minus_ppe_minus_sbc_diagnostic": 62820
+    },
+    "Q2_2026_million_krw": {
+      "revenue": 137903,
+      "operating_income": 56030,
+      "operating_margin_pct_calculated": 40.62,
+      "net_income": 44739
+    },
+    "H1_2026_balance_sheet_million_krw": {
+      "cash_and_equivalents": 259559,
+      "short_term_deposits": 341500,
+      "cash_plus_short_term_deposits_calculated": 601059,
+      "trade_receivables": 87358,
+      "inventory": 57141,
+      "total_assets": 1192014,
+      "convertible_bond_liability": 26305,
+      "total_liabilities": 104148,
+      "total_equity": 1087865,
+      "net_debt_reported_calculation": -233254
+    },
+    "diagnostic_note": "OCF-PPE, OCF-PPE-intangibles and SBC-adjusted variants are mechanical diagnostics only. They are not complete owner FCF and must not be double counted with later dilution analysis."
+  },
+  "capital_structure_and_shareholder_returns": {
+    "issued_shares_2025_year_end": 12304033,
+    "treasury_shares_2025_year_end": 1500741,
+    "circulating_shares_2025_year_end": 10803292,
+    "treasury_ratio_pct": 12.20,
+    "2025_treasury_share_cancellation": 300000,
+    "2025_treasury_share_purchase_million_krw": 1321,
+    "historical_treasury_purchase_million_krw": {
+      "2024": 172480,
+      "2023": 122449
+    },
+    "remaining_cb_at_2026_06_30_million_krw": 26350,
+    "post_period_cb_conversion": {
+      "conversion_request_date": "2026-07-13",
+      "share_issue_date": "2026-07-28",
+      "new_shares": 211140,
+      "post_conversion_issued_shares": 12515173,
+      "gross_share_count_increase_pct_calculated": 1.72,
+      "cb_status_after_event": "extinguished"
+    },
+    "2026_08_06_treasury_disposition": {
+      "shares": 15643,
+      "exercise_price_krw": 130531,
+      "amount_krw": 2041896433,
+      "purpose": "Treasury-stock delivery upon stock-option exercise",
+      "period_start": "2026-08-21",
+      "period_end": "2029-03-30",
+      "company_estimated_dilution_pct": 0.12
+    },
+    "2026_share_plan": {
+      "planned_cancellation_shares": 300000,
+      "planned_cancellation_pct_of_post_conversion_shares": 2.40,
+      "planned_option_delivery_shares_current_event": 15643,
+      "planned_treasury_holding_for_options_rsu": 1182757,
+      "specific_purpose_treasury_shares": 2341,
+      "longer_term_option_rsu_treasury_delivery_plan_shares": 447226
+    },
+    "sbc_note": "H1 2026 stock-compensation expense increased materially. Treasury-share delivery does not increase issued shares but transfers treasury shares into circulation and is economically dilutive to continuing holders."
+  },
+  "governance_and_control": {
+    "largest_shareholder": "Aphrodite Acquisition Holdings LLC",
+    "largest_shareholder_shares_2026_06_30": 5355651,
+    "largest_shareholder_pct_2026_06_30": 43.53,
+    "related_party_cb_million_krw_at_h1": 26305,
+    "related_party_other_expense_million_krw_h1": 600,
+    "note": "Concentrated sponsor control and equity-compensation arrangements warrant alignment review; no conclusion of abuse is made from these filings alone."
+  },
+  "audit_and_controls": {
+    "FY2025_auditor": "Samil PwC",
+    "FY2025_financial_statement_opinion": "unqualified",
+    "FY2025_internal_control_opinion": "unqualified / no cited material weakness",
+    "H1_2026_auditor": "Deloitte Anjin",
+    "H1_2026_financial_statement_status": "interim review; filing table reports appropriate opinion",
+    "auditor_change_reason": "2023-2025 designated audit contract expired; Anjin appointed for 2026-2028"
+  },
+  "legal_and_regulatory": {
+    "korea_mfds_administrative_case": {
+      "subject": "Botulax product authorization cancellation/recall/sales suspension orders originating in 2021",
+      "first_instance": "Company reports partial win on 2024-02-08",
+      "appeal": "Company filed appeal 2024-02-29; second instance ongoing at filing date",
+      "company_cash_outflow_view": "Outcome and cash outflow not reliably estimable"
+    },
+    "pharmaceutical_affairs_act_criminal_case": {
+      "indictment_date": "2023-03-14",
+      "defendants": "Hugel and two employees (one former, one current)",
+      "first_instance_judgment_date": "2024-03-21",
+      "appeal_date": "2024-03-28",
+      "status": "appeal ongoing at filing date"
+    },
+    "us_itc_medytox": {
+      "matter": "Appeal from U.S. ITC Investigation No. 337-TA-1313",
+      "court": "U.S. Court of Appeals for the Federal Circuit",
+      "role": "Hugel participates as intervenor; Medytox appellant and ITC appellee",
+      "status": "appeal ongoing in supplied H1 filing"
+    },
+    "interpretation": "These are real open legal/regulatory gates. The clean audit does not resolve operating-license or conduct risk. No final adverse outcome is assumed."
+  },
+  "preliminary_observations": [
+    "H1 growth is being led by toxin and international expansion, especially the Americas.",
+    "H1 operating margin compressed materially despite strong revenue growth because SG&A grew faster; U.S. commercialization economics need separate proof.",
+    "Balance-sheet survivability is excellent and the remaining convertible bond was converted after period-end.",
+    "Cash conversion remains strong, but stock compensation, option/RSU treasury delivery and the post-period conversion mean per-share owner economics need an explicit dilution bridge.",
+    "Regulatory approvals form a meaningful entry barrier, but Korean Pharmaceutical Affairs Act/MFDS litigation and the U.S. ITC appeal keep integrity/moat vetoes open.",
+    "No synchronized market price or reverse DCF was supplied, so valuation and buy authorization remain withheld."
+  ],
+  "limitations": [
+    "No synchronized market quote was used.",
+    "No independent physician adoption, market-share, ASP, reorder/retention or channel sell-through data were supplied.",
+    "No external court docket review was performed in this checkpoint; litigation status is limited to the supplied filings.",
+    "Company statements about market leadership, competitive advantage and repeat procedures are company assertions unless independently verified later.",
+    "This extraction is a non-authoritative research checkpoint and does not replace the current harness authority."
+  ]
+}
