@@ -1,0 +1,159 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "APP",
+  "company_name": "AppLovin Corporation",
+  "as_of": "2026-09-08",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "PARTIAL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PARTIAL_DEEP_DIVE",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This checkpoint does not modify companies/APP/latest.json or current registry authority. Current canonical authority remains the 2026-09-06 preliminary review until a separate canonical harness run promotes it.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "score_status": "BUSINESS_QUALITY_SCORED_EXPECTATION_GAP_AND_ASYMMETRY_WITHHELD",
+  "business_quality_75": 61,
+  "total_score_100": null,
+  "source_paths": [
+    "reviews/2026-09-08-app-prelim/raw-data.json"
+  ],
+  "historical_records": [],
+  "historical_score_100": null,
+  "review_method": "User-supplied Q2 2026 earnings 8-K/Exhibit 99.1, 2026 definitive proxy, proxy additional materials, five Form 4 filings and one Form 144 were structured and cross-checked as a non-current research checkpoint. One additional supplied file was entirely zero bytes and was excluded as unreadable.",
+  "portfolio_context": "No synchronized current quote, tax basis, position size, or portfolio risk budget was supplied. This is not a buy approval or automatic portfolio action.",
+  "structural_thesis": "AppLovin is showing exceptional operating leverage after concentrating on its core advertising platform: Q2 2026 revenue grew more than 50%, GAAP operating margin approached 78%, company-defined FCF margin was about 45%, SBC remained below 5% of revenue and diluted share count fell year over year. The central question is whether Axon-driven advertiser performance and e-commerce expansion are durable and independently verifiable rather than a transient optimization cycle that the current market price may already fully discount.",
+  "customer_and_moat": "The supplied filings show extraordinary revenue and margin acceleration, plus management's continued emphasis on Axon AI and early web/e-commerce expansion. However, the package does not establish independent advertiser ROAS, customer retention/cohorts, traffic quality, customer concentration or platform-policy dependency, so the economic moat is not treated as fully verified.",
+  "current_finding": "Q2 2026 revenue was $1.924B, up about 53% YoY, operating income was $1.494B and company FCF was $863M. H1 revenue grew about 56%, net income about 77% and operating cash flow about 35%. H1 SBC was only about 4.5% of revenue while weighted-average diluted shares declined about 1.6% YoY and ending share count fell about 0.9% from year-end despite continued equity compensation.",
+  "economic_finding": "The supplied interim tables point to unusually strong per-share economics: the business is highly asset-light, repurchases exceeded $1.5B in H1, dilution was more than offset, and net debt was only about $462M against annualized H1 adjusted EBITDA above $6B. The weaker point is that Q2 FCF grew only about 12% despite revenue growth above 50%, so working-capital and tax timing need a full 10-Q/10-K bridge before normalized owner FCF growth is finalized.",
+  "capital_and_survival": "Liquidity and debt service appear strong from the supplied interim balance sheet and cash-flow data: cash was about $3.05B against $3.52B long-term debt, with very high operating cash generation. Survival is not the principal issue. Capital allocation quality depends on whether large repurchases were executed below intrinsic value and whether governance concentration protects or impairs minority-owner economics.",
+  "next_evidence": "Readable FY2025 10-K and Q2 2026 10-Q; synchronized current quote and 9% reverse DCF; independent advertiser ROAS/retention evidence; customer and platform concentration; eight-quarter gross issuance/withholding/repurchase/share bridge; repurchase price versus intrinsic value; legal/regulatory and traffic-quality verification.",
+  "permanent_loss_case": "Operating results can remain excellent while shareholders still suffer permanent loss if Axon performance proves less durable than implied, dependence on external platforms or traffic quality causes a structural reset, voting control weakens minority-owner protections, or the stock price already embeds years of exceptional growth and 80%+ adjusted EBITDA margins.",
+  "falsifiers": [
+    "Revenue growth decelerates sharply while GAAP operating margin and advertiser monetization weaken at the same time.",
+    "Independent evidence shows advertiser ROAS, retention or traffic quality deteriorating materially despite reported revenue growth.",
+    "Net share count turns persistently positive because SBC or acquisition issuance outpaces economically sensible repurchases.",
+    "A full 10-K/10-Q review reveals material accounting, customer-concentration, platform-policy or legal risks not visible in the supplied earnings and proxy package."
+  ],
+  "increase_evidence": [
+    "Independent advertiser ROAS and cohort retention confirm Axon creates durable incremental value across mobile gaming and newer e-commerce customers.",
+    "Owner FCF per share compounds while SBC remains near current low-single-digit revenue levels and net share count is flat to down without overpaying for repurchases.",
+    "Readable 10-K/10-Q evidence confirms strong controls, manageable customer/platform concentration and no hidden balance-sheet or legal dependence.",
+    "A 9% reverse DCF shows the current price requires assumptions below a defensible Base case."
+  ],
+  "sell_evidence": [
+    "Material deterioration in advertiser economics or traffic quality together with decelerating revenue and margin compression.",
+    "Large value-destructive repurchases undertaken at prices requiring an unrealistic bull case while organic owner-cash growth slows.",
+    "Governance or related-party actions materially impair Class A minority-owner rights or capital allocation discipline."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Q2 revenue +53% YoY", "H1 revenue +56% YoY", "Q3 revenue guidance midpoint implies continued sequential growth", "2025 sale of Apps business sharpened focus on advertising platform and Axon AI"],
+      "counter_evidence": ["No independent verification of how much growth is structurally attributable to Axon versus market/cycle or traffic mix"],
+      "confidence": 0.82,
+      "missing_data": ["Independent advertiser ROAS and platform-share evidence", "Readable 10-K/10-Q business-risk detail"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Revenue and profit growth indicate strong monetization", "Management is expanding Axon into web-based e-commerce advertisers"],
+      "counter_evidence": ["No supplied cohort retention, customer concentration or independent ROAS data"],
+      "confidence": 0.68,
+      "missing_data": ["Advertiser retention/cohort data", "Independent ROAS studies", "Customer concentration"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Q2 GAAP operating margin about 77.7%", "Q2 adjusted EBITDA margin 84%", "Growth accelerated while core cost base remained small relative to revenue"],
+      "counter_evidence": ["Ad-tech economics can be vulnerable to platform policy, attribution changes and traffic-quality issues", "No independent market-share or advertiser switching-cost evidence was supplied"],
+      "confidence": 0.7,
+      "missing_data": ["Platform dependence", "Traffic-quality validation", "Competitive win/loss and advertiser retention"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["Q2 company FCF $863M on $1.924B revenue", "Q2 capex plus finance-lease principal only about $5.7M", "H1 SBC about 4.5% of revenue", "ending shares down about 0.9% from year-end and diluted weighted shares down about 1.6% YoY"],
+      "counter_evidence": ["Q2 FCF growth of about 12% lagged revenue growth above 50%", "Repurchase economics cannot be judged without purchase-price versus intrinsic-value work"],
+      "confidence": 0.87,
+      "missing_data": ["Full H1 owner-FCF bridge", "Eight-quarter gross issuance and repurchase bridge", "Repurchase average price versus intrinsic value"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["H1 repurchases $1.53B and net share count declined", "Independent board chair and fully independent standing committees", "2026 evergreen equity-plan increases were not used"],
+      "counter_evidence": ["Voting Agreement parties control about 66.9% of total voting power", "Foroughi alone has about 61.6% total voting power", "Board opposed a proposal requesting vote-result disclosure by share class", "Large repurchases require valuation discipline that has not yet been tested"],
+      "confidence": 0.82,
+      "missing_data": ["Repurchase execution prices and authorization history", "Full related-party and governance history", "Current valuation"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "evidence": ["June cash about $3.05B versus long-term debt about $3.52B", "H1 OCF about $2.16B", "Net debt only about $462M", "Net debt about 0.07x annualized H1 adjusted EBITDA on a mechanical basis"],
+      "counter_evidence": ["Direct debt maturity and covenant detail was not available because no readable 10-K/10-Q was supplied"],
+      "confidence": 0.86,
+      "missing_data": ["Debt maturity ladder and covenants", "Direct audited balance-sheet review"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    },
+    "expectation_gap_and_valuation": {
+      "score": null,
+      "max_score": 15,
+      "claim_type": "withheld",
+      "evidence": ["No synchronized current market price was supplied"],
+      "counter_evidence": [],
+      "confidence": 0.0,
+      "missing_data": ["Current quote", "9% reverse DCF", "Bear/Base/Bull valuation"],
+      "source_paths": []
+    },
+    "power_law_and_asymmetry": {
+      "score": null,
+      "max_score": 10,
+      "claim_type": "withheld",
+      "evidence": ["Axon and e-commerce expansion could create a large upside path, but asymmetry cannot be established without price"],
+      "counter_evidence": ["Exceptional current margins and growth can create severe expectation risk if already capitalized into the stock price"],
+      "confidence": 0.35,
+      "missing_data": ["Valuation and scenario distribution"],
+      "source_paths": ["reviews/2026-09-08-app-prelim/raw-data.json"]
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {"id": "management_or_accounting_integrity", "status": "INVESTIGATE", "evidence": ["Supplied earnings and proxy data are internally coherent, but no readable 10-K audit opinion or filed 10-Q controls section was available; one intended attachment was an all-zero invalid file"], "resolution_needed": "Obtain and verify readable FY2025 10-K and Q2 2026 10-Q, including audit/ICFR and disclosure controls", "severity": "MEDIUM", "confidence": 0.78, "basis": "SOURCE_PACKAGE_INCOMPLETE"},
+      {"id": "external_capital_dependence", "status": "PASS", "evidence": ["Cash about $3.05B, H1 OCF about $2.16B, net debt only about $462M and very high earnings/FCF generation"], "resolution_needed": "Confirm debt maturity ladder from 10-K/10-Q", "severity": "LOW", "confidence": 0.9, "basis": "PRIMARY_EARNINGS_TABLES"},
+      {"id": "persistent_dilution", "status": "PASS", "evidence": ["Ending shares declined about 0.9% from 2025 year-end; H1 diluted weighted-average shares declined about 1.6% YoY; H1 SBC was about 4.5% of revenue while repurchases were $1.53B"], "resolution_needed": "Build an eight-quarter gross issuance/withholding/repurchase bridge to ensure the trend persists", "severity": "LOW", "confidence": 0.88, "basis": "PRIMARY_EARNINGS_TABLES"},
+      {"id": "low_quality_growth", "status": "PASS", "evidence": ["Q2 revenue +53%, GAAP operating income about $1.49B, net income +55%, positive OCF and positive company FCF"], "resolution_needed": "Explain why Q2 FCF growth lagged revenue growth and confirm customer cash quality", "severity": "LOW_MEDIUM", "confidence": 0.82, "basis": "PRIMARY_EARNINGS_TABLES"},
+      {"id": "incremental_roic_collapse", "status": "INVESTIGATE", "evidence": ["Current cash economics are extremely strong and capex is minimal, but incremental advertiser acquisition economics and repurchase returns are not yet directly measured"], "resolution_needed": "Quantify Axon/e-commerce incremental contribution and repurchase IRR versus 9% hurdle", "severity": "MEDIUM", "confidence": 0.72, "basis": "RETURN_ATTRIBUTION_INCOMPLETE"},
+      {"id": "moat_shrinkage", "status": "INVESTIGATE", "evidence": ["Margins and growth imply strong current differentiation, but no independent ROAS, retention, traffic-quality or competitive-share evidence was supplied"], "resolution_needed": "Verify advertiser cohorts, ROAS, switching behavior, traffic quality and platform dependence", "severity": "MEDIUM_HIGH", "confidence": 0.72, "basis": "EVIDENCE_GATE_OPEN"},
+      {"id": "price_requires_unrealistic_bull_case", "status": "INVESTIGATE", "evidence": ["No synchronized quote or reverse DCF"], "resolution_needed": "Run 9% reverse DCF and Bear/Base/Bull scenarios", "severity": "UNKNOWN", "confidence": 0.2, "basis": "VALUATION_GATE_OPEN"},
+      {"id": "fatal_concentration", "status": "INVESTIGATE", "evidence": ["Customer, traffic-source and platform-policy concentration were not established in the supplied package; governance voting power is also highly concentrated"], "resolution_needed": "Map customer concentration, platform dependencies, traffic sources and voting-control implications", "severity": "MEDIUM_HIGH", "confidence": 0.62, "basis": "SOURCE_PACKAGE_INCOMPLETE"},
+      {"id": "permanent_loss_probability", "status": "INVESTIGATE", "evidence": ["Business quality is strong, but valuation and governance concentration can still create permanent per-share loss"], "resolution_needed": "Complete valuation, owner-FCF/share and governance downside scenario", "severity": "UNKNOWN", "confidence": 0.48, "basis": "VALUATION_AND_GOVERNANCE_GATES_OPEN"}
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "NOT_ESTABLISHED",
+    "reverse_expectations": null,
+    "scenarios": {"bear": null, "base": null, "bull": null},
+    "required_return": 0.09,
+    "price_status": "NO_NEW_SYNCHRONIZED_QUOTE",
+    "missing_data": ["Current market price", "normalized owner FCF/share", "reverse DCF", "Bear/Base/Bull"],
+    "model_required": "ESTABLISH_FROM_PRIMARY_FILINGS_AND_CURRENT_QUOTE"
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_PARTIAL_WITH_UNREADABLE_ATTACHMENT",
+    "notes": "Q2 financial evidence comes from the earnings 8-K and attached interim tables; governance comes from the full definitive proxy and additional materials; insider data come from Form 4 and Form 144. No readable supplied 10-K/10-Q was available, and one uploaded file was entirely zero bytes."
+  }
+}
