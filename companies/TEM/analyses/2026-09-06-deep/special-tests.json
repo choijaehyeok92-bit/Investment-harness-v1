@@ -1,0 +1,67 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 60.696882361952454
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 57.66203824385483
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 54.91622689890936
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 52.42003476714075
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "unclosed_transaction": {
+    "status": "CONDITIONAL",
+    "note": "6월 A175.200077M+B5.043789M=180.243866M. 전환약속어음187.929M은 부채로 확인. Personalis 미완료 인수는 0~50% 현금/나머지 주식 범위로 별도 스트레스하며 인수 매출을 공짜로 넣지 않는다.",
+    "acquired_business_incremental_npv_test": [
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+        "value_per_share": 41.50703824385483
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+        "value_per_share": 51.20003824385483
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0,
+        "value_per_share": 57.66203824385483
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+        "value_per_share": 64.12403824385483
+      }
+    ],
+    "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+  },
+  "personalis_consideration_stress": [
+    {
+      "assumed_total_equity_consideration_usd_b": 1.5,
+      "cash_fraction": 0,
+      "cash_required_usd_b": 0.0,
+      "illustrative_new_shares_m": 23.212627669452182,
+      "note": "At current assumed issue price. Ignores collar/price changes; does not apply extra haircut to primary standalone PV."
+    },
+    {
+      "assumed_total_equity_consideration_usd_b": 1.5,
+      "cash_fraction": 0.25,
+      "cash_required_usd_b": 0.375,
+      "illustrative_new_shares_m": 17.409470752089135,
+      "note": "At current assumed issue price. Ignores collar/price changes; does not apply extra haircut to primary standalone PV."
+    },
+    {
+      "assumed_total_equity_consideration_usd_b": 1.5,
+      "cash_fraction": 0.5,
+      "cash_required_usd_b": 0.75,
+      "illustrative_new_shares_m": 11.606313834726091,
+      "note": "At current assumed issue price. Ignores collar/price changes; does not apply extra haircut to primary standalone PV."
+    }
+  ]
+}

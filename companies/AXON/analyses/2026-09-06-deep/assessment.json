@@ -1,0 +1,1098 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "AXON",
+  "company_name": "Axon Enterprise",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "REJECT",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/AXON/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/AXON/decision-history.md",
+    "companies/AXON/decision.json",
+    "companies/AXON/evidence.jsonl",
+    "companies/AXON/hard-veto.json",
+    "companies/AXON/re-evaluation-2026-09-05.md",
+    "companies/AXON/red-team.md",
+    "companies/AXON/scorecard.json",
+    "companies/AXON/thesis.md",
+    "companies/AXON/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 4,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 8,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": 69,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Axon is expanding from TASER/body cameras into an integrated public-safety operating system spanning sensors, evidence, records, real-time operations, 911, drones/counter-drone, training and AI."
+      ],
+      "counter_evidence": [
+        "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Axon combines installed hardware sockets, Evidence.com data, mission-critical workflows, long-duration contracts and AI applications into an integrated ecosystem."
+      ],
+      "counter_evidence": [
+        "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Axon combines installed hardware sockets, Evidence.com data, mission-critical workflows, long-duration contracts and AI applications into an integrated ecosystem."
+      ],
+      "counter_evidence": [
+        "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 7,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "강한 장기 계약·NRR과 반기 음수 FCF를 동시에 반영한다. FY26 SBC 가이던스 590~620M은 경제적 인건비이며 조정 EBITDA만으로 가치평가하지 않는다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "기말 81.24백만주. 신규 보상은 owner margin에 비용화, 무상 환매 없음. 내부통제·신사업 인수·구독 회수기간 위험은 신규 진입 veto 조사로 유지한다."
+      ],
+      "counter_evidence": [
+        "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "0.685B는 현금·단기투자 공시 반올림. 제한성 확인을 위해 0.4B 유보 가정, 원금1.75B 만기와 인수약정 별도 stress."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.180 USD billion, 가용현금 차감 후 조달 부족 0.000. 기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 4,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 515.67; Base/가격 0.62배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 19.7%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.12배, Bull/가격 1.78배. 2상태 손익분기 Bull 확률 53.0%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/AXON/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "structural_thesis": "Axon is expanding from TASER/body cameras into an integrated public-safety operating system spanning sensors, evidence, records, real-time operations, 911, drones/counter-drone, training and AI.",
+  "customer_and_moat": "Axon combines installed hardware sockets, Evidence.com data, mission-critical workflows, long-duration contracts and AI applications into an integrated ecosystem.",
+  "current_finding": "강한 장기 계약·NRR과 반기 음수 FCF를 동시에 반영한다. FY26 SBC 가이던스 590~620M은 경제적 인건비이며 조정 EBITDA만으로 가치평가하지 않는다.",
+  "economic_finding": "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다.",
+  "capital_and_survival": "기말 81.24백만주. 신규 보상은 owner margin에 비용화, 무상 환매 없음. 내부통제·신사업 인수·구독 회수기간 위험은 신규 진입 veto 조사로 유지한다.",
+  "next_evidence": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+  "permanent_loss_case": "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+  ],
+  "increase_evidence": [
+    "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+        ],
+        "resolution_needed": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.180 USD billion, 가용현금 차감 후 조달 부족 0.000. 기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+        ],
+        "resolution_needed": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+        ],
+        "resolution_needed": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+        ],
+        "resolution_needed": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.19693202277118893,
+      "required_owner_margin_delta": 0.08872675549334019,
+      "price_reference": 515.67,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 22.69017733824892,
+      "implied_year_10_owner_cash": 3.630428374119827,
+      "residual_price": -3.410605131648481e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 3.9,
+                "owner_margin": -0.08,
+                "owner_cash_before_attribution": -0.312,
+                "ownership": 1,
+                "attributable_cash": -0.312
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": -0.312,
+            "cash_deficit": 0.312,
+            "available_cash_used": 0.28500000000000003,
+            "new_funding_required": 0.02699999999999997
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 4.251,
+                "owner_margin": -0.04,
+                "owner_cash_before_attribution": -0.17004000000000002,
+                "ownership": 1,
+                "attributable_cash": -0.17004000000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": -0.17004000000000002,
+            "cash_deficit": 0.17004000000000002,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.17004000000000002
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 4.633590000000001,
+                "owner_margin": 0.0,
+                "owner_cash_before_attribution": 0.0,
+                "ownership": 1,
+                "attributable_cash": 0.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 5.0506131000000005,
+                "owner_margin": 0.039999999999999994,
+                "owner_cash_before_attribution": 0.20202452399999998,
+                "ownership": 1,
+                "attributable_cash": 0.20202452399999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.20202452399999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 5.505168279000002,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.44041346232000017,
+                "ownership": 1,
+                "attributable_cash": 0.44041346232000017
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.44041346232000017,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 5.725375010160002,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.4580300008128002,
+                "ownership": 1,
+                "attributable_cash": 0.4580300008128002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.4580300008128002,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 5.954390010566403,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.47635120084531224,
+                "ownership": 1,
+                "attributable_cash": 0.47635120084531224
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.47635120084531224,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 6.1925656109890586,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.4954052488791247,
+                "ownership": 1,
+                "attributable_cash": 0.4954052488791247
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.4954052488791247,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 6.440268235428622,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.5152214588342898,
+                "ownership": 1,
+                "attributable_cash": 0.5152214588342898
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.5152214588342898,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 6.697878964845766,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 0.5358303171876613,
+                "ownership": 1,
+                "attributable_cash": 0.5358303171876613
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.5358303171876613,
+            "cash_deficit": 0,
+            "available_cash_used": 0.0,
+            "new_funding_required": 0.0
+          }
+        ],
+        "pv_interim_owner_cash": 1.2458787217277183,
+        "pv_terminal": 3.6214482662786063,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 4.867326988006324,
+        "equity_value": 4.867326988006324,
+        "value_per_share": 59.912936829226055,
+        "value_to_price": 0.11618464682689716,
+        "upside_downside": -0.8838153531731028,
+        "terminal_fraction_of_operating_pv": 0.7440322532680232,
+        "year_10_revenue": 6.697878964845766,
+        "year_10_owner_cash": 0.5358303171876613,
+        "year_10_owner_cash_per_share": 6.595646444949057,
+        "year_10_exit_price": 105.5303431191849,
+        "irr_roots": [
+          -0.12774712356458778
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0.48204,
+        "unrestricted_cash_after_reserve": 0.28500000000000003,
+        "external_funding_gap": 0.19704,
+        "funding_only_new_shares_m": 1.0917280985347775,
+        "funding_only_share_increase": 0.013438307465962303,
+        "alternative_dilution_financing_value_per_share": 64.33345817583688,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 4.5,
+                "owner_margin": -0.04,
+                "owner_cash_before_attribution": -0.18,
+                "ownership": 1,
+                "attributable_cash": -0.18
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": -0.18,
+            "cash_deficit": 0.18,
+            "available_cash_used": 0.18,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 5.31,
+                "owner_margin": 0.010000000000000002,
+                "owner_cash_before_attribution": 0.05310000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.05310000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.05310000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 6.2658,
+                "owner_margin": 0.060000000000000005,
+                "owner_cash_before_attribution": 0.375948,
+                "ownership": 1,
+                "attributable_cash": 0.375948
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.375948,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 7.393643999999999,
+                "owner_margin": 0.11000000000000001,
+                "owner_cash_before_attribution": 0.81330084,
+                "ownership": 1,
+                "attributable_cash": 0.81330084
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.81330084,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 8.724499919999998,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.3959199871999997,
+                "ownership": 1,
+                "attributable_cash": 1.3959199871999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.3959199871999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 9.509704912799998,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.5215527860479998,
+                "ownership": 1,
+                "attributable_cash": 1.5215527860479998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5215527860479998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 10.365578354952,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.65849253679232,
+                "ownership": 1,
+                "attributable_cash": 1.65849253679232
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.65849253679232,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 11.29848040689768,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.8077568651036289,
+                "ownership": 1,
+                "attributable_cash": 1.8077568651036289
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8077568651036289,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 12.315343643518473,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 1.9704549829629556,
+                "ownership": 1,
+                "attributable_cash": 1.9704549829629556
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.9704549829629556,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 13.423724571435134,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 2.1477959314296213,
+                "ownership": 1,
+                "attributable_cash": 2.1477959314296213
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.1477959314296213,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 6.189532521816838,
+        "pv_terminal": 19.959548673734204,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 26.14908119555104,
+        "equity_value": 26.14908119555104,
+        "value_per_share": 321.8744608019577,
+        "value_to_price": 0.6241869040315662,
+        "upside_downside": -0.3758130959684338,
+        "terminal_fraction_of_operating_pv": 0.7632982789900123,
+        "year_10_revenue": 13.423724571435134,
+        "year_10_owner_cash": 2.1477959314296213,
+        "year_10_owner_cash_per_share": 26.43766533025137,
+        "year_10_exit_price": 581.6286372655302,
+        "irr_roots": [
+          0.03652623971696556
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0.18,
+        "unrestricted_cash_after_reserve": 0.28500000000000003,
+        "external_funding_gap": 0.0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 323.9071739319294,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 5.0,
+                "owner_margin": 0.0,
+                "owner_cash_before_attribution": 0.0,
+                "ownership": 1,
+                "attributable_cash": 0.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 6.3,
+                "owner_margin": 0.0575,
+                "owner_cash_before_attribution": 0.36225,
+                "ownership": 1,
+                "attributable_cash": 0.36225
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.36225,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 7.938000000000001,
+                "owner_margin": 0.115,
+                "owner_cash_before_attribution": 0.9128700000000001,
+                "ownership": 1,
+                "attributable_cash": 0.9128700000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9128700000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 10.00188,
+                "owner_margin": 0.17250000000000001,
+                "owner_cash_before_attribution": 1.7253243,
+                "ownership": 1,
+                "attributable_cash": 1.7253243
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7253243,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 12.6023688,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 2.8985448240000005,
+                "ownership": 1,
+                "attributable_cash": 2.8985448240000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.8985448240000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 14.114653056000002,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 3.2463702028800006,
+                "ownership": 1,
+                "attributable_cash": 3.2463702028800006
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.2463702028800006,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 15.808411422720003,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 3.6359346272256006,
+                "ownership": 1,
+                "attributable_cash": 3.6359346272256006
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.6359346272256006,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 17.705420793446407,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 4.072246782492674,
+                "ownership": 1,
+                "attributable_cash": 4.072246782492674
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.072246782492674,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 19.830071288659976,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 4.560916396391795,
+                "ownership": 1,
+                "attributable_cash": 4.560916396391795
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.560916396391795,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "public_safety_platform",
+                "revenue": 22.209679843299174,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 5.10822636395881,
+                "ownership": 1,
+                "attributable_cash": 5.10822636395881
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.10822636395881,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 14.342071405928232,
+        "pv_terminal": 60.41756056575881,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 74.75963197168704,
+        "equity_value": 74.75963197168704,
+        "value_per_share": 920.2318066431199,
+        "value_to_price": 1.7845362472959838,
+        "upside_downside": 0.7845362472959838,
+        "terminal_fraction_of_operating_pv": 0.8081575440157349,
+        "year_10_revenue": 22.209679843299174,
+        "year_10_owner_cash": 5.10822636395881,
+        "year_10_owner_cash_per_share": 62.87821718314636,
+        "year_10_exit_price": 1760.5900811280983,
+        "irr_roots": [
+          0.15980484341463919
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.28500000000000003,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 920.2318066431199,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/AXON/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "sbc_platform",
+    "missing_data": [
+      "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 64,
+  "business_quality_75": 57,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "Axon is expanding from TASER/body cameras into an integrated public-safety operating system spanning sensors, evidence, records, real-time operations, 911, drones/counter-drone, training and AI.",
+        "response": "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "Axon combines installed hardware sockets, Evidence.com data, mission-critical workflows, long-duration contracts and AI applications into an integrated ecosystem.",
+        "response": "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "강한 장기 계약·NRR과 반기 음수 FCF를 동시에 반영한다. FY26 SBC 가이던스 590~620M은 경제적 인건비이며 조정 EBITDA만으로 가치평가하지 않는다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "기말 81.24백만주. 신규 보상은 owner margin에 비용화, 무상 환매 없음. 내부통제·신사업 인수·구독 회수기간 위험은 신규 진입 veto 조사로 유지한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 515.67; Base/가격 0.62배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 19.7%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 76.3%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "기기 설치→Evidence 사용→신규 소프트웨어 교차판매가 고객 편익의 경로다. 계약 총액 15.1B는 모두 취소 불가능한 현금채권이 아니다.",
+      "기말 81.24백만주. 신규 보상은 owner margin에 비용화, 무상 환매 없음. 내부통제·신사업 인수·구독 회수기간 위험은 신규 진입 veto 조사로 유지한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "강한 장기 계약·NRR과 반기 음수 FCF를 동시에 반영한다. FY26 SBC 가이던스 590~620M은 경제적 인건비이며 조정 EBITDA만으로 가치평가하지 않는다.",
+    "falsifiers": [
+      "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+    ],
+    "confidence": 0.62,
+    "verdict": "REJECT",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "management_or_accounting_integrity",
+      "persistent_dilution",
+      "incremental_roic_collapse",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

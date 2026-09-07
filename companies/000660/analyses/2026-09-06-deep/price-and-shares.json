@@ -1,0 +1,11 @@
+{
+  "ticker": "000660",
+  "price": 1647000.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 746.66,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다."
+}

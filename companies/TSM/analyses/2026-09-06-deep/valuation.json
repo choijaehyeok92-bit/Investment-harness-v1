@@ -1,0 +1,755 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.15067846568424093,
+    "required_owner_margin_delta": 0.10312492790844077,
+    "price_reference": 428.91,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 654.270891066368,
+    "implied_year_10_owner_cash": 176.65314058791938,
+    "residual_price": 4.547473508864641e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 165.0,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 33.0,
+              "ownership": 1,
+              "attributable_cash": 33.0
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 33.0,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 171.6,
+              "owner_margin": 0.195,
+              "owner_cash_before_attribution": 33.462,
+              "ownership": 1,
+              "attributable_cash": 33.462
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 33.462,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 178.46400000000003,
+              "owner_margin": 0.19,
+              "owner_cash_before_attribution": 33.90816,
+              "ownership": 1,
+              "attributable_cash": 33.90816
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 33.90816,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 185.60256,
+              "owner_margin": 0.185,
+              "owner_cash_before_attribution": 34.336473600000005,
+              "ownership": 1,
+              "attributable_cash": 34.336473600000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 34.336473600000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 193.02666240000005,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 34.744799232000005,
+              "ownership": 1,
+              "attributable_cash": 34.744799232000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 34.744799232000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 198.81746227200006,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 35.78714320896001,
+              "ownership": 1,
+              "attributable_cash": 35.78714320896001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 35.78714320896001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 204.78198614016003,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 36.860757505228804,
+              "ownership": 1,
+              "attributable_cash": 36.860757505228804
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 36.860757505228804,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 210.92544572436486,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 37.966580230385674,
+              "ownership": 1,
+              "attributable_cash": 37.966580230385674
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 37.966580230385674,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 217.25320909609582,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 39.105577637297245,
+              "ownership": 1,
+              "attributable_cash": 39.105577637297245
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 39.105577637297245,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 223.7708053689787,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 40.27874496641616,
+              "ownership": 1,
+              "attributable_cash": 40.27874496641616
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 40.27874496641616,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 227.10582404902684,
+      "pv_terminal": 272.2268345921523,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 499.33265864117914,
+      "equity_value": 499.33265864117914,
+      "value_per_share": 96.2753661404663,
+      "value_to_price": 0.22446519349156302,
+      "upside_downside": -0.775534806508437,
+      "terminal_fraction_of_operating_pv": 0.5451813132610953,
+      "year_10_revenue": 223.7708053689787,
+      "year_10_owner_cash": 40.27874496641616,
+      "year_10_owner_cash_per_share": 7.766067074148273,
+      "year_10_exit_price": 124.25707318637237,
+      "irr_roots": [
+        -0.0869647103744457
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 57.81999999999999,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 96.2753661404663,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 185.0,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 46.25,
+              "ownership": 1,
+              "attributable_cash": 46.25
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 46.25,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 209.04999999999998,
+              "owner_margin": 0.255,
+              "owner_cash_before_attribution": 53.30775,
+              "ownership": 1,
+              "attributable_cash": 53.30775
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 53.30775,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 236.22649999999996,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 61.41888999999999,
+              "ownership": 1,
+              "attributable_cash": 61.41888999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 61.41888999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 266.93594499999995,
+              "owner_margin": 0.265,
+              "owner_cash_before_attribution": 70.73802542499999,
+              "ownership": 1,
+              "attributable_cash": 70.73802542499999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 70.73802542499999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 301.6376178499999,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 81.44215681949998,
+              "ownership": 1,
+              "attributable_cash": 81.44215681949998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 81.44215681949998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 325.76862727799994,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 87.95752936505998,
+              "ownership": 1,
+              "attributable_cash": 87.95752936505998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 87.95752936505998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 351.83011746023993,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 94.99413171426478,
+              "ownership": 1,
+              "attributable_cash": 94.99413171426478
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 94.99413171426478,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 379.9765268570591,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 102.59366225140597,
+              "ownership": 1,
+              "attributable_cash": 102.59366225140597
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 102.59366225140597,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 410.3746490056239,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 110.80115523151846,
+              "ownership": 1,
+              "attributable_cash": 110.80115523151846
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 110.80115523151846,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 443.2046209260739,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 119.66524765003996,
+              "ownership": 1,
+              "attributable_cash": 119.66524765003996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 119.66524765003996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 495.23369332085565,
+      "pv_terminal": 1112.0536639789677,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 1607.2873572998233,
+      "equity_value": 1607.2873572998233,
+      "value_per_share": 309.8979731028986,
+      "value_to_price": 0.7225244762372027,
+      "upside_downside": -0.27747552376279727,
+      "terminal_fraction_of_operating_pv": 0.6918822940579662,
+      "year_10_revenue": 443.2046209260739,
+      "year_10_owner_cash": 119.66524765003996,
+      "year_10_owner_cash_per_share": 23.072425431071274,
+      "year_10_exit_price": 507.593359483568,
+      "irr_roots": [
+        0.05035050646630557
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 57.81999999999999,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 309.8979731028986,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 205.0,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 61.5,
+              "ownership": 1,
+              "attributable_cash": 61.5
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 61.5,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 246.0,
+              "owner_margin": 0.3075,
+              "owner_cash_before_attribution": 75.645,
+              "ownership": 1,
+              "attributable_cash": 75.645
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 75.645,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 295.2,
+              "owner_margin": 0.315,
+              "owner_cash_before_attribution": 92.988,
+              "ownership": 1,
+              "attributable_cash": 92.988
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 92.988,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 354.23999999999995,
+              "owner_margin": 0.3225,
+              "owner_cash_before_attribution": 114.24239999999999,
+              "ownership": 1,
+              "attributable_cash": 114.24239999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 114.24239999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 425.08799999999997,
+              "owner_margin": 0.33,
+              "owner_cash_before_attribution": 140.27904,
+              "ownership": 1,
+              "attributable_cash": 140.27904
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 140.27904,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 471.84768,
+              "owner_margin": 0.33,
+              "owner_cash_before_attribution": 155.7097344,
+              "ownership": 1,
+              "attributable_cash": 155.7097344
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 155.7097344,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 523.7509248,
+              "owner_margin": 0.33,
+              "owner_cash_before_attribution": 172.83780518400002,
+              "ownership": 1,
+              "attributable_cash": 172.83780518400002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 172.83780518400002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 581.3635265280001,
+              "owner_margin": 0.33,
+              "owner_cash_before_attribution": 191.84996375424004,
+              "ownership": 1,
+              "attributable_cash": 191.84996375424004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 191.84996375424004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 645.3135144460801,
+              "owner_margin": 0.33,
+              "owner_cash_before_attribution": 212.95345976720645,
+              "ownership": 1,
+              "attributable_cash": 212.95345976720645
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 212.95345976720645,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "foundry",
+              "revenue": 716.2980010351491,
+              "owner_margin": 0.33,
+              "owner_cash_before_attribution": 236.37834034159923,
+              "ownership": 1,
+              "attributable_cash": 236.37834034159923
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 236.37834034159923,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 845.5729531525365,
+      "pv_terminal": 2795.7654333380433,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 3641.33838649058,
+      "equity_value": 3641.33838649058,
+      "value_per_share": 702.0794260778288,
+      "value_to_price": 1.6368921826906082,
+      "upside_downside": 0.6368921826906082,
+      "terminal_fraction_of_operating_pv": 0.7677851209078439,
+      "year_10_revenue": 716.2980010351491,
+      "year_10_owner_cash": 236.37834034159923,
+      "year_10_owner_cash_per_share": 45.57565156261233,
+      "year_10_exit_price": 1276.1182437531452,
+      "irr_roots": [
+        0.15189260120269055
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 57.81999999999999,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 702.0794260778288,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 323.5212819069337
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 364.18180639498
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 404.84233088302636
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 275.276268348031
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 309.8979731028986
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 344.5196778577663
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 235.42141178528945
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 265.0535814870041
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 294.6857511887188
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 261.1677638860015
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 309.8979731028986
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 358.62818231979577
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.5490795718568257,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 326.20839273989327
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 309.8979731028986
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 295.1409267646653
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 281.72543009354416
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "correlated_tail_risk": {
+      "claim_type": "inference",
+      "principal_loss_stress": [
+        0.5,
+        0.8,
+        1.0
+      ],
+      "probability": null,
+      "note": "Joint supply/customer/geography capital shock. Stress severity, not estimated likelihood; do not multiply assumed independent probabilities."
+    }
+  }
+}

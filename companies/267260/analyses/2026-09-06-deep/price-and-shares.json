@@ -1,0 +1,11 @@
+{
+  "ticker": "267260",
+  "price": 714000.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 36.05,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "9월4일 회사 홈페이지 기준 714,000원. 분모 36.05백만주는 반올림 추정이며 ±1% 시험. 증설 Capex와 운전자본을 owner margin에 포함하고 수주잔고를 가치에 가산하지 않는다."
+}

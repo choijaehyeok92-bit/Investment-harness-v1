@@ -1,0 +1,35 @@
+{
+  "revenue": 42.773,
+  "operating_profit": 17.893,
+  "ocf": 16.023,
+  "cash_capex": 5.259,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "LLY",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.41832464405115377,
+  "ocf_less_named_capex": 10.764,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/LLY/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/LLY/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "87037e371f2797d68003512c045f6f663ee1aa1dbe331b7c6b3e4bcd42be4b5d"
+    }
+  ]
+}

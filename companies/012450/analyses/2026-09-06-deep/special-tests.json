@@ -1,0 +1,43 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 1105886.0593135955
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 1050591.7563479156
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 1000563.5774742053
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 955083.4148617414
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "parent_sotp_net_nonoperating_value": [
+    {
+      "net_stake_less_parent_obligations_assumption": 0,
+      "value_per_share": 869005.5960401424
+    },
+    {
+      "net_stake_less_parent_obligations_assumption": 5,
+      "value_per_share": 965973.5985968395
+    },
+    {
+      "net_stake_less_parent_obligations_assumption": 10,
+      "value_per_share": 1062941.6011535367
+    },
+    {
+      "net_stake_less_parent_obligations_assumption": 15,
+      "value_per_share": 1159909.6037102337
+    },
+    {
+      "net_stake_less_parent_obligations_assumption": 20,
+      "value_per_share": 1256877.6062669307
+    }
+  ]
+}

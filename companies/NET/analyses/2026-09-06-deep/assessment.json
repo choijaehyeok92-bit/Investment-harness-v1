@@ -1,0 +1,1093 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "NET",
+  "company_name": "Cloudflare",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "REJECT",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/NET/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/NET/decision-history.md",
+    "companies/NET/decision.json",
+    "companies/NET/evidence.jsonl",
+    "companies/NET/hard-veto.json",
+    "companies/NET/re-evaluation-2026-09-05.md",
+    "companies/NET/red-team.md",
+    "companies/NET/scorecard.json",
+    "companies/NET/thesis.md",
+    "companies/NET/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 8,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/NET/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": 58,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cloudflare는 보안, 애플리케이션 성능, SASE와 개발자 컴퓨팅을 단일 Connectivity Cloud로 통합하며 네트워크 장비와 포인트 클라우드의 통합 전환을 주도한다."
+      ],
+      "counter_evidence": [
+        "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다."
+      ],
+      "counter_evidence": [
+        "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다."
+      ],
+      "counter_evidence": [
+        "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM 회사 FCF0.314873B−SBC0.507655B=owner proxy−0.192782B. 보고 FCF 흑자와 현재 주주의 경제적 현금은 다르다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "6월 A322.176M+B33.755M=355.931M주. 8월 전환채 발행은 이자 0%라도 희석·만기 의무가 사라진 것이 아니다. 동일 SBC의 현금 차감과 미래 연간희석을 이중 적용하지 않는다."
+      ],
+      "counter_evidence": [
+        "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "6월말 현금·시장성증권4.163B. 8월 사채 조달현금은 만기·캡드콜과 함께 확정 정산 전 가용현금 증가로 미반영."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.140 USD billion, 가용현금 차감 후 조달 부족 0.000. Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 2,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 278.92; Base/가격 0.37배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 34.4%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.05배, Bull/가격 1.52배. 2상태 손익분기 Bull 확률 64.7%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/NET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/NET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "structural_thesis": "Cloudflare는 보안, 애플리케이션 성능, SASE와 개발자 컴퓨팅을 단일 Connectivity Cloud로 통합하며 네트워크 장비와 포인트 클라우드의 통합 전환을 주도한다.",
+  "customer_and_moat": "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다.",
+  "current_finding": "TTM 회사 FCF0.314873B−SBC0.507655B=owner proxy−0.192782B. 보고 FCF 흑자와 현재 주주의 경제적 현금은 다르다.",
+  "economic_finding": "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다.",
+  "capital_and_survival": "6월 A322.176M+B33.755M=355.931M주. 8월 전환채 발행은 이자 0%라도 희석·만기 의무가 사라진 것이 아니다. 동일 SBC의 현금 차감과 미래 연간희석을 이중 적용하지 않는다.",
+  "next_evidence": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+  "permanent_loss_case": "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+  ],
+  "increase_evidence": [
+    "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.140 USD billion, 가용현금 차감 후 조달 부족 0.000. Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+        ],
+        "resolution_needed": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+        ],
+        "resolution_needed": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+        ],
+        "resolution_needed": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.34410264505071686,
+      "required_owner_margin_delta": 0.2858032773382523,
+      "price_reference": 278.92,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 50.11410354745031,
+      "implied_year_10_owner_cash": 9.020538638541057,
+      "residual_price": -2.8421709430404007e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 3.0,
+                "owner_margin": -0.07,
+                "owner_cash_before_attribution": -0.21000000000000002,
+                "ownership": 1,
+                "attributable_cash": -0.21000000000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": -0.21000000000000002,
+            "cash_deficit": 0.21000000000000002,
+            "available_cash_used": 0.21000000000000002,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 3.4499999999999997,
+                "owner_margin": -0.035,
+                "owner_cash_before_attribution": -0.12075,
+                "ownership": 1,
+                "attributable_cash": -0.12075
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": -0.12075,
+            "cash_deficit": 0.12075,
+            "available_cash_used": 0.12075,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 3.9674999999999994,
+                "owner_margin": 0.0,
+                "owner_cash_before_attribution": 0.0,
+                "ownership": 1,
+                "attributable_cash": 0.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 4.562624999999999,
+                "owner_margin": 0.035,
+                "owner_cash_before_attribution": 0.15969187499999998,
+                "ownership": 1,
+                "attributable_cash": 0.15969187499999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.15969187499999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 5.247018749999999,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.36729131249999997,
+                "ownership": 1,
+                "attributable_cash": 0.36729131249999997
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.36729131249999997,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 5.561839874999999,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.3893287912499999,
+                "ownership": 1,
+                "attributable_cash": 0.3893287912499999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.3893287912499999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 5.895550267499999,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.41268851872499995,
+                "ownership": 1,
+                "attributable_cash": 0.41268851872499995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.41268851872499995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 6.249283283549999,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.43744982984849995,
+                "ownership": 1,
+                "attributable_cash": 0.43744982984849995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.43744982984849995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 6.624240280563,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.46369681963941,
+                "ownership": 1,
+                "attributable_cash": 0.46369681963941
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.46369681963941,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 7.0216946973967795,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.49151862881777464,
+                "ownership": 1,
+                "attributable_cash": 0.49151862881777464
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.49151862881777464,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 1.1561122786351492,
+        "pv_terminal": 3.32196448965086,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 4.47807676828601,
+        "equity_value": 4.47807676828601,
+        "value_per_share": 12.581305838170909,
+        "value_to_price": 0.045107220128247916,
+        "upside_downside": -0.9548927798717521,
+        "terminal_fraction_of_operating_pv": 0.7418283923083228,
+        "year_10_revenue": 7.0216946973967795,
+        "year_10_owner_cash": 0.49151862881777464,
+        "year_10_owner_cash_per_share": 1.3809379593735154,
+        "year_10_exit_price": 22.095007349976246,
+        "irr_roots": [
+          -0.20949297714185416
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0.33075,
+        "unrestricted_cash_after_reserve": 2.1630000000000003,
+        "external_funding_gap": 0.0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 13.40813297501949,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 3.5,
+                "owner_margin": -0.04,
+                "owner_cash_before_attribution": -0.14,
+                "ownership": 1,
+                "attributable_cash": -0.14
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": -0.14,
+            "cash_deficit": 0.14,
+            "available_cash_used": 0.14,
+            "new_funding_required": 0.0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 4.48,
+                "owner_margin": 0.015,
+                "owner_cash_before_attribution": 0.06720000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.06720000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.06720000000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 5.7344,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.40140800000000004,
+                "ownership": 1,
+                "attributable_cash": 0.40140800000000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.40140800000000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 7.340032000000001,
+                "owner_margin": 0.125,
+                "owner_cash_before_attribution": 0.9175040000000001,
+                "ownership": 1,
+                "attributable_cash": 0.9175040000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9175040000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 9.39524096,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.6911433728,
+                "ownership": 1,
+                "attributable_cash": 1.6911433728
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.6911433728,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 10.6166222848,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 1.910992011264,
+                "ownership": 1,
+                "attributable_cash": 1.910992011264
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.910992011264,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 11.996783181823998,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.1594209727283196,
+                "ownership": 1,
+                "attributable_cash": 2.1594209727283196
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.1594209727283196,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 13.556364995461118,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.440145699183001,
+                "ownership": 1,
+                "attributable_cash": 2.440145699183001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.440145699183001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 15.318692444871061,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.757364640076791,
+                "ownership": 1,
+                "attributable_cash": 2.757364640076791
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.757364640076791,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 17.310122462704296,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 3.1158220432867734,
+                "ownership": 1,
+                "attributable_cash": 3.1158220432867734
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.1158220432867734,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 8.118281621768832,
+        "pv_terminal": 28.955451875859076,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 37.073733497627906,
+        "equity_value": 37.073733497627906,
+        "value_per_share": 104.15988912915118,
+        "value_to_price": 0.3734400155211214,
+        "upside_downside": -0.6265599844788786,
+        "terminal_fraction_of_operating_pv": 0.7810233592392775,
+        "year_10_revenue": 17.310122462704296,
+        "year_10_owner_cash": 3.1158220432867734,
+        "year_10_owner_cash_per_share": 8.754005813730116,
+        "year_10_exit_price": 192.58812790206252,
+        "irr_roots": [
+          -0.01748116374226033
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0.14,
+        "unrestricted_cash_after_reserve": 2.1630000000000003,
+        "external_funding_gap": 0.0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 104.5207466183063,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 4.0,
+                "owner_margin": 0.0,
+                "owner_cash_before_attribution": 0.0,
+                "ownership": 1,
+                "attributable_cash": 0.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 5.6,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.392,
+                "ownership": 1,
+                "attributable_cash": 0.392
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.392,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 7.839999999999999,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 1.0976,
+                "ownership": 1,
+                "attributable_cash": 1.0976
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0976,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 10.975999999999997,
+                "owner_margin": 0.21000000000000002,
+                "owner_cash_before_attribution": 2.3049599999999995,
+                "ownership": 1,
+                "attributable_cash": 2.3049599999999995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.3049599999999995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 15.366399999999997,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 4.302592,
+                "ownership": 1,
+                "attributable_cash": 4.302592
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.302592,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 18.439679999999996,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 5.163110399999999,
+                "ownership": 1,
+                "attributable_cash": 5.163110399999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.163110399999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 22.127615999999996,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 6.195732479999999,
+                "ownership": 1,
+                "attributable_cash": 6.195732479999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.195732479999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 26.55313919999999,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 7.434878975999998,
+                "ownership": 1,
+                "attributable_cash": 7.434878975999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.434878975999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 31.863767039999992,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 8.921854771199998,
+                "ownership": 1,
+                "attributable_cash": 8.921854771199998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.921854771199998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "connectivity_security_workers",
+                "revenue": 38.236520447999986,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 10.706225725439998,
+                "ownership": 1,
+                "attributable_cash": 10.706225725439998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.706225725439998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 24.43625065831023,
+        "pv_terminal": 126.62791252973376,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 151.064163188044,
+        "equity_value": 151.064163188044,
+        "value_per_share": 424.4197981857271,
+        "value_to_price": 1.5216542312696366,
+        "upside_downside": 0.5216542312696366,
+        "terminal_fraction_of_operating_pv": 0.8382392611019722,
+        "year_10_revenue": 38.236520447999986,
+        "year_10_owner_cash": 10.706225725439998,
+        "year_10_owner_cash_per_share": 30.07949778310964,
+        "year_10_exit_price": 842.22593792707,
+        "irr_roots": [
+          0.13914165532389078
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 2.1630000000000003,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 424.4197981857271,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/NET/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "sbc_platform",
+    "missing_data": [
+      "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 60,
+  "business_quality_75": 55,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "Cloudflare는 보안, 애플리케이션 성능, SASE와 개발자 컴퓨팅을 단일 Connectivity Cloud로 통합하며 네트워크 장비와 포인트 클라우드의 통합 전환을 주도한다.",
+        "response": "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "광범위한 무료·유료 트래픽은 위협 데이터, 라우팅 개선, 브랜드와 ISP 상호연결 협상력을 강화한다.",
+        "response": "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "TTM 회사 FCF0.314873B−SBC0.507655B=owner proxy−0.192782B. 보고 FCF 흑자와 현재 주주의 경제적 현금은 다르다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "6월 A322.176M+B33.755M=355.931M주. 8월 전환채 발행은 이자 0%라도 희석·만기 의무가 사라진 것이 아니다. 동일 SBC의 현금 차감과 미래 연간희석을 이중 적용하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 278.92; Base/가격 0.37배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 34.4%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 78.1%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "Workers·보안·네트워크 통합의 고객 가치는 인정한다. 높은 매출 성장만으로 CDN 비용·보상·유지 설비를 차감한 초과이익이 증명되지는 않는다.",
+      "6월 A322.176M+B33.755M=355.931M주. 8월 전환채 발행은 이자 0%라도 희석·만기 의무가 사라진 것이 아니다. 동일 SBC의 현금 차감과 미래 연간희석을 이중 적용하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "TTM 회사 FCF0.314873B−SBC0.507655B=owner proxy−0.192782B. 보고 FCF 흑자와 현재 주주의 경제적 현금은 다르다.",
+    "falsifiers": [
+      "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+    ],
+    "confidence": 0.62,
+    "verdict": "REJECT",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "persistent_dilution",
+      "incremental_roic_collapse",
+      "price_requires_unrealistic_bull_case",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

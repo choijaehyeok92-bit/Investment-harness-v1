@@ -1,0 +1,767 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "KRW trillion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.10417976441834498,
+    "required_owner_margin_delta": 0.0004485258103513537,
+    "price_reference": 1055000.0,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.1,
+    "implied_year_10_revenue": 41.476965554170654,
+    "implied_year_10_owner_cash": 3.7329268998753586,
+    "residual_price": -1.1641532182693481e-09
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.1,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 14.0,
+              "owner_margin": 0.05,
+              "owner_cash_before_attribution": 0.7000000000000001,
+              "ownership": 1,
+              "attributable_cash": 0.7000000000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.7000000000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 14.98,
+              "owner_margin": 0.051250000000000004,
+              "owner_cash_before_attribution": 0.7677250000000001,
+              "ownership": 1,
+              "attributable_cash": 0.7677250000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.7677250000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 16.0286,
+              "owner_margin": 0.052500000000000005,
+              "owner_cash_before_attribution": 0.8415015000000001,
+              "ownership": 1,
+              "attributable_cash": 0.8415015000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.8415015000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 17.150602000000003,
+              "owner_margin": 0.05375,
+              "owner_cash_before_attribution": 0.9218448575000001,
+              "ownership": 1,
+              "attributable_cash": 0.9218448575000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.9218448575000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 18.351144140000002,
+              "owner_margin": 0.055,
+              "owner_cash_before_attribution": 1.0093129277000001,
+              "ownership": 1,
+              "attributable_cash": 1.0093129277000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.0093129277000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 18.901678464200003,
+              "owner_margin": 0.055,
+              "owner_cash_before_attribution": 1.0395923155310003,
+              "ownership": 1,
+              "attributable_cash": 1.0395923155310003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.0395923155310003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 19.468728818126003,
+              "owner_margin": 0.055,
+              "owner_cash_before_attribution": 1.0707800849969302,
+              "ownership": 1,
+              "attributable_cash": 1.0707800849969302
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.0707800849969302,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 20.052790682669784,
+              "owner_margin": 0.055,
+              "owner_cash_before_attribution": 1.1029034875468382,
+              "ownership": 1,
+              "attributable_cash": 1.1029034875468382
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1029034875468382,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 20.654374403149877,
+              "owner_margin": 0.055,
+              "owner_cash_before_attribution": 1.1359905921732432,
+              "ownership": 1,
+              "attributable_cash": 1.1359905921732432
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1359905921732432,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 21.274005635244375,
+              "owner_margin": 0.055,
+              "owner_cash_before_attribution": 1.1700703099384406,
+              "ownership": 1,
+              "attributable_cash": 1.1700703099384406
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1700703099384406,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 5.743114530097488,
+      "pv_terminal": 7.217804098519964,
+      "separate_equity_value": 2.4997000000000007,
+      "unfloored_equity_value": 15.460618628617453,
+      "equity_value": 15.460618628617453,
+      "value_per_share": 299837.06134157936,
+      "value_to_price": 0.28420574534746856,
+      "upside_downside": -0.7157942546525314,
+      "terminal_fraction_of_operating_pv": 0.5568898552131324,
+      "year_10_revenue": 21.274005635244375,
+      "year_10_owner_cash": 1.1700703099384406,
+      "year_10_owner_cash_per_share": 22691.876161125227,
+      "year_10_exit_price": 363070.0185780036,
+      "irr_roots": [
+        -0.06587212188210817
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 299837.06134157936,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.1,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 17.0,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 1.1900000000000002,
+              "ownership": 1,
+              "attributable_cash": 1.1900000000000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1900000000000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 19.380000000000003,
+              "owner_margin": 0.07500000000000001,
+              "owner_cash_before_attribution": 1.4535000000000005,
+              "ownership": 1,
+              "attributable_cash": 1.4535000000000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.4535000000000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 22.093200000000007,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 1.7674560000000006,
+              "ownership": 1,
+              "attributable_cash": 1.7674560000000006
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.7674560000000006,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 25.186248000000006,
+              "owner_margin": 0.08499999999999999,
+              "owner_cash_before_attribution": 2.1408310800000003,
+              "ownership": 1,
+              "attributable_cash": 2.1408310800000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.1408310800000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 28.712322720000014,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 2.5841090448000013,
+              "ownership": 1,
+              "attributable_cash": 2.5841090448000013
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.5841090448000013,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 30.722185310400018,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 2.7649966779360016,
+              "ownership": 1,
+              "attributable_cash": 2.7649966779360016
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.7649966779360016,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 32.87273828212802,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 2.9585464453915216,
+              "ownership": 1,
+              "attributable_cash": 2.9585464453915216
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.9585464453915216,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 35.17382996187698,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 3.165644696568928,
+              "ownership": 1,
+              "attributable_cash": 3.165644696568928
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.165644696568928,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 37.63599805920837,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 3.387239825328753,
+              "ownership": 1,
+              "attributable_cash": 3.387239825328753
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.387239825328753,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 40.27051792335296,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 3.6243466131017663,
+              "ownership": 1,
+              "attributable_cash": 3.6243466131017663
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.6243466131017663,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 14.06734868440508,
+      "pv_terminal": 30.741535335456792,
+      "separate_equity_value": 9.3632,
+      "unfloored_equity_value": 54.17208401986187,
+      "equity_value": 54.17208401986187,
+      "value_per_share": 1050591.7563479156,
+      "value_to_price": 0.9958215699980243,
+      "upside_downside": -0.004178430001975708,
+      "terminal_fraction_of_operating_pv": 0.6860589369248825,
+      "year_10_revenue": 40.27051792335296,
+      "year_10_owner_cash": 3.6243466131017663,
+      "year_10_owner_cash_per_share": 70289.13032912175,
+      "year_10_exit_price": 1546360.8672406783,
+      "irr_roots": [
+        0.0993566473237587
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 1050591.7563479156,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.1,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 20.0,
+              "owner_margin": 0.09,
+              "owner_cash_before_attribution": 1.7999999999999998,
+              "ownership": 1,
+              "attributable_cash": 1.7999999999999998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.7999999999999998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 24.0,
+              "owner_margin": 0.0975,
+              "owner_cash_before_attribution": 2.34,
+              "ownership": 1,
+              "attributable_cash": 2.34
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.34,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 28.799999999999997,
+              "owner_margin": 0.105,
+              "owner_cash_before_attribution": 3.0239999999999996,
+              "ownership": 1,
+              "attributable_cash": 3.0239999999999996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.0239999999999996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 34.559999999999995,
+              "owner_margin": 0.11249999999999999,
+              "owner_cash_before_attribution": 3.887999999999999,
+              "ownership": 1,
+              "attributable_cash": 3.887999999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.887999999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 41.471999999999994,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 4.976639999999999,
+              "ownership": 1,
+              "attributable_cash": 4.976639999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.976639999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 45.6192,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 5.474304,
+              "ownership": 1,
+              "attributable_cash": 5.474304
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.474304,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 50.18112,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 6.0217344,
+              "ownership": 1,
+              "attributable_cash": 6.0217344
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.0217344,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 55.19923200000001,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 6.623907840000001,
+              "ownership": 1,
+              "attributable_cash": 6.623907840000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.623907840000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 60.71915520000001,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 7.2862986240000005,
+              "ownership": 1,
+              "attributable_cash": 7.2862986240000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.2862986240000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "parent_defense_aviation",
+              "revenue": 66.79107072000001,
+              "owner_margin": 0.12,
+              "owner_cash_before_attribution": 8.0149284864,
+              "ownership": 1,
+              "attributable_cash": 8.0149284864
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 8.0149284864,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 27.038391565404734,
+      "pv_terminal": 86.52285300929512,
+      "separate_equity_value": 11.908600000000002,
+      "unfloored_equity_value": 125.46984457469986,
+      "equity_value": 125.46984457469986,
+      "value_per_share": 2433312.0419015777,
+      "value_to_price": 2.30645691175505,
+      "upside_downside": 1.30645691175505,
+      "terminal_fraction_of_operating_pv": 0.7619047619047619,
+      "year_10_revenue": 66.79107072000001,
+      "year_10_owner_cash": 8.0149284864,
+      "year_10_owner_cash_per_share": 155438.32119219602,
+      "year_10_exit_price": 4352272.993381488,
+      "irr_roots": [
+        0.23112565812024954
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 2433312.0419015777,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 855870.5919159418
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0,
+      "value_per_share": 1201080.4425076272
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 1546290.2930993133
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 755742.9282304642
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0,
+      "value_per_share": 1050591.7563479156
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 1345440.584465367
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 672872.9049544905
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0,
+      "value_per_share": 926008.047478784
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 1179143.1900030782
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 915094.2437567626
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 1050591.7563479156
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 1186089.268939069
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.3539591256234016,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 1105886.0593135955
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 1050591.7563479156
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 1000563.5774742053
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 955083.4148617414
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "parent_sotp_net_nonoperating_value": [
+      {
+        "net_stake_less_parent_obligations_assumption": 0,
+        "value_per_share": 869005.5960401424
+      },
+      {
+        "net_stake_less_parent_obligations_assumption": 5,
+        "value_per_share": 965973.5985968395
+      },
+      {
+        "net_stake_less_parent_obligations_assumption": 10,
+        "value_per_share": 1062941.6011535367
+      },
+      {
+        "net_stake_less_parent_obligations_assumption": 15,
+        "value_per_share": 1159909.6037102337
+      },
+      {
+        "net_stake_less_parent_obligations_assumption": 20,
+        "value_per_share": 1256877.6062669307
+      }
+    ]
+  }
+}

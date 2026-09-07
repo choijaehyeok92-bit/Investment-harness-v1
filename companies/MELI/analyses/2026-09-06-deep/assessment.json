@@ -1,0 +1,1325 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "MELI",
+  "company_name": "MercadoLibre",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US-listed foreign issuer",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/MELI/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/MELI/raw-data/2026-Q2.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/qualitative-reassessments.jsonl",
+      "line": 4,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "중남미 커머스·물류·결제·신용의 결합",
+  "customer_and_moat": "거래 밀도와 결제 채택의 네트워크 효과; 신용 확대는 네트워크 해자와 별도 위험",
+  "current_finding": "TTM 회사 조정FCF=1.481+0.158−0.512=1.127B. 고객 예치금·신용공급 현금을 일반 소프트웨어 OCF와 비교하지 않는다.",
+  "economic_finding": "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다.",
+  "capital_and_survival": "현금3.649B와 제한현금 포함16.763B를 구분한다. 금융부채·신용자산을 양쪽 모두 제외하지 않은 채 한쪽만 가치 가산하지 않는다. 본 모델의 owner margin은 대손·필요 금융자본 재투자 후 현금이다.",
+  "next_evidence": "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+  "permanent_loss_case": "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다."
+  ],
+  "increase_evidence": [
+    "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "중남미 커머스·물류·결제·신용의 결합"
+      ],
+      "counter_evidence": [
+        "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "거래 밀도와 결제 채택의 네트워크 효과; 신용 확대는 네트워크 해자와 별도 위험"
+      ],
+      "counter_evidence": [
+        "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "거래 밀도와 결제 채택의 네트워크 효과; 신용 확대는 네트워크 해자와 별도 위험"
+      ],
+      "counter_evidence": [
+        "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 9,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM 회사 조정FCF=1.481+0.158−0.512=1.127B. 고객 예치금·신용공급 현금을 일반 소프트웨어 OCF와 비교하지 않는다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "현금3.649B와 제한현금 포함16.763B를 구분한다. 금융부채·신용자산을 양쪽 모두 제외하지 않은 채 한쪽만 가치 가산하지 않는다. 본 모델의 owner margin은 대손·필요 금융자본 재투자 후 현금이다."
+      ],
+      "counter_evidence": [
+        "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "현금3.649B와 제한현금 포함16.763B를 구분한다. 금융부채·신용자산을 양쪽 모두 제외하지 않은 채 한쪽만 가치 가산하지 않는다. 본 모델의 owner margin은 대손·필요 금융자본 재투자 후 현금이다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 1,978.36; Base/가격 1.45배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 10.3%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.26배, Bull/가격 4.35배. 2상태 손익분기 Bull 확률 18.0%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/MELI/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다."
+        ],
+        "resolution_needed": "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+        ],
+        "resolution_needed": "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다."
+        ],
+        "resolution_needed": "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다."
+        ],
+        "resolution_needed": "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.10301762971330441,
+      "required_owner_margin_delta": -0.02165861312486219,
+      "price_reference": 1978.36,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 111.17315141676285,
+      "implied_year_10_owner_cash": 7.7821205991734,
+      "residual_price": 0.0
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 22.0,
+                "owner_margin": 0.02,
+                "owner_cash_before_attribution": 0.44,
+                "ownership": 1,
+                "attributable_cash": 0.44
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 18.0,
+                "owner_margin": 0.02,
+                "owner_cash_before_attribution": 0.36,
+                "ownership": 1,
+                "attributable_cash": 0.36
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.8,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 24.200000000000003,
+                "owner_margin": 0.020249999999921248,
+                "owner_cash_before_attribution": 0.49004999999809423,
+                "ownership": 1,
+                "attributable_cash": 0.49004999999809423
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 20.160000000000004,
+                "owner_margin": 0.02525000000009625,
+                "owner_cash_before_attribution": 0.5090400000019405,
+                "ownership": 1,
+                "attributable_cash": 0.5090400000019405
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9990900000000347,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 26.620000000000005,
+                "owner_margin": 0.0204999999998425,
+                "owner_cash_before_attribution": 0.5457099999958074,
+                "ownership": 1,
+                "attributable_cash": 0.5457099999958074
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 22.579200000000004,
+                "owner_margin": 0.030500000000192498,
+                "owner_cash_before_attribution": 0.6886656000043465,
+                "ownership": 1,
+                "attributable_cash": 0.6886656000043465
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.234375600000154,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 29.28200000000001,
+                "owner_margin": 0.02074999999976375,
+                "owner_cash_before_attribution": 0.6076014999930823,
+                "ownership": 1,
+                "attributable_cash": 0.6076014999930823
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 25.288704000000006,
+                "owner_margin": 0.035750000000288745,
+                "owner_cash_before_attribution": 0.9040711680073023,
+                "ownership": 1,
+                "attributable_cash": 0.9040711680073023
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5116726680003847,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 32.21020000000001,
+                "owner_margin": 0.020999999999684996,
+                "owner_cash_before_attribution": 0.6764141999898539,
+                "ownership": 1,
+                "attributable_cash": 0.6764141999898539
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 28.32334848000001,
+                "owner_margin": 0.041000000000385,
+                "owner_cash_before_attribution": 1.1612572876909049,
+                "ownership": 1,
+                "attributable_cash": 1.1612572876909049
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8376714876807587,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 33.82071000000001,
+                "owner_margin": 0.020999999999684996,
+                "owner_cash_before_attribution": 0.7102349099893466,
+                "ownership": 1,
+                "attributable_cash": 0.7102349099893466
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 30.022749388800012,
+                "owner_margin": 0.041000000000385,
+                "owner_cash_before_attribution": 1.2309327249523592,
+                "ownership": 1,
+                "attributable_cash": 1.2309327249523592
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.9411676349417057,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 35.51174550000001,
+                "owner_margin": 0.020999999999684996,
+                "owner_cash_before_attribution": 0.7457466554888139,
+                "ownership": 1,
+                "attributable_cash": 0.7457466554888139
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 31.824114352128017,
+                "owner_margin": 0.041000000000385,
+                "owner_cash_before_attribution": 1.304788688449501,
+                "ownership": 1,
+                "attributable_cash": 1.304788688449501
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.050535343938315,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 37.28733277500001,
+                "owner_margin": 0.020999999999684996,
+                "owner_cash_before_attribution": 0.7830339882632545,
+                "ownership": 1,
+                "attributable_cash": 0.7830339882632545
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 33.7335612132557,
+                "owner_margin": 0.041000000000385,
+                "owner_cash_before_attribution": 1.383076009756471,
+                "ownership": 1,
+                "attributable_cash": 1.383076009756471
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.1661099980197256,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 39.151699413750016,
+                "owner_margin": 0.020999999999684996,
+                "owner_cash_before_attribution": 0.8221856876764174,
+                "ownership": 1,
+                "attributable_cash": 0.8221856876764174
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 35.757574886051046,
+                "owner_margin": 0.041000000000385,
+                "owner_cash_before_attribution": 1.4660605703418594,
+                "ownership": 1,
+                "attributable_cash": 1.4660605703418594
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.288246258018277,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 41.10928438443752,
+                "owner_margin": 0.020999999999684996,
+                "owner_cash_before_attribution": 0.8632949720602384,
+                "ownership": 1,
+                "attributable_cash": 0.8632949720602384
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 37.903029379214104,
+                "owner_margin": 0.041000000000385,
+                "owner_cash_before_attribution": 1.554024204562371,
+                "ownership": 1,
+                "attributable_cash": 1.554024204562371
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.4173191766226094,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 10.234230215213232,
+        "pv_terminal": 16.337627902745258,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 26.57185811795849,
+        "equity_value": 26.57185811795849,
+        "value_per_share": 524.1307792957865,
+        "value_to_price": 0.2649319533835028,
+        "upside_downside": -0.7350680466164972,
+        "terminal_fraction_of_operating_pv": 0.6148470246310526,
+        "year_10_revenue": 79.01231376365163,
+        "year_10_owner_cash": 2.4173191766226094,
+        "year_10_owner_cash_per_share": 47.68170062572952,
+        "year_10_exit_price": 762.9072100116723,
+        "irr_roots": [
+          -0.06266092507365623
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.649,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 524.1307792957865,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 25.3,
+                "owner_margin": 0.04,
+                "owner_cash_before_attribution": 1.012,
+                "ownership": 1,
+                "attributable_cash": 1.012
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 20.7,
+                "owner_margin": 0.04,
+                "owner_cash_before_attribution": 0.828,
+                "ownership": 1,
+                "attributable_cash": 0.828
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8399999999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 30.36,
+                "owner_margin": 0.042249999999816254,
+                "owner_cash_before_attribution": 1.2827099999944214,
+                "ownership": 1,
+                "attributable_cash": 1.2827099999944214
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 25.253999999999998,
+                "owner_margin": 0.05391666666689125,
+                "owner_cash_before_attribution": 1.3616115000056717,
+                "ownership": 1,
+                "attributable_cash": 1.3616115000056717
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.644321500000093,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 36.432,
+                "owner_margin": 0.0444999999996325,
+                "owner_cash_before_attribution": 1.6212239999866114,
+                "ownership": 1,
+                "attributable_cash": 1.6212239999866114
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 30.809879999999996,
+                "owner_margin": 0.06783333333378251,
+                "owner_cash_before_attribution": 2.089936860013839,
+                "ownership": 1,
+                "attributable_cash": 2.089936860013839
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.7111608600004504,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 43.718399999999995,
+                "owner_margin": 0.046749999999448746,
+                "owner_cash_before_attribution": 2.0438351999759,
+                "ownership": 1,
+                "attributable_cash": 2.0438351999759
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 37.588053599999995,
+                "owner_margin": 0.08175000000067376,
+                "owner_cash_before_attribution": 3.0728233818253248,
+                "ownership": 1,
+                "attributable_cash": 3.0728233818253248
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.116658581801225,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 52.46208,
+                "owner_margin": 0.048999999999265,
+                "owner_cash_before_attribution": 2.5706419199614405,
+                "ownership": 1,
+                "attributable_cash": 2.5706419199614405
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 45.85742539199999,
+                "owner_margin": 0.09566666666756501,
+                "owner_cash_before_attribution": 4.387027029209195,
+                "ownership": 1,
+                "attributable_cash": 4.387027029209195
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.957668949170635,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 57.708288,
+                "owner_margin": 0.048999999999265,
+                "owner_cash_before_attribution": 2.8277061119575846,
+                "ownership": 1,
+                "attributable_cash": 2.8277061119575846
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 50.90174218511999,
+                "owner_margin": 0.09566666666756501,
+                "owner_cash_before_attribution": 4.869600002422207,
+                "ownership": 1,
+                "attributable_cash": 4.869600002422207
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.697306114379791,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 63.47911680000001,
+                "owner_margin": 0.048999999999265,
+                "owner_cash_before_attribution": 3.1104767231533432,
+                "ownership": 1,
+                "attributable_cash": 3.1104767231533432
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 56.500933825483195,
+                "owner_margin": 0.09566666666756501,
+                "owner_cash_before_attribution": 5.40525600268865,
+                "ownership": 1,
+                "attributable_cash": 5.40525600268865
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.515732725841993,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 69.82702848000002,
+                "owner_margin": 0.048999999999265,
+                "owner_cash_before_attribution": 3.4215243954686785,
+                "ownership": 1,
+                "attributable_cash": 3.4215243954686785
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 62.71603654628635,
+                "owner_margin": 0.09566666666756501,
+                "owner_cash_before_attribution": 5.999834162984401,
+                "ownership": 1,
+                "attributable_cash": 5.999834162984401
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.421358558453079,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 76.80973132800003,
+                "owner_margin": 0.048999999999265,
+                "owner_cash_before_attribution": 3.7636768350155463,
+                "ownership": 1,
+                "attributable_cash": 3.7636768350155463
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 69.61480056637785,
+                "owner_margin": 0.09566666666756501,
+                "owner_cash_before_attribution": 6.659815920912686,
+                "ownership": 1,
+                "attributable_cash": 6.659815920912686
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.423492755928232,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 84.49070446080003,
+                "owner_margin": 0.048999999999265,
+                "owner_cash_before_attribution": 4.140044518517101,
+                "ownership": 1,
+                "attributable_cash": 4.140044518517101
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 77.27242862867944,
+                "owner_margin": 0.09566666666756501,
+                "owner_cash_before_attribution": 7.392395672213084,
+                "ownership": 1,
+                "attributable_cash": 7.392395672213084
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 11.532440190730185,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 38.57322508806588,
+        "pv_terminal": 107.1714020617374,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 145.74462714980328,
+        "equity_value": 145.74462714980328,
+        "value_per_share": 2874.8175858493255,
+        "value_to_price": 1.4531316776771293,
+        "upside_downside": 0.45313167767712925,
+        "terminal_fraction_of_operating_pv": 0.7353368982280323,
+        "year_10_revenue": 161.76313308947948,
+        "year_10_owner_cash": 11.532440190730185,
+        "year_10_owner_cash_per_share": 227.47776378740724,
+        "year_10_exit_price": 5004.510803322959,
+        "irr_roots": [
+          0.1366882581253802
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.649,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 2874.8175858493255,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 28.6,
+                "owner_margin": 0.06,
+                "owner_cash_before_attribution": 1.716,
+                "ownership": 1,
+                "attributable_cash": 1.716
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 23.400000000000002,
+                "owner_margin": 0.06,
+                "owner_cash_before_attribution": 1.4040000000000001,
+                "ownership": 1,
+                "attributable_cash": 1.4040000000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.12,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 36.894000000000005,
+                "owner_margin": 0.0624999999997375,
+                "owner_cash_before_attribution": 2.3058749999903156,
+                "ownership": 1,
+                "attributable_cash": 2.3058749999903156
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 30.654000000000003,
+                "owner_margin": 0.07916666666698749,
+                "owner_cash_before_attribution": 2.426775000009835,
+                "ownership": 1,
+                "attributable_cash": 2.426775000009835
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.732650000000151,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 47.59326000000001,
+                "owner_margin": 0.064999999999475,
+                "owner_cash_before_attribution": 3.0935618999750143,
+                "ownership": 1,
+                "attributable_cash": 3.0935618999750143
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 40.156740000000006,
+                "owner_margin": 0.098333333333975,
+                "owner_cash_before_attribution": 3.9487461000257675,
+                "ownership": 1,
+                "attributable_cash": 3.9487461000257675
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.042308000000782,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 61.39530540000001,
+                "owner_margin": 0.0674999999992125,
+                "owner_cash_before_attribution": 4.144183114451652,
+                "ownership": 1,
+                "attributable_cash": 4.144183114451652
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 52.60532940000001,
+                "owner_margin": 0.1175000000009625,
+                "owner_cash_before_attribution": 6.181126204550634,
+                "ownership": 1,
+                "attributable_cash": 6.181126204550634
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.325309319002287,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 79.19994396600002,
+                "owner_margin": 0.06999999999895,
+                "owner_cash_before_attribution": 5.543996077536842,
+                "ownership": 1,
+                "attributable_cash": 5.543996077536842
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 68.91298151400002,
+                "owner_margin": 0.13666666666795,
+                "owner_cash_before_attribution": 9.41810747366844,
+                "ownership": 1,
+                "attributable_cash": 9.41810747366844
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 14.962103551205281,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 90.28793612124004,
+                "owner_margin": 0.06999999999895,
+                "owner_cash_before_attribution": 6.320155528392,
+                "ownership": 1,
+                "attributable_cash": 6.320155528392
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 79.24992874110002,
+                "owner_margin": 0.13666666666795,
+                "owner_cash_before_attribution": 10.830823594718707,
+                "ownership": 1,
+                "attributable_cash": 10.830823594718707
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 17.15097912311071,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 102.92824717821365,
+                "owner_margin": 0.06999999999895,
+                "owner_cash_before_attribution": 7.204977302366881,
+                "ownership": 1,
+                "attributable_cash": 7.204977302366881
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 91.13741805226502,
+                "owner_margin": 0.13666666666795,
+                "owner_cash_before_attribution": 12.455447133926512,
+                "ownership": 1,
+                "attributable_cash": 12.455447133926512
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 19.660424436293393,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 117.33820178316357,
+                "owner_margin": 0.06999999999895,
+                "owner_cash_before_attribution": 8.213674124698244,
+                "ownership": 1,
+                "attributable_cash": 8.213674124698244
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 104.80803076010477,
+                "owner_margin": 0.13666666666795,
+                "owner_cash_before_attribution": 14.323764204015488,
+                "ownership": 1,
+                "attributable_cash": 14.323764204015488
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 22.537438328713733,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 133.7655500328065,
+                "owner_margin": 0.06999999999895,
+                "owner_cash_before_attribution": 9.363588502156,
+                "ownership": 1,
+                "attributable_cash": 9.363588502156
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 120.52923537412046,
+                "owner_margin": 0.13666666666795,
+                "owner_cash_before_attribution": 16.47232883461781,
+                "ownership": 1,
+                "attributable_cash": 16.47232883461781
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 25.83591733677381,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "Commerce_logistics",
+                "revenue": 152.49272703739942,
+                "owner_margin": 0.06999999999895,
+                "owner_cash_before_attribution": 10.674490892457841,
+                "ownership": 1,
+                "attributable_cash": 10.674490892457841
+              },
+              {
+                "component": "Fintech_after_losses_required_capital",
+                "revenue": 138.60862068023854,
+                "owner_margin": 0.13666666666795,
+                "owner_cash_before_attribution": 18.943178159810483,
+                "ownership": 1,
+                "attributable_cash": 18.943178159810483
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 29.617669052268326,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 86.02143794810532,
+        "pv_terminal": 350.30305751666776,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 436.32449546477307,
+        "equity_value": 436.32449546477307,
+        "value_per_share": 8606.515088955422,
+        "value_to_price": 4.350328094459766,
+        "upside_downside": 3.3503280944597664,
+        "terminal_fraction_of_operating_pv": 0.8028498540828536,
+        "year_10_revenue": 291.10134771763796,
+        "year_10_owner_cash": 29.617669052268326,
+        "year_10_owner_cash_per_share": 584.2095006069062,
+        "year_10_exit_price": 16357.866016993374,
+        "irr_roots": [
+          0.2839287517057326
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 0.649,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 8606.515088955422,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/MELI/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "commerce_credit",
+    "missing_data": [
+      "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 81,
+  "business_quality_75": 62,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "중남미 커머스·물류·결제·신용의 결합",
+        "response": "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "거래 밀도와 결제 채택의 네트워크 효과; 신용 확대는 네트워크 해자와 별도 위험",
+        "response": "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "TTM 회사 조정FCF=1.481+0.158−0.512=1.127B. 고객 예치금·신용공급 현금을 일반 소프트웨어 OCF와 비교하지 않는다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "현금3.649B와 제한현금 포함16.763B를 구분한다. 금융부채·신용자산을 양쪽 모두 제외하지 않은 채 한쪽만 가치 가산하지 않는다. 본 모델의 owner margin은 대손·필요 금융자본 재투자 후 현금이다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 1,978.36; Base/가격 1.45배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 10.3%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 73.5%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "상거래 물류밀도와 결제 네트워크의 상호 강화는 강하나 무료배송·신용손실·마케팅 투입을 뺀 고객 코호트 수익이 핵심이다.",
+      "현금3.649B와 제한현금 포함16.763B를 구분한다. 금융부채·신용자산을 양쪽 모두 제외하지 않은 채 한쪽만 가치 가산하지 않는다. 본 모델의 owner margin은 대손·필요 금융자본 재투자 후 현금이다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "TTM 회사 조정FCF=1.481+0.158−0.512=1.127B. 고객 예치금·신용공급 현금을 일반 소프트웨어 OCF와 비교하지 않는다.",
+    "falsifiers": [
+      "성장과 동시에 연체·신용손실·배송보조 비용이 높아져 고객 코호트 현금회수가 약해지면 성장률만으로 보유 논지를 유지하지 않는다."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "low_quality_growth",
+      "incremental_roic_collapse",
+      "fatal_concentration",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "커머스/결제/대출 SOTP, 고객자금 분리·빈티지 손실·규제자본·FX, 조정 FCF 조정 항목",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

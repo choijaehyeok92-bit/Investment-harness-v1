@@ -1,0 +1,42 @@
+{
+  "revenue": 0.324805059793,
+  "operating_profit": 0.123762004754,
+  "ocf": 0.064258667155,
+  "cash_capex": 0.02109072543,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "214450",
+  "period": "H1 2026",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.3810347192031866,
+  "ocf_less_named_capex": 0.043167941725000006,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/214450/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/214450/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "a544d1fe3bd5650b856c3469a92f4bc9c68c2efeb58a754233ba451556fc9ae8"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://alphasquare.co.kr/home/stock-summary?code=214450",
+    "location": "Reference quote tier4; share count remains approximation",
+    "facts": {
+      "price_krw": 386500
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "label": "H1 영업이익 증가율",
+    "operation": "growth",
+    "inputs": [
+      "obs-404a5ca9d3e81a36e4ba",
+      "obs-b59525eb29b217900e5e"
+    ],
+    "accounting_scope": "consolidated, cash statement for OCF; no parent/finance/free-cash reinterpretation",
+    "comparability_note": "동일 연결 지표의 H1/H1 또는 Q2/Q2 비교. FY 분할·분기 연율화 아님. APR는 원자료의 재작성 비교열.",
+    "limitation": "산술 진단이며 증분 ROIC·내재가치·owner FCF 전체를 뜻하지 않음.",
+    "value": 0.23010074941771608,
+    "claim_type": "estimate",
+    "method_status": "CALCULATED_FROM_REPORTED_ASSERTIONS"
+  },
+  {
+    "label": "H1 OCF 증가율",
+    "operation": "growth",
+    "inputs": [
+      "obs-79624f92c15b70a320ac",
+      "obs-7fa317577dcbf8e9bc34"
+    ],
+    "accounting_scope": "consolidated, cash statement for OCF; no parent/finance/free-cash reinterpretation",
+    "comparability_note": "동일 연결 지표의 H1/H1 또는 Q2/Q2 비교. FY 분할·분기 연율화 아님. APR는 원자료의 재작성 비교열.",
+    "limitation": "산술 진단이며 증분 ROIC·내재가치·owner FCF 전체를 뜻하지 않음.",
+    "value": -0.1378001202042768,
+    "claim_type": "estimate",
+    "method_status": "CALCULATED_FROM_REPORTED_ASSERTIONS"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "ticker": "PLTR",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 174.33,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 2568.694,
+  "liquidity_cash": 2.030047,
+  "minimum_cash_reserve": 2.0,
+  "quality_scores": [
+    14,
+    9,
+    12,
+    10,
+    6,
+    10
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "aip_government_commercial",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 9.0,
+          "growth_2_5": 0.18,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.25
+        },
+        "base": {
+          "revenue_year_1": 10.8,
+          "growth_2_5": 0.32,
+          "growth_6_10": 0.16,
+          "owner_margin_year_1": 0.32,
+          "owner_margin_mature": 0.35
+        },
+        "bull": {
+          "revenue_year_1": 12.5,
+          "growth_2_5": 0.45,
+          "growth_6_10": 0.22,
+          "owner_margin_year_1": 0.38,
+          "owner_margin_mature": 0.43
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM 매출6.155941B. H1 공시 OCF2.115332B−PPE0.021955B−SBC0.466801B=owner proxy1.626576B. 조정 FCF보다 보수적이나 이자수익·선수금 타이밍을 추가 정상화해야 한다.",
+  "economic_risk": "H1 GAAP 영업이익1.666B의 레버리지는 실재하지만 정부 계약·AIP 확장과 고객 경제적 회수의 지속성은 별도다.",
+  "rights_and_capital": "공식 Q2 10-Q 희석 가중평균2,568.694백만주로 시세 역산 proxy를 교체했다. 현금2.030047B만 유동성에 인정하며, UST 포함9.2B와 기타 시장성증권 포함9.409099B의 범위 차이를 보존한다. GAAP SBC 비용 이후 현금마진을 사용한다.",
+  "model_family": "sbc_platform",
+  "falsifier": "미국 상업 성장률 둔화와 신규 고객의 현금수익·갱신 악화가 동시에 발생하면 10년 고성장 기대 하향.",
+  "investigate_veto_indices": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.47,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0113,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

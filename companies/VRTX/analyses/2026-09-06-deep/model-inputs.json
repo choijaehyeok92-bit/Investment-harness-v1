@@ -1,0 +1,116 @@
+{
+  "ticker": "VRTX",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 546.12,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 256.0,
+  "liquidity_cash": 13.6415,
+  "minimum_cash_reserve": 5.0,
+  "quality_scores": [
+    13,
+    9,
+    13,
+    11,
+    7,
+    9
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 18,
+    "base": 25,
+    "bull": 30
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "CF_franchise",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 12.48,
+          "growth_2_5": 0.0,
+          "growth_6_10": -0.03,
+          "owner_margin_year_1": 0.2,
+          "owner_margin_mature": 0.20600000000000002
+        },
+        "base": {
+          "revenue_year_1": 13.44,
+          "growth_2_5": 0.06999999999999999,
+          "growth_6_10": 0.030000000000000002,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.28840000000000005
+        },
+        "bull": {
+          "revenue_year_1": 14.399999999999999,
+          "growth_2_5": 0.13,
+          "growth_6_10": 0.06,
+          "owner_margin_year_1": 0.28,
+          "owner_margin_mature": 0.3502
+        }
+      }
+    },
+    {
+      "name": "Approved_nonCF_launches",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 0.52,
+          "growth_2_5": 0.37,
+          "growth_6_10": 0.13999999999999999,
+          "owner_margin_year_1": 0.2,
+          "owner_margin_mature": 0.05600000000000001
+        },
+        "base": {
+          "revenue_year_1": 0.56,
+          "growth_2_5": 0.43999999999999995,
+          "growth_6_10": 0.2,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.07840000000000001
+        },
+        "bull": {
+          "revenue_year_1": 0.6,
+          "growth_2_5": 0.5,
+          "growth_6_10": 0.22999999999999998,
+          "owner_margin_year_1": 0.28,
+          "owner_margin_mature": 0.09520000000000002
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM 매출12.5872B. H1 OCF2.5535B−PPE0.2456B=2.3079B는 SBC 차감 전이다. CF 중심 승인 제품 현금을 기준으로 신제품을 점진 반영한다.",
+  "economic_risk": "TRIKAFTA와 ALYFTREK은 같은 질환이다. JOURNAVX·CASGEVY 매출은 다변화 가능성을 보여주나 아직 CF 집중을 제거하지 못한다.",
+  "rights_and_capital": "13.6415B 현금·증권과 8.8B Crinetics 거래는 별도. 4.5B term loan/0.5B revolver는 약정 용량과 6월 실제 차입을 구분한다. 매수대가 차감·신약 가치를 상쇄하는 증분 NPV 범위를 사용한다.",
+  "model_family": "drug_lifecycle",
+  "falsifier": "CF 수익성·특허/경쟁 보호가 약화되는 동안 비CF 제품의 보험·처방·현금 실적이 충분히 커지지 못하면 장기 가정 하향.",
+  "investigate_veto_indices": [
+    4,
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.42,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0318,
+    "working_capital_cash_cost_to_revenue": 0.005,
+    "interest_net_debt_service_other_claims_to_revenue": 0.015
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "separate_equity_value": {
+    "bear": -8.8,
+    "base": 0,
+    "bull": 4.4
+  },
+  "segment_assumption_note": "부문별 매출 배분·성장률·현금마진은 분석 추정이며, 연결 owner 현금의 초기 합계와 성숙 고정믹스 합계를 보존한다. 이후 믹스 변화로 연결 현금마진이 변한다. 공시하지 않은 부문 FCF를 실제치로 만들지 않았다. 공시 부문 근거는 원자료/이전 thesis, 숫자 가정은 components에 공개.",
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

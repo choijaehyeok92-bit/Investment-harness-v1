@@ -1,0 +1,762 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "KRW trillion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.26003723612333907,
+    "required_owner_margin_delta": 0.48597790327095813,
+    "price_reference": 230000.0,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.1,
+    "implied_year_10_revenue": 6.805645766947805,
+    "implied_year_10_owner_cash": 2.0416937300843414,
+    "residual_price": 1.7462298274040222e-10
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.1,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.65,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 0.1625,
+              "ownership": 1,
+              "attributable_cash": 0.1625
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.1625,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.676,
+              "owner_margin": 0.2375,
+              "owner_cash_before_attribution": 0.16055,
+              "ownership": 1,
+              "attributable_cash": 0.16055
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.16055,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.7030400000000001,
+              "owner_margin": 0.225,
+              "owner_cash_before_attribution": 0.15818400000000002,
+              "ownership": 1,
+              "attributable_cash": 0.15818400000000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.15818400000000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.7311616000000001,
+              "owner_margin": 0.21250000000000002,
+              "owner_cash_before_attribution": 0.15537184000000004,
+              "ownership": 1,
+              "attributable_cash": 0.15537184000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.15537184000000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.7604080640000002,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.15208161280000004,
+              "ownership": 1,
+              "attributable_cash": 0.15208161280000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.15208161280000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.7756162252800002,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.15512324505600006,
+              "ownership": 1,
+              "attributable_cash": 0.15512324505600006
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.15512324505600006,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.7911285497856002,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.15822570995712004,
+              "ownership": 1,
+              "attributable_cash": 0.15822570995712004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.15822570995712004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.8069511207813123,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.16139022415626247,
+              "ownership": 1,
+              "attributable_cash": 0.16139022415626247
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.16139022415626247,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.8230901431969384,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.16461802863938768,
+              "ownership": 1,
+              "attributable_cash": 0.16461802863938768
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.16461802863938768,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.8395519460608772,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.16791038921217546,
+              "ownership": 1,
+              "attributable_cash": 0.16791038921217546
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.16791038921217546,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 0.9784093808366472,
+      "pv_terminal": 1.0357875805800805,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 2.0141969614167277,
+      "equity_value": 2.0141969614167277,
+      "value_per_share": 21132.624799519133,
+      "value_to_price": 0.09188097738921362,
+      "upside_downside": -0.9081190226107864,
+      "terminal_fraction_of_operating_pv": 0.5142434431295823,
+      "year_10_revenue": 0.8395519460608772,
+      "year_10_owner_cash": 0.16791038921217546,
+      "year_10_owner_cash_per_share": 1761.688317048347,
+      "year_10_exit_price": 28187.013072773552,
+      "irr_roots": [
+        -0.16779261055226208
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.038575409916,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 21132.624799519133,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.1,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.85,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.255,
+              "ownership": 1,
+              "attributable_cash": 0.255
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.255,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 0.9944999999999999,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.29834999999999995,
+              "ownership": 1,
+              "attributable_cash": 0.29834999999999995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.29834999999999995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.1635649999999997,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.3490694999999999,
+              "ownership": 1,
+              "attributable_cash": 0.3490694999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.3490694999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.3613710499999998,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.40841131499999994,
+              "ownership": 1,
+              "attributable_cash": 0.40841131499999994
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.40841131499999994,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.5928041284999994,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.4778412385499998,
+              "ownership": 1,
+              "attributable_cash": 0.4778412385499998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.4778412385499998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.7043004174949994,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.5112901252484998,
+              "ownership": 1,
+              "attributable_cash": 0.5112901252484998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.5112901252484998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.8236014467196493,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.5470804340158948,
+              "ownership": 1,
+              "attributable_cash": 0.5470804340158948
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.5470804340158948,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.951253547990025,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.5853760643970075,
+              "ownership": 1,
+              "attributable_cash": 0.5853760643970075
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.5853760643970075,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 2.087841296349327,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.626352388904798,
+              "ownership": 1,
+              "attributable_cash": 0.626352388904798
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.626352388904798,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 2.23399018709378,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 0.670197056128134,
+              "ownership": 1,
+              "attributable_cash": 0.670197056128134
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.670197056128134,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 2.682757249824958,
+      "pv_terminal": 5.684579506883839,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 8.367336756708797,
+      "equity_value": 8.367336756708797,
+      "value_per_share": 87788.72753654618,
+      "value_to_price": 0.3816901197241138,
+      "upside_downside": -0.6183098802758862,
+      "terminal_fraction_of_operating_pv": 0.6793774019344966,
+      "year_10_revenue": 2.23399018709378,
+      "year_10_owner_cash": 0.670197056128134,
+      "year_10_owner_cash_per_share": 7031.597803094817,
+      "year_10_exit_price": 154695.151668086,
+      "irr_roots": [
+        -0.012886674935200848
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.038575409916,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 87788.72753654618,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.1,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.05,
+              "owner_margin": 0.35,
+              "owner_cash_before_attribution": 0.3675,
+              "ownership": 1,
+              "attributable_cash": 0.3675
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.3675,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.344,
+              "owner_margin": 0.3575,
+              "owner_cash_before_attribution": 0.48048,
+              "ownership": 1,
+              "attributable_cash": 0.48048
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.48048,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 1.72032,
+              "owner_margin": 0.365,
+              "owner_cash_before_attribution": 0.6279168,
+              "ownership": 1,
+              "attributable_cash": 0.6279168
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.6279168,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 2.2020096000000007,
+              "owner_margin": 0.3725,
+              "owner_cash_before_attribution": 0.8202485760000002,
+              "ownership": 1,
+              "attributable_cash": 0.8202485760000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.8202485760000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 2.8185722880000004,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 1.0710574694400001,
+              "ownership": 1,
+              "attributable_cash": 1.0710574694400001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.0710574694400001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 3.1568009625600006,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 1.1995843657728003,
+              "ownership": 1,
+              "attributable_cash": 1.1995843657728003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.1995843657728003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 3.535617078067201,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 1.3435344896655363,
+              "ownership": 1,
+              "attributable_cash": 1.3435344896655363
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.3435344896655363,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 3.9598911274352657,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 1.504758628425401,
+              "ownership": 1,
+              "attributable_cash": 1.504758628425401
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.504758628425401,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 4.435078062727498,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 1.6853296638364492,
+              "ownership": 1,
+              "attributable_cash": 1.6853296638364492
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.6853296638364492,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "packaging_equipment",
+              "revenue": 4.967287430254798,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 1.887569223496823,
+              "ownership": 1,
+              "attributable_cash": 1.887569223496823
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.887569223496823,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 5.939272920432522,
+      "pv_terminal": 20.37671012868152,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 26.315983049114042,
+      "equity_value": 26.315983049114042,
+      "value_per_share": 276102.98628207133,
+      "value_to_price": 1.2004477664437885,
+      "upside_downside": 0.20044776644378848,
+      "terminal_fraction_of_operating_pv": 0.7743092891742658,
+      "year_10_revenue": 4.967287430254798,
+      "year_10_owner_cash": 1.887569223496823,
+      "year_10_owner_cash_per_share": 19804.067301948995,
+      "year_10_exit_price": 554513.8844545718,
+      "irr_roots": [
+        0.12235967140640158
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.038575409916,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 276102.98628207133,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 92588.28088161026
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0,
+      "value_per_share": 102875.86764623363
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 113163.45441085698
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 79009.85478289156
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0,
+      "value_per_share": 87788.72753654618
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 96567.60029020079
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 67765.58534670134
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0,
+      "value_per_share": 75295.09482966813
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 82824.60431263494
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 74233.80080179295
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 87788.72753654618
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 101343.65427129938
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.8191829590937526,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 92409.18688057494
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 87788.72753654618
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 83608.3119395678
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 79807.93412413288
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "equipment_volume_requirement": {
+      "note": "Illustrative ASP1/2/3KRWb, all revenue treated as equipment. This is a capacity hurdle, not disclosed ASP/order forecast.",
+      "annual_units": [
+        {
+          "asp_krw_b": 1,
+          "units": 6805.645766947805
+        },
+        {
+          "asp_krw_b": 2,
+          "units": 3402.8228834739025
+        },
+        {
+          "asp_krw_b": 3,
+          "units": 2268.548588982602
+        }
+      ]
+    }
+  }
+}

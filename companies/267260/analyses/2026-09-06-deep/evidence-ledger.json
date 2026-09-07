@@ -1,0 +1,97 @@
+{
+  "ticker": "267260",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-37a0b6898835093db619",
+    "obs-c7b366ec5186081c2266",
+    "obs-bfd6df35b993b843cd51",
+    "obs-b9b37ba8e465fc38cfe1",
+    "obs-68b0ec49e2a167b1ee9b",
+    "obs-a46ece5325eb3501ba4d",
+    "obs-5f69bca31b5926679ec3",
+    "obs-825c9b8fc1726d640c26",
+    "obs-8fae9236f121c1401f5e",
+    "obs-05ddf239097e35d65321",
+    "obs-104182582d0c9912ca77",
+    "obs-d242bb34d3ba747b8573",
+    "obs-1f22bfa98d18e66dc91b",
+    "obs-4e086198fc6dd7a829c0",
+    "obs-1bb7b3feebdf4b7462c1",
+    "obs-b6cbc227369e820f3989",
+    "obs-b57fb397c2a3df679e8a",
+    "obs-389c2fc28e3d07b21c6a",
+    "obs-6fb1c90a010ec224c5c3",
+    "obs-2942e9b2549a421c19cd",
+    "obs-7d683db54160ece340ae",
+    "obs-ee53395df940010af36d",
+    "obs-2d58ed88da239091d5a0",
+    "obs-b24c5aa44815bd851bee",
+    "obs-b185c810ccc5451d1d33",
+    "obs-c5bc447d5794409e0cac",
+    "obs-50d8ef748b4f79a6d59b",
+    "obs-530993affc97af87b49f",
+    "obs-91191bac18bbc0fd6e8e",
+    "obs-3d3be532fe2e7de6e531",
+    "obs-5b0c0d8281ce4a9ad481",
+    "obs-fe673cbeb19a4ae2acc3",
+    "obs-262b36b2ff354719fe03",
+    "obs-e42d574b918eb45223d0",
+    "obs-fe192f772aad63ec5d09"
+  ],
+  "financial_bridge": {
+    "revenue": 2.178313164743,
+    "operating_profit": 0.545303822428,
+    "ocf": 0.480269932949,
+    "cash_capex": 0.139882641673,
+    "sbc": null,
+    "additional_cash_investment": 0.009161233522,
+    "ticker": "267260",
+    "period": "H1 2026",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.2503330702187331,
+    "ocf_less_named_capex": 0.340387291276,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/267260/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/267260/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "35e65e9b34654fe799dfd66680ab7b9e42042dbecd0a157f0710b282bf64c7a6"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://www.hd-hyundaielectric.com/elect/en/",
+      "location": "Investor stock information2026-09-04 16:00:02",
+      "facts": {
+        "price_krw": 714000
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://www.hd-hyundaielectric.com/elect/en/",
+      "location": "Investor stock information2026-09-04 16:00:02",
+      "facts": {
+        "price_krw": 714000
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

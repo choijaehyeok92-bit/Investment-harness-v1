@@ -1,0 +1,89 @@
+{
+  "ticker": "196170",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 288500.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 69.655133,
+  "liquidity_cash": 0.080369735611,
+  "minimum_cash_reserve": 0.05,
+  "quality_scores": [
+    13,
+    9,
+    12,
+    8,
+    7,
+    8
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "royalties_and_licenses",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 0.25,
+          "growth_2_5": 0.12,
+          "growth_6_10": 0.02,
+          "owner_margin_year_1": 0.15,
+          "owner_margin_mature": 0.2
+        },
+        "base": {
+          "revenue_year_1": 0.45,
+          "growth_2_5": 0.28,
+          "growth_6_10": 0.07,
+          "owner_margin_year_1": 0.35,
+          "owner_margin_mature": 0.48
+        },
+        "bull": {
+          "revenue_year_1": 0.7,
+          "growth_2_5": 0.4,
+          "growth_6_10": 0.12,
+          "owner_margin_year_1": 0.45,
+          "owner_margin_mature": 0.6
+        }
+      }
+    }
+  ],
+  "financial_finding": "FY25/H1 동기 차감 TTM 매출 0.254조원·OCF 0.098조원. 계약 최대 총액은 조건부 마일스톤이며 현재 매출·현금과 다르다.",
+  "economic_risk": "KEYTRUDA SC 상업화는 로열티 경로를 지지하지만 계약별 비공개율을 사실로 채우지 않는다. 1~3% 로열티율과 채택 속도를 명시적 추정으로 시험한다. 9월2일 Novartis 옵션·라이선스 계약을 공식 확인했다. 모든 옵션·마일스톤 달성 시 최대$3.223B이며 발표상 로열티도 총액에 포함되어, 확정현금이나 총액 외 무제한 추가 로열티로 계산하지 않는다.",
+  "rights_and_capital": "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다.",
+  "model_family": "royalty_contract",
+  "falsifier": "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기.",
+  "investigate_veto_indices": [
+    1,
+    2,
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.7,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": -0.015,
+    "working_capital_cash_cost_to_revenue": 0.02,
+    "interest_net_debt_service_other_claims_to_revenue": 0.01
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "separate_equity_value": {
+    "bear": -0.22,
+    "base": -0.178595,
+    "bull": -0.15833
+  },
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

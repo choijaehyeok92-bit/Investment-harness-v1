@@ -1,0 +1,31 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 274.5861348563076
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 260.8568281134922
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 248.4350743938021
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 237.14257101226562
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "convertible_rights": {
+    "method": "Primary denominator/claim treatment stated in model inputs. Alternate conversion removes the corresponding claim cost before adding conversion shares.",
+    "note": "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다.",
+    "contractual_conversion_count_unknown": true,
+    "additional_share_stress_not_contract_fact": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  }
+}

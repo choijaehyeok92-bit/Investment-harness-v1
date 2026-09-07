@@ -21,7 +21,8 @@ def main():
     assert len(aliases)==len(set(aliases)) and not set(aliases)&set(tickers)
     assert next(r for r in registry if r['ticker']=='GOOGL')['aliases']==['GOOG']
     current=read('reviews/latest.json');assert current['registry']=='registry/companies.json'
-    assert current['directory']==DIRECTORY
+    from .deep_inputs import DIRECTORY as DEEP_DIRECTORY, inputs as deep_inputs
+    assert current['directory'] in [DIRECTORY,DEEP_DIRECTORY], 'Unknown authority run'
     observations_count=0;derived_count=0
     for r in registry:
         latest=read(r['latest']);d=read(latest['assessment'])
@@ -44,9 +45,23 @@ def main():
         for ref in d['historical_records']:assert (ROOT/ref['path']).is_file()
     for entry in read(DIRECTORY+'/source-manifest.json'):assert sha(entry['path'])==entry['sha256']
     files,ds=outputs()
-    for p,content in files.items():assert (ROOT/p).read_text()==content,('NOT_REPRODUCIBLE',p)
+    superseded=set()
+    if current['directory']==DEEP_DIRECTORY:
+        superseded={'registry/companies.json','reviews/latest.json'}|{f'companies/{t}/latest.json' for t in deep_inputs()}
+    for p,content in files.items():
+        if p not in superseded:assert (ROOT/p).read_text()==content,('NOT_REPRODUCIBLE',p)
+    deep_count=0
+    if current['directory']==DEEP_DIRECTORY:
+        from .deep_report import outputs as deep_outputs
+        df,dd=deep_outputs()
+        assert len(dd)==34 and {d['ticker'] for d in dd}==set(deep_inputs())
+        for p,content in df.items():assert (ROOT/p).read_text()==content,('DEEP_NOT_REPRODUCIBLE',p)
+        assert all(d['completion_gate']['passed'] and not d['buy_authorized'] for d in dd)
+        for entry in read(DEEP_DIRECTORY+'/source-manifest.json'):assert sha(entry['path'])==entry['sha256']
+        deep_count=len(df)
     print(json.dumps({'status':'PASS','issuers':len(tickers),'raw_files_unchanged':len(lock['raw_file_sha256']),
         'policy_files_unchanged':len(lock['policy_sha256']),'observations_with_valid_raw_pointers':observations_count,
-        'reproduced_derived_metrics':derived_count,'reproduced_artifacts':len(files)},ensure_ascii=False))
+        'reproduced_derived_metrics':derived_count,'reproduced_frozen_artifacts':len(files)-len(superseded),
+        'reproduced_deep_artifacts':deep_count},ensure_ascii=False))
 
 if __name__=='__main__':main()

@@ -1,0 +1,44 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 405.52280314808814
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 385.2466629906837
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 366.90158380065117
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 350.22423908243974
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "unclosed_transaction": {
+    "status": "CONDITIONAL",
+    "note": "13.6415B 현금·증권과 8.8B Crinetics 거래는 별도. 4.5B term loan/0.5B revolver는 약정 용량과 6월 실제 차입을 구분한다. 매수대가 차감·신약 가치를 상쇄하는 증분 NPV 범위를 사용한다.",
+    "acquired_business_incremental_npv_test": [
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+        "value_per_share": 248.71666299068372
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+        "value_per_share": 330.6346629906837
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0,
+        "value_per_share": 385.2466629906837
+      },
+      {
+        "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+        "value_per_share": 439.85866299068374
+      }
+    ],
+    "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+  }
+}

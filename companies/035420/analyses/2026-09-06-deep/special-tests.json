@@ -1,0 +1,27 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 277021.95002861286
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 263170.8525271822
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 250638.90716874495
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 239246.22957016563
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "conditional_nvidia_issue": {
+    "new_shares_m": 7.241564,
+    "pro_forma_shares_m": 159.31805500000002,
+    "same_business_value_per_share_before_new_project_npv": 251208.81488173045,
+    "note": "New cash must fund the required project; neither zero-cost dilution nor full proceeds as excess cash. Requires independent project NPV."
+  }
+}

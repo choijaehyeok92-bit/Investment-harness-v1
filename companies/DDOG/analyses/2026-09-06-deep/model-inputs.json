@@ -1,0 +1,84 @@
+{
+  "ticker": "DDOG",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 212.93,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 359.075,
+  "liquidity_cash": 4.985,
+  "minimum_cash_reserve": 1.0,
+  "quality_scores": [
+    14,
+    9,
+    12,
+    8,
+    7,
+    10
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "observability",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 4.6,
+          "growth_2_5": 0.12,
+          "growth_6_10": 0.05,
+          "owner_margin_year_1": 0.05,
+          "owner_margin_mature": 0.1
+        },
+        "base": {
+          "revenue_year_1": 5.2,
+          "growth_2_5": 0.23,
+          "growth_6_10": 0.11,
+          "owner_margin_year_1": 0.08,
+          "owner_margin_mature": 0.2
+        },
+        "bull": {
+          "revenue_year_1": 5.8,
+          "growth_2_5": 0.32,
+          "growth_6_10": 0.16,
+          "owner_margin_year_1": 0.12,
+          "owner_margin_mature": 0.28
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM 보고 FCF 1.072769B−SBC 0.850943B=0.221826B, 보고 FCF의 약 20.7%만 남는다. FCF yield를 보상 차감 전으로 제시하지 않는다.",
+  "economic_risk": "통합 관측성은 고객 운영비용을 낮추지만 OpenTelemetry와 클라우드 자체 도구가 데이터 잠금 효과를 약화할 수 있다.",
+  "rights_and_capital": "6월 실제 359.075백만주와 현금·투자 4.985B를 구분한다. 만기채무와 신규 보상·미행사 권리는 별도 시험. 영업현금의 선수금 가속을 영구 현금마진으로 가산하지 않는다.",
+  "model_family": "sbc_platform",
+  "falsifier": "제품 확장에도 순유지·사용량 증가와 SBC 차감 주당 현금이 두 반기 악화하면 장기 통합 플랫폼 가정 하향.",
+  "investigate_veto_indices": [
+    2,
+    4,
+    6,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.29,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0191,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

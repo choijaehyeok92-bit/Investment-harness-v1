@@ -1,0 +1,32 @@
+{
+  "revenue": 775.68,
+  "operating_profit": 93.712,
+  "ocf": 161.403,
+  "cash_capex": 169.007,
+  "sbc": 19.314,
+  "additional_cash_investment": 1.907,
+  "ticker": "AMZN",
+  "period": "TTM through 2026-06-30",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.12081270627062707,
+  "ocf_less_named_capex": -7.604000000000013,
+  "ocf_less_capex_sbc_known_subtotal": -26.918000000000013,
+  "owner_cash_proxy": -28.825000000000014,
+  "owner_proxy_complete": true,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/AMZN/raw-data/2026-Q2.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/AMZN/raw-data/2026-Q2.json",
+      "sha256": "85dfebfcfce88a4b79db10d990b86ce32e04656eb4bba2aa7c45e7a60665873b"
+    }
+  ]
+}

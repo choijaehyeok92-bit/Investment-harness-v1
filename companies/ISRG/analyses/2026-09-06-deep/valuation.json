@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.1309275067210317,
+    "required_owner_margin_delta": 0.04847471630338601,
+    "price_reference": 366.7,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 39.94724528294345,
+    "implied_year_10_owner_cash": 9.187866415076993,
+    "residual_price": -6.252776074688882e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 18,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 12.0,
+              "owner_margin": 0.19,
+              "owner_cash_before_attribution": 2.2800000000000002,
+              "ownership": 1,
+              "attributable_cash": 2.2800000000000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.2800000000000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 12.84,
+              "owner_margin": 0.1875,
+              "owner_cash_before_attribution": 2.4074999999999998,
+              "ownership": 1,
+              "attributable_cash": 2.4074999999999998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.4074999999999998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 13.738800000000001,
+              "owner_margin": 0.185,
+              "owner_cash_before_attribution": 2.541678,
+              "ownership": 1,
+              "attributable_cash": 2.541678
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.541678,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 14.700516,
+              "owner_margin": 0.1825,
+              "owner_cash_before_attribution": 2.68284417,
+              "ownership": 1,
+              "attributable_cash": 2.68284417
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.68284417,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 15.729552120000003,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 2.8313193816,
+              "ownership": 1,
+              "attributable_cash": 2.8313193816
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.8313193816,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 16.358734204800005,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 2.944572156864001,
+              "ownership": 1,
+              "attributable_cash": 2.944572156864001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.944572156864001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 17.013083572992006,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 3.062355043138561,
+              "ownership": 1,
+              "attributable_cash": 3.062355043138561
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.062355043138561,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 17.693606915911683,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 3.184849244864103,
+              "ownership": 1,
+              "attributable_cash": 3.184849244864103
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.184849244864103,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 18.401351192548155,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 3.312243214658668,
+              "ownership": 1,
+              "attributable_cash": 3.312243214658668
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.312243214658668,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 19.13740524025008,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 3.4447329432450142,
+              "ownership": 1,
+              "attributable_cash": 3.4447329432450142
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.4447329432450142,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 17.83096214413366,
+      "pv_terminal": 26.191663597733175,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 44.02262574186683,
+      "equity_value": 44.02262574186683,
+      "value_per_share": 124.3928390558543,
+      "value_to_price": 0.33922235902878184,
+      "upside_downside": -0.6607776409712182,
+      "terminal_fraction_of_operating_pv": 0.5949591410406063,
+      "year_10_revenue": 19.13740524025008,
+      "year_10_owner_cash": 3.4447329432450142,
+      "year_10_owner_cash_per_share": 9.733633634487184,
+      "year_10_exit_price": 175.2054054207693,
+      "irr_roots": [
+        -0.03983718942802844
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 6.630000000000001,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 124.39283905585431,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 25,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 13.2,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 2.904,
+              "ownership": 1,
+              "attributable_cash": 2.904
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.904,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 14.915999999999999,
+              "owner_margin": 0.2225,
+              "owner_cash_before_attribution": 3.3188099999999996,
+              "ownership": 1,
+              "attributable_cash": 3.3188099999999996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.3188099999999996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 16.855079999999994,
+              "owner_margin": 0.225,
+              "owner_cash_before_attribution": 3.792392999999999,
+              "ownership": 1,
+              "attributable_cash": 3.792392999999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.792392999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 19.046240399999995,
+              "owner_margin": 0.2275,
+              "owner_cash_before_attribution": 4.333019690999999,
+              "ownership": 1,
+              "attributable_cash": 4.333019690999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.333019690999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 21.52225165199999,
+              "owner_margin": 0.23,
+              "owner_cash_before_attribution": 4.950117879959998,
+              "ownership": 1,
+              "attributable_cash": 4.950117879959998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.950117879959998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 23.24403178415999,
+              "owner_margin": 0.23,
+              "owner_cash_before_attribution": 5.346127310356798,
+              "ownership": 1,
+              "attributable_cash": 5.346127310356798
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.346127310356798,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 25.10355432689279,
+              "owner_margin": 0.23,
+              "owner_cash_before_attribution": 5.773817495185342,
+              "ownership": 1,
+              "attributable_cash": 5.773817495185342
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.773817495185342,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 27.111838673044215,
+              "owner_margin": 0.23,
+              "owner_cash_before_attribution": 6.23572289480017,
+              "ownership": 1,
+              "attributable_cash": 6.23572289480017
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.23572289480017,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 29.280785766887757,
+              "owner_margin": 0.23,
+              "owner_cash_before_attribution": 6.734580726384184,
+              "ownership": 1,
+              "attributable_cash": 6.734580726384184
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.734580726384184,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 31.62324862823878,
+              "owner_margin": 0.23,
+              "owner_cash_before_attribution": 7.27334718449492,
+              "ownership": 1,
+              "attributable_cash": 7.27334718449492
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.27334718449492,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 30.321701238632667,
+      "pv_terminal": 76.80851132587465,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 107.13021256450732,
+      "equity_value": 107.13021256450732,
+      "value_per_share": 302.71323132101537,
+      "value_to_price": 0.8255064939215037,
+      "upside_downside": -0.17449350607849634,
+      "terminal_fraction_of_operating_pv": 0.7169640523174097,
+      "year_10_revenue": 31.62324862823878,
+      "year_10_owner_cash": 7.27334718449492,
+      "year_10_owner_cash_per_share": 20.55198413250896,
+      "year_10_exit_price": 513.799603312724,
+      "irr_roots": [
+        0.06656809980541822
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 6.630000000000001,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 302.71323132101537,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 30,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 14.5,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 3.48,
+              "ownership": 1,
+              "attributable_cash": 3.48
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.48,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 17.11,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 4.2775,
+              "ownership": 1,
+              "attributable_cash": 4.2775
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.2775,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 20.189799999999998,
+              "owner_margin": 0.26,
+              "owner_cash_before_attribution": 5.2493479999999995,
+              "ownership": 1,
+              "attributable_cash": 5.2493479999999995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.2493479999999995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 23.823963999999997,
+              "owner_margin": 0.27,
+              "owner_cash_before_attribution": 6.4324702799999995,
+              "ownership": 1,
+              "attributable_cash": 6.4324702799999995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.4324702799999995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 28.112277519999992,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 7.871437705599998,
+              "ownership": 1,
+              "attributable_cash": 7.871437705599998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.871437705599998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 31.204628047199993,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 8.737295853215999,
+              "ownership": 1,
+              "attributable_cash": 8.737295853215999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 8.737295853215999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 34.637137132392,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 9.698398397069761,
+              "ownership": 1,
+              "attributable_cash": 9.698398397069761
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 9.698398397069761,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 38.44722221695512,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 10.765222220747434,
+              "ownership": 1,
+              "attributable_cash": 10.765222220747434
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 10.765222220747434,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 42.67641666082018,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 11.949396665029651,
+              "ownership": 1,
+              "attributable_cash": 11.949396665029651
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 11.949396665029651,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "robotic_surgery",
+              "revenue": 47.37082249351041,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 13.263830298182915,
+              "ownership": 1,
+              "attributable_cash": 13.263830298182915
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 13.263830298182915,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 47.541666607769095,
+      "pv_terminal": 168.0835577634879,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 215.625224371257,
+      "equity_value": 215.625224371257,
+      "value_per_share": 609.2829171270331,
+      "value_to_price": 1.6615296349250972,
+      "upside_downside": 0.6615296349250972,
+      "terminal_fraction_of_operating_pv": 0.7795171379118739,
+      "year_10_revenue": 47.37082249351041,
+      "year_10_owner_cash": 13.263830298182915,
+      "year_10_owner_cash_per_share": 37.47903446788052,
+      "year_10_exit_price": 1124.3710340364157,
+      "irr_roots": [
+        0.15347753144441267
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 6.630000000000001,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 609.2829171270331,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 309.7839591698903
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 356.38981058449326
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 402.99566199909617
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 263.11314272316923
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 302.71323132101537
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 342.3133199188614
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 224.59729499782082
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 258.41518923529827
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 292.2330834727757
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 259.30633031741286
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 302.71323132101537
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 346.1201323246178
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.4997156508295815,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 318.6455066537004
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 302.71323132101537
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 288.2983155438242
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 275.1938466554685
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

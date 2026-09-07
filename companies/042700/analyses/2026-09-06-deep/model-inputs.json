@@ -1,0 +1,84 @@
+{
+  "ticker": "042700",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 230000.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 95.3122,
+  "liquidity_cash": 0.088575409916,
+  "minimum_cash_reserve": 0.05,
+  "quality_scores": [
+    13,
+    9,
+    11,
+    10,
+    7,
+    8
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "packaging_equipment",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 0.65,
+          "growth_2_5": 0.04,
+          "growth_6_10": 0.02,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.2
+        },
+        "base": {
+          "revenue_year_1": 0.85,
+          "growth_2_5": 0.17,
+          "growth_6_10": 0.07,
+          "owner_margin_year_1": 0.3,
+          "owner_margin_mature": 0.3
+        },
+        "bull": {
+          "revenue_year_1": 1.05,
+          "growth_2_5": 0.28,
+          "growth_6_10": 0.12,
+          "owner_margin_year_1": 0.35,
+          "owner_margin_mature": 0.38
+        }
+      }
+    }
+  ],
+  "financial_finding": "FY25 매출 0.577조원, H1 0.302조원과 비교 H1 0.327조원으로 TTM 0.551조원. Q2 급증만으로 H1 둔화를 지우지 않는다.",
+  "economic_risk": "원자료에 OCF가 없으므로 실제 owner FCF는 unknown이다. 추정 현금마진은 영업이익·설비투자·운전자본 비용으로 분해하며 보고 FCF라고 쓰지 않는다.",
+  "rights_and_capital": "차입금 null은 무차입의 증거가 아니다. 현금 885.8억원만 유동성에 인정하고 리스·신공장·환매 재원을 점검한다. 95.3122백만주 분모는 시세 정보 기반 추정으로 ±5% 민감도를 표시한다.",
+  "model_family": "equipment_cycle",
+  "falsifier": "TC bonder 고객 발주가 경쟁사로 이동하고 단가·현금회수가 함께 하락하거나 hybrid bonding 전환에서 지위를 잃으면 폐기.",
+  "investigate_veto_indices": [
+    1,
+    4,
+    5,
+    7
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.46,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": -0.02,
+    "working_capital_cash_cost_to_revenue": 0.02,
+    "interest_net_debt_service_other_claims_to_revenue": 0.005
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

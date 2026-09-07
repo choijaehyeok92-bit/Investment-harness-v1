@@ -1,0 +1,102 @@
+{
+  "ticker": "214450",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-b54b36ffea83a5be3e69",
+    "obs-00271688ac1ebb8917b6",
+    "obs-5167e1a89c55d00298df",
+    "obs-59bee31f563cbd1d87c9",
+    "obs-91cca6d321ed8c877174",
+    "obs-0555e77c1baf8c189471",
+    "obs-0438c604468bb939dba7",
+    "obs-404a5ca9d3e81a36e4ba",
+    "obs-963b354d391da6ded47d",
+    "obs-b59525eb29b217900e5e",
+    "obs-e4a0253a16c3a6bf487e",
+    "obs-1fbe8229b891b5be8c68",
+    "obs-c012d4e35a0931502809",
+    "obs-55105d5a0c3ef56be2ac",
+    "obs-7565d50fce2eae94ed58",
+    "obs-beff56456fc6b3d55379",
+    "obs-0af8b3170de3b7627093",
+    "obs-8fc708b4629a6269b3d6",
+    "obs-7d5b1434e9241353224b",
+    "obs-2b504737f0e153b27bb3",
+    "obs-79624f92c15b70a320ac",
+    "obs-7fa317577dcbf8e9bc34",
+    "obs-33590afdce2ea4ad2891",
+    "obs-d9b406d90a226539542f",
+    "obs-63cdd39a55664280c7fb",
+    "obs-cc057cd9a9a977854fe4",
+    "obs-2aefc87952827e31c04a",
+    "obs-59c96545eb8c64443d2d",
+    "obs-c2ff4e459a38774316a4",
+    "obs-25293716f347833b76a1",
+    "obs-417dfe4b437691775381",
+    "obs-11ae903ef14f3689e1bf",
+    "obs-1775387ebc7563f5d0d6",
+    "obs-2d494923b4ebf139ad28",
+    "obs-5d4c39ceb693b23ffce7",
+    "obs-51782c30591aec6e4a9f",
+    "obs-20cb467fd5139daff934",
+    "obs-684da122ee3f3f60196b",
+    "obs-14e68c50ffca02448ead"
+  ],
+  "financial_bridge": {
+    "revenue": 0.324805059793,
+    "operating_profit": 0.123762004754,
+    "ocf": 0.064258667155,
+    "cash_capex": 0.02109072543,
+    "sbc": null,
+    "additional_cash_investment": null,
+    "ticker": "214450",
+    "period": "H1 2026",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.3810347192031866,
+    "ocf_less_named_capex": 0.043167941725000006,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc",
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/214450/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/214450/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "a544d1fe3bd5650b856c3469a92f4bc9c68c2efeb58a754233ba451556fc9ae8"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://alphasquare.co.kr/home/stock-summary?code=214450",
+      "location": "Reference quote tier4; share count remains approximation",
+      "facts": {
+        "price_krw": 386500
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://alphasquare.co.kr/home/stock-summary?code=214450",
+      "location": "Reference quote tier4; share count remains approximation",
+      "facts": {
+        "price_krw": 386500
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

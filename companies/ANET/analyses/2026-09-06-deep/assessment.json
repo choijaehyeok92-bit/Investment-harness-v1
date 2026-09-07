@@ -1,0 +1,1083 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "ANET",
+  "company_name": "Arista Networks",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/ANET/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/ANET/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/qualitative-reassessments.jsonl",
+      "line": 1,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P1",
+  "structural_thesis": "AI Ethernet 및 데이터센터 네트워크 확장",
+  "customer_and_moat": "EOS/CloudVision 운영 일관성이 전환비용이라는 가설; Spectrum-X·화이트박스와 실제 고객 승패로 검증",
+  "current_finding": "FY25 OCF 4.372B−PPE/무형 취득 0.120B−SBC 0.439B=owner proxy 3.813B. H1 OCF와 낮은 직접 Capex는 우수하나 선수금·재고 효과를 정상화한다.",
+  "economic_finding": "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다.",
+  "capital_and_survival": "Q2 가중평균 희석주식 1,276백만주를 보수적 현시점 옵션 포함 proxy로 사용. 미래 SBC 비용을 cash margin에 포함하며 같은 보상의 연간 희석을 다시 적용하지 않는다.",
+  "next_evidence": "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+  "permanent_loss_case": "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기."
+  ],
+  "increase_evidence": [
+    "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "AI Ethernet 및 데이터센터 네트워크 확장"
+      ],
+      "counter_evidence": [
+        "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "EOS/CloudVision 운영 일관성이 전환비용이라는 가설; Spectrum-X·화이트박스와 실제 고객 승패로 검증"
+      ],
+      "counter_evidence": [
+        "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "EOS/CloudVision 운영 일관성이 전환비용이라는 가설; Spectrum-X·화이트박스와 실제 고객 승패로 검증"
+      ],
+      "counter_evidence": [
+        "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY25 OCF 4.372B−PPE/무형 취득 0.120B−SBC 0.439B=owner proxy 3.813B. H1 OCF와 낮은 직접 Capex는 우수하나 선수금·재고 효과를 정상화한다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [
+        "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 가중평균 희석주식 1,276백만주를 보수적 현시점 옵션 포함 proxy로 사용. 미래 SBC 비용을 cash margin에 포함하며 같은 보상의 연간 희석을 다시 적용하지 않는다."
+      ],
+      "counter_evidence": [
+        "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 가중평균 희석주식 1,276백만주를 보수적 현시점 옵션 포함 proxy로 사용. 미래 SBC 비용을 cash margin에 포함하며 같은 보상의 연간 희석을 다시 적용하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 193.78; Base/가격 0.86배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 16.9%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.29배, Bull/가격 1.85배. 2상태 손익분기 Bull 확률 45.4%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/ANET/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ANET/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "PASS",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다."
+        ],
+        "resolution_needed": "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기."
+        ],
+        "resolution_needed": "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+        "severity": "MATERIAL",
+        "confidence": 0.7,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.16878998112052368,
+      "required_owner_margin_delta": 0.05681794142120064,
+      "price_reference": 193.78,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 52.91413168494592,
+      "implied_year_10_owner_cash": 17.990804772881614,
+      "residual_price": 1.7053025658242404e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 11.5,
+                "owner_margin": 0.31,
+                "owner_cash_before_attribution": 3.565,
+                "ownership": 1,
+                "attributable_cash": 3.565
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.565,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 12.65,
+                "owner_margin": 0.3025,
+                "owner_cash_before_attribution": 3.826625,
+                "ownership": 1,
+                "attributable_cash": 3.826625
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.826625,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 13.915000000000003,
+                "owner_margin": 0.29500000000000004,
+                "owner_cash_before_attribution": 4.1049250000000015,
+                "ownership": 1,
+                "attributable_cash": 4.1049250000000015
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.1049250000000015,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 15.306500000000005,
+                "owner_margin": 0.28750000000000003,
+                "owner_cash_before_attribution": 4.400618750000002,
+                "ownership": 1,
+                "attributable_cash": 4.400618750000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.400618750000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 16.837150000000005,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 4.7144020000000015,
+                "ownership": 1,
+                "attributable_cash": 4.7144020000000015
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.7144020000000015,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 17.510636000000005,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 4.902978080000002,
+                "ownership": 1,
+                "attributable_cash": 4.902978080000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.902978080000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 18.21106144000001,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 5.099097203200003,
+                "ownership": 1,
+                "attributable_cash": 5.099097203200003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.099097203200003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 18.939503897600005,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 5.303061091328002,
+                "ownership": 1,
+                "attributable_cash": 5.303061091328002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.303061091328002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 19.69708405350401,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 5.515183534981124,
+                "ownership": 1,
+                "attributable_cash": 5.515183534981124
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.515183534981124,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 20.484967415644167,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 5.735790876380367,
+                "ownership": 1,
+                "attributable_cash": 5.735790876380367
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.735790876380367,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 29.179235995311434,
+        "pv_terminal": 43.6114809409817,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 72.79071693629314,
+        "equity_value": 72.79071693629314,
+        "value_per_share": 57.046016407753235,
+        "value_to_price": 0.294385470160766,
+        "upside_downside": -0.705614529839234,
+        "terminal_fraction_of_operating_pv": 0.5991352026268779,
+        "year_10_revenue": 20.484967415644167,
+        "year_10_owner_cash": 5.735790876380367,
+        "year_10_owner_cash_per_share": 4.495133915658595,
+        "year_10_exit_price": 80.9124104818547,
+        "irr_roots": [
+          -0.054455947727484466
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 1.2902,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 57.04601640775323,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 25,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 13.0,
+                "owner_margin": 0.36,
+                "owner_cash_before_attribution": 4.68,
+                "ownership": 1,
+                "attributable_cash": 4.68
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.68,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 15.6,
+                "owner_margin": 0.355,
+                "owner_cash_before_attribution": 5.537999999999999,
+                "ownership": 1,
+                "attributable_cash": 5.537999999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.537999999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 18.72,
+                "owner_margin": 0.35,
+                "owner_cash_before_attribution": 6.552,
+                "ownership": 1,
+                "attributable_cash": 6.552
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.552,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 22.464,
+                "owner_margin": 0.34500000000000003,
+                "owner_cash_before_attribution": 7.7500800000000005,
+                "ownership": 1,
+                "attributable_cash": 7.7500800000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.7500800000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 26.956799999999998,
+                "owner_margin": 0.34,
+                "owner_cash_before_attribution": 9.165312,
+                "ownership": 1,
+                "attributable_cash": 9.165312
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.165312,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 29.65248,
+                "owner_margin": 0.34,
+                "owner_cash_before_attribution": 10.081843200000002,
+                "ownership": 1,
+                "attributable_cash": 10.081843200000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.081843200000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 32.617728,
+                "owner_margin": 0.34,
+                "owner_cash_before_attribution": 11.090027520000001,
+                "ownership": 1,
+                "attributable_cash": 11.090027520000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 11.090027520000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 35.87950080000001,
+                "owner_margin": 0.34,
+                "owner_cash_before_attribution": 12.199030272000003,
+                "ownership": 1,
+                "attributable_cash": 12.199030272000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.199030272000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 39.46745088000001,
+                "owner_margin": 0.34,
+                "owner_cash_before_attribution": 13.418933299200004,
+                "ownership": 1,
+                "attributable_cash": 13.418933299200004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 13.418933299200004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 43.41419596800001,
+                "owner_margin": 0.34,
+                "owner_cash_before_attribution": 14.760826629120004,
+                "ownership": 1,
+                "attributable_cash": 14.760826629120004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 14.760826629120004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 56.07528675159097,
+        "pv_terminal": 155.87831717134878,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 211.95360392293975,
+        "equity_value": 211.95360392293975,
+        "value_per_share": 166.1078400649998,
+        "value_to_price": 0.8571980599907101,
+        "upside_downside": -0.14280194000928992,
+        "terminal_fraction_of_operating_pv": 0.7354360307457742,
+        "year_10_revenue": 43.41419596800001,
+        "year_10_owner_cash": 14.760826629120004,
+        "year_10_owner_cash_per_share": 11.56804594758621,
+        "year_10_exit_price": 289.20114868965527,
+        "irr_roots": [
+          0.07137094686932455
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 1.2902,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 166.1078400649998,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 30,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 14.5,
+                "owner_margin": 0.38,
+                "owner_cash_before_attribution": 5.51,
+                "ownership": 1,
+                "attributable_cash": 5.51
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.51,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 18.56,
+                "owner_margin": 0.385,
+                "owner_cash_before_attribution": 7.1456,
+                "ownership": 1,
+                "attributable_cash": 7.1456
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.1456,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 23.756800000000002,
+                "owner_margin": 0.39,
+                "owner_cash_before_attribution": 9.265152,
+                "ownership": 1,
+                "attributable_cash": 9.265152
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.265152,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 30.408704000000004,
+                "owner_margin": 0.395,
+                "owner_cash_before_attribution": 12.011438080000001,
+                "ownership": 1,
+                "attributable_cash": 12.011438080000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.011438080000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 38.923141120000004,
+                "owner_margin": 0.4,
+                "owner_cash_before_attribution": 15.569256448000003,
+                "ownership": 1,
+                "attributable_cash": 15.569256448000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 15.569256448000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 43.9831494656,
+                "owner_margin": 0.4,
+                "owner_cash_before_attribution": 17.59325978624,
+                "ownership": 1,
+                "attributable_cash": 17.59325978624
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 17.59325978624,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 49.70095889612799,
+                "owner_margin": 0.4,
+                "owner_cash_before_attribution": 19.8803835584512,
+                "ownership": 1,
+                "attributable_cash": 19.8803835584512
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 19.8803835584512,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 56.16208355262463,
+                "owner_margin": 0.4,
+                "owner_cash_before_attribution": 22.464833421049853,
+                "ownership": 1,
+                "attributable_cash": 22.464833421049853
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 22.464833421049853,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 63.463154414465826,
+                "owner_margin": 0.4,
+                "owner_cash_before_attribution": 25.385261765786332,
+                "ownership": 1,
+                "attributable_cash": 25.385261765786332
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 25.385261765786332,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "networking",
+                "revenue": 71.71336448834637,
+                "owner_margin": 0.4,
+                "owner_cash_before_attribution": 28.68534579533855,
+                "ownership": 1,
+                "attributable_cash": 28.68534579533855
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 28.68534579533855,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 93.29686446417192,
+        "pv_terminal": 363.51000190472433,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 456.80686636889624,
+        "equity_value": 456.80686636889624,
+        "value_per_share": 357.9991115743701,
+        "value_to_price": 1.8474512930868516,
+        "upside_downside": 0.8474512930868516,
+        "terminal_fraction_of_operating_pv": 0.7957629989107264,
+        "year_10_revenue": 71.71336448834637,
+        "year_10_owner_cash": 28.68534579533855,
+        "year_10_owner_cash_per_share": 22.48067852299259,
+        "year_10_exit_price": 674.4203556897778,
+        "irr_roots": [
+          0.16624301910388561
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 1.2902,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 357.9991115743701,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/ANET/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "network_platform",
+    "missing_data": [
+      "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 78,
+  "business_quality_75": 67,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.7,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "AI Ethernet 및 데이터센터 네트워크 확장",
+        "response": "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "EOS/CloudVision 운영 일관성이 전환비용이라는 가설; Spectrum-X·화이트박스와 실제 고객 승패로 검증",
+        "response": "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "FY25 OCF 4.372B−PPE/무형 취득 0.120B−SBC 0.439B=owner proxy 3.813B. H1 OCF와 낮은 직접 Capex는 우수하나 선수금·재고 효과를 정상화한다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "Q2 가중평균 희석주식 1,276백만주를 보수적 현시점 옵션 포함 proxy로 사용. 미래 SBC 비용을 cash margin에 포함하며 같은 보상의 연간 희석을 다시 적용하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 193.78; Base/가격 0.86배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 16.9%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 73.5%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "두 최종 고객 16%·26%는 실제 고객 집중이다. 유통업체 42%를 최종고객으로 잘못 읽은 AVGO와 같은 숫자로 비교하지 않는다.",
+      "Q2 가중평균 희석주식 1,276백만주를 보수적 현시점 옵션 포함 proxy로 사용. 미래 SBC 비용을 cash margin에 포함하며 같은 보상의 연간 희석을 다시 적용하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "FY25 OCF 4.372B−PPE/무형 취득 0.120B−SBC 0.439B=owner proxy 3.813B. H1 OCF와 낮은 직접 Capex는 우수하나 선수금·재고 효과를 정상화한다.",
+    "falsifiers": [
+      "고객 자체 네트워킹·경쟁 장비 전환으로 점유와 현금마진이 함께 하락하고 신규 800G/1.6T 채택이 지연되면 논지 폐기."
+    ],
+    "confidence": 0.7,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "fatal_concentration",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "최종고객별 매출·매입약정, H1 SBC/총발행/환매, 최신 가격과 10년 현금흐름 역산",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

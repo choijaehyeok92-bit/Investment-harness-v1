@@ -1,0 +1,1092 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "005930",
+  "company_name": "Samsung Electronics",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/005930/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/005930/decision-history.md",
+    "companies/005930/decision.json",
+    "companies/005930/evidence.jsonl",
+    "companies/005930/hard-veto.json",
+    "companies/005930/re-evaluation-2026-09-05.md",
+    "companies/005930/red-team.md",
+    "companies/005930/scorecard.json",
+    "companies/005930/thesis.md",
+    "companies/005930/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 1,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/005930/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": 68,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P2",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FACT: AI accelerator demand has structurally repriced memory. Samsung Q2 2026 revenue KRW 171.5T and operating profit KRW 89.5T (OPM 52.2%) versus FY2025 full-year revenue KRW 333.61T and operating profit KRW 43.60T - a single quarter now exceeds half of the prior full year's revenue."
+      ],
+      "counter_evidence": [
+        "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "FACT: HBM market share rose from 21% in Q1 2026 to 33% in Q2 2026 (Counterpoint). Direction of share, which policy/agents deep-analyst prioritises over level, is clearly positive."
+      ],
+      "counter_evidence": [
+        "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FACT: HBM market share rose from 21% in Q1 2026 to 33% in Q2 2026 (Counterpoint). Direction of share, which policy/agents deep-analyst prioritises over level, is clearly positive."
+      ],
+      "counter_evidence": [
+        "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 OCF 145.36조원−PPE 31.23조원−무형자산 1.73조원=112.40조원. 저장된 반올림 FCF 112.39조원과 0.01조원 차이는 반올림으로 보존한다. H1을 TTM으로 부르지 않는다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "보통주와 우선주 총 6,648.650백만주에 동일 경제적 현금권리 근사를 적용한다. 보통주 기준 암묵가치와 실제 두 종류 시가총액은 구분. 15조원 직원 보상용 환매는 무상 주당 증가가 아니다."
+      ],
+      "counter_evidence": [
+        "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "보통주와 우선주 총 6,648.650백만주에 동일 경제적 현금권리 근사를 적용한다. 보통주 기준 암묵가치와 실제 두 종류 시가총액은 구분. 15조원 직원 보상용 환매는 무상 주당 증가가 아니다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 255,500.00; Base/가격 0.78배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 8.7%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.24배, Bull/가격 2.22배. 2상태 손익분기 Bull 확률 38.3%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/005930/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005930/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "structural_thesis": "FACT: AI accelerator demand has structurally repriced memory. Samsung Q2 2026 revenue KRW 171.5T and operating profit KRW 89.5T (OPM 52.2%) versus FY2025 full-year revenue KRW 333.61T and operating profit KRW 43.60T - a single quarter now exceeds half of the prior full year's revenue.",
+  "customer_and_moat": "FACT: HBM market share rose from 21% in Q1 2026 to 33% in Q2 2026 (Counterpoint). Direction of share, which policy/agents deep-analyst prioritises over level, is clearly positive.",
+  "current_finding": "H1 OCF 145.36조원−PPE 31.23조원−무형자산 1.73조원=112.40조원. 저장된 반올림 FCF 112.39조원과 0.01조원 차이는 반올림으로 보존한다. H1을 TTM으로 부르지 않는다.",
+  "economic_finding": "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다.",
+  "capital_and_survival": "보통주와 우선주 총 6,648.650백만주에 동일 경제적 현금권리 근사를 적용한다. 보통주 기준 암묵가치와 실제 두 종류 시가총액은 구분. 15조원 직원 보상용 환매는 무상 주당 증가가 아니다.",
+  "next_evidence": "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+  "permanent_loss_case": "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+  ],
+  "increase_evidence": [
+    "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+        ],
+        "resolution_needed": "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+        ],
+        "resolution_needed": "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+        ],
+        "resolution_needed": "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.08673980453762209,
+      "required_owner_margin_delta": 0.04442282965043938,
+      "price_reference": 255500.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 1048.6048127707447,
+      "implied_year_10_owner_cash": 146.80467378790428,
+      "residual_price": -1.7462298274040222e-10
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 12,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 520.0,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 93.6,
+                "ownership": 1,
+                "attributable_cash": 93.6
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 93.6,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 338.0,
+                "owner_margin": 0.155,
+                "owner_cash_before_attribution": 52.39,
+                "ownership": 1,
+                "attributable_cash": 52.39
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 52.39,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 338.0,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 43.940000000000005,
+                "ownership": 1,
+                "attributable_cash": 43.940000000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 43.940000000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 338.0,
+                "owner_margin": 0.105,
+                "owner_cash_before_attribution": 35.49,
+                "ownership": 1,
+                "attributable_cash": 35.49
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 35.49,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 338.0,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 27.04,
+                "ownership": 1,
+                "attributable_cash": 27.04
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 27.04,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 344.76,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 27.5808,
+                "ownership": 1,
+                "attributable_cash": 27.5808
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 27.5808,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 351.65520000000004,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 28.132416000000003,
+                "ownership": 1,
+                "attributable_cash": 28.132416000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 28.132416000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 358.688304,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 28.69506432,
+                "ownership": 1,
+                "attributable_cash": 28.69506432
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 28.69506432,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 365.86207007999997,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 29.2689656064,
+                "ownership": 1,
+                "attributable_cash": 29.2689656064
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 29.2689656064,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 373.17931148160005,
+                "owner_margin": 0.08,
+                "owner_cash_before_attribution": 29.854344918528003,
+                "ownership": 1,
+                "attributable_cash": 29.854344918528003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 29.854344918528003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 269.74558266640446,
+        "pv_terminal": 138.12170812383724,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 407.86729079024167,
+        "equity_value": 407.86729079024167,
+        "value_per_share": 61345.8826054332,
+        "value_to_price": 0.24010130178251743,
+        "upside_downside": -0.7598986982174826,
+        "terminal_fraction_of_operating_pv": 0.33864374820600796,
+        "year_10_revenue": 373.17931148160005,
+        "year_10_owner_cash": 29.854344918528003,
+        "year_10_owner_cash_per_share": 4490.286865332394,
+        "year_10_exit_price": 53883.44238398873,
+        "irr_roots": [
+          -0.10025094259111406
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 52.92,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 61345.8826054332,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 17,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 620.0,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 148.79999999999998,
+                "ownership": 1,
+                "attributable_cash": 148.79999999999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 148.79999999999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 520.8000000000001,
+                "owner_margin": 0.215,
+                "owner_cash_before_attribution": 111.97200000000001,
+                "ownership": 1,
+                "attributable_cash": 111.97200000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 111.97200000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 546.84,
+                "owner_margin": 0.19,
+                "owner_cash_before_attribution": 103.8996,
+                "ownership": 1,
+                "attributable_cash": 103.8996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 103.8996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 574.1820000000001,
+                "owner_margin": 0.165,
+                "owner_cash_before_attribution": 94.74003000000003,
+                "ownership": 1,
+                "attributable_cash": 94.74003000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 94.74003000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 602.8911000000002,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 84.40475400000003,
+                "ownership": 1,
+                "attributable_cash": 84.40475400000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 84.40475400000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 627.0067440000003,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 87.78094416000005,
+                "ownership": 1,
+                "attributable_cash": 87.78094416000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 87.78094416000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 652.0870137600002,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 91.29218192640003,
+                "ownership": 1,
+                "attributable_cash": 91.29218192640003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 91.29218192640003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 678.1704943104002,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 94.94386920345603,
+                "ownership": 1,
+                "attributable_cash": 94.94386920345603
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 94.94386920345603,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 705.2973140828162,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 98.74162397159428,
+                "ownership": 1,
+                "attributable_cash": 98.74162397159428
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 98.74162397159428,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 733.5092066461289,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 102.69128893045804,
+                "ownership": 1,
+                "attributable_cash": 102.69128893045804
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 102.69128893045804,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 645.1477237135651,
+        "pv_terminal": 673.0629346101227,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 1318.2106583236878,
+        "equity_value": 1318.2106583236878,
+        "value_per_share": 198267.4220775993,
+        "value_to_price": 0.7759977380727957,
+        "upside_downside": -0.2240022619272043,
+        "terminal_fraction_of_operating_pv": 0.5105882966126432,
+        "year_10_revenue": 733.5092066461289,
+        "year_10_owner_cash": 102.69128893045804,
+        "year_10_owner_cash_per_share": 15445.435065711876,
+        "year_10_exit_price": 262572.3961171019,
+        "irr_roots": [
+          0.06318087020791119
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 52.92,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 198267.4220775993,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 720.0,
+                "owner_margin": 0.3,
+                "owner_cash_before_attribution": 216.0,
+                "ownership": 1,
+                "attributable_cash": 216.0
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 216.0,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 752.4000000000001,
+                "owner_margin": 0.27749999999999997,
+                "owner_cash_before_attribution": 208.791,
+                "ownership": 1,
+                "attributable_cash": 208.791
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 208.791,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 827.6400000000001,
+                "owner_margin": 0.255,
+                "owner_cash_before_attribution": 211.04820000000004,
+                "ownership": 1,
+                "attributable_cash": 211.04820000000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 211.04820000000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 910.4040000000002,
+                "owner_margin": 0.23249999999999998,
+                "owner_cash_before_attribution": 211.66893000000005,
+                "ownership": 1,
+                "attributable_cash": 211.66893000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 211.66893000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 1001.4444000000002,
+                "owner_margin": 0.21,
+                "owner_cash_before_attribution": 210.30332400000003,
+                "ownership": 1,
+                "attributable_cash": 210.30332400000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 210.30332400000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 1061.5310640000005,
+                "owner_margin": 0.21,
+                "owner_cash_before_attribution": 222.9215234400001,
+                "ownership": 1,
+                "attributable_cash": 222.9215234400001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 222.9215234400001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 1125.2229278400002,
+                "owner_margin": 0.21,
+                "owner_cash_before_attribution": 236.29681484640005,
+                "ownership": 1,
+                "attributable_cash": 236.29681484640005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 236.29681484640005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 1192.7363035104004,
+                "owner_margin": 0.21,
+                "owner_cash_before_attribution": 250.47462373718406,
+                "ownership": 1,
+                "attributable_cash": 250.47462373718406
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 250.47462373718406,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 1264.3004817210244,
+                "owner_margin": 0.21,
+                "owner_cash_before_attribution": 265.50310116141515,
+                "ownership": 1,
+                "attributable_cash": 265.50310116141515
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 265.50310116141515,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "electronics",
+                "revenue": 1340.158510624286,
+                "owner_margin": 0.21,
+                "owner_cash_before_attribution": 281.43328723110005,
+                "ownership": 1,
+                "attributable_cash": 281.43328723110005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 281.43328723110005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 1387.6795896323656,
+        "pv_terminal": 2387.1037369089777,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 3774.7833265413433,
+        "equity_value": 3774.7833265413433,
+        "value_per_share": 567751.864490753,
+        "value_to_price": 2.222120800355198,
+        "upside_downside": 1.222120800355198,
+        "terminal_fraction_of_operating_pv": 0.6323816575443467,
+        "year_10_revenue": 1340.158510624286,
+        "year_10_owner_cash": 281.43328723110005,
+        "year_10_owner_cash_per_share": 42329.38945971809,
+        "year_10_exit_price": 931246.5681137978,
+        "irr_roots": [
+          0.22163455818582556
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 52.92,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 567751.864490753,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/005930/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "memory_cycle",
+    "missing_data": [
+      "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 68,
+  "business_quality_75": 57,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "FACT: AI accelerator demand has structurally repriced memory. Samsung Q2 2026 revenue KRW 171.5T and operating profit KRW 89.5T (OPM 52.2%) versus FY2025 full-year revenue KRW 333.61T and operating profit KRW 43.60T - a single quarter now exceeds half of the prior full year's revenue.",
+        "response": "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "FACT: HBM market share rose from 21% in Q1 2026 to 33% in Q2 2026 (Counterpoint). Direction of share, which policy/agents deep-analyst prioritises over level, is clearly positive.",
+        "response": "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "H1 OCF 145.36조원−PPE 31.23조원−무형자산 1.73조원=112.40조원. 저장된 반올림 FCF 112.39조원과 0.01조원 차이는 반올림으로 보존한다. H1을 TTM으로 부르지 않는다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "보통주와 우선주 총 6,648.650백만주에 동일 경제적 현금권리 근사를 적용한다. 보통주 기준 암묵가치와 실제 두 종류 시가총액은 구분. 15조원 직원 보상용 환매는 무상 주당 증가가 아니다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 255,500.00; Base/가격 0.78배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 8.7%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 51.1%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "메모리 현금수확, 파운드리 회수 불확실성, 모바일·디스플레이를 함께 반영한 정상화 현금마진이다. 이익 급등만으로 구조적 ROIC를 높이지 않는다.",
+      "보통주와 우선주 총 6,648.650백만주에 동일 경제적 현금권리 근사를 적용한다. 보통주 기준 암묵가치와 실제 두 종류 시가총액은 구분. 15조원 직원 보상용 환매는 무상 주당 증가가 아니다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "H1 OCF 145.36조원−PPE 31.23조원−무형자산 1.73조원=112.40조원. 저장된 반올림 FCF 112.39조원과 0.01조원 차이는 반올림으로 보존한다. H1을 TTM으로 부르지 않는다.",
+    "falsifiers": [
+      "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "incremental_roic_collapse",
+      "moat_shrinkage",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

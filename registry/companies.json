@@ -38,7 +38,7 @@
         "companies/000660/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/000660/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"
@@ -66,7 +66,7 @@
         "companies/005380/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/005380/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"
@@ -79,7 +79,7 @@
       "issuer_context": "KR",
       "raw_files": [],
       "latest": "companies/005930/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -170,7 +170,7 @@
       "issuer_context": "KR",
       "raw_files": [],
       "latest": "companies/012450/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -185,9 +185,9 @@
         "companies/034020/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/034020/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P2"
     },
     {
@@ -200,7 +200,7 @@
         "companies/035420/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/035420/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"
@@ -241,9 +241,9 @@
         "companies/042700/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/042700/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P2"
     },
     {
@@ -386,9 +386,9 @@
         "companies/196170/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/196170/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P2"
     },
     {
@@ -401,7 +401,7 @@
         "companies/207940/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/207940/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -416,7 +416,7 @@
         "companies/214450/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/214450/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -457,7 +457,7 @@
         "companies/267260/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/267260/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -485,7 +485,7 @@
         "companies/278470/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/278470/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -617,7 +617,7 @@
         "companies/AMZN/raw-data/2026-Q2.json"
       ],
       "latest": "companies/AMZN/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -632,7 +632,7 @@
         "companies/ANET/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/ANET/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -660,9 +660,9 @@
         "companies/ASTS/raw-data/2026-Q2.json"
       ],
       "latest": "companies/ASTS/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P3"
     },
     {
@@ -673,7 +673,7 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/AVGO/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -686,9 +686,9 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/AXON/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P2"
     },
     {
@@ -751,7 +751,7 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/DDOG/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -805,7 +805,7 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/GOOGL/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -844,7 +844,7 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/ISRG/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P1"
@@ -872,7 +872,7 @@
         "companies/LLY/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/LLY/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -940,7 +940,7 @@
         "companies/MSFT/raw-data/2026-FY.json"
       ],
       "latest": "companies/MSFT/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -955,9 +955,9 @@
         "companies/MU/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/MU/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P2"
     },
     {
@@ -968,7 +968,7 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/NET/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "REJECT",
       "priority": "P2"
@@ -994,7 +994,7 @@
       "issuer_context": "US",
       "raw_files": [],
       "latest": "companies/NVDA/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -1035,7 +1035,7 @@
         "companies/PLTR/raw-data/2026-Q2.json"
       ],
       "latest": "companies/PLTR/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"
@@ -1076,9 +1076,9 @@
         "companies/RKLB/raw-data/2026-Q2.json"
       ],
       "latest": "companies/RKLB/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P3"
     },
     {
@@ -1169,7 +1169,7 @@
         "companies/VRT/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/VRT/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -1184,7 +1184,7 @@
         "companies/VRTX/raw-data/2025-2026-supplied-filings.json"
       ],
       "latest": "companies/VRTX/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P1"
@@ -1199,7 +1199,7 @@
         "companies/MELI/raw-data/2026-Q2.json"
       ],
       "latest": "companies/MELI/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"
@@ -1212,7 +1212,7 @@
       "issuer_context": "US-listed foreign issuer",
       "raw_files": [],
       "latest": "companies/TSM/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "LEGACY_FULL_PACKAGE",
       "decision": "WATCH",
       "priority": "P2"
@@ -1227,7 +1227,7 @@
         "companies/CRDO/raw-data/2027-Q1.json"
       ],
       "latest": "companies/CRDO/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"
@@ -1242,9 +1242,9 @@
         "companies/TEM/raw-data/2026-Q2.json"
       ],
       "latest": "companies/TEM/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
-      "decision": "WATCH",
+      "decision": "REJECT",
       "priority": "P3"
     },
     {
@@ -1257,7 +1257,7 @@
         "companies/TMDX/raw-data/2026-Q2.json"
       ],
       "latest": "companies/TMDX/latest.json",
-      "research_state": "PARTIAL_ANALYSIS",
+      "research_state": "FULL_ANALYSIS",
       "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
       "decision": "WATCH",
       "priority": "P2"

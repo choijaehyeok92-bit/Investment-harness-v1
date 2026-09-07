@@ -1,0 +1,51 @@
+{
+  "ticker": "005930",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [],
+  "financial_bridge": {
+    "revenue": 305.37,
+    "operating_profit": 146.73,
+    "ocf": 145.36,
+    "cash_capex": 31.23,
+    "sbc": null,
+    "additional_cash_investment": 1.73,
+    "ticker": "005930",
+    "period": "H1 2026",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.4804990667059632,
+    "ocf_less_named_capex": 114.13000000000001,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/005930/valuation.json",
+      "companies/005930/thesis.md"
+    ],
+    "sources": [
+      {
+        "path": "companies/005930/valuation.json",
+        "sha256": "fb776e75234fe6526917ef196ff721a891f1b066112f14f2f06a41575ff59ea2"
+      },
+      {
+        "path": "companies/005930/thesis.md",
+        "sha256": "168ae2ecf28e6624a2e968a084889ca50a13284871ac4a20dc09746add6c6e6a"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

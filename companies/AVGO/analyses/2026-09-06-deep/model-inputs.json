@@ -1,0 +1,112 @@
+{
+  "ticker": "AVGO",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 357.895,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 4758.0,
+  "liquidity_cash": 19.628,
+  "minimum_cash_reserve": 10.0,
+  "quality_scores": [
+    14,
+    9,
+    12,
+    11,
+    7,
+    8
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "Semiconductor_AI_networking",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 85.0,
+          "growth_2_5": 0.12,
+          "growth_6_10": 0.045,
+          "owner_margin_year_1": 0.27,
+          "owner_margin_mature": 0.26197604790419154
+        },
+        "base": {
+          "revenue_year_1": 98.60000000000001,
+          "growth_2_5": 0.21000000000000002,
+          "growth_6_10": 0.095,
+          "owner_margin_year_1": 0.31,
+          "owner_margin_mature": 0.34580838323353286
+        },
+        "bull": {
+          "revenue_year_1": 112.2,
+          "growth_2_5": 0.27999999999999997,
+          "growth_6_10": 0.125,
+          "owner_margin_year_1": 0.35,
+          "owner_margin_mature": 0.4191616766467065
+        }
+      }
+    },
+    {
+      "name": "Infrastructure_software",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 40.0,
+          "growth_2_5": 0.020000000000000004,
+          "growth_6_10": 0.0049999999999999975,
+          "owner_margin_year_1": 0.27,
+          "owner_margin_mature": 0.22455089820359278
+        },
+        "base": {
+          "revenue_year_1": 46.4,
+          "growth_2_5": 0.11000000000000001,
+          "growth_6_10": 0.055,
+          "owner_margin_year_1": 0.31,
+          "owner_margin_mature": 0.29640718562874246
+        },
+        "bull": {
+          "revenue_year_1": 52.800000000000004,
+          "growth_2_5": 0.18,
+          "growth_6_10": 0.08499999999999999,
+          "owner_margin_year_1": 0.35,
+          "owner_margin_mature": 0.35928143712574845
+        }
+      }
+    }
+  ],
+  "financial_finding": "FY25 보고 FCF 26.914B−SBC 7.570B=owner proxy 19.344B. 일회성 세금혜택·인수 무형자산 상각을 단순히 영구 현금마진으로 가산하지 않는다.",
+  "economic_risk": "AI ASIC·네트워킹과 VMware 반복소프트웨어를 별개 성장 경로로 해석한다. Q3 29.591B 매출과 13.665B FCF가 기준년 이후 수익 가속을 보여준다.",
+  "rights_and_capital": "4,758백만주는 5월3일 공시 분모로 시세 제공 시총보다 신뢰하되 현재 ±5% 권리 오차 민감도를 표시한다. 기존 66.720B 부채와 인수 통합 부담은 현금 마진의 이자·순상환에 반영한다.",
+  "model_family": "semis_software",
+  "falsifier": "대형 AI 설계 고객의 내재화와 소프트웨어 갱신 악화가 함께 발생하여 SBC 차감 주당 현금이 4개 분기 하락하면 재검토.",
+  "investigate_veto_indices": [
+    0,
+    4,
+    7,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.46,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0084,
+    "working_capital_cash_cost_to_revenue": 0.005,
+    "interest_net_debt_service_other_claims_to_revenue": 0.02
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "segment_assumption_note": "부문별 매출 배분·성장률·현금마진은 분석 추정이며, 연결 owner 현금의 초기 합계와 성숙 고정믹스 합계를 보존한다. 이후 믹스 변화로 연결 현금마진이 변한다. 공시하지 않은 부문 FCF를 실제치로 만들지 않았다. 공시 부문 근거는 원자료/이전 thesis, 숫자 가정은 components에 공개.",
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

@@ -1,0 +1,11 @@
+{
+  "ticker": "ANET",
+  "price": 193.78,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 1276.0,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "Q2 가중평균 희석주식 1,276백만주를 보수적 현시점 옵션 포함 proxy로 사용. 미래 SBC 비용을 cash margin에 포함하며 같은 보상의 연간 희석을 다시 적용하지 않는다."
+}

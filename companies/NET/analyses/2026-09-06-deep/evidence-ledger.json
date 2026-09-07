@@ -1,0 +1,73 @@
+{
+  "ticker": "NET",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [],
+  "financial_bridge": {
+    "revenue": 2.51235,
+    "operating_profit": null,
+    "ocf": null,
+    "cash_capex": null,
+    "sbc": 0.507655,
+    "additional_cash_investment": null,
+    "ticker": "NET",
+    "period": "TTM through 2026-06-30",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": null,
+    "ocf_less_named_capex": 0.314873,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": -0.19278199999999995,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "operating_profit",
+      "ocf",
+      "cash_capex",
+      "additional_cash_investment"
+    ],
+    "reported_company_fcf": 0.314873,
+    "comparability_warning": "Company-defined FCF includes its specified adjustments. Do not infer exact cash capex from rounded OCF6.334e8. Owner proxy subtracts SBC from company FCF, not a GAAP FCF metric.",
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/NET/valuation.json",
+      "companies/NET/thesis.md"
+    ],
+    "sources": [
+      {
+        "path": "companies/NET/valuation.json",
+        "sha256": "366c28023638187324a6bf636f17126b722f3abce484525f04bb51a8ddca0f70"
+      },
+      {
+        "path": "companies/NET/thesis.md",
+        "sha256": "2d9f206ef15372945e2f32409b5f0fc204df26540746efa89511503bbb8fafcb"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm",
+      "location": "June30 balance sheet share classes, figures thousands",
+      "facts": {
+        "class_a_shares_m": 322.176,
+        "class_b_shares_m": 33.755
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000053/q226exhibit991.htm",
+      "location": "June30 balance sheet share classes, figures thousands",
+      "facts": {
+        "class_a_shares_m": 322.176,
+        "class_b_shares_m": 33.755
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "AVGO",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [],
+  "financial_bridge": {
+    "revenue": 63.887,
+    "operating_profit": 25.484,
+    "ocf": 27.537,
+    "cash_capex": 0.623,
+    "sbc": 7.57,
+    "additional_cash_investment": 0.0,
+    "ticker": "AVGO",
+    "period": "FY2025",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.39889179332258523,
+    "ocf_less_named_capex": 26.913999999999998,
+    "ocf_less_capex_sbc_known_subtotal": 19.343999999999998,
+    "owner_cash_proxy": 19.343999999999998,
+    "owner_proxy_complete": true,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/AVGO/valuation.json",
+      "companies/AVGO/thesis.md"
+    ],
+    "sources": [
+      {
+        "path": "companies/AVGO/valuation.json",
+        "sha256": "488e54d96f1ea7492da4e89c8f78ff2009009b44f4ab7c370042a7aa77f34fe1"
+      },
+      {
+        "path": "companies/AVGO/thesis.md",
+        "sha256": "ca7e57ba5d32314ba398e4ec1165eaf3e90e3aaff65de514915a05438ac07bd0"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

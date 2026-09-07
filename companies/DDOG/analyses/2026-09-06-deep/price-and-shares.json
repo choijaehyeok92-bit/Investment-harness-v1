@@ -1,0 +1,11 @@
+{
+  "ticker": "DDOG",
+  "price": 212.93,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 359.075,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "6월 실제 359.075백만주와 현금·투자 4.985B를 구분한다. 만기채무와 신규 보상·미행사 권리는 별도 시험. 영업현금의 선수금 가속을 영구 현금마진으로 가산하지 않는다."
+}

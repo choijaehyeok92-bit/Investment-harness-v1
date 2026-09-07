@@ -1,0 +1,36 @@
+{
+  "revenue": 95.154214,
+  "operating_profit": 5.365574,
+  "ocf": 4.849653,
+  "cash_capex": 4.003527,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "005380",
+  "period": "H1 2026",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.056388191068448106,
+  "ocf_less_named_capex": 0.8461259999999999,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "comparability_warning": "Financial subsidiary lending/credit working capital: consolidated OCF/PPE cannot be read as industrial owner-FCF.",
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/005380/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/005380/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "1104063b30a2d209b2780b25e1a7f6235bc5fdabcdf767eb17bf0dc455906ada"
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "KRW trillion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.08673980453762209,
+    "required_owner_margin_delta": 0.04442282965043938,
+    "price_reference": 255500.0,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.1,
+    "implied_year_10_revenue": 1048.6048127707447,
+    "implied_year_10_owner_cash": 146.80467378790428,
+    "residual_price": -1.7462298274040222e-10
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.1,
+      "terminal_multiple": 12,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 520.0,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 93.6,
+              "ownership": 1,
+              "attributable_cash": 93.6
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 93.6,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 338.0,
+              "owner_margin": 0.155,
+              "owner_cash_before_attribution": 52.39,
+              "ownership": 1,
+              "attributable_cash": 52.39
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 52.39,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 338.0,
+              "owner_margin": 0.13,
+              "owner_cash_before_attribution": 43.940000000000005,
+              "ownership": 1,
+              "attributable_cash": 43.940000000000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 43.940000000000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 338.0,
+              "owner_margin": 0.105,
+              "owner_cash_before_attribution": 35.49,
+              "ownership": 1,
+              "attributable_cash": 35.49
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 35.49,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 338.0,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 27.04,
+              "ownership": 1,
+              "attributable_cash": 27.04
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 27.04,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 344.76,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 27.5808,
+              "ownership": 1,
+              "attributable_cash": 27.5808
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 27.5808,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 351.65520000000004,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 28.132416000000003,
+              "ownership": 1,
+              "attributable_cash": 28.132416000000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 28.132416000000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 358.688304,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 28.69506432,
+              "ownership": 1,
+              "attributable_cash": 28.69506432
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 28.69506432,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 365.86207007999997,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 29.2689656064,
+              "ownership": 1,
+              "attributable_cash": 29.2689656064
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 29.2689656064,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 373.17931148160005,
+              "owner_margin": 0.08,
+              "owner_cash_before_attribution": 29.854344918528003,
+              "ownership": 1,
+              "attributable_cash": 29.854344918528003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 29.854344918528003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 269.74558266640446,
+      "pv_terminal": 138.12170812383724,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 407.86729079024167,
+      "equity_value": 407.86729079024167,
+      "value_per_share": 61345.8826054332,
+      "value_to_price": 0.24010130178251743,
+      "upside_downside": -0.7598986982174826,
+      "terminal_fraction_of_operating_pv": 0.33864374820600796,
+      "year_10_revenue": 373.17931148160005,
+      "year_10_owner_cash": 29.854344918528003,
+      "year_10_owner_cash_per_share": 4490.286865332394,
+      "year_10_exit_price": 53883.44238398873,
+      "irr_roots": [
+        -0.10025094259111406
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 52.92,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 61345.8826054332,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.1,
+      "terminal_multiple": 17,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 620.0,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 148.79999999999998,
+              "ownership": 1,
+              "attributable_cash": 148.79999999999998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 148.79999999999998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 520.8000000000001,
+              "owner_margin": 0.215,
+              "owner_cash_before_attribution": 111.97200000000001,
+              "ownership": 1,
+              "attributable_cash": 111.97200000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 111.97200000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 546.84,
+              "owner_margin": 0.19,
+              "owner_cash_before_attribution": 103.8996,
+              "ownership": 1,
+              "attributable_cash": 103.8996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 103.8996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 574.1820000000001,
+              "owner_margin": 0.165,
+              "owner_cash_before_attribution": 94.74003000000003,
+              "ownership": 1,
+              "attributable_cash": 94.74003000000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 94.74003000000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 602.8911000000002,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 84.40475400000003,
+              "ownership": 1,
+              "attributable_cash": 84.40475400000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 84.40475400000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 627.0067440000003,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 87.78094416000005,
+              "ownership": 1,
+              "attributable_cash": 87.78094416000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 87.78094416000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 652.0870137600002,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 91.29218192640003,
+              "ownership": 1,
+              "attributable_cash": 91.29218192640003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 91.29218192640003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 678.1704943104002,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 94.94386920345603,
+              "ownership": 1,
+              "attributable_cash": 94.94386920345603
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 94.94386920345603,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 705.2973140828162,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 98.74162397159428,
+              "ownership": 1,
+              "attributable_cash": 98.74162397159428
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 98.74162397159428,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 733.5092066461289,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 102.69128893045804,
+              "ownership": 1,
+              "attributable_cash": 102.69128893045804
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 102.69128893045804,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 645.1477237135651,
+      "pv_terminal": 673.0629346101227,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 1318.2106583236878,
+      "equity_value": 1318.2106583236878,
+      "value_per_share": 198267.4220775993,
+      "value_to_price": 0.7759977380727957,
+      "upside_downside": -0.2240022619272043,
+      "terminal_fraction_of_operating_pv": 0.5105882966126432,
+      "year_10_revenue": 733.5092066461289,
+      "year_10_owner_cash": 102.69128893045804,
+      "year_10_owner_cash_per_share": 15445.435065711876,
+      "year_10_exit_price": 262572.3961171019,
+      "irr_roots": [
+        0.06318087020791119
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 52.92,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 198267.4220775993,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.1,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 720.0,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 216.0,
+              "ownership": 1,
+              "attributable_cash": 216.0
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 216.0,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 752.4000000000001,
+              "owner_margin": 0.27749999999999997,
+              "owner_cash_before_attribution": 208.791,
+              "ownership": 1,
+              "attributable_cash": 208.791
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 208.791,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 827.6400000000001,
+              "owner_margin": 0.255,
+              "owner_cash_before_attribution": 211.04820000000004,
+              "ownership": 1,
+              "attributable_cash": 211.04820000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 211.04820000000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 910.4040000000002,
+              "owner_margin": 0.23249999999999998,
+              "owner_cash_before_attribution": 211.66893000000005,
+              "ownership": 1,
+              "attributable_cash": 211.66893000000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 211.66893000000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 1001.4444000000002,
+              "owner_margin": 0.21,
+              "owner_cash_before_attribution": 210.30332400000003,
+              "ownership": 1,
+              "attributable_cash": 210.30332400000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 210.30332400000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 1061.5310640000005,
+              "owner_margin": 0.21,
+              "owner_cash_before_attribution": 222.9215234400001,
+              "ownership": 1,
+              "attributable_cash": 222.9215234400001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 222.9215234400001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 1125.2229278400002,
+              "owner_margin": 0.21,
+              "owner_cash_before_attribution": 236.29681484640005,
+              "ownership": 1,
+              "attributable_cash": 236.29681484640005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 236.29681484640005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 1192.7363035104004,
+              "owner_margin": 0.21,
+              "owner_cash_before_attribution": 250.47462373718406,
+              "ownership": 1,
+              "attributable_cash": 250.47462373718406
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 250.47462373718406,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 1264.3004817210244,
+              "owner_margin": 0.21,
+              "owner_cash_before_attribution": 265.50310116141515,
+              "ownership": 1,
+              "attributable_cash": 265.50310116141515
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 265.50310116141515,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "electronics",
+              "revenue": 1340.158510624286,
+              "owner_margin": 0.21,
+              "owner_cash_before_attribution": 281.43328723110005,
+              "ownership": 1,
+              "attributable_cash": 281.43328723110005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 281.43328723110005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 1387.6795896323656,
+      "pv_terminal": 2387.1037369089777,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 3774.7833265413433,
+      "equity_value": 3774.7833265413433,
+      "value_per_share": 567751.864490753,
+      "value_to_price": 2.222120800355198,
+      "upside_downside": 1.222120800355198,
+      "terminal_fraction_of_operating_pv": 0.6323816575443467,
+      "year_10_revenue": 1340.158510624286,
+      "year_10_owner_cash": 281.43328723110005,
+      "year_10_owner_cash_per_share": 42329.38945971809,
+      "year_10_exit_price": 931246.5681137978,
+      "irr_roots": [
+        0.22163455818582556
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 52.92,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 567751.864490753,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 182273.67638764274
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0,
+      "value_per_share": 226933.02949123576
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 271592.3825948288
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 159616.63483187873
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0,
+      "value_per_share": 198267.4220775993
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 236918.20932331987
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 140681.26177911836
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0,
+      "value_per_share": 174328.31906582747
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 207975.37635253655
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 168493.00286807536
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 198267.4220775993
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 228041.84128712327
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.38339617686138383,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 208702.5495553677
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 198267.4220775993
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 188826.11626438028
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 180243.1109796357
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

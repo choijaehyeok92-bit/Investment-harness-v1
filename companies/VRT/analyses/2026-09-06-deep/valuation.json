@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.1684770072376368,
+    "required_owner_margin_delta": 0.04588507246056332,
+    "price_reference": 280.53,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 60.90778383212775,
+    "implied_year_10_owner_cash": 10.354323251461718,
+    "residual_price": 2.8421709430404007e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 12,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 13.0,
+              "owner_margin": 0.11,
+              "owner_cash_before_attribution": 1.43,
+              "ownership": 1,
+              "attributable_cash": 1.43
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.43,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 13.91,
+              "owner_margin": 0.1075,
+              "owner_cash_before_attribution": 1.495325,
+              "ownership": 1,
+              "attributable_cash": 1.495325
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.495325,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 14.883700000000001,
+              "owner_margin": 0.10500000000000001,
+              "owner_cash_before_attribution": 1.5627885000000004,
+              "ownership": 1,
+              "attributable_cash": 1.5627885000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.5627885000000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 15.925559000000002,
+              "owner_margin": 0.10250000000000001,
+              "owner_cash_before_attribution": 1.6323697975000002,
+              "ownership": 1,
+              "attributable_cash": 1.6323697975000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.6323697975000002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 17.04034813,
+              "owner_margin": 0.1,
+              "owner_cash_before_attribution": 1.7040348130000003,
+              "ownership": 1,
+              "attributable_cash": 1.7040348130000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.7040348130000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 17.551558573900003,
+              "owner_margin": 0.1,
+              "owner_cash_before_attribution": 1.7551558573900004,
+              "ownership": 1,
+              "attributable_cash": 1.7551558573900004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.7551558573900004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 18.078105331117,
+              "owner_margin": 0.1,
+              "owner_cash_before_attribution": 1.8078105331117003,
+              "ownership": 1,
+              "attributable_cash": 1.8078105331117003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.8078105331117003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 18.620448491050514,
+              "owner_margin": 0.1,
+              "owner_cash_before_attribution": 1.8620448491050514,
+              "ownership": 1,
+              "attributable_cash": 1.8620448491050514
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.8620448491050514,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 19.17906194578203,
+              "owner_margin": 0.1,
+              "owner_cash_before_attribution": 1.9179061945782032,
+              "ownership": 1,
+              "attributable_cash": 1.9179061945782032
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.9179061945782032,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 19.75443380415549,
+              "owner_margin": 0.1,
+              "owner_cash_before_attribution": 1.9754433804155491,
+              "ownership": 1,
+              "attributable_cash": 1.9754433804155491
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.9754433804155491,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 10.728668635544798,
+      "pv_terminal": 10.013383587576952,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 20.74205222312175,
+      "equity_value": 20.74205222312175,
+      "value_per_share": 52.778758837459925,
+      "value_to_price": 0.18813944618208367,
+      "upside_downside": -0.8118605538179163,
+      "terminal_fraction_of_operating_pv": 0.4827576114389853,
+      "year_10_revenue": 19.75443380415549,
+      "year_10_owner_cash": 1.9754433804155491,
+      "year_10_owner_cash_per_share": 5.026573487062466,
+      "year_10_exit_price": 60.31888184474959,
+      "irr_roots": [
+        -0.10883488322021379
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 2.1106,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 52.778758837459925,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 18,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 15.0,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 2.1,
+              "ownership": 1,
+              "attributable_cash": 2.1
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.1,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 17.7,
+              "owner_margin": 0.14750000000000002,
+              "owner_cash_before_attribution": 2.6107500000000003,
+              "ownership": 1,
+              "attributable_cash": 2.6107500000000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.6107500000000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 20.886,
+              "owner_margin": 0.15500000000000003,
+              "owner_cash_before_attribution": 3.2373300000000005,
+              "ownership": 1,
+              "attributable_cash": 3.2373300000000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.2373300000000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 24.64548,
+              "owner_margin": 0.1625,
+              "owner_cash_before_attribution": 4.0048905,
+              "ownership": 1,
+              "attributable_cash": 4.0048905
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.0048905,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 29.081666399999992,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 4.943883287999999,
+              "ownership": 1,
+              "attributable_cash": 4.943883287999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.943883287999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 31.699016375999996,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 5.38883278392,
+              "ownership": 1,
+              "attributable_cash": 5.38883278392
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.38883278392,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 34.55192784984,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 5.8738277344728,
+              "ownership": 1,
+              "attributable_cash": 5.8738277344728
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.8738277344728,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 37.6616013563256,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 6.402472230575352,
+              "ownership": 1,
+              "attributable_cash": 6.402472230575352
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.402472230575352,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 41.05114547839491,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 6.978694731327135,
+              "ownership": 1,
+              "attributable_cash": 6.978694731327135
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.978694731327135,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 44.74574857145045,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 7.606777257146577,
+              "ownership": 1,
+              "attributable_cash": 7.606777257146577
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.606777257146577,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 28.74010920467178,
+      "pv_terminal": 57.837328543207086,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 86.57743774787886,
+      "equity_value": 86.57743774787886,
+      "value_per_share": 220.29882378595133,
+      "value_to_price": 0.7852950621536069,
+      "upside_downside": -0.2147049378463931,
+      "terminal_fraction_of_operating_pv": 0.6680415827462404,
+      "year_10_revenue": 44.74574857145045,
+      "year_10_owner_cash": 7.606777257146577,
+      "year_10_owner_cash_per_share": 19.355667320983656,
+      "year_10_exit_price": 348.4020117777058,
+      "irr_roots": [
+        0.06021633627362333
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 2.1106,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 220.29882378595133,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 24,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 17.0,
+              "owner_margin": 0.17,
+              "owner_cash_before_attribution": 2.89,
+              "ownership": 1,
+              "attributable_cash": 2.89
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.89,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 21.59,
+              "owner_margin": 0.1825,
+              "owner_cash_before_attribution": 3.940175,
+              "ownership": 1,
+              "attributable_cash": 3.940175
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.940175,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 27.4193,
+              "owner_margin": 0.195,
+              "owner_cash_before_attribution": 5.3467635,
+              "ownership": 1,
+              "attributable_cash": 5.3467635
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.3467635,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 34.822511000000006,
+              "owner_margin": 0.20750000000000002,
+              "owner_cash_before_attribution": 7.225671032500002,
+              "ownership": 1,
+              "attributable_cash": 7.225671032500002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.225671032500002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 44.224588970000006,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 9.729409573400002,
+              "ownership": 1,
+              "attributable_cash": 9.729409573400002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 9.729409573400002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 50.416031425800014,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 11.091526913676002,
+              "ownership": 1,
+              "attributable_cash": 11.091526913676002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 11.091526913676002,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 57.47427582541202,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 12.644340681590645,
+              "ownership": 1,
+              "attributable_cash": 12.644340681590645
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 12.644340681590645,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 65.52067444096971,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 14.414548377013338,
+              "ownership": 1,
+              "attributable_cash": 14.414548377013338
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 14.414548377013338,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 74.69356886270548,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 16.432585149795205,
+              "ownership": 1,
+              "attributable_cash": 16.432585149795205
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 16.432585149795205,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "power_cooling_services",
+              "revenue": 85.15066850348425,
+              "owner_margin": 0.22,
+              "owner_cash_before_attribution": 18.733147070766535,
+              "ownership": 1,
+              "attributable_cash": 18.733147070766535
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 18.733147070766535,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 57.78240192828999,
+      "pv_terminal": 189.91401047659443,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 247.69641240488443,
+      "equity_value": 247.69641240488443,
+      "value_per_share": 630.2707694780775,
+      "value_to_price": 2.2467143245930115,
+      "upside_downside": 1.2467143245930115,
+      "terminal_fraction_of_operating_pv": 0.766720876708384,
+      "year_10_revenue": 85.15066850348425,
+      "year_10_owner_cash": 18.733147070766535,
+      "year_10_owner_cash_per_share": 47.66704089253572,
+      "year_10_exit_price": 1144.0089814208573,
+      "irr_roots": [
+        0.1933395598711919
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 2.1106,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 630.2707694780776,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 212.60512050693904
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 258.7986714515716
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 304.99222239620417
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 180.91923496707216
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 220.29882378595133
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 259.67841260483044
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 154.723222153945
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 188.46678586804427
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 222.21034958214346
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 179.41860853064523
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 220.29882378595133
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 261.1790390412574
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.39437989957626146,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 231.89349872205403
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 220.29882378595133
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 209.80840360566793
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 200.27165798722845
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

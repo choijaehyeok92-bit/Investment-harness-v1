@@ -1,0 +1,43 @@
+{
+  "revenue": null,
+  "operating_profit": null,
+  "ocf": -0.3707,
+  "cash_capex": null,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "012450",
+  "period": "H1 2026 consolidated",
+  "unit": "KRW trillion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": null,
+  "ocf_less_named_capex": null,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "revenue",
+    "operating_profit",
+    "cash_capex",
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/012450/valuation.json",
+    "companies/012450/thesis.md"
+  ],
+  "sources": [
+    {
+      "path": "companies/012450/valuation.json",
+      "sha256": "4db2a26daffe66607fb5549e2327445bb09b0170b46b63b6617161a6bcf7b633"
+    },
+    {
+      "path": "companies/012450/thesis.md",
+      "sha256": "c70e52cfb78fa97c24a6936d24e7f6e6bd415436787c5df44c3a45171111c622"
+    }
+  ]
+}

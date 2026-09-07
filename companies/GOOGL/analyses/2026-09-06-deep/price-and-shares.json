@@ -1,0 +1,11 @@
+{
+  "ticker": "GOOGL",
+  "price": 338.46,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 12230.0,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "GOOG/GOOGL/비상장 보통주 합계 12.230B주. 우선주 청산권 19B는 별도 차감, 강제전환은 19B 재차감 없이 추가 주식 권리 민감도로 비교. 과거 낮은 Bull 할인율은 사용하지 않는다."
+}

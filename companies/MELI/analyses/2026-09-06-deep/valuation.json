@@ -1,0 +1,985 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.10301762971330441,
+    "required_owner_margin_delta": -0.02165861312486219,
+    "price_reference": 1978.36,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 111.17315141676285,
+    "implied_year_10_owner_cash": 7.7821205991734,
+    "residual_price": 0.0
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 22.0,
+              "owner_margin": 0.02,
+              "owner_cash_before_attribution": 0.44,
+              "ownership": 1,
+              "attributable_cash": 0.44
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 18.0,
+              "owner_margin": 0.02,
+              "owner_cash_before_attribution": 0.36,
+              "ownership": 1,
+              "attributable_cash": 0.36
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.8,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 24.200000000000003,
+              "owner_margin": 0.020249999999921248,
+              "owner_cash_before_attribution": 0.49004999999809423,
+              "ownership": 1,
+              "attributable_cash": 0.49004999999809423
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 20.160000000000004,
+              "owner_margin": 0.02525000000009625,
+              "owner_cash_before_attribution": 0.5090400000019405,
+              "ownership": 1,
+              "attributable_cash": 0.5090400000019405
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.9990900000000347,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 26.620000000000005,
+              "owner_margin": 0.0204999999998425,
+              "owner_cash_before_attribution": 0.5457099999958074,
+              "ownership": 1,
+              "attributable_cash": 0.5457099999958074
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 22.579200000000004,
+              "owner_margin": 0.030500000000192498,
+              "owner_cash_before_attribution": 0.6886656000043465,
+              "ownership": 1,
+              "attributable_cash": 0.6886656000043465
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.234375600000154,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 29.28200000000001,
+              "owner_margin": 0.02074999999976375,
+              "owner_cash_before_attribution": 0.6076014999930823,
+              "ownership": 1,
+              "attributable_cash": 0.6076014999930823
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 25.288704000000006,
+              "owner_margin": 0.035750000000288745,
+              "owner_cash_before_attribution": 0.9040711680073023,
+              "ownership": 1,
+              "attributable_cash": 0.9040711680073023
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.5116726680003847,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 32.21020000000001,
+              "owner_margin": 0.020999999999684996,
+              "owner_cash_before_attribution": 0.6764141999898539,
+              "ownership": 1,
+              "attributable_cash": 0.6764141999898539
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 28.32334848000001,
+              "owner_margin": 0.041000000000385,
+              "owner_cash_before_attribution": 1.1612572876909049,
+              "ownership": 1,
+              "attributable_cash": 1.1612572876909049
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.8376714876807587,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 33.82071000000001,
+              "owner_margin": 0.020999999999684996,
+              "owner_cash_before_attribution": 0.7102349099893466,
+              "ownership": 1,
+              "attributable_cash": 0.7102349099893466
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 30.022749388800012,
+              "owner_margin": 0.041000000000385,
+              "owner_cash_before_attribution": 1.2309327249523592,
+              "ownership": 1,
+              "attributable_cash": 1.2309327249523592
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.9411676349417057,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 35.51174550000001,
+              "owner_margin": 0.020999999999684996,
+              "owner_cash_before_attribution": 0.7457466554888139,
+              "ownership": 1,
+              "attributable_cash": 0.7457466554888139
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 31.824114352128017,
+              "owner_margin": 0.041000000000385,
+              "owner_cash_before_attribution": 1.304788688449501,
+              "ownership": 1,
+              "attributable_cash": 1.304788688449501
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.050535343938315,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 37.28733277500001,
+              "owner_margin": 0.020999999999684996,
+              "owner_cash_before_attribution": 0.7830339882632545,
+              "ownership": 1,
+              "attributable_cash": 0.7830339882632545
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 33.7335612132557,
+              "owner_margin": 0.041000000000385,
+              "owner_cash_before_attribution": 1.383076009756471,
+              "ownership": 1,
+              "attributable_cash": 1.383076009756471
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.1661099980197256,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 39.151699413750016,
+              "owner_margin": 0.020999999999684996,
+              "owner_cash_before_attribution": 0.8221856876764174,
+              "ownership": 1,
+              "attributable_cash": 0.8221856876764174
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 35.757574886051046,
+              "owner_margin": 0.041000000000385,
+              "owner_cash_before_attribution": 1.4660605703418594,
+              "ownership": 1,
+              "attributable_cash": 1.4660605703418594
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.288246258018277,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 41.10928438443752,
+              "owner_margin": 0.020999999999684996,
+              "owner_cash_before_attribution": 0.8632949720602384,
+              "ownership": 1,
+              "attributable_cash": 0.8632949720602384
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 37.903029379214104,
+              "owner_margin": 0.041000000000385,
+              "owner_cash_before_attribution": 1.554024204562371,
+              "ownership": 1,
+              "attributable_cash": 1.554024204562371
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.4173191766226094,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 10.234230215213232,
+      "pv_terminal": 16.337627902745258,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 26.57185811795849,
+      "equity_value": 26.57185811795849,
+      "value_per_share": 524.1307792957865,
+      "value_to_price": 0.2649319533835028,
+      "upside_downside": -0.7350680466164972,
+      "terminal_fraction_of_operating_pv": 0.6148470246310526,
+      "year_10_revenue": 79.01231376365163,
+      "year_10_owner_cash": 2.4173191766226094,
+      "year_10_owner_cash_per_share": 47.68170062572952,
+      "year_10_exit_price": 762.9072100116723,
+      "irr_roots": [
+        -0.06266092507365623
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.649,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 524.1307792957865,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 25.3,
+              "owner_margin": 0.04,
+              "owner_cash_before_attribution": 1.012,
+              "ownership": 1,
+              "attributable_cash": 1.012
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 20.7,
+              "owner_margin": 0.04,
+              "owner_cash_before_attribution": 0.828,
+              "ownership": 1,
+              "attributable_cash": 0.828
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.8399999999999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 30.36,
+              "owner_margin": 0.042249999999816254,
+              "owner_cash_before_attribution": 1.2827099999944214,
+              "ownership": 1,
+              "attributable_cash": 1.2827099999944214
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 25.253999999999998,
+              "owner_margin": 0.05391666666689125,
+              "owner_cash_before_attribution": 1.3616115000056717,
+              "ownership": 1,
+              "attributable_cash": 1.3616115000056717
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.644321500000093,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 36.432,
+              "owner_margin": 0.0444999999996325,
+              "owner_cash_before_attribution": 1.6212239999866114,
+              "ownership": 1,
+              "attributable_cash": 1.6212239999866114
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 30.809879999999996,
+              "owner_margin": 0.06783333333378251,
+              "owner_cash_before_attribution": 2.089936860013839,
+              "ownership": 1,
+              "attributable_cash": 2.089936860013839
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.7111608600004504,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 43.718399999999995,
+              "owner_margin": 0.046749999999448746,
+              "owner_cash_before_attribution": 2.0438351999759,
+              "ownership": 1,
+              "attributable_cash": 2.0438351999759
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 37.588053599999995,
+              "owner_margin": 0.08175000000067376,
+              "owner_cash_before_attribution": 3.0728233818253248,
+              "ownership": 1,
+              "attributable_cash": 3.0728233818253248
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.116658581801225,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 52.46208,
+              "owner_margin": 0.048999999999265,
+              "owner_cash_before_attribution": 2.5706419199614405,
+              "ownership": 1,
+              "attributable_cash": 2.5706419199614405
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 45.85742539199999,
+              "owner_margin": 0.09566666666756501,
+              "owner_cash_before_attribution": 4.387027029209195,
+              "ownership": 1,
+              "attributable_cash": 4.387027029209195
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.957668949170635,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 57.708288,
+              "owner_margin": 0.048999999999265,
+              "owner_cash_before_attribution": 2.8277061119575846,
+              "ownership": 1,
+              "attributable_cash": 2.8277061119575846
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 50.90174218511999,
+              "owner_margin": 0.09566666666756501,
+              "owner_cash_before_attribution": 4.869600002422207,
+              "ownership": 1,
+              "attributable_cash": 4.869600002422207
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.697306114379791,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 63.47911680000001,
+              "owner_margin": 0.048999999999265,
+              "owner_cash_before_attribution": 3.1104767231533432,
+              "ownership": 1,
+              "attributable_cash": 3.1104767231533432
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 56.500933825483195,
+              "owner_margin": 0.09566666666756501,
+              "owner_cash_before_attribution": 5.40525600268865,
+              "ownership": 1,
+              "attributable_cash": 5.40525600268865
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 8.515732725841993,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 69.82702848000002,
+              "owner_margin": 0.048999999999265,
+              "owner_cash_before_attribution": 3.4215243954686785,
+              "ownership": 1,
+              "attributable_cash": 3.4215243954686785
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 62.71603654628635,
+              "owner_margin": 0.09566666666756501,
+              "owner_cash_before_attribution": 5.999834162984401,
+              "ownership": 1,
+              "attributable_cash": 5.999834162984401
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 9.421358558453079,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 76.80973132800003,
+              "owner_margin": 0.048999999999265,
+              "owner_cash_before_attribution": 3.7636768350155463,
+              "ownership": 1,
+              "attributable_cash": 3.7636768350155463
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 69.61480056637785,
+              "owner_margin": 0.09566666666756501,
+              "owner_cash_before_attribution": 6.659815920912686,
+              "ownership": 1,
+              "attributable_cash": 6.659815920912686
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 10.423492755928232,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 84.49070446080003,
+              "owner_margin": 0.048999999999265,
+              "owner_cash_before_attribution": 4.140044518517101,
+              "ownership": 1,
+              "attributable_cash": 4.140044518517101
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 77.27242862867944,
+              "owner_margin": 0.09566666666756501,
+              "owner_cash_before_attribution": 7.392395672213084,
+              "ownership": 1,
+              "attributable_cash": 7.392395672213084
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 11.532440190730185,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 38.57322508806588,
+      "pv_terminal": 107.1714020617374,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 145.74462714980328,
+      "equity_value": 145.74462714980328,
+      "value_per_share": 2874.8175858493255,
+      "value_to_price": 1.4531316776771293,
+      "upside_downside": 0.45313167767712925,
+      "terminal_fraction_of_operating_pv": 0.7353368982280323,
+      "year_10_revenue": 161.76313308947948,
+      "year_10_owner_cash": 11.532440190730185,
+      "year_10_owner_cash_per_share": 227.47776378740724,
+      "year_10_exit_price": 5004.510803322959,
+      "irr_roots": [
+        0.1366882581253802
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.649,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 2874.8175858493255,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 28.6,
+              "owner_margin": 0.06,
+              "owner_cash_before_attribution": 1.716,
+              "ownership": 1,
+              "attributable_cash": 1.716
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 23.400000000000002,
+              "owner_margin": 0.06,
+              "owner_cash_before_attribution": 1.4040000000000001,
+              "ownership": 1,
+              "attributable_cash": 1.4040000000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.12,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 36.894000000000005,
+              "owner_margin": 0.0624999999997375,
+              "owner_cash_before_attribution": 2.3058749999903156,
+              "ownership": 1,
+              "attributable_cash": 2.3058749999903156
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 30.654000000000003,
+              "owner_margin": 0.07916666666698749,
+              "owner_cash_before_attribution": 2.426775000009835,
+              "ownership": 1,
+              "attributable_cash": 2.426775000009835
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.732650000000151,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 47.59326000000001,
+              "owner_margin": 0.064999999999475,
+              "owner_cash_before_attribution": 3.0935618999750143,
+              "ownership": 1,
+              "attributable_cash": 3.0935618999750143
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 40.156740000000006,
+              "owner_margin": 0.098333333333975,
+              "owner_cash_before_attribution": 3.9487461000257675,
+              "ownership": 1,
+              "attributable_cash": 3.9487461000257675
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.042308000000782,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 61.39530540000001,
+              "owner_margin": 0.0674999999992125,
+              "owner_cash_before_attribution": 4.144183114451652,
+              "ownership": 1,
+              "attributable_cash": 4.144183114451652
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 52.60532940000001,
+              "owner_margin": 0.1175000000009625,
+              "owner_cash_before_attribution": 6.181126204550634,
+              "ownership": 1,
+              "attributable_cash": 6.181126204550634
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 10.325309319002287,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 79.19994396600002,
+              "owner_margin": 0.06999999999895,
+              "owner_cash_before_attribution": 5.543996077536842,
+              "ownership": 1,
+              "attributable_cash": 5.543996077536842
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 68.91298151400002,
+              "owner_margin": 0.13666666666795,
+              "owner_cash_before_attribution": 9.41810747366844,
+              "ownership": 1,
+              "attributable_cash": 9.41810747366844
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 14.962103551205281,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 90.28793612124004,
+              "owner_margin": 0.06999999999895,
+              "owner_cash_before_attribution": 6.320155528392,
+              "ownership": 1,
+              "attributable_cash": 6.320155528392
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 79.24992874110002,
+              "owner_margin": 0.13666666666795,
+              "owner_cash_before_attribution": 10.830823594718707,
+              "ownership": 1,
+              "attributable_cash": 10.830823594718707
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 17.15097912311071,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 102.92824717821365,
+              "owner_margin": 0.06999999999895,
+              "owner_cash_before_attribution": 7.204977302366881,
+              "ownership": 1,
+              "attributable_cash": 7.204977302366881
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 91.13741805226502,
+              "owner_margin": 0.13666666666795,
+              "owner_cash_before_attribution": 12.455447133926512,
+              "ownership": 1,
+              "attributable_cash": 12.455447133926512
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 19.660424436293393,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 117.33820178316357,
+              "owner_margin": 0.06999999999895,
+              "owner_cash_before_attribution": 8.213674124698244,
+              "ownership": 1,
+              "attributable_cash": 8.213674124698244
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 104.80803076010477,
+              "owner_margin": 0.13666666666795,
+              "owner_cash_before_attribution": 14.323764204015488,
+              "ownership": 1,
+              "attributable_cash": 14.323764204015488
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 22.537438328713733,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 133.7655500328065,
+              "owner_margin": 0.06999999999895,
+              "owner_cash_before_attribution": 9.363588502156,
+              "ownership": 1,
+              "attributable_cash": 9.363588502156
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 120.52923537412046,
+              "owner_margin": 0.13666666666795,
+              "owner_cash_before_attribution": 16.47232883461781,
+              "ownership": 1,
+              "attributable_cash": 16.47232883461781
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 25.83591733677381,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "Commerce_logistics",
+              "revenue": 152.49272703739942,
+              "owner_margin": 0.06999999999895,
+              "owner_cash_before_attribution": 10.674490892457841,
+              "ownership": 1,
+              "attributable_cash": 10.674490892457841
+            },
+            {
+              "component": "Fintech_after_losses_required_capital",
+              "revenue": 138.60862068023854,
+              "owner_margin": 0.13666666666795,
+              "owner_cash_before_attribution": 18.943178159810483,
+              "ownership": 1,
+              "attributable_cash": 18.943178159810483
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 29.617669052268326,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 86.02143794810532,
+      "pv_terminal": 350.30305751666776,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 436.32449546477307,
+      "equity_value": 436.32449546477307,
+      "value_per_share": 8606.515088955422,
+      "value_to_price": 4.350328094459766,
+      "upside_downside": 3.3503280944597664,
+      "terminal_fraction_of_operating_pv": 0.8028498540828536,
+      "year_10_revenue": 291.10134771763796,
+      "year_10_owner_cash": 29.617669052268326,
+      "year_10_owner_cash_per_share": 584.2095006069062,
+      "year_10_exit_price": 16357.866016993374,
+      "irr_roots": [
+        0.2839287517057326
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.649,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 8606.515088955422,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 1935.652825659757
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 3399.526278302915
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 4863.399730946073
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 1633.1070746343605
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 2874.8175858493255
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 4116.528097064291
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 1383.8081564495512
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 2442.2050945645765
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 3500.6020326796015
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 2394.372257087998
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 2874.8175858493255
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 3355.2629146106538
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.17992577004364863,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 3026.1237745782373
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 2874.8175858493255
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 2737.921510332691
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 2613.4705325902955
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

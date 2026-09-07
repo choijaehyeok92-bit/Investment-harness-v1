@@ -1,0 +1,97 @@
+{
+  "ticker": "PLTR",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-e4944df63bd57092b655",
+    "obs-799541551cb1a1be2bdd",
+    "obs-24f5bef132ee287bd74a",
+    "obs-c0fc850ba22e00ee9462",
+    "obs-b3cd118810a5e25443c4",
+    "obs-28a216feb47ef2fa0f9d",
+    "obs-18ae5d50df8192218328",
+    "obs-d80aa0c39a8e343c0417",
+    "obs-4377cb277fbed9efa79e",
+    "obs-d8eecbbf9f58b7f53650",
+    "obs-347b0957b8ef8d7d58f1",
+    "obs-7754bd7a59e0d48f814b",
+    "obs-69e4b917af2cb5547fd2",
+    "obs-323833f53bd1b997f076",
+    "obs-586bdf7412458160356d",
+    "obs-a4a7d2064431c820e87b",
+    "obs-98f1d96cc7caf0dd197b",
+    "obs-396e36aae179b97c1774",
+    "obs-4b916537da64d77e0cde",
+    "obs-18e8eef9d8ec0b3181b3",
+    "obs-8df36102307ff6bc924c",
+    "obs-7b33b094545020bef1af",
+    "obs-4a93517c6ed5c20bc2a5",
+    "obs-f55a62fbc35b62a9d98d",
+    "obs-7984e6288851e00f250c",
+    "obs-7250f0405b239ed48133",
+    "obs-e2268eeb7eb61477ae28",
+    "obs-7824dbf6534d126ce874",
+    "obs-7251f024482172c31f19",
+    "obs-8e941a34196ae16532dd",
+    "obs-dc1f07b00ecbdf8bb680"
+  ],
+  "financial_bridge": {
+    "revenue": 3.568047,
+    "operating_profit": 1.666002,
+    "ocf": 2.115332,
+    "cash_capex": 0.021955,
+    "sbc": 0.466801,
+    "additional_cash_investment": 0.0,
+    "ticker": "PLTR",
+    "period": "H1 2026",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.46692266105239083,
+    "ocf_less_named_capex": 2.093377,
+    "ocf_less_capex_sbc_known_subtotal": 1.6265759999999998,
+    "owner_cash_proxy": 1.6265759999999998,
+    "owner_proxy_complete": true,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/PLTR/raw-data/2026-Q2.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/PLTR/raw-data/2026-Q2.json",
+        "sha256": "1812d23e1be12b5ba100697d0789d562225d64d687d50294fdf50d4892a54784"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+      "location": "Cash Flow Statements; SBC reconciliation; diluted EPS table",
+      "facts": {
+        "ocf_h1_usd_m": 2115.332,
+        "sbc_h1_usd_m": 466.801,
+        "diluted_shares_q2_m": 2568.694
+      },
+      "note": "Balance sheet securities7.379052B differ from Treasury-only7.194962B; do not add both."
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+      "location": "Cash Flow Statements; SBC reconciliation; diluted EPS table",
+      "facts": {
+        "ocf_h1_usd_m": 2115.332,
+        "sbc_h1_usd_m": 466.801,
+        "diluted_shares_q2_m": 2568.694
+      },
+      "note": "Balance sheet securities7.379052B differ from Treasury-only7.194962B; do not add both."
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

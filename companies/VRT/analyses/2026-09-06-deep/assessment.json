@@ -1,0 +1,1084 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "VRT",
+  "company_name": "Vertiv",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/VRT/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/VRT/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 10,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P1",
+  "structural_thesis": "AI 데이터센터 전력·냉각 밀도 상승",
+  "customer_and_moat": "설계 통합·서비스 기반의 고객가치; 냉각 기술 변화와 경쟁 공급능력 확대를 검증",
+  "current_finding": "FY25 OCF2.1138B−PPE0.2200B−소프트웨어0.0064B=1.8874B. H1 OCF 증가에는 선수금·운전자본 타이밍이 포함된다.",
+  "economic_finding": "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다.",
+  "capital_and_survival": "6월 부채2.9398B를 기존 term loan과 다시 더하지 않는다. 393M주는 과거 표준화 분모의 반올림 proxy. UIG 미완료 인수의 매출을 본체 경로에 확정 가산하지 않는다.",
+  "next_evidence": "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+  "permanent_loss_case": "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+  ],
+  "increase_evidence": [
+    "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "AI 데이터센터 전력·냉각 밀도 상승"
+      ],
+      "counter_evidence": [
+        "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "설계 통합·서비스 기반의 고객가치; 냉각 기술 변화와 경쟁 공급능력 확대를 검증"
+      ],
+      "counter_evidence": [
+        "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "설계 통합·서비스 기반의 고객가치; 냉각 기술 변화와 경쟁 공급능력 확대를 검증"
+      ],
+      "counter_evidence": [
+        "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY25 OCF2.1138B−PPE0.2200B−소프트웨어0.0064B=1.8874B. H1 OCF 증가에는 선수금·운전자본 타이밍이 포함된다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "6월 부채2.9398B를 기존 term loan과 다시 더하지 않는다. 393M주는 과거 표준화 분모의 반올림 proxy. UIG 미완료 인수의 매출을 본체 경로에 확정 가산하지 않는다."
+      ],
+      "counter_evidence": [
+        "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "6월 부채2.9398B를 기존 term loan과 다시 더하지 않는다. 393M주는 과거 표준화 분모의 반올림 proxy. UIG 미완료 인수의 매출을 본체 경로에 확정 가산하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 280.53; Base/가격 0.79배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 16.8%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.19배, Bull/가격 2.25배. 2상태 손익분기 Bull 확률 39.4%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/VRT/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+        ],
+        "resolution_needed": "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+        ],
+        "resolution_needed": "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.1684770072376368,
+      "required_owner_margin_delta": 0.04588507246056332,
+      "price_reference": 280.53,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 60.90778383212775,
+      "implied_year_10_owner_cash": 10.354323251461718,
+      "residual_price": 2.8421709430404007e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 12,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 13.0,
+                "owner_margin": 0.11,
+                "owner_cash_before_attribution": 1.43,
+                "ownership": 1,
+                "attributable_cash": 1.43
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.43,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 13.91,
+                "owner_margin": 0.1075,
+                "owner_cash_before_attribution": 1.495325,
+                "ownership": 1,
+                "attributable_cash": 1.495325
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.495325,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 14.883700000000001,
+                "owner_margin": 0.10500000000000001,
+                "owner_cash_before_attribution": 1.5627885000000004,
+                "ownership": 1,
+                "attributable_cash": 1.5627885000000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5627885000000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 15.925559000000002,
+                "owner_margin": 0.10250000000000001,
+                "owner_cash_before_attribution": 1.6323697975000002,
+                "ownership": 1,
+                "attributable_cash": 1.6323697975000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.6323697975000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 17.04034813,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.7040348130000003,
+                "ownership": 1,
+                "attributable_cash": 1.7040348130000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7040348130000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 17.551558573900003,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.7551558573900004,
+                "ownership": 1,
+                "attributable_cash": 1.7551558573900004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.7551558573900004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 18.078105331117,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.8078105331117003,
+                "ownership": 1,
+                "attributable_cash": 1.8078105331117003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8078105331117003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 18.620448491050514,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.8620448491050514,
+                "ownership": 1,
+                "attributable_cash": 1.8620448491050514
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8620448491050514,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 19.17906194578203,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.9179061945782032,
+                "ownership": 1,
+                "attributable_cash": 1.9179061945782032
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.9179061945782032,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 19.75443380415549,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.9754433804155491,
+                "ownership": 1,
+                "attributable_cash": 1.9754433804155491
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.9754433804155491,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 10.728668635544798,
+        "pv_terminal": 10.013383587576952,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 20.74205222312175,
+        "equity_value": 20.74205222312175,
+        "value_per_share": 52.778758837459925,
+        "value_to_price": 0.18813944618208367,
+        "upside_downside": -0.8118605538179163,
+        "terminal_fraction_of_operating_pv": 0.4827576114389853,
+        "year_10_revenue": 19.75443380415549,
+        "year_10_owner_cash": 1.9754433804155491,
+        "year_10_owner_cash_per_share": 5.026573487062466,
+        "year_10_exit_price": 60.31888184474959,
+        "irr_roots": [
+          -0.10883488322021379
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 2.1106,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 52.778758837459925,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 15.0,
+                "owner_margin": 0.14,
+                "owner_cash_before_attribution": 2.1,
+                "ownership": 1,
+                "attributable_cash": 2.1
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.1,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 17.7,
+                "owner_margin": 0.14750000000000002,
+                "owner_cash_before_attribution": 2.6107500000000003,
+                "ownership": 1,
+                "attributable_cash": 2.6107500000000003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.6107500000000003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 20.886,
+                "owner_margin": 0.15500000000000003,
+                "owner_cash_before_attribution": 3.2373300000000005,
+                "ownership": 1,
+                "attributable_cash": 3.2373300000000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.2373300000000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 24.64548,
+                "owner_margin": 0.1625,
+                "owner_cash_before_attribution": 4.0048905,
+                "ownership": 1,
+                "attributable_cash": 4.0048905
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.0048905,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 29.081666399999992,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 4.943883287999999,
+                "ownership": 1,
+                "attributable_cash": 4.943883287999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.943883287999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 31.699016375999996,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 5.38883278392,
+                "ownership": 1,
+                "attributable_cash": 5.38883278392
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.38883278392,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 34.55192784984,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 5.8738277344728,
+                "ownership": 1,
+                "attributable_cash": 5.8738277344728
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.8738277344728,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 37.6616013563256,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 6.402472230575352,
+                "ownership": 1,
+                "attributable_cash": 6.402472230575352
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.402472230575352,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 41.05114547839491,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 6.978694731327135,
+                "ownership": 1,
+                "attributable_cash": 6.978694731327135
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.978694731327135,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 44.74574857145045,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 7.606777257146577,
+                "ownership": 1,
+                "attributable_cash": 7.606777257146577
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.606777257146577,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 28.74010920467178,
+        "pv_terminal": 57.837328543207086,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 86.57743774787886,
+        "equity_value": 86.57743774787886,
+        "value_per_share": 220.29882378595133,
+        "value_to_price": 0.7852950621536069,
+        "upside_downside": -0.2147049378463931,
+        "terminal_fraction_of_operating_pv": 0.6680415827462404,
+        "year_10_revenue": 44.74574857145045,
+        "year_10_owner_cash": 7.606777257146577,
+        "year_10_owner_cash_per_share": 19.355667320983656,
+        "year_10_exit_price": 348.4020117777058,
+        "irr_roots": [
+          0.06021633627362333
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 2.1106,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 220.29882378595133,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 24,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 17.0,
+                "owner_margin": 0.17,
+                "owner_cash_before_attribution": 2.89,
+                "ownership": 1,
+                "attributable_cash": 2.89
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.89,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 21.59,
+                "owner_margin": 0.1825,
+                "owner_cash_before_attribution": 3.940175,
+                "ownership": 1,
+                "attributable_cash": 3.940175
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.940175,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 27.4193,
+                "owner_margin": 0.195,
+                "owner_cash_before_attribution": 5.3467635,
+                "ownership": 1,
+                "attributable_cash": 5.3467635
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.3467635,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 34.822511000000006,
+                "owner_margin": 0.20750000000000002,
+                "owner_cash_before_attribution": 7.225671032500002,
+                "ownership": 1,
+                "attributable_cash": 7.225671032500002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.225671032500002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 44.224588970000006,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 9.729409573400002,
+                "ownership": 1,
+                "attributable_cash": 9.729409573400002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.729409573400002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 50.416031425800014,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 11.091526913676002,
+                "ownership": 1,
+                "attributable_cash": 11.091526913676002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 11.091526913676002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 57.47427582541202,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 12.644340681590645,
+                "ownership": 1,
+                "attributable_cash": 12.644340681590645
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.644340681590645,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 65.52067444096971,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 14.414548377013338,
+                "ownership": 1,
+                "attributable_cash": 14.414548377013338
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 14.414548377013338,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 74.69356886270548,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 16.432585149795205,
+                "ownership": 1,
+                "attributable_cash": 16.432585149795205
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 16.432585149795205,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "power_cooling_services",
+                "revenue": 85.15066850348425,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 18.733147070766535,
+                "ownership": 1,
+                "attributable_cash": 18.733147070766535
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 18.733147070766535,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 57.78240192828999,
+        "pv_terminal": 189.91401047659443,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 247.69641240488443,
+        "equity_value": 247.69641240488443,
+        "value_per_share": 630.2707694780775,
+        "value_to_price": 2.2467143245930115,
+        "upside_downside": 1.2467143245930115,
+        "terminal_fraction_of_operating_pv": 0.766720876708384,
+        "year_10_revenue": 85.15066850348425,
+        "year_10_owner_cash": 18.733147070766535,
+        "year_10_owner_cash_per_share": 47.66704089253572,
+        "year_10_exit_price": 1144.0089814208573,
+        "irr_roots": [
+          0.1933395598711919
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 2.1106,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 630.2707694780776,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/VRT/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "power_cycle",
+    "missing_data": [
+      "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 69,
+  "business_quality_75": 58,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "AI 데이터센터 전력·냉각 밀도 상승",
+        "response": "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "설계 통합·서비스 기반의 고객가치; 냉각 기술 변화와 경쟁 공급능력 확대를 검증",
+        "response": "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "FY25 OCF2.1138B−PPE0.2200B−소프트웨어0.0064B=1.8874B. H1 OCF 증가에는 선수금·운전자본 타이밍이 포함된다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "6월 부채2.9398B를 기존 term loan과 다시 더하지 않는다. 393M주는 과거 표준화 분모의 반올림 proxy. UIG 미완료 인수의 매출을 본체 경로에 확정 가산하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 280.53; Base/가격 0.79배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 16.8%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 66.8%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "고밀도 전력·액체냉각 수요는 구조적이나 OEM 가격경쟁과 증설 후 고객 자체조달이 마진을 제한할 수 있다.",
+      "6월 부채2.9398B를 기존 term loan과 다시 더하지 않는다. 393M주는 과거 표준화 분모의 반올림 proxy. UIG 미완료 인수의 매출을 본체 경로에 확정 가산하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "FY25 OCF2.1138B−PPE0.2200B−소프트웨어0.0064B=1.8874B. H1 OCF 증가에는 선수금·운전자본 타이밍이 포함된다.",
+    "falsifiers": [
+      "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "incremental_roic_collapse",
+      "price_requires_unrealistic_bull_case",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

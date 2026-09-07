@@ -1,0 +1,42 @@
+{
+  "revenue": 0.434414,
+  "operating_profit": -0.113483,
+  "ocf": -0.134407,
+  "cash_capex": 0.053112,
+  "sbc": 0.047677,
+  "additional_cash_investment": 0.0,
+  "ticker": "RKLB",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": -0.26123237280566464,
+  "ocf_less_named_capex": -0.187519,
+  "ocf_less_capex_sbc_known_subtotal": -0.235196,
+  "owner_cash_proxy": -0.235196,
+  "owner_proxy_complete": true,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/RKLB/raw-data/2026-Q2.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/RKLB/raw-data/2026-Q2.json",
+      "sha256": "582db9edf98c494be9accdda4d3dd49cfcb1e2d302daa235e4202cdeae3dea18"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm",
+    "location": "Common shares and H1 consolidated cash flows",
+    "facts": {
+      "actual_common_shares": 598180438,
+      "h1_ocf_usd_m": -134.407,
+      "h1_sbc_usd_m": 47.677,
+      "h1_ppe_software_usd_m": 53.112
+    }
+  }
+}

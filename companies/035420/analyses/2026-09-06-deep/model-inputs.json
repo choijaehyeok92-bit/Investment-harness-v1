@@ -1,0 +1,84 @@
+{
+  "ticker": "035420",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 213500.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 152.076491,
+  "liquidity_cash": 6.38436979,
+  "minimum_cash_reserve": 3.0,
+  "quality_scores": [
+    11,
+    8,
+    10,
+    8,
+    6,
+    9
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "search_commerce_cloud",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 13.4,
+          "growth_2_5": 0.04,
+          "growth_6_10": 0.02,
+          "owner_margin_year_1": 0.07,
+          "owner_margin_mature": 0.07
+        },
+        "base": {
+          "revenue_year_1": 14.5,
+          "growth_2_5": 0.09,
+          "growth_6_10": 0.05,
+          "owner_margin_year_1": 0.09,
+          "owner_margin_mature": 0.12
+        },
+        "bull": {
+          "revenue_year_1": 15.5,
+          "growth_2_5": 0.14,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": 0.1,
+          "owner_margin_mature": 0.16
+        }
+      }
+    }
+  ],
+  "financial_finding": "H1 OCF 1.187조원−PPE 0.810조원−무형자산 약 0.044조원=약 0.332조원. 광고·커머스 성장과 AI 현금재투자 부담을 분리한다.",
+  "economic_risk": "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다.",
+  "rights_and_capital": "기존 156,977,585주에서 8월 4,901,094주 소각 후 152,076,491주를 기본으로 사용한다. 조건부 발행 시 159,318,055주로 별도 희석. $9B 인프라 조건은 즉시 현금 지출 전액과 같지 않지만 무상 성장도 아니다.",
+  "model_family": "platform_capex",
+  "falsifier": "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토.",
+  "investigate_veto_indices": [
+    1,
+    4,
+    5,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.22,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": -0.025,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0.01
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

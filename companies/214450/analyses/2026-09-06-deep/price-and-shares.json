@@ -1,0 +1,11 @@
+{
+  "ticker": "214450",
+  "price": 386500.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 10.3896,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "차입·사채 0.214조원 대부분은 RCPS 0.207조원이다. 전환상환우선권을 부채 차감과 전환주식 증가로 동시에 반영하지 않는다. 기본 모델은 상환 현금 비용, 전환은 별도 권리 민감도이다."
+}

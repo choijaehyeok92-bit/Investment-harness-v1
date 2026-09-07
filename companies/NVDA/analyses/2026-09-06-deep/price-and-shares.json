@@ -1,0 +1,11 @@
+{
+  "ticker": "NVDA",
+  "price": 230.36,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 24147.0,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "24.147B주. 공급약정279B와 SB Energy 최대105B 조건부 지원을 즉시 전액 손실로 보지도, 서로 독립인 위험으로 보지도 않는다. 같은 AI 투자 사이클의 공동 스트레스이다."
+}

@@ -1,0 +1,85 @@
+{
+  "ticker": "TEM",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "price": 64.62,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 180.243866,
+  "liquidity_cash": 0.599614,
+  "minimum_cash_reserve": 0.2,
+  "quality_scores": [
+    12,
+    8,
+    9,
+    4,
+    5,
+    5
+  ],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "diagnostics_data",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 1.6,
+          "growth_2_5": 0.1,
+          "growth_6_10": 0.04,
+          "owner_margin_year_1": -0.13,
+          "owner_margin_mature": 0.03
+        },
+        "base": {
+          "revenue_year_1": 1.85,
+          "growth_2_5": 0.23,
+          "growth_6_10": 0.1,
+          "owner_margin_year_1": -0.1,
+          "owner_margin_mature": 0.13
+        },
+        "bull": {
+          "revenue_year_1": 2.1,
+          "growth_2_5": 0.35,
+          "growth_6_10": 0.16,
+          "owner_margin_year_1": -0.07,
+          "owner_margin_mature": 0.22
+        }
+      }
+    }
+  ],
+  "financial_finding": "H1 OCF−80.802M−PPE14.327M−SBC106.827M=owner proxy−201.956M, 자본화 소프트웨어 추가 차감 전이다. Q2 순이익에는 미실현 주가이익98.5M이 포함된다.",
+  "economic_risk": "진단량·데이터 계약 확장은 양질의 근거지만 인수 성장과 본업의 현금 생산성은 분리한다. 회계 흑자를 자기조달 증거로 쓰지 않는다.",
+  "rights_and_capital": "6월 A175.200077M+B5.043789M=180.243866M. 전환약속어음187.929M은 부채로 확인. Personalis 미완료 인수는 0~50% 현금/나머지 주식 범위로 별도 스트레스하며 인수 매출을 공짜로 넣지 않는다.",
+  "model_family": "milestone_funding",
+  "falsifier": "진단·데이터 성장에도 수금·SBC 차감 후 적자가 지속되고 인수/전환권리로 주당 가치가 감소하면 신규 진입 배제.",
+  "investigate_veto_indices": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.23,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0217,
+    "working_capital_cash_cost_to_revenue": 0.02,
+    "interest_net_debt_service_other_claims_to_revenue": 0.01
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

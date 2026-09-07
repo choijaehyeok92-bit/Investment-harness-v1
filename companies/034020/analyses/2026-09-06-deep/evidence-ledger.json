@@ -1,0 +1,124 @@
+{
+  "ticker": "034020",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-9b5f1932233f5834ec0b",
+    "obs-ff25f63ed52719710eb6",
+    "obs-3940d2eab05e1a939467",
+    "obs-2ddb5b1386e2625b0f4c",
+    "obs-1441fdf7f9094f6a28a5",
+    "obs-3be8006723af3bd70d80",
+    "obs-934f4fe008d228cb8df2",
+    "obs-95e261796cdd7762d28b",
+    "obs-0fc1297452cfa152cdcd",
+    "obs-ebee561ad3d3d2d14cf5",
+    "obs-7913653442b53a2c090c",
+    "obs-663c84766b71f84c2c16",
+    "obs-c91d6a1ff898a099b8e0",
+    "obs-480defc891a9ef46bf9d",
+    "obs-f11ebaeefd1443d10f87",
+    "obs-c2cb0bd3ed762960609a",
+    "obs-167200c71efe862b8cb5",
+    "obs-070db1cf5e0a52aeec32",
+    "obs-fc4c8d39b8d27402b0e4",
+    "obs-fadc7fca257f8078401f",
+    "obs-20f29488d11724262663",
+    "obs-7b0d3174afc0585d3333",
+    "obs-b415a4347ec06a5e3b7b",
+    "obs-c5186e079d2680d6c416",
+    "obs-7a84538535cd5fcedbc0",
+    "obs-33473766c1321e479de2",
+    "obs-fac0ce51694c05b7c18b",
+    "obs-25dfe2006d5d76e764b2",
+    "obs-80337d4e94cd8c0b4ee5",
+    "obs-c0d9bea716dc84369520",
+    "obs-8ecfc16fccd0e6dce3a3",
+    "obs-1796934719e0b86f3107",
+    "obs-89250c5de70f5517c101",
+    "obs-476c9b85e57551030ad8",
+    "obs-64dded3ffb8248c43029",
+    "obs-d9f7c5b5413c092f2e09",
+    "obs-4ee50ddd9ccd2cb42cbb",
+    "obs-f67f9e08ad9e7998e252",
+    "obs-f20845a51d994d6b05f5",
+    "obs-45f19b2ce560ab942260",
+    "obs-73a82074265285553d11",
+    "obs-3189c982d336bcfdfa49",
+    "obs-28909a66eb1634168815",
+    "obs-1ecabf15b27750049adc",
+    "obs-fbb308c0792120f58591",
+    "obs-9fabf841a198fca85793",
+    "obs-767794d426afb29d09b2",
+    "obs-e507aea67513a31d7c0a",
+    "obs-bbadc1fc564d90fd59d9",
+    "obs-347322ddc16b4f0ba1e8",
+    "obs-714124da1a5e642cc939",
+    "obs-1691632cb80203eb022c",
+    "obs-325760b008da0c81dcb4",
+    "obs-c3d5be79e3a2c1063e8e",
+    "obs-0858d6158facfdf01fd5",
+    "obs-cc7eb168b1ea188b2368",
+    "obs-7f383002c73e353a9160",
+    "obs-e4f92be40c5143767777",
+    "obs-531415c0cfb49f8c56de",
+    "obs-4af4f8d21fef71b7f689"
+  ],
+  "financial_bridge": {
+    "revenue": 8.985938,
+    "operating_profit": 0.547774,
+    "ocf": null,
+    "cash_capex": 0.16374,
+    "sbc": null,
+    "additional_cash_investment": null,
+    "ticker": "034020",
+    "period": "H1 2026",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.060959022864391,
+    "ocf_less_named_capex": null,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "ocf",
+      "sbc",
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/034020/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/034020/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "849bc41f3b2e468a5d0f3d7ce6cb2f63cb07332d80f60e57eecb2769b7722d83"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://kr.investing.com/equities/doosan-heavy-ind.---const.",
+      "location": "Reference market quote tier4",
+      "facts": {
+        "price_krw": 79200
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://kr.investing.com/equities/doosan-heavy-ind.---const.",
+      "location": "Reference market quote tier4",
+      "facts": {
+        "price_krw": 79200
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

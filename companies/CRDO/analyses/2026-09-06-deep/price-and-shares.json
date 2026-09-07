@@ -1,0 +1,11 @@
+{
+  "ticker": "CRDO",
+  "price": 170.57,
+  "currency": "USD",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 194.378,
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "rights_and_capital": "Q1 GAAP 희석194.378M주 사용. 현금·단기투자1.443286B→0.764258B, 영업권·무형자산 급증은 인수 부담이다. 조정마진48.2%를 owner margin으로 복사하지 않는다."
+}

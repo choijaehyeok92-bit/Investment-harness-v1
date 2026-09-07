@@ -1,0 +1,1088 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "ISRG",
+  "company_name": "Intuitive Surgical",
+  "as_of": "2026-09-06",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/ISRG/decision-history.md",
+    "companies/ISRG/decision.json",
+    "companies/ISRG/evidence.jsonl",
+    "companies/ISRG/hard-veto.json",
+    "companies/ISRG/re-evaluation-2026-09-05.md",
+    "companies/ISRG/red-team.md",
+    "companies/ISRG/scorecard.json",
+    "companies/ISRG/thesis.md",
+    "companies/ISRG/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/company-reassessments.jsonl",
+      "line": 7,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": 80,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "LEGACY_FULL_PACKAGE",
+  "priority": "P1",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Intuitive defined the robotic-assisted soft-tissue surgery category and continues to expand it by procedure and geography; 2025 da Vinci procedures grew 18% and Q2 2026 procedures grew 15%."
+      ],
+      "counter_evidence": [
+        "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+      ],
+      "confidence": 0.78,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "The installed-base, procedure, clinical-evidence, training, consumables and service flywheel continues to strengthen as system use expands."
+      ],
+      "counter_evidence": [
+        "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토."
+      ],
+      "confidence": 0.78,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "The installed-base, procedure, clinical-evidence, training, consumables and service flywheel continues to strengthen as system use expands."
+      ],
+      "counter_evidence": [
+        "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+      ],
+      "confidence": 0.78,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "첨부 10-K·Q2 10-Q를 재대조했다. TTM OCF3.7064B−PPE0.4838B=FCF3.2226B; 손익계산서 SBC0.8393B 차감 proxy2.3833B. 별도 자본화 SBC0.1348B는 재고·상각 중복 확인 전 단순 재차감하지 않으며 초기 현금마진·재투자 민감도에 반영한다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "기말 353.9백만주, 현금·투자 8.63B. 환매를 무상으로 간주하지 않고 미래 보상비용을 마진에 포함한다. 손상·임대잔존가치·서비스 유지 Capex를 제외하지 않는다."
+      ],
+      "counter_evidence": [
+        "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+      ],
+      "confidence": 0.78,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "기말 353.9백만주, 현금·투자 8.63B. 환매를 무상으로 간주하지 않고 미래 보상비용을 마진에 포함한다. 손상·임대잔존가치·서비스 유지 Capex를 제외하지 않는다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+      ],
+      "confidence": 0.78,
+      "missing_data": [],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 366.70; Base/가격 0.83배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 13.1%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.34배, Bull/가격 1.66배. 2상태 손익분기 Bull 확률 50.0%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "structural_thesis": "Intuitive defined the robotic-assisted soft-tissue surgery category and continues to expand it by procedure and geography; 2025 da Vinci procedures grew 18% and Q2 2026 procedures grew 15%.",
+  "customer_and_moat": "The installed-base, procedure, clinical-evidence, training, consumables and service flywheel continues to strengthen as system use expands.",
+  "current_finding": "첨부 10-K·Q2 10-Q를 재대조했다. TTM OCF3.7064B−PPE0.4838B=FCF3.2226B; 손익계산서 SBC0.8393B 차감 proxy2.3833B. 별도 자본화 SBC0.1348B는 재고·상각 중복 확인 전 단순 재차감하지 않으며 초기 현금마진·재투자 민감도에 반영한다.",
+  "economic_finding": "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다.",
+  "capital_and_survival": "기말 353.9백만주, 현금·투자 8.63B. 환매를 무상으로 간주하지 않고 미래 보상비용을 마진에 포함한다. 손상·임대잔존가치·서비스 유지 Capex를 제외하지 않는다.",
+  "next_evidence": "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+  "permanent_loss_case": "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토."
+  ],
+  "increase_evidence": [
+    "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "hard_veto": {
+    "overall_status": "PASS",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. 임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "PASS",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "PASS",
+        "evidence": [
+          "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.09,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.1309275067210317,
+      "required_owner_margin_delta": 0.04847471630338601,
+      "price_reference": 366.7,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.09,
+      "implied_year_10_revenue": 39.94724528294345,
+      "implied_year_10_owner_cash": 9.187866415076993,
+      "residual_price": -6.252776074688882e-13
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.09,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 12.0,
+                "owner_margin": 0.19,
+                "owner_cash_before_attribution": 2.2800000000000002,
+                "ownership": 1,
+                "attributable_cash": 2.2800000000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.2800000000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 12.84,
+                "owner_margin": 0.1875,
+                "owner_cash_before_attribution": 2.4074999999999998,
+                "ownership": 1,
+                "attributable_cash": 2.4074999999999998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.4074999999999998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 13.738800000000001,
+                "owner_margin": 0.185,
+                "owner_cash_before_attribution": 2.541678,
+                "ownership": 1,
+                "attributable_cash": 2.541678
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.541678,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 14.700516,
+                "owner_margin": 0.1825,
+                "owner_cash_before_attribution": 2.68284417,
+                "ownership": 1,
+                "attributable_cash": 2.68284417
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.68284417,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 15.729552120000003,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.8313193816,
+                "ownership": 1,
+                "attributable_cash": 2.8313193816
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.8313193816,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 16.358734204800005,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 2.944572156864001,
+                "ownership": 1,
+                "attributable_cash": 2.944572156864001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.944572156864001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 17.013083572992006,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 3.062355043138561,
+                "ownership": 1,
+                "attributable_cash": 3.062355043138561
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.062355043138561,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 17.693606915911683,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 3.184849244864103,
+                "ownership": 1,
+                "attributable_cash": 3.184849244864103
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.184849244864103,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 18.401351192548155,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 3.312243214658668,
+                "ownership": 1,
+                "attributable_cash": 3.312243214658668
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.312243214658668,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 19.13740524025008,
+                "owner_margin": 0.18,
+                "owner_cash_before_attribution": 3.4447329432450142,
+                "ownership": 1,
+                "attributable_cash": 3.4447329432450142
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.4447329432450142,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 17.83096214413366,
+        "pv_terminal": 26.191663597733175,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 44.02262574186683,
+        "equity_value": 44.02262574186683,
+        "value_per_share": 124.3928390558543,
+        "value_to_price": 0.33922235902878184,
+        "upside_downside": -0.6607776409712182,
+        "terminal_fraction_of_operating_pv": 0.5949591410406063,
+        "year_10_revenue": 19.13740524025008,
+        "year_10_owner_cash": 3.4447329432450142,
+        "year_10_owner_cash_per_share": 9.733633634487184,
+        "year_10_exit_price": 175.2054054207693,
+        "irr_roots": [
+          -0.03983718942802844
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 6.630000000000001,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 124.39283905585431,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.09,
+        "terminal_multiple": 25,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 13.2,
+                "owner_margin": 0.22,
+                "owner_cash_before_attribution": 2.904,
+                "ownership": 1,
+                "attributable_cash": 2.904
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.904,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 14.915999999999999,
+                "owner_margin": 0.2225,
+                "owner_cash_before_attribution": 3.3188099999999996,
+                "ownership": 1,
+                "attributable_cash": 3.3188099999999996
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.3188099999999996,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 16.855079999999994,
+                "owner_margin": 0.225,
+                "owner_cash_before_attribution": 3.792392999999999,
+                "ownership": 1,
+                "attributable_cash": 3.792392999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.792392999999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 19.046240399999995,
+                "owner_margin": 0.2275,
+                "owner_cash_before_attribution": 4.333019690999999,
+                "ownership": 1,
+                "attributable_cash": 4.333019690999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.333019690999999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 21.52225165199999,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 4.950117879959998,
+                "ownership": 1,
+                "attributable_cash": 4.950117879959998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.950117879959998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 23.24403178415999,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 5.346127310356798,
+                "ownership": 1,
+                "attributable_cash": 5.346127310356798
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.346127310356798,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 25.10355432689279,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 5.773817495185342,
+                "ownership": 1,
+                "attributable_cash": 5.773817495185342
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.773817495185342,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 27.111838673044215,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 6.23572289480017,
+                "ownership": 1,
+                "attributable_cash": 6.23572289480017
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.23572289480017,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 29.280785766887757,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 6.734580726384184,
+                "ownership": 1,
+                "attributable_cash": 6.734580726384184
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.734580726384184,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 31.62324862823878,
+                "owner_margin": 0.23,
+                "owner_cash_before_attribution": 7.27334718449492,
+                "ownership": 1,
+                "attributable_cash": 7.27334718449492
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.27334718449492,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 30.321701238632667,
+        "pv_terminal": 76.80851132587465,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 107.13021256450732,
+        "equity_value": 107.13021256450732,
+        "value_per_share": 302.71323132101537,
+        "value_to_price": 0.8255064939215037,
+        "upside_downside": -0.17449350607849634,
+        "terminal_fraction_of_operating_pv": 0.7169640523174097,
+        "year_10_revenue": 31.62324862823878,
+        "year_10_owner_cash": 7.27334718449492,
+        "year_10_owner_cash_per_share": 20.55198413250896,
+        "year_10_exit_price": 513.799603312724,
+        "irr_roots": [
+          0.06656809980541822
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 6.630000000000001,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 302.71323132101537,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.09,
+        "terminal_multiple": 30,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 14.5,
+                "owner_margin": 0.24,
+                "owner_cash_before_attribution": 3.48,
+                "ownership": 1,
+                "attributable_cash": 3.48
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.48,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 17.11,
+                "owner_margin": 0.25,
+                "owner_cash_before_attribution": 4.2775,
+                "ownership": 1,
+                "attributable_cash": 4.2775
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.2775,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 20.189799999999998,
+                "owner_margin": 0.26,
+                "owner_cash_before_attribution": 5.2493479999999995,
+                "ownership": 1,
+                "attributable_cash": 5.2493479999999995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.2493479999999995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 23.823963999999997,
+                "owner_margin": 0.27,
+                "owner_cash_before_attribution": 6.4324702799999995,
+                "ownership": 1,
+                "attributable_cash": 6.4324702799999995
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.4324702799999995,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 28.112277519999992,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 7.871437705599998,
+                "ownership": 1,
+                "attributable_cash": 7.871437705599998
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.871437705599998,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 31.204628047199993,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 8.737295853215999,
+                "ownership": 1,
+                "attributable_cash": 8.737295853215999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.737295853215999,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 34.637137132392,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 9.698398397069761,
+                "ownership": 1,
+                "attributable_cash": 9.698398397069761
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.698398397069761,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 38.44722221695512,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 10.765222220747434,
+                "ownership": 1,
+                "attributable_cash": 10.765222220747434
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.765222220747434,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 42.67641666082018,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 11.949396665029651,
+                "ownership": 1,
+                "attributable_cash": 11.949396665029651
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 11.949396665029651,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "robotic_surgery",
+                "revenue": 47.37082249351041,
+                "owner_margin": 0.28,
+                "owner_cash_before_attribution": 13.263830298182915,
+                "ownership": 1,
+                "attributable_cash": 13.263830298182915
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 13.263830298182915,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 47.541666607769095,
+        "pv_terminal": 168.0835577634879,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 215.625224371257,
+        "equity_value": 215.625224371257,
+        "value_per_share": 609.2829171270331,
+        "value_to_price": 1.6615296349250972,
+        "upside_downside": 0.6615296349250972,
+        "terminal_fraction_of_operating_pv": 0.7795171379118739,
+        "year_10_revenue": 47.37082249351041,
+        "year_10_owner_cash": 13.263830298182915,
+        "year_10_owner_cash_per_share": 37.47903446788052,
+        "year_10_exit_price": 1124.3710340364157,
+        "irr_roots": [
+          0.15347753144441267
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 6.630000000000001,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 609.2829171270331,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/ISRG/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "procedure_recurring",
+    "missing_data": [
+      "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 79,
+  "business_quality_75": 68,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.78,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "Intuitive defined the robotic-assisted soft-tissue surgery category and continues to expand it by procedure and geography; 2025 da Vinci procedures grew 18% and Q2 2026 procedures grew 15%.",
+        "response": "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "The installed-base, procedure, clinical-evidence, training, consumables and service flywheel continues to strengthen as system use expands.",
+        "response": "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "첨부 10-K·Q2 10-Q를 재대조했다. TTM OCF3.7064B−PPE0.4838B=FCF3.2226B; 손익계산서 SBC0.8393B 차감 proxy2.3833B. 별도 자본화 SBC0.1348B는 재고·상각 중복 확인 전 단순 재차감하지 않으며 초기 현금마진·재투자 민감도에 반영한다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "기말 353.9백만주, 현금·투자 8.63B. 환매를 무상으로 간주하지 않고 미래 보상비용을 마진에 포함한다. 손상·임대잔존가치·서비스 유지 Capex를 제외하지 않는다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 366.70; Base/가격 0.83배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 13.1%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 71.7%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "임상·교육·설치 기반은 실질 전환비용이다. 시술 증가가 임대 비중 상승·가격 압박·병원 자본제약을 모두 상쇄한다는 보장은 없다.",
+      "기말 353.9백만주, 현금·투자 8.63B. 환매를 무상으로 간주하지 않고 미래 보상비용을 마진에 포함한다. 손상·임대잔존가치·서비스 유지 Capex를 제외하지 않는다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "첨부 10-K·Q2 10-Q를 재대조했다. TTM OCF3.7064B−PPE0.4838B=FCF3.2226B; 손익계산서 SBC0.8393B 차감 proxy2.3833B. 별도 자본화 SBC0.1348B는 재고·상각 중복 확인 전 단순 재차감하지 않으며 초기 현금마진·재투자 민감도에 반영한다.",
+    "falsifiers": [
+      "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토."
+    ],
+    "confidence": 0.78,
+    "verdict": "PASS",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [],
+    "explicit_model_uncertainties": [
+      "환매 재원을 포함한 주당 현금흐름을 완성하고, 절차 성장·경쟁·리콜 위험 변화 없이 충분한 할인 또는 실적 상향이 발생하는지 확인한다.",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "revenue": 0.046255,
+  "operating_profit": -0.446989,
+  "ocf": -0.145212,
+  "cash_capex": 0.859215,
+  "sbc": null,
+  "additional_cash_investment": 0.142103,
+  "ticker": "ASTS",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": -9.66358231542536,
+  "ocf_less_named_capex": -1.004427,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "sbc"
+  ],
+  "operating_profit_derivation": "46.255M revenue−493.244M total operating expenses; includes125.911M involuntary-conversion loss. This accounting loss is not a second cash capex charge.",
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/ASTS/raw-data/2026-Q2.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/ASTS/raw-data/2026-Q2.json",
+      "sha256": "c175381df5a818e6c60a708344b3e54ee2b26458debeddebb4dfa759ff44731c"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://app.quotemedia.com/data/downloadFiling?cdn=97b0f90b3039b64b39c17ee3c872f664&companyName=AST+SpaceMobile+Inc.&dateFiled=2026-08-10&formDescription=General+form+for+quarterly+reports+under+Section+13+or+15(d)&formType=10-Q&ref=320259077&symbol=ASTS&type=PDF&webmasterId=102691",
+    "location": "Cover; statements printed p.1/2/6; Note9 pp.16–17; July convertible subsequent event",
+    "facts": {
+      "cover_class_a": 299789305,
+      "llc_b_equivalent": 11215111,
+      "llc_c_equivalent": 78163078,
+      "h1_ocf_usd_m": -145.212,
+      "h1_ppe_usd_m": 859.215
+    },
+    "note": "Official IR links to this filing. B/C voting shares themselves are non-economic; linked LLC units are economic exchangeable rights."
+  }
+}

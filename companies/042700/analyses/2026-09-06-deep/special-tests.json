@@ -1,0 +1,38 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 92409.18688057494
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 87788.72753654618
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 83608.3119395678
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 79807.93412413288
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+  "equipment_volume_requirement": {
+    "note": "Illustrative ASP1/2/3KRWb, all revenue treated as equipment. This is a capacity hurdle, not disclosed ASP/order forecast.",
+    "annual_units": [
+      {
+        "asp_krw_b": 1,
+        "units": 6805.645766947805
+      },
+      {
+        "asp_krw_b": 2,
+        "units": 3402.8228834739025
+      },
+      {
+        "asp_krw_b": 3,
+        "units": 2268.548588982602
+      }
+    ]
+  }
+}

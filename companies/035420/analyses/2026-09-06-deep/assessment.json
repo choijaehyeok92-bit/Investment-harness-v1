@@ -1,0 +1,1085 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "035420",
+  "company_name": "NAVER",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/035420/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/035420/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 17,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/035420/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "검색·커머스·결제·AI 서비스 연결",
+  "customer_and_moat": "한국어 검색·거래 생태계와 판매자 도달력; AI 검색 대체와 커머스 경쟁이 가격결정력을 약화시킬 수 있음",
+  "current_finding": "H1 OCF 1.187조원−PPE 0.810조원−무형자산 약 0.044조원=약 0.332조원. 광고·커머스 성장과 AI 현금재투자 부담을 분리한다.",
+  "economic_finding": "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다.",
+  "capital_and_survival": "기존 156,977,585주에서 8월 4,901,094주 소각 후 152,076,491주를 기본으로 사용한다. 조건부 발행 시 159,318,055주로 별도 희석. $9B 인프라 조건은 즉시 현금 지출 전액과 같지 않지만 무상 성장도 아니다.",
+  "next_evidence": "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+  "permanent_loss_case": "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+  ],
+  "increase_evidence": [
+    "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "검색·커머스·결제·AI 서비스 연결"
+      ],
+      "counter_evidence": [
+        "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "한국어 검색·거래 생태계와 판매자 도달력; AI 검색 대체와 커머스 경쟁이 가격결정력을 약화시킬 수 있음"
+      ],
+      "counter_evidence": [
+        "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "한국어 검색·거래 생태계와 판매자 도달력; AI 검색 대체와 커머스 경쟁이 가격결정력을 약화시킬 수 있음"
+      ],
+      "counter_evidence": [
+        "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 OCF 1.187조원−PPE 0.810조원−무형자산 약 0.044조원=약 0.332조원. 광고·커머스 성장과 AI 현금재투자 부담을 분리한다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "기존 156,977,585주에서 8월 4,901,094주 소각 후 152,076,491주를 기본으로 사용한다. 조건부 발행 시 159,318,055주로 별도 희석. $9B 인프라 조건은 즉시 현금 지출 전액과 같지 않지만 무상 성장도 아니다."
+      ],
+      "counter_evidence": [
+        "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "기존 156,977,585주에서 8월 4,901,094주 소각 후 152,076,491주를 기본으로 사용한다. 조건부 발행 시 159,318,055주로 별도 희석. $9B 인프라 조건은 즉시 현금 지출 전액과 같지 않지만 무상 성장도 아니다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 213,500.00; Base/가격 1.23배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 4.0%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.43배, Bull/가격 2.73배. 2상태 손익분기 Bull 확률 24.7%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/035420/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/035420/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+        ],
+        "resolution_needed": "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+        ],
+        "resolution_needed": "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+        ],
+        "resolution_needed": "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+        ],
+        "resolution_needed": "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.03977591393993063,
+      "required_owner_margin_delta": -0.02210762724770817,
+      "price_reference": 213500.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 20.598034375321028,
+      "implied_year_10_owner_cash": 2.4717641250385234,
+      "residual_price": -2.9103830456733704e-11
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 16,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 13.4,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.9380000000000002,
+                "ownership": 1,
+                "attributable_cash": 0.9380000000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9380000000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 13.936000000000002,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 0.9755200000000002,
+                "ownership": 1,
+                "attributable_cash": 0.9755200000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 0.9755200000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 14.493440000000001,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.0145408000000002,
+                "ownership": 1,
+                "attributable_cash": 1.0145408000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0145408000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 15.073177600000001,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.055122432,
+                "ownership": 1,
+                "attributable_cash": 1.055122432
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.055122432,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 15.676104704000004,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.0973273292800003,
+                "ownership": 1,
+                "attributable_cash": 1.0973273292800003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.0973273292800003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 15.989626798080003,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.1192738758656002,
+                "ownership": 1,
+                "attributable_cash": 1.1192738758656002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1192738758656002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 16.309419334041603,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.1416593533829122,
+                "ownership": 1,
+                "attributable_cash": 1.1416593533829122
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1416593533829122,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 16.635607720722437,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.1644925404505706,
+                "ownership": 1,
+                "attributable_cash": 1.1644925404505706
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.1644925404505706,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 16.968319875136885,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.187782391259582,
+                "ownership": 1,
+                "attributable_cash": 1.187782391259582
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.187782391259582,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 17.30768627263962,
+                "owner_margin": 0.07,
+                "owner_cash_before_attribution": 1.2115380390847736,
+                "ownership": 1,
+                "attributable_cash": 1.2115380390847736
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.2115380390847736,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 6.554931520571804,
+        "pv_terminal": 7.473605773723965,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 14.02853729429577,
+        "equity_value": 14.02853729429577,
+        "value_per_share": 92246.58724073117,
+        "value_to_price": 0.43206832431255815,
+        "upside_downside": -0.5679316756874419,
+        "terminal_fraction_of_operating_pv": 0.5327430520331478,
+        "year_10_revenue": 17.30768627263962,
+        "year_10_owner_cash": 1.2115380390847736,
+        "year_10_owner_cash_per_share": 7966.635941677361,
+        "year_10_exit_price": 127466.17506683778,
+        "irr_roots": [
+          -0.008146239102282793
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 3.38436979,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 92246.58724073117,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 22,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 14.5,
+                "owner_margin": 0.09,
+                "owner_cash_before_attribution": 1.305,
+                "ownership": 1,
+                "attributable_cash": 1.305
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.305,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 15.805000000000001,
+                "owner_margin": 0.0975,
+                "owner_cash_before_attribution": 1.5409875000000002,
+                "ownership": 1,
+                "attributable_cash": 1.5409875000000002
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.5409875000000002,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 17.22745,
+                "owner_margin": 0.105,
+                "owner_cash_before_attribution": 1.8088822500000001,
+                "ownership": 1,
+                "attributable_cash": 1.8088822500000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.8088822500000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 18.777920500000004,
+                "owner_margin": 0.11249999999999999,
+                "owner_cash_before_attribution": 2.11251605625,
+                "ownership": 1,
+                "attributable_cash": 2.11251605625
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.11251605625,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 20.467933345000006,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 2.4561520014000005,
+                "ownership": 1,
+                "attributable_cash": 2.4561520014000005
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.4561520014000005,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 21.491330012250007,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 2.5789596014700007,
+                "ownership": 1,
+                "attributable_cash": 2.5789596014700007
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.5789596014700007,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 22.56589651286251,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 2.707907581543501,
+                "ownership": 1,
+                "attributable_cash": 2.707907581543501
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.707907581543501,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 23.694191338505636,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 2.8433029606206763,
+                "ownership": 1,
+                "attributable_cash": 2.8433029606206763
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.8433029606206763,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 24.878900905430918,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 2.98546810865171,
+                "ownership": 1,
+                "attributable_cash": 2.98546810865171
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.98546810865171,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 26.122845950702466,
+                "owner_margin": 0.12,
+                "owner_cash_before_attribution": 3.1347415140842956,
+                "ownership": 1,
+                "attributable_cash": 3.1347415140842956
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.1347415140842956,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 13.433371579082236,
+        "pv_terminal": 26.58872820673012,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 40.02209978581236,
+        "equity_value": 40.02209978581236,
+        "value_per_share": 263170.8525271822,
+        "value_to_price": 1.2326503631249752,
+        "upside_downside": 0.23265036312497522,
+        "terminal_fraction_of_operating_pv": 0.6643511547126695,
+        "year_10_revenue": 26.122845950702466,
+        "year_10_owner_cash": 3.1347415140842956,
+        "year_10_owner_cash_per_share": 20612.926386395222,
+        "year_10_exit_price": 453484.3805006949,
+        "irr_roots": [
+          0.1277524627736334
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 3.38436979,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 263170.8525271822,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 28,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 15.5,
+                "owner_margin": 0.1,
+                "owner_cash_before_attribution": 1.55,
+                "ownership": 1,
+                "attributable_cash": 1.55
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 1.55,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 17.67,
+                "owner_margin": 0.115,
+                "owner_cash_before_attribution": 2.0320500000000004,
+                "ownership": 1,
+                "attributable_cash": 2.0320500000000004
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.0320500000000004,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 20.143800000000006,
+                "owner_margin": 0.13,
+                "owner_cash_before_attribution": 2.618694000000001,
+                "ownership": 1,
+                "attributable_cash": 2.618694000000001
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 2.618694000000001,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 22.963932000000007,
+                "owner_margin": 0.14500000000000002,
+                "owner_cash_before_attribution": 3.3297701400000013,
+                "ownership": 1,
+                "attributable_cash": 3.3297701400000013
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.3297701400000013,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 26.178882480000013,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 4.1886211968000024,
+                "ownership": 1,
+                "attributable_cash": 4.1886211968000024
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.1886211968000024,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 28.273193078400016,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 4.523710892544003,
+                "ownership": 1,
+                "attributable_cash": 4.523710892544003
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.523710892544003,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 30.535048524672018,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 4.885607763947523,
+                "ownership": 1,
+                "attributable_cash": 4.885607763947523
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.885607763947523,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 32.97785240664578,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 5.276456385063325,
+                "ownership": 1,
+                "attributable_cash": 5.276456385063325
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.276456385063325,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 35.616080599177444,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 5.698572895868391,
+                "ownership": 1,
+                "attributable_cash": 5.698572895868391
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 5.698572895868391,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "search_commerce_cloud",
+                "revenue": 38.46536704711165,
+                "owner_margin": 0.16,
+                "owner_cash_before_attribution": 6.154458727537864,
+                "ownership": 1,
+                "attributable_cash": 6.154458727537864
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.154458727537864,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 22.242690113037693,
+        "pv_terminal": 66.43868734925061,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 88.68137746228831,
+        "equity_value": 88.68137746228831,
+        "value_per_share": 583136.662867164,
+        "value_to_price": 2.73131926401482,
+        "upside_downside": 1.7313192640148198,
+        "terminal_fraction_of_operating_pv": 0.7491842058667122,
+        "year_10_revenue": 38.46536704711165,
+        "year_10_owner_cash": 6.154458727537864,
+        "year_10_owner_cash_per_share": 40469.49457518627,
+        "year_10_exit_price": 1133145.8481052157,
+        "irr_roots": [
+          0.23610609895810286
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 3.38436979,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 583136.662867164,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/035420/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "platform_capex",
+    "missing_data": [
+      "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 69,
+  "business_quality_75": 52,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "검색·커머스·결제·AI 서비스 연결",
+        "response": "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "한국어 검색·거래 생태계와 판매자 도달력; AI 검색 대체와 커머스 경쟁이 가격결정력을 약화시킬 수 있음",
+        "response": "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "H1 OCF 1.187조원−PPE 0.810조원−무형자산 약 0.044조원=약 0.332조원. 광고·커머스 성장과 AI 현금재투자 부담을 분리한다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "기존 156,977,585주에서 8월 4,901,094주 소각 후 152,076,491주를 기본으로 사용한다. 조건부 발행 시 159,318,055주로 별도 희석. $9B 인프라 조건은 즉시 현금 지출 전액과 같지 않지만 무상 성장도 아니다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 213,500.00; Base/가격 1.23배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 4.0%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 66.4%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "NVIDIA 제3자 배정 7.242백만주는 조건부다. 10월 납입 전 기존 주식과 미래 1조4,809억원을 동시에 확정 반영하지 않는다.",
+      "기존 156,977,585주에서 8월 4,901,094주 소각 후 152,076,491주를 기본으로 사용한다. 조건부 발행 시 159,318,055주로 별도 희석. $9B 인프라 조건은 즉시 현금 지출 전액과 같지 않지만 무상 성장도 아니다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "H1 OCF 1.187조원−PPE 0.810조원−무형자산 약 0.044조원=약 0.332조원. 광고·커머스 성장과 AI 현금재투자 부담을 분리한다.",
+    "falsifiers": [
+      "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "external_capital_dependence",
+      "incremental_roic_collapse",
+      "moat_shrinkage",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

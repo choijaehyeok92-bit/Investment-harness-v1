@@ -1,0 +1,1564 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "005380",
+  "company_name": "Hyundai Motor",
+  "as_of": "2026-09-06",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/005380/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/005380/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "historical_records": [
+    {
+      "path": "reviews/2026-09-05-astra/screen-reassessments.jsonl",
+      "line": 13,
+      "status": "HISTORICAL_NOT_CURRENT_SCORE"
+    },
+    {
+      "path": "companies/005380/analyses/2026-09-06/assessment.json",
+      "status": "PREVIOUS_PARTIAL_ANALYSIS"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "34개 부분분석의 원자료·기존 증거 기반 정규화, 선택 공시 교차검증, 종목별 현금 시나리오·반증 재평가. 독립 감사 또는 확정 목표가 아님.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P2",
+  "structural_thesis": "자동차·하이브리드·전동화 포트폴리오",
+  "customer_and_moat": "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리",
+  "current_finding": "H1 연결 OCF 4.850조원에서 PPE 4.004조원을 빼면 0.846조원이나 금융채권 변동이 포함되어 자동차 owner FCF로 해석할 수 없다.",
+  "economic_finding": "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다.",
+  "capital_and_survival": "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다.",
+  "next_evidence": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+  "permanent_loss_case": "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+  ],
+  "increase_evidence": [
+    "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "자동차·하이브리드·전동화 포트폴리오"
+      ],
+      "counter_evidence": [
+        "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리"
+      ],
+      "counter_evidence": [
+        "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "moat_trajectory": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리"
+      ],
+      "counter_evidence": [
+        "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 연결 OCF 4.850조원에서 PPE 4.004조원을 빼면 0.846조원이나 금융채권 변동이 포함되어 자동차 owner FCF로 해석할 수 없다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다."
+      ],
+      "counter_evidence": [
+        "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 383,500.00; Base/가격 1.22배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 1.6%."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.41배, Bull/가격 2.67배. 2상태 손익분기 Bull 확률 26.0%; 실제 확률 추정 아님."
+      ],
+      "counter_evidence": [
+        "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/005380/analyses/2026-09-06-deep/evidence-ledger.json",
+        "companies/005380/analyses/2026-09-06-deep/model-inputs.json"
+      ]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 KRW trillion, 가용현금 차감 후 조달 부족 0.000. 차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. 차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+        ],
+        "resolution_needed": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_SCENARIOS_WITH_UNRESOLVED_UNDERWRITING",
+    "required_return": 0.1,
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+      "required_growth_years_2_10": 0.015526020068175828,
+      "required_owner_margin_delta": -0.006274985883866484,
+      "price_reference": 383500.0,
+      "source": "price-and-shares.json / model-inputs.json",
+      "horizon_years": 10,
+      "required_return": 0.1,
+      "implied_year_10_revenue": 235.49048299898766,
+      "implied_year_10_owner_cash": 8.24216690496457,
+      "residual_price": 0.0
+    },
+    "scenarios": {
+      "bear": {
+        "claim_type": "estimate",
+        "case": "bear",
+        "required_return": 0.1,
+        "terminal_multiple": 12,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 142.45000000000002,
+                "owner_margin": 0.02,
+                "owner_cash_before_attribution": 2.849,
+                "ownership": 1,
+                "attributable_cash": 2.849
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 31.450000000000003,
+                "owner_margin": 0.02,
+                "owner_cash_before_attribution": 0.6290000000000001,
+                "ownership": 1,
+                "attributable_cash": 0.6290000000000001
+              },
+              {
+                "component": "Other",
+                "revenue": 11.1,
+                "owner_margin": 0.02,
+                "owner_cash_before_attribution": 0.222,
+                "ownership": 1,
+                "attributable_cash": 0.222
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.7,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 142.45000000000002,
+                "owner_margin": 0.01886740331491713,
+                "owner_cash_before_attribution": 2.6876616022099453,
+                "ownership": 1,
+                "attributable_cash": 2.6876616022099453
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 32.079,
+                "owner_margin": 0.02494475138121547,
+                "owner_cash_before_attribution": 0.800202679558011,
+                "ownership": 1,
+                "attributable_cash": 0.800202679558011
+              },
+              {
+                "component": "Other",
+                "revenue": 10.988999999999999,
+                "owner_margin": 0.020524861878453038,
+                "owner_cash_before_attribution": 0.22554770718232042,
+                "ownership": 1,
+                "attributable_cash": 0.22554770718232042
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.713411988950277,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 142.45000000000002,
+                "owner_margin": 0.017734806629834253,
+                "owner_cash_before_attribution": 2.5263232044198896,
+                "ownership": 1,
+                "attributable_cash": 2.5263232044198896
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 32.720580000000005,
+                "owner_margin": 0.029889502762430943,
+                "owner_cash_before_attribution": 0.9780018662983428,
+                "ownership": 1,
+                "attributable_cash": 0.9780018662983428
+              },
+              {
+                "component": "Other",
+                "revenue": 10.879109999999999,
+                "owner_margin": 0.02104972375690608,
+                "owner_cash_before_attribution": 0.22900226022099446,
+                "ownership": 1,
+                "attributable_cash": 0.22900226022099446
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.7333273309392268,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 142.45000000000002,
+                "owner_margin": 0.01660220994475138,
+                "owner_cash_before_attribution": 2.3649848066298347,
+                "ownership": 1,
+                "attributable_cash": 2.3649848066298347
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 33.37499160000001,
+                "owner_margin": 0.03483425414364641,
+                "owner_cash_before_attribution": 1.1625929394364645,
+                "ownership": 1,
+                "attributable_cash": 1.1625929394364645
+              },
+              {
+                "component": "Other",
+                "revenue": 10.7703189,
+                "owner_margin": 0.02157458563535912,
+                "owner_cash_before_attribution": 0.2323651674281768,
+                "ownership": 1,
+                "attributable_cash": 0.2323651674281768
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.759942913494476,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 142.45000000000002,
+                "owner_margin": 0.015469613259668507,
+                "owner_cash_before_attribution": 2.203646408839779,
+                "ownership": 1,
+                "attributable_cash": 2.203646408839779
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 34.042491432000006,
+                "owner_margin": 0.03977900552486188,
+                "owner_cash_before_attribution": 1.3541764547535915,
+                "ownership": 1,
+                "attributable_cash": 1.3541764547535915
+              },
+              {
+                "component": "Other",
+                "revenue": 10.662615710999999,
+                "owner_margin": 0.022099447513812157,
+                "owner_cash_before_attribution": 0.23563791626519337,
+                "ownership": 1,
+                "attributable_cash": 0.23563791626519337
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.793460779858564,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 143.8745,
+                "owner_margin": 0.015469613259668507,
+                "owner_cash_before_attribution": 2.225682872928177,
+                "ownership": 1,
+                "attributable_cash": 2.225682872928177
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 34.723341260640005,
+                "owner_margin": 0.03977900552486188,
+                "owner_cash_before_attribution": 1.3812599838486632,
+                "ownership": 1,
+                "attributable_cash": 1.3812599838486632
+              },
+              {
+                "component": "Other",
+                "revenue": 10.769241868109999,
+                "owner_margin": 0.022099447513812157,
+                "owner_cash_before_attribution": 0.2379942954278453,
+                "ownership": 1,
+                "attributable_cash": 0.2379942954278453
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.844937152204685,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 145.31324500000002,
+                "owner_margin": 0.015469613259668507,
+                "owner_cash_before_attribution": 2.247939701657459,
+                "ownership": 1,
+                "attributable_cash": 2.247939701657459
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 35.417808085852805,
+                "owner_margin": 0.03977900552486188,
+                "owner_cash_before_attribution": 1.4088851835256366,
+                "ownership": 1,
+                "attributable_cash": 1.4088851835256366
+              },
+              {
+                "component": "Other",
+                "revenue": 10.8769342867911,
+                "owner_margin": 0.022099447513812157,
+                "owner_cash_before_attribution": 0.24037423838212377,
+                "ownership": 1,
+                "attributable_cash": 0.24037423838212377
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.8971991235652195,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 146.76637745000005,
+                "owner_margin": 0.015469613259668507,
+                "owner_cash_before_attribution": 2.270419098674034,
+                "ownership": 1,
+                "attributable_cash": 2.270419098674034
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 36.12616424756987,
+                "owner_margin": 0.03977900552486188,
+                "owner_cash_before_attribution": 1.4370628871961495,
+                "ownership": 1,
+                "attributable_cash": 1.4370628871961495
+              },
+              {
+                "component": "Other",
+                "revenue": 10.985703629659012,
+                "owner_margin": 0.022099447513812157,
+                "owner_cash_before_attribution": 0.24277798076594503,
+                "ownership": 1,
+                "attributable_cash": 0.24277798076594503
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 3.9502599666361284,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 148.23404122450003,
+                "owner_margin": 0.015469613259668507,
+                "owner_cash_before_attribution": 2.2931232896607736,
+                "ownership": 1,
+                "attributable_cash": 2.2931232896607736
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 36.84868753252126,
+                "owner_margin": 0.03977900552486188,
+                "owner_cash_before_attribution": 1.4658041449400725,
+                "ownership": 1,
+                "attributable_cash": 1.4658041449400725
+              },
+              {
+                "component": "Other",
+                "revenue": 11.0955606659556,
+                "owner_margin": 0.022099447513812157,
+                "owner_cash_before_attribution": 0.24520576057360446,
+                "ownership": 1,
+                "attributable_cash": 0.24520576057360446
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.00413319517445,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 149.71638163674504,
+                "owner_margin": 0.015469613259668507,
+                "owner_cash_before_attribution": 2.3160545225573816,
+                "ownership": 1,
+                "attributable_cash": 2.3160545225573816
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 37.58566128317168,
+                "owner_margin": 0.03977900552486188,
+                "owner_cash_before_attribution": 1.4951202278388738,
+                "ownership": 1,
+                "attributable_cash": 1.4951202278388738
+              },
+              {
+                "component": "Other",
+                "revenue": 11.206516272615158,
+                "owner_margin": 0.022099447513812157,
+                "owner_cash_before_attribution": 0.24765781817934052,
+                "ownership": 1,
+                "attributable_cash": 0.24765781817934052
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 4.058832568575596,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 23.437078853132224,
+        "pv_terminal": 18.77826791678819,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 42.215346769920416,
+        "equity_value": 42.215346769920416,
+        "value_per_share": 159069.0289402965,
+        "value_to_price": 0.41478234404249414,
+        "upside_downside": -0.5852176559575059,
+        "terminal_fraction_of_operating_pv": 0.4448208851423724,
+        "year_10_revenue": 198.5085591925319,
+        "year_10_owner_cash": 4.058832568575596,
+        "year_10_owner_cash_per_share": 15293.835174051008,
+        "year_10_exit_price": 183526.02208861214,
+        "irr_roots": [
+          -0.01888171465021765
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 5.256150000000002,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 159069.0289402965,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "base": {
+        "claim_type": "estimate",
+        "case": "base",
+        "required_return": 0.1,
+        "terminal_multiple": 18,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 157.85,
+                "owner_margin": 0.03,
+                "owner_cash_before_attribution": 4.7355,
+                "ownership": 1,
+                "attributable_cash": 4.7355
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 34.85,
+                "owner_margin": 0.03,
+                "owner_cash_before_attribution": 1.0455,
+                "ownership": 1,
+                "attributable_cash": 1.0455
+              },
+              {
+                "component": "Other",
+                "revenue": 12.299999999999999,
+                "owner_margin": 0.03,
+                "owner_cash_before_attribution": 0.36899999999999994,
+                "ownership": 1,
+                "attributable_cash": 0.36899999999999994
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.15,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 165.7425,
+                "owner_margin": 0.029267955801104972,
+                "owner_cash_before_attribution": 4.850944164364641,
+                "ownership": 1,
+                "attributable_cash": 4.850944164364641
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 37.289500000000004,
+                "owner_margin": 0.03990331491712708,
+                "owner_cash_before_attribution": 1.4879746616022103,
+                "ownership": 1,
+                "attributable_cash": 1.4879746616022103
+              },
+              {
+                "component": "Other",
+                "revenue": 12.792,
+                "owner_margin": 0.03216850828729282,
+                "owner_cash_before_attribution": 0.41149955801104976,
+                "ownership": 1,
+                "attributable_cash": 0.41149955801104976
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 6.750418383977901,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 174.029625,
+                "owner_margin": 0.028535911602209946,
+                "owner_cash_before_attribution": 4.966093995165746,
+                "ownership": 1,
+                "attributable_cash": 4.966093995165746
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 39.899765,
+                "owner_margin": 0.04980662983425415,
+                "owner_cash_before_attribution": 1.9872728258287295,
+                "ownership": 1,
+                "attributable_cash": 1.9872728258287295
+              },
+              {
+                "component": "Other",
+                "revenue": 13.30368,
+                "owner_margin": 0.03433701657458564,
+                "owner_cash_before_attribution": 0.4568086806629835,
+                "ownership": 1,
+                "attributable_cash": 0.4568086806629835
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 7.410175501657459,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 182.73110625,
+                "owner_margin": 0.027803867403314916,
+                "owner_cash_before_attribution": 5.0806314486360495,
+                "ownership": 1,
+                "attributable_cash": 5.0806314486360495
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 42.692748550000005,
+                "owner_margin": 0.05970994475138122,
+                "owner_cash_before_attribution": 2.549181657205111,
+                "ownership": 1,
+                "attributable_cash": 2.549181657205111
+              },
+              {
+                "component": "Other",
+                "revenue": 13.8358272,
+                "owner_margin": 0.036505524861878455,
+                "owner_cash_before_attribution": 0.5050841338342542,
+                "ownership": 1,
+                "attributable_cash": 0.5050841338342542
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.134897239675414,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 191.86766156250002,
+                "owner_margin": 0.02707182320441989,
+                "owner_cash_before_attribution": 5.19420741246547,
+                "ownership": 1,
+                "attributable_cash": 5.19420741246547
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 45.68124094850001,
+                "owner_margin": 0.0696132596685083,
+                "owner_cash_before_attribution": 3.180020088127626,
+                "ownership": 1,
+                "attributable_cash": 3.180020088127626
+              },
+              {
+                "component": "Other",
+                "revenue": 14.389260288000001,
+                "owner_margin": 0.038674033149171276,
+                "owner_cash_before_attribution": 0.5564907293701659,
+                "ownership": 1,
+                "attributable_cash": 0.5564907293701659
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 8.930718229963261,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 197.62369140937503,
+                "owner_margin": 0.02707182320441989,
+                "owner_cash_before_attribution": 5.350033634839434,
+                "ownership": 1,
+                "attributable_cash": 5.350033634839434
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 47.50849058644001,
+                "owner_margin": 0.0696132596685083,
+                "owner_cash_before_attribution": 3.307220891652731,
+                "ownership": 1,
+                "attributable_cash": 3.307220891652731
+              },
+              {
+                "component": "Other",
+                "revenue": 14.82093809664,
+                "owner_margin": 0.038674033149171276,
+                "owner_cash_before_attribution": 0.5731854512512708,
+                "ownership": 1,
+                "attributable_cash": 0.5731854512512708
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.230439977743435,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 203.55240215165625,
+                "owner_margin": 0.02707182320441989,
+                "owner_cash_before_attribution": 5.510534643884617,
+                "ownership": 1,
+                "attributable_cash": 5.510534643884617
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 49.408830209897616,
+                "owner_margin": 0.0696132596685083,
+                "owner_cash_before_attribution": 3.4395097273188404,
+                "ownership": 1,
+                "attributable_cash": 3.4395097273188404
+              },
+              {
+                "component": "Other",
+                "revenue": 15.2655662395392,
+                "owner_margin": 0.038674033149171276,
+                "owner_cash_before_attribution": 0.590381014788809,
+                "ownership": 1,
+                "attributable_cash": 0.590381014788809
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.540425385992267,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 209.65897421620596,
+                "owner_margin": 0.02707182320441989,
+                "owner_cash_before_attribution": 5.675850683201156,
+                "ownership": 1,
+                "attributable_cash": 5.675850683201156
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 51.38518341829352,
+                "owner_margin": 0.0696132596685083,
+                "owner_cash_before_attribution": 3.577090116411594,
+                "ownership": 1,
+                "attributable_cash": 3.577090116411594
+              },
+              {
+                "component": "Other",
+                "revenue": 15.723533226725378,
+                "owner_margin": 0.038674033149171276,
+                "owner_cash_before_attribution": 0.6080924452324733,
+                "ownership": 1,
+                "attributable_cash": 0.6080924452324733
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.861033244845222,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 215.94874344269215,
+                "owner_margin": 0.02707182320441989,
+                "owner_cash_before_attribution": 5.846126203697191,
+                "ownership": 1,
+                "attributable_cash": 5.846126203697191
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 53.44059075502527,
+                "owner_margin": 0.0696132596685083,
+                "owner_cash_before_attribution": 3.720173721068058,
+                "ownership": 1,
+                "attributable_cash": 3.720173721068058
+              },
+              {
+                "component": "Other",
+                "revenue": 16.19523922352714,
+                "owner_margin": 0.038674033149171276,
+                "owner_cash_before_attribution": 0.6263352185894474,
+                "ownership": 1,
+                "attributable_cash": 0.6263352185894474
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.192635143354696,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 222.4272057459729,
+                "owner_margin": 0.02707182320441989,
+                "owner_cash_before_attribution": 6.021509989808107,
+                "ownership": 1,
+                "attributable_cash": 6.021509989808107
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 55.578214385226275,
+                "owner_margin": 0.0696132596685083,
+                "owner_cash_before_attribution": 3.8689806699107803,
+                "ownership": 1,
+                "attributable_cash": 3.8689806699107803
+              },
+              {
+                "component": "Other",
+                "revenue": 16.681096400232953,
+                "owner_margin": 0.038674033149171276,
+                "owner_cash_before_attribution": 0.6451252751471308,
+                "ownership": 1,
+                "attributable_cash": 0.6451252751471308
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.535615934866017,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 50.929602009790436,
+        "pv_terminal": 73.11484842649978,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 124.04445043629022,
+        "equity_value": 124.04445043629022,
+        "value_per_share": 467404.19743259693,
+        "value_to_price": 1.2187853909585318,
+        "upside_downside": 0.21878539095853178,
+        "terminal_fraction_of_operating_pv": 0.5894245826342057,
+        "year_10_revenue": 294.6865165314321,
+        "year_10_owner_cash": 10.535615934866017,
+        "year_10_owner_cash_per_share": 39698.600728803416,
+        "year_10_exit_price": 714574.8131184615,
+        "irr_roots": [
+          0.12782759438321312
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 5.256150000000002,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 467404.19743259693,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      },
+      "bull": {
+        "claim_type": "estimate",
+        "case": "bull",
+        "required_return": 0.1,
+        "terminal_multiple": 24,
+        "rows": [
+          {
+            "year": 1,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 177.1,
+                "owner_margin": 0.04,
+                "owner_cash_before_attribution": 7.084,
+                "ownership": 1,
+                "attributable_cash": 7.084
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 39.1,
+                "owner_margin": 0.04,
+                "owner_cash_before_attribution": 1.564,
+                "ownership": 1,
+                "attributable_cash": 1.564
+              },
+              {
+                "component": "Other",
+                "revenue": 13.799999999999999,
+                "owner_margin": 0.04,
+                "owner_cash_before_attribution": 0.5519999999999999,
+                "ownership": 1,
+                "attributable_cash": 0.5519999999999999
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 9.2,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 2,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 191.268,
+                "owner_margin": 0.03966850828729282,
+                "owner_cash_before_attribution": 7.587316243093923,
+                "ownership": 1,
+                "attributable_cash": 7.587316243093923
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 43.010000000000005,
+                "owner_margin": 0.05486187845303868,
+                "owner_cash_before_attribution": 2.359609392265194,
+                "ownership": 1,
+                "attributable_cash": 2.359609392265194
+              },
+              {
+                "component": "Other",
+                "revenue": 14.766,
+                "owner_margin": 0.0438121546961326,
+                "owner_cash_before_attribution": 0.646930276243094,
+                "ownership": 1,
+                "attributable_cash": 0.646930276243094
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 10.593855911602212,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 3,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 206.56944000000001,
+                "owner_margin": 0.03933701657458563,
+                "owner_cash_before_attribution": 8.125825485082872,
+                "ownership": 1,
+                "attributable_cash": 8.125825485082872
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 47.31100000000001,
+                "owner_margin": 0.06972375690607735,
+                "owner_cash_before_attribution": 3.298700662983426,
+                "ownership": 1,
+                "attributable_cash": 3.298700662983426
+              },
+              {
+                "component": "Other",
+                "revenue": 15.799619999999999,
+                "owner_margin": 0.047624309392265196,
+                "owner_cash_before_attribution": 0.752445991160221,
+                "ownership": 1,
+                "attributable_cash": 0.752445991160221
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 12.17697213922652,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 4,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 223.09499520000003,
+                "owner_margin": 0.03900552486187845,
+                "owner_cash_before_attribution": 8.701937381834254,
+                "ownership": 1,
+                "attributable_cash": 8.701937381834254
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 52.04210000000002,
+                "owner_margin": 0.08458563535911603,
+                "owner_cash_before_attribution": 4.402014093922654,
+                "ownership": 1,
+                "attributable_cash": 4.402014093922654
+              },
+              {
+                "component": "Other",
+                "revenue": 16.9055934,
+                "owner_margin": 0.05143646408839779,
+                "owner_cash_before_attribution": 0.8695639478121547,
+                "ownership": 1,
+                "attributable_cash": 0.8695639478121547
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 13.973515423569063,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 5,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 240.94259481600005,
+                "owner_margin": 0.03867403314917127,
+                "owner_cash_before_attribution": 9.318221898961328,
+                "ownership": 1,
+                "attributable_cash": 9.318221898961328
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 57.246310000000015,
+                "owner_margin": 0.0994475138121547,
+                "owner_cash_before_attribution": 5.693003204419892,
+                "ownership": 1,
+                "attributable_cash": 5.693003204419892
+              },
+              {
+                "component": "Other",
+                "revenue": 18.088984938000003,
+                "owner_margin": 0.05524861878453039,
+                "owner_cash_before_attribution": 0.9993914330386743,
+                "ownership": 1,
+                "attributable_cash": 0.9993914330386743
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 16.010616536419892,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 6,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 250.58029860864008,
+                "owner_margin": 0.03867403314917127,
+                "owner_cash_before_attribution": 9.69095077491978,
+                "ownership": 1,
+                "attributable_cash": 9.69095077491978
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 60.10862550000002,
+                "owner_margin": 0.0994475138121547,
+                "owner_cash_before_attribution": 5.9776533646408865,
+                "ownership": 1,
+                "attributable_cash": 5.9776533646408865
+              },
+              {
+                "component": "Other",
+                "revenue": 18.812544335520005,
+                "owner_margin": 0.05524861878453039,
+                "owner_cash_before_attribution": 1.0393670903602215,
+                "ownership": 1,
+                "attributable_cash": 1.0393670903602215
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 16.70797122992089,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 7,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 260.6035105529857,
+                "owner_margin": 0.03867403314917127,
+                "owner_cash_before_attribution": 10.078588805916574,
+                "ownership": 1,
+                "attributable_cash": 10.078588805916574
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 63.114056775000016,
+                "owner_margin": 0.0994475138121547,
+                "owner_cash_before_attribution": 6.27653603287293,
+                "ownership": 1,
+                "attributable_cash": 6.27653603287293
+              },
+              {
+                "component": "Other",
+                "revenue": 19.565046108940805,
+                "owner_margin": 0.05524861878453039,
+                "owner_cash_before_attribution": 1.0809417739746303,
+                "ownership": 1,
+                "attributable_cash": 1.0809417739746303
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 17.436066612764137,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 8,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 271.02765097510513,
+                "owner_margin": 0.03867403314917127,
+                "owner_cash_before_attribution": 10.481732358153236,
+                "ownership": 1,
+                "attributable_cash": 10.481732358153236
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 66.26975961375003,
+                "owner_margin": 0.0994475138121547,
+                "owner_cash_before_attribution": 6.5903628345165775,
+                "ownership": 1,
+                "attributable_cash": 6.5903628345165775
+              },
+              {
+                "component": "Other",
+                "revenue": 20.347647953298438,
+                "owner_margin": 0.05524861878453039,
+                "owner_cash_before_attribution": 1.1241794449336155,
+                "ownership": 1,
+                "attributable_cash": 1.1241794449336155
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 18.19627463760343,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 9,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 281.86875701410935,
+                "owner_margin": 0.03867403314917127,
+                "owner_cash_before_attribution": 10.901001652479367,
+                "ownership": 1,
+                "attributable_cash": 10.901001652479367
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 69.58324759443754,
+                "owner_margin": 0.0994475138121547,
+                "owner_cash_before_attribution": 6.919880976242408,
+                "ownership": 1,
+                "attributable_cash": 6.919880976242408
+              },
+              {
+                "component": "Other",
+                "revenue": 21.161553871430378,
+                "owner_margin": 0.05524861878453039,
+                "owner_cash_before_attribution": 1.1691466227309601,
+                "ownership": 1,
+                "attributable_cash": 1.1691466227309601
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 18.990029251452736,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          },
+          {
+            "year": 10,
+            "components": [
+              {
+                "component": "Vehicle",
+                "revenue": 293.14350729467367,
+                "owner_margin": 0.03867403314917127,
+                "owner_cash_before_attribution": 11.33704171857854,
+                "ownership": 1,
+                "attributable_cash": 11.33704171857854
+              },
+              {
+                "component": "Finance_after_credit_capital",
+                "revenue": 73.06240997415941,
+                "owner_margin": 0.0994475138121547,
+                "owner_cash_before_attribution": 7.265875025054528,
+                "ownership": 1,
+                "attributable_cash": 7.265875025054528
+              },
+              {
+                "component": "Other",
+                "revenue": 22.00801602628759,
+                "owner_margin": 0.05524861878453039,
+                "owner_cash_before_attribution": 1.2159124876401983,
+                "ownership": 1,
+                "attributable_cash": 1.2159124876401983
+              }
+            ],
+            "special_cash_adjustment": 0,
+            "owner_cash": 19.818829231273266,
+            "cash_deficit": 0,
+            "available_cash_used": 0,
+            "new_funding_required": 0
+          }
+        ],
+        "pv_interim_owner_cash": 88.31507335667251,
+        "pv_terminal": 183.3843987472139,
+        "separate_equity_value": 0,
+        "unfloored_equity_value": 271.6994721038864,
+        "equity_value": 271.6994721038864,
+        "value_per_share": 1023773.923419506,
+        "value_to_price": 2.6695539072216588,
+        "upside_downside": 1.6695539072216588,
+        "terminal_fraction_of_operating_pv": 0.6749530918377914,
+        "year_10_revenue": 388.2139332951207,
+        "year_10_owner_cash": 19.818829231273266,
+        "year_10_owner_cash_per_share": 74678.1007801288,
+        "year_10_exit_price": 1792274.4187230913,
+        "irr_roots": [
+          0.2439099011894449
+        ],
+        "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+        "gross_negative_cash": 0,
+        "unrestricted_cash_after_reserve": 5.256150000000002,
+        "external_funding_gap": 0,
+        "funding_only_new_shares_m": 0.0,
+        "funding_only_share_increase": 0.0,
+        "alternative_dilution_financing_value_per_share": 1023773.923419506,
+        "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+      }
+    },
+    "source_path": "companies/005380/analyses/2026-09-06-deep/valuation.json",
+    "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+    "model_family": "auto_finance_cash_partition",
+    "missing_data": [
+      "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "approved_for_trading": false
+  },
+  "total_score_100": 68,
+  "business_quality_75": 51,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "FILING_ECONOMIC_SHARE_BRIDGE",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "자동차·하이브리드·전동화 포트폴리오",
+        "response": "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "브랜드·생산·유통 효율은 고객가치 가설; 판매량 증가와 판촉 후 수익성은 분리",
+        "response": "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "H1 연결 OCF 4.850조원에서 PPE 4.004조원을 빼면 0.846조원이나 금융채권 변동이 포함되어 자동차 owner FCF로 해석할 수 없다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000KRW trillion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 383,500.00; Base/가격 1.22배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 1.6%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 58.9%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "차량 H1 영업이익 3.758조원·금융 1.338조원·기타 0.269조원을 분리했다. 금융부채 188.805조원을 자동차 영업가치에서 전액 차감하지 않는다.",
+      "보통주 204.758백만주와 우선주 60.632백만주의 경제적 배분을 함께 적용. 자사주 처분 시점 오차를 보수적으로 포함한 발행주식 분모이다. 금융 충당금·필요자본 이후 귀속 현금마진을 사용해 연결 현금흐름의 왜곡을 우회한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "H1 연결 OCF 4.850조원에서 PPE 4.004조원을 빼면 0.846조원이나 금융채권 변동이 포함되어 자동차 owner FCF로 해석할 수 없다.",
+    "falsifiers": [
+      "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "원자료 기반 연구 구성 완료: 8점수·반대근거·역산·3시나리오·9veto·10공격·반증·증감 조건·출처. 필수 투자 승인 게이트의 통과와 구분.",
+    "open_items": [],
+    "investment_gates_open": [
+      "low_quality_growth",
+      "incremental_roic_collapse",
+      "permanent_loss_probability"
+    ],
+    "explicit_model_uncertainties": [
+      "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "research_complete_is_not_investment_approval": true
+  }
+}

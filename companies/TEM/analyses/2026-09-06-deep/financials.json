@@ -1,0 +1,45 @@
+{
+  "revenue": 0.730602,
+  "operating_profit": -0.160624,
+  "ocf": -0.080802,
+  "cash_capex": 0.014327,
+  "sbc": 0.106827,
+  "additional_cash_investment": null,
+  "ticker": "TEM",
+  "period": "H1 2026",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": -0.21985157445503845,
+  "ocf_less_named_capex": -0.09512899999999999,
+  "ocf_less_capex_sbc_known_subtotal": -0.201956,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/TEM/raw-data/2026-Q2.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/TEM/raw-data/2026-Q2.json",
+      "sha256": "5fd335f342f45e977309c76bf1a133ffea7a28bbcc391c35ddeec9c0372197c0"
+    }
+  ],
+  "primary_or_quote_supplement": {
+    "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-reports-second-quarter-2026-results",
+    "location": "Balance sheets and H1 cash flows",
+    "facts": {
+      "class_a_shares": 175200077,
+      "class_b_shares": 5043789,
+      "h1_ocf_usd_m": -80.802,
+      "h1_sbc_usd_m": 106.827,
+      "convertible_promissory_note_liability_usd_m": 187.929
+    }
+  }
+}

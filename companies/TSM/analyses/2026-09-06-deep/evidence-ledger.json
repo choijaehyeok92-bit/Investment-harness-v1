@@ -1,0 +1,54 @@
+{
+  "ticker": "TSM",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [],
+  "financial_bridge": {
+    "revenue": 121.42346190627988,
+    "operating_profit": null,
+    "ocf": 72.52075231112528,
+    "cash_capex": 40.561396238444374,
+    "sbc": null,
+    "additional_cash_investment": null,
+    "ticker": "TSM",
+    "period": "FY2025 translated at 31.37 NTD/USD",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": null,
+    "ocf_less_named_capex": 31.959356072680905,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "operating_profit",
+      "sbc",
+      "additional_cash_investment"
+    ],
+    "translation_note": "NTD millions at disclosed approximate31.37 translation rate; not current spot FX. Native NTD amounts are the financial facts.",
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/TSM/valuation.json",
+      "companies/TSM/thesis.md"
+    ],
+    "sources": [
+      {
+        "path": "companies/TSM/valuation.json",
+        "sha256": "b818dd703c6aa605ba86e58e319af4ae02eb7e577a0cb985d0dec8de6e785158"
+      },
+      {
+        "path": "companies/TSM/thesis.md",
+        "sha256": "19636b93ef8f563bd7ce89166eede2b5e8a1327f7fb5e4163a8e415d89e9625b"
+      }
+    ]
+  },
+  "targeted_web_checks": [],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

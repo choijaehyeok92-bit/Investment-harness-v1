@@ -1,0 +1,34 @@
+{
+  "revenue": 78.959,
+  "operating_profit": 55.589,
+  "ocf": 45.702,
+  "cash_capex": 19.602,
+  "sbc": 0.918,
+  "additional_cash_investment": null,
+  "ticker": "MU",
+  "period": "Nine months FY2026 ended 2026-05-28",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.7040236071885408,
+  "ocf_less_named_capex": 26.099999999999998,
+  "ocf_less_capex_sbc_known_subtotal": 25.182,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/MU/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/MU/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "1ea1fb411729f28299eebba8d29f1164ba76dd7ab28f313e68842d038126a5e9"
+    }
+  ]
+}

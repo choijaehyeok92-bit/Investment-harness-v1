@@ -1,0 +1,768 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "KRW trillion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.13187604874997472,
+    "required_owner_margin_delta": 0.08179100240936979,
+    "price_reference": 1447000.0,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.1,
+    "implied_year_10_revenue": 17.68551960761067,
+    "implied_year_10_owner_cash": 5.659366274435414,
+    "residual_price": 6.984919309616089e-10
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.1,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 5.0,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.2,
+              "ownership": 1,
+              "attributable_cash": 1.2
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.2,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 5.300000000000001,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.272,
+              "ownership": 1,
+              "attributable_cash": 1.272
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.272,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 5.618,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.34832,
+              "ownership": 1,
+              "attributable_cash": 1.34832
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.34832,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 5.955080000000001,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.4292192000000001,
+              "ownership": 1,
+              "attributable_cash": 1.4292192000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.4292192000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 6.312384800000002,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.5149723520000005,
+              "ownership": 1,
+              "attributable_cash": 1.5149723520000005
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.5149723520000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 6.501756344000002,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.5604215225600004,
+              "ownership": 1,
+              "attributable_cash": 1.5604215225600004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.5604215225600004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 6.696809034320002,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.6072341682368003,
+              "ownership": 1,
+              "attributable_cash": 1.6072341682368003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.6072341682368003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 6.897713305349602,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.6554511932839044,
+              "ownership": 1,
+              "attributable_cash": 1.6554511932839044
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.6554511932839044,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 7.104644704510092,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.705114729082422,
+              "ownership": 1,
+              "attributable_cash": 1.705114729082422
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.705114729082422,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 7.317784045645394,
+              "owner_margin": 0.24,
+              "owner_cash_before_attribution": 1.7562681709548944,
+              "ownership": 1,
+              "attributable_cash": 1.7562681709548944
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.7562681709548944,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 8.950131347508595,
+      "pv_terminal": 10.833878524005385,
+      "separate_equity_value": -3,
+      "unfloored_equity_value": 16.78400987151398,
+      "equity_value": 16.78400987151398,
+      "value_per_share": 362576.4757244668,
+      "value_to_price": 0.250571164978899,
+      "upside_downside": -0.749428835021101,
+      "terminal_fraction_of_operating_pv": 0.5476078203744,
+      "year_10_revenue": 7.317784045645394,
+      "year_10_owner_cash": 1.7562681709548944,
+      "year_10_owner_cash_per_share": 37939.77295810783,
+      "year_10_exit_price": 607036.3673297253,
+      "irr_roots": [
+        -0.05394286897272543
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.08857563185299999,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 362576.4757244668,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.1,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 5.8,
+              "owner_margin": 0.3,
+              "owner_cash_before_attribution": 1.74,
+              "ownership": 1,
+              "attributable_cash": 1.74
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.74,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 6.553999999999999,
+              "owner_margin": 0.305,
+              "owner_cash_before_attribution": 1.9989699999999997,
+              "ownership": 1,
+              "attributable_cash": 1.9989699999999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.9989699999999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 7.406019999999998,
+              "owner_margin": 0.31,
+              "owner_cash_before_attribution": 2.2958661999999994,
+              "ownership": 1,
+              "attributable_cash": 2.2958661999999994
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.2958661999999994,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 8.368802599999997,
+              "owner_margin": 0.315,
+              "owner_cash_before_attribution": 2.636172818999999,
+              "ownership": 1,
+              "attributable_cash": 2.636172818999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.636172818999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 9.456746937999997,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 3.026159020159999,
+              "ownership": 1,
+              "attributable_cash": 3.026159020159999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.026159020159999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 10.118719223659998,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 3.2379901515711995,
+              "ownership": 1,
+              "attributable_cash": 3.2379901515711995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.2379901515711995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 10.827029569316197,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 3.464649462181183,
+              "ownership": 1,
+              "attributable_cash": 3.464649462181183
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.464649462181183,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 11.58492163916833,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 3.7071749245338657,
+              "ownership": 1,
+              "attributable_cash": 3.7071749245338657
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.7071749245338657,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 12.395866153910115,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 3.966677169251237,
+              "ownership": 1,
+              "attributable_cash": 3.966677169251237
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.966677169251237,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 13.263576784683824,
+              "owner_margin": 0.32,
+              "owner_cash_before_attribution": 4.244344571098824,
+              "ownership": 1,
+              "attributable_cash": 4.244344571098824
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.244344571098824,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 17.29206132415573,
+      "pv_terminal": 36.000328483103914,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 53.29238980725964,
+      "equity_value": 53.29238980725964,
+      "value_per_share": 1151248.541151372,
+      "value_to_price": 0.795610602039649,
+      "upside_downside": -0.20438939796035105,
+      "terminal_fraction_of_operating_pv": 0.6755247534085973,
+      "year_10_revenue": 13.263576784683824,
+      "year_10_owner_cash": 4.244344571098824,
+      "year_10_owner_cash_per_share": 91688.42893503795,
+      "year_10_exit_price": 2017145.436570835,
+      "irr_roots": [
+        0.07125317357132943
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.08857563185299999,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 1151248.541151372,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.1,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 6.5,
+              "owner_margin": 0.34,
+              "owner_cash_before_attribution": 2.21,
+              "ownership": 1,
+              "attributable_cash": 2.21
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.21,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 7.67,
+              "owner_margin": 0.35000000000000003,
+              "owner_cash_before_attribution": 2.6845000000000003,
+              "ownership": 1,
+              "attributable_cash": 2.6845000000000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.6845000000000003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 9.0506,
+              "owner_margin": 0.36,
+              "owner_cash_before_attribution": 3.2582159999999996,
+              "ownership": 1,
+              "attributable_cash": 3.2582159999999996
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.2582159999999996,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 10.679707999999998,
+              "owner_margin": 0.37,
+              "owner_cash_before_attribution": 3.9514919599999994,
+              "ownership": 1,
+              "attributable_cash": 3.9514919599999994
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.9514919599999994,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 12.602055439999997,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 4.788781067199999,
+              "ownership": 1,
+              "attributable_cash": 4.788781067199999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.788781067199999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 13.862260983999999,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 5.267659173919999,
+              "ownership": 1,
+              "attributable_cash": 5.267659173919999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.267659173919999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 15.248487082399999,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 5.794425091311999,
+              "ownership": 1,
+              "attributable_cash": 5.794425091311999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.794425091311999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 16.77333579064,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 6.373867600443201,
+              "ownership": 1,
+              "attributable_cash": 6.373867600443201
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.373867600443201,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 18.450669369704002,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 7.011254360487521,
+              "ownership": 1,
+              "attributable_cash": 7.011254360487521
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.011254360487521,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "continuing_cdmo",
+              "revenue": 20.295736306674403,
+              "owner_margin": 0.38,
+              "owner_cash_before_attribution": 7.712379796536273,
+              "ownership": 1,
+              "attributable_cash": 7.712379796536273
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.712379796536273,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 27.215291689713183,
+      "pv_terminal": 83.25677573042073,
+      "separate_equity_value": 1.5,
+      "unfloored_equity_value": 111.97206742013391,
+      "equity_value": 111.97206742013391,
+      "value_per_share": 2418875.9358202405,
+      "value_to_price": 1.6716488844645754,
+      "upside_downside": 0.6716488844645754,
+      "terminal_fraction_of_operating_pv": 0.753645493152479,
+      "year_10_revenue": 20.295736306674403,
+      "year_10_owner_cash": 7.712379796536273,
+      "year_10_owner_cash_per_share": 166606.6397412374,
+      "year_10_exit_price": 4664985.9127546465,
+      "irr_roots": [
+        0.16734037437187255
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 0.08857563185299999,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 2418875.9358202405,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 1221263.701709784
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0,
+      "value_per_share": 1348229.8253257477
+    },
+    {
+      "discount_rate": 0.08,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 1475195.948941711
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 1042770.3038869463
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0,
+      "value_per_share": 1151248.541151372
+    },
+    {
+      "discount_rate": 0.1,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 1259726.7784157973
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 894937.5415177603
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0,
+      "value_per_share": 988101.1149475895
+    },
+    {
+      "discount_rate": 0.12000000000000001,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 1081264.6883774183
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 974499.2486801702
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 1151248.541151372
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 1327997.8336225736
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.5273665364990299,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 1211840.5696330233
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 1151248.541151372
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 1096427.1820489257
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 1046589.5828648836
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "unclosed_transaction": {
+      "status": "CONDITIONAL",
+      "note": "46.291백만주 분할 후 분모를 사용한다. PolyPeptide 공개매수 총 현금은 조건부이며 본체 가치에 인수 매출을 공짜로 넣지 않는다. 환율·조달을 포함한 2.2~3.0조원 조건부 인수 현금 스트레스 적용.",
+      "acquired_business_incremental_npv_test": [
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+          "value_per_share": 789498.541151372
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+          "value_per_share": 1006548.541151372
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": 0,
+          "value_per_share": 1151248.541151372
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+          "value_per_share": 1295948.541151372
+        }
+      ],
+      "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+    }
+  }
+}

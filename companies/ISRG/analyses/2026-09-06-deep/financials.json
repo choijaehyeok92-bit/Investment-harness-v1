@@ -1,0 +1,77 @@
+{
+  "revenue": 11.0344,
+  "operating_profit": 3.4512,
+  "ocf": 3.7064,
+  "cash_capex": 0.4838,
+  "sbc": 0.8393,
+  "additional_cash_investment": null,
+  "ticker": "ISRG",
+  "period": "TTM through 2026-06-30",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.3127673457550932,
+  "ocf_less_named_capex": 3.2226,
+  "ocf_less_capex_sbc_known_subtotal": 2.3832999999999998,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "additional_cash_investment"
+  ],
+  "reported_company_fcf": 3.2226,
+  "source_pdf_checks": [
+    {
+      "uploaded_name": "ISRG 10-K.pdf",
+      "sha256": "b5cdfa25ecf5d1e558eef6216c56a54691308f674e60aac9bff0e95683bd8610",
+      "pdf_pages": [
+        95,
+        120
+      ],
+      "fy25_usd_m": {
+        "ocf": 3030.5,
+        "ppe": 539.8,
+        "income_statement_sbc": 802.8,
+        "capitalized_sbc": 126.8
+      }
+    },
+    {
+      "uploaded_name": "0001035267-26-000058.pdf",
+      "sha256": "e88cbab4eb8ac260b161200ab51a95bacae509b35c0536181942432c8c2dfe6c",
+      "pdf_pages": [
+        5,
+        23
+      ],
+      "h126_usd_m": {
+        "ocf": 1972.9,
+        "ppe": 215.9,
+        "income_statement_sbc": 426.1,
+        "capitalized_sbc": 67.8
+      },
+      "h125_usd_m": {
+        "ocf": 1297.0,
+        "ppe": 271.9,
+        "income_statement_sbc": 389.6,
+        "capitalized_sbc": 59.8
+      }
+    }
+  ],
+  "ttm_bridge": "FY25+H126−H125: OCF3706.4M, PPE483.8M, FCF3222.6M, income statement SBC839.3M, owner proxy2383.3M. Capitalized SBC134.8M is separate; inventory/amortization overlap not fully reconciled, so owner proxy remains incomplete.",
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/ISRG/valuation.json",
+    "companies/ISRG/thesis.md"
+  ],
+  "sources": [
+    {
+      "path": "companies/ISRG/valuation.json",
+      "sha256": "6f81cf10ec9bc3338315daf29cc92667d106b32d21843fed36a0e8f90181d750"
+    },
+    {
+      "path": "companies/ISRG/thesis.md",
+      "sha256": "42b095165507e53c84b357685db7412be147f2deb0c6b69f16690f2d8b153ae5"
+    }
+  ]
+}

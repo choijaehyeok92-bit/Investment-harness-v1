@@ -1,0 +1,745 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.34410264505071686,
+    "required_owner_margin_delta": 0.2858032773382523,
+    "price_reference": 278.92,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 50.11410354745031,
+    "implied_year_10_owner_cash": 9.020538638541057,
+    "residual_price": -2.8421709430404007e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 3.0,
+              "owner_margin": -0.07,
+              "owner_cash_before_attribution": -0.21000000000000002,
+              "ownership": 1,
+              "attributable_cash": -0.21000000000000002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -0.21000000000000002,
+          "cash_deficit": 0.21000000000000002,
+          "available_cash_used": 0.21000000000000002,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 3.4499999999999997,
+              "owner_margin": -0.035,
+              "owner_cash_before_attribution": -0.12075,
+              "ownership": 1,
+              "attributable_cash": -0.12075
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -0.12075,
+          "cash_deficit": 0.12075,
+          "available_cash_used": 0.12075,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 3.9674999999999994,
+              "owner_margin": 0.0,
+              "owner_cash_before_attribution": 0.0,
+              "ownership": 1,
+              "attributable_cash": 0.0
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.0,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 4.562624999999999,
+              "owner_margin": 0.035,
+              "owner_cash_before_attribution": 0.15969187499999998,
+              "ownership": 1,
+              "attributable_cash": 0.15969187499999998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.15969187499999998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 5.247018749999999,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.36729131249999997,
+              "ownership": 1,
+              "attributable_cash": 0.36729131249999997
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.36729131249999997,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 5.561839874999999,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.3893287912499999,
+              "ownership": 1,
+              "attributable_cash": 0.3893287912499999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.3893287912499999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 5.895550267499999,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.41268851872499995,
+              "ownership": 1,
+              "attributable_cash": 0.41268851872499995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.41268851872499995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 6.249283283549999,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.43744982984849995,
+              "ownership": 1,
+              "attributable_cash": 0.43744982984849995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.43744982984849995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 6.624240280563,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.46369681963941,
+              "ownership": 1,
+              "attributable_cash": 0.46369681963941
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.46369681963941,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 7.0216946973967795,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.49151862881777464,
+              "ownership": 1,
+              "attributable_cash": 0.49151862881777464
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.49151862881777464,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 1.1561122786351492,
+      "pv_terminal": 3.32196448965086,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 4.47807676828601,
+      "equity_value": 4.47807676828601,
+      "value_per_share": 12.581305838170909,
+      "value_to_price": 0.045107220128247916,
+      "upside_downside": -0.9548927798717521,
+      "terminal_fraction_of_operating_pv": 0.7418283923083228,
+      "year_10_revenue": 7.0216946973967795,
+      "year_10_owner_cash": 0.49151862881777464,
+      "year_10_owner_cash_per_share": 1.3809379593735154,
+      "year_10_exit_price": 22.095007349976246,
+      "irr_roots": [
+        -0.20949297714185416
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0.33075,
+      "unrestricted_cash_after_reserve": 2.1630000000000003,
+      "external_funding_gap": 0.0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 13.40813297501949,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 3.5,
+              "owner_margin": -0.04,
+              "owner_cash_before_attribution": -0.14,
+              "ownership": 1,
+              "attributable_cash": -0.14
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": -0.14,
+          "cash_deficit": 0.14,
+          "available_cash_used": 0.14,
+          "new_funding_required": 0.0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 4.48,
+              "owner_margin": 0.015,
+              "owner_cash_before_attribution": 0.06720000000000001,
+              "ownership": 1,
+              "attributable_cash": 0.06720000000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.06720000000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 5.7344,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.40140800000000004,
+              "ownership": 1,
+              "attributable_cash": 0.40140800000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.40140800000000004,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 7.340032000000001,
+              "owner_margin": 0.125,
+              "owner_cash_before_attribution": 0.9175040000000001,
+              "ownership": 1,
+              "attributable_cash": 0.9175040000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.9175040000000001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 9.39524096,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 1.6911433728,
+              "ownership": 1,
+              "attributable_cash": 1.6911433728
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.6911433728,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 10.6166222848,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 1.910992011264,
+              "ownership": 1,
+              "attributable_cash": 1.910992011264
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.910992011264,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 11.996783181823998,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 2.1594209727283196,
+              "ownership": 1,
+              "attributable_cash": 2.1594209727283196
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.1594209727283196,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 13.556364995461118,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 2.440145699183001,
+              "ownership": 1,
+              "attributable_cash": 2.440145699183001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.440145699183001,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 15.318692444871061,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 2.757364640076791,
+              "ownership": 1,
+              "attributable_cash": 2.757364640076791
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.757364640076791,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 17.310122462704296,
+              "owner_margin": 0.18,
+              "owner_cash_before_attribution": 3.1158220432867734,
+              "ownership": 1,
+              "attributable_cash": 3.1158220432867734
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.1158220432867734,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 8.118281621768832,
+      "pv_terminal": 28.955451875859076,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 37.073733497627906,
+      "equity_value": 37.073733497627906,
+      "value_per_share": 104.15988912915118,
+      "value_to_price": 0.3734400155211214,
+      "upside_downside": -0.6265599844788786,
+      "terminal_fraction_of_operating_pv": 0.7810233592392775,
+      "year_10_revenue": 17.310122462704296,
+      "year_10_owner_cash": 3.1158220432867734,
+      "year_10_owner_cash_per_share": 8.754005813730116,
+      "year_10_exit_price": 192.58812790206252,
+      "irr_roots": [
+        -0.01748116374226033
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0.14,
+      "unrestricted_cash_after_reserve": 2.1630000000000003,
+      "external_funding_gap": 0.0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 104.5207466183063,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 4.0,
+              "owner_margin": 0.0,
+              "owner_cash_before_attribution": 0.0,
+              "ownership": 1,
+              "attributable_cash": 0.0
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.0,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 5.6,
+              "owner_margin": 0.07,
+              "owner_cash_before_attribution": 0.392,
+              "ownership": 1,
+              "attributable_cash": 0.392
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 0.392,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 7.839999999999999,
+              "owner_margin": 0.14,
+              "owner_cash_before_attribution": 1.0976,
+              "ownership": 1,
+              "attributable_cash": 1.0976
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 1.0976,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 10.975999999999997,
+              "owner_margin": 0.21000000000000002,
+              "owner_cash_before_attribution": 2.3049599999999995,
+              "ownership": 1,
+              "attributable_cash": 2.3049599999999995
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.3049599999999995,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 15.366399999999997,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 4.302592,
+              "ownership": 1,
+              "attributable_cash": 4.302592
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.302592,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 18.439679999999996,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 5.163110399999999,
+              "ownership": 1,
+              "attributable_cash": 5.163110399999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.163110399999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 22.127615999999996,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 6.195732479999999,
+              "ownership": 1,
+              "attributable_cash": 6.195732479999999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.195732479999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 26.55313919999999,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 7.434878975999998,
+              "ownership": 1,
+              "attributable_cash": 7.434878975999998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.434878975999998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 31.863767039999992,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 8.921854771199998,
+              "ownership": 1,
+              "attributable_cash": 8.921854771199998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 8.921854771199998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "connectivity_security_workers",
+              "revenue": 38.236520447999986,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 10.706225725439998,
+              "ownership": 1,
+              "attributable_cash": 10.706225725439998
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 10.706225725439998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 24.43625065831023,
+      "pv_terminal": 126.62791252973376,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 151.064163188044,
+      "equity_value": 151.064163188044,
+      "value_per_share": 424.4197981857271,
+      "value_to_price": 1.5216542312696366,
+      "upside_downside": 0.5216542312696366,
+      "terminal_fraction_of_operating_pv": 0.8382392611019722,
+      "year_10_revenue": 38.236520447999986,
+      "year_10_owner_cash": 10.706225725439998,
+      "year_10_owner_cash_per_share": 30.07949778310964,
+      "year_10_exit_price": 842.22593792707,
+      "irr_roots": [
+        0.13914165532389078
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 2.1630000000000003,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 424.4197981857271,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 102.29527619916304
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 123.98387416269193
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 145.6724721262208
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 85.81579113645905
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 104.15988912915118
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 122.50398712184331
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 72.25941734299009
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 87.84680161047278
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 103.43418587795547
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 85.67095583241475
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 104.15988912915118
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 122.64882242588762
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.6467066559117602,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 109.64198855700126
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 104.15988912915118
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 99.19989440871541
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 94.69080829922834
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+  }
+}

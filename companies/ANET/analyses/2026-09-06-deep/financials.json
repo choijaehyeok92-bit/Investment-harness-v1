@@ -1,0 +1,32 @@
+{
+  "revenue": 9.0057,
+  "operating_profit": 3.8561,
+  "ocf": 4.3719,
+  "cash_capex": 0.1195,
+  "sbc": 0.4392,
+  "additional_cash_investment": 0.0,
+  "ticker": "ANET",
+  "period": "FY2025",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.4281843721198797,
+  "ocf_less_named_capex": 4.2524,
+  "ocf_less_capex_sbc_known_subtotal": 3.8131999999999997,
+  "owner_cash_proxy": 3.8131999999999997,
+  "owner_proxy_complete": true,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/ANET/raw-data/2025-2026-supplied-filings.json"
+  ],
+  "sources": [
+    {
+      "path": "companies/ANET/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "57217a1374e43626ddd1e96640782b90e431831e719e46c3782382e7085603ad"
+    }
+  ]
+}

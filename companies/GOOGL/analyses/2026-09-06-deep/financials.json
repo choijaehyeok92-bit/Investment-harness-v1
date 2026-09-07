@@ -1,0 +1,41 @@
+{
+  "revenue": 445.866,
+  "operating_profit": null,
+  "ocf": 185.675,
+  "cash_capex": 132.402,
+  "sbc": null,
+  "additional_cash_investment": null,
+  "ticker": "GOOGL",
+  "period": "TTM through 2026-06-30",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": null,
+  "ocf_less_named_capex": 53.273000000000025,
+  "ocf_less_capex_sbc_known_subtotal": null,
+  "owner_cash_proxy": null,
+  "owner_proxy_complete": false,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [
+    "operating_profit",
+    "sbc",
+    "additional_cash_investment"
+  ],
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/GOOGL/valuation.json",
+    "companies/GOOGL/thesis.md"
+  ],
+  "sources": [
+    {
+      "path": "companies/GOOGL/valuation.json",
+      "sha256": "3898361b476dbe51655ac17c9b67dc16fbc50e8a7a7e438f10c5e5414fb6c118"
+    },
+    {
+      "path": "companies/GOOGL/thesis.md",
+      "sha256": "365da24f8d37242414b1b42efef5ed4069c349a9d00fcd12b9ab3aad3aceb34c"
+    }
+  ]
+}

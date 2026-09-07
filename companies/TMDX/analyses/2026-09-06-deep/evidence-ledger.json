@@ -1,0 +1,81 @@
+{
+  "ticker": "TMDX",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-5db2fd082e9cfe4c899d",
+    "obs-70c8d6a69aec7a41b34f",
+    "obs-ed75540613a0f18c3c39",
+    "obs-cbe8f89976ccacdf80fc",
+    "obs-effe94be027065c8e57e",
+    "obs-116962c88592100965cb",
+    "obs-7a81807f4b478430ab4c",
+    "obs-07f6dd881cf59d12f9b8",
+    "obs-14a6f1fb108866abe2e4",
+    "obs-92086d55da39473fc701",
+    "obs-6a97aacd650194050818",
+    "obs-1f2cf9f1af920ec94714",
+    "obs-3a113164202e721aa5c0",
+    "obs-6416d22bd05d979af4f8",
+    "obs-d927e1003b5a43e69bca",
+    "obs-3f21bf29aaf61c877e70"
+  ],
+  "financial_bridge": {
+    "revenue": 0.363881,
+    "operating_profit": 0.037033,
+    "ocf": 0.041842,
+    "cash_capex": 0.043749,
+    "sbc": null,
+    "additional_cash_investment": null,
+    "ticker": "TMDX",
+    "period": "H1 2026",
+    "unit": "USD billion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.10177228269681572,
+    "ocf_less_named_capex": -0.001907000000000006,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc",
+      "additional_cash_investment"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/TMDX/raw-data/2026-Q2.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/TMDX/raw-data/2026-Q2.json",
+        "sha256": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://investors.transmedics.com/news-releases/news-release-details/transmedics-reports-second-quarter-2026-financial-results",
+      "location": "EPS table and cash flow statement",
+      "facts": {
+        "q2_diluted_shares": 40709227,
+        "h1_ocf_usd_m": 41.842
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://investors.transmedics.com/news-releases/news-release-details/transmedics-reports-second-quarter-2026-financial-results",
+      "location": "EPS table and cash flow statement",
+      "facts": {
+        "q2_diluted_shares": 40709227,
+        "h1_ocf_usd_m": 41.842
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

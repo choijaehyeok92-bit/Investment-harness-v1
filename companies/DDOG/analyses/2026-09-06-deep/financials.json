@@ -1,0 +1,38 @@
+{
+  "revenue": 3.966725,
+  "operating_profit": 0.016329,
+  "ocf": 1.229034,
+  "cash_capex": 0.156265,
+  "sbc": 0.850943,
+  "additional_cash_investment": 0.0,
+  "ticker": "DDOG",
+  "period": "TTM through 2026-06-30",
+  "unit": "USD billion",
+  "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+  "operating_margin": 0.004116494085171016,
+  "ocf_less_named_capex": 1.072769,
+  "ocf_less_capex_sbc_known_subtotal": 0.22182600000000008,
+  "owner_cash_proxy": 0.22182600000000008,
+  "owner_proxy_complete": true,
+  "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+  "missing_components": [],
+  "cash_capex_derivation": "OCF1.229034B−stored company FCF1.072769B=0.156265B; company-defined cash-investment bridge, not a new independent capex extraction.",
+  "incremental_roic": {
+    "value": null,
+    "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+  },
+  "source_paths": [
+    "companies/DDOG/valuation.json",
+    "companies/DDOG/thesis.md"
+  ],
+  "sources": [
+    {
+      "path": "companies/DDOG/valuation.json",
+      "sha256": "0491a0890ea4dabe26bc503d834ed449a029289736742ef26a558049217a8e3e"
+    },
+    {
+      "path": "companies/DDOG/thesis.md",
+      "sha256": "ca942242044a61c9844210243b884df813541211843d6b4fc1309c71ec4205c1"
+    }
+  ]
+}

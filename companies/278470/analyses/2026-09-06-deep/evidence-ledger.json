@@ -1,0 +1,153 @@
+{
+  "ticker": "278470",
+  "fact_definition": "reported assertion, not independently audited fact",
+  "selected_raw_observation_ids": [
+    "obs-1d6671967869afd009f4",
+    "obs-f0e432a20133d99b2a2c",
+    "obs-6e155d3a2e79198163ae",
+    "obs-7f5ac94d9d5494916c2b",
+    "obs-dc82c312b637cc7c4a97",
+    "obs-1b4258652fb57c2107f4",
+    "obs-333e9796e7aef448bf72",
+    "obs-e7b958f0df270ba1239b",
+    "obs-e906aeec8fd8b4e2fad9",
+    "obs-44c1bc19a82a2b15ac38",
+    "obs-61a9b16db0bd586aa266",
+    "obs-55e95289cfd54754c529",
+    "obs-933de583c0b602c54483",
+    "obs-66f2c26076d4d1566756",
+    "obs-d7edce156c9002434ac6",
+    "obs-b28d83df92ce5cf0e4c1",
+    "obs-ce7b05419e3a14d5794d",
+    "obs-8aff89dc6011aa19eddc",
+    "obs-0679ca3d540921340d33",
+    "obs-7de28a13349a81d2429d",
+    "obs-3ccc9283c79ae9566e8a",
+    "obs-571aabebf619fa63019a",
+    "obs-6cf31a5e88030316d7ec",
+    "obs-b2430fc777079fecd291",
+    "obs-5b3ab1285f8e9971afc9",
+    "obs-80c70ec53a3c6c540cc6",
+    "obs-24a14ce1e3bf1f6e5df6",
+    "obs-c97b04592c258dcdf87c",
+    "obs-86fa6cedca2eed335cc1",
+    "obs-1cedf41f4c201d2395a5",
+    "obs-05f9ed89965c4845e1a6",
+    "obs-e58e374f3542251cbf05",
+    "obs-89cff0154613accfb8d8",
+    "obs-f53f06643ecf61c17f3f",
+    "obs-563501b04b917d6c45b8",
+    "obs-679534b3481dc6ce33f2",
+    "obs-98108f64f0cefcd29872",
+    "obs-8db8389d3a15c274a397",
+    "obs-b33df3b058650cd918b0",
+    "obs-44009bef0aeab6ee58b1",
+    "obs-b1e45c80057e3abb6559",
+    "obs-ed657019281364daf1fa",
+    "obs-79d0253eb45d2b21f10c",
+    "obs-6bf7e9ec969f5b9d8096",
+    "obs-526c04b6cdfda7245f6e",
+    "obs-cd2bc5bcaba743451b45",
+    "obs-1dc26041f075a4eac34a",
+    "obs-6d592bbc79f2bbe790c7",
+    "obs-b6045d9a75a60bf31201",
+    "obs-8864b41946b9155cf937",
+    "obs-dcf9f8a5768d6be72626",
+    "obs-95a8aabad458a1c59f16",
+    "obs-0a9c3b26a7f1fbc6b8e0",
+    "obs-ea668f82769242f76022",
+    "obs-9624ef534327fe70481b",
+    "obs-c7d5b1752a0a3d142951",
+    "obs-70770e9eadcc554a4bbc",
+    "obs-9a073bb4715d6697485b",
+    "obs-92c8a3735c0c771172f9",
+    "obs-9f4aa1f428e5b2b78c43",
+    "obs-76bd0d479de5886f4224",
+    "obs-c71755ac137a60663521",
+    "obs-fda2dee19917c326917c",
+    "obs-aee5fa76eac95b44d50c",
+    "obs-b751d37ff36a507a1085",
+    "obs-1b6493e3498388c3f5e9",
+    "obs-d6792768068b672100f0",
+    "obs-1ca4e347c793668489f8",
+    "obs-4c98fb7128b9230e534e",
+    "obs-5d5311ea2228466ba22a",
+    "obs-9c38ff9529e8eb26a7be",
+    "obs-4d9667aa237c1f636345",
+    "obs-738e2d5d0378f66a96b9",
+    "obs-36cb6523aa0ac3665cf9",
+    "obs-4a9cea11904f9168bc4a",
+    "obs-dafb2c2c81df0c895ec2",
+    "obs-43333df608374697b43b",
+    "obs-2e015a0d3b96b2d972a0",
+    "obs-823978bef392235a81fe",
+    "obs-3f61a3a80d138a6caf4a",
+    "obs-e2fb5ac2f35f202963d3",
+    "obs-7adb38f139dd81233e00",
+    "obs-b78b19305c42cfb97b8e",
+    "obs-01717c35d445c4b7ec9f",
+    "obs-cdbf0ec5f99d5ab625b8",
+    "obs-2f21c950fe3f34b868da",
+    "obs-f7680d85efe509d6136d",
+    "obs-ce0999948e9f0be6b8d9",
+    "obs-b7d45fab23b92b6aef5b",
+    "obs-6a1914e6d68801d8ab46",
+    "obs-b7e50fdc0a886707360c"
+  ],
+  "financial_bridge": {
+    "revenue": 1.360888888861,
+    "operating_profit": 0.342824708032,
+    "ocf": 0.08640414957,
+    "cash_capex": 0.01679413478,
+    "sbc": null,
+    "additional_cash_investment": 0.00112721129,
+    "ticker": "278470",
+    "period": "H1 2026 restated",
+    "unit": "KRW trillion",
+    "source_status": "SELECTED_STORED_ASSERTIONS_WITH_TARGETED_PRIMARY_CHECKS",
+    "operating_margin": 0.2519123426152213,
+    "ocf_less_named_capex": 0.06961001479000001,
+    "ocf_less_capex_sbc_known_subtotal": null,
+    "owner_cash_proxy": null,
+    "owner_proxy_complete": false,
+    "unknown_treatment": "null is unknown. A known subtotal is not a complete owner-FCF when SBC, leases, intangibles or cash scope remain unknown.",
+    "missing_components": [
+      "sbc"
+    ],
+    "incremental_roic": {
+      "value": null,
+      "reason": "Matched parent-attributable NOPAT and economic invested-capital cohorts not fully available. Margin growth is not incremental ROIC. Evaluate reinvestment and per-share cash evidence without inventing this ratio."
+    },
+    "source_paths": [
+      "companies/278470/raw-data/2025-2026-supplied-filings.json"
+    ],
+    "sources": [
+      {
+        "path": "companies/278470/raw-data/2025-2026-supplied-filings.json",
+        "sha256": "8ebc1783c5b6e26efb84457511da6cfcd8441d2a9c30c2f063d1dd968f71f66b"
+      }
+    ],
+    "primary_or_quote_supplement": {
+      "url": "https://alphasquare.co.kr/home/stock-summary?code=278470",
+      "location": "2026-09-04 15:55:50 reference quote",
+      "facts": {
+        "price_krw": 394000
+      }
+    }
+  },
+  "targeted_web_checks": [
+    {
+      "url": "https://alphasquare.co.kr/home/stock-summary?code=278470",
+      "location": "2026-09-04 15:55:50 reference quote",
+      "facts": {
+        "price_krw": 394000
+      }
+    }
+  ],
+  "judgment_sources": [
+    "harness/deep_inputs.py",
+    "harness/deep_model.py"
+  ],
+  "full_raw_trace": "observations.json: immutable file hash, JSON pointer, source document, location and original units",
+  "source_limits": "Stored raw extractions can contain errors. Selected financial anchors and high-impact rights/cash corrections checked; not every page or contract independently re-audited."
+}

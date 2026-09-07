@@ -1,0 +1,1008 @@
+{
+  "schema_version": "1.0.0",
+  "unit": "USD billion",
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold base year-1 revenue, economic margins, rights and terminal multiple; solve growth for years 2–10 (milestone revenue paths: proportional growth stress). No unique market belief is observable.",
+    "required_growth_years_2_10": 0.10584103995423011,
+    "required_owner_margin_delta": 0.10239223654370253,
+    "price_reference": 546.12,
+    "source": "price-and-shares.json / model-inputs.json",
+    "horizon_years": 10,
+    "required_return": 0.09,
+    "implied_year_10_revenue": 34.62281431222565,
+    "implied_year_10_owner_cash": 9.694388007423182,
+    "residual_price": -6.821210263296962e-13
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "case": "bear",
+      "required_return": 0.09,
+      "terminal_multiple": 18,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 12.48,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 2.4960000000000004,
+              "ownership": 1,
+              "attributable_cash": 2.4960000000000004
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.52,
+              "owner_margin": 0.2,
+              "owner_cash_before_attribution": 0.10400000000000001,
+              "ownership": 1,
+              "attributable_cash": 0.10400000000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.6000000000000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 12.48,
+              "owner_margin": 0.2015,
+              "owner_cash_before_attribution": 2.51472,
+              "ownership": 1,
+              "attributable_cash": 2.51472
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.7124,
+              "owner_margin": 0.164,
+              "owner_cash_before_attribution": 0.11683360000000001,
+              "ownership": 1,
+              "attributable_cash": 0.11683360000000001
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.6315536,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 12.48,
+              "owner_margin": 0.203,
+              "owner_cash_before_attribution": 2.53344,
+              "ownership": 1,
+              "attributable_cash": 2.53344
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.9759880000000002,
+              "owner_margin": 0.128,
+              "owner_cash_before_attribution": 0.12492646400000003,
+              "ownership": 1,
+              "attributable_cash": 0.12492646400000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.658366464,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 12.48,
+              "owner_margin": 0.20450000000000002,
+              "owner_cash_before_attribution": 2.55216,
+              "ownership": 1,
+              "attributable_cash": 2.55216
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 1.3371035600000003,
+              "owner_margin": 0.092,
+              "owner_cash_before_attribution": 0.12301352752000003,
+              "ownership": 1,
+              "attributable_cash": 0.12301352752000003
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.67517352752,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 12.48,
+              "owner_margin": 0.20600000000000002,
+              "owner_cash_before_attribution": 2.5708800000000003,
+              "ownership": 1,
+              "attributable_cash": 2.5708800000000003
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 1.8318318772000006,
+              "owner_margin": 0.055999999999999994,
+              "owner_cash_before_attribution": 0.10258258512320002,
+              "ownership": 1,
+              "attributable_cash": 0.10258258512320002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.6734625851232003,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 12.1056,
+              "owner_margin": 0.20600000000000002,
+              "owner_cash_before_attribution": 2.4937536000000002,
+              "ownership": 1,
+              "attributable_cash": 2.4937536000000002
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 2.0882883400080003,
+              "owner_margin": 0.055999999999999994,
+              "owner_cash_before_attribution": 0.116944147040448,
+              "ownership": 1,
+              "attributable_cash": 0.116944147040448
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.610697747040448,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 11.742431999999999,
+              "owner_margin": 0.20600000000000002,
+              "owner_cash_before_attribution": 2.418940992,
+              "ownership": 1,
+              "attributable_cash": 2.418940992
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 2.3806487076091205,
+              "owner_margin": 0.055999999999999994,
+              "owner_cash_before_attribution": 0.13331632762611073,
+              "ownership": 1,
+              "attributable_cash": 0.13331632762611073
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.552257319626111,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 11.39015904,
+              "owner_margin": 0.20600000000000002,
+              "owner_cash_before_attribution": 2.34637276224,
+              "ownership": 1,
+              "attributable_cash": 2.34637276224
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 2.713939526674397,
+              "owner_margin": 0.055999999999999994,
+              "owner_cash_before_attribution": 0.1519806134937662,
+              "ownership": 1,
+              "attributable_cash": 0.1519806134937662
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.498353375733766,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 11.048454268799999,
+              "owner_margin": 0.20600000000000002,
+              "owner_cash_before_attribution": 2.2759815793727998,
+              "ownership": 1,
+              "attributable_cash": 2.2759815793727998
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 3.0938910604088123,
+              "owner_margin": 0.055999999999999994,
+              "owner_cash_before_attribution": 0.17325789938289346,
+              "ownership": 1,
+              "attributable_cash": 0.17325789938289346
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.4492394787556933,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 10.717000640736,
+              "owner_margin": 0.20600000000000002,
+              "owner_cash_before_attribution": 2.207702131991616,
+              "ownership": 1,
+              "attributable_cash": 2.207702131991616
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 3.5270358088660454,
+              "owner_margin": 0.055999999999999994,
+              "owner_cash_before_attribution": 0.1975140052964985,
+              "ownership": 1,
+              "attributable_cash": 0.1975140052964985
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 2.4052161372881145,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 16.636093820140285,
+      "pv_terminal": 18.287807207587278,
+      "separate_equity_value": -8.8,
+      "unfloored_equity_value": 26.123901027727566,
+      "equity_value": 26.123901027727566,
+      "value_per_share": 102.0464883895608,
+      "value_to_price": 0.18685726285351353,
+      "upside_downside": -0.8131427371464864,
+      "terminal_fraction_of_operating_pv": 0.5236473208725397,
+      "year_10_revenue": 14.244036449602046,
+      "year_10_owner_cash": 2.4052161372881145,
+      "year_10_owner_cash_per_share": 9.395375536281698,
+      "year_10_exit_price": 169.11675965307055,
+      "irr_roots": [
+        -0.08523366147050021
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 8.6415,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 102.04648838956079,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "case": "base",
+      "required_return": 0.09,
+      "terminal_multiple": 25,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 13.44,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 3.36,
+              "ownership": 1,
+              "attributable_cash": 3.36
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.56,
+              "owner_margin": 0.25,
+              "owner_cash_before_attribution": 0.14,
+              "ownership": 1,
+              "attributable_cash": 0.14
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.5,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 14.3808,
+              "owner_margin": 0.2596,
+              "owner_cash_before_attribution": 3.73325568,
+              "ownership": 1,
+              "attributable_cash": 3.73325568
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.8064,
+              "owner_margin": 0.2071,
+              "owner_cash_before_attribution": 0.16700544,
+              "ownership": 1,
+              "attributable_cash": 0.16700544
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 3.90026112,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 15.387456,
+              "owner_margin": 0.2692,
+              "owner_cash_before_attribution": 4.1423031552,
+              "ownership": 1,
+              "attributable_cash": 4.1423031552
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 1.161216,
+              "owner_margin": 0.1642,
+              "owner_cash_before_attribution": 0.1906716672,
+              "ownership": 1,
+              "attributable_cash": 0.1906716672
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.3329748224,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 16.46457792,
+              "owner_margin": 0.27880000000000005,
+              "owner_cash_before_attribution": 4.5903243240960006,
+              "ownership": 1,
+              "attributable_cash": 4.5903243240960006
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 1.67215104,
+              "owner_margin": 0.12130000000000002,
+              "owner_cash_before_attribution": 0.20283192115200002,
+              "ownership": 1,
+              "attributable_cash": 0.20283192115200002
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.793156245248,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 17.6170983744,
+              "owner_margin": 0.28840000000000005,
+              "owner_cash_before_attribution": 5.080771171176961,
+              "ownership": 1,
+              "attributable_cash": 5.080771171176961
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 2.4078974976,
+              "owner_margin": 0.07840000000000003,
+              "owner_cash_before_attribution": 0.18877916381184007,
+              "ownership": 1,
+              "attributable_cash": 0.18877916381184007
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.269550334988801,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 18.145611325632,
+              "owner_margin": 0.28840000000000005,
+              "owner_cash_before_attribution": 5.23319430631227,
+              "ownership": 1,
+              "attributable_cash": 5.23319430631227
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 2.88947699712,
+              "owner_margin": 0.07840000000000003,
+              "owner_cash_before_attribution": 0.2265349965742081,
+              "ownership": 1,
+              "attributable_cash": 0.2265349965742081
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.459729302886478,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 18.689979665400962,
+              "owner_margin": 0.28840000000000005,
+              "owner_cash_before_attribution": 5.390190135501638,
+              "ownership": 1,
+              "attributable_cash": 5.390190135501638
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 3.467372396544,
+              "owner_margin": 0.07840000000000003,
+              "owner_cash_before_attribution": 0.27184199588904967,
+              "ownership": 1,
+              "attributable_cash": 0.27184199588904967
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.662032131390688,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 19.25067905536299,
+              "owner_margin": 0.28840000000000005,
+              "owner_cash_before_attribution": 5.551895839566687,
+              "ownership": 1,
+              "attributable_cash": 5.551895839566687
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 4.160846875852799,
+              "owner_margin": 0.07840000000000003,
+              "owner_cash_before_attribution": 0.32621039506685956,
+              "ownership": 1,
+              "attributable_cash": 0.32621039506685956
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.878106234633547,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 19.828199427023883,
+              "owner_margin": 0.28840000000000005,
+              "owner_cash_before_attribution": 5.718452714753688,
+              "ownership": 1,
+              "attributable_cash": 5.718452714753688
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 4.99301625102336,
+              "owner_margin": 0.07840000000000003,
+              "owner_cash_before_attribution": 0.3914524740802316,
+              "ownership": 1,
+              "attributable_cash": 0.3914524740802316
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.1099051888339195,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 20.423045409834597,
+              "owner_margin": 0.28840000000000005,
+              "owner_cash_before_attribution": 5.890006296196298,
+              "ownership": 1,
+              "attributable_cash": 5.890006296196298
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 5.991619501228031,
+              "owner_margin": 0.07840000000000003,
+              "owner_cash_before_attribution": 0.46974296889627776,
+              "ownership": 1,
+              "attributable_cash": 0.46974296889627776
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.359749265092576,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 31.46247525756455,
+      "pv_terminal": 67.16067046805048,
+      "separate_equity_value": 0,
+      "unfloored_equity_value": 98.62314572561503,
+      "equity_value": 98.62314572561503,
+      "value_per_share": 385.2466629906837,
+      "value_to_price": 0.705424930401164,
+      "upside_downside": -0.29457506959883595,
+      "terminal_fraction_of_operating_pv": 0.680982846104929,
+      "year_10_revenue": 26.414664911062626,
+      "year_10_owner_cash": 6.359749265092576,
+      "year_10_owner_cash_per_share": 24.842770566767875,
+      "year_10_exit_price": 621.0692641691969,
+      "irr_roots": [
+        0.046886859191779595
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 8.6415,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 385.2466629906837,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "case": "bull",
+      "required_return": 0.09,
+      "terminal_multiple": 30,
+      "rows": [
+        {
+          "year": 1,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 14.399999999999999,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 4.032,
+              "ownership": 1,
+              "attributable_cash": 4.032
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.6,
+              "owner_margin": 0.28,
+              "owner_cash_before_attribution": 0.168,
+              "ownership": 1,
+              "attributable_cash": 0.168
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 4.2,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 2,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 16.272,
+              "owner_margin": 0.29755000000000004,
+              "owner_cash_before_attribution": 4.8417336,
+              "ownership": 1,
+              "attributable_cash": 4.8417336
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 0.8999999999999999,
+              "owner_margin": 0.2338,
+              "owner_cash_before_attribution": 0.21042,
+              "ownership": 1,
+              "attributable_cash": 0.21042
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 5.0521536000000005,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 3,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 18.387359999999994,
+              "owner_margin": 0.31510000000000005,
+              "owner_cash_before_attribution": 5.793857135999999,
+              "ownership": 1,
+              "attributable_cash": 5.793857135999999
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 1.3499999999999999,
+              "owner_margin": 0.18760000000000002,
+              "owner_cash_before_attribution": 0.25326,
+              "ownership": 1,
+              "attributable_cash": 0.25326
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 6.047117135999999,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 4,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 20.777716799999993,
+              "owner_margin": 0.33265,
+              "owner_cash_before_attribution": 6.911707493519998,
+              "ownership": 1,
+              "attributable_cash": 6.911707493519998
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 2.025,
+              "owner_margin": 0.14140000000000003,
+              "owner_cash_before_attribution": 0.28633500000000006,
+              "ownership": 1,
+              "attributable_cash": 0.28633500000000006
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 7.198042493519998,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 5,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 23.47881998399999,
+              "owner_margin": 0.3502,
+              "owner_cash_before_attribution": 8.222282758396798,
+              "ownership": 1,
+              "attributable_cash": 8.222282758396798
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 3.0375,
+              "owner_margin": 0.0952,
+              "owner_cash_before_attribution": 0.28917000000000004,
+              "ownership": 1,
+              "attributable_cash": 0.28917000000000004
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 8.511452758396798,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 6,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 24.88754918303999,
+              "owner_margin": 0.3502,
+              "owner_cash_before_attribution": 8.715619723900605,
+              "ownership": 1,
+              "attributable_cash": 8.715619723900605
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 3.736125,
+              "owner_margin": 0.0952,
+              "owner_cash_before_attribution": 0.3556791,
+              "ownership": 1,
+              "attributable_cash": 0.3556791
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 9.071298823900605,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 7,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 26.380802134022392,
+              "owner_margin": 0.3502,
+              "owner_cash_before_attribution": 9.238556907334642,
+              "ownership": 1,
+              "attributable_cash": 9.238556907334642
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 4.59543375,
+              "owner_margin": 0.0952,
+              "owner_cash_before_attribution": 0.437485293,
+              "ownership": 1,
+              "attributable_cash": 0.437485293
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 9.676042200334642,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 8,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 27.963650262063734,
+              "owner_margin": 0.3502,
+              "owner_cash_before_attribution": 9.79287032177472,
+              "ownership": 1,
+              "attributable_cash": 9.79287032177472
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 5.652383512499999,
+              "owner_margin": 0.0952,
+              "owner_cash_before_attribution": 0.5381069103899999,
+              "ownership": 1,
+              "attributable_cash": 0.5381069103899999
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 10.33097723216472,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 9,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 29.641469277787564,
+              "owner_margin": 0.3502,
+              "owner_cash_before_attribution": 10.380442541081205,
+              "ownership": 1,
+              "attributable_cash": 10.380442541081205
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 6.9524317203749995,
+              "owner_margin": 0.0952,
+              "owner_cash_before_attribution": 0.6618714997797,
+              "ownership": 1,
+              "attributable_cash": 0.6618714997797
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 11.042314040860905,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        },
+        {
+          "year": 10,
+          "components": [
+            {
+              "component": "CF_franchise",
+              "revenue": 31.419957434454815,
+              "owner_margin": 0.3502,
+              "owner_cash_before_attribution": 11.003269093546077,
+              "ownership": 1,
+              "attributable_cash": 11.003269093546077
+            },
+            {
+              "component": "Approved_nonCF_launches",
+              "revenue": 8.551491016061249,
+              "owner_margin": 0.0952,
+              "owner_cash_before_attribution": 0.814101944729031,
+              "ownership": 1,
+              "attributable_cash": 0.814101944729031
+            }
+          ],
+          "special_cash_adjustment": 0,
+          "owner_cash": 11.817371038275109,
+          "cash_deficit": 0,
+          "available_cash_used": 0,
+          "new_funding_required": 0
+        }
+      ],
+      "pv_interim_owner_cash": 49.36891465331446,
+      "pv_terminal": 149.753557069906,
+      "separate_equity_value": 4.4,
+      "unfloored_equity_value": 203.5224717232205,
+      "equity_value": 203.5224717232205,
+      "value_per_share": 795.00965516883,
+      "value_to_price": 1.4557416962734016,
+      "upside_downside": 0.45574169627340155,
+      "terminal_fraction_of_operating_pv": 0.7520675882231058,
+      "year_10_revenue": 39.971448450516064,
+      "year_10_owner_cash": 11.817371038275109,
+      "year_10_owner_cash_per_share": 46.16160561826214,
+      "year_10_exit_price": 1384.8481685478644,
+      "irr_roots": [
+        0.13879396051802873
+      ],
+      "irr_note": "Annual distributable cash plus terminal proceeds; separate stake mark treated as time-zero value-equivalent. Capital calls allowed; all sign-change roots -99% to 1000% searched; not a promised shareholder return.",
+      "gross_negative_cash": 0,
+      "unrestricted_cash_after_reserve": 8.6415,
+      "external_funding_gap": 0,
+      "funding_only_new_shares_m": 0.0,
+      "funding_only_share_increase": 0.0,
+      "alternative_dilution_financing_value_per_share": 795.00965516883,
+      "funding_note": "Separate alternative, NOT an extra haircut on primary PV. Issue price is assumed, cash is not double-added, future SBC cash cost is already in margins. M&A/conversion separately stress-tested."
+    }
+  },
+  "sensitivity": [
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 396.22344098911697
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0,
+      "value_per_share": 451.5404489400781
+    },
+    {
+      "discount_rate": 0.06999999999999999,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 506.85745689103913
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 338.11222904148883
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0,
+      "value_per_share": 385.2466629906837
+    },
+    {
+      "discount_rate": 0.09,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 432.3810969398786
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": -0.03,
+      "value_per_share": 290.0628170019705
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0,
+      "value_per_share": 330.4367851520026
+    },
+    {
+      "discount_rate": 0.11,
+      "owner_margin_delta": 0.03,
+      "value_per_share": 370.8107533020347
+    }
+  ],
+  "terminal_sensitivity": [
+    {
+      "terminal_multiple_delta": -5,
+      "value_per_share": 332.77738918751925
+    },
+    {
+      "terminal_multiple_delta": 0,
+      "value_per_share": 385.2466629906837
+    },
+    {
+      "terminal_multiple_delta": 5,
+      "value_per_share": 437.71593679384813
+    }
+  ],
+  "break_even_bull_probability_in_two_outcome_pv_test": 0.6408327785651134,
+  "probability_note": "An algebraic threshold, NOT an estimated likelihood; values outside [0,1] mean no feasible two-outcome probability clears current price.",
+  "method_limits": [
+    "Owner margins, reinvestment and terminal multiples are explicit analyst estimates, not management forecasts.",
+    "No opening excess-cash distribution included in operating PV. Liquidity is tested separately; no EV/FCFE net-debt double count.",
+    "Primary signed cash model is current-owner capital-call equivalent when deficits occur; it is not a financing commitment.",
+    "Price and filing share dates differ; a reference snapshot, not synchronized executable market capitalization."
+  ],
+  "special_tests": {
+    "share_denominator_sensitivity": [
+      {
+        "share_change": -0.05,
+        "value_per_share": 405.52280314808814
+      },
+      {
+        "share_change": 0,
+        "value_per_share": 385.2466629906837
+      },
+      {
+        "share_change": 0.05,
+        "value_per_share": 366.90158380065117
+      },
+      {
+        "share_change": 0.1,
+        "value_per_share": 350.22423908243974
+      }
+    ],
+    "model_basis": "Separate alternatives; do not stack all tests as if independent losses.",
+    "unclosed_transaction": {
+      "status": "CONDITIONAL",
+      "note": "13.6415B 현금·증권과 8.8B Crinetics 거래는 별도. 4.5B term loan/0.5B revolver는 약정 용량과 6월 실제 차입을 구분한다. 매수대가 차감·신약 가치를 상쇄하는 증분 NPV 범위를 사용한다.",
+      "acquired_business_incremental_npv_test": [
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": -0.25,
+          "value_per_share": 248.71666299068372
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": -0.1,
+          "value_per_share": 330.6346629906837
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": 0,
+          "value_per_share": 385.2466629906837
+        },
+        {
+          "incremental_value_change_as_fraction_of_reference_equity": 0.1,
+          "value_per_share": 439.85866299068374
+        }
+      ],
+      "interpretation": "Price paid, new debt and dilution must be offset by acquired cash value. Standalone and completion risks explicitly separate; no unclosed revenue asserted as fact."
+    }
+  }
+}

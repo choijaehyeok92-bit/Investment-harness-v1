@@ -1,0 +1,86 @@
+{
+  "ticker": "000660",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 1647000.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 746.66,
+  "liquidity_cash": 87.957923,
+  "minimum_cash_reserve": 25.0,
+  "quality_scores": [
+    13,
+    9,
+    13,
+    10,
+    7,
+    9
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 12,
+    "base": 17,
+    "bull": 22
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "memory",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 200.0,
+          "growth_2_5": -0.02,
+          "growth_6_10": 0.02,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.1,
+          "year_2_reset": 0.65
+        },
+        "base": {
+          "revenue_year_1": 250.0,
+          "growth_2_5": 0.07,
+          "growth_6_10": 0.04,
+          "owner_margin_year_1": 0.35,
+          "owner_margin_mature": 0.18,
+          "year_2_reset": 0.8
+        },
+        "bull": {
+          "revenue_year_1": 300.0,
+          "growth_2_5": 0.13,
+          "growth_6_10": 0.07,
+          "owner_margin_year_1": 0.42,
+          "owner_margin_mature": 0.25,
+          "year_2_reset": 0.95
+        }
+      }
+    }
+  ],
+  "financial_finding": "메모리 최고 마진을 정상화한다. FY25/H1 비교로 계산한 TTM OCF−유형자산 취득은 91.794조원이다. 과거 27.823조원을 현재 FCF로 재사용하지 않는다.",
+  "economic_risk": "H1 영업이익률 약 74.4%는 장기 정상치가 아니다. HBM 세대 전환, 경쟁 공급·고객의 재고 축적, 투자 후 D&A 상승을 동시에 스트레스한다.",
+  "rights_and_capital": "7월 신주 17.79백만주와 조달 39.89조원은 6월 결산 후 사건. 8월 환매 계획 24.07백만주는 체결·소각 전 미차감. 728.87백만+17.79백만의 추정 분모를 사용하며 주식등기 정밀 대조 오차 ±2%를 병기한다.",
+  "model_family": "memory_cycle",
+  "falsifier": "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다.",
+  "investigate_veto_indices": [
+    4,
+    6,
+    8
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.35,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": -0.055,
+    "working_capital_cash_cost_to_revenue": 0.02,
+    "interest_net_debt_service_other_claims_to_revenue": 0.0075
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

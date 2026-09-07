@@ -1,0 +1,88 @@
+{
+  "ticker": "214450",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 386500.0,
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 10.3896,
+  "liquidity_cash": 0.220289875319,
+  "minimum_cash_reserve": 0.1,
+  "quality_scores": [
+    12,
+    8,
+    10,
+    10,
+    7,
+    8
+  ],
+  "required_return": 0.1,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "funding_issue_price_fraction": {
+    "bear": 0.35,
+    "base": 0.6,
+    "bull": 0.85
+  },
+  "components": [
+    {
+      "name": "regenerative_aesthetics",
+      "ownership": 1,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 0.65,
+          "growth_2_5": 0.08,
+          "growth_6_10": 0.03,
+          "owner_margin_year_1": 0.17,
+          "owner_margin_mature": 0.17
+        },
+        "base": {
+          "revenue_year_1": 0.78,
+          "growth_2_5": 0.18,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": 0.22,
+          "owner_margin_mature": 0.25
+        },
+        "bull": {
+          "revenue_year_1": 0.9,
+          "growth_2_5": 0.25,
+          "growth_6_10": 0.12,
+          "owner_margin_year_1": 0.26,
+          "owner_margin_mature": 0.3
+        }
+      }
+    }
+  ],
+  "financial_finding": "TTM 매출 0.604조원·OCF−PPE 0.138조원. H1 이익 확대에 비해 영업현금은 0.075조원에서 0.064조원으로 감소했다.",
+  "economic_risk": "리쥬란 브랜드와 의료기관 채널의 반복 수요를 인정하되 경쟁 제품·국가별 규제·소비자 유행을 해자와 구분한다.",
+  "rights_and_capital": "차입·사채 0.214조원 대부분은 RCPS 0.207조원이다. 전환상환우선권을 부채 차감과 전환주식 증가로 동시에 반영하지 않는다. 기본 모델은 상환 현금 비용, 전환은 별도 권리 민감도이다.",
+  "model_family": "preferred_claim",
+  "falsifier": "매출 확대에도 매출채권·재고가 더 빨리 늘고 시술 단가·재구매율이 하락하여 주당 현금이 두 반기 악화하면 재검토.",
+  "investigate_veto_indices": [
+    2,
+    4,
+    7
+  ],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.38,
+    "cash_tax_rate": 0.25,
+    "da_less_all_capex_to_revenue": -0.02,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0.005
+  },
+  "cash_bridge_note": "모든 수치는 추정. 경제적 영업마진은 SBC를 포함한다. D&A−전체 현금투자에는 리스 유지 원금·자본화 개발비 등 필요한 반복 투자를 포함한다. 금융기업 운전자본에는 대손·필요 금융자본 재투자 포함. Bear/Bull은 성숙 owner margin과 초기 회수 속도를 동시 스트레스한다.",
+  "separate_equity_value": {
+    "bear": -0.28,
+    "base": -0.207259,
+    "bull": -0.207259
+  },
+  "share_basis_status": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+  "liquidity_basis_status": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_06_THEN_NINE_YEARS; not a mechanical annualisation labeled TTM",
+  "portfolio_instruction": "기업 연구 완료는 신규 매수 승인 아님. 보유·세금·위험예산 정보 없이 매매나 배분을 실행하지 않는다."
+}

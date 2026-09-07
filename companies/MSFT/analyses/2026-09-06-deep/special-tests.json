@@ -1,0 +1,21 @@
+{
+  "share_denominator_sensitivity": [
+    {
+      "share_change": -0.05,
+      "value_per_share": 482.97409451122684
+    },
+    {
+      "share_change": 0,
+      "value_per_share": 458.8253897856655
+    },
+    {
+      "share_change": 0.05,
+      "value_per_share": 436.9765617006338
+    },
+    {
+      "share_change": 0.1,
+      "value_per_share": 417.1139907142413
+    }
+  ],
+  "model_basis": "Separate alternatives; do not stack all tests as if independent losses."
+}

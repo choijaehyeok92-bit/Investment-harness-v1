@@ -1,0 +1,11 @@
+{
+  "ticker": "196170",
+  "price": 288500.0,
+  "currency": "KRW",
+  "price_date": "2026-09-04",
+  "price_status": "REFERENCE_QUOTE_NOT_SYNCHRONIZED_EXECUTABLE_CLOSE",
+  "price_source_note": "Session web finance quote retrieved2026-09-06, US latest reference Sept4/Sept5UTC; KR official IR/market-reference sites or preserved September4 screening snapshot. No provider market capitalization used. Source-specific checks in evidence-ledger.json; not all quotes independently exchange-audited.",
+  "valuation_shares_m": 69.655133,
+  "share_basis_status": "FILING_ECONOMIC_SHARE_BRIDGE",
+  "rights_and_capital": "8월 무상증자 후 보통주 69.655백만주; RCPS 0.529백만주 별도. 회사 표기 차입 0.179조원을 0.007조원으로 축소하지 않는다. 현금흐름 모델에 우선권 비용을 반영하고 원금은 시나리오 별도 차감한다."
+}

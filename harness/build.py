@@ -274,6 +274,12 @@ def main():
     files={p:s for p,s in files.items() if p.startswith(args.prefix)}
     if args.emit: print(dumps(files))
     elif args.check:
+        # Dated initial-run artifacts remain reproducible. Current pointers are
+        # checked by their declared run's renderer, not overwritten by history.
+        if (ROOT/'reviews/latest.json').exists() and read('reviews/latest.json')['directory']!=DIRECTORY:
+            from .deep_inputs import inputs
+            superseded={'registry/companies.json','reviews/latest.json'}|{f'companies/{t}/latest.json' for t in inputs()}
+            files={p:s for p,s in files.items() if p not in superseded}
         mismatch=[p for p,s in files.items() if not (ROOT/p).exists() or (ROOT/p).read_text()!=s]
         if mismatch: raise SystemExit('NONREPRODUCIBLE: '+', '.join(mismatch))
         print(f'REPRODUCIBLE: {len(files)} generated artifacts; {len(ds)} issuer reviews')
