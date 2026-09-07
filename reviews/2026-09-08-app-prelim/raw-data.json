@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0.0-research-checkpoint",
+  "ticker": "APP",
+  "company": "AppLovin Corporation",
+  "as_of": "2026-09-08",
+  "mode": "DATA_EXTRACTION_ONLY_WITH_SEPARATE_DERIVED_METRICS",
+  "authority_status": "NON_CURRENT_RESEARCH_CHECKPOINT",
+  "source_resolution": [
+    {
+      "source_id": "2026_PROXY_ADDITIONAL_MATERIALS",
+      "file": "34a04707-75d9-4596-829d-7342582f6709(1).pdf",
+      "sha256": "0718114165d9fc304181db8dd1c38161f4bde58dd863c96e2ba3455657714cee",
+      "pages": 3,
+      "source_character": "SEC Schedule 14A definitive additional materials",
+      "confidence": "high"
+    },
+    {
+      "source_id": "2026_DEFINITIVE_PROXY",
+      "file": "91bfafdb-dd0b-48f4-9d2f-c26b0ab15eb5(1).pdf",
+      "sha256": "8a6889dba8d1e42985abebea5191c0aa043225a2f2e7d461d072c456ffecb032",
+      "pages": 80,
+      "source_character": "SEC Schedule 14A definitive proxy statement",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM4_MATTHEW_STUMPF",
+      "file": "455ba2f0-8082-4fbd-b71e-372ce1f35784(1).pdf",
+      "sha256": "4a95cf74eb08399b3751df9f3f4784b75306a05af92e5f8f9ea283654060ac17",
+      "pages": 2,
+      "transaction_date": "2026-08-20",
+      "source_character": "SEC Form 4",
+      "confidence": "high"
+    },
+    {
+      "source_id": "Q2_2026_8K_EARNINGS",
+      "file": "2005afa6-211d-41fb-ae92-f3d1d7ca9a82(1).pdf",
+      "sha256": "eef3dedbe0ea971699c52a671ad7b40126b3266c4117d1c4c87c5e61ecf7cef4",
+      "pages": 11,
+      "report_date": "2026-08-05",
+      "source_character": "Form 8-K plus Exhibit 99.1 Q2 2026 earnings release and interim financial tables",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM4_ADAM_FOROUGHI",
+      "file": "97193ea5-3e93-4080-b9d1-e9a3308d65c9(1).pdf",
+      "sha256": "210990d634b28f1179c146f4aea409cdab529f5a99818c4644d97806deed607f",
+      "pages": 2,
+      "transaction_date": "2026-08-20",
+      "source_character": "SEC Form 4",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM4_CORINA_CACOVEAN",
+      "file": "8541952a-4057-4478-9d5c-2caf69872bb3(1).pdf",
+      "sha256": "d2c430d0f8375a8d63e8615fc8c5ca15f202c4eeb284192df88cc9b4e755f7cf",
+      "pages": 2,
+      "transaction_date": "2026-08-20",
+      "source_character": "SEC Form 4",
+      "confidence": "high"
+    },
+    {
+      "source_id": "UNREADABLE_UPLOAD",
+      "file": "d6d59334-570b-453f-8c55-30d0bda96a8e(1).pdf",
+      "sha256": "043b9f6c0a3781a65188c529b585d6fddc1ea197c7ee3afcb5c98ffcf92030ed",
+      "bytes": 1104599,
+      "readable": false,
+      "observation": "The supplied file consists entirely of zero bytes and is not a valid readable PDF. No facts were inferred from it.",
+      "confidence": "none"
+    },
+    {
+      "source_id": "FORM4_VICTORIA_VALENZUELA",
+      "file": "e5fce9c1-d219-44a9-b750-1c06006ce0a9(1).pdf",
+      "sha256": "4cc4e1a96aaeb7f6dc93e66eaeb84a1c2f896642a55ee477067659aa9cddec8d",
+      "pages": 2,
+      "transaction_date": "2026-08-20",
+      "source_character": "SEC Form 4",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM4_XIAOCHUAN_GE",
+      "file": "ff111288-4612-4198-8e55-c36457bc3b7f(1).pdf",
+      "sha256": "821b86ea62ab08308c25563bde4ee83dfd2798caa88920a67f75f6b98f47115d",
+      "pages": 2,
+      "transaction_date": "2026-08-20",
+      "source_character": "SEC Form 4",
+      "confidence": "high"
+    },
+    {
+      "source_id": "FORM144_VASILY_SHIKIN",
+      "file": "08c4e48b-ab35-44e0-8e46-e3e4bc50a976.pdf",
+      "sha256": "206db4134b392d02e35d67ae47bbdcdf5d9a3ce89b2efd1c004b9457d0d04a3c",
+      "pages": 2,
+      "notice_date": "2026-08-21",
+      "source_character": "SEC Form 144 proposed sale notice",
+      "confidence": "high"
+    }
+  ],
+  "source_scope_limitations": [
+    "No readable supplied Form 10-K or Form 10-Q was available in this checkpoint. One supplied attachment was an all-zero invalid file and was excluded from factual extraction.",
+    "FY2025 figures below are limited to values explicitly repeated in the 2026 proxy statement; this checkpoint does not claim direct re-performance of the FY2025 audited 10-K.",
+    "Valuation is intentionally withheld because no synchronized current market quote was supplied or retrieved for this checkpoint."
+  ],
+  "business_model": {
+    "description": "AppLovin describes itself as a marketing platform providing end-to-end advertising solutions. Following the 2025 sale of its Apps business, management presents the company as focused on the core advertising platform, Axon Ads Manager and the Axon AI recommendation engine, with early expansion into web-based e-commerce advertisers.",
+    "economic_model_observation": "The supplied Q2 financial tables show an unusually asset-light model: Q2 2026 property purchases plus finance-lease principal were only about $5.7M against $1.924B revenue, while operating income and cash generation were very high.",
+    "key_unverified_driver": "Independent advertiser ROAS, retention/cohort behavior, traffic quality, platform-policy dependence and customer concentration were not established from the supplied package."
+  },
+  "fy2025_proxy_highlights": {
+    "unit": "USD million unless stated",
+    "revenue_approx": 5500,
+    "revenue_growth_percent_reported": 70,
+    "adjusted_ebitda_approx": 4500,
+    "adjusted_ebitda_growth_percent_reported": 87,
+    "free_cash_flow_approx": 4000,
+    "free_cash_flow_growth_percent_reported": 91,
+    "common_stock_repurchases_approx": 2200,
+    "net_income_reported_in_pay_vs_performance_table": 3334,
+    "employees_at_2025_12_31": 898,
+    "interpretation_guardrail": "These are proxy-reported annual highlights, not a substitute for direct 10-K extraction."
+  },
+  "q2_2026": {
+    "unit": "USD million unless stated",
+    "quarter_end": "2026-06-30",
+    "revenue": 1923.686,
+    "revenue_prior_year": 1258.754,
+    "cost_of_revenue": 225.801,
+    "sales_and_marketing": 63.394,
+    "research_and_development": 99.901,
+    "general_and_administrative": 40.313,
+    "operating_income": 1494.277,
+    "net_income": 1266.538,
+    "diluted_eps": 3.76,
+    "adjusted_ebitda": 1613.823,
+    "adjusted_ebitda_margin_percent_reported": 84,
+    "operating_cash_flow": 869.040,
+    "property_and_equipment_purchases": 1.427,
+    "finance_lease_principal_payments": 4.296,
+    "company_non_gaap_free_cash_flow": 863.317,
+    "stock_based_compensation": 85.783,
+    "weighted_average_diluted_shares_million": 337.031,
+    "weighted_average_diluted_shares_prior_year_million": 342.194,
+    "ending_shares_outstanding_million": 335.291,
+    "ending_shares_outstanding_year_end_2025_million": 338.313,
+    "cash_and_cash_equivalents": 3053.306,
+    "long_term_debt": 3515.072
+  },
+  "h1_2026": {
+    "unit": "USD million unless stated",
+    "revenue": 3766.135,
+    "revenue_prior_year": 2417.728,
+    "operating_income": 2934.210,
+    "net_income": 2472.151,
+    "operating_cash_flow": 2160.433,
+    "operating_cash_flow_prior_year": 1603.938,
+    "stock_based_compensation_adjusted_ebitda_reconciliation": 169.252,
+    "stock_based_compensation_cash_flow_statement_excluding_cash_settled_awards": 168.981,
+    "common_stock_repurchases": 1532.952,
+    "withholding_tax_cash_paid_net_share_settlement": 46.451,
+    "cash_income_taxes_paid_net_of_refunds": 639.820,
+    "weighted_average_diluted_shares_million": 337.875,
+    "weighted_average_diluted_shares_prior_year_million": 343.529,
+    "ending_cash_and_cash_equivalents": 3053.306,
+    "ending_long_term_debt": 3515.072
+  },
+  "q3_2026_guidance": {
+    "unit": "USD million unless stated",
+    "revenue_low": 2055,
+    "revenue_high": 2085,
+    "adjusted_ebitda_low": 1710,
+    "adjusted_ebitda_high": 1740,
+    "adjusted_ebitda_margin_percent": 83,
+    "gaap_reconciliation_available": false,
+    "company_reason": "Forward-looking GAAP equivalents were not provided because reconciling items, including stock-based compensation, can vary materially."
+  },
+  "governance": {
+    "board_nominees": 9,
+    "independent_nominees": 6,
+    "independent_chairperson": true,
+    "standing_committees_fully_independent": true,
+    "adam_foroughi_total_voting_power_percent": 61.6,
+    "voting_agreement_total_voting_power_percent": 66.9,
+    "class_b_votes_per_share": 20,
+    "class_a_votes_per_share": 1,
+    "class_c_votes_per_share": 0,
+    "voting_agreement_observation": "Adam Foroughi and Herald Chen, together with their affiliates, hold all outstanding Class B shares and voting-agreement parties collectively control 66.9% of total voting power according to the proxy ownership table.",
+    "shareholder_proposal": "A stockholder requested disclosure of voting results by share class. The board recommended voting against the proposal.",
+    "officer_exculpation_proposal": "The board recommended approval of a charter amendment providing officer exculpation to the fullest extent permitted by Delaware law, subject to statutory exceptions.",
+    "equity_plan_shares_available_for_future_issuance_at_2025_year_end": 108497897,
+    "evergreen_increase_used_for_2026": false,
+    "executive_ownership_guidelines": "CEO and CTO 600% of base salary; other executive officers 300%; all officers and directors reported compliant."
+  },
+  "executive_equity_2025": {
+    "annual_rsu_grant_per_named_executive_shares": 20236,
+    "grant_date_fair_value_per_named_executive_usd": 12558866,
+    "vesting": "One quarter vested 2026-02-20 and one quarter vests quarterly thereafter, subject to continued service.",
+    "named_executive_stock_vesting_2025": {
+      "Adam Foroughi": {"shares": 67805, "value_realized_usd": 29601301},
+      "Matthew Stumpf": {"shares": 56058, "value_realized_usd": 24473042},
+      "Vasily Shikin": {"shares": 158902, "value_realized_usd": 69371240},
+      "Victoria Valenzuela": {"shares": 57207, "value_realized_usd": 24974670}
+    }
+  },
+  "insider_form4_2026_08_20": [
+    {
+      "person": "Matthew Stumpf",
+      "role": "Chief Financial Officer",
+      "transaction_code": "F",
+      "shares_withheld": 2021,
+      "price": 308.77,
+      "remaining_direct_shares": 175429,
+      "interpretation": "Issuer withholding to satisfy tax/remittance obligations on vested RSUs; explicitly not a sale by the reporting person."
+    },
+    {
+      "person": "Arash Adam Foroughi",
+      "role": "CEO, Director, 10% Owner",
+      "transaction_code": "F",
+      "shares_withheld": 2730,
+      "price": 308.77,
+      "remaining_direct_class_a_shares": 2324954,
+      "interpretation": "Issuer withholding to satisfy tax/remittance obligations on vested RSUs; explicitly not a sale by the reporting person."
+    },
+    {
+      "person": "Corina I. Cacovean",
+      "role": "Chief Legal Officer",
+      "transaction_code": "F",
+      "shares_withheld": 1540,
+      "price": 308.77,
+      "remaining_direct_shares": 4787,
+      "interpretation": "Issuer withholding to satisfy tax/remittance obligations on vested RSUs; explicitly not a sale by the reporting person."
+    },
+    {
+      "person": "Victoria Valenzuela",
+      "role": "Director",
+      "transaction_code": "F",
+      "shares_withheld": 2730,
+      "price": 308.77,
+      "remaining_direct_shares": 241231,
+      "interpretation": "Issuer withholding to satisfy tax/remittance obligations on vested RSUs; explicitly not a sale by the reporting person."
+    },
+    {
+      "person": "Xiaochuan Ge",
+      "role": "Chief Technology Officer",
+      "transaction_code": "F",
+      "shares_withheld": 5459,
+      "price": 308.77,
+      "remaining_direct_shares": 968735,
+      "interpretation": "Issuer withholding to satisfy tax/remittance obligations on vested RSUs/PSUs; explicitly not a sale by the reporting person."
+    }
+  ],
+  "insider_rule_144": [
+    {
+      "person": "Vasily Shikin",
+      "relationship": "associated, still within 90 window",
+      "proposed_sale_shares": 117598,
+      "aggregate_market_value_reported": 35600430.78,
+      "approximate_sale_date": "2026-08-21",
+      "recent_sale": {"date": "2026-05-22", "shares": 89720, "gross_proceeds": 43515931.61},
+      "rule_10b5_1_plan_date_disclosed": null,
+      "interpretation": "The supplied Form 144 does not disclose a Rule 10b5-1 plan adoption date. It is a proposed-sale notice; a preplanned or bearish characterization is not inferred."
+    }
+  ],
+  "derived_metrics": {
+    "character": "Mechanical calculations from supplied reported values; not company-reported metrics unless explicitly labeled.",
+    "q2_revenue_growth_percent": 52.82,
+    "q2_net_income_growth_percent": 54.54,
+    "q2_gaap_operating_margin_percent": 77.68,
+    "q2_company_fcf_margin_percent": 44.88,
+    "q2_company_fcf_growth_percent": 12.40,
+    "q2_sbc_as_percent_revenue": 4.46,
+    "q2_sbc_as_percent_company_fcf": 9.94,
+    "q2_diluted_weighted_average_share_change_yoy_percent": -1.51,
+    "h1_revenue_growth_percent": 55.77,
+    "h1_net_income_growth_percent": 77.09,
+    "h1_operating_cash_flow_growth_percent": 34.70,
+    "h1_sbc_as_percent_revenue": 4.49,
+    "h1_sbc_as_percent_operating_cash_flow": 7.83,
+    "h1_diluted_weighted_average_share_change_yoy_percent": -1.65,
+    "ending_share_count_change_from_2025_year_end_percent": -0.89,
+    "net_debt_usd_million": 461.766,
+    "net_debt_to_annualized_h1_adjusted_ebitda_approx": 0.07,
+    "q3_guidance_midpoint_revenue": 2070,
+    "q3_guidance_midpoint_sequential_growth_percent": 7.61
+  },
+  "interpretation_guardrails": [
+    "Company-defined Free Cash Flow is used only where explicitly reconciled by the Q2 earnings release. No H1 FCF was invented from incomplete cash-flow detail.",
+    "SBC is not subtracted from FCF and then double-counted again through dilution in this checkpoint. SBC expense and share-count movement are tracked separately.",
+    "The August 20 Form 4 transactions are tax-withholding transactions, not insider sales.",
+    "The Form 144 is a proposed-sale notice and does not by itself establish a discretionary bearish view.",
+    "Business-quality scoring is separated from valuation. No buy authorization is issued without a synchronized price and reverse-DCF expectation test."
+  ]
+}
