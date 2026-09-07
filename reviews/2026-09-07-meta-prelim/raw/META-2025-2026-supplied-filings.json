@@ -1,1 +1,474 @@
-{"staging_note":"placeholder"}
+{
+  "ticker": "META",
+  "company": "Meta Platforms, Inc.",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-07",
+  "scope_note": "Values are extracted or mechanically calculated from the eight user-supplied SEC filing PDFs only. No market quote, target price, reverse DCF, or external-source claim is inserted. Company guidance is labeled guidance; analyst calculations are separated under derived_metrics and are not reported facts.",
+  "source_resolution": [
+    {
+      "local_file": "4db35509-d283-44db-b683-a2b6c459e06a.pdf",
+      "resolved_identity": "Form 4 — Curtis J. Mahoney (Chief Legal Officer), transaction date 2026-08-18, filed 2026-08-20",
+      "source_character": "SEC Form 4",
+      "sha256": "ccc972a748c5d981ee50eb755acaba3a8955937dc9e38300ef3fd129a41c9e0d",
+      "pages": 2
+    },
+    {
+      "local_file": "36ba9108-406d-47ea-8934-434fc08c6a05.pdf",
+      "resolved_identity": "Form 4 — Susan J. Li (Chief Financial Officer), transaction date 2026-08-18, filed 2026-08-20",
+      "source_character": "SEC Form 4",
+      "sha256": "c25c11981346a7bffcb050e44dffa7bc8974b3a742b5b9b0022c9140f2d642ba",
+      "pages": 4
+    },
+    {
+      "local_file": "968f6478-70a7-4426-af16-6190d30a390f.pdf",
+      "resolved_identity": "Meta Platforms, Inc. 2026 Definitive Proxy Statement",
+      "source_character": "SEC Schedule 14A / definitive proxy",
+      "sha256": "0bdf28f9fb1f2fe0d04afb18ff458309eed1c385a65407b69e68cc84a3d24887",
+      "pages": 98
+    },
+    {
+      "local_file": "426878c7-54e0-4657-baae-8c419860414f.pdf",
+      "resolved_identity": "Meta Platforms, Inc. 2026 Definitive Additional Proxy Materials",
+      "source_character": "SEC Schedule 14A additional materials",
+      "sha256": "e690e06eb772d0b666f1bc76ac08a82d29bcf197c00515156dbc24bd9b8f1d1e",
+      "pages": 3
+    },
+    {
+      "local_file": "abad2059-196d-46e3-8534-cab5756a1926(1).pdf",
+      "resolved_identity": "Meta Platforms, Inc. Form 10-Q for quarter ended 2026-06-30",
+      "source_character": "SEC Form 10-Q",
+      "sha256": "dd79fa3d301c267f8498f37ce12445967bf1d08890a4f799750442f2b4de3d06",
+      "pages": 100
+    },
+    {
+      "local_file": "b919eb05-86d9-4412-a8ff-308be1afb070(1).pdf",
+      "resolved_identity": "Meta Platforms, Inc. Form 10-K for fiscal year ended 2025-12-31",
+      "source_character": "SEC Form 10-K",
+      "sha256": "457ef30095d64b668da6e00ac2b3f4142f2fa1c201497f46b645491a78cb273f",
+      "pages": 145
+    },
+    {
+      "local_file": "c432adf9-eb69-46c9-8b40-266d04674721.pdf",
+      "resolved_identity": "Meta Platforms, Inc. Form 8-K dated 2026-07-29 with Q2 2026 earnings release",
+      "source_character": "SEC Form 8-K / Exhibit 99.1",
+      "sha256": "432536a6fc8bdcd8cb64c60b32eaf4419625283241e4e9b979f1576ccea6f3e1",
+      "pages": 12
+    },
+    {
+      "local_file": "77e290ac-3687-4f49-a6c7-df433e21ae32.pdf",
+      "resolved_identity": "Form 4 — Andrew Bosworth (Chief Technology Officer), transaction date 2026-08-18, filed 2026-08-20",
+      "source_character": "SEC Form 4",
+      "sha256": "507049f5b9cb1e5c80bb2e88cf5330e53955423da8f63b8ba1f149319638cdd7",
+      "pages": 2
+    }
+  ],
+  "fy2025": {
+    "period": "2025-01-01/2025-12-31",
+    "income_statement_usd_millions": {
+      "revenue": 200966,
+      "cost_of_revenue": 36175,
+      "research_and_development": 57372,
+      "marketing_and_sales": 11991,
+      "general_and_administrative": 12152,
+      "total_costs_and_expenses": 117690,
+      "operating_income": 83276,
+      "interest_and_other_income_net": 2656,
+      "pretax_income": 85932,
+      "income_tax_provision": 25474,
+      "net_income": 60458,
+      "diluted_eps_usd": 23.49,
+      "diluted_weighted_average_shares_millions": 2574,
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_page": 90,
+        "reported_page": 89
+      }
+    },
+    "balance_sheet_usd_millions": {
+      "cash_and_cash_equivalents": 35873,
+      "marketable_securities": 45719,
+      "accounts_receivable": 19769,
+      "property_and_equipment_net": 176400,
+      "total_assets": 366021,
+      "accounts_payable": 8894,
+      "operating_lease_liabilities_current": 2213,
+      "operating_lease_liabilities_noncurrent": 22940,
+      "long_term_debt": 58744,
+      "total_liabilities": 148778,
+      "total_stockholders_equity": 217243,
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_page": 89,
+        "reported_page": 88
+      }
+    },
+    "cash_flow_usd_millions": {
+      "operating_cash_flow": 115800,
+      "purchases_property_and_equipment": 69691,
+      "principal_payments_finance_leases": 2524,
+      "share_based_compensation": 20427,
+      "share_repurchases_cash": 26248,
+      "dividends_and_equivalents_paid": 5324,
+      "taxes_paid_net_share_settlement": 18400,
+      "long_term_debt_issuance_net": 29906,
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_page": 93,
+        "reported_page": 92
+      }
+    },
+    "segments_usd_millions": {
+      "family_of_apps": {
+        "revenue": 198759,
+        "costs_and_expenses": 96290,
+        "operating_income": 102469,
+        "operating_margin_percent": 52
+      },
+      "reality_labs": {
+        "revenue": 2207,
+        "costs_and_expenses": 21400,
+        "operating_loss": -19193
+      },
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_page": 62,
+        "reported_page": 61
+      }
+    },
+    "operating_metrics": {
+      "family_dap_billions_december_average": 3.58,
+      "family_dap_yoy_percent": 7,
+      "ad_impressions_yoy_percent": 12,
+      "average_price_per_ad_yoy_percent": 9,
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_page": 62,
+        "reported_page": 61
+      }
+    },
+    "capital_investment": {
+      "capex_including_finance_lease_principal_usd_millions": 72215,
+      "2026_capex_guidance_at_10k_usd_billions": [
+        115,
+        135
+      ],
+      "uncommenced_lease_obligations_usd_millions": 103770,
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_pages": [
+          62,
+          78,
+          109
+        ]
+      }
+    },
+    "audit": {
+      "financial_statement_opinion": "unqualified",
+      "internal_control_over_financial_reporting_opinion": "unqualified",
+      "source": {
+        "document": "FY2025 Form 10-K",
+        "pdf_page": 84,
+        "reported_page": 83
+      }
+    }
+  },
+  "h1_2026": {
+    "period": "2026-01-01/2026-06-30",
+    "income_statement_usd_millions": {
+      "revenue": 117111,
+      "cost_of_revenue": 21549,
+      "research_and_development": 39354,
+      "marketing_and_sales": 6339,
+      "general_and_administrative": 8222,
+      "total_costs_and_expenses": 75464,
+      "operating_income": 41647,
+      "interest_and_other_expense_net": -1139,
+      "pretax_income": 40508,
+      "income_tax_benefit": -2113,
+      "net_income": 42621,
+      "diluted_eps_usd": 16.62,
+      "diluted_weighted_average_shares_millions": 2565,
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_page": 7,
+        "reported_page": 7
+      }
+    },
+    "balance_sheet_usd_millions": {
+      "cash_and_cash_equivalents": 15462,
+      "marketable_securities": 74798,
+      "accounts_receivable": 21752,
+      "prepaid_and_other_current_assets": 13463,
+      "property_and_equipment_net": 225724,
+      "total_assets": 449956,
+      "accounts_payable": 15889,
+      "operating_lease_liabilities_current": 2425,
+      "operating_lease_liabilities_noncurrent": 26229,
+      "long_term_debt": 83664,
+      "total_liabilities": 188735,
+      "total_stockholders_equity": 261221,
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_page": 6,
+        "reported_page": 6
+      }
+    },
+    "cash_flow_usd_millions": {
+      "operating_cash_flow": 64088,
+      "purchases_property_and_equipment": 49113,
+      "principal_payments_finance_leases": 1805,
+      "share_based_compensation": 13690,
+      "share_repurchases_cash": 0,
+      "dividends_and_equivalents_paid": 2699,
+      "taxes_paid_net_share_settlement": 8704,
+      "long_term_debt_issuance_net": 24910,
+      "cash_income_taxes_paid_net": 1999,
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "reported_pages": [
+          10,
+          11
+        ]
+      }
+    },
+    "segments_usd_millions": {
+      "family_of_apps": {
+        "operating_income": 50294
+      },
+      "reality_labs": {
+        "operating_loss": -8647
+      },
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_page": 44,
+        "reported_page": 44
+      }
+    },
+    "advertising_metrics": {
+      "ad_impressions_yoy_percent": 16,
+      "average_price_per_ad_yoy_percent": 12,
+      "ad_revenue_growth_usd_millions": 26430,
+      "ad_revenue_growth_percent": 30,
+      "drivers_as_reported": "Ad impressions increased across all regions, especially Asia-Pacific; average price per ad increased due to advertising demand that management believes was mostly driven by ongoing improvements to ad performance from targeting and measurement tools, plus favorable FX.",
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_pages": [
+          42,
+          43
+        ],
+        "reported_page": 42
+      }
+    },
+    "shares": {
+      "combined_class_a_b_shares_millions_2025_12_31": 2530,
+      "combined_class_a_b_shares_millions_2026_06_30": 2548,
+      "h1_issuance_millions": 32,
+      "h1_shares_withheld_net_settlement_millions": 14,
+      "h1_repurchased_shares_millions": 0,
+      "class_a_outstanding_2026_07_24": 2205128509,
+      "class_b_outstanding_2026_07_24": 342377716,
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_pages": [
+          1,
+          9
+        ],
+        "reported_pages": [
+          1,
+          9
+        ]
+      }
+    },
+    "tax_context": {
+      "six_month_tax_benefit_usd_millions": 2113,
+      "explanation": "H1 2026 tax benefit primarily reflects U.S. Treasury Notice 2026-7 relief from CAMT related to expensing previously capitalized U.S. R&D costs.",
+      "remaining_2026_expected_effective_tax_rate_percent": [
+        15,
+        17
+      ],
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_pages": [
+          45,
+          46
+        ],
+        "reported_pages": [
+          45,
+          46
+        ]
+      }
+    }
+  },
+  "q2_2026": {
+    "period": "2026-04-01/2026-06-30",
+    "financials_usd_millions": {
+      "revenue": 60801,
+      "revenue_yoy_percent": 28,
+      "costs_and_expenses": 42026,
+      "costs_and_expenses_yoy_percent": 55,
+      "operating_income": 18775,
+      "operating_income_yoy_percent": -8,
+      "operating_margin_percent": 31,
+      "net_income": 15848,
+      "net_income_yoy_percent": -14,
+      "diluted_eps_usd": 6.18,
+      "operating_cash_flow": 31862,
+      "capex_including_finance_lease_principal": 31078,
+      "reported_free_cash_flow": 784,
+      "cash_and_marketable_securities": 90260,
+      "long_term_debt": 83664,
+      "source": {
+        "document": "Q2 2026 earnings release in Form 8-K",
+        "pdf_page": 4
+      }
+    },
+    "segments_usd_millions": {
+      "family_of_apps": {
+        "revenue": 60370,
+        "costs_and_expenses": 36976,
+        "operating_income": 23394,
+        "operating_margin_percent": 39
+      },
+      "reality_labs": {
+        "revenue": 431,
+        "costs_and_expenses": 5050,
+        "operating_loss": -4619
+      },
+      "source": {
+        "document": "Q2 2026 Form 10-Q",
+        "pdf_page": 32,
+        "reported_page": 32
+      }
+    },
+    "operating_metrics": {
+      "family_dap_billions_june_average": 3.6,
+      "family_dap_yoy_percent": 3,
+      "ad_impressions_yoy_percent": 14,
+      "average_price_per_ad_yoy_percent": 12,
+      "headcount": 75472,
+      "headcount_yoy_percent": -1,
+      "source": {
+        "document": "Q2 2026 earnings release in Form 8-K",
+        "pdf_page": 4
+      }
+    },
+    "cost_context_usd_millions": {
+      "legal_proceeding_charges": 2400,
+      "severance": 1180,
+      "rd_expense": 21656,
+      "rd_yoy_percent": 67,
+      "source": {
+        "document": "Q2 2026 Form 10-Q / earnings release",
+        "pdf_pages": [
+          43,
+          44
+        ]
+      }
+    }
+  },
+  "forward_guidance_and_commitments": {
+    "q3_2026_revenue_guidance_usd_billions": [
+      61,
+      64
+    ],
+    "fy2026_expense_guidance_usd_billions": [
+      165,
+      169
+    ],
+    "fy2026_capex_including_finance_lease_principal_guidance_usd_billions": [
+      130,
+      145
+    ],
+    "fy2026_operating_income_guidance": "above FY2025 operating income",
+    "uncommenced_lease_obligations_as_of_2026_06_30_usd_billions": 278.99,
+    "additional_data_center_leases_entered_july_2026_usd_billions": 68.0,
+    "noncancelable_contractual_commitments_as_of_2026_06_30_usd_billions": 349.31,
+    "commitments_due_2026_usd_billions": 53.52,
+    "commitments_due_2027_usd_billions": 81.65,
+    "contingent_cloud_capacity_purchase_obligation_usd_billions": 14.72,
+    "restricted_money_market_funds_for_infrastructure_escrow_usd_billions": 10.8,
+    "notes_principal_outstanding_usd_billions": 84.0,
+    "source": {
+      "documents": [
+        "Q2 2026 Form 10-Q",
+        "Q2 2026 earnings release"
+      ],
+      "pdf_pages": [
+        47,
+        5
+      ]
+    }
+  },
+  "governance": {
+    "zuckerberg_beneficial_ownership_as_of_2026_04_01": {
+      "class_a_shares": 639347,
+      "class_b_shares": 341823978,
+      "class_b_ownership_percent": 99.8,
+      "total_voting_power_percent": 60.8
+    },
+    "board_ai_oversight": "Board reports active oversight of AI strategy and infrastructure initiatives, including talent, frontier models, core-business AI applications, and capacity/infrastructure transactions.",
+    "committee_structure_2025": "Board restructured committees, establishing Audit & Privacy Committee and Risk & Strategy Committee.",
+    "source": {
+      "document": "2026 Proxy Statement",
+      "pdf_pages": [
+        5,
+        65
+      ],
+      "reported_pages": [
+        3,
+        63
+      ]
+    }
+  },
+  "insider_transactions_2026_08_18": {
+    "interpretation_rule": "Raw filing facts only; 10b5-1 planned sales are not treated as discretionary bearish signals without additional evidence.",
+    "transactions": [
+      {
+        "officer": "Curtis J. Mahoney",
+        "title": "Chief Legal Officer",
+        "shares_sold": 1559,
+        "reported_price_usd": 558.0,
+        "remaining_direct_shares": 1957,
+        "plan_adopted": "2026-02-25",
+        "source": {
+          "document": "Form 4 Mahoney",
+          "pdf_page": 1
+        }
+      },
+      {
+        "officer": "Susan J. Li",
+        "title": "Chief Financial Officer",
+        "shares_sold_total": 9196,
+        "weighted_average_price_usd_calculated": 550.6078,
+        "approx_gross_proceeds_usd_calculated": 5063389.3,
+        "remaining_indirect_shares": 13186,
+        "plan_adopted": "2025-11-25",
+        "source": {
+          "document": "Form 4 Li",
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "officer": "Andrew Bosworth",
+        "title": "Chief Technology Officer",
+        "shares_sold": 7848,
+        "reported_price_usd": 558.0,
+        "remaining_direct_shares": 828,
+        "remaining_indirect_trust_shares": 69170,
+        "plan_adopted": "2025-01-31",
+        "source": {
+          "document": "Form 4 Bosworth",
+          "pdf_page": 1
+        }
+      }
+    ]
+  }
+}
