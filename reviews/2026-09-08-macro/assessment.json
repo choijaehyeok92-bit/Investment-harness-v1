@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "MACRO_RISK_BUDGET_OVERLAY",
+  "as_of": "2026-09-08",
+  "horizon_start": "2026-09-08",
+  "horizon_end": "2027-03-08",
+  "authority_status": "ADDITIVE_RESEARCH_INPUT",
+  "company_score_effect": "NONE",
+  "policy_note": "Per AGENTS.md, macro views must not directly change any company's 100-point score. This overlay may change portfolio risk budget, scenario severity, valuation scrutiny, and evidence priority only.",
+  "regime": {
+    "label": "MODERATE_TO_STRONG_GROWTH_STICKY_INFLATION_HIGHER_FOR_LONGER_HIGH_GEOPOLITICAL_VOLATILITY",
+    "claim_type": "opinion",
+    "confidence": 0.72,
+    "summary": "AI and infrastructure capex are supporting global growth, while energy/geopolitical shocks, fiscal pressure and still-elevated PCE inflation keep the policy and long-end-rate regime restrictive."
+  },
+  "core_inferences": [
+    {
+      "id": "US_GROWTH_NOT_RECESSION_BASE",
+      "claim_type": "inference",
+      "confidence": 0.75,
+      "statement": "The near-term U.S. base case is continued expansion rather than recession, although the 4.7% GDPNow reading should not be extrapolated as a sustainable trend rate.",
+      "evidence": ["Q2 real GDP +1.5% SAAR", "Q3 GDPNow 4.7% as of September 3", "August payrolls +162k", "unemployment 4.1%"]
+    },
+    {
+      "id": "INFLATION_POLICY_CONSTRAINT",
+      "claim_type": "inference",
+      "confidence": 0.8,
+      "statement": "Inflation is sufficiently above central-bank targets to constrain rapid easing, particularly while energy prices remain elevated.",
+      "evidence": ["U.S. July PCE +3.7% YoY / core +3.3%", "Euro-area August HICP +3.3% with energy +14.3%", "Korea 2026 CPI forecast 2.7%"]
+    },
+    {
+      "id": "LONG_END_TERM_PREMIUM_RISK",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "statement": "Long-duration assets face a structural valuation headwind because U.S. long-term yields can remain elevated even without a large additional Fed hiking cycle, given strong nominal growth, fiscal deficits and high real yields.",
+      "evidence": ["U.S. 10-year yield near 5%", "CBO FY2026 deficit 5.8% of GDP", "debt held by public 101% of GDP", "net interest 3.3% of GDP"]
+    },
+    {
+      "id": "AI_CAPEX_GLOBAL_SUPPORT",
+      "claim_type": "inference",
+      "confidence": 0.75,
+      "statement": "AI and data-center capex remain a major global growth support, especially for the U.S., Korea, China high-tech exports and power infrastructure supply chains.",
+      "evidence": ["Korea August exports +68.7% with semiconductor exports +209%", "China high-tech exports +42.9%", "Bank of Korea cites robust AI investment and semiconductor boom"]
+    },
+    {
+      "id": "ENERGY_IS_PRIMARY_NONLINEAR_RISK",
+      "claim_type": "inference",
+      "confidence": 0.82,
+      "statement": "The largest six-month nonlinear macro risk is a sustained Middle-East energy shock that lifts inflation while reducing real household purchasing power.",
+      "evidence": ["Brent around $98.63 on September 8", "physical-market tightness", "shipping disruption and regional conflict risk"]
+    }
+  ],
+  "six_month_scenarios": [
+    {
+      "name": "BASE_STICKY_INFLATION_EXPANSION",
+      "probability": 0.5,
+      "claim_type": "opinion",
+      "description": "Growth remains positive, inflation declines only slowly, central banks remain restrictive and the Fed delivers limited additional tightening or prolonged holding rather than an easing cycle.",
+      "market_implication": "Earnings can grow, but equity multiple expansion is capped; quality and cash-return discipline matter more than duration."
+    },
+    {
+      "name": "INFLATION_ENERGY_SHOCK",
+      "probability": 0.25,
+      "claim_type": "opinion",
+      "description": "Brent remains above roughly $105-$110 for a sustained period, second-round inflation rises and central banks tighten more than currently expected.",
+      "market_implication": "Long yields rise, long-duration growth assets and leveraged balance sheets de-rate, while pricing power and energy resilience gain value."
+    },
+    {
+      "name": "DISINFLATIONARY_SOFT_LANDING",
+      "probability": 0.15,
+      "claim_type": "opinion",
+      "description": "Middle-East risk eases, energy falls, core inflation decelerates and policy expectations shift back toward eventual easing without a recession.",
+      "market_implication": "Duration and high-quality growth benefit; long bonds rally."
+    },
+    {
+      "name": "GROWTH_OR_CREDIT_SHOCK",
+      "probability": 0.1,
+      "claim_type": "opinion",
+      "description": "AI capex slows sharply, trade/geopolitical stress or a credit event causes rapid risk-off and weaker growth.",
+      "market_implication": "Initial broad risk-off followed by falling policy/long rates; balance-sheet strength becomes dominant."
+    }
+  ],
+  "portfolio_risk_budget_implications": {
+    "claim_type": "opinion",
+    "do": [
+      "Prefer companies with high incremental ROIC, strong free-cash-flow conversion and low refinancing dependence.",
+      "Apply stricter reverse-DCF and hurdle-rate discipline to long-duration growth and acquisition-heavy companies.",
+      "Stress test energy, wage, materials and interest-cost pass-through rather than assuming disinflation.",
+      "Treat AI/data-center/power infrastructure demand as a real tailwind but separate demand growth from incremental cash ROIC.",
+      "Maintain liquidity and avoid leverage because yen carry unwind, oil shocks and long-rate spikes can create abrupt drawdowns."
+    ],
+    "do_not": [
+      "Do not add or subtract points from company quality scores solely because the macro regime changes.",
+      "Do not infer a buy signal from sector tailwinds without valuation and company-specific cash-return evidence.",
+      "Do not assume Fed easing automatically implies a major decline in long-term yields."
+    ]
+  },
+  "regional_view": {
+    "united_states": "Expansion with inflation and long-rate pressure; AI capex offsets tighter financial conditions.",
+    "euro_area": "Growth has improved, but energy sensitivity keeps inflation and policy risk asymmetric to the upside.",
+    "japan": "BOJ normalization and yen strength raise global carry-unwind risk.",
+    "south_korea": "Semiconductor/AI export boom is a major cyclical tailwind; higher rates and imported-energy exposure are offsets.",
+    "china": "External/high-tech trade is strong while domestic demand and property remain weaker; trade-friction risk rises with surpluses."
+  },
+  "watchlist": [
+    {
+      "date": "2026-09-10",
+      "event": "ECB policy decision",
+      "why_it_matters": "Tests whether the energy shock is translating into another hiking phase."
+    },
+    {
+      "date": "2026-09-11",
+      "event": "U.S. August CPI",
+      "why_it_matters": "First major test of whether energy pressure is passing through to broader inflation."
+    },
+    {
+      "date": "2026-09-15/16",
+      "event": "FOMC",
+      "why_it_matters": "Determines whether the Fed converts July's internal hike pressure into actual tightening."
+    },
+    {
+      "date": "2026-09-17/18",
+      "event": "BOJ meeting",
+      "why_it_matters": "A hike could accelerate yen carry unwind and global risk-asset volatility."
+    },
+    {
+      "date": "2026-09-30",
+      "event": "BEA annual NIPA update",
+      "why_it_matters": "Could materially revise recent U.S. growth and PCE history."
+    }
+  ],
+  "reassessment_triggers": [
+    "Brent sustains above $110 or falls below $80",
+    "U.S. core PCE moves decisively below 2.8% or above 3.6% YoY",
+    "U.S. unemployment rises above 4.7% with negative payroll trend",
+    "U.S. 10-year Treasury sustains above 5.25% or falls below 4.25%",
+    "Fed begins a clear easing cycle or delivers more than 50bp additional tightening",
+    "AI/data-center capex guidance weakens materially across hyperscalers",
+    "China-U.S. trade truce materially breaks down",
+    "Korean semiconductor exports or order indicators reverse sharply"
+  ],
+  "limitations": [
+    "Scenario probabilities are analyst judgments, not observable facts.",
+    "Point-in-time oil, yield and market-implied policy probabilities can change intraday.",
+    "GDPNow is a model nowcast, not an official GDP forecast or realized result.",
+    "CBO fiscal figures are February 2026 baseline projections and may not incorporate later legislation.",
+    "Macro views affect portfolio risk budgeting and scenario assumptions, not company-quality scoring."
+  ]
+}
