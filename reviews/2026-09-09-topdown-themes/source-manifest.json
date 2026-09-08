@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-09-topdown-themes",
+  "as_of": "2026-09-09",
+  "horizon_end": "2031-09-09",
+  "purpose": "Five-year top-down sector/theme research overlay. This does not directly alter company quality scores or authorize buys.",
+  "source_policy": "policy/source-policy.yaml",
+  "context_inputs": [
+    {
+      "id": "MACRO_OVERLAY_2026_09_08",
+      "type": "internal_harness_research",
+      "path": "reviews/2026-09-08-macro/assessment.json",
+      "role": "Current macro regime and six-month risk-budget context"
+    }
+  ],
+  "sources": [
+    {
+      "id": "IEA_ELECTRICITY_2026",
+      "priority": 3,
+      "type": "international_agency_report",
+      "publisher": "International Energy Agency",
+      "title": "Electricity 2026 - Executive summary",
+      "url": "https://www.iea.org/reports/electricity-2026/executive-summary",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "Global electricity demand is forecast to grow 3.6% per year on average during 2026-2030.",
+        "The projected growth rate is roughly 50% above the previous decade's average."
+      ]
+    },
+    {
+      "id": "IEA_ENERGY_AND_AI",
+      "priority": 3,
+      "type": "international_agency_report",
+      "publisher": "International Energy Agency",
+      "title": "Energy and AI",
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "Global data-centre electricity consumption is projected to reach about 945 TWh by 2030 in the Base Case.",
+        "Accelerated-server electricity consumption is projected to grow about 30% per year through 2030.",
+        "In the United States, data centres account for nearly half of projected electricity-demand growth to 2030.",
+        "Renewables, natural gas, nuclear and grid/storage infrastructure all contribute to meeting incremental data-centre demand."
+      ]
+    },
+    {
+      "id": "SEMI_EQUIPMENT_2026_2028",
+      "priority": 3,
+      "type": "industry_body_forecast",
+      "publisher": "SEMI",
+      "title": "Global Semiconductor Equipment Sales Forecast to Reach a Record $229 Billion in 2028",
+      "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-forecast-to-reach-a-record-229-billion-dollars-in-2028-semi-reports",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "SEMI forecasts semiconductor manufacturing equipment sales of $165.9 billion in 2026 and $229.5 billion in 2028.",
+        "AI-driven leading-edge logic, advanced memory, test and packaging are cited as major growth drivers."
+      ]
+    },
+    {
+      "id": "SEMI_MEMORY_300MM_2026_2029",
+      "priority": 3,
+      "type": "industry_body_forecast",
+      "publisher": "SEMI",
+      "title": "SEMI Projects 300mm Memory Equipment Investment to Surpass $50 Billion in 2026",
+      "url": "https://www.semi.org/en/semi-press-release/semi-projects-300mm-memory-equipment-investment-to-surpass-50-billion-dollars-in-2026",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "Worldwide 300mm memory equipment investment is projected at about $52 billion in 2026 and $57 billion in 2027.",
+        "Spending is projected to approach $80 billion by 2029, driven by HBM, DDR5 and data-storage demand."
+      ]
+    },
+    {
+      "id": "NATO_5_PERCENT_COMMITMENT",
+      "priority": 1,
+      "type": "official_multilateral_policy",
+      "publisher": "NATO",
+      "title": "Defence investment and NATO's 5% commitment",
+      "url": "https://www.nato.int/en/what-we-do/introduction-to-nato/defence-expenditures-and-natos-5-commitment",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "Allies committed to invest 5% of GDP annually on defence by 2035.",
+        "At least 3.5% is for core defence requirements and up to 1.5% for defence- and security-related spending.",
+        "European Allies and Canada increased combined defence expenditure by nearly 20% in real terms in 2025 versus 2024."
+      ]
+    },
+    {
+      "id": "NATO_DEFENCE_INDUSTRIAL_PRODUCTION",
+      "priority": 1,
+      "type": "official_multilateral_policy",
+      "publisher": "NATO",
+      "title": "Increasing defence industrial production",
+      "url": "https://nato.int/en/what-we-do/deterrence-and-defence/natos-role-in-defence-industry-production",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "NATO is explicitly expanding industrial production capacity, including air-defence and strike capabilities."
+      ]
+    },
+    {
+      "id": "GARTNER_INFOSEC_2026",
+      "priority": 3,
+      "type": "industry_research_forecast",
+      "publisher": "Gartner",
+      "title": "Forecast Analysis: Information Security, Worldwide, 2026",
+      "url": "https://www.gartner.com/en/documents/7408930",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "Worldwide information-security spending is expected to reach $244 billion in 2026 with 11.6% constant-currency growth."
+      ]
+    },
+    {
+      "id": "GARTNER_AI_SPENDING_2026",
+      "priority": 3,
+      "type": "industry_research_forecast",
+      "publisher": "Gartner",
+      "title": "Gartner Forecasts Worldwide AI Spending to Grow 47% in 2026",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "AI cybersecurity spending is forecast at about $51.3 billion in 2026 and $86.0 billion in 2027.",
+        "AI infrastructure is the largest spending category in the cited forecast."
+      ]
+    },
+    {
+      "id": "GARTNER_SECURING_AI_2027",
+      "priority": 3,
+      "type": "industry_research_forecast",
+      "publisher": "Gartner",
+      "title": "Gartner Forecasts the Market for Securing AI Will Reach $4.8 Billion in 2027",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-26-gartner-forecasts-the-market-for-securing-ai-will-reach-almost-5-billion-in-2027",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "The market for securing AI is forecast at about $4.8 billion in 2027 and $7.7 billion in 2028."
+      ]
+    },
+    {
+      "id": "IFR_US_ROBOTS_2025",
+      "priority": 3,
+      "type": "industry_body_release",
+      "publisher": "International Federation of Robotics",
+      "title": "US Robot Industry Returns to Double Digit Growth",
+      "url": "https://ifr.org/ifr-press-releases/",
+      "verified_on": "2026-09-09",
+      "supported_claims": [
+        "U.S. industrial robot installations rose 11% to about 38,000 units in 2025.",
+        "Food-industry installations rose about 30%."
+      ]
+    }
+  ],
+  "classification_note": "Sector rankings, time-phase leadership and relative attractiveness scores are analyst opinions/inferences. Forecasts from IEA, SEMI and Gartner remain forecasts, not realized facts."
+}

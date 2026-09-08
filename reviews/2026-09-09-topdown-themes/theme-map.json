@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "FIVE_YEAR_TOPDOWN_THEME_MAP",
+  "as_of": "2026-09-09",
+  "horizon_end": "2031-09-09",
+  "company_score_effect": "NONE",
+  "thesis": "The dominant five-year market structure is expected to be driven by overlapping capex cycles in AI compute, electricity/grid infrastructure, defence/supply-chain security and automation, with AI monetization shifting gradually from hardware scarcity toward productivity software, cybersecurity and robotics.",
+  "ranked_themes": [
+    {
+      "rank": 1,
+      "theme": "POWER_GRID_AND_ELECTRICAL_INFRASTRUCTURE",
+      "display_name_ko": "전력망·전력기기·전기 인프라",
+      "conviction": "VERY_HIGH",
+      "structural_driver": "AI/data-centre demand, electrification, manufacturing reshoring and aging grids create a physical bottleneck in generation interconnection, transmission, substations and power equipment.",
+      "preferred_subsegments": ["transmission_and_substation", "transformers", "switchgear", "electrical_EPC", "power_management"],
+      "avoid_overgeneralization": "Do not equate rising power demand with superior regulated-utility equity returns; capital intensity and regulation can dilute shareholder economics.",
+      "source_ids": ["IEA_ELECTRICITY_2026", "IEA_ENERGY_AND_AI"]
+    },
+    {
+      "rank": 2,
+      "theme": "AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT",
+      "display_name_ko": "AI 반도체·HBM·첨단 패키징·반도체 장비",
+      "conviction": "VERY_HIGH",
+      "structural_driver": "AI compute density raises demand across accelerators, HBM, advanced foundry, packaging, networking and semiconductor manufacturing equipment.",
+      "preferred_subsegments": ["AI_accelerators", "HBM", "advanced_foundry", "advanced_packaging", "EUV_and_process_equipment", "high_speed_networking", "test_and_socket"],
+      "key_risk": "Supply can eventually grow faster than demand, especially in memory and cyclical equipment; theme growth does not eliminate semiconductor cyclicality.",
+      "source_ids": ["SEMI_EQUIPMENT_2026_2028", "SEMI_MEMORY_300MM_2026_2029"]
+    },
+    {
+      "rank": 3,
+      "theme": "DATA_CENTER_POWER_COOLING_NETWORKING",
+      "display_name_ko": "데이터센터 전력·냉각·네트워킹",
+      "conviction": "VERY_HIGH",
+      "structural_driver": "Data-centre electricity consumption and accelerated-server density create bottlenecks in power distribution, cooling, backup power and interconnect.",
+      "preferred_subsegments": ["liquid_cooling", "UPS", "power_distribution", "switchgear", "microgrids", "optical_networking"],
+      "picks_and_shovels_logic": "Infrastructure demand persists regardless of which model or application vendor wins, provided aggregate compute demand remains strong.",
+      "source_ids": ["IEA_ENERGY_AND_AI"]
+    },
+    {
+      "rank": 4,
+      "theme": "DEFENCE_AEROSPACE_DRONES_MISSILES",
+      "display_name_ko": "국방·항공우주·드론·미사일",
+      "conviction": "HIGH",
+      "structural_driver": "NATO's multi-year defence spending commitment and production-capacity rebuilding imply a durable rearmament capex cycle rather than a short event trade.",
+      "preferred_subsegments": ["air_and_missile_defence", "munitions", "drones_and_loitering_munitions", "radar_and_EW", "space_and_satellite", "defence_cyber"],
+      "source_ids": ["NATO_5_PERCENT_COMMITMENT", "NATO_DEFENCE_INDUSTRIAL_PRODUCTION"]
+    },
+    {
+      "rank": 5,
+      "theme": "CYBERSECURITY_AND_AI_SECURITY",
+      "display_name_ko": "사이버보안·AI 보안",
+      "conviction": "HIGH",
+      "structural_driver": "AI agents, cloud workloads, data access and autonomous workflows expand attack surfaces and raise the value of consolidated security platforms and specialized AI-security controls.",
+      "preferred_subsegments": ["platform_security", "cloud_security", "identity", "AI_application_security", "AI_usage_control", "AI_governance"],
+      "source_ids": ["GARTNER_INFOSEC_2026", "GARTNER_AI_SPENDING_2026", "GARTNER_SECURING_AI_2027"]
+    },
+    {
+      "rank": 6,
+      "theme": "INDUSTRIAL_AUTOMATION_AND_ROBOTICS",
+      "display_name_ko": "산업 자동화·로봇·리쇼어링",
+      "conviction": "HIGH",
+      "structural_driver": "Labour scarcity, wage pressure, reshoring and improving machine vision/inference economics increase the ROI of industrial automation.",
+      "preferred_subsegments": ["industrial_robots", "machine_vision", "sensors", "warehouse_automation", "factory_software", "autonomous_logistics"],
+      "source_ids": ["IFR_US_ROBOTS_2025"]
+    },
+    {
+      "rank": 7,
+      "theme": "NUCLEAR_GAS_STORAGE_AND_FIRM_POWER",
+      "display_name_ko": "원전·가스발전·저장장치·상시전원",
+      "conviction": "HIGH",
+      "structural_driver": "24/7 data-centre load requires firm generation and grid support in addition to renewables; gas, nuclear, storage and microgrids can all participate.",
+      "preferred_subsegments": ["nuclear_components_and_services", "gas_turbines", "grid_storage", "microgrids", "interconnection_equipment"],
+      "source_ids": ["IEA_ENERGY_AND_AI"]
+    },
+    {
+      "rank": 8,
+      "theme": "SELECTIVE_HEALTHCARE_INNOVATION",
+      "display_name_ko": "선별적 헬스케어 혁신",
+      "conviction": "MEDIUM_HIGH",
+      "structural_driver": "Large unmet needs in obesity/metabolic disease and other specialty areas can compound independently of the industrial/AI cycle.",
+      "preferred_subsegments": ["obesity_and_metabolic", "specialty_biopharma", "high_barrier_manufacturing"],
+      "evidence_status": "THEMATIC_INFERENCE_ONLY_IN_THIS_CHECKPOINT",
+      "note": "No market-size forecast is promoted to fact here because this persistence step did not independently verify the earlier quantitative obesity-market estimate."
+    },
+    {
+      "rank": 9,
+      "theme": "AI_APPLICATION_SOFTWARE_AND_PRODUCTIVITY",
+      "display_name_ko": "AI 애플리케이션·생산성 소프트웨어",
+      "conviction": "MEDIUM_HIGH",
+      "structural_driver": "As infrastructure matures, value capture should migrate toward workflow automation, agents and measurable productivity gains.",
+      "key_risk": "AI can commoditize incumbent seat-based SaaS features; application-layer winners require differentiated data, distribution or workflow control.",
+      "source_ids": ["GARTNER_AI_SPENDING_2026"]
+    },
+    {
+      "rank": 10,
+      "theme": "SELECTIVE_FINANCIALS_AND_INSURANCE",
+      "display_name_ko": "선별적 금융·보험",
+      "conviction": "MEDIUM",
+      "structural_driver": "Higher-for-longer nominal rates can support spreads and investment income for well-capitalized franchises, but credit and duration risk remain cyclical.",
+      "source_ids": ["MACRO_OVERLAY_2026_09_08"]
+    }
+  ],
+  "leadership_phases": [
+    {
+      "period": "2026-2027",
+      "likely_leaders": ["AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT", "POWER_GRID_AND_ELECTRICAL_INFRASTRUCTURE", "DEFENCE_AEROSPACE_DRONES_MISSILES"],
+      "phase_label": "COMPUTE_AND_CAPACITY_SCARCITY"
+    },
+    {
+      "period": "2027-2029",
+      "likely_leaders": ["POWER_GRID_AND_ELECTRICAL_INFRASTRUCTURE", "DATA_CENTER_POWER_COOLING_NETWORKING", "NUCLEAR_GAS_STORAGE_AND_FIRM_POWER", "CYBERSECURITY_AND_AI_SECURITY"],
+      "phase_label": "PHYSICAL_INFRASTRUCTURE_SCARCITY"
+    },
+    {
+      "period": "2029-2031",
+      "likely_leaders": ["INDUSTRIAL_AUTOMATION_AND_ROBOTICS", "AI_APPLICATION_SOFTWARE_AND_PRODUCTIVITY", "CYBERSECURITY_AND_AI_SECURITY"],
+      "phase_label": "PRODUCTIVITY_MONETIZATION"
+    }
+  ],
+  "overarching_framework": [
+    "AI_COMPUTE",
+    "ELECTRICITY",
+    "GRID_COOLING_DATA_CENTER",
+    "AUTOMATION",
+    "PRODUCTIVITY"
+  ],
+  "parallel_geopolitical_framework": [
+    "DEFENCE",
+    "CYBERSECURITY",
+    "SUPPLY_CHAIN_LOCALIZATION"
+  ],
+  "example_harness_exposures_not_recommendations": {
+    "NVDA": ["AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT"],
+    "TSM": ["AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT"],
+    "SK_HYNIX": ["AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT"],
+    "058470": ["AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT"],
+    "MPWR": ["AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT", "DATA_CENTER_POWER_COOLING_NETWORKING"],
+    "PWR": ["POWER_GRID_AND_ELECTRICAL_INFRASTRUCTURE", "DATA_CENTER_POWER_COOLING_NETWORKING"],
+    "PANW": ["CYBERSECURITY_AND_AI_SECURITY"],
+    "SNOW": ["AI_APPLICATION_SOFTWARE_AND_PRODUCTIVITY"],
+    "LLY": ["SELECTIVE_HEALTHCARE_INNOVATION"]
+  }
+}
