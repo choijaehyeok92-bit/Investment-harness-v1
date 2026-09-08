@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-08-macro",
+  "as_of": "2026-09-08",
+  "horizon_end": "2027-03-08",
+  "purpose": "Six-month macro risk-budget overlay. This is not a company score input and does not alter any company 100-point score.",
+  "source_policy": "policy/source-policy.yaml",
+  "sources": [
+    {
+      "id": "US_GDP_Q2_2026",
+      "priority": 1,
+      "type": "official_statistical_release",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "published": "2026-08-26",
+      "verified": true
+    },
+    {
+      "id": "US_GDPNOW_2026_09_03",
+      "priority": 3,
+      "type": "official_model_nowcast",
+      "publisher": "Federal Reserve Bank of Atlanta",
+      "title": "GDPNow commentary, September 3, 2026",
+      "url": "https://www.atlantafed.org/research-and-data/data/gdpnow/current-and-past-gdpnow-commentaries",
+      "published": "2026-09-03",
+      "verified": true
+    },
+    {
+      "id": "US_EMPLOYMENT_AUG_2026",
+      "priority": 1,
+      "type": "official_statistical_release",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "The Employment Situation - August 2026",
+      "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+      "published": "2026-09-04",
+      "verified": true
+    },
+    {
+      "id": "US_CPI_JUL_2026",
+      "priority": 1,
+      "type": "official_statistical_release",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "title": "Consumer Price Index - July 2026",
+      "url": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
+      "published": "2026-08-12",
+      "verified": true
+    },
+    {
+      "id": "US_PCE_JUL_2026",
+      "priority": 1,
+      "type": "official_statistical_release",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "title": "Personal Income and Outlays, July 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "published": "2026-08-26",
+      "verified": true
+    },
+    {
+      "id": "FED_JUL_2026",
+      "priority": 1,
+      "type": "official_central_bank_release",
+      "publisher": "Federal Reserve Board",
+      "title": "FOMC minutes and implementation note, July 29, 2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260729.htm",
+      "published": "2026-08-19",
+      "verified": true
+    },
+    {
+      "id": "FED_SEP_JUN_2026",
+      "priority": 1,
+      "type": "official_central_bank_projection",
+      "publisher": "Federal Reserve Board",
+      "title": "Summary of Economic Projections, June 17, 2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260617.htm",
+      "published": "2026-06-17",
+      "verified": true
+    },
+    {
+      "id": "US_FISCAL_CBO_2026",
+      "priority": 1,
+      "type": "official_budget_projection",
+      "publisher": "Congressional Budget Office",
+      "title": "The Budget and Economic Outlook: 2026 to 2036",
+      "url": "https://www.cbo.gov/publication/62105",
+      "published": "2026-02-11",
+      "verified": true
+    },
+    {
+      "id": "EURO_AREA_INFLATION_AUG_2026",
+      "priority": 1,
+      "type": "official_statistical_release",
+      "publisher": "Eurostat",
+      "title": "Euro area annual inflation up to 3.3% - August 2026 flash estimate",
+      "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap",
+      "published": "2026-09-01",
+      "verified": true
+    },
+    {
+      "id": "EURO_AREA_GDP_Q2_2026",
+      "priority": 1,
+      "type": "official_statistical_release",
+      "publisher": "Eurostat",
+      "title": "GDP up by 0.6% and employment up by 0.1% in the euro area",
+      "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-07092026-ap",
+      "published": "2026-09-07",
+      "verified": true
+    },
+    {
+      "id": "ECB_JUL_2026",
+      "priority": 1,
+      "type": "official_central_bank_release",
+      "publisher": "European Central Bank",
+      "title": "Monetary policy decisions - 23 July 2026",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html",
+      "published": "2026-07-23",
+      "verified": true
+    },
+    {
+      "id": "BOJ_JUL_2026",
+      "priority": 1,
+      "type": "official_central_bank_release",
+      "publisher": "Bank of Japan",
+      "title": "Statement on Monetary Policy - July 31, 2026",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260731a.pdf",
+      "published": "2026-07-31",
+      "verified": true
+    },
+    {
+      "id": "BOK_AUG_2026",
+      "priority": 1,
+      "type": "official_central_bank_release",
+      "publisher": "Bank of Korea",
+      "title": "Monetary Policy Decision - August 27, 2026",
+      "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400007&menuNo=400423&nttId=11064193&oldMenuNo=400007&pageIndex=1&pageUnit=10&programType=newsDataEng&searchCnd=1&searchKwd=",
+      "published": "2026-08-27",
+      "verified": true
+    },
+    {
+      "id": "BOK_OUTLOOK_AUG_2026",
+      "priority": 1,
+      "type": "official_central_bank_forecast",
+      "publisher": "Bank of Korea",
+      "title": "Economic Outlook - August 2026",
+      "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400069&menuNo=400069&nttId=11064205&oldMenuNo=400007&programType=newsDataEng&relate=Y",
+      "published": "2026-08-27",
+      "verified": true
+    },
+    {
+      "id": "KOREA_EXPORTS_AUG_2026",
+      "priority": 1,
+      "type": "official_trade_release",
+      "publisher": "Korea Ministry of Trade, Industry and Resources",
+      "title": "2026년 8월 수출입동향",
+      "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172145/view",
+      "published": "2026-09-01",
+      "verified": true
+    },
+    {
+      "id": "CHINA_EXPORTS_AUG_2026",
+      "priority": 4,
+      "type": "reputable_financial_press",
+      "publisher": "Reuters",
+      "title": "China's exports surge as demand for high-tech, AI help prop up economic growth",
+      "url": "https://www.reuters.com/world/asia-pacific/chinas-exports-up-25-yy-august-imports-surge-282-2026-09-08/",
+      "published": "2026-09-08",
+      "verified": true
+    },
+    {
+      "id": "MARKETS_OIL_BONDS_2026_09_08",
+      "priority": 4,
+      "type": "reputable_financial_press",
+      "publisher": "Reuters",
+      "title": "Five spots to watch as the bond market creeps up on 5%; Gulf market and oil reports",
+      "urls": [
+        "https://www.reuters.com/business/five-spots-watch-bond-market-creeps-up-5-2026-09-08/",
+        "https://www.reuters.com/world/middle-east/gulf-markets-struggle-momentum-amid-escalating-us-iran-tensions-2026-09-08/",
+        "https://www.reuters.com/business/energy/why-isnt-oil-above-100-despite-supply-disruptions-2026-09-08/"
+      ],
+      "published": "2026-09-08",
+      "verified": true
+    },
+    {
+      "id": "POLICY_EXPECTATIONS_2026_09_08",
+      "priority": 4,
+      "type": "market_expectations_press",
+      "publisher": "Reuters",
+      "title": "Yen pauses after rally as dollar firms",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-extends-rally-new-seven-month-high-dollar-subdued-ahead-cpi-2026-09-08/",
+      "published": "2026-09-08",
+      "verified": true,
+      "note": "Market-implied or strategist expectations are estimates, not policy facts."
+    }
+  ]
+}
