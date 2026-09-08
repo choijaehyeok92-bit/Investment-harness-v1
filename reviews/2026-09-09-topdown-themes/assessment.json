@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "FIVE_YEAR_TOPDOWN_THEME_ASSESSMENT",
+  "as_of": "2026-09-09",
+  "horizon_end": "2031-09-09",
+  "authority_status": "ADDITIVE_RESEARCH_INPUT",
+  "company_score_effect": "NONE",
+  "buy_authorization_effect": "NONE",
+  "policy_note": "Per AGENTS.md, macro and thematic views are separate from company quality, market expectations and valuation. They can alter research priority, scenario framing and portfolio risk budget, but cannot directly add points to a company score or authorize a position.",
+  "top_down_conclusion": {
+    "claim_type": "opinion",
+    "confidence": 0.78,
+    "statement": "The most durable five-year leadership is likely to come from the intersection of AI compute, electrification/grid bottlenecks, data-centre physical infrastructure, defence/cybersecurity and later-stage automation/productivity monetization rather than from a single broad 'AI sector'."
+  },
+  "highest_priority_themes": [
+    "POWER_GRID_AND_ELECTRICAL_INFRASTRUCTURE",
+    "AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT",
+    "DATA_CENTER_POWER_COOLING_NETWORKING",
+    "DEFENCE_AEROSPACE_DRONES_MISSILES",
+    "CYBERSECURITY_AND_AI_SECURITY"
+  ],
+  "strategic_views": [
+    {
+      "id": "AGE_OF_ELECTRICITY",
+      "claim_type": "inference",
+      "confidence": 0.86,
+      "statement": "Electrification is the broadest cross-sector structural theme because AI compute, manufacturing, cooling, automation and transport all convert into higher power demand and grid-capacity requirements.",
+      "evidence_ids": ["IEA_ELECTRICITY_2026", "IEA_ENERGY_AND_AI"]
+    },
+    {
+      "id": "AI_VALUE_CHAIN_BROADENS",
+      "claim_type": "inference",
+      "confidence": 0.82,
+      "statement": "AI value capture should broaden from accelerators into HBM, foundry, packaging, networking, power delivery and cooling before migrating further toward applications and automation.",
+      "evidence_ids": ["SEMI_EQUIPMENT_2026_2028", "SEMI_MEMORY_300MM_2026_2029", "IEA_ENERGY_AND_AI"]
+    },
+    {
+      "id": "DEFENCE_IS_MULTI_YEAR_CAPEX",
+      "claim_type": "inference",
+      "confidence": 0.84,
+      "statement": "Defence should be treated as a multi-year production-capacity and procurement cycle, not only as a short-duration geopolitical trade.",
+      "evidence_ids": ["NATO_5_PERCENT_COMMITMENT", "NATO_DEFENCE_INDUSTRIAL_PRODUCTION"]
+    },
+    {
+      "id": "AI_EXPANDS_SECURITY_TAM",
+      "claim_type": "inference",
+      "confidence": 0.82,
+      "statement": "AI adoption increases cybersecurity demand because autonomous agents, cloud workloads, identity access and model-specific attack surfaces create incremental security requirements.",
+      "evidence_ids": ["GARTNER_INFOSEC_2026", "GARTNER_AI_SPENDING_2026", "GARTNER_SECURING_AI_2027"]
+    },
+    {
+      "id": "AUTOMATION_IS_LATER_STAGE_AI_MONETIZATION",
+      "claim_type": "inference",
+      "confidence": 0.72,
+      "statement": "Industrial automation and robotics are likely to become more important later in the five-year window as AI inference economics improve and enterprises demand measurable labour/productivity returns.",
+      "evidence_ids": ["IFR_US_ROBOTS_2025", "GARTNER_AI_SPENDING_2026"]
+    }
+  ],
+  "relative_attractiveness_opinion_scores_10": {
+    "POWER_GRID_AND_ELECTRICAL_INFRASTRUCTURE": 9.0,
+    "AI_SEMICONDUCTORS_MEMORY_PACKAGING_EQUIPMENT": 8.7,
+    "DATA_CENTER_POWER_COOLING_NETWORKING": 8.6,
+    "CYBERSECURITY_AND_AI_SECURITY": 8.6,
+    "DEFENCE_AEROSPACE_DRONES_MISSILES": 8.3,
+    "SELECTIVE_HEALTHCARE_INNOVATION": 8.3,
+    "INDUSTRIAL_AUTOMATION_AND_ROBOTICS": 8.1,
+    "NUCLEAR_GAS_STORAGE_AND_FIRM_POWER": 7.7,
+    "AI_APPLICATION_SOFTWARE_AND_PRODUCTIVITY": 6.9,
+    "TRADITIONAL_RENEWABLE_DEVELOPERS_BROAD": 6.2
+  },
+  "score_warning": "These 10-point values are analyst relative-attractiveness opinions for thematic research only. They are not harness company scores, valuation outputs or position sizes.",
+  "theme_to_stock_filter": {
+    "required_sequence": [
+      "STRUCTURAL_DEMAND",
+      "SUPPLY_BOTTLENECK_OR_SHARE_GAIN",
+      "MOAT_TRAJECTORY",
+      "INCREMENTAL_ROIC_AND_FCF_PER_SHARE",
+      "MARKET_EXPECTATIONS",
+      "VALUATION"
+    ],
+    "rule": "A strong theme is not a buy thesis. The company must convert thematic demand into durable market share, attractive incremental cash returns and a valuation that does not already require the bull case."
+  },
+  "preferred_business_characteristics": [
+    "High incremental ROIC and cash conversion",
+    "Pricing power or scarce technical capability",
+    "Low dependence on refinancing or external equity issuance",
+    "Ability to grow FCF per share rather than only revenue",
+    "Bottleneck position in a growing value chain",
+    "Evidence of stable or improving market share"
+  ],
+  "areas_to_treat_cautiously": [
+    {
+      "theme": "TRADITIONAL_SAAS",
+      "reason": "AI can commoditize seat-based features and basic workflows; incumbents require proof that AI strengthens rather than erodes their moat."
+    },
+    {
+      "theme": "HIGH_DEBT_REAL_ESTATE",
+      "reason": "Higher-for-longer long rates and refinancing costs can structurally pressure low-yield property economics."
+    },
+    {
+      "theme": "LOW_QUALITY_RENEWABLE_DEVELOPERS",
+      "reason": "The demand theme can be positive while project-level equity returns remain weak due to leverage, capital intensity and commodity-like economics."
+    },
+    {
+      "theme": "MASS_MARKET_DISCRETIONARY",
+      "reason": "Higher rates and modest household savings limit broad discretionary leadership, although strong global brands can still compound independently."
+    }
+  ],
+  "portfolio_application": {
+    "do": [
+      "Use the thematic map to prioritize research queues and scenario stress tests.",
+      "Diversify across distinct economic engines rather than buying many companies exposed to the same AI capex factor.",
+      "Require especially strict valuation discipline in already-crowded AI semiconductor and data-centre names.",
+      "Separate regulated utilities from equipment/EPC suppliers when evaluating electrification beneficiaries.",
+      "Track whether capital expenditure converts into incremental FCF/share and after-tax ROIC."
+    ],
+    "do_not": [
+      "Do not change company quality scores solely because a sector ranks highly.",
+      "Do not assume an industry forecast is a realized future outcome.",
+      "Do not use theme membership as a substitute for reverse DCF or Bear/Base/Bull analysis.",
+      "Do not concentrate multiple holdings that depend on the same hyperscaler AI capex assumption without recognizing correlated downside."
+    ]
+  },
+  "falsifiers": [
+    "Hyperscaler AI capex guidance falls materially and persistently across the major platforms.",
+    "Data-centre interconnection queues and grid equipment lead times normalize much faster than expected while industry capacity surges.",
+    "HBM/advanced semiconductor supply growth materially exceeds demand and incremental returns collapse across the chain.",
+    "NATO members materially reverse or delay defence procurement commitments.",
+    "Enterprise AI deployment fails to generate measurable productivity returns, slowing application, security and automation spending.",
+    "Long-term power demand forecasts are cut materially because data-centre efficiency gains offset compute growth more than expected."
+  ],
+  "reassessment_cadence": {
+    "default": "QUARTERLY_LIGHT_REVIEW_AND_ANNUAL_FULL_REUNDERWRITE",
+    "event_driven": [
+      "Major hyperscaler capex reset",
+      "Material change in IEA electricity/data-centre forecasts",
+      "Major semiconductor equipment forecast revision",
+      "NATO spending or procurement reversal",
+      "Major AI-security or enterprise adoption inflection",
+      "Macro regime change in reviews/2026-09-08-macro or later successor"
+    ]
+  }
+}
