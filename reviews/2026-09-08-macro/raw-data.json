@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "MACRO_OBSERVATION_SNAPSHOT",
+  "as_of": "2026-09-08",
+  "horizon_end": "2027-03-08",
+  "units_note": "Rates and growth figures are percentages unless otherwise stated. Market prices are point-in-time observations and may move intraday.",
+  "observations": {
+    "united_states": {
+      "growth": {
+        "q2_2026_real_gdp_saar": 1.5,
+        "q1_2026_real_gdp_saar": 2.1,
+        "q3_2026_gdpnow_saar_as_of_2026_09_03": 4.7,
+        "source_ids": ["US_GDP_Q2_2026", "US_GDPNOW_2026_09_03"]
+      },
+      "labor": {
+        "aug_2026_nonfarm_payroll_change_thousands": 162,
+        "aug_2026_unemployment_rate": 4.1,
+        "source_ids": ["US_EMPLOYMENT_AUG_2026"]
+      },
+      "inflation_and_consumption": {
+        "jul_2026_cpi_yoy": 3.4,
+        "jul_2026_core_cpi_yoy": 2.5,
+        "jul_2026_pce_yoy": 3.7,
+        "jul_2026_core_pce_yoy": 3.3,
+        "jul_2026_real_pce_mom": "less_than_0.1",
+        "jul_2026_personal_saving_rate": 3.0,
+        "source_ids": ["US_CPI_JUL_2026", "US_PCE_JUL_2026"]
+      },
+      "monetary_policy": {
+        "fed_funds_target_range": [3.5, 3.75],
+        "jul_2026_fomc_hike_dissenters_count": 3,
+        "jun_2026_sep_2026_real_gdp_median": 2.2,
+        "jun_2026_sep_2026_unemployment_median": 4.3,
+        "jun_2026_sep_2026_pce_median": 3.6,
+        "jun_2026_sep_2026_core_pce_median": 3.3,
+        "jun_2026_sep_end_2026_fed_funds_median": 3.8,
+        "source_ids": ["FED_JUL_2026", "FED_SEP_JUN_2026"]
+      },
+      "fiscal": {
+        "fy2026_cbo_deficit_usd_trillion": 1.9,
+        "fy2026_cbo_deficit_pct_gdp": 5.8,
+        "fy2026_cbo_debt_held_by_public_pct_gdp": 101.0,
+        "fy2026_cbo_net_interest_pct_gdp": 3.3,
+        "source_ids": ["US_FISCAL_CBO_2026"]
+      },
+      "market": {
+        "us_10y_treasury_context": "near_5_percent; Reuters reported 4.8% touch on 2026-09-04",
+        "source_ids": ["MARKETS_OIL_BONDS_2026_09_08"]
+      }
+    },
+    "euro_area": {
+      "q2_2026_real_gdp_qoq": 0.6,
+      "q2_2026_real_gdp_yoy": 1.2,
+      "aug_2026_hicp_yoy_flash": 3.3,
+      "aug_2026_energy_inflation_yoy_flash": 14.3,
+      "aug_2026_hicp_ex_energy_yoy_flash": 2.2,
+      "ecb_deposit_facility_rate": 2.25,
+      "source_ids": ["EURO_AREA_GDP_Q2_2026", "EURO_AREA_INFLATION_AUG_2026", "ECB_JUL_2026"]
+    },
+    "japan": {
+      "boj_uncollateralized_overnight_call_rate_guideline": 1.0,
+      "jul_2026_policy_vote": "8-1 to keep around 1.0%; dissent preferred 1.25%",
+      "sep_2026_25bp_hike_expectation": "market_estimate_not_policy_fact",
+      "source_ids": ["BOJ_JUL_2026", "POLICY_EXPECTATIONS_2026_09_08"]
+    },
+    "south_korea": {
+      "bok_base_rate": 3.0,
+      "aug_2026_rate_change_bp": 25,
+      "bok_2026_real_gdp_forecast": 3.3,
+      "bok_2027_real_gdp_forecast": 2.9,
+      "bok_2026_cpi_forecast": 2.7,
+      "bok_2026_core_inflation_forecast": 2.5,
+      "aug_2026_exports_usd_billion": 98.25,
+      "aug_2026_exports_yoy": 68.7,
+      "aug_2026_semiconductor_exports_usd_billion": 46.65,
+      "aug_2026_semiconductor_exports_yoy": 209.0,
+      "source_ids": ["BOK_AUG_2026", "BOK_OUTLOOK_AUG_2026", "KOREA_EXPORTS_AUG_2026"]
+    },
+    "china": {
+      "aug_2026_exports_yoy": 25.0,
+      "aug_2026_imports_yoy": 28.2,
+      "aug_2026_high_tech_exports_yoy": 42.9,
+      "interpretation_limit": "Reuters-reported customs data; domestic demand/property weakness remains a separate condition.",
+      "source_ids": ["CHINA_EXPORTS_AUG_2026"]
+    },
+    "energy_and_geopolitics": {
+      "brent_intraday_usd_per_bbl_2026_09_08": 98.63,
+      "physical_market_condition": "tight; spot physical markers above futures in parts of the Gulf market",
+      "middle_east_condition": "elevated conflict and shipping-disruption risk",
+      "source_ids": ["MARKETS_OIL_BONDS_2026_09_08"]
+    },
+    "market_expectations": {
+      "fed_sep_2026_hike_probability": "about_60_percent_reported_by_reuters",
+      "boj_sep_2026_hike_expectation": "25bp_hike_expected_by_some_market_participants",
+      "classification": "estimate",
+      "source_ids": ["POLICY_EXPECTATIONS_2026_09_08"]
+    }
+  },
+  "data_quality": {
+    "official_primary_or_official_model_observations": "preferred where available",
+    "market_prices_and_policy_expectations": "Reuters secondary observations; point-in-time and non-authoritative",
+    "forward_scenarios": "not stored in raw-data; see assessment.json",
+    "company_score_effect": "NONE"
+  }
+}
