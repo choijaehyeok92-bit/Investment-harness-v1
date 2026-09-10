@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-app-meli-deep",
+  "as_of": "2026-09-10",
+  "authority_status": "ADDITIVE_RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "policy_note": "This run stores new deep-research checkpoints only. It does not modify companies/*/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock, or frozen deterministic outputs.",
+  "sources": [
+    {
+      "id": "APP_2025_10K",
+      "ticker": "APP",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / AppLovin",
+      "title": "AppLovin FY2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000010/app-20251231.htm",
+      "verified_in_prior_deep_review": true
+    },
+    {
+      "id": "APP_2026_Q2_10Q",
+      "ticker": "APP",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / AppLovin",
+      "title": "AppLovin Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000059/app-20260630.htm",
+      "verified_in_prior_deep_review": true
+    },
+    {
+      "id": "APP_Q2_2026_IR",
+      "ticker": "APP",
+      "priority": 2,
+      "type": "company_ir",
+      "publisher": "AppLovin",
+      "title": "AppLovin Announces Second Quarter 2026 Financial Results",
+      "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+      "verified_in_prior_deep_review": true
+    },
+    {
+      "id": "APP_SEC_PROBE_REUTERS",
+      "ticker": "APP",
+      "priority": 4,
+      "type": "reputable_financial_press",
+      "publisher": "Reuters",
+      "title": "SEC probe involving AppLovin still active",
+      "url": "https://www.reuters.com/business/sec-probe-involving-applovin-still-active-bloomberg-news-reports-2026-02-20/",
+      "verified_in_prior_deep_review": true,
+      "note": "Investigation status is evidence of unresolved conduct risk, not evidence of wrongdoing."
+    },
+    {
+      "id": "APP_SENSOR_TOWER_H1_2026",
+      "ticker": "APP",
+      "priority": 3,
+      "type": "independent_industry_dataset",
+      "publisher": "Sensor Tower",
+      "title": "H1 2026 Gaming Digital Market Index",
+      "url": "https://sensortower.com/report/h1-2026-gaming-digital-market-index",
+      "verified_in_prior_deep_review": true
+    },
+    {
+      "id": "APP_APPSFLYER_INDEX",
+      "ticker": "APP",
+      "priority": 3,
+      "type": "independent_industry_dataset",
+      "publisher": "AppsFlyer",
+      "title": "Performance Index",
+      "url": "https://www.appsflyer.com/resources/reports/performance-index/",
+      "verified_in_prior_deep_review": true
+    },
+    {
+      "id": "APP_PRICE_2026_09_09",
+      "ticker": "APP",
+      "priority": 4,
+      "type": "market_quote_reference",
+      "publisher": "Yahoo Finance",
+      "value": 305.06,
+      "currency": "USD",
+      "price_date": "2026-09-09",
+      "status": "RESEARCH_REFERENCE_QUOTE_NOT_EXECUTABLE",
+      "verified_in_prior_deep_review": true
+    },
+    {
+      "id": "MELI_CANONICAL_Q2_RAW",
+      "ticker": "MELI",
+      "priority": 1,
+      "type": "harness_canonical_raw_snapshot",
+      "path": "companies/MELI/raw-data/2026-Q2.json",
+      "status": "BASELINE_LOCKED_EXISTING_RAW_DATA_UNCHANGED"
+    },
+    {
+      "id": "MELI_Q2_2026_10Q",
+      "ticker": "MELI",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / MercadoLibre",
+      "title": "MercadoLibre Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000023/meli-20260630.htm",
+      "verified": true
+    },
+    {
+      "id": "MELI_Q2_2026_SHAREHOLDER_LETTER",
+      "ticker": "MELI",
+      "priority": 2,
+      "type": "company_ir_filed_exhibit",
+      "publisher": "MercadoLibre / U.S. SEC",
+      "title": "Q2 2026 Shareholder Letter",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000021/meli-20260805xex991.htm",
+      "verified": true
+    },
+    {
+      "id": "MELI_2025_10K",
+      "ticker": "MELI",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / MercadoLibre",
+      "title": "MercadoLibre FY2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm",
+      "verified": true
+    },
+    {
+      "id": "MELI_2026_PROXY",
+      "ticker": "MELI",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / MercadoLibre",
+      "title": "MercadoLibre 2026 Proxy Statement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000010/meli-20260423.htm",
+      "verified": true
+    },
+    {
+      "id": "MELI_PRICE_2026_09_09",
+      "ticker": "MELI",
+      "priority": 4,
+      "type": "market_quote_reference",
+      "publisher": "Investing.com",
+      "url": "https://ph.investing.com/equities/mercadolibre-historical-data",
+      "value": 1876.33,
+      "currency": "USD",
+      "price_date": "2026-09-09",
+      "status": "LATEST_COMPLETED_US_CLOSE_AT_RESEARCH_TIME",
+      "verified": true
+    },
+    {
+      "id": "MELI_BOND_2026_09_09",
+      "ticker": "MELI",
+      "priority": 4,
+      "type": "reputable_financial_press",
+      "publisher": "Reuters",
+      "title": "MercadoLibre raises $1 billion in ten-year bond sale",
+      "url": "https://www.reuters.com/legal/transactional/mercadolibre-raises-1-billion-ten-year-bond-sale-2026-09-09/",
+      "verified": true,
+      "note": "Confirms $1B ten-year dollar bond due 2036; exact coupon is not asserted in this checkpoint."
+    },
+    {
+      "id": "MELI_2026_PRELIM_BOND_PROSPECTUS",
+      "ticker": "MELI",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / MercadoLibre",
+      "title": "Preliminary Prospectus Supplement dated September 8, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000114036126035849/ny20080683x1_424b2.htm",
+      "verified": true
+    },
+    {
+      "id": "LATAM_ECOMMERCE_2026",
+      "ticker": "MELI",
+      "priority": 3,
+      "type": "independent_industry_research",
+      "publisher": "EMARKETER",
+      "title": "Latin America Ecommerce Market Shares 2026",
+      "url": "https://www.emarketer.com/content/latin-america-ecommerce-market-shares-2026",
+      "verified": true
+    },
+    {
+      "id": "MACRO_OVERLAY",
+      "priority": 3,
+      "type": "harness_macro_research",
+      "path": "reviews/2026-09-08-macro/assessment.json",
+      "note": "Risk-budget/scenario input only; no direct company-score effect."
+    },
+    {
+      "id": "THEME_OVERLAY",
+      "priority": 3,
+      "type": "harness_topdown_research",
+      "path": "reviews/2026-09-09-topdown-themes/assessment.json",
+      "note": "Research-priority/scenario input only; no direct company-score effect."
+    }
+  ]
+}
