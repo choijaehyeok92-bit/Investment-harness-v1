@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "TSM",
+  "as_of": "2026-09-10",
+  "currency": "USD",
+  "security": "ADR",
+  "price_reference": {
+    "price": 427.18,
+    "price_date": "2026-09-10",
+    "status": "SECONDARY_COMPLETED_SESSION_REFERENCE_NOT_EXCHANGE_AUDITED",
+    "valuation_shares_m_ads": 5186.5049042,
+    "simple_market_cap_usd_b": 2215.571165,
+    "note": "Market capitalization is calculated from the retained filing-based ADS denominator rather than copied from a vendor."
+  },
+  "required_return": 0.09,
+  "model_treatment": "Retain 2026-09-06 Bear/Base/Bull economic scenarios for comparability. Synchronize price and reverse expectations; do not rewrite terminal economics merely because Q2 and August growth were strong.",
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_adr": 96.2753661404663,
+      "value_to_price": 0.225374236014,
+      "upside_downside": -0.774625763986,
+      "source": "Retained from companies/TSM/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Leading-edge growth normalizes, pricing and utilization soften, overseas capacity dilutes returns and mature owner margin settles near 18%. This normal operating Bear does not substitute for a Taiwan geopolitical catastrophe scenario."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_adr": 309.897973102899,
+      "value_to_price": 0.725450566747,
+      "upside_downside": -0.274549433253,
+      "source": "Retained from companies/TSM/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "TSMC remains the leading foundry, year-1 revenue is US$185B, owner margin rises from 25% to 27%, growth normalizes over a decade and terminal owner cash is valued at 22x."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_adr": 702.079426077829,
+      "value_to_price": 1.643521293314,
+      "upside_downside": 0.643521293314,
+      "source": "Retained from companies/TSM/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "AI/HPC, N2/A14 and advanced packaging sustain exceptional growth, pricing and 33% mature owner margin with a 28x terminal multiple."
+    }
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold retained Base year-1 revenue US$185B, owner-margin path 25%/25.5%/26%/26.5%/27% then 27%, 22x terminal multiple and 9% required return; solve one constant revenue growth rate for years 2-10 that matches the September 10 price.",
+    "required_growth_years_2_10": 0.150093760048,
+    "prior_required_growth_years_2_10": 0.150678465684,
+    "prior_price_reference": 428.91,
+    "price_reference": 427.18,
+    "implied_year_10_revenue_usd_b": 651.284815300,
+    "implied_year_10_owner_cash_usd_b": 175.846900131,
+    "interpretation": "About 15.01% annual revenue growth for nine years after a US$185B year-1 base is demanding. It is not demonstrably impossible given current AI/HPC demand and management's medium-term growth framework, but the price remains materially above retained Base and therefore offers poor expectation-gap protection."
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_adr": 96.2753661404663,
+    "bull_value_per_adr": 702.079426077829,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.546223863032,
+    "note": "Algebraic price location only; not an estimated probability."
+  },
+  "ttm_cash_diagnostics": {
+    "native_currency": "NTD",
+    "revenue_ntd_b": 4440.488739,
+    "parent_net_income_ntd_b": 2237.085397,
+    "operating_cash_flow_ntd_b": 2634.678868,
+    "ppe_purchases_ntd_b": 1491.122998,
+    "mechanical_ocf_less_ppe_ntd_b": 1143.555870,
+    "owner_proxy_complete": false,
+    "translation_fx_ntd_per_usd": 31.6,
+    "translated_parent_net_income_usd_b_approx": 70.79,
+    "translated_ocf_less_ppe_usd_b_approx": 36.19,
+    "translated_ttm_pe_approx": 31.30,
+    "translated_market_cap_to_ocf_less_ppe_approx": 61.22,
+    "note": "Translated ratios are diagnostics only. OCF-PPE is not normalized owner FCF during the current global capex wave."
+  },
+  "geopolitical_overlay": {
+    "status": "SEPARATE_TAIL_RISK_NOT_EMBEDDED_AS_ORDINARY_BEAR",
+    "description": "A blockade, conflict or loss of access to Taiwan production/assets can dominate ordinary cash-flow valuation. Overseas fabs improve resilience but do not yet replicate the full Taiwan leading-edge ecosystem.",
+    "treatment": "Maintain permanent-loss and concentration veto investigations rather than applying an arbitrary probability haircut that would imply false precision."
+  },
+  "valuation_conclusion": "At US$427.18, the ADR trades roughly 38% above retained Base value, or Base is about 27% below price. Operational evidence is stronger than in the prior checkpoint, but expectation gap remains weak and new-capital/geographic gates remain open. No buy authorization."
+}

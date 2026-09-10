@@ -1,0 +1,100 @@
+{
+  "ticker": "TSM",
+  "as_of": "2026-09-10",
+  "sources": [
+    {
+      "id": "TSMC_Q2_2026_EARNINGS",
+      "tier": 1,
+      "type": "company_earnings_release",
+      "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-07/a80d7933be643644081584087731f73b22ea5a2c/2Q26%20EarningsRelease.pdf",
+      "date": "2026-07-16",
+      "use": "Q2 revenue, net income, EPS, gross/operating margin, node mix, Q3 guidance"
+    },
+    {
+      "id": "TSMC_Q2_2026_QUARTERLY",
+      "tier": 1,
+      "type": "company_ir_quarterly_results",
+      "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2",
+      "date": "2026-07-16",
+      "use": "management report, HPC/platform mix, financial statements, cash-flow bridge and earnings-call materials"
+    },
+    {
+      "id": "TSMC_2026_MONTHLY_REVENUE",
+      "tier": 1,
+      "type": "company_monthly_revenue",
+      "url": "https://investor.tsmc.com/japanese/monthly-revenue/2026",
+      "date": "2026-09-10",
+      "use": "August revenue NT$514.806B, +53.3% YoY; Jan-Aug NT$3.38687T, +39.3%"
+    },
+    {
+      "id": "TSMC_2025_20F",
+      "tier": 1,
+      "type": "sec_annual_filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "date": "2026-04-16",
+      "use": "audit/ICFR, customer concentration, ordinary-share/ADR basis, risk factors and FY2025 financial anchors"
+    },
+    {
+      "id": "TRENDFORCE_FOUNDRY_Q2_2026",
+      "tier": 2,
+      "type": "industry_research_press_release",
+      "url": "https://www.trendforce.com/presscenter/news/20260909-13225.html",
+      "date": "2026-09-09",
+      "use": "Q2 global foundry market context; TSMC revenue about US$40.2B and estimated 72.5% foundry share"
+    },
+    {
+      "id": "REUTERS_TSMC_Q2_CAPEX_2026",
+      "tier": 2,
+      "type": "reputable_financial_press",
+      "url": "https://www.reuters.com/world/asia-pacific/tsmcs-second-quarter-profit-seen-hitting-record-ai-boom-2026-07-15/",
+      "date": "2026-07-16",
+      "use": "Independent corroboration of Q2 profit, 2026 capex increase to US$60-64B and Arizona expansion"
+    },
+    {
+      "id": "REUTERS_TSMC_ARIZONA_2026",
+      "tier": 2,
+      "type": "reputable_financial_press",
+      "url": "https://www.reuters.com/world/asia-pacific/tsmc-expects-strong-multi-year-demand-ai-chips-it-ramps-up-arizona-investment-2026-07-19/",
+      "date": "2026-07-19",
+      "use": "US$265B Arizona investment context, multi-year AI demand statements and execution constraints"
+    },
+    {
+      "id": "TSM_PRICE_2026_09_10",
+      "tier": 3,
+      "type": "secondary_market_data",
+      "url": "https://za.investing.com/equities/taiwan-semicond.manufacturing-co-historical-data",
+      "date": "2026-09-10",
+      "use": "US$427.18 September 10 ADR completed-session reference; not represented as exchange-audited executable close"
+    },
+    {
+      "id": "PRIOR_CANONICAL_ASSESSMENT",
+      "tier": 1,
+      "type": "repository_prior_judgment",
+      "path": "companies/TSM/analyses/2026-09-06-deep/assessment.json",
+      "use": "Prior score and Hard Veto comparison"
+    },
+    {
+      "id": "PRIOR_CANONICAL_MODEL",
+      "tier": 1,
+      "type": "repository_prior_model",
+      "path": "companies/TSM/analyses/2026-09-06-deep/model-inputs.json",
+      "use": "Retained scenario assumptions, required return, ADS denominator and model family"
+    },
+    {
+      "id": "PRIOR_CANONICAL_VALUATION",
+      "tier": 1,
+      "type": "repository_prior_model_output",
+      "path": "companies/TSM/analyses/2026-09-06-deep/valuation.json",
+      "use": "Retained Bear/Base/Bull values and prior reverse expectation"
+    }
+  ],
+  "policy_notes": [
+    "Primary issuer/SEC evidence leads quantitative company claims; TrendForce and Reuters provide independent industry and execution context.",
+    "Management forecasts for FY2026 and medium-term AI/revenue growth are estimates, not realized facts.",
+    "Foundry share is a TrendForce estimate and not an audited issuer fact.",
+    "Native NTD statements lead the TTM bridge; USD translation uses a diagnostic rate only and is not presented as reported constant-currency accounting.",
+    "The September 10 ADR price is a secondary historical-market reference and not an execution guarantee.",
+    "Existing Bear/Base/Bull endpoints are retained for comparability rather than rewritten after one strong quarter/month.",
+    "A Taiwan geopolitical catastrophe is maintained as a separate tail-risk overlay rather than embedded in the ordinary Bear case with arbitrary probability precision."
+  ]
+}

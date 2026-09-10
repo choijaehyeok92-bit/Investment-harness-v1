@@ -1,0 +1,30 @@
+{
+  "ticker": "TSM",
+  "as_of": "2026-09-10",
+  "base": "main",
+  "head": "research/tsm-deep-2026-09-10",
+  "pre_diff_check": {
+    "base_sha": "587b0a2086ebb6f4d27081ee48d8dab0eba4974a",
+    "status": "ahead",
+    "ahead_by": 7,
+    "behind_by": 0,
+    "added_files": 7,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "expected_final_change_set": {
+    "added_files": 8,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "protected_surfaces_unchanged": [
+    "companies/TSM/latest.json",
+    "registry/companies.json",
+    "reviews/latest.json",
+    "companies/TSM/raw-data/*",
+    "harness/baseline-lock.json",
+    "frozen deterministic outputs"
+  ],
+  "validator_note": "No claim is made that the local frozen deterministic validator was executed for this additive checkpoint. GitHub structural compare is the guardrail used in this run; canonical deterministic authority remains unchanged.",
+  "authority_note": "Current canonical remains companies/TSM/analyses/2026-09-06-deep until a separate reviewed promotion."
+}

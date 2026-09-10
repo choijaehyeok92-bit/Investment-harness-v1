@@ -1,0 +1,124 @@
+{
+  "ticker": "TSM",
+  "as_of": "2026-09-10",
+  "fact_definition": "Reported issuer or third-party assertion. Estimates, translations and analyst judgments are separately labeled.",
+  "primary_financial_observations": {
+    "q2_2026": {
+      "revenue_ntd_b": 1270.38,
+      "revenue_yoy": 0.36,
+      "parent_net_income_ntd_b": 706.56,
+      "net_income_yoy": 0.774,
+      "gross_margin": 0.677,
+      "operating_margin": 0.603,
+      "advanced_node_7nm_and_below_share": 0.77,
+      "node_mix": {"2nm":0.03,"3nm":0.30,"5nm":0.33,"7nm":0.11},
+      "hpc_revenue_share": 0.66,
+      "q3_revenue_guide_usd_b_low": 44.6,
+      "q3_revenue_guide_usd_b_high": 45.8,
+      "source": "TSMC Q2 2026 earnings release and management report"
+    },
+    "monthly_revenue": {
+      "august_2026_ntd_b": 514.806,
+      "august_yoy": 0.533,
+      "jan_aug_2026_ntd_b": 3386.870,
+      "jan_aug_yoy": 0.393,
+      "source": "TSMC official monthly revenue page"
+    },
+    "ttm_harness_bridge_ntd_b": {
+      "formula": "FY2025 + H1 2026 - H1 2025",
+      "revenue": 4440.488739,
+      "parent_net_income": 2237.085397,
+      "operating_cash_flow": 2634.678868,
+      "ppe_purchases": 1491.122998,
+      "mechanical_ocf_less_ppe": 1143.555870,
+      "owner_proxy_complete": false,
+      "note": "OCF-PPE is a diagnostic only. It does not normalize the N2/A14, advanced-packaging and overseas-fab capex cycle, working capital, subsidies or asset-lifecycle economics."
+    }
+  },
+  "derived_diagnostics": {
+    "translation_fx_ntd_per_usd": 31.6,
+    "translation_status": "DIAGNOSTIC_ONLY_NOT_REPORTED_CONSTANT_FX",
+    "ttm_revenue_usd_b_approx": 140.52,
+    "ttm_parent_net_income_usd_b_approx": 70.79,
+    "ttm_ocf_usd_b_approx": 83.38,
+    "ttm_ppe_usd_b_approx": 47.19,
+    "ttm_mechanical_ocf_less_ppe_usd_b_approx": 36.19,
+    "ads_denominator_m": 5186.5049042,
+    "ads_basis": "25,932,524,521 ordinary shares / 5 ordinary shares per ADR, retained from 2026-09-06 filing bridge",
+    "price_reference_usd": 427.18,
+    "price_date": "2026-09-10",
+    "price_status": "SECONDARY_COMPLETED_SESSION_REFERENCE_NOT_EXCHANGE_AUDITED",
+    "simple_market_cap_usd_b": 2215.571165,
+    "translated_ttm_pe_approx": 31.30,
+    "translated_market_cap_to_mechanical_ocf_less_ppe_approx": 61.22
+  },
+  "moat_and_demand_observations": [
+    {
+      "claim_type": "fact",
+      "observation": "TrendForce estimated TSMC Q2 2026 foundry revenue at about US$40.2B and market share at 72.5%, with 5/4nm and 3nm capacity fully booked by AI GPU/XPU demand.",
+      "source_tier": 2
+    },
+    {
+      "claim_type": "fact",
+      "observation": "TSMC reported Q2 HPC at 66% of revenue and 2nm at 3% of wafer revenue in its first revenue quarter.",
+      "source_tier": 1
+    },
+    {
+      "claim_type": "fact",
+      "observation": "TSMC official monthly revenue showed August 2026 revenue of NT$514.8B, up 53.3% YoY, with January-August revenue up 39.3%.",
+      "source_tier": 1
+    },
+    {
+      "claim_type": "estimate",
+      "observation": "Management expects FY2026 revenue growth slightly above 40% in US-dollar terms and has previously described a roughly 25% overall revenue CAGR framework through 2029. These are forward-looking estimates, not realized facts.",
+      "source_tier": 1
+    }
+  ],
+  "capital_observations": [
+    {
+      "claim_type": "fact",
+      "observation": "Management raised 2026 capex guidance to US$60-64B from US$52-56B and expects the next three years to be materially more capital intensive than the prior three.",
+      "source_tier": 1
+    },
+    {
+      "claim_type": "fact",
+      "observation": "TSMC's announced Arizona investment plan totals about US$265B after an additional US$100B commitment; the company continues major leading-edge and packaging expansion in Taiwan as well.",
+      "source_tier": 1
+    },
+    {
+      "claim_type": "fact",
+      "observation": "Management has previously guided to overseas-fab gross-margin dilution of roughly 2-3 percentage points initially, potentially widening to 3-4 points, while N2 launch also carries early dilution.",
+      "source_tier": 1
+    }
+  ],
+  "concentration_and_integrity_observations": [
+    {
+      "claim_type": "fact",
+      "observation": "2025 Form 20-F disclosures indicate the top ten customers represented 78% of revenue; the largest and second-largest customers represented 19% and 17%, respectively.",
+      "source_tier": 1,
+      "treatment": "Customer concentration remains a Hard Veto investigation item; it is not assumed fatal in isolation."
+    },
+    {
+      "claim_type": "fact",
+      "observation": "The 2025 Form 20-F states management assessed ICFR as effective and Deloitte issued unqualified opinions on both consolidated financial statements and ICFR.",
+      "source_tier": 1
+    },
+    {
+      "claim_type": "inference",
+      "observation": "Overseas fabs reduce but do not eliminate Taiwan geographic concentration because the most advanced R&D and a large share of leading-edge capacity remain Taiwan-centered.",
+      "source_tier": 1
+    }
+  ],
+  "source_paths": [
+    "companies/TSM/analyses/2026-09-06-deep/assessment.json",
+    "companies/TSM/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/TSM/analyses/2026-09-06-deep/valuation.json",
+    "companies/TSM/analyses/2026-09-06-deep/evidence-ledger.json"
+  ],
+  "source_limits": [
+    "The September 10 ADR price is a secondary historical-market reference and is not represented as an exchange-audited execution price.",
+    "USD translations of TTM native-NTD figures use 31.6 NTD/USD only as a valuation diagnostic; native NTD figures are the accounting observations.",
+    "Foundry market-share data is an independent industry estimate, not issuer-reported audited market share.",
+    "Management growth and capex outlooks are forward-looking estimates and are not scored as realized future facts."
+  ]
+}
