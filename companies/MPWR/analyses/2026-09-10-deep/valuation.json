@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "MPWR",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "USD",
+  "price_reference": {
+    "price": 1186.08,
+    "price_date": "2026-09-10",
+    "price_status": "COMPLETED_SESSION_SECONDARY_MARKET_REFERENCE",
+    "valuation_shares_m": 49.3,
+    "simple_market_cap_usd_b": 58.473744,
+    "source_id": "MPWR_PRICE_2026_09_10",
+    "note": "Market capitalization is calculated from the retained valuation share denominator rather than copied from a market-data vendor."
+  },
+  "required_return": 0.09,
+  "cash_overlay": {
+    "cash_and_short_term_investments_usd_b": 1.413761,
+    "minimum_cash_reserve_usd_b": 0.500,
+    "excess_cash_used_usd_b": 0.913761,
+    "note": "No formal net-cash claim is made because a full debt/lease/claims reconciliation was not constructed. This is a conservative valuation overlay using reviewed liquidity less a retained operating reserve."
+  },
+  "ttm_diagnostics": {
+    "revenue_usd_b": 3.273158,
+    "operating_income_usd_b": 0.940165,
+    "net_income_usd_b": 0.801946,
+    "operating_cash_flow_usd_b": 0.822337,
+    "ppe_purchases_usd_b": 0.236800,
+    "stock_based_compensation_usd_b": 0.208869,
+    "mechanical_ocf_less_ppe_usd_b": 0.585537,
+    "conservative_ocf_less_ppe_less_sbc_usd_b": 0.376668,
+    "market_cap_to_net_income": 72.9148,
+    "market_cap_to_ocf_less_ppe": 99.8634,
+    "market_cap_to_ocf_less_ppe_less_sbc": 155.2395,
+    "ocf_less_ppe_yield": 0.010014,
+    "ocf_less_ppe_less_sbc_yield": 0.006442,
+    "note": "These are diagnostics only, not normalized FCF multiples. Full economic reinvestment and working-capital normalization are incomplete."
+  },
+  "model_method": "Ten-year owner-cash scenario DCF. Owner cash is an estimate of normalized cash economics rather than mechanical reported FCF. Each scenario uses explicit revenue growth, owner-margin path, terminal multiple, 9% required return, 49.3M shares and the excess-cash overlay. Scenarios are estimates, not forecasts or price targets.",
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "revenue_year_1_usd_b": 4.0,
+      "growth_years_2_5": 0.08,
+      "growth_years_6_10": 0.04,
+      "owner_margin_year_1": 0.10,
+      "owner_margin_mature": 0.12,
+      "terminal_multiple": 18,
+      "value_per_share": 218.7094,
+      "value_to_price": 0.184398,
+      "upside_downside": -0.815602,
+      "year_10_revenue_usd_b": 6.621,
+      "year_10_owner_cash_usd_b": 0.795,
+      "narrative": "AI design share normalizes, 800V conversion is slower, capacity utilization falls, working-capital needs remain high and mature owner-cash margin settles near 12%."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "revenue_year_1_usd_b": 4.4,
+      "growth_years_2_5": 0.15,
+      "growth_years_6_10": 0.08,
+      "owner_margin_year_1": 0.14,
+      "owner_margin_mature": 0.20,
+      "terminal_multiple": 25,
+      "value_per_share": 680.0805,
+      "value_to_price": 0.573382,
+      "upside_downside": -0.426618,
+      "year_10_revenue_usd_b": 11.307,
+      "year_10_owner_cash_usd_b": 2.261,
+      "narrative": "MPS sustains strong AI/data-center design wins, broadens 800V and full-solution content, keeps automotive and communications healthy, and converts capacity expansion into high but gradually normalizing owner-cash margins."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "revenue_year_1_usd_b": 4.7,
+      "growth_years_2_5": 0.23,
+      "growth_years_6_10": 0.12,
+      "owner_margin_year_1": 0.17,
+      "owner_margin_mature": 0.24,
+      "terminal_multiple": 32,
+      "value_per_share": 1569.0581,
+      "value_to_price": 1.322897,
+      "upside_downside": 0.322897,
+      "year_10_revenue_usd_b": 18.959,
+      "year_10_owner_cash_usd_b": 4.550,
+      "narrative": "MPS becomes a major grid-to-core AI power platform, converts 800V sampling into broad production wins, keeps high incremental returns and sustains unusually strong growth and owner-cash margins."
+    }
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold Base year-1 revenue at $4.4B, owner-margin path from 14% to 20%, 25x terminal multiple, 9% required return, 49.3M shares and $0.914B excess-cash overlay; solve one uniform revenue-growth rate for years 2-10 that matches the September 10 price.",
+    "required_growth_years_2_10": 0.193508433,
+    "price_reference": 1186.08,
+    "implied_year_10_revenue_usd_b": 21.6213,
+    "interpretation": "About 19.35% annual revenue growth for nine years after a $4.4B year-1 base is extremely demanding. Current AI/data-center growth prevents calling it demonstrably impossible, but it leaves little room for design-share, margin or capacity-return normalization."
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 218.7094,
+    "bull_value_per_share": 1569.0581,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.7164,
+    "note": "Algebraic price location only; not an estimated probability."
+  },
+  "valuation_conclusion": "At $1,186.08, MPWR trades roughly 74% above the modeled Base value and near 72% of the way from Bear to Bull on a simple two-endpoint price-location diagnostic. The business can compound strongly, but the current price requires a long duration of high growth and strong mature owner-cash economics. Expectation gap is insufficient for buy authorization while accounting-control, incremental-ROIC, valuation-duration and permanent-loss gates remain open."
+}

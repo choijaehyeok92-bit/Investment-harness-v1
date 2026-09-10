@@ -1,0 +1,35 @@
+{
+  "ticker": "MPWR",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "business_quality_75": 62,
+  "total_score_100": 69,
+  "classification": "Starter / Watch",
+  "categories": {
+    "structural_change_and_leadership": {"score":14,"max":15},
+    "customer_value_and_product": {"score":9,"max":10},
+    "moat_trajectory": {"score":12,"max":15},
+    "incremental_roic_and_fcf_per_share": {"score":11,"max":15},
+    "management_and_capital_allocation": {"score":6,"max":10},
+    "financial_survivability": {"score":10,"max":10},
+    "expectation_gap_and_valuation": {"score":3,"max":15},
+    "power_law_and_asymmetry": {"score":4,"max":10}
+  },
+  "hard_veto_overall": "INVESTIGATE",
+  "open_hard_veto": [
+    "management_or_accounting_integrity",
+    "incremental_roic_collapse",
+    "price_requires_unrealistic_bull_case",
+    "permanent_loss_probability"
+  ],
+  "reference_price": 1186.08,
+  "required_return": 0.09,
+  "bear_value_per_share": 218.7094,
+  "base_value_per_share": 680.0805,
+  "bull_value_per_share": 1569.0581,
+  "reverse_growth_years_2_10": 0.193508433,
+  "note": "Starter / Watch is the scorecard classification label only. It is not a STARTER position authorization; Hard Veto and buy_authorized=false control."
+}
