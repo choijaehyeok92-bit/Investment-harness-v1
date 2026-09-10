@@ -1,0 +1,83 @@
+{
+  "ticker": "267260",
+  "as_of": "2026-09-10",
+  "sources": [
+    {
+      "id": "RAW_FILINGS_REPO",
+      "tier": 1,
+      "type": "primary_regulatory_filing_extraction",
+      "path": "companies/267260/raw-data/2025-2026-supplied-filings.json",
+      "use": "FY2025 and H1 2026 financial statements, customer concentration, cash, borrowings, capex and risk disclosures"
+    },
+    {
+      "id": "HDHE_Q2_2026",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.hd-hyundaielectric.com/elect/ko/etc/search.jsp",
+      "date": "2026-07-28",
+      "use": "Q2 revenue, operating profit, margin, orders and backlog"
+    },
+    {
+      "id": "HDHE_BIGTECH_2026_07_02",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.hyundai-electric.com/elect/m/ko/index.jsp",
+      "date": "2026-07-02",
+      "use": "Maximum KRW1.1212T North American data-center power/distribution framework; actual POs phased with build schedule"
+    },
+    {
+      "id": "HDHE_ALABAMA_2026_03_08",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.hd-hyundaielectric.com/elect/ko/etc/result_news.jsp?searchValue=2023",
+      "date": "2026-03-08",
+      "use": "Alabama Plant 2 expansion, planned 50% capacity increase and 765kV capability"
+    },
+    {
+      "id": "HDHE_US_1000_2026_08_03",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.hd-hyundaielectric.com/elect/m/ko/index.jsp",
+      "date": "2026-08-03",
+      "use": "1,000th U.S. EHV transformer milestone and company-reported market leadership"
+    },
+    {
+      "id": "REUTERS_US_GRID_2026_07_09",
+      "tier": 2,
+      "type": "reputable_financial_press",
+      "url": "https://www.reuters.com/business/energy/us-power-companies-scramble-secure-equipment-surging-data-center-demand-strains-2026-07-09/",
+      "date": "2026-07-09",
+      "use": "Independent evidence of transformer/breaker shortages and long lead times"
+    },
+    {
+      "id": "REUTERS_POWER_DEMAND_2026_09_09",
+      "tier": 2,
+      "type": "reputable_financial_press",
+      "url": "https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-09-09/",
+      "date": "2026-09-09",
+      "use": "Independent evidence of U.S. electricity-demand growth and AI data-center contribution"
+    },
+    {
+      "id": "REUTERS_DATA_CENTER_SUPPLY_2026_09_01",
+      "tier": 2,
+      "type": "reputable_financial_press",
+      "url": "https://www.reuters.com/business/energy/not-just-nvidia-these-power-cooling-firms-are-riding-trillion-dollar-data-centre-2026-09-01/",
+      "date": "2026-09-01",
+      "use": "Industry context for data-center infrastructure demand, backlog growth and valuation/capacity risk"
+    },
+    {
+      "id": "HDHE_PRICE_2026_09_10",
+      "tier": 3,
+      "type": "secondary_market_data",
+      "url": "https://pflow.keywordegg.com/domestic/267260",
+      "date": "2026-09-10",
+      "use": "KRW744,000 close reference for valuation diagnostics"
+    }
+  ],
+  "policy_notes": [
+    "Primary filings and company IR lead quantitative company claims; Reuters is used for independent industry context.",
+    "Company-reported U.S. market leadership is labeled as a company claim rather than independently reconstructed market share.",
+    "Framework maximum value is not treated as guaranteed revenue or added separately to intrinsic value.",
+    "Secondary market price is a reference quote, not an execution guarantee."
+  ]
+}
