@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "ISRG",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "USD",
+  "price_reference": {
+    "price": 353.24,
+    "price_date": "2026-09-09",
+    "price_status": "SECONDARY_MARKET_CLOSE_REFERENCE",
+    "valuation_shares_m": 353.9,
+    "market_cap_usd_b": 125.011636,
+    "source_id": "ISRG_PRICE_2026_09_09"
+  },
+  "required_return": 0.09,
+  "ttm_diagnostics": {
+    "revenue_usd_b": 11.0344,
+    "net_income_attributable_usd_b": 3.1388,
+    "operating_cash_flow_usd_b": 3.7064,
+    "ppe_purchases_usd_b": 0.4840,
+    "mechanical_fcf_usd_b": 3.2224,
+    "income_statement_sbc_usd_b": 0.8393,
+    "conservative_fcf_minus_sbc_proxy_usd_b": 2.3831,
+    "market_cap_to_net_income": 39.83,
+    "market_cap_to_mechanical_fcf": 38.79,
+    "mechanical_fcf_yield": 0.02578,
+    "market_cap_to_fcf_minus_sbc_proxy": 52.46,
+    "fcf_minus_sbc_proxy_yield": 0.01906,
+    "note": "Mechanical FCF = OCF minus PPE purchases. FCF-minus-SBC subtracts income-statement SBC once as a conservative owner-cash diagnostic; capitalized SBC is not separately re-subtracted before inventory/amortization tracing, avoiding double counting. Neither metric is a company-defined non-GAAP measure."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Retain the 2026-09-06 base owner-margin path and 25x terminal multiple; hold year-1 revenue at $13.2B and solve a uniform revenue-growth rate for years 2-10 at a 9% required return. This is not a unique observable market belief.",
+    "required_growth_years_2_10": 0.12561183235913853,
+    "price_reference": 353.24,
+    "horizon_years": 10,
+    "interpretation": "Approximately 12.56% annual growth is demanding but not an obviously impossible bull-case requirement given current procedure and revenue growth. The valuation remains highly sensitive to owner margin, competition, lease capital intensity and terminal assumptions."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 124.39283905585434,
+      "value_to_price": 0.352148225160951,
+      "upside_downside": -0.647851774839049,
+      "year_1_revenue_usd_b": 12.0,
+      "growth_years_2_5": 0.07,
+      "growth_years_6_10": 0.04,
+      "owner_margin_year_1": 0.19,
+      "owner_margin_mature": 0.18,
+      "terminal_multiple": 18,
+      "narrative": "Procedure growth decelerates, credible competitors take share or force pricing concessions, recent product-quality issues become more economically relevant, and leasing/capital needs dilute cash conversion."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 302.7132313210153,
+      "value_to_price": 0.856961927644138,
+      "upside_downside": -0.143038072355862,
+      "year_1_revenue_usd_b": 13.2,
+      "growth_years_2_5": 0.13,
+      "growth_years_6_10": 0.08,
+      "owner_margin_year_1": 0.22,
+      "owner_margin_mature": 0.23,
+      "terminal_multiple": 25,
+      "narrative": "Da Vinci 5, Ion and geographic adoption sustain low-to-mid teens procedure economics initially, recurring instrument/service economics remain strong, and competition broadens the market without materially impairing Intuitive's installed-base flywheel."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 609.2829171270331,
+      "value_to_price": 1.7248412329493632,
+      "upside_downside": 0.7248412329493632,
+      "year_1_revenue_usd_b": 14.5,
+      "growth_years_2_5": 0.18,
+      "growth_years_6_10": 0.11,
+      "owner_margin_year_1": 0.24,
+      "owner_margin_mature": 0.28,
+      "terminal_multiple": 30,
+      "narrative": "Da Vinci 5 adoption and feedback features expand procedure categories and utilization, Ion scales internationally, competition validates category growth more than it erodes share, and operating leverage offsets tariffs and lease capital intensity."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 124.39283905585434,
+    "bull_value_per_share": 609.2829171270331,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.47195678215249515,
+    "note": "This is not an estimated probability; it only locates the current price between two modeled endpoints."
+  },
+  "liquidity_note": "Cash, cash equivalents and investments of approximately $8.63B materially strengthen survivability. To preserve comparability with the existing 2026-09-06 scenario architecture, this checkpoint does not separately add all liquidity to the scenario PV as if every dollar were immediately distributable excess cash.",
+  "valuation_conclusion": "Current price is about 16.7% above the retained base intrinsic-value estimate and implies roughly 12.56% annual growth under the retained base economics. Price does not require an obviously unrealistic bull case, but there is not yet a sufficient base-case margin of safety for a harness buy authorization."
+}
