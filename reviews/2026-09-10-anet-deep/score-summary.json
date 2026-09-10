@@ -1,0 +1,46 @@
+{
+  "ticker": "ANET",
+  "as_of": "2026-09-10",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Emerging Outlier",
+  "business_quality_75": 68,
+  "total_score_100": 79,
+  "categories": {
+    "structural_change_and_leadership": {"score": 15, "max": 15},
+    "customer_value_and_product": {"score": 9, "max": 10},
+    "moat_trajectory": {"score": 13, "max": 15},
+    "incremental_roic_and_fcf_per_share": {"score": 13, "max": 15},
+    "management_and_capital_allocation": {"score": 8, "max": 10},
+    "financial_survivability": {"score": 10, "max": 10},
+    "expectation_gap_and_valuation": {"score": 6, "max": 15},
+    "power_law_and_asymmetry": {"score": 5, "max": 10}
+  },
+  "score_change_from_current_canonical": {
+    "current_canonical_total_score_100": 78,
+    "checkpoint_total_score_100": 79,
+    "current_canonical_business_quality_75": 67,
+    "checkpoint_business_quality_75": 68,
+    "primary_change": "Structural-change score increased from 14/15 to 15/15 on raised FY2026 guidance, >100 cumulative Etherlink customers and expanded 1.6T AI-fabric scope. Valuation and asymmetry scores remain constrained by price."
+  },
+  "hard_veto_overall": "INVESTIGATE",
+  "investment_gates_open": [
+    "fatal_concentration",
+    "permanent_loss_probability"
+  ],
+  "valuation": {
+    "price_reference": 192.93,
+    "price_date": "2026-09-09",
+    "bear": 57.046016407753235,
+    "base": 166.1078400649998,
+    "bull": 357.9991115743701,
+    "required_growth_years_2_10": 0.16815411736629787,
+    "required_return": 0.09,
+    "two_state_bull_weight_diagnostic": 0.45151216510007064
+  },
+  "completion_gate": true,
+  "authority_promotion": false
+}

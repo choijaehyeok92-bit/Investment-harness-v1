@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "ANET",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "evidence": [
+    {
+      "id": "ANET_Q2_2026_RESULTS",
+      "claim_type": "fact",
+      "source_quality": "PRIMARY_COMPANY_IR",
+      "date": "2026-08-04",
+      "source": "Arista Networks Q2 2026 earnings release",
+      "url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "claims": [
+        "Q2 2026 revenue $3.0357B, +37.7% YoY and +12.1% QoQ.",
+        "Q2 GAAP operating margin 45.4%; non-GAAP operating margin 49.9%.",
+        "H1 2026 revenue $5.7447B and GAAP operating income $2.5358B.",
+        "Q3 2026 guidance approximately $3.3B revenue and 48-49% non-GAAP operating margin."
+      ]
+    },
+    {
+      "id": "ANET_Q2_2026_10Q",
+      "claim_type": "fact",
+      "source_quality": "PRIMARY_SEC_FILING",
+      "date": "2026-08-05",
+      "source": "Arista Networks Form 10-Q for quarter ended 2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm",
+      "claims": [
+        "Cash $2.2902B and marketable securities $11.0531B at June 30, 2026.",
+        "Accounts receivable $2.2662B, inventory $2.5353B and total deferred revenue $6.8659B at June 30, 2026.",
+        "H1 OCF $2.7765B versus $1.8418B in H1 2025; H1 PPE purchases $84.2M versus $52.4M.",
+        "H1 2026 SBC $241.3M versus $178.2M in H1 2025.",
+        "No common-stock repurchases occurred in H1 2026; $817.9M remained under the repurchase authorization.",
+        "Shares outstanding were 1,261,224,648 as of July 30, 2026.",
+        "Non-cancellable purchase commitments were $9.7B, of which $9.4B were expected within 12 months.",
+        "Two end customers represented 26% and 16% of FY2025 revenue, versus 20% and 15% in FY2024.",
+        "Large-customer arrangements may include extended payment terms and higher discounts.",
+        "H1 OCF benefited from a net reduction in working-capital requirements; deferred revenue increased by $1.4935B as one major favorable component."
+      ]
+    },
+    {
+      "id": "ANET_FY2025_RAW_REPO",
+      "claim_type": "fact",
+      "source_quality": "PRIMARY_FILING_EXTRACT_PRESERVED_IN_REPO",
+      "date": "2026-09-06",
+      "source": "companies/ANET/raw-data/2025-2026-supplied-filings.json",
+      "claims": [
+        "FY2025 revenue $9.0057B, GAAP operating income $3.8561B and net income $3.5114B.",
+        "FY2025 OCF $4.3719B, disclosed PPE/intangible acquisition cash line $119.5M and SBC $439.2M."
+      ]
+    },
+    {
+      "id": "ANET_AI_1_6T_LAUNCH",
+      "claim_type": "fact",
+      "source_quality": "PRIMARY_COMPANY_IR",
+      "date": "2026-06-09",
+      "source": "Arista 1.6T Etherlink product announcement",
+      "url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Introduces-Next-Generation-1-6Terabit-Portfolio-for-AI-Fabrics/default.aspx",
+      "claims": [
+        "7060XE7 platforms address scale-up, scale-out and scale-across AI fabrics.",
+        "Meta, Microsoft and Oracle participated in the launch with customer statements.",
+        "Air-cooled 1.6T systems were targeted for Q4 2026 availability; additional liquid-cooled/800G configurations for Q1 2027.",
+        "Platforms combine Broadcom Tomahawk 6 merchant silicon with Arista system design and EOS/Open-NOS support."
+      ]
+    },
+    {
+      "id": "ANET_Q2_CALL_2026",
+      "claim_type": "management_guidance",
+      "source_quality": "MANAGEMENT_CONFERENCE_TRANSCRIPT_SECONDARY_REPRODUCTION",
+      "date": "2026-08-04",
+      "source": "Q2 2026 earnings call transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/arista-anet-q2-2026-earnings-call-transcript/",
+      "claims": [
+        "Management raised FY2026 revenue guidance to approximately $12.6B, about 40% growth.",
+        "Etherlink AI-fabric cumulative customers exceeded 100.",
+        "Management discussed an AI-fabrics target of at least $3.6B for 2026 and scale-across as roughly 30% of that AI target.",
+        "1.6T was expected to be in trials in H2 2026 with more meaningful production in 2027.",
+        "Management characterized supply-chain tightness as an industry problem likely to persist into 2028."
+      ],
+      "treatment": "Forward-looking statements are not treated as realized facts in valuation or score."
+    },
+    {
+      "id": "ANET_DELLORO_Q2_2026_AI_BACKEND",
+      "claim_type": "fact",
+      "source_quality": "INDUSTRY_RESEARCH_BODY",
+      "date": "2026-09-03",
+      "source": "Dell'Oro 2Q 2026 AI back-end networking release",
+      "url": "https://www.delloro.com/news/ai-back-end-networks-switch-sales-surpass-front-end-networks-for-the-first-time-in-2q2026/",
+      "claims": [
+        "AI back-end switch sales exceeded front-end switch sales for the first time in 2Q 2026.",
+        "Ethernet extended its lead in AI back-end networks.",
+        "Celestica ranked first, NVIDIA second and Arista third in Ethernet AI back-end switch sales; Dell'Oro noted Arista would have been closer if deferred AI revenue were included.",
+        "800G dominated shipments/revenue while 1.6T began sampling and was expected to ramp in H2 2026."
+      ]
+    },
+    {
+      "id": "ANET_DELLORO_TOTAL_ETHERNET_2026",
+      "claim_type": "fact",
+      "source_quality": "INDUSTRY_RESEARCH_BODY",
+      "date": "2026-01-01",
+      "source": "Dell'Oro 2026 data-center networking outlook",
+      "url": "https://www.delloro.com/2026-predictions-data-center-switch-frontend-ai-backed-networks/",
+      "claims": [
+        "Arista maintained the leading position in total Ethernet data-center switching entering 2026.",
+        "AI-exposed Ethernet vendors were benefiting from a multi-year hyperscaler investment cycle."
+      ]
+    },
+    {
+      "id": "ANET_PRICE_2026_09_09",
+      "claim_type": "fact",
+      "source_quality": "SECONDARY_MARKET_DATA",
+      "date": "2026-09-09",
+      "source": "Arista IR stock quote / Investing.com historical close",
+      "url": "https://investors.arista.com/Home/default.aspx?LanguageId=1",
+      "claims": [
+        "NYSE ANET reference close on September 9, 2026 was $192.93."
+      ]
+    },
+    {
+      "id": "ANET_TTM_2026_09_10",
+      "claim_type": "calculation",
+      "source_quality": "DERIVED_FROM_PRIMARY_FILING_DATA",
+      "formula": "TTM = FY2025 + H1 2026 - H1 2025",
+      "claims": [
+        "TTM revenue = $10.5408B.",
+        "TTM operating income = $4.5469B.",
+        "TTM GAAP net income = $4.0446B.",
+        "TTM OCF = $5.3066B.",
+        "TTM disclosed capex-line diagnostic = $0.1513B.",
+        "TTM SBC = $0.5023B.",
+        "Mechanical OCF minus disclosed capex-line minus SBC = $4.6530B."
+      ],
+      "limits": "The FY2025 capex line included PPE and intangible acquisitions while H1 comparative lines are PPE-only, and OCF includes working-capital timing. The $4.6530B figure is a diagnostic, not normalized owner FCF."
+    }
+  ],
+  "source_quality_notes": [
+    "Primary SEC and company IR sources govern quantitative historical claims where available.",
+    "Management guidance and conference commentary are treated as forward-looking evidence, not future facts.",
+    "Dell'Oro is used for independent industry position evidence, not as a substitute for company financial filings.",
+    "No unsupported precision is invented for maintenance capex, customer-specific AI revenue or product-level ROIC."
+  ]
+}

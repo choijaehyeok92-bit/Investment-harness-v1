@@ -1,0 +1,285 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "ANET",
+  "company_name": "Arista Networks",
+  "as_of": "2026-09-10",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This additive research checkpoint does not modify companies/ANET/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock or frozen deterministic outputs. Current canonical authority remains the 2026-09-06-deep run until a separate reviewed authority promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 68,
+  "business_quality_75": 68,
+  "total_score_100": 79,
+  "required_return": 0.09,
+  "source_paths": [
+    "companies/ANET/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/ANET/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-anet-deep/source-manifest.json",
+    "companies/ANET/raw-data/2025-2026-supplied-filings.json",
+    "companies/ANET/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/ANET/analyses/2026-09-06-deep/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/ANET/analyses/2026-09-06-deep/assessment.json",
+      "status": "CURRENT_CANONICAL_AUTHORITY_AT_CHECKPOINT_CREATION"
+    }
+  ],
+  "review_method": "FY2025 and Q2/H1 2026 filing data, the August 4 earnings release, September 8 management conference remarks, current September 9 market price, Dell'Oro AI Ethernet market evidence and the June 2026 1.6T product launch were reviewed. Facts, calculations, estimates, inferences and opinions are separated. No Q3 2026 results existed at the checkpoint date.",
+  "portfolio_context": "Actual portfolio exposure, tax basis and risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Arista is evolving from a high-performance cloud switching vendor into a broader AI, data-center, campus and routing platform. The strongest structural evidence is that 2026 revenue guidance rose to approximately $12.6B, Etherlink AI fabrics exceed 100 cumulative customers and the 1.6T portfolio extends Arista into scale-up, scale-out and scale-across use cases while retaining EOS operational consistency.",
+  "current_finding": "Q2 2026 revenue was $3.036B, up 37.7% year over year, with GAAP operating margin of 45.4%. H1 revenue was $5.745B and operating cash flow was $2.777B. Harness-rule TTM diagnostics are approximately $10.541B revenue, $4.547B operating income, $4.045B GAAP net income and $5.307B OCF. Mechanical OCF less disclosed capex-line less SBC is approximately $4.653B, but is not normalized owner FCF because H1 cash flow benefited from deferred-revenue working-capital timing and capex-line comparability is imperfect.",
+  "economic_finding": "Arista's moat is centered on EOS, CloudVision, operational reliability, merchant-silicon optimization and deep hyperscaler integration rather than proprietary switch silicon alone. That moat is valuable, but AI back-end Ethernet remains highly competitive: Dell'Oro ranked Arista third in 2Q 2026 behind Celestica and NVIDIA, while noting deferred Arista AI revenue would have narrowed the gap. Arista therefore needs to prove sustained design-share and software attachment as Ethernet AI fabrics scale.",
+  "capital_and_survival": "Balance-sheet survivability is exceptional: June 30 cash plus marketable securities was about $13.343B and no material interest-bearing borrowing line was separately presented on the balance sheet. However, non-cancellable purchase commitments reached $9.7B, including $9.4B expected within 12 months. These commitments are not debt and are not mechanically netted against cash, but they create inventory and forecast-error exposure if hyperscaler demand or product transitions disappoint.",
+  "permanent_loss_case": "A concentrated hyperscaler customer reduces purchases while NVIDIA, white-box or alternative Ethernet vendors capture AI back-end share; 1.6T qualification or scale-up adoption lags; non-cancellable supply commitments convert into excess inventory or supplier charges; gross margin compresses under large-customer pricing; and a roughly 50x owner-cash valuation de-rates. Arista can remain highly profitable and liquid while shareholders still experience prolonged permanent capital impairment if growth duration falls short of current expectations.",
+  "falsifiers": [
+    "One of the two major end customers materially reduces Arista spend for multiple periods and the lost revenue is not offset by diversified AI, enterprise or campus customers.",
+    "Arista loses sustained AI Ethernet back-end share across two product generations while EOS/CloudVision attach and pricing power weaken.",
+    "1.6T platforms fail to progress from 2026 trials into meaningful 2027 production at expected economics.",
+    "OCF per share and conservative SBC-adjusted owner-cash per share decline for multiple reporting periods despite reported revenue growth.",
+    "Purchase commitments generate material excess-and-obsolete inventory or supplier-liability charges because customer demand fails to match forecasts."
+  ],
+  "increase_evidence": [
+    "At least two additional reporting periods showing revenue, GAAP operating margin and SBC-adjusted cash per share improving together without outsized working-capital support.",
+    "Evidence that the 26% and 16% end-customer concentration is declining through genuine customer diversification rather than temporary shipment timing.",
+    "1.6T production ramps in 2027 with retained or improved AI Ethernet share and continued EOS/CloudVision software attachment.",
+    "Non-cancellable purchase commitments convert into shipments and cash without material excess inventory, supplier charges or gross-margin erosion.",
+    "Expectation gap becomes clearly favorable at a 9% required return; price decline alone is insufficient without business evidence."
+  ],
+  "sell_evidence": [
+    "Persistent share loss in AI Ethernet combined with weaker pricing, lower gross margin and slower software/service growth.",
+    "A major customer structurally insources or reallocates network spend away from Arista and diversification fails to compensate.",
+    "Material inventory write-downs or supplier-liability charges reveal that the $9.7B purchase commitment was based on poor demand forecasting.",
+    "SBC-adjusted owner cash per share falls for four quarters despite nominal revenue growth.",
+    "Any material impairment of accounting integrity, governance reliability or customer-value proposition triggers immediate thesis rewrite regardless of price."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 15,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "2026 revenue guidance was raised to approximately $12.6B, roughly 40% growth, after the first $3B quarter.",
+        "Etherlink AI fabrics exceed 100 cumulative customers and Arista now addresses scale-up, scale-out and scale-across networking.",
+        "1.6T Etherlink platforms are in 2026 trials with production expected to ramp in 2027."
+      ],
+      "counter_evidence": [
+        "AI networking demand is cyclical and hyperscaler capex can shift rapidly; management itself describes long-term AI demand trajectory as uncertain."
+      ],
+      "confidence": 0.82,
+      "missing_data": []
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "EOS single-image operating consistency, CloudVision automation and Smart System Upgrade reduce operational downtime across heterogeneous networks.",
+        "Meta, Microsoft and Oracle publicly participated in the 1.6T launch, supporting customer-value relevance at AI scale."
+      ],
+      "counter_evidence": [
+        "Large customers receive pricing discounts and favorable terms, so product value does not guarantee unconstrained pricing power."
+      ],
+      "confidence": 0.8,
+      "missing_data": []
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Arista remains the leading vendor in total Ethernet data-center switching according to Dell'Oro and has expanded Etherlink AI customers to more than 100.",
+        "The same EOS architecture spans cloud, AI, campus and routing, increasing operational switching costs."
+      ],
+      "counter_evidence": [
+        "Dell'Oro ranked Arista third in 2Q 2026 AI back-end Ethernet switch sales behind Celestica and NVIDIA, although deferred Arista revenue would have narrowed the gap.",
+        "Arista relies heavily on merchant silicon and competes against NVIDIA vertical integration, Cisco and white-box/Open-NOS alternatives."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "Independent multi-quarter AI back-end share and EOS/CloudVision attach-rate data."
+      ]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Harness-rule TTM OCF is approximately $5.307B on $10.541B revenue with very low direct capex intensity.",
+        "Mechanical TTM OCF less disclosed capex-line less SBC is approximately $4.653B, up from the FY2025 proxy of approximately $3.813B."
+      ],
+      "counter_evidence": [
+        "H1 OCF benefited from a net working-capital reduction, including a large deferred-revenue increase, so mechanical owner cash is not normalized free cash flow.",
+        "$9.7B of non-cancellable purchase commitments create economic reinvestment risk that does not appear in direct PPE capex."
+      ],
+      "confidence": 0.75,
+      "missing_data": [
+        "Cohort-level returns on AI supply commitments and normalized maintenance versus growth investment."
+      ]
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Management raised guidance as supply visibility improved rather than mechanically capitalizing all demand into longer-term guidance.",
+        "No shares were repurchased in H1 2026 despite a remaining $817.9M authorization, avoiding forced buybacks at a high valuation."
+      ],
+      "counter_evidence": [
+        "Outstanding shares increased modestly and H1 SBC rose to $241.3M; $1.5B of unamortized equity compensation remains.",
+        "The $9.7B purchase commitment is a large forecast-dependent capital allocation decision even though it is operational rather than acquisition capex."
+      ],
+      "confidence": 0.75,
+      "missing_data": []
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cash and marketable securities totaled approximately $13.343B at June 30, 2026 versus $9.7B of non-balance-sheet purchase commitments.",
+        "The business generates multi-billion-dollar annual OCF and no material interest-bearing borrowing line was separately presented on the June 2026 balance sheet."
+      ],
+      "counter_evidence": [
+        "Most purchase commitments are expected within 12 months, so a sharp demand reversal could consume cash and create inventory charges even without solvency risk."
+      ],
+      "confidence": 0.9,
+      "missing_data": []
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At the September 9 close of $192.93, the retained Base model value of $166.11 is approximately 14% below price.",
+        "Retaining the prior base economics requires approximately 16.82% annual revenue growth in years 2-10 at a 9% required return."
+      ],
+      "counter_evidence": [
+        "2026 guidance implies approximately 40% revenue growth and AI Ethernet is expanding rapidly, so the reverse-growth requirement is demanding but not demonstrably impossible."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Long-duration AI Ethernet share and normalized owner-cash margin after supply-commitment economics."
+      ]
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Retained Bull value is approximately $358.00 per share, about 86% above the September 9 price."
+      ],
+      "counter_evidence": [
+        "Retained Bear value is approximately $57.05, about 70% below price, and the two-state Bear/Bull algebraic price position requires roughly a 45% Bull weight; this is not an estimated probability."
+      ],
+      "confidence": 0.68,
+      "missing_data": []
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": ["No material evidence in reviewed filings indicates accounting unreliability or management-integrity impairment."],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.82,
+        "resolution_needed": "Reassess immediately on control, audit, related-party or disclosure deterioration."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": ["Approximately $13.343B of cash and marketable securities plus strong OCF indicate no structural need for external financing."],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.9,
+        "resolution_needed": "Monitor only if commitments, acquisitions or cash conversion materially outgrow internal funding."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": ["Shares outstanding increased only modestly from year-end 2025 to July 30, 2026; current evidence does not show excessive long-duration dilution."],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "resolution_needed": "Track SBC, vested RSUs, share count and repurchases per share."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": ["Growth is supported by customer network demand and product adoption rather than disclosed marketing subsidies."],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "resolution_needed": "Do not confuse deferred-revenue or supply-commitment timing with subsidy-driven growth; continue cash-quality monitoring."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "PASS",
+        "evidence": ["Margins and cash generation remain strong; no structural deterioration in incremental economics is currently demonstrated."],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.7,
+        "resolution_needed": "Verify realized returns on the large AI-related purchase commitments and product transition."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": ["Total Ethernet data-center leadership and expanding Etherlink adoption do not show persistent moat contraction."],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.7,
+        "resolution_needed": "Monitor AI back-end share versus NVIDIA, Celestica, Cisco and white-box alternatives through the 1.6T transition."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": ["The price-implied approximately 16.82% years-2-10 revenue growth is demanding but not yet demonstrably unrealistic against current 40% 2026 guidance and AI networking expansion."],
+        "severity": "NO_TRIGGER_FOUND_BUT_VALUATION_RICH",
+        "confidence": 0.68,
+        "resolution_needed": "Re-evaluate if price rises materially without corresponding owner-cash or market-share evidence."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": ["Two end customers represented 26% and 16% of FY2025 revenue; concentration has increased for the larger customer."],
+        "severity": "MATERIAL_CUSTOMER_CONCENTRATION",
+        "confidence": 0.9,
+        "resolution_needed": "Require evidence of diversification, durable multi-generation wins and ability to replace a major customer's lost spend before clearing."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": ["High valuation, major-customer concentration and $9.7B non-cancellable supply commitments create a duration-loss path even though solvency risk is low."],
+        "severity": "VALUATION_AND_CONCENTRATION_DURATION_RISK",
+        "confidence": 0.8,
+        "resolution_needed": "Clear only with stronger margin of safety and evidence that AI share, customer diversification and supply commitments convert into durable per-share cash."
+      }
+    ]
+  },
+  "red_team": {
+    "verdict": "REVISE_NOT_REJECT",
+    "attacks": [
+      "AI Ethernet market growth may be real while Arista captures less value than expected because merchant-silicon and white-box alternatives commoditize hardware.",
+      "NVIDIA can bundle Spectrum-X networking with GPUs and systems, weakening Arista's position in vertically integrated clusters.",
+      "The largest two customers can materially alter Arista's growth with internal architecture or vendor-allocation decisions.",
+      "The $9.7B non-cancellable commitment can convert forecast error into excess inventory and cash loss.",
+      "H1 OCF overstates normalized cash if deferred-revenue working-capital benefits reverse.",
+      "Large-customer discounts can compress gross margin even with high unit growth.",
+      "1.6T production may arrive later than valuation expectations or may shift share toward competitors.",
+      "Campus and routing adjacencies may grow but may not be large enough to offset a hyperscaler slowdown.",
+      "SBC can erode per-share economics despite low PPE capital intensity.",
+      "At roughly 50x conservative owner-cash diagnostics, a modest duration miss can create severe multiple compression without any business failure."
+    ]
+  },
+  "completion_gate": {
+    "passed": true,
+    "definition": "All eight score categories, evidence and counter-evidence, Hard Veto status, reverse expectations, three retained valuation scenarios, permanent-loss case, falsifiers, increase/sell evidence and source-quality notes are present.",
+    "open_items": [],
+    "investment_gates_open": ["fatal_concentration", "permanent_loss_probability"],
+    "approved_for_trading": false
+  }
+}
