@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "APP",
+  "as_of": "2026-09-10",
+  "currency": "USD",
+  "price_reference": 305.06,
+  "price_date": "2026-09-09",
+  "price_status": "RESEARCH_REFERENCE_QUOTE_NOT_EXECUTABLE",
+  "shares_m": 334.651,
+  "mechanical_equity_value_usd_b": 102.1,
+  "required_return": 0.09,
+  "model_family": "FCFE_OWNER_CASH_STRESS_TEST",
+  "starting_cash_flow": {
+    "ttm_company_fcf_usd_b": 4.51,
+    "ttm_sbc_usd_b": 0.284,
+    "ttm_fcf_less_sbc_proxy_usd_b": 4.22,
+    "note": "FCF-minus-SBC is a conservative economic proxy, not a GAAP metric. The model does not subtract dilution again after treating SBC as an economic cost."
+  },
+  "reference_multiples": {
+    "ttm_continuing_net_income_usd_b": 4.41,
+    "price_to_continuing_earnings": 23.1,
+    "price_to_company_fcf": 22.6,
+    "price_to_fcf_less_sbc_proxy": 24.2,
+    "fcf_less_sbc_yield": 0.041
+  },
+  "reverse_dcf": {
+    "explicit_years": 5,
+    "terminal_growth": 0.03,
+    "implied_growth_using_company_fcf": 0.095,
+    "implied_growth_using_fcf_less_sbc_proxy": 0.111,
+    "interpretation": "The reference price does not require continuation of current 50%+ revenue growth. It requires low-double-digit owner-cash growth if the starting cash-flow base is normalized and durable."
+  },
+  "scenarios": {
+    "bear": {"starting_owner_fcf_usd_b": 3.5, "growth_cagr": 0.05, "terminal_growth": 0.02, "equity_value_usd_b": 58.0, "per_share_usd": 173, "upside_downside": -0.43},
+    "base": {"starting_owner_fcf_usd_b": 4.225, "growth_cagr": 0.12, "terminal_growth": 0.03, "equity_value_usd_b": 106.0, "per_share_usd": 317, "upside_downside": 0.04},
+    "bull": {"starting_owner_fcf_usd_b": 4.225, "growth_cagr": 0.20, "terminal_growth": 0.035, "equity_value_usd_b": 157.0, "per_share_usd": 469, "upside_downside": 0.54}
+  },
+  "key_sensitivities": [
+    "Whether 2026 operating and FCF margins are structural or peak",
+    "Independent durability of advertiser ROAS and retention",
+    "E-commerce expansion economics",
+    "Platform-policy and traffic-quality constraints",
+    "SEC/conduct outcome",
+    "Repurchase price discipline"
+  ],
+  "valuation_conclusion": "PASS for the unrealistic-bull-case veto, but not a margin-of-safety buy signal. Base value is near the reference price and Bear downside is material."
+}

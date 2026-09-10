@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "MELI",
+  "as_of": "2026-09-10",
+  "currency": "USD",
+  "price_reference": 1876.33,
+  "price_date": "2026-09-09",
+  "price_status": "LATEST_COMPLETED_US_CLOSE_AT_RESEARCH_TIME",
+  "shares_m": 50.696802,
+  "mechanical_equity_value_usd_b": 95.124,
+  "required_return": 0.09,
+  "model_family": "COMMERCE_CREDIT_OWNER_CASH_SCENARIO",
+  "current_operating_snapshot": {
+    "ttm_revenue_usd_b": 35.182,
+    "ttm_operating_income_usd_b": 2.907,
+    "ttm_operating_margin": 0.0826,
+    "ttm_net_income_usd_b": 1.863,
+    "ttm_adjusted_fcf_usd_b": 1.127,
+    "naive_price_to_net_income": 51.1,
+    "naive_price_to_adjusted_fcf": 84.4,
+    "warning": "Naive multiples are diagnostic only. Mercado Pago customer funds, loan originations/funding, required financial capital and credit losses make software-style FCF multiples economically incomplete."
+  },
+  "cash_and_financial_capital_rule": {
+    "cash_usd_b": 3.649,
+    "restricted_cash_usd_b": 13.114,
+    "company_defined_net_debt_usd_b": 6.425,
+    "rule": "Restricted cash and customer funds are not surplus cash. Financial liabilities and credit assets must be treated symmetrically. The owner-cash model is after credit losses and required financial-capital reinvestment; it does not mechanically add customer/restricted cash to equity value."
+  },
+  "model_continuity": {
+    "base_source": "companies/MELI/analyses/2026-09-06-deep/model-inputs.json",
+    "change_from_previous_model": "Price reference updated from $1,978.36 to $1,876.33; existing component economics and 9% hurdle retained to isolate expectation-gap change. New Q2 evidence is used to re-underwrite quality and veto status rather than silently rewriting the frozen prior model assumptions.",
+    "components": [
+      {"name": "Commerce_logistics", "base_year1_revenue_usd_b": 25.3, "base_growth_years_2_5": 0.20, "base_growth_years_6_10": 0.10, "base_owner_margin_year1": 0.04, "base_owner_margin_mature": 0.049},
+      {"name": "Fintech_after_losses_required_capital", "base_year1_revenue_usd_b": 20.7, "base_growth_years_2_5": 0.22, "base_growth_years_6_10": 0.11, "base_owner_margin_year1": 0.04, "base_owner_margin_mature": 0.09567}
+    ]
+  },
+  "reverse_expectations": {
+    "method": "Hold the existing base year-1 revenue, owner-margin paths, rights treatment and terminal assumptions; solve common growth required for years 2-10 to match the updated reference price.",
+    "required_growth_years_2_10": 0.09562,
+    "previous_required_growth_at_1978_36": 0.10302,
+    "interpretation": "The lower reference price reduces the market-implied growth burden. Required growth is below the current reported revenue-growth rate, but this does not remove credit-loss and reinvestment risk because the model assumes future owner margins after required capital."
+  },
+  "scenarios": {
+    "bear": {"per_share_usd": 524.13, "value_to_price": 0.2793, "upside_downside": -0.7207, "terminal_multiple": 16, "interpretation": "Commerce growth slows, fintech owner margin remains low after credit losses/required capital, and current reinvestment fails to earn the hurdle."},
+    "base": {"per_share_usd": 2874.82, "value_to_price": 1.5322, "upside_downside": 0.5322, "terminal_multiple": 22, "interpretation": "Commerce/logistics and fintech reinforce engagement while credit and shipping investments mature into positive owner cash returns."},
+    "bull": {"per_share_usd": 8606.52, "value_to_price": 4.5869, "upside_downside": 3.5869, "terminal_multiple": 28, "interpretation": "Strong multi-product network effects, advertising, payments and credit scale with high mature owner margins and long growth duration."}
+  },
+  "scenario_warning": "The Bear-to-Bull spread is intentionally very wide. It reflects uncertainty around financial-capital intensity, credit-card vintage economics, free-shipping reinvestment, FX and country/regulatory risk. It must not be interpreted as a precise probability distribution.",
+  "valuation_conclusion": "The updated price does not require an unrealistic bull case under the retained owner-cash model, so that veto remains PASS. However, the apparent Base upside is conditional on unproven reinvestment economics; valuation cannot override the open low-quality-growth, incremental-ROIC and permanent-loss veto investigations."
+}
