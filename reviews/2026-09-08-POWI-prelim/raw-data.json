@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0.0",
+  "issuer": {
+    "company_name": "Power Integrations, Inc.",
+    "ticker": "POWI",
+    "exchange": "NASDAQ Global Select Market",
+    "sec_file_number": "000-23441"
+  },
+  "as_of": "2026-09-08",
+  "authority_status": "NON_CURRENT_RESEARCH_ARTIFACT",
+  "scope_note": "User labeled request PWR, but every supplied filing identifies Power Integrations, Inc. [POWI]. Repository companies/PWR is Quanta Services. This extraction is therefore staged under a POWI review checkpoint and does not modify PWR or current authority.",
+  "source_documents": [
+    {
+      "kind": "SEC Form 3",
+      "period_or_event": "2026-07-28",
+      "pages": 3,
+      "sha256": "3587ec5373b30b18e02d6932fdacb261578bbeb2b0e85a1a7c78aeb2432b7e30",
+      "sandbox_source": "0a7e1155-e6e0-4fc9-8015-aa974f3fc5b2.pdf",
+      "notes": "Andrew S. Hughes initial beneficial ownership; General Counsel and Secretary; 29,408 common shares directly owned. This is not a purchase or sale signal."
+    },
+    {
+      "kind": "SEC Form 10-K",
+      "period_or_event": "FY2025 ended 2025-12-31",
+      "pages": 107,
+      "sha256": "cee2fe66493c1d44c1a1c4dac76a891a6ebd7b8079aa5cf5b26e826534561612",
+      "sandbox_source": "1d9f7d61-1d66-4f95-9fb3-fe0e203c9c67.pdf"
+    },
+    {
+      "kind": "Definitive Additional Proxy Materials",
+      "period_or_event": "2026 annual meeting notice",
+      "pages": 3,
+      "sha256": "c11fe9c23dab6edb7c9a05cdceaf1a369aa9977bfda8408767e16914ff41800e",
+      "sandbox_source": "252d86e1-8478-4917-832d-0e83a6645ef4.pdf"
+    },
+    {
+      "kind": "SEC Form 8-K",
+      "period_or_event": "event 2026-08-11; filed 2026-08-14",
+      "pages": 3,
+      "sha256": "8f8f070c3acdb3c4280278d70471b9cde835c914dbba2ae0af1f27061bfd1fb0",
+      "sandbox_source": "1660c5ef-18c1-48b8-84a3-46a7971064e3.pdf",
+      "notes": "Sunil Gupta, SVP Operations, resignation effective 2026-08-25; company states resignation did not result from disagreement concerning operations, policies or practices."
+    },
+    {
+      "kind": "SEC Form 10-Q",
+      "period_or_event": "Q2/H1 2026 ended 2026-06-30",
+      "pages": 67,
+      "sha256": "25e607089bad4e579458e0284de1a1ab8827900c3a6a5e565c1faabf876a5e44",
+      "sandbox_source": "25904ed0-c4a0-4e8c-977a-d5364c50b67c.pdf"
+    },
+    {
+      "kind": "Definitive Proxy Statement",
+      "period_or_event": "2026 annual meeting",
+      "pages": 95,
+      "sha256": "ab5de39421a2abcf426b2ed32da191e76ce24a5d6021b7a2bba6ecc5aa046d01",
+      "sandbox_source": "da5c93a9-d0ff-43af-a0a9-6f255ea3bf05.pdf"
+    }
+  ],
+  "business": {
+    "description": "Analog and mixed-signal ICs and related components for high-voltage power conversion, including AC-DC power supplies, BLDC motor drivers and high-voltage gate drivers for IGBT/SiC applications.",
+    "system_level_customer_value": [
+      "fewer components",
+      "lower design complexity",
+      "smaller size",
+      "higher reliability",
+      "faster time-to-market",
+      "energy efficiency",
+      "technical design support"
+    ],
+    "technology": ["InnoSwitch", "InnoMux", "PowiGaN proprietary GaN", "BridgeSwitch", "high-voltage gate drivers"],
+    "powigan": {
+      "introduced": 2019,
+      "reported_voltage_capability_v": 1700,
+      "target_expansion": ["AI data-center power supplies", "communications infrastructure", "EV onboard charging", "higher-power EV drivetrain switching"],
+      "odyssey_assets_acquired": "2024-07",
+      "higher_power_vertical_gan_development_horizon": "several years"
+    },
+    "patents_2025": {"us": 281, "foreign": 329, "expiration_range": "2026-2046", "single_patent_dependency": false},
+    "manufacturing": {
+      "model": "fabless / outsourced majority of wafer fabrication, assembly, packaging and test",
+      "major_wafer_foundries": ["Lapis Semiconductor", "Seiko Epson", "X-FAB"],
+      "agreement_expiry": {"Lapis": "2028-12", "Epson": "2035-12", "X-FAB": "2028-12"}
+    },
+    "competition": ["STMicroelectronics", "Infineon", "Sanken", "NXP", "Texas Instruments", "Renesas", "InnoScience", "Navitas", "Chinese power-semiconductor vendors"]
+  },
+  "fy2025": {
+    "usd_millions": {
+      "revenue": 443.504,
+      "gross_profit": 241.649,
+      "operating_income": 10.194,
+      "net_income": 22.093,
+      "operating_cash_flow": 111.518,
+      "capex_ppe": 24.396,
+      "simple_fcf": 87.122,
+      "stock_based_compensation": 39.69,
+      "sbc_cash_equivalent_diagnostic_fcf": 47.432,
+      "share_repurchases": 98.098,
+      "dividends_paid": 47.17,
+      "cash": 58.755,
+      "short_term_investments": 190.755,
+      "total_liabilities": 99.362
+    },
+    "margins": {"gross_margin": 0.545, "operating_margin": 0.022985},
+    "growth": {"revenue_yoy": 0.05855, "operating_income_yoy": -0.43142, "net_income_yoy": -0.31461, "simple_fcf_yoy": 0.36352},
+    "share_count": {"diluted_weighted_average_millions": 56.324, "year_end_outstanding_millions": 55.339, "prior_year_end_outstanding_millions": 56.837, "year_end_change": -0.02636},
+    "end_market_mix": {"communications": 0.12, "computer": 0.13, "consumer": 0.37, "industrial": 0.38},
+    "channel_geography": {"international_revenue_pct": 0.98, "asia_revenue_pct": 0.84, "distributor_revenue_pct": 0.69},
+    "customer_concentration": {"top10_revenue_pct": 0.81, "Avnet_revenue_pct": 0.32, "Salcomp_revenue_pct": 0.11, "top10_ar_pct": 0.89, "Avnet_ar_pct": 0.32, "Salcomp_ar_pct": 0.18, "Honestar_ar_pct": 0.11},
+    "one_offs_usd_millions": {"employee_litigation_charge_or_reserve_approx": 11.3, "former_ceo_equity_award_modification_sbc": 8.4},
+    "diagnostics": {"operating_income_excluding_two_disclosed_items": 29.894, "operating_margin_excluding_two_disclosed_items": 0.0674, "sbc_as_pct_simple_fcf": 0.4556, "capital_returns_as_pct_simple_fcf": 1.6674},
+    "audit": {"financial_statements": "unqualified opinion", "icfr": "unqualified opinion", "critical_audit_matter": "excess and obsolete inventory provision"}
+  },
+  "h1_2026": {
+    "usd_millions": {
+      "revenue": 227.247,
+      "gross_profit": 121.575,
+      "operating_income": 10.354,
+      "net_income": 13.133,
+      "operating_cash_flow": 42.025,
+      "capex_ppe": 6.3,
+      "simple_fcf": 35.725,
+      "stock_based_compensation": 17.565,
+      "sbc_cash_equivalent_diagnostic_fcf": 18.16,
+      "dividends_paid": 23.837,
+      "share_repurchases": 0,
+      "cash": 70.612,
+      "short_term_investments": 192.001,
+      "total_liabilities": 98.478,
+      "working_capital": 404.5
+    },
+    "growth": {"revenue_yoy": 0.0265, "gross_profit_yoy": -0.00503, "operating_income_yoy": 0.92704, "net_income_yoy": 0.29275, "operating_cash_flow_yoy": -0.2422, "simple_fcf_yoy": -0.18447},
+    "margins": {"gross_margin": 0.535, "operating_margin": 0.0456, "net_margin": 0.0578},
+    "end_market_mix": {"communications": 0.1, "computer": 0.11, "consumer": 0.37, "industrial": 0.42},
+    "channel_geography": {"asia_revenue_pct": 0.81, "distributor_revenue_pct": 0.72},
+    "customer_concentration": {"customer_a_revenue_pct": 0.31, "customer_b_revenue_pct": 0.1, "customer_c_revenue_pct": 0.1, "top10_ar_pct": 0.9, "customer_a_ar_pct": 0.38, "customer_c_ar_pct": 0.13, "customer_d_ar_pct": 0.11, "one_oem_via_cm_revenue_pct": 0.16},
+    "shares": {"2025_12_31_millions": 55.339, "2026_06_30_millions": 55.783, "2026_08_03_millions": 55.873298, "h1_change": 0.00802, "through_aug3_change": 0.00965},
+    "restructuring": {"workforce_reduction_pct": 0.07, "charges_usd_millions": 6.569, "status": "substantially completed in Q1 2026", "accelerated_equity_sbc_usd_millions": 1.827},
+    "liquidity": {"cash_plus_short_term_investments_usd_millions": 262.613, "unused_unsecured_revolver_usd_millions": 100.0, "revolver_maturity": "2031-02-24", "advances_outstanding": 0, "covenant_compliance": true},
+    "controls": {"disclosure_controls": "effective as of 2026-06-30", "material_icfr_change_in_q2": false},
+    "legal": {
+      "cognipower": "Resolved April 2026 with dismissal, full release/covenant not to assert; no payment by Power Integrations.",
+      "wrongful_termination": "2025 adverse jury verdict; approximately $11.3M reserved; appeal pending."
+    }
+  },
+  "capital_allocation_and_dilution": {
+    "2025_repurchases_reduced_net_share_count": true,
+    "2026_06_30_repurchase_authorization_remaining": 0,
+    "proxy_2016_plan_additional_share_request": 2000000,
+    "proxy_incremental_reserve_pct_record_date_shares": 0.036,
+    "proxy_expected_reserve_runway": "1-2 years",
+    "comment": "2025 buybacks more than offset issuance, but H1 2026 share count rose and the proxy requested a material new equity reserve. A multi-quarter fully diluted share bridge is required."
+  },
+  "management_governance": {
+    "ceo": "Jennifer Lloyd, CEO since 2025-07-21; previously senior power/precision/healthcare/consumer leadership at Analog Devices",
+    "cfo": "Nancy Erba, CFO since 2026-01",
+    "operations_transition": "Sunil Gupta resignation effective 2026-08-25; company stated no disagreement",
+    "ceo_chair_separated": true,
+    "ceo_stock_ownership_guideline": "5x base salary after five years in role",
+    "clawback_policy": true,
+    "dual_class": false,
+    "form3_andrew_hughes": {"title": "General Counsel and Secretary", "event_date": "2026-07-28", "direct_common_shares": 29408, "transaction_signal": "none; initial ownership filing"}
+  },
+  "data_quality_notes": [
+    "All numerical values are extracted from user-supplied SEC filings; calculations are mechanical diagnostics.",
+    "simple_fcf = operating cash flow - purchases of property and equipment; this is not a company-reported owner-earnings measure.",
+    "sbc_cash_equivalent_diagnostic_fcf subtracts SBC from simple FCF only as a conservative diagnostic and must not be double-counted with future dilution.",
+    "The FY2025 operating-income diagnostic excluding employee litigation and former-CEO award modification is not GAAP or company guidance.",
+    "No synchronized current stock price was supplied or retrieved; valuation is intentionally withheld."
+  ]
+}
