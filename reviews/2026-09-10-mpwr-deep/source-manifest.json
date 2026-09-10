@@ -1,0 +1,59 @@
+{
+  "ticker": "MPWR",
+  "as_of": "2026-09-10",
+  "sources": [
+    {
+      "id": "MPWR_Q2_2026_RELEASE",
+      "tier": 1,
+      "type": "sec_company_exhibit",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026051029/mpwr-20260630xexx991.htm",
+      "use": "Q2 revenue, GAAP margins, end-market revenue, OCF, liquidity, DSO, inventory days, Q3 guidance, 800V sampling, capacity strategy and repurchase authorization"
+    },
+    {
+      "id": "MPWR_Q2_2026_10Q",
+      "tier": 1,
+      "type": "sec_10q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026053275/mpwr-20260630.htm",
+      "use": "H1 financials, cash flow, PPE, SBC, shares, distribution concentration, accounts receivable, litigation and unresolved material weakness"
+    },
+    {
+      "id": "MPWR_FY2025_10K",
+      "tier": 1,
+      "type": "sec_10k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926006113/mpwr20251231_10k.htm",
+      "use": "FY2025 financials, end-market mix, customer concentration, share count, SBC, FY2024 tax restatement, EY audit opinions and control weakness"
+    },
+    {
+      "id": "MPWR_GF_2026_09_09",
+      "tier": 1,
+      "type": "supplier_primary_release",
+      "url": "https://investors.gf.com/news-releases/news-release-details/globalfoundries-and-monolithic-power-systems-form-manufacturing",
+      "date": "2026-09-09",
+      "use": "Long-term manufacturing agreement using MPS proprietary process technology at GlobalFoundries Singapore 300mm fab; volume production planned for early 2027"
+    },
+    {
+      "id": "INFINEON_AI_POWER_2026_06_26",
+      "tier": 2,
+      "type": "competitor_primary_with_third_party_quote",
+      "url": "https://www.infineon.com/cms/en/about-infineon/press/press-releases/2026/INFXX202606-116.html",
+      "date": "2026-06-26",
+      "use": "Competitive counter-evidence for broad grid-to-core and 800V power-semiconductor capabilities; Gartner characterization is attributed to Infineon's release"
+    },
+    {
+      "id": "MPWR_PRICE_2026_09_10",
+      "tier": 3,
+      "type": "secondary_market_reference",
+      "url": "https://www.marketwatch.com/data-news/monolithic-power-systems-inc-stock-underperforms-thursday-when-compared-to-competitors-5c10c805-a2f50ba3ccbf",
+      "date": "2026-09-10",
+      "use": "Completed-session close reference of $1,186.08"
+    }
+  ],
+  "policy_notes": [
+    "SEC filings and company-filed exhibits lead financial, control and concentration claims.",
+    "Material restatement and material weakness are treated as accounting-reliability evidence, not proof of intentional misconduct.",
+    "Securities litigation is treated as allegation unless independently adjudicated or admitted.",
+    "Management guidance, capacity goals, 800V sampling and planned GlobalFoundries production are forward-looking/pre-production evidence rather than realized cash flows.",
+    "Competitor claims are used as counter-evidence and not as independently verified market-share facts.",
+    "Secondary market price is a valuation reference, not an execution guarantee."
+  ]
+}
