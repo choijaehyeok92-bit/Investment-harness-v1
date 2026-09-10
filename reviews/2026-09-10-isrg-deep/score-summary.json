@@ -1,0 +1,19 @@
+{
+  "ticker": "ISRG",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "business_quality_75": 67,
+  "total_score_100": 79,
+  "classification": "Emerging Outlier",
+  "price_reference_usd": 353.24,
+  "reverse_required_growth": 0.12561183235913853,
+  "scenario_value_per_share": {
+    "bear": 124.39283905585434,
+    "base": 302.7132313210153,
+    "bull": 609.2829171270331
+  },
+  "open_hard_vetoes": ["moat_shrinkage", "permanent_loss_probability"],
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY"
+}
