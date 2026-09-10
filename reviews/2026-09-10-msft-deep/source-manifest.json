@@ -1,0 +1,15 @@
+{
+  "ticker":"MSFT",
+  "as_of":"2026-09-10",
+  "source_policy":"Primary filings and company IR first; secondary market data only for price synchronization.",
+  "sources":[
+    {"id":"MSFT_FY26_Q4_RELEASE","type":"primary_company_ir","url":"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast","supports":["FY2026 revenue/operating income/net income","Q4 Azure growth","Q4 cash flows","SBC","shareholder returns"]},
+    {"id":"MSFT_FY26_Q4_CALL","type":"primary_company_ir","url":"https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4","supports":["Copilot adoption","RPO diversification","cloud gross margin","capex outlook","capacity utilization"]},
+    {"id":"MSFT_FY26_Q4_METRICS","type":"primary_company_ir","url":"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/metrics","supports":["Microsoft Cloud revenue","Azure growth","commercial RPO","cloud gross margin"]},
+    {"id":"MSFT_FY26_10K","type":"primary_sec_filing","url":"https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm","supports":["FY2026 financial statements","SBC","cash PPE","cash and debt","risk factors"]},
+    {"id":"MSFT_REPO_RAW_FY26","type":"repository_raw_extraction","path":"companies/MSFT/raw-data/2026-FY.json","supports":["preserved FY2026 filing extraction and trace"]},
+    {"id":"MSFT_PRIOR_MODEL","type":"repository_estimate","path":"companies/MSFT/analyses/2026-09-06-deep/valuation.json","supports":["retained Bear/Base/Bull scenario architecture"]},
+    {"id":"MSFT_PRICE_2026_09_09","type":"secondary_market_data","url":"https://kr.investing.com/equities/microsoft-corp-historical-data","supports":["September 9 2026 close $491.65"]}
+  ],
+  "limitations":["No Q1 FY2027 results existed at the checkpoint date.","Future datacenter cohort returns and maintenance-versus-growth capex are estimates/unknowns, not facts.","OpenAI contract economics are not fully observable from public disclosures; broad RPO diversification is used only to assess fatal dependence, not to value the OpenAI relationship separately."]
+}

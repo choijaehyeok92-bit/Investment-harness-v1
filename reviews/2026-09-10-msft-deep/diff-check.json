@@ -1,0 +1,20 @@
+{
+  "ticker":"MSFT",
+  "as_of":"2026-09-10",
+  "base":"main",
+  "base_sha":"3e40c4f44e79d576173ef9850f438cc6eadd3d33",
+  "head":"research/msft-deep-2026-09-10",
+  "pre_guardrail_compare":{"status":"ahead","ahead_by":7,"behind_by":0,"added_files":7,"modified_files":0,"deleted_files":0},
+  "expected_final_files":[
+    "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+    "companies/MSFT/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/MSFT/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/MSFT/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-msft-deep/README.md",
+    "reviews/2026-09-10-msft-deep/diff-check.json",
+    "reviews/2026-09-10-msft-deep/score-summary.json",
+    "reviews/2026-09-10-msft-deep/source-manifest.json"
+  ],
+  "forbidden_mutations_confirmed_absent_before_pr":["companies/MSFT/latest.json","registry/companies.json","reviews/latest.json","companies/MSFT/raw-data/*","harness/baseline-lock.json","frozen deterministic outputs"],
+  "validation_note":"GitHub structural compare used for additive-only guardrail. No claim that local deterministic validator was executed in this session."
+}
