@@ -1,0 +1,32 @@
+{
+  "ticker": "MPWR",
+  "as_of": "2026-09-10",
+  "base": "main",
+  "branch": "research/mpwr-deep-2026-09-10",
+  "pre_diff_check_compare": {
+    "base_commit": "6d7c176ac9f17e2003cdd832be97f394cb0e9720",
+    "ahead_by": 7,
+    "behind_by": 0,
+    "added_files": 7,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "expected_final_scope": {
+    "added_files": 8,
+    "modified_files": 0,
+    "deleted_files": 0,
+    "allowed_prefixes": [
+      "companies/MPWR/analyses/2026-09-10-deep/",
+      "reviews/2026-09-10-mpwr-deep/"
+    ]
+  },
+  "guardrails": {
+    "companies_MPWR_latest_unchanged": true,
+    "registry_companies_unchanged": true,
+    "reviews_latest_unchanged": true,
+    "canonical_raw_data_unchanged": true,
+    "baseline_lock_unchanged": true,
+    "frozen_deterministic_outputs_unchanged": true
+  },
+  "validation_note": "GitHub compare is used to verify additive-only scope. No claim is made that the local frozen deterministic validator was executed for this research checkpoint; canonical deterministic authority is intentionally unchanged."
+}
