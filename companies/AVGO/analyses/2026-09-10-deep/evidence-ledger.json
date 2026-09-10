@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "AVGO",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "evidence": [
+    {
+      "id": "Q3_FY26_REVENUE",
+      "claim_type": "fact",
+      "statement": "Q3 FY2026 revenue was $29.591B, up 86% year over year; GAAP operating income was $15.955B and GAAP net income was $13.088B.",
+      "source_ids": ["AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.99
+    },
+    {
+      "id": "Q3_AI_REVENUE",
+      "claim_type": "fact",
+      "statement": "Q3 FY2026 AI semiconductor revenue was $16.7B, up 221% year over year, and management guided Q4 AI semiconductor revenue to approximately $21.7B, up 236% year over year.",
+      "source_ids": ["AVGO_Q3_FY26_RELEASE", "REUTERS_AVGO_Q3_2026"],
+      "confidence": 0.98
+    },
+    {
+      "id": "Q3_SEGMENTS",
+      "claim_type": "fact",
+      "statement": "Q3 semiconductor-solutions revenue was $20.839B, up 127% year over year and 70% of total revenue; infrastructure-software revenue was $8.752B, up 29% and 30% of total revenue.",
+      "source_ids": ["AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.99
+    },
+    {
+      "id": "Q3_FCF",
+      "claim_type": "fact",
+      "statement": "Q3 operating cash flow was $14.197B and capital expenditures were $0.532B, producing company-defined free cash flow of $13.665B, or 46% of revenue.",
+      "source_ids": ["AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.99
+    },
+    {
+      "id": "TTM_FINANCIALS",
+      "claim_type": "derived",
+      "statement": "Using Q4 FY2025 plus Q1-Q3 FY2026, TTM revenue is approximately $89.104B, GAAP net income $38.265B and company-defined free cash flow $39.403B.",
+      "inputs": {
+        "q4_fy25_revenue": 18.015,
+        "q1_fy26_revenue": 19.311,
+        "q2_fy26_revenue": 22.187,
+        "q3_fy26_revenue": 29.591,
+        "q4_fy25_net_income": 8.518,
+        "q1_fy26_net_income": 7.349,
+        "q2_fy26_net_income": 9.31,
+        "q3_fy26_net_income": 13.088,
+        "q4_fy25_fcf": 7.466,
+        "q1_fy26_fcf": 8.01,
+        "q2_fy26_fcf": 10.262,
+        "q3_fy26_fcf": 13.665
+      },
+      "method": "Sum four sequential fiscal quarters; no quarterly annualization.",
+      "source_ids": ["AVGO_Q4_FY25_RELEASE", "AVGO_Q1_FY26_RELEASE", "AVGO_Q2_FY26_RELEASE", "AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.98
+    },
+    {
+      "id": "TTM_FCF_MINUS_SBC",
+      "claim_type": "derived",
+      "statement": "TTM SBC is approximately $8.484B; subtracting it once from company-defined TTM free cash flow gives a conservative owner-cash diagnostic of approximately $30.919B. This is not a company-defined non-GAAP measure and does not substitute for a full owner-earnings normalization.",
+      "inputs": {
+        "q4_fy25_sbc": 2.197,
+        "nine_month_fy26_sbc": 6.287,
+        "ttm_reported_fcf": 39.403
+      },
+      "method": "Q4 FY2025 SBC plus nine-month FY2026 SBC, subtracted once from reported FCF.",
+      "source_ids": ["AVGO_FY25_10K", "AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.93
+    },
+    {
+      "id": "Q3_BALANCE_SHEET",
+      "claim_type": "fact",
+      "statement": "At August 2, 2026, cash and cash equivalents were $23.975B, short-term debt $2.252B and long-term debt $57.167B; accounts receivable was $13.707B and inventory $4.523B.",
+      "source_ids": ["AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.99
+    },
+    {
+      "id": "NET_DEBT_DIAGNOSTIC",
+      "claim_type": "derived",
+      "statement": "Short- plus long-term debt less cash is approximately $35.444B at August 2, 2026, below one turn of TTM company-defined free cash flow.",
+      "inputs": {"short_term_debt": 2.252, "long_term_debt": 57.167, "cash": 23.975, "ttm_fcf": 39.403},
+      "method": "Debt minus cash; compare with TTM reported FCF.",
+      "source_ids": ["AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.98
+    },
+    {
+      "id": "CUSTOMER_CONCENTRATION",
+      "claim_type": "fact",
+      "statement": "For Q2 and H1 FY2026, one semiconductor distributor accounted for 42% of net revenue and Broadcom estimated its top five end customers accounted for approximately 45% of net revenue.",
+      "source_ids": ["AVGO_Q2_FY26_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "AI_RACK_BACKSTOP",
+      "claim_type": "fact",
+      "statement": "On June 8, 2026 Broadcom arranged for an investor partner to take on certain AI-rack purchase and customer lease agreements and entered a five-year backstop for the customer's lease obligations; maximum exposure is $29B and declines as the customer pays, with remedies including assuming the lease or selling racks after default.",
+      "source_ids": ["AVGO_Q2_FY26_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "CUSTOMER_FINANCING_RISK",
+      "claim_type": "fact",
+      "statement": "Broadcom's Q2 risk factors state it may offer alternative or deferred financing for AI racks and that such arrangements can adversely affect revenue, free cash flow, gross margin and expose Broadcom to credit/default risk.",
+      "source_ids": ["AVGO_Q2_FY26_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "AI_LONG_RANGE_GUIDANCE",
+      "claim_type": "management_guidance",
+      "statement": "Management now expects AI semiconductor revenue of approximately $115B in FY2027 and roughly $230B in FY2028. These are forward-looking management estimates, not observed future revenue.",
+      "source_ids": ["REUTERS_AVGO_Q3_2026"],
+      "confidence": 0.95
+    },
+    {
+      "id": "OPENAI_CUSTOM_PROCESSOR",
+      "claim_type": "fact",
+      "statement": "Broadcom and OpenAI disclosed a multi-generation custom intelligence processor collaboration, adding another hyperscaler/AI-lab design vector to Broadcom's custom-silicon platform.",
+      "source_ids": ["OPENAI_BROADCOM_JALAPENO"],
+      "confidence": 0.98
+    },
+    {
+      "id": "MARVELL_GOOGLE_COMPETITION",
+      "claim_type": "fact",
+      "statement": "Marvell expanded a custom-AI-chip relationship with Google that can generate up to $120B of revenue through fiscal 2033 subject to performance conditions; Reuters described this as an expansion of Google's supplier pool rather than definitive replacement of Broadcom.",
+      "source_ids": ["REUTERS_MARVELL_GOOGLE_2026"],
+      "confidence": 0.96
+    },
+    {
+      "id": "QUALCOMM_AMAZON_COMPETITION",
+      "claim_type": "fact",
+      "statement": "Qualcomm announced a long-term Amazon custom-AI data-center agreement under which Amazon can purchase up to $60B of AI chips and related products, adding another credible custom-silicon competitor.",
+      "source_ids": ["REUTERS_QUALCOMM_AMAZON_2026"],
+      "confidence": 0.96
+    },
+    {
+      "id": "VMWARE_EU_PRESSURE",
+      "claim_type": "fact",
+      "statement": "Five European cloud-business groups asked EU antitrust regulators for interim measures against Broadcom over VMware pricing, licensing and access changes; Broadcom rejects the allegations.",
+      "source_ids": ["REUTERS_VMWARE_EU_2026"],
+      "confidence": 0.97
+    },
+    {
+      "id": "AUDIT_AND_CONTROLS",
+      "claim_type": "fact",
+      "statement": "PwC issued unqualified FY2025 financial-statement and ICFR opinions; management concluded disclosure controls were effective at May 3, 2026 with no material ICFR change.",
+      "source_ids": ["AVGO_FY25_10K", "AVGO_Q2_FY26_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "PRICE_REFERENCE",
+      "claim_type": "fact",
+      "statement": "AVGO closed at $364.38 on September 9, 2026. The September 10 regular U.S. session had not opened at the Asia/Seoul checkpoint time.",
+      "source_ids": ["AVGO_PRICE_2026_09_09"],
+      "confidence": 0.96
+    },
+    {
+      "id": "VALUATION_DIAGNOSTICS",
+      "claim_type": "derived",
+      "statement": "At $364.38 and 4.758B valuation shares, equity value is approximately $1.734T, about 44.0x TTM reported FCF and 56.1x the conservative FCF-minus-SBC diagnostic.",
+      "inputs": {"price": 364.38, "shares_b": 4.758, "ttm_fcf": 39.403, "ttm_fcf_minus_sbc": 30.919},
+      "method": "Price times shares; divide market capitalization by the cash-flow diagnostics.",
+      "source_ids": ["AVGO_PRICE_2026_09_09", "HARNESS_AVGO_2026_09_06_MODEL", "AVGO_Q3_FY26_RELEASE"],
+      "confidence": 0.91
+    },
+    {
+      "id": "MACRO_OVERLAY",
+      "claim_type": "inference",
+      "statement": "Large hyperscaler AI borrowing and higher long-term discount rates increase duration and end-customer financing risk. Per harness policy this affects scenario severity and portfolio pacing, not Broadcom's company-quality score directly.",
+      "source_ids": ["REUTERS_AI_CREDIT_2026", "HARNESS_MACRO_2026_09_08"],
+      "confidence": 0.8
+    }
+  ]
+}
