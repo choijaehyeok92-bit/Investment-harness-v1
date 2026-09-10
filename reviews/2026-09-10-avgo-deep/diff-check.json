@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-avgo-deep",
+  "base": "main@21a6c5f06772df776fb312ec4193074bb2e17339",
+  "branch": "research/avgo-deep-2026-09-10",
+  "pre_pr_compare": {
+    "ahead_by": 7,
+    "behind_by": 0,
+    "files_added": 7,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "guardrail_result": "PASS",
+  "guardrails": [
+    "No companies/AVGO/latest.json change",
+    "No registry/companies.json change",
+    "No reviews/latest.json change",
+    "No companies/AVGO/raw-data change",
+    "No harness/baseline-lock.json change",
+    "No frozen deterministic output change"
+  ],
+  "validation_note": "GitHub-side structural compare confirms additive-only changes. The frozen canonical authority and baseline-lock are intentionally not promoted in this checkpoint; a separate reviewed authority run is required for that. No claim is made here that a local deterministic validator was executed in this session.",
+  "note": "This metadata file itself is additive and increases the final changed-file count from seven to eight."
+}
