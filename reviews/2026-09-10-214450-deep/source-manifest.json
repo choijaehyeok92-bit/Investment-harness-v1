@@ -1,0 +1,116 @@
+{
+  "ticker": "214450",
+  "as_of": "2026-09-10",
+  "sources": [
+    {
+      "id": "RAW_FILINGS_REPO",
+      "tier": 1,
+      "type": "primary_regulatory_filing_extraction",
+      "path": "companies/214450/raw-data/2025-2026-supplied-filings.json",
+      "use": "FY2025 and H1 2026 financial statements, product/geographic mix, cash, debt, capex and preferred liability."
+    },
+    {
+      "id": "PHARMA_Q2_2026",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.com/sub/press/view.html?idx=452",
+      "date": "2026-08-07",
+      "use": "H1/Q2 sales, operating profit, margin and export growth/share."
+    },
+    {
+      "id": "PHARMA_EU_VIVACY",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.com/sub/press/view.html?idx=358",
+      "date": "2025-08-29",
+      "use": "Five-year KRW88B, 22-country European REJURAN distribution framework."
+    },
+    {
+      "id": "PHARMA_EU_ROADSHOW",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.com/sub/press/view.html?idx=414",
+      "date": "2026-05-13",
+      "use": "European first shipment and physician rollout; management statements on early adoption kept separate from realized facts."
+    },
+    {
+      "id": "PHARMA_PLANT5",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://pharmaresearch.com/sub/press/view.html?idx=419",
+      "date": "2026-05-22",
+      "use": "Plant 5 scale and capacity targets."
+    },
+    {
+      "id": "PHARMA_CG_USA",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://pharmaresearch.com/sub/press/view.html?idx=441",
+      "date": "2026-07-01",
+      "use": "CG USA acquisition/localization and undisclosed transaction price."
+    },
+    {
+      "id": "PHARMA_CAPITAL_RETURN",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://pharmaresearch.com/sub/press/view.html?idx=392",
+      "date": "2026-02-05",
+      "use": "FY2025 dividend and payout ratio; treasury-share cancellation statement."
+    },
+    {
+      "id": "PHARMA_VALUEUP",
+      "tier": 1,
+      "type": "KRX_filing",
+      "url": "https://kind.krx.co.kr/external/2026/03/30/000248/20260325001055/72101.htm",
+      "date": "2026-03-27",
+      "use": "Forward-looking 2026+ payout, overseas growth, M&A and production-quality plan."
+    },
+    {
+      "id": "PHARMA_AUDIT",
+      "tier": 1,
+      "type": "company_IR_regulatory_link",
+      "url": "https://pharmaresearch.com/sub/ir/view.html?curpage=1&idx=54",
+      "date": "2026-03-20",
+      "use": "FY2025 audit report availability and DART linkage."
+    },
+    {
+      "id": "PHARMA_SPLIT_WITHDRAWAL",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.co.kr/sub/press/view.html?idx=351",
+      "date": "2025-07-08",
+      "use": "Withdrawal of proposed split after governance/shareholder-value concerns."
+    },
+    {
+      "id": "PHARMA_RCPS_ORIGIN",
+      "tier": 2,
+      "type": "reputable_press_on_disclosure",
+      "url": "https://www.yna.co.kr/view/AKR20240905140451008",
+      "date": "2024-09-05",
+      "use": "CVC preferred-share financing: 1,175,647 shares at KRW170,119, about KRW200B proceeds."
+    },
+    {
+      "id": "PHARMA_US_REGULATORY_REDTEAM",
+      "tier": 2,
+      "type": "specialist_financial_press",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03011046645551584",
+      "date": "2026-08-27",
+      "use": "Red-team evidence on U.S. medical REJURAN regulatory pathway and 2028 patent monitoring point."
+    },
+    {
+      "id": "PHARMA_PRICE_2026_09_10",
+      "tier": 3,
+      "type": "secondary_market_data",
+      "url": "https://stock11.mk.co.kr/price/home/KR7214450009",
+      "date": "2026-09-10",
+      "use": "Completed-session close KRW349,500, listed common shares and market-cap cross-check."
+    }
+  ],
+  "policy_notes": [
+    "Primary filings and company IR lead quantitative company claims.",
+    "Company commentary about physician demand, unique regulatory status and future capacity is labeled management assertion/plan rather than independently audited fact.",
+    "The U.S. regulatory article is used only as a red-team source.",
+    "RCPS redemption and conversion are alternative treatments and are never double-counted.",
+    "Secondary market price is a reference close, not an execution guarantee."
+  ]
+}
