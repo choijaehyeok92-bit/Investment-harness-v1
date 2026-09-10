@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "ANET",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "USD",
+  "price_reference": {
+    "price": 192.93,
+    "price_date": "2026-09-09",
+    "price_status": "SECONDARY_AND_COMPANY_IR_CLOSE_REFERENCE",
+    "actual_shares_b": 1.261224648,
+    "valuation_shares_b": 1.276,
+    "actual_share_market_cap_usd_b": 243.32807133864,
+    "valuation_denominator_market_cap_usd_b": 246.17868,
+    "source_id": "ANET_PRICE_2026_09_09",
+    "note": "September 9 close is used because the September 10 U.S. regular session had not opened at the Asia/Seoul checkpoint time. Actual shares are the July 30, 2026 filed share count; the 1.276B diluted valuation denominator is retained from the 2026-09-06 model for scenario comparability."
+  },
+  "required_return": 0.09,
+  "ttm_diagnostics": {
+    "formula": "FY2025 + H1 2026 - H1 2025",
+    "revenue_usd_b": 10.5408,
+    "gaap_operating_income_usd_b": 4.5469,
+    "gaap_net_income_usd_b": 4.0446,
+    "ocf_usd_b": 5.3066,
+    "disclosed_capex_line_usd_b": 0.1513,
+    "mechanical_ocf_minus_capex_usd_b": 5.1553,
+    "ttm_sbc_usd_b": 0.5023,
+    "conservative_ocf_minus_capex_minus_sbc_usd_b": 4.6530,
+    "actual_market_cap_to_gaap_net_income": 60.1612,
+    "actual_market_cap_to_mechanical_ocf_minus_capex": 47.1996,
+    "actual_market_cap_to_conservative_owner_cash_diagnostic": 52.2949,
+    "conservative_owner_cash_diagnostic_yield": 0.0191223,
+    "ttm_gaap_operating_margin": 0.431362,
+    "ttm_gaap_net_margin": 0.383709,
+    "mechanical_owner_cash_margin": 0.441428,
+    "note": "OCF-minus-capex-minus-SBC is a conservative diagnostic, not normalized owner FCF. FY2025 capex includes a combined PPE/intangible cash line while H1 comparative capex is PPE-only, and H1 OCF contains working-capital timing benefits including deferred revenue."
+  },
+  "balance_sheet_and_commitment_diagnostic": {
+    "cash_usd_b": 2.2902,
+    "marketable_securities_usd_b": 11.0531,
+    "cash_plus_securities_usd_b": 13.3433,
+    "non_cancellable_purchase_commitments_usd_b": 9.7,
+    "purchase_commitments_within_12_months_usd_b": 9.4,
+    "cash_plus_securities_to_total_purchase_commitments": 1.3756,
+    "accounts_receivable_usd_b": 2.2662,
+    "inventory_usd_b": 2.5353,
+    "total_deferred_revenue_usd_b": 6.8659,
+    "note": "Purchase commitments are contractual operating commitments, not funded debt, and are not mechanically subtracted from liquidity. They are monitored as demand-forecast and inventory-risk exposure."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Retain the 2026-09-06 Base model year-1 revenue of $13B, owner-margin path of 36% to 34%, 25x terminal owner-cash multiple, 1.276B diluted valuation denominator and 9% required return; solve a uniform revenue-growth rate for years 2-10 against the September 9 price.",
+    "required_growth_years_2_10": 0.16815411736629787,
+    "prior_required_growth_years_2_10": 0.16878998112052368,
+    "prior_price_reference": 193.78,
+    "price_reference": 192.93,
+    "horizon_years": 10,
+    "implied_year_10_revenue_usd_b": 52.65561007178987,
+    "implied_year_10_owner_cash_usd_b": 17.902907424408557,
+    "interpretation": "Approximately 16.82% annual growth after the model's $13B year 1 is a demanding long-duration requirement but not yet an obviously impossible bull-only case given the current 2026 growth guide. The main concern is the narrow expectation gap rather than near-term solvency."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 57.046016407753235,
+      "value_to_price": 0.29568245688982137,
+      "upside_downside": -0.7043175431101787,
+      "source": "Retained from companies/ANET/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Major-customer spending normalizes, AI Ethernet share gains fail to materialize, gross margin compresses, supply commitments create inventory cost and mature owner margin falls."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 166.1078400649998,
+      "value_to_price": 0.8609746543565013,
+      "upside_downside": -0.13902534564349867,
+      "source": "Retained from companies/ANET/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Arista sustains high-teens/low-20s multi-year growth through AI, core data-center and campus expansion while normalized owner cash matures near the mid-30% range."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 357.9991115743701,
+      "value_to_price": 1.855590688718033,
+      "upside_downside": 0.8555906887180329,
+      "source": "Retained from companies/ANET/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Ethernet becomes the dominant AI fabric across scale-out and meaningful scale-up, Arista retains leading economics across 1.6T generations, customer concentration falls and owner margins stay exceptionally high."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 57.046016407753235,
+    "bull_value_per_share": 357.9991115743701,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.45151216510007064,
+    "note": "This is an algebraic location of current price between two model endpoints, not an estimated probability."
+  },
+  "management_outlook_overlay": {
+    "claim_type": "management_guidance",
+    "fy2026_revenue_usd_b": 12.6,
+    "fy2026_growth_approx": 0.40,
+    "fy2026_ai_fabrics_revenue_target_at_least_usd_b": 3.6,
+    "etherlink_cumulative_customers": ">100",
+    "one_point_six_timing": "Trials in H2 2026; meaningful production expected in 2027 per management commentary.",
+    "treatment": "Guidance is evidence of near-term demand and structural traction, not a guaranteed base-case fact. It does not eliminate customer-concentration, supply-commitment or duration risk."
+  },
+  "valuation_conclusion": "At $192.93, price remains approximately 16% above the retained Base intrinsic-value estimate and requires about 16.82% annual years-2-10 revenue growth under retained base economics. The price does not clearly require an unrealistic Bull case, but the margin of safety is insufficient. Fatal customer concentration and permanent-loss gates remain open, so buy authorization is false."
+}
