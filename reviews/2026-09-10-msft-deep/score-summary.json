@@ -1,0 +1,14 @@
+{
+  "ticker":"MSFT",
+  "as_of":"2026-09-10",
+  "decision":"WATCH",
+  "priority":"P1",
+  "buy_authorized":false,
+  "position_band":"NONE",
+  "classification":"Emerging Outlier",
+  "business_quality_75":66,
+  "total_score_100":78,
+  "categories":{"structural_change_and_leadership":15,"customer_value_and_product":10,"moat_trajectory":14,"incremental_roic_and_fcf_per_share":10,"management_and_capital_allocation":7,"financial_survivability":10,"expectation_gap_and_valuation":7,"power_law_and_asymmetry":5},
+  "open_vetoes":["incremental_roic_collapse","permanent_loss_probability"],
+  "key_change_from_2026_09_06":"Business quality 64->66 and total 75->78. Fatal concentration moved from INVESTIGATE to PASS because cloud revenue and RPO growth are broadly diversified outside frontier-model counterparties. Incremental-ROIC and permanent-loss gates remain open due to unprecedented AI infrastructure capital intensity and limited valuation margin of safety."
+}
