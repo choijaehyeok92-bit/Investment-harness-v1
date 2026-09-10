@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "003230",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "KRW",
+  "price_reference": {
+    "price": 1264000,
+    "price_date": "2026-09-10",
+    "price_status": "SECONDARY_MARKET_CLOSE_REFERENCE",
+    "issued_shares": 7533015,
+    "market_cap_krw_trillion": 9.52173096,
+    "source_id": "INVESTING_PRICE_2026_09_10"
+  },
+  "required_return": 0.10,
+  "ttm_diagnostics": {
+    "method": "FY2025 + H1 2026 - H1 2025",
+    "revenue_krw_trillion": 2.754409,
+    "operating_income_krw_trillion": 0.623426,
+    "net_income_krw_trillion": 0.487694,
+    "operating_cash_flow_krw_trillion": 0.448349,
+    "ppe_purchases_krw_trillion": 0.227388,
+    "mechanical_ocf_less_ppe_krw_trillion": 0.220961,
+    "operating_margin": 0.226334,
+    "net_margin": 0.177061,
+    "mechanical_fcf_margin": 0.080220,
+    "market_cap_to_net_income": 19.523986270079188,
+    "market_cap_to_mechanical_fcf": 43.0923600092324,
+    "mechanical_fcf_yield": 0.023205969684318827,
+    "net_cash_excluding_leases_krw_trillion": 0.147482,
+    "note": "OCF minus PPE purchases is not normalized owner FCF. Miryang Plant 2, headquarters property and other growth capex make maintenance versus growth capex unresolved, so the scenario model uses explicit normalized owner-cash margins rather than mechanically capitalizing the reported diagnostic."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Start from TTM revenue KRW 2.754409tn, add June-2026 net cash excluding leases, assume a 10-year horizon and 18x terminal owner-cash multiple, then solve one constant annual revenue growth rate for years 1-10 at a 10% required return under fixed normalized owner-cash margins. This is not a unique observable market belief.",
+    "price_reference": 1264000,
+    "horizon_years": 10,
+    "required_return": 0.10,
+    "required_growth_at_12pct_owner_margin": 0.10168070173870805,
+    "required_growth_at_13pct_owner_margin": 0.09119279491668082,
+    "required_growth_at_14pct_owner_margin": 0.08148776567641902,
+    "required_growth_at_15pct_owner_margin": 0.072453821480638,
+    "required_growth_at_16pct_owner_margin": 0.06400134689974676,
+    "interpretation": "At a 15% normalized owner-cash margin the current price requires about 7.25% annual revenue growth for ten years; at a more conservative 12% margin it requires about 10.17%. Neither is obviously an unrealistic bull-case requirement given current overseas growth, but the owner-cash margin has not yet been directly established from maintenance-capex evidence."
+  },
+  "scenario_method": {
+    "claim_type": "estimate",
+    "starting_revenue_krw_trillion": 2.754409,
+    "net_cash_added_krw_trillion": 0.147482,
+    "discount_rate": 0.10,
+    "terminal_method": "Year-10 owner cash multiplied by scenario terminal multiple, discounted to present; no separate growth perpetuity.",
+    "guardrails": [
+      "Scenarios are analyst estimates, not company guidance or price targets.",
+      "No mechanical OCF-PPE figure is promoted to normalized owner FCF.",
+      "Net cash excluding leases is added once; debt is not double-subtracted.",
+      "Share count is held at 7,533,015 because H1 2026 disclosed no change; future dilution remains a monitoring item.",
+      "Terminal-value sensitivity is material, especially in Bull."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 590627.6727851443,
+      "value_to_price": 0.4672687284692597,
+      "upside_downside": -0.5327312715307403,
+      "annual_revenue_growth_path": [0.08, 0.06, 0.05, 0.04, 0.03, 0.03, 0.03, 0.025, 0.02, 0.02],
+      "owner_margin_path": [0.10, 0.10, 0.10, 0.10, 0.10, 0.10, 0.10, 0.10, 0.10, 0.10],
+      "terminal_multiple": 14,
+      "year_10_revenue_krw_trillion": 4.0125140942125205,
+      "year_10_owner_cash_krw_trillion": 0.4012514094212521,
+      "terminal_fraction_of_operating_pv": 0.5034717412681796,
+      "narrative": "Buldak growth normalizes sharply, channel inventory and promotion intensity rise, raw-material/FX benefits reverse, Miryang/China capacity earns below the 10% hurdle and the market applies a mature branded-food multiple."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 1695711.1273390022,
+      "value_to_price": 1.3415436134011094,
+      "upside_downside": 0.3415436134011094,
+      "annual_revenue_growth_path": [0.22, 0.18, 0.15, 0.12, 0.10, 0.08, 0.07, 0.06, 0.05, 0.04],
+      "owner_margin_path": [0.135, 0.14, 0.145, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15],
+      "terminal_multiple": 18,
+      "year_10_revenue_krw_trillion": 7.514755444063501,
+      "year_10_owner_cash_krw_trillion": 1.1272133166095251,
+      "terminal_fraction_of_operating_pv": 0.6195472651245343,
+      "narrative": "Overseas distribution broadening and capacity additions allow growth to decelerate gradually from current levels; brand economics remain strong, normalized owner-cash margin reaches 15%, and no perfect market-share outcome is required."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 3280812.408866801,
+      "value_to_price": 2.595579437394621,
+      "upside_downside": 1.5955794373946208,
+      "annual_revenue_growth_path": [0.30, 0.25, 0.22, 0.18, 0.15, 0.12, 0.10, 0.08, 0.07, 0.06],
+      "owner_margin_path": [0.15, 0.16, 0.17, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18, 0.18],
+      "terminal_multiple": 22,
+      "year_10_revenue_krw_trillion": 11.182671791761162,
+      "year_10_owner_cash_krw_trillion": 2.012880922517009,
+      "terminal_fraction_of_operating_pv": 0.6949652288564868,
+      "narrative": "Buldak becomes a durable global food/IP platform, U.S./Europe/China penetration compounds, China plant and later capacity earn high incremental returns, product adjacencies raise wallet share and brand pricing power supports high-teens owner margins."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 590627.6727851443,
+    "bull_value_per_share": 3280812.408866801,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.25030709533935014,
+    "note": "This is not an estimated probability; it only locates the current price between two modeled endpoints."
+  },
+  "subjective_probability_example": {
+    "claim_type": "opinion",
+    "weights": {"bear": 0.25, "base": 0.50, "bull": 0.25},
+    "probability_weighted_value_per_share": 1815715.5840824875,
+    "note": "Illustrative only and not used as a buy authorization because open Hard Veto items and owner-cash normalization remain unresolved."
+  },
+  "valuation_conclusion": "At KRW 1.264m the shares do not require an unrealistic bull case. The expectation gap is potentially favorable if normalized owner cash reaches the low-to-mid teens, but current reported OCF-minus-PPE remains only an 8.0% TTM margin and maintenance versus growth capex is unresolved. Base-case modeled value is about KRW 1.696m, but the uncertainty is too material for buy authorization until incremental ROIC and concentration evidence improve."
+}

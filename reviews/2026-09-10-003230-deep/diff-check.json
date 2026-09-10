@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-003230-deep",
+  "base": "main@c45624b63112f4a3ee04e737f3e33b2e7a5df515",
+  "branch": "research/003230-deep-2026-09-10",
+  "pre_merge_compare": {
+    "ahead_by_before_this_file": 7,
+    "behind_by": 0,
+    "files_added_before_this_file": 7,
+    "files_modified": 0,
+    "files_deleted": 0,
+    "additions_before_this_file": 855,
+    "deletions": 0
+  },
+  "guardrail_result": "PASS",
+  "guardrails": [
+    "No companies/003230/latest.json change",
+    "No registry/companies.json change",
+    "No reviews/latest.json change",
+    "No companies/003230/raw-data change",
+    "No harness/baseline-lock.json change",
+    "No frozen deterministic output change"
+  ],
+  "validation_note": "The environment could not clone GitHub to execute local Python validators because direct network resolution from the container was unavailable. This checkpoint follows the repository's recent additive-only pattern, so canonical validation scope is intentionally not changed. Final PR diff must still be reviewed before merge.",
+  "note": "This metadata file itself is additive and increases the final file count by one."
+}

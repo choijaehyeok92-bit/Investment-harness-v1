@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "003230",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "evidence": [
+    {
+      "id": "FY2025_GROWTH",
+      "claim_type": "fact",
+      "statement": "FY2025 consolidated revenue was KRW 2.351785tn, operating income KRW 0.524188tn and net income KRW 0.388674tn; revenue and operating income increased 36.1% and 52.1% year over year.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08", "SAMYANG_FINANCE_OFFICIAL"],
+      "confidence": 0.99
+    },
+    {
+      "id": "H1_2026_GROWTH_AND_CASH",
+      "claim_type": "fact",
+      "statement": "H1 2026 revenue was KRW 1.484715tn, operating income KRW 0.353314tn, net income KRW 0.282054tn and operating cash flow KRW 0.268262tn, up 37.2%, 39.1%, 54.1% and 107.6% year over year, respectively.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.99
+    },
+    {
+      "id": "Q2_2026_MOMENTUM",
+      "claim_type": "fact",
+      "statement": "Q2 2026 revenue was KRW 770.3bn and operating income KRW 176.2bn, up 39.3% and 46.7% year over year. Overseas revenue reached KRW 645.8bn, up 46.7%, and operating margin was approximately 22.9%, the sixth consecutive quarter above 20%.",
+      "source_ids": ["YONHAP_Q2_2026", "EDAILY_Q2_REGIONS_2026"],
+      "confidence": 0.98
+    },
+    {
+      "id": "REGIONAL_DIVERSIFICATION",
+      "claim_type": "fact",
+      "statement": "Q2 2026 sales in the Americas were KRW 203.6bn (+54% YoY), China KRW 181.0bn (+44%) and Europe KRW 80.6bn (+61%), showing broad growth across the three major overseas regions rather than a single-country spike.",
+      "source_ids": ["EDAILY_Q2_REGIONS_2026"],
+      "confidence": 0.96
+    },
+    {
+      "id": "EXPORT_AND_PRODUCT_MIX",
+      "claim_type": "fact",
+      "statement": "H1 2026 noodle/snack sales were KRW 1.344886tn, 90.6% of total sales, while total export product sales were KRW 1.230840tn, 82.9% of total sales. Exact Buldak-brand revenue is not separately disclosed and is not assumed equal to noodle/snack revenue.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.99
+    },
+    {
+      "id": "BULDAK_SCALE",
+      "claim_type": "fact",
+      "statement": "Buldak exceeded 10 billion cumulative units and about KRW 7tn cumulative sales by end-May 2026, is sold in about 100 countries, and Samyang Foods accounts for roughly 60% of South Korea's ramyeon exports.",
+      "source_ids": ["YONHAP_BULDAK_10B_2026"],
+      "confidence": 0.95
+    },
+    {
+      "id": "DEMAND_SIGNAL",
+      "claim_type": "fact",
+      "statement": "Independent press reported Buldak YouTube search interest on Google Trends reached a record level in late July/early August 2026 while U.S. distribution expanded beyond Walmart into Kroger and Target and European mainstream retail distribution broadened.",
+      "source_ids": ["HANKYUNG_BULDAK_SEARCH_2026"],
+      "confidence": 0.82
+    },
+    {
+      "id": "CAPACITY_VALUE_UP",
+      "claim_type": "management_plan",
+      "statement": "The March 2026 KRX Value-Up disclosure targets a 40.2% increase in production volume versus the prior base, cites Miryang Plant 2 completion in 2025 and China plant operation planned for 2027, and states 2022-2025 export CAGR of 41.7% on a separate-company basis.",
+      "source_ids": ["KRX_VALUE_UP_2026_03_26"],
+      "confidence": 0.99
+    },
+    {
+      "id": "MARGIN_AND_ROE_EXPANSION",
+      "claim_type": "fact_and_management_disclosure",
+      "statement": "The KRX Value-Up disclosure shows operating margin rising from 9.9% in 2022 to 22.3% in 2025 and ROE from 17.6% to 31.0%, supporting evidence that recent capex and overseas expansion coincided with materially better economics.",
+      "source_ids": ["KRX_VALUE_UP_2026_03_26"],
+      "confidence": 0.98
+    },
+    {
+      "id": "TTM_BRIDGE",
+      "claim_type": "derived",
+      "statement": "Using the harness TTM bridge FY2025 + H1 2026 - H1 2025 gives revenue KRW 2.754409tn, operating income KRW 0.623426tn, net income KRW 0.487694tn, OCF KRW 0.448349tn and PPE purchases KRW 0.227388tn.",
+      "inputs": {
+        "fy2025_revenue_krw_m": 2351785,
+        "h1_2026_revenue_krw_m": 1484715,
+        "h1_2025_revenue_krw_m": 1082091,
+        "fy2025_operating_income_krw_m": 524188,
+        "h1_2026_operating_income_krw_m": 353314,
+        "h1_2025_operating_income_krw_m": 254076,
+        "fy2025_net_income_krw_m": 388674,
+        "h1_2026_net_income_krw_m": 282054,
+        "h1_2025_net_income_krw_m": 183034,
+        "fy2025_ocf_krw_m": 309287,
+        "h1_2026_ocf_krw_m": 268262,
+        "h1_2025_ocf_krw_m": 129200,
+        "fy2025_ppe_krw_m": 448988,
+        "h1_2026_ppe_krw_m": 103333,
+        "h1_2025_ppe_krw_m": 324933
+      },
+      "method": "FY2025 + H1 2026 - H1 2025 for each line item",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.99
+    },
+    {
+      "id": "TTM_MECHANICAL_FCF",
+      "claim_type": "derived",
+      "statement": "TTM OCF minus PPE purchases is approximately KRW 220.961bn, an 8.0% margin on TTM revenue. This is a mechanical diagnostic, not normalized owner FCF, because growth versus maintenance capex and headquarters/capacity spending are not separated.",
+      "inputs": {"ttm_ocf_krw_bn": 448.349, "ttm_ppe_purchases_krw_bn": 227.388, "ttm_revenue_krw_bn": 2754.409},
+      "method": "TTM OCF - TTM PPE purchases",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.98
+    },
+    {
+      "id": "WORKING_CAPITAL",
+      "claim_type": "fact",
+      "statement": "At June 30, 2026 accounts receivable was KRW 256.385bn, up 38.4% from 2025 year-end, while inventory was KRW 277.639bn, up 13.3%; H1 working-capital cash effects included KRW 64.574bn use from receivables and KRW 35.804bn use from inventory.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.99
+    },
+    {
+      "id": "LIQUIDITY",
+      "claim_type": "fact",
+      "statement": "At June 30, 2026 cash plus short-term financial assets was approximately KRW 749.312bn versus borrowings excluding leases of approximately KRW 601.830bn, leaving net cash of about KRW 147.482bn before lease liabilities. Credit ratings were AA-/Stable.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.98
+    },
+    {
+      "id": "SHARE_COUNT",
+      "claim_type": "fact",
+      "statement": "Issued shares were 7,533,015 at June 30, 2026 and were unchanged from 2025 year-end; observable growth is not being funded through persistent share dilution.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08", "KRX_MAJOR_HOLDER_2026_07_06"],
+      "confidence": 0.99
+    },
+    {
+      "id": "AUDIT_AND_CONTROLS",
+      "claim_type": "fact",
+      "statement": "FY2025 consolidated audit opinion and internal accounting control opinion were unqualified with no material weakness reported. The 2026 auditor change to EY/HanYoung followed expiry of the designated-auditor engagement and audit-committee selection, not a disclosed accounting dispute.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.97
+    },
+    {
+      "id": "CAPITAL_ALLOCATION_MONITOR",
+      "claim_type": "fact_and_inference",
+      "statement": "The filing records a KRW 227bn headquarters property acquisition and KRW 155.417bn of ongoing equipment projects. These uses do not establish value destruction, but the headquarters purchase raises the hurdle for management/capital-allocation scoring because its incremental owner return is not yet demonstrated.",
+      "source_ids": ["003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.9
+    },
+    {
+      "id": "MAJOR_HOLDER_PLEDGES",
+      "claim_type": "fact",
+      "statement": "Samyang RoundSquare and related parties held 44.98% as of July 6, 2026. Shares subject to major contracts/pledges totaled 412,005, or 5.47% of issued shares, down from 8.09% previously. This is a governance/liquidity monitor rather than evidence of operating impairment.",
+      "source_ids": ["KRX_MAJOR_HOLDER_2026_07_06"],
+      "confidence": 0.99
+    },
+    {
+      "id": "PRICE_2026_09_10",
+      "claim_type": "fact",
+      "statement": "Samyang Foods closed at KRW 1,264,000 on September 10, 2026. Applied to 7,533,015 issued shares, the synchronized market capitalization is approximately KRW 9.522tn.",
+      "source_ids": ["INVESTING_PRICE_2026_09_10", "003230_PRIMARY_EXTRACTION_2026_09_08"],
+      "confidence": 0.95
+    }
+  ]
+}

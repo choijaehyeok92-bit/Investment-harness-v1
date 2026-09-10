@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-003230-deep",
+  "ticker": "003230",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Emerging Outlier",
+  "business_quality_75": 61,
+  "valuation_and_asymmetry_25": 19,
+  "total_score_100": 80,
+  "category_scores": {
+    "structural_change_and_leadership": 14,
+    "customer_value_and_product": 9,
+    "moat_trajectory": 12,
+    "incremental_roic_and_fcf_per_share": 10,
+    "management_and_capital_allocation": 7,
+    "financial_survivability": 9,
+    "expectation_gap_and_valuation": 11,
+    "power_law_and_asymmetry": 8
+  },
+  "hard_veto_overall": "INVESTIGATE",
+  "open_veto_items": ["incremental_roic_collapse", "fatal_concentration"],
+  "price_reference_krw": 1264000,
+  "price_date": "2026-09-10",
+  "required_return": 0.10,
+  "scenario_values_per_share_krw": {
+    "bear": 590627.6727851443,
+    "base": 1695711.1273390022,
+    "bull": 3280812.408866801
+  },
+  "reverse_required_growth": {
+    "at_15pct_owner_margin": 0.072453821480638,
+    "at_12pct_owner_margin": 0.10168070173870805
+  },
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY"
+}
