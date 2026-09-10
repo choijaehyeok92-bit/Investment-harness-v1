@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "MELI",
+  "as_of": "2026-09-10",
+  "canonical_raw_path": "companies/MELI/raw-data/2026-Q2.json",
+  "canonical_raw_status": "EXISTING_BASELINE_LOCKED_UNCHANGED",
+  "evidence": [
+    {"id": "MELI_E1", "claim_type": "fact", "source_id": "MELI_Q2_2026_10Q", "statement": "Q2 2026 net revenues and financial income were $10.169B, up 49.8% YoY; H1 revenue was $19.014B versus $12.725B."},
+    {"id": "MELI_E2", "claim_type": "fact", "source_id": "MELI_Q2_2026_10Q", "statement": "Q2 operating income was $683M versus $825M and Q2 net income was $466M versus $523M; operating margin was 6.7%, roughly 550bp below Q2 2025."},
+    {"id": "MELI_E3", "claim_type": "fact", "source_id": "MELI_Q2_2026_SHAREHOLDER_LETTER", "statement": "Q2 GMV reached $21.9B, up 44% reported and 36% FX-neutral; TPV reached $101B, up 56%."},
+    {"id": "MELI_E4", "claim_type": "fact", "source_id": "MELI_Q2_2026_SHAREHOLDER_LETTER", "statement": "Commerce buyers reached 89M, up 26% YoY; Mercado Pago MAUs reached 88M, up 30%; AUM reached $23B, up 68%."},
+    {"id": "MELI_E5", "claim_type": "fact", "source_id": "MELI_Q2_2026_SHAREHOLDER_LETTER", "statement": "Credit portfolio surpassed $16B, up 75% YoY. Credit cards rose to 47% of total credit portfolio; consolidated NIMAL was 20.7% and credit-card NIMAL was -2.5%."},
+    {"id": "MELI_E6", "claim_type": "fact", "source_id": "MELI_Q2_2026_10Q", "statement": "H1 provision for doubtful accounts was $2.520B versus $1.293B, while Q2 provision was $1.276B versus $690M."},
+    {"id": "MELI_E7", "claim_type": "fact", "source_id": "MELI_CANONICAL_Q2_RAW", "statement": "H1 2026 adjusted FCF was $158M versus $512M in H1 2025; Q2 adjusted FCF was $214M. H1 capex was $712M."},
+    {"id": "MELI_E8", "claim_type": "fact", "source_id": "MELI_Q2_2026_10Q", "statement": "H1 operating cash flow was large, but the increase was materially supported by customer funds, card-settlement payables and other financial working-capital movements; it is not comparable to software-company owner FCF."},
+    {"id": "MELI_E9", "claim_type": "fact", "source_id": "MELI_Q2_2026_10Q", "statement": "At June 30, cash and cash equivalents were $3.649B, restricted cash $13.114B and funds payable to customers $16.035B; company-defined total debt was $13.176B and net debt $6.425B in the canonical raw extraction."},
+    {"id": "MELI_E10", "claim_type": "fact", "source_id": "MELI_Q2_2026_10Q", "statement": "Outstanding shares were 50,696,802 at June 30, 2026 versus 50,697,182 at December 31, 2025, indicating no material dilution over the period."},
+    {"id": "MELI_E11", "claim_type": "fact", "source_id": "MELI_Q2_2026_SHAREHOLDER_LETTER", "statement": "Brazil FX-neutral GMV grew 39% and items sold grew 56% after lower free-shipping thresholds; Mexico FX-neutral GMV grew 26% and Argentina 38%."},
+    {"id": "MELI_E12", "claim_type": "management_statement", "source_id": "MELI_Q2_2026_SHAREHOLDER_LETTER", "statement": "Management reported that ecosystemic users grew 37%, ecosystemic users generate materially higher GMV/TPV and engagement than single-product users, and contribution profit per ecosystemic user is multiples of the sum of marketplace-only and fintech-only users."},
+    {"id": "MELI_E13", "claim_type": "management_statement", "source_id": "MELI_Q2_2026_SHAREHOLDER_LETTER", "statement": "Management reported surpassing 10% Latin American digital-ad-market share and 62% FX-neutral ad-revenue growth in Q2 2026."},
+    {"id": "MELI_E14", "claim_type": "fact", "source_id": "LATAM_ECOMMERCE_2026", "statement": "EMARKETER expects Latin American retail e-commerce sales to grow by $54.45B over the next two years and expects Mercado Libre plus Amazon to capture roughly two-thirds of the incremental sales."},
+    {"id": "MELI_E15", "claim_type": "fact", "source_id": "MELI_2025_10K", "statement": "FY2025 financial statements and internal control over financial reporting received unqualified audit opinions."},
+    {"id": "MELI_E16", "claim_type": "fact", "source_id": "MELI_2026_PROXY", "statement": "Founder Marcos Galperin transitioned to Executive Chairman on January 1, 2026 and Ariel Szarfsztejn became CEO; the proxy describes independent board leadership and committee oversight. The Galperin Trust held about 7.0%."},
+    {"id": "MELI_E17", "claim_type": "fact", "source_id": "MELI_CANONICAL_Q2_RAW", "statement": "Q2 2026 legal/tax disclosures included $172M probable proceeding liabilities net of judicial deposits, up to $622M reasonably possible legal actions, a $632M provision and $593M judicial deposits for a Brazil withholding-tax dispute, and other tax uncertainties."},
+    {"id": "MELI_E18", "claim_type": "fact", "source_id": "MELI_BOND_2026_09_09", "statement": "MercadoLibre raised $1B through a ten-year U.S. dollar bond due 2036 on September 9, 2026; this checkpoint does not assert an unverified coupon."},
+    {"id": "MELI_E19", "claim_type": "fact", "source_id": "MELI_PRICE_2026_09_09", "statement": "The latest completed U.S. close available at research time was $1,876.33 on September 9, 2026."},
+    {"id": "MELI_E20", "claim_type": "calculation", "inputs": ["MELI_E1"], "statement": "Using FY2025 plus H1 2026 minus H1 2025, TTM revenue is approximately $35.182B."},
+    {"id": "MELI_E21", "claim_type": "calculation", "inputs": ["MELI_E2"], "statement": "Using FY2025 plus H1 2026 minus H1 2025, TTM operating income is approximately $2.907B, or about 8.3% of revenue, and TTM net income about $1.863B."},
+    {"id": "MELI_E22", "claim_type": "calculation", "inputs": ["MELI_E7"], "statement": "TTM adjusted FCF equals approximately $1.127B using $1.481B FY2025 + $0.158B H1 2026 - $0.512B H1 2025."},
+    {"id": "MELI_E23", "claim_type": "inference", "inputs": ["MELI_E3", "MELI_E4", "MELI_E11", "MELI_E12", "MELI_E14"], "statement": "Commerce, logistics, payments, credit, loyalty and ads are reinforcing a multi-product network effect, and the moat is more likely widening than shrinking."},
+    {"id": "MELI_E24", "claim_type": "inference", "inputs": ["MELI_E2", "MELI_E5", "MELI_E6", "MELI_E7"], "statement": "The central underwriting tension is not demand growth but whether free-shipping and credit-card reinvestment produce after-loss, after-required-capital returns above the 9% hurdle."}
+  ],
+  "source_resolution": "Source details and URLs are stored in reviews/2026-09-10-app-meli-deep/source-manifest.json.",
+  "limitations": [
+    "Management-reported ecosystemic-user profitability and digital-ad-market share are not independently audited measures.",
+    "Restricted cash and customer funds are not surplus corporate cash and are not added mechanically to equity value.",
+    "Credit growth requires bank-like vintage, loss, funding and required-capital analysis; total CFO is not used as owner FCF.",
+    "The new September 2026 bond confirms funding access but exact coupon/pricing is not asserted here.",
+    "Valuation model is a scenario framework with wide uncertainty, not a target-price claim."
+  ]
+}
