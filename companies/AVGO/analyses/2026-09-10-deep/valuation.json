@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "AVGO",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "USD",
+  "price_reference": {
+    "price": 364.38,
+    "price_date": "2026-09-09",
+    "price_status": "SECONDARY_MARKET_CLOSE_REFERENCE",
+    "valuation_shares_b": 4.758,
+    "market_cap_usd_b": 1733.72004,
+    "source_id": "AVGO_PRICE_2026_09_09",
+    "note": "September 9 close is used because the September 10 U.S. regular session had not opened at the Asia/Seoul checkpoint time. Valuation share denominator is retained from the latest filed/share-basis model rather than a market-data vendor market cap."
+  },
+  "required_return": 0.09,
+  "ttm_diagnostics": {
+    "revenue_usd_b": 89.104,
+    "gaap_net_income_usd_b": 38.265,
+    "reported_fcf_usd_b": 39.403,
+    "ttm_sbc_usd_b": 8.484,
+    "conservative_fcf_minus_sbc_usd_b": 30.919,
+    "market_cap_to_reported_fcf": 43.9997,
+    "reported_fcf_yield": 0.0227274,
+    "market_cap_to_fcf_minus_sbc": 56.0730,
+    "fcf_minus_sbc_yield": 0.0178339,
+    "note": "Broadcom-defined FCF is cash from operations less purchases of property, plant and equipment. FCF-minus-SBC subtracts reported SBC once as a conservative owner-cash diagnostic; it is not a company-defined measure or a complete normalization for working capital, customer financing, contingent backstops or acquisition intangibles."
+  },
+  "balance_sheet_diagnostic": {
+    "cash_usd_b": 23.975,
+    "short_term_debt_usd_b": 2.252,
+    "long_term_debt_usd_b": 57.167,
+    "net_debt_usd_b": 35.444,
+    "net_debt_to_ttm_reported_fcf": 0.8995,
+    "ai_rack_backstop_max_usd_b": 29.0,
+    "note": "The rack backstop is contingent maximum exposure, not current funded debt and is not mechanically added to net debt. It is separately monitored because it is correlated with AI demand."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Retain the 2026-09-06 base component architecture, year-1 revenues, margin paths and 22x terminal multiple, and solve a uniform revenue-growth rate for years 2-10 at a 9% required return. This is a stress representation of price-implied economics, not a unique observable market belief.",
+    "required_growth_years_2_10": 0.120822345,
+    "prior_required_growth_years_2_10": 0.11824318884047325,
+    "prior_price_reference": 357.895,
+    "price_reference": 364.38,
+    "horizon_years": 10,
+    "interpretation": "Approximately 12.08% annual growth is demanding but not an obviously unrealistic bull-case requirement given current AI semiconductor growth and the software cash-flow base. The key uncertainty is not near-term revenue feasibility but whether long-duration owner cash remains independent of customer financing and hyperscaler concentration."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 134.00787937388188,
+      "value_to_price": 0.36776957948812194,
+      "upside_downside": -0.6322304205118781,
+      "source": "Retained from companies/AVGO/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Custom-AI design wins normalize or shift to competitors, networking attach weakens, VMware growth stalls under churn/regulatory pressure, mature owner margins compress and terminal value falls."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 394.6949369673366,
+      "value_to_price": 1.0831959409609107,
+      "upside_downside": 0.0831959409609107,
+      "source": "Retained from companies/AVGO/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Broadcom retains major custom-accelerator programs and networking attach, VMware remains a growing cash generator, and owner cash compounds despite normalization from current AI growth rates."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 903.6717471864827,
+      "value_to_price": 2.480025652303866,
+      "upside_downside": 1.480025652303866,
+      "source": "Retained from companies/AVGO/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "Custom-AI accelerators and Ethernet networking capture a large share of a multi-year hyperscaler buildout, Broadcom expands design wins, and VMware monetization remains durable with high cash conversion."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 134.00787937388188,
+    "bull_value_per_share": 903.6717471864827,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.2993,
+    "note": "This is not an estimated probability. It only locates the current price between two retained model endpoints."
+  },
+  "management_outlook_overlay": {
+    "claim_type": "management_guidance",
+    "fy2027_ai_semiconductor_revenue_usd_b": 115.0,
+    "fy2028_ai_semiconductor_revenue_usd_b": 230.0,
+    "treatment": "Not inserted as a guaranteed base-case fact. It is evidence that the existing model may prove conservative if contracted capacity converts to customer cash, but financing, competitive and concentration risks prevent mechanically capitalizing the full forecast."
+  },
+  "valuation_conclusion": "At $364.38, price is about 7.7% below the retained base intrinsic-value estimate, but this does not constitute a sufficient harness margin of safety. The price does not require an obviously unrealistic bull case; nevertheless open demand-quality, incremental-ROIC, moat, concentration and permanent-loss vetoes keep buy authorization false."
+}

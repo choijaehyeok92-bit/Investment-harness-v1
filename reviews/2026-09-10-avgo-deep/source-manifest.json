@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-avgo-deep",
+  "ticker": "AVGO",
+  "as_of": "2026-09-10",
+  "purpose": "Deep-underwriting research checkpoint. External evidence is preserved here without mutating baseline-locked canonical raw data or current authority pointers.",
+  "sources": [
+    {
+      "id": "AVGO_FY25_10K",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / Broadcom",
+      "title": "Broadcom 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "period": "FY2025 ended 2025-11-02",
+      "verified": true
+    },
+    {
+      "id": "AVGO_Q2_FY26_10Q",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / Broadcom",
+      "title": "Broadcom Q2 FY2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+      "period": "Quarter and H1 ended 2026-05-03",
+      "verified": true
+    },
+    {
+      "id": "AVGO_Q4_FY25_RELEASE",
+      "priority": 2,
+      "type": "company_ir_release",
+      "publisher": "Broadcom Investor Relations",
+      "title": "Broadcom Fourth Quarter and Fiscal Year 2025 Financial Results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025",
+      "published": "2025-12-11",
+      "verified": true
+    },
+    {
+      "id": "AVGO_Q1_FY26_RELEASE",
+      "priority": 2,
+      "type": "company_ir_release",
+      "publisher": "Broadcom Investor Relations",
+      "title": "Broadcom First Quarter Fiscal Year 2026 Financial Results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial",
+      "published": "2026-03-04",
+      "verified": true
+    },
+    {
+      "id": "AVGO_Q2_FY26_RELEASE",
+      "priority": 2,
+      "type": "company_ir_release",
+      "publisher": "Broadcom Investor Relations",
+      "title": "Broadcom Second Quarter Fiscal Year 2026 Financial Results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+      "published": "2026-06-03",
+      "verified": true
+    },
+    {
+      "id": "AVGO_Q3_FY26_RELEASE",
+      "priority": 2,
+      "type": "company_ir_release",
+      "publisher": "Broadcom Investor Relations",
+      "title": "Broadcom Third Quarter Fiscal Year 2026 Financial Results",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "published": "2026-09-02",
+      "verified": true
+    },
+    {
+      "id": "OPENAI_BROADCOM_JALAPENO",
+      "priority": 2,
+      "type": "partner_primary_release",
+      "publisher": "OpenAI",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "published": "2026-06-24",
+      "verified": true
+    },
+    {
+      "id": "REUTERS_AVGO_Q3_2026",
+      "priority": 4,
+      "type": "financial_press",
+      "publisher": "Reuters",
+      "title": "Broadcom raises AI chip forecast as Big Tech keeps writing bigger checks",
+      "url": "https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-below-estimates-2026-09-02/",
+      "published": "2026-09-02",
+      "verified": true,
+      "note": "Used for management's long-range AI-revenue outlook and competitive context; treated as management forecast, not observed future revenue."
+    },
+    {
+      "id": "REUTERS_MARVELL_GOOGLE_2026",
+      "priority": 4,
+      "type": "financial_press_competitor_evidence",
+      "publisher": "Reuters",
+      "title": "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
+      "url": "https://www.reuters.com/technology/marvell-grants-google-122-billion-stock-warrant-custom-chip-deal-2026-08-19/",
+      "published": "2026-08-19",
+      "verified": true
+    },
+    {
+      "id": "REUTERS_QUALCOMM_AMAZON_2026",
+      "priority": 4,
+      "type": "financial_press_competitor_evidence",
+      "publisher": "Reuters",
+      "title": "Qualcomm strikes AI chip deal with Amazon, offers right to buy about $4 billion in stock",
+      "url": "https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/",
+      "published": "2026-09-08",
+      "verified": true
+    },
+    {
+      "id": "REUTERS_VMWARE_EU_2026",
+      "priority": 4,
+      "type": "regulatory_press_evidence",
+      "publisher": "Reuters",
+      "title": "Five cloud business groups urge EU interim measures against Broadcom",
+      "url": "https://www.reuters.com/legal/litigation/five-cloud-business-groups-urge-eu-interim-measures-against-broadcom-2026-07-15/",
+      "published": "2026-07-15",
+      "verified": true
+    },
+    {
+      "id": "AVGO_PRICE_2026_09_09",
+      "priority": 4,
+      "type": "market_price_secondary",
+      "publisher": "Investing.com",
+      "title": "Broadcom historical price",
+      "url": "https://www.investing.com/equities/avago-technologies-historical-data",
+      "price_date": "2026-09-09",
+      "close_usd": 364.38,
+      "verified": true,
+      "note": "Secondary market close used for valuation synchronization; not exchange-audited by the harness."
+    },
+    {
+      "id": "REUTERS_AI_CREDIT_2026",
+      "priority": 4,
+      "type": "macro_financial_press",
+      "publisher": "Reuters",
+      "title": "AI debt splurge is warping credit spreads",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/ai-debt-splurge-is-warping-credit-spreads-marty-fridson-2026-09-10/",
+      "published": "2026-09-10",
+      "verified": true,
+      "note": "Macro/credit overlay only; does not change company-quality score."
+    },
+    {
+      "id": "HARNESS_AVGO_2026_09_06_MODEL",
+      "priority": 0,
+      "type": "internal_research_model",
+      "path": "companies/AVGO/analyses/2026-09-06-deep/model-inputs.json",
+      "note": "Retained scenario architecture and filed share denominator."
+    },
+    {
+      "id": "HARNESS_AVGO_2026_09_06_VALUATION",
+      "priority": 0,
+      "type": "internal_research_model",
+      "path": "companies/AVGO/analyses/2026-09-06-deep/valuation.json",
+      "note": "Retained Bear/Base/Bull endpoints; current price and reverse expectations are synchronized in the new checkpoint."
+    },
+    {
+      "id": "HARNESS_MACRO_2026_09_08",
+      "priority": 0,
+      "type": "internal_research_overlay",
+      "path": "reviews/2026-09-08-macro/assessment.json",
+      "note": "Macro affects risk budget/scenario severity only, not company-quality score."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-avgo-deep",
+  "ticker": "AVGO",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "classification": "Emerging Outlier",
+  "business_quality_75": 65,
+  "total_score_100": 81,
+  "categories": {
+    "structural_change_and_leadership": {"score": 15, "max_score": 15, "prior_score": 14},
+    "customer_value_and_product": {"score": 9, "max_score": 10, "prior_score": 9},
+    "moat_trajectory": {"score": 13, "max_score": 15, "prior_score": 12},
+    "incremental_roic_and_fcf_per_share": {"score": 12, "max_score": 15, "prior_score": 11},
+    "management_and_capital_allocation": {"score": 8, "max_score": 10, "prior_score": 7},
+    "financial_survivability": {"score": 8, "max_score": 10, "prior_score": 8},
+    "expectation_gap_and_valuation": {"score": 10, "max_score": 15, "prior_score": 10},
+    "power_law_and_asymmetry": {"score": 6, "max_score": 10, "prior_score": 6}
+  },
+  "prior_total_score_100": 77,
+  "prior_business_quality_75": 61,
+  "price_reference_usd": 364.38,
+  "price_date": "2026-09-09",
+  "reverse_required_growth_years_2_10": 0.120822345,
+  "retained_scenarios": {
+    "bear": 134.00787937388188,
+    "base": 394.6949369673366,
+    "bull": 903.6717471864827
+  },
+  "hard_veto": {
+    "overall": "INVESTIGATE",
+    "pass": [
+      "management_or_accounting_integrity",
+      "external_capital_dependence",
+      "persistent_dilution",
+      "price_requires_unrealistic_bull_case"
+    ],
+    "investigate": [
+      "low_quality_growth",
+      "incremental_roic_collapse",
+      "moat_shrinkage",
+      "fatal_concentration",
+      "permanent_loss_probability"
+    ],
+    "fail": []
+  },
+  "score_change_explanation": "Q3 AI semiconductor growth, Infrastructure Software growth and TTM FCF strengthen structural leadership, moat evidence, incremental cash generation and integration/capital-allocation evidence. The score increase is capped because AI-rack financing/backstop exposure, hyperscaler customer concentration, custom-silicon competition and VMware regulatory risk keep five investment gates open.",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY"
+}
