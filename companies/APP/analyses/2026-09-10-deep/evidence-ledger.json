@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "APP",
+  "as_of": "2026-09-10",
+  "evidence": [
+    {"id": "APP_E1", "claim_type": "fact", "source_id": "APP_2026_Q2_10Q", "statement": "Q2 2026 revenue was approximately $1.924B and H1 2026 revenue approximately $3.766B; Q2 GAAP operating income was approximately $1.494B."},
+    {"id": "APP_E2", "claim_type": "fact", "source_id": "APP_Q2_2026_IR", "statement": "Q2 company-defined free cash flow was approximately $863M."},
+    {"id": "APP_E3", "claim_type": "fact", "source_id": "APP_2025_10K", "statement": "The Apps business was sold in 2025, concentrating AppLovin on its advertising platform."},
+    {"id": "APP_E4", "claim_type": "fact", "source_id": "APP_2026_Q2_10Q", "statement": "AppLovin reports advertising revenue net of publisher inventory payments because it concludes it acts as agent rather than principal for that inventory."},
+    {"id": "APP_E5", "claim_type": "fact", "source_id": "APP_2026_Q2_10Q", "statement": "H1 2026 share repurchases were about 3.275M shares for $1.533B and the diluted weighted-average share count declined year over year."},
+    {"id": "APP_E6", "claim_type": "calculation", "inputs": ["APP_E5"], "statement": "H1 2026 repurchases imply a mechanical average price of approximately $468 per share."},
+    {"id": "APP_E7", "claim_type": "fact", "source_id": "APP_2025_10K", "statement": "FY2025 repurchases were about 5.511M shares for approximately $2.198B."},
+    {"id": "APP_E8", "claim_type": "calculation", "inputs": ["APP_E7"], "statement": "FY2025 repurchases imply a mechanical average price of approximately $399 per share."},
+    {"id": "APP_E9", "claim_type": "fact", "source_id": "APP_2026_Q2_10Q", "statement": "H1 2026 SBC was about 4.5% of revenue and period-end share count declined versus year-end."},
+    {"id": "APP_E10", "claim_type": "fact", "source_id": "APP_SEC_PROBE_REUTERS", "statement": "Reuters reported in February 2026 that an SEC investigation involving AppLovin remained active; the reviewed evidence did not establish a formal finding of wrongdoing."},
+    {"id": "APP_E11", "claim_type": "fact", "source_id": "APP_2025_10K", "statement": "FY2025 audit opinion and internal-control opinion were clean."},
+    {"id": "APP_E12", "claim_type": "fact", "source_id": "APP_SENSOR_TOWER_H1_2026", "statement": "Independent industry data supported a strong position for AppLovin in mobile-gaming advertising monetization."},
+    {"id": "APP_E13", "claim_type": "inference", "inputs": ["APP_E1", "APP_E2", "APP_E4", "APP_E9"], "statement": "Current economics are consistent with a highly scalable and asset-light advertising engine, but reported operating margin should not be compared mechanically with gross-revenue ad platforms."},
+    {"id": "APP_E14", "claim_type": "opinion", "inputs": ["APP_E6", "APP_E8"], "statement": "Repurchase-price discipline deserves a meaningful discount until contemporaneous intrinsic-value evidence supports the high 2025-H1 2026 purchase prices."},
+    {"id": "APP_E15", "claim_type": "estimate", "source_id": "APP_PRICE_2026_09_09", "statement": "At $305.06, the stated 9% DCF using a $4.22B FCF-minus-SBC proxy implies roughly 11.1% five-year owner-cash growth with 3% terminal growth."}
+  ],
+  "source_resolution": "Source details and URLs are stored in reviews/2026-09-10-app-meli-deep/source-manifest.json.",
+  "limitations": [
+    "Advertiser-level ROAS, retention and traffic-quality evidence remains incomplete.",
+    "The SEC investigation is unresolved; investigation status is not treated as proof of misconduct.",
+    "The $305.06 price is a research reference quote, not an executable trading instruction.",
+    "Valuation is especially sensitive to normalization of 2026 margins and owner cash."
+  ]
+}
