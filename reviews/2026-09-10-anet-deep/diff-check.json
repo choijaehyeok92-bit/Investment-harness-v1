@@ -1,0 +1,33 @@
+{
+  "ticker": "ANET",
+  "as_of": "2026-09-10",
+  "base": "main",
+  "head": "research/anet-deep-2026-09-10",
+  "pre_diff_check": {
+    "base_commit": "5d1973b27857fb2e619551c02bff6b9e2ab4ba9c",
+    "ahead_by_before_this_file": 7,
+    "behind_by": 0,
+    "files_added_before_this_file": 7,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "expected_final_diff": {
+    "files_added": 8,
+    "files_modified": 0,
+    "files_deleted": 0,
+    "allowed_prefixes": [
+      "companies/ANET/analyses/2026-09-10-deep/",
+      "reviews/2026-09-10-anet-deep/"
+    ]
+  },
+  "protected_surfaces_unchanged": [
+    "companies/ANET/latest.json",
+    "registry/companies.json",
+    "reviews/latest.json",
+    "companies/ANET/raw-data/",
+    "harness/baseline-lock.json",
+    "frozen deterministic outputs"
+  ],
+  "authority_effect": "NONE. This run is an additive research checkpoint only.",
+  "validation_note": "GitHub structural compare is used to verify additive-only scope. No claim is made that the local deterministic validator was executed in this session; current canonical authority and frozen validator inputs are intentionally unchanged."
+}
