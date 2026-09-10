@@ -7,9 +7,9 @@
 - business quality: 65/75
 - total score: 76/100 — Emerging Outlier
 - required return: 10%
-- reference price: KRW744,000 (2026-09-10 secondary close reference)
+- reference price: KRW746,000 (2026-09-10 post-close secondary reference)
 - retained Bear / Base / Bull: KRW206,434 / KRW651,003 / KRW1,621,410
-- reverse expectation: ~11.90% annual revenue growth in years 2-10 after Base year-1 revenue KRW5.2T
+- reverse expectation: ~11.93% annual revenue growth in years 2-10 after Base year-1 revenue KRW5.2T
 
 ## What changed versus 2026-09-06 canonical
 
@@ -33,7 +33,7 @@ OCF-PPE is not labeled normalized owner FCF. Full TTM intangible investment, cus
 ## Open Hard Veto gates
 
 - incremental_roic_collapse — INVESTIGATE: Alabama/Ulsan post-ramp incremental returns are not yet observable.
-- price_requires_unrealistic_bull_case — INVESTIGATE: ~11.90% nine-year growth is demanding for an industrial business; current backlog prevents an outright REJECT conclusion.
+- price_requires_unrealistic_bull_case — INVESTIGATE: ~11.93% nine-year growth is demanding for an industrial business; current backlog prevents an outright REJECT conclusion.
 - permanent_loss_probability — INVESTIGATE: cycle normalization and valuation duration can cause long capital impairment despite low solvency risk.
 
 All other vetoes are PASS on current evidence, including fatal_concentration. NextEra was 15.9% of H1 sales, material but not presently fatal.
@@ -42,9 +42,13 @@ All other vetoes are PASS on current evidence, including fatal_concentration. Ne
 
 The main risk is that the market extrapolates peak scarcity economics. Global capacity additions may shorten transformer lead times, reduce pricing power and expose low returns on newly added assets. The Big Tech contract is a framework maximum, not guaranteed revenue; actual purchase orders must convert to cash before it is capitalized as evidence.
 
+## Price-reference correction
+
+The initial checkpoint used a KRW744,000 intraday observation and mislabeled it as a close. Post-close secondary references at 15:32 and 16:36 KST indicated KRW746,000. Valuation ratios and reverse expectations were corrected before final handoff. The investment decision and scores were unchanged.
+
 ## Repository safety
 
-This run is additive-only. It must not modify:
+The deep-research run preserved all canonical authority surfaces. The post-close correction only updates files inside this newly added research checkpoint/review package and still does not modify:
 
 - `companies/267260/latest.json`
 - `registry/companies.json`
@@ -53,4 +57,4 @@ This run is additive-only. It must not modify:
 - `harness/baseline-lock.json`
 - frozen deterministic outputs
 
-The current canonical authority remains `2026-09-06-deep` pending a separate reviewed authority-promotion run. No claim is made that the local frozen deterministic validator was executed for this additive checkpoint.
+The current canonical authority remains `2026-09-06-deep` pending a separate reviewed authority-promotion run. No claim is made that the local frozen deterministic validator was executed for this checkpoint.

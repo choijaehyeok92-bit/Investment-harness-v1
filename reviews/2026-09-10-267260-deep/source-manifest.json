@@ -66,18 +66,18 @@
       "use": "Industry context for data-center infrastructure demand, backlog growth and valuation/capacity risk"
     },
     {
-      "id": "HDHE_PRICE_2026_09_10",
+      "id": "HDHE_PRICE_2026_09_10_POST_CLOSE",
       "tier": 3,
       "type": "secondary_market_data",
-      "url": "https://pflow.keywordegg.com/domestic/267260",
+      "url": "https://mmoney.mk.co.kr/stock/item/chart?code=267260",
       "date": "2026-09-10",
-      "use": "KRW744,000 close reference for valuation diagnostics"
+      "use": "KRW746,000 post-close reference at 15:32 KST, cross-checked against a second secondary feed at 16:36 KST"
     }
   ],
   "policy_notes": [
     "Primary filings and company IR lead quantitative company claims; Reuters is used for independent industry context.",
     "Company-reported U.S. market leadership is labeled as a company claim rather than independently reconstructed market share.",
     "Framework maximum value is not treated as guaranteed revenue or added separately to intrinsic value.",
-    "Secondary market price is a reference quote, not an execution guarantee."
+    "The initial KRW744,000 intraday observation was corrected to the KRW746,000 post-close reference before final handoff. Secondary market price remains a reference quote, not an execution guarantee."
   ]
 }
