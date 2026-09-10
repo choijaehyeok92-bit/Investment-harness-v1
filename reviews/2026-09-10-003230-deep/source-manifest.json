@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-003230-deep",
+  "ticker": "003230",
+  "as_of": "2026-09-10",
+  "purpose": "Deep-underwriting research checkpoint. Reuses the merged FY2025/H1 2026 primary-filing extraction and adds synchronized market, operating and governance evidence without mutating baseline-locked canonical raw data or current authority pointers.",
+  "sources": [
+    {
+      "id": "003230_PRIMARY_EXTRACTION_2026_09_08",
+      "priority": 1,
+      "type": "internal_primary_filing_extraction",
+      "path": "reviews/2026-09-08-003230-prelim/raw-data.json",
+      "underlying_sources": ["FY2025 DART annual report filed 2026-03-18", "H1 2026 DART half-year report filed 2026-08-14"],
+      "verified": true
+    },
+    {
+      "id": "SAMYANG_FINANCE_OFFICIAL",
+      "priority": 2,
+      "type": "company_ir",
+      "publisher": "Samyang Foods",
+      "title": "Financial Information",
+      "url": "https://www.samyangfoods.com/kor/ir/finance.do",
+      "verified": true
+    },
+    {
+      "id": "SAMYANG_IR_INDEX_2026_Q2",
+      "priority": 2,
+      "type": "company_ir",
+      "publisher": "Samyang Foods",
+      "title": "IR notice index including 26Y 2Q materials",
+      "url": "https://www.samyangfoods.com/kor/ir/list.do",
+      "published": "2026-08-14",
+      "verified": true
+    },
+    {
+      "id": "KRX_VALUE_UP_2026_03_26",
+      "priority": 1,
+      "type": "exchange_disclosure",
+      "publisher": "Korea Exchange KIND",
+      "title": "Samyang Foods 2025 Value-Up implementation status",
+      "url": "https://kind.krx.co.kr/external/2026/03/26/002713/20260320002743/68961.htm",
+      "published": "2026-03-26",
+      "verified": true
+    },
+    {
+      "id": "KRX_MAJOR_HOLDER_2026_07_06",
+      "priority": 1,
+      "type": "exchange_disclosure",
+      "publisher": "Korea Exchange KIND",
+      "title": "Large shareholding report by Samyang RoundSquare",
+      "url": "https://kind.krx.co.kr/external/2026/07/09/000487/20260709001289/00636.htm",
+      "report_date": "2026-07-06",
+      "verified": true
+    },
+    {
+      "id": "YONHAP_Q2_2026",
+      "priority": 4,
+      "type": "financial_press",
+      "publisher": "Yonhap News Agency",
+      "title": "Samyang Foods Q2 2026 operating profit rises 46.7%",
+      "url": "https://www.yna.co.kr/view/AKR20260814142500030",
+      "published": "2026-08-14",
+      "verified": true
+    },
+    {
+      "id": "EDAILY_Q2_REGIONS_2026",
+      "priority": 4,
+      "type": "financial_press",
+      "publisher": "Edaily",
+      "title": "Q2 overseas sales exceed KRW 600bn",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06015526645547320",
+      "published": "2026-08-14",
+      "verified": true
+    },
+    {
+      "id": "YONHAP_BULDAK_10B_2026",
+      "priority": 4,
+      "type": "financial_press",
+      "publisher": "Yonhap News Agency",
+      "title": "Buldak tops 10 billion units and KRW 7tn cumulative sales",
+      "url": "https://en.yna.co.kr/view/AEN20260605006500320",
+      "published": "2026-06-05",
+      "verified": true
+    },
+    {
+      "id": "HANKYUNG_BULDAK_SEARCH_2026",
+      "priority": 4,
+      "type": "financial_press_external_demand_signal",
+      "publisher": "Korea Economic Daily",
+      "title": "Buldak global Google/YouTube search interest reaches record level",
+      "url": "https://www.hankyung.com/article/2026081641621",
+      "published": "2026-08-16",
+      "verified": true
+    },
+    {
+      "id": "INVESTING_PRICE_2026_09_10",
+      "priority": 4,
+      "type": "market_price_secondary",
+      "publisher": "Investing.com",
+      "title": "Samyang Foods historical prices",
+      "url": "https://kr.investing.com/equities/sam-yang-foods-historical-data",
+      "price_date": "2026-09-10",
+      "close_krw": 1264000,
+      "verified": true,
+      "note": "Secondary synchronized close used for valuation; not exchange-audited by the harness."
+    }
+  ]
+}
