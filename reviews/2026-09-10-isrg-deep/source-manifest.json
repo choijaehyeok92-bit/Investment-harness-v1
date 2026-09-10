@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-isrg-deep",
+  "ticker": "ISRG",
+  "as_of": "2026-09-10",
+  "purpose": "Deep-underwriting research checkpoint. External evidence is preserved here without mutating baseline-locked canonical raw data or current authority pointers.",
+  "sources": [
+    {
+      "id": "ISRG_2025_10K",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / Intuitive Surgical",
+      "title": "Intuitive Surgical 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+      "period": "FY2025 ended 2025-12-31",
+      "verified": true
+    },
+    {
+      "id": "ISRG_2026_Q2_10Q",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / Intuitive Surgical",
+      "title": "Intuitive Surgical Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm",
+      "period": "Q2/H1 2026 ended 2026-06-30",
+      "verified": true
+    },
+    {
+      "id": "ISRG_2026_Q2_EARNINGS",
+      "priority": 1,
+      "type": "primary_filing_exhibit",
+      "publisher": "U.S. SEC / Intuitive Surgical",
+      "title": "Q2 2026 earnings release, Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/q226ex-991earningsrelease.htm",
+      "published": "2026-07-16",
+      "verified": true
+    },
+    {
+      "id": "ISRG_2026_PROXY",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / Intuitive Surgical",
+      "title": "2026 Definitive Proxy Statement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000023/isrg-20260313.htm",
+      "published": "2026-03-13",
+      "verified": true
+    },
+    {
+      "id": "FDA_ISRG_RECALL_LIST_2026",
+      "priority": 1,
+      "type": "regulatory_database",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Intuitive Surgical medical-device recall results",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?firmlegalnam=Intuitive&sortcolumn=cdd&start_search=1",
+      "verified": true
+    },
+    {
+      "id": "FDA_SUREFORM_CLASS1_2026",
+      "priority": 1,
+      "type": "regulatory_database",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Class 1 Device Recall - Intuitive 8 mm SureForm 30 Gray Reloads",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm?id=218985",
+      "posted": "2026-05-01",
+      "verified": true
+    },
+    {
+      "id": "FDA_DV5_VIEWER_RECALL_2026",
+      "priority": 1,
+      "type": "regulatory_database",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Class 2 Device Recall - da Vinci 5 Surgeon Console Viewer Display",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/resCollection_2.cfm?ID=217888",
+      "posted": "2026-02-12",
+      "verified": true
+    },
+    {
+      "id": "FDA_SP_COLUMN_RECALL_2026",
+      "priority": 1,
+      "type": "regulatory_database",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "Class 2 Device Recall - Da Vinci ASSY PSS SP1098",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/resCollection_2.cfm?ID=219527",
+      "posted": "2026-06-22",
+      "verified": true
+    },
+    {
+      "id": "JNJ_OTTAVA_FDA_2026",
+      "priority": 2,
+      "type": "competitor_primary_release",
+      "publisher": "Johnson & Johnson",
+      "title": "FDA market authorization in the U.S. for OTTAVA robotic surgical system",
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-receives-fda-market-authorization-in-the-u-s-for-its-ottava-robotic-surgical-system",
+      "published": "2026-07-22",
+      "verified": true
+    },
+    {
+      "id": "MDT_HUGO_US_2025",
+      "priority": 2,
+      "type": "competitor_primary_release",
+      "publisher": "Medtronic",
+      "title": "FDA clearance of Hugo RAS for urologic procedures",
+      "url": "https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures",
+      "published": "2025-12-03",
+      "verified": true
+    },
+    {
+      "id": "MDT_HUGO_EXPANSION_2026",
+      "priority": 2,
+      "type": "competitor_primary_release",
+      "publisher": "Medtronic",
+      "title": "Hugo 510(k) submissions for U.S. general and gynecologic indications",
+      "url": "https://news.medtronic.com/2026-06-03-Medtronic-submits-510-k-filings-to-expand-Hugo-TM-robotic-assisted-surgery-system-into-general-and-gynecologic-specialties-in-the-United-States",
+      "published": "2026-06-03",
+      "verified": true
+    },
+    {
+      "id": "CMR_VERSIUS_510K",
+      "priority": 1,
+      "type": "regulatory_database",
+      "publisher": "U.S. Food and Drug Administration",
+      "title": "510(k) K252111 - Versius Surgical System (Versius Plus)",
+      "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K252111",
+      "decision_date": "2025-12-16",
+      "verified": true
+    },
+    {
+      "id": "ISRG_PRICE_2026_09_09",
+      "priority": 4,
+      "type": "market_price_secondary",
+      "publisher": "Investing.com",
+      "title": "Intuitive Surgical historical price",
+      "url": "https://www.investing.com/equities/intuitive-surgical-inc-historical-data",
+      "price_date": "2026-09-09",
+      "close_usd": 353.24,
+      "verified": true,
+      "note": "Secondary market quote used for valuation synchronization; not exchange-audited by the harness."
+    },
+    {
+      "id": "HARNESS_MACRO_2026_09_08",
+      "priority": 0,
+      "type": "internal_research_overlay",
+      "path": "reviews/2026-09-08-macro/assessment.json",
+      "note": "Macro changes risk budget and scenario severity only; it does not directly alter company quality score."
+    },
+    {
+      "id": "HARNESS_TOPDOWN_2026_09_09",
+      "priority": 0,
+      "type": "internal_research_overlay",
+      "path": "reviews/2026-09-09-topdown-themes/assessment.json",
+      "note": "Thematic membership cannot authorize a position or add company-quality points."
+    }
+  ]
+}
