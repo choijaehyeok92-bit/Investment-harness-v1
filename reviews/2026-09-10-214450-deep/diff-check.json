@@ -1,0 +1,28 @@
+{
+  "ticker": "214450",
+  "as_of": "2026-09-10",
+  "base_branch": "main",
+  "base_sha_before_run": "af2a8aa207c384f50df0f58341466e6e622c5628",
+  "research_branch": "research/214450-deep-2026-09-10",
+  "pre_diff_check": {
+    "ahead_by": 7,
+    "behind_by": 0,
+    "added_files": 7,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "expected_final_diff_after_this_file": {
+    "added_files": 8,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "protected_surfaces_unchanged": [
+    "companies/214450/latest.json",
+    "registry/companies.json",
+    "reviews/latest.json",
+    "companies/214450/raw-data/*",
+    "harness/baseline-lock.json",
+    "frozen deterministic outputs"
+  ],
+  "validation_note": "GitHub-side structural compare verifies additive-only scope. No claim is made that the local frozen deterministic validator was executed for this checkpoint. Current canonical authority remains 2026-09-06-deep pending a separate reviewed promotion."
+}
