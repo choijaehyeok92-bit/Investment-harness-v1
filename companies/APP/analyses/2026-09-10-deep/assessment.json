@@ -1,0 +1,101 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "APP",
+  "company_name": "AppLovin Corporation",
+  "as_of": "2026-09-10",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This deep checkpoint records the completed 2026-09-10 APP underwriting but intentionally does not modify companies/APP/latest.json, registry/companies.json, reviews/latest.json or frozen authority artifacts. Canonical authority remains unchanged until a separately reviewed authority run is regenerated and validated.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "required_return": 0.09,
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_HARD_VETO_STILL_OPEN",
+  "business_quality_75": 60,
+  "total_score_100": 76,
+  "classification": "Emerging Outlier",
+  "price_reference": {
+    "price": 305.06,
+    "currency": "USD",
+    "price_date": "2026-09-09",
+    "status": "RESEARCH_REFERENCE_QUOTE_NOT_EXECUTABLE"
+  },
+  "structural_thesis": "AppLovin has transformed from a mixed apps-plus-advertising business into a concentrated AI-driven performance-advertising platform. Axon's ability to monetize the same or lower installation volume at sharply higher net revenue per install, together with extraordinary GAAP profit and cash conversion, is evidence of substantial current product advantage. The underwriting question is whether this advantage is durable across gaming and newer e-commerce advertisers after platform-policy, conduct, governance and margin-normalization risks are considered.",
+  "current_finding": "Q2 2026 revenue was about $1.924B, up 53% YoY; Q2 operating income was about $1.494B for a roughly 77.7% GAAP operating margin; Q2 company-defined FCF was about $863M. H1 revenue was about $3.766B and SBC remained near 4.5% of revenue while diluted shares and period-end shares declined. The business is exceptionally asset-light, but net-revenue accounting as an agent for publisher inventory means its operating margin is not directly comparable with gross-revenue advertising peers.",
+  "economic_finding": "A TTM bridge used in the deep review produced approximately $6.83B revenue, $5.29B operating income, $4.41B continuing net income, $4.51B company-defined FCF and $4.22B FCF-minus-SBC conservative owner-cash proxy. Because the SBC proxy treats equity compensation as an economic cash-equivalent cost, dilution is not double-counted again in the same valuation model.",
+  "capital_and_survival": "Financial survivability is strong, but capital-allocation judgment is not. AppLovin repurchased roughly 3.275M shares for $1.533B in H1 2026, a mechanical average near $468/share, and FY2025 repurchases imply a mechanical average near $399/share. A lower subsequent stock price does not prove value destruction, but it is sufficient to reduce confidence in repurchase-price discipline until contemporaneous intrinsic-value evidence supports those purchases.",
+  "governance_and_integrity": "Founder/CEO Adam Foroughi controls roughly 61.6% of total voting power and Voting Agreement parties roughly 66.9%, limiting Class A minority influence despite independent board leadership and committees. Reuters reported in February 2026 that an SEC investigation involving AppLovin remained active; no formal wrongdoing finding was established in the reviewed evidence. FY2025 audit/ICFR and Q2 2026 disclosure controls were clean. Accordingly accounting reliability is not failed, but management/conduct integrity remains INVESTIGATE until the regulatory matter is resolved.",
+  "macro_and_theme_context": "The stored higher-for-longer macro regime raises the discount-rate burden for long-duration growth but does not change APP's company-quality score. APP belongs to the later-stage AI application/productivity theme; theme membership is not evidence of moat or a buy signal.",
+  "permanent_loss_case": "Permanent loss can occur even with continued revenue growth if Axon's performance advantage proves transient, mobile-platform policy or traffic-quality constraints impair targeting, the SEC matter reveals material conduct weakness, founder control harms minority economics, or normalized margins and owner cash fall far below the current starting level while the stock still discounts high durability.",
+  "falsifiers": [
+    "Revenue growth decelerates materially while advertiser monetization and GAAP operating margin weaken together.",
+    "Independent evidence shows sustained deterioration in advertiser ROAS, retention, traffic quality or platform compliance.",
+    "Net share count turns persistently positive because SBC or other issuance outpaces economically sensible repurchases.",
+    "The SEC or a major platform establishes a material breach that constrains Axon's targeting or distribution economics.",
+    "Normalized owner FCF falls materially below the current starting base without a credible reinvestment explanation."
+  ],
+  "increase_evidence": [
+    "Q3 revenue guidance of roughly $2.055B-$2.085B is met or exceeded and Axon model improvement reaccelerates.",
+    "Independent e-commerce advertiser ROAS and cohort-retention evidence confirms a durable second growth engine.",
+    "The SEC/conduct issue closes without a material adverse finding and platform-policy compliance remains intact.",
+    "Owner FCF per share compounds at least around 12%-15% while net share count remains flat-to-down.",
+    "Repurchases are executed below conservative intrinsic value rather than merely supporting headline EPS."
+  ],
+  "sell_evidence": [
+    "Material adverse SEC/platform outcome that impairs targeting, traffic access or management credibility.",
+    "Sustained advertiser economics deterioration accompanied by margin compression and weaker owner FCF per share.",
+    "Governance or capital-allocation actions materially transfer value away from Class A minority shareholders.",
+    "Price rises to require a bull-case-or-better path while underlying Axon/e-commerce evidence weakens."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {"score": 14, "max_score": 15, "confidence": 0.88, "claim_type": "evidence-backed opinion", "evidence": ["Core advertising revenue accelerated sharply after Apps divestiture", "Axon monetization improved while installation volume was flat/down"], "counter_evidence": ["How much of the recent step-change is durable versus optimization-cycle peak remains uncertain"]},
+    "customer_value_and_product": {"score": 8, "max_score": 10, "confidence": 0.75, "claim_type": "evidence-backed opinion", "evidence": ["Very high monetization growth implies advertisers currently see attractive economics", "Independent industry rankings support strong gaming-ad performance"], "counter_evidence": ["Company does not disclose sufficient advertiser cohort retention/ROAS detail for full verification"]},
+    "moat_trajectory": {"score": 11, "max_score": 15, "confidence": 0.76, "claim_type": "evidence-backed opinion", "evidence": ["Scale/data/model flywheel and gaming share evidence support a strengthening current position"], "counter_evidence": ["Dependence on mobile ecosystems, attribution rules and traffic quality creates external control points", "E-commerce moat remains early"]},
+    "incremental_roic_and_fcf_per_share": {"score": 13, "max_score": 15, "confidence": 0.9, "claim_type": "evidence-backed opinion", "evidence": ["Extremely low capital intensity", "Strong FCF generation", "SBC low relative to revenue", "Net share count declined"], "counter_evidence": ["Q2 FCF growth lagged revenue growth", "Repurchase return depends on price paid"]},
+    "management_and_capital_allocation": {"score": 5, "max_score": 10, "confidence": 0.86, "claim_type": "evidence-backed opinion", "evidence": ["Management exited the Apps business and concentrated resources on the higher-return ad platform", "Net share count declined"], "counter_evidence": ["Large buybacks were executed at prices far above the 2026-09-09 reference price", "Founder voting control is concentrated", "SEC conduct investigation remains unresolved"]},
+    "financial_survivability": {"score": 9, "max_score": 10, "confidence": 0.91, "claim_type": "evidence-backed opinion", "evidence": ["Strong recurring operating cash generation", "Low net debt relative to earnings/cash flow", "Unused liquidity capacity"], "counter_evidence": ["Advertising remains cyclical and platform-sensitive"]},
+    "expectation_gap_and_valuation": {"score": 10, "max_score": 15, "confidence": 0.72, "claim_type": "estimate-backed opinion", "evidence": ["At $305.06, reverse DCF requires only about 11.1% five-year growth using the conservative FCF-minus-SBC starting proxy under the stated model"], "counter_evidence": ["The valuation is highly sensitive to whether today's unusually high margins and FCF are normalized or peak"]},
+    "power_law_and_asymmetry": {"score": 6, "max_score": 10, "confidence": 0.62, "claim_type": "scenario opinion", "evidence": ["Successful e-commerce expansion could create a much larger platform and Bull case around $469/share in the stated stress test"], "counter_evidence": ["Bear normalization case around $173/share implies substantial permanent-loss risk from the current reference price"]}
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {"id": "management_or_accounting_integrity", "status": "INVESTIGATE", "severity": "MATERIAL", "confidence": 0.82, "evidence": ["FY2025 audit and ICFR were clean", "Q2 2026 disclosure controls were effective", "Reuters reported the SEC investigation remained active without a formal wrongdoing finding"], "resolution_needed": "Resolve SEC/platform-conduct investigation and verify no material adverse finding"},
+      {"id": "external_capital_dependence", "status": "PASS", "severity": "NO_TRIGGER_FOUND", "confidence": 0.93, "evidence": ["Strong FCF and low net debt"], "resolution_needed": "Monitor liquidity and debt only if cash generation deteriorates"},
+      {"id": "persistent_dilution", "status": "PASS", "severity": "NO_TRIGGER_FOUND", "confidence": 0.91, "evidence": ["H1 diluted weighted shares and period-end shares declined despite SBC"], "resolution_needed": "Continue eight-quarter gross issuance/repurchase bridge"},
+      {"id": "low_quality_growth", "status": "PASS", "severity": "NO_TRIGGER_FOUND", "confidence": 0.87, "evidence": ["Revenue growth converts into large GAAP profit and FCF"], "resolution_needed": "Monitor working-capital/tax bridge and advertiser cash quality"},
+      {"id": "incremental_roic_collapse", "status": "PASS", "severity": "NO_TRIGGER_FOUND", "confidence": 0.83, "evidence": ["Asset-light growth and current cash economics show no structural ROIC collapse"], "resolution_needed": "Measure e-commerce incremental contribution and repurchase IRR"},
+      {"id": "moat_shrinkage", "status": "PASS", "severity": "MONITOR", "confidence": 0.74, "evidence": ["Gaming ad-market evidence and monetization trajectory are more consistent with strengthening than shrinking moat"], "resolution_needed": "Verify independent ROAS, retention and platform-policy stability"},
+      {"id": "price_requires_unrealistic_bull_case", "status": "PASS", "severity": "NO_TRIGGER_FOUND", "confidence": 0.73, "evidence": ["Reverse DCF at the reference price does not require 30%-plus growth or a bull-only path"], "resolution_needed": "Refresh at every material price/earnings change"},
+      {"id": "fatal_concentration", "status": "INVESTIGATE", "severity": "MATERIAL", "confidence": 0.75, "evidence": ["Economic engine is concentrated in Axon and the mobile advertising ecosystem; major platform rules are external"], "resolution_needed": "Map gaming/non-gaming revenue, traffic sources, customer concentration and Apple/Google/Meta dependencies"},
+      {"id": "permanent_loss_probability", "status": "INVESTIGATE", "severity": "MATERIAL", "confidence": 0.72, "evidence": ["Bear valuation is materially below current price and unresolved conduct/platform risks can permanently impair economics"], "resolution_needed": "Close integrity/concentration risks and establish normalized owner-cash durability"}
+    ]
+  },
+  "valuation": {
+    "status": "COMPLETED_STRESS_TEST_NOT_BUY_AUTHORIZATION",
+    "required_return": 0.09,
+    "method": "Five-year FCFE-style equity DCF using owner-cash proxies; interest is already in starting cash flow so net debt is not subtracted again. SBC treated as cash-equivalent cost in conservative proxy without double-counting dilution.",
+    "reverse_expectations": {"company_fcf_start_usd_b": 4.51, "implied_five_year_growth": 0.095, "fcf_less_sbc_start_usd_b": 4.22, "implied_five_year_growth_conservative": 0.111, "terminal_growth": 0.03},
+    "scenarios": {
+      "bear": {"starting_owner_fcf_usd_b": 3.5, "growth_cagr": 0.05, "terminal_growth": 0.02, "equity_value_usd_b": 58.0, "per_share_usd": 173, "upside_downside_vs_reference": -0.43},
+      "base": {"starting_owner_fcf_usd_b": 4.225, "growth_cagr": 0.12, "terminal_growth": 0.03, "equity_value_usd_b": 106.0, "per_share_usd": 317, "upside_downside_vs_reference": 0.04},
+      "bull": {"starting_owner_fcf_usd_b": 4.225, "growth_cagr": 0.20, "terminal_growth": 0.035, "equity_value_usd_b": 157.0, "per_share_usd": 469, "upside_downside_vs_reference": 0.54}
+    }
+  },
+  "completion_gate": {
+    "business_quality_scored": true,
+    "all_eight_categories_scored": true,
+    "hard_veto_reviewed": true,
+    "market_expectations_reverse_engineered": true,
+    "bear_base_bull_present": true,
+    "permanent_loss_case_present": true,
+    "falsifiers_present": true,
+    "increase_evidence_present": true,
+    "sell_evidence_present": true,
+    "buy_gate_passed": false,
+    "reason": "Hard Veto investigation remains open for management/conduct integrity, fatal concentration and permanent-loss probability."
+  }
+}
