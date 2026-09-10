@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "214450",
+  "as_of": "2026-09-10",
+  "fact_definition": "Primary-source/company-reported assertion unless otherwise labeled; estimates and diagnostics are separated from reported facts.",
+  "reported_facts": {
+    "fy2025_revenue_krw_t": 0.536289118812,
+    "fy2025_operating_income_krw_t": 0.214395758571,
+    "fy2025_net_income_krw_t": 0.168255434874,
+    "fy2025_ocf_krw_t": 0.183162279104,
+    "fy2025_ppe_purchases_krw_t": 0.029727158506,
+    "h1_2026_revenue_krw_t": 0.324805059793,
+    "h1_2026_operating_income_krw_t": 0.123762004754,
+    "h1_2026_net_income_krw_t": 0.104977191967,
+    "h1_2026_ocf_krw_t": 0.064258667155,
+    "h1_2026_ppe_purchases_krw_t": 0.02109072543,
+    "h1_2025_revenue_krw_t": 0.257517417773,
+    "h1_2025_operating_income_krw_t": 0.100611274981,
+    "h1_2025_net_income_krw_t": 0.078071684,
+    "h1_2025_ocf_krw_t": 0.074528735924,
+    "h1_2025_ppe_purchases_krw_t": 0.015821555057,
+    "q2_2026_revenue_krw_t": 0.178704799285,
+    "q2_2026_operating_income_krw_t": 0.066469662181,
+    "q2_2026_net_income_krw_t": 0.05622870136,
+    "h1_2026_export_krw_t": 0.1428,
+    "h1_2026_export_growth_yoy": 0.47,
+    "h1_2026_export_share": 0.44,
+    "q2_2026_export_krw_t": 0.084,
+    "q2_2026_export_share": 0.47,
+    "h1_2026_medical_device_sales_krw_t": 0.176232,
+    "h1_2026_cosmetics_sales_krw_t": 0.102326,
+    "h1_2026_pharma_sales_krw_t": 0.039818,
+    "june_2026_cash_and_cash_equivalents_krw_t": 0.220289875319,
+    "june_2026_borrowings_bonds_krw_t": 0.213712495353,
+    "june_2026_bank_borrowings_krw_t": 0.000476917536,
+    "june_2026_rcps_liability_krw_t": 0.207259410213,
+    "common_listed_shares_m": 10.389648,
+    "rcps_shares_m": 1.175647,
+    "total_common_plus_rcps_rights_m": 11.565295,
+    "plant5_land_area_sqm": 30712,
+    "plant5_floor_area_sqm": 40156,
+    "plant5_raw_material_target_completion": "2027",
+    "plant5_cosmetics_target_completion": "2028",
+    "plant5_pharma_raw_capacity_multiple_gt": 8,
+    "plant5_medical_device_raw_capacity_multiple_gt": 5,
+    "plant5_cosmetics_capacity_multiple_gt": 10,
+    "vivacy_europe_contract_countries": 22,
+    "vivacy_europe_contract_term_years": 5,
+    "vivacy_europe_contract_krw_t": 0.088,
+    "cg_usa_acquisition_agreement_date": "2026-06-30",
+    "cg_usa_transaction_price_disclosed": false,
+    "fy2025_dividend_payout_ratio": 0.251,
+    "fy2025_cash_dividend_krw_t": 0.0428
+  },
+  "derived_diagnostics": {
+    "method": "TTM = FY2025 + H1 2026 - H1 2025",
+    "ttm_revenue_krw_t": 0.603576760832,
+    "ttm_operating_income_krw_t": 0.237546488344,
+    "ttm_net_income_krw_t": 0.195160942841,
+    "ttm_ocf_krw_t": 0.172892210335,
+    "ttm_ppe_purchases_krw_t": 0.034996328879,
+    "ttm_ocf_less_ppe_krw_t": 0.137895881456,
+    "ttm_operating_margin": 0.393564669416,
+    "ttm_ocf_less_ppe_margin": 0.228464530785,
+    "h1_revenue_growth_yoy": 0.261293556769,
+    "h1_operating_income_growth_yoy": 0.230100749418,
+    "h1_net_income_growth_yoy": 0.344625689988,
+    "h1_ocf_growth_yoy": -0.137800120204,
+    "h1_ppe_growth_yoy": 0.333037451377,
+    "h1_ocf_to_net_income": 0.612120270613,
+    "note": "OCF-PPE is a mechanical diagnostic only, not normalized owner FCF. Working capital, intangible/R&D cash investment, acquisition integration and growth-capacity economics remain unnormalized."
+  },
+  "source_paths": [
+    "companies/214450/raw-data/2025-2026-supplied-filings.json",
+    "companies/214450/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/214450/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/214450/analyses/2026-09-06-deep/valuation.json"
+  ],
+  "external_sources": [
+    {
+      "id": "PHARMA_Q2_2026",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.com/sub/press/view.html?idx=452",
+      "date": "2026-08-07",
+      "evidence": "H1 sales KRW324.8B, operating profit KRW123.8B, OPM 38.1%, exports KRW142.8B +47% and 44% of sales; Q2 sales KRW178.7B, operating profit KRW66.5B."
+    },
+    {
+      "id": "PHARMA_EU_VIVACY",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.com/sub/press/view.html?idx=358",
+      "date": "2025-08-29",
+      "evidence": "Five-year KRW88B REJURAN distribution partnership across 22 European countries."
+    },
+    {
+      "id": "PHARMA_EU_ROADSHOW",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.com/sub/press/view.html?idx=414",
+      "date": "2026-05-13",
+      "evidence": "Initial European shipment completed in January 2026; Western Europe physician rollout and phased country expansion."
+    },
+    {
+      "id": "PHARMA_PLANT5",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://pharmaresearch.com/sub/press/view.html?idx=419",
+      "date": "2026-05-22",
+      "evidence": "Plant 5 construction, 2027 raw-material and 2028 cosmetics completion targets; >8x pharma raw, >5x medical-device raw and >10x cosmetics capacity targets."
+    },
+    {
+      "id": "PHARMA_CG_USA",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://pharmaresearch.com/sub/press/view.html?idx=441",
+      "date": "2026-07-01",
+      "evidence": "CG USA acquisition agreement for U.S. cosmetics manufacturing/localization; transaction price undisclosed."
+    },
+    {
+      "id": "PHARMA_CAPITAL_RETURN",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://pharmaresearch.com/sub/press/view.html?idx=392",
+      "date": "2026-02-05",
+      "evidence": "FY2025 total cash dividend ~KRW42.8B, payout ratio 25.1%; company also cites 2025 treasury-share cancellation."
+    },
+    {
+      "id": "PHARMA_VALUEUP",
+      "tier": 1,
+      "type": "KRX_filing",
+      "url": "https://kind.krx.co.kr/external/2026/03/30/000248/20260325001055/72101.htm",
+      "date": "2026-03-27",
+      "evidence": "Targets overseas expansion, production/quality investment through 2028, strategic M&A and >=25% dividend payout from 2026; explicitly forward-looking."
+    },
+    {
+      "id": "PHARMA_AUDIT",
+      "tier": 1,
+      "type": "company_IR_regulatory_link",
+      "url": "https://pharmaresearch.com/sub/ir/view.html?curpage=1&idx=54",
+      "date": "2026-03-20",
+      "evidence": "FY2025 consolidated and separate audit reports published and linked to DART."
+    },
+    {
+      "id": "PHARMA_RCPS_ORIGIN",
+      "tier": 2,
+      "type": "reputable_press_on_disclosure",
+      "url": "https://www.yna.co.kr/view/AKR20240905140451008",
+      "date": "2024-09-05",
+      "evidence": "CVC vehicle subscribed for 1,175,647 preferred shares at KRW170,119, raising about KRW200B for global growth/M&A."
+    },
+    {
+      "id": "PHARMA_US_REGULATORY_REDTEAM",
+      "tier": 2,
+      "type": "specialist_financial_press",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03011046645551584",
+      "date": "2026-08-27",
+      "evidence": "U.S. medical REJURAN remains unapproved; article highlights uncertain FDA classification/pathway, animal-derived DNA/CMC hurdles and 2028 patent monitoring point."
+    },
+    {
+      "id": "PHARMA_PRICE_2026_09_10",
+      "tier": 3,
+      "type": "secondary_market_data",
+      "url": "https://stock11.mk.co.kr/price/home/KR7214450009",
+      "date": "2026-09-10",
+      "evidence": "Completed-session close KRW349,500; listed common shares about 10.390M and market cap about KRW3.631T."
+    },
+    {
+      "id": "PHARMA_SPLIT_WITHDRAWAL",
+      "tier": 1,
+      "type": "company_release",
+      "url": "https://www.pharmaresearch.co.kr/sub/press/view.html?idx=351",
+      "date": "2025-07-08",
+      "evidence": "Company withdrew proposed holding-company split after market/shareholder concerns, explicitly citing governance and shareholder-value concerns."
+    }
+  ],
+  "source_quality_notes": [
+    "Primary DART/KRX filing extractions lead financial, rights and share-count facts.",
+    "Company releases lead product rollout, contract and capacity statements but management market-position claims are not treated as independently verified share data.",
+    "Forward-looking capacity, payout and market-entry targets are estimates/intentions, not realized facts.",
+    "The U.S. regulatory article is used as a red-team source, not as proof that a specific FDA outcome will occur.",
+    "The September 10 close is a secondary market reference, not an execution guarantee."
+  ]
+}

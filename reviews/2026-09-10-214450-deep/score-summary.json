@@ -1,0 +1,41 @@
+{
+  "ticker": "214450",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Emerging Outlier",
+  "business_quality_75": 60,
+  "total_score_100": 81,
+  "scores": {
+    "structural_change_and_leadership": 14,
+    "customer_value_and_product": 9,
+    "moat_trajectory": 11,
+    "incremental_roic_and_fcf_per_share": 10,
+    "management_and_capital_allocation": 7,
+    "financial_survivability": 9,
+    "expectation_gap_and_valuation": 13,
+    "power_law_and_asymmetry": 8
+  },
+  "prior_canonical": {
+    "as_of": "2026-09-06",
+    "business_quality_75": 55,
+    "total_score_100": 74
+  },
+  "hard_veto_overall": "INVESTIGATE",
+  "investment_gates_open": [
+    "persistent_dilution",
+    "incremental_roic_collapse",
+    "fatal_concentration"
+  ],
+  "price_reference_krw": 349500,
+  "required_return": 0.1,
+  "bear_base_bull_krw": [
+    160183.33273777316,
+    633662.3291235663,
+    1541105.2430450895
+  ],
+  "reverse_growth_years_2_10": 0.045314423433,
+  "note": "Score classification does not override Hard Veto. Buy authorization remains false despite an 81/100 score."
+}

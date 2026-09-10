@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "214450",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "KRW",
+  "price_reference": {
+    "price": 349500,
+    "price_date": "2026-09-10",
+    "price_status": "COMPLETED_SESSION_SECONDARY_MARKET_REFERENCE",
+    "valuation_common_shares_m": 10.389648,
+    "market_cap_krw_t": 3.631181976,
+    "source_id": "PHARMA_PRICE_2026_09_10",
+    "note": "Market capitalization is calculated from the retained common-share denominator; the preferred-share claim is modeled separately."
+  },
+  "required_return": 0.1,
+  "ttm_diagnostics": {
+    "revenue_krw_t": 0.603576760832,
+    "operating_income_krw_t": 0.237546488344,
+    "net_income_krw_t": 0.195160942841,
+    "operating_cash_flow_krw_t": 0.172892210335,
+    "ppe_purchases_krw_t": 0.034996328879,
+    "mechanical_ocf_less_ppe_krw_t": 0.137895881456,
+    "market_cap_to_net_income": 18.6060895338,
+    "market_cap_to_ocf_less_ppe": 26.3327804838,
+    "ocf_less_ppe_yield": 0.0379754808124,
+    "note": "OCF-PPE is a diagnostic only. It is not normalized owner FCF because working capital, intangible/R&D cash investment, acquisitions and expansion economics are not fully normalized."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Retain the 2026-09-06 Base year-1 revenue KRW0.78T, owner-margin path 22% to 25%, 22x terminal multiple, 10% required return and KRW0.207259T preferred redemption claim; solve one uniform revenue growth rate for years 2-10 that matches the September 10 common-share price. This is a stress representation, not a uniquely observable market belief.",
+    "required_growth_years_2_10": 0.045314423433,
+    "prior_required_growth_years_2_10": 0.059008310566,
+    "prior_price_reference": 386500,
+    "price_reference": 349500,
+    "implied_year_10_revenue_krw_t": 1.162296925122,
+    "implied_year_10_owner_cash_krw_t": 0.29057423128,
+    "interpretation": "About 4.53% annual revenue growth for nine years after a KRW0.78T year-1 revenue base is materially less demanding than the prior 5.90% reverse case and does not require a Bull-only operating path. The larger uncertainty is whether 22-25% owner margins and the preferred-claim treatment are durable."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 160183.33273777316,
+      "value_to_price": 0.458321409836,
+      "upside_downside": -0.541678590164,
+      "source": "Retained from companies/214450/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "REJURAN growth normalizes, international sell-through underwhelms, competition/regulatory costs rise, owner margin settles near 17% and a stressed preferred cash claim is recognized."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 633662.3291235663,
+      "value_to_price": 1.813053874459,
+      "upside_downside": 0.813053874459,
+      "source": "Retained from companies/214450/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "International REJURAN and cosmetics expansion continues, growth normalizes over a decade, mature owner margin reaches 25%, and the current preferred liability is treated as a redemption claim."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 1541105.2430450895,
+      "value_to_price": 4.409457061645,
+      "upside_downside": 3.409457061645,
+      "source": "Retained from companies/214450/analyses/2026-09-06-deep/valuation.json",
+      "narrative": "REJURAN becomes a durable global category leader, cosmetics/localization scale, capacity ramps at high returns and owner margin approaches 30% with long growth duration."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 160183.33273777316,
+    "bull_value_per_share": 1541105.2430450895,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.137094404723,
+    "note": "Algebraic price location only; not an estimated probability."
+  },
+  "preferred_rights_sensitivity": {
+    "primary_method": "Redemption-claim method retained for scenario comparability: use 10.389648M common shares and deduct the preferred claim once.",
+    "base_primary_value_per_share": 633662.3291235663,
+    "alternate_conversion_method": "Remove the KRW0.207259T Base redemption claim before adding 1.175647M one-for-one conversion shares.",
+    "alternate_conversion_shares_m": 11.565295,
+    "alternate_conversion_base_value_per_share": 587166.7894906446,
+    "alternate_conversion_value_to_price": 1.680019426297,
+    "note": "The redemption claim and conversion dilution are mutually exclusive alternatives for this diagnostic; they are not stacked."
+  },
+  "operating_overlay": {
+    "h1_export_growth_yoy": 0.47,
+    "h1_export_share": 0.44,
+    "q2_export_share": 0.47,
+    "plant5": "2027 raw-material / 2028 cosmetics completion targets; >8x pharma raw, >5x medical-device raw, >10x cosmetics capacity targets are management plans, not realized economics.",
+    "europe": "Five-year KRW88B VIVACY framework covers 22 countries; revenue is recognized only as actual product is sold, not added separately to DCF.",
+    "cg_usa": "Acquisition terms undisclosed; strategic localization evidence only until purchase accounting and realized cash returns are available."
+  },
+  "valuation_conclusion": "At KRW349,500, the stock trades roughly 45% below the retained Base value and the reverse case requires only about 4.53% annual growth in years 2-10 under retained Base economics. Expectation gap is favorable, but buy authorization remains blocked by unresolved preferred-share rights/dilution, post-expansion incremental ROIC and flagship-brand concentration."
+}
