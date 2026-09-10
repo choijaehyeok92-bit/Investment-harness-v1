@@ -1,0 +1,88 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "267260",
+  "company_name": "HD Hyundai Electric",
+  "as_of": "2026-09-10",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "Additive research checkpoint only. companies/267260/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock and frozen deterministic outputs remain unchanged; current canonical authority remains the 2026-09-06-deep run until a separate reviewed promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 65,
+  "business_quality_75": 65,
+  "total_score_100": 76,
+  "required_return": 0.10,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Global grid replacement, electrification and AI data-center power demand are creating a multi-year shortage in large transformers, breakers and switchgear. HD Hyundai Electric has credible North American positioning through local Alabama production, 765kV capability, high-voltage qualification and a broad transmission-to-distribution portfolio, but the investment thesis still depends on maintaining pricing and capital efficiency after industry capacity expands.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately KRW4.337T revenue, KRW1.113T operating income, KRW0.850T net income and KRW0.983T operating cash flow. TTM disclosed PPE purchases were approximately KRW0.312T, leaving mechanical OCF-minus-PPE of KRW0.671T. This is not normalized owner FCF because intangible purchases, advance-payment timing, working capital and expansion economics are not fully normalized.",
+  "economic_finding": "Q2 2026 revenue was KRW1.142T and operating profit KRW287.0B, for 25.1% operating margin. H1 orders reached $3.237B, about 76.7% of the $4.222B annual order target, while backlog reached $8.49B. A maximum KRW1.1212T framework agreement with a global Big Tech customer broadens the data-center proposition across power and distribution equipment, but only actual purchase orders should be treated as firm revenue evidence.",
+  "capital_and_survival": "June 2026 company-defined deposits were approximately KRW1.010T versus borrowings of KRW114.5B, so financing dependence is low. The main capital question is return on the Ulsan and Alabama expansions: Alabama Plant 2 is intended to raise local transformer capacity by about 50%, but project-level after-tax incremental ROIC remains unproven until utilization, pricing and cash conversion are observed after ramp.",
+  "permanent_loss_case": "Industry capacity catches up while AI-data-center financing and utility orders normalize; transformer lead times shorten and pricing power fades; the Big Tech framework converts into fewer purchase orders than headline maximums imply; Ulsan and Alabama expansions ramp below utilization targets; copper, tariff or logistics costs rise; working-capital benefits reverse; operating margin normalizes materially below the current mid-20s; and a valuation requiring long-duration double-digit growth de-rates even though the company remains profitable and solvent.",
+  "falsifiers": [
+    "New-order pricing and backlog conversion weaken for multiple quarters while transformer lead times normalize materially.",
+    "Ulsan or Alabama capacity ramps with structurally lower utilization or after-tax returns below the 10% hurdle.",
+    "Operating cash flow per share persistently lags earnings growth after advances and working capital normalize.",
+    "A major North American customer materially reduces orders and diversified utility/data-center demand fails to offset the loss.",
+    "Power-equipment operating margin falls toward low-teens without an offsetting increase in capital turns or volume economics."
+  ],
+  "increase_evidence": [
+    "At least two additional reporting periods showing backlog conversion, new-order pricing and OCF per share improving together.",
+    "Evidence that new Alabama/Ulsan capacity earns after-tax incremental returns above the 10% hurdle after ramp costs.",
+    "Actual purchase orders under the Big Tech framework convert into revenue and cash without abnormal working-capital or margin concessions.",
+    "Customer and regional concentration remain non-fatal while 765kV, distribution and data-center package wins broaden the mix.",
+    "Expectation gap becomes clearly favorable at a 10% required return; price decline alone is insufficient without business evidence."
+  ],
+  "sell_evidence": [
+    "Backlog declines materially while book-to-bill and new-order pricing deteriorate across North America and other key regions.",
+    "Expansion assets generate low utilization or returns below the hurdle for multiple periods.",
+    "Cash conversion deteriorates structurally because advances reverse, receivables/inventory rise and OCF per share falls despite revenue growth.",
+    "Competitive capacity additions compress transformer pricing and normalized owner margin faster than volume growth offsets.",
+    "Any material accounting, governance or customer-value impairment triggers an immediate thesis rewrite regardless of price."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {"score":14,"max_score":15,"claim_type":"opinion","evidence":["Q2 backlog reached $8.49B and H1 orders reached $3.237B while U.S. grid-equipment lead times remain multi-year.","Alabama local production, 765kV capability and integrated data-center power packages position the company in structural bottlenecks."],"counter_evidence":["Power equipment is cyclical and global capacity additions can eventually shorten lead times and weaken scarcity pricing."],"confidence":0.82,"missing_data":[]},
+    "customer_value_and_product": {"score":9,"max_score":10,"claim_type":"opinion","evidence":["Utilities and data-center customers value qualification, reliability, lead time, local manufacturing and bundled transmission/distribution supply.","The July Big Tech framework covers both power and distribution equipment, supporting package-level customer value."],"counter_evidence":["Framework maximum value is not equivalent to committed purchase orders, and large buyers retain negotiating leverage."],"confidence":0.80,"missing_data":[]},
+    "moat_trajectory": {"score":13,"max_score":15,"claim_type":"opinion","evidence":["The company reports two consecutive years of U.S. extra-high-voltage transformer market leadership and reached its 1,000th U.S.-produced transformer in 2026.","Local U.S. manufacturing and 765kV expansion improve qualification and lead-time advantages."],"counter_evidence":["Market-share leadership is company-reported rather than independently reconstructed, and competitors are also adding capacity."],"confidence":0.74,"missing_data":["Independent post-expansion market-share and pricing data."]},
+    "incremental_roic_and_fcf_per_share": {"score":12,"max_score":15,"claim_type":"opinion","evidence":["TTM OCF is approximately KRW0.983T and mechanical OCF-minus-PPE about KRW0.671T on KRW4.337T revenue.","Strong backlog provides visibility for capacity utilization."],"counter_evidence":["Expansion capex is rising and project-level after-tax returns are not yet observable; advances and working-capital timing can flatter cash conversion."],"confidence":0.70,"missing_data":["Post-ramp incremental NOPAT and invested-capital cohorts for Alabama and Ulsan."]},
+    "management_and_capital_allocation": {"score":8,"max_score":10,"claim_type":"opinion","evidence":["Management has maintained selective high-margin order discipline while investing in local U.S. production and distribution capacity.","H1 orders already reached about 76.7% of the annual target without lowering stated profitability discipline."],"counter_evidence":["Large simultaneous expansions increase execution risk and their realized returns are not yet proven."],"confidence":0.74,"missing_data":[]},
+    "financial_survivability": {"score":9,"max_score":10,"claim_type":"opinion","evidence":["June deposits of about KRW1.010T materially exceeded company-defined borrowings of KRW114.5B.","The business remains strongly cash generative despite elevated expansion spending."],"counter_evidence":["Backlog execution requires working capital, guarantees and capex, and a sharp cycle reversal could consume cash even without solvency risk."],"confidence":0.88,"missing_data":[]},
+    "expectation_gap_and_valuation": {"score":6,"max_score":15,"claim_type":"opinion","evidence":["At KRW744,000, the retained Base value of about KRW651,003 is roughly 12.5% below price.","Retaining Base economics requires about 11.90% annual revenue growth in years 2-10 at a 10% required return after Base year-1 revenue of KRW5.2T."],"counter_evidence":["Backlog, pricing and structural grid demand make this growth path plausible enough that an outright unrealistic-bull-case rejection is not yet established."],"confidence":0.70,"missing_data":["Normalized post-expansion owner cash margin and realized order pricing after industry capacity additions."]},
+    "power_law_and_asymmetry": {"score":5,"max_score":10,"claim_type":"opinion","evidence":["Retained Bull value is about KRW1.62M per share, more than 2.1x the reference price."],"counter_evidence":["Retained Bear value is about KRW206k, roughly 72% below price; the stock can suffer long-duration impairment even if the company remains profitable."],"confidence":0.67,"missing_data":[]}
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {"id":"management_or_accounting_integrity","status":"PASS","evidence":["No material accounting or management-integrity impairment was identified in the reviewed audited FY2025 and H1 2026 filing evidence."],"severity":"NO_TRIGGER_FOUND","confidence":0.82,"resolution_needed":"Reassess immediately on audit, control, related-party or disclosure deterioration."},
+      {"id":"external_capital_dependence","status":"PASS","evidence":["June deposits materially exceeded borrowings and internal cash generation supports the current expansion program."],"severity":"NO_TRIGGER_FOUND","confidence":0.90,"resolution_needed":"Monitor if capex or working-capital requirements materially outgrow internal cash."},
+      {"id":"persistent_dilution","status":"PASS","evidence":["No evidence reviewed indicates structurally excessive shareholder dilution."],"severity":"NO_TRIGGER_FOUND","confidence":0.78,"resolution_needed":"Continue tracking total shares, treasury stock and equity compensation."},
+      {"id":"low_quality_growth","status":"PASS","evidence":["Growth is supported by utility, grid-replacement and data-center equipment demand rather than disclosed marketing subsidies or customer financing."],"severity":"NO_TRIGGER_FOUND","confidence":0.80,"resolution_needed":"Track cancellations, advances and framework-to-purchase-order conversion."},
+      {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":["Current margins and cash generation are strong, but Alabama and Ulsan expansion cohorts have not yet produced observable after-tax incremental returns."],"severity":"OPEN_EVIDENCE_GATE","confidence":0.72,"resolution_needed":"Measure post-ramp utilization, incremental NOPAT, cash conversion and invested capital versus the 10% hurdle."},
+      {"id":"moat_shrinkage","status":"PASS","evidence":["Backlog growth, local U.S. scale and high-voltage product breadth do not show persistent moat contraction."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.72,"resolution_needed":"Monitor lead times, pricing and share as competitor capacity expands."},
+      {"id":"price_requires_unrealistic_bull_case","status":"INVESTIGATE","evidence":["The 10% hurdle reverse case requires about 11.90% annual growth in years 2-10 after a KRW5.2T year-1 revenue base; demanding for an industrial business but not demonstrably impossible given backlog and grid demand."],"severity":"VALUATION_DURATION_GATE_OPEN","confidence":0.68,"resolution_needed":"Require either stronger normalized owner-cash evidence or a materially larger price discount before buy authorization."},
+      {"id":"fatal_concentration","status":"PASS","evidence":["NextEra represented 15.9% of H1 sales and no reviewed evidence shows a single customer or product dependence that is presently fatal; utility, Middle East, Europe, distribution and data-center channels provide diversification."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.74,"resolution_needed":"Track top-customer concentration and Big Tech framework conversion."},
+      {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":["Solvency risk is low, but valuation duration, cycle normalization and correlated capacity expansion can cause prolonged capital impairment if pricing and ROIC normalize."],"severity":"VALUATION_AND_CYCLE_GATE_OPEN","confidence":0.78,"resolution_needed":"Validate post-expansion ROIC and obtain a clearer expectation gap relative to the 10% hurdle."}
+    ]
+  },
+  "red_team": {
+    "verdict": "REVISE_NOT_REJECT",
+    "attacks": [
+      "Global transformer and switchgear capacity additions shorten lead times and erase scarcity pricing.",
+      "AI data-center project financing tightens, delaying or cancelling equipment purchase orders.",
+      "The KRW1.1212T Big Tech framework headline overstates firm demand because actual POs are phased and conditional on build schedules.",
+      "NextEra or another large North American customer cuts orders after a capex cycle peak.",
+      "Copper, steel, tariff and logistics costs rise faster than contractual pass-through.",
+      "Alabama Plant 2 and Ulsan expansion ramp late or below utilization targets.",
+      "Customer advances and favorable working-capital timing reverse, weakening OCF despite accounting profits.",
+      "FX hedges protect near-term contracts but reduce upside or create timing volatility as KRW/USD moves.",
+      "Competitors with local U.S. capacity narrow qualification and lead-time advantages.",
+      "Mid-20s operating margin proves peak-cycle economics and normalizes toward the low-to-mid teens."
+    ]
+  },
+  "completion_gate": {"passed":true,"investment_gates_open":["incremental_roic_collapse","price_requires_unrealistic_bull_case","permanent_loss_probability"],"explicit_model_uncertainties":["Post-expansion incremental ROIC","Firm PO conversion under the Big Tech framework","Normalized owner cash after advances and working capital","Industry pricing after capacity additions"]}
+}

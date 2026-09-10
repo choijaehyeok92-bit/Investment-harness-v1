@@ -1,0 +1,29 @@
+{
+  "ticker": "267260",
+  "as_of": "2026-09-10",
+  "base_ref": "main",
+  "base_commit_before_checkpoint": "b35dfb16741f672e5d2c1a44ae67f0bd71f21db6",
+  "head_ref": "research/267260-deep-2026-09-10",
+  "pre_diff_check": {
+    "ahead_by": 7,
+    "behind_by": 0,
+    "added_files": 7,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "expected_final_diff": {
+    "added_files": 8,
+    "modified_files": 0,
+    "deleted_files": 0
+  },
+  "protected_paths_unchanged": [
+    "companies/267260/latest.json",
+    "registry/companies.json",
+    "reviews/latest.json",
+    "companies/267260/raw-data/*",
+    "harness/baseline-lock.json",
+    "frozen deterministic outputs"
+  ],
+  "validator_note": "No claim is made that python -m harness.validate or another local frozen deterministic validator was executed for this additive checkpoint. The canonical authority path remains unchanged and GitHub-side structural diff is the checkpoint guardrail used in this run.",
+  "authority_promotion": false
+}

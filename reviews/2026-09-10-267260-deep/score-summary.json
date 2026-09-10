@@ -1,0 +1,35 @@
+{
+  "ticker": "267260",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Emerging Outlier",
+  "business_quality_75": 65,
+  "total_score_100": 76,
+  "categories": {
+    "structural_change_and_leadership": 14,
+    "customer_value_and_product": 9,
+    "moat_trajectory": 13,
+    "incremental_roic_and_fcf_per_share": 12,
+    "management_and_capital_allocation": 8,
+    "financial_survivability": 9,
+    "expectation_gap_and_valuation": 6,
+    "power_law_and_asymmetry": 5
+  },
+  "prior_canonical": {
+    "as_of": "2026-09-06",
+    "business_quality_75": 63,
+    "total_score_100": 74,
+    "decision": "WATCH",
+    "priority": "P1"
+  },
+  "open_hard_veto": [
+    "incremental_roic_collapse",
+    "price_requires_unrealistic_bull_case",
+    "permanent_loss_probability"
+  ],
+  "score_change_explanation": "Structural leadership and moat each rise one point due stronger backlog/order evidence, integrated Big Tech data-center package validation and U.S. production/765kV expansion. Expectation-gap and asymmetry scores do not improve because price remains above retained Base value.",
+  "hard_veto_rule": "Hard Veto > Score. A 76/100 Emerging Outlier classification does not authorize a purchase while investment gates remain open."
+}
