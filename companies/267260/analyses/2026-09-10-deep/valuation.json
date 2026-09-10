@@ -5,13 +5,13 @@
   "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
   "currency": "KRW",
   "price_reference": {
-    "price": 744000,
+    "price": 746000,
     "price_date": "2026-09-10",
-    "price_status": "SECONDARY_MARKET_CLOSE_REFERENCE",
+    "price_status": "POST_CLOSE_SECONDARY_MARKET_REFERENCE",
     "valuation_shares_m": 36.05,
-    "market_cap_krw_t": 26.8212,
-    "source_id": "HDHE_PRICE_2026_09_10",
-    "note": "Secondary close reference used for expectation-gap diagnostics; market capitalization is calculated from the retained share denominator rather than copied from a market-data vendor."
+    "market_cap_krw_t": 26.8933,
+    "source_id": "HDHE_PRICE_2026_09_10_POST_CLOSE",
+    "note": "Post-close secondary references at 15:32 and 16:36 KST indicated KRW746,000. Market capitalization is calculated from the retained share denominator rather than copied from a vendor."
   },
   "required_return": 0.10,
   "ttm_diagnostics": {
@@ -21,9 +21,9 @@
     "operating_cash_flow_krw_t": 0.982843223586,
     "ppe_purchases_krw_t": 0.312289038952,
     "mechanical_ocf_less_ppe_krw_t": 0.670554184634,
-    "market_cap_to_net_income": 31.5425,
-    "market_cap_to_ocf_less_ppe": 39.9986,
-    "ocf_less_ppe_yield": 0.0250009,
+    "market_cap_to_net_income": 31.6273,
+    "market_cap_to_ocf_less_ppe": 40.1061,
+    "ocf_less_ppe_yield": 0.0249339,
     "note": "OCF-PPE is a diagnostic only. It is not normalized owner FCF because full TTM intangible investment, advance-payment timing, working capital and expansion economics are not fully normalized."
   },
   "balance_sheet_diagnostic": {
@@ -34,24 +34,24 @@
   },
   "reverse_expectations": {
     "claim_type": "estimate",
-    "method": "Retain the 2026-09-06 Base year-1 revenue KRW5.2T, owner-margin path from 16% to 18%, 18x terminal multiple and 10% required return; solve one uniform revenue-growth rate for years 2-10 that matches the September 10 price. This is a stress representation, not a uniquely observable market belief.",
-    "required_growth_years_2_10": 0.118951143435,
+    "method": "Retain the 2026-09-06 Base year-1 revenue KRW5.2T, owner-margin path from 16% to 18%, 18x terminal multiple and 10% required return; solve one uniform revenue-growth rate for years 2-10 that matches the September 10 post-close reference. This is a stress representation, not a uniquely observable market belief.",
+    "required_growth_years_2_10": 0.119347635868,
     "prior_required_growth_years_2_10": 0.112874182047,
     "prior_price_reference": 714000,
-    "price_reference": 744000,
-    "implied_year_10_revenue_krw_t": 14.2989274754,
-    "interpretation": "About 11.90% annual growth for nine years after a KRW5.2T year-1 revenue base is demanding for an industrial business. Current backlog and grid demand keep it from being demonstrably impossible, but the price leaves little room for cycle or margin normalization."
+    "price_reference": 746000,
+    "implied_year_10_revenue_krw_t": 14.3445926772,
+    "interpretation": "About 11.93% annual growth for nine years after a KRW5.2T year-1 revenue base is demanding for an industrial business. Current backlog and grid demand keep it from being demonstrably impossible, but the price leaves little room for cycle or margin normalization."
   },
   "scenarios": {
-    "bear": {"claim_type":"estimate","value_per_share":206433.78786000656,"value_to_price":0.277464768629,"upside_downside":-0.722535231371,"source":"Retained from companies/267260/analyses/2026-09-06-deep/valuation.json","narrative":"Transformer scarcity pricing normalizes, data-center and utility orders slow, new capacity earns lower returns and mature owner margin settles near 12%."},
-    "base": {"claim_type":"estimate","value_per_share":651003.1876682849,"value_to_price":0.875004284500,"upside_downside":-0.124995715500,"source":"Retained from companies/267260/analyses/2026-09-06-deep/valuation.json","narrative":"Grid and data-center demand remain strong, capacity ramps productively and mature owner margin settles near 18%, but growth normalizes over the decade."},
-    "bull": {"claim_type":"estimate","value_per_share":1621409.5945744591,"value_to_price":2.179313971202,"upside_downside":1.179313971202,"source":"Retained from companies/267260/analyses/2026-09-06-deep/valuation.json","narrative":"North American EHV leadership, 765kV expansion and data-center package wins sustain high growth, pricing and 23% mature owner margin for an extended period."}
+    "bear": {"claim_type":"estimate","value_per_share":206433.78786000656,"value_to_price":0.276720895255,"upside_downside":-0.723279104745,"source":"Retained from companies/267260/analyses/2026-09-06-deep/valuation.json","narrative":"Transformer scarcity pricing normalizes, data-center and utility orders slow, new capacity earns lower returns and mature owner margin settles near 12%."},
+    "base": {"claim_type":"estimate","value_per_share":651003.1876682849,"value_to_price":0.872658428510,"upside_downside":-0.127341571490,"source":"Retained from companies/267260/analyses/2026-09-06-deep/valuation.json","narrative":"Grid and data-center demand remain strong, capacity ramps productively and mature owner margin settles near 18%, but growth normalizes over the decade."},
+    "bull": {"claim_type":"estimate","value_per_share":1621409.5945744591,"value_to_price":2.173471306400,"upside_downside":1.173471306400,"source":"Retained from companies/267260/analyses/2026-09-06-deep/valuation.json","narrative":"North American EHV leadership, 765kV expansion and data-center package wins sustain high growth, pricing and 23% mature owner margin for an extended period."}
   },
   "two_state_price_position": {
     "claim_type": "diagnostic",
     "bear_value_per_share": 206433.78786000656,
     "bull_value_per_share": 1621409.5945744591,
-    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.379911945907,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.381325397635,
     "note": "Algebraic price location only; not an estimated probability."
   },
   "management_and_backlog_overlay": {
@@ -63,5 +63,5 @@
     "bigtech_framework_max_krw_t": 1.1212,
     "treatment": "Backlog, targets and framework maximums support demand visibility but are not added to intrinsic value as separate assets. Framework value is not treated as guaranteed revenue until actual POs are issued."
   },
-  "valuation_conclusion": "At KRW744,000, the stock trades about 14.3% above the retained Base value and requires a long duration of double-digit growth under a 10% hurdle. Business evidence has strengthened, but expectation gap remains insufficient for buy authorization while incremental-ROIC, valuation-duration and permanent-loss gates remain open."
+  "valuation_conclusion": "At KRW746,000, the stock trades about 14.6% above the retained Base value and requires a long duration of double-digit growth under a 10% hurdle. Business evidence has strengthened, but expectation gap remains insufficient for buy authorization while incremental-ROIC, valuation-duration and permanent-loss gates remain open."
 }
