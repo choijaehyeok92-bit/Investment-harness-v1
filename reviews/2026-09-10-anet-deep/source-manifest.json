@@ -1,0 +1,99 @@
+{
+  "ticker": "ANET",
+  "as_of": "2026-09-10",
+  "policy": "Primary filings and company IR first; industry research for market-position evidence; market-data source only for synchronized price reference. Forward guidance is not treated as realized fact.",
+  "sources": [
+    {
+      "id": "ANET_REPO_RAW_2025_2026",
+      "tier": 1,
+      "type": "repo_preserved_primary_filing_extract",
+      "path": "companies/ANET/raw-data/2025-2026-supplied-filings.json",
+      "used_for": ["FY2025 revenue", "FY2025 operating income", "FY2025 net income", "FY2025 OCF", "FY2025 capex-line", "FY2025 SBC"]
+    },
+    {
+      "id": "ANET_Q2_2026_10Q",
+      "tier": 1,
+      "type": "SEC_10Q",
+      "date": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm",
+      "used_for": ["H1 financials", "cash and securities", "AR and inventory", "deferred revenue", "purchase commitments", "customer concentration", "SBC", "share count", "repurchases", "working-capital discussion", "risk factors"]
+    },
+    {
+      "id": "ANET_Q2_2026_IR",
+      "tier": 1,
+      "type": "company_earnings_release",
+      "date": "2026-08-04",
+      "url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+      "used_for": ["Q2 revenue", "Q2 margins", "Q3 guidance", "product highlights"]
+    },
+    {
+      "id": "ANET_1_6T_IR",
+      "tier": 1,
+      "type": "company_product_release",
+      "date": "2026-06-09",
+      "url": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Introduces-Next-Generation-1-6Terabit-Portfolio-for-AI-Fabrics/default.aspx",
+      "used_for": ["1.6T roadmap", "scale-up/out/across scope", "Meta/Microsoft/Oracle customer evidence", "Tomahawk 6 partnership", "EOS/Open NOS architecture"]
+    },
+    {
+      "id": "ANET_Q2_CALL_2026",
+      "tier": 2,
+      "type": "management_call_secondary_transcript",
+      "date": "2026-08-04",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/arista-anet-q2-2026-earnings-call-transcript/",
+      "used_for": ["FY2026 $12.6B management guidance", ">100 Etherlink customers", "AI fabrics target", "1.6T timing", "supply-chain commentary"],
+      "limitation": "Secondary reproduction of management remarks; forward-looking statements are retained as guidance rather than realized facts."
+    },
+    {
+      "id": "DELLORO_AI_BACKEND_Q2_2026",
+      "tier": 2,
+      "type": "industry_research_body",
+      "date": "2026-09-03",
+      "url": "https://www.delloro.com/news/ai-back-end-networks-switch-sales-surpass-front-end-networks-for-the-first-time-in-2q2026/",
+      "used_for": ["AI back-end market structure", "Ethernet share trend", "Arista/Celestica/NVIDIA ranking", "800G/1.6T transition"]
+    },
+    {
+      "id": "DELLORO_DC_SWITCH_2026_OUTLOOK",
+      "tier": 2,
+      "type": "industry_research_body",
+      "date": "2026-01-01",
+      "url": "https://www.delloro.com/2026-predictions-data-center-switch-frontend-ai-backed-networks/",
+      "used_for": ["Arista total Ethernet data-center switching leadership", "AI investment cycle context"]
+    },
+    {
+      "id": "ANET_PRICE_2026_09_09",
+      "tier": 3,
+      "type": "market_price_reference",
+      "date": "2026-09-09",
+      "url": "https://investors.arista.com/Home/default.aspx?LanguageId=1",
+      "cross_check_url": "https://kr.investing.com/equities/arista-networks-historical-data",
+      "used_for": ["September 9 closing price $192.93"]
+    },
+    {
+      "id": "ANET_PRIOR_MODEL",
+      "tier": 1,
+      "type": "repo_prior_reviewed_model",
+      "path": "companies/ANET/analyses/2026-09-06-deep/valuation.json",
+      "used_for": ["retained Bear/Base/Bull scenario economics", "comparative reverse-expectations framework"],
+      "limitation": "Scenario estimates are analyst model outputs, not observed facts."
+    }
+  ],
+  "calculation_trace": {
+    "ttm_rule": "FY2025 + H1 2026 - H1 2025",
+    "ttm_revenue_usd_b": "9.0057 + 5.7447 - 4.2096 = 10.5408",
+    "ttm_operating_income_usd_b": "3.8561 + 2.5358 - 1.8450 = 4.5469",
+    "ttm_net_income_usd_b": "3.5114 + 2.2358 - 1.7026 = 4.0446",
+    "ttm_ocf_usd_b": "4.3719 + 2.7765 - 1.8418 = 5.3066",
+    "ttm_capex_line_usd_b": "0.1195 + 0.0842 - 0.0524 = 0.1513",
+    "ttm_sbc_usd_b": "0.4392 + 0.2413 - 0.1782 = 0.5023",
+    "owner_cash_diagnostic_usd_b": "5.3066 - 0.1513 - 0.5023 = 4.6530",
+    "market_cap_actual_shares_usd_b": "192.93 * 1.261224648 = 243.3281",
+    "reverse_growth_method": "Retain prior Base year-1 revenue, owner-margin path, terminal multiple and diluted denominator; solve years 2-10 uniform growth rate at 9% required return."
+  },
+  "known_unknowns": [
+    "Customer-specific AI revenue and customer identities are not disclosed in the reviewed 10-Q.",
+    "Maintenance versus growth capex is not separately disclosed.",
+    "Economic return by supply-commitment cohort is not disclosed.",
+    "Independent EOS/CloudVision attach-rate and multi-quarter AI back-end win/loss data are incomplete.",
+    "No Q3 2026 results existed as of this checkpoint."
+  ]
+}
