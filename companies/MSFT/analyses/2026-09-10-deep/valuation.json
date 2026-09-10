@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0.0-checkpoint",
+  "ticker":"MSFT",
+  "as_of":"2026-09-10",
+  "currency":"USD",
+  "price_reference":{"price":491.65,"price_date":"2026-09-09","valuation_shares_b":7.443,"market_cap_usd_b":3659.351,"status":"SECONDARY_MARKET_CLOSE_REFERENCE"},
+  "required_return":0.09,
+  "fy2026_diagnostics":{"revenue_usd_b":331.839,"operating_income_usd_b":155.237,"net_income_usd_b":133.749,"ocf_usd_b":182.935,"cash_ppe_usd_b":115.948,"mechanical_ocf_less_cash_ppe_usd_b":66.987,"sbc_usd_b":12.405,"mechanical_ocf_less_cash_ppe_less_sbc_usd_b":54.582,"market_cap_to_mechanical_ocf_less_cash_ppe":54.628,"market_cap_to_mechanical_ocf_less_cash_ppe_less_sbc":67.043,"note":"Mechanical diagnostics are not normalized owner FCF. Finance/operating leases, working capital, strategic investments and economic maintenance versus growth investment are not fully normalized."},
+  "balance_sheet_diagnostic":{"cash_and_short_term_investments_usd_b":76.843,"current_plus_long_term_debt_usd_b":40.294,"simple_net_cash_usd_b":36.549,"note":"Simple net cash does not net lease commitments or other contractual obligations."},
+  "reverse_expectations":{"claim_type":"estimate","method":"Retain 2026-09-06 Base year-1 revenue $400B, owner-margin path 14%/16.5%/19%/21.5%/24% then 24%, 25x terminal multiple and 9% required return; solve uniform revenue growth for years 2-10.","required_growth_years_2_10":0.1178934174,"price_reference":491.65,"prior_required_growth":0.1201512125,"prior_price":499.70,"interpretation":"About 11.79% annual growth is demanding for a company of Microsoft's scale but not an unrealistic bull-only condition given current Azure growth. The main uncertainty is whether owner margins recover after the AI infrastructure investment wave."},
+  "scenarios":{"bear":{"value_per_share":147.0167532,"upside_downside":-0.70097,"source":"retained from 2026-09-06-deep valuation"},"base":{"value_per_share":458.8253898,"upside_downside":-0.06676,"source":"retained from 2026-09-06-deep valuation"},"bull":{"value_per_share":1013.59098,"upside_downside":1.06161,"source":"retained from 2026-09-06-deep valuation"}},
+  "two_state_price_position":{"bear":147.0167532,"bull":1013.59098,"price_implied_bull_weight_if_only_bear_and_bull_existed":0.3977,"note":"Algebraic location only, not an estimated probability."},
+  "valuation_conclusion":"Current price is about 7.2% above the retained Base value. Price does not require an impossible bull case, but the expectation gap is insufficient while lease-aware incremental ROIC and normalized owner cash remain unresolved."
+}
