@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "NVDA",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "evidence": [
+    {
+      "id": "Q2_FY27_RESULTS",
+      "claim_type": "fact",
+      "statement": "Q2 FY2027 revenue was USD 96.221B, up 18% sequentially and 106% YoY; Data Center revenue was USD 89.0B, up 117% YoY; GAAP gross margin was 75.0%.",
+      "source_ids": ["NVDA_Q2_FY27_RELEASE", "NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "Q3_GUIDANCE",
+      "claim_type": "management_guidance",
+      "statement": "Management guided Q3 FY2027 revenue to USD 108.0B plus or minus 2% and explicitly assumed no Data Center compute revenue from China in that outlook.",
+      "source_ids": ["NVDA_Q2_FY27_RELEASE"],
+      "confidence": 0.99
+    },
+    {
+      "id": "RUBIN_PRODUCTION",
+      "claim_type": "fact",
+      "statement": "NVIDIA stated that Vera Rubin is ramping into full production with systems running at multiple major cloud partners, reducing the near-term architecture-transition risk versus a purely announced roadmap.",
+      "source_ids": ["NVDA_Q2_FY27_RELEASE"],
+      "confidence": 0.96
+    },
+    {
+      "id": "TTM_REVENUE",
+      "claim_type": "derived",
+      "statement": "TTM revenue is approximately USD 302.970B using FY2026 plus H1 FY2027 less H1 FY2026.",
+      "inputs": {"fy2026_revenue": 215.938, "h1_fy2027_revenue": 177.837, "h1_fy2026_revenue": 90.805},
+      "method": "FY2026 + H1 FY2027 - H1 FY2026",
+      "source_ids": ["NVDA_FY2026_10K", "NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "TTM_NET_INCOME",
+      "claim_type": "derived",
+      "statement": "TTM net income is approximately USD 192.880B using FY2026 plus H1 FY2027 less H1 FY2026.",
+      "inputs": {"fy2026_net_income": 120.067, "h1_fy2027_net_income": 118.010, "h1_fy2026_net_income": 45.197},
+      "source_ids": ["NVDA_FY2026_10K", "NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "TTM_FCF",
+      "claim_type": "derived",
+      "statement": "TTM NVIDIA-definition FCF is approximately USD 126.886B. This is OCF less PPE/intangible purchases and related principal payments; it is not automatically normalized owner earnings.",
+      "inputs": {"ttm_ocf": 134.360, "ttm_ppe_intangible_purchases": 7.354, "ttm_related_principal": 0.120},
+      "source_ids": ["NVDA_FY2026_10K", "NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "TTM_OWNER_CASH_PROXY",
+      "claim_type": "derived",
+      "statement": "TTM SBC is approximately USD 7.241B; subtracting it once from NVIDIA-definition FCF produces a conservative owner-cash diagnostic near USD 119.645B. This does not deduct future ecosystem investments or guarantees as if they were current operating expenses.",
+      "inputs": {"ttm_fcf": 126.886, "ttm_sbc": 7.241},
+      "source_ids": ["NVDA_FY2026_10K", "NVDA_Q2_FY27_10Q"],
+      "confidence": 0.97
+    },
+    {
+      "id": "LIQUIDITY_AND_INVESTMENTS",
+      "claim_type": "fact",
+      "statement": "At July 26, 2026 NVIDIA held USD 56.586B of cash, cash equivalents and marketable debt securities plus USD 42.8B of marketable equity securities; non-marketable equity securities were USD 47.898B.",
+      "source_ids": ["NVDA_Q2_FY27_10Q"],
+      "confidence": 0.98
+    },
+    {
+      "id": "H1_EQUITY_PURCHASES",
+      "claim_type": "fact",
+      "statement": "NVIDIA purchased USD 42.404B of publicly-held equity securities in H1 FY2027 and recorded USD 31.005B of net additions to non-marketable equity securities, materially expanding ecosystem capital exposure.",
+      "source_ids": ["NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "SUPPLY_COMMITMENTS",
+      "claim_type": "fact",
+      "statement": "Supply and capacity commitments increased from USD 119B in the prior quarter to USD 279B at July 26, 2026, primarily for memory, manufacturing facilities and data-center infrastructure systems supporting current and future architectures.",
+      "source_ids": ["NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "SB_ENERGY_GUARANTEE",
+      "claim_type": "fact",
+      "statement": "In August 2026 NVIDIA entered residual-value guarantees related to approximately 4.25 GW of IT load for OpenAI-linked leases at the PORTS site, with NVIDIA's initial aggregate payment obligation capped at USD 105B; total disclosed gross guarantee exposure including other AI-cloud guarantees was USD 108.5B.",
+      "source_ids": ["NVDA_SB_ENERGY_8K", "NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "CUSTOMER_CONCENTRATION",
+      "claim_type": "fact",
+      "statement": "One direct customer represented 16% of Q2 FY2027 revenue; three direct customers represented 16%, 15% and 13% of H1 FY2027 revenue. Five direct customers represented 22%, 14%, 13%, 11% and 10% of accounts receivable at quarter end.",
+      "source_ids": ["NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "EXTENDED_PAYMENT_TERMS",
+      "claim_type": "fact",
+      "statement": "Management stated H1 operating cash growth was partially offset by higher accounts receivable caused by extended payment terms on large multi-quarter agreements with certain investment-grade customers.",
+      "source_ids": ["NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "SHARE_COUNT_AND_REPURCHASES",
+      "claim_type": "fact",
+      "statement": "Quarter-end shares outstanding were approximately 24.147B versus 24.347B one year earlier. NVIDIA repurchased 203M shares for USD 39.8B in H1 FY2027 and had USD 99.3B remaining authorization at July 26, 2026.",
+      "source_ids": ["NVDA_Q2_FY27_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "HUGGING_FACE_ACQUISITION",
+      "claim_type": "fact",
+      "statement": "On September 3, 2026 NVIDIA announced an agreement to acquire Hugging Face for USD 12.9303B. NVIDIA said the platform will remain open and will not require NVIDIA compute.",
+      "source_ids": ["NVDA_HUGGING_FACE"],
+      "confidence": 0.99
+    },
+    {
+      "id": "GROQ_DOJ_REVIEW",
+      "claim_type": "secondary_reported_fact",
+      "statement": "Reuters reported on September 10, citing the New York Times, that the U.S. Department of Justice is examining NVIDIA's roughly USD 17B Groq licensing-and-hiring transaction. This is a regulatory monitoring item, not evidence of wrongdoing by itself.",
+      "source_ids": ["REUTERS_GROQ_DOJ_2026_09_10"],
+      "confidence": 0.82
+    },
+    {
+      "id": "CHINA_COMPETITION",
+      "claim_type": "secondary_reported_fact",
+      "statement": "Reuters Breakingviews reported NVIDIA's share of China's AI-chip market at roughly 55%, down from near-monopoly levels, as Huawei and domestic accelerator vendors improve hardware and CUDA-compatibility pathways under U.S. export restrictions.",
+      "source_ids": ["REUTERS_CHINA_AI_CHIPS_2026_09_07"],
+      "confidence": 0.78
+    },
+    {
+      "id": "PRICE_REFERENCE",
+      "claim_type": "fact",
+      "statement": "NVDA closed at USD 223.67 on September 9, 2026, the latest completed U.S. session before this Korea-time analysis; September 8 close was USD 225.73.",
+      "source_ids": ["NVDA_PRICE_2026_09_09"],
+      "confidence": 0.95
+    },
+    {
+      "id": "MOAT_INFERENCE",
+      "claim_type": "inference",
+      "statement": "Blackwell-to-Rubin execution, CUDA, networking, systems software and broad cloud deployment indicate a widening global full-stack moat, while China localization and hyperscaler/custom accelerators create real regional and workload-specific moat erosion. The correct conclusion is strengthening global moat with localized pressure, not unqualified monopoly expansion.",
+      "source_ids": ["NVDA_Q2_FY27_RELEASE", "NVDA_Q2_FY27_10Q", "REUTERS_CHINA_AI_CHIPS_2026_09_07"],
+      "confidence": 0.84
+    },
+    {
+      "id": "CAPITAL_CIRCULARITY_INFERENCE",
+      "claim_type": "inference",
+      "statement": "Extended customer payment terms, equity investments, financing partnerships, supply commitments and residual-value guarantees are economically correlated to the same AI-capex cycle. They must not be double-counted as immediate losses, but they raise the evidence threshold for concluding that all reported demand is independent of NVIDIA-supported financing.",
+      "source_ids": ["NVDA_Q2_FY27_10Q", "NVDA_SB_ENERGY_8K"],
+      "confidence": 0.88
+    }
+  ]
+}

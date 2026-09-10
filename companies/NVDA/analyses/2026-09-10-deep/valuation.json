@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "NVDA",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "currency": "USD",
+  "price_reference": {
+    "price": 223.67,
+    "price_date": "2026-09-09",
+    "price_status": "LATEST_COMPLETED_US_SESSION_BEFORE_2026-09-10_KST_RESEARCH",
+    "valuation_shares_b": 24.147,
+    "market_cap_usd_b": 5400.95949,
+    "source_id": "NVDA_PRICE_2026_09_09"
+  },
+  "required_return": 0.09,
+  "ttm_diagnostics": {
+    "revenue_usd_b": 302.97,
+    "net_income_usd_b": 192.88,
+    "operating_cash_flow_usd_b": 134.36,
+    "ppe_and_intangible_purchases_usd_b": 7.354,
+    "ppe_and_intangible_principal_payments_usd_b": 0.12,
+    "nvidia_definition_fcf_usd_b": 126.886,
+    "stock_based_compensation_usd_b": 7.241,
+    "conservative_fcf_minus_sbc_proxy_usd_b": 119.645,
+    "market_cap_to_net_income": 28.0016564185,
+    "market_cap_to_reported_fcf": 42.565448434,
+    "market_cap_to_fcf_minus_sbc_proxy": 45.1415394709,
+    "fcf_minus_sbc_proxy_yield": 0.022152543,
+    "calculation_trace": "FY2026 + H1 FY2027 - H1 FY2026. NVIDIA-defined FCF uses OCF less PPE/intangible purchases and related principal payments. The SBC subtraction is a separate conservative owner-cash diagnostic and not a company-defined measure."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Retain the 2026-09-06 base model architecture: year-1 revenue USD 500B, owner-margin path 39%,38%,37%,36%, then 35%, 22x terminal multiple and 9% required return; solve one revenue growth rate for years 2-10 that matches the synchronized price.",
+    "required_growth_years_2_10": 0.0959457121,
+    "prior_required_growth_at_230_36": 0.1002105656,
+    "interpretation": "The current price requires roughly 9.6% annual revenue growth after a USD 500B year-1 base under strong owner-cash economics. This is demanding in duration, but it is not an obviously unrealistic bull-case requirement given current AI-infrastructure growth. The result is highly sensitive to owner margins and terminal economics."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 68.4518734528,
+      "value_to_price": 0.3060395827,
+      "upside_downside": -0.6939604173,
+      "source": "Retained 2026-09-06-deep cash scenario",
+      "narrative": "AI infrastructure ROI disappoints, hyperscalers shift more workloads to custom silicon, China becomes structurally inaccessible, supply and customer-support commitments crystallize while owner margins normalize sharply, and the terminal multiple compresses."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 220.7814845945,
+      "value_to_price": 0.9870858166,
+      "upside_downside": -0.0129141834,
+      "source": "Retained 2026-09-06-deep cash scenario",
+      "narrative": "Blackwell-to-Rubin execution sustains platform leadership, AI factory buildout remains economically useful, revenue compounds at a strong but decelerating rate and mature owner margin settles near 35%."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 555.9781461198,
+      "value_to_price": 2.4857072746,
+      "upside_downside": 1.4857072746,
+      "source": "Retained 2026-09-06-deep cash scenario",
+      "narrative": "Rubin, networking, inference, sovereign AI, physical AI and software expand the addressable market while NVIDIA retains full-stack pricing power and ecosystem investments create additional durable demand without impairing capital returns."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 68.4518734528,
+    "bull_value_per_share": 555.9781461198,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.3183789987,
+    "note": "Algebraic location between modeled endpoints, not an estimated probability."
+  },
+  "capital_allocation_adjustments": {
+    "hugging_face_announced_purchase_usd_b": 12.9303,
+    "gross_guarantee_exposure_usd_b": 108.5,
+    "supply_and_capacity_commitments_usd_b": 279.0,
+    "h1_equity_security_purchases_usd_b": 42.404,
+    "treatment": "Not mechanically stacked as immediate losses. They are correlated AI-cycle exposures and are handled in scenario severity, management/capital-allocation score, hard-veto investigation and falsifiers."
+  },
+  "valuation_conclusion": "At USD 223.67 the stock is approximately 1.3% above the retained base value of USD 220.78. Current price no longer requires the prior 10.0% reverse growth rate, but there is still no clear base-case margin of safety. WATCH remains appropriate until customer ROI and the returns on ecosystem financing/investment are better evidenced."
+}

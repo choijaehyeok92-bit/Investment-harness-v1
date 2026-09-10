@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-nvda-deep",
+  "ticker": "NVDA",
+  "as_of": "2026-09-10",
+  "purpose": "Deep-underwriting research checkpoint. Current external evidence is preserved without mutating baseline-locked canonical raw data or current authority pointers.",
+  "sources": [
+    {
+      "id": "NVDA_FY2026_10K",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / NVIDIA",
+      "title": "NVIDIA Fiscal 2026 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "period": "FY2026 ended 2026-01-25",
+      "verified": true
+    },
+    {
+      "id": "NVDA_Q2_FY27_10Q",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / NVIDIA",
+      "title": "NVIDIA Q2 FY2027 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "period": "Q2/H1 FY2027 ended 2026-07-26",
+      "verified": true
+    },
+    {
+      "id": "NVDA_Q2_FY27_RELEASE",
+      "priority": 2,
+      "type": "company_ir_release",
+      "publisher": "NVIDIA",
+      "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "published": "2026-08-26",
+      "verified": true
+    },
+    {
+      "id": "NVDA_SB_ENERGY_8K",
+      "priority": 1,
+      "type": "primary_filing",
+      "publisher": "U.S. SEC / NVIDIA",
+      "title": "NVIDIA August 17, 2026 current report regarding SB Energy residual value guarantees",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "published": "2026-08-17",
+      "verified": true
+    },
+    {
+      "id": "NVDA_HUGGING_FACE",
+      "priority": 2,
+      "type": "company_announcement",
+      "publisher": "NVIDIA",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "published": "2026-09-03",
+      "verified": true
+    },
+    {
+      "id": "REUTERS_CHINA_AI_CHIPS_2026_09_07",
+      "priority": 4,
+      "type": "financial_press_commentary",
+      "publisher": "Reuters Breakingviews",
+      "title": "China's AI dragons breathe fire on Nvidia's moat",
+      "url": "https://www.reuters.com/commentary/breakingviews/chinas-ai-dragons-breathe-fire-nvidias-moat-2026-09-07/",
+      "published": "2026-09-07",
+      "verified": true,
+      "note": "Used for current competitive context and reported China share estimate; not treated as primary company disclosure."
+    },
+    {
+      "id": "REUTERS_GROQ_DOJ_2026_09_10",
+      "priority": 4,
+      "type": "financial_press_legal_report",
+      "publisher": "Reuters",
+      "title": "DOJ probes Nvidia's licensing deal with AI startup Groq, NYT reports",
+      "url": "https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/",
+      "published": "2026-09-10",
+      "verified": true,
+      "note": "Secondary report of a reported DOJ inquiry; no wrongdoing inferred."
+    },
+    {
+      "id": "NVDA_PRICE_2026_09_09",
+      "priority": 4,
+      "type": "market_price_secondary",
+      "publisher": "Investing.com",
+      "title": "NVIDIA historical price data",
+      "url": "https://kr.investing.com/equities/nvidia-corp-historical-data",
+      "price_date": "2026-09-09",
+      "close_usd": 223.67,
+      "verified": true,
+      "note": "Latest completed U.S. session before the 2026-09-10 Korea-time research run."
+    },
+    {
+      "id": "HARNESS_NVDA_2026_09_06",
+      "priority": 0,
+      "type": "internal_current_authority",
+      "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+      "note": "Used as the canonical comparison baseline, not as a substitute for new primary evidence."
+    },
+    {
+      "id": "HARNESS_NVDA_VALUATION_2026_09_06",
+      "priority": 0,
+      "type": "internal_model_baseline",
+      "path": "companies/NVDA/analyses/2026-09-06-deep/valuation.json",
+      "note": "Existing Bear/Base/Bull cash scenario architecture retained for comparable price synchronization; current reverse expectations were recalculated at the new reference price."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-nvda-deep",
+  "base": "main@5279da794104d4c41cce7beb2ee26312e55057aa",
+  "branch": "research/nvda-deep-2026-09-10",
+  "pre_merge_compare": {
+    "ahead_by": 7,
+    "behind_by": 0,
+    "files_added": 7,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "guardrail_result": "PASS",
+  "guardrails": [
+    "No companies/NVDA/latest.json change",
+    "No registry/companies.json change",
+    "No reviews/latest.json change",
+    "No companies/NVDA/raw-data change",
+    "No harness/baseline-lock.json change",
+    "No frozen deterministic output change"
+  ],
+  "validation_note": "The additive-only checkpoint is outside the current frozen authority reproduction path. Current canonical harness.validate is designed around the 2026-09-06 authority run; this checkpoint therefore records source and diff guardrails and awaits a separate reviewed authority promotion for canonical validation.",
+  "note": "This metadata file itself is additive and increases the final changed-file count to eight."
+}

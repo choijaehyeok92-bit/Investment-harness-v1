@@ -1,0 +1,311 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "NVDA",
+  "company_name": "NVIDIA",
+  "as_of": "2026-09-10",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This additive research checkpoint does not modify companies/NVDA/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock or frozen deterministic outputs. Current canonical authority remains the 2026-09-06-deep run until a separate reviewed authority promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 64,
+  "business_quality_75": 64,
+  "total_score_100": 78,
+  "required_return": 0.09,
+  "source_paths": [
+    "companies/NVDA/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/NVDA/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-nvda-deep/source-manifest.json",
+    "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+    "companies/NVDA/analyses/2026-09-06-deep/valuation.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+      "status": "CURRENT_CANONICAL_AUTHORITY_AT_CHECKPOINT_CREATION"
+    }
+  ],
+  "review_method": "Q2 FY2027 primary filing and earnings release, FY2026 10-K, August SB Energy guarantee filing, September Hugging Face announcement, synchronized September 9 market price, current China-competition and Groq-regulatory evidence, and prior harness scenario model. Facts, derived calculations, estimates and inferences are separated.",
+  "portfolio_context": "Actual portfolio exposure, tax basis and risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "NVIDIA remains the central full-stack supplier to the global AI-factory buildout. Blackwell-to-Rubin execution, CUDA, networking, systems software and developer tooling are expanding the addressable market from model training into inference, agents, sovereign AI and physical AI. The thesis now depends less on whether AI compute demand exists and more on whether customer economic returns can support the duration, financing and capital commitments implied by NVIDIA's scale.",
+  "customer_and_moat": "Customer value remains exceptional because performance, time-to-solution and software compatibility matter more than chip price alone. The moat is globally strengthening, but China localization and hyperscaler/custom accelerators show that CUDA and system-level leadership do not eliminate workload-specific substitution.",
+  "current_finding": "Q2 FY2027 revenue was USD 96.2B, up 106% YoY, with Data Center revenue USD 89.0B up 117%. Q3 guidance is USD 108B despite assuming no China Data Center compute revenue. TTM revenue is approximately USD 303.0B and NVIDIA-definition FCF approximately USD 126.9B.",
+  "economic_finding": "The operating engine is stronger than in the prior canonical review, but the economic boundary of the company has widened: customer payment terms, equity investments, financing partnerships, supply commitments and residual-value guarantees increasingly tie NVIDIA's capital to downstream AI infrastructure. These exposures are correlated and must be judged against customer cash returns, not merely shipment growth.",
+  "capital_and_survival": "Liquidity is exceptionally strong and the diluted share base is declining, but capital allocation is materially more aggressive. H1 FY2027 included USD 42.4B of public-equity purchases and USD 39.8B of repurchases; supply/capacity commitments reached USD 279B; disclosed gross guarantee exposure reached USD 108.5B after the SB Energy/OpenAI arrangement; and NVIDIA agreed to acquire Hugging Face for USD 12.93B.",
+  "permanent_loss_case": "AI infrastructure returns disappoint while customers and financing vehicles carry high fixed obligations. Custom accelerators and China-local chips capture more inference workloads, NVIDIA-supported financing weakens demand independence, supply commitments and guarantees crystallize during a downcycle, and mature owner margins compress. The business remains solvent but a long-duration premium multiple contracts enough to cause multi-year capital impairment.",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 15,
+      "max_score": 15,
+      "evidence": [
+        "Q2 FY2027 revenue grew 106% YoY and Data Center revenue 117% while Q3 guidance implies another sequential step-up to USD 108B.",
+        "Vera Rubin is already ramping into full production across major cloud partners, and NVIDIA is extending the platform into agents, sovereign AI, physical AI and AI-factory infrastructure."
+      ],
+      "counter_evidence": [
+        "AI infrastructure is now economically large enough that power availability, financing cost and downstream ROI can constrain the market even when technical demand remains strong."
+      ],
+      "confidence": 0.95,
+      "missing_data": ["Independent multi-year AI workload and monetization data sufficient to separate structural demand from investment-cycle acceleration"]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Blackwell demand and Rubin production indicate customers continue paying for rapid platform transitions rather than waiting for lower-cost alternatives.",
+        "CUDA, networking, systems and libraries reduce time-to-solution and switching friction at the application and infrastructure level."
+      ],
+      "counter_evidence": [
+        "Extended payment terms on large multi-quarter agreements and the growth of financing support mean shipment growth alone is not sufficient evidence of independent customer ROI.",
+        "Large cloud customers can optimize selected workloads around internally designed or competing accelerators."
+      ],
+      "confidence": 0.90,
+      "missing_data": ["Customer-level realized AI revenue/cost savings relative to total GPU and infrastructure spend"]
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "The full-stack platform is widening through Rubin, networking, inference acceleration, software libraries and developer ecosystem integration.",
+        "Revenue growth during architecture transitions remains exceptional, implying that the installed software and system ecosystem is not currently being displaced globally."
+      ],
+      "counter_evidence": [
+        "China's domestic AI-chip ecosystem is gaining share under export restrictions and provides CUDA-compatibility migration paths.",
+        "Hyperscalers and semiconductor competitors continue to develop custom and merchant accelerators, especially for inference."
+      ],
+      "confidence": 0.86,
+      "missing_data": ["Workload-level share trends by training, inference and agentic workloads outside China"]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "TTM NVIDIA-definition FCF is approximately USD 126.9B and conservative FCF-minus-SBC proxy approximately USD 119.6B, supporting very high current cash generation.",
+        "Quarter-end shares outstanding declined to approximately 24.147B from 24.347B a year earlier despite employee equity compensation."
+      ],
+      "counter_evidence": [
+        "The relevant incremental-capital denominator now includes large ecosystem equity investments, supply commitments, financing support and guarantees that are not captured by ordinary capex alone.",
+        "A clean cohort-level cash ROIC on the USD 279B supply commitments and downstream financing exposures is not yet observable."
+      ],
+      "confidence": 0.82,
+      "missing_data": ["Multi-year cash return and loss experience on ecosystem investments, financing platforms, supply pre-commitments and guarantees"]
+    },
+    "management_and_capital_allocation": {
+      "score": 5,
+      "max_score": 10,
+      "evidence": [
+        "Jensen Huang and the engineering organization continue to execute rapid architecture transitions and expand the platform beyond GPUs.",
+        "Repurchases exceed employee issuance on the observed share bridge and the company retains a very large liquidity buffer."
+      ],
+      "counter_evidence": [
+        "Capital allocation has become unusually aggressive: USD 42.4B of H1 public-equity purchases, large private-equity additions, USD 279B supply commitments, USD 108.5B gross guarantees and a USD 12.93B Hugging Face acquisition agreement.",
+        "The U.S. DOJ is reportedly examining the structure of the Groq licensing-and-hiring transaction, adding regulatory process risk even though no wrongdoing is established."
+      ],
+      "confidence": 0.82,
+      "missing_data": ["Realized returns, governance discipline and counterparty-loss experience across the enlarged AI ecosystem capital book"]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "July liquidity included USD 56.6B of cash, cash equivalents and marketable debt securities plus USD 42.8B of marketable equity securities and very strong operating cash flow.",
+        "NVIDIA can service ordinary operating needs without structural dependence on external financing."
+      ],
+      "counter_evidence": [
+        "H1 FY2027 included approximately USD 24.9B of new debt proceeds while gross contractual and guarantee exposures have increased sharply.",
+        "A severe AI-capex downturn could correlate customer stress, equity-investment losses, supply commitments and guarantee obligations."
+      ],
+      "confidence": 0.91,
+      "missing_data": ["Counterparty-specific stress tests for guarantees, financing platforms and supply commitments under an AI-capex recession"]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 8,
+      "max_score": 15,
+      "evidence": [
+        "At the September 9 close of USD 223.67, the retained base scenario is USD 220.78 and reverse growth falls to approximately 9.6% for years 2-10 under the existing 9% hurdle and strong owner-margin assumptions.",
+        "Current price does not require an obviously impossible bull case when compared with current revenue growth and the Q3 guide."
+      ],
+      "counter_evidence": [
+        "The stock remains approximately 1.3% above retained base value, so there is no clear base-case margin of safety.",
+        "At roughly USD 5.4T market capitalization, the stock trades around 42.6x TTM NVIDIA-definition FCF and 45.1x a conservative FCF-minus-SBC proxy; modest changes in mature owner margin or terminal multiple materially change value."
+      ],
+      "confidence": 0.80,
+      "missing_data": ["Normalized owner margin after ecosystem financing, guarantees and mature competitive intensity"]
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "Retained bull value of approximately USD 556 is about 2.49x the synchronized price, leaving substantial upside if NVIDIA compounds into a broader AI infrastructure platform.",
+        "Sovereign AI, inference, agents, physical AI and software are credible optionality beyond current training demand."
+      ],
+      "counter_evidence": [
+        "Retained bear value of approximately USD 68 is about 69% below current price, so duration and multiple compression can overwhelm low bankruptcy risk.",
+        "The current price sits near the retained base value rather than at a deep discount."
+      ],
+      "confidence": 0.77,
+      "missing_data": ["Evidence that long-run customer AI economics justify sustained infrastructure reinvestment through a full capital cycle"]
+    }
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": ["PwC issued an unqualified FY2026 audit opinion; no material accounting-control failure was identified in the reviewed primary filings. The reported DOJ Groq review is a regulatory inquiry, not evidence of management-integrity impairment."],
+        "severity": "MONITOR",
+        "confidence": 0.90,
+        "resolution_needed": "Reassess if the Groq inquiry or other regulatory matters produce findings of misconduct, disclosure failure or material penalties."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": ["Operating cash flow and liquid securities are sufficient to fund ordinary operations; recent debt issuance is discretionary balance-sheet financing rather than evidence of structural dependence."],
+        "severity": "MONITOR",
+        "confidence": 0.92,
+        "resolution_needed": "Track debt issuance and contingent obligations against liquid resources and internally generated cash."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": ["Quarter-end shares outstanding declined year over year and H1 repurchases materially exceeded observable employee-share issuance."],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.96,
+        "resolution_needed": "Continue to track SBC, tax withholding and repurchases without double counting."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": ["Reported revenue and FCF growth are extremely strong, but extended customer payment terms, ecosystem equity investments, financing partnerships and guarantees increase the risk that part of future demand becomes economically supported by NVIDIA-linked capital rather than independent customer cash economics."],
+        "severity": "MATERIAL",
+        "confidence": 0.83,
+        "resolution_needed": "Track receivable days, customer financing terms, investment-related customer revenue and realized AI customer ROI through multiple quarters."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": ["Core operating cash returns remain exceptional, but the marginal dollar now includes USD 279B supply/capacity commitments, large equity investments and up to USD 108.5B gross guarantee exposure. Their realized incremental cash returns are not yet established."],
+        "severity": "MATERIAL",
+        "confidence": 0.84,
+        "resolution_needed": "Build cohort-level cash-return tracking for ecosystem investments, supply commitments, guarantees and acquisitions."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": ["Global platform economics are strengthening, but China-local accelerators are gaining share and hyperscaler/custom chips are increasingly credible in selected inference workloads. Current evidence shows localized pressure rather than global moat collapse."],
+        "severity": "MATERIAL",
+        "confidence": 0.82,
+        "resolution_needed": "Track workload-level accelerator share, CUDA migration, pricing and networking attach rates outside and inside China."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": ["At USD 223.67 the retained model requires approximately 9.6% annual revenue growth in years 2-10 after a USD 500B year-1 revenue base under strong margins. Demanding duration is required, but not bull-case-or-better execution."],
+        "severity": "VALUATION_RISK_NOT_VETO_TRIGGER",
+        "confidence": 0.79,
+        "resolution_needed": "Require a larger base-case discount or verified higher owner-cash economics before buy authorization."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": ["Direct-customer concentration is meaningful, but no single Q2 direct customer exceeded 16% and demand spans multiple cloud, model, enterprise and sovereign channels. China regulation is material but not currently fatal to the global business."],
+        "severity": "MONITOR",
+        "confidence": 0.82,
+        "resolution_needed": "Monitor top-customer revenue/receivable concentration and regulatory geographic exclusions."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": ["Bankruptcy risk is low, but a USD 5T-plus valuation combined with correlated AI-capex financing, commitments and competition creates material risk of long-duration capital impairment without business failure."],
+        "severity": "MATERIAL",
+        "confidence": 0.85,
+        "resolution_needed": "Obtain a clear margin of safety and evidence that downstream AI returns support obligations through a full capital cycle."
+      }
+    ]
+  },
+  "valuation": {
+    "price_reference_usd": 223.67,
+    "price_date": "2026-09-09",
+    "market_cap_usd_b": 5400.95949,
+    "reverse_required_growth_years_2_10": 0.0959457121,
+    "bear_value_per_share": 68.4518734528,
+    "base_value_per_share": 220.7814845945,
+    "bull_value_per_share": 555.9781461198,
+    "price_vs_base": 1.013083152,
+    "conclusion": "No unrealistic-bull-case veto, but no sufficient base-case margin of safety and multiple correlated hard-veto investigations remain open."
+  },
+  "red_team": {
+    "independence": "Same-session analyst red team; not independent external review.",
+    "verdict": "REVISE",
+    "attacks": [
+      "AI capex may be an investment boom whose downstream cash returns prove insufficient once depreciation, power and financing costs mature.",
+      "Extended payment terms can preserve reported sales while weakening customer cash-quality evidence.",
+      "NVIDIA's ecosystem investments and financing support may create partial circularity between capital supplied and demand reported.",
+      "USD 279B supply commitments can become economically painful if architecture demand or HBM/compute pricing normalizes faster than expected.",
+      "USD 108.5B of gross guarantees introduce tail exposure to customer or project failure that ordinary semiconductor models do not capture.",
+      "China export controls can permanently accelerate domestic hardware/software substitution and reduce NVIDIA's future reopening option value.",
+      "Hyperscaler custom chips and merchant competitors may take the highest-volume inference workloads even if NVIDIA retains frontier training leadership.",
+      "Rapid architecture cadence can increase inventory, supply-chain complexity and customer transition risk if Rubin or later platforms miss timing or yield targets.",
+      "Groq and Hugging Face transactions plus large equity investments can destroy capital if strategic control premiums are paid without durable owner-cash returns.",
+      "At roughly 42-45x current cash proxies, a lower terminal multiple or normalized owner margin can produce severe capital impairment despite strong absolute earnings growth."
+    ]
+  },
+  "falsifiers": [
+    "Data Center growth decelerates below 15% YoY for four consecutive quarters while customer AI capex also contracts and receivable days worsen.",
+    "FCF per share materially lags revenue growth for four quarters after adjusting for SBC and required ecosystem capital commitments.",
+    "Major cloud customers shift a sustained and rising share of training or inference workloads to custom/competing accelerators while NVIDIA pricing or networking attach rates decline.",
+    "Supply commitments, guarantees or customer financing generate material cash losses or impairments that erase a meaningful share of core operating FCF.",
+    "Regulatory findings on Groq or other transactions demonstrate material conduct/disclosure failures rather than ordinary antitrust review.",
+    "Rubin or the next architecture suffers a multi-quarter delay, yield problem or customer migration issue large enough to break the annual platform cadence."
+  ],
+  "increase_evidence": [
+    "Receivable days and customer payment terms normalize while Data Center revenue and FCF per share remain strong, demonstrating demand independent of financing support.",
+    "Cohort tracking shows realized returns on ecosystem investments, financing platforms and guarantees comfortably above the 9% hurdle without material credit losses.",
+    "Rubin deployment scales on schedule with stable or improving system gross economics and broad cloud/customer adoption.",
+    "Custom accelerators expand the AI market without materially eroding NVIDIA's workload share, CUDA usage, networking attach rate or pricing power.",
+    "Price falls below a conservative/base intrinsic-value range or verified owner cash rises enough to create a clear margin of safety while open vetoes improve."
+  ],
+  "sell_evidence": [
+    "Evidence confirms structural global moat shrinkage rather than localized China or workload-specific competition.",
+    "Customer financing, guarantees or ecosystem investments become necessary to sustain growth and realized incremental returns fall below the hurdle through multiple reporting periods.",
+    "Core FCF per share declines structurally despite continued accounting revenue growth.",
+    "Management integrity or accounting reliability is materially impaired by regulatory, audit or disclosure findings."
+  ],
+  "next_evidence": [
+    "Q3 FY2027 revenue, gross margin, receivable days and operating cash flow versus the USD 108B guide.",
+    "Rubin shipment mix, system margins, networking attach and customer deployment timing.",
+    "Top direct/indirect customer concentration and investment-related revenue exposure.",
+    "Quarterly bridge of public/private AI investments, realized gains/losses, impairments and strategic revenue relationships.",
+    "SB Energy/OpenAI project milestones, guarantee effective dates and any changes in counterparty credit support.",
+    "China accelerator share and software migration evidence plus any U.S. export-control changes.",
+    "Hugging Face acquisition closing terms, integration costs and open-platform governance.",
+    "Outcome of the reported DOJ review of the Groq transaction."
+  ],
+  "completion_gate": {
+    "passed": true,
+    "all_eight_categories": true,
+    "score_evidence_and_counter_evidence": true,
+    "confidence_for_every_category": true,
+    "hard_veto_complete": true,
+    "reverse_expectations": true,
+    "bear_base_bull": true,
+    "permanent_loss_case": true,
+    "thesis_falsifiers": true,
+    "increase_evidence": true,
+    "sell_evidence": true,
+    "source_quality_notes": true,
+    "buy_authorization_blocked_by_open_veto": true
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_PLUS_COMPANY_RELEASES_AND_CURRENT_SECONDARY_RISK_EVIDENCE",
+    "primary_document_reaudit": "Q2 FY2027 10-Q, FY2026 10-K and August 2026 guarantee filing were used for primary financial and contractual facts; current market/competition/regulatory reports are separately labeled.",
+    "fact_estimate_inference_opinion": "Filed numbers and contractual disclosures are facts; TTM metrics are calculations; scenario values and reverse growth are estimates; moat and score judgments are opinions/inferences.",
+    "missing_data_rule": "Unknown customer ROI, investment cohort returns and guarantee-loss probabilities are not converted into false precision."
+  }
+}
