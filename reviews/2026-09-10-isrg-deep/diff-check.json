@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-10-isrg-deep",
+  "base": "main@eca228eb6f94b5466b96722965ec2101af32db9b",
+  "branch": "research/isrg-deep-2026-09-10",
+  "pre_merge_compare": {
+    "ahead_by": 6,
+    "behind_by": 0,
+    "files_added": 6,
+    "files_modified": 0,
+    "files_deleted": 0,
+    "additions_before_this_file": 962,
+    "deletions": 0
+  },
+  "guardrail_result": "PASS",
+  "guardrails": [
+    "No companies/ISRG/latest.json change",
+    "No registry/companies.json change",
+    "No reviews/latest.json change",
+    "No companies/ISRG/raw-data change",
+    "No harness/baseline-lock.json change",
+    "No frozen deterministic output change"
+  ],
+  "note": "This metadata file itself is additive and increases the final file count by one."
+}
