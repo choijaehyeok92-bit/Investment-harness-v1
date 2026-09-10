@@ -1,0 +1,320 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "003230",
+  "company_name": "Samyang Foods",
+  "as_of": "2026-09-10",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "This additive research checkpoint does not modify companies/003230/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock or frozen deterministic outputs. Current canonical authority remains the 2026-09-06 preliminary review until a separate reviewed authority promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 61,
+  "business_quality_75": 61,
+  "total_score_100": 80,
+  "required_return": 0.10,
+  "source_paths": [
+    "companies/003230/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/003230/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-003230-deep/source-manifest.json",
+    "reviews/2026-09-08-003230-prelim/raw-data.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/003230/analyses/2026-09-08-prelim/assessment.json",
+      "status": "PRIOR_PRIMARY_FILINGS_CHECKPOINT"
+    },
+    {
+      "path": "companies/003230/analyses/2026-09-06/assessment.json",
+      "status": "CURRENT_CANONICAL_AUTHORITY_AT_CHECKPOINT_CREATION"
+    }
+  ],
+  "review_method": "FY2025 and H1 2026 primary-filing extraction plus synchronized September 10 price, Q2 regional evidence, KRX Value-Up/capacity disclosures, major-holder pledge disclosure and independent Buldak demand evidence. Facts, calculations, estimates and opinions are separated.",
+  "portfolio_context": "Actual portfolio exposure, tax basis and risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Samyang Foods has moved from a domestic ramen manufacturer with an export hit into a global spicy-food brand platform led by Buldak. The important question is no longer whether demand exists, but whether brand strength, distribution breadth and new capacity can compound owner cash per share for a decade without Buldak concentration or capital intensity eroding returns.",
+  "current_finding": "Q2 2026 revenue grew 39.3% and operating profit 46.7% with overseas revenue up 46.7%; Americas, China and Europe all grew at least 44%. TTM revenue and operating income are approximately KRW 2.754tn and KRW 0.623tn.",
+  "economic_finding": "The moat is strengthening through global brand awareness, broadening mainstream distribution and scale-driven margins, but low switching costs in packaged food and undisclosed exact Buldak concentration prevent treating the franchise as a fully closed consumer monopoly. Incremental ROIC on Miryang Plant 2 and the 2027 China plant remains the decisive evidence gap.",
+  "capital_and_survival": "Liquidity is strong: June 2026 cash plus short-term financial assets exceeded borrowings excluding leases by about KRW 147bn and credit ratings were AA-/Stable. Growth is not financed by dilution. Capital-allocation quality is less certain because the KRW 227bn headquarters acquisition and continuing plant investment must earn returns above the 10% hurdle.",
+  "permanent_loss_case": "Buldak demand normalizes after a culturally driven growth burst, distributors carry excess inventory, overseas pricing/promotions worsen, and new capacity earns sub-hurdle returns. Earnings and owner cash then fall while a premium consumer-growth multiple compresses, producing multi-year capital impairment despite low bankruptcy risk.",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "FY2023-FY2025 revenue CAGR was approximately 40.4%, followed by H1 2026 revenue growth of 37.2%.",
+        "Buldak is sold in about 100 countries and Samyang accounts for roughly 60% of Korean ramyeon exports; capacity strategy targets a further 40.2% production increase."
+      ],
+      "counter_evidence": [
+        "The global spicy/K-food demand duration is not contractually protected and packaged-food categories can mean-revert after trend-driven expansion."
+      ],
+      "confidence": 0.90,
+      "missing_data": ["Independent long-run category TAM and country-level market-share series"]
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Buldak surpassed 10bn cumulative units and about KRW 7tn cumulative sales, with annual run-rate volume around 2bn packs.",
+        "Record search interest and wider U.S./European mainstream distribution support continuing consumer pull rather than a purely subsidized channel push."
+      ],
+      "counter_evidence": [
+        "Packaged food has low formal switching costs; repeat-purchase cohorts, price elasticity and promotion-adjusted retention are not disclosed."
+      ],
+      "confidence": 0.84,
+      "missing_data": ["Repeat purchase, price elasticity and promotion-adjusted sell-through by region"]
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "evidence": [
+        "Overseas product-sales mix reached about 82.9% in H1 2026, while Americas, China and Europe all posted strong Q2 growth.",
+        "Operating margin expanded from 9.9% in 2022 to 22.3% in 2025 and remained about 23% in Q2 2026, consistent with brand, distribution and scale leverage."
+      ],
+      "counter_evidence": [
+        "Noodle/snack sales are 90.6% of revenue and exact Buldak-brand concentration is undisclosed; competitors can copy flavors and spend aggressively on distribution.",
+        "Search and social virality are useful demand signals but not equivalent to durable pricing power."
+      ],
+      "confidence": 0.83,
+      "missing_data": ["Buldak brand revenue share, independent market share, price/promotion data versus competitors"]
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "evidence": [
+        "H1 2026 OCF rose 107.6% while PPE purchases fell materially versus H1 2025; mechanical H1 OCF-PPE was positive about KRW 165bn.",
+        "TTM revenue, operating profit and net income remain strong and issued shares are unchanged at 7,533,015."
+      ],
+      "counter_evidence": [
+        "TTM OCF-PPE is only about KRW 221bn, an 8.0% revenue margin, and cannot be treated as normalized owner FCF because maintenance versus growth capex is unresolved.",
+        "Miryang Plant 2 has insufficient post-ramp history and the 2027 China plant adds another large reinvestment cohort before realized incremental ROIC is known."
+      ],
+      "confidence": 0.76,
+      "missing_data": ["Miryang 2 utilization/yield, maintenance capex, China plant realized returns, multi-year owner FCF per share"]
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "evidence": [
+        "FY2025 audit and internal accounting control opinions were unqualified with no material weakness reported.",
+        "Capacity and overseas sales infrastructure investments are strategically aligned with the export growth engine, and dividend policy targets a 9%-11% payout ratio while dividends have been increased."
+      ],
+      "counter_evidence": [
+        "The KRW 227bn headquarters property acquisition has not demonstrated an owner-return above the investment hurdle.",
+        "The controlling group owns 44.98%; 5.47% of issued shares were subject to pledge/major contracts as of July 6, 2026, requiring governance monitoring."
+      ],
+      "confidence": 0.74,
+      "missing_data": ["Economic return on headquarters property, long-run related-party transaction economics, capital return discipline after major capex cycle"]
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "June 2026 cash plus short-term financial assets were about KRW 749bn versus KRW 602bn borrowings excluding leases, with AA-/Stable credit ratings.",
+        "H1 2026 OCF was KRW 268bn and share count was unchanged, indicating self-funded operating strength rather than structural external-capital dependence."
+      ],
+      "counter_evidence": [
+        "China plant and continuing equipment investment increase fixed-capital commitments, and the company issued KRW 200bn of bonds in 2026."
+      ],
+      "confidence": 0.93,
+      "missing_data": ["Full post-China-plant debt/capex maturity schedule under severe demand stress"]
+    },
+    "expectation_gap_and_valuation": {
+      "score": 11,
+      "max_score": 15,
+      "evidence": [
+        "At the September 10 close of KRW 1.264m, market capitalization is about KRW 9.522tn and roughly 19.5x TTM net income.",
+        "At a 15% normalized owner-cash margin and 18x terminal multiple, reverse valuation requires about 7.25% annual revenue growth for ten years; at 12% margin it requires about 10.17%, neither obviously a bull-only requirement.",
+        "Modeled Base value is about KRW 1.696m per share, approximately 34% above price."
+      ],
+      "counter_evidence": [
+        "Current mechanical TTM OCF-PPE yield is only about 2.3%, so valuation attractiveness depends materially on future normalization of growth capex and owner-cash margin.",
+        "Base terminal value is about 62% of operating PV, making duration and terminal assumptions significant."
+      ],
+      "confidence": 0.72,
+      "missing_data": ["Maintenance capex and normalized owner-cash margin after Miryang 2 stabilization"]
+    },
+    "power_law_and_asymmetry": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "Bull modeled value is about KRW 3.281m per share if Buldak becomes a durable global food/IP platform and high-return reinvestment continues.",
+        "Current price sits only about 25% of the way from modeled Bear to Bull endpoints; this is a diagnostic, not a probability estimate."
+      ],
+      "counter_evidence": [
+        "Bear modeled value is about KRW 0.591m, roughly 53% below price, showing meaningful downside if brand growth, margins and reinvestment returns normalize together.",
+        "Upside is concentrated in continued success of one dominant franchise and therefore is not as diversified as the headline geographic footprint suggests."
+      ],
+      "confidence": 0.70,
+      "missing_data": ["Brand-level concentration and probability distribution for post-2027 owner cash"]
+    }
+  },
+  "hard_veto": [
+    {
+      "id": "management_or_accounting_integrity",
+      "status": "PASS",
+      "evidence": ["FY2025 external audit and internal accounting control were unqualified with no material weakness reported; no current evidence reviewed indicates a material accounting-reliability impairment."],
+      "severity": "NO_TRIGGER_FOUND",
+      "confidence": 0.92,
+      "resolution_needed": "Reassess on audit qualification, material control weakness, related-party abuse or misleading disclosure evidence."
+    },
+    {
+      "id": "external_capital_dependence",
+      "status": "PASS",
+      "evidence": ["June 2026 net cash excluding leases was approximately KRW 147bn and H1 OCF was KRW 268bn; current capex is material but not structurally dependent on rescue financing."],
+      "severity": "MONITOR",
+      "confidence": 0.90,
+      "resolution_needed": "Track China-plant funding, bond maturities and free-cash recovery after capex."
+    },
+    {
+      "id": "persistent_dilution",
+      "status": "PASS",
+      "evidence": ["Issued shares remained 7,533,015 versus 2025 year-end and there is no evidence of long-duration excessive dilution in the reviewed period."],
+      "severity": "NO_TRIGGER_FOUND",
+      "confidence": 0.97,
+      "resolution_needed": "Continue to track treasury-share transactions, equity compensation and any future financing."
+    },
+    {
+      "id": "low_quality_growth",
+      "status": "PASS",
+      "evidence": ["Revenue growth is accompanied by rising operating profit, strong OCF, broad regional sales growth and independent consumer-demand signals; no evidence shows marketing subsidy as the sole growth engine."],
+      "severity": "NO_TRIGGER_FOUND",
+      "confidence": 0.86,
+      "resolution_needed": "Monitor promotions, distributor inventory and sell-through to distinguish consumer pull from channel loading."
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "status": "INVESTIGATE",
+      "evidence": ["Historical ROE and margins improved with capex, but Miryang Plant 2 has limited mature history and the China plant is not yet operating; cohort-level incremental cash returns above the 10% hurdle are not established."],
+      "severity": "MATERIAL",
+      "confidence": 0.78,
+      "resolution_needed": "Measure Miryang 2 and China plant utilization, incremental EBIT/owner cash and invested capital for multiple reporting periods."
+    },
+    {
+      "id": "moat_shrinkage",
+      "status": "PASS",
+      "evidence": ["Current evidence shows widening global distribution, record brand-search interest, 10bn cumulative Buldak units and broad regional growth rather than persistent contraction of the franchise."],
+      "severity": "MONITOR",
+      "confidence": 0.82,
+      "resolution_needed": "Track independent market share, pricing and repeat purchase as growth normalizes."
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "status": "PASS",
+      "evidence": ["At KRW 1.264m the reverse model requires roughly 7.25%-10.17% ten-year revenue growth depending on a 15%-12% normalized owner-cash margin; this is demanding but below current growth and not obviously bull-case-or-better execution."],
+      "severity": "VALUATION_RISK_NOT_VETO_TRIGGER",
+      "confidence": 0.74,
+      "resolution_needed": "Validate normalized owner-cash margin and require the expectation gap to remain attractive after future price moves."
+    },
+    {
+      "id": "fatal_concentration",
+      "status": "INVESTIGATE",
+      "evidence": ["Noodle/snack is 90.6% of sales and Buldak is visibly the principal global growth engine, but exact Buldak revenue share is not disclosed. Product-format concentration could be economically severe even though geography is diversified."],
+      "severity": "MATERIAL",
+      "confidence": 0.80,
+      "resolution_needed": "Obtain brand-level revenue/profit concentration or sufficiently independent evidence that adjacent products and regional demand can absorb a Buldak-specific shock."
+    },
+    {
+      "id": "permanent_loss_probability",
+      "status": "PASS",
+      "evidence": ["Balance-sheet failure risk is low and the synchronized price does not require an unrealistic bull case. Permanent-loss risk is meaningful under the Bear case but not currently too high relative to modeled upside to trigger an automatic veto."],
+      "severity": "MONITOR",
+      "confidence": 0.70,
+      "resolution_needed": "Reassess if concentration risk, capex returns or owner-cash conversion deteriorate while valuation remains elevated."
+    }
+  ],
+  "hard_veto_overall": "INVESTIGATE",
+  "valuation": {
+    "price_reference_krw": 1264000,
+    "price_date": "2026-09-10",
+    "market_cap_krw_trillion": 9.52173096,
+    "reverse_required_growth_at_15pct_owner_margin": 0.072453821480638,
+    "reverse_required_growth_at_12pct_owner_margin": 0.10168070173870805,
+    "bear_value_per_share_krw": 590627.6727851443,
+    "base_value_per_share_krw": 1695711.1273390022,
+    "bull_value_per_share_krw": 3280812.408866801,
+    "price_vs_base": 0.7454114955000216,
+    "conclusion": "Expectation gap is potentially favorable, but open incremental-ROIC and concentration vetoes block buy authorization."
+  },
+  "red_team": {
+    "independence": "Same-analysis red team; not represented as independent committee review.",
+    "attacks": [
+      "Buldak could be a culturally amplified hit whose growth duration is shorter than a ten-year consumer franchise model assumes.",
+      "Geographic diversification may conceal product concentration: one brand family can fail globally even when sales span many countries.",
+      "Distributor inventory and longer export lead times could make sell-in growth temporarily exceed end-consumer sell-through.",
+      "Q2 margin benefited partly from favorable FX; a stronger KRW and higher wheat/palm-oil costs could compress economics simultaneously.",
+      "Miryang Plant 2 and the China plant could create excess capacity if demand normalizes after the current surge.",
+      "Low switching costs allow Nongshim, Ottogi, local Chinese/U.S. brands or private-label spicy products to compete through price and shelf space.",
+      "Accounts receivable grew faster than inventory from 2025 year-end, and continued working-capital absorption could weaken cash conversion despite accounting profit growth.",
+      "The KRW 227bn headquarters purchase may indicate weaker capital discipline than the core operating execution suggests.",
+      "Controlling-family ownership and pledged shares create governance and forced-liquidity risks that do not appear in operating margins.",
+      "The Base valuation requires owner-cash margin normalization well above current mechanical OCF-PPE margin and derives about 62% of operating PV from terminal value."
+    ],
+    "verdict": "REVISE",
+    "response": "The attacks do not invalidate the franchise or synchronized expectation gap, but they justify keeping incremental ROIC and fatal concentration open and prevent buy authorization."
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_PLUS_EXCHANGE_DISCLOSURES_AND_SYNCHRONIZED_SECONDARY_MARKET_EVIDENCE",
+    "strengths": [
+      "FY2025 and H1 2026 financial statements were extracted from primary DART filings in the merged 2026-09-08 checkpoint.",
+      "Capacity/value-up and major-holder pledge evidence comes from KRX disclosures.",
+      "Q2 operating/geographic data were cross-checked against reputable press reporting of company disclosures."
+    ],
+    "limitations": [
+      "Exact Buldak brand revenue/profit concentration and consumer cohort retention are not publicly separated in reviewed evidence.",
+      "September 10 close is from a secondary market data source rather than an exchange-native price feed.",
+      "Maintenance capex and normalized owner FCF are estimates/unknowns, not reported facts."
+    ]
+  },
+  "completion_gate": {
+    "passed_for_research_checkpoint": true,
+    "canonical_promotion": false,
+    "checks": {
+      "eight_categories": true,
+      "evidence_and_counter_evidence": true,
+      "nine_hard_veto_items": true,
+      "reverse_expectations": true,
+      "bear_base_bull": true,
+      "ten_red_team_attacks": true,
+      "permanent_loss_case": true,
+      "falsifiers": true,
+      "increase_evidence": true,
+      "sell_evidence": true,
+      "source_quality": true
+    },
+    "blocking_items": ["incremental_roic_collapse", "fatal_concentration"]
+  },
+  "falsifiers": [
+    "Overseas sell-through decelerates below low-double digits for four consecutive quarters while distributor inventory or receivables grow faster than sales.",
+    "Miryang Plant 2 reaches mature utilization but incremental after-tax owner return remains below the 10% hurdle for multiple periods.",
+    "China plant ramp requires sustained price discounting, working-capital funding or debt while consolidated owner FCF per share fails to grow.",
+    "Buldak loses material market share or search/retail penetration without successful adjacent brands offsetting the decline.",
+    "Related-party or non-core capital allocation expands materially without demonstrable per-share cash returns."
+  ],
+  "increase_evidence": [
+    "Two to four more quarters of Miryang 2 utilization with sales, margin and owner-cash conversion improving together.",
+    "Independent regional sell-through/market-share and repeat-purchase evidence showing Buldak demand remains consumer-led as distribution matures.",
+    "Maintenance capex can be separated from growth capex and normalized owner-cash margin is verified in the low-to-mid teens.",
+    "China plant economics demonstrate an expected after-tax return above the 10% hurdle without material dilution or balance-sheet stress.",
+    "The synchronized expectation gap remains attractive after incorporating the new evidence; price decline alone is not sufficient."
+  ],
+  "sell_evidence": [
+    "Sustained brand/share deterioration combined with weakening pricing power and regional sell-through.",
+    "Persistent incremental ROIC below the 10% hurdle after Miryang/China capacity matures.",
+    "Owner FCF per share declines across multiple periods because receivables, inventory, promotion or capex absorb the accounting-profit growth.",
+    "Material accounting/control or related-party governance impairment.",
+    "Valuation moves to require an unrealistic Bull case while thesis evidence stops improving."
+  ],
+  "next_evidence": [
+    "Q3/Q4 2026 Americas, China and Europe sell-through and channel-inventory data.",
+    "Miryang Plant 2 utilization, yield and incremental EBIT/owner cash versus invested capital.",
+    "Brand-level Buldak revenue/profit concentration and adjacent-brand contribution.",
+    "Maintenance versus growth capex and normalized owner FCF bridge.",
+    "China plant final investment, ramp schedule, working-capital needs and realized unit economics.",
+    "Any change in controlling-group pledges, related-party transactions or non-core capital allocation."
+  ]
+}
