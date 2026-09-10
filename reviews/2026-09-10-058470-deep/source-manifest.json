@@ -1,0 +1,30 @@
+{
+  "ticker": "058470",
+  "as_of": "2026-09-10",
+  "source_policy": "Primary filings first; secondary sources used for synchronized price and current labor-status evidence. Management/company statements are not converted into future facts.",
+  "sources": [
+    {"id":"KRX_FY2025","class":"primary_filing","title":"LEENO Industrial FY2025 Business Report","date":"2026-03-18","url":"https://kind.krx.co.kr/external/2026/03/18/000195/20260318000896/11011.htm","used_for":["financials","products","major customers","factory investment","shares","business model"]},
+    {"id":"H1_2026","class":"filing_mirror_near_primary","title":"LEENO Industrial H1 2026 Report","date":"2026-08-14","url":"https://financialfilings.com/filings/leeno-industrial-inc/interim-quarterly-report/2026/55987729/","used_for":["H1 financials","cash flow","working capital","liquidity","product/export mix","major customers","shares"]},
+    {"id":"KRX_FOUNDER_1","class":"primary_filing","title":"Major Shareholder Report - Lee Chae-yoon","date":"2026-06-15","url":"https://kind.krx.co.kr/external/2026/06/15/000003/20260615000004/00636.htm","used_for":["ownership change","pledge/major-contract check"]},
+    {"id":"KRX_FOUNDER_2","class":"primary_filing","title":"Officer/Major Shareholder Securities Ownership Report","date":"2026-06-16","url":"https://kind.krx.co.kr/external/2026/06/16/000584/20260616001331/00634.htm","used_for":["7m-share secondary sale","KRW90,000 transaction price","25.48% ownership"]},
+    {"id":"LABOR_20260908","class":"reputable_press","title":"LEENO labor negotiations fail near agreement after 48-day strike","date":"2026-09-08","url":"https://www.yna.co.kr/view/AKR20260908135300051","used_for":["current labor-status risk","settlement terms and unresolved items"]},
+    {"id":"LABOR_20260723","class":"reputable_press","title":"LEENO union declares full strike","date":"2026-07-23","url":"https://www.yna.co.kr/view/AKR20260723029700051","used_for":["operational disruption channel","union/company stated positions"]},
+    {"id":"PRICE_20260910","class":"secondary_market_data","title":"LEENO Industrial quote page","date":"2026-09-10","url":"https://kr.investing.com/equities/leeno-industrial-inc","used_for":["KRW71,200 reference price","intraday range","previous close"]},
+    {"id":"KRX_Q1_2026","class":"primary_filing","title":"LEENO Industrial Q1 2026 Report","date":"2026-05-14","url":"https://kind.krx.co.kr/external/2026/05/14/000390/20260514000861/11013.htm","used_for":["Q1 product and export cross-check"]},
+    {"id":"KRX_H1_2025","class":"primary_filing","title":"LEENO Industrial H1 2025 Report","date":"2025-08-13","url":"https://kind.krx.co.kr/external/2025/08/13/000141/20250813000325/11012.htm","used_for":["prior-H1 TTM bridge context"]}
+  ],
+  "calculation_trace": {
+    "ttm_rule": "FY2025 + H1 2026 - H1 2025",
+    "valuation_required_return": 0.10,
+    "price_reference_krw": 71200,
+    "share_denominator_m": 76.21185,
+    "important_limit": "Mechanical OCF less disclosed capex and the ex-interest cash diagnostic are not normalized owner FCF."
+  },
+  "known_limits": [
+    "No disclosed customer names are inferred from A/B/C labels.",
+    "No precise new-factory revenue capacity is asserted because the primary filing states capacity/R&D purpose but does not provide a directly verified revenue-capacity figure.",
+    "Independent long-run global socket/probe market share and customer retention by application remain incomplete.",
+    "Labor dispute was still unresolved in the latest verified September 8 report; no later settlement is assumed.",
+    "Reference price is secondary synchronized market data rather than an exchange-certified closing file."
+  ]
+}

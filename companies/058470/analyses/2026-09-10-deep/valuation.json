@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "058470",
+  "as_of": "2026-09-10",
+  "currency": "KRW",
+  "unit": "KRW billion unless per-share",
+  "price_reference": {
+    "price": 71200,
+    "price_date": "2026-09-10",
+    "price_status": "SECONDARY_SYNCHRONIZED_MARKET_REFERENCE",
+    "valuation_shares_m": 76.21185,
+    "market_cap_krw_b": 5426.28372,
+    "note": "Uses issued shares rather than vendor market cap; treasury shares are not used to make valuation more favorable."
+  },
+  "required_return": 0.10,
+  "ttm_diagnostics": {
+    "method": "FY2025 + H1 2026 - H1 2025",
+    "revenue_krw_b": 424.56037973,
+    "operating_income_krw_b": 209.429400821,
+    "gaap_net_income_krw_b": 187.824604482,
+    "operating_cash_flow_krw_b": 166.846899626,
+    "ppe_purchases_krw_b": 68.38754975,
+    "intangible_purchases_krw_b": 0.564650974,
+    "mechanical_ocf_less_disclosed_capex_krw_b": 97.894698902,
+    "ttm_interest_received_krw_b": 9.365101636,
+    "operating_cash_diagnostic_ex_interest_krw_b": 88.529597266,
+    "market_cap_to_gaap_net_income": 28.8902,
+    "market_cap_to_mechanical_ocf_less_capex": 55.4298,
+    "market_cap_to_operating_cash_diagnostic_ex_interest": 61.2934,
+    "operating_cash_diagnostic_yield": 0.016315,
+    "note": "OCF-capex and ex-interest cash are diagnostics only, not normalized owner FCF. H1 receivables, working capital and factory growth capex are material."
+  },
+  "liquidity_bridge": {
+    "cash_krw_b": 86.771663199,
+    "current_financial_assets_krw_b": 340.0419968,
+    "noncurrent_financial_assets_krw_b": 21.482908704,
+    "gross_liquid_and_financial_assets_krw_b": 448.296568703,
+    "assumed_operating_liquidity_reserve_krw_b": 50.0,
+    "excess_financial_assets_added_once_krw_b": 398.296568703,
+    "note": "Financial interest income is removed from the operating cash diagnostic before excess financial assets are added to equity value to reduce double counting."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Starting from TTM revenue, retain Base year-1 growth of 20%, Base margin path, 22x terminal owner-cash multiple, excess-financial-asset bridge and 10% required return; solve a uniform revenue growth rate for years 2-10.",
+    "required_growth_years_2_10": 0.1191743445,
+    "horizon_years": 10,
+    "interpretation": "About 11.92% annual growth for nine years is demanding but not demonstrably unrealistic. The principal issue is insufficient margin of safety given customer concentration, factory execution and labor risk, not an impossible revenue hurdle."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "growth_path": [0.05,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02,0.02],
+      "owner_cash_margin_path": [0.20,0.195,0.19,0.19,0.19,0.19,0.19,0.19,0.19,0.19],
+      "terminal_multiple": 16,
+      "value_per_share": 21265.37,
+      "value_to_price": 0.29867,
+      "upside_downside": -0.70133,
+      "year_10_revenue_krw_b": 548.5819,
+      "year_10_owner_cash_krw_b": 104.2306,
+      "narrative": "Major-customer and product-cycle normalization, labor/customer losses or technology substitution limit growth and compress owner cash economics."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "growth_path": [0.20,0.16,0.13,0.11,0.09,0.08,0.07,0.06,0.05,0.04],
+      "owner_cash_margin_path": [0.25,0.27,0.285,0.295,0.30,0.30,0.30,0.30,0.30,0.30],
+      "terminal_multiple": 22,
+      "value_per_share": 59390.43,
+      "value_to_price": 0.83414,
+      "upside_downside": -0.16586,
+      "year_10_revenue_krw_b": 1080.7933,
+      "year_10_owner_cash_krw_b": 324.2380,
+      "narrative": "High-performance socket/pin demand compounds, new capacity earns acceptable returns and margins normalize below current operating-margin peaks while remaining structurally strong."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "growth_path": [0.28,0.24,0.20,0.17,0.14,0.12,0.10,0.08,0.07,0.06],
+      "owner_cash_margin_path": [0.28,0.30,0.32,0.33,0.34,0.34,0.34,0.34,0.34,0.34],
+      "terminal_multiple": 28,
+      "value_per_share": 110734.71,
+      "value_to_price": 1.55526,
+      "upside_downside": 0.55526,
+      "year_10_revenue_krw_b": 1627.6731,
+      "year_10_owner_cash_krw_b": 553.4089,
+      "narrative": "Advanced semiconductor test complexity expands the addressable market, customer diversification improves and new capacity ramps at very high incremental returns."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 21265.37,
+    "bull_value_per_share": 110734.71,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.55812,
+    "note": "Algebraic location only, not an estimated probability."
+  },
+  "valuation_conclusion": "At KRW71,200 the reference price is about 19.9% above the Base value measured as price/Base and about 16.6% above Base measured as Base/price downside. The current price does not require an impossible Bull case, but Base expected return fails the 10% hurdle and open concentration/factory/labor risks make the expectation gap insufficient for buy authorization."
+}

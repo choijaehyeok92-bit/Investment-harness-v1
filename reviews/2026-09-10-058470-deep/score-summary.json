@@ -1,0 +1,32 @@
+{
+  "ticker": "058470",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "classification": "Emerging Outlier",
+  "business_quality_75": 64,
+  "total_score_100": 76,
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "categories": {
+    "structural_change_and_leadership": {"score":14,"max":15},
+    "customer_value_and_product": {"score":9,"max":10},
+    "moat_trajectory": {"score":13,"max":15},
+    "incremental_roic_and_fcf_per_share": {"score":12,"max":15},
+    "management_and_capital_allocation": {"score":6,"max":10},
+    "financial_survivability": {"score":10,"max":10},
+    "expectation_gap_and_valuation": {"score":7,"max":15},
+    "power_law_and_asymmetry": {"score":5,"max":10}
+  },
+  "hard_veto_overall": "INVESTIGATE",
+  "open_vetoes": ["incremental_roic_collapse","fatal_concentration","permanent_loss_probability"],
+  "valuation": {
+    "price_krw": 71200,
+    "required_return": 0.10,
+    "bear_krw": 21265.37,
+    "base_krw": 59390.43,
+    "bull_krw": 110734.71,
+    "reverse_growth_years_2_10": 0.1191743445
+  },
+  "score_interpretation": "High business quality but insufficient expectation gap. Hard Veto takes precedence over the 76/100 score."
+}
