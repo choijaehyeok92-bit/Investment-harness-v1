@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "ISRG",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "evidence": [
+    {
+      "id": "Q2_REVENUE_AND_PROCEDURES",
+      "claim_type": "fact",
+      "statement": "Q2 2026 revenue was $2.8923B, up 19% YoY; da Vinci procedures were approximately 889k, up 15%, and Ion procedures approximately 47.9k, up 36%.",
+      "source_ids": ["ISRG_2026_Q2_10Q", "ISRG_2026_Q2_EARNINGS"],
+      "confidence": 0.99
+    },
+    {
+      "id": "INSTALLED_BASE",
+      "claim_type": "fact",
+      "statement": "At June 30, 2026 the da Vinci installed base was approximately 11,710 systems, up 12% YoY; Ion installed base was approximately 1,096, up 21%.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "DV5_ADOPTION",
+      "claim_type": "fact",
+      "statement": "Q2 2026 included 246 da Vinci 5 placements out of 468 total da Vinci placements; the global da Vinci 5 installed base was 1,710, of which 136 were outside the U.S.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "RECURRING_MIX",
+      "claim_type": "derived",
+      "statement": "Q2 instruments/accessories plus service revenue was $2.2073B, approximately 76.3% of total Q2 revenue; this is a recurring-like economic mix rather than contractual recurring revenue.",
+      "inputs": {"instruments_and_accessories_usd_b": 1.7349, "service_usd_b": 0.4724, "total_revenue_usd_b": 2.8923},
+      "method": "(instruments_and_accessories + service) / total_revenue",
+      "source_ids": ["ISRG_2026_Q2_EARNINGS"],
+      "confidence": 0.95
+    },
+    {
+      "id": "LEASE_INTENSITY",
+      "claim_type": "derived",
+      "statement": "254 of 468 Q2 da Vinci placements, about 54.3%, were under operating leases; 131 were usage-based. Leasing strengthens installed-base relationships but shifts more capital onto Intuitive's balance sheet.",
+      "inputs": {"leased_placements": 254, "total_placements": 468, "usage_based_placements": 131},
+      "source_ids": ["ISRG_2026_Q2_EARNINGS"],
+      "confidence": 0.97
+    },
+    {
+      "id": "Q2_MARGIN",
+      "claim_type": "fact",
+      "statement": "Q2 2026 GAAP gross margin was 67.8% versus 66.3% a year earlier; GAAP operating income was $971.9M, up 31% YoY.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "H1_CASHFLOW",
+      "claim_type": "fact",
+      "statement": "H1 2026 OCF was $1.9729B versus $1.2970B in H1 2025; PPE purchases were $215.9M versus $271.9M.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "TTM_FCF",
+      "claim_type": "derived",
+      "statement": "TTM mechanical FCF is approximately $3.2224B using OCF less PPE purchases. This is a diagnostic proxy and not a fully normalized owner-earnings measure because leasing assets, inventory transfers, SBC and growth versus maintenance capex require interpretation.",
+      "inputs": {"fy2025_ocf": 3.0305, "h1_2026_ocf": 1.9729, "h1_2025_ocf": 1.2970, "fy2025_ppe": 0.5400, "h1_2026_ppe": 0.2159, "h1_2025_ppe": 0.2719},
+      "method": "FY2025 + H1_2026 - H1_2025 for OCF and PPE, then OCF - PPE",
+      "source_ids": ["ISRG_2025_10K", "ISRG_2026_Q2_10Q"],
+      "confidence": 0.98
+    },
+    {
+      "id": "TTM_OWNER_FCF_PROXY",
+      "claim_type": "derived",
+      "statement": "TTM income-statement SBC is approximately $839.3M; subtracting it once from mechanical FCF gives a conservative owner-FCF diagnostic of approximately $2.3831B. Capitalized SBC is not separately re-subtracted to avoid double counting before inventory/amortization tracing.",
+      "inputs": {"fy2025_sbc": 0.8028, "h1_2026_sbc": 0.4261, "h1_2025_sbc": 0.3896, "ttm_mechanical_fcf": 3.2224},
+      "source_ids": ["ISRG_2025_10K", "ISRG_2026_Q2_10Q"],
+      "confidence": 0.96
+    },
+    {
+      "id": "LIQUIDITY",
+      "claim_type": "fact",
+      "statement": "Cash, cash equivalents and investments were $8.6255B at June 30, 2026; total liabilities were $2.5789B and the filing did not identify material borrowings.",
+      "source_ids": ["ISRG_2026_Q2_EARNINGS", "ISRG_2026_Q2_10Q"],
+      "confidence": 0.97
+    },
+    {
+      "id": "REPURCHASES",
+      "claim_type": "fact",
+      "statement": "Intuitive repurchased 3.2M shares for $1.5065B in H1 2026 at an average $475.67 per share; Q2 average was $438.68. This is materially above the September 9 reference price of $353.24 and is a capital-allocation monitoring point, not proof of value destruction by itself.",
+      "source_ids": ["ISRG_2026_Q2_10Q", "ISRG_PRICE_2026_09_09"],
+      "confidence": 0.98
+    },
+    {
+      "id": "SHARE_COUNT",
+      "claim_type": "fact",
+      "statement": "Q2 2026 basic weighted-average shares were 354.1M versus 358.5M a year earlier; diluted weighted-average shares were 357.3M versus 364.1M. Current evidence does not show persistent net dilution.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "DIRECT_DISTRIBUTION_ACQUISITION",
+      "claim_type": "fact",
+      "statement": "On March 1, 2026 Intuitive acquired da Vinci and Ion distributors serving Italy, Spain, Portugal, Malta, San Marino and related territories for approximately $533.1M cash, moving those markets to direct distribution.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "GUIDANCE",
+      "claim_type": "management_guidance",
+      "statement": "For FY2026 management expects da Vinci procedure growth of 13.5%-15.5%, closer to the midpoint; non-GAAP gross margin 68%-69%, including about a 1% revenue tariff headwind; and non-GAAP operating expense growth of 11%-13%.",
+      "source_ids": ["ISRG_2026_Q2_EARNINGS"],
+      "confidence": 0.99
+    },
+    {
+      "id": "COMPETITION_JNJ",
+      "claim_type": "fact",
+      "statement": "Johnson & Johnson received U.S. FDA De Novo authorization for OTTAVA on July 22, 2026 for multiple upper-abdominal general-surgery procedures, creating a new credible U.S. soft-tissue robotic competitor after the Q2 reporting date.",
+      "source_ids": ["JNJ_OTTAVA_FDA_2026"],
+      "confidence": 0.99
+    },
+    {
+      "id": "COMPETITION_MEDTRONIC",
+      "claim_type": "fact",
+      "statement": "Medtronic's Hugo received U.S. FDA clearance for urologic procedures in December 2025 and in June 2026 Medtronic submitted 510(k)s for U.S. general and gynecologic indications.",
+      "source_ids": ["MDT_HUGO_US_2025", "MDT_HUGO_EXPANSION_2026"],
+      "confidence": 0.99
+    },
+    {
+      "id": "COMPETITION_CMR",
+      "claim_type": "fact",
+      "statement": "CMR's Versius platform has U.S. FDA clearance and is pursuing additional indications, confirming that multi-platform competition is becoming clinically relevant rather than hypothetical.",
+      "source_ids": ["CMR_VERSIUS_510K"],
+      "confidence": 0.98
+    },
+    {
+      "id": "RECALL_CLASS1",
+      "claim_type": "fact",
+      "statement": "FDA classified the 8 mm SureForm 30 Gray Reload recall as Class I; the identified issue was potential incomplete staple lines. The recall remained open in the FDA database at the reviewed date.",
+      "source_ids": ["FDA_SUREFORM_CLASS1_2026"],
+      "confidence": 0.99
+    },
+    {
+      "id": "OTHER_2026_RECALLS",
+      "claim_type": "fact",
+      "statement": "FDA also lists multiple 2026 Class II field actions affecting da Vinci 5 and SP components. These do not establish systemic product failure but raise the evidence threshold for a fully closed moat/quality assessment.",
+      "source_ids": ["FDA_ISRG_RECALL_LIST_2026", "FDA_DV5_VIEWER_RECALL_2026", "FDA_SP_COLUMN_RECALL_2026"],
+      "confidence": 0.98
+    },
+    {
+      "id": "AUDIT_AND_CONTROLS",
+      "claim_type": "fact",
+      "statement": "PwC opined that FY2025 financial statements were fairly presented in all material respects and that internal control over financial reporting was effective; Q2 2026 management also concluded disclosure controls were effective with no material ICFR change.",
+      "source_ids": ["ISRG_2025_10K", "ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "LEADERSHIP_SUCCESSION",
+      "claim_type": "fact",
+      "statement": "David J. Rosa is CEO and Gary S. Guthart is Executive Chair. The 2026 proxy states that 50% of long-term executive equity target is PSUs and 50% RSUs for the principal named executives; executive and director beneficial ownership was about 0.6% as a group.",
+      "source_ids": ["ISRG_2026_PROXY"],
+      "confidence": 0.98
+    },
+    {
+      "id": "INSIDER_PLANS",
+      "claim_type": "fact",
+      "statement": "The Q2 10-Q discloses multiple 10b5-1 plans, including Executive Chair Gary Guthart's May 7, 2026 plan; these should not be treated as discretionary bearish sales without transaction-level evidence.",
+      "source_ids": ["ISRG_2026_Q2_10Q"],
+      "confidence": 0.99
+    },
+    {
+      "id": "MACRO_EFFECT",
+      "claim_type": "inference",
+      "statement": "The current higher-for-longer regime raises hospital capital-budget and valuation discount-rate pressure, while Intuitive's balance sheet materially limits refinancing risk. Macro is therefore a risk-budget/valuation overlay, not a company-quality score input.",
+      "source_ids": ["HARNESS_MACRO_2026_09_08", "ISRG_2026_Q2_10Q"],
+      "confidence": 0.82
+    }
+  ]
+}
