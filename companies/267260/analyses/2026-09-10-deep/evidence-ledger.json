@@ -65,12 +65,12 @@
     {"id":"HDHE_US_1000_2026_08_03","type":"company_primary","url":"https://www.hd-hyundaielectric.com/elect/m/ko/index.jsp","evidence":"1,000th U.S.-produced EHV transformer; company states two consecutive years of U.S. EHV transformer market leadership."},
     {"id":"REUTERS_US_GRID_2026_07_09","type":"high_quality_secondary","url":"https://www.reuters.com/business/energy/us-power-companies-scramble-secure-equipment-surging-data-center-demand-strains-2026-07-09/","evidence":"High-voltage transformer lead times exceeded 160 weeks in Q1 2026; breakers also constrained; data centers drive equipment demand."},
     {"id":"REUTERS_POWER_DEMAND_2026_09_09","type":"high_quality_secondary","url":"https://www.reuters.com/business/energy/us-power-use-beat-record-highs-2026-2027-ai-use-surges-eia-says-2026-09-09/","evidence":"U.S. power demand expected to reach records in 2026 and 2027, with AI data centers a major driver."},
-    {"id":"HDHE_PRICE_2026_09_10","type":"secondary_market_reference","url":"https://pflow.keywordegg.com/domestic/267260","evidence":"September 10, 2026 close reference KRW744,000."}
+    {"id":"HDHE_PRICE_2026_09_10_POST_CLOSE","type":"secondary_market_reference","url":"https://mmoney.mk.co.kr/stock/item/chart?code=267260","evidence":"Post-close reference at 15:32 KST showed KRW746,000; a second secondary feed at 16:36 KST also showed KRW746,000."}
   ],
   "source_quality_notes": [
     "Primary regulatory filings are authoritative for financial statements and customer concentration.",
     "Company press releases are primary for management statements, contract structure and production milestones but not independent verification of market-share claims.",
     "The Big Tech framework maximum is not booked as guaranteed revenue; only actual purchase orders and cash conversion count as realized evidence.",
-    "September 10 price is a secondary close reference and not an exchange-audited execution quote."
+    "The September 10 post-close price is a secondary reference, not an exchange-audited execution quote. The earlier KRW744,000 intraday observation was corrected before final handoff."
   ]
 }
