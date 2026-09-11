@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "TMDX",
+  "as_of": "2026-09-11",
+  "currency": "USD",
+  "unit": "USD billion unless otherwise noted",
+  "reported": {
+    "q2_2026": {"revenue":0.189948,"product_revenue":0.111158,"service_revenue":0.078790,"operating_income":0.023736,"net_income":0.014682,"gross_margin_pct":60.0,"product_gross_margin_pct":77.0,"service_gross_margin_pct":35.0},
+    "h1_2026": {"revenue":0.363881,"operating_income":0.037033,"net_income":0.021997,"operating_cash_flow":0.041842,"ppe_purchases":0.043749,"stock_based_compensation":0.018558,"cash":0.472675,"accounts_receivable":0.104138,"inventory":0.054137}
+  },
+  "comparative": {
+    "h1_2025_revenue":0.300907,
+    "h1_2025_operating_income":0.064010,
+    "h1_2025_operating_cash_flow":0.088754,
+    "q2_2025_revenue":0.157370,
+    "q2_2025_operating_income":0.036567
+  },
+  "derived_diagnostics": {
+    "h1_revenue_growth_pct":20.93,
+    "h1_operating_margin_pct":10.18,
+    "h1_ocf_margin_pct":11.50,
+    "h1_ocf_less_ppe":-0.001907,
+    "h1_ocf_less_ppe_less_sbc":-0.020465,
+    "q2_service_mix_pct":41.48,
+    "q2_product_mix_pct":58.52,
+    "note":"OCF-PPE and OCF-PPE-SBC are diagnostics, not owner FCF. They omit finance-lease economics, normalized working capital, PAD Aviation cash needs and other recurring claims."
+  },
+  "capital_claims": {
+    "convertible_notes_carrying_value":0.454260,
+    "convertible_notes_face_value":0.460,
+    "bank_debt_total_approx":0.059743,
+    "finance_lease_liability":0.347660,
+    "hq_capex_estimate_low":0.200,
+    "hq_capex_estimate_high":0.240,
+    "note":"Do not double-count the convertible notes when using the diluted-share valuation proxy; lease and headquarters cash needs remain explicit economic claims."
+  },
+  "source_paths": [
+    "companies/TMDX/raw-data/2026-Q2.json",
+    "companies/TMDX/raw-data/2026-09-11-public-update.json"
+  ]
+}
