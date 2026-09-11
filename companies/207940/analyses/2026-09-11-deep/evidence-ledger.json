@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "207940",
+  "as_of": "2026-09-11",
+  "evidence": [
+    {
+      "id": "sbio_h1_2026_filing",
+      "claim_type": "fact",
+      "source_quality": 1,
+      "source": "companies/207940/raw-data/2025-2026-supplied-filings.json",
+      "claim": "H1 2026 continuing revenue KRW 2.578tn, operating income KRW 1.167tn, operating cash flow KRW 1.392tn; issued shares at 2026-06-30 were 46.290951m."
+    },
+    {
+      "id": "sbio_q2_2026_ir",
+      "claim_type": "fact",
+      "source_quality": 2,
+      "url": "https://samsungbiologics.com/media/company-news/samsung-biologics-reports-second-quarter-2026-financial-results",
+      "claim": "Q2 2026 revenue KRW 1.321tn and operating profit KRW 0.586tn; 2026 revenue growth guidance +15% to +20% with management expecting the upper end. Cumulative CMO/CDO orders were 115/176 and cumulative order value USD 21.7bn."
+    },
+    {
+      "id": "sbio_rights_2026",
+      "claim_type": "fact",
+      "source_quality": 2,
+      "url": "https://samsungbiologics.com/media/company-news/samsung-biologics-3-trillion-won-rights-offering",
+      "claim": "Board approved a KRW 3tn rights offering on 2026-08-28: 2.27m new shares at KRW 1.322m indicative issue price; approximately KRW 2.706tn earmarked for PolyPeptide and KRW 0.295tn for Bio Campus II."
+    },
+    {
+      "id": "sbio_polypeptide_offer",
+      "claim_type": "fact",
+      "source_quality": 2,
+      "url": "https://samsungbiologics.com/media/company-news/samsung-biologics-publishes-prospectus-for-polypeptide-public-tender-offer",
+      "claim": "PolyPeptide tender offer is CHF 44.31/share, aggregate equity value about CHF 1.46bn; main offer period 2026-09-15 to 2026-10-12, minimum acceptance threshold 66 2/3%, with regulatory conditions."
+    },
+    {
+      "id": "ppg_h1_2026",
+      "claim_type": "fact",
+      "source_quality": 2,
+      "url": "https://report.polypeptide.com/hyr/26/key-figures",
+      "claim": "PolyPeptide H1 2026 revenue EUR 236.6m (+41.6%), EBITDA EUR 49.1m (20.7% margin), EBIT EUR 22.0m and net income EUR 9.1m."
+    },
+    {
+      "id": "ppg_h1_2026_cash",
+      "claim_type": "fact",
+      "source_quality": 2,
+      "url": "https://report.polypeptide.com/hyr/26/reconciliation-of-operating-result-to-adjusted-ebitda",
+      "claim": "PolyPeptide H1 2026 operating cash flow EUR 25.2m, capex EUR 41.3m, disclosed FCF negative EUR 19.1m and net debt EUR 90.2m."
+    },
+    {
+      "id": "ppg_mix_h1_2026",
+      "claim_type": "fact",
+      "source_quality": 2,
+      "url": "https://report.polypeptide.com/hyr/26/business-review",
+      "claim": "PolyPeptide H1 2026 metabolic therapeutics revenue grew 72.7% and reached 68.4% of revenue; concentration to metabolic demand is therefore strategically attractive but increases modality/end-market concentration risk."
+    },
+    {
+      "id": "market_price_2026_09_11",
+      "claim_type": "fact",
+      "source_quality": 4,
+      "url": "https://www.investing.com/equities/samsung-biologics-co-ltd-historical-data",
+      "claim": "Reference market price used for this review: KRW 1.405m on 2026-09-11 from a secondary market-data source; not exchange-audited."
+    }
+  ],
+  "source_note": "Primary filings and official company/target disclosures dominate. The market price is secondary and is used only as a reference quote. Facts, estimates and inferences are kept separate."
+}
