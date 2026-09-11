@@ -1,0 +1,51 @@
+{
+  "ticker": "207940",
+  "as_of": "2026-09-11",
+  "claim_type": "estimate",
+  "currency": "KRW",
+  "unit": "KRW trillion",
+  "price": 1405000,
+  "price_date": "2026-09-11",
+  "price_status": "SECONDARY_REFERENCE_QUOTE_NOT_EXCHANGE_AUDITED",
+  "pre_rights_shares_m": 46.290951,
+  "rights_new_shares_m": 2.27,
+  "pro_forma_shares_m": 48.560951,
+  "rights_issue_price": 1322000,
+  "rights_gross_proceeds": 3.0,
+  "rights_share_increase_percent": 4.903766180997232,
+  "quality_scores": [13, 9, 13, 10, 6, 8],
+  "required_return": 0.10,
+  "legacy_operating_value_per_share": {
+    "bear": 362576.4757244668,
+    "base": 1151248.54,
+    "bull": 2418875.94
+  },
+  "rights_funded_deployment_value_assumption_trillion": {
+    "bear": 1.5,
+    "base": 3.0,
+    "bull": 4.5
+  },
+  "updated_value_per_share": {
+    "bear": 376516.72,
+    "base": 1159211.02,
+    "bull": 2398471.72
+  },
+  "updated_value_to_price": {
+    "bear": 0.2680,
+    "base": 0.8251,
+    "bull": 1.7071
+  },
+  "valuation_method_note": "The prior 2026-09-06 operating scenarios are retained to isolate the newly material financing event. Scenario equity values are converted to total equity on the old share count, then a scenario value for the KRW 3tn rights-funded deployment is added and divided by the pro-forma 48.560951m shares. This is a bridge analysis, not a full standalone DCF of PolyPeptide. Bear/Base/Bull deployment values of 0.5x/1.0x/1.5x gross proceeds reflect acquisition/capex execution risk and potential strategic upside.",
+  "polypeptide_observed": {
+    "h1_2026_revenue_eur_m": 236.628,
+    "h1_2026_revenue_growth": 0.416,
+    "h1_2026_ebitda_eur_m": 49.091,
+    "h1_2026_ebitda_margin": 0.207,
+    "h1_2026_fcf_eur_m": -19.102,
+    "h1_2026_net_debt_eur_m": 90.178,
+    "metabolic_revenue_share": 0.684
+  },
+  "rights_and_capital": "The rights issue is approximately 4.9% of the pre-offering share count. Because it is a rights offering, existing shareholders can preserve proportional ownership by contributing capital; nevertheless, per-share economics must use the pro-forma denominator and capital allocation must earn an adequate return on the new equity capital.",
+  "falsifier": "If Plant 5/Rockville ramp-up, batch economics and collection do not improve over four reporting periods, or if PolyPeptide integration consumes materially more capital without durable FCF improvement, the moat/reinvestment thesis must be rewritten.",
+  "portfolio_instruction": "Research completion is not a buy authorization. No position size is assigned without actual portfolio risk-budget information."
+}
