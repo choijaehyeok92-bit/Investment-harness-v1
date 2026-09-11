@@ -1,0 +1,21 @@
+{
+  "ticker":"TMDX",
+  "mode":"DATA_EXTRACTION_ONLY",
+  "as_of":"2026-09-11",
+  "source":{
+    "type":"company_primary",
+    "url":"https://investors.transmedics.com/news-releases/news-release-details/transmedics-appoints-fernando-araujo-chief-financial-officer-and",
+    "description":"TransMedics CFO appointment and 2026 outlook reiteration dated 2026-09-10"
+  },
+  "facts":{
+    "incoming_cfo":"Fernando Araujo",
+    "effective_date":"2026-09-21",
+    "prior_role":"CFO of GE HealthCare Advanced Imaging Solutions segment; prior finance leadership at GE HealthCare, GE and 3M",
+    "outgoing_cfo":"Gerardo Hernandez",
+    "outgoing_cfo_new_role":"Commercial Strategic Advisor, LATAM",
+    "fy2026_revenue_guidance_low_usd_m":737,
+    "fy2026_revenue_guidance_high_usd_m":757,
+    "guidance_excludes_pad_revenue":true
+  },
+  "interpretation_limit":"Leadership transition is recorded as a management-capability data point only. It does not remediate the inventory-control material weakness and is not treated as evidence of future financial performance."
+}
