@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0.0",
+  "ticker":"CRDO",
+  "as_of":"2026-09-11",
+  "unit":"USD billion unless per-share",
+  "price_reference":{"price_usd":160.31,"price_date":"2026-09-10","status":"SECONDARY_REFERENCE_CLOSE_NOT_EXCHANGE_AUDITED","valuation_shares_m":194.378,"diluted_equity_value_proxy_usd_b":31.1617},
+  "reverse_expectations":{"claim_type":"estimate","method":"Hold year-1 revenue at $2.35B, Base margin path 22% to 24%, required return at 9% and terminal multiple at 22x; solve constant revenue growth for years 2-10 that equates model value to the reference price.","required_growth_years_2_10":0.18209,"implied_year_10_revenue_usd_b":10.5907,"implied_year_10_owner_cash_usd_b":2.5418,"interpretation":"Conditional expectation set, not a unique market forecast."},
+  "scenarios":{
+    "bear":{"revenue_year_1":2.0,"growth_2_5":0.08,"growth_6_10":0.03,"owner_margin_year_1":0.15,"owner_margin_mature":0.13,"required_return":0.09,"terminal_multiple":16,"year_10_revenue_usd_b":3.1544,"year_10_owner_cash_usd_b":0.4101,"equity_value_usd_b":5.0064,"value_per_share_usd":25.76,"upside_downside_vs_reference":-0.8393},
+    "base":{"revenue_year_1":2.35,"growth_2_5":0.25,"growth_6_10":0.12,"owner_margin_year_1":0.22,"owner_margin_mature":0.24,"required_return":0.09,"terminal_multiple":22,"year_10_revenue_usd_b":10.1111,"year_10_owner_cash_usd_b":2.4267,"equity_value_usd_b":30.7508,"value_per_share_usd":158.20,"upside_downside_vs_reference":-0.0132,"terminal_fraction_of_operating_pv":0.7333},
+    "bull":{"revenue_year_1":2.7,"growth_2_5":0.40,"growth_6_10":0.20,"owner_margin_year_1":0.27,"owner_margin_mature":0.32,"required_return":0.09,"terminal_multiple":28,"year_10_revenue_usd_b":25.8097,"year_10_owner_cash_usd_b":8.2591,"equity_value_usd_b":118.7542,"value_per_share_usd":610.94,"upside_downside_vs_reference":2.8111,"terminal_fraction_of_operating_pv":0.8226}
+  },
+  "two_state_bear_bull_break_even_bull_probability":0.2299,
+  "two_state_note":"Mechanical weight only; not a real-world probability estimate.",
+  "valuation_judgment":"At $160.31 the stock is roughly at the unchanged Base value rather than meaningfully below it. The reverse model requires approximately 18.2% annual revenue growth for nine years under a 22%-24% owner-cash margin path and 22x terminal multiple. Given current triple-digit growth this is feasible, but customer concentration, acquisition integration, SBC and terminal-value dependence leave inadequate margin of safety for STARTER.",
+  "source_paths":["companies/CRDO/analyses/2026-09-11-deep/model-inputs.json","companies/CRDO/analyses/2026-09-11-deep/derived-metrics.json"]
+}
