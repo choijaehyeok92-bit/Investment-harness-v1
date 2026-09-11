@@ -1,0 +1,70 @@
+{
+  "schema_version":"1.0.0",
+  "ticker":"TMDX",
+  "as_of":"2026-09-11",
+  "unit":"USD billion unless per-share",
+  "price_reference":{
+    "price_usd":85.04,
+    "price_date":"2026-09-10",
+    "status":"SECONDARY_REFERENCE_CLOSE_NOT_EXCHANGE_AUDITED",
+    "valuation_shares_m":40.709227,
+    "diluted_equity_value_proxy_usd_b":3.46191266408
+  },
+  "model_basis":"Operating scenarios are unchanged from 2026-09-06 to avoid moving business assumptions with the share price. Q2 cash-flow, control, capital-structure and PAD evidence are refreshed; the current price is re-underwritten against the same Bear/Base/Bull operating paths.",
+  "reverse_expectations":{
+    "claim_type":"estimate",
+    "method":"Hold year-1 revenue at $0.9B, owner-margin path from 2% to 16%, required return at 9%, terminal multiple at 22x and the same first-four-year $45M annual capital cash adjustment; solve one constant revenue growth rate for years 2-10 that equates model value to the reference price.",
+    "required_growth_years_2_10":0.0781929315,
+    "implied_year_10_revenue_usd_b":1.772192247,
+    "implied_year_10_owner_cash_usd_b":0.283550760,
+    "interpretation":"This is a conditional price-justifying combination, not the market's unique forecast. The low required revenue growth is only sufficient if TransMedics eventually converts scale into roughly 16% owner-cash margin after aircraft/logistics, lease and headquarters capital intensity."
+  },
+  "scenarios":{
+    "bear":{
+      "revenue_year_1":0.78,
+      "growth_2_5":0.05,
+      "growth_6_10":0.02,
+      "owner_margin_year_1":-0.03,
+      "owner_margin_mature":0.08,
+      "required_return":0.09,
+      "terminal_multiple":16,
+      "value_per_share_usd":17.17899305,
+      "upside_downside_vs_reference":-0.79799036
+    },
+    "base":{
+      "revenue_year_1":0.90,
+      "growth_2_5":0.16,
+      "growth_6_10":0.07,
+      "owner_margin_year_1":0.02,
+      "owner_margin_mature":0.16,
+      "required_return":0.09,
+      "terminal_multiple":22,
+      "value_per_share_usd":110.47,
+      "upside_downside_vs_reference":0.29903575,
+      "terminal_fraction_of_operating_pv":0.756
+    },
+    "bull":{
+      "revenue_year_1":1.02,
+      "growth_2_5":0.25,
+      "growth_6_10":0.12,
+      "owner_margin_year_1":0.05,
+      "owner_margin_mature":0.23,
+      "required_return":0.09,
+      "terminal_multiple":28,
+      "value_per_share_usd":362.76,
+      "upside_downside_vs_reference":3.26575729
+    }
+  },
+  "base_sensitivity_value_per_share_usd":{
+    "required_return_7pct":{"owner_margin_minus_3pp":104.45,"base_owner_margin":131.24,"owner_margin_plus_3pp":158.02},
+    "required_return_9pct":{"owner_margin_minus_3pp":87.67,"base_owner_margin":110.47,"owner_margin_plus_3pp":133.28},
+    "required_return_11pct":{"owner_margin_minus_3pp":73.85,"base_owner_margin":93.36,"owner_margin_plus_3pp":112.88}
+  },
+  "two_state_bear_bull_break_even_bull_probability":0.196367872,
+  "valuation_judgment":"The reference price is below Base and no longer embeds aggressive top-line growth under the model. However, the apparent margin of safety depends heavily on future owner-cash conversion that is not yet visible in H1 2026. Valuation is attractive enough to raise the score, but unresolved internal-control, capital-intensity and unit-economics evidence prevents a purchase authorization.",
+  "source_paths":[
+    "companies/TMDX/analyses/2026-09-11-deep/model-inputs.json",
+    "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json",
+    "companies/TMDX/analyses/2026-09-06-deep/valuation.json"
+  ]
+}
