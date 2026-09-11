@@ -1,0 +1,69 @@
+{
+  "ticker": "PLTR",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "unit": "USD billion",
+  "as_of": "2026-09-11",
+  "price": 165.86,
+  "price_date": "2026-09-10",
+  "price_status": "SECONDARY_REFERENCE_CLOSE_NOT_EXCHANGE_AUDITED",
+  "valuation_shares_m": 2568.694,
+  "current_common_shares_m": 2402.896741,
+  "share_basis_status": "Q2_2026_DILUTED_WEIGHTED_AVERAGE_PROXY_WITH_CURRENT_SHARE_CROSSCHECK",
+  "liquidity_cash": 2.030047,
+  "marketable_securities": 7.379052,
+  "minimum_cash_reserve": 2.0,
+  "quality_scores": [14, 9, 13, 11, 6, 10],
+  "required_return": 0.09,
+  "terminal_multiple": {
+    "bear": 16,
+    "base": 22,
+    "bull": 28
+  },
+  "components": [
+    {
+      "name": "aip_government_commercial",
+      "ownership": 1.0,
+      "scenarios": {
+        "bear": {
+          "revenue_year_1": 9.0,
+          "growth_2_5": 0.18,
+          "growth_6_10": 0.08,
+          "owner_margin_year_1": 0.25,
+          "owner_margin_mature": 0.25
+        },
+        "base": {
+          "revenue_year_1": 10.8,
+          "growth_2_5": 0.32,
+          "growth_6_10": 0.16,
+          "owner_margin_year_1": 0.32,
+          "owner_margin_mature": 0.35
+        },
+        "bull": {
+          "revenue_year_1": 12.5,
+          "growth_2_5": 0.45,
+          "growth_6_10": 0.22,
+          "owner_margin_year_1": 0.38,
+          "owner_margin_mature": 0.43
+        }
+      }
+    }
+  ],
+  "scenario_change_note": "Operating scenario assumptions are unchanged from 2026-09-06-deep because no new quarterly financial statements have been filed. The reassessment updates price, evidence confidence, score interpretation, dilution detail and reverse expectations rather than silently rewriting the operating forecast.",
+  "financial_finding": "H1 2026 revenue 3.568B, GAAP operating income 1.666B, and OCF 2.115B. OCF-PPE-SBC owner proxy is 1.627B versus 0.520B in H1 2025, while SBC/revenue improved to 13.1% from 16.7%.",
+  "economic_risk": "Rapid growth and operating leverage are real, but current valuation still requires a very long duration of high growth. Working-capital timing, U.S. exposure, government procurement, competition and equity-compensation overhang remain material.",
+  "rights_and_capital": "Current common shares were 2.403B at 2026-06-30; the valuation retains the more conservative Q2 diluted weighted-average proxy of 2.569B. Outstanding options, RSUs and SARs are monitored separately and are not assumed away.",
+  "model_family": "sbc_platform",
+  "falsifier": "If U.S. commercial growth and remaining deal value decelerate sharply while per-share owner cash and renewal economics weaken for two or more reporting periods, the long-duration AIP moat thesis is invalidated.",
+  "investigate_veto_indices": [2, 4, 6, 8],
+  "base_mature_cash_bridge": {
+    "economic_operating_margin_after_sbc": 0.47,
+    "cash_tax_rate": 0.21,
+    "da_less_all_capex_to_revenue": -0.0113,
+    "working_capital_cash_cost_to_revenue": 0.01,
+    "interest_net_debt_service_other_claims_to_revenue": 0.0
+  },
+  "cash_bridge_note": "Forward owner margins are estimates. SBC is treated as an economic operating cost. The model does not add the full securities portfolio to value; liquidity is treated conservatively and the operating scenario must justify the equity value on its own.",
+  "forecast_basis": "NEXT_12_MONTHS_FROM_2026_09_11_THEN_NINE_YEARS; scenario path retained from prior deep analysis for comparability",
+  "portfolio_instruction": "Company research completion is not a buy approval. Macro affects position pacing and risk budget, not the company score."
+}
