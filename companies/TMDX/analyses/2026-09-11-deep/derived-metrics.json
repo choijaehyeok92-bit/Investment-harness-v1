@@ -1,0 +1,44 @@
+{
+  "schema_version":"1.0.0",
+  "ticker":"TMDX",
+  "as_of":"2026-09-11",
+  "claim_type":"calculation",
+  "metrics": {
+    "h1_2026": {
+      "revenue_growth_pct":20.93,
+      "operating_margin_pct":10.18,
+      "ocf_margin_pct":11.50,
+      "ocf_less_ppe_usd_b":-0.001907,
+      "ocf_less_ppe_less_sbc_usd_b":-0.020465
+    },
+    "mix": {
+      "q2_product_revenue_pct":58.52,
+      "q2_service_revenue_pct":41.48,
+      "q2_product_gross_margin_pct":77.0,
+      "q2_service_gross_margin_pct":35.0
+    },
+    "valuation_reference": {
+      "price_usd":85.04,
+      "diluted_share_proxy_m":40.709227,
+      "diluted_equity_value_proxy_usd_b":3.46191266408,
+      "bear_value_per_share_usd":17.17899304794098,
+      "base_value_per_share_usd":110.47,
+      "bull_value_per_share_usd":362.76,
+      "bear_upside_downside_pct":-79.80,
+      "base_upside_downside_pct":29.90,
+      "bull_upside_downside_pct":326.58,
+      "two_state_bear_bull_break_even_bull_probability":0.1963678720
+    },
+    "reverse_expectations": {
+      "method":"Hold year-1 revenue at 0.9B, owner-margin path from 2% to 16%, required return at 9%, terminal multiple at 22x and the same first-four-year 45M annual capital cash adjustment; solve one constant revenue growth rate for years 2-10 that equates model value to the reference price.",
+      "required_growth_years_2_10":0.0781929315,
+      "implied_year_10_revenue_usd_b":1.772192247,
+      "implied_year_10_owner_cash_usd_b":0.283550760,
+      "interpretation":"A conditional price-justifying combination, not the market's unique forecast. The current price embeds modest revenue growth only if the company eventually achieves a 16% owner-cash margin after substantial capital intensity."
+    }
+  },
+  "source_paths":[
+    "companies/TMDX/analyses/2026-09-11-deep/financials.json",
+    "companies/TMDX/analyses/2026-09-06-deep/valuation.json"
+  ]
+}
