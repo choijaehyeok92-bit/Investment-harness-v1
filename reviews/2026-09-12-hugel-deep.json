@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-12",
+  "purpose": "Deep re-underwrite and promotion of Hugel (145020) from PRELIMINARY_REVIEW to FULL_ANALYSIS under the Investment Harness completion gate.",
+  "authority_rule": "company latest.json is the current authority pointer; historical preliminary assessment remains immutable audit history.",
+  "company": {
+    "ticker": "145020",
+    "name": "Hugel, Inc.",
+    "prior_state": "PRELIMINARY_REVIEW",
+    "new_state": "FULL_ANALYSIS",
+    "run": "2026-09-12-deep",
+    "score": 80,
+    "business_quality_75": 59,
+    "decision": "WATCH",
+    "hard_veto_status": "INVESTIGATE",
+    "buy_authorized": false,
+    "assessment": "companies/145020/analyses/2026-09-12-deep/assessment.json",
+    "valuation": "companies/145020/analyses/2026-09-12-deep/valuation.json",
+    "thesis": "companies/145020/analyses/2026-09-12-deep/thesis.ko.md",
+    "evidence_ledger": "companies/145020/analyses/2026-09-12-deep/evidence-ledger.json"
+  },
+  "completion_gate": {
+    "all_eight_categories": true,
+    "all_nine_hard_vetoes": true,
+    "market_implied_expectations": true,
+    "bear_base_bull": true,
+    "permanent_loss_case": true,
+    "falsifiers": true,
+    "increase_evidence": true,
+    "sell_evidence": true,
+    "source_quality_notes": true,
+    "status": "COMPLETE"
+  },
+  "state_delta": {"PRELIMINARY_REVIEW": -1, "FULL_ANALYSIS": 1},
+  "resolved_state_counts_after_review": {"PRELIMINARY_REVIEW": 50, "FULL_ANALYSIS": 43},
+  "notes": [
+    "Promotion is research-state completion, not trade authorization.",
+    "Hard Veto remains superior to score. Persistent dilution, incremental ROIC, concentration and permanent-loss items remain INVESTIGATE.",
+    "registry/companies.json may retain cached discovery metadata until a later registry rebuild; company latest.json is authoritative."
+  ]
+}
