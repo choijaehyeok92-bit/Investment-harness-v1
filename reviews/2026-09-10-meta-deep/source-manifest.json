@@ -1,0 +1,16 @@
+{
+  "ticker":"META",
+  "as_of":"2026-09-10",
+  "source_policy":"Primary filings and company IR first; current secondary sources only for market price, independent event confirmation and product/regulatory context.",
+  "sources":[
+    {"tier":1,"name":"Meta Q2 2026 earnings release","url":"https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx","use":"Q2 revenue, DAP, ad metrics, OCF, FCF, capex guidance"},
+    {"tier":1,"name":"Meta Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm","use":"H1 financials, SBC, debt, commitments, leases, share count, controls, Reality Labs"},
+    {"tier":1,"name":"Meta FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm","use":"FY2025 financials, audit/ICFR, customer concentration, Reality Labs, historical SBC/capex"},
+    {"tier":1,"name":"Meta state-AG youth agreement","url":"https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx","use":"$18B settlement framework and expected Q3 legal charge"},
+    {"tier":2,"name":"Reuters Muse launch","url":"https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08/","use":"Current product launch, pricing, safety/reliability context"},
+    {"tier":2,"name":"Reuters youth settlement","url":"https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/","use":"Independent settlement context"},
+    {"tier":3,"name":"StockAnalysis META history","url":"https://stockanalysis.com/stocks/meta/history/","use":"2026-09-10 close $646.49"}
+  ],
+  "calculation_trace":["TTM = FY2025 + H1 2026 - H1 2025","Market cap = $646.49 x 2.547506225B shares","DCF assumptions and reverse-growth solver are documented in companies/META/analyses/2026-09-10-deep/valuation.json"],
+  "limitations":["Muse economics are too new for Base capitalization.","Contractual commitments and not-yet-commenced leases span many years and are not treated as immediate debt.","Normalized owner cash after the current AI buildout remains an estimate."]
+}

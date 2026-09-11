@@ -1,0 +1,49 @@
+{
+  "ticker": "META",
+  "as_of": "2026-09-10",
+  "currency": "USD",
+  "reference_price": 646.49,
+  "reference_price_date": "2026-09-10 US close",
+  "shares_billion": 2.547506225,
+  "share_count_basis": "2,205,128,509 Class A plus 342,377,716 Class B outstanding as of 2026-07-24",
+  "simple_market_cap_billion": 1646.9373,
+  "required_return": 0.09,
+  "net_cash_adjustment_billion": 6.26,
+  "net_cash_note": "Cash, cash equivalents and marketable securities of $90.26B less $84.0B debt principal. Restricted cash, future leases and contractual commitments are not mechanically netted into equity value.",
+  "ttm_diagnostics_billion": {
+    "formula": "FY2025 + H1 2026 - H1 2025",
+    "revenue": 228.247,
+    "gaap_net_income": 68.098,
+    "operating_cash_flow": 130.301,
+    "ppe_purchases": 89.325,
+    "finance_lease_principal": 3.104,
+    "company_definition_like_fcf": 37.872,
+    "stock_based_compensation": 25.136,
+    "fcf_minus_sbc_diagnostic": 12.736,
+    "market_cap_to_gaap_net_income": 24.1848,
+    "market_cap_to_fcf": 43.4869,
+    "market_cap_to_fcf_minus_sbc_diagnostic": 129.3135
+  },
+  "model_method": "10-year annual owner-cash distributions plus year-10 owner-cash multiple; current net cash added once. Owner-cash margins are analyst estimates, not reported FCF margins. Current capex contains substantial growth investment, so the model does not anchor to the depressed reported FCF margin.",
+  "year1_revenue_billion": 250.0,
+  "scenarios": {
+    "bear": {"years_2_to_10_revenue_growth":0.06,"year1_owner_cash_margin":0.08,"year10_owner_cash_margin":0.12,"terminal_owner_cash_multiple":16.0,"fair_value_per_share":217.44598,"upside_downside_vs_price":-0.66365},
+    "base": {"years_2_to_10_revenue_growth":0.13,"year1_owner_cash_margin":0.10,"year10_owner_cash_margin":0.20,"terminal_owner_cash_multiple":20.0,"fair_value_per_share":668.72769,"upside_downside_vs_price":0.03440},
+    "bull": {"years_2_to_10_revenue_growth":0.18,"year1_owner_cash_margin":0.11,"year10_owner_cash_margin":0.24,"terminal_owner_cash_multiple":24.0,"fair_value_per_share":1312.26372,"upside_downside_vs_price":1.02983}
+  },
+  "reverse_expectations": {
+    "framework": "Hold Base year-1 revenue at $250B, owner-cash margin path 10% to 20%, 20x terminal multiple and 9% hurdle; solve uniform years-2-to-10 revenue growth.",
+    "required_growth": 0.1252511,
+    "interpretation": "Approximately 12.53% annual revenue growth for nine years is demanding for a company of Meta's scale but not demonstrably unrealistic given current high-20s growth. The problem is not a Bull-only price; it is the lack of margin of safety while infrastructure ROIC and regulation remain open gates."
+  },
+  "capital_commitment_overlay": {
+    "2026_capex_guidance_billion": [130,145],
+    "june_non_cancelable_contractual_commitments_billion":349.31,
+    "june_not_yet_commenced_lease_obligations_billion":278.99,
+    "july_additional_data_center_lease_obligations_billion":68.0,
+    "contingent_cloud_capacity_billion":14.72,
+    "restricted_cash_equivalents_billion":10.80,
+    "treatment":"Risk overlay only. These figures span multiple years and may overlap economically with future operations; they are not mechanically deducted from DCF equity value."
+  },
+  "confidence":0.71
+}
