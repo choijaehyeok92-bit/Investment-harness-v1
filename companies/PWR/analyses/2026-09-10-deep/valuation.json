@@ -1,0 +1,54 @@
+{
+  "ticker": "PWR",
+  "as_of": "2026-09-10",
+  "currency": "USD",
+  "claim_type": "estimate",
+  "reference_price": 618.73,
+  "price_date": "2026-09-10",
+  "price_status": "SECONDARY_COMPLETED_SESSION_CLOSE",
+  "valuation_shares_m": 152.3,
+  "share_basis_note": "Conservative diluted-share valuation denominator near Q2 2026 diluted weighted average; not a claim of exact period-end diluted shares.",
+  "cash_b": 0.506,
+  "debt_b": 6.096,
+  "required_return": 0.09,
+  "model_family": "infrastructure_owner_cash_dcf",
+  "ttm_diagnostics_b": {
+    "revenue": 32.905821,
+    "net_income_common": 1.326876,
+    "operating_cash_flow": 3.178249,
+    "capex": 0.787137,
+    "mechanical_ocf_minus_capex": 2.391112,
+    "stock_based_compensation": 0.225738,
+    "conservative_ocf_minus_capex_minus_sbc": 2.165374
+  },
+  "ttm_note": "TTM = FY2025 + H1 2026 - H1 2025. Mechanical cash diagnostics are not normalized owner FCF because working-capital timing, project claims/change orders, acquisition integration and strategic capacity investment remain unresolved.",
+  "scenarios": {
+    "bear": {"year1_revenue_b":35.0,"growth_years_2_5":0.03,"growth_years_6_10":0.02,"owner_cash_margin_year1":0.045,"owner_cash_margin_year10":0.05,"terminal_multiple":13,"fair_value_per_share":118.96,"interpretation":"Project delays, fixed-price cost pressure, weaker large-load buildout and poor acquisition returns normalize growth and margins."},
+    "base": {"year1_revenue_b":39.5,"growth_years_2_5":0.10,"growth_years_6_10":0.07,"owner_cash_margin_year1":0.06,"owner_cash_margin_year10":0.085,"terminal_multiple":18,"fair_value_per_share":479.64,"interpretation":"Strong grid/large-load demand persists but growth and scarcity normalize; integration and scale gradually improve owner-cash margin."},
+    "bull": {"year1_revenue_b":42.0,"growth_years_2_5":0.16,"growth_years_6_10":0.10,"owner_cash_margin_year1":0.07,"owner_cash_margin_year10":0.105,"terminal_multiple":24,"fair_value_per_share":1094.14,"interpretation":"Quanta compounds utility, generation and data-center infrastructure demand with durable execution advantage and high acquisition/capacity ROIC."}
+  },
+  "price_gap": {
+    "bear_to_price": -0.8077,
+    "base_to_price": -0.2248,
+    "bull_to_price": 0.7683,
+    "price_to_base_premium": 0.2900
+  },
+  "reverse_expectations": {
+    "method": "Hold Base year-1 revenue, margin path, 18x terminal multiple, 9% hurdle and current cash/debt constant; solve one uniform revenue growth rate for years 2-10.",
+    "required_growth_years_2_10": 0.11857,
+    "interpretation": "Approximately 11.86% annual revenue growth for nine years is demanding but not demonstrably impossible given current RPO/revenue growth. It nevertheless embeds long duration and leaves limited margin of safety against project, acquisition and cash-conversion risk."
+  },
+  "market_diagnostics": {
+    "simple_market_cap_b": 94.24,
+    "market_cap_to_ttm_net_income": 71.0,
+    "market_cap_to_mechanical_ocf_minus_capex": 39.4,
+    "market_cap_to_conservative_cash_diagnostic": 43.5
+  },
+  "model_risks": [
+    "Terminal value remains material and owner-cash margins are estimates rather than audited normalized FCF.",
+    "2026 revenue guidance contains acquisition contribution and cannot be treated as organic steady-state growth.",
+    "Backlog includes estimated MSA orders and renewals, so only RPO is treated as the stronger contractual demand anchor.",
+    "Cash/debt values are June 2026 references and do not fully pro forma July acquisitions or subsequent financing.",
+    "Project change orders, claims, retainage and percentage-of-completion estimates can shift cash realization materially."
+  ]
+}
