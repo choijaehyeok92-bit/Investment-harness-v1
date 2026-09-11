@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "CRDO",
+  "as_of": "2026-09-11",
+  "claim_type": "fact",
+  "source_paths": [
+    "companies/CRDO/raw-data/2027-Q1.json",
+    "companies/CRDO/raw-data/2026-09-11-public-update.json"
+  ],
+  "observations": [
+    {"id":"q1_revenue","value":0.479003,"unit":"USD billion","period":"FY2027 Q1","source":"SEC 10-Q"},
+    {"id":"q1_operating_income","value":0.120700,"unit":"USD billion","period":"FY2027 Q1","source":"SEC 10-Q"},
+    {"id":"q1_ocf","value":0.090231,"unit":"USD billion","period":"FY2027 Q1","source":"SEC 10-Q"},
+    {"id":"q1_capex","value":0.007282,"unit":"USD billion","period":"FY2027 Q1","source":"SEC 10-Q"},
+    {"id":"q1_sbc","value":0.087979,"unit":"USD billion","period":"FY2027 Q1","source":"SEC 10-Q"},
+    {"id":"q1_inventory","value":0.313051,"unit":"USD billion","period":"2026-08-01","source":"SEC 10-Q"},
+    {"id":"q1_ar","value":0.288798,"unit":"USD billion","period":"2026-08-01","source":"SEC 10-Q"},
+    {"id":"liquidity","value":0.764258,"unit":"USD billion","period":"2026-08-01","source":"SEC 10-Q"},
+    {"id":"dust_purchase","value":1.251111,"unit":"USD billion","period":"2026-05-28 acquisition","source":"SEC 10-Q"},
+    {"id":"dust_goodwill","value":0.895839,"unit":"USD billion","period":"2026-05-28 acquisition","source":"SEC 10-Q"},
+    {"id":"q1_diluted_shares","value":194.378,"unit":"million shares","period":"FY2027 Q1","source":"SEC 10-Q"},
+    {"id":"price_reference","value":160.31,"unit":"USD/share","period":"2026-09-10 close","source":"secondary market reference","uncertainty":"not exchange-audited by harness"}
+  ]
+}
