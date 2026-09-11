@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "PLTR",
+  "as_of": "2026-09-11",
+  "observations": [
+    {"id":"rev_h1_2026","claim_type":"fact","value":3.568047,"unit":"USD billion","period":"2026-H1","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"opinc_h1_2026","claim_type":"fact","value":1.666002,"unit":"USD billion","period":"2026-H1","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"ocf_h1_2026","claim_type":"fact","value":2.115332,"unit":"USD billion","period":"2026-H1","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"capex_h1_2026","claim_type":"fact","value":0.021955,"unit":"USD billion","period":"2026-H1","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"sbc_h1_2026","claim_type":"fact","value":0.466801,"unit":"USD billion","period":"2026-H1","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"cash_2026_06_30","claim_type":"fact","value":2.030047,"unit":"USD billion","period":"2026-06-30","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"marketable_2026_06_30","claim_type":"fact","value":7.379052,"unit":"USD billion","period":"2026-06-30","raw_path":"companies/PLTR/raw-data/2026-Q2.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"q2_us_commercial_growth","claim_type":"fact","value":149,"unit":"percent YoY","period":"2026-Q2","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"Palantir Q2 2026 IR"},
+    {"id":"q2_us_government_growth","claim_type":"fact","value":90,"unit":"percent YoY","period":"2026-Q2","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"Palantir Q2 2026 IR"},
+    {"id":"us_commercial_rdv","claim_type":"fact","value":6.238,"unit":"USD billion","period":"2026-Q2","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"Palantir Q2 2026 IR"},
+    {"id":"top3_customer_share","claim_type":"fact","value":16,"unit":"percent revenue","period":"2026-H1","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"shares_outstanding","claim_type":"fact","value":2402.896741,"unit":"million shares","period":"2026-06-30","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"diluted_weighted_avg_q2","claim_type":"fact","value":2568.694,"unit":"million shares","period":"2026-Q2","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"Palantir Q2 2026 IR / SEC filing"},
+    {"id":"options_outstanding","claim_type":"fact","value":149.677,"unit":"million awards","period":"2026-06-30","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"SEC Q2 2026 10-Q"},
+    {"id":"nvidia_use_case","claim_type":"fact","value":"NVIDIA described Palantir Foundry as the governed operating context for a supply-chain decision-intelligence workflow and customized Nemotron model lifecycle.","unit":"narrative","period":"2026-09-10","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"NVIDIA technical blog"},
+    {"id":"reference_price","claim_type":"fact","value":165.86,"unit":"USD/share","period":"2026-09-10 close","raw_path":"companies/PLTR/raw-data/2026-09-11-public-update.json","source":"secondary market reference","uncertainty":"Not exchange-audited by harness"}
+  ]
+}
