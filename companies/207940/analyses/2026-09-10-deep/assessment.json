@@ -1,0 +1,65 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "207940",
+  "company_name": "Samsung Biologics Co., Ltd.",
+  "as_of": "2026-09-10",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "Additive-only research checkpoint. latest.json, registry, reviews/latest.json, canonical raw-data and baseline-lock remain unchanged pending separate reviewed promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Starter / Watch",
+  "business_quality_score_75": 63,
+  "total_score_100": 73,
+  "required_return": 0.10,
+  "reference_price_pre_rights_krw": 1423000,
+  "theoretical_ex_rights_price_krw": 1418279,
+  "structural_thesis": "Samsung Biologics is a scale-and-execution CDMO leader with 1-4 plants at full utilization, Plant 5 ramping, a first U.S. manufacturing base in Rockville, and a planned PolyPeptide acquisition that would add peptide modality exposure. The core question is no longer demand existence but whether the next capacity and M&A cohorts earn adequate per-share returns after rights-issue funding.",
+  "current_finding": "Harness-rule TTM diagnostics using FY2025 continuing operations plus H1 2026 minus the H1 2025 pure-CDMO comparator are approximately KRW 5.121T revenue, KRW 2.330T operating income, KRW 1.861T net income, KRW 2.619T operating cash flow, KRW 0.811T PPE purchases and KRW 1.808T mechanical OCF-minus-PPE. The H1 2025 comparator is the pre-demerger separate CDMO parent, so the TTM bridge is a diagnostic rather than a perfectly like-for-like audited construct.",
+  "capital_and_survival": "June cash plus short-term financial products were about KRW 2.189T versus current borrowings/bonds plus noncurrent bonds of about KRW 0.965T. A KRW 3T rights offering will issue 2.27M shares at KRW 1.322M, primarily to fund the planned PolyPeptide acquisition and Bio Campus II expansion. This is discretionary growth financing rather than operating-survival dependence.",
+  "permanent_loss_case": "Biologic CDMO demand remains healthy but new capacity outruns utilization, Plant 5/6-8 returns fall below the 10% hurdle, the Rockville and PolyPeptide assets fail to earn adequate returns, a large customer insources or shifts capacity, and valuation compresses while shareholders also fund repeated expansion. The company stays solvent but common-holder capital suffers long-duration impairment.",
+  "falsifiers": [
+    "Plant 5 and Rockville fail to reach planned utilization while fixed costs depress owner cash per share.",
+    "Minimum-purchase-volume backlog falls materially for two reporting periods without replacement wins.",
+    "PolyPeptide integration fails to improve EBITDA/FCF enough to justify the acquisition cost and rights-funded capital.",
+    "A top customer loss causes a material sustained revenue or cash-flow decline that is not offset by diversification.",
+    "OCF-minus-PPE per share declines across multiple updates despite revenue growth.",
+    "A current-period accounting or quality-control failure materially damages client trust.",
+    "Rights issues or other equity funding become a recurring feature of the growth model rather than a one-off transaction."
+  ],
+  "increase_evidence": [
+    "Plant 5/Rockville utilization and cash contribution improve over at least two reporting periods.",
+    "PolyPeptide closes and demonstrates after-tax incremental return above the 10% hurdle after integration costs.",
+    "Backlog converts to revenue and operating cash without material customer concentration deterioration.",
+    "OCF-minus-PPE per share rises after the rights issue on the enlarged share base.",
+    "Plant 6-8 commitments are paced to contracted demand rather than built materially ahead of demand.",
+    "Valuation falls to a clear discount to conservative Base value or normalized owner cash rises materially; price decline alone is insufficient."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {"score":15,"max_score":15,"claim_type":"opinion","confidence":0.91},
+    "customer_value_and_product": {"score":9,"max_score":10,"claim_type":"opinion","confidence":0.88},
+    "moat_trajectory": {"score":13,"max_score":15,"claim_type":"opinion","confidence":0.84},
+    "incremental_roic_and_fcf_per_share": {"score":10,"max_score":15,"claim_type":"opinion","confidence":0.76},
+    "management_and_capital_allocation": {"score":7,"max_score":10,"claim_type":"opinion","confidence":0.75},
+    "financial_survivability": {"score":9,"max_score":10,"claim_type":"opinion","confidence":0.91},
+    "expectation_gap_and_valuation": {"score":6,"max_score":15,"claim_type":"opinion","confidence":0.73},
+    "power_law_and_asymmetry": {"score":4,"max_score":10,"claim_type":"opinion","confidence":0.70}
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {"id":"management_or_accounting_integrity","status":"PASS","evidence":["Current reviewed/audited reporting did not reveal a present-period reliability failure; the historical SFC second-measure litigation remains a monitor."],"confidence":0.78},
+      {"id":"external_capital_dependence","status":"PASS","evidence":["The rights issue funds acquisition and expansion, not operating survival; cash generation and liquidity remain strong."],"confidence":0.90},
+      {"id":"persistent_dilution","status":"PASS","evidence":["The 2.27M-share rights issue is material but pre-emptive and currently a one-off growth-financing transaction, not evidence of long-duration excessive dilution."],"confidence":0.82},
+      {"id":"low_quality_growth","status":"PASS","evidence":["Revenue growth is supported by manufacturing utilization, long-term contracts and cash generation rather than disclosed subsidy or customer-financing dependence."],"confidence":0.88},
+      {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":["Plant 5, Rockville, planned Plants 6-8 and the PolyPeptide acquisition create large new capital cohorts whose after-tax cash return is not yet observable."],"confidence":0.92},
+      {"id":"moat_shrinkage","status":"PASS","evidence":["Full utilization of Plants 1-4, strong order book, regulatory track record and global expansion do not show persistent moat contraction."],"confidence":0.85},
+      {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":["At the theoretical ex-rights reference, Base economics imply roughly 14.55% annual revenue growth in years 2-10; demanding, but not demonstrably beyond current CDMO growth and capacity plans."],"confidence":0.74},
+      {"id":"fatal_concentration","status":"PASS","evidence":["The largest 2025 customer was about 21% of revenue and top three about 43%; material concentration exists but no evidence currently shows company-fatal dependence on a single customer, product or regulation."],"confidence":0.76},
+      {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":["High valuation, substantial capacity expansion, a large rights-funded acquisition and customer concentration can create long-duration impairment even without solvency risk."],"confidence":0.83}
+    ]
+  },
+  "completion_gate": {"passed": true, "investment_gates_open": ["incremental_roic_collapse","permanent_loss_probability"]}
+}
