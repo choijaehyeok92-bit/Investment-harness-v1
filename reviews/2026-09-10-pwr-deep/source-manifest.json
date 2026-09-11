@@ -1,0 +1,29 @@
+{
+  "ticker": "PWR",
+  "as_of": "2026-09-10",
+  "source_policy": "Primary filings and company IR first; secondary market quote only for completed-session reference price.",
+  "sources": [
+    {"type":"SEC_10Q","url":"https://www.sec.gov/Archives/edgar/data/1050915/000105091526000025/pwr-20260630.htm","used_for":["H1 financials","RPO/backlog definitions","customer concentration","cash/debt/liquidity","DSO","SBC","acquisitions","contract assets"]},
+    {"type":"SEC_10K","url":"https://www.sec.gov/Archives/edgar/data/1050915/000105091526000006/pwr-20251231.htm","used_for":["FY2025 financials","PwC audit and ICFR","percentage-of-completion accounting","unapproved change orders and claims","customer concentration","2025 acquisition/capex/SBC"]},
+    {"type":"COMPANY_IR","url":"https://investors.quantaservices.com/news-events/press-releases/detail/402/quanta-services-reports-second-quarter-2026-results","used_for":["Q2 results","FY2026 guidance","RPO/backlog headline"]},
+    {"type":"COMPANY_IR_8K","url":"https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001193125-26-324855/d56853dex991.htm","used_for":["Phalcon/Percheron/PSD/Enerfab consideration and expected 2026 contribution","RPO/backlog reconciliation"]},
+    {"type":"COMPANY_IR","url":"https://investors.quantaservices.com/news-events/investor-day","used_for":["2026 Investor Day and long-term strategy context"]},
+    {"type":"SECONDARY_MARKET_QUOTE","url":"https://www.marketwatch.com/data-news/quanta-services-inc-stock-outperforms-competitors-despite-losses-on-the-day-36793723-5ac783e06dff","used_for":["September 10 2026 close $618.73"]}
+  ],
+  "calculation_trace": {
+    "ttm_formula":"FY2025 + H1 2026 - H1 2025",
+    "ttm_revenue_b":32.905821,
+    "ttm_net_income_common_b":1.326876,
+    "ttm_ocf_b":3.178249,
+    "ttm_capex_b":0.787137,
+    "ttm_ocf_minus_capex_b":2.391112,
+    "ttm_sbc_b":0.225738,
+    "conservative_cash_diagnostic_b":2.165374,
+    "valuation_note":"All scenario values and reverse expectations are analyst estimates, not company guidance."
+  },
+  "source_quality_notes": [
+    "Backlog is explicitly weaker than RPO because it adds MSA estimated orders/renewals and certain non-fixed-price work.",
+    "2026 guidance includes acquisition contribution; it is not labeled organic steady-state growth.",
+    "Market price comes from a secondary completed-session source; company fundamentals are grounded in primary sources."
+  ]
+}
