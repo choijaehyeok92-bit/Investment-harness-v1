@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "META",
+  "company_name": "Meta Platforms, Inc.",
+  "as_of": "2026-09-10",
+  "listing_market": "US",
+  "issuer_market_context": "US global digital advertising, social platforms and AI infrastructure",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "Additive-only research checkpoint. companies/META/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock and frozen deterministic outputs remain unchanged pending separate reviewed promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 62,
+  "business_quality_75": 62,
+  "total_score_100": 75,
+  "required_return": 0.09,
+  "reference_price": 646.49,
+  "reference_price_date": "2026-09-10 US close",
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented.",
+  "structural_thesis": "Meta remains one of the world's strongest attention-and-advertising networks. AI recommendation and ranking are already improving ad volume and pricing, while WhatsApp, paid messaging, Threads, AI glasses and the newly launched Muse agent provide additional monetization surfaces. The investment question is whether that durable network and advertiser economics can earn an adequate return on the extraordinary AI infrastructure, talent and Reality Labs capital now being committed.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately $228.247B revenue, $68.098B GAAP net income, $130.301B operating cash flow, $89.325B PPE purchases, $3.104B finance-lease principal payments, $37.872B company-definition-like FCF, $25.136B SBC and $12.736B FCF-minus-SBC diagnostic. This last figure is deliberately conservative and is not normalized owner FCF because current infrastructure spending includes substantial growth investment.",
+  "economic_finding": "Q2 revenue was $60.801B (+28% YoY); ad impressions rose 14% and average price per ad 12%. H1 advertising revenue rose 30% and H1 OCF rose 29%. In contrast, Q2 reported FCF was only $0.784B because capex and finance-lease principal reached $31.078B. The divergence is consistent with a high-growth infrastructure investment cycle rather than proven low-quality revenue, but it makes incremental ROIC the central open evidence gate.",
+  "capital_and_survival": "June cash, cash equivalents and marketable securities were $90.26B versus $84.0B debt principal. Operating liquidity is strong, but June non-cancelable contractual commitments were $349.31B, not-yet-commenced leases were about $278.99B, and July added about $68B of data-center leases. These obligations are not mechanically added to debt or deducted from intrinsic value because timing and economic use span many years, but they materially increase capital-allocation duration risk.",
+  "permanent_loss_case": "Ad growth and engagement remain healthy but AI infrastructure and third-party cloud commitments earn sub-hurdle returns; Reality Labs continues multi-billion-dollar annual losses; AI talent SBC rises faster than per-share cash generation; teen-safety, privacy or competition remedies reduce engagement or targeting economics; and the controlling-shareholder structure permits prolonged reinvestment despite weak marginal returns. Meta remains solvent, but common shareholders suffer long-duration impairment and multiple compression.",
+  "falsifiers": [
+    "Ad impressions and price per ad both decelerate materially for multiple quarters while advertiser cash collections weaken.",
+    "TTM FCF per share and OCF per share fail to grow after the 2026-2028 data-center investment wave despite continued revenue growth.",
+    "AI infrastructure cohorts fail to earn an after-tax return above the 9% hurdle after utilization and depreciation normalize.",
+    "SBC and net share issuance remain structurally high while buybacks stay suspended or merely offset compensation dilution.",
+    "Reality Labs losses remain near $20B annually without a credible path to monetization or strategic option value.",
+    "Youth-safety, privacy or competition remedies materially reduce ad targeting, engagement or monetization.",
+    "Muse or other agent initiatives increase safety/legal cost without creating durable subscription, commerce or ad economics.",
+    "Meta's recommendation or advertising systems lose measurable share to TikTok, Google, Amazon or AI-native discovery platforms.",
+    "The stock remains near or above Base value while revenue growth and mature owner-cash expectations fall.",
+    "A material accounting or control failure emerges."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods showing high-teens-or-better ad revenue growth together with rising owner cash per share after infrastructure spending.",
+    "Evidence that AI recommendation/ad-ranking gains persist after the current capex wave and generate after-tax incremental ROIC above 9%.",
+    "SBC/revenue and net share issuance trend down while AI talent retention remains strong.",
+    "WhatsApp paid messaging, Threads, Muse or AI glasses become material revenue/cash contributors without cannibalizing the core ad franchise.",
+    "Reality Labs cash burn declines structurally or produces independently verifiable high-value product economics.",
+    "Contractual infrastructure commitments remain well utilized and do not create stranded capacity or repeated restructuring charges.",
+    "Expectation gap becomes clearly favorable through materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Sustained decline in ad pricing, impressions or advertiser return on ad spend alongside weaker cash collections.",
+    "AI/data-center returns remain below the hurdle after a reasonable utilization period while commitments continue expanding.",
+    "Persistent net dilution from SBC without corresponding owner-cash-per-share growth.",
+    "Reality Labs and consumer AI spending remain structurally loss-making with no credible monetization evidence.",
+    "Regulatory remedies materially impair targeting, recommendation, engagement or access to user data.",
+    "Meta loses workflow/discovery share to competing AI agents and fails to monetize Muse or messaging commerce.",
+    "Debt and fixed commitments expand materially faster than operating cash generation.",
+    "A governance or accounting event materially weakens minority-shareholder rights or trust.",
+    "Valuation remains near Bull economics while business evidence weakens."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {"score":15,"max_score":15,"claim_type":"opinion","evidence":["Q2 revenue grew 28%; H1 advertising revenue grew 30%; Meta launched Muse as a new consumer-agent surface in September.","AI is already embedded in recommendation, ad ranking, creative and delivery across a daily user base of 3.60B."],"counter_evidence":["The direct consumer-agent business is newly launched and not yet proven as a material profit pool."],"confidence":0.91,"missing_data":["Muse cohort retention and unit economics."]},
+    "customer_value_and_product": {"score":10,"max_score":10,"claim_type":"opinion","evidence":["Q2 ad impressions rose 14% and average price per ad 12% simultaneously, indicating advertiser demand and engagement rather than only one pricing lever.","No customer represented 10% or more of 2025 revenue or receivables."],"counter_evidence":["Advertisers can generally reduce budgets quickly and regulation can impair targeting efficiency."],"confidence":0.92,"missing_data":[]},
+    "moat_trajectory": {"score":13,"max_score":15,"claim_type":"opinion","evidence":["3.60B daily active people, a diversified advertiser base, recommendation data, creator inventory and messaging distribution reinforce network and data advantages.","AI recommendation and ranking are currently strengthening core ad economics rather than displacing them."],"counter_evidence":["TikTok, YouTube, Amazon, Google and AI-native discovery/agent systems compete for attention, commerce intent and advertiser budgets."],"confidence":0.85,"missing_data":["Independent long-run advertiser ROAS and cross-platform share trends."]},
+    "incremental_roic_and_fcf_per_share": {"score":9,"max_score":15,"claim_type":"opinion","evidence":["TTM OCF is about $130.3B and core FoA remains highly profitable.","H1 OCF grew 29% while advertising revenue grew 30%."],"counter_evidence":["TTM PPE plus finance-lease principal exceeded $92B; 2026 capex guidance is $130-145B; the marginal returns on current AI/data-center cohorts are not yet observable.","Q2 FCF was only $0.784B because infrastructure spending absorbed nearly all operating cash generated in the quarter."],"confidence":0.8,"missing_data":["Cohort-level after-tax returns on 2026-2028 AI infrastructure and third-party capacity commitments."]},
+    "management_and_capital_allocation": {"score":6,"max_score":10,"claim_type":"opinion","evidence":["Management historically repurchased shares and has successfully converted AI recommendation investment into stronger ad economics.","Muse, WhatsApp paid messaging and AI glasses create potentially large new optionality."],"counter_evidence":["Reality Labs lost $19.2B in 2025 and remains deeply loss-making; 2026 infrastructure commitments are extremely large; founder voting control limits minority shareholder influence.","The August 2026 youth-safety settlement is approximately $18B and Meta expects an approximately $10B Q3 legal charge."],"confidence":0.78,"missing_data":["Realized returns on current AI capacity and direct monetization economics of new AI products."]},
+    "financial_survivability": {"score":9,"max_score":10,"claim_type":"opinion","evidence":["June cash and marketable securities were $90.26B and TTM OCF about $130.3B.","EY issued unqualified opinions on FY2025 financial statements and ICFR."],"counter_evidence":["Debt principal rose to $84B and off-balance-sheet/future infrastructure commitments are exceptionally large."],"confidence":0.93,"missing_data":[]},
+    "expectation_gap_and_valuation": {"score":7,"max_score":15,"claim_type":"opinion","evidence":["At $646.49, the retained/Base model built for this checkpoint yields about $668.73 per share, only modestly above market.","Under Base economics the price requires approximately 12.53% annual revenue growth in years 2-10 after a $250B year-1 revenue base."],"counter_evidence":["Current revenue/ad growth is far above 12.5%, so the price does not require an impossible Bull-only case; however, Base provides little margin of safety against capex and regulation risk."],"confidence":0.76,"missing_data":["Normalized post-investment owner margin after the current AI buildout."]},
+    "power_law_and_asymmetry": {"score":6,"max_score":10,"claim_type":"opinion","evidence":["The Bull case is above $1,300 per share if AI-driven ads, messaging commerce and new consumer agents compound at high rates."],"counter_evidence":["The Bear case is near $217, and Base is only slightly above price; current entry asymmetry is not strongly favorable."],"confidence":0.72,"missing_data":[]}
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {"id":"management_or_accounting_integrity","status":"PASS","evidence":["EY issued unqualified opinions on FY2025 financial statements and ICFR; June 2026 disclosure controls were reported effective."],"severity":"NO_TRIGGER_FOUND","confidence":0.94,"resolution_needed":"Monitor legal/regulatory matters separately from accounting integrity."},
+      {"id":"external_capital_dependence","status":"PASS","evidence":["Meta remains strongly cash generative with roughly $90B of cash and marketable securities; debt issuance finances discretionary infrastructure rather than operating survival."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.9,"resolution_needed":"Monitor debt and long-duration commitments relative to OCF."},
+      {"id":"persistent_dilution","status":"INVESTIGATE","evidence":["H1 2026 SBC was $13.69B, no Class A shares were repurchased, and period-end common shares increased from about 2.530B at 2025 year-end to about 2.548B by July 24, 2026; 146.5M RSUs remained unvested at June 30."],"severity":"ECONOMIC_DILUTION_GATE_OPEN","confidence":0.9,"resolution_needed":"Require SBC/revenue, net shares and owner cash per share to improve together."},
+      {"id":"low_quality_growth","status":"PASS","evidence":["Growth is supported by higher ad impressions, higher average ad price and rising customer cash collections; no customer-financing mechanism is required to sustain demand."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.9,"resolution_needed":"Track cash conversion through ad-cycle volatility."},
+      {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":["No collapse is proven, but $130-145B 2026 capex guidance, $349.31B non-cancelable commitments and massive future lease commitments create new capital cohorts whose realized returns are not yet observable."],"severity":"OPEN_EVIDENCE_GATE","confidence":0.94,"resolution_needed":"Measure post-ramp after-tax owner-cash returns versus the 9% hurdle."},
+      {"id":"moat_shrinkage","status":"PASS","evidence":["Current ad-impression, pricing and daily-user evidence indicates a durable or improving core network moat despite intense competition."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.84,"resolution_needed":"Track attention share, advertiser ROAS and AI-agent distribution shifts."},
+      {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":["Base reverse expectations require about 12.53% annual revenue growth in years 2-10, demanding but not implausible versus current high-20s revenue growth."],"severity":"NO_TRIGGER_FOUND_WITH_VALUATION_MONITOR","confidence":0.82,"resolution_needed":"PASS does not equal margin of safety or buy authorization."},
+      {"id":"fatal_concentration","status":"PASS","evidence":["No customer represented 10% or more of 2025 revenue or receivables; user, advertiser and geographic exposure is broad."],"severity":"NO_TRIGGER_FOUND","confidence":0.93,"resolution_needed":"Monitor dependence on app-store, cloud and model infrastructure counterparties separately."},
+      {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":["Operating failure risk is low, but AI/data-center commitments, Reality Labs losses, legal/regulatory remedies, high SBC and founder control can produce prolonged common-equity impairment if marginal returns fall below the hurdle."],"severity":"CAPITAL_ALLOCATION_AND_REGULATION_GATE_OPEN","confidence":0.88,"resolution_needed":"Require verified owner-cash returns on the infrastructure wave and evidence that regulation does not materially impair core ad economics."}
+    ]
+  },
+  "red_team": {
+    "verdict": "REVISE_NOT_REJECT",
+    "attacks": [
+      "AI capex becomes an arms race with declining marginal returns and stranded compute capacity.",
+      "Third-party cloud and data-center commitments lock Meta into expensive capacity before monetization catches up.",
+      "TikTok, YouTube, Amazon or AI-native agents take incremental discovery and commerce intent away from Meta apps.",
+      "Youth-safety, privacy or competition regulation reduces engagement, targeting precision or data use.",
+      "Reality Labs continues to consume roughly $20B annually without producing a meaningful profit pool.",
+      "Muse creates new security/privacy liabilities or weak subscription retention rather than a durable consumer AI business.",
+      "SBC and elite AI talent costs rise faster than per-share cash generation.",
+      "Founder control permits continued sub-hurdle capital allocation despite minority shareholder objections.",
+      "Ad budgets weaken in a macro downturn and high fixed infrastructure commitments reduce operating flexibility.",
+      "Current market price proves too high if mature owner cash margins normalize below 20%."
+    ]
+  },
+  "completion_gate": {"passed":true,"investment_gates_open":["persistent_dilution","incremental_roic_collapse","permanent_loss_probability"],"explicit_model_uncertainties":["Post-build AI infrastructure incremental ROIC","Normalized owner cash after 2026-2028 capex wave","Long-run Muse/WhatsApp/Threads monetization","Reality Labs option value","Legal/regulatory cash and engagement effects"]}
+}
