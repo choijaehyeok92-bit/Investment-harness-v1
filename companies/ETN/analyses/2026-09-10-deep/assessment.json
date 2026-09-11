@@ -1,0 +1,99 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "ETN",
+  "company_name": "Eaton Corporation plc",
+  "as_of": "2026-09-10",
+  "listing_market": "US",
+  "issuer_market_context": "US-listed global industrial",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "Additive research checkpoint only. companies/ETN/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock and frozen deterministic outputs remain unchanged; current canonical authority remains the 2026-09-06 preliminary review until a separate reviewed promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Starter / Watch",
+  "business_quality_score_75": 60,
+  "business_quality_75": 60,
+  "total_score_100": 71,
+  "required_return": 0.09,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Eaton is increasingly concentrated in electrical power management and aerospace, with AI/data-center buildout, grid modernization, reindustrialization and aerospace demand driving strong order/backlog growth. The planned Mobility separation should further improve portfolio growth and margin mix. The thesis depends on maintaining engineered-system pricing and converting the 2025-2026 acquisition and capacity wave into per-share owner cash above the 9% hurdle.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately $30.026B revenue, $3.829B net income attributable to Eaton ordinary shareholders, $4.950B operating cash flow and $1.016B PPE capital expenditures. Mechanical OCF-minus-PPE is approximately $3.934B. This is not normalized owner FCF because acquisition integration, working-capital timing, higher interest burden, Mobility separation and new capacity economics are not fully normalized.",
+  "economic_finding": "Q2 2026 sales were $8.531B, up 21% YoY with 14% organic growth. Electrical Americas sales were $3.951B with 18% organic growth, 27.5% operating margin and 41% rolling-order growth; Electrical Global organic growth was 18% and Aerospace organic growth 7%. Total firm-commitment backlog was approximately $24.1B at June 30, with about 71% targeted for delivery within twelve months. These observations support strong customer value and demand visibility, but not a permanent scarcity premium.",
+  "capital_and_survival": "June 2026 cash plus short-term investments were about $0.695B versus debt of about $20.611B, after Eaton funded approximately $11.079B of H1 acquisitions largely with new borrowings. Boyd Thermal cost $9.55B and Ultra PCS $1.53B. Eaton retains investment-grade A-/A3 ratings and strong operating cash generation, so operating survival is not externally dependent; however, post-acquisition deleveraging and return-on-invested-capital discipline are now central to the thesis.",
+  "permanent_loss_case": "AI/data-center construction slows or projects are delayed after Eaton has paid premium prices for cooling/power assets and expanded capacity; electrical backlog normalizes as competitors add supply; Boyd Thermal and Ultra PCS fail to earn the hurdle rate; higher debt and interest absorb cash; the Mobility separation creates execution or value leakage; margins normalize; and a valuation priced for sustained double-digit growth compresses even though Eaton remains solvent.",
+  "falsifiers": [
+    "Electrical Americas rolling orders and firm backlog decelerate materially for multiple quarters while data-center project delays rise.",
+    "Boyd Thermal or Ultra PCS post-acquisition returns fail to exceed the 9% hurdle after integration and working-capital normalization.",
+    "OCF-PPE per share fails to grow despite revenue/backlog growth after acquisition integration.",
+    "Net debt does not decline as planned while interest expense remains structurally elevated.",
+    "Electrical Americas operating margin falls materially below the low-20s while volume growth normalizes.",
+    "Data-center customers shift meaningful wallet share to competitors or vertically integrate critical power/cooling systems.",
+    "Mobility separation creates material tax leakage, value leakage or execution disruption.",
+    "Large project cancellations or release delays cause firm backlog conversion to deteriorate materially.",
+    "A material accounting, controls or acquisition-integration integrity issue emerges.",
+    "The stock remains above conservative Base value while business and cash evidence weaken."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods showing Electrical Americas order/backlog conversion and OCF-PPE per share improving together.",
+    "Boyd Thermal and Ultra PCS demonstrate post-ramp after-tax incremental returns above 9% with no material working-capital deterioration.",
+    "Net debt falls materially while the company preserves Electrical and Aerospace growth investment.",
+    "The Mobility transaction closes on economically favorable terms and the post-separation company shows structurally higher growth/margins without hidden cash leakage.",
+    "Data-center growth broadens beyond a small number of hyperscale projects and cooling/power attach rates remain strong.",
+    "Capacity additions earn attractive returns after competitors expand supply and lead times normalize.",
+    "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Sustained order/backlog deterioration in Electrical Americas together with weaker data-center project economics.",
+    "Boyd Thermal/Ultra PCS returns remain below the hurdle after integration or require repeated restructuring charges.",
+    "Persistent net-debt growth or refinancing dependence despite strong reported earnings.",
+    "OCF-PPE per share deteriorates structurally while adjusted EPS continues to rise.",
+    "Electrical pricing/margins compress as transformer, switchgear, cooling or modular-system supply normalizes.",
+    "A material Mobility transaction failure or tax/value leakage weakens common-holder economics.",
+    "Major customer or channel losses reveal previously understated concentration.",
+    "Accounting/control or acquisition-related integrity evidence becomes materially adverse.",
+    "The valuation remains near bull economics while growth and margin evidence weaken."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {"score":14,"max_score":15,"claim_type":"opinion","evidence":["Q2 2026 consolidated organic growth was 14%; Electrical Americas organic growth was 18%, and the Electrical rolling order/backlog data accelerated materially.","Portfolio actions concentrate Eaton around Electrical and Aerospace while adding chip-to-grid liquid cooling through Boyd Thermal and planning to separate Mobility."],"counter_evidence":["Data-center demand is project-cycle dependent and current order strength can include catch-up from supply constraints and long lead times."],"confidence":0.89,"missing_data":[]},
+    "customer_value_and_product": {"score":9,"max_score":10,"claim_type":"opinion","evidence":["Electrical Americas operating margin was 27.5% in Q2 while organic sales grew 18%, consistent with strong engineered-system customer value.","Firm-commitment backlog was $24.1B and approximately 71% was targeted for delivery within twelve months."],"counter_evidence":["Large electrical and data-center customers can negotiate on price, schedules and releases, and competing platforms remain credible."],"confidence":0.87,"missing_data":["Independent project-level retention and wallet-share data."]},
+    "moat_trajectory": {"score":12,"max_score":15,"claim_type":"opinion","evidence":["Eaton combines installed-base relationships, engineering qualification, distribution, power quality, switchgear, modular systems and now liquid cooling from chip to grid.","Backlog and order growth across Electrical Americas, Electrical Global and Aerospace indicate moat expansion rather than contraction."],"counter_evidence":["Schneider Electric, ABB, Siemens, Vertiv, GE Vernova and other specialists can compete in major portions of the power/cooling stack; scarcity and lead times are not permanent moat evidence."],"confidence":0.79,"missing_data":["Independent market-share and price-retention data after industry capacity normalizes."]},
+    "incremental_roic_and_fcf_per_share": {"score":10,"max_score":15,"claim_type":"opinion","evidence":["Harness-rule TTM OCF-PPE is approximately $3.934B and Q2 FCF was $874M.","The 2030 framework targets 95-100% FCF conversion of adjusted earnings and adjusted EPS CAGR above 12%."],"counter_evidence":["H1 acquisitions consumed $11.079B, 2026 PPE capex is expected around $1.15B, and Boyd/Ultra post-close cohort returns are not yet observable.","H1 OCF improvement was materially helped by working-capital movements while reported net income declined."],"confidence":0.72,"missing_data":["Post-integration after-tax ROIC and owner-cash-per-share bridge for Boyd Thermal, Ultra PCS and capacity projects."]},
+    "management_and_capital_allocation": {"score":7,"max_score":10,"claim_type":"opinion","evidence":["Management has systematically shifted the portfolio toward higher-growth Electrical/Aerospace assets and agreed to separate Mobility via a Reverse Morris Trust.","Boyd Thermal strategically extends Eaton from power infrastructure into liquid cooling, and Ultra PCS strengthens aerospace electronics."],"counter_evidence":["Boyd Thermal was acquired for $9.55B with $7.19B of identified intangibles and $3.73B of goodwill; most 2026 acquisition funding came from new debt and buybacks were paused."],"confidence":0.77,"missing_data":["Realized integration synergies and post-deal ROIC."]},
+    "financial_survivability": {"score":8,"max_score":10,"claim_type":"opinion","evidence":["Eaton remains investment grade at A-/A3, has positive multi-billion-dollar operating cash flow and a $4B revolving facility with no borrowings outstanding at June 30.","Debt maturities are spread across multiple tranches through 2056."],"counter_evidence":["June debt was about $20.6B versus only $0.7B of cash and short-term investments after the acquisition wave, and short-term commercial paper was $2.1B."],"confidence":0.88,"missing_data":[]},
+    "expectation_gap_and_valuation": {"score":6,"max_score":15,"claim_type":"opinion","evidence":["At $408.35, the Base equity-cash value of about $297 is roughly 27% below price.","Holding Base economics requires approximately 11.55% annual revenue growth in years 2-10 at a 9% hurdle after a $35B year-1 revenue base."],"counter_evidence":["Eaton targets 6-9% organic revenue CAGR through 2030 and adjusted EPS CAGR above 12%; current Electrical order growth is far above those levels, so the reverse growth is demanding but not demonstrably impossible."],"confidence":0.77,"missing_data":["Normalized post-Mobility owner cash and acquisition-deleveraging economics."]},
+    "power_law_and_asymmetry": {"score":5,"max_score":10,"claim_type":"opinion","evidence":["The Bull case supports value near $554 per share if data-center electrification, cooling attach and Aerospace growth compound at high rates."],"counter_evidence":["The Base case is below the market price and the Bear case near $116 implies roughly 72% downside; near-term upside/downside is not strongly asymmetric for new money."],"confidence":0.75,"missing_data":[]}
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {"id":"management_or_accounting_integrity","status":"PASS","evidence":["Ernst & Young issued unqualified opinions on Eaton's 2025 financial statements and ICFR; no material integrity failure was identified in reviewed evidence."],"severity":"NO_TRIGGER_FOUND","confidence":0.93,"resolution_needed":"Reassess after 2026 acquisition controls are fully integrated and audited."},
+      {"id":"external_capital_dependence","status":"PASS","evidence":["The 2026 debt issuance funded discretionary acquisitions rather than operating survival; Eaton remains strongly cash generative and investment grade."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.86,"resolution_needed":"Monitor deleveraging, commercial-paper reliance and acquisition funding discipline."},
+      {"id":"persistent_dilution","status":"PASS","evidence":["Ordinary shares outstanding were 388.4M at June 2026 versus 389.3M at June 2025; current evidence does not show persistent dilution."],"severity":"NO_TRIGGER_FOUND","confidence":0.9,"resolution_needed":"Monitor equity compensation while repurchases remain paused in 2026."},
+      {"id":"low_quality_growth","status":"PASS","evidence":["Q2 growth included 14% organic sales growth, broad segment order growth, firm-commitment backlog and positive operating cash flow; no customer-financing mechanism was identified."],"severity":"NO_TRIGGER_FOUND_WITH_CASH_MONITOR","confidence":0.86,"resolution_needed":"Track backlog conversion, receivable/unbilled balances and project cancellations."},
+      {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":["No collapse is proven, but $11.079B of H1 acquisition spending and expanding production capacity create large new capital cohorts whose realized returns are not yet observable."],"severity":"OPEN_EVIDENCE_GATE","confidence":0.88,"resolution_needed":"Measure Boyd Thermal, Ultra PCS and capacity-cohort after-tax incremental returns versus the 9% hurdle after integration."},
+      {"id":"moat_shrinkage","status":"PASS","evidence":["Order growth, firm backlog and broad Electrical/Aerospace performance do not indicate persistent moat contraction."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.83,"resolution_needed":"Track pricing, market share and backlog after competing capacity comes online."},
+      {"id":"price_requires_unrealistic_bull_case","status":"INVESTIGATE","evidence":["The reference price requires roughly 11.55% annual revenue growth for nine years under a 14.5% mature owner-cash margin and 19x terminal multiple, versus Eaton's 6-9% organic revenue CAGR target through 2030.","This is demanding but not demonstrably impossible because current organic order growth is much higher and acquisitions can lift reported growth."],"severity":"VALUATION_DURATION_GATE_OPEN","confidence":0.84,"resolution_needed":"Require a larger valuation discount or stronger normalized owner-cash evidence before buy authorization."},
+      {"id":"fatal_concentration","status":"PASS","evidence":["No single customer exceeded 10% of Eaton net sales in 2025. Six large Electrical customers represented 22% of Electrical-segment sales, and Aerospace concentration is meaningful but not company-fatal."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.89,"resolution_needed":"Track hyperscale data-center and aerospace OEM concentration as portfolio mix changes."},
+      {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":["Bankruptcy risk is low, but premium acquisition prices, high post-deal leverage and a valuation above Base economics can create prolonged capital impairment if data-center demand or margins normalize."],"severity":"VALUATION_AND_CAPITAL_ALLOCATION_GATE_OPEN","confidence":0.86,"resolution_needed":"Validate acquisition ROIC, deleveraging and cash conversion while obtaining a materially better expectation gap."}
+    ]
+  },
+  "red_team": {
+    "verdict": "REVISE_NOT_REJECT",
+    "attacks": [
+      "AI-data-center project financing tightens and construction schedules slip, reducing equipment releases from current backlog.",
+      "Power-equipment lead times normalize as Eaton, Schneider, ABB, Siemens, GE Vernova and others add capacity, compressing scarcity pricing.",
+      "Boyd Thermal liquid-cooling growth disappoints after Eaton paid a premium multiple and recognized large intangibles/goodwill.",
+      "Ultra PCS integration or defense/aerospace program timing fails to generate expected returns.",
+      "Net debt and interest expense remain elevated for longer than expected and crowd out buybacks or organic investment.",
+      "Mobility RMT creates tax leakage, execution disruption or less shareholder value than the retained economics assumed by the reference model.",
+      "Working-capital releases temporarily flatter OCF while receivables and unbilled balances grow with project complexity.",
+      "Hyperscalers vertically integrate or shift wallet share among power/cooling suppliers.",
+      "A broad industrial slowdown offsets data-center and aerospace strength.",
+      "A roughly 40x TTM earnings/cash valuation compresses even if Eaton remains a high-quality compounder."
+    ]
+  },
+  "completion_gate": {"passed":true,"investment_gates_open":["incremental_roic_collapse","price_requires_unrealistic_bull_case","permanent_loss_probability"],"explicit_model_uncertainties":["Post-acquisition Boyd Thermal/Ultra PCS ROIC","Mobility RMT value transfer and post-close cash structure","Normalized owner cash after current working-capital and interest changes","Industry pricing after capacity additions","Hyperscale data-center project timing"]}
+}
