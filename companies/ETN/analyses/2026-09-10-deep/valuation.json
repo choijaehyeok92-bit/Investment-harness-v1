@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "ETN",
+  "as_of": "2026-09-10",
+  "claim_type": "estimate",
+  "currency": "USD",
+  "price": 408.35,
+  "price_date": "2026-09-10",
+  "price_status": "COMPLETED_SESSION_SECONDARY_REFERENCE",
+  "valuation_shares_m": 388.4,
+  "required_return": 0.09,
+  "ttm_diagnostics_usd_b": {
+    "revenue": 30.026,
+    "net_income_attributable": 3.829,
+    "operating_cash_flow": 4.950,
+    "ppe_capex": 1.016,
+    "mechanical_ocf_minus_ppe": 3.934,
+    "market_cap_at_reference_price": 158.603,
+    "debt_june_2026": 20.611,
+    "cash_plus_short_term_investments_june_2026": 0.695,
+    "net_debt_diagnostic": 19.916
+  },
+  "ttm_method": "FY2025 + H1 2026 - H1 2025. OCF-PPE is a diagnostic only, not normalized owner FCF.",
+  "scenario_method": "Equity-cash style revenue x owner-cash-margin model. Owner margins are after ordinary operating interest burden; no separate net-debt subtraction is stacked on the same cash stream. Mobility economics are retained on a consolidated-equivalent basis for comparability, and neither the expected $1.1B Eaton cash distribution nor future Dana/Mobility shares are separately added, avoiding double counting.",
+  "scenarios": {
+    "bear": {"revenue_year_1_usd_b":32.0,"growth_years_2_5":0.03,"growth_years_6_10":0.02,"owner_margin_year_1":0.085,"owner_margin_mature":0.095,"terminal_multiple":15,"value_per_share":115.56},
+    "base": {"revenue_year_1_usd_b":35.0,"growth_years_2_5":0.09,"growth_years_6_10":0.05,"owner_margin_year_1":0.12,"owner_margin_mature":0.145,"terminal_multiple":19,"value_per_share":297.35},
+    "bull": {"revenue_year_1_usd_b":36.0,"growth_years_2_5":0.14,"growth_years_6_10":0.08,"owner_margin_year_1":0.15,"owner_margin_mature":0.175,"terminal_multiple":23,"value_per_share":553.67}
+  },
+  "reverse_expectations": {
+    "method": "Hold Base year-1 revenue, owner-margin path, 19x terminal multiple and 9% required return; solve one constant revenue growth rate for years 2-10.",
+    "required_growth_years_2_10": 0.11545,
+    "implied_year_10_revenue_usd_b": 93.57,
+    "implied_year_10_owner_cash_usd_b": 13.57
+  },
+  "price_location": {"bear_to_price":0.2830,"base_to_price":0.7282,"bull_to_price":1.3559,"base_upside_downside":-0.2718,"bull_upside_downside":0.3559,"bear_upside_downside":-0.7170},
+  "multiples_diagnostic": {"market_cap_to_ttm_net_income":41.42,"market_cap_to_mechanical_ocf_minus_ppe":40.32,"net_debt_to_ttm_ocf":4.02},
+  "model_limits": [
+    "The planned Mobility Reverse Morris Trust is not a simple cash sale; Eaton shareholders are expected to own at least 50.1% of the combined company and Eaton expects an approximately $1.1B cash distribution. The reference model therefore avoids separately capitalizing those items.",
+    "Boyd Thermal and Ultra PCS are only partially represented in TTM reported cash flows, while acquisition debt and interest are also newly ramping.",
+    "Backlog is evidence of demand visibility, not guaranteed long-duration revenue or margin.",
+    "Terminal multiples and owner margins are estimates, not facts."
+  ]
+}

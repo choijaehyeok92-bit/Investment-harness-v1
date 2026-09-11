@@ -1,0 +1,19 @@
+{
+  "ticker":"ETN",
+  "as_of":"2026-09-10",
+  "decision":"WATCH",
+  "priority":"P1",
+  "buy_authorized":false,
+  "position_band":"NONE",
+  "classification":"Starter / Watch",
+  "business_quality_75":60,
+  "total_score_100":71,
+  "scores":{"structural_change_and_leadership":14,"customer_value_and_product":9,"moat_trajectory":12,"incremental_roic_and_fcf_per_share":10,"management_and_capital_allocation":7,"financial_survivability":8,"expectation_gap_and_valuation":6,"power_law_and_asymmetry":5},
+  "open_hard_veto":["incremental_roic_collapse","price_requires_unrealistic_bull_case","permanent_loss_probability"],
+  "reference_price":408.35,
+  "required_return":0.09,
+  "bear_base_bull":[115.56,297.35,553.67],
+  "reverse_growth_years_2_10":0.11545,
+  "key_change_from_prior":"Prior canonical was PRELIMINARY_REVIEW with score withheld. This checkpoint completes all eight categories and nine Hard Veto items using 2025 10-K, Q2 2026 10-Q/results, current transaction evidence and a new valuation model.",
+  "score_interpretation":"Starter / Watch is the score-band label, not permission to establish a STARTER position. Open Hard Veto items override score."
+}

@@ -1,0 +1,30 @@
+{
+  "ticker": "ETN",
+  "as_of": "2026-09-10",
+  "base": "main",
+  "base_sha_before_research": "4f98ff69b13f298f4936da2f182d6347e8c9072c",
+  "head_branch": "research/etn-deep-2026-09-10",
+  "pre_guardrail_compare": {
+    "status": "ahead",
+    "ahead_by": 7,
+    "behind_by": 0,
+    "files_added": 7,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "expected_final_package": {
+    "files_added": 8,
+    "files_modified": 0,
+    "files_deleted": 0,
+    "note": "This diff-check file is the eighth additive file."
+  },
+  "protected_surfaces_unchanged": [
+    "companies/ETN/latest.json",
+    "registry/companies.json",
+    "reviews/latest.json",
+    "companies/ETN/raw-data/*",
+    "harness/baseline-lock.json",
+    "frozen deterministic outputs"
+  ],
+  "validation_note": "GitHub structural compare only. No claim is made that python -m harness.validate or another local deterministic validator was executed for this additive checkpoint. Canonical authority remains unchanged."
+}
