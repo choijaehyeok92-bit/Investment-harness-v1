@@ -1,0 +1,21 @@
+{
+  "ticker":"META",
+  "as_of":"2026-09-10",
+  "base":"main",
+  "head":"research/meta-deep-2026-09-10",
+  "pre_guardrail_compare":{"ahead_by":7,"behind_by":0,"added_files":7,"modified_files":0,"deleted_files":0},
+  "expected_final_files":[
+    "companies/META/analyses/2026-09-10-deep/assessment.json",
+    "companies/META/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/META/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/META/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-meta-deep/README.md",
+    "reviews/2026-09-10-meta-deep/diff-check.json",
+    "reviews/2026-09-10-meta-deep/score-summary.json",
+    "reviews/2026-09-10-meta-deep/source-manifest.json"
+  ],
+  "forbidden_changes_confirmed_absent":["companies/META/latest.json","registry/companies.json","reviews/latest.json","companies/META/raw-data/*","harness/baseline-lock.json","frozen deterministic outputs"],
+  "authority_promotion":false,
+  "local_validator_claim":false,
+  "note":"GitHub structural compare only. Canonical authority intentionally remains unchanged."
+}
