@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "PLTR",
+  "as_of": "2026-09-11",
+  "unit": "USD billion unless per-share",
+  "price_reference": {
+    "price_usd": 165.86,
+    "price_date": "2026-09-10",
+    "status": "SECONDARY_REFERENCE_CLOSE_NOT_EXCHANGE_AUDITED",
+    "valuation_shares_m": 2568.694,
+    "diluted_equity_value_proxy_usd_b": 426.04358684
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Hold year-1 revenue at 10.8B, owner cash margin at 35%, required return at 9% and terminal multiple at 22x; solve one constant revenue growth rate for years 2-10 that equates model value to the reference price.",
+    "required_growth_years_2_10": 0.2884065607,
+    "implied_year_10_revenue_usd_b": 105.65744496,
+    "implied_year_10_owner_cash_usd_b": 36.98010574,
+    "interpretation": "This is one conditional combination of expectations, not the market's uniquely observable forecast. It demonstrates the duration embedded in the current price."
+  },
+  "scenarios": {
+    "bear": {
+      "revenue_year_1": 9.0,
+      "growth_2_5": 0.18,
+      "growth_6_10": 0.08,
+      "owner_margin_year_1": 0.25,
+      "owner_margin_mature": 0.25,
+      "required_return": 0.09,
+      "terminal_multiple": 16,
+      "year_10_revenue_usd_b": 25.63830538,
+      "year_10_owner_cash_usd_b": 6.40957634,
+      "equity_value_usd_b": 69.28212394,
+      "value_per_share_usd": 26.97173114,
+      "upside_downside_vs_reference": -0.83738254,
+      "annual_cash_plus_terminal_irr": -0.11015398,
+      "terminal_fraction_of_operating_pv": 0.62526358
+    },
+    "base": {
+      "revenue_year_1": 10.8,
+      "growth_2_5": 0.32,
+      "growth_6_10": 0.16,
+      "owner_margin_year_1": 0.32,
+      "owner_margin_mature": 0.35,
+      "required_return": 0.09,
+      "terminal_multiple": 22,
+      "year_10_revenue_usd_b": 68.86672438,
+      "year_10_owner_cash_usd_b": 24.10335353,
+      "equity_value_usd_b": 294.57035326,
+      "value_per_share_usd": 114.67709009,
+      "upside_downside_vs_reference": -0.30859104,
+      "annual_cash_plus_terminal_irr": 0.04723212,
+      "terminal_fraction_of_operating_pv": 0.76040705
+    },
+    "bull": {
+      "revenue_year_1": 12.5,
+      "growth_2_5": 0.45,
+      "growth_6_10": 0.22,
+      "owner_margin_year_1": 0.38,
+      "owner_margin_mature": 0.43,
+      "required_return": 0.09,
+      "terminal_multiple": 28,
+      "year_10_revenue_usd_b": 149.34172909,
+      "year_10_owner_cash_usd_b": 64.21694351,
+      "equity_value_usd_b": 914.45756806,
+      "value_per_share_usd": 355.99749252,
+      "upside_downside_vs_reference": 1.14637340,
+      "annual_cash_plus_terminal_irr": 0.18272489,
+      "terminal_fraction_of_operating_pv": 0.83058364
+    }
+  },
+  "base_sensitivity_value_per_share_usd": {
+    "required_return_7pct": {"owner_margin_minus_3pp": 124.25, "base_owner_margin": 135.93, "owner_margin_plus_3pp": 147.61},
+    "required_return_9pct": {"owner_margin_minus_3pp": 104.82, "base_owner_margin": 114.68, "owner_margin_plus_3pp": 124.54},
+    "required_return_11pct": {"owner_margin_minus_3pp": 88.82, "base_owner_margin": 97.18, "owner_margin_plus_3pp": 105.54}
+  },
+  "two_state_bear_bull_break_even_bull_probability": 0.42211974,
+  "two_state_note": "Mechanical probability that makes the reference price equal to a two-state mix of Bear and Bull values. It is not an estimated real-world probability.",
+  "valuation_judgment": "The reference price remains above the already-aggressive Base value and requires approximately 28.8% annual revenue growth for nine years under a 35% owner-cash margin and 22x terminal multiple. That is possible but leaves little room for duration, margin or dilution error.",
+  "source_paths": [
+    "companies/PLTR/analyses/2026-09-11-deep/model-inputs.json",
+    "companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json"
+  ]
+}
