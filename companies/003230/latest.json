@@ -1,7 +1,14 @@
 {
-  "as_of": "2026-09-06",
-  "assessment": "companies/003230/analyses/2026-09-06/assessment.json",
-  "thesis": "companies/003230/analyses/2026-09-06/thesis.ko.md",
-  "authority": "현재 판정은 이 버전. 루트의 이전 scorecard/decision/thesis는 감사 가능한 과거 기록.",
-  "research_state": "PRELIMINARY_REVIEW"
+  "as_of": "2026-09-10",
+  "assessment": "companies/003230/analyses/2026-09-10-deep/assessment.json",
+  "thesis": "companies/003230/analyses/2026-09-10-deep/thesis.ko.md",
+  "valuation": "companies/003230/analyses/2026-09-10-deep/valuation.json",
+  "authority": "현재 판정은 2026-09-10 deep 분석이다. 2026-09-12 reviewed promotion으로 FULL_ANALYSIS 현재 권위 버전이 되었다. assessment 내부 checkpoint authority 표시는 생성 당시 상태이며 이 latest 포인터가 우선한다. 이전 분석은 감사 가능한 과거 기록으로 보존한다.",
+  "research_state": "FULL_ANALYSIS",
+  "run": "2026-09-10-deep",
+  "promotion": {
+    "date": "2026-09-12",
+    "method": "REVIEWED_CHECKPOINT_PROMOTION",
+    "source_commit": "5279da794104d4c41cce7beb2ee26312e55057aa"
+  }
 }
