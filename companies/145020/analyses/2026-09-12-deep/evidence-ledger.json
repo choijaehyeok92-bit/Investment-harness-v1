@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "145020",
+  "company_name": "Hugel, Inc.",
+  "as_of": "2026-09-12",
+  "authority_status": "CURRENT_DEEP_RESEARCH_CANDIDATE_PENDING_LATEST_POINTER",
+  "source_policy": "Primary filings/regulator data and company IR are preferred; reputable financial datasets and press are used for cross-checks. Estimates and inferences are labeled separately from facts.",
+  "source_catalog": {
+    "HUGEL_2025_ANNUAL_KRX": {"priority": 1, "type": "primary_filing", "url": "https://kind.krx.co.kr/external/2026/03/20/000391/20260320001556/11011.htm"},
+    "HUGEL_2025_AUDIT": {"priority": 1, "type": "audit_report", "url": "https://financialfilings.com/filings/hugel-inc/audit-report-information/2026/32985107/"},
+    "HUGEL_H1_2026_DART_INDEX": {"priority": 1, "type": "primary_filing_index", "url": "https://www.awakeplus.co.kr/disclosure/145020"},
+    "HUGEL_Q2_2026_IR": {"priority": 2, "type": "company_ir", "url": "https://www.hugel-inc.com/kr/investors/archives"},
+    "HUGEL_Q2_2026_RELEASE": {"priority": 2, "type": "company_press_release", "url": "https://www.hugel-inc.com/kr/news"},
+    "HUGEL_KOREAN_TICKERS": {"priority": 3, "type": "dart_derived_dataset", "url": "https://www.koreantickers.com/stock/145020"},
+    "HUGEL_STOCKANALYSIS": {"priority": 3, "type": "reputable_dataset", "url": "https://stockanalysis.com/quote/kosdaq/145020/"},
+    "HUGEL_STOCKANALYSIS_STATS": {"priority": 3, "type": "reputable_dataset", "url": "https://stockanalysis.com/quote/kosdaq/145020/statistics/"},
+    "HUGEL_STOCKANALYSIS_CF": {"priority": 3, "type": "reputable_dataset", "url": "https://stockanalysis.com/quote/kosdaq/145020/financials/cash-flow-statement/"},
+    "HUGEL_FDA_APPROVAL": {"priority": 1, "type": "regulator", "url": "https://www.fda.gov/"},
+    "HUGEL_US_COMMERCIAL_2026": {"priority": 2, "type": "company_release", "url": "https://www.hugel-inc.com/pr-en"},
+    "HUGEL_2026_GOVERNANCE": {"priority": 2, "type": "company_governance", "url": "https://www.hugel-inc.com/kr/esg/governance"},
+    "HUGEL_MAJOR_HOLDER_2026_07": {"priority": 1, "type": "krx_major_holder_filing", "url": "https://kind.krx.co.kr/external/2026/07/02/000312/20260702000745/00636.htm"},
+    "HUGEL_TREASURY_PLAN_2026_08": {"priority": 4, "type": "reputable_press_on_shareholder_meeting", "url": "https://www.yna.co.kr/amp/view/AKR20260821050500017"},
+    "HUGEL_LITIGATION_2025_ANNUAL": {"priority": 1, "type": "primary_filing", "url": "https://kind.krx.co.kr/external/2026/03/20/000391/20260320001556/11011.htm"},
+    "MEDYTOX_CAFC_DOCKET": {"priority": 3, "type": "court_docket_aggregator", "url": "https://dockets.justia.com/docket/circuit-courts/cafc/25-1262"},
+    "HUGEL_PRICE_2026_09_11": {"priority": 3, "type": "market_dataset", "url": "https://www.investing.com/equities/hugel-inc-historical-data"}
+  },
+  "evidence": [
+    {
+      "id": "FY2025_AUDITED_RESULTS",
+      "claim_type": "fact",
+      "statement": "FY2025 consolidated revenue was KRW 425.110bn, operating income KRW 200.851bn and net income KRW 146.974bn. The consolidated audit opinion was unqualified and no going-concern uncertainty was reported.",
+      "source_ids": ["HUGEL_2025_ANNUAL_KRX", "HUGEL_2025_AUDIT"],
+      "confidence": 0.99
+    },
+    {
+      "id": "H1_2026_RESULTS",
+      "claim_type": "fact",
+      "statement": "H1 2026 revenue was KRW 254.5bn, operating income KRW 103.7bn and net income KRW 85.3bn, increasing 27.2%, 8.4% and 23.5% year over year. Growth remained strong while U.S. direct-sales and marketing investment compressed operating leverage.",
+      "source_ids": ["HUGEL_Q2_2026_IR", "HUGEL_Q2_2026_RELEASE"],
+      "confidence": 0.98
+    },
+    {
+      "id": "Q2_2026_PRODUCT_AND_REGION",
+      "claim_type": "fact",
+      "statement": "Q2 2026 revenue was KRW 137.9bn. Toxin revenue was KRW 84.0bn (+37.2% YoY), filler and skinbooster KRW 34.1bn (approximately flat), and cosmetics/other KRW 19.8bn (+32.8%). Toxin plus filler international sales were KRW 91.3bn (+30.8%), including APAC KRW 51.9bn, Americas KRW 19.2bn and Europe/other KRW 20.2bn.",
+      "source_ids": ["HUGEL_Q2_2026_IR"],
+      "confidence": 0.98
+    },
+    {
+      "id": "OVERSEAS_MIX",
+      "claim_type": "fact",
+      "statement": "In H1 2026, toxin revenue was about KRW 149.4bn (+46.6% YoY) and overseas toxin plus filler/skinbooster sales were about KRW 162.1bn, roughly 64% of total company revenue. The growth thesis is therefore no longer dependent on Korea alone.",
+      "source_ids": ["HUGEL_Q2_2026_RELEASE"],
+      "confidence": 0.95
+    },
+    {
+      "id": "US_REGULATORY_AND_COMMERCIAL",
+      "claim_type": "fact_and_company_reported_metric",
+      "statement": "FDA approved Letybo on February 29, 2024. Hugel launched Letybo in the United States in March 2025 and reported in July 2026 that more than 9,000 practices had integrated the product while it was building a dedicated direct-sales and field-medical organization. The practice count is company-reported and is not independently audited sell-through data.",
+      "source_ids": ["HUGEL_FDA_APPROVAL", "HUGEL_US_COMMERCIAL_2026"],
+      "confidence": 0.9
+    },
+    {
+      "id": "CASH_CONVERSION",
+      "claim_type": "derived",
+      "statement": "DART-derived standalone-quarter data indicate H1 2026 operating cash flow of approximately KRW 98.3bn and PP&E purchases of approximately KRW 26.0bn, implying a mechanical OCF-minus-PP&E diagnostic of about KRW 72.3bn or 28.4% of H1 revenue. This is not normalized owner FCF because maintenance versus growth capex is not separately identified.",
+      "inputs": {"q1_ocf_krw_bn": 57.433, "q2_ocf_krw_bn": 40.9, "q1_ppe_purchases_krw_bn": 11.489, "q2_ppe_purchases_krw_bn": 14.5, "h1_revenue_krw_bn": 254.5},
+      "method": "Q1 plus standalone Q2 OCF, less Q1 plus standalone Q2 PP&E purchases",
+      "source_ids": ["HUGEL_KOREAN_TICKERS"],
+      "confidence": 0.9
+    },
+    {
+      "id": "TTM_FINANCIALS",
+      "claim_type": "fact_from_dataset",
+      "statement": "For the twelve months through June 2026, reputable secondary data report revenue around KRW 479.6bn, operating income around KRW 209.0bn and free cash flow around KRW 148.3bn. The FCF figure is used as a diagnostic cross-check, not as an unquestioned normalized owner-cash baseline.",
+      "source_ids": ["HUGEL_STOCKANALYSIS", "HUGEL_STOCKANALYSIS_STATS"],
+      "confidence": 0.9
+    },
+    {
+      "id": "LIQUIDITY",
+      "claim_type": "fact_from_dataset",
+      "statement": "At June 2026, cash and short-term investments were approximately KRW 606.2bn versus total debt of approximately KRW 28.3bn, for net cash of approximately KRW 577.9bn. Current assets were approximately KRW 764.4bn and current liabilities approximately KRW 101.3bn.",
+      "source_ids": ["HUGEL_STOCKANALYSIS_STATS", "HUGEL_KOREAN_TICKERS"],
+      "confidence": 0.94
+    },
+    {
+      "id": "SHARE_AND_TREASURY_OVERHANG",
+      "claim_type": "fact_and_inference",
+      "statement": "Issued shares were approximately 12.515m after the July 2026 conversion, while treasury shares were approximately 1.501m. The August 2026 shareholder meeting approved use of treasury stock for stock options and RSUs. This creates a material per-share monitoring item even though treasury shares currently do not participate as outside shares.",
+      "source_ids": ["HUGEL_MAJOR_HOLDER_2026_07", "HUGEL_TREASURY_PLAN_2026_08", "HUGEL_STOCKANALYSIS"],
+      "confidence": 0.94
+    },
+    {
+      "id": "STOCK_OPTION_OVERHANG",
+      "claim_type": "fact_from_disclosures",
+      "statement": "2026 disclosures included additional option grants, and public disclosure summaries indicate accumulated option grants of roughly 0.375m shares. Because exercise, forfeiture and treasury-stock delivery can change the realized dilution, the valuation uses explicit diluted-share scenario assumptions rather than treating all options as immediately outstanding.",
+      "source_ids": ["HUGEL_H1_2026_DART_INDEX", "HUGEL_TREASURY_PLAN_2026_08"],
+      "confidence": 0.82
+    },
+    {
+      "id": "CONTROL_AND_PLEDGE",
+      "claim_type": "fact",
+      "statement": "Aphrodite Acquisition Holdings LLC and related parties reported 5.705m shares or 45.58% of issued shares in June 2026; 5.567m shares, or 44.48% of issued shares, were subject to major contracts/pledges. Sponsor-level financing is not Hugel corporate debt, but it is a governance and control-liquidity monitor.",
+      "source_ids": ["HUGEL_MAJOR_HOLDER_2026_07"],
+      "confidence": 0.99
+    },
+    {
+      "id": "BOARD_AND_AUDIT_STRUCTURE",
+      "claim_type": "fact",
+      "statement": "Hugel separates the CEO and board-chair roles. As of March 2026 the board had seven directors, including two independent directors; the audit committee had three members including two independent directors, and the audit-committee chair has accounting/audit experience.",
+      "source_ids": ["HUGEL_2026_GOVERNANCE"],
+      "confidence": 0.97
+    },
+    {
+      "id": "LITIGATION_STATUS",
+      "claim_type": "fact_with_open_outcome",
+      "statement": "The ITC issued a final determination in October 2024 finding no Section 337 violation and ended the investigation, but Medytox appealed to the U.S. Court of Appeals for the Federal Circuit in December 2024. Hugel and Hugel America participate as intervenors. Korean administrative/pharmaceutical-law proceedings also remain monitoring items. No final 2026 CAFC merits disposition was established in this review.",
+      "source_ids": ["HUGEL_LITIGATION_2025_ANNUAL", "MEDYTOX_CAFC_DOCKET"],
+      "confidence": 0.92
+    },
+    {
+      "id": "REFERENCE_PRICE",
+      "claim_type": "fact_from_market_dataset",
+      "statement": "Hugel traded around KRW 231,000 on September 11, 2026. Market-cap figures differ across data vendors because some use all issued shares while others exclude treasury shares; valuation therefore models per-share value with explicit diluted-share counts instead of relying on vendor market cap.",
+      "source_ids": ["HUGEL_PRICE_2026_09_11", "HUGEL_STOCKANALYSIS"],
+      "confidence": 0.93
+    }
+  ]
+}
