@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0.0",
+  "ticker":"CRDO",
+  "as_of":"2026-09-11",
+  "evidence":[
+    {"id":"E1","claim_type":"fact","claim":"Q1 FY27 revenue was $479.0M, +114.7% YoY; GAAP operating margin was 25.2%.","source":"SEC Q1 FY27 10-Q / earnings exhibit","quality":"primary"},
+    {"id":"E2","claim_type":"fact","claim":"AEC unit-shipment growth contributed over 90% of the YoY revenue increase, primarily from hyperscale customer ramps.","source":"SEC Q1 FY27 10-Q","quality":"primary"},
+    {"id":"E3","claim_type":"fact","claim":"End-customer revenue concentration was 33%, 28%, 13% and 10% for the four disclosed large end customers.","source":"SEC Q1 FY27 10-Q","quality":"primary"},
+    {"id":"E4","claim_type":"fact","claim":"Q1 OCF was $90.2M, capex $7.3M and SBC $88.0M; working-capital cash outflow was approximately $151.3M.","source":"SEC Q1 FY27 10-Q","quality":"primary"},
+    {"id":"E5","claim_type":"fact","claim":"DustPhotonics purchase consideration was approximately $1.251B and recognized goodwill was approximately $895.8M.","source":"SEC Q1 FY27 10-Q","quality":"primary"},
+    {"id":"E6","claim_type":"fact","claim":"Credo states it partnered with Oracle to develop ZeroFlap Optics to address link-flap reliability in AI data centers.","source":"SEC Q1 FY27 10-Q","quality":"primary_company_statement"},
+    {"id":"E7","claim_type":"fact","claim":"Q2 FY27 revenue guidance was $525M-$535M with GAAP gross margin 62.9%-64.9%.","source":"SEC earnings exhibit","quality":"primary_forward_guidance"},
+    {"id":"E8","claim_type":"estimate","claim":"At $160.31 the unchanged Base model value is $158.20/share and reverse expectations require about 18.2% annual revenue growth for years 2-10.","source":"Harness valuation calculation","quality":"model_estimate"}
+  ],
+  "source_quality_notes":["SEC filing and earnings exhibit are primary sources.","Reference price is secondary and not exchange-audited by the harness.","Oracle partnership wording is company disclosure; no independent contract economics were disclosed.","Valuation values are conditional estimates, not facts or target prices."]
+}
