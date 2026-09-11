@@ -1,0 +1,15 @@
+{
+  "ticker":"META",
+  "as_of":"2026-09-10",
+  "decision":"WATCH",
+  "priority":"P1",
+  "buy_authorized":false,
+  "position_band":"NONE",
+  "classification":"Emerging Outlier",
+  "business_quality_75":62,
+  "total_score_100":75,
+  "categories":{"structural_change_and_leadership":15,"customer_value_and_product":10,"moat_trajectory":13,"incremental_roic_and_fcf_per_share":9,"management_and_capital_allocation":6,"financial_survivability":9,"expectation_gap_and_valuation":7,"power_law_and_asymmetry":6},
+  "open_hard_veto":["persistent_dilution","incremental_roic_collapse","permanent_loss_probability"],
+  "valuation":{"price":646.49,"bear":217.44598,"base":668.72769,"bull":1312.26372,"required_return":0.09,"reverse_growth":0.1252511},
+  "rule":"Hard Veto > Score"
+}
