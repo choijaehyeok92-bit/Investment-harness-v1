@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "CRDO",
+  "as_of": "2026-09-11",
+  "claim_type": "calculation",
+  "metrics": {
+    "q1_revenue_yoy_pct": 114.7,
+    "q1_gaap_operating_margin_pct": 25.2,
+    "q1_ocf_minus_capex_usd_b": 0.082949,
+    "q1_ocf_minus_capex_minus_sbc_usd_b": -0.005030,
+    "q1_sbc_to_revenue_pct": 18.37,
+    "q1_working_capital_outflow_to_revenue_pct": 31.59,
+    "top_two_end_customer_share_pct": 61,
+    "top_four_end_customer_share_pct": 84,
+    "dust_goodwill_to_purchase_consideration_pct": 71.60,
+    "dust_cash_outflow_to_q1_end_liquidity_pct": 96.25,
+    "base_value_to_price": 0.987,
+    "bear_value_to_price": 0.161,
+    "bull_value_to_price": 3.811,
+    "reverse_required_growth_years_2_10_pct": 18.21,
+    "reverse_implied_year_10_revenue_usd_b": 10.591
+  },
+  "notes": [
+    "OCF-capex-SBC is an economic owner-cash diagnostic, not reported free cash flow; SBC is subtracted because it is a shareholder cost even though non-cash in the cash-flow statement.",
+    "Q1 OCF was depressed by approximately $151.3M working-capital outflow, so one-quarter owner-cash diagnostics should not be annualized mechanically.",
+    "Contracting-party and end-customer concentration measures are separate lenses and are not added together."
+  ],
+  "source_paths": ["companies/CRDO/analyses/2026-09-11-deep/observations.json"]
+}
