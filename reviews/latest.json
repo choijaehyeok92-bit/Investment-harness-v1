@@ -4,13 +4,14 @@
   "report": "reviews/2026-09-06-deep/README.md",
   "registry": "registry/companies.json",
   "checkpoint_promotions": "reviews/2026-09-12-checkpoint-promotions.json",
+  "supplemental_reviews": ["reviews/2026-09-12-hugel-deep.json"],
   "prior_review": "reviews/2026-09-06-deep",
-  "authority": "registry discovery -> company latest -> dated assessment; reviewed checkpoint promotions are recorded in checkpoint_promotions and company latest is authoritative for promoted tickers",
-  "completed_scope": "The prior 2026-09-06 universe review remains the baseline. Thirteen additive-only 2026-09-10 deep checkpoints have been reviewed and promoted on 2026-09-12: seven PRELIMINARY_REVIEW names became FULL_ANALYSIS and six existing FULL_ANALYSIS names were refreshed. No promotion changes buy_authorized=false.",
+  "authority": "registry discovery -> company latest -> dated assessment; reviewed checkpoint promotions and supplemental deep reviews are recorded under reviews/, while company latest is authoritative for each promoted ticker",
+  "completed_scope": "The prior 2026-09-06 universe review remains the baseline. Thirteen additive-only 2026-09-10 deep checkpoints were reviewed and promoted on 2026-09-12: seven PRELIMINARY_REVIEW names became FULL_ANALYSIS and six existing FULL_ANALYSIS names were refreshed. Hugel (145020) was subsequently re-underwritten from primary/IR/regulatory/current-market evidence on 2026-09-12 and promoted from PRELIMINARY_REVIEW to FULL_ANALYSIS. No promotion changes buy_authorized=false.",
   "state_counts": {
-    "PRELIMINARY_REVIEW": 51,
-    "FULL_ANALYSIS": 42
+    "PRELIMINARY_REVIEW": 50,
+    "FULL_ANALYSIS": 43
   },
-  "state_count_basis": "Resolved through company latest after reviewed promotions. registry/companies.json retains cached discovery metadata until the next registry rebuild.",
-  "score_rule": "Unknown facts stay null. Analyst forecasts and opinion scores labeled explicitly. Hard Veto remains superior to score and research promotion is not trade authorization."
+  "state_count_basis": "Resolved through company latest after reviewed promotions and the 2026-09-12 Hugel deep review. registry/companies.json retains cached discovery metadata until the next registry rebuild.",
+  "score_rule": "Unknown facts stay null. Analyst forecasts and opinion scores are labeled explicitly. Hard Veto remains superior to score and research promotion is not trade authorization."
 }
