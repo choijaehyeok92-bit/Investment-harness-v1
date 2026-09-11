@@ -1,0 +1,108 @@
+{
+  "ticker": "PLTR",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-11",
+  "scope_note": "Incremental public-source update. No investment judgment. Q2 financial statements remain in companies/PLTR/raw-data/2026-Q2.json; this file preserves additional primary-source observations and the latest reference price used in the 2026-09-11 reassessment.",
+  "sources": [
+    {
+      "id": "sec_q2_10q",
+      "type": "primary_filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+      "description": "Palantir Q2 2026 Form 10-Q filed 2026-08-03"
+    },
+    {
+      "id": "palantir_q2_ir",
+      "type": "company_ir",
+      "url": "https://investors.palantir.com/news-details/2026/Palantir-Reports-",
+      "description": "Palantir Q2 2026 financial results and outlook"
+    },
+    {
+      "id": "nvidia_supply_chain_20260910",
+      "type": "customer_partner_primary",
+      "url": "https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry/",
+      "description": "NVIDIA technical blog describing production supply-chain use of Palantir Foundry and Nemotron"
+    },
+    {
+      "id": "price_20260910",
+      "type": "secondary_market_reference",
+      "url": "https://se.investing.com/equities/palantir-technologies-inc-historical-data",
+      "description": "September 10, 2026 close used only as a reference quote; not exchange-audited by this harness"
+    }
+  ],
+  "observations": {
+    "q2_2026": {
+      "revenue_usd_b": 1.935464,
+      "revenue_yoy_pct": 93,
+      "us_revenue_usd_b": 1.573,
+      "us_revenue_yoy_pct": 115,
+      "us_commercial_revenue_usd_b": 0.764,
+      "us_commercial_yoy_pct": 149,
+      "us_government_revenue_usd_b": 0.809,
+      "us_government_yoy_pct": 90,
+      "gaap_operating_income_usd_b": 0.912004,
+      "gaap_operating_margin_pct": 47,
+      "cash_from_operations_usd_b": 1.216167,
+      "adjusted_fcf_usd_b": 1.220359,
+      "us_commercial_rdv_usd_b": 6.238,
+      "us_commercial_rdv_yoy_pct": 124,
+      "total_contract_value_usd_b": 3.373,
+      "source_ids": ["sec_q2_10q", "palantir_q2_ir"]
+    },
+    "h1_2026": {
+      "revenue_usd_b": 3.568047,
+      "gaap_operating_income_usd_b": 1.666002,
+      "operating_cash_flow_usd_b": 2.115332,
+      "ppe_purchases_usd_b": 0.021955,
+      "stock_based_compensation_usd_b": 0.466801,
+      "cash_and_cash_equivalents_usd_b": 2.030047,
+      "marketable_securities_usd_b": 7.379052,
+      "debt_drawn_usd_b": 0.0,
+      "source_ids": ["sec_q2_10q"]
+    },
+    "customer_and_contract": {
+      "top_three_customer_revenue_share_pct_h1_2026": 16,
+      "single_customer_over_10pct_revenue": false,
+      "customer_I_accounts_receivable_share_pct": 27,
+      "remaining_performance_obligations_usd_b": 4.9,
+      "rpo_expected_next_12m_pct": 43,
+      "us_revenue_share_h1_2026_pct": 80,
+      "top20_average_ttm_revenue_usd_m": 124,
+      "top20_average_ttm_revenue_yoy_pct": 67,
+      "source_ids": ["sec_q2_10q"]
+    },
+    "share_and_compensation": {
+      "common_shares_outstanding_2026_06_30": 2402896741,
+      "q2_diluted_weighted_average_shares_m": 2568.694,
+      "options_outstanding_m": 149.677,
+      "options_weighted_average_exercise_price_usd": 10.06,
+      "rsus_outstanding_m": 33.249,
+      "sars_outstanding_m": 13.671,
+      "unrecognized_sbc_options_usd_m": 361,
+      "unrecognized_sbc_sars_usd_m": 136,
+      "unrecognized_sbc_rsus_usd_m": 916,
+      "source_ids": ["sec_q2_10q", "palantir_q2_ir"]
+    },
+    "outlook": {
+      "fy2026_revenue_low_usd_b": 8.150,
+      "fy2026_revenue_high_usd_b": 8.158,
+      "fy2026_us_commercial_revenue_min_usd_b": 3.424,
+      "fy2026_us_commercial_growth_min_pct": 134,
+      "fy2026_adjusted_fcf_low_usd_b": 4.5,
+      "fy2026_adjusted_fcf_high_usd_b": 4.7,
+      "source_ids": ["palantir_q2_ir"]
+    },
+    "nvidia_evidence_2026_09_10": {
+      "fact": "NVIDIA described use of Palantir Foundry as a supply-chain decision-intelligence layer and a governed lifecycle for a customized Nemotron model.",
+      "reported_development_benchmark_allocation_accuracy_pct": 86.7,
+      "financial_contribution_disclosed": false,
+      "interpretation_limit": "Product and customer-value evidence only; no revenue or margin contribution inferred.",
+      "source_ids": ["nvidia_supply_chain_20260910"]
+    },
+    "market_reference": {
+      "price_usd": 165.86,
+      "price_date": "2026-09-10",
+      "status": "SECONDARY_REFERENCE_CLOSE_NOT_EXCHANGE_AUDITED",
+      "source_ids": ["price_20260910"]
+    }
+  }
+}
