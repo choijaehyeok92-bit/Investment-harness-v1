@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.0.0-checkpoint",
+  "ticker": "PWR",
+  "company_name": "Quanta Services, Inc.",
+  "as_of": "2026-09-10",
+  "listing_market": "US",
+  "issuer_market_context": "US infrastructure services",
+  "authority_status": "RESEARCH_CHECKPOINT_NOT_CURRENT_REGISTRY_AUTHORITY",
+  "authority_note": "Additive research checkpoint only. companies/PWR/latest.json, registry/companies.json, reviews/latest.json, canonical raw-data, baseline-lock and frozen deterministic outputs remain unchanged; current canonical authority remains the 2026-09-06 preliminary review until a separate reviewed promotion.",
+  "research_state": "FULL_ANALYSIS_CHECKPOINT",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Starter / Watch",
+  "business_quality_score_75": 60,
+  "business_quality_75": 60,
+  "total_score_100": 68,
+  "required_return": 0.09,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Quanta is a craft-skilled, self-perform infrastructure platform positioned at the intersection of utility grid modernization, generation, large-load/data-center construction and related mechanical/electrical infrastructure. Q2 2026 revenue growth, record RPO and backlog, and higher Electric margins support a durable structural opportunity. The thesis depends on converting record demand into per-share owner cash without acquisition-led dilution, project-cost leakage or falling returns on invested capital.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately $32.906B revenue, $1.327B net income attributable to common stock, $3.178B operating cash flow, $0.787B capital expenditures and $2.391B mechanical OCF-minus-capex. TTM non-cash stock compensation is approximately $0.226B and the conservative OCF-minus-capex-minus-SBC diagnostic is approximately $2.165B. These are diagnostics, not normalized owner FCF, because working-capital timing, acquisition integration, project claims/change orders and future strategic capex remain material.",
+  "economic_finding": "Q2 revenue was $9.56B and net income attributable to common stock was $451.4M. H1 revenue was $17.432B, up 34% YoY, with acquired businesses contributing roughly $1.73B of the year-over-year increase. June RPO was $33.55B, up 41.2% from year-end, while total non-GAAP backlog was $53.44B. RPO is the stronger contractual demand signal; backlog additionally includes estimated orders under MSAs, estimated renewals and certain non-fixed-price contracts and therefore is not treated as firm contracted revenue.",
+  "capital_and_survival": "June cash was approximately $0.506B versus about $6.096B of long-term debt obligations including current maturities, plus $0.448B of commercial paper and $0.029B of revolving loans. Quanta retained approximately $2.77B of combined cash and available senior-credit commitments. H1 acquisition cash spending was $0.930B, and Phalcon/Percheron/PSD/Enerfab announced in Q2-July carried approximately $1.24B aggregate upfront consideration plus up to $0.242B contingent consideration. Operating survival is not externally dependent, but acquisition and capacity-cohort returns are central to shareholder economics.",
+  "permanent_loss_case": "Utility and large-load projects are delayed after labor, fleet, manufacturing and acquisition commitments expand; backlog proves less durable than headline figures because MSA estimates do not convert as modeled; fixed-price project costs and claims compress margins; acquisition integration and goodwill fail to earn the 9% hurdle; financing costs remain elevated; and a valuation above conservative Base economics compresses while Quanta remains solvent.",
+  "falsifiers": [
+    "RPO growth and conversion fall materially for multiple quarters while backlog remains supported mainly by MSA estimates rather than firm orders.",
+    "Electric segment margins fall materially while labor, subcontractor or material costs rise and project execution deteriorates.",
+    "OCF-minus-capex-minus-SBC per share fails to compound despite continued double-digit revenue growth.",
+    "Recent acquisitions fail to earn after-tax incremental returns above 9% after integration and working-capital normalization.",
+    "Unapproved change orders, claims or contract assets rise faster than revenue and cash collection weakens.",
+    "Large-load/data-center customers delay grid interconnections or projects and utility capex no longer offsets the slowdown.",
+    "Net debt or commercial-paper reliance rises persistently despite strong reported earnings.",
+    "A material accounting/control failure emerges, particularly in acquired entities and percentage-of-completion estimates.",
+    "The stock remains above conservative Base value while RPO, margins and owner cash weaken together."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods in which RPO conversion, Electric margins and OCF-minus-capex-minus-SBC per share improve together.",
+    "Recent acquisitions and strategic manufacturing/craft-capacity investments demonstrate post-ramp after-tax incremental returns above the 9% hurdle.",
+    "Contract assets, unapproved change orders and DSO remain controlled as revenue scales.",
+    "Large-load/data-center demand broadens across multiple customers and regions without materially weakening contract terms or margins.",
+    "Share count remains disciplined after acquisition equity consideration and compensation, with repurchases funded from excess owner cash rather than debt.",
+    "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Two or more quarters of material RPO deterioration accompanied by project delays, cancellations or weaker cash conversion.",
+    "Project estimate revisions, claims or fixed-price losses cause persistent margin compression.",
+    "Acquisition returns remain below the hurdle after integration while acquisition cadence continues.",
+    "Owner cash per share deteriorates structurally despite backlog and adjusted-EPS growth.",
+    "Net leverage rises and external refinancing increasingly funds ordinary reinvestment rather than discretionary acquisitions.",
+    "Major data-center or utility customers reduce capital programs and replacement demand fails to offset the decline.",
+    "A material accounting or control issue undermines confidence in percentage-of-completion revenue recognition.",
+    "Valuation remains near bull economics while business-quality evidence weakens."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {"score":14,"max_score":15,"claim_type":"opinion","evidence":["Q2 revenue reached $9.56B and June RPO reached $33.55B, with management citing converging utility, generation and large-load markets.","Electric remains more than 80% of H1 revenue and benefits from grid modernization, generation interconnections, data centers and manufacturing load growth."],"counter_evidence":["Infrastructure demand remains project-cycle, permitting, financing and regulatory dependent; 2026 growth also contains meaningful acquisition contribution."],"confidence":0.88,"missing_data":[]},
+    "customer_value_and_product": {"score":9,"max_score":10,"claim_type":"opinion","evidence":["Quanta's self-perform craft workforce, engineering, procurement, construction and program-management capabilities are valuable where schedule certainty and skilled labor are scarce.","RPO grew 41.2% from year-end and approximately 70% is expected to be recognized within twelve months."],"counter_evidence":["Customers can rebid projects, alter schedules and negotiate change orders; services businesses have less contractual lock-in than software or proprietary component franchises."],"confidence":0.86,"missing_data":["Independent customer retention and project-level share-of-wallet data."]},
+    "moat_trajectory": {"score":12,"max_score":15,"claim_type":"opinion","evidence":["Quanta combines scale, safety record, skilled labor, fleet, utility relationships and increasingly integrated electrical/mechanical/fabrication capabilities.","Recent acquisitions expand data-center and mission-critical electrical/mechanical self-perform capabilities without dependence on one end market."],"counter_evidence":["The industry remains competitive and labor, fleet and execution capacity can be replicated over time by well-capitalized peers; scarcity conditions are not a permanent moat by themselves."],"confidence":0.80,"missing_data":["Independent market-share and price-retention evidence after industry capacity normalizes."]},
+    "incremental_roic_and_fcf_per_share": {"score":10,"max_score":15,"claim_type":"opinion","evidence":["Harness-rule TTM OCF-minus-capex is about $2.39B and conservative OCF-minus-capex-minus-SBC about $2.17B.","H1 DSO improved to 57 days from 62 days a year earlier and below the five-year historical average of 71 days."],"counter_evidence":["H1 OCF benefited from working-capital movements and acquisition/capacity spending continues; post-acquisition returns are not yet observable.","Revenue recognition includes estimates of contract costs, change orders and claims, requiring discipline before treating accounting growth as owner-cash growth."],"confidence":0.77,"missing_data":["Cohort-level after-tax returns for Dynamic Systems, 2026 acquisitions and manufacturing/capacity investments."]},
+    "management_and_capital_allocation": {"score":7,"max_score":10,"claim_type":"opinion","evidence":["Management has built a broader self-perform infrastructure platform through acquisitions that align with electrical/mechanical and large-load capabilities.","The company maintains liquidity and has historically integrated multiple specialized contractors."],"counter_evidence":["Acquisition cadence is high: 2025 acquisition cash spending was about $3.05B, H1 2026 another $0.93B, with additional Q2-July transactions. Goodwill and intangibles are material."],"confidence":0.76,"missing_data":["Realized acquisition ROIC and synergy/cross-sell evidence by cohort."]},
+    "financial_survivability": {"score":8,"max_score":10,"claim_type":"opinion","evidence":["June cash plus available senior-credit commitments totaled about $2.77B and TTM OCF was about $3.18B.","No single customer represented 10% or more of H1 2026 revenue or receivables."],"counter_evidence":["Long-term debt obligations were about $6.10B and Quanta uses commercial paper; project execution and working-capital demands can create cash volatility."],"confidence":0.87,"missing_data":[]},
+    "expectation_gap_and_valuation": {"score":4,"max_score":15,"claim_type":"opinion","evidence":["At the $618.73 September 10 close, the conservative Base value of about $479.64 is roughly 22.5% below price.","Under Base margin and 18x terminal assumptions, price requires approximately 11.86% annual revenue growth in years 2-10 after a $39.5B year-1 revenue base."],"counter_evidence":["The 2026 revenue guide is $39.3B-$39.7B and current RPO growth is much faster than the reverse-growth requirement, so the price does not require an obviously impossible Bull-only path."],"confidence":0.78,"missing_data":["Normalized owner cash after current acquisition and capacity cycle."]},
+    "power_law_and_asymmetry": {"score":4,"max_score":10,"claim_type":"opinion","evidence":["Bull value of about $1,094 provides substantial upside if Quanta compounds large-load, grid and power-generation infrastructure with higher owner margins."],"counter_evidence":["Base value is below market and Bear value near $119 implies severe downside if project growth, margins and acquisition returns normalize together."],"confidence":0.75,"missing_data":[]}
+  },
+  "hard_veto": {
+    "overall_status": "INVESTIGATE",
+    "items": [
+      {"id":"management_or_accounting_integrity","status":"PASS","evidence":["PwC concluded the 2025 financial statements were fairly presented and ICFR was effective; no material integrity failure was identified in reviewed evidence."],"severity":"NO_TRIGGER_FOUND_WITH_ACQUISITION_CONTROL_MONITOR","confidence":0.93,"resolution_needed":"Reassess acquired-entity controls and contract-estimate disclosures as acquisitions age into the ICFR scope."},
+      {"id":"external_capital_dependence","status":"PASS","evidence":["Quanta generates substantial operating cash flow and retains revolving capacity; debt and commercial paper support discretionary acquisitions and working capital rather than operating survival."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.87,"resolution_needed":"Monitor leverage, commercial-paper use and acquisition funding discipline."},
+      {"id":"persistent_dilution","status":"PASS","evidence":["Share count increased modestly with acquisitions and compensation but reviewed evidence does not establish persistent excessive dilution; economic SBC remains monitored."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.82,"resolution_needed":"Track per-share owner cash and acquisition-stock consideration over multiple periods."},
+      {"id":"low_quality_growth","status":"PASS","evidence":["Growth is supported by RPO, cash flow, DSO improvement and broad Electric demand; no customer-financing mechanism was identified."],"severity":"NO_TRIGGER_FOUND_WITH_CONTRACT_ASSET_MONITOR","confidence":0.84,"resolution_needed":"Track DSO, contract assets, claims and RPO conversion."},
+      {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":["No collapse is proven, but high acquisition cadence, strategic capex and material goodwill/intangibles create new capital cohorts whose post-ramp returns are not yet observable."],"severity":"OPEN_EVIDENCE_GATE","confidence":0.88,"resolution_needed":"Measure acquisition and capacity-cohort after-tax incremental returns against the 9% hurdle after integration and working-capital normalization."},
+      {"id":"moat_shrinkage","status":"PASS","evidence":["RPO, backlog, scale and expanding self-perform capabilities do not indicate persistent moat contraction."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.84,"resolution_needed":"Track competitive pricing, skilled-labor retention, safety, project execution and market share."},
+      {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":["The reference price requires about 11.86% annual revenue growth in years 2-10 under conservative Base margins and an 18x terminal multiple. This is demanding but not demonstrably impossible given current RPO and revenue growth."],"severity":"NO_TRIGGER_FOUND_WITH_VALUATION_MONITOR","confidence":0.80,"resolution_needed":"PASS does not equal buy authorization; require a stronger expectation gap or higher normalized owner cash."},
+      {"id":"fatal_concentration","status":"PASS","evidence":["No customer represented 10% or more of H1 2026 consolidated revenue or receivables; end markets span utilities, power generation, technology/load centers, manufacturing and other infrastructure."],"severity":"NO_TRIGGER_FOUND_WITH_MONITOR","confidence":0.90,"resolution_needed":"Track large-load and utility-customer concentration as mix shifts."},
+      {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":["Operating failure risk is moderate, but valuation above Base economics plus project-estimate risk and acquisition/capacity reinvestment can cause long-duration impairment without bankruptcy."],"severity":"VALUATION_AND_EXECUTION_GATE_OPEN","confidence":0.85,"resolution_needed":"Require sustained owner-cash-per-share compounding, disciplined acquisition ROIC and a materially better expectation gap before buy authorization."}
+    ]
+  },
+  "red_team": {
+    "verdict": "REVISE_NOT_REJECT",
+    "attacks": [
+      "Data-center and large-load projects are delayed by grid interconnection, financing or power-availability constraints.",
+      "Utility spending remains high but project margins normalize as competitors add labor and capacity.",
+      "MSA-derived backlog estimates overstate firm demand relative to RPO.",
+      "Fixed-price cost inflation and labor scarcity create negative project revisions.",
+      "Unapproved change orders and claims rise faster than collections.",
+      "Acquisition integration fails and goodwill/intangibles do not earn the hurdle rate.",
+      "Working-capital releases temporarily flatter OCF while contract assets rise.",
+      "Commercial-paper and debt costs absorb a larger share of cash.",
+      "Share issuance for acquisitions and SBC prevents per-share cash compounding.",
+      "A premium valuation compresses even if Quanta remains a high-quality infrastructure operator."
+    ]
+  },
+  "completion_gate": {
+    "passed": true,
+    "investment_gates_open": ["incremental_roic_collapse","permanent_loss_probability"],
+    "explicit_model_uncertainties": ["Acquisition-cohort ROIC","Normalized post-cycle owner-cash margin","Long-duration RPO conversion","Project claims/change-order cash realization","User portfolio risk budget"]
+  }
+}

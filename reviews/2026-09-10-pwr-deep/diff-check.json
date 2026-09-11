@@ -1,0 +1,28 @@
+{
+  "ticker": "PWR",
+  "as_of": "2026-09-10",
+  "base_branch": "main",
+  "research_branch": "research/pwr-deep-2026-09-10",
+  "pre_guardrail_compare": {
+    "ahead_by": 7,
+    "behind_by": 0,
+    "files_added": 7,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "expected_final_scope": {
+    "files_added": 8,
+    "files_modified": 0,
+    "files_deleted": 0
+  },
+  "protected_surfaces_unchanged": [
+    "companies/PWR/latest.json",
+    "registry/companies.json",
+    "reviews/latest.json",
+    "companies/PWR/raw-data/*",
+    "harness/baseline-lock.json",
+    "frozen deterministic outputs"
+  ],
+  "validation_note": "GitHub compare verifies additive-only structure. No claim is made that python -m harness.validate or another local deterministic validator was executed in this session.",
+  "authority_note": "Current canonical authority remains the 2026-09-06 preliminary review until a separate reviewed authority-promotion run."
+}

@@ -1,0 +1,24 @@
+{
+  "ticker": "PWR",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "business_quality_75": 60,
+  "total_score_100": 68,
+  "classification": "Starter / Watch",
+  "categories": {
+    "structural_change_and_leadership": 14,
+    "customer_value_and_product": 9,
+    "moat_trajectory": 12,
+    "incremental_roic_and_fcf_per_share": 10,
+    "management_and_capital_allocation": 7,
+    "financial_survivability": 8,
+    "expectation_gap_and_valuation": 4,
+    "power_law_and_asymmetry": 4
+  },
+  "open_hard_veto": ["incremental_roic_collapse","permanent_loss_probability"],
+  "valuation": {"price":618.73,"required_return":0.09,"bear":118.96,"base":479.64,"bull":1094.14,"reverse_growth_years_2_10":0.11857},
+  "note": "Starter / Watch is a score-band label only. Hard Veto overrides score; no position is authorized."
+}
