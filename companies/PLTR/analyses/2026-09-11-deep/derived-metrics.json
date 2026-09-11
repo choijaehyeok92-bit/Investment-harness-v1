@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "PLTR",
+  "as_of": "2026-09-11",
+  "claim_type": "calculation",
+  "unit_note": "USD billions unless otherwise stated",
+  "inputs": [
+    "companies/PLTR/raw-data/2026-Q2.json",
+    "companies/PLTR/raw-data/2026-09-11-public-update.json"
+  ],
+  "h1_2026_growth": {
+    "revenue_yoy_pct": 89.0304,
+    "gaap_operating_income_yoy_pct": 274.0757,
+    "operating_cash_flow_yoy_pct": 149.0050,
+    "formula_note": "Current H1 divided by prior-year H1 minus one."
+  },
+  "owner_cash_proxy": {
+    "definition": "Operating cash flow minus PPE purchases minus stock-based compensation expense. This treats SBC as an economic cash-equivalent cost and is not GAAP free cash flow.",
+    "h1_2026_usd_b": 1.626576,
+    "h1_2025_usd_b": 0.520386,
+    "yoy_growth_pct": 212.5711,
+    "h1_2026_margin_pct": 45.5873,
+    "h1_2025_margin_pct": 27.5694,
+    "limitations": [
+      "Working-capital timing remains material; H1 2026 contract liabilities added cash while accounts receivable consumed cash.",
+      "This proxy is not incremental ROIC and does not establish distributable cash.",
+      "Interest income and gains on marketable securities are not treated as recurring operating economics in the forward owner-margin model."
+    ]
+  },
+  "sbc_and_dilution": {
+    "h1_2026_sbc_to_revenue_pct": 13.0828,
+    "h1_2025_sbc_to_revenue_pct": 16.7047,
+    "h1_sbc_expense_yoy_pct": 48.0446,
+    "issued_common_share_growth_2025_12_31_to_2026_06_30_pct": 0.4895,
+    "current_common_shares_m": 2402.896741,
+    "valuation_diluted_proxy_shares_m": 2568.694,
+    "diluted_proxy_premium_to_current_shares_pct": 6.8999,
+    "note": "Absolute SBC increased despite improving SBC/revenue. Outstanding options, RSUs and SARs remain an economic dilution overhang."
+  },
+  "market_reference": {
+    "price_usd": 165.86,
+    "price_date": "2026-09-10",
+    "actual_share_market_cap_proxy_usd_b": 398.5445,
+    "diluted_equity_value_proxy_usd_b": 426.0436,
+    "fy2026_revenue_guide_midpoint_usd_b": 8.154,
+    "diluted_price_to_fy2026_revenue_guide_midpoint_x": 52.2496,
+    "diluted_net_liquid_adjusted_value_to_revenue_x": 51.0957,
+    "net_liquid_assets_used_usd_b": 9.409099,
+    "note": "Valuation multiples are calculations from a secondary reference quote and filing share/liquidity data, not provider-reported market capitalization."
+  }
+}
