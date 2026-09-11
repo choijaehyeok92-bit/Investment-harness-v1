@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "207940",
+  "as_of": "2026-09-11",
+  "currency": "KRW",
+  "reference_price": 1405000,
+  "reference_price_date": "2026-09-11",
+  "reference_price_quality": "SECONDARY_REFERENCE_QUOTE_NOT_EXCHANGE_AUDITED",
+  "method": "Bridge the 2026-09-06 long-term operating scenarios through the announced KRW 3tn rights offering. Convert prior per-share scenario values to total equity using 46.290951m shares; add scenario value assigned to the rights-funded acquisition/capex package; divide by pro-forma 48.560951m shares.",
+  "warning": "This isolates the financing/deployment event. It is not a standalone DCF of PolyPeptide and does not claim that acquisition price equals intrinsic value.",
+  "share_bridge": {
+    "old_shares_m": 46.290951,
+    "new_rights_shares_m": 2.27,
+    "pro_forma_shares_m": 48.560951,
+    "increase_percent": 4.903766180997232,
+    "indicative_issue_price": 1322000,
+    "gross_proceeds_trillion": 3.0
+  },
+  "scenarios": {
+    "bear": {
+      "prior_value_per_share": 362576.4757244668,
+      "prior_total_equity_value_trillion": 16.78400987151398,
+      "rights_funded_deployment_value_trillion": 1.5,
+      "updated_total_equity_value_trillion": 18.28400987151398,
+      "updated_value_per_share": 376516.7175476852,
+      "value_to_price": 0.2679834288595624,
+      "upside_downside": -0.7320165711404376
+    },
+    "base": {
+      "prior_value_per_share": 1151248.54,
+      "prior_total_equity_value_trillion": 53.292389753961544,
+      "rights_funded_deployment_value_trillion": 3.0,
+      "updated_total_equity_value_trillion": 56.292389753961544,
+      "updated_value_per_share": 1159211.024387919,
+      "value_to_price": 0.8250612273223623,
+      "upside_downside": -0.1749387726776377
+    },
+    "bull": {
+      "prior_value_per_share": 2418875.94,
+      "prior_total_equity_value_trillion": 111.97206761361895,
+      "rights_funded_deployment_value_trillion": 4.5,
+      "updated_total_equity_value_trillion": 116.47206761361895,
+      "updated_value_per_share": 2398471.7188429637,
+      "value_to_price": 1.7070973087850275,
+      "upside_downside": 0.7070973087850276
+    }
+  },
+  "deployment_value_logic": {
+    "bear": "0.5x gross proceeds: integration/capex destroys part of invested value or earns sub-cost-of-capital returns.",
+    "base": "1.0x gross proceeds: new capital roughly earns its opportunity cost; transaction is approximately value-neutral before future upside.",
+    "bull": "1.5x gross proceeds: peptide/geographic/capacity synergies create material value above invested capital."
+  },
+  "market_expectation_interpretation": "At the reference price, base-case margin of safety is absent. The stock does not mechanically require the internal bull case, but current price already discounts meaningful duration, utilization and capital-allocation success.",
+  "next_model_required": "After final rights terms and PolyPeptide closing, build a full pro-forma model incorporating purchase-price allocation, target debt, target revenue/FCF, integration capex, consolidated share count, working capital and incremental ROIC."
+}
