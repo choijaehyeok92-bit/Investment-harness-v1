@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "PLTR",
+  "as_of": "2026-09-11",
+  "source_policy": "policy/source-policy.yaml",
+  "sources": [
+    {"id":"S1","priority":1,"type":"SEC filing","description":"Palantir Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm","quality":"high"},
+    {"id":"S2","priority":2,"type":"company IR","description":"Palantir Q2 2026 results and outlook","url":"https://investors.palantir.com/news-details/2026/Palantir-Reports-","quality":"high"},
+    {"id":"S3","priority":3,"type":"customer/partner primary evidence","description":"NVIDIA technical blog on Palantir Foundry supply-chain implementation","url":"https://developer.nvidia.com/blog/from-wafer-out-to-first-token-codifying-supply-chain-expertise-with-nemotron-and-palantir-foundry/","quality":"high_for_use_case_not_financials"},
+    {"id":"S4","priority":4,"type":"secondary market data","description":"September 10, 2026 historical close reference","url":"https://se.investing.com/equities/palantir-technologies-inc-historical-data","quality":"medium"}
+  ],
+  "claims": [
+    {"id":"C1","claim_type":"fact","claim":"Q2 2026 revenue was $1.935B, up 93% year over year; GAAP operating income was $0.912B at a 47% margin.","evidence":["S1","S2"],"counter_evidence":["Quarterly growth is unusually high and may normalize; quarter-end seasonality and large deals make extrapolation unsafe."],"confidence":0.99},
+    {"id":"C2","claim_type":"fact","claim":"U.S. commercial Q2 revenue grew 149% year over year to $764M; U.S. commercial RDV reached $6.238B, up 124%.","evidence":["S2"],"counter_evidence":["RDV includes contractual structures and is not equivalent to non-cancelable GAAP remaining performance obligations."],"confidence":0.98},
+    {"id":"C3","claim_type":"fact","claim":"H1 2026 OCF was $2.115B, PPE purchases $0.022B and SBC $0.467B.","evidence":["S1"],"counter_evidence":["OCF benefited from contract-liability inflows while accounts receivable consumed cash; period timing matters."],"confidence":0.99},
+    {"id":"C4","claim_type":"calculation","claim":"OCF-PPE-SBC owner-cash proxy was $1.627B in H1 2026 versus $0.520B in H1 2025, with proxy margin improving to 45.6% from 27.6%.","evidence":["S1","companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json"],"counter_evidence":["The proxy is not distributable cash and not a direct incremental-ROIC measurement."],"confidence":0.92},
+    {"id":"C5","claim_type":"fact","claim":"No customer exceeded 10% of H1 2026 revenue; the top three represented 16% of revenue.","evidence":["S1"],"counter_evidence":["One customer represented 27% of accounts receivable, and U.S. customers represented 80% of H1 revenue, so concentration risk has not disappeared."],"confidence":0.99},
+    {"id":"C6","claim_type":"fact","claim":"At June 30, Palantir had $2.030B cash, $7.379B marketable securities and no drawn balance on its $500M revolver.","evidence":["S1"],"counter_evidence":["A portion of marketable securities consists of public equity holdings; all liquidity is not equivalent to operating cash."],"confidence":0.99},
+    {"id":"C7","claim_type":"fact","claim":"SBC expense rose 48% year over year in H1 2026 to $466.8M, while SBC/revenue fell to roughly 13.1% from 16.7%.","evidence":["S1","companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json"],"counter_evidence":["Absolute SBC and outstanding option/RSU/SAR overhang remain large; relative improvement does not eliminate dilution."],"confidence":0.97},
+    {"id":"C8","claim_type":"fact","claim":"NVIDIA publicly described use of Palantir Foundry in its own supply-chain decision-intelligence workflow and a customized Nemotron model lifecycle.","evidence":["S3"],"counter_evidence":["No revenue, contract value or margin contribution from this use case was disclosed."],"confidence":0.96},
+    {"id":"C9","claim_type":"estimate","claim":"At a $165.86 reference price and a 2.569B diluted share proxy, the model requires about 28.8% revenue CAGR in years 2-10 under a 35% owner-cash margin and 22x terminal multiple.","evidence":["S4","companies/PLTR/analyses/2026-09-11-deep/valuation.json"],"counter_evidence":["Reverse expectations are highly sensitive to margin, share count, discount rate and terminal assumptions; this is not the market's unique forecast."],"confidence":0.78},
+    {"id":"C10","claim_type":"opinion","claim":"Palantir's moat trajectory is strengthening, but valuation asymmetry remains insufficient for new-buy approval.","evidence":["C1","C2","C4","C5","C8","C9"],"counter_evidence":["A much larger and longer-duration AI software outcome could make today's price attractive; short-term operating momentum is exceptionally strong."],"confidence":0.74}
+  ],
+  "source_quality_notes": [
+    "Financial statement claims use SEC and company IR primary sources.",
+    "NVIDIA evidence is treated as customer-value/product evidence only, not as undisclosed financial contribution.",
+    "The market price is a secondary reference quote and is explicitly not treated as exchange-audited.",
+    "Facts, calculations, estimates and opinions are separated; unknown incremental ROIC is not converted into false precision."
+  ]
+}
