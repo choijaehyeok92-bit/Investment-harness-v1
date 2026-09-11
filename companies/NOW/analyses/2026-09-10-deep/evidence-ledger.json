@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "NOW",
+  "as_of": "2026-09-10",
+  "source_policy": "Primary filings and company IR first; current secondary sources only for market price and competitive context. Facts, estimates and opinions remain separated.",
+  "facts": [
+    {"id":"Q2_REVENUE","claim":"Q2 2026 subscription revenue was $3.877B (+24.5% YoY; +23% CC), total revenue $3.987B (+24%).","source":"ServiceNow Q2 2026 earnings release","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx"},
+    {"id":"Q2_RPO","claim":"Q2 cRPO was $13.20B (+21% YoY; +21.5% CC) and total RPO $29.0B (+21%).","source":"ServiceNow Q2 2026 earnings release","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx"},
+    {"id":"AI_ACV","claim":"ServiceNow AI exceeded $1B annual contract value in Q2 2026; 658 customers had more than $5M ACV and 123 Q2 deals exceeded $1M net-new ACV.","source":"ServiceNow Q2 2026 earnings release","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx"},
+    {"id":"PULL_FORWARD","claim":"Management said Q2 subscription revenue included stronger U.S. federal on-premise mix that accelerated some revenue from Q3 into Q2.","source":"ServiceNow Q2 2026 earnings release","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx"},
+    {"id":"H1_CASH","claim":"H1 2026 OCF was $2.257B vs $2.393B prior year; PPE purchases $255M vs $395M; business-combination cash spending $8.776B.","source":"Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"},
+    {"id":"SBC","claim":"H1 2026 stock-based compensation was about $1.213B in operating reconciliation, 16% of revenue, up 25% YoY.","source":"Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"},
+    {"id":"LIQUIDITY_DEBT","claim":"June cash was $2.503B, current marketable securities $2.161B and total liquid financial assets about $6.7B; debt principal about $7.6B including $2.1B commercial paper at 3.98% with 81-day weighted remaining term.","source":"Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"},
+    {"id":"ACQUISITIONS","claim":"Armis was acquired for preliminary consideration of about $7.6B and Veza about $1.2B in 2026.","source":"Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"},
+    {"id":"FED_CONCENTRATION","claim":"One U.S. federal channel partner/system integrator represented 13% of Q2 and H1 2026 total revenue and 12% of June accounts receivable; no historical collection concern was reported.","source":"Q2 2026 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"},
+    {"id":"ICFR","claim":"PwC reported ServiceNow maintained effective internal control over financial reporting as of Dec. 31, 2025.","source":"FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm"},
+    {"id":"RENEWAL","claim":"ServiceNow reported a 98% renewal rate for 2025.","source":"FY2025 annual report","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000041/now2025ars.pdf"},
+    {"id":"LONG_TERM_TARGETS","claim":"At Financial Analyst Day, management targeted $30B+ subscription revenue, 30% of ACV from AI, Rule of 60+ by 2030 and SBC below 10% of revenue by 2029.","source":"Q2 2026 earnings release recap","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx"},
+    {"id":"AI_GATEWAY","claim":"ServiceNow AI Gateway relaunched Sept. 10 as a runtime enforcement layer for governing agent-to-MCP connections inside AI Control Tower.","source":"ServiceNow Community / employee product notice","url":"https://www.servicenow.com/community/ai-control-tower-blog/ai-gateway-is-back-what-s-coming-on-september-10th-2026/ba-p/3591141"},
+    {"id":"CURRENT_COMPETITION","claim":"On Sept. 8, software stocks including ServiceNow fell after OpenAI released GPT-6 Astra, reflecting investor concern that stronger frontier agents could disrupt incumbent software services; this is market concern, not proof of ServiceNow displacement.","source":"Reuters","url":"https://www.reuters.com/business/wall-st-futures-slip-oil-surge-puts-markets-edge-2026-09-08/"},
+    {"id":"PRICE","claim":"ServiceNow closed at $131.24 on Sept. 10, 2026 after the five-for-one split-adjusted history.","source":"Investing.com historical data","url":"https://za.investing.com/equities/servicenow-inc-historical-data"}
+  ],
+  "derived_metrics": {
+    "ttm_formula":"FY2025 + H1 2026 - H1 2025",
+    "ttm_revenue_usd_b":14.732,
+    "ttm_gaap_net_income_usd_b":1.67,
+    "ttm_ocf_usd_b":5.308,
+    "ttm_ppe_usd_b":0.728,
+    "ttm_ocf_minus_ppe_usd_b":4.58,
+    "ttm_sbc_usd_b":2.185,
+    "ttm_conservative_owner_proxy_usd_b":2.372,
+    "reference_market_cap_usd_b":135.68404888,
+    "reverse_cagr":0.11501627615155885
+  },
+  "source_quality_notes": [
+    "AI ACV, product adoption and long-term targets are company-reported operating metrics, not audited future cash flows.",
+    "Reuters competition evidence is used only as a current red-team signal; stock-price reaction is not evidence that moat shrinkage has occurred.",
+    "Investing.com is used only for the completed-session reference close; no provider market capitalization is used.",
+    "OCF-PPE and OCF-PPE-SBC are diagnostics, not automatically normalized owner FCF."
+  ]
+}
