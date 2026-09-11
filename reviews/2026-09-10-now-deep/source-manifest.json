@@ -1,0 +1,28 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-09-10",
+  "sources": [
+    {"tier":1,"type":"company_ir","title":"ServiceNow Reports Second Quarter 2026 Financial Results","date":"2026-07-22","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx","use":"Q2 subscription revenue, cRPO/RPO, AI ACV, large-customer metrics, guidance and federal pull-forward disclosure"},
+    {"tier":1,"type":"sec_filing","title":"ServiceNow Form 10-Q for quarter ended June 30, 2026","date":"2026-07","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm","use":"H1 cash flow, SBC, acquisitions, liquidity, debt/commercial paper, share count, customer concentration"},
+    {"tier":1,"type":"sec_filing","title":"ServiceNow Form 10-K for year ended December 31, 2025","date":"2026-01-29","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm","use":"FY2025 cash flow, customer concentration, risk factors, ICFR audit"},
+    {"tier":1,"type":"annual_report","title":"ServiceNow 2025 Annual Report","date":"2026","url":"https://www.sec.gov/Archives/edgar/data/1373715/000137371526000041/now2025ars.pdf","use":"98% renewal-rate disclosure and shareholder-letter context"},
+    {"tier":2,"type":"company_product_notice","title":"AI Gateway Is Back — What's Coming on September 10th, 2026","date":"2026-08","url":"https://www.servicenow.com/community/ai-control-tower-blog/ai-gateway-is-back-what-s-coming-on-september-10th-2026/ba-p/3591141","use":"AI Gateway runtime governance capability; not used as audited financial evidence"},
+    {"tier":2,"type":"company_ir","title":"ServiceNow delivers Autonomous Security","date":"2026-08-04","url":"https://investor.servicenow.com/news/news-details/2026/ServiceNow-delivers-Autonomous-Security-the-industrys-most-complete-security-offering/default.aspx","use":"Armis/Veza product integration and Autonomous Security strategy"},
+    {"tier":3,"type":"news","title":"S&P 500 falls as AI worries hit software makers","date":"2026-09-08","url":"https://www.reuters.com/business/wall-st-futures-slip-oil-surge-puts-markets-edge-2026-09-08/","use":"Current frontier-model competitive concern after GPT-6 Astra; treated as red-team context, not proof of moat loss"},
+    {"tier":3,"type":"market_price","title":"ServiceNow historical prices","date":"2026-09-10","url":"https://za.investing.com/equities/servicenow-inc-historical-data","use":"Completed-session Sep. 10 close of $131.24 only; provider market cap not used"}
+  ],
+  "repository_sources": [
+    "companies/NOW/valuation.json",
+    "companies/NOW/valuation_model.py",
+    "companies/NOW/financial-inputs.json",
+    "companies/NOW/hard-veto.json",
+    "companies/NOW/analyses/2026-09-06/assessment.json"
+  ],
+  "quality_notes": [
+    "Primary filings and company IR dominate quantitative financial claims.",
+    "Company AI/renewal metrics are management-reported operating metrics and are not treated as future cash-flow facts.",
+    "Reuters is used for current competitive context only.",
+    "Market price is synchronized to the completed Sep. 10 U.S. session; no third-party market-cap figure is imported.",
+    "Retained Bear/Base/Bull values are model estimates from the existing harness architecture, not external price targets."
+  ]
+}

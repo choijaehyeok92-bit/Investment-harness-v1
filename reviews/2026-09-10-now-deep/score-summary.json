@@ -1,0 +1,33 @@
+{
+  "ticker": "NOW",
+  "as_of": "2026-09-10",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "classification": "Starter / Watch",
+  "business_quality_75": 56,
+  "total_score_100": 73,
+  "categories": {
+    "structural_change_and_leadership": 13,
+    "customer_value_and_product": 9,
+    "moat_trajectory": 11,
+    "incremental_roic_and_fcf_per_share": 8,
+    "management_and_capital_allocation": 6,
+    "financial_survivability": 9,
+    "expectation_gap_and_valuation": 11,
+    "power_law_and_asymmetry": 6
+  },
+  "open_hard_veto": [
+    "persistent_dilution",
+    "low_quality_growth",
+    "incremental_roic_collapse",
+    "moat_shrinkage"
+  ],
+  "reference_price": 131.24,
+  "bear": 58.485005454994585,
+  "base": 188.1844039647022,
+  "bull": 409.78079013695816,
+  "reverse_10y_revenue_cagr": 0.11501627615155885,
+  "note": "Hard Veto overrides score. Price decline alone is insufficient for position authorization."
+}
