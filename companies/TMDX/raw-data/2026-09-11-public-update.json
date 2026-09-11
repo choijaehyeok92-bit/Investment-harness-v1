@@ -1,0 +1,89 @@
+{
+  "ticker": "TMDX",
+  "mode": "DATA_EXTRACTION_ONLY",
+  "as_of": "2026-09-11",
+  "scope_note": "Incremental public-source update. No investment judgment. Q2 financial statements remain in companies/TMDX/raw-data/2026-Q2.json; this file preserves additional primary-source observations, control-remediation facts, capital commitments, PAD Aviation completion and the refreshed market reference used in the 2026-09-11 reassessment.",
+  "sources": [
+    {"id":"sec_q2_10q","type":"primary_filing","url":"https://www.sec.gov/Archives/edgar/data/1756262/000119312526332843/tmdx-20260630.htm","description":"TransMedics Q2 2026 Form 10-Q filed 2026-08-04"},
+    {"id":"sec_q2_8k","type":"primary_filing","url":"https://www.sec.gov/Archives/edgar/data/1756262/000119312526332767/tmdx-ex99_1.htm","description":"TransMedics Q2 2026 earnings release"},
+    {"id":"pad_completion","type":"company_primary","url":"https://investors.transmedics.com/news-releases/news-release-details/transmedics-group-announces-completion-strategic-investment-pad","description":"PAD Aviation strategic investment completion announcement dated 2026-07-06"},
+    {"id":"price_20260910","type":"secondary_market_reference","url":"https://www.investing.com/equities/transmedics-group-inc-historical-data","description":"2026-09-10 close used only as a reference quote; not exchange-audited by the harness"}
+  ],
+  "observations": {
+    "q2_2026": {
+      "revenue_usd_m": 189.948,
+      "revenue_yoy_pct": 20.7,
+      "product_revenue_usd_m": 111.158,
+      "service_revenue_usd_m": 78.790,
+      "gaap_gross_margin_pct": 60.0,
+      "product_gross_margin_pct": 77.0,
+      "service_gross_margin_pct": 35.0,
+      "operating_income_usd_m": 23.736,
+      "net_income_usd_m": 14.682,
+      "stock_based_compensation_usd_m": 8.606,
+      "source_ids": ["sec_q2_10q", "sec_q2_8k"]
+    },
+    "h1_2026": {
+      "revenue_usd_m": 363.881,
+      "revenue_yoy_pct": 20.9,
+      "product_revenue_usd_m": 219.130,
+      "service_revenue_usd_m": 144.751,
+      "operating_income_usd_m": 37.033,
+      "operating_income_h1_2025_usd_m": 64.010,
+      "operating_cash_flow_usd_m": 41.842,
+      "ppe_purchases_usd_m": 43.749,
+      "stock_based_compensation_usd_m": 18.558,
+      "ocf_less_ppe_usd_m": -1.907,
+      "ocf_less_ppe_less_sbc_usd_m": -20.465,
+      "cash_usd_m": 472.675,
+      "accounts_receivable_usd_m": 104.138,
+      "inventory_usd_m": 54.137,
+      "source_ids": ["sec_q2_10q"]
+    },
+    "capital_structure": {
+      "convertible_notes_principal_usd_m": 460.0,
+      "convertible_notes_carrying_value_usd_m": 454.260,
+      "convertible_initial_conversion_price_usd": 94.00,
+      "convertible_maturity": "2028-06-01",
+      "bank_debt_current_usd_m": 20.0,
+      "bank_debt_long_term_usd_m": 39.743,
+      "finance_lease_liability_usd_m": 347.660,
+      "finance_lease_future_payment_2027_usd_m": 374.590,
+      "source_ids": ["sec_q2_10q"]
+    },
+    "headquarters_and_capital_commitments": {
+      "estimated_hq_capex_low_usd_m": 200,
+      "estimated_hq_capex_high_usd_m": 240,
+      "period": "through 2030",
+      "committed_construction_design_project_management_usd_m": 12.7,
+      "source_ids": ["sec_q2_10q"]
+    },
+    "internal_control": {
+      "material_weakness_status": "NOT_REMEDIATED_AS_OF_2026_06_30",
+      "issue": "Controls over inventory movement within the manufacturing network were not designed and maintained effectively for interim financial reporting.",
+      "remediation": "Enhanced interim inventory counting, system-based and monitoring controls, and strengthened review/approval procedures were implemented during Q2 2026 but require sufficient operating history and testing before remediation can be concluded.",
+      "financial_statements_management_conclusion": "Management concluded the Q2 financial statements fairly present financial position, results and cash flows in all material respects under U.S. GAAP notwithstanding the material weakness.",
+      "source_ids": ["sec_q2_10q"]
+    },
+    "pad_aviation": {
+      "completion_date": "2026-07-01",
+      "fact": "TransMedics completed a strategic investment in Germany-based PAD Aviation as the first step toward a dedicated European organ-transplant air logistics network.",
+      "financial_terms_publicly_disclosed_in_reviewed_sources": false,
+      "interpretation_limit": "Treat as strategic and capital-intensity evidence only; do not infer undisclosed acquisition economics or revenue contribution.",
+      "source_ids": ["sec_q2_10q", "pad_completion"]
+    },
+    "outlook": {
+      "fy2026_revenue_low_usd_m": 737,
+      "fy2026_revenue_high_usd_m": 757,
+      "pad_revenue_included": false,
+      "clinical_trial_incremental_revenue_included": false,
+      "source_ids": ["sec_q2_8k"]
+    },
+    "market_reference": {
+      "price_usd": 85.04,
+      "price_date": "2026-09-10",
+      "status": "SECONDARY_REFERENCE_CLOSE_NOT_EXCHANGE_AUDITED",
+      "source_ids": ["price_20260910"]
+    }
+  }
+}
