@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "TMDX",
+  "as_of": "2026-09-11",
+  "claim_type": "fact",
+  "source_paths": [
+    "companies/TMDX/raw-data/2026-Q2.json",
+    "companies/TMDX/raw-data/2026-09-11-public-update.json"
+  ],
+  "observations": [
+    {"id":"q2_revenue","value":0.189948,"unit":"USD billion","period":"2026 Q2","source":"SEC 10-Q / earnings release"},
+    {"id":"q2_product_revenue","value":0.111158,"unit":"USD billion","period":"2026 Q2","source":"SEC 10-Q"},
+    {"id":"q2_service_revenue","value":0.078790,"unit":"USD billion","period":"2026 Q2","source":"SEC 10-Q"},
+    {"id":"q2_operating_income","value":0.023736,"unit":"USD billion","period":"2026 Q2","source":"SEC 10-Q"},
+    {"id":"h1_revenue","value":0.363881,"unit":"USD billion","period":"H1 2026","source":"SEC 10-Q"},
+    {"id":"h1_operating_income","value":0.037033,"unit":"USD billion","period":"H1 2026","source":"SEC 10-Q"},
+    {"id":"h1_ocf","value":0.041842,"unit":"USD billion","period":"H1 2026","source":"SEC 10-Q"},
+    {"id":"h1_ppe","value":0.043749,"unit":"USD billion","period":"H1 2026","source":"SEC 10-Q"},
+    {"id":"h1_sbc","value":0.018558,"unit":"USD billion","period":"H1 2026","source":"SEC 10-Q"},
+    {"id":"cash","value":0.472675,"unit":"USD billion","period":"2026-06-30","source":"SEC 10-Q"},
+    {"id":"finance_lease_liability","value":0.347660,"unit":"USD billion","period":"2026-06-30","source":"SEC 10-Q"},
+    {"id":"convertible_notes_carrying_value","value":0.454260,"unit":"USD billion","period":"2026-06-30","source":"SEC 10-Q"},
+    {"id":"hq_capex_low","value":0.200,"unit":"USD billion","period":"through 2030 estimate","source":"SEC 10-Q"},
+    {"id":"hq_capex_high","value":0.240,"unit":"USD billion","period":"through 2030 estimate","source":"SEC 10-Q"},
+    {"id":"material_weakness","value":"NOT_REMEDIATED","unit":"status","period":"2026-06-30","source":"SEC 10-Q"},
+    {"id":"price_reference","value":85.04,"unit":"USD/share","period":"2026-09-10 close","source":"secondary market reference","uncertainty":"not exchange-audited by harness"}
+  ]
+}
