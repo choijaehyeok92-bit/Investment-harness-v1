@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0-checkpoint",
+  "ticker": "NOW",
+  "as_of": "2026-09-10",
+  "currency": "USD",
+  "price_reference": 131.24,
+  "price_date": "2026-09-10 US close",
+  "valuation_shares_m": 1033.862,
+  "simple_market_cap_usd_b": 135.68404888,
+  "required_return": 0.09,
+  "model_policy": "Retain 2026-09-05 long-horizon owner-cash scenario architecture for comparability; synchronize only price and reverse expectations. Scenario values are estimates, not targets.",
+  "ttm_diagnostics_usd_b": {
+    "revenue": 14.732,
+    "gaap_net_income": 1.67,
+    "operating_cash_flow": 5.308,
+    "ppe_purchases": 0.728,
+    "mechanical_ocf_minus_ppe": 4.58,
+    "stock_based_compensation_cash_flow_line": 2.185,
+    "conservative_owner_proxy_after_sbc_and_other_intangibles": 2.372
+  },
+  "market_multiples_diagnostic": {
+    "market_cap_to_gaap_net_income": 81.2479,
+    "market_cap_to_mechanical_ocf_minus_ppe": 29.6253,
+    "market_cap_to_conservative_owner_proxy": 57.2024,
+    "note": "These are diagnostics. OCF-PPE is not normalized owner FCF; the conservative proxy deducts SBC once and should not be combined with a second dilution haircut for the same awards."
+  },
+  "scenarios": {
+    "bear": {"fair_value_per_share": 58.485005454994585,"revenue_cagr":0.08,"terminal_owner_margin":0.16,"terminal_equity_fcf_multiple":18,"value_to_price":0.4456339946,"upside_downside":-0.5543660054},
+    "base": {"fair_value_per_share": 188.1844039647022,"revenue_cagr":0.16,"terminal_owner_margin":0.24,"terminal_equity_fcf_multiple":23,"value_to_price":1.4338951841,"upside_downside":0.4338951841,"terminal_pv_fraction":0.7788781129},
+    "bull": {"fair_value_per_share": 409.78079013695816,"revenue_cagr":0.22,"terminal_owner_margin":0.28,"terminal_equity_fcf_multiple":28,"value_to_price":3.1223772488,"upside_downside":2.1223772488},
+    "permanent_loss_case": {"fair_value_per_share":18.746471018655846,"revenue_cagr":0.0,"terminal_owner_margin":0.10,"terminal_equity_fcf_multiple":12,"value_to_price":0.1428411385,"upside_downside":-0.8571588615,"not_a_price_floor":true}
+  },
+  "reverse_expectations": {
+    "method": "Use retained TTM revenue $14.732B, 15% starting owner margin, linearly reaching 24% by year 10, 23x terminal equity FCF multiple and 9% required return; solve constant 10-year revenue CAGR to reprice $131.24.",
+    "required_10y_revenue_cagr": 0.11501627615155885,
+    "prior_required_10y_revenue_cagr_at_141_26": 0.12412684382091077,
+    "interpretation": "The current price requires demanding but not Bull-only growth. PASS on unrealistic-bull veto does not equal an approved buy because four non-price evidence gates remain open."
+  },
+  "two_state_bear_bull_price_location": 0.2071046614,
+  "two_state_note": "Algebraic location only, not a probability estimate.",
+  "no_double_counting": [
+    "Debt interest remains inside owner-margin economics; cash/debt is not separately added to the FCFE-style equity model.",
+    "SBC is treated as an economic expense in the owner-cash proxy; do not also apply a free-standing dilution haircut for the same awards.",
+    "Future acquisition purchase prices and speculative strategic-investment exits are excluded from scenario value."
+  ]
+}
