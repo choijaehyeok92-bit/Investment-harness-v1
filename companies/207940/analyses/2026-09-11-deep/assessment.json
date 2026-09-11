@@ -1,0 +1,147 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "207940",
+  "company_name": "Samsung Biologics",
+  "as_of": "2026-09-11",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "PRIMARY_FILINGS_PLUS_CURRENT_OFFICIAL_DISCLOSURES",
+  "priority": "P1",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "score_total": 68,
+  "quality_score_75": 59,
+  "source_paths": [
+    "companies/207940/raw-data/2025-2026-supplied-filings.json",
+    "companies/207940/analyses/2026-09-11-deep/evidence-ledger.json",
+    "companies/207940/analyses/2026-09-11-deep/model-inputs.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/207940/analyses/2026-09-06-deep/assessment.json",
+      "status": "SUPERSEDED_CURRENT_JUDGMENT_PRESERVED_AS_HISTORY"
+    }
+  ],
+  "review_method": "2026-09-06 deep review re-underwritten for the Aug-28 rights offering, current PolyPeptide H1-2026 economics, tender-offer conditions and Sep-11 reference price. Facts, estimates, inference and opinion are separated.",
+  "portfolio_context": "No actual holding, tax lot, liquidity need or portfolio risk budget supplied. This research does not authorize a trade.",
+  "structural_thesis": "Samsung Biologics remains a scale-leading biologics CDMO with a credible long-duration demand runway, expanding from antibodies into ADC, mRNA and peptides while adding U.S./European manufacturing exposure.",
+  "customer_and_moat": "Large validated capacity, regulatory track record, technology-transfer friction and customer switching costs remain meaningful advantages. Moat durability depends on quality, utilization, batch economics and the ability to integrate new modalities without diluting returns on capital.",
+  "current_finding": "H1 2026 continuing revenue was KRW 2.578tn and operating income KRW 1.167tn. Q2 revenue was KRW 1.321tn and operating profit KRW 0.586tn; management expects the upper end of +15-20% 2026 revenue growth guidance. The Aug-28 KRW 3tn rights offering introduces 2.27m new shares and must be included in per-share valuation.",
+  "economic_finding": "The core CDMO business is highly profitable, but PolyPeptide is still in a heavy reinvestment phase: H1 2026 revenue +41.6% and EBITDA margin 20.7%, yet disclosed FCF was -EUR 19.1m and net debt EUR 90.2m. The acquisition therefore adds strategic option value but not immediately proven high-return owner cash flow.",
+  "capital_and_survival": "Equity financing preserves balance-sheet resilience better than debt funding, but it is real external capital. Pro-forma shares rise from 46.291m to 48.561m, about 4.9%. Existing holders can preserve ownership through rights participation, but management must earn an adequate return on roughly KRW 3tn of new equity capital.",
+  "next_evidence": "Final rights-offering terms and subscription results; PolyPeptide tender acceptance and closing; purchase-price allocation and funding bridge; Plant 5/Rockville utilization and margin progression; consolidated post-deal FCF, working capital and incremental ROIC; customer concentration disclosure.",
+  "permanent_loss_case": "A permanent-loss path exists if the market capitalizes a decade of high growth while Plant 5/Rockville utilization, pricing or quality execution weakens and the PolyPeptide integration absorbs additional capital without durable FCF. In that case strong accounting profit could coexist with materially lower per-share economic value.",
+  "falsifiers": [
+    "Plant 5/Rockville utilization, yield or collection economics fail to improve over four reporting periods while capacity continues to expand.",
+    "Material quality/regulatory failure causes customer loss or persistent pricing concessions.",
+    "PolyPeptide integration requires materially more capital than announced and does not show a credible path to positive FCF and acceptable incremental ROIC.",
+    "Customer or modality concentration becomes severe enough that one program/regulation can impair the long-term earnings base.",
+    "Current valuation rises to require the internal bull case or better under conservative cash assumptions."
+  ],
+  "increase_evidence": [
+    "Two or more reporting periods showing Plant 5/Rockville ramp with stable or improving cash conversion.",
+    "PolyPeptide closes without material financing slippage and demonstrates improving FCF/ROIC after integration.",
+    "Post-rights pro-forma valuation offers a meaningful expectation gap under conservative base assumptions rather than requiring the bull case.",
+    "All INVESTIGATE veto items have specific primary-source evidence sufficient to reduce uncertainty."
+  ],
+  "sell_evidence": [
+    "Material accounting or management-integrity impairment.",
+    "Persistent quality/regulatory failures or clear moat shrinkage.",
+    "Repeated external equity funding becomes necessary to sustain growth without commensurate per-share FCF growth.",
+    "Incremental ROIC structurally deteriorates after the current expansion cycle.",
+    "Valuation requires unrealistic bull-case-or-better execution."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": ["Large-scale biologics outsourcing remains structurally attractive; Samsung is expanding capacity, geography and modalities."],
+      "counter_evidence": ["Industry capacity additions and customer bargaining power can reduce returns if demand growth disappoints."],
+      "confidence": 0.72
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": ["Validated large-scale manufacturing, regulatory execution and switching friction provide strong customer value."],
+      "counter_evidence": ["CDMO relationships remain commercially negotiated and are not immune to pricing or quality competition."],
+      "confidence": 0.72
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": ["Scale, order history, global footprint and broader modality coverage can widen the moat."],
+      "counter_evidence": ["The moat widens only if new capacity and acquisitions sustain quality, utilization and returns."],
+      "confidence": 0.68
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": ["Core continuing operations show high operating profitability and strong H1 operating cash flow."],
+      "counter_evidence": ["Plant 5/Rockville are still ramping; PolyPeptide H1 FCF was negative and the new KRW 3tn equity capital has not yet demonstrated its incremental return."],
+      "confidence": 0.60
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": ["Equity funding limits leverage risk and the PolyPeptide asset has strong peptide-growth exposure."],
+      "counter_evidence": ["The acquisition carries a 40% premium to the unaffected price and requires a large rights offering; integration and return-on-new-equity are unproven."],
+      "confidence": 0.62
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": ["H1 balance sheet was resilient and equity funding avoids a large debt-funded acquisition burden."],
+      "counter_evidence": ["Growth is capital intensive and the rights offering confirms that internal cash alone is not being used to finance the present expansion package."],
+      "confidence": 0.72
+    },
+    "expectation_gap_and_valuation": {
+      "score": 6,
+      "max_score": 15,
+      "claim_type": "estimate",
+      "evidence": ["At KRW 1.405m, the updated bridge values are roughly KRW 0.377m bear, KRW 1.159m base and KRW 2.398m bull per share."],
+      "counter_evidence": ["Base remains about 17.5% below the reference price and terminal value/growth assumptions dominate long-duration valuation."],
+      "confidence": 0.56
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "estimate",
+      "evidence": ["Bull upside is approximately +70.7% versus the reference price if capacity, modality and integration execution all succeed."],
+      "counter_evidence": ["Bear downside is approximately -73.2%; current asymmetry is not sufficiently favorable for a new buy authorization."],
+      "confidence": 0.56
+    }
+  },
+  "hard_vetoes": [
+    {"id":"management_or_accounting_integrity","status":"PASS","severity":"HIGH","confidence":0.70,"evidence":"No material integrity/accounting trigger identified in reviewed filings and current official disclosures.","resolution_needed":null},
+    {"id":"external_capital_dependence","status":"INVESTIGATE","severity":"HIGH","confidence":0.90,"evidence":"KRW 3tn rights offering funds PolyPeptide and Bio Campus II. One strategic rights issue is not yet structural excessive dependence, but it is material external financing.","resolution_needed":"Assess whether future capacity/M&A can be funded by internally generated cash after the current cycle."},
+    {"id":"persistent_dilution","status":"PASS","severity":"MEDIUM","confidence":0.88,"evidence":"Current offering is approximately 4.9% of pre-offering shares and is structured as a rights offering. No evidence yet of long-duration excessive dilution.","resolution_needed":"Monitor recurrence and per-share FCF growth."},
+    {"id":"low_quality_growth","status":"PASS","severity":"MEDIUM","confidence":0.72,"evidence":"Core growth is backed by contracted manufacturing activity and capacity utilization rather than pure subsidy/marketing spend.","resolution_needed":null},
+    {"id":"incremental_roic_collapse","status":"INVESTIGATE","severity":"HIGH","confidence":0.88,"evidence":"Large new capacity and acquisition capital are not yet mature enough for a reliable cohort incremental-ROIC test; PolyPeptide H1 FCF was negative.","resolution_needed":"Measure post-ramp and post-acquisition NOPAT/owner cash against incremental invested capital."},
+    {"id":"moat_shrinkage","status":"PASS","severity":"HIGH","confidence":0.68,"evidence":"No current evidence of persistent competitive-advantage contraction; capacity/geography/modality breadth is expanding.","resolution_needed":null},
+    {"id":"price_requires_unrealistic_bull_case","status":"PASS","severity":"HIGH","confidence":0.56,"evidence":"Reference price is above the internal base bridge but below the internal bull bridge; price does not mechanically require bull-or-better, though the expectation gap is weak.","resolution_needed":"Refresh with a full pro-forma DCF after rights and PolyPeptide closing."},
+    {"id":"fatal_concentration","status":"INVESTIGATE","severity":"HIGH","confidence":0.72,"evidence":"Samsung customer concentration is incompletely disclosed in current evidence; PolyPeptide H1 revenue was 68.4% metabolic therapeutics, increasing modality concentration risk.","resolution_needed":"Obtain customer/program concentration and contract economics after consolidation."},
+    {"id":"permanent_loss_probability","status":"INVESTIGATE","severity":"HIGH","confidence":0.62,"evidence":"Business survivability is strong, but valuation duration plus heavy capital deployment can create permanent per-share loss without bankruptcy.","resolution_needed":"Re-underwrite after final financing, acquisition close and evidence of new-capital returns."}
+  ],
+  "valuation_summary": {
+    "reference_price": 1405000,
+    "reference_price_date": "2026-09-11",
+    "pro_forma_shares_m": 48.560951,
+    "bear_value_per_share": 376516.72,
+    "base_value_per_share": 1159211.02,
+    "bull_value_per_share": 2398471.72,
+    "bear_upside_downside": -0.7320,
+    "base_upside_downside": -0.1749,
+    "bull_upside_downside": 0.7071,
+    "method": "Bridge from the 2026-09-06 operating scenarios to the announced rights issue; not a standalone valuation of PolyPeptide."
+  },
+  "final_rationale": "WATCH. Samsung Biologics remains a high-quality structural compounder candidate, but the investment case is currently constrained by a weak expectation gap and a newly material capital-allocation test. The KRW 3tn rights offering does not by itself trigger a hard reject because it is a rights issue used for strategic assets and preserves balance-sheet resilience; however, it raises the burden of proof on incremental ROIC and per-share FCF. Score falls from 70 to 68, driven by lower incremental-ROIC and management/capital-allocation scores. No new-buy authorization until the financing and acquisition close and the new capital demonstrates acceptable economic returns."
+}
