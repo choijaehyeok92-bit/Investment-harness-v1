@@ -15,9 +15,11 @@
     {"ticker":"ETN","prior_state":"PRELIMINARY_REVIEW","new_state":"FULL_ANALYSIS","score":71,"business_quality_75":60,"decision":"WATCH","source_commit":"72ff9c62ba7c27669f0976ab3a9ae65c4d33f3de","assessment":"companies/ETN/analyses/2026-09-10-deep/assessment.json"},
     {"ticker":"NOW","prior_state":"FULL_ANALYSIS","new_state":"FULL_ANALYSIS","score":73,"business_quality_75":56,"decision":"WATCH","source_commit":"fd5c4617f27577df55899cba1cc78ab4190efd65","assessment":"companies/NOW/analyses/2026-09-10-deep/assessment.json"},
     {"ticker":"PWR","prior_state":"PRELIMINARY_REVIEW","new_state":"FULL_ANALYSIS","score":68,"business_quality_75":60,"decision":"WATCH","source_commit":"9fff2758e0ff58296695b28dbcf609ea8038d8e2","assessment":"companies/PWR/analyses/2026-09-10-deep/assessment.json"},
-    {"ticker":"META","prior_state":"PRELIMINARY_REVIEW","new_state":"FULL_ANALYSIS","score":75,"business_quality_75":62,"decision":"WATCH","source_commit":"297a884df84f39c7ea5224ac4bb72c50003465f2","assessment":"companies/META/analyses/2026-09-10-deep/assessment.json"}
+    {"ticker":"META","prior_state":"PRELIMINARY_REVIEW","new_state":"FULL_ANALYSIS","score":75,"business_quality_75":62,"decision":"WATCH","source_commit":"297a884df84f39c7ea5224ac4bb72c50003465f2","assessment":"companies/META/analyses/2026-09-10-deep/assessment.json"},
+    {"ticker":"003230","company":"Samyang Foods","prior_state":"PRELIMINARY_REVIEW","new_state":"FULL_ANALYSIS","score":80,"business_quality_75":61,"decision":"WATCH","source_commit":"5279da794104d4c41cce7beb2ee26312e55057aa","assessment":"companies/003230/analyses/2026-09-10-deep/assessment.json"},
+    {"ticker":"APP","company":"AppLovin Corporation","prior_state":"PRELIMINARY_REVIEW","new_state":"FULL_ANALYSIS","score":76,"business_quality_75":60,"decision":"WATCH","source_commit":"eca228eb6f94b5466b96722965ec2101af32db9b","assessment":"companies/APP/analyses/2026-09-10-deep/assessment.json"}
   ],
-  "resolved_state_delta": {"PRELIMINARY_REVIEW_to_FULL_ANALYSIS":5,"existing_FULL_ANALYSIS_refreshed":6},
-  "resolved_state_counts_after_promotion": {"PRELIMINARY_REVIEW":53,"FULL_ANALYSIS":40},
-  "registry_note": "registry/companies.json remains the discovery index from the prior universe review. For these promoted tickers, company latest.json is authoritative for research_state and dated assessment until the next registry rebuild."
+  "resolved_state_delta": {"PRELIMINARY_REVIEW_to_FULL_ANALYSIS":7,"existing_FULL_ANALYSIS_refreshed":6},
+  "resolved_state_counts_after_promotion": {"PRELIMINARY_REVIEW":51,"FULL_ANALYSIS":42},
+  "registry_note": "registry/companies.json remains the discovery index from the prior universe review. For promoted tickers, company latest.json is authoritative for research_state and dated assessment until the next registry rebuild."
 }
