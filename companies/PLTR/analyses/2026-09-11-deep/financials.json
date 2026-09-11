@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "PLTR",
+  "as_of": "2026-09-11",
+  "currency": "USD",
+  "unit": "USD billion",
+  "reported": {
+    "q2_2026": {
+      "revenue": 1.935464,
+      "gaap_operating_income": 0.912004,
+      "gaap_operating_margin": 0.47,
+      "cash_from_operations": 1.216167,
+      "adjusted_fcf": 1.220359
+    },
+    "h1_2026": {
+      "revenue": 3.568047,
+      "gaap_operating_income": 1.666002,
+      "net_income": 1.942364,
+      "operating_cash_flow": 2.115332,
+      "ppe_purchases": 0.021955,
+      "stock_based_compensation": 0.466801
+    },
+    "h1_2025": {
+      "revenue": 1.887552,
+      "gaap_operating_income": 0.445365,
+      "operating_cash_flow": 0.849514,
+      "ppe_purchases": 0.013818,
+      "stock_based_compensation": 0.315310
+    },
+    "balance_sheet_2026_06_30": {
+      "cash_and_cash_equivalents": 2.030047,
+      "marketable_securities": 7.379052,
+      "accounts_receivable": 1.485249,
+      "total_assets": 11.678564,
+      "total_liabilities": 1.793680,
+      "debt_drawn": 0.0
+    }
+  },
+  "calculated": {
+    "h1_2026_owner_cash_proxy": 1.626576,
+    "h1_2026_owner_cash_proxy_margin": 0.455873,
+    "h1_2025_owner_cash_proxy": 0.520386,
+    "h1_2025_owner_cash_proxy_margin": 0.275694,
+    "h1_2026_sbc_to_revenue": 0.130828,
+    "h1_2025_sbc_to_revenue": 0.167047
+  },
+  "quality_notes": [
+    "GAAP operating leverage is strong; H1 revenue grew 89% while GAAP operating income grew 274% year over year.",
+    "Owner cash proxy is intentionally below reported adjusted FCF because SBC is treated as an economic cost.",
+    "Low physical capex does not imply zero reinvestment; Palantir reinvests through engineering, sales, cloud hosting and equity compensation.",
+    "H1 net income includes interest and marketable-security effects; forward operating value is not modeled from net income."
+  ],
+  "source_paths": [
+    "companies/PLTR/raw-data/2026-Q2.json",
+    "companies/PLTR/raw-data/2026-09-11-public-update.json",
+    "companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json"
+  ]
+}
