@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "145020",
+  "company_name": "Hugel, Inc.",
+  "as_of": "2026-09-12",
+  "authority_status": "CURRENT_DEEP_RESEARCH_CANDIDATE_PENDING_LATEST_POINTER",
+  "currency": "KRW",
+  "price_reference": {
+    "price": 231000,
+    "price_date": "2026-09-11",
+    "price_status": "SECONDARY_MARKET_REFERENCE_WITH_VENDOR_DISCREPANCY_AROUND_CLOSE",
+    "issued_shares_m": 12.515173,
+    "treasury_shares_m": 1.500741,
+    "economic_outstanding_ex_treasury_m": 11.014432,
+    "note": "Vendors report different market caps because some use all issued shares and others exclude treasury stock. Per-share DCF therefore uses explicit diluted-share assumptions instead of a vendor market cap."
+  },
+  "current_financial_anchor": {
+    "ttm_revenue_krw_bn": 479.568,
+    "ttm_operating_income_krw_bn": 208.954,
+    "ttm_net_income_krw_bn": 157.937,
+    "ttm_mechanical_fcf_krw_bn": 148.32,
+    "june_2026_cash_and_short_term_investments_krw_bn": 606.188,
+    "june_2026_total_debt_krw_bn": 28.312,
+    "june_2026_net_cash_krw_bn": 577.876,
+    "note": "TTM FCF is a reputable-dataset diagnostic. The scenario model uses normalized owner-cash margins and does not assume reported FCF is permanently sustainable."
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "method": "Start from TTM revenue KRW 479.568bn. Apply a 10-year owner-cash DCF with 25% to 28% owner-cash margin path, 10% required return, 16x year-10 owner-cash terminal multiple, June-2026 net cash of KRW 577.876bn, and 11.3m diluted shares. Solve a five-year annual revenue growth rate g followed by five years at g/2 that equates value to KRW 231,000.",
+    "required_growth_years_1_5": 0.040204,
+    "required_growth_years_6_10": 0.020102,
+    "interpretation": "Under the stated normalized owner-cash assumptions, the reference price embeds only about 4.0% annual revenue growth for years 1-5 and about 2.0% for years 6-10. The result is highly sensitive to the large net-cash balance and to whether 25%-28% normalized owner-cash margins are sustainable. It is a model-implied expectation, not an observable market forecast."
+  },
+  "scenario_method": {
+    "claim_type": "estimate",
+    "starting_revenue_krw_bn": 479.568,
+    "horizon_years": 10,
+    "terminal_method": "Year-10 normalized owner cash multiplied by scenario terminal multiple and discounted to present; no separate perpetuity growth term.",
+    "guardrails": [
+      "Scenarios are analyst estimates, not company guidance or broker price targets.",
+      "Historical OCF-minus-capex and dataset FCF are diagnostics, not automatically normalized owner cash.",
+      "Net cash is added once and debt is not double-subtracted.",
+      "Diluted shares differ by scenario to reflect treasury-stock and option uncertainty; this is an estimate, not a prediction of exact future dilution.",
+      "Terminal value is material in Base and Bull, so valuation confidence is lower than accounting-data confidence.",
+      "No value is added for a potential take-private, Hong Kong relisting, or other sponsor strategic transaction because no transaction is finalized."
+    ]
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 142649,
+      "value_to_price": 0.6175,
+      "upside_downside": -0.3825,
+      "annual_revenue_growth_path": [0.03,0.03,0.03,0.03,0.03,0.02,0.02,0.02,0.02,0.02],
+      "owner_margin_path": [0.19,0.1922,0.1944,0.1967,0.1989,0.2011,0.2033,0.2056,0.2078,0.21],
+      "required_return": 0.11,
+      "terminal_multiple": 12,
+      "net_cash_added_krw_bn": 500,
+      "diluted_shares_m": 11.8,
+      "year_10_revenue_krw_bn": 613.815,
+      "year_10_owner_cash_krw_bn": 128.901,
+      "terminal_fraction_of_operating_pv": 0.4604,
+      "narrative": "U.S. direct commercialization fails to generate sufficient scale, toxin price competition rises, legal/regulatory friction persists, treasury/option issuance is heavier than expected and normalized owner-cash margins fall toward the low-20s. A haircut is applied to accessible net cash and the terminal multiple compresses."
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 338374,
+      "value_to_price": 1.4648,
+      "upside_downside": 0.4648,
+      "annual_revenue_growth_path": [0.12,0.12,0.12,0.12,0.12,0.06,0.06,0.06,0.06,0.06],
+      "owner_margin_path": [0.25,0.2533,0.2567,0.26,0.2633,0.2667,0.27,0.2733,0.2767,0.28],
+      "required_return": 0.10,
+      "terminal_multiple": 16,
+      "net_cash_added_krw_bn": 577.876,
+      "diluted_shares_m": 11.3,
+      "year_10_revenue_krw_bn": 1131.018,
+      "year_10_owner_cash_krw_bn": 316.685,
+      "terminal_fraction_of_operating_pv": 0.6019,
+      "narrative": "Letybo gains sustainable U.S. and international share without requiring category domination, overseas toxin and filler distribution broadens, direct-sales investment normalizes, and normalized owner-cash margin remains in the high-20s. The model assumes dilution is controlled but not zero."
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 673909,
+      "value_to_price": 2.9174,
+      "upside_downside": 1.9174,
+      "annual_revenue_growth_path": [0.18,0.18,0.18,0.18,0.18,0.10,0.10,0.10,0.10,0.10],
+      "owner_margin_path": [0.29,0.2933,0.2967,0.30,0.3033,0.3067,0.31,0.3133,0.3167,0.32],
+      "required_return": 0.09,
+      "terminal_multiple": 20,
+      "net_cash_added_krw_bn": 577.876,
+      "diluted_shares_m": 11.0,
+      "year_10_revenue_krw_bn": 1766.948,
+      "year_10_owner_cash_krw_bn": 565.423,
+      "terminal_fraction_of_operating_pv": 0.6989,
+      "narrative": "Letybo becomes a major global toxin franchise, U.S. direct sales create strong operating leverage, fillers/skinboosters/cosmetics deepen wallet share, litigation does not impair commercialization and treasury/option dilution remains limited. High owner margins and a premium terminal multiple are sustained."
+    }
+  },
+  "two_state_price_position": {
+    "claim_type": "diagnostic",
+    "bear_value_per_share": 142649,
+    "bull_value_per_share": 673909,
+    "price_implied_bull_weight_if_only_bear_and_bull_existed": 0.1663,
+    "note": "This is not an estimated probability; it only locates the current price between two modeled endpoints."
+  },
+  "subjective_probability_example": {
+    "claim_type": "opinion",
+    "weights": {"bear": 0.25, "base": 0.50, "bull": 0.25},
+    "probability_weighted_value_per_share": 373326,
+    "note": "Illustrative only and not used as a buy authorization because persistent-dilution and governance evidence gates remain open."
+  },
+  "valuation_conclusion": "At approximately KRW 231,000, Hugel does not require an unrealistic bull case. Base modeled value is about KRW 338,000 and the reverse model implies modest growth if high-20s normalized owner-cash margins persist. The principal valuation risk is not near-term solvency but whether current cash economics survive U.S. commercialization, competitive pricing, legal/regulatory friction and per-share dilution from treasury stock/options."
+}
