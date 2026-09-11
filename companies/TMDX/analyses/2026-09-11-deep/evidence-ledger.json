@@ -1,0 +1,30 @@
+{
+  "schema_version":"1.0.0",
+  "ticker":"TMDX",
+  "as_of":"2026-09-11",
+  "evidence":[
+    {"id":"E1","claim_type":"fact","claim":"Q2 2026 revenue was $189.948M, +20.7% YoY, with product revenue $111.158M and service revenue $78.790M.","source":"SEC Q2 2026 10-Q / 8-K","quality":"primary"},
+    {"id":"E2","claim_type":"fact","claim":"Q2 overall gross margin was 60%; product gross margin 77% and service gross margin 35%.","source":"SEC Q2 2026 10-Q","quality":"primary"},
+    {"id":"E3","claim_type":"fact","claim":"H1 2026 operating income fell to $37.033M from $64.010M despite revenue growth to $363.881M.","source":"SEC Q2 2026 10-Q","quality":"primary"},
+    {"id":"E4","claim_type":"fact","claim":"H1 2026 operating cash flow was $41.842M and PPE purchases were $43.749M; SBC expense was $18.558M.","source":"SEC Q2 2026 10-Q","quality":"primary"},
+    {"id":"E5","claim_type":"calculation","claim":"OCF-PPE was -$1.907M and OCF-PPE-SBC diagnostic was -$20.465M; neither is asserted as owner FCF.","source":"financials.json","quality":"derived"},
+    {"id":"E6","claim_type":"fact","claim":"Management reported a material weakness in controls over interim inventory movement; new controls were implemented in Q2 but the weakness was not yet remediated as of June 30, 2026.","source":"SEC Q2 2026 10-Q","quality":"primary"},
+    {"id":"E7","claim_type":"fact","claim":"Cash was $472.675M, convertible notes carrying value $454.260M, bank debt approximately $59.743M, and finance lease liability $347.660M at June 30, 2026.","source":"SEC Q2 2026 10-Q","quality":"primary"},
+    {"id":"E8","claim_type":"fact","claim":"The Somerville headquarters project is estimated to require $200M-$240M of capital through 2030; finance-lease economics include a $374.590M 2027 payment under the purchase-option accounting structure.","source":"SEC Q2 2026 10-Q","quality":"primary"},
+    {"id":"E9","claim_type":"fact","claim":"PAD Aviation investment closed July 1, 2026 to support a dedicated European organ-transplant logistics network; reviewed sources did not disclose transaction economics sufficient for underwriting.","source":"SEC Q2 2026 10-Q / company release","quality":"primary"},
+    {"id":"E10","claim_type":"estimate","claim":"At the $85.04 reference price, the unchanged scenario model values Bear/Base/Bull at approximately $17.18/$110.47/$362.76 per diluted share.","source":"derived-metrics.json / prior scenario model","quality":"model"},
+    {"id":"E11","claim_type":"estimate","claim":"Holding the Base margin/capital structure assumptions fixed, the reference price requires approximately 7.8% annual revenue growth for years 2-10 and about $1.77B year-10 revenue.","source":"derived-metrics.json","quality":"model"}
+  ],
+  "counter_evidence":[
+    "The service mix is rising and Q2 service gross margin improved to 35%, which supports logistics operating leverage rather than proving permanent margin compression.",
+    "Revenue guidance of $737M-$757M excludes PAD Aviation revenue and still implies about 22%-25% annual growth, so top-line demand remains stronger than the reverse-required growth rate.",
+    "Management concluded the Q2 financial statements fairly present the company's position under GAAP notwithstanding the internal-control weakness.",
+    "The current price is below the unchanged Base value, creating a more favorable expectation gap than on September 6."
+  ],
+  "source_paths":[
+    "companies/TMDX/raw-data/2026-Q2.json",
+    "companies/TMDX/raw-data/2026-09-11-public-update.json",
+    "companies/TMDX/analyses/2026-09-11-deep/financials.json",
+    "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json"
+  ]
+}
