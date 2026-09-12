@@ -1,0 +1,2471 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-12",
+  "base_commit": "88037a32488b0cf74e5ea48e280320b7c55a9063",
+  "universe_count": 43,
+  "rules": {
+    "minimum_score": 70,
+    "management_score_exclusive_minimum": 5,
+    "price_to_base_maximum": 1.15,
+    "target_count": [
+      20,
+      30
+    ],
+    "force_fill": false,
+    "weighting": "score / sum(eligible scores); 1bp largest remainder, score then ticker tie-break",
+    "top10_80_percent_rule": false,
+    "hard_veto_FAIL_excluded": true,
+    "INVESTIGATE": "Conditional paper allocation only; no buy approval"
+  },
+  "selected_count": 13,
+  "selected_score_sum": 1007,
+  "weight_sum_bp": 10000,
+  "buy_authorized": false,
+  "positions": [
+    {
+      "ticker": "MELI",
+      "name": "MercadoLibre, Inc.",
+      "score": 82,
+      "prior_canonical_score": 81,
+      "business_quality_75": 63,
+      "management_score": 8,
+      "currency": "USD",
+      "quote": {
+        "price": 1897.37,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/MELI:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 2874.817585849326,
+      "bear_value": 524.1307792957865,
+      "bull_value": 8606.515088955422,
+      "max_eligible_price": 3306.0402237267244,
+      "price_to_base": 0.6599966583408274,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "low_quality_growth",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 814,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "추가 정밀분석에서 고객·GMV·TPV 확대와 플랫폼 간 이용 확대를 확인해81→82점을 채택한다. 카드 NIMAL -2.5%와 신용자산75% 성장은 별도 위험이다. 고객예치금·제한현금을 잉여현금으로 가산하지 않으며 대손·필요자본 후 현금으로 평가한다.",
+      "monitor": [
+        "At least two reporting periods show free-shipping cohorts retaining higher frequency while unit contribution economics improve or remain clearly positive.",
+        "Credit-card NIMAL moves sustainably above zero as cohorts season without a material deterioration in NPLs or provision coverage.",
+        "Adjusted owner cash after credit losses and required financial capital grows faster than share count and begins to converge toward the existing Base model.",
+        "Independent market-share/engagement data confirm continued leadership in commerce, payments/acquiring and ads.",
+        "Reverse DCF remains below a defensible Base growth path after updating price, funding cost, FX and credit-loss assumptions."
+      ],
+      "sell_signals": [
+        "Persistent deterioration in credit vintage economics, provisioning and funding spreads that forces repeated external capital merely to sustain growth.",
+        "Commerce logistics subsidies fail to create durable frequency/retention and margins do not recover after the investment period.",
+        "Material loss of marketplace, payments or logistics share that breaks the cross-product flywheel.",
+        "Material accounting/control failure or regulatory action that impairs access to customer funds or credit funding.",
+        "Price rises to require an execution path materially above the defensible Bull case."
+      ],
+      "falsifiers": [
+        "Commerce buyer/GMV growth remains strong but contribution economics deteriorate for several quarters after the Brazil free-shipping change.",
+        "Credit-card NIMAL remains negative as new cohorts mature, while 15-90 NPLs or provisions rise materially faster than portfolio growth.",
+        "Adjusted FCF and owner cash remain structurally depressed despite slowing reinvestment growth, showing that current growth is capital-hungry rather than high-ROIC.",
+        "Mercado Pago engagement and cross-product adoption stop deepening or independent evidence shows material market-share loss in commerce or acquiring.",
+        "A major Brazil tax/regulatory/FX event materially impairs equity capital or access to funding."
+      ],
+      "assessment": "companies/MELI/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/MELI/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.0971765821215228,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "214450",
+      "name": "PharmaResearch",
+      "score": 81,
+      "prior_canonical_score": 81,
+      "business_quality_75": 60,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 342000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/kosdaq/214450/"
+      },
+      "base_value": 633662.3291235663,
+      "bear_value": 160183.33273777316,
+      "bull_value": 1541105.2430450895,
+      "max_eligible_price": 728711.6784921011,
+      "price_to_base": 0.5397196334410923,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "fatal_concentration"
+      ],
+      "weight_bp": 804,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "리쥬란·PN/PDRN의 임상 브랜드와 해외 유통 확장을 인정한다. H1 수출47% 증가에도 OCF는 전년동기보다 감소했다. 유럽 반복주문, 미국 화장품과 미허가 의료제품의 구분, RCPS 상환·전환권, 증설 및 인수 회수가 핵심이다.",
+      "monitor": [
+        "At least two reporting periods showing overseas sell-through, reorder growth and OCF per share improving together.",
+        "Evidence that Plant 5 and CG USA generate after-tax incremental returns above the 10% hurdle after ramp.",
+        "REJURAN Europe expands across the contracted 22-country network with durable physician adoption rather than one-time distributor stocking.",
+        "U.S. cosmetics local manufacturing improves gross-to-cash economics and does not require value-destructive acquisition follow-ons.",
+        "The RCPS is redeemed, converted or otherwise resolved with clearly quantified common-share economics and no double counting of claim/dilution.",
+        "Product mix broadens beyond a single REJURAN franchise while medical-device and cosmetics margins remain strong.",
+        "Expectation gap remains favorable at a 10% required return; price decline alone is insufficient without the business evidence above."
+      ],
+      "sell_signals": [
+        "Two or more periods of deteriorating REJURAN sell-through, export reorder rates and OCF per share.",
+        "Material regulatory or safety impairment to REJURAN in Korea, Europe or another major market.",
+        "Plant 5/CG USA capital earns returns below the hurdle while management continues aggressive expansion.",
+        "Persistent receivable/inventory growth indicates distributor loading or weak end-demand conversion.",
+        "RCPS or other equity-linked financing causes material dilution without proportional owner-cash-per-share growth.",
+        "A renewed restructuring materially weakens minority-shareholder rights or creates an avoidable holding-company discount.",
+        "Competitive PN/biostimulator products cause sustained price or physician-share erosion.",
+        "Normalized owner margin and growth fall together such that the Base valuation no longer supports the thesis."
+      ],
+      "falsifiers": [
+        "Overseas shipment growth fails to convert into repeat sell-through, reorder growth and cash collection for at least two reporting periods.",
+        "Medical-device or cosmetics export growth slows materially while domestic REJURAN demand also weakens.",
+        "A material safety, regulatory or reimbursement issue impairs the REJURAN franchise in a major market.",
+        "Plant 5 or CG USA ramps with low utilization or after-tax returns below the 10% hurdle.",
+        "OCF per share persistently lags earnings growth after receivables, inventory and channel working capital normalize.",
+        "RCPS rights create materially worse common-share economics than the current redemption/conversion sensitivity range.",
+        "New PN/biostimulator competitors cause sustained price, procedure-share or physician-adoption erosion.",
+        "U.S. medical-device approval pathway becomes materially longer or more capital-intensive than current planning assumptions.",
+        "Management revisits a shareholder-unfriendly restructuring without stronger minority-shareholder protections.",
+        "Normalized owner margin falls structurally below the low-20s while growth also normalizes."
+      ],
+      "assessment": "companies/214450/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/214450/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/214450/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.04236869365935403,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "score": 81,
+      "prior_canonical_score": 77,
+      "business_quality_75": 65,
+      "management_score": 8,
+      "currency": "USD",
+      "quote": {
+        "price": 361.99,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:58:03Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/AVGO:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 394.6949369673366,
+      "bear_value": 134.00787937388188,
+      "bull_value": 903.6717471864825,
+      "max_eligible_price": 453.89917751243706,
+      "price_to_base": 0.9171386964863876,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "low_quality_growth",
+        "incremental_roic_collapse",
+        "moat_shrinkage",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 804,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "추가 정밀자료의 Q3 실적·AI ASIC와 네트워킹 매출, VMware 현금을 검토해77→81점 평가를 채택한다. AI 랙 금융지원은 매출의 질과 연결된 우발 부담이다. 고객 수와 실제 프로그램 유지, SBC 후 현금, 보증의 실현 손실을 추적한다.",
+      "monitor": [
+        "Q3 FY2026 10-Q when filed: commitments, debt, customer concentration, working capital and financing terms.",
+        "FY2027/FY2028 AI revenue conversion versus management's approximately $115B/$230B outlook.",
+        "Marvell-Google and Qualcomm-Amazon custom-silicon ramps versus Broadcom design share and networking attach.",
+        "AI-rack backstop utilization, customer payment performance and collateral recovery economics.",
+        "VMware customer retention, regulatory outcomes and infrastructure-software FCF conversion."
+      ],
+      "sell_signals": [
+        "A major hyperscaler design loss combines with weaker networking economics and persistent AI revenue deceleration.",
+        "Customer-financing/backstop exposure generates material losses or external-capital needs.",
+        "VMware franchise erosion and semiconductor moat contraction occur together such that normalized FCF per share no longer compounds above the required return."
+      ],
+      "falsifiers": [
+        "AI semiconductor growth decelerates materially while major hyperscaler design wins shift to competitors or in-house solutions for multiple generations.",
+        "The $29B rack backstop or other customer financing produces material cash outflows, credit losses or recurring financing dependence.",
+        "Accounts receivable and inventory continue to outgrow revenue while FCF per share after SBC deteriorates for four consecutive quarters.",
+        "VMware renewal, retention or infrastructure-software revenue deteriorates materially after regulatory or customer pushback.",
+        "FCF per diluted share falls for four quarters despite reported revenue growth, indicating worsening reinvestment economics."
+      ],
+      "assessment": "companies/AVGO/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/AVGO/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.11987703365168223,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "003230",
+      "name": "Samyang Foods",
+      "score": 80,
+      "prior_canonical_score": 80,
+      "business_quality_75": 61,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 1278000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/003230/"
+      },
+      "base_value": 1695711.1273390017,
+      "bear_value": 590627.6727851445,
+      "bull_value": 3280812.4088668004,
+      "max_eligible_price": 1950067.7964398519,
+      "price_to_base": 0.7536661046775722,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "fatal_concentration"
+      ],
+      "weight_bp": 794,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "불닭 중심의 해외 유통 확장과 가격·제품 경쟁력은 유지된다. H1 매출 1.485조원·영업이익 0.353조원, TTM OCF−PPE 0.221조원의 차이는 증설·운전자본 영향이다. Base의 정상 owner 마진 15%는 추정이며 밀양2공장·중국공장의 투자회수, 지역별 실판매·반복주문을 확인해야 한다.",
+      "monitor": [
+        "Q3/Q4 2026 Americas, China and Europe sell-through and channel-inventory data.",
+        "Miryang Plant 2 utilization, yield and incremental EBIT/owner cash versus invested capital.",
+        "Brand-level Buldak revenue/profit concentration and adjacent-brand contribution.",
+        "Maintenance versus growth capex and normalized owner FCF bridge.",
+        "China plant final investment, ramp schedule, working-capital needs and realized unit economics.",
+        "Any change in controlling-group pledges, related-party transactions or non-core capital allocation."
+      ],
+      "sell_signals": [
+        "Sustained brand/share deterioration combined with weakening pricing power and regional sell-through.",
+        "Persistent incremental ROIC below the 10% hurdle after Miryang/China capacity matures.",
+        "Owner FCF per share declines across multiple periods because receivables, inventory, promotion or capex absorb the accounting-profit growth.",
+        "Material accounting/control or related-party governance impairment.",
+        "Valuation moves to require an unrealistic Bull case while thesis evidence stops improving."
+      ],
+      "falsifiers": [
+        "Overseas sell-through decelerates below low-double digits for four consecutive quarters while distributor inventory or receivables grow faster than sales.",
+        "Miryang Plant 2 reaches mature utilization but incremental after-tax owner return remains below the 10% hurdle for multiple periods.",
+        "China plant ramp requires sustained price discounting, working-capital funding or debt while consolidated owner FCF per share fails to grow.",
+        "Buldak loses material market share or search/retail penetration without successful adjacent brands offsetting the decline.",
+        "Related-party or non-core capital allocation expands materially without demonstrable per-share cash returns."
+      ],
+      "assessment": "companies/003230/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/003230/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/003230/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.07501283565070904,
+      "reverse_growth_basis": "Constant revenue growth in years 1-10 from the reported TTM anchor."
+    },
+    {
+      "ticker": "145020",
+      "name": "Hugel, Inc.",
+      "score": 79,
+      "prior_canonical_score": 80,
+      "business_quality_75": 59,
+      "management_score": 6,
+      "currency": "KRW",
+      "quote": {
+        "price": 231000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/kosdaq/145020/"
+      },
+      "base_value": 338373.69985233754,
+      "bear_value": 149512.2337781821,
+      "bull_value": 626263.3719182584,
+      "max_eligible_price": 389129.7548301881,
+      "price_to_base": 0.6826771705389804,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 785,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "톡신·필러의 규제 진입장벽과 글로벌 판매 확대, 순현금은 강점이다. 미국 직판의 반복주문·판가와 판매비 회수가 아직 충분히 증명되지 않았다. 자사주 재교부·옵션·지배주주 담보 및 CAFC/국내 행정사건을 추적한다. 이전76점 보고서,9/12 canonical80점,이번79점의 모형·품질 차이를 구분한다.",
+      "monitor": [
+        "At least two reporting periods of U.S. direct-sales evidence showing repeat ordering, share gains and improving commercial efficiency.",
+        "Normalized owner cash per diluted outside share grows despite U.S. investment and option/treasury activity.",
+        "Treasury-stock and option policy produces modest net dilution or clear value received for any reissued shares.",
+        "CAFC and Korean regulatory proceedings remain contained without restricting core market access.",
+        "Price remains below Base value with no upward revision based solely on price action."
+      ],
+      "sell_signals": [
+        "Material adverse legal/regulatory decision that weakens the right to sell Letybo in a major market or undermines manufacturing legitimacy.",
+        "Sustained net-price erosion and physician-share loss indicating moat contraction rather than normal competitive investment.",
+        "Repeated dilution or treasury-stock transfer causes per-share owner cash to stagnate while corporate earnings grow.",
+        "U.S. direct-sales economics remain subscale and permanently depress incremental ROIC.",
+        "Audit/integrity evidence moves management_or_accounting_integrity to FAIL."
+      ],
+      "falsifiers": [
+        "U.S. Letybo practice count grows but reorder/sell-through and net revenue per practice fail to scale, showing distribution breadth without durable demand.",
+        "Overseas toxin growth falls to low single digits for multiple periods while gross margin and net pricing deteriorate.",
+        "Direct-sales SG&A remains structurally elevated without recovery in operating or owner-cash leverage after the build phase.",
+        "A material adverse CAFC/regulatory outcome restricts U.S. or another major-market commercialization.",
+        "Outside diluted share count compounds materially faster than owner cash because treasury shares/options are repeatedly used for compensation or sponsor-related actions.",
+        "The controlling shareholder executes a governance transaction that demonstrably disadvantages minority holders."
+      ],
+      "assessment": "companies/145020/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/145020/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/145020/analyses/2026-09-12-deep/assessment.json",
+      "reverse_growth": 0.04020418488749555,
+      "reverse_growth_basis": "Revenue growth g in years 1-5 and g/2 in years 6-10; 10% hurdle."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "score": 79,
+      "prior_canonical_score": 78,
+      "business_quality_75": 65,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 218.29,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/NVDA:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 220.78148459446004,
+      "bear_value": 68.45187345281587,
+      "bull_value": 555.978146119782,
+      "max_eligible_price": 253.89870728362902,
+      "price_to_base": 0.9887151560782531,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "low_quality_growth",
+        "incremental_roic_collapse",
+        "moat_shrinkage",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 784,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "AI 가속컴퓨팅·CUDA·네트워크의 고객 가치와 주당현금이 핵심이다. 최초 9월 3일 6점에 이미 지분투자 424억달러·생태계 보증 최대1085억달러·채권 발행과 환원이 반증으로 반영됐다. 9월 4일 병행 분석은7점이었으나 병합 충돌 뒤9월 5일 재심사가 최초 분석의6점을 복구했고,9월 6일 정밀분석도 공급약정2790억달러·보증을 연결 스트레스로 평가하면서6점을 유지했다. 9월 10일5점의 핵심 자본배분 반증은 이 기평가 위험을 반복한다. Hugging Face 인수와 Groq 조사 보도는 추가 검토 항목으로 인정하지만, 이미 낮춰진6점에서 별도1점을 더 낮추는 증분 근거가 기존 위험과 분리되어 기록되어 있지 않다. 동일 위험의 반복 가중을 취소해6점으로 복원한다.9월 12일에5→4로 이중 차감한 산술 오류는 아니며9월 10일 판단의 중복 가중을 승계한 문제다. 새 인수·규제 반증과 모든 INVESTIGATE는 보존하며 위험 소멸이나 경영진 성과 개선으로 해석하지 않는다.",
+      "monitor": [
+        "Q3 FY2027 revenue, gross margin, receivable days and operating cash flow versus the USD 108B guide.",
+        "Rubin shipment mix, system margins, networking attach and customer deployment timing.",
+        "Top direct/indirect customer concentration and investment-related revenue exposure.",
+        "Quarterly bridge of public/private AI investments, realized gains/losses, impairments and strategic revenue relationships.",
+        "SB Energy/OpenAI project milestones, guarantee effective dates and any changes in counterparty credit support.",
+        "China accelerator share and software migration evidence plus any U.S. export-control changes.",
+        "Hugging Face acquisition closing terms, integration costs and open-platform governance.",
+        "Outcome of the reported DOJ review of the Groq transaction."
+      ],
+      "sell_signals": [
+        "Evidence confirms structural global moat shrinkage rather than localized China or workload-specific competition.",
+        "Customer financing, guarantees or ecosystem investments become necessary to sustain growth and realized incremental returns fall below the hurdle through multiple reporting periods.",
+        "Core FCF per share declines structurally despite continued accounting revenue growth.",
+        "Management integrity or accounting reliability is materially impaired by regulatory, audit or disclosure findings."
+      ],
+      "falsifiers": [
+        "Data Center growth decelerates below 15% YoY for four consecutive quarters while customer AI capex also contracts and receivable days worsen.",
+        "FCF per share materially lags revenue growth for four quarters after adjusting for SBC and required ecosystem capital commitments.",
+        "Major cloud customers shift a sustained and rising share of training or inference workloads to custom/competing accelerators while NVIDIA pricing or networking attach rates decline.",
+        "Supply commitments, guarantees or customer financing generate material cash losses or impairments that erase a meaningful share of core operating FCF.",
+        "Regulatory findings on Groq or other transactions demonstrate material conduct/disclosure failures rather than ordinary antitrust review.",
+        "Rubin or the next architecture suffers a multi-quarter delay, yield problem or customer migration issue large enough to break the annual platform cadence."
+      ],
+      "assessment": "companies/NVDA/analyses/2026-09-12-management-dedup/assessment.json",
+      "valuation": "companies/NVDA/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/NVDA/analyses/2026-09-12-full-review/assessment.json",
+      "reverse_growth": 0.09242322079154619,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "score": 78,
+      "prior_canonical_score": 78,
+      "business_quality_75": 66,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 495.63,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/MSFT:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 458.8253897856655,
+      "bear_value": 147.0167532181229,
+      "bull_value": 1013.5909800206987,
+      "max_eligible_price": 527.6491982535152,
+      "price_to_base": 1.0802148508641323,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 775,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "Azure·Microsoft365·보안·개발자 유통의 결합은 높은 사업질을 지지한다. Copilot 유료전환과 RPO가 CAPEX·리스·SBC 후 주당현금으로 이어지는지가 핵심이다. 할인율 민감도와 고객 집중 조사 상태를 유지한다.",
+      "monitor": [
+        "At least two reporting periods showing Azure growth, cloud gross-margin stabilization and lease-aware owner cash per share improving together.",
+        "Evidence that the FY2026-FY2027 AI capex cohort earns after-tax incremental returns above the 9% hurdle through utilization, pricing and incremental gross profit.",
+        "M365 Copilot paid seats and usage-based revenue continue scaling with improving unit economics rather than only seat-count growth.",
+        "Commercial RPO growth remains broad-based outside frontier-model counterparties and converts to billed revenue and cash without unusual concessions.",
+        "Expectation gap becomes clearly favorable at a 9% required return; price decline alone is insufficient without improved business evidence."
+      ],
+      "sell_signals": [
+        "AI capex and lease commitments outgrow incremental cloud gross profit and owner cash for several periods.",
+        "Azure growth materially underperforms major hyperscalers while cloud gross margin and pricing power weaken.",
+        "M365 Copilot monetization fails to justify inference/serving cost and cannibalizes existing suite economics.",
+        "OpenAI or another major AI relationship creates material capital impairment, contractual loss or strategic lock-in without adequate return.",
+        "Any material accounting, security, regulatory or governance impairment that changes customer trust requires immediate thesis rewrite regardless of price."
+      ],
+      "falsifiers": [
+        "Azure growth and AI-related usage slow materially while annualized datacenter capex and lease commitments remain elevated for multiple reporting periods.",
+        "Microsoft Cloud gross margin continues to fall without evidence of improving AI unit economics or utilization.",
+        "Paid Copilot seat and consumption growth stalls while product-delivery costs remain high enough to dilute M365 economics.",
+        "SBC-adjusted, lease-aware owner cash per share fails to grow over multiple years despite strong GAAP revenue growth.",
+        "Azure or M365 loses sustained enterprise share because customers shift workloads to AWS, Google, open-source or alternative agent platforms."
+      ],
+      "assessment": "companies/MSFT/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/MSFT/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.11901403340348893,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "058470",
+      "name": "LEENO Industrial",
+      "score": 76,
+      "prior_canonical_score": 76,
+      "business_quality_75": 64,
+      "management_score": 6,
+      "currency": "KRW",
+      "quote": {
+        "price": 66400,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/kosdaq/058470/"
+      },
+      "base_value": 59390.43227489946,
+      "bear_value": 21265.366729821053,
+      "bull_value": 110734.7076057022,
+      "max_eligible_price": 68298.99711613437,
+      "price_to_base": 1.1180252013094547,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 755,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "정밀 소켓·핀의 설계 승인과 수율 신뢰가 해자다. 상위3개 고객55.9%, H1 매출채권 증가, 신공장 투입자본과 장기 파업이 핵심 조사 항목이다. 가격 하락으로 수치 조건을 통과했어도 생산 정상화·납품 영향 미확인 상태를 매수 승인으로 바꾸지 않는다.",
+      "monitor": [
+        "At least two additional reporting periods where revenue, operating margin and normalized per-share cash improve together after working-capital normalization.",
+        "New-factory utilization and post-tax incremental ROIC demonstrably above the 10% hurdle without external financing.",
+        "Top-three customer concentration declines through genuine account diversification while socket/pin share and ASP remain strong.",
+        "Labor dispute resolves without material customer loss, delivery impairment or permanent margin damage.",
+        "Expectation gap becomes clearly favorable at a 10% required return; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Sustained major-customer loss combined with weaker socket/pin pricing or qualification share.",
+        "New capacity produces persistent excess capacity or sub-hurdle returns after ramp.",
+        "Normalized owner cash per share declines across multiple periods despite reported earnings growth.",
+        "Material labor-related customer attrition or structural wage-cost damage without productivity offset.",
+        "Any material impairment of accounting integrity, shareholder rights or disclosure reliability triggers an immediate thesis rewrite."
+      ],
+      "falsifiers": [
+        "A major customer structurally reduces LEENO socket/pin purchases for multiple periods and lost revenue is not replaced by diversified accounts.",
+        "IC TEST SOCKET/LEENO PIN ASP, mix or margin deteriorates across two product cycles while competitors gain qualification share.",
+        "The new factory reaches mature utilization but after-tax incremental return remains below the 10% hurdle.",
+        "Receivables and inventory keep growing materially faster than sales while normalized cash conversion deteriorates for multiple periods.",
+        "Labor disruption causes sustained delivery failures, customer losses or a structurally higher cost base without offsetting productivity."
+      ],
+      "assessment": "companies/058470/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/058470/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/058470/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.10831045430604103,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "267260",
+      "name": "HD Hyundai Electric",
+      "score": 76,
+      "prior_canonical_score": 76,
+      "business_quality_75": 65,
+      "management_score": 8,
+      "currency": "KRW",
+      "quote": {
+        "price": 747000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/267260/"
+      },
+      "base_value": 651003.1876682849,
+      "bear_value": 206433.78786000656,
+      "bull_value": 1621409.5945744594,
+      "max_eligible_price": 748653.6658185276,
+      "price_to_base": 1.1474598191685503,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 755,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "변압기·차단기 부족과 북미 현지 생산은 경쟁력이다. 고가 수주가 실제 매출·현금으로 전환되는지, 증설 후 가격이 정상화되는지를 본다. 프레임워크 최대액은 확정 발주가 아니다. 현재가는 편입 상한에 거의 닿아 있어 가격·가치 재확인이 특히 중요하다.",
+      "monitor": [
+        "At least two additional reporting periods showing backlog conversion, new-order pricing and OCF per share improving together.",
+        "Evidence that new Alabama/Ulsan capacity earns after-tax incremental returns above the 10% hurdle after ramp costs.",
+        "Actual purchase orders under the Big Tech framework convert into revenue and cash without abnormal working-capital or margin concessions.",
+        "Customer and regional concentration remain non-fatal while 765kV, distribution and data-center package wins broaden the mix.",
+        "Expectation gap becomes clearly favorable at a 10% required return; price decline alone is insufficient without business evidence."
+      ],
+      "sell_signals": [
+        "Backlog declines materially while book-to-bill and new-order pricing deteriorate across North America and other key regions.",
+        "Expansion assets generate low utilization or returns below the hurdle for multiple periods.",
+        "Cash conversion deteriorates structurally because advances reverse, receivables/inventory rise and OCF per share falls despite revenue growth.",
+        "Competitive capacity additions compress transformer pricing and normalized owner margin faster than volume growth offsets.",
+        "Any material accounting, governance or customer-value impairment triggers an immediate thesis rewrite regardless of price."
+      ],
+      "falsifiers": [
+        "New-order pricing and backlog conversion weaken for multiple quarters while transformer lead times normalize materially.",
+        "Ulsan or Alabama capacity ramps with structurally lower utilization or after-tax returns below the 10% hurdle.",
+        "Operating cash flow per share persistently lags earnings growth after advances and working capital normalize.",
+        "A major North American customer materially reduces orders and diversified utility/data-center demand fails to offset the loss.",
+        "Power-equipment operating margin falls toward low-teens without an offsetting increase in capital turns or volume economics."
+      ],
+      "assessment": "companies/267260/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/267260/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.1195454895394189,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "score": 75,
+      "prior_canonical_score": 75,
+      "business_quality_75": 62,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 648.03,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/META:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 668.7276918314295,
+      "bear_value": 217.4459825485736,
+      "bull_value": 1312.263718264418,
+      "max_eligible_price": 769.0368456061439,
+      "price_to_base": 0.9690491479801813,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 745,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "광고 노출·단가·이용자 기반은 강하지만 AI 투자·장기리스·법률비용이 주당 현금을 제약한다. CAPEX 감소나 정상 owner 마진20%는 Base 가정이지 현재 관측값이 아니다. 신규 AI 제품 출시 자체로 마진·점수를 올리지 않는다.",
+      "monitor": [
+        "At least two reporting periods showing high-teens-or-better ad revenue growth together with rising owner cash per share after infrastructure spending.",
+        "Evidence that AI recommendation/ad-ranking gains persist after the current capex wave and generate after-tax incremental ROIC above 9%.",
+        "SBC/revenue and net share issuance trend down while AI talent retention remains strong.",
+        "WhatsApp paid messaging, Threads, Muse or AI glasses become material revenue/cash contributors without cannibalizing the core ad franchise.",
+        "Reality Labs cash burn declines structurally or produces independently verifiable high-value product economics.",
+        "Contractual infrastructure commitments remain well utilized and do not create stranded capacity or repeated restructuring charges.",
+        "Expectation gap becomes clearly favorable through materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Sustained decline in ad pricing, impressions or advertiser return on ad spend alongside weaker cash collections.",
+        "AI/data-center returns remain below the hurdle after a reasonable utilization period while commitments continue expanding.",
+        "Persistent net dilution from SBC without corresponding owner-cash-per-share growth.",
+        "Reality Labs and consumer AI spending remain structurally loss-making with no credible monetization evidence.",
+        "Regulatory remedies materially impair targeting, recommendation, engagement or access to user data.",
+        "Meta loses workflow/discovery share to competing AI agents and fails to monetize Muse or messaging commerce.",
+        "Debt and fixed commitments expand materially faster than operating cash generation.",
+        "A governance or accounting event materially weakens minority-shareholder rights or trust.",
+        "Valuation remains near Bull economics while business evidence weakens."
+      ],
+      "falsifiers": [
+        "Ad impressions and price per ad both decelerate materially for multiple quarters while advertiser cash collections weaken.",
+        "TTM FCF per share and OCF per share fail to grow after the 2026-2028 data-center investment wave despite continued revenue growth.",
+        "AI infrastructure cohorts fail to earn an after-tax return above the 9% hurdle after utilization and depreciation normalize.",
+        "SBC and net share issuance remain structurally high while buybacks stay suspended or merely offset compensation dilution.",
+        "Reality Labs losses remain near $20B annually without a credible path to monetization or strategic option value.",
+        "Youth-safety, privacy or competition remedies materially reduce ad targeting, engagement or monetization.",
+        "Muse or other agent initiatives increase safety/legal cost without creating durable subscription, commerce or ad economics.",
+        "Meta's recommendation or advertising systems lose measurable share to TikTok, Google, Amazon or AI-native discovery platforms.",
+        "The stock remains near or above Base value while revenue growth and mature owner-cash expectations fall.",
+        "A material accounting or control failure emerges."
+      ],
+      "assessment": "companies/META/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/META/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/META/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.12558494728352942,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "TMDX",
+      "name": "TransMedics Group, Inc.",
+      "score": 74,
+      "prior_canonical_score": 73,
+      "business_quality_75": 55,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 82.18,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/TMDX:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 110.47188509894306,
+      "bear_value": 17.17899304794098,
+      "bull_value": 362.76347029286427,
+      "max_eligible_price": 127.04266786378452,
+      "price_to_base": 0.7438996802344442,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 735,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "OCS·장기이식 물류의 임상 가치와 반복사용이 투자 논리다. 9월 11일의 6점은 미시정 재고 통제 취약점, 항공·PAD·본사 투자 회수 미증명, 가이던스·예정 CFO를 이미 함께 평가했다. 9월 12일 감점은 같은 6월 결산·투자계획과 미시정 상태의 반복이며 신규 악화 또는 기존 판단 오류를 입증하는 별도 근거를 추가하지 않았다. 기존 반증이 계속 존재한다는 이유만으로 추가 1점을 차감한 것을 취소한다. 위험 해소나 CFO 성과 확인에 따른 가점이 아니다.",
+      "monitor": [
+        "Formal remediation of the inventory-control material weakness with tested operating effectiveness.",
+        "At least two reporting periods of improving OCF after PP&E, SBC and recurring aircraft/lease capital requirements on a diluted per-share basis.",
+        "Evidence that PAD/European NOP and heart/lung/kidney programs broaden revenue without structurally diluting consolidated owner-cash margins.",
+        "A continued valuation discount to Base after the above evidence strengthens; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "A material accounting/control failure, major OCS clinical/regulatory impairment or logistics safety/regulatory event that damages the platform thesis.",
+        "Persistent negative owner-cash conversion while capital commitments continue to rise.",
+        "Loss of major transplant-center adoption or reimbursement economics that undermines OCS/NOP utilization.",
+        "Valuation moves to require Bull-like execution without corresponding per-share cash evidence."
+      ],
+      "falsifiers": [
+        "The inventory-control material weakness remains unresolved after a reasonable remediation period or expands into broader accounting deficiencies.",
+        "OCS/NOP utilization grows but owner cash per diluted share fails to improve for multiple reporting periods.",
+        "Heart/lung/kidney/international expansion fails to diversify the economics while liver or major-center adoption weakens.",
+        "Service/logistics margin and aircraft capital needs prevent consolidated mature owner-cash margin from approaching the mid-teens assumed in Base."
+      ],
+      "assessment": "companies/TMDX/analyses/2026-09-12-management-dedup/assessment.json",
+      "valuation": "companies/TMDX/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+      "reverse_growth": 0.0737946009896856,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology Group Holding Ltd",
+      "score": 73,
+      "prior_canonical_score": 73,
+      "business_quality_75": 58,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 162.95,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:59:02Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/CRDO:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 158.20090928156057,
+      "bear_value": 25.755921729388568,
+      "bull_value": 610.9447849644941,
+      "max_eligible_price": 181.93104567379464,
+      "price_to_base": 1.0300193642375794,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 725,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "AEC·SerDes의 신뢰성과 전력효율이 설계 채택을 지지한다. 상위4고객84%, SBC18.4%와 DustPhotonics 인수대금은 주당현금에 직접 연결된다. 한 분기 운전자본 유출을 영구화하지 않되 인수·고객 다변화 증거를 요구한다.",
+      "monitor": [
+        "Top-customer concentration falls while aggregate growth remains strong.",
+        "OCF-capex-SBC turns sustainably positive and grows faster than diluted shares for at least two reporting periods.",
+        "DustPhotonics produces measurable revenue/cash returns without further large capital calls.",
+        "Price offers a material discount to conservative Base value rather than merely matching Base."
+      ],
+      "sell_signals": [
+        "Major hyperscaler design loss, sustained gross-margin erosion, or evidence that optical architecture shifts bypass Credo.",
+        "Persistent SBC/net dilution without commensurate per-share owner-cash growth.",
+        "DustPhotonics integration destroys capital or requires repeated external financing."
+      ],
+      "falsifiers": [
+        "A major hyperscaler design loss plus two or more quarters of weakening AEC/optical growth and per-share owner cash would invalidate the widening-moat thesis."
+      ],
+      "assessment": "companies/CRDO/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/CRDO/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "reverse_growth": 0.1844787448265085,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "score": 73,
+      "prior_canonical_score": 73,
+      "business_quality_75": 56,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 132.53,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:56:03Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/NOW:NYSE",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 188.1844039647022,
+      "bear_value": 58.48500545499458,
+      "bull_value": 409.780790136958,
+      "max_eligible_price": 216.41206455940753,
+      "price_to_base": 0.7042560233889451,
+      "eligible": true,
+      "exclusion_reasons": [],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "low_quality_growth",
+        "incremental_roic_collapse",
+        "moat_shrinkage"
+      ],
+      "weight_bp": 725,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "높은 갱신과 워크플로 침투, AI ACV는 긍정적이다. 정부 on-premise 매출의 분기 선인식, H1 OCF 감소, 인수대금·CP 만기와 SBC를 구분한다. 매출 선행지표가 유기적 주당현금으로 전환되는지 추적한다.",
+      "monitor": [
+        "At least two quarters of clean post-pull-forward cRPO/subscription growth with AI customer expansion and cash collection improving together.",
+        "TTM OCF-minus-PPE-minus-SBC per share reaccelerates and SBC/revenue trends clearly toward the sub-10% 2029 target.",
+        "Armis and Veza demonstrate after-tax incremental returns above the 9% hurdle after integration costs normalize.",
+        "AI Control Tower, Otto and Action Fabric show durable cross-system workflow control despite stronger frontier-model agents.",
+        "Commercial-paper reliance declines and net liquidity improves without sacrificing organic product investment.",
+        "Expectation gap remains favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Two or more quarters of sub-15% cRPO growth accompanied by lower renewals or large-customer expansion.",
+        "Owner cash per share deteriorates structurally while SBC remains high and repurchases merely offset compensation dilution.",
+        "Armis/Veza acquisition returns remain below the hurdle after a reasonable integration period.",
+        "Customers shift workflow control to competing AI-agent platforms and ServiceNow loses pricing or module attach.",
+        "A material accounting, security or control failure damages enterprise trust.",
+        "Refinancing or liquidity needs become structurally dependent on external capital.",
+        "The valuation remains elevated while growth, margin and moat evidence weaken together."
+      ],
+      "falsifiers": [
+        "Constant-currency cRPO growth remains below 15% for two consecutive quarters after the Q2 federal pull-forward normalizes.",
+        "AI ACV growth fails to convert into recognized subscription revenue, renewal expansion or owner cash per share.",
+        "TTM OCF-minus-PPE-minus-SBC per share declines across two reporting updates while reported subscription growth remains above 15%.",
+        "Armis and Veza fail to show credible revenue/cash integration economics and acquisition-related costs remain structurally high.",
+        "SBC remains around 15-16% of revenue without a credible path toward management's less-than-10% 2029 objective.",
+        "Frontier model vendors or hyperscalers displace ServiceNow as the enterprise system of action in measurable customer cohorts.",
+        "Renewal rate falls materially from historical high-90s levels while large-customer expansion weakens.",
+        "The U.S. federal channel partner concentration rises materially above current levels or collection quality deteriorates.",
+        "Debt/refinancing needs rise while acquisition cash returns fail to scale.",
+        "Price remains above conservative Base value while business and owner-cash evidence deteriorate."
+      ],
+      "assessment": "companies/NOW/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/NOW/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.1162254796389649,
+      "reverse_growth_basis": "Constant revenue growth in years 1-10 from the reported TTM anchor."
+    }
+  ],
+  "excluded": [
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "score": 79,
+      "prior_canonical_score": 79,
+      "business_quality_75": 68,
+      "management_score": 8,
+      "currency": "USD",
+      "quote": {
+        "price": 199.59,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:55:44Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/ANET:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 166.10784006499983,
+      "bear_value": 57.04601640775324,
+      "bull_value": 357.9991115743701,
+      "max_eligible_price": 191.0240160747498,
+      "price_to_base": 1.2015688116942478,
+      "eligible": false,
+      "exclusion_reasons": [
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "EOS·CloudVision과 네트워크 운영 안정성은 강점이다. 두 대형 고객·AI Ethernet 경쟁과97억달러 구매약정의 재고 위험이 남아 있다. 사업질68/75점과 총점79점이어도 현 가격은 Base×1.15를 넘는다.",
+      "monitor": [
+        "At least two additional reporting periods showing revenue, GAAP operating margin and SBC-adjusted cash per share improving together without outsized working-capital support.",
+        "Evidence that the 26% and 16% end-customer concentration is declining through genuine customer diversification rather than temporary shipment timing.",
+        "1.6T production ramps in 2027 with retained or improved AI Ethernet share and continued EOS/CloudVision software attachment.",
+        "Non-cancellable purchase commitments convert into shipments and cash without material excess inventory, supplier charges or gross-margin erosion.",
+        "Expectation gap becomes clearly favorable at a 9% required return; price decline alone is insufficient without business evidence."
+      ],
+      "sell_signals": [
+        "Persistent share loss in AI Ethernet combined with weaker pricing, lower gross margin and slower software/service growth.",
+        "A major customer structurally insources or reallocates network spend away from Arista and diversification fails to compensate.",
+        "Material inventory write-downs or supplier-liability charges reveal that the $9.7B purchase commitment was based on poor demand forecasting.",
+        "SBC-adjusted owner cash per share falls for four quarters despite nominal revenue growth.",
+        "Any material impairment of accounting integrity, governance reliability or customer-value proposition triggers immediate thesis rewrite regardless of price."
+      ],
+      "falsifiers": [
+        "One of the two major end customers materially reduces Arista spend for multiple periods and the lost revenue is not offset by diversified AI, enterprise or campus customers.",
+        "Arista loses sustained AI Ethernet back-end share across two product generations while EOS/CloudVision attach and pricing power weaken.",
+        "1.6T platforms fail to progress from 2026 trials into meaningful 2027 production at expected economics.",
+        "OCF per share and conservative SBC-adjusted owner-cash per share decline for multiple reporting periods despite reported revenue growth.",
+        "Purchase commitments generate material excess-and-obsolete inventory or supplier-liability charges because customer demand fails to match forecasts."
+      ],
+      "assessment": "companies/ANET/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/ANET/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.1730668019290592,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 79,
+      "prior_canonical_score": 79,
+      "business_quality_75": 67,
+      "management_score": 8,
+      "currency": "USD",
+      "quote": {
+        "price": 369.15,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:26:53Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/ISRG:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 302.7132313210153,
+      "bear_value": 124.39283905585431,
+      "bull_value": 609.282917127033,
+      "max_eligible_price": 348.1202160191676,
+      "price_to_base": 1.219470977165617,
+      "eligible": false,
+      "exclusion_reasons": [
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "moat_shrinkage",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "추가 정밀분석의 FDA 리콜과 경쟁 로봇 접근을 반영해 기존 PASS를 INVESTIGATE로 재개한다. 수술·기구·서비스 매출과 설치대수·리스 투자수익을 구분한다. 총점79점은 유지하나 가격도 편입 상한을 넘는다.",
+      "monitor": [
+        "Quarterly da Vinci 5 utilization and OUS placement mix, including feedback-enabled procedure adoption.",
+        "OTTAVA/Hugo/Versius U.S. placements, procedure volumes and hospital multi-platform adoption.",
+        "Recall closure status, MDR/adverse-event trends and any regulatory restrictions.",
+        "Eight-quarter bridge for leased systems, inventory, PP&E, procedure growth and owner FCF per share.",
+        "Incremental economics of the 2026 European direct-distribution acquisition.",
+        "Repurchase price discipline relative to contemporaneous intrinsic value."
+      ],
+      "sell_signals": [
+        "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "Da Vinci procedure growth remains below 10% for four consecutive quarters while competitor placements, procedures or hospital switching materially increase.",
+        "Procedure volume remains positive but instruments/accessories economics or gross margin structurally decline because of pricing concessions or competition.",
+        "Da Vinci 5, SP, Ion or instrument recalls broaden into material patient-harm evidence, procedure pauses or regulatory restrictions.",
+        "Lease intensity, inventory and PP&E growth cause FCF per share to persistently lag procedure growth after SBC and required reinvestment.",
+        "Hospital capital/funding constraints materially reduce placements and utilization fails to compensate."
+      ],
+      "assessment": "companies/ISRG/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/ISRG/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.13187490028072213,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin Corporation",
+      "score": 76,
+      "prior_canonical_score": 76,
+      "business_quality_75": 60,
+      "management_score": 5,
+      "currency": "USD",
+      "quote": {
+        "price": 323.96,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:55:17Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/APP:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 316.7765951160146,
+      "bear_value": 173.22336905171196,
+      "bull_value": 469.2363570536977,
+      "max_eligible_price": 364.2930843834168,
+      "price_to_base": 1.0226765644771028,
+      "eligible": false,
+      "exclusion_reasons": [
+        "경영진≤5"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "광고 성과 최적화와 높은 현금마진을 인정하되 광고주 ROAS·트래픽 신뢰·플랫폼 접근권·SEC 조사·차등의결권을 함께 평가한다. 경영진/자본배분5점은 엄격한 >5 조건을 충족하지 않는다. 가격이 싸졌다는 이유로 거버넌스 게이트를 완화하지 않는다.",
+      "monitor": [
+        "Q3 revenue guidance of roughly $2.055B-$2.085B is met or exceeded and Axon model improvement reaccelerates.",
+        "Independent e-commerce advertiser ROAS and cohort-retention evidence confirms a durable second growth engine.",
+        "The SEC/conduct issue closes without a material adverse finding and platform-policy compliance remains intact.",
+        "Owner FCF per share compounds at least around 12%-15% while net share count remains flat-to-down.",
+        "Repurchases are executed below conservative intrinsic value rather than merely supporting headline EPS."
+      ],
+      "sell_signals": [
+        "Material adverse SEC/platform outcome that impairs targeting, traffic access or management credibility.",
+        "Sustained advertiser economics deterioration accompanied by margin compression and weaker owner FCF per share.",
+        "Governance or capital-allocation actions materially transfer value away from Class A minority shareholders.",
+        "Price rises to require a bull-case-or-better path while underlying Axon/e-commerce evidence weakens."
+      ],
+      "falsifiers": [
+        "Revenue growth decelerates materially while advertiser monetization and GAAP operating margin weaken together.",
+        "Independent evidence shows sustained deterioration in advertiser ROAS, retention, traffic quality or platform compliance.",
+        "Net share count turns persistently positive because SBC or other issuance outpaces economically sensible repurchases.",
+        "The SEC or a major platform establishes a material breach that constrains Axon's targeting or distribution economics.",
+        "Normalized owner FCF falls materially below the current starting base without a credible reinvestment explanation."
+      ],
+      "assessment": "companies/APP/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/APP/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/APP/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.1254948541399622,
+      "reverse_growth_basis": "Owner-cash growth for five years, then fixed terminal growth; not revenue CAGR."
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company (ADR)",
+      "score": 75,
+      "prior_canonical_score": 75,
+      "business_quality_75": 68,
+      "management_score": 9,
+      "currency": "USD",
+      "quote": {
+        "price": 433.24,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:56:07Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/TSM:NYSE",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 309.8979731028986,
+      "bear_value": 96.2753661404663,
+      "bull_value": 702.0794260778287,
+      "max_eligible_price": 356.38266906833337,
+      "price_to_base": 1.3980084982877474,
+      "eligible": false,
+      "exclusion_reasons": [
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "선단·N2·패키징과 실제 월매출은 해자 강화를 지지한다. 고객 CAPEX·해외팹 원가·대만 제조 집중을 별도로 스트레스한다. ADR1주=보통주5주의 권리와 분모를 유지한다.75점이어도 현 가격은 Base×1.15 초과다.",
+      "monitor": [
+        "N2/3nm and advanced-packaging demand remains strong beyond customer prebuild, with August/Q3 momentum converting into cash rather than inventory or receivable stress.",
+        "Arizona, Japan and other overseas capacity demonstrate competitive yield/utilization and after-tax incremental returns above the 9% hurdle despite disclosed margin dilution.",
+        "TTM OCF-PPE per ADS grows after the current capex wave begins to normalize; accounting profit growth alone is insufficient.",
+        "Top-customer concentration declines or the customer base broadens without sacrificing leading-edge pricing power and margins.",
+        "Overseas leading-edge capacity becomes economically and operationally substitutable for a meaningful subset of critical customer workloads, reducing Taiwan single-location tail risk.",
+        "N2 scales successfully and A14 customer adoption confirms continued process leadership without disproportionate capital destruction.",
+        "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Sustained leading-edge share loss accompanied by weaker yields, pricing or customer migration.",
+        "AI/HPC demand weakens for multiple periods while capex remains structurally elevated.",
+        "Overseas-fab economics remain below the 9% hurdle after ramp and management continues accelerating capital commitments.",
+        "Gross-margin dilution materially exceeds expected overseas/new-node effects without offsetting strategic or cash returns.",
+        "One or two key customers materially reduce reliance on TSMC and the lost volume is not replaced at comparable economics.",
+        "OCF-PPE per ADS persistently lags revenue and earnings growth after the current expansion phase.",
+        "A material Taiwan disruption impairs production or shareholder access to cash/assets.",
+        "Export-control fragmentation or political constraints cause lasting leading-edge demand destruction.",
+        "Management sacrifices return discipline for politically motivated capacity that cannot earn the hurdle rate.",
+        "Valuation remains near bull economics while moat, cash or return-on-capital evidence deteriorates."
+      ],
+      "falsifiers": [
+        "Leading-edge foundry share declines materially for multiple quarters while 2nm/A14 utilization or yield evidence weakens.",
+        "AI/HPC growth decelerates materially while capex remains elevated and OCF-PPE per ADS fails to improve through the cycle.",
+        "Overseas fabs show structurally lower after-tax incremental returns without sufficient pricing, subsidy or strategic-risk compensation.",
+        "The largest customers materially reduce roadmap dependence on TSMC or customer concentration rises while pricing power falls.",
+        "Gross and operating margins structurally erode beyond management's overseas-fab and new-node dilution framework.",
+        "Advanced-packaging constraints or competing packaging ecosystems cause customers to shift meaningful system value away from TSMC.",
+        "A Taiwan security event materially impairs production, asset access, cash repatriation or shareholder rights.",
+        "Capital requirements grow faster than revenue for a sustained period and after-tax incremental returns fall below the 9% hurdle.",
+        "Export controls or geopolitical fragmentation materially restrict TSMC's addressable leading-edge customer base.",
+        "The stock remains priced above conservative Base value while operating evidence weakens."
+      ],
+      "assessment": "companies/TSM/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/TSM/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.1521320927222779,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "score": 72,
+      "prior_canonical_score": 72,
+      "business_quality_75": 63,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 167.23,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/PLTR:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 114.67709009153216,
+      "bear_value": 26.971731136240592,
+      "bull_value": 355.99749252188076,
+      "max_eligible_price": 131.87865360526197,
+      "price_to_base": 1.4582686033149386,
+      "eligible": false,
+      "exclusion_reasons": [
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "AIP의 유료 도입과 미국 상업 성장은 개선됐지만 높은 가격은 장기 성장과 높은 owner 마진을 요구한다. 절대 SBC·옵션·창업자 의결권, 데이터 사용 권한과 계약 갱신을 확인한다. 현재가/Base 약1.46배로 제외한다.",
+      "monitor": [
+        "At least two additional reporting periods showing strong U.S. commercial growth, RDV/RPO conversion and normalized owner cash per diluted share growth.",
+        "SBC/revenue continues declining and net share-count growth remains low-single-digit while employee retention/product development remain strong.",
+        "The reverse-expectation growth requirement falls into a range supportable by a conservative Base case because of price and/or stronger per-share economics; price decline alone is insufficient.",
+        "Independent customer evidence continues to show measurable operational ROI across multiple industries rather than only flagship case studies."
+      ],
+      "sell_signals": [
+        "Commercial growth/RDV and per-share owner cash deteriorate together for multiple quarters.",
+        "Founder/control or compensation actions produce persistent high-single-digit dilution without proportional economic-value growth.",
+        "Material government access, security, accounting or legal failure damages the platform's trust advantage.",
+        "If held, a price rise alone is not a sell signal; sell/reduce requires deteriorating evidence or portfolio risk-budget constraints."
+      ],
+      "falsifiers": [
+        "U.S. commercial revenue growth falls below 30% for two consecutive quarters while U.S. commercial RDV is flat or declining.",
+        "Normalized owner cash per diluted share fails to grow for two reporting periods despite double-digit revenue growth.",
+        "Net annual share count growth exceeds 5% without commensurate per-share owner-cash improvement.",
+        "A major government debarment/procurement restriction or material accounting/control failure impairs access to core customers.",
+        "Evidence emerges that large customers are replacing Palantir's operational layer with bundled competitor platforms at lower switching cost."
+      ],
+      "assessment": "companies/PLTR/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/PLTR/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+      "reverse_growth": 0.28999010085952215,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation plc",
+      "score": 71,
+      "prior_canonical_score": 71,
+      "business_quality_75": 60,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 425.37,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/ETN:NYSE",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 297.3525873315586,
+      "bear_value": 115.56305611638778,
+      "bull_value": 553.670788904753,
+      "max_eligible_price": 341.95547543129237,
+      "price_to_base": 1.43052395749191,
+      "eligible": false,
+      "exclusion_reasons": [
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "전력장비 주문·백로그와 북미 마진은 강점이지만 Boyd 등 인수 후 차입·이자와 투자회수 부담이 커졌다. Mobility 분리 후 받을 주식·현금을 기존 연결가치에 중복 가산하지 않는다. 가격 조건 미충족이다.",
+      "monitor": [
+        "At least two reporting periods showing Electrical Americas order/backlog conversion and OCF-PPE per share improving together.",
+        "Boyd Thermal and Ultra PCS demonstrate post-ramp after-tax incremental returns above 9% with no material working-capital deterioration.",
+        "Net debt falls materially while the company preserves Electrical and Aerospace growth investment.",
+        "The Mobility transaction closes on economically favorable terms and the post-separation company shows structurally higher growth/margins without hidden cash leakage.",
+        "Data-center growth broadens beyond a small number of hyperscale projects and cooling/power attach rates remain strong.",
+        "Capacity additions earn attractive returns after competitors expand supply and lead times normalize.",
+        "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Sustained order/backlog deterioration in Electrical Americas together with weaker data-center project economics.",
+        "Boyd Thermal/Ultra PCS returns remain below the hurdle after integration or require repeated restructuring charges.",
+        "Persistent net-debt growth or refinancing dependence despite strong reported earnings.",
+        "OCF-PPE per share deteriorates structurally while adjusted EPS continues to rise.",
+        "Electrical pricing/margins compress as transformer, switchgear, cooling or modular-system supply normalizes.",
+        "A material Mobility transaction failure or tax/value leakage weakens common-holder economics.",
+        "Major customer or channel losses reveal previously understated concentration.",
+        "Accounting/control or acquisition-related integrity evidence becomes materially adverse.",
+        "The valuation remains near bull economics while growth and margin evidence weaken."
+      ],
+      "falsifiers": [
+        "Electrical Americas rolling orders and firm backlog decelerate materially for multiple quarters while data-center project delays rise.",
+        "Boyd Thermal or Ultra PCS post-acquisition returns fail to exceed the 9% hurdle after integration and working-capital normalization.",
+        "OCF-PPE per share fails to grow despite revenue/backlog growth after acquisition integration.",
+        "Net debt does not decline as planned while interest expense remains structurally elevated.",
+        "Electrical Americas operating margin falls materially below the low-20s while volume growth normalizes.",
+        "Data-center customers shift meaningful wallet share to competitors or vertically integrate critical power/cooling systems.",
+        "Mobility separation creates material tax leakage, value leakage or execution disruption.",
+        "Large project cancellations or release delays cause firm backlog conversion to deteriorate materially.",
+        "A material accounting, controls or acquisition-integration integrity issue emerges.",
+        "The stock remains above conservative Base value while business and cash evidence weaken."
+      ],
+      "assessment": "companies/ETN/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/ETN/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.12137265082204418,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 70,
+      "prior_canonical_score": 70,
+      "business_quality_75": 59,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 338.5,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:56:45Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/GOOGL:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 260.8568281134922,
+      "bear_value": 76.961317668771,
+      "bull_value": 601.8385040192775,
+      "max_eligible_price": 299.98535233051604,
+      "price_to_base": 1.2976466916661549,
+      "eligible": false,
+      "exclusion_reasons": [
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "검색·YouTube·Cloud의 고객기반과 AI 비용·CAPEX를 함께 평가한다. AI 이용량이 광고 단가·현금 회수로 연결되는지가 중요하다. 주식 종류를 합산해 평가하되 경제적 권리와 반독점 배포 위험을 남긴다.",
+      "monitor": "미국 9% 허들을 기준으로 동일 자본비용 민감도를 제시하고 검색 단위수익, AI 이용률과 Capex 이후 FCF/주로 투자회수를 입증한다.",
+      "sell_signals": [
+        "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "AI 답변의 광고 단위경제가 기존 검색보다 낮고 투자·배포비가 증가하여 주당 현금이 지속 감소하면 재검토."
+      ],
+      "assessment": "companies/GOOGL/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/GOOGL/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.12426707420214356,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "035420",
+      "name": "NAVER",
+      "score": 69,
+      "prior_canonical_score": 69,
+      "business_quality_75": 52,
+      "management_score": 6,
+      "currency": "KRW",
+      "quote": {
+        "price": 206500,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/035420/"
+      },
+      "base_value": 263170.8525271822,
+      "bear_value": 92246.58724073117,
+      "bull_value": 583136.662867164,
+      "max_eligible_price": 302646.4804062595,
+      "price_to_base": 0.7846613635857382,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "incremental_roic_collapse",
+        "moat_shrinkage",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "검색·커머스·결제의 고객 접점을 인정한다. NVIDIA 조건부 제3자 배정과 인프라 투자약정은 아직 확정된 무상 성장이 아니다. 납입·희석·AI 투자 회수 증거가 추가되지 않아69점을 유지한다.",
+      "monitor": "유기적/인수 성장 구분, 제3자 배정 조건·주식 수·AI 회수, 검색광고와 커머스별 현금",
+      "sell_signals": [
+        "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "검색·커머스 고객 유지가 둔화하고 AI 투자 이후 주당 owner 현금이 두 반기 연속 하락하면 재검토."
+      ],
+      "assessment": "companies/035420/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/035420/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/035420/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.03504698213198043,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 69,
+      "prior_canonical_score": 69,
+      "business_quality_75": 60,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 221.21,
+        "currency": "USD",
+        "timestamp": "2026-09-11T21:35:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/DDOG:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 139.20336190505452,
+      "bear_value": 27.950499516217555,
+      "bull_value": 419.32447820355867,
+      "max_eligible_price": 160.0838661908127,
+      "price_to_base": 1.5891139191801933,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "관측·보안 통합과 확장 매출은 고객가치를 지지한다. 보고 FCF와 SBC 이후 owner 현금은 다르며 사용량 성장의 질과 대형 고객 유지가 핵심이다. 신규 실적 근거 없이69점을 상향하지 않는다.",
+      "monitor": "큰 AI 고객의 최적화 영향을 분리한 성장, 총발행·환매 주식수와 주당 owner-FCF를 4개 분기 추적한다.",
+      "sell_signals": [
+        "제품 확장에도 순유지·사용량 증가와 SBC 차감 주당 현금이 두 반기 악화하면 장기 통합 플랫폼 가정 하향.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "제품 확장에도 순유지·사용량 증가와 SBC 차감 주당 현금이 두 반기 악화하면 장기 통합 플랫폼 가정 하향."
+      ],
+      "assessment": "companies/DDOG/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/DDOG/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/DDOG/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.23249522204496442,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 69,
+      "prior_canonical_score": 69,
+      "business_quality_75": 62,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 1115.7,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:56:17Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/LLY:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 766.1547652905876,
+      "bear_value": 193.85874742369947,
+      "bull_value": 2040.8345033363005,
+      "max_eligible_price": 881.0779800841757,
+      "price_to_base": 1.4562331927503402,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "승인 의약품의 수요와 생산 증설은 성장 근거다. 제조·품질·실처방·보험 접근과 약가·경쟁을 확인하며 미승인 파이프라인의 성공을 확정하지 않는다. 증설 후 정상 현금과 현 가격의 기대차가 충분하지 않아69점을 유지한다.",
+      "monitor": "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+      "sell_signals": [
+        "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+      ],
+      "assessment": "companies/LLY/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/LLY/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.13895430369911,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems",
+      "score": 69,
+      "prior_canonical_score": 69,
+      "business_quality_75": 62,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 1234.46,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/MPWR:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 680.0756985316538,
+      "bear_value": 218.70458583788752,
+      "bull_value": 1569.053237103359,
+      "max_eligible_price": 782.0870533114017,
+      "price_to_base": 1.815180284584956,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "AI 전력관리·800V 제품 기회와 Enterprise Data 성장은 확인되지만 고객 설계 유지와 증설 수익을 검증해야 한다. 이연법인세 통제 취약점의 시정, 재작성 확대 여부, 재고·채권·SBC 후 현금이 우선이다.69점과 가격 부담으로 미편입이다.",
+      "monitor": [
+        "The deferred-tax material weakness is fully remediated, controls are assessed effective and no repeat material misstatement emerges.",
+        "800V samples convert into production wins across multiple data-center customers rather than one concentrated accelerator program.",
+        "Enterprise Data and non-data-center segments grow while distributor and underlying customer concentration do not worsen materially.",
+        "OCF per share after PPE investment and SBC improves for at least two reporting periods while inventory and receivables normalize.",
+        "GlobalFoundries and other capacity cohorts produce after-tax incremental returns above the 9% hurdle after ramp.",
+        "Repurchases are executed with price discipline and begin to offset employee-equity issuance and share-count growth.",
+        "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Repeated material weaknesses, another material restatement or evidence of management/accounting integrity impairment.",
+        "Sustained AI design-share loss while capacity commitments continue to rise.",
+        "800V commercialization misses key customer ramps and competitors lock in materially stronger grid-to-core positions.",
+        "OCF per share after capex and SBC persistently declines despite accounting revenue growth.",
+        "Inventory and receivables deteriorate while channel demand weakens.",
+        "Dilution remains structurally high without matching owner-cash-per-share growth.",
+        "Realized incremental returns on new manufacturing capacity fall below the 9% hurdle.",
+        "Valuation remains near bull-case economics while product, margin or cash evidence weakens."
+      ],
+      "falsifiers": [
+        "The deferred-tax material weakness remains unresolved through FY2026 or another material financial-statement restatement occurs.",
+        "Enterprise Data growth and design wins weaken for multiple quarters while manufacturing capacity continues to expand.",
+        "800V-related sampling fails to convert to production wins across multiple customers or a competing architecture materially reduces MPS wallet share.",
+        "Operating cash flow per share after PPE investment and SBC structurally lags revenue and earnings growth for multiple periods.",
+        "Inventory and receivables rise persistently while distributor sell-through or end-demand weakens.",
+        "New-capacity after-tax incremental returns fail to exceed the 9% hurdle after ramp.",
+        "Annual share-count growth remains around or above 2% without offsetting per-share owner-cash growth.",
+        "Operating margin falls toward the low-20s while revenue growth simultaneously normalizes.",
+        "A previously undisclosed fatal dependence on one AI accelerator, end customer or platform becomes evident.",
+        "Market expectations remain near bull-case economics while business evidence deteriorates."
+      ],
+      "assessment": "companies/MPWR/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/MPWR/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.1993764424919603,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "score": 69,
+      "prior_canonical_score": 69,
+      "business_quality_75": 58,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 257.06,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:54:22Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/VRT:NYSE",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 220.2988237859513,
+      "bear_value": 52.77875883745992,
+      "bull_value": 630.2707694780775,
+      "max_eligible_price": 253.34364735384398,
+      "price_to_base": 1.1668695982224895,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "전력·냉각 밀도 상승은 구조적 수요지만 공급 확대 후 가격과 고객 자체조달이 현금마진을 낮출 수 있다. 인수대금·통합 수익과 CAPEX를 보존한다.69점 및 가격 상한 초과로 미편입이다.",
+      "monitor": "OCF 운전자본 브리지·유기적 주문·UIG 대금 및 pro forma·유지 Capex",
+      "sell_signals": [
+        "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "수주 대비 매출·현금 전환이 둔화하고 선수금 감소와 가격경쟁으로 주당 owner cash가 두 반기 감소하면 재평가."
+      ],
+      "assessment": "companies/VRT/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/VRT/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.15560477908092862,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "score": 69,
+      "prior_canonical_score": 69,
+      "business_quality_75": 62,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 515.44,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/VRTX:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 385.2466629906837,
+      "bear_value": 102.0464883895608,
+      "bull_value": 795.0096551688299,
+      "max_eligible_price": 443.0336624392862,
+      "price_to_base": 1.3379479941464536,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "CF의 현금과 신제품 확장 옵션을 구분한다. TRIKAFTA와 ALYFTREK은 같은 질환 노출이다. Crinetics 거래·차입 약정과 약물 허가·유료 처방의 실현을 추적한다. 신규 증거 없이69점을 올리지 않는다.",
+      "monitor": "CF 제품 수명·로열티, Crinetics 종결 후 대차대조표·대금·파이프라인 확률",
+      "sell_signals": [
+        "CF 수익성·특허/경쟁 보호가 약화되는 동안 비CF 제품의 보험·처방·현금 실적이 충분히 커지지 못하면 장기 가정 하향.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "CF 수익성·특허/경쟁 보호가 약화되는 동안 비CF 제품의 보험·처방·현금 실적이 충분히 커지지 못하면 장기 가정 하향."
+      ],
+      "assessment": "companies/VRTX/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/VRTX/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.09770614963929625,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "000660",
+      "name": "SK Hynix",
+      "score": 68,
+      "prior_canonical_score": 68,
+      "business_quality_75": 61,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 1812000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/000660/"
+      },
+      "base_value": 999852.5109099924,
+      "bear_value": 260199.02920895393,
+      "bull_value": 2913143.516377421,
+      "max_eligible_price": 1149830.387546491,
+      "price_to_base": 1.8122672896534016,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "HBM 수요와 높은 현금창출을 인정하되, 메모리의 고점 마진을 장기 정상치로 연장하지 않는다. 7월 신주·조건부 환매와 신규 CAPEX 이후 주당 현금을 함께 추적한다.",
+      "monitor": "ASP/물량/믹스·세대별 수율·전체 사이클 Capex·증자 및 환매 실행 후 주식 수",
+      "sell_signals": [
+        "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "HBM 판매 증가에도 두 반기 연속 OCF−전체 Capex가 악화하고 신제품 고객 채택·수익성이 동반 하락하면 해자 확대 논지를 폐기한다."
+      ],
+      "assessment": "companies/000660/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/000660/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/000660/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.15276802531014344,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "005380",
+      "name": "Hyundai Motor",
+      "score": 68,
+      "prior_canonical_score": 68,
+      "business_quality_75": 51,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 382500,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/005380/"
+      },
+      "base_value": 467404.19743259693,
+      "bear_value": 159069.0289402965,
+      "bull_value": 1023773.923419506,
+      "max_eligible_price": 537514.8270474864,
+      "price_to_base": 0.8183495186843274,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "low_quality_growth",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "자동차와 금융을 분리해 금융부채를 자동차 가치에서 전액 차감하지 않는다. 보통주·우선주 현금권리, 판매 인센티브, 잔존가치·대손과 전동화 투자수익이 핵심이다. 가격 조건을 통과해도 총점68점이므로 미편입이다.",
+      "monitor": "자동차/금융 SOTP, 금융부문 규제자본·신용손실, 우선주 및 지분가치 중복 제거",
+      "sell_signals": [
+        "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "자동차 세후 현금수익과 금융 연체·대손이 동시에 악화하여 배당이 차입 의존으로 바뀌면 재검토한다."
+      ],
+      "assessment": "companies/005380/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/005380/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/005380/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.015136367976607779,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "005930",
+      "name": "Samsung Electronics",
+      "score": 68,
+      "prior_canonical_score": 68,
+      "business_quality_75": 57,
+      "management_score": 8,
+      "currency": "KRW",
+      "quote": {
+        "price": 259500,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/005930/"
+      },
+      "base_value": 198267.42207759927,
+      "bear_value": 61345.8826054332,
+      "bull_value": 567751.8644907532,
+      "max_eligible_price": 228007.53538923914,
+      "price_to_base": 1.3088383219026023,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "moat_shrinkage",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "HBM 수혜·메모리 현금수확과 파운드리의 투자회수·경쟁력은 별도로 평가한다. 직원 보상용 환매를 무상 주당가치 증가로 처리하지 않는다. 이익 급등만으로 사업질 점수를 올리지 않는다.",
+      "monitor": "HBM 물량·ASP·수율 효과를 분리하고 DS 정상화 FCF, 설비투자와 우선주를 포함한 주당 현금흐름을 연결한다.",
+      "sell_signals": [
+        "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "HBM 경쟁력 회복 없이 파운드리 손실·유휴설비가 확대되고 사이클 하락기에 환원 재원이 차입으로 바뀌면 논지 폐기."
+      ],
+      "assessment": "companies/005930/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/005930/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/005930/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.0892533628947797,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "207940",
+      "name": "Samsung Biologics",
+      "score": 68,
+      "prior_canonical_score": 68,
+      "business_quality_75": 59,
+      "management_score": 6,
+      "currency": "KRW",
+      "quote": {
+        "price": 1415000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/207940/"
+      },
+      "base_value": 1159211.0254854697,
+      "bear_value": 376516.71754768514,
+      "bull_value": 2398471.714858589,
+      "max_eligible_price": 1333092.6793082901,
+      "price_to_base": 1.2206578171626754,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "기존 CDMO의 높은 수익성과 고객 전환비용은 유지된다. 3조원 유상증자·PolyPeptide 인수는 신규 자본수익률 검증 과제다. 증자 후48.561백만주, 인수 투자금의 가치 기여를 별도 반영하며 인수대금 자체를 확정 내재가치로 보지 않는다.",
+      "monitor": "Final rights-offering terms and subscription results; PolyPeptide tender acceptance and closing; purchase-price allocation and funding bridge; Plant 5/Rockville utilization and margin progression; consolidated post-deal FCF, working capital and incremental ROIC; customer concentration disclosure.",
+      "sell_signals": [
+        "Material accounting or management-integrity impairment.",
+        "Persistent quality/regulatory failures or clear moat shrinkage.",
+        "Repeated external equity funding becomes necessary to sustain growth without commensurate per-share FCF growth.",
+        "Incremental ROIC structurally deteriorates after the current expansion cycle.",
+        "Valuation requires unrealistic bull-case-or-better execution."
+      ],
+      "falsifiers": [
+        "Plant 5/Rockville utilization, yield or collection economics fail to improve over four reporting periods while capacity continues to expand.",
+        "Material quality/regulatory failure causes customer loss or persistent pricing concessions.",
+        "PolyPeptide integration requires materially more capital than announced and does not show a credible path to positive FCF and acceptable incremental ROIC.",
+        "Customer or modality concentration becomes severe enough that one program/regulation can impair the long-term earnings base.",
+        "Current valuation rises to require the internal bull case or better under conservative cash assumptions."
+      ],
+      "assessment": "companies/207940/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/207940/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/207940/analyses/2026-09-11-deep/assessment.json",
+      "reverse_growth": 0.12910308488350097,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "278470",
+      "name": "APR",
+      "score": 68,
+      "prior_canonical_score": 68,
+      "business_quality_75": 53,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 372000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/278470/"
+      },
+      "base_value": 428560.2706157403,
+      "bear_value": 81874.10164803527,
+      "bull_value": 1292599.8571632039,
+      "max_eligible_price": 492844.3112081013,
+      "price_to_base": 0.8680225991679619,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "low_quality_growth",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "뷰티 디바이스·화장품의 해외 고객 획득을 인정하되 광고·수수료·반복구매 후 현금수익을 확인한다. 제품개발 비용을 CAPEX로 이중 계산하지 않는다. 현재 가격만으로68점을70점으로 올리지 않는다.",
+      "monitor": "채널별 sell-through·CAC 회수·재고연령·IFRS1118 동일 기준, 주당 현금흐름",
+      "sell_signals": [
+        "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "해외 판매 성장에도 재고회전·반복구매·광고비 차감 후 현금수익이 두 반기 악화하면 재평가."
+      ],
+      "assessment": "companies/278470/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/278470/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/278470/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.09250910792546374,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "score": 68,
+      "prior_canonical_score": 68,
+      "business_quality_75": 60,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 650.58,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:21:26Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/PWR:NYSE",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 479.64185030531394,
+      "bear_value": 118.96094717263958,
+      "bull_value": 1094.1380242594066,
+      "max_eligible_price": 551.588127851111,
+      "price_to_base": 1.3563870616917104,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "숙련 인력과 자체 시공 능력, 전력·대형부하 수요는 강점이다. RPO와 추정 MSA 갱신이 포함된 백로그를 구분한다. 인수 효과·고정가 공사 손실·변경계약 미수와 현금 회수를 본다.68점 및 가격 조건으로 제외한다.",
+      "monitor": [
+        "At least two reporting periods in which RPO conversion, Electric margins and OCF-minus-capex-minus-SBC per share improve together.",
+        "Recent acquisitions and strategic manufacturing/craft-capacity investments demonstrate post-ramp after-tax incremental returns above the 9% hurdle.",
+        "Contract assets, unapproved change orders and DSO remain controlled as revenue scales.",
+        "Large-load/data-center demand broadens across multiple customers and regions without materially weakening contract terms or margins.",
+        "Share count remains disciplined after acquisition equity consideration and compensation, with repurchases funded from excess owner cash rather than debt.",
+        "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+      ],
+      "sell_signals": [
+        "Two or more quarters of material RPO deterioration accompanied by project delays, cancellations or weaker cash conversion.",
+        "Project estimate revisions, claims or fixed-price losses cause persistent margin compression.",
+        "Acquisition returns remain below the hurdle after integration while acquisition cadence continues.",
+        "Owner cash per share deteriorates structurally despite backlog and adjusted-EPS growth.",
+        "Net leverage rises and external refinancing increasingly funds ordinary reinvestment rather than discretionary acquisitions.",
+        "Major data-center or utility customers reduce capital programs and replacement demand fails to offset the decline.",
+        "A material accounting or control issue undermines confidence in percentage-of-completion revenue recognition.",
+        "Valuation remains near bull economics while business-quality evidence weakens."
+      ],
+      "falsifiers": [
+        "RPO growth and conversion fall materially for multiple quarters while backlog remains supported mainly by MSA estimates rather than firm orders.",
+        "Electric segment margins fall materially while labor, subcontractor or material costs rise and project execution deteriorates.",
+        "OCF-minus-capex-minus-SBC per share fails to compound despite continued double-digit revenue growth.",
+        "Recent acquisitions fail to earn after-tax incremental returns above 9% after integration and working-capital normalization.",
+        "Unapproved change orders, claims or contract assets rise faster than revenue and cash collection weakens.",
+        "Large-load/data-center customers delay grid interconnections or projects and utility capex no longer offsets the slowdown.",
+        "Net debt or commercial-paper reliance rises persistently despite strong reported earnings.",
+        "A material accounting/control failure emerges, particularly in acquired entities and percentage-of-completion estimates.",
+        "The stock remains above conservative Base value while RPO, margins and owner cash weaken together."
+      ],
+      "assessment": "companies/PWR/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/PWR/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/PWR/analyses/2026-09-10-deep/assessment.json",
+      "reverse_growth": 0.12536876530540908,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "012450",
+      "name": "Hanwha Aerospace",
+      "score": 67,
+      "prior_canonical_score": 67,
+      "business_quality_75": 55,
+      "management_score": 6,
+      "currency": "KRW",
+      "quote": {
+        "price": 1081000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/012450/"
+      },
+      "base_value": 1050591.7563479156,
+      "bear_value": 299837.0613415793,
+      "bull_value": 2433312.0419015773,
+      "max_eligible_price": 1208180.5198001028,
+      "price_to_base": 1.0289439199083286,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "external_capital_dependence",
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "방산 수주가 장기 수요를 지지하지만 모회사 현금·자회사 지분가치·비지배지분·보증은 각각 연결해야 한다. 선수금은 이익과 다르고 NATO 공약은 확정 수주가 아니다. 현재 총점67점을 유지한다.",
+      "monitor": "모회사 제한현금·차입·보증·추가 투자약정을 지분별 SOTP와 연결하고, 안전조치 및 프로젝트별 현금전환을 검증한다.",
+      "sell_signals": [
+        "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "방산 수주가 인도·현금으로 전환되지 않고 자회사 지원·증자 반복으로 본체 주당 현금이 훼손될 때."
+      ],
+      "assessment": "companies/012450/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/012450/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/012450/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.10836954303825952,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "score": 67,
+      "prior_canonical_score": 67,
+      "business_quality_75": 60,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 256.78,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:58:34Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 163.0724261699551,
+      "bear_value": 28.58951270895993,
+      "bull_value": 449.3511414462291,
+      "max_eligible_price": 187.53329009544834,
+      "price_to_base": 1.5746377608461057,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "AWS·광고·물류의 경쟁력과 AI 인프라 투자 부담을 분리한다. 연결 광고 매출 중복, 리스 원금·SBC 누락을 금지한다. 신규 채권 발행은 조달 접근성과 이자 부담의 동시 증거이며 자체적으로 회사 점수 상향 사유가 아니다.",
+      "monitor": "AWS 사용률·투자 회수, 유지/성장 Capex 근거, Anthropic 비현금이익 제거, 만기별 약정과 주당 현금회복 브리지",
+      "sell_signals": [
+        "AWS 사용률·단위 현금수익 증가보다 설비·리스비용이 더 빨리 늘고 소매 개선도 이를 상쇄하지 못하면 복리 가정 하향.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "AWS 사용률·단위 현금수익 증가보다 설비·리스비용이 더 빨리 늘고 소매 개선도 이를 상쇄하지 못하면 복리 가정 하향."
+      ],
+      "assessment": "companies/AMZN/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/AMZN/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.1752939188663195,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise",
+      "score": 64,
+      "prior_canonical_score": 64,
+      "business_quality_75": 57,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 479.34,
+        "currency": "USD",
+        "timestamp": "2026-09-11T21:35:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/AXON:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 321.87446080195775,
+      "bear_value": 59.912936829226055,
+      "bull_value": 920.2318066431197,
+      "max_eligible_price": 370.15562992225136,
+      "price_to_base": 1.4892141451847816,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "기기·증거관리·클라우드 통합은 전환비용을 만든다. 다년 계약액과 현금수금은 다르며 SBC·희석·인수 후 주당 현금이 중요하다. 공공 예산과 조달·데이터 규제에 대한 기존 조사 상태를 유지한다.",
+      "monitor": "SBC를 현금대체비용으로 차감하고 미래 동일 보상의 희석을 중복 적용하지 않는 모형, 또는 총발행·환매 재원을 명시한 모형으로 대조한다.",
+      "sell_signals": [
+        "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "계약 확대에도 고객 이탈·수금 지연·보상비용이 매출보다 빨리 늘어 주당 현금 전환이 4개 분기 지연되면 가정 폐기."
+      ],
+      "assessment": "companies/AXON/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/AXON/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.18667762183472025,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "042700",
+      "name": "Hanmi Semiconductor",
+      "score": 63,
+      "prior_canonical_score": 63,
+      "business_quality_75": 58,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 231000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/042700/"
+      },
+      "base_value": 87788.72753654618,
+      "bear_value": 21132.624799519137,
+      "bull_value": 276102.9862820714,
+      "max_eligible_price": 100957.03666702811,
+      "price_to_base": 2.6313173283419036,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "incremental_roic_collapse",
+        "moat_shrinkage",
+        "fatal_concentration"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "HBM 후공정의 성장 기회와 특정 고객·장비 세대 의존을 함께 본다. 저장 원자료에 없는 OCF와 부채를0으로 채우지 않는다. 매출·이익보다 실제 회수, 고객 다변화, TC/하이브리드 본딩 전환을 추적한다.",
+      "monitor": "고객·기술별 수주, OCF 원문·재고·채권, 투자 실행과 기술 세대별 점유율",
+      "sell_signals": [
+        "TC bonder 고객 발주가 경쟁사로 이동하고 단가·현금회수가 함께 하락하거나 hybrid bonding 전환에서 지위를 잃으면 폐기.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "TC bonder 고객 발주가 경쟁사로 이동하고 단가·현금회수가 함께 하락하거나 hybrid bonding 전환에서 지위를 잃으면 폐기."
+      ],
+      "assessment": "companies/042700/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/042700/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/042700/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.26069729009367226,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "196170",
+      "name": "Alteogen",
+      "score": 61,
+      "prior_canonical_score": 61,
+      "business_quality_75": 57,
+      "management_score": 7,
+      "currency": "KRW",
+      "quote": {
+        "price": 268000,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/kosdaq/196170/"
+      },
+      "base_value": 137547.12899231113,
+      "bear_value": 10314.515572123328,
+      "bull_value": 556872.7766010243,
+      "max_eligible_price": 158179.19834115778,
+      "price_to_base": 1.9484230747919222,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "persistent_dilution",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "피하주사 전환 플랫폼과 상업화 로열티 경로를 인정한다. 계약별 비공개 로열티율은 추정이고 옵션·마일스톤 최대액은 확정 현금이 아니다. 우선권·부채·무상증자 이후 분모와 실제 상업 매출을 함께 추적한다.",
+      "monitor": "계약별 로열티율/잔존권리·성공확률·확정 현금, 세금·기술 분쟁·희석",
+      "sell_signals": [
+        "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "실제 경상 로열티가 계약 발표와 달리 4개 분기 이상 매출·현금으로 확인되지 않거나 주요 특허·독점권이 훼손되면 폐기."
+      ],
+      "assessment": "companies/196170/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/196170/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/196170/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.2635332301537171,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "score": 60,
+      "prior_canonical_score": 60,
+      "business_quality_75": 55,
+      "management_score": 6,
+      "currency": "USD",
+      "quote": {
+        "price": 306.53,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:31:25Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/NET:NYSE",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 104.1598891291512,
+      "bear_value": 12.581305838170907,
+      "bull_value": 424.41979818572696,
+      "max_eligible_price": 119.78387249852386,
+      "price_to_base": 2.942879476570137,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "보안·Workers·네트워크의 고객 통합효과와 과도한 가격 기대를 분리한다. SBC 이후 현금, 필요 설비와 전환채의 주주권리를 반영한다. 높은 매출 성장만으로 경제적 초과이익이 입증되지는 않는다.",
+      "monitor": "총마진·고객 유지와 SBC 이후 FCF/주 개선, 완전희석 주식수를 포함한 현실적 성장 범위 및 지배구조를 확인한다.",
+      "sell_signals": [
+        "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "기업 고객 채택 확대에도 SBC 차감 현금 적자가 4개 분기 지속되고 가격 인상·제품 확장이 이를 해소하지 못하면 논지 폐기."
+      ],
+      "assessment": "companies/NET/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/NET/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/NET/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.35882121503096986,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "score": 59,
+      "prior_canonical_score": 59,
+      "business_quality_75": 54,
+      "management_score": 7,
+      "currency": "USD",
+      "quote": {
+        "price": 975.26,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/MU:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 472.2178515558512,
+      "bear_value": 127.06603624422513,
+      "bull_value": 1407.3719112554745,
+      "max_eligible_price": 543.0505292892288,
+      "price_to_base": 2.0652755858058702,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "HBM·DRAM 수요는 강해도 최고 가격·마진은 정상화 대상이다. 선단 전환·신공장·경쟁 공급·고객 재고를 함께 스트레스한다. 전환채·CAPEX를 누락해 현금수익을 부풀리지 않는다.",
+      "monitor": "HBM·DRAM·NAND별 중간 사이클 이익과 정부지원 조건, 공장 가동률·주식 수",
+      "sell_signals": [
+        "HBM·DRAM ASP 하락과 공급 확대가 동시에 발생해 두 반기 연속 전체 Capex 이후 현금이 악화하면 정상화 가치 하향.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "HBM·DRAM ASP 하락과 공급 확대가 동시에 발생해 두 반기 연속 전체 Capex 이후 현금이 악화하면 정상화 가치 하향."
+      ],
+      "assessment": "companies/MU/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/MU/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/MU/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.1743623691616697,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "score": 54,
+      "prior_canonical_score": 54,
+      "business_quality_75": 39,
+      "management_score": 5,
+      "currency": "USD",
+      "quote": {
+        "price": 59.86,
+        "currency": "USD",
+        "timestamp": "2026-09-11T23:54:56Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/ASTS:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 98.24298689527352,
+      "bear_value": 0,
+      "bull_value": 383.21981475825964,
+      "max_eligible_price": 112.97943492956453,
+      "price_to_base": 0.60930557886855,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "경영진≤5"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "external_capital_dependence",
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "fatal_concentration",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "위성-휴대전화 연결의 고객 가치는 크지만 발사·상용 서비스·통신사 수금·운전자본을 단계별로 검증해야 한다. 현금과 확정 투자 후 외부조달 필요성, 교환가능 지분을 반영한다. 정부·방산 테마만으로 점수를 높이지 않는다.",
+      "monitor": "분기별 현금 runway·발사 성공·서비스 계약 단가/수익배분·규제 권리",
+      "sell_signals": [
+        "발사·커버리지·상업 가입자 유입 지연으로 보유 현금보다 건설·교체 비용이 커지고 조달 창구가 닫히면 지분가치 영구손실.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "발사·커버리지·상업 가입자 유입 지연으로 보유 현금보다 건설·교체 비용이 커지고 조달 창구가 닫히면 지분가치 영구손실."
+      ],
+      "assessment": "companies/ASTS/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/ASTS/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.4793902431157365,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI",
+      "score": 54,
+      "prior_canonical_score": 54,
+      "business_quality_75": 43,
+      "management_score": 5,
+      "currency": "USD",
+      "quote": {
+        "price": 59.01,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/TEM:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 57.66203824385483,
+      "bear_value": 2.2656690329681797,
+      "bull_value": 254.01366734662145,
+      "max_eligible_price": 66.31134398043305,
+      "price_to_base": 1.0233769356269473,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "경영진≤5"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "management_or_accounting_integrity",
+        "external_capital_dependence",
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "진단·데이터 고객 성장은 인정하되 인수 성장과 자체 현금조달을 분리한다. 보조금 최대액·미완료 인수·전환약속어음의 권리를 각각 평가한다. 지원금 선정만으로 사업질과 총점54점을 상향하지 않는다.",
+      "monitor": "영업→순이익 조정·OCF runway·수가/채권·Personalis 종결 후 주식 수·전환 조건·진단/데이터 분리",
+      "sell_signals": [
+        "진단·데이터 성장에도 수금·SBC 차감 후 적자가 지속되고 인수/전환권리로 주당 가치가 감소하면 신규 진입 배제.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "진단·데이터 성장에도 수금·SBC 차감 후 적자가 지속되고 인수/전환권리로 주당 가치가 감소하면 신규 진입 배제."
+      ],
+      "assessment": "companies/TEM/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/TEM/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/TEM/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.1626849525972972,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "score": 50,
+      "prior_canonical_score": 50,
+      "business_quality_75": 46,
+      "management_score": 5,
+      "currency": "USD",
+      "quote": {
+        "price": 62.95,
+        "currency": "USD",
+        "timestamp": "2026-09-12T00:15:00Z",
+        "basis": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+        "source": "Web finance quote feed",
+        "source_url": "https://www.google.com/finance/quote/RKLB:NASDAQ",
+        "source_url_note": "Public quote reference; observed numeric snapshot and UTC timestamp are from finance feed, not a separately audited Google webpage."
+      },
+      "base_value": 17.763532042662945,
+      "bear_value": 0.5143627279120659,
+      "bull_value": 89.68687673633161,
+      "max_eligible_price": 20.428061849062384,
+      "price_to_base": 3.5437772087674926,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "경영진≤5",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "persistent_dilution",
+        "incremental_roic_collapse",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "발사와 우주시스템 통합의 잠재력보다 개발자금·일정·계약현금 검증이 우선이다. 미완료 인수 매출을 공짜로 넣지 않고 bridge 조달·실패·지연·추가 희석을 함께 평가한다. 경영진5점으로도 조건 미달이다.",
+      "monitor": "Iridium 거래 조건/종결 pro forma·bridge 만기·Neutron 현금 및 성공 단계별 시나리오",
+      "sell_signals": [
+        "Neutron 일정·성능 목표의 반복 미달로 현금소진이 가속되고 인수금융·주식대가가 기존 주주 이익을 넘어설 때.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "Neutron 일정·성능 목표의 반복 미달로 현금소진이 가속되고 인수금융·주식대가가 기존 주주 이익을 넘어설 때."
+      ],
+      "assessment": "companies/RKLB/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/RKLB/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/RKLB/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.3635931229455164,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    },
+    {
+      "ticker": "034020",
+      "name": "Doosan Enerbility",
+      "score": 49,
+      "prior_canonical_score": 49,
+      "business_quality_75": 45,
+      "management_score": 5,
+      "currency": "KRW",
+      "quote": {
+        "price": 90800,
+        "currency": "KRW",
+        "timestamp": "2026-09-11T15:30:00+09:00",
+        "basis": "DELAYED_KOREAN_CLOSE",
+        "source_url": "https://stockanalysis.com/quote/krx/034020/"
+      },
+      "base_value": 15347.409307465154,
+      "bear_value": 0,
+      "bull_value": 53322.54420839976,
+      "max_eligible_price": 17649.520703584927,
+      "price_to_base": 5.916307969699736,
+      "eligible": false,
+      "exclusion_reasons": [
+        "총점<70",
+        "경영진≤5",
+        "현재가>Base×1.15"
+      ],
+      "hard_veto": "INVESTIGATE",
+      "open_vetoes": [
+        "external_capital_dependence",
+        "incremental_roic_collapse",
+        "price_requires_unrealistic_bull_case",
+        "permanent_loss_probability"
+      ],
+      "weight_bp": 0,
+      "buy_authorized": false,
+      "business_and_thesis_ko": "원전·가스터빈·SMR 수요와 실제 계약·선수금·납품 현금을 구분한다. 자회사 연결 전액과 지분가치 중복을 금지한다. 자본집약도와 낮은 정상 owner 마진, 경영진5점 및 가격 부담으로 제외한다.",
+      "monitor": "지분별 SOTP·자금 제한·보증, 프로젝트별 계약상 책임과 현금 전환",
+      "sell_signals": [
+        "확정 착공·제작 수주가 늘지 않거나 본체 현금손실을 Bobcat 처분·차입으로 반복 충당하면 원전 복리 논지 무효.",
+        "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+      ],
+      "falsifiers": [
+        "확정 착공·제작 수주가 늘지 않거나 본체 현금손실을 Bobcat 처분·차입으로 반복 충당하면 원전 복리 논지 무효."
+      ],
+      "assessment": "companies/034020/analyses/2026-09-12-full-review/assessment.json",
+      "valuation": "companies/034020/analyses/2026-09-12-full-review/valuation.json",
+      "source_assessment": "companies/034020/analyses/2026-09-06-deep/assessment.json",
+      "reverse_growth": 0.3503816042251925,
+      "reverse_growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+    }
+  ],
+  "scope_exclusions": [
+    "AMD, PANW and SNOW remain PRELIMINARY_REVIEW in current canonical GitHub authority; prior separate unpromoted research is not silently relabeled FULL_ANALYSIS.",
+    "LSCABLE is not part of this canonical FULL_ANALYSIS universe; prior PARTIAL research remains outside the portfolio."
+  ],
+  "warning": "Paper target percentages do not imply actual holdings, execution, risk-budget suitability or authorization.",
+  "parent_review": "reviews/2026-09-12-full-review",
+  "correction_audit": "reviews/2026-09-12-management-dedup/audit.json",
+  "price_and_model_basis": {
+    "policy": "UNCHANGED_FROM_PRECEDING_REVIEW_FOR_CONTROLLED_CORRECTION",
+    "prices": "reviews/2026-09-12-full-review/prices.json",
+    "models": "reviews/2026-09-12-full-review/model-specs.json"
+  }
+}

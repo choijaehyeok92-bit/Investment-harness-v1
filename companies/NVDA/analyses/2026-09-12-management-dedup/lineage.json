@@ -1,0 +1,77 @@
+{
+  "ticker": "NVDA",
+  "as_of": "2026-09-12",
+  "records": [
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "ca662c8334032078c56e26feb41fb9dfaeac4e9b1450b105afd0e6f982184a40"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "cb062f72234aff2e644dfc9e8afcbd7162b947efee0f6b4d4edf888debd09123"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "e01255aae2c5ad865979e5cc126bcd45ddcff435fc706835ffdc1b59ec409bde"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "e956aab7f4b49fa990db481d3a9f824586c9bf2e05decd6d24bfb8b35421c43a"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "4baa70b15ff2a8871a961721caae03cad336346ae8cb05fc8a915c95d25a6742"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "88f301896da1ec25c3340abee8f7e44834064b3764a62b8f2ac34f5984b30902"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "6e2de7b318f6c603a9a2541a93315b0db90c80b1ba1e0eea4a1c7072eca065e8"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "4c1ac57497bd16a66074d13adac54aaaf84af43bea1b415f7240ae92fba69dd5"
+    },
+    {
+      "path": "reviews/2026-09-10-nvda-deep/source-manifest.json",
+      "sha256": "13d0d10208909af3594dc722b3b36099ae687ba9dcb048bed61797bafcf6c5d5"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/portfolio.json",
+      "sha256": "2e75bf1c1c163837cf9385a2206fff9284c8830a5749813f2425fb1eef0de160"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/audit.json",
+      "sha256": "c67e8ade9f05a50795eea8dd0c282f673a285b9f59068f8dcfd8f694273eea26"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/2e7e415-scorecard.json",
+      "sha256": "0fd6f7512d533cef560a3711ca83fa634999dcfdcd48728ad59594d226d953b2"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/d5c1fe1-scorecard.json",
+      "sha256": "4420f3aa5b066a5b69a2eac0edacc76370f9ca0a710d01ac4aa677b2f80617e1"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/f09c7b0-scorecard.json",
+      "sha256": "c697d9517339f7250f50d26f6ba2ff36b0b1211803bb25bda873aba82ebad656"
+    }
+  ],
+  "restored_score_pointer": {
+    "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+    "json_pointer": "/categories/management_and_capital_allocation/score"
+  },
+  "audit": "reviews/2026-09-12-management-dedup/audit.json",
+  "unchanged_valuation": "companies/NVDA/analyses/2026-09-12-full-review/valuation.json",
+  "note": "Negative evidence and INVESTIGATE remain. The correction reverses repeated weighting, not the risks."
+}

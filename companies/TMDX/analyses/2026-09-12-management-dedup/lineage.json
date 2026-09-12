@@ -1,0 +1,77 @@
+{
+  "ticker": "TMDX",
+  "as_of": "2026-09-12",
+  "records": [
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+      "sha256": "1598821b5d7c3eac0c0789b56c8b189a99835d8d188ed27a07959c5603674c69"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json",
+      "sha256": "4006720f6432b4635efd90b552c7f0029fc46c22a74463c56f73f271861ecdb5"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/evidence-ledger.json",
+      "sha256": "7d7c280b0648609a02ba679be26a0b579bdf697691d450d0268ce5bf5e8cf2ee"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/financials.json",
+      "sha256": "d12e9e9f21b83ddff72123d640c5894cec4d415e1c19b74f8839c50b8369d992"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/model-inputs.json",
+      "sha256": "dbb3a2d04550d8bb00601554f795966e684d077472e7cbb0eb9c2c57a0c6ba0d"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/observations.json",
+      "sha256": "4e9f8018245e3aa6dd23c200e3ac2a33f790fe4d0727136693a76d95271c506c"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/thesis.ko.md",
+      "sha256": "19d2d3a44a497fed172a9cfe1a13abc4b00e1a9130bcd9f84501d5fe5e9f5bd3"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/valuation.json",
+      "sha256": "9e9779b616cf9d4def101895c6a50bf3f534faaa39bbfb05f3b58f18776fda2e"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "64c73a07090e5406606da4fe00ef22530d65cbfc03dbfdf8e070f979c7c7921f"
+    },
+    {
+      "path": "companies/TMDX/raw-data/2026-09-11-cfo-update.json",
+      "sha256": "1ba259b4b14fa6ec6dd3af25de3ee8e0500680d9c5c2d8bce8b7e8fcd5583f2b"
+    },
+    {
+      "path": "companies/TMDX/raw-data/2026-09-11-public-update.json",
+      "sha256": "2cfdf676831fce1b8004ae76c2e2c3d0a22a9ca3066654b93dd9f789612403f8"
+    },
+    {
+      "path": "companies/TMDX/raw-data/2026-Q2.json",
+      "sha256": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/portfolio.json",
+      "sha256": "2e75bf1c1c163837cf9385a2206fff9284c8830a5749813f2425fb1eef0de160"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/audit.json",
+      "sha256": "c67e8ade9f05a50795eea8dd0c282f673a285b9f59068f8dcfd8f694273eea26"
+    }
+  ],
+  "restored_score_pointer": {
+    "path": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+    "json_pointer": "/categories/management_and_capital_allocation/score"
+  },
+  "audit": "reviews/2026-09-12-management-dedup/audit.json",
+  "unchanged_valuation": "companies/TMDX/analyses/2026-09-12-full-review/valuation.json",
+  "note": "Negative evidence and INVESTIGATE remain. The correction reverses repeated weighting, not the risks."
+}

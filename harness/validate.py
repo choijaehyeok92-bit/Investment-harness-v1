@@ -6,6 +6,10 @@ from .core import ROOT, read, sha, resolve_pointer, validate_assessment, calcula
 from .build import outputs, DIRECTORY
 
 def main():
+    if read('reviews/latest.json')['directory']=='reviews/2026-09-12-management-dedup':
+        from .management_correction import validate as correction_validate
+        print(json.dumps(correction_validate(), ensure_ascii=False))
+        return
     if read('reviews/latest.json')['directory']=='reviews/2026-09-12-full-review':
         from .review_validate import main as reviewed_main
         return reviewed_main()

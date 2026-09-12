@@ -1,0 +1,450 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "TMDX",
+  "company_name": "TransMedics Group, Inc.",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "FULL_ANALYSIS",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "priority": "P1",
+  "total_score_100": 74,
+  "business_quality_75": 55,
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "historical_records": [
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+      "status": "PRESERVED_PRIOR_REVIEW_WITH_SUPERSEDED_MANAGEMENT_WEIGHTING"
+    }
+  ],
+  "source_paths": [
+    "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+    "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json",
+    "companies/TMDX/analyses/2026-09-11-deep/evidence-ledger.json",
+    "companies/TMDX/analyses/2026-09-11-deep/financials.json",
+    "companies/TMDX/analyses/2026-09-11-deep/model-inputs.json",
+    "companies/TMDX/analyses/2026-09-11-deep/observations.json",
+    "companies/TMDX/analyses/2026-09-11-deep/thesis.ko.md",
+    "companies/TMDX/analyses/2026-09-11-deep/valuation.json",
+    "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+    "companies/TMDX/raw-data/2026-09-11-cfo-update.json",
+    "companies/TMDX/raw-data/2026-09-11-public-update.json",
+    "companies/TMDX/raw-data/2026-Q2.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/portfolio.json",
+    "reviews/2026-09-12-full-review/prices.json",
+    "reviews/2026-09-12-management-dedup/audit.json"
+  ],
+  "review_method": "Targeted duplicate-evidence weighting audit, including original dated commits. Restore absolute prior management scores; preserve prices, valuation, other categories and vetoes.",
+  "portfolio_context": "Actual holdings, taxes and risk budget are not provided. Research completion does not authorize a purchase. Macro conditions affect pacing/risk budget, not the company-quality score.",
+  "structural_thesis": "TransMedics is building an integrated organ-transplant platform around OCS warm perfusion, NOP clinical/logistics coordination and an owned/controlled aviation network. If execution succeeds, the system can expand donor-organ utilization and become embedded in transplant-center workflows; the trade-off is materially higher capital intensity than a conventional medical-device model.",
+  "current_finding": "Q2 revenue grew 21% YoY to $189.9M and FY2026 guidance remains $737M-$757M, but H1 operating income fell 42% to $37.0M and H1 OCF of $41.8M did not cover $43.7M of PP&E purchases before SBC and finance-lease economics. Product gross margin remains strong while service/logistics mix grows faster and carries lower margin.",
+  "capital_and_survival": "June cash was $472.7M, but capital claims include $460M principal of 2028 convertibles, bank debt, roughly $347.7M finance-lease liability, aircraft/logistics requirements and $200M-$240M of expected headquarters capex through 2030. The company states liquidity is sufficient for at least 12 months, but long-run owner-cash conversion remains the key underwriting question.",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "OCS/NOP combines organ preservation, clinical workflow and logistics rather than selling a stand-alone disposable device.",
+        "PAD Aviation extends the model toward a dedicated European transplant-air-logistics network, increasing the addressable workflow controlled by TransMedics."
+      ],
+      "counter_evidence": [
+        "International replication is not yet economically proven and adding aviation/logistics raises fixed-cost, regulatory and execution complexity."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "Long-run transplant-volume uplift attributable specifically to NOP/European logistics versus secular transplant growth remains incomplete."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 revenue rose 21% and management attributes growth primarily to higher OCS utilization in liver and heart plus logistics services.",
+        "OCS offers transplant centers the ability to preserve, assess and transport donor organs in a coordinated workflow, addressing a high-value clinical bottleneck."
+      ],
+      "counter_evidence": [
+        "Public reporting does not provide center-level ROI, retention or procedure-level economics sufficient to quantify standardized customer payback."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "Center-level utilization cohorts, procedure economics and independent reimbursement/payback data."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Integration of FDA-cleared OCS technology, NOP logistics and dedicated aviation can create workflow switching costs and operational know-how that are harder to replicate than the device alone.",
+        "Product gross margin was about 77% in Q2, indicating pricing/value capture remains strong in the core product layer."
+      ],
+      "counter_evidence": [
+        "The expanding service layer had roughly 35% Q2 gross margin and may dilute consolidated economics even while strengthening the network moat.",
+        "Clinical/regulatory alternatives and cold-storage or competing perfusion approaches remain credible long-run substitutes."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Organ-specific competitive win/loss data and durable center-level retention statistics."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Revenue continues to grow above 20% and product economics are attractive.",
+        "Management is investing in OCS Kidney, Gen 3.0, clinical programs and logistics that could create additional growth vectors."
+      ],
+      "counter_evidence": [
+        "H1 OCF was $41.842M versus $43.749M PP&E purchases; OCF-PPE was -$1.907M before $18.558M SBC and lease economics.",
+        "H1 operating income fell to $37.033M from $64.010M as growth investment and service mix compressed operating leverage."
+      ],
+      "confidence": 0.88,
+      "missing_data": [
+        "Normalized aircraft maintenance/replacement capex, lease principal, PAD economics and organ-specific contribution margins are needed for a clean incremental-ROIC estimate."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Management raised the lower end of 2026 revenue guidance in August and reiterated $737M-$757M on September 10.",
+        "Fernando Araujo, with large-scale healthcare and industrial finance experience, was appointed CFO effective September 21, potentially strengthening finance infrastructure during global scaling."
+      ],
+      "counter_evidence": [
+        "The inventory-movement material weakness remained unremediated at June 30, so disclosure controls were not effective.",
+        "The owned/leased aircraft network, PAD expansion and headquarters build require disciplined capital allocation that has not yet produced demonstrated per-share owner-cash leverage."
+      ],
+      "confidence": 0.81,
+      "missing_data": [
+        "Evidence that the new inventory controls have operated effectively for a sufficient period and formal remediation of the material weakness."
+      ],
+      "prior_score": 5,
+      "score_action": "RESTORED_AFTER_DUPLICATE_EVIDENCE_WEIGHTING_AUDIT",
+      "reviewed_as_of": "2026-09-12",
+      "correction_reason": "9월 11일의 6점은 미시정 재고 통제 취약점, 항공·PAD·본사 투자 회수 미증명, 가이던스·예정 CFO를 이미 함께 평가했다. 9월 12일 감점은 같은 6월 결산·투자계획과 미시정 상태의 반복이며 신규 악화 또는 기존 판단 오류를 입증하는 별도 근거를 추가하지 않았다. 기존 반증이 계속 존재한다는 이유만으로 추가 1점을 차감한 것을 취소한다. 위험 해소나 CFO 성과 확인에 따른 가점이 아니다.",
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+        "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+        "reviews/2026-09-12-management-dedup/audit.json"
+      ]
+    },
+    "financial_survivability": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cash was $472.675M at June 30 and management stated existing liquidity should fund operations, capex and debt service for at least 12 months.",
+        "The company remains GAAP profitable and raised/reiterated annual revenue guidance."
+      ],
+      "counter_evidence": [
+        "Capital claims include $460M convertible principal due 2028, bank debt, about $347.7M finance-lease liability and $200M-$240M expected headquarters capex through 2030.",
+        "The aviation/logistics strategy increases fixed and replacement-capital requirements compared with an asset-light medtech model."
+      ],
+      "confidence": 0.86,
+      "missing_data": [
+        "Detailed multi-year aircraft replacement schedule, PAD financing terms and normalized maintenance-capital requirements."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At the preserved $85.04 reference price, Base value is about $110.47 per share, roughly 30% above the reference.",
+        "With the Base owner-margin path and capital adjustments fixed, the reverse model requires only about 7.8% annual revenue growth for years 2-10, implying year-10 revenue of roughly $1.77B.",
+        "2026-09-12 재검증: 관측가격 82.18 USD; Bear/Base/Bull 17.1790/110.4719/362.7635. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "The valuation advantage exists only if owner-cash margin eventually reaches about 16%; current H1 owner-cash conversion is negative after PP&E and SBC.",
+        "Base value has substantial terminal-value dependence and is highly sensitive to margin, capital intensity and discount-rate assumptions."
+      ],
+      "confidence": 0.83,
+      "missing_data": [
+        "PAD contribution, mature service margins and normalized aviation capex remain insufficiently disclosed for a high-confidence intrinsic-value estimate."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+        "companies/TMDX/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bull value is about $362.76, more than four times the reference price, if OCS/NOP becomes a broader transplant platform with operating leverage.",
+        "The mechanical Bear/Bull break-even Bull weight is below 20%, indicating attractive modeled upside asymmetry.",
+        "2026-09-12 재검증: 관측가격 82.18 USD; Bear/Base/Bull 17.1790/110.4719/362.7635. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Bear value is about $17.18, nearly 80% below the reference price; capital intensity, regulatory setbacks, control failures or slower organ adoption can produce severe permanent impairment."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Real-world scenario probabilities are unknown and should not be inferred from the mechanical break-even calculation."
+      ],
+      "source_paths": [
+        "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+        "companies/TMDX/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "severity": "high",
+        "evidence": [
+          "Inventory-movement controls were materially weak and disclosure controls remained ineffective at June 30, although management states the financial statements are fairly presented and new controls were implemented during Q2."
+        ],
+        "resolution_needed": "Require sufficient operating history and testing of new controls followed by formal remediation disclosure; reopen immediately if misstatements or broader control deficiencies emerge."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "severity": "medium",
+        "evidence": [
+          "The company is profitable, has $472.7M cash and says current liquidity is sufficient for at least 12 months."
+        ],
+        "resolution_needed": "Reopen if aviation/HQ/PAD commitments exceed internally generated cash and force repeated external equity or debt funding."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "severity": "medium",
+        "evidence": [
+          "No evidence in the reviewed period indicates structurally excessive shareholder dilution; the valuation uses a diluted share proxy to avoid ignoring convertibles."
+        ],
+        "resolution_needed": "Track SBC, convertibles and any equity financing for aviation or international expansion on a per-share basis."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "severity": "medium",
+        "evidence": [
+          "Growth is tied to OCS utilization and services in clinically valuable transplant workflows rather than subsidy-driven customer acquisition."
+        ],
+        "resolution_needed": "Reopen if utilization growth requires material pricing concessions or logistics losses that do not improve with scale."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "severity": "high",
+        "evidence": [
+          "H1 OCF did not cover PP&E before SBC, while operating income fell despite 21% revenue growth; large aviation and HQ investment obscure incremental ROIC."
+        ],
+        "resolution_needed": "Require at least two reporting periods of improving owner cash per diluted share and evidence that service/logistics investment earns acceptable returns."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "severity": "medium",
+        "evidence": [
+          "OCS utilization, NOP integration and European logistics expansion currently point to widening workflow control rather than moat contraction."
+        ],
+        "resolution_needed": "Reopen if transplant-center adoption stalls, reimbursement weakens or competitors displace OCS in major indications."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "severity": "medium",
+        "evidence": [
+          "The reference price is below modeled Base and the reverse model requires only ~7.8% revenue growth for years 2-10 if mature owner-cash economics are achieved."
+        ],
+        "resolution_needed": "Reopen if the price rises materially without corresponding improvement in owner-cash conversion or if Base margin assumptions prove unrealistic."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "severity": "medium_high",
+        "evidence": [
+          "The company discloses dependence on a limited number of customers and the economic thesis remains concentrated in OCS/NOP adoption, particularly liver and heart workflows."
+        ],
+        "resolution_needed": "Track customer/center concentration, organ mix and the success of heart, lung, kidney and international expansion in diversifying the revenue base."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "severity": "high",
+        "evidence": [
+          "Bear value is roughly 80% below the reference and large fixed/capital claims can impair equity value even without insolvency if growth or owner-cash margins disappoint."
+        ],
+        "resolution_needed": "Require formal control remediation, demonstrated per-share cash conversion and continued evidence of clinical/commercial adoption before any purchase authorization."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.0737946009896856,
+      "repriced_value": 82.17999999999991,
+      "price_residual": -9.947598300641403e-14,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 17.17899304794098,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 110.47188509894306,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 362.76347029286427,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/TMDX/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "red_team": {
+    "independence": "Same analyst/model performed the red team; this is adversarial self-review, not an independent committee opinion.",
+    "verdict": "REVISE",
+    "attacks": [
+      {
+        "id": 1,
+        "attack": "NOP is becoming an airline/logistics business with medtech branding, structurally lowering returns on capital.",
+        "response": "The service layer may strengthen the moat, but current cash conversion validates the concern; no high ROIC assumption is granted until aircraft/logistics economics improve."
+      },
+      {
+        "id": 2,
+        "attack": "Liver concentration is masking weak heart/lung adoption and leaves the thesis dependent on one organ category.",
+        "response": "Diversification through heart/lung trials, kidney and international NOP remains a required evidence gate; fatal concentration stays INVESTIGATE."
+      },
+      {
+        "id": 3,
+        "attack": "The inventory-control material weakness signals deeper finance-process problems.",
+        "response": "Possible. Management has implemented controls but formal remediation is absent; management/accounting integrity remains INVESTIGATE rather than PASS."
+      },
+      {
+        "id": 4,
+        "attack": "Revenue growth is low-quality because services grow faster at much lower gross margin than products.",
+        "response": "Service margin is lower, but integrated logistics can increase OCS utilization and switching costs. The test is future consolidated owner cash, not service gross margin alone."
+      },
+      {
+        "id": 5,
+        "attack": "The $460M convertibles plus finance leases and HQ spending create hidden leverage that the market underestimates.",
+        "response": "All are treated as capital claims; the diluted share proxy avoids ignoring conversion and the analysis does not treat current cash as excess distributable capital."
+      },
+      {
+        "id": 6,
+        "attack": "PAD Aviation international expansion will consume cash before generating meaningful revenue.",
+        "response": "This is plausible and PAD economics are not modeled as free upside. Financial contribution remains unknown and is a monitoring item."
+      },
+      {
+        "id": 7,
+        "attack": "Management is overinvesting because Q2 operating margin fell sharply while revenue rose.",
+        "response": "The burden of proof is on management. The score remains only 6/10 and incremental ROIC 8/15 until operating leverage and owner cash recover."
+      },
+      {
+        "id": 8,
+        "attack": "The Base valuation assumes 16% mature owner-cash margin even though current owner cash after PP&E and SBC is negative.",
+        "response": "Accepted. This is the central valuation dependency and why the positive Base gap does not translate into STARTER status."
+      },
+      {
+        "id": 9,
+        "attack": "Legal/regulatory or aviation-safety events could disrupt the integrated network and create nonlinear downside.",
+        "response": "The model's wide Bear case and permanent-loss veto explicitly retain this tail risk; no probability precision is claimed."
+      },
+      {
+        "id": 10,
+        "attack": "A new CFO shortly after unresolved controls could indicate organizational stress rather than strengthening.",
+        "response": "The transition is treated neutrally-to-cautiously. It is not counted as remediation; only future tested controls and disciplined capital deployment can improve the management score."
+      }
+    ]
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Prior full analysis retained; targeted management correction only. Open investigations are not resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/TMDX/analyses/2026-09-12-management-dedup/lineage.json"
+  },
+  "source_quality": {
+    "primary_sources": "SEC Q2 10-Q and company IR/news releases are the principal factual sources.",
+    "secondary_sources": "September 10 market price is a secondary reference only and is not exchange-audited by the harness.",
+    "limitations": "No independent transplant-center cohort economics, PAD transaction economics or fully normalized aircraft maintenance/replacement cash data were available."
+  },
+  "falsifiers": [
+    "The inventory-control material weakness remains unresolved after a reasonable remediation period or expands into broader accounting deficiencies.",
+    "OCS/NOP utilization grows but owner cash per diluted share fails to improve for multiple reporting periods.",
+    "Heart/lung/kidney/international expansion fails to diversify the economics while liver or major-center adoption weakens.",
+    "Service/logistics margin and aircraft capital needs prevent consolidated mature owner-cash margin from approaching the mid-teens assumed in Base."
+  ],
+  "increase_evidence": [
+    "Formal remediation of the inventory-control material weakness with tested operating effectiveness.",
+    "At least two reporting periods of improving OCF after PP&E, SBC and recurring aircraft/lease capital requirements on a diluted per-share basis.",
+    "Evidence that PAD/European NOP and heart/lung/kidney programs broaden revenue without structurally diluting consolidated owner-cash margins.",
+    "A continued valuation discount to Base after the above evidence strengthens; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "A material accounting/control failure, major OCS clinical/regulatory impairment or logistics safety/regulatory event that damages the platform thesis.",
+    "Persistent negative owner-cash conversion while capital commitments continue to rise.",
+    "Loss of major transplant-center adoption or reimbursement economics that undermines OCS/NOP utilization.",
+    "Valuation moves to require Bull-like execution without corresponding per-share cash evidence."
+  ],
+  "permanent_loss_case": "허가·제품안전·가격결정력·시장점유가 구조적으로 손상되고 주당현금과 권리가 훼손되는 경우. 회사 존속이 주주 원금 회수를 보장하지 않는다.",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Supersedes management weighting in the preceding September 12 review. Historical records and all acquisition/regulatory risks remain preserved.",
+  "data_as_of": "2026-09-11",
+  "review_note_ko": "9월 11일의 6점은 미시정 재고 통제 취약점, 항공·PAD·본사 투자 회수 미증명, 가이던스·예정 CFO를 이미 함께 평가했다. 9월 12일 감점은 같은 6월 결산·투자계획과 미시정 상태의 반복이며 신규 악화 또는 기존 판단 오류를 입증하는 별도 근거를 추가하지 않았다. 기존 반증이 계속 존재한다는 이유만으로 추가 1점을 차감한 것을 취소한다. 위험 해소나 CFO 성과 확인에 따른 가점이 아니다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 73,
+    "reviewed_score": 74,
+    "prior_canonical_assessment": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+    "restored_category_from": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+    "management_score_before": 5,
+    "management_score_after": 6,
+    "category_change_reason": "9월 11일의 6점은 미시정 재고 통제 취약점, 항공·PAD·본사 투자 회수 미증명, 가이던스·예정 CFO를 이미 함께 평가했다. 9월 12일 감점은 같은 6월 결산·투자계획과 미시정 상태의 반복이며 신규 악화 또는 기존 판단 오류를 입증하는 별도 근거를 추가하지 않았다. 기존 반증이 계속 존재한다는 이유만으로 추가 1점을 차감한 것을 취소한다. 위험 해소나 CFO 성과 확인에 따른 가점이 아니다.",
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

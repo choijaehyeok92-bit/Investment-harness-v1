@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "management_histories_audited": 2,
+  "restored_management_scores": {
+    "NVDA": 6,
+    "TMDX": 6
+  },
+  "company_totals": {
+    "NVDA": 79,
+    "TMDX": 74
+  },
+  "full_analysis": 43,
+  "selected": 13,
+  "selected_score_sum": 1007,
+  "weight_sum_bp": 10000,
+  "generated_artifacts": 14,
+  "unchanged_price_and_model_rows": 43,
+  "unchanged_nonmanagement_categories": 14,
+  "NVDA_additional_counter_evidence_preserved": true,
+  "veto_changes": 0,
+  "buy_authorizations": 0,
+  "prior_review_validation": {
+    "status": "PASS",
+    "issuers": 93,
+    "full_analysis_rechecked": 43,
+    "selected": 11,
+    "selected_score_sum": 854,
+    "weight_sum_bp": 10000,
+    "baseline_raw_files_unchanged": 25,
+    "current_raw_files": 29,
+    "policy_files_unchanged": 8,
+    "verified_input_files": 491,
+    "observations_with_valid_raw_pointers": 4596,
+    "supplemental_numeric_observations_with_explicit_unit_bridges": 42,
+    "reviewed_paraphrases_not_counted_as_exact_raw_values": 2,
+    "historical_metric_documents_preserved_but_not_counted_as_formula_replay": [
+      "companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json",
+      "companies/CRDO/analyses/2026-09-11-deep/derived-metrics.json",
+      "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json"
+    ],
+    "reproduced_derived_metrics": 24,
+    "reproduced_review_artifacts": 219,
+    "frozen_replay": {
+      "initial": 425,
+      "deep": 344,
+      "source_reference_order_normalized": [
+        "MSFT"
+      ],
+      "numeric_normalizations": 0
+    },
+    "buy_authorizations": 0
+  }
+}

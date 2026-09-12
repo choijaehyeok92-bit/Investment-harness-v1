@@ -997,7 +997,7 @@
       "research_state": "FULL_ANALYSIS",
       "input_maturity": "REVIEWED_RAW_EVIDENCE_AND_SCENARIO_MODEL",
       "decision": "WATCH",
-      "priority": "P2"
+      "priority": "P1"
     },
     {
       "ticker": "ORCL",
@@ -1260,7 +1260,7 @@
       "research_state": "FULL_ANALYSIS",
       "input_maturity": "REVIEWED_RAW_EVIDENCE_AND_SCENARIO_MODEL",
       "decision": "WATCH",
-      "priority": "P2"
+      "priority": "P1"
     }
   ]
 }

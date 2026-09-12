@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-12",
+  "base_commit": "88037a32488b0cf74e5ea48e280320b7c55a9063",
+  "status": "VALIDATED_CANONICAL_CORRECTION",
+  "scope": "Extended management evidence-history audit for NVDA and TMDX; restore each from five to six, preserving valuation, price, remaining scores and vetoes.",
+  "score_changes": {
+    "NVDA": {
+      "management": [
+        5,
+        6
+      ],
+      "total": [
+        78,
+        79
+      ]
+    },
+    "TMDX": {
+      "management": [
+        5,
+        6
+      ],
+      "total": [
+        73,
+        74
+      ]
+    }
+  },
+  "portfolio": {
+    "count": 13,
+    "score_sum": 1007,
+    "weight_sum_bp": 10000,
+    "top_ten_constraint": false,
+    "same_prices_and_base_models": true
+  },
+  "validation_commands": [
+    {
+      "command": "python -m harness.validate",
+      "status": "PASS"
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "status": "PASS",
+      "tests": 40
+    },
+    {
+      "command": "python -m harness.build --check",
+      "status": "PASS"
+    },
+    {
+      "command": "python scripts/validate_outputs.py",
+      "status": "PASS"
+    },
+    {
+      "command": "python scripts/validate_reassessment.py",
+      "status": "PASS",
+      "note": "Required historical Git objects supplied read-only from the existing repository object database in the isolated checkout."
+    },
+    {
+      "command": "python companies/NOW/valuation_model.py --check",
+      "status": "PASS"
+    }
+  ],
+  "historical_replay_note": "Only unsorted source-reference arrays are aligned to their recorded order after exact membership/hash equality; numerical outputs and locked historical renderer files are unchanged.",
+  "artifacts": [
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-management-dedup/assessment.json",
+      "sha256": "c47f440a151262dcdc9311fef7fcd78d964dbd3979333735fcc78b501d70e151"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-management-dedup/decision-history.md",
+      "sha256": "96dee70341e0c0cc9020d81a1559187840b304b404903a8bf9dede7afa794c83"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-management-dedup/lineage.json",
+      "sha256": "86242eb98cad4c09925394c9d1a57ac5a6d0a41c8ad67ae3e46abf3ac1876e59"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-management-dedup/thesis.ko.md",
+      "sha256": "f21f02f3e78e3cd8b46699214856a1554a9a14f8f6e67b9dc98277757d3b4e87"
+    },
+    {
+      "path": "companies/NVDA/latest.json",
+      "sha256": "d6e63c620a0afa187288e4226ed64639cdc4d798f8af58dc243903a3c61cda4c"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-management-dedup/assessment.json",
+      "sha256": "ab8b2647a0616523529a08b68b069a8eea4786f8d2b4bc1135d86ae1987a7864"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-management-dedup/decision-history.md",
+      "sha256": "a84a5b51a065ae3efbf92f32c7b59d3b0ff52fac8e8829933a4adcab0bd114ab"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-management-dedup/lineage.json",
+      "sha256": "4fc4c337c9857a5bd427d2f431912e695ca7f595df86c131a58b397664567e42"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-management-dedup/thesis.ko.md",
+      "sha256": "033498077455e145c1c1eab0f08381a6f66ba68fe14ff1ba191a1e9f597463f5"
+    },
+    {
+      "path": "companies/TMDX/latest.json",
+      "sha256": "cea060153930f1e56b07d09afedc0c675a3ff7fdcab2264d77e04387bb344349"
+    },
+    {
+      "path": "registry/companies.json",
+      "sha256": "f9fedbfe0df4c23e118eb4e356464a026c5875675c4f67ec6572addbe7b7199b"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/README.md",
+      "sha256": "dccc03b4ae48ddaf588d0884b358898a50ae7f4fc3f99ec9a35f6371efb693e0"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/audit.json",
+      "sha256": "c67e8ade9f05a50795eea8dd0c282f673a285b9f59068f8dcfd8f694273eea26"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/authority-input.json",
+      "sha256": "e12442ede9f691f95b30aafcb2c17b0e90406bd23e1265a852f7275091ab3ebe"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/2e7e415-scorecard.json",
+      "sha256": "0fd6f7512d533cef560a3711ca83fa634999dcfdcd48728ad59594d226d953b2"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/d5c1fe1-scorecard.json",
+      "sha256": "4420f3aa5b066a5b69a2eac0edacc76370f9ca0a710d01ac4aa677b2f80617e1"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/f09c7b0-scorecard.json",
+      "sha256": "c697d9517339f7250f50d26f6ba2ff36b0b1211803bb25bda873aba82ebad656"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/input-manifest.json",
+      "sha256": "ca50fb2cf4ce80ea9ab8525647ede93dec27a7f463b8978d08a553e2f83ee787"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/portfolio.json",
+      "sha256": "70e4f591c7cc968e331d3f3e10e335b4c5aa452aa4f08e568e4dd79cf5f47123"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/scoreboard.json",
+      "sha256": "bf5fa833548ab27d7d32e9c71ec45790c8199ca22ac5d857a966290390afd099"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/validation.json",
+      "sha256": "37e73d792c6c7da0603fad28e91fa3193c3feb043498cb1a867509a33fabbae9"
+    },
+    {
+      "path": "reviews/latest.json",
+      "sha256": "685ee1a9f4190a7195226f2ea9b9c2c1bc1973596822f4de006fb48438b4a988"
+    }
+  ],
+  "raw_and_policy_files_changed": false,
+  "buy_authorized": false,
+  "automations_modified": false
+}

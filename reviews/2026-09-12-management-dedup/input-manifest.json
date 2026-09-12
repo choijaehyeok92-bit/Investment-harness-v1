@@ -1,0 +1,152 @@
+{
+  "as_of": "2026-09-12",
+  "base_commit": "88037a32488b0cf74e5ea48e280320b7c55a9063",
+  "files": [
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "ca662c8334032078c56e26feb41fb9dfaeac4e9b1450b105afd0e6f982184a40"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "cb062f72234aff2e644dfc9e8afcbd7162b947efee0f6b4d4edf888debd09123"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "e01255aae2c5ad865979e5cc126bcd45ddcff435fc706835ffdc1b59ec409bde"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "e956aab7f4b49fa990db481d3a9f824586c9bf2e05decd6d24bfb8b35421c43a"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "4baa70b15ff2a8871a961721caae03cad336346ae8cb05fc8a915c95d25a6742"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "88f301896da1ec25c3340abee8f7e44834064b3764a62b8f2ac34f5984b30902"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "6e2de7b318f6c603a9a2541a93315b0db90c80b1ba1e0eea4a1c7072eca065e8"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "4c1ac57497bd16a66074d13adac54aaaf84af43bea1b415f7240ae92fba69dd5"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+      "sha256": "1598821b5d7c3eac0c0789b56c8b189a99835d8d188ed27a07959c5603674c69"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json",
+      "sha256": "4006720f6432b4635efd90b552c7f0029fc46c22a74463c56f73f271861ecdb5"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/evidence-ledger.json",
+      "sha256": "7d7c280b0648609a02ba679be26a0b579bdf697691d450d0268ce5bf5e8cf2ee"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/financials.json",
+      "sha256": "d12e9e9f21b83ddff72123d640c5894cec4d415e1c19b74f8839c50b8369d992"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/model-inputs.json",
+      "sha256": "dbb3a2d04550d8bb00601554f795966e684d077472e7cbb0eb9c2c57a0c6ba0d"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/observations.json",
+      "sha256": "4e9f8018245e3aa6dd23c200e3ac2a33f790fe4d0727136693a76d95271c506c"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/thesis.ko.md",
+      "sha256": "19d2d3a44a497fed172a9cfe1a13abc4b00e1a9130bcd9f84501d5fe5e9f5bd3"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-11-deep/valuation.json",
+      "sha256": "9e9779b616cf9d4def101895c6a50bf3f534faaa39bbfb05f3b58f18776fda2e"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "64c73a07090e5406606da4fe00ef22530d65cbfc03dbfdf8e070f979c7c7921f"
+    },
+    {
+      "path": "companies/TMDX/raw-data/2026-09-11-cfo-update.json",
+      "sha256": "1ba259b4b14fa6ec6dd3af25de3ee8e0500680d9c5c2d8bce8b7e8fcd5583f2b"
+    },
+    {
+      "path": "companies/TMDX/raw-data/2026-09-11-public-update.json",
+      "sha256": "2cfdf676831fce1b8004ae76c2e2c3d0a22a9ca3066654b93dd9f789612403f8"
+    },
+    {
+      "path": "companies/TMDX/raw-data/2026-Q2.json",
+      "sha256": "90a9e166b6064aed6f43ee05f903fd090e8734b294e1be7b71377a0301ba1a95"
+    },
+    {
+      "path": "harness/build.py",
+      "sha256": "f2583703117e92be7202033b250723f4d4e1b048a7affd2755d3a4dd66f66884"
+    },
+    {
+      "path": "harness/management_correction.py",
+      "sha256": "9845277a3259151b9b63cd7cadb048f5950fe4c80919114eca1005ee844dc342"
+    },
+    {
+      "path": "harness/validate.py",
+      "sha256": "4f16e77cd0acd0943c9eabeae35086acae1106c5aaa93670663badbbf9859447"
+    },
+    {
+      "path": "reviews/2026-09-10-nvda-deep/source-manifest.json",
+      "sha256": "13d0d10208909af3594dc722b3b36099ae687ba9dcb048bed61797bafcf6c5d5"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/input-manifest.json",
+      "sha256": "cc73a778b014373091db96d8a314b1f75e99b96f8ecb354e894b1f45462bd3f2"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/manifest.json",
+      "sha256": "516c60a98bd9dffb392a93e93232116e9dcff69e75ff998201af2ac9629fb064"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/portfolio.json",
+      "sha256": "2e75bf1c1c163837cf9385a2206fff9284c8830a5749813f2425fb1eef0de160"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/scoreboard.json",
+      "sha256": "7467ba12782d9ce9a5db0576bf88462613613eccfa569c9f599e820e36b64f20"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/audit.json",
+      "sha256": "c67e8ade9f05a50795eea8dd0c282f673a285b9f59068f8dcfd8f694273eea26"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/authority-input.json",
+      "sha256": "e12442ede9f691f95b30aafcb2c17b0e90406bd23e1265a852f7275091ab3ebe"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/2e7e415-scorecard.json",
+      "sha256": "0fd6f7512d533cef560a3711ca83fa634999dcfdcd48728ad59594d226d953b2"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/d5c1fe1-scorecard.json",
+      "sha256": "4420f3aa5b066a5b69a2eac0edacc76370f9ca0a710d01ac4aa677b2f80617e1"
+    },
+    {
+      "path": "reviews/2026-09-12-management-dedup/history/NVDA/f09c7b0-scorecard.json",
+      "sha256": "c697d9517339f7250f50d26f6ba2ff36b0b1211803bb25bda873aba82ebad656"
+    },
+    {
+      "path": "tests/test_management_correction.py",
+      "sha256": "dd4717f277623974a6ba43ebeb3f4be00526458ffe422fa110807c5275be90b0"
+    }
+  ],
+  "prior_complete_validation": "reviews/2026-09-12-full-review/input-manifest.json",
+  "note": "Prior 491-input validation is replayed in a temporary historical pointer view. No old analysis or raw file is changed."
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-12",
+  "request": "Audit suspected duplicate management penalties; restore only confirmed duplicates and rebuild under identical portfolio rules.",
+  "method": "Compare dated category scores and exact support/counter-evidence, distinguish an additional deduction from adoption of an already-scored checkpoint, and separate old risks from incremental information. Restore an absolute prior score, not an additive repeated bonus.",
+  "price_and_model_policy": "Use the same September 11 quoted-price snapshot and Base models as the immediately preceding portfolio, isolating the correction effect. No live-price claim or macro-score changes.",
+  "findings": {
+    "TMDX": {
+      "result": "DUPLICATE_REASSESSMENT_CONFIRMED",
+      "action": "RESTORE",
+      "before_management": 5,
+      "restored_management": 6,
+      "before_total": 73,
+      "after_total": 74,
+      "before_quality": 54,
+      "after_quality": 55,
+      "restore_from": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+      "superseded_assessment": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+      "baseline_category_pointer": "/categories/management_and_capital_allocation",
+      "reason_ko": "9월 11일의 6점은 미시정 재고 통제 취약점, 항공·PAD·본사 투자 회수 미증명, 가이던스·예정 CFO를 이미 함께 평가했다. 9월 12일 감점은 같은 6월 결산·투자계획과 미시정 상태의 반복이며 신규 악화 또는 기존 판단 오류를 입증하는 별도 근거를 추가하지 않았다. 기존 반증이 계속 존재한다는 이유만으로 추가 1점을 차감한 것을 취소한다. 위험 해소나 CFO 성과 확인에 따른 가점이 아니다.",
+      "evidence_overlap": [
+        {
+          "risk": "Inventory-movement material weakness unremediated",
+          "event_date": "2026-06-30",
+          "already_reflected": "companies/TMDX/analyses/2026-09-11-deep/assessment.json#/categories/management_and_capital_allocation/counter_evidence/0",
+          "repeated_in": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json#/categories/management_and_capital_allocation/counter_evidence/2"
+        },
+        {
+          "risk": "Aircraft/PAD/headquarters capital allocation has not demonstrated per-share owner-cash leverage",
+          "already_reflected": "companies/TMDX/analyses/2026-09-11-deep/assessment.json#/categories/management_and_capital_allocation/counter_evidence/1",
+          "repeated_in": "reviews/2026-09-12-full-review/judgments.json#/score_changes/TMDX/reason"
+        },
+        {
+          "risk": "H1 OCF below PP&E purchases",
+          "event_period": "H1 2026",
+          "already_reflected": "companies/TMDX/analyses/2026-09-11-deep/assessment.json#/current_finding",
+          "note": "Same reporting period; no newly worsened cash observation in the September 12 penalty."
+        }
+      ],
+      "risk_status": "UNCHANGED_INVESTIGATE",
+      "buy_authorized": false
+    },
+    "NVDA": {
+      "result": "DUPLICATE_RISK_WEIGHTING_IDENTIFIED_AFTER_EXTENDED_HISTORY_AUDIT",
+      "action": "RESTORE",
+      "before_management": 5,
+      "after_management": 6,
+      "before_total": 78,
+      "after_total": 79,
+      "reason_ko": "최초 9월 3일 6점에 이미 지분투자 424억달러·생태계 보증 최대1085억달러·채권 발행과 환원이 반증으로 반영됐다. 9월 4일 병행 분석은7점이었으나 병합 충돌 뒤9월 5일 재심사가 최초 분석의6점을 복구했고,9월 6일 정밀분석도 공급약정2790억달러·보증을 연결 스트레스로 평가하면서6점을 유지했다. 9월 10일5점의 핵심 자본배분 반증은 이 기평가 위험을 반복한다. Hugging Face 인수와 Groq 조사 보도는 추가 검토 항목으로 인정하지만, 이미 낮춰진6점에서 별도1점을 더 낮추는 증분 근거가 기존 위험과 분리되어 기록되어 있지 않다. 동일 위험의 반복 가중을 취소해6점으로 복원한다.9월 12일에5→4로 이중 차감한 산술 오류는 아니며9월 10일 판단의 중복 가중을 승계한 문제다. 새 인수·규제 반증과 모든 INVESTIGATE는 보존하며 위험 소멸이나 경영진 성과 개선으로 해석하지 않는다.",
+      "timeline": [
+        {
+          "assessment_date": "2026-09-03",
+          "commit": "f09c7b01b96108f5d010d67c05aff17113b3d969",
+          "path": "reviews/2026-09-12-management-dedup/history/NVDA/f09c7b0-scorecard.json",
+          "source_path": "companies/NVDA/scorecard.json",
+          "source_url": "https://github.com/choijaehyeok92-bit/Investment-harness-v1/blob/f09c7b01b96108f5d010d67c05aff17113b3d969/companies/NVDA/scorecard.json",
+          "sha256": "c697d9517339f7250f50d26f6ba2ff36b0b1211803bb25bda873aba82ebad656",
+          "management": 6,
+          "total": 76,
+          "interpretation": "Initial coverage: substantial ecosystem capital risks already counter-evidence at management score six."
+        },
+        {
+          "assessment_date": "2026-09-04",
+          "commit": "2e7e415d216dc16c2d6f384be6a7541cfb1626b1",
+          "path": "reviews/2026-09-12-management-dedup/history/NVDA/2e7e415-scorecard.json",
+          "source_path": "companies/NVDA/scorecard.json",
+          "source_url": "https://github.com/choijaehyeok92-bit/Investment-harness-v1/blob/2e7e415d216dc16c2d6f384be6a7541cfb1626b1/companies/NVDA/scorecard.json",
+          "sha256": "0fd6f7512d533cef560a3711ca83fa634999dcfdcd48728ad59594d226d953b2",
+          "management": 7,
+          "total": 75,
+          "interpretation": "Parallel underwriting branch, not an established serial promotion from six."
+        },
+        {
+          "assessment_date": "2026-09-05",
+          "commit": "d5c1fe186eee66fd704e237e6d5abb4e65becd34",
+          "path": "reviews/2026-09-12-management-dedup/history/NVDA/d5c1fe1-scorecard.json",
+          "source_path": "companies/NVDA/scorecard.json",
+          "source_url": "https://github.com/choijaehyeok92-bit/Investment-harness-v1/blob/d5c1fe186eee66fd704e237e6d5abb4e65becd34/companies/NVDA/scorecard.json",
+          "sha256": "4420f3aa5b066a5b69a2eac0edacc76370f9ca0a710d01ac4aa677b2f80617e1",
+          "management": 6,
+          "total": 73,
+          "interpretation": "Conflicting branches repaired; category restored from initial f09c7b0 with old risk review, not an unpenalized six."
+        },
+        {
+          "assessment_date": "2026-09-06",
+          "commit": "258a5b25a66c2d0fd9e4dcea123451d925f6bd83",
+          "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+          "management": 6,
+          "total": 77,
+          "note": "Committed September 7 UTC; analysis label remains September 6."
+        },
+        {
+          "assessment_date": "2026-09-10",
+          "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+          "management": 5,
+          "total": 78,
+          "note": "Checkpoint downgraded management with repeated risks plus additional unseparated evidence."
+        },
+        {
+          "assessment_date": "2026-09-12",
+          "path": "companies/NVDA/analyses/2026-09-12-full-review/assessment.json",
+          "management": 5,
+          "total": 78,
+          "note": "Checkpoint adopted unchanged; not a new five-to-four deduction."
+        }
+      ],
+      "overlapping_risks": [
+        "USD42.4B equity purchases",
+        "USD279B supply commitments",
+        "ecosystem guarantees and correlated funding exposure"
+      ],
+      "additional_recorded_evidence": [
+        {
+          "event": "Hugging Face acquisition agreement",
+          "published_date": "2026-09-03",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+          "verification": "Company page reopened on 2026-09-12; agreement USD12,930,300,000. This publication predates September 6. It is absent from the inspected September 5/6 management passages, but absence does not prove it was unknown to the prior analyst."
+        },
+        {
+          "event": "Reported DOJ inquiry concerning the Groq transaction structure",
+          "publication_date": "2026-09-10",
+          "reported_event_timing": "Inquiry reportedly opened shortly after the transaction announcement in December 2025, not necessarily on publication day.",
+          "url": "https://www.reuters.com/legal/litigation/us-doj-probes-nvidias-licensing-deal-with-ai-startup-groq-nyt-reports-2026-09-10/",
+          "verification": "Direct Reuters page access failed. Search returned the Reuters report and its syndication; treated as a report of an inquiry, not an official finding of wrongdoing or quantified capital loss.",
+          "syndicated_url": "https://uk.marketscreener.com/news/us-doj-probes-nvidia-s-licensing-deal-with-ai-startup-groq-nyt-reports-ce785bded88cf121"
+        }
+      ],
+      "reporting_correction": "The preceding portfolio summary emphasized old commitments as the reason for the score decline. That explanation was incomplete: it should have stated that an existing five-point checkpoint was adopted, including its additional recorded evidence.",
+      "risk_status": "UNCHANGED_INVESTIGATE",
+      "buy_authorized": false,
+      "restored_management": 6,
+      "before_quality": 64,
+      "after_quality": 65,
+      "restore_from": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+      "superseded_assessment": "companies/NVDA/analyses/2026-09-12-full-review/assessment.json",
+      "baseline_category_pointer": "/categories/management_and_capital_allocation",
+      "earlier_provisional_conclusion": {
+        "status": "SUPERSEDED_BEFORE_PUBLICATION",
+        "finding": "September 12 merely adopted the five-point checkpoint, so no additional arithmetic deduction was identified.",
+        "revision_reason": "Extended commit-level audit established that six points had already incorporated the same capital-allocation risks in the original September 3 coverage and the September 5 conflict-resolution reassessment. A newly listed event does not by itself establish a separately justified incremental one-point penalty."
+      },
+      "conflicting_merge": {
+        "commit": "d5a21fa257850e6162d4b3a7f522c07175d5035f",
+        "source_path": "companies/NVDA/scorecard.json",
+        "finding": "Invalid JSON containing unresolved merge content; excluded as a reliable score authority. Do not construct a false serial 6→7→6 sequence from parallel conflicting branches."
+      },
+      "finding_type": "ANALYST_JUDGMENT_FROM_DOCUMENTED_HISTORY_NOT_PROOF_THAT_ADDITIONAL_EVENTS_HAVE_ZERO_RISK"
+    }
+  },
+  "scope_limits": [
+    "Targeted score-basis correction using unchanged prior prices and Base models; not a fresh 43-company underwriting.",
+    "NVDA restoration follows the extended pre-September-6 audit; it does not assert a second arithmetic deduction occurred on September 12.",
+    "All original negative evidence, additional acquisition/regulatory events, outstanding investigations and historical assessment files remain available."
+  ]
+}

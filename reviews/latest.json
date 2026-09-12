@@ -1,17 +1,17 @@
 {
   "as_of": "2026-09-12",
-  "directory": "reviews/2026-09-12-full-review",
-  "report": "reviews/2026-09-12-full-review/README.md",
+  "directory": "reviews/2026-09-12-management-dedup",
+  "report": "reviews/2026-09-12-management-dedup/README.md",
   "registry": "registry/companies.json",
-  "portfolio": "reviews/2026-09-12-full-review/portfolio.json",
-  "prior_review": "reviews/2026-09-12-hugel-deep.json",
+  "portfolio": "reviews/2026-09-12-management-dedup/portfolio.json",
+  "prior_review": "reviews/2026-09-12-full-review/README.md",
   "authority": "registry -> company latest -> dated reviewed assessment",
   "state_counts": {
     "PRELIMINARY_REVIEW": 50,
     "FULL_ANALYSIS": 43
   },
-  "completed_scope": "43 canonical FULL_ANALYSIS issuers re-reviewed; four additional existing-full checkpoints reconciled; no preliminary promotions or buy approvals.",
-  "input_manifest": "reviews/2026-09-12-full-review/input-manifest.json",
-  "review_manifest": "reviews/2026-09-12-full-review/manifest.json",
+  "completed_scope": "43 canonical FULL_ANALYSIS remain current. NVDA and TMDX management weighting corrected after extended history audit; 13 conditional paper positions. No preliminary promotions or buy approvals.",
+  "input_manifest": "reviews/2026-09-12-management-dedup/input-manifest.json",
+  "review_manifest": "reviews/2026-09-12-management-dedup/manifest.json",
   "score_rule": "Company score only; separate macro scores are not substituted."
 }

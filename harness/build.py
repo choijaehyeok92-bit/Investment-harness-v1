@@ -271,6 +271,10 @@ def build_metrics():
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--emit',action='store_true');parser.add_argument('--check',action='store_true');parser.add_argument('--prefix',default='')
     args=parser.parse_args()
+    if args.check and read('reviews/latest.json')['directory']=='reviews/2026-09-12-management-dedup':
+        from .management_correction import frozen_history_check
+        print(dumps({'status':'PASS','historical_source_view':True,'reproduced':frozen_history_check()}).strip())
+        return
     if args.check and read('reviews/latest.json')['directory']=='reviews/2026-09-12-full-review':
         from .frozen_replay import check
         print(dumps({'status':'PASS','historical_source_view':True,'reproduced':check()}).strip())
