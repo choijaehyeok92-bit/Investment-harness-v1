@@ -1,0 +1,91 @@
+{
+  "ticker": "ISRG",
+  "source_assessment": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/ISRG/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "ec6c740f203083ba4863c34a9f8fcd48602935f4625b478287290121f7695485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "a5ff4514af5307e64077f8cd2e43d13204dea1c698badcf6d44f47929076a54b",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "e345360f6c8232ffcb238331eaab40336bf4677a8ee8601331256a1a91a826d9",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "52dbf08395dd478c5813fd2a8891b3204d08ceac26282c0c6433226a0d6397b0",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "9667d950e65143faef1b03ae7df3e819e25c934d763c7bf125efaa5467ff2dfe",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "d223bdc2876d857d6248213e5734f8109710aef6c17cc7cc2fc7c3539291ed1b",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "fbc48d535d9a8cf389b26cf115c4a128ddd52056b63de071cfe38f9799d03de8",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-10-isrg-deep/source-manifest.json",
+      "sha256": "677436a7676e58fdc96ba1aa4aba987f0b846143f7edc5021f553c226d29e3bc",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

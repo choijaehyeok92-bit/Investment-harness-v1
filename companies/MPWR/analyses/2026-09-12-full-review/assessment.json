@@ -1,0 +1,412 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "MPWR",
+  "company_name": "Monolithic Power Systems",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Starter / Watch",
+  "business_quality_score_75": 62,
+  "business_quality_75": 62,
+  "total_score_100": 69,
+  "required_return": 0.09,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Monolithic Power Systems is expanding from point power-management components toward higher-value full power solutions across AI data centers, automotive, communications and industrial markets. Q2 2026 Enterprise Data revenue accelerated sharply and MPS is sampling high-voltage AC-to-DC products for emerging 800V data-center architectures, but the durability of design wins and economics of capacity expansion must be separated from current demand acceleration.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately $3.273B revenue, $0.940B operating income, $0.802B net income and $0.822B operating cash flow. TTM disclosed PPE purchases were about $0.237B, leaving mechanical OCF-minus-PPE of about $0.586B. Subtracting TTM stock-based compensation of about $0.209B gives a conservative $0.377B diagnostic, but neither measure is normalized owner FCF because working capital, intangibles, supply-capacity economics and other reinvestment are not fully normalized.",
+  "economic_finding": "Q2 2026 revenue was $980.6M, up 47.6% year over year, with Enterprise Data revenue $380.6M, up 164.3%, and GAAP operating margin 31.0%. Q3 revenue guidance midpoint is approximately $1.15B. MPS is sampling 800V-oriented high-voltage AC-to-DC solutions and expanding manufacturing through a long-term GlobalFoundries 300mm partnership, but 800V commercialization and post-ramp economics are not yet realized evidence.",
+  "capital_and_survival": "June 2026 cash, cash equivalents and short-term investments totaled about $1.414B. No balance-sheet debt line was identified in the reviewed Q2 10-Q. Financial survivability is therefore strong, but capital-allocation quality is constrained by an unresolved material weakness in deferred-tax accounting, 2024 restatement history, meaningful SBC, rising share count and large planned capacity expansion.",
+  "permanent_loss_case": "AI core-power design share shifts to competitors or 800V architectures favor broader grid-to-core vendors; new manufacturing capacity ramps below utilization targets; Enterprise Data growth normalizes; inventory and receivables absorb cash; SBC continues to expand share count; the deferred-tax control weakness is not remediated or another material restatement occurs; margins normalize; and a valuation priced for long-duration near-bull execution compresses even though the company remains solvent.",
+  "falsifiers": [
+    "The deferred-tax material weakness remains unresolved through FY2026 or another material financial-statement restatement occurs.",
+    "Enterprise Data growth and design wins weaken for multiple quarters while manufacturing capacity continues to expand.",
+    "800V-related sampling fails to convert to production wins across multiple customers or a competing architecture materially reduces MPS wallet share.",
+    "Operating cash flow per share after PPE investment and SBC structurally lags revenue and earnings growth for multiple periods.",
+    "Inventory and receivables rise persistently while distributor sell-through or end-demand weakens.",
+    "New-capacity after-tax incremental returns fail to exceed the 9% hurdle after ramp.",
+    "Annual share-count growth remains around or above 2% without offsetting per-share owner-cash growth.",
+    "Operating margin falls toward the low-20s while revenue growth simultaneously normalizes.",
+    "A previously undisclosed fatal dependence on one AI accelerator, end customer or platform becomes evident.",
+    "Market expectations remain near bull-case economics while business evidence deteriorates."
+  ],
+  "increase_evidence": [
+    "The deferred-tax material weakness is fully remediated, controls are assessed effective and no repeat material misstatement emerges.",
+    "800V samples convert into production wins across multiple data-center customers rather than one concentrated accelerator program.",
+    "Enterprise Data and non-data-center segments grow while distributor and underlying customer concentration do not worsen materially.",
+    "OCF per share after PPE investment and SBC improves for at least two reporting periods while inventory and receivables normalize.",
+    "GlobalFoundries and other capacity cohorts produce after-tax incremental returns above the 9% hurdle after ramp.",
+    "Repurchases are executed with price discipline and begin to offset employee-equity issuance and share-count growth.",
+    "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Repeated material weaknesses, another material restatement or evidence of management/accounting integrity impairment.",
+    "Sustained AI design-share loss while capacity commitments continue to rise.",
+    "800V commercialization misses key customer ramps and competitors lock in materially stronger grid-to-core positions.",
+    "OCF per share after capex and SBC persistently declines despite accounting revenue growth.",
+    "Inventory and receivables deteriorate while channel demand weakens.",
+    "Dilution remains structurally high without matching owner-cash-per-share growth.",
+    "Realized incremental returns on new manufacturing capacity fall below the 9% hurdle.",
+    "Valuation remains near bull-case economics while product, margin or cash evidence weakens."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 2026 Enterprise Data revenue grew 164.3% YoY and MPS is extending its power portfolio toward high-voltage AC-to-DC solutions for 800V data-center architectures.",
+        "The company is investing for capacity significantly beyond $6B of annual revenue and formed a long-term 300mm manufacturing partnership with GlobalFoundries."
+      ],
+      "counter_evidence": [
+        "800V products were still sampling at Q2 and architecture leadership can shift quickly among large AI-platform suppliers."
+      ],
+      "confidence": 0.84,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "MPS competes on efficiency, integration, size and system-level power solutions across AI, automotive and industrial applications.",
+        "Q2 operating margin expanded while revenue accelerated, consistent with strong customer value rather than subsidy-driven growth."
+      ],
+      "counter_evidence": [
+        "Semiconductor design wins are architecture-specific and customers can dual-source or redesign at platform transitions."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "Independent customer-level retention and wallet-share data."
+      ],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Proprietary process, packaging and system design combined with broader full-solution offerings support a widening technical and integration moat.",
+        "The GlobalFoundries partnership diversifies manufacturing and can support next-generation AI/cloud power stages."
+      ],
+      "counter_evidence": [
+        "Infineon and other large analog/power vendors are expanding broad grid-to-core and 800V portfolios, so MPS is not an uncontested platform leader."
+      ],
+      "confidence": 0.74,
+      "missing_data": [
+        "Independent long-duration design-share data across AI accelerators and 800V platforms."
+      ],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM operating margin is about 28.7% and revenue growth accelerated materially.",
+        "The balance sheet can fund capacity expansion internally."
+      ],
+      "counter_evidence": [
+        "H1 2026 OCF declined year over year despite much higher net income, PPE spending rose, and inventory/working-capital needs remain material.",
+        "Mechanical OCF-PPE-SBC is only about $0.377B TTM, far below accounting earnings."
+      ],
+      "confidence": 0.7,
+      "missing_data": [
+        "Post-ramp after-tax incremental returns on GlobalFoundries and other capacity cohorts."
+      ],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Founder-led product execution and a $1B total repurchase authorization provide potential capital-allocation flexibility.",
+        "The company continues to invest in R&D, capacity and supply-chain diversification."
+      ],
+      "counter_evidence": [
+        "A material deferred-tax accounting weakness remains unremediated after a material 2024 restatement; the CFO role is interim following retirement; H1 repurchases were minimal while share count continued to rise."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Effective remediation evidence and sustained buyback-versus-SBC discipline."
+      ],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "June cash, cash equivalents and short-term investments totaled about $1.414B and operating cash flow remains strongly positive.",
+        "No balance-sheet debt line was identified in the reviewed Q2 10-Q."
+      ],
+      "counter_evidence": [
+        "Working-capital and capacity requirements can consume cash during a sharp demand normalization."
+      ],
+      "confidence": 0.91,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 3,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At $1,186.08, the new Base value of about $680 is roughly 43% below price.",
+        "Holding Base economics requires roughly 19.35% annual revenue growth in years 2-10 at a 9% required return, implying year-10 revenue above $21B.",
+        "2026-09-12 재검증: 관측가격 1234.46 USD; Bear/Base/Bull 218.7046/680.0757/1569.0532. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Current Q2 revenue growth, Enterprise Data acceleration and management's capacity plans show that a high-growth path is not demonstrably impossible."
+      ],
+      "confidence": 0.74,
+      "missing_data": [
+        "Normalized owner-cash margin through an AI cycle and realized 800V design-share economics."
+      ],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+        "companies/MPWR/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 4,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "A successful Bull case still supports value around $1,569 per share and much larger long-term earnings power.",
+        "2026-09-12 재검증: 관측가격 1234.46 USD; Bear/Base/Bull 218.7046/680.0757/1569.0532. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Bull upside is only about 32% from the reference price while Bear downside is about 82%; the starting valuation absorbs much of the operating upside."
+      ],
+      "confidence": 0.72,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+        "companies/MPWR/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "FY2024 was materially restated for deferred-income-tax accounting by about $194.6M, and the related material weakness remained unremediated as of June 30, 2026.",
+          "EY issued an unqualified financial-statement opinion, and no evidence reviewed establishes intentional misconduct; current securities litigation remains allegation, not proof."
+        ],
+        "severity": "CONTROL_RELIABILITY_GATE_OPEN",
+        "confidence": 0.92,
+        "resolution_needed": "Demonstrate effective remediation, sustained control operation and no repeat material misstatement."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Approximately $1.414B of cash and short-term investments plus positive operating cash flow support operations and current reinvestment without structural external financing dependence."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.9,
+        "resolution_needed": "Monitor if capacity commitments materially outrun internally generated cash."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "Share count rose meaningfully and SBC is material, but current evidence does not yet establish long-duration excessive dilution under the veto definition."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.75,
+        "resolution_needed": "Require disciplined repurchases or per-share cash growth if annual share-count expansion approaches or exceeds roughly 2% for a sustained period."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Revenue growth is accompanied by high operating margins and shipment-based demand across Enterprise Data, communications, automotive and other end markets; no customer-subsidy or financing mechanism was identified."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.84,
+        "resolution_needed": "Monitor channel inventory, end-customer demand and receivable quality."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "No collapse is proven, but capacity expansion beyond $6B, rising PPE investment and working-capital absorption require cohort-level return validation."
+        ],
+        "severity": "OPEN_EVIDENCE_GATE",
+        "confidence": 0.76,
+        "resolution_needed": "Measure post-ramp utilization, incremental NOPAT, working capital and cash returns versus the 9% hurdle."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Enterprise Data growth, new-product sampling and manufacturing diversification do not show persistent moat contraction."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.72,
+        "resolution_needed": "Track AI platform design share, 800V production wins and competitive pricing."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "The reference price requires about 19.35% annual revenue growth for nine years after a $4.4B year-1 Base revenue assumption, with a 20% mature owner margin and 25x terminal multiple.",
+          "This is highly demanding but not demonstrably impossible given current AI/data-center growth, so the gate remains open rather than an outright reject trigger."
+        ],
+        "severity": "VALUATION_DURATION_GATE_OPEN",
+        "confidence": 0.82,
+        "resolution_needed": "Require materially stronger normalized owner-cash evidence or a much larger valuation discount before buy authorization."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "Distribution concentration is high, but MPS states distributors can be replaced in relatively short order and revenue spans Enterprise Data, computing, automotive, communications, consumer and industrial end markets."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.68,
+        "resolution_needed": "Obtain greater transparency on underlying AI end-customer concentration and monitor distributor/AR concentration."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Bankruptcy risk is low, but design-win risk, accounting-control risk, capacity expansion and a valuation near bull-like economics can create multi-year permanent capital impairment."
+        ],
+        "severity": "VALUATION_AND_EXECUTION_GATE_OPEN",
+        "confidence": 0.84,
+        "resolution_needed": "Resolve control weakness, validate capacity returns and establish a materially better expectation gap."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "red_team": {
+    "verdict": "REVISE",
+    "attacks": [
+      "A major AI accelerator or hyperscaler shifts core-power design share to a competitor or dual-sources aggressively.",
+      "The transition to 800V architectures favors broader SiC/GaN grid-to-core vendors and reduces MPS wallet share.",
+      "Enterprise Data growth normalizes much faster than current expectations after the AI infrastructure buildout.",
+      "Capacity planned beyond $6B and the GlobalFoundries ramp create underutilized manufacturing economics.",
+      "Inventory, receivables and channel working capital absorb cash even while GAAP earnings grow.",
+      "Distributor and accounts-receivable concentration amplify channel volatility or obscure underlying end-customer concentration.",
+      "SBC and share issuance offset a meaningful portion of absolute FCF growth.",
+      "The deferred-tax material weakness is not remediated or another financial-statement restatement occurs.",
+      "Tariffs, export controls or China-related supply/demand restrictions impair manufacturing or end demand.",
+      "A 70x-plus earnings and roughly 100x mechanical cash valuation compresses even if the business continues to grow."
+    ],
+    "independence": "Same analyst/model adversarial review; not independent committee approval.",
+    "source_verdict": "REVISE_NOT_REJECT"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/MPWR/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.1993764424919603,
+      "repriced_value": 1234.46,
+      "price_residual": 0.0,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 218.70458583788752,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 680.0756985316538,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 1569.053237103359,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/MPWR/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "source_paths": [
+    "companies/MPWR/analyses/2026-09-08-prelim/assessment.json",
+    "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+    "companies/MPWR/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/MPWR/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/MPWR/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "AI 전력관리·800V 제품 기회와 Enterprise Data 성장은 확인되지만 고객 설계 유지와 증설 수익을 검증해야 한다. 이연법인세 통제 취약점의 시정, 재작성 확대 여부, 재고·채권·SBC 후 현금이 우선이다.69점과 가격 부담으로 미편입이다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 69,
+    "review_source_score": 69,
+    "reviewed_score": 69,
+    "prior_canonical_assessment": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

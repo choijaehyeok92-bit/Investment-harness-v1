@@ -1,0 +1,13 @@
+{
+  "as_of":"2026-09-12",
+  "retrieved_date_utc":"2026-09-12",
+  "us_price_basis":"Latest quote supplied by finance feed after the September 11 US regular session; timestamps below are UTC and may represent extended-hours observations, not certified regular-session closes.",
+  "kr_price_basis":"Stock Analysis delayed September 11, 2026 close; historical share/right denominators are independently retained from filings/models, never copied from vendor market cap.",
+  "kr_timestamp":"2026-09-11T15:30:00+09:00",
+  "kr_sources":{"000660":"krx","003230":"krx","005380":"krx","005930":"krx","012450":"krx","034020":"krx","035420":"krx","042700":"krx","058470":"kosdaq","145020":"kosdaq","196170":"kosdaq","207940":"krx","214450":"kosdaq","267260":"krx","278470":"krx"},
+  "kr_prices":{"000660":1812000,"003230":1278000,"005380":382500,"005930":259500,"012450":1081000,"034020":90800,"035420":206500,"042700":231000,"058470":66400,"145020":231000,"196170":268000,"207940":1415000,"214450":342000,"267260":747000,"278470":372000},
+  "us_quotes":{
+    "AMZN":[256.78,"2026-09-11T23:58:34Z"],"ANET":[199.59,"2026-09-11T23:55:44Z"],"APP":[323.96,"2026-09-11T23:55:17Z"],"ASTS":[59.86,"2026-09-11T23:54:56Z"],"AVGO":[361.99,"2026-09-11T23:58:03Z"],"AXON":[479.34,"2026-09-11T21:35:00Z"],"CRDO":[162.95,"2026-09-11T23:59:02Z"],"DDOG":[221.21,"2026-09-11T21:35:00Z"],"ETN":[425.37,"2026-09-11T23:15:00Z"],"GOOGL":[338.50,"2026-09-11T23:56:45Z"],"ISRG":[369.15,"2026-09-11T23:26:53Z"],"LLY":[1115.70,"2026-09-11T23:56:17Z"],"MELI":[1897.37,"2026-09-12T00:15:00Z"],"META":[648.03,"2026-09-12T00:15:00Z"],"MPWR":[1234.46,"2026-09-12T00:15:00Z"],"MSFT":[495.63,"2026-09-12T00:15:00Z"],"MU":[975.26,"2026-09-12T00:15:00Z"],"NET":[306.53,"2026-09-11T23:31:25Z"],"NOW":[132.53,"2026-09-11T23:56:03Z"],"NVDA":[218.29,"2026-09-12T00:15:00Z"],"PLTR":[167.23,"2026-09-12T00:15:00Z"],"PWR":[650.58,"2026-09-11T23:21:26Z"],"RKLB":[62.95,"2026-09-12T00:15:00Z"],"TEM":[59.01,"2026-09-12T00:15:00Z"],"TMDX":[82.18,"2026-09-12T00:15:00Z"],"TSM":[433.24,"2026-09-11T23:56:07Z"],"VRT":[257.06,"2026-09-11T23:54:22Z"],"VRTX":[515.44,"2026-09-12T00:15:00Z"]
+  },
+  "access_notes":["Naver pages redirected to a UI without extractable quotes; these failures were not recorded as no news.","Investing Hugel historical page returned a September 8 snapshot; rejected as stale and replaced by the dated September 11 Stock Analysis quote.","Stock Analysis fundamentals for LEENO showed an old fiscal dataset; only its explicitly dated quote was used, not revenue, EPS, market cap or share count.","Samsung Biologics prior review used KRW1,405,000; current independently retrieved quote is KRW1,415,000. The difference does not change score or eligibility."]
+}

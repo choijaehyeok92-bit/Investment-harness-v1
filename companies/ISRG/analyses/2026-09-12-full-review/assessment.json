@@ -1,0 +1,410 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "ISRG",
+  "company_name": "Intuitive Surgical",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 67,
+  "total_score_100": 79,
+  "required_return": 0.09,
+  "source_paths": [
+    "companies/ISRG/analyses/2026-09-06-deep/assessment.json",
+    "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/ISRG/analyses/2026-09-06-deep/valuation.json",
+    "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+    "companies/ISRG/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/ISRG/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/ISRG/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-isrg-deep/source-manifest.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/ISRG/analyses/2026-09-06-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "evidence": [
+        "Q2 2026 da Vinci procedures grew approximately 15% and Ion procedures approximately 36% while installed bases expanded 12% and 21%, respectively.",
+        "Da Vinci 5 represented 246 of 468 Q2 placements, indicating an active platform transition rather than dependence on a mature installed base alone."
+      ],
+      "counter_evidence": [
+        "U.S. da Vinci procedure growth was approximately 12%, below OUS growth, and bariatric procedures declined high-single digits.",
+        "Multiple credible competitors now have U.S. regulatory authorization or active indication expansion, reducing the certainty of category leadership persistence."
+      ],
+      "confidence": 0.9,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Approximately 76.3% of Q2 revenue came from instruments/accessories and service, consistent with procedure-linked recurring-like economics around a large installed base.",
+        "Ion procedures grew 36% despite only 2% placement growth in Q2, supporting utilization-driven customer value after installation."
+      ],
+      "counter_evidence": [
+        "Hospitals face capital-budget pressure and more than half of Q2 da Vinci placements were leases, implying customers increasingly value flexible financing rather than outright system purchases.",
+        "Recent FDA field actions create a product-quality monitoring burden even though current procedure growth remains strong."
+      ],
+      "confidence": 0.9,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "The installed-base, training, clinical workflow, instrument consumption and service flywheel continues to expand, with 11,710 da Vinci systems installed at Q2 end.",
+        "Da Vinci 5 and Ion provide additional technology and procedure expansion vectors inside the existing ecosystem."
+      ],
+      "counter_evidence": [
+        "Johnson & Johnson OTTAVA obtained U.S. De Novo authorization in July 2026, Medtronic Hugo is cleared in U.S. urology with additional indications submitted, and CMR Versius is FDA-cleared.",
+        "A Class I SureForm recall plus multiple Class II da Vinci 5/SP field actions raise the evidence threshold for assuming the moat will widen without interruption."
+      ],
+      "confidence": 0.84,
+      "change_from_2026_09_06": -1,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "TTM OCF was approximately $3.7064B and mechanical OCF-minus-PPE FCF approximately $3.2224B; H1 OCF increased strongly while PPE purchases declined year over year.",
+        "Basic and diluted weighted-average share counts declined year over year, so current growth is not being financed through persistent net dilution."
+      ],
+      "counter_evidence": [
+        "254 of 468 Q2 da Vinci placements were operating leases and working-capital changes used approximately $870M of H1 cash, including substantial inventory growth, increasing capital carried by Intuitive.",
+        "A conservative FCF-minus-income-statement-SBC diagnostic is only about $2.3831B, showing that headline mechanical FCF overstates owner cash if compensation is treated economically."
+      ],
+      "confidence": 0.86,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "The company maintains heavy R&D and platform reinvestment, transitioned selected European distributor territories to direct distribution for approximately $533M, and preserves a very strong balance sheet.",
+        "Executive compensation includes performance-based equity and the CEO/Executive Chair transition is disclosed with board oversight."
+      ],
+      "counter_evidence": [
+        "H1 2026 repurchases averaged $475.67 per share, materially above the September 9 reference price of $353.24; this does not prove intrinsic-value destruction but requires stricter repurchase-price discipline review.",
+        "Executive/director beneficial ownership is modest at roughly 0.6% as a group."
+      ],
+      "confidence": 0.85,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "evidence": [
+        "Cash, cash equivalents and investments were approximately $8.63B at June 30, 2026 versus total liabilities of about $2.58B, with no material borrowing dependence identified.",
+        "TTM operating cash flow exceeds $3.7B and the company can self-fund R&D, leasing and repurchases without structural reliance on external financing."
+      ],
+      "counter_evidence": [
+        "Leasing and inventory intensity can absorb more cash as the installed base grows, but current liquidity is sufficient to absorb this without threatening solvency."
+      ],
+      "confidence": 0.97,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 7,
+      "max_score": 15,
+      "evidence": [
+        "At the September 9 reference price of $353.24, the retained base scenario is about $302.71 per share and the reverse model requires approximately 12.56% annual growth in years 2-10 at a 9% hurdle.",
+        "Current procedure growth around the mid-teens means the reverse requirement is demanding but not obviously equivalent to an unrealistic bull case.",
+        "2026-09-12 재검증: 관측가격 369.15 USD; Bear/Base/Bull 124.3928/302.7132/609.2829. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "The market capitalization is about $125.0B, roughly 38.8x TTM mechanical FCF and 52.5x the conservative FCF-minus-SBC diagnostic.",
+        "Current price remains about 16.7% above the retained base intrinsic-value estimate, so a clear margin of safety is absent."
+      ],
+      "confidence": 0.75,
+      "change_from_2026_09_06": 1,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+        "companies/ISRG/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "evidence": [
+        "The bull scenario reaches approximately $609 per share, supported by sustained procedure-category expansion and higher mature owner margins.",
+        "The business has optionality from da Vinci 5 features, Ion, OUS adoption and direct distribution.",
+        "2026-09-12 재검증: 관측가격 369.15 USD; Bear/Base/Bull 124.3928/302.7132/609.2829. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "The bear scenario is approximately $124 per share, or about 65% below the reference price, because valuation compression can compound with slower procedures, competition or product-quality events.",
+        "Current price lies about 47% of the way from modeled bear to bull endpoints; this is not a probability estimate but illustrates that asymmetry is not overwhelmingly favorable."
+      ],
+      "confidence": 0.72,
+      "missing_data": [],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+        "companies/ISRG/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "PwC issued unqualified FY2025 financial-statement and ICFR opinions; Q2 2026 disclosure controls were assessed effective."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.96,
+        "resolution_needed": "Reassess on material audit, control, compliance or conduct evidence."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Approximately $8.63B of cash and investments, low liability burden and strong OCF materially exceed ordinary operating funding needs."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.98,
+        "resolution_needed": "Monitor lease and inventory capital growth, but no structural external-funding dependence is present."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "Q2 basic and diluted weighted-average shares declined year over year; repurchases currently more than offset issuance on the observable share bridge."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.93,
+        "resolution_needed": "Continue to track SBC, option exercises, tax withholding and repurchases without double counting."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Procedure growth is accompanied by rising revenue, operating income and operating cash flow rather than depending on customer subsidies or external financing."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.9,
+        "resolution_needed": "Monitor whether competitive pricing concessions or lease incentives begin to subsidize procedure growth."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "PASS",
+        "evidence": [
+          "Current cash generation, procedure utilization and share-count trends do not show structural collapse in incremental economics."
+        ],
+        "severity": "MONITOR",
+        "confidence": 0.78,
+        "resolution_needed": "Quantify incremental cash returns on the expanding leased installed base and the 2026 direct-distribution acquisitions over multiple reporting periods."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "OTTAVA, Hugo and Versius have made U.S. competitive entry materially more credible, while FDA lists a 2026 Class I SureForm recall and multiple Class II field actions; current procedure/install-base growth has not yet demonstrated actual moat contraction."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.84,
+        "resolution_needed": "Track competitor placements, procedure conversion, hospital multi-robot adoption, pricing, utilization and recall closure for at least several quarters."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "The synchronized $353.24 reference price implies about 12.56% annual growth under retained base economics at a 9% hurdle, demanding but not obviously beyond current category/procedure growth."
+        ],
+        "severity": "VALUATION_RISK_NOT_VETO_TRIGGER",
+        "confidence": 0.74,
+        "resolution_needed": "Require either lower price or higher verified owner-cash economics before buy authorization."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "The company is economically concentrated in the da Vinci ecosystem, but revenues are diversified across procedures, hospitals, geographies, instruments, service, systems and the Ion platform; no single customer or regulation is currently fatal."
+        ],
+        "severity": "MONITOR",
+        "confidence": 0.8,
+        "resolution_needed": "Monitor whether competitive or regulatory events impair the ecosystem broadly rather than in isolated products."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Balance-sheet bankruptcy risk is very low, but the combination of high valuation, credible competition and potential product-quality events creates a meaningful risk of long-duration capital impairment even without business failure."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.8,
+        "resolution_needed": "Close the moat/quality uncertainty and obtain a larger base-case valuation margin of safety."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.13187490028072213,
+      "repriced_value": 369.1500000000003,
+      "price_residual": 3.410605131648481e-13,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 124.39283905585431,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 302.7132313210153,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 609.282917127033,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/ISRG/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "structural_thesis": "Intuitive remains the dominant procedure-linked robotic-surgery ecosystem with a growing installed base and recurring instrument/service economics. Da Vinci 5 and Ion extend the runway, but the U.S. competitive landscape has materially changed and the moat must now be demonstrated against credible alternatives rather than inferred from a historically sparse field.",
+  "economic_finding": "The business converts procedure growth into strong operating cash flow, but rising operating-lease intensity places more systems and inventory on Intuitive's balance sheet. The correct long-term test is FCF per share after SBC and required lease/inventory reinvestment, not procedure growth alone.",
+  "capital_and_survival": "Survivability is exceptional. Capital-allocation quality is less perfect: H1 repurchases averaged materially above the current reference price, while the European direct-distribution acquisition should be judged on incremental cash returns rather than strategic narrative alone.",
+  "macro_overlay": "The stored higher-for-longer macro regime increases hospital-capex and valuation discount-rate stress but does not change the company-quality score. ISRG's balance sheet limits refinancing risk.",
+  "falsifiers": [
+    "Da Vinci procedure growth remains below 10% for four consecutive quarters while competitor placements, procedures or hospital switching materially increase.",
+    "Procedure volume remains positive but instruments/accessories economics or gross margin structurally decline because of pricing concessions or competition.",
+    "Da Vinci 5, SP, Ion or instrument recalls broaden into material patient-harm evidence, procedure pauses or regulatory restrictions.",
+    "Lease intensity, inventory and PP&E growth cause FCF per share to persistently lag procedure growth after SBC and required reinvestment.",
+    "Hospital capital/funding constraints materially reduce placements and utilization fails to compensate."
+  ],
+  "increase_evidence": [
+    "Da Vinci 5 international rollout and new functionality increase utilization and procedure economics without margin deterioration.",
+    "Competitor entry expands the robotic-surgery category without material loss of Intuitive procedure share, placements or pricing power.",
+    "FCF per share grows at a durable low-to-mid-teens rate with SBC controlled and diluted share count flat or declining.",
+    "FDA field actions close without evidence of a broader systemic quality problem.",
+    "Price falls below a conservative/base intrinsic-value range or verified owner cash rises enough to create a clear margin of safety at the 9% hurdle."
+  ],
+  "next_evidence": [
+    "Quarterly da Vinci 5 utilization and OUS placement mix, including feedback-enabled procedure adoption.",
+    "OTTAVA/Hugo/Versius U.S. placements, procedure volumes and hospital multi-platform adoption.",
+    "Recall closure status, MDR/adverse-event trends and any regulatory restrictions.",
+    "Eight-quarter bridge for leased systems, inventory, PP&E, procedure growth and owner FCF per share.",
+    "Incremental economics of the 2026 European direct-distribution acquisition.",
+    "Repurchase price discipline relative to contemporaneous intrinsic value."
+  ],
+  "red_team": {
+    "attacks": [
+      "The moat may look strongest immediately before broad U.S. competition becomes commercially relevant.",
+      "Procedure growth can hide economic deterioration if leasing and incentives rise faster than recurring cash economics.",
+      "The 76% recurring-like revenue mix is not contractual recurring revenue; it depends on actual surgical utilization.",
+      "Large installed-base switching costs can protect share but may not prevent price compression in new placements.",
+      "Class I/II recalls may remain isolated, but a high-valuation medical-device company has asymmetric downside to a systemic safety event.",
+      "Da Vinci 5 replacement demand can temporarily lift placements without permanently increasing procedure TAM.",
+      "Ion growth may require a distinct commercial and capital model and should not automatically inherit da Vinci economics.",
+      "Repurchases above subsequent market prices may indicate less disciplined valuation judgment than the operating record suggests.",
+      "Hospital reimbursement, staffing and capital budgets can slow robotic adoption independently of patient demand.",
+      "A 12.56% long-duration reverse growth requirement leaves limited room for a decade of normalization if competition compresses mature owner margins."
+    ],
+    "verdict": "REVISE",
+    "independence": "Existing same-analyst adversarial review retained."
+  },
+  "final_conclusion": "ISRG remains a high-quality Emerging Outlier but is not buy-authorized. The operating franchise is stronger than the valuation asymmetry, and two open vetoes—moat shrinkage and permanent-loss probability—must remain INVESTIGATE because credible U.S. competition and recent product-quality actions are now real. WATCH/P1 is appropriate until either evidence closes those risks or valuation creates a materially wider margin of safety.",
+  "permanent_loss_case": "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "sell_evidence": [
+    "시술 성장 10% 미만이 4개 분기 지속되고 경쟁사의 임상·교육 전환 증거가 동반되면 높은 해자 점수 재검토.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "business_quality_75": 67,
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "추가 정밀분석의 FDA 리콜과 경쟁 로봇 접근을 반영해 기존 PASS를 INVESTIGATE로 재개한다. 수술·기구·서비스 매출과 설치대수·리스 투자수익을 구분한다. 총점79점은 유지하나 가격도 편입 상한을 넘는다.",
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/ISRG/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "reassessment_delta": {
+    "prior_canonical_score": 79,
+    "review_source_score": 79,
+    "reviewed_score": 79,
+    "prior_canonical_assessment": "companies/ISRG/analyses/2026-09-06-deep/assessment.json",
+    "adopted_checkpoint": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

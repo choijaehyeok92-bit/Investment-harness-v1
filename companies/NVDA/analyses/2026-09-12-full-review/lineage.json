@@ -1,0 +1,91 @@
+{
+  "ticker": "NVDA",
+  "source_assessment": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "ca662c8334032078c56e26feb41fb9dfaeac4e9b1450b105afd0e6f982184a40",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "cb062f72234aff2e644dfc9e8afcbd7162b947efee0f6b4d4edf888debd09123",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "e01255aae2c5ad865979e5cc126bcd45ddcff435fc706835ffdc1b59ec409bde",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "e956aab7f4b49fa990db481d3a9f824586c9bf2e05decd6d24bfb8b35421c43a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "4baa70b15ff2a8871a961721caae03cad336346ae8cb05fc8a915c95d25a6742",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "88f301896da1ec25c3340abee8f7e44834064b3764a62b8f2ac34f5984b30902",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "6e2de7b318f6c603a9a2541a93315b0db90c80b1ba1e0eea4a1c7072eca065e8",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-10-nvda-deep/source-manifest.json",
+      "sha256": "13d0d10208909af3594dc722b3b36099ae687ba9dcb048bed61797bafcf6c5d5",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

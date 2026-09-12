@@ -1,10 +1,9 @@
 {
-  "as_of": "2026-09-10",
-  "assessment": "companies/214450/analyses/2026-09-10-deep/assessment.json",
-  "thesis": "companies/214450/analyses/2026-09-10-deep/thesis.ko.md",
-  "valuation": "companies/214450/analyses/2026-09-10-deep/valuation.json",
-  "authority": "현재 판정은 2026-09-10 deep 분석이다. 이 분석은 2026-09-12 reviewed promotion으로 현재 권위 버전이 되었다. 이전 분석은 과거 기록으로 보존한다.",
+  "as_of": "2026-09-12",
+  "assessment": "companies/214450/analyses/2026-09-12-full-review/assessment.json",
+  "valuation": "companies/214450/analyses/2026-09-12-full-review/valuation.json",
+  "thesis": "companies/214450/analyses/2026-09-12-full-review/thesis.ko.md",
   "research_state": "FULL_ANALYSIS",
-  "run": "2026-09-10-deep",
-  "promotion": {"date":"2026-09-12","source_commit":"587b0a2086ebb6f4d27081ee48d8dab0eba4974a"}
+  "run": "2026-09-12-full-review",
+  "authority": "Reviewed dated company score; macro overlay scores are separate. No trade authorization."
 }

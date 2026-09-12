@@ -1,21 +1,9 @@
 {
   "as_of": "2026-09-12",
-  "assessment": "companies/145020/analyses/2026-09-12-deep/assessment.json",
-  "thesis": "companies/145020/analyses/2026-09-12-deep/thesis.ko.md",
-  "valuation": "companies/145020/analyses/2026-09-12-deep/valuation.json",
-  "evidence_ledger": "companies/145020/analyses/2026-09-12-deep/evidence-ledger.json",
-  "authority": "현재 판정은 2026-09-12 deep 분석이다. PRELIMINARY_REVIEW의 미확정 점수와 valuation을 최신 공시·IR·규제·시장 증거로 재실사하여 completion gate를 충족했고 FULL_ANALYSIS로 승격했다. 이전 분석은 감사 가능한 과거 기록으로 보존한다.",
+  "assessment": "companies/145020/analyses/2026-09-12-full-review/assessment.json",
+  "valuation": "companies/145020/analyses/2026-09-12-full-review/valuation.json",
+  "thesis": "companies/145020/analyses/2026-09-12-full-review/thesis.ko.md",
   "research_state": "FULL_ANALYSIS",
-  "run": "2026-09-12-deep",
-  "decision": "WATCH",
-  "total_score_100": 80,
-  "business_quality_75": 59,
-  "hard_veto_status": "INVESTIGATE",
-  "buy_authorized": false,
-  "analysis_commits": {
-    "evidence_ledger": "31c6dba26b6093fe0899d195ce2e790a04205c95",
-    "valuation": "4d6bd26c78a993b03cb697700ed441f2f3a40af3",
-    "assessment": "9149eb54ef31d50bbeda8b3e8df253a7c224ee3c",
-    "thesis": "823404294579cf1f7e807780f8ccc473a7c9478b"
-  }
+  "run": "2026-09-12-full-review",
+  "authority": "Reviewed dated company score; macro overlay scores are separate. No trade authorization."
 }

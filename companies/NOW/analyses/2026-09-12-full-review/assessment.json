@@ -1,0 +1,412 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "NOW",
+  "company_name": "ServiceNow, Inc.",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US enterprise software",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Starter / Watch",
+  "business_quality_score_75": 56,
+  "business_quality_75": 56,
+  "total_score_100": 73,
+  "required_return": 0.09,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "ServiceNow remains a high-retention enterprise workflow system of action with expanding AI, security, employee, customer and developer surfaces. Q2 2026 subscription revenue grew 24.5% and cRPO 21%; AI ACV exceeded $1B and customers above $5M ACV reached 658. The central question is no longer whether ServiceNow can distribute AI, but whether it can retain workflow control, pricing power and owner-cash economics as frontier models and agent platforms become more capable.",
+  "current_finding": "Harness-rule TTM diagnostics remain approximately $14.732B revenue, $1.670B GAAP net income, $5.308B operating cash flow, $0.728B PPE purchases and $4.580B mechanical OCF-minus-PPE. TTM stock-based compensation was about $2.185B and the conservative OCF-minus-PPE-minus-SBC-and-other-intangibles diagnostic was about $2.372B. This is not normalized owner FCF because acquisition integration, federal revenue timing, debt interest, hyperscaler costs and future SBC normalization remain unresolved.",
+  "economic_finding": "Q2 subscription revenue was $3.877B, up 24.5% YoY; cRPO was $13.20B, up 21%; RPO was $29.0B, up 21%; AI ACV crossed $1B. The quarter included U.S. federal on-premise revenue pulled forward from Q3, so headline subscription growth is not a clean organic steady-state rate. H1 OCF declined 6% YoY while company-defined non-GAAP FCF rose 14% due to acquisition-cost addbacks and lower capex.",
+  "capital_and_survival": "June liquidity was about $6.7B versus $7.6B debt principal, including $2.1B of commercial paper with an 81-day weighted remaining term. Armis cost about $7.6B and Veza about $1.2B, with H1 business-combination cash spending of $8.776B. Operating survival is not externally dependent, but acquisition returns and short-term debt refinancing are material to common-holder economics.",
+  "permanent_loss_case": "Frontier AI models and third-party agent front ends commoditize portions of workflow discovery, search and task execution; customers reduce premium ServiceNow seat or module spend; AI gross costs pressure margins; Armis/Veza fail to earn the 9% hurdle; SBC remains near the mid-teens as a percentage of revenue; federal/channel concentration creates volatility; and a high-duration valuation compresses even while ServiceNow remains solvent and strategically relevant.",
+  "falsifiers": [
+    "Constant-currency cRPO growth remains below 15% for two consecutive quarters after the Q2 federal pull-forward normalizes.",
+    "AI ACV growth fails to convert into recognized subscription revenue, renewal expansion or owner cash per share.",
+    "TTM OCF-minus-PPE-minus-SBC per share declines across two reporting updates while reported subscription growth remains above 15%.",
+    "Armis and Veza fail to show credible revenue/cash integration economics and acquisition-related costs remain structurally high.",
+    "SBC remains around 15-16% of revenue without a credible path toward management's less-than-10% 2029 objective.",
+    "Frontier model vendors or hyperscalers displace ServiceNow as the enterprise system of action in measurable customer cohorts.",
+    "Renewal rate falls materially from historical high-90s levels while large-customer expansion weakens.",
+    "The U.S. federal channel partner concentration rises materially above current levels or collection quality deteriorates.",
+    "Debt/refinancing needs rise while acquisition cash returns fail to scale.",
+    "Price remains above conservative Base value while business and owner-cash evidence deteriorate."
+  ],
+  "increase_evidence": [
+    "At least two quarters of clean post-pull-forward cRPO/subscription growth with AI customer expansion and cash collection improving together.",
+    "TTM OCF-minus-PPE-minus-SBC per share reaccelerates and SBC/revenue trends clearly toward the sub-10% 2029 target.",
+    "Armis and Veza demonstrate after-tax incremental returns above the 9% hurdle after integration costs normalize.",
+    "AI Control Tower, Otto and Action Fabric show durable cross-system workflow control despite stronger frontier-model agents.",
+    "Commercial-paper reliance declines and net liquidity improves without sacrificing organic product investment.",
+    "Expectation gap remains favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Two or more quarters of sub-15% cRPO growth accompanied by lower renewals or large-customer expansion.",
+    "Owner cash per share deteriorates structurally while SBC remains high and repurchases merely offset compensation dilution.",
+    "Armis/Veza acquisition returns remain below the hurdle after a reasonable integration period.",
+    "Customers shift workflow control to competing AI-agent platforms and ServiceNow loses pricing or module attach.",
+    "A material accounting, security or control failure damages enterprise trust.",
+    "Refinancing or liquidity needs become structurally dependent on external capital.",
+    "The valuation remains elevated while growth, margin and moat evidence weaken together."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 subscription revenue grew 24.5% and AI ACV exceeded $1B.",
+        "ServiceNow is extending AI governance and execution through AI Control Tower, Otto, Action Fabric and Autonomous Security."
+      ],
+      "counter_evidence": [
+        "Q2 contained U.S. federal on-premise revenue pulled forward from Q3, and frontier-model capability is improving rapidly."
+      ],
+      "confidence": 0.87,
+      "missing_data": [
+        "Clean post-pull-forward Q3 organic growth and AI cohort retention."
+      ],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Historical renewal rate is about 98%; cRPO reached $13.2B and RPO $29.0B.",
+        "Q2 included 123 deals above $1M net-new ACV and 658 customers above $5M ACV."
+      ],
+      "counter_evidence": [
+        "Renewal rate is not NRR, and AI ACV is not recognized revenue or collected cash."
+      ],
+      "confidence": 0.86,
+      "missing_data": [
+        "AI-cohort NRR and independent customer ROI."
+      ],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "The platform combines system-of-record context, workflow execution, permissions, approvals, auditability and a broad partner ecosystem.",
+        "AI Gateway and AI Control Tower extend governance to external agents and MCP-connected systems rather than requiring a closed model stack."
+      ],
+      "counter_evidence": [
+        "OpenAI GPT-6 Astra and other frontier-agent advances raise the possibility that discovery, UI and some orchestration value migrate away from SaaS application vendors.",
+        "Hyperscaler model costs and partner dependence can pressure gross economics even if workflow relevance persists."
+      ],
+      "confidence": 0.73,
+      "missing_data": [
+        "Measured AI pricing power, usage economics and competitive win/loss cohorts."
+      ],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 8,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM OCF-minus-PPE is about $4.58B and the conservative cash diagnostic after SBC and other intangibles is about $2.37B.",
+        "Period-end basic shares declined to about 1.034B after substantial repurchases."
+      ],
+      "counter_evidence": [
+        "H1 OCF declined 6% while H1 acquisition cash spending was $8.776B.",
+        "Armis and Veza post-acquisition returns are not yet observable and acquisition-related SBC increased."
+      ],
+      "confidence": 0.77,
+      "missing_data": [
+        "Acquisition-cohort after-tax returns and normalized owner-cash bridge."
+      ],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "The company used a $2B ASR at an average $107.97 and retains a large repurchase authorization.",
+        "Management has set explicit long-term targets including Rule of 60+, AI at 30% of ACV and SBC below 10% of revenue by 2029."
+      ],
+      "counter_evidence": [
+        "H1 business combinations consumed $8.776B and were funded partly with $4B notes and commercial paper.",
+        "SBC remains about 16% of revenue, so repurchases must be evaluated as compensation replacement rather than pure capital return."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Armis/Veza realized returns and progress against SBC target."
+      ],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "June liquid financial assets were about $6.7B, TTM OCF about $5.3B and the company has an undrawn $3B revolver.",
+        "ServiceNow has generated positive operating cash flow for more than ten years."
+      ],
+      "counter_evidence": [
+        "Debt principal was about $7.6B and $2.1B of commercial paper had an 81-day weighted remaining term after the acquisition wave."
+      ],
+      "confidence": 0.89,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At $131.24, retained Base value of $188.18 is about 43% above price.",
+        "Under a 9% hurdle, 24% mature owner margin and 23x terminal multiple, the price requires about 11.50% 10-year revenue CAGR, down from about 12.41% at the prior $141.26 reference.",
+        "2026-09-12 재검증: 관측가격 132.53 USD; Bear/Base/Bull 58.4850/188.1844/409.7808. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Base value depends heavily on margin expansion and terminal value; approximately 78% of Base operating PV is terminal value.",
+        "The conservative owner-cash proxy still trades around 57x market cap even after the recent price decline."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Normalized forward owner margin after acquisition integration and SBC reduction."
+      ],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+        "companies/NOW/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Retained Bull value of about $409 is more than 3x the current reference price and Base is materially above price.",
+        "2026-09-12 재검증: 관측가격 132.53 USD; Bear/Base/Bull 58.4850/188.1844/409.7808. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Retained Bear value near $58.5 and permanent-loss case near $18.7 imply substantial downside if AI commoditization, acquisition failure and margin compression coincide."
+      ],
+      "confidence": 0.66,
+      "missing_data": [],
+      "source_paths": [
+        "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+        "companies/NOW/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "PwC concluded ServiceNow maintained effective ICFR as of December 31, 2025; no material accounting-integrity failure was identified in reviewed evidence."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.93,
+        "resolution_needed": "Reassess after 2026 acquisitions are fully integrated into controls."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Debt and commercial paper funded discretionary acquisitions rather than operating survival; operating cash flow and liquidity remain substantial."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.88,
+        "resolution_needed": "Monitor commercial-paper refinancing and acquisition debt reduction."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Period-end shares declined after large repurchases, but H1 SBC was about $1.2B and SBC remained roughly 16% of revenue; outstanding RSUs and unrecognized compensation remain material."
+        ],
+        "severity": "ECONOMIC_DILUTION_GATE_OPEN",
+        "confidence": 0.91,
+        "resolution_needed": "Require SBC/revenue and owner cash per share to improve together; repurchases alone do not resolve the economic cost."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Q2 subscription growth was strong but included U.S. federal on-premise revenue accelerated from Q3, while H1 OCF declined despite higher company-defined FCF after addbacks."
+        ],
+        "severity": "TIMING_AND_CASH_QUALITY_GATE_OPEN",
+        "confidence": 0.87,
+        "resolution_needed": "Confirm clean Q3/Q4 cRPO, subscription and collections after pull-forward normalizes."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "No collapse is proven, but $8.776B H1 acquisition cash spending on Armis/Veza and integration costs create a large new capital cohort whose realized return is unknown."
+        ],
+        "severity": "OPEN_EVIDENCE_GATE",
+        "confidence": 0.88,
+        "resolution_needed": "Measure acquisition revenue, cash contribution and after-tax return versus the 9% hurdle."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Renewal, cRPO and AI ACV support a durable platform, but frontier-agent systems such as GPT-6 Astra increase the risk that workflow discovery/UI/orchestration value shifts away from application vendors."
+        ],
+        "severity": "AI_PLATFORM_COMPETITION_GATE_OPEN",
+        "confidence": 0.82,
+        "resolution_needed": "Track measurable AI win/loss, pricing, NRR and cross-system execution share."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "The current price requires about 11.50% 10-year revenue CAGR under the retained 24% mature owner-margin and 23x terminal assumptions. This is demanding but below current cRPO/subscription growth and does not require only a Bull case."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_VALUATION_MONITOR",
+        "confidence": 0.79,
+        "resolution_needed": "None; PASS does not equal buy authorization."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "A U.S. federal channel partner represented 13% of H1/Q2 2026 revenue, but the broader customer base spans industries and geographies and no evidence shows company-fatal dependence on a single commercial customer."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.82,
+        "resolution_needed": "Track federal/channel concentration and collection quality."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "PASS",
+        "evidence": [
+          "Liquidity and recurring cash flow make operating failure unlikely; serious long-duration loss paths exist but current evidence does not establish veto-level probability."
+        ],
+        "severity": "HIGH_IMPACT_TAIL_MONITOR",
+        "confidence": 0.67,
+        "resolution_needed": "Reopen if moat, acquisition returns, cash conversion and leverage deteriorate together."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "red_team": {
+    "verdict": "REVISE",
+    "attacks": [
+      "Frontier models reduce the need for application-specific AI interfaces and route enterprise work through model-native agents.",
+      "AI becomes bundled table stakes, limiting price realization while inference/hyperscaler costs rise.",
+      "Federal Q2 pull-forward and acquisition contribution make organic growth look stronger than sustainable demand.",
+      "Armis/Veza security assets do not cross-sell enough to justify $8.8B of H1 acquisition cash.",
+      "SBC remains around 16% of revenue and repurchases merely mask economic dilution.",
+      "Commercial-paper refinancing stays elevated and acquisition interest reduces owner cash.",
+      "A federal customer/channel concentration shock causes a temporary but material revenue/cash disruption.",
+      "The 98% renewal metric hides lower seat/module expansion or NRR compression.",
+      "Partner/hyperscaler dependence shifts economics away from ServiceNow.",
+      "A high terminal-value DCF proves fragile if mature owner margin stays below 20%."
+    ],
+    "independence": "Same analyst/model adversarial review; not independent committee approval.",
+    "source_verdict": "REVISE_NOT_REJECT"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/NOW/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.1162254796389649,
+      "repriced_value": 132.53000000000003,
+      "price_residual": 2.842170943040401e-14,
+      "growth_basis": "Constant revenue growth in years 1-10 from the reported TTM anchor.",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 58.48500545499458,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 188.1844039647022,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 409.780790136958,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/NOW/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "source_paths": [
+    "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+    "companies/NOW/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/NOW/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/NOW/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "높은 갱신과 워크플로 침투, AI ACV는 긍정적이다. 정부 on-premise 매출의 분기 선인식, H1 OCF 감소, 인수대금·CP 만기와 SBC를 구분한다. 매출 선행지표가 유기적 주당현금으로 전환되는지 추적한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 73,
+    "review_source_score": 73,
+    "reviewed_score": 73,
+    "prior_canonical_assessment": "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

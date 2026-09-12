@@ -1,0 +1,472 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "LLY",
+  "company_name": "Eli Lilly",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+    "companies/LLY/analyses/2026-09-06-deep/derived-metrics.json",
+    "companies/LLY/analyses/2026-09-06-deep/evidence-ledger.json",
+    "companies/LLY/analyses/2026-09-06-deep/financials.json",
+    "companies/LLY/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/LLY/analyses/2026-09-06-deep/observations.json",
+    "companies/LLY/analyses/2026-09-06-deep/thesis.ko.md",
+    "companies/LLY/analyses/2026-09-06-deep/valuation.json",
+    "companies/LLY/raw-data/2025-2026-supplied-filings.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "historical_score_100": null,
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "portfolio_context": "실제 보유·세금·위험예산 미제공. 신규 매수 승인·자동 매매·기존 보유 강제 청산 아님.",
+  "research_state": "FULL_ANALYSIS",
+  "input_maturity": "RAW_DATA_ONLY_AT_BASELINE",
+  "priority": "P1",
+  "structural_thesis": "대사질환 치료 시장의 확대",
+  "customer_and_moat": "임상효과·투여 편의와 공급 확대가 고객가치; 순약가·지속 복약·경쟁 효능으로 경제성을 검증",
+  "current_finding": "H1 매출 42.773B·영업이익 17.893B·OCF 16.023B−PPE 5.259B=10.764B. IPRD·인수 현금은 이익 성장과 별도 자본배분으로 기록한다.",
+  "economic_finding": "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다.",
+  "capital_and_survival": "현재 승인 약물에 기반한 매출 경로이며 미승인 파이프라인을 전액 매출로 가산하지 않는다. 신약 R&D 지속 비용과 생산능력 투자, 54.908B 차입 부담을 owner margin에 포함한다.",
+  "next_evidence": "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+  "permanent_loss_case": "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+  "falsifiers": [
+    "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+  ],
+  "increase_evidence": [
+    "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+    "SBC·전체 Capex·운전자본·확정 권리/부채 이후 주당 현금이 최소 두 보고기간 개선되고 가격 역산 요구가 보수적 성장 범위 이내일 것.",
+    "INVESTIGATE 항목의 해당 공시 근거 해소와 포트폴리오 위험예산 검토 후에만 증액 검토. 가격 하락만으로 증액하지 않는다."
+  ],
+  "sell_evidence": [
+    "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축.",
+    "통제·현금·권리의 중대한 훼손이 확인되면 가격과 무관하게 논지 재작성 및 보유 시 축소/청산 검토. 현재 보유상태 미제공."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "대사질환 치료 시장의 확대"
+      ],
+      "counter_evidence": [
+        "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "임상효과·투여 편의와 공급 확대가 고객가치; 순약가·지속 복약·경쟁 효능으로 경제성을 검증"
+      ],
+      "counter_evidence": [
+        "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "임상효과·투여 편의와 공급 확대가 고객가치; 순약가·지속 복약·경쟁 효능으로 경제성을 검증"
+      ],
+      "counter_evidence": [
+        "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 매출 42.773B·영업이익 17.893B·OCF 16.023B−PPE 5.259B=10.764B. IPRD·인수 현금은 이익 성장과 별도 자본배분으로 기록한다."
+      ],
+      "counter_evidence": [
+        "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [
+        "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "현재 승인 약물에 기반한 매출 경로이며 미승인 파이프라인을 전액 매출로 가산하지 않는다. 신약 R&D 지속 비용과 생산능력 투자, 54.908B 차입 부담을 owner margin에 포함한다."
+      ],
+      "counter_evidence": [
+        "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "현재 승인 약물에 기반한 매출 경로이며 미승인 파이프라인을 전액 매출로 가산하지 않는다. 신약 R&D 지속 비용과 생산능력 투자, 54.908B 차입 부담을 owner margin에 포함한다."
+      ],
+      "counter_evidence": [
+        "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+      ],
+      "confidence": 0.62,
+      "missing_data": [],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 4,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "기준가 1,149.36; Base/가격 0.67배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 14.3%.",
+        "2026-09-12 재검증: 관측가격 1115.7 USD; Bear/Base/Bull 193.8587/766.1548/2040.8345. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+        "companies/LLY/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bear/가격 0.17배, Bull/가격 1.78배. 2상태 손익분기 Bull 확률 51.7%; 실제 확률 추정 아님.",
+        "2026-09-12 재검증: 관측가격 1115.7 USD; Bear/Base/Bull 193.8587/766.1548/2040.8345. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+      ],
+      "confidence": 0.55,
+      "missing_data": [
+        "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+        "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+      ],
+      "source_paths": [
+        "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+        "companies/LLY/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Base 음수 현금 합계 0.000 USD billion, 가용현금 차감 후 조달 부족 0.000. Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "실제 증분 ROIC를 계산할 경제적 투자자본 코호트는 unknown. Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+        ],
+        "resolution_needed": "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "가정·초기 매출·종료가치·권리 오차에 민감하며 계산한 Bull 초과 가격만으로 불가능성을 단정하지 않는다."
+        ],
+        "resolution_needed": "공시 변화·반증 발생 시 즉시 재평가",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다."
+        ],
+        "resolution_needed": "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+        ],
+        "resolution_needed": "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+        "severity": "MATERIAL",
+        "confidence": 0.62,
+        "basis": "Analyst threshold assessment from disclosed evidence; unknown is not misconduct/failure."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.13895430369911,
+      "repriced_value": 1115.6999999999994,
+      "price_residual": -6.821210263296962e-13,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 193.85874742369947,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 766.1547652905876,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 2040.8345033363005,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/LLY/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "total_score_100": 69,
+  "business_quality_75": 62,
+  "source_quality": {
+    "status": "RAW_BASED_COMPLETE_RESEARCH_WITH_OPEN_INVESTMENT_GATES",
+    "confidence": 0.62,
+    "historical_data": "원자료 해시·위치 유지; 중요한 현금·권리 항목을 선택 검증. 과거 분석의 주장도 원문 재감사 여부와 구분.",
+    "fact_estimate_inference_opinion": "financials/evidence=보고 주장 또는 명시 계산; model-inputs=추정; 사업 인과·반증=추론; 점수·판정=의견.",
+    "price": "9월4일 참조가격, 공시 주식 시점과 다름. 모든 가격이 동시각 거래소 종가라는 뜻 아님.",
+    "limits": [
+      "제품별 순약가·환자지속·공급 Capex·인수 현금/차입·특허별 rNPV",
+      "미래 owner 현금마진·재투자 회수·종료배수는 추정, 관측 사실 아님"
+    ],
+    "share_basis": "DATED_OR_ROUNDED_OR_DILUTED_PROXY",
+    "liquidity_basis": "STORED_FILING_CASH_OR_DISCLOSED_LIQUID_SECURITIES"
+  },
+  "red_team": {
+    "attacks": [
+      {
+        "id": 1,
+        "topic": "구조 변화",
+        "challenge": "대사질환 치료 시장의 확대",
+        "response": "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 2,
+        "topic": "고객 경제",
+        "challenge": "임상효과·투여 편의와 공급 확대가 고객가치; 순약가·지속 복약·경쟁 효능으로 경제성을 검증",
+        "response": "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 3,
+        "topic": "해자와 경쟁",
+        "challenge": "성장이 장기 초과이익으로 귀속된다는 가정",
+        "response": "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 4,
+        "topic": "현금과 회계",
+        "challenge": "H1 매출 42.773B·영업이익 17.893B·OCF 16.023B−PPE 5.259B=10.764B. IPRD·인수 현금은 이익 성장과 별도 자본배분으로 기록한다.",
+        "response": "보고 OCF·조정 FCF·SBC 이후 현금의 범위를 구분. financials.json의 null을 0으로 대체하지 않았다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 5,
+        "topic": "증분 자본수익",
+        "challenge": "모델의 성숙 cash margin이 투자 확대 이후에도 유지된다는 가정",
+        "response": "경제적 투자자본 분모가 없어 ROIC 수치 주장 보류. 현금마진 ±3%p 민감도와 초기 음수 경로 공개.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 6,
+        "topic": "보상·권리",
+        "challenge": "현재 승인 약물에 기반한 매출 경로이며 미승인 파이프라인을 전액 매출로 가산하지 않는다. 신약 R&D 지속 비용과 생산능력 투자, 54.908B 차입 부담을 owner margin에 포함한다.",
+        "response": "SBC 비용 후 현금과 미래 동일 보상 희석 이중 차감 제거. 기존 권리와 자금조달 주식은 별도 민감도.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 7,
+        "topic": "생존·조달",
+        "challenge": "Base 신규조달 부족 0.000USD billion",
+        "response": "자금 부족이 없는 계산은 확정 약정 전부 충당의 보증이 아니다. 별도 인수·규제·조달 악화 스트레스 확인.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 8,
+        "topic": "시장 기대",
+        "challenge": "기준가 1,149.36; Base/가격 0.67배. 고정된 Base 현금경제 하에서 2~10년 요구 성장률 14.3%.",
+        "response": "역산은 성장·마진·기간의 조건부 조합이다. 한 조합이 실제 시장 컨센서스라는 뜻이 아니다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 9,
+        "topic": "종료가치",
+        "challenge": "Base 종료가치 비중 66.9%",
+        "response": "종료 배수±5배 및 허들±2%p를 공개. 종료가치 의존이 높을수록 신뢰도를 낮춘다.",
+        "claim_type": "inference"
+      },
+      {
+        "id": 10,
+        "topic": "영구손실",
+        "challenge": "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+        "response": "정밀한 실패확률은 unknown. 손익분기 확률과 투자 불가 조건을 제시하고 기대값 우위를 주장하지 않는다.",
+        "claim_type": "inference"
+      }
+    ],
+    "strongest_bear_thesis": "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축. 가격에 이미 긴 성장기간이 반영되면 사업 존속에도 원금 회복이 장기간 불가능할 수 있다.",
+    "three_hidden_assumptions": [
+      "Q2 Mounjaro/Zepbound 합계 14.871B로 매출 약65%. 물량 증가와 가격 −13%가 공존하므로 단순 가격결정력 가정은 배제한다.",
+      "현재 승인 약물에 기반한 매출 경로이며 미승인 파이프라인을 전액 매출로 가산하지 않는다. 신약 R&D 지속 비용과 생산능력 투자, 54.908B 차입 부담을 owner margin에 포함한다.",
+      "지속기간·경쟁·종료배수"
+    ],
+    "underweighted_evidence": "H1 매출 42.773B·영업이익 17.893B·OCF 16.023B−PPE 5.259B=10.764B. IPRD·인수 현금은 이익 성장과 별도 자본배분으로 기록한다.",
+    "falsifiers": [
+      "GLP-1 순가격·지속사용·안전성이 함께 악화하고 신규 적응증·생산투자 회수가 이를 상쇄하지 못하면 성장기간 단축."
+    ],
+    "confidence": 0.62,
+    "verdict": "REVISE",
+    "independence": "동일 분석자의 적대적 재검토; 독립 검토자·다중 에이전트 합의 아님"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/LLY/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "data_as_of": "2026-09-06",
+  "review_note_ko": "승인 의약품의 수요와 생산 증설은 성장 근거다. 제조·품질·실처방·보험 접근과 약가·경쟁을 확인하며 미승인 파이프라인의 성공을 확정하지 않는다. 증설 후 정상 현금과 현 가격의 기대차가 충분하지 않아69점을 유지한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 69,
+    "review_source_score": 69,
+    "reviewed_score": 69,
+    "prior_canonical_assessment": "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

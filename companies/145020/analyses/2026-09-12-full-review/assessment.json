@@ -1,0 +1,467 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "145020",
+  "company_name": "Hugel, Inc.",
+  "as_of": "2026-09-12",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "research_state": "FULL_ANALYSIS",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "priority": "P2",
+  "total_score_100": 79,
+  "business_quality_75": 59,
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "historical_records": [
+    {
+      "path": "companies/145020/analyses/2026-09-12-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "source_paths": [
+    "companies/145020/analyses/2026-09-08-prelim/assessment.json",
+    "companies/145020/analyses/2026-09-12-deep/assessment.json",
+    "companies/145020/analyses/2026-09-12-deep/evidence-ledger.json",
+    "companies/145020/analyses/2026-09-12-deep/thesis.ko.md",
+    "companies/145020/analyses/2026-09-12-deep/valuation.json",
+    "reviews/2026-09-08-145020-prelim/raw-data.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "portfolio_context": "Actual holdings, taxes and risk budget are not provided. FULL_ANALYSIS status means research completion, not purchase authorization. Macro conditions affect pacing/risk budget rather than the company-quality score.",
+  "structural_thesis": "Hugel is shifting from a highly profitable Korean/Asian toxin-and-filler manufacturer into a globally distributed medical-aesthetics platform. The central upside is that regulatory approvals in the U.S., Europe, China and other markets convert manufacturing know-how and established toxin economics into durable global scale; the central risk is that aesthetic injectables remain competitively substitutable and require sustained commercial spending to win physician share.",
+  "current_finding": "H1 2026 revenue rose 27.2% to KRW 254.5bn while net income rose 23.5%, with toxin revenue growing 46.6% and overseas toxin/filler sales representing roughly 64% of total revenue. Q2 operating margin remained very high at about 40.6% but operating income was roughly flat year over year as U.S. direct-sales and marketing investment accelerated. Cash generation and liquidity remain unusually strong for the sector.",
+  "capital_and_survival": "June 2026 cash and short-term investments were about KRW 606.2bn against only about KRW 28.3bn debt. Near-term survival does not depend on external financing. The more important owner-risk question is per-share capital allocation: roughly 1.5m treasury shares, accumulated option grants, a 2026 conversion and sponsor control/pledges can affect future economic ownership even without balance-sheet stress.",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Hugel has commercial/regulatory access across major aesthetics markets, including FDA approval for Letybo and ongoing U.S. commercialization.",
+        "H1 2026 overseas toxin plus filler/skinbooster sales were roughly KRW 162.1bn, showing that international expansion is already a material revenue engine rather than a distant option.",
+        "The company is building a U.S. direct-sales and field-medical organization rather than remaining dependent on a single distributor."
+      ],
+      "counter_evidence": [
+        "Hugel is expanding within an existing global toxin category rather than creating a new category or network standard.",
+        "U.S. direct commercialization is still early and leadership relative to Botox, Dysport, Xeomin, Daxxify and other alternatives is not yet established."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "Independent U.S. unit-share and repeat-order cohorts over multiple years."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Letybo has passed FDA efficacy/safety review and Hugel reports expanding U.S. practice adoption.",
+        "A broad portfolio across toxin, HA filler, skinbooster and cosmetics gives clinics multiple aesthetic products from one supplier.",
+        "High gross margins and continued overseas volume growth indicate meaningful willingness to pay and product acceptance."
+      ],
+      "counter_evidence": [
+        "Physician switching costs among approved aesthetic toxins are not structurally high, and price/promotion can influence purchasing.",
+        "Company-reported practice integration does not equal independently verified sell-through, retention or superior clinic economics."
+      ],
+      "confidence": 0.8,
+      "missing_data": [
+        "Clinic-level retention, reorder frequency, net price and customer ROI by geography."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Regulatory approvals, biologics manufacturing know-how, quality systems and country-specific commercial infrastructure create barriers beyond simple consumer-brand marketing.",
+        "International sales are broadening across APAC, the Americas and Europe rather than relying on one export market.",
+        "Direct U.S. commercialization can deepen physician relationships and capture distributor economics if scale is achieved."
+      ],
+      "counter_evidence": [
+        "The toxin category has multiple approved competitors and low end-customer switching friction relative to software/network businesses.",
+        "Ongoing litigation and country-specific regulation can weaken the effective moat even if the product remains clinically competitive.",
+        "Price competition could erode the high-margin economics that currently support the moat thesis."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "Long-run U.S. share, net pricing and physician retention relative to competing neurotoxins."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 2026 mechanical OCF-minus-PP&E was approximately KRW 72.3bn, around 28.4% of revenue, while TTM secondary data show roughly KRW 148.3bn of FCF.",
+        "Historical operating and gross margins are high, and the balance sheet allows global commercial investment without equity financing.",
+        "International toxin revenue is scaling quickly, creating a credible route to leverage existing manufacturing and regulatory investment."
+      ],
+      "counter_evidence": [
+        "H1 operating profit grew only 8.4% versus 27.2% revenue growth because U.S. direct-sales/marketing investment reduced near-term operating leverage.",
+        "Maintenance versus growth capex is not separately disclosed, so reported FCF is not automatically normalized owner cash.",
+        "Treasury-stock and option issuance can reduce FCF-per-share compounding even if corporate FCF grows."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "U.S. commercial cohort profitability and a cleaner maintenance-capex split."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Management has executed multiple international approvals while maintaining strong margins and a large net-cash position.",
+        "CEO and board-chair roles are separated, and the audit committee includes independent directors with accounting and global healthcare experience.",
+        "The company is investing directly in U.S. commercialization rather than relying indefinitely on third parties."
+      ],
+      "counter_evidence": [
+        "The controlling sponsor continues to evaluate strategic governance options, including previously reported delisting-related alternatives, without a finalized outcome.",
+        "Approximately 1.5m treasury shares and material option grants create an ownership-allocation overhang; the August 2026 shareholder meeting approved treasury-stock use for employee compensation and retention.",
+        "A large portion of the controlling holder's shares is pledged under sponsor-level arrangements, creating governance/liquidity risk even though it is not Hugel corporate debt."
+      ],
+      "confidence": 0.7,
+      "missing_data": [
+        "Final sponsor exit/governance plan, realized treasury-stock usage and long-run dilution per share."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "June 2026 cash and short-term investments were approximately KRW 606.2bn versus debt of approximately KRW 28.3bn.",
+        "Current assets were approximately KRW 764.4bn versus current liabilities of approximately KRW 101.3bn.",
+        "The business remains strongly profitable and cash generative while funding international expansion internally."
+      ],
+      "counter_evidence": [
+        "Litigation, regulatory actions or a severe commercial disruption could consume cash, although current liquidity provides substantial absorption capacity."
+      ],
+      "confidence": 0.94,
+      "missing_data": [
+        "No material near-term liquidity gap identified; monitor contingent legal cash claims."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At a KRW 231,000 reference price, modeled Base value is approximately KRW 338,000, about 46% above the reference.",
+        "Under Base owner-cash assumptions, reverse expectations require only about 4.0% annual revenue growth for years 1-5 and about 2.0% for years 6-10.",
+        "The large net-cash balance materially reduces enterprise-value risk at the reference price.",
+        "2026-09-12 재검증: 관측가격 231000 KRW; Bear/Base/Bull 149512.2338/338373.6999/626263.3719. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Base value depends on normalized owner-cash margins remaining in the high-20s despite heavier U.S. commercial spending and competition.",
+        "Base and Bull have material terminal-value dependence, and per-share value is sensitive to treasury-stock/options treatment.",
+        "An unresolved legal or regulatory shock can invalidate a purely financial DCF faster than ordinary margin sensitivity suggests."
+      ],
+      "confidence": 0.79,
+      "missing_data": [
+        "Independent U.S. net pricing/share, exact diluted-share trajectory and final CAFC/legal outcomes."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json",
+        "companies/145020/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bull value is approximately KRW 674,000, nearly 3x the reference price, if Hugel becomes a scaled global toxin franchise with high owner-cash margins.",
+        "The price sits much closer to modeled Bear than Bull; a mechanical two-state interpolation requires only about 16.6% Bull weight, which indicates modeled upside asymmetry rather than a probability forecast.",
+        "Net cash lowers financial-distress risk and gives the company time to invest through the U.S. commercialization phase.",
+        "2026-09-12 재검증: 관측가격 231000 KRW; Bear/Base/Bull 149512.2338/338373.6999/626263.3719. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Bear value near KRW 143,000 implies roughly 38% downside, and legal/regulatory or permanent pricing damage could produce outcomes below the modeled Bear.",
+        "Medical-aesthetics competition can compress price and share simultaneously, limiting the extreme right-tail if physician switching remains easy.",
+        "기존 Bear/Base/Bull 할인율 11%/10%/9%를 동일 10%로 재계산한다. Bull 가치는 약67.39만원에서62.63만원으로 낮아진다. 주식 수와 접근 가능 현금의 시나리오 차이는 명시적으로 유지하되, 낙관적 할인율로 만든 우측 수익을 배제하고 비대칭 점수를 8→7로 낮춘다. 회사품질 59/75와 Base 약33.84만원은 유지한다."
+      ],
+      "confidence": 0.74,
+      "missing_data": [
+        "Scenario probabilities are unknown and are not inferred from the two-state diagnostic."
+      ],
+      "source_paths": [
+        "companies/145020/analyses/2026-09-12-deep/assessment.json",
+        "companies/145020/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "REVISED_WITH_REASON",
+      "prior_score": 8
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "severity": "medium",
+        "confidence": 0.86,
+        "evidence": [
+          "FY2025 audit opinion was unqualified with no going-concern uncertainty; board and audit-committee structures provide formal oversight. No evidence reviewed establishes accounting manipulation or management-integrity impairment."
+        ],
+        "resolution_needed": "Reopen on any audit qualification, material control weakness, related-party abuse, misleading strategic disclosure or adverse integrity finding."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "severity": "low",
+        "confidence": 0.97,
+        "evidence": [
+          "Approximately KRW 578bn net cash, strong profitability and positive cash generation make external financing unnecessary for current operations and announced commercialization investment."
+        ],
+        "resolution_needed": "Reopen only if acquisitions, litigation or operating deterioration consume liquidity enough to create recurring funding needs."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "severity": "high",
+        "confidence": 0.88,
+        "evidence": [
+          "Approximately 1.5m treasury shares remain relative to about 11.0m outside shares, accumulated option grants are material, and a 2026 conversion increased issued shares. Treasury stock is explicitly intended in part for employee equity compensation."
+        ],
+        "resolution_needed": "Track annual outside-share count, option exercise/forfeiture, treasury-stock disposal terms and per-share FCF. Clear only after evidence shows dilution is modest and economically disciplined."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "severity": "medium",
+        "confidence": 0.84,
+        "evidence": [
+          "Growth is supported by regulated product sales across multiple geographies and H1 cash generation, not by externally financed customer subsidies."
+        ],
+        "resolution_needed": "Reopen if U.S. sales require sustained discounting/marketing intensity that prevents normalized owner-cash leverage or if channel inventory outruns sell-through."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "severity": "medium_high",
+        "confidence": 0.8,
+        "evidence": [
+          "U.S. direct-sales investment caused revenue growth to outpace operating-profit growth materially in H1 2026. Corporate cash economics remain strong, but the incremental return on the new U.S. commercial infrastructure is not yet demonstrated."
+        ],
+        "resolution_needed": "Require improving U.S. reorder/share evidence and operating or owner-cash leverage as the direct-sales build matures."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "severity": "medium",
+        "confidence": 0.78,
+        "evidence": [
+          "Regulatory footprint, international sales and U.S. commercialization are expanding rather than contracting; no evidence reviewed shows sustained loss of product access or manufacturing capability."
+        ],
+        "resolution_needed": "Reopen on persistent share loss, net-price erosion, regulatory exclusion or inferior physician retention."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "severity": "medium",
+        "confidence": 0.85,
+        "evidence": [
+          "Reference price is materially below modeled Base and reverse expectations require modest growth under normalized high-20s owner-cash margins."
+        ],
+        "resolution_needed": "Reopen if price rises substantially without corresponding operating evidence, or if normalized owner-cash margin proves structurally below the model range."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "severity": "medium_high",
+        "confidence": 0.82,
+        "evidence": [
+          "Botulinum toxin represented roughly 59% of H1 2026 revenue. Fillers, skinboosters, cosmetics and geographic diversification reduce but do not eliminate dependence on the toxin franchise and medical-aesthetics regulation."
+        ],
+        "resolution_needed": "Track non-toxin contribution, U.S./China/Europe diversification and whether a major toxin regulatory event would still threaten a disproportionate share of owner cash."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "severity": "medium_high",
+        "confidence": 0.8,
+        "evidence": [
+          "Balance-sheet insolvency risk is low, but legal/regulatory franchise damage, sustained price compression, sponsor/governance actions or material dilution could impair per-share value without bankrupting the company. Modeled Bear is about 38% below the reference price."
+        ],
+        "resolution_needed": "Require continued legal/regulatory containment, disciplined dilution and evidence that U.S. commercialization converts to durable per-share cash flow."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.04020418488749555,
+      "repriced_value": 231000.0000000001,
+      "price_residual": 8.731149137020111e-11,
+      "growth_basis": "Revenue growth g in years 1-5 and g/2 in years 6-10; 10% hurdle.",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 149512.2337781821,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 338373.69985233754,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 626263.3719182584,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/145020/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "DELAYED_KOREAN_CLOSE",
+    "approved_for_trading": false
+  },
+  "permanent_loss_case": "The permanent-loss case is not primarily insolvency. It is a combination of U.S. commercialization failing to generate profitable physician retention, sustained toxin price compression, an adverse legal/regulatory outcome that restricts key-market access, and treasury/options being used in a way that transfers a meaningful portion of future cash economics away from current outside shareholders. In that case a cash-rich company could remain solvent while per-share intrinsic value is permanently impaired.",
+  "falsifiers": [
+    "U.S. Letybo practice count grows but reorder/sell-through and net revenue per practice fail to scale, showing distribution breadth without durable demand.",
+    "Overseas toxin growth falls to low single digits for multiple periods while gross margin and net pricing deteriorate.",
+    "Direct-sales SG&A remains structurally elevated without recovery in operating or owner-cash leverage after the build phase.",
+    "A material adverse CAFC/regulatory outcome restricts U.S. or another major-market commercialization.",
+    "Outside diluted share count compounds materially faster than owner cash because treasury shares/options are repeatedly used for compensation or sponsor-related actions.",
+    "The controlling shareholder executes a governance transaction that demonstrably disadvantages minority holders."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods of U.S. direct-sales evidence showing repeat ordering, share gains and improving commercial efficiency.",
+    "Normalized owner cash per diluted outside share grows despite U.S. investment and option/treasury activity.",
+    "Treasury-stock and option policy produces modest net dilution or clear value received for any reissued shares.",
+    "CAFC and Korean regulatory proceedings remain contained without restricting core market access.",
+    "Price remains below Base value with no upward revision based solely on price action."
+  ],
+  "sell_evidence": [
+    "Material adverse legal/regulatory decision that weakens the right to sell Letybo in a major market or undermines manufacturing legitimacy.",
+    "Sustained net-price erosion and physician-share loss indicating moat contraction rather than normal competitive investment.",
+    "Repeated dilution or treasury-stock transfer causes per-share owner cash to stagnate while corporate earnings grow.",
+    "U.S. direct-sales economics remain subscale and permanently depress incremental ROIC.",
+    "Audit/integrity evidence moves management_or_accounting_integrity to FAIL."
+  ],
+  "red_team": {
+    "independence": "Same analyst/model performed the red team; this is adversarial self-review, not an independent investment committee opinion.",
+    "verdict": "REVISE",
+    "attacks": [
+      {
+        "id": 1,
+        "attack": "Letybo is a commodity-like toxin entering a crowded U.S. category; approval is not a moat.",
+        "response": "Accepted in part. The moat score is 11/15, not elite. The thesis requires physician retention, regulatory scale and distribution economics, not approval alone."
+      },
+      {
+        "id": 2,
+        "attack": "The 9,000-practice figure is promotional and may hide weak reorder intensity.",
+        "response": "Accepted. It is explicitly labeled company-reported and repeat-order/sell-through data are an increase-evidence gate."
+      },
+      {
+        "id": 3,
+        "attack": "H1 margin compression proves growth is becoming marketing-dependent.",
+        "response": "Possible but not yet established. Overall margins and cash generation remain high, so low-quality growth is PASS while incremental ROIC stays INVESTIGATE."
+      },
+      {
+        "id": 4,
+        "attack": "Medytox litigation can re-open U.S. franchise risk despite the ITC win.",
+        "response": "Yes. The ITC final determination was favorable, but CAFC appeal remains an open tail risk and is retained in permanent-loss analysis."
+      },
+      {
+        "id": 5,
+        "attack": "The large net-cash balance flatters reverse DCF and may never reach minority shareholders.",
+        "response": "This is a central governance caveat. The model adds current net cash once, but management/capital allocation receives only 6/10 and sponsor/treasury actions remain monitored."
+      },
+      {
+        "id": 6,
+        "attack": "Treasury shares are effectively a hidden dilution pool.",
+        "response": "Potentially. Persistent dilution remains INVESTIGATE and scenario share counts explicitly penalize Bear/Base rather than treating current outside shares as permanently fixed."
+      },
+      {
+        "id": 7,
+        "attack": "A PE-controlled board may prioritize sponsor exit mechanics over long-term minority value.",
+        "response": "The formal governance structure is stronger than pure sponsor control, but the risk is real and contributes to the 6/10 management score and WATCH decision."
+      },
+      {
+        "id": 8,
+        "attack": "The DCF Base assumes high-20s owner margin for a decade, which is too generous once U.S. commercialization scales.",
+        "response": "That is the main valuation sensitivity. Bear drops owner margin to roughly 19%-21%; Base is only credible if direct-sales spending produces operating leverage."
+      },
+      {
+        "id": 9,
+        "attack": "Botulinum toxin concentration means one regulatory event can break the thesis.",
+        "response": "Correct. Fatal concentration stays INVESTIGATE despite filler/cosmetics and geographic diversification."
+      },
+      {
+        "id": 10,
+        "attack": "The apparently cheap price may simply discount sponsor uncertainty, litigation and slower U.S. share gains correctly.",
+        "response": "Possible. The favorable expectation gap justifies deep monitoring, not automatic purchase; unresolved veto items keep the decision at WATCH."
+      }
+    ]
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/145020/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "PRIMARY_LED_WITH_SECONDARY_CROSS_CHECKS",
+    "primary_document_reaudit": "FY2025 filing/audit, KRX/DART disclosure trail, company IR/regulatory evidence and governance filings were used as primary anchors. Market datasets and press supplement price, derived TTM statistics and current-context checks.",
+    "source_conflicts": [
+      "Market-cap and shares-out figures differ across vendors because treasury shares are treated differently. Issued, treasury and modeled diluted shares are therefore stated separately.",
+      "Secondary datasets can differ slightly from audited cash-flow classifications; valuation does not rely on sub-billion-won differences in historical OCF."
+    ],
+    "fact_estimate_inference_opinion": "Filed/reported historical figures and regulatory decisions are facts; DCF/reverse-expectation values are estimates; moat/capital-allocation interpretation is inference/opinion; score and decision are analyst opinion.",
+    "missing_data_rule": "Unknown evidence is not converted to zero or PASS. Open dilution, U.S. unit economics, concentration and permanent-loss questions remain INVESTIGATE."
+  },
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "data_as_of": "2026-09-12",
+  "review_note_ko": "톡신·필러의 규제 진입장벽과 글로벌 판매 확대, 순현금은 강점이다. 미국 직판의 반복주문·판가와 판매비 회수가 아직 충분히 증명되지 않았다. 자사주 재교부·옵션·지배주주 담보 및 CAFC/국내 행정사건을 추적한다. 이전76점 보고서,9/12 canonical80점,이번79점의 모형·품질 차이를 구분한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 80,
+    "review_source_score": 80,
+    "reviewed_score": 79,
+    "prior_canonical_assessment": "companies/145020/analyses/2026-09-12-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": "기존 Bear/Base/Bull 할인율 11%/10%/9%를 동일 10%로 재계산한다. Bull 가치는 약67.39만원에서62.63만원으로 낮아진다. 주식 수와 접근 가능 현금의 시나리오 차이는 명시적으로 유지하되, 낙관적 할인율로 만든 우측 수익을 배제하고 비대칭 점수를 8→7로 낮춘다. 회사품질 59/75와 Base 약33.84만원은 유지한다.",
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

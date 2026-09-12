@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "issuers": 93,
+  "full_analysis_rechecked": 43,
+  "selected": 11,
+  "selected_score_sum": 854,
+  "weight_sum_bp": 10000,
+  "baseline_raw_files_unchanged": 25,
+  "current_raw_files": 29,
+  "policy_files_unchanged": 8,
+  "verified_input_files": 491,
+  "observations_with_valid_raw_pointers": 4596,
+  "supplemental_numeric_observations_with_explicit_unit_bridges": 42,
+  "reviewed_paraphrases_not_counted_as_exact_raw_values": 2,
+  "historical_metric_documents_preserved_but_not_counted_as_formula_replay": [
+    "companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json",
+    "companies/TMDX/analyses/2026-09-11-deep/derived-metrics.json",
+    "companies/CRDO/analyses/2026-09-11-deep/derived-metrics.json"
+  ],
+  "reproduced_derived_metrics": 24,
+  "reproduced_review_artifacts": 219,
+  "frozen_replay": {
+    "initial": 425,
+    "deep": 344
+  },
+  "buy_authorizations": 0
+}

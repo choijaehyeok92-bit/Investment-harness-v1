@@ -1,0 +1,76 @@
+{
+  "ticker": "TSM",
+  "source_assessment": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/TSM/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "2f163c0650a156a1d131e94217260813330010f6d75536ee3198703009175891",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "142446abec37ce5dcc29b1fd447488c3ba04c49c9b56cc8c880390d0bc7c97b4",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "071f7b6e6ee050248985eda78dc8d6fb326e9f08fba9fbf571a588d08f364914",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "7ede507b0c1fa43177be21fbc8ba52e042337db84ec32739cefdb33a501538ec",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "fb7e9204816e380304bc62060fdbf146b44492def497c75494fbca6150295926",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

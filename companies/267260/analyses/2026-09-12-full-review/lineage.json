@@ -1,0 +1,81 @@
+{
+  "ticker": "267260",
+  "source_assessment": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/267260/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "e76113fe40264e8215e114fedd8064550f195fff01fee7c910f35ad94bb06c5a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "91e5b9f0120c21eddbba9cfc015f7305ac7f8e718f7ebf340adc6df8fb88989a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "f766d1b538fe9212c5bb0203c5b208e16a0a92d3705c3c8793cb1fdbe648d861",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "df65f5a9f7a0448e6a44fe5ed849b161264f59bc6150be72c0d7ebe8c279162e",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "aea7221fbc7020428510b561d07a3e96d802beeefd9314a66786162f6af80469",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/267260/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "35e65e9b34654fe799dfd66680ab7b9e42042dbecd0a157f0710b282bf64c7a6",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

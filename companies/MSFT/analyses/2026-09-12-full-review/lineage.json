@@ -1,0 +1,86 @@
+{
+  "ticker": "MSFT",
+  "source_assessment": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "ad9e31730adb6fb36393c1cf2f9e45e5ff600578ca9e7ccb120f6e6072c4e3fe",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "5bc07d975e6cf5d42a386e9b42316821370c9b6d8c350e7cdcdbb2d0bd665213",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "7f3d8daa5e7921bb6e54b293513477eb7aefc0f482644e90b63a7389d8b9b2c9",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "d0adaf3a6e4d60d7ee8ab644a2273958656131a5fb04c865f7d1b75fcad126e8",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "f3b120b0b08875e96b4958ca6e65992c471507e5ebef779c182b1671ae0551d9",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MSFT/raw-data/2026-09-02-nodes-35176-35181.json",
+      "sha256": "0b9015ac4a83efd25f6a5915982bd40c75af13ccc76eadd117392169931e8d01",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MSFT/raw-data/2026-FY.json",
+      "sha256": "2dfb8ace769ec0f222ad2b9ce697b92dcec20894b26388237014e18bb271afc6",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

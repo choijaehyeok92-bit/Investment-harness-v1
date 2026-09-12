@@ -1,0 +1,424 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "214450",
+  "company_name": "PharmaResearch",
+  "as_of": "2026-09-12",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 60,
+  "business_quality_75": 60,
+  "total_score_100": 81,
+  "required_return": 0.1,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "REJURAN's domestic clinical brand, PN/PDRN manufacturing know-how and physician channel are increasingly translating into a global regenerative-aesthetics platform. H1 2026 exports rose 47% and reached 44% of sales, while European medical-device rollout and U.S. cosmetics localization broaden the growth vector. The thesis still depends on proving that overseas sell-through, regulatory approvals and repeat procedure economics persist beyond initial channel buildout.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately KRW0.604T revenue, KRW0.238T operating income, KRW0.195T net income and KRW0.173T operating cash flow. TTM disclosed PPE purchases were about KRW0.035T, leaving mechanical OCF-minus-PPE of about KRW0.138T. This is not normalized owner FCF because H1 cash conversion weakened despite higher earnings, working capital, intangible/R&D cash investment, acquisitions and growth capex are not fully normalized.",
+  "economic_finding": "H1 2026 revenue was KRW324.8B and operating profit KRW123.8B, with 38.1% operating margin; exports were KRW142.8B, up 47%, representing 44% of sales. Q2 exports reached KRW84.0B and 47% of quarterly sales. Medical-device export growth and cosmetics export growth support a broadening international demand base, but channel sell-through and country-level repeat usage remain more important than shipment growth alone.",
+  "capital_and_survival": "June 2026 cash and cash equivalents were about KRW220.3B. Reported borrowings including bonds were KRW213.7B, but approximately KRW207.3B was redeemable convertible preferred-share liability; bank borrowings were only about KRW0.5B. The existing Base model treats the preferred claim as a redemption cash claim and does not simultaneously add conversion shares. Plant 5 and CG USA expand strategic capacity, but their realized incremental returns remain unproven.",
+  "permanent_loss_case": "REJURAN growth slows after channel fill; competing PN/biostimulator products narrow pricing and physician preference; U.S. medical approval takes longer or requires a less favorable regulatory path; Plant 5 and CG USA absorb capital at low utilization; H1-style cash conversion weakness persists; RCPS converts or is redeemed on terms that reduce common-holder value; and a brand/regulatory shock hits a business still economically concentrated in the REJURAN ecosystem. The company can remain solvent while per-share owner cash and valuation compress for years.",
+  "falsifiers": [
+    "Overseas shipment growth fails to convert into repeat sell-through, reorder growth and cash collection for at least two reporting periods.",
+    "Medical-device or cosmetics export growth slows materially while domestic REJURAN demand also weakens.",
+    "A material safety, regulatory or reimbursement issue impairs the REJURAN franchise in a major market.",
+    "Plant 5 or CG USA ramps with low utilization or after-tax returns below the 10% hurdle.",
+    "OCF per share persistently lags earnings growth after receivables, inventory and channel working capital normalize.",
+    "RCPS rights create materially worse common-share economics than the current redemption/conversion sensitivity range.",
+    "New PN/biostimulator competitors cause sustained price, procedure-share or physician-adoption erosion.",
+    "U.S. medical-device approval pathway becomes materially longer or more capital-intensive than current planning assumptions.",
+    "Management revisits a shareholder-unfriendly restructuring without stronger minority-shareholder protections.",
+    "Normalized owner margin falls structurally below the low-20s while growth also normalizes."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods showing overseas sell-through, reorder growth and OCF per share improving together.",
+    "Evidence that Plant 5 and CG USA generate after-tax incremental returns above the 10% hurdle after ramp.",
+    "REJURAN Europe expands across the contracted 22-country network with durable physician adoption rather than one-time distributor stocking.",
+    "U.S. cosmetics local manufacturing improves gross-to-cash economics and does not require value-destructive acquisition follow-ons.",
+    "The RCPS is redeemed, converted or otherwise resolved with clearly quantified common-share economics and no double counting of claim/dilution.",
+    "Product mix broadens beyond a single REJURAN franchise while medical-device and cosmetics margins remain strong.",
+    "Expectation gap remains favorable at a 10% required return; price decline alone is insufficient without the business evidence above."
+  ],
+  "sell_evidence": [
+    "Two or more periods of deteriorating REJURAN sell-through, export reorder rates and OCF per share.",
+    "Material regulatory or safety impairment to REJURAN in Korea, Europe or another major market.",
+    "Plant 5/CG USA capital earns returns below the hurdle while management continues aggressive expansion.",
+    "Persistent receivable/inventory growth indicates distributor loading or weak end-demand conversion.",
+    "RCPS or other equity-linked financing causes material dilution without proportional owner-cash-per-share growth.",
+    "A renewed restructuring materially weakens minority-shareholder rights or creates an avoidable holding-company discount.",
+    "Competitive PN/biostimulator products cause sustained price or physician-share erosion.",
+    "Normalized owner margin and growth fall together such that the Base valuation no longer supports the thesis."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 2026 exports were KRW142.8B, up 47% YoY and 44% of consolidated sales; Q2 export share reached 47%.",
+        "REJURAN has a 22-country European distribution framework and 2026 rollout activity across Western Europe, while REJURAN Cosmetics is building U.S. retail/e-commerce and local manufacturing capability."
+      ],
+      "counter_evidence": [
+        "International expansion is still early in several markets and U.S. medical REJURAN is not yet approved."
+      ],
+      "confidence": 0.84,
+      "missing_data": [],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 operating margin remained 38.1% while revenue grew 26%, consistent with strong clinical/brand customer value rather than low-margin channel expansion.",
+        "The company operates recurring physician education and a broad REJURAN/REJUVIEL/biostimulator/toxin aesthetics portfolio."
+      ],
+      "counter_evidence": [
+        "Aesthetic procedures are discretionary, physician preference can shift and cosmetics brand demand is more trend-sensitive."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "Independent procedure-level repeat-rate and physician retention data by country."
+      ],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "European distribution and physician programs indicate the REJURAN brand and PN clinical proposition are traveling beyond Korea.",
+        "DOT PN/PDRN manufacturing know-how, regulatory history and physician education create a differentiated adoption stack."
+      ],
+      "counter_evidence": [
+        "The company claim that REJURAN is the only EU-MDR-approved PN medical device was not independently reconstructed, the original patent horizon creates a 2028 monitoring point, and the U.S. medical approval path remains uncertain.",
+        "Competing PN, PLLA and other biostimulator offerings can erode procedure share even if the category grows."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Independent country-level share, pricing and physician-retention data."
+      ],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM operating margin is about 39.4% and mechanical OCF-PPE is about KRW137.9B.",
+        "Strong demand has justified material capacity expansion and localization."
+      ],
+      "counter_evidence": [
+        "H1 OCF fell about 13.8% YoY while net income rose about 34.5%, and H1 PPE purchases rose about 33%.",
+        "Plant 5 and CG USA are new capital cohorts whose post-ramp after-tax incremental ROIC is not yet observable."
+      ],
+      "confidence": 0.7,
+      "missing_data": [
+        "Post-ramp invested-capital and NOPAT cohorts; normalized working-capital and intangible/R&D cash investment."
+      ],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "2025 payout increased to about 25% of consolidated net income and the company states an intention to maintain at least 25% payout from 2026.",
+        "The company cancelled treasury shares in 2025 and withdrew the proposed holding-company split after shareholder feedback.",
+        "CVC capital has been deployed toward international distribution and M&A/localization rather than balance-sheet repair."
+      ],
+      "counter_evidence": [
+        "The 2025 split proposal raised legitimate minority-shareholder-value concerns before being withdrawn.",
+        "CG USA purchase terms are undisclosed and the large RCPS package creates continuing rights/dilution complexity."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "Realized acquisition returns and final RCPS resolution economics."
+      ],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "June cash and cash equivalents were about KRW220.3B and operating cash flow remained positive.",
+        "Most of the KRW213.7B reported borrowings/bonds amount is the KRW207.3B RCPS liability; bank borrowings were minimal."
+      ],
+      "counter_evidence": [
+        "Plant 5, acquisitions and potential RCPS redemption can consume substantial cash simultaneously."
+      ],
+      "confidence": 0.87,
+      "missing_data": [],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At KRW349,500, retained Base value of about KRW633,662 is roughly 81% above price.",
+        "Holding Base economics requires only about 4.53% annual revenue growth in years 2-10 at a 10% hurdle after a KRW0.78T year-1 revenue base.",
+        "2026-09-12 재검증: 관측가격 342000 KRW; Bear/Base/Bull 160183.3327/633662.3291/1541105.2430. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Base value is highly sensitive to sustained 22-25% owner margins, a 22x terminal multiple and the treatment of RCPS rights; terminal value is about 69% of operating PV."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "Normalized owner cash after working-capital, growth capex and acquisition integration."
+      ],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json",
+        "companies/214450/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Retained Base/Bull values are about 1.81x/4.41x the reference price and the two-state Bear/Bull price location is only about 13.7% toward Bull.",
+        "Even an alternate RCPS-conversion treatment leaves Base value materially above the current price under retained operating economics.",
+        "2026-09-12 재검증: 관측가격 342000 KRW; Bear/Base/Bull 160183.3327/633662.3291/1541105.2430. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Retained Bear value is about 54% below price and a brand/regulatory shock can be nonlinear because the business remains concentrated in the REJURAN ecosystem."
+      ],
+      "confidence": 0.74,
+      "missing_data": [],
+      "source_paths": [
+        "companies/214450/analyses/2026-09-10-deep/assessment.json",
+        "companies/214450/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "The FY2025 audit report is published and no material accounting-integrity failure was identified in the reviewed filing evidence.",
+          "The withdrawn 2025 split proposal is treated as a governance/capital-allocation issue, not evidence of accounting misconduct."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.82,
+        "resolution_needed": "Reassess on audit, internal-control, related-party or disclosure deterioration."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "The company remains profitable and cash generative; current operating survival does not require repeated external financing.",
+          "The 2024 CVC RCPS was strategic growth capital, but it remains a claim that must be modeled separately from operating funding dependence."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.84,
+        "resolution_needed": "Monitor if Plant 5/M&A spending materially outruns internal cash generation."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "CVC's 1,175,647 RCPS carries conversion rights and represents about 11.3% of the current common-share denominator if converted one-for-one.",
+          "Base valuation treats the current preferred liability as a redemption claim; a conversion sensitivity removes that claim before adding shares, avoiding double counting."
+        ],
+        "severity": "RIGHTS_DILUTION_GATE_OPEN",
+        "confidence": 0.9,
+        "resolution_needed": "Resolve the RCPS path and quantify common-holder economics after conversion/redemption; do not count both cash redemption and conversion dilution simultaneously."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Revenue, operating profit and exports are all growing with high margins; no customer-financing or subsidy mechanism was identified.",
+          "H1 OCF weakness is material but not sufficient by itself to label reported growth low quality."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_CASH_MONITOR",
+        "confidence": 0.72,
+        "resolution_needed": "Track receivables, inventory, distributor sell-through and OCF/share for at least two periods."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "No collapse is proven, but Plant 5 and CG USA create large new capital cohorts while H1 cash conversion weakened.",
+          "Project-level after-tax incremental returns are not yet observable."
+        ],
+        "severity": "OPEN_EVIDENCE_GATE",
+        "confidence": 0.78,
+        "resolution_needed": "Measure post-ramp utilization, incremental NOPAT, working capital and cash returns versus the 10% hurdle."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Export growth, European rollout and physician engagement do not show persistent moat contraction.",
+          "The moat remains subject to patent, competitive and U.S.-regulatory monitoring."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.7,
+        "resolution_needed": "Track pricing, procedure share, physician retention and competitor adoption."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "At KRW349,500, retained Base economics require about 4.53% annual revenue growth in years 2-10 at a 10% hurdle, well below recent growth rates.",
+          "Current price is materially below retained Base value, so a Bull-only path is not required."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.86,
+        "resolution_needed": "Reopen if price rises materially without corresponding owner-cash evidence or Base assumptions deteriorate."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Geographic and category diversification is improving, but a large portion of economic value still depends on the REJURAN brand/PN ecosystem.",
+          "A product-safety, regulatory or physician-preference shock could affect both the medical-device franchise and associated cosmetics halo."
+        ],
+        "severity": "PRODUCT_BRAND_CONCENTRATION_GATE_OPEN",
+        "confidence": 0.76,
+        "resolution_needed": "Require clearer product-level revenue/profit diversification and evidence that non-REJURAN platforms can offset a flagship shock."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "PASS",
+        "evidence": [
+          "The balance sheet and current valuation discount reduce the probability of permanent capital impairment relative to the prior price.",
+          "Open RCPS, incremental-ROIC and flagship-concentration gates remain explicit and can reopen this veto if evidence worsens."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_OPEN_SUBGATES",
+        "confidence": 0.7,
+        "resolution_needed": "Reassess immediately if sell-through, cash conversion, regulatory status or common-holder rights deteriorate."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "red_team": {
+    "verdict": "REVISE",
+    "attacks": [
+      "European distributor stocking is mistaken for durable patient/physician sell-through.",
+      "A competing PN or other biostimulator product reduces REJURAN pricing power and procedure share.",
+      "The U.S. FDA classifies the medical REJURAN pathway less favorably than management expects, delaying entry and increasing trial/CMC cost.",
+      "Patent expiry or design-around risk after 2028 reduces exclusivity faster than brand/clinical network can compensate.",
+      "CG USA integration and Plant 5 produce low utilization or low incremental returns.",
+      "H1 cash conversion weakness persists as receivables, inventory and channel working capital grow faster than sales.",
+      "The REJURAN Cosmetics halo proves more fashion-sensitive than the medical franchise.",
+      "RCPS conversion or redemption transfers more value to the preferred holder than Base assumptions anticipate.",
+      "Management again pursues a structure perceived as minority-shareholder unfriendly.",
+      "A safety or regulatory event hits the REJURAN master brand and simultaneously affects multiple product categories."
+    ],
+    "independence": "Same analyst/model adversarial review; not independent committee approval.",
+    "source_verdict": "REVISE_NOT_REJECT"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/214450/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.04236869365935403,
+      "repriced_value": 342000.00000000023,
+      "price_residual": 2.3283064365386963e-10,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 160183.33273777316,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 633662.3291235663,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 1541105.2430450895,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/214450/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "DELAYED_KOREAN_CLOSE",
+    "approved_for_trading": false
+  },
+  "source_paths": [
+    "companies/214450/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/214450/analyses/2026-09-10-deep/assessment.json",
+    "companies/214450/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/214450/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/214450/analyses/2026-09-10-deep/valuation.json",
+    "companies/214450/raw-data/2025-2026-supplied-filings.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/214450/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "리쥬란·PN/PDRN의 임상 브랜드와 해외 유통 확장을 인정한다. H1 수출47% 증가에도 OCF는 전년동기보다 감소했다. 유럽 반복주문, 미국 화장품과 미허가 의료제품의 구분, RCPS 상환·전환권, 증설 및 인수 회수가 핵심이다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 81,
+    "review_source_score": 81,
+    "reviewed_score": 81,
+    "prior_canonical_assessment": "companies/214450/analyses/2026-09-10-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "ticker": "MPWR",
+  "source_assessment": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/MPWR/analyses/2026-09-08-prelim/assessment.json",
+      "sha256": "43588c7bd902947f5e334bc252db98583618cd0289be76b1a42639d5776bc4df",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "3e423bbbee9256baa13d444901ec53e6e76a3be891e6b17202680601b6421678",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "b3079665b6a1260608d6e2625b8b882c49e45ba22c6fb0ce65c2b814ce4bf428",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "72e95af30ead69d15c077815df368c6e8bdbf93b73ee889f4f51194b2ddad67b",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "f7189f59343d4b304150bff0a201be5f78e21f18b1999e908e195aa094ab21d2",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

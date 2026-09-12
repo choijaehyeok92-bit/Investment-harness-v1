@@ -1,0 +1,96 @@
+{
+  "ticker": "VRT",
+  "source_assessment": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "402d97d33a6e656c4de2465d54ecbf65c54412d4321570e4bc7c97f95e6b0a36",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/derived-metrics.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/evidence-ledger.json",
+      "sha256": "d6ec9288dc6342e4fad7d97c25860cb70dc05f46be73bd786352cc2019173336",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/financials.json",
+      "sha256": "afeb828d084c8a95587df899a501d71f151a962c2406973e6efb5d4b99cea1b5",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "e8dc81d756aba4aeb30cdcb54f3cc2feabf0b44d81f730223c7c641e89055967",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/observations.json",
+      "sha256": "bf5e2fa8c16e731f51c99476bcdc1cfc792dea2d78c668ed1e79ddf5b70c4a8a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/thesis.ko.md",
+      "sha256": "df0b30c3c10c6541cdb1272a49815d138331e7ad620a5a0ac76095cb7f32429b",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "b711fa484034535c2d972872394ff2ecf65dc7a7378d921e767909e4faf863fc",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRT/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "7d1dd1c110dfdd3c7d7fe6b098f2dfc148b42d3038490c0a08fcb653fc1610ff",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

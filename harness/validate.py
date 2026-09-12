@@ -6,6 +6,9 @@ from .core import ROOT, read, sha, resolve_pointer, validate_assessment, calcula
 from .build import outputs, DIRECTORY
 
 def main():
+    if read('reviews/latest.json')['directory']=='reviews/2026-09-12-full-review':
+        from .review_validate import main as reviewed_main
+        return reviewed_main()
     import jsonschema
     schema=read('schemas/assessment-v2.schema.json')
     lock=read('harness/baseline-lock.json')

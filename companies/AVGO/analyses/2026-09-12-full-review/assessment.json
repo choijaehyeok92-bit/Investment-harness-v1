@@ -1,0 +1,424 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "AVGO",
+  "company_name": "Broadcom",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 65,
+  "business_quality_75": 65,
+  "total_score_100": 81,
+  "required_return": 0.09,
+  "source_paths": [
+    "companies/AVGO/analyses/2026-09-06-deep/assessment.json",
+    "companies/AVGO/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/AVGO/analyses/2026-09-06-deep/valuation.json",
+    "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+    "companies/AVGO/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/AVGO/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/AVGO/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-10-avgo-deep/source-manifest.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/AVGO/analyses/2026-09-06-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "portfolio_context": "Actual portfolio exposure, tax basis and risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Broadcom combines hyperscaler custom AI accelerators and Ethernet/networking with a high-cash-generation infrastructure-software franchise. Q3 FY2026 confirms that AI semiconductor growth is accelerating while VMware software revenue also grows, but the investment case now depends on preserving design-win economics and software retention while avoiding finance-supported AI demand, excessive customer concentration and regulatory erosion of VMware monetization.",
+  "current_finding": "Q3 FY2026 revenue was $29.591B, up 86% year over year; AI semiconductor revenue was $16.7B, up 221%, infrastructure software revenue was $8.752B, up 29%, and free cash flow was $13.665B. TTM revenue, GAAP net income and reported free cash flow are approximately $89.104B, $38.265B and $39.403B.",
+  "economic_finding": "The semiconductor moat is supported by long-cycle custom-ASIC co-design, advanced networking and scale, while VMware creates a second software cash-flow engine. However, hyperscaler design wins are contestable: Marvell and Qualcomm have secured large custom-silicon relationships, so Broadcom's moat should be judged by retained design share, economics and networking attach rather than AI market growth alone.",
+  "capital_and_survival": "Liquidity and cash generation are strong. August 2 cash was about $23.975B against approximately $59.419B of short- and long-term debt, leaving net debt of roughly $35.4B, below one turn of TTM reported FCF. The main capital risk is not solvency but contingent and ecosystem exposure: Broadcom disclosed a five-year AI-rack lease backstop with maximum exposure of $29B and may provide alternative or deferred financing to support AI infrastructure demand.",
+  "permanent_loss_case": "Hyperscaler AI capex slows while competing custom silicon captures design wins, Broadcom's rack-financing/backstop exposure converts into cash obligations, VMware pricing and bundling face customer churn or regulatory remedies, and a high-duration valuation compresses. Broadcom can remain solvent and profitable yet still suffer long-duration capital impairment if FCF per share normalizes well below current embedded expectations.",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 15,
+      "max_score": 15,
+      "evidence": [
+        "Q3 FY2026 AI semiconductor revenue reached $16.7B, up 221% year over year, while management guided Q4 AI semiconductor revenue to $21.7B.",
+        "Broadcom participates across custom accelerators, Ethernet switching, optical/connectivity and infrastructure software, giving it multiple control points in AI data-center architecture."
+      ],
+      "counter_evidence": [
+        "The custom-silicon opportunity is structurally expanding, but leadership is not exclusive; Marvell and Qualcomm have announced major hyperscaler custom-AI relationships."
+      ],
+      "confidence": 0.92,
+      "missing_data": [
+        "Independent long-horizon custom-accelerator design-share series by hyperscaler"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "evidence": [
+        "Q3 AI semiconductor revenue accelerated to $16.7B and infrastructure software revenue grew 29%, indicating customers continue to pay for both custom compute/networking and VMware infrastructure capabilities.",
+        "OpenAI and Broadcom disclosed a multi-generation custom intelligence processor collaboration, supporting the value of Broadcom's co-design platform."
+      ],
+      "counter_evidence": [
+        "A June 2026 AI-rack financing structure and Broadcom backstop show that at least some customer infrastructure deployment may require financing support rather than pure immediate end-customer cash funding.",
+        "VMware customers and European cloud groups continue to challenge pricing, bundling and licensing changes."
+      ],
+      "confidence": 0.86,
+      "missing_data": [
+        "Customer-level AI rack ROI, renewal cohorts and VMware churn/retention by product tier"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "evidence": [
+        "AI semiconductor revenue rose 221% year over year in Q3, consistent with expanding design wins and networking attach during a rapid architecture transition.",
+        "Infrastructure software revenue rose 29%, showing VMware monetization remains economically meaningful after integration."
+      ],
+      "counter_evidence": [
+        "Marvell's expanded Google custom-silicon relationship and Qualcomm's Amazon custom-AI agreement demonstrate that hyperscalers can multi-source or shift design work to credible alternatives.",
+        "Open networking standards and hyperscaler internal engineering can reduce switching friction over time."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "Broadcom share of each hyperscaler's accelerator and networking spend across multiple generations"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 12,
+      "max_score": 15,
+      "evidence": [
+        "TTM reported free cash flow is approximately $39.403B; subtracting TTM SBC once gives a conservative owner-cash diagnostic of about $30.919B.",
+        "Q3 free cash flow was $13.665B, 46% of revenue, while net debt is below one turn of TTM reported FCF."
+      ],
+      "counter_evidence": [
+        "The $29B maximum AI-rack lease backstop and disclosed ability to provide alternative or deferred financing expand the economic capital base beyond ordinary semiconductor R&D and working capital.",
+        "Accounts receivable and inventory increased materially during FY2026, so incremental economics must be measured after customer finance, working capital and contingent obligations."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Q3 10-Q commitment detail, realized cash return on financed AI racks, and multi-period FCF-per-share after SBC and contingent support"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "VMware integration has produced a large, growing software revenue and cash-flow contribution while Broadcom continues to reduce acquisition leverage through strong cash generation.",
+        "Management has repeatedly secured large custom-AI design programs and converted them into rapidly growing reported revenue."
+      ],
+      "counter_evidence": [
+        "Broadcom is now accepting material contingent customer-financing exposure through the AI-rack lease backstop, raising the hurdle for proving that ecosystem support earns an adequate risk-adjusted return.",
+        "SBC remains economically material and should not be ignored merely because repurchases offset part of dilution."
+      ],
+      "confidence": 0.82,
+      "missing_data": [
+        "Realized returns on customer-financing structures and long-run repurchase/SBC share-count bridge"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "evidence": [
+        "August 2 cash was about $23.975B and TTM reported FCF about $39.403B against approximately $59.419B of short- and long-term debt.",
+        "Current cash generation can service acquisition debt without structural dependence on equity issuance."
+      ],
+      "counter_evidence": [
+        "The $29B maximum rack-backstop exposure is large relative to cash on hand and is correlated with the same AI-capex cycle that drives semiconductor demand.",
+        "Debt remains meaningful even though leverage has fallen."
+      ],
+      "confidence": 0.88,
+      "missing_data": [
+        "Probability-weighted realization and collateral recovery profile of the AI-rack backstop"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 10,
+      "max_score": 15,
+      "evidence": [
+        "At the September 9 reference close of $364.38, the retained base scenario is about $394.69 per share, or roughly 8.3% above price.",
+        "Holding retained base economics constant, the 9% hurdle reverse model requires about 12.08% annual revenue growth in years 2-10; demanding but not obviously an unrealistic bull case given current AI growth.",
+        "2026-09-12 재검증: 관측가격 361.99 USD; Bear/Base/Bull 134.0079/394.6949/903.6717. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Current market capitalization is about $1.734T, roughly 44.0x TTM reported FCF and 56.1x the conservative FCF-minus-SBC diagnostic.",
+        "An 8% base-case discount is not a sufficient margin of safety given customer concentration, financing support and duration risk."
+      ],
+      "confidence": 0.77,
+      "missing_data": [
+        "Q3 10-Q commitment detail and normalized post-VMware owner-cash margin through a slower AI cycle"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+        "companies/AVGO/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 6,
+      "max_score": 10,
+      "evidence": [
+        "The retained bull scenario is approximately $903.67 per share, about 2.48x the current reference price, reflecting a plausible path if custom AI, networking and software all compound for a long duration.",
+        "Management's FY2027 and FY2028 AI semiconductor outlook, while only a forecast, shows the scale of the potential upside runway.",
+        "2026-09-12 재검증: 관측가격 361.99 USD; Bear/Base/Bull 134.0079/394.6949/903.6717. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "The retained bear scenario is approximately $134.01 per share, about 63% below the reference price, because design-loss, AI-capex and VMware valuation risks can compound.",
+        "The current price sits near the retained base value, so asymmetry is positive but not overwhelming."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Evidence that multi-year AI design wins remain durable through at least one capex normalization cycle"
+      ],
+      "claim_type": "opinion",
+      "source_paths": [
+        "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+        "companies/AVGO/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "PwC issued unqualified FY2025 financial-statement and ICFR opinions, and management concluded disclosure controls were effective at May 3, 2026 with no material ICFR change."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.94,
+        "resolution_needed": "Reassess on material audit, control, conduct or restatement evidence; Q3 10-Q was not yet available at this checkpoint date."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "TTM reported FCF of about $39.4B and net debt of roughly $35.4B indicate Broadcom can service ordinary operating and debt needs without structural equity financing."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.9,
+        "resolution_needed": "Monitor acquisition debt and contingent rack support, but current operating funding does not depend structurally on external equity capital."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "Broadcom continues substantial share repurchases; the correct monitor is the net diluted share-count bridge after SBC rather than SBC expense in isolation."
+        ],
+        "severity": "MONITOR",
+        "confidence": 0.76,
+        "resolution_needed": "Track fully diluted shares, SBC and repurchase cash cost each quarter."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Broadcom disclosed a June 2026 financing structure for AI racks and a five-year backstop with maximum exposure of $29B, and its risk factors allow alternative or deferred customer financing. Strong FCF argues against treating current growth as low quality, but customer-funded demand independence is no longer assumed."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.84,
+        "resolution_needed": "Verify end-customer cash generation, payment performance, rack utilization and whether financing support remains a limited exception rather than a structural demand subsidy."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Core semiconductor and software cash generation is strong, but the economic invested-capital denominator now includes material customer-financing and contingent commitments whose realized return is not yet observable."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.8,
+        "resolution_needed": "Quantify realized cash returns and losses on rack-financing/backstop arrangements and future supply commitments across several reporting periods."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Marvell's Google custom-silicon expansion and Qualcomm's Amazon custom-AI agreement make competitive displacement credible, although Broadcom's Q3 AI revenue and disclosed design pipeline show no present contraction."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.82,
+        "resolution_needed": "Track hyperscaler design wins/losses, accelerator share, networking attach, pricing and generation-to-generation retention."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "At $364.38, the retained 9% hurdle reverse model requires about 12.08% annual growth in years 2-10 under retained base economics. That is demanding but not obviously beyond the current custom-AI and software runway."
+        ],
+        "severity": "VALUATION_RISK_NOT_VETO_TRIGGER",
+        "confidence": 0.78,
+        "resolution_needed": "Require a larger base-case margin of safety or higher verified owner cash before buy authorization."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "The Q2 10-Q disclosed one semiconductor distributor at 42% of revenue and the top five end customers at approximately 45% of revenue, while AI accelerator programs are concentrated among a small set of hyperscalers."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.9,
+        "resolution_needed": "Confirm that customer/design diversification improves as AI revenue scales and that loss of one major program would not cause a permanent impairment disproportionate to upside."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Balance-sheet failure risk is manageable, but a roughly $1.73T equity value combined with hyperscaler concentration, AI-cycle exposure, rack-financing support and VMware regulatory risk can produce permanent capital impairment without bankruptcy."
+        ],
+        "severity": "MATERIAL",
+        "confidence": 0.82,
+        "resolution_needed": "Close demand-quality, moat and concentration uncertainties and obtain a materially larger valuation margin of safety."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "hard_veto_overall_status": "INVESTIGATE",
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.11987703365168223,
+      "repriced_value": 361.98999999999955,
+      "price_residual": -4.547473508864641e-13,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 134.00787937388188,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 394.6949369673366,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 903.6717471864825,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/AVGO/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "red_team": {
+    "independence": "Same-session analyst red team; not an independent external committee or multi-agent consensus.",
+    "verdict": "REVISE",
+    "attacks": [
+      "Hyperscalers can internalize more accelerator design or shift generations to Marvell, Qualcomm or other ASIC partners, breaking the assumption that AI TAM growth accrues to Broadcom.",
+      "AI infrastructure capex can overshoot end-user monetization and normalize sharply after a multi-year buildout.",
+      "The $29B rack-lease backstop and alternative/deferred financing can convert nominal demand into credit or cash losses during a downturn.",
+      "One distributor at 42% of Q2 revenue and top-five end customers at roughly 45% create bargaining and program-concentration risk.",
+      "Advanced-node foundry, packaging, HBM and substrate dependencies can constrain delivery or compress economics despite strong demand.",
+      "Open networking and hyperscaler internal switching/software can disaggregate Broadcom's networking attach and reduce platform pricing power.",
+      "VMware pricing, bundling and licensing changes may trigger customer churn, private-cloud substitutes or regulatory remedies that reduce software duration.",
+      "Large SBC and repurchases can obscure weak per-share economics if buybacks merely offset compensation at elevated valuations.",
+      "VMware acquisition debt and integration complexity can limit flexibility if AI commitments and customer financing simultaneously consume cash.",
+      "At roughly 44x TTM reported FCF and 56x FCF after a conservative SBC deduction, duration and terminal-multiple compression can overwhelm excellent near-term execution."
+    ]
+  },
+  "falsifiers": [
+    "AI semiconductor growth decelerates materially while major hyperscaler design wins shift to competitors or in-house solutions for multiple generations.",
+    "The $29B rack backstop or other customer financing produces material cash outflows, credit losses or recurring financing dependence.",
+    "Accounts receivable and inventory continue to outgrow revenue while FCF per share after SBC deteriorates for four consecutive quarters.",
+    "VMware renewal, retention or infrastructure-software revenue deteriorates materially after regulatory or customer pushback.",
+    "FCF per diluted share falls for four quarters despite reported revenue growth, indicating worsening reinvestment economics."
+  ],
+  "increase_evidence": [
+    "Q3 10-Q and subsequent filings confirm that rack-backstop, supply commitments and financing terms are bounded, well-collateralized and not becoming structural demand support.",
+    "Broadcom retains major custom-accelerator design wins and networking attach despite Marvell, Qualcomm and internal hyperscaler competition.",
+    "Infrastructure-software revenue, renewal economics and cash conversion remain strong without evidence that VMware regulatory remedies impair monetization.",
+    "Net debt continues to fall while FCF per diluted share after SBC rises across multiple reporting periods.",
+    "Price falls to at least roughly 20% below a conservative/base intrinsic-value estimate at the 9% hurdle, or verified owner cash rises enough to create equivalent expectation gap."
+  ],
+  "sell_evidence": [
+    "A major hyperscaler design loss combines with weaker networking economics and persistent AI revenue deceleration.",
+    "Customer-financing/backstop exposure generates material losses or external-capital needs.",
+    "VMware franchise erosion and semiconductor moat contraction occur together such that normalized FCF per share no longer compounds above the required return."
+  ],
+  "next_evidence": [
+    "Q3 FY2026 10-Q when filed: commitments, debt, customer concentration, working capital and financing terms.",
+    "FY2027/FY2028 AI revenue conversion versus management's approximately $115B/$230B outlook.",
+    "Marvell-Google and Qualcomm-Amazon custom-silicon ramps versus Broadcom design share and networking attach.",
+    "AI-rack backstop utilization, customer payment performance and collateral recovery economics.",
+    "VMware customer retention, regulatory outcomes and infrastructure-software FCF conversion."
+  ],
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/AVGO/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "PRIMARY_FILINGS_PLUS_OFFICIAL_RELEASES_WITH_SELECTED_REPUTABLE_SECONDARY_COMPETITIVE_AND_MARKET_EVIDENCE",
+    "primary_document_reaudit": "FY2025 audit, Q2 10-Q and Q3 earnings/8-K evidence were prioritized. Q3 10-Q was not yet available at the checkpoint date, so no claim is made that quarter-end commitment/concentration footnotes were fully re-audited.",
+    "fact_estimate_inference_opinion": "Reported financial and contract terms are facts; TTM and valuation ratios are calculations; future revenue/margins and reverse expectations are estimates; scores and veto thresholds are analyst judgments.",
+    "missing_data_rule": "Unknown evidence remains an investigation item rather than being converted into zero score, misconduct or failure."
+  },
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "추가 정밀자료의 Q3 실적·AI ASIC와 네트워킹 매출, VMware 현금을 검토해77→81점 평가를 채택한다. AI 랙 금융지원은 매출의 질과 연결된 우발 부담이다. 고객 수와 실제 프로그램 유지, SBC 후 현금, 보증의 실현 손실을 추적한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 77,
+    "review_source_score": 81,
+    "reviewed_score": 81,
+    "prior_canonical_assessment": "companies/AVGO/analyses/2026-09-06-deep/assessment.json",
+    "adopted_checkpoint": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

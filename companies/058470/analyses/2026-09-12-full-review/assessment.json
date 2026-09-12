@@ -1,0 +1,402 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "058470",
+  "company_name": "LEENO Industrial",
+  "as_of": "2026-09-12",
+  "listing_market": "KR",
+  "issuer_market_context": "KR",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 64,
+  "business_quality_75": 64,
+  "total_score_100": 76,
+  "required_return": 0.1,
+  "source_paths": [
+    "companies/058470/analyses/2026-09-08-prelim/assessment.json",
+    "companies/058470/analyses/2026-09-10-deep/assessment.json",
+    "companies/058470/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/058470/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/058470/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-08-058470-prelim/raw-data.json",
+    "reviews/2026-09-10-058470-deep/source-manifest.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/058470/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "LEENO Industrial owns a high-mix, precision test-interface franchise built around LEENO PIN and IC TEST SOCKET products. Semiconductor complexity, shorter design cycles and high-performance testing support structural demand, while in-house process integration and a very broad customized SKU base create customer qualification and reliability advantages. The thesis is constrained by customer concentration, product concentration, labor disruption and the need to prove returns on the new capacity program.",
+  "current_finding": "Harness-rule TTM revenue is approximately KRW424.560bn, operating income KRW209.429bn, net income KRW187.825bn and operating cash flow KRW166.847bn. Mechanical OCF less disclosed PPE/intangible purchases is KRW97.895bn; excluding approximately KRW9.365bn of TTM interest receipts gives an operating-cash diagnostic of KRW88.530bn. Neither measure is normalized owner FCF because H1 receivables, growth capex and working-capital timing are material.",
+  "economic_finding": "FY2025 semiconductor pin/socket products represented about 88.9% of sales and H1 2026 about 91.7%. H1 revenue and operating profit grew strongly, with Q2 operating margin above 50%, supporting pricing/mix and process-quality evidence. However, H1 top-three customers represented about 55.9% of revenue, including the largest at about 23.8%, so customer diversification is not yet sufficient to eliminate concentration risk.",
+  "capital_and_survival": "June 2026 cash plus current and non-current financial assets were approximately KRW448.3bn against only immaterial lease-type debt, while the company states facility investment is internally funded. A new factory/capacity and R&D project includes approximately KRW74.5bn land consideration and KRW97.2bn factory/equipment planned investment; the project is not yet mature enough to establish realized incremental ROIC. Founder/CEO ownership fell to 25.48% after a 7.0m-share block sale at KRW90,000; this was a shareholder sale, not corporate dilution.",
+  "permanent_loss_case": "One or more major semiconductor customers reduce design wins while alternative socket/probe technologies or competitors pressure ASP and qualification share; the new factory earns sub-hurdle returns; the prolonged labor dispute causes customer qualification or delivery losses; receivables remain elevated and cash conversion weakens; and a high-duration valuation de-rates. Solvency can remain excellent while shareholders suffer long-duration capital impairment.",
+  "falsifiers": [
+    "A major customer structurally reduces LEENO socket/pin purchases for multiple periods and lost revenue is not replaced by diversified accounts.",
+    "IC TEST SOCKET/LEENO PIN ASP, mix or margin deteriorates across two product cycles while competitors gain qualification share.",
+    "The new factory reaches mature utilization but after-tax incremental return remains below the 10% hurdle.",
+    "Receivables and inventory keep growing materially faster than sales while normalized cash conversion deteriorates for multiple periods.",
+    "Labor disruption causes sustained delivery failures, customer losses or a structurally higher cost base without offsetting productivity."
+  ],
+  "increase_evidence": [
+    "At least two additional reporting periods where revenue, operating margin and normalized per-share cash improve together after working-capital normalization.",
+    "New-factory utilization and post-tax incremental ROIC demonstrably above the 10% hurdle without external financing.",
+    "Top-three customer concentration declines through genuine account diversification while socket/pin share and ASP remain strong.",
+    "Labor dispute resolves without material customer loss, delivery impairment or permanent margin damage.",
+    "Expectation gap becomes clearly favorable at a 10% required return; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Sustained major-customer loss combined with weaker socket/pin pricing or qualification share.",
+    "New capacity produces persistent excess capacity or sub-hurdle returns after ramp.",
+    "Normalized owner cash per share declines across multiple periods despite reported earnings growth.",
+    "Material labor-related customer attrition or structural wage-cost damage without productivity offset.",
+    "Any material impairment of accounting integrity, shareholder rights or disclosure reliability triggers an immediate thesis rewrite."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY2025 revenue reached KRW372.5bn and H1 2026 revenue KRW243.0bn, with pin/socket exports and high-performance test demand expanding.",
+        "The company develops a very broad customized pin/socket portfolio and integrates design/manufacturing in-house."
+      ],
+      "counter_evidence": [
+        "Demand remains tied to semiconductor design cycles and is not a pure secular-growth annuity."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Independent long-run socket/probe market-share series by application."
+      ],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 2026 revenue rose 27.3% YoY while operating profit rose 37.6%, with operating margin above 50%, consistent with strong product value and mix.",
+        "Customized test interfaces are qualification-, reliability- and lead-time-sensitive products rather than commodity components."
+      ],
+      "counter_evidence": [
+        "Large customers retain bargaining power and product prices can decline after development-stage peaks."
+      ],
+      "confidence": 0.8,
+      "missing_data": [],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "In-house production, accumulated precision know-how, large customized SKU breadth and strong margin expansion support a durable qualification moat.",
+        "H1 2026 semiconductor pin/socket mix exceeded 90% while exports increased."
+      ],
+      "counter_evidence": [
+        "Alternative probe/socket architectures and Japanese/Taiwanese competitors remain credible; customer-by-customer retention data are not disclosed."
+      ],
+      "confidence": 0.74,
+      "missing_data": [
+        "Independent multi-year qualification share and customer retention by major application."
+      ],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "TTM operating income is approximately KRW209.4bn on KRW424.6bn revenue, and direct capex remains small relative to profit despite the current factory build.",
+        "The company can fund the factory internally from substantial liquidity and operating cash generation."
+      ],
+      "counter_evidence": [
+        "H1 OCF fell to KRW68.5bn despite higher earnings as receivables rose sharply; the new factory has not yet established mature incremental ROIC."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Mature utilization, incremental revenue and after-tax cash return from the new factory.",
+        "Maintenance versus growth capex split."
+      ],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Investment has historically been internally funded, there are no stock-option grants, and the company established an audit committee in 2026.",
+        "The founder remains the largest shareholder after the June block sale."
+      ],
+      "counter_evidence": [
+        "Founder ownership fell from 34.66% to 25.48% through a 7.0m-share block sale, reducing alignment at the margin.",
+        "The labor dispute remained unresolved after 48 days as of September 8, creating operational and governance-of-labor risk."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Final labor settlement economics and evidence of post-settlement retention/productivity."
+      ],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "June cash and financial assets total approximately KRW448.3bn, liabilities are about KRW80.1bn, and no material interest-bearing debt burden is evident.",
+        "Company disclosures state facility investment is self-funded."
+      ],
+      "counter_evidence": [
+        "Working-capital swings, dividends and factory spending can temporarily reduce liquidity, but current resources remain substantial."
+      ],
+      "confidence": 0.9,
+      "missing_data": [],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 7,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At KRW71,200, the retained analytical Base value is approximately KRW59,390, about 16.6% below price.",
+        "A 10% required return with retained Base economics implies about 11.92% annual revenue growth in years 2-10 after a 20% first-year growth assumption.",
+        "2026-09-12 재검증: 관측가격 66400 KRW; Bear/Base/Bull 21265.3667/59390.4323/110734.7076. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Current H1 revenue growth and margin expansion show that double-digit growth is feasible; the price does not require an obviously impossible Bull case."
+      ],
+      "confidence": 0.68,
+      "missing_data": [
+        "Normalized owner-cash margin after factory ramp and labor normalization."
+      ],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json",
+        "companies/058470/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bull value is approximately KRW110,735 per share, about 55.5% above the reference price.",
+        "2026-09-12 재검증: 관측가격 66400 KRW; Bear/Base/Bull 21265.3667/59390.4323/110734.7076. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Bear value is approximately KRW21,265, about 70.1% below price; the two-state Bear/Bull algebraic price position is about 55.8% Bull weight, not an estimated probability."
+      ],
+      "confidence": 0.65,
+      "missing_data": [],
+      "source_paths": [
+        "companies/058470/analyses/2026-09-10-deep/assessment.json",
+        "companies/058470/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "FY2025 audit and internal-control opinions were unqualified; no reviewed evidence indicates accounting unreliability."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.82,
+        "resolution_needed": "Monitor labor governance and any future audit/control changes."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Large liquid financial assets and internal funding cover current investment needs without structural external financing dependence."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.9,
+        "resolution_needed": "Reassess only if factory or shareholder distributions materially exceed internal cash resources."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "The 2025 share split changed units but not economic ownership; no stock options have been granted and the founder block sale was secondary."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.86,
+        "resolution_needed": "Track issued shares and treasury-share actions."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Revenue growth is accompanied by operating-profit and margin expansion, not disclosed subsidies or marketing-financed demand."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_CASH_MONITOR",
+        "confidence": 0.74,
+        "resolution_needed": "Confirm elevated receivables convert to cash without concessions or bad-debt deterioration."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "The major new factory/capacity program is still ramping, so realized incremental after-tax cash return is not established."
+        ],
+        "severity": "EVIDENCE_GATE_OPEN_NOT_FAILURE",
+        "confidence": 0.76,
+        "resolution_needed": "Measure mature utilization, incremental sales, margin and cash return versus land/factory/equipment invested capital; require >10% after tax."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Current sales, export mix and operating margins do not show persistent competitive-advantage contraction."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.72,
+        "resolution_needed": "Monitor socket/probe qualification share, ASP and customer retention through new semiconductor test architectures."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "Reverse growth of about 11.92% in years 2-10 is demanding but not demonstrably unrealistic given current growth and margin evidence."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.68,
+        "resolution_needed": "Reassess if price rises without corresponding owner-cash evidence."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "H1 2026 top-three customers represented about 55.9% of revenue and the largest about 23.8%; semiconductor pin/socket products represented about 91.7%."
+        ],
+        "severity": "MATERIAL_CONCENTRATION",
+        "confidence": 0.9,
+        "resolution_needed": "Require sustained customer diversification and proof that no single qualification loss is economically fatal."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "High valuation duration combines with customer concentration, new-factory execution and an unresolved long labor dispute; solvency is strong but long-duration capital impairment remains plausible."
+        ],
+        "severity": "VALUATION_AND_EXECUTION_RISK",
+        "confidence": 0.8,
+        "resolution_needed": "Require labor resolution, normalized cash conversion, factory ROIC evidence and a wider valuation margin of safety."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/058470/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "red_team": {
+    "attacks": [
+      "높은 마진은 해자보다 특정 고객/고사양 믹스의 일시적 산물일 수 있다.",
+      "주요 고객이 테스트 인터페이스를 내재화하거나 경쟁 supplier를 qualify할 수 있다.",
+      "MEMS/프로브카드·고주파/고전류 테스트 구조 변화가 기존 핀·소켓 경제성을 침식할 수 있다.",
+      "신공장 규모가 실제 수요보다 앞서가면 증분 ROIC가 급락한다.",
+      "H1 매출채권 증가는 성장의 질보다 결제조건/회수 지연을 반영할 수 있다.",
+      "84% 안팎의 수출 비중은 원화 강세와 글로벌 수요 변화에 민감하다.",
+      "장기 파업은 고객 qualification과 납기 신뢰를 경쟁사에 넘길 수 있다.",
+      "창업자 지분 축소로 과거보다 경영진-주주 alignment가 낮다.",
+      "의료부품은 아직 반도체 집중을 실질적으로 상쇄할 만큼 크지 않다.",
+      "50~60배 현금진단 배수는 사업이 살아남더라도 성장 duration이 짧아지면 큰 영구손실을 만들 수 있다."
+    ],
+    "verdict": "REVISE",
+    "independence": "Ten pre-existing adversarial arguments recovered from the linked thesis; not an independent committee."
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.10831045430604103,
+      "repriced_value": 66400.00000000004,
+      "price_residual": 4.3655745685100555e-11,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 21265.366729821053,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 59390.43227489946,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 110734.7076057022,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/058470/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "DELAYED_KOREAN_CLOSE",
+    "approved_for_trading": false
+  },
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "정밀 소켓·핀의 설계 승인과 수율 신뢰가 해자다. 상위3개 고객55.9%, H1 매출채권 증가, 신공장 투입자본과 장기 파업이 핵심 조사 항목이다. 가격 하락으로 수치 조건을 통과했어도 생산 정상화·납품 영향 미확인 상태를 매수 승인으로 바꾸지 않는다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 76,
+    "review_source_score": 76,
+    "reviewed_score": 76,
+    "prior_canonical_assessment": "companies/058470/analyses/2026-09-10-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

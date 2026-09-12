@@ -1,0 +1,91 @@
+{
+  "ticker": "AVGO",
+  "source_assessment": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/AVGO/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "548b08c4849905f8e629811de535ec4e940e8c64d1460fc4485d6ea11b4ef4e3",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "803666935fa087b3263fcef7481da59b9fc422e35c663c9171bbe2b607226eae",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "feafcff58a412f50926cbc0ee4392bb78756d39ed64b57dde189c274b5c4ae5e",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "aa77ec485c18a4c355e6bcfab20ed2115cdba6a14a60ce830d1951bfe8e7ede1",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "3c17d786a806e7159031a959d881dab0ffade7cdc56dc6cf6dbf5b71fff28867",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "5549943907f76e475197afccda8f6c702670852f2715a9de5d24ac6f1cf00ba2",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "abc2058733ad475b2c7e1905fec878523372f4a4f75d8c8a3c935d300497067e",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-10-avgo-deep/source-manifest.json",
+      "sha256": "c33a6377bfd98e648f415c98ef07c68f4e6d2deacc30a0c0d6b78187f1cce5f7",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

@@ -1,0 +1,96 @@
+{
+  "ticker": "AMZN",
+  "source_assessment": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "95246d680acfad5792bd864102a34fd8aef76a79c8a0b93c1641bc82100d11be",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/derived-metrics.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/evidence-ledger.json",
+      "sha256": "17428ba3ea89c16c84b11d4397e79985c09d4f19d1f7dc7d94ab0370fed52fb2",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/financials.json",
+      "sha256": "07925e698f66026eba5d51be342c9a9a2176c4946996ce6e8d0bbb88761590af",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "861ea30620d3e059afa3c0209395a737202577202e81b01ea8e3cfb0a0d0e47c",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/observations.json",
+      "sha256": "3c02b6d4188be496c9387ff1c632299b7d83589a1260bdddfde069158a330f21",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/thesis.ko.md",
+      "sha256": "ee98121c46589a2b71e36732436ed0ff87cbb711e8c7b1ff84cfd30c8dec3b6a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "366c94388906c3fda708318fb5798eca33d827b1e3b4b8f433b56875f73b510b",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AMZN/raw-data/2026-Q2.json",
+      "sha256": "85dfebfcfce88a4b79db10d990b86ce32e04656eb4bba2aa7c45e7a60665873b",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

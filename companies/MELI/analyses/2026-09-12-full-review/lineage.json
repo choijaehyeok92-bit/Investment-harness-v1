@@ -1,0 +1,86 @@
+{
+  "ticker": "MELI",
+  "source_assessment": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/MELI/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "05ac8b90fbf8af2f97b64c86241d212cf451bfb65cf5f4472acd4ded4fa4b0b4",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "698adcb396f9260c61fc55984de5a7bd3cfda15b9bf45d003bd2e9b08558ad05",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "4b1f4fa43ddfbccb9b9be793301c18b0f9c55e7df396c1dffd3a646bfc521a1d",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "a8d6abdd27d6b3dfd77993e3a7f5b02053a7bbc21a067a8f73c3c92911664f70",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "ed0a8b22a5d196bd12d9b2f73fc8639cf1f3403c1792f716cd4bab02b87c3670",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "979029a06076b20c1dbd79486a84711e68abb515ee57a6e2d3d239933da15e6e",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/MELI/raw-data/2026-Q2.json",
+      "sha256": "dbd4a2092bc6543e9104bba917fbb3d0b75e3d91d5e5a5922eee3f2f2fb4adca",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

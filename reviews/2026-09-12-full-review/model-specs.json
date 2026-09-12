@@ -1,0 +1,432 @@
+[
+  {
+    "ticker": "000660",
+    "currency": "KRW",
+    "source_assessment": "companies/000660/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/000660/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/000660/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/000660/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "003230",
+    "currency": "KRW",
+    "source_assessment": "companies/003230/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/003230/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/003230/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "003230",
+    "reverse_basis": "Constant revenue growth in years 1-10 from the reported TTM anchor."
+  },
+  {
+    "ticker": "005380",
+    "currency": "KRW",
+    "source_assessment": "companies/005380/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/005380/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/005380/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/005380/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "005930",
+    "currency": "KRW",
+    "source_assessment": "companies/005930/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/005930/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/005930/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/005930/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "012450",
+    "currency": "KRW",
+    "source_assessment": "companies/012450/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/012450/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/012450/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/012450/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "034020",
+    "currency": "KRW",
+    "source_assessment": "companies/034020/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/034020/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/034020/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/034020/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "035420",
+    "currency": "KRW",
+    "source_assessment": "companies/035420/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/035420/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/035420/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/035420/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "042700",
+    "currency": "KRW",
+    "source_assessment": "companies/042700/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/042700/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/042700/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/042700/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "058470",
+    "currency": "KRW",
+    "source_assessment": "companies/058470/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/058470/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/058470/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "058470",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "145020",
+    "currency": "KRW",
+    "source_assessment": "companies/145020/analyses/2026-09-12-deep/assessment.json",
+    "prior_canonical_assessment": "companies/145020/analyses/2026-09-12-deep/assessment.json",
+    "valuation_path": "companies/145020/analyses/2026-09-12-deep/valuation.json",
+    "model_path": null,
+    "adapter": "145020",
+    "reverse_basis": "Revenue growth g in years 1-5 and g/2 in years 6-10; 10% hurdle."
+  },
+  {
+    "ticker": "196170",
+    "currency": "KRW",
+    "source_assessment": "companies/196170/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/196170/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/196170/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/196170/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "207940",
+    "currency": "KRW",
+    "source_assessment": "companies/207940/analyses/2026-09-11-deep/assessment.json",
+    "prior_canonical_assessment": "companies/207940/analyses/2026-09-11-deep/assessment.json",
+    "valuation_path": "companies/207940/analyses/2026-09-11-deep/valuation.json",
+    "model_path": null,
+    "adapter": "207940",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "214450",
+    "currency": "KRW",
+    "source_assessment": "companies/214450/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/214450/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/214450/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/214450/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "267260",
+    "currency": "KRW",
+    "source_assessment": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/267260/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/267260/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/267260/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "278470",
+    "currency": "KRW",
+    "source_assessment": "companies/278470/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/278470/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/278470/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/278470/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "AMZN",
+    "currency": "USD",
+    "source_assessment": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/AMZN/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/AMZN/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/AMZN/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "ANET",
+    "currency": "USD",
+    "source_assessment": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/ANET/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/ANET/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "APP",
+    "currency": "USD",
+    "source_assessment": "companies/APP/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/APP/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/APP/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "APP",
+    "reverse_basis": "Owner-cash growth for five years, then fixed terminal growth; not revenue CAGR."
+  },
+  {
+    "ticker": "ASTS",
+    "currency": "USD",
+    "source_assessment": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/ASTS/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/ASTS/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "AVGO",
+    "currency": "USD",
+    "source_assessment": "companies/AVGO/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/AVGO/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/AVGO/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/AVGO/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "AXON",
+    "currency": "USD",
+    "source_assessment": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/AXON/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/AXON/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "DDOG",
+    "currency": "USD",
+    "source_assessment": "companies/DDOG/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/DDOG/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/DDOG/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/DDOG/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "ETN",
+    "currency": "USD",
+    "source_assessment": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/ETN/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "ETN",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "GOOGL",
+    "currency": "USD",
+    "source_assessment": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/GOOGL/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "ISRG",
+    "currency": "USD",
+    "source_assessment": "companies/ISRG/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/ISRG/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/ISRG/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/ISRG/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "LLY",
+    "currency": "USD",
+    "source_assessment": "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/LLY/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/LLY/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/LLY/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "META",
+    "currency": "USD",
+    "source_assessment": "companies/META/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/META/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/META/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "META",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "MPWR",
+    "currency": "USD",
+    "source_assessment": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/MPWR/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/MPWR/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "MPWR",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "MSFT",
+    "currency": "USD",
+    "source_assessment": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/MSFT/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "MU",
+    "currency": "USD",
+    "source_assessment": "companies/MU/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/MU/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/MU/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/MU/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "NET",
+    "currency": "USD",
+    "source_assessment": "companies/NET/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/NET/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/NET/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/NET/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "NOW",
+    "currency": "USD",
+    "source_assessment": "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/NOW/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/NOW/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "NOW",
+    "reverse_basis": "Constant revenue growth in years 1-10 from the reported TTM anchor."
+  },
+  {
+    "ticker": "NVDA",
+    "currency": "USD",
+    "source_assessment": "companies/NVDA/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/NVDA/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/NVDA/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/NVDA/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "PLTR",
+    "currency": "USD",
+    "source_assessment": "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+    "prior_canonical_assessment": "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+    "valuation_path": "companies/PLTR/analyses/2026-09-11-deep/valuation.json",
+    "model_path": "companies/PLTR/analyses/2026-09-11-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "PWR",
+    "currency": "USD",
+    "source_assessment": "companies/PWR/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/PWR/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/PWR/analyses/2026-09-10-deep/valuation.json",
+    "model_path": null,
+    "adapter": "PWR",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "RKLB",
+    "currency": "USD",
+    "source_assessment": "companies/RKLB/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/RKLB/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/RKLB/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/RKLB/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "VRT",
+    "currency": "USD",
+    "source_assessment": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/VRT/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/VRT/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/VRT/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "VRTX",
+    "currency": "USD",
+    "source_assessment": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/VRTX/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/VRTX/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "MELI",
+    "currency": "USD",
+    "source_assessment": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/MELI/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/MELI/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/MELI/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "TSM",
+    "currency": "USD",
+    "source_assessment": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+    "prior_canonical_assessment": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+    "valuation_path": "companies/TSM/analyses/2026-09-10-deep/valuation.json",
+    "model_path": "companies/TSM/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "CRDO",
+    "currency": "USD",
+    "source_assessment": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+    "prior_canonical_assessment": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+    "valuation_path": "companies/CRDO/analyses/2026-09-11-deep/valuation.json",
+    "model_path": "companies/CRDO/analyses/2026-09-11-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "TEM",
+    "currency": "USD",
+    "source_assessment": "companies/TEM/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/TEM/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/TEM/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/TEM/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  {
+    "ticker": "TMDX",
+    "currency": "USD",
+    "source_assessment": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+    "prior_canonical_assessment": "companies/TMDX/analyses/2026-09-11-deep/assessment.json",
+    "valuation_path": "companies/TMDX/analyses/2026-09-11-deep/valuation.json",
+    "model_path": "companies/TMDX/analyses/2026-09-11-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  }
+]

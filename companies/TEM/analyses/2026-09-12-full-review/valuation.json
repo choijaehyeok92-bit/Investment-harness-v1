@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "ticker": "TEM",
+  "as_of": "2026-09-12",
+  "currency": "USD",
+  "price": 59.01,
+  "source_model": {
+    "ticker": "TEM",
+    "currency": "USD",
+    "source_assessment": "companies/TEM/analyses/2026-09-06-deep/assessment.json",
+    "prior_canonical_assessment": "companies/TEM/analyses/2026-09-06-deep/assessment.json",
+    "valuation_path": "companies/TEM/analyses/2026-09-06-deep/valuation.json",
+    "model_path": "companies/TEM/analyses/2026-09-06-deep/model-inputs.json",
+    "adapter": "legacy",
+    "reverse_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs)."
+  },
+  "scenarios": {
+    "bear": {
+      "claim_type": "estimate",
+      "value_per_share": 2.2656690329681797,
+      "source_reported_value": 2.2656690329681797,
+      "recalculation_difference": 0.0,
+      "required_return": 0.09,
+      "annual_owner_cash_per_share": [
+        -1.1539921142170797,
+        -0.8788093792883914,
+        -0.5370501762317949,
+        -0.11815103877099499,
+        0.38989842794428303,
+        0.40549436506205444,
+        0.4217141396645366,
+        0.4385827052511181,
+        0.4561260134611628,
+        0.4743710539996093
+      ],
+      "terminal_owner_value_per_share": 7.589936863993749,
+      "separate_value_per_share": 0.0,
+      "value_to_price": 0.0383946624803962,
+      "terminal_fraction_of_operating_pv": 1.4150660614391517
+    },
+    "base": {
+      "claim_type": "estimate",
+      "value_per_share": 57.66203824385483,
+      "source_reported_value": 57.66203824385483,
+      "recalculation_difference": 0.0,
+      "required_return": 0.09,
+      "annual_owner_cash_per_share": [
+        -1.026387216971922,
+        -0.5365439176720721,
+        0.23292318308352306,
+        1.3847283234315446,
+        3.054042191954538,
+        3.3594464111499924,
+        3.6953910522649913,
+        4.0649301574914904,
+        4.47142317324064,
+        4.9185654905647045
+      ],
+      "terminal_owner_value_per_share": 108.2084407924235,
+      "separate_value_per_share": 0.0,
+      "value_to_price": 0.9771570622581738,
+      "terminal_fraction_of_operating_pv": 0.7926950933428585
+    },
+    "bull": {
+      "claim_type": "estimate",
+      "value_per_share": 254.01366734662145,
+      "source_reported_value": 254.01366734662147,
+      "recalculation_difference": -2.842170943040401e-14,
+      "required_return": 0.09,
+      "annual_owner_cash_per_share": [
+        -0.8155617345668785,
+        0.03932172648804596,
+        1.5925299227658603,
+        4.228166944943359,
+        8.51366496710629,
+        9.875851361843297,
+        11.455987579738226,
+        13.288945592496338,
+        15.41517688729575,
+        17.88160518926307
+      ],
+      "terminal_owner_value_per_share": 500.68494529936595,
+      "separate_value_per_share": 0.0,
+      "value_to_price": 4.304586804721597,
+      "terminal_fraction_of_operating_pv": 0.832611622648745
+    }
+  },
+  "reverse_expectations": {
+    "claim_type": "estimate",
+    "growth": 0.1626849525972972,
+    "repriced_value": 59.00999999999989,
+    "price_residual": -1.0658141036401503e-13,
+    "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+    "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+  },
+  "base_discount_sensitivity": [
+    {
+      "required_return": 0.06999999999999999,
+      "value_per_share": 68.84201123939309
+    },
+    {
+      "required_return": 0.09,
+      "value_per_share": 57.66203824385483
+    },
+    {
+      "required_return": 0.11,
+      "value_per_share": 48.464216153654256
+    }
+  ],
+  "approved_for_trading": false
+}

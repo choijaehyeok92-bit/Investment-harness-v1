@@ -1,0 +1,453 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "PLTR",
+  "company_name": "Palantir Technologies Inc.",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "research_state": "FULL_ANALYSIS",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "decision": "WATCH",
+  "priority": "P2",
+  "total_score_100": 72,
+  "business_quality_75": 63,
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_EXPLICIT_UNCERTAINTY",
+  "source_paths": [
+    "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+    "companies/PLTR/analyses/2026-09-11-deep/derived-metrics.json",
+    "companies/PLTR/analyses/2026-09-11-deep/evidence-ledger.json",
+    "companies/PLTR/analyses/2026-09-11-deep/financials.json",
+    "companies/PLTR/analyses/2026-09-11-deep/model-inputs.json",
+    "companies/PLTR/analyses/2026-09-11-deep/observations.json",
+    "companies/PLTR/analyses/2026-09-11-deep/thesis.ko.md",
+    "companies/PLTR/analyses/2026-09-11-deep/valuation.json",
+    "companies/PLTR/raw-data/2026-09-11-public-update.json",
+    "companies/PLTR/raw-data/2026-Q2.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "portfolio_context": "Actual holding, taxes and risk budget are not provided. Research completion does not authorize a purchase. Macro conditions affect pacing/risk budget, not the company score.",
+  "structural_thesis": "Palantir is evolving from a government-heavy data integration vendor into an operational AI software layer that combines governed enterprise data, Ontology, model orchestration and workflow execution. The strongest evidence is not AI branding but rapidly expanding U.S. commercial revenue, large-customer expansion and external evidence of production use in complex operational workflows.",
+  "current_finding": "Q2 revenue grew 93% YoY to $1.935B and GAAP operating margin reached 47%. H1 OCF-PPE-SBC owner-cash proxy rose to $1.627B from $0.520B a year earlier. U.S. commercial Q2 revenue grew 149%, while top-three customer concentration was only 16% of H1 revenue.",
+  "capital_and_survival": "Cash plus marketable securities totaled about $9.409B at June 30 with no drawn revolver debt. Actual issued shares rose only about 0.49% from year-end to June 30, but 149.7M options, 33.2M RSUs, 13.7M SARs and future founder/equity awards keep economic dilution under investigation.",
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 total revenue +93% YoY; U.S. revenue +115% and U.S. commercial +149%, indicating Palantir is participating in and helping define operational enterprise AI adoption.",
+        "AIP/Foundry/Ontology increasingly span model choice, governed data, agents and operational actions rather than a narrow analytics layer."
+      ],
+      "counter_evidence": [
+        "AI software is a rapidly evolving category with hyperscaler, model-provider and enterprise-platform competition; category leadership over a decade is not established."
+      ],
+      "confidence": 0.86,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Top-20 average TTM revenue reached $124M, up 67%, supporting expansion within existing accounts.",
+        "NVIDIA described a production supply-chain workflow built around Palantir Foundry, providing independent customer/partner evidence of operational use rather than only management marketing."
+      ],
+      "counter_evidence": [
+        "NVIDIA disclosed no contract economics; strong use-case evidence does not by itself prove standardized ROI across the wider customer base."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "Independent cohort-level renewal, NRR and customer payback metrics are not publicly disclosed in a form sufficient for full underwriting."
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 13,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "U.S. commercial RDV grew 124% YoY to $6.238B while U.S. commercial revenue grew 149%, consistent with deeper deployments and rising switching costs.",
+        "Ontology plus governed operational workflows can accumulate organization-specific logic and decision history, increasing embeddedness as deployments mature.",
+        "NVIDIA's supply-chain implementation is evidence that Palantir can sit between enterprise operational data, optimization tools and open AI models rather than being displaced by the model layer."
+      ],
+      "counter_evidence": [
+        "Cloud platforms, data platforms and model vendors can bundle competing capabilities; large customers may multi-home or build adjacent layers internally.",
+        "Long implementation history and high-touch forward-deployed engineering can make some switching costs partly service-created rather than purely software-native."
+      ],
+      "confidence": 0.81,
+      "missing_data": [
+        "Long-run gross retention and workload-level competitive win/loss data remain incomplete."
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 11,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "H1 revenue grew 89% while GAAP operating income grew 274%, showing material operating leverage.",
+        "OCF-PPE-SBC owner-cash proxy increased 213% YoY and margin rose to 45.6% from 27.6%.",
+        "Physical capex remains very low relative to revenue, consistent with an asset-light model."
+      ],
+      "counter_evidence": [
+        "A precise incremental ROIC cannot be established because core reinvestment occurs through expensed R&D, sales, cloud hosting and equity compensation rather than a clean invested-capital cohort.",
+        "Working-capital timing and customer prepayments can make interim OCF look stronger than normalized cash conversion."
+      ],
+      "confidence": 0.79,
+      "missing_data": [
+        "Cohort-level CAC/payback, renewal economics and normalized working-capital requirements."
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 6,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Balance-sheet conservatism is high, with roughly $9.4B of cash/marketable securities and no drawn revolving debt.",
+        "SBC as a percentage of revenue improved to 13.1% in H1 2026 from 16.7% in H1 2025; issued shares increased only about 0.49% from year-end through June."
+      ],
+      "counter_evidence": [
+        "Absolute H1 SBC expense still rose 48% YoY and the option/RSU/SAR overhang remains substantial.",
+        "Founder-control arrangements can preserve approximately 49.999999% voting power under specified conditions despite much lower economic ownership, weakening outside shareholder governance rights."
+      ],
+      "confidence": 0.76,
+      "missing_data": [
+        "Future founder-grant exercise/settlement cadence and long-run net share issuance after employee tax withholding and repurchases."
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "At June 30, cash was $2.030B and marketable securities $7.379B, with no outstanding debt under the $500M revolver.",
+        "The business is GAAP profitable and strongly operating-cash-flow positive."
+      ],
+      "counter_evidence": [
+        "A severe demand reset would compress valuation far before threatening solvency; survivability does not make the stock price safe."
+      ],
+      "confidence": 0.97,
+      "missing_data": [],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 4,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At $165.86, the unchanged scenario model gives Bear/Base/Bull values of about $26.97/$114.68/$356.00 per share.",
+        "A reverse model using 35% owner-cash margin and 22x terminal value requires roughly 28.8% annual revenue growth for years 2-10, implying year-10 revenue around $105.7B.",
+        "2026-09-12 재검증: 관측가격 167.23 USD; Bear/Base/Bull 26.9717/114.6771/355.9975. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Current Q2 growth is far above the reverse-required rate, and a true category winner could sustain exceptional duration longer than conventional software models assume.",
+        "The valuation is highly sensitive to margin, dilution, discount-rate and terminal assumptions."
+      ],
+      "confidence": 0.79,
+      "missing_data": [
+        "No unique market-implied forecast is observable; the reverse model is conditional."
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+        "companies/PLTR/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Bull value is roughly 2.15x the reference price and the operating model can plausibly become much larger if Palantir becomes a dominant operational AI layer.",
+        "The balance sheet substantially reduces bankruptcy risk.",
+        "2026-09-12 재검증: 관측가격 167.23 USD; Bear/Base/Bull 26.9717/114.6771/355.9975. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Bear value is about 84% below the reference price and Base value is about 31% below it, so execution disappointment or multiple compression can create severe permanent capital impairment without business failure.",
+        "The mechanical Bear/Bull break-even Bull weight is about 42%, which is not sufficiently asymmetric for a new position under the harness."
+      ],
+      "confidence": 0.75,
+      "missing_data": [
+        "Real-world scenario probabilities remain unknown."
+      ],
+      "source_paths": [
+        "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+        "companies/PLTR/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "severity": "high",
+        "evidence": [
+          "No material accounting reliability issue identified in reviewed SEC filing; GAAP and non-GAAP reconciliations are explicit."
+        ],
+        "resolution_needed": "Continue monitoring filings, related-party matters, contract accounting and governance disclosures."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "severity": "high",
+        "evidence": [
+          "Strong positive OCF, approximately $9.4B cash/marketable securities and no drawn revolver debt."
+        ],
+        "resolution_needed": "Revisit only if operating cash flow turns structurally negative or large capital commitments emerge."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "INVESTIGATE",
+        "severity": "medium_high",
+        "evidence": [
+          "H1 SBC rose 48%; 149.7M options, 33.2M RSUs and 13.7M SARs were outstanding, although actual H1 share growth was only about 0.49%."
+        ],
+        "resolution_needed": "Require sustained per-share owner-cash growth and low-single-digit net annual share growth; track founder grants separately."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "severity": "high",
+        "evidence": [
+          "Growth is accompanied by 47% GAAP Q2 operating margin, strong OCF and major commercial expansion rather than marketing-subsidy dependence."
+        ],
+        "resolution_needed": "Reopen if growth persists only through heavy discounting, capitalized economics or weakening customer cash returns."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "severity": "medium",
+        "evidence": [
+          "Operating leverage and owner-cash proxy improved sharply, but clean incremental ROIC is not directly measurable because reinvestment is largely expensed."
+        ],
+        "resolution_needed": "Track normalized owner cash per share, customer cohort economics and efficiency of R&D/sales reinvestment over multiple periods."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "severity": "high",
+        "evidence": [
+          "Commercial RDV, revenue expansion, top-20 account growth and direct NVIDIA use-case evidence point to widening embeddedness rather than contraction."
+        ],
+        "resolution_needed": "Reopen if U.S. commercial RDV contracts, renewal economics weaken or major workloads migrate to bundled competitors."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "INVESTIGATE",
+        "severity": "high",
+        "evidence": [
+          "Price is materially above Base but below modeled Bull; reverse expectations require approximately 28.8% growth for nine years under generous mature economics."
+        ],
+        "resolution_needed": "Require either materially stronger per-share evidence or a valuation that no longer depends on near-bull duration assumptions."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "severity": "medium",
+        "evidence": [
+          "Top three customers were 16% of H1 revenue and no single customer exceeded 10% of revenue; commercial and government revenue are both material."
+        ],
+        "resolution_needed": "Continue monitoring 80% U.S. geographic exposure, government procurement risk and the 27% accounts-receivable concentration in one customer."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "severity": "high",
+        "evidence": [
+          "Solvency risk is low, but valuation compression can cause permanent impairment if duration or margins fall short; Bear scenario is roughly 84% below the reference price."
+        ],
+        "resolution_needed": "Do not equate business survival with capital safety; require margin of safety plus sustained per-share economics."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.28999010085952215,
+      "repriced_value": 167.22999999999996,
+      "price_residual": -2.842170943040401e-14,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 26.971731136240592,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 114.67709009153216,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 355.99749252188076,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/PLTR/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "red_team": {
+    "independence": "Same analyst/model performed the red team; this is adversarial self-review, not an independent committee opinion.",
+    "verdict": "REVISE",
+    "attacks": [
+      {
+        "id": 1,
+        "attack": "Current growth is peak AI-budget pull-forward and will normalize much faster than the model assumes.",
+        "response": "Possible; this is the largest valuation risk. Two-quarter commercial growth/RDV deceleration is a key falsifier."
+      },
+      {
+        "id": 2,
+        "attack": "Hyperscalers and data platforms can bundle enough competing capability to compress Palantir pricing and margins.",
+        "response": "Direct operational embeddedness and Ontology create switching friction, but competition remains credible and is not dismissed."
+      },
+      {
+        "id": 3,
+        "attack": "AIP bootcamps create impressive demos but not durable enterprise-wide recurring economics.",
+        "response": "Top-20 revenue expansion and RDV growth support expansion, but public NRR/cohort data remain insufficient."
+      },
+      {
+        "id": 4,
+        "attack": "Government demand is politically and budget dependent and could reverse with procurement reform or contract challenges.",
+        "response": "Commercial mix has strengthened materially, yet U.S. government remains important; procurement risk stays in monitoring."
+      },
+      {
+        "id": 5,
+        "attack": "SBC is a hidden recurring cost that makes headline adjusted FCF economically misleading.",
+        "response": "The model subtracts SBC from OCF and uses a diluted share proxy; dilution remains an INVESTIGATE veto rather than being ignored."
+      },
+      {
+        "id": 6,
+        "attack": "Founder voting control weakens governance and could allow capital allocation that outside shareholders cannot effectively block.",
+        "response": "Accepted; this is why management/capital allocation scores only 6/10 despite strong operations."
+      },
+      {
+        "id": 7,
+        "attack": "Interest income and investment gains inflate net income and make current EPS look more durable than operating economics justify.",
+        "response": "Valuation is based on owner cash from operating scenarios, not headline net income; liquid assets are not double-counted into operating value."
+      },
+      {
+        "id": 8,
+        "attack": "At roughly 52x diluted FY2026 guided revenue, even excellent execution may yield poor shareholder returns if the multiple normalizes.",
+        "response": "Accepted; Base IRR is only about 4.7% at the reference price, making valuation the binding constraint."
+      },
+      {
+        "id": 9,
+        "attack": "Large RDV/TCV numbers overstate backlog because options and termination rights may never become revenue.",
+        "response": "Accepted; GAAP RPO is distinguished from broader deal metrics and no full conversion assumption is used."
+      },
+      {
+        "id": 10,
+        "attack": "The NVIDIA partnership is marketing theater rather than evidence of a moat.",
+        "response": "No financial value is assigned. It is used narrowly as third-party evidence that Foundry can govern a real operational AI workflow inside a sophisticated customer."
+      }
+    ]
+  },
+  "falsifiers": [
+    "U.S. commercial revenue growth falls below 30% for two consecutive quarters while U.S. commercial RDV is flat or declining.",
+    "Normalized owner cash per diluted share fails to grow for two reporting periods despite double-digit revenue growth.",
+    "Net annual share count growth exceeds 5% without commensurate per-share owner-cash improvement.",
+    "A major government debarment/procurement restriction or material accounting/control failure impairs access to core customers.",
+    "Evidence emerges that large customers are replacing Palantir's operational layer with bundled competitor platforms at lower switching cost."
+  ],
+  "increase_evidence": [
+    "At least two additional reporting periods showing strong U.S. commercial growth, RDV/RPO conversion and normalized owner cash per diluted share growth.",
+    "SBC/revenue continues declining and net share-count growth remains low-single-digit while employee retention/product development remain strong.",
+    "The reverse-expectation growth requirement falls into a range supportable by a conservative Base case because of price and/or stronger per-share economics; price decline alone is insufficient.",
+    "Independent customer evidence continues to show measurable operational ROI across multiple industries rather than only flagship case studies."
+  ],
+  "sell_evidence": [
+    "Commercial growth/RDV and per-share owner cash deteriorate together for multiple quarters.",
+    "Founder/control or compensation actions produce persistent high-single-digit dilution without proportional economic-value growth.",
+    "Material government access, security, accounting or legal failure damages the platform's trust advantage.",
+    "If held, a price rise alone is not a sell signal; sell/reduce requires deteriorating evidence or portfolio risk-budget constraints."
+  ],
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/PLTR/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "overall": "HIGH_FOR_REPORTED_FINANCIALS_MEDIUM_FOR_PRICE_AND_FORWARD_JUDGMENT",
+    "notes": [
+      "SEC filing and company IR anchor financial facts.",
+      "NVIDIA is treated as independent customer/partner product-use evidence, not a source of undisclosed Palantir financial metrics.",
+      "September 10 price is a secondary reference quote and is not exchange-audited by the harness.",
+      "Forward scenarios, scores and reverse expectations are explicit estimates/opinions."
+    ]
+  },
+  "change_from_prior": {
+    "prior_as_of": "2026-09-06",
+    "prior_score": 70,
+    "new_score": 72,
+    "prior_business_quality_75": 61,
+    "new_business_quality_75": 63,
+    "decision_change": "NONE",
+    "score_changes": {
+      "moat_trajectory": "+1 from 12 to 13 after direct NVIDIA production-use evidence and stronger concentration/RDV cross-check",
+      "incremental_roic_and_fcf_per_share": "+1 from 10 to 11 after direct normalization of H1 owner-cash proxy and per-revenue SBC trend"
+    },
+    "valuation_change": "Reference price fell from $174.33 to $165.86; operating scenarios unchanged. Reverse-required growth declines from about 29.6% to 28.8%, still too demanding for buy authorization."
+  },
+  "permanent_loss_case": "허가·제품안전·가격결정력·시장점유가 구조적으로 손상되고 주당현금과 권리가 훼손되는 경우. 회사 존속이 주주 원금 회수를 보장하지 않는다.",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "data_as_of": "2026-09-11",
+  "review_note_ko": "AIP의 유료 도입과 미국 상업 성장은 개선됐지만 높은 가격은 장기 성장과 높은 owner 마진을 요구한다. 절대 SBC·옵션·창업자 의결권, 데이터 사용 권한과 계약 갱신을 확인한다. 현재가/Base 약1.46배로 제외한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 72,
+    "review_source_score": 72,
+    "reviewed_score": 72,
+    "prior_canonical_assessment": "companies/PLTR/analyses/2026-09-11-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

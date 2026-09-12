@@ -1,0 +1,136 @@
+{
+  "ticker": "AXON",
+  "source_assessment": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "784887e93c7676d418359a6efb97fc125434f74c36f258808516f07d7a07acfd",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/derived-metrics.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/evidence-ledger.json",
+      "sha256": "c9b6a71c182982564e510d2626b3ceee060b2c689de1a9dbd0594bec555e8dad",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/financials.json",
+      "sha256": "e8f1a67adc67c0521c1d5483aff77016e72a0d5a670cc2c766737970675e8b1c",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "ba9355af3b22b437ea5106c4835eb74bb9582e20763dafddd63af6e260b9f640",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/observations.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/thesis.ko.md",
+      "sha256": "44cbf1f762ab9ec06727dc1b3eca78a0c3d5fad9fff0ff5e1afb7ab49cfd84ea",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "14b319edd72d31a5dc31db3b2e171e97c81a8a466414067336dc49419b9f8101",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/decision-history.md",
+      "sha256": "8d83a593199e746116e9f0f58e2c7e6b534f32f7d1bb7ea91bf354599e4be836",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/decision.json",
+      "sha256": "6341128ff40121e6997a69208952f93915f3d38aff9c83ab27583340af1bf4ba",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/evidence.jsonl",
+      "sha256": "7862d1b814b5d55771c7706ff2c9ea02d15b583663331bc6f63b04b7c153e907",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/hard-veto.json",
+      "sha256": "9143f4b7ad841c54e0d8ee0d49a54e0459e38e61ec44de81e39493fecd4c501f",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/re-evaluation-2026-09-05.md",
+      "sha256": "6a377fa75f64660dab2e067e39b285a179d2b8ad268c713f824bc5e9eafa0068",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/red-team.md",
+      "sha256": "1b36cb192328d4e2c6626d0f84393044b353721efe64bdf4bc7f9e40e99c7824",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/scorecard.json",
+      "sha256": "c2fc11e1fb3d96552e7f51eef255407b2de9768895446b549593bacc6a801c79",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/thesis.md",
+      "sha256": "9689ffb705dfb727d06fffe40d6e3f9a13cab14233d450161e1f2bec8fa562f4",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/AXON/valuation.json",
+      "sha256": "6294fb8d23c68eef4b43c6480d1f96aa3c57a9796b357d74e7eea77e1dfd0d08",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/AXON/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

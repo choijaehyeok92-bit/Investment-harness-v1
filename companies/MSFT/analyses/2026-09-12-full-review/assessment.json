@@ -1,0 +1,399 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "MSFT",
+  "company_name": "Microsoft",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 66,
+  "business_quality_75": 66,
+  "total_score_100": 78,
+  "required_return": 0.09,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "Microsoft combines Azure, Microsoft 365, GitHub, security, data and developer distribution into a broad enterprise operating system for cloud and AI. FY2026 operating evidence strengthened through Azure growth, paid Copilot adoption and a large diversified commercial backlog. The central investment question is no longer product-market fit but whether unprecedented AI infrastructure reinvestment converts into durable per-share owner cash at returns above the hurdle rate.",
+  "current_finding": "FY2026 revenue was $331.839B, operating income $155.237B, net income $133.749B and operating cash flow $182.935B. Cash additions to property and equipment were $115.948B, leaving a mechanical OCF-minus-cash-PPE subtotal of $66.987B. Subtracting FY2026 stock-based compensation of $12.405B gives a conservative $54.582B diagnostic, but neither measure is normalized owner FCF because finance/operating leases, investment timing, working capital and AI infrastructure economics require separate treatment.",
+  "economic_finding": "Azure and other cloud services grew 43% in Q4 FY2026, Microsoft 365 Copilot exceeded 30 million paid seats, GitHub Copilot reached 50 million users and Microsoft Cloud revenue reached $214.4B for FY2026. Commercial RPO reached $678B; nearly 90% of cloud revenue came from customers outside frontier-model companies and ex-OpenAI RPO grew 25%, reducing the case that Microsoft is fatally dependent on one AI counterparty.",
+  "capital_and_survival": "June 2026 cash plus short-term investments were $76.843B against approximately $40.294B of balance-sheet debt. Financial survivability is exceptional. The key risk is capital intensity rather than financing access: FY2026 cash PPE was $115.948B and management's updated calendar-2026 capex expectation is approximately $175B after lease-classification changes, while Microsoft Cloud gross margin declined to 65% in Q4 as AI infrastructure scaled.",
+  "permanent_loss_case": "Microsoft can remain a dominant software company yet deliver poor shareholder returns if AI infrastructure spending remains structurally above incremental cash generation, utilization or pricing disappoints, depreciation and lease expense catch up after the investment wave, cloud gross margins fail to recover, and the equity multiple compresses from a price that already requires a long duration of double-digit growth.",
+  "falsifiers": [
+    "Azure growth and AI-related usage slow materially while annualized datacenter capex and lease commitments remain elevated for multiple reporting periods.",
+    "Microsoft Cloud gross margin continues to fall without evidence of improving AI unit economics or utilization.",
+    "Paid Copilot seat and consumption growth stalls while product-delivery costs remain high enough to dilute M365 economics.",
+    "SBC-adjusted, lease-aware owner cash per share fails to grow over multiple years despite strong GAAP revenue growth.",
+    "Azure or M365 loses sustained enterprise share because customers shift workloads to AWS, Google, open-source or alternative agent platforms."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods showing Azure growth, cloud gross-margin stabilization and lease-aware owner cash per share improving together.",
+    "Evidence that the FY2026-FY2027 AI capex cohort earns after-tax incremental returns above the 9% hurdle through utilization, pricing and incremental gross profit.",
+    "M365 Copilot paid seats and usage-based revenue continue scaling with improving unit economics rather than only seat-count growth.",
+    "Commercial RPO growth remains broad-based outside frontier-model counterparties and converts to billed revenue and cash without unusual concessions.",
+    "Expectation gap becomes clearly favorable at a 9% required return; price decline alone is insufficient without improved business evidence."
+  ],
+  "sell_evidence": [
+    "AI capex and lease commitments outgrow incremental cloud gross profit and owner cash for several periods.",
+    "Azure growth materially underperforms major hyperscalers while cloud gross margin and pricing power weaken.",
+    "M365 Copilot monetization fails to justify inference/serving cost and cannibalizes existing suite economics.",
+    "OpenAI or another major AI relationship creates material capital impairment, contractual loss or strategic lock-in without adequate return.",
+    "Any material accounting, security, regulatory or governance impairment that changes customer trust requires immediate thesis rewrite regardless of price."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 15,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Azure grew 43% in Q4 and Microsoft has distribution across cloud, productivity, developer tools, security and data.",
+        "Copilot monetization is spreading from seats to usage-based consumption across M365 and GitHub."
+      ],
+      "counter_evidence": [
+        "AI platform standards remain contested and model/provider differentiation can shift quickly."
+      ],
+      "confidence": 0.9,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "M365 Copilot exceeded 30 million paid seats and GitHub Copilot reached 50 million users.",
+        "Azure demand remained above available capacity and new capacity was monetized quickly in Q4."
+      ],
+      "counter_evidence": [
+        "Cloud and Copilot gross-margin pressure shows customer value does not automatically imply attractive supplier economics."
+      ],
+      "confidence": 0.86,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Enterprise identity, M365, Azure, GitHub and security create cross-product switching costs and distribution advantages.",
+        "Commercial RPO reached $678B and ex-OpenAI RPO grew 25%."
+      ],
+      "counter_evidence": [
+        "AWS, Google and open-source ecosystems remain credible substitutes; frontier-model dependence and model commoditization can weaken differentiation."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "Independent workload-share and AI application retention data across multiple years."
+      ],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "FY2026 OCF was $182.935B and revenue/operating income grew 18%/21%.",
+        "Q4 capacity brought online was rapidly monetized and Azure remained supply constrained."
+      ],
+      "counter_evidence": [
+        "FY2026 cash PPE rose to $115.948B and calendar-2026 capex is expected around $175B; true cohort-level incremental ROIC remains unproven.",
+        "Mechanical OCF-PPE-SBC of $54.582B is not normalized owner FCF."
+      ],
+      "confidence": 0.72,
+      "missing_data": [
+        "Lease-aware after-tax returns on FY2026-FY2027 datacenter cohorts."
+      ],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Management is scaling capacity against visible demand and diversified RPO while maintaining dividends and repurchases.",
+        "No structural external-capital dependence is required."
+      ],
+      "counter_evidence": [
+        "The size of AI infrastructure reinvestment is unprecedented and creates material forecast-error risk.",
+        "OpenAI and other strategic investments add accounting and capital-allocation complexity."
+      ],
+      "confidence": 0.75,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 10,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Cash plus short-term investments were $76.843B versus about $40.294B of balance-sheet debt at June 2026.",
+        "FY2026 OCF was $182.935B."
+      ],
+      "counter_evidence": [
+        "Large lease and datacenter commitments can reduce flexibility even when solvency risk is low."
+      ],
+      "confidence": 0.95,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 7,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "September 9 close of $491.65 is about 6.7% above the retained Base value of $458.83.",
+        "Retaining prior Base economics implies about 11.79% annual revenue growth in years 2-10 at a 9% required return.",
+        "2026-09-12 재검증: 관측가격 495.63 USD; Bear/Base/Bull 147.0168/458.8254/1013.5910. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Azure growth is currently far above the reverse-growth hurdle and Copilot monetization could make the retained model conservative."
+      ],
+      "confidence": 0.75,
+      "missing_data": [
+        "Normalized lease-aware owner cash margin after the current AI buildout."
+      ],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+        "companies/MSFT/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 5,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Retained Bull value is about $1,013.59 per share, more than double the September 9 price.",
+        "2026-09-12 재검증: 관측가격 495.63 USD; Bear/Base/Bull 147.0168/458.8254/1013.5910. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Retained Bear value is about $147.02, roughly 70% below price, while Base remains below market; downside from duration compression is material."
+      ],
+      "confidence": 0.7,
+      "missing_data": [],
+      "source_paths": [
+        "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+        "companies/MSFT/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "No material evidence in reviewed filings indicates accounting unreliability or management-integrity impairment."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.88,
+        "resolution_needed": "Reassess on audit, control, security-disclosure or governance deterioration."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Large liquidity and $182.935B FY2026 OCF indicate no structural dependence on external financing."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.95,
+        "resolution_needed": "Monitor lease commitments and major acquisitions."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "FY2026 SBC was material at $12.405B but Microsoft also repurchased $22.271B of stock; current evidence does not show excessive long-duration dilution."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.8,
+        "resolution_needed": "Track net share count and repurchase price discipline rather than gross repurchases alone."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Azure, M365 and GitHub growth is supported by paid enterprise usage and broad commercial demand rather than disclosed customer subsidies."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.84,
+        "resolution_needed": "Monitor contract concessions and AI-serving economics."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Cash PPE reached $115.948B in FY2026 and calendar-2026 capex is expected around $175B while Q4 Microsoft Cloud gross margin fell to 65%.",
+          "Capacity is monetizing quickly, but matched after-tax returns on current datacenter cohorts are not yet established."
+        ],
+        "severity": "MATERIAL_UNCERTAINTY",
+        "confidence": 0.9,
+        "resolution_needed": "Demonstrate lease-aware incremental gross profit and owner cash sufficient to clear the 9% hurdle on the FY2026-FY2027 infrastructure cohort."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Azure accelerated to 43%, Copilot adoption expanded and commercial RPO remained broad; no persistent moat contraction is demonstrated."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.8,
+        "resolution_needed": "Track cloud workload share, developer mindshare and enterprise AI retention versus AWS/Google/open ecosystems."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "Approximately 11.79% years-2-10 revenue growth is demanding but not demonstrably unrealistic against current Azure and cloud growth."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.78,
+        "resolution_needed": "Recalculate on material price or owner-margin change."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "evidence": [
+          "Nearly 90% of Microsoft Cloud FY2026 revenue came from customers outside frontier-model companies; Q4 sequential commercial RPO growth was entirely from non-frontier-model customers and ex-OpenAI RPO grew 25%."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.82,
+        "resolution_needed": "Continue separating OpenAI commitments, investment accounting and broader commercial demand."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "The business has low solvency risk, but current valuation plus unprecedented AI capital intensity creates a plausible long-duration capital-impairment path if returns disappoint."
+        ],
+        "severity": "VALUATION_DURATION_RISK",
+        "confidence": 0.9,
+        "resolution_needed": "Require improving lease-aware owner cash per share and a clearer expectation gap before buy authorization."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/MSFT/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "red_team": {
+    "attacks": [
+      "AI CAPEX가 구조적으로 높은데 감가상각·리스 비용은 후행해 현재 이익이 경제적 비용보다 좋아 보일 수 있다.",
+      "Azure 성장률이 높아도 hyperscaler 경쟁이 가격·마진을 제한할 수 있다.",
+      "Copilot 좌석 성장은 inference cost를 고려할 때 owner margin으로 동일하게 전환되지 않을 수 있다.",
+      "OpenAI 계약과 투자회계가 bookings·RPO·other income을 왜곡할 수 있다.",
+      "자체 AI 가속기/모델 전환이 GPU 비용을 낮출 수도 있지만 실행실패 시 오히려 중복투자가 된다.",
+      "M365는 높은 switching cost가 있지만 규제와 경쟁제품이 번들 pricing power를 제한할 수 있다.",
+      "GitHub/개발자 플랫폼은 강하지만 coding-agent 인터페이스가 저장소와 IDE의 가치포착을 바꿀 수 있다.",
+      "사이버보안 사고가 클라우드·identity 사업 전체의 신뢰에 비선형 손상을 줄 수 있다.",
+      "대규모 RPO는 장기 수요증거이지만 모든 계약이 동일한 마진·현금전환을 보장하지 않는다.",
+      "현 가격은 사업 실패가 아니라 성장 duration 단축만으로도 장기간 저수익이 가능하다."
+    ],
+    "verdict": "REVISE",
+    "independence": "Ten pre-existing adversarial arguments recovered from the linked thesis; not an independent committee."
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.11901403340348893,
+      "repriced_value": 495.6299999999992,
+      "price_residual": -7.958078640513122e-13,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 147.0167532181229,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 458.8253897856655,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 1013.5909800206987,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/MSFT/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "source_paths": [
+    "companies/MSFT/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+    "companies/MSFT/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/MSFT/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/MSFT/analyses/2026-09-10-deep/valuation.json",
+    "companies/MSFT/raw-data/2026-09-02-nodes-35176-35181.json",
+    "companies/MSFT/raw-data/2026-FY.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "Azure·Microsoft365·보안·개발자 유통의 결합은 높은 사업질을 지지한다. Copilot 유료전환과 RPO가 CAPEX·리스·SBC 후 주당현금으로 이어지는지가 핵심이다. 할인율 민감도와 고객 집중 조사 상태를 유지한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 78,
+    "review_source_score": 78,
+    "reviewed_score": 78,
+    "prior_canonical_assessment": "companies/MSFT/analyses/2026-09-10-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

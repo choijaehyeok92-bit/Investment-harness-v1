@@ -1,0 +1,76 @@
+{
+  "ticker": "ETN",
+  "source_assessment": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/ETN/analyses/2026-09-08-prelim/assessment.json",
+      "sha256": "5572b17fa073e0de4f2cc96862598eae3a07172db56dfb66721fe830c0fd7564",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "3d589473d8e0b5f065970fad2db1d8acae0f68c17be4b37fcb376d59f1d8a4f3",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "26d5641d50cf9dffa5410f0a92966038538d3d32d5dd2d5bee2546719747ea28",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "bab19c50e8037270b5a8608e81e39a7e636d396c5d2c6340e62ebf4a277552c7",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "aabc0c6808a9f9c4bd62e20fb77f0328544b58f67dfbffcee553035b05af7307",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/ETN/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

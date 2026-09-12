@@ -1,0 +1,96 @@
+{
+  "ticker": "ASTS",
+  "source_assessment": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "b1c77a1dce85e1cec6c23fd94e9263a8dc89249238eeb775560905a35f0afd19",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/derived-metrics.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/evidence-ledger.json",
+      "sha256": "e75fbd9a5c2feffb6ef74c5053a0379149027eb68ca74cf31508633cc698859d",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/financials.json",
+      "sha256": "552ea4da9c5f69625d31c903f0afdc55390f4fa020342e8161c6d707f733341e",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "7536b802e8aec7f1b52956cee0b2d3eb475bc8a2e3542f575129c9b9e27fa388",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/observations.json",
+      "sha256": "6beae4406bb174595f2a11b5064c0557bc75ccfb6de2fe3b21ce246b4115562a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/thesis.ko.md",
+      "sha256": "992669241e985d30b0c35570d16e4cb04d96751dcf15dd0ba133810ec98d9422",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "94bcc6c4ebe904b44470174800dd15c7087536f4f725efc26609c1c451dc52b0",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ASTS/raw-data/2026-Q2.json",
+      "sha256": "c175381df5a818e6c60a708344b3e54ee2b26458debeddebb4dfa759ff44731c",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/ASTS/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

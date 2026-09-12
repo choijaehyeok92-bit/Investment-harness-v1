@@ -1,0 +1,410 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "TSM",
+  "company_name": "Taiwan Semiconductor Manufacturing Company (ADR)",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US-listed foreign issuer; operating company centered in Taiwan",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "research_state": "FULL_ANALYSIS",
+  "decision": "WATCH",
+  "priority": "P1",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_WITH_OPEN_HARD_VETO",
+  "classification": "Emerging Outlier",
+  "business_quality_score_75": 68,
+  "business_quality_75": 68,
+  "total_score_100": 75,
+  "required_return": 0.09,
+  "portfolio_context": "Actual holding, tax basis and portfolio risk budget were not supplied in this run. No position size is invented and buy authorization remains false.",
+  "structural_thesis": "TSMC remains the dominant economic bottleneck in leading-edge foundry and advanced-node manufacturing for AI/HPC. Q2 2026 advanced-node mix reached 77% of wafer revenue, HPC reached 66% of revenue, 2nm contributed its first 3% of wafer revenue, and August monthly revenue reached a record NT$514.8B. The moat is strengthening operationally, but geographic concentration and a rapidly expanding global capital base mean shareholder returns depend on converting technical leadership into high post-expansion incremental returns.",
+  "current_finding": "Harness-rule TTM diagnostics are approximately NT$4.440T revenue, NT$2.237T parent-attributable net income, NT$2.635T operating cash flow and NT$1.491T disclosed PPE purchases. Mechanical OCF-minus-PPE is approximately NT$1.144T. This is a diagnostic only, not normalized owner FCF, because TSMC is in an unusually intense N2/A14, advanced-packaging and overseas-fab investment cycle and working-capital, subsidy and lifecycle economics are not fully normalized.",
+  "economic_finding": "Q2 2026 revenue was NT$1.270T, up 36% YoY, parent net income NT$706.6B, gross margin 67.7% and operating margin 60.3%. HPC represented 66% of Q2 revenue and 2nm already represented 3% of wafer revenue. Official August revenue was NT$514.8B, up 53.3% YoY; January-August revenue rose 39.3%. Independent foundry data placed TSMC at roughly 72.5% Q2 foundry share. These are strong widening-moat observations, not guarantees of future returns.",
+  "capital_and_survival": "Financial survivability remains very strong, but capital intensity is rising materially. Management raised 2026 capex to US$60-64B and has committed to a much larger multiyear overseas footprint, including a US$265B Arizona investment plan. Overseas fabs and new nodes carry known gross-margin dilution and higher cost structures, so historical company-level returns cannot simply be applied to new capital cohorts.",
+  "permanent_loss_case": "AI/HPC infrastructure returns disappoint and accelerator customers slow orders while TSMC continues heavy N2/A14, packaging and overseas capex; Samsung, Intel Foundry or alternative packaging ecosystems narrow the effective yield/cost gap in selected workloads; large customers use bargaining power to moderate pricing; Arizona/Japan fabs earn lower returns than Taiwan; and a Taiwan blockade, conflict or asset-access disruption makes ordinary solvency analysis irrelevant. The company can remain technologically excellent in non-catastrophic cases while shareholders suffer prolonged impairment through lower owner cash per ADS and multiple compression.",
+  "falsifiers": [
+    "Leading-edge foundry share declines materially for multiple quarters while 2nm/A14 utilization or yield evidence weakens.",
+    "AI/HPC growth decelerates materially while capex remains elevated and OCF-PPE per ADS fails to improve through the cycle.",
+    "Overseas fabs show structurally lower after-tax incremental returns without sufficient pricing, subsidy or strategic-risk compensation.",
+    "The largest customers materially reduce roadmap dependence on TSMC or customer concentration rises while pricing power falls.",
+    "Gross and operating margins structurally erode beyond management's overseas-fab and new-node dilution framework.",
+    "Advanced-packaging constraints or competing packaging ecosystems cause customers to shift meaningful system value away from TSMC.",
+    "A Taiwan security event materially impairs production, asset access, cash repatriation or shareholder rights.",
+    "Capital requirements grow faster than revenue for a sustained period and after-tax incremental returns fall below the 9% hurdle.",
+    "Export controls or geopolitical fragmentation materially restrict TSMC's addressable leading-edge customer base.",
+    "The stock remains priced above conservative Base value while operating evidence weakens."
+  ],
+  "increase_evidence": [
+    "N2/3nm and advanced-packaging demand remains strong beyond customer prebuild, with August/Q3 momentum converting into cash rather than inventory or receivable stress.",
+    "Arizona, Japan and other overseas capacity demonstrate competitive yield/utilization and after-tax incremental returns above the 9% hurdle despite disclosed margin dilution.",
+    "TTM OCF-PPE per ADS grows after the current capex wave begins to normalize; accounting profit growth alone is insufficient.",
+    "Top-customer concentration declines or the customer base broadens without sacrificing leading-edge pricing power and margins.",
+    "Overseas leading-edge capacity becomes economically and operationally substitutable for a meaningful subset of critical customer workloads, reducing Taiwan single-location tail risk.",
+    "N2 scales successfully and A14 customer adoption confirms continued process leadership without disproportionate capital destruction.",
+    "Expectation gap becomes clearly favorable through a materially lower price or materially higher normalized owner cash; price decline alone is insufficient."
+  ],
+  "sell_evidence": [
+    "Sustained leading-edge share loss accompanied by weaker yields, pricing or customer migration.",
+    "AI/HPC demand weakens for multiple periods while capex remains structurally elevated.",
+    "Overseas-fab economics remain below the 9% hurdle after ramp and management continues accelerating capital commitments.",
+    "Gross-margin dilution materially exceeds expected overseas/new-node effects without offsetting strategic or cash returns.",
+    "One or two key customers materially reduce reliance on TSMC and the lost volume is not replaced at comparable economics.",
+    "OCF-PPE per ADS persistently lags revenue and earnings growth after the current expansion phase.",
+    "A material Taiwan disruption impairs production or shareholder access to cash/assets.",
+    "Export-control fragmentation or political constraints cause lasting leading-edge demand destruction.",
+    "Management sacrifices return discipline for politically motivated capacity that cannot earn the hurdle rate.",
+    "Valuation remains near bull economics while moat, cash or return-on-capital evidence deteriorates."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 15,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 2026 advanced technologies represented 77% of wafer revenue; 2nm contributed its first 3% and HPC represented 66% of quarterly revenue.",
+        "Official August 2026 revenue reached NT$514.8B, up 53.3% YoY, and January-August revenue rose 39.3%."
+      ],
+      "counter_evidence": [
+        "AI infrastructure demand is cyclical at the customer-capex level and current growth can contain prebuild ahead of capacity constraints or product transitions."
+      ],
+      "confidence": 0.91,
+      "missing_data": [],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Q2 gross margin reached 67.7% while revenue grew 36% YoY, consistent with unusually strong customer value and pricing/yield economics.",
+        "TSMC serves the major advanced CPU, GPU, accelerator and custom-silicon ecosystems across multiple instruction sets and end customers."
+      ],
+      "counter_evidence": [
+        "A small number of very large customers retain meaningful bargaining power and can redesign or dual-source across technology generations."
+      ],
+      "confidence": 0.89,
+      "missing_data": [
+        "Customer-level long-duration pricing and wallet-share data beyond public concentration disclosures."
+      ],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Independent Q2 2026 foundry data placed TSMC at roughly 72.5% revenue share, while advanced-node utilization remained very high.",
+        "Successful 2nm first revenue, high advanced-node mix, packaging expansion and sustained margin strength indicate a widening process-plus-ecosystem moat."
+      ],
+      "counter_evidence": [
+        "Samsung, Intel Foundry and alternative packaging ecosystems continue to invest, and overseas production can narrow TSMC's cost advantage even if technology leadership persists."
+      ],
+      "confidence": 0.88,
+      "missing_data": [],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "Harness-rule TTM parent net income is approximately NT$2.237T and mechanical OCF-PPE approximately NT$1.144T, showing very large absolute cash generation despite expansion.",
+        "Demand visibility remains strong enough for management to accelerate N2, packaging and overseas capacity."
+      ],
+      "counter_evidence": [
+        "2026 capex was raised to US$60-64B and management expects the next three years to be materially more capital intensive than the prior three.",
+        "Arizona and other overseas fabs carry structurally higher costs and management has disclosed gross-margin dilution from overseas fabs and new nodes."
+      ],
+      "confidence": 0.79,
+      "missing_data": [
+        "Cohort-level post-ramp after-tax returns for Arizona, Japan, N2/A14 and advanced packaging."
+      ],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Management continues to allocate capital toward leading-edge nodes and packaging where customer roadmaps and utilization support demand, while preserving a strong balance sheet and dividends.",
+        "The geographic footprint is expanding to improve customer resilience and political optionality."
+      ],
+      "counter_evidence": [
+        "US$265B of planned Arizona investment and broad geopolitical localization can pressure returns if capacity is built for strategic rather than economic reasons."
+      ],
+      "confidence": 0.84,
+      "missing_data": [
+        "Realized subsidy-adjusted return profile of the full overseas investment program."
+      ],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Operating cash flow remains extremely strong relative to ordinary obligations and the company can internally finance a large share of current investment.",
+        "The existing harness model carries substantial liquidity and does not identify structural external-funding dependence."
+      ],
+      "counter_evidence": [
+        "A Taiwan blockade or conflict is a non-financial survivability event that can overwhelm conventional liquidity analysis."
+      ],
+      "confidence": 0.89,
+      "missing_data": [],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 4,
+      "max_score": 15,
+      "claim_type": "opinion",
+      "evidence": [
+        "At the US$427.18 secondary September 10 reference, retained Base value of about US$309.90 is roughly 27% below price.",
+        "Holding retained Base economics requires approximately 15.01% annual revenue growth in years 2-10 at a 9% hurdle, implying year-10 revenue around US$651B.",
+        "2026-09-12 재검증: 관측가격 433.24 USD; Bear/Base/Bull 96.2754/309.8980/702.0794. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Management currently expects FY2026 revenue growth slightly above 40% in USD and previously outlined a roughly 25% company revenue CAGR framework through 2029, so the reverse growth is demanding but not demonstrably impossible."
+      ],
+      "confidence": 0.78,
+      "missing_data": [
+        "Normalized owner cash after the current global capex cycle."
+      ],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+        "companies/TSM/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 3,
+      "max_score": 10,
+      "claim_type": "opinion",
+      "evidence": [
+        "Retained Bull value of about US$702 implies meaningful upside if AI/HPC and leading-edge economics remain exceptional.",
+        "2026-09-12 재검증: 관측가격 433.24 USD; Bear/Base/Bull 96.2754/309.8980/702.0794. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Retained Bear value is roughly 77% below the reference price, Base is roughly 27% below price, and catastrophic Taiwan risk is not fully represented by the normal Bear case."
+      ],
+      "confidence": 0.79,
+      "missing_data": [],
+      "source_paths": [
+        "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+        "companies/TSM/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "evidence": [
+          "The 2025 Form 20-F reported effective internal control over financial reporting and Deloitte issued unqualified opinions on both financial statements and ICFR; no material integrity failure was identified in reviewed evidence."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.93,
+        "resolution_needed": "Reassess on audit, ICFR, related-party or disclosure deterioration."
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "evidence": [
+          "Large operating cash flow and liquidity support current investment without structural dependence on repeated outside financing."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.93,
+        "resolution_needed": "Monitor if global capex materially outruns internally generated cash for a sustained period."
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "evidence": [
+          "No evidence reviewed establishes persistent excessive common-share dilution; the retained ADR denominator is based on the filing ordinary-share count divided by five."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.86,
+        "resolution_needed": "Continue monitoring ADS-equivalent share count and equity compensation."
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "PASS",
+        "evidence": [
+          "Revenue growth is corroborated by advanced-node mix, HPC demand, record monthly revenue, high margins and strong operating cash flow rather than identified customer financing or subsidy-driven sales."
+        ],
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.91,
+        "resolution_needed": "Monitor receivables, inventory, customer prebuild and subsidy effects."
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "No collapse is proven, but 2026 capex of US$60-64B, a US$265B Arizona plan and higher-cost overseas fabs create very large new capital cohorts whose realized returns are not yet observable."
+        ],
+        "severity": "OPEN_EVIDENCE_GATE",
+        "confidence": 0.86,
+        "resolution_needed": "Measure post-ramp utilization, yield, pricing, subsidy-adjusted invested capital and after-tax incremental returns versus the 9% hurdle."
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "evidence": [
+          "Q2 foundry share, advanced-node mix, N2 launch and margin evidence point to a strengthening rather than shrinking moat."
+        ],
+        "severity": "NO_TRIGGER_FOUND_WITH_MONITOR",
+        "confidence": 0.9,
+        "resolution_needed": "Track leading-edge share, yields, packaging share and customer migration."
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "evidence": [
+          "The reference price requires approximately 15.01% annual revenue growth in years 2-10 under retained Base margin and terminal assumptions. This is demanding but below recent observed growth and management's medium-term growth framework, so it is not demonstrably a bull-only impossibility."
+        ],
+        "severity": "NO_TRIGGER_FOUND_BUT_EXPENSIVE",
+        "confidence": 0.8,
+        "resolution_needed": "Valuation remains unattractive even though this specific veto threshold is not crossed; require a larger expectation gap."
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "The top ten customers represented 78% of 2025 revenue and the two largest customers represented 19% and 17%. Manufacturing and the most advanced R&D ecosystem also remain heavily Taiwan-centered despite overseas diversification."
+        ],
+        "severity": "CUSTOMER_AND_GEOGRAPHIC_CONCENTRATION_GATE_OPEN",
+        "confidence": 0.92,
+        "resolution_needed": "Require broader customer economics and materially more substitutable overseas leading-edge capacity before treating concentration as non-fatal."
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "evidence": [
+          "Conventional insolvency risk is low, but Taiwan geopolitical tail risk plus a valuation above retained Base and a historically large capex cycle can cause permanent or multi-year impairment."
+        ],
+        "severity": "GEOPOLITICAL_AND_DURATION_GATE_OPEN",
+        "confidence": 0.95,
+        "resolution_needed": "Reduce geographic tail risk, validate new-capital returns and establish a materially better expectation gap."
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "red_team": {
+    "verdict": "REVISE",
+    "attacks": [
+      "AI infrastructure overbuild causes accelerator customers to cut capex and leading-edge wafer demand.",
+      "Top customers use scale to pressure pricing or diversify meaningful volume to Samsung, Intel Foundry or internal alternatives.",
+      "N2/A14 process complexity raises tool and depreciation costs faster than pricing and yield improvements.",
+      "CoWoS and advanced-packaging bottlenecks become a constraint or competing packaging ecosystems capture more system value.",
+      "Arizona and Japan fabs operate at structurally lower margins and fail to earn the 9% hurdle after subsidies.",
+      "Political localization commitments cause overcapacity or capital allocation driven by policy rather than economics.",
+      "US labor, construction and infrastructure constraints delay Arizona ramps or increase unit costs.",
+      "Taiwan blockade, conflict or coercion disrupts production, logistics, asset access or cash distributions.",
+      "Export controls and geopolitical fragmentation reduce leading-edge demand from important regions or customers.",
+      "A 30x-plus translated earnings valuation compresses even if operational growth remains positive."
+    ],
+    "independence": "Same analyst/model adversarial review; not independent committee approval.",
+    "source_verdict": "REVISE_NOT_REJECT"
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/TSM/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.1521320927222779,
+      "repriced_value": 433.23999999999967,
+      "price_residual": -3.410605131648481e-13,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 96.2753661404663,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 309.8979731028986,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 702.0794260778287,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/TSM/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "source_paths": [
+    "companies/TSM/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+    "companies/TSM/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/TSM/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/TSM/analyses/2026-09-10-deep/valuation.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "선단·N2·패키징과 실제 월매출은 해자 강화를 지지한다. 고객 CAPEX·해외팹 원가·대만 제조 집중을 별도로 스트레스한다. ADR1주=보통주5주의 권리와 분모를 유지한다.75점이어도 현 가격은 Base×1.15 초과다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 75,
+    "review_source_score": 75,
+    "reviewed_score": 75,
+    "prior_canonical_assessment": "companies/TSM/analyses/2026-09-10-deep/assessment.json",
+    "adopted_checkpoint": null,
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

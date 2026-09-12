@@ -1,0 +1,136 @@
+{
+  "ticker": "GOOGL",
+  "source_assessment": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "2255f9eb819437128dfc706310e0aa5e5f8debc5438b010cc8d8a3d82a0fd778",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/derived-metrics.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/evidence-ledger.json",
+      "sha256": "b2d307873af02759d4e8d6fa6bcddae76b9cc12dcbcd5cbb43df9c5a40a3ca9e",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/financials.json",
+      "sha256": "be2a0ed174357ad4ac58852d45d93e312b261f23d425e84ed9852be9368c9417",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "a54e7725c7b0b8b691ba0084cbaaac3ff612af8d7f2cb517d79b56513781e5c2",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/observations.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/thesis.ko.md",
+      "sha256": "d3e04c894c55290598eb869ba994f0e6bb03eaad5bf827f835c9958c52c1f4e3",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "7acf30cd2b1a490bc3457055ed1134bce47e6d15810ae78f72f44bfd828bca6c",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/decision-history.md",
+      "sha256": "b096ffe0f4e0e52b29072f592b195993c79b5f3a13f2324476f7dbf03a1c4fcf",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/decision.json",
+      "sha256": "e5888ee9cf0a85ad34eb5e691a104d74401bb249bfea91b00bb2a544d82f8760",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/evidence.jsonl",
+      "sha256": "d4d1248666b8e1764cce6dced150eaae241a8eb3af78885f2ba779d6a9a63a4a",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/hard-veto.json",
+      "sha256": "cd367c6322195a5e5891ed545bee7501bf1fa6c59521f3a4abb153e6b2593996",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/re-evaluation-2026-09-05.md",
+      "sha256": "203c0dd7e305eed561d7de317cf0cc725ee2f481089ba5725cdfb89446cd1ab1",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/red-team.md",
+      "sha256": "07d3da63fdfa01f866f55b73a649a150ac416ab2a5a455a72c761decaea5ca70",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/scorecard.json",
+      "sha256": "6a7e003ba4866d0f81085aab9f6ac829d7d96c8e5026727f132e08c3bc375ed2",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/thesis.md",
+      "sha256": "365da24f8d37242414b1b42efef5ed4069c349a9d00fcd12b9ab3aad3aceb34c",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/GOOGL/valuation.json",
+      "sha256": "3898361b476dbe51655ac17c9b67dc16fbc50e8a7a7e438f10c5e5414fb6c118",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/GOOGL/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

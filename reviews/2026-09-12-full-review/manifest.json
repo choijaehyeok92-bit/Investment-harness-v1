@@ -1,0 +1,1234 @@
+{
+  "schema_version": "1.0.0",
+  "run": "2026-09-12-full-review",
+  "as_of": "2026-09-12",
+  "base_commit": "f39b27c51b47ea8662187225cf6425e769fb2b55",
+  "status": "VALIDATED_CANONICAL_REVIEW",
+  "authority": "93 registered companies: 43 FULL_ANALYSIS, 50 PRELIMINARY_REVIEW; separate LS Cable PARTIAL remains unpromoted.",
+  "scope": "Re-review of current full-analysis universe with frozen raw data, explicit checkpoint reconciliations, current observed prices, re-computed per-share cash valuation and conditional score-weighted paper portfolio.",
+  "company_score_layer": "Canonical eight-category company score; no macro-overlay substitution",
+  "changed_company_scores": [
+    {
+      "ticker": "145020",
+      "prior_canonical_score": 80,
+      "score": 79
+    },
+    {
+      "ticker": "AVGO",
+      "prior_canonical_score": 77,
+      "score": 81
+    },
+    {
+      "ticker": "NVDA",
+      "prior_canonical_score": 77,
+      "score": 78
+    },
+    {
+      "ticker": "MELI",
+      "prior_canonical_score": 81,
+      "score": 82
+    },
+    {
+      "ticker": "TMDX",
+      "prior_canonical_score": 74,
+      "score": 73
+    }
+  ],
+  "checkpoint_reconciliations": [
+    "AVGO",
+    "NVDA",
+    "ISRG",
+    "MELI"
+  ],
+  "data_integrity": "Baseline raw data and policy unchanged; additional remote raw data inventoried. Historical research preserved.",
+  "portfolio_rules": {
+    "minimum_score": 70,
+    "management_score_exclusive_minimum": 5,
+    "price_to_base_maximum": 1.15,
+    "target_count": [
+      20,
+      30
+    ],
+    "force_fill": false,
+    "weighting": "score / sum(eligible scores); 1bp largest remainder, score then ticker tie-break",
+    "top10_80_percent_rule": false,
+    "hard_veto_FAIL_excluded": true,
+    "INVESTIGATE": "Conditional paper allocation only; no buy approval"
+  },
+  "validation_commands": [
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "status": "PASS",
+      "tests": 37
+    },
+    {
+      "command": "python -m harness.validate",
+      "status": "PASS",
+      "result": "reviews/2026-09-12-full-review/validation.json"
+    },
+    {
+      "command": "python -m harness.build --check",
+      "status": "PASS",
+      "scope": "Frozen historical-source replay; 425 initial and 344 deep artifacts"
+    },
+    {
+      "command": "python scripts/validate_outputs.py",
+      "status": "PASS"
+    },
+    {
+      "command": "python scripts/validate_reassessment.py",
+      "status": "PASS"
+    },
+    {
+      "command": "python companies/NOW/valuation_model.py --check",
+      "status": "PASS"
+    }
+  ],
+  "generated_artifact_count": 219,
+  "artifacts": [
+    {
+      "path": "companies/000660/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "2edf6e4c21d3ccd0b3a508b05c071b7f14ec6f8e850a0adef826897c6ccd77b6",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/000660/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "21b378865b6e52eea56d11be8d21c04fb4e72b9876ceea19e001729da2187226",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/000660/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "799fc6ec413a809ce95f72d7ade131671c07f6014b17e77cb1625062ca9e8d09",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/000660/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "b53688035e44affe3f138a7fe3abdad9f13783b6aa45a24850c6b19eba3cbb7f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/000660/latest.json",
+      "sha256": "02163af175e384497c01108b060b8300021b916c20674bae9184aa5747630250",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/003230/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "ab7499adaa99fb25b4b7bba3c3fea8f7bf7bce0b6e7a14e4ea27fa5797ac94e7",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/003230/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "f0d29c5522ca4245c0c52c422aeaf7b7ab61bd8f1765d32f5fa9393da95eccea",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/003230/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "74eaf4888971643a878f4ea311f9eb73af458255222436a986018f8f245ac5f1",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/003230/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "0db4225c41dbd3d2a0f32dc109e1d199ef36bd338eef7b6629118ed261fb54b1",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/003230/latest.json",
+      "sha256": "d746ee76d2245e24f0901ef3f6ab45f14e04b6b8ac41a8156964e68497d12db3",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005380/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "3d220c71058f3d9853e90be972d56e3a66a6110f6dbc82e1af662081882098ac",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005380/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "cc0094e9ecec0d06ec9cac2b00b91cc58596dcb64a8ee70fad5f4cbe06c8f2c0",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005380/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "35aa1439489c1e24e2585ecd44964fa1a38c616fa9d108805a50a19c6d95d28d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005380/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "7f9128a6fe40761f45707f87aa8a22109a305f2feebc98bcc07b002352ad8064",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005380/latest.json",
+      "sha256": "e27e5b42e9fafdff56b83f01767331cfffaea6351a0ed2aee3bb7045821e9132",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005930/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "d6facead57dbe04a9910919bd088cbe60803364bb9076e8e02d9cd593da74248",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005930/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "f5bb8c777a5556b547bf94c4897170b3f935e6895ec859ed367d9e87864c14f2",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005930/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "4c0017f98a090f947db5138d6ca0794678b16d27c623ae245169d6233f8fe75a",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005930/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "083ba059e385abf0094195277ba82964b40e236e598c1d2776710117fbe98ebd",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/005930/latest.json",
+      "sha256": "ad8d827e4dc30cf7a889f054f70cad694c38d58a671c3d4de2a037ed43bfc81b",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/012450/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "74650565729978b7cfff1c393fd1831dd41ed78278f4040a7e02f2b31bc7eb21",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/012450/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "4456cb03e0e617706e10d47aefc222cc5bea7744c9cba5a1d69168783c5b7141",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/012450/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "794640acc039be0606c1701bea7be512403968f54b1f5b48e8d968bb5b782235",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/012450/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "621c5718189fc176d02035497b8f0af9d15585af5e89d9ddef8f09d9f9fd00f2",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/012450/latest.json",
+      "sha256": "904684a0a822bbca8a8a9f96bbf93742273b6504855bd3ccca4e2b33e28f58a7",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/034020/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "649f4c5ad81bdf30f21672b29c2c434d9cf7e9b8c8d48b157b72ad79c7c790cf",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/034020/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "638f6821b9595b90736eb4a4d56bebb28936c2e013d668bfae628aee80ea8aaf",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/034020/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "d0dcc8041e51765101f9285e4a3c8de5e04d7c2b9cb9bad722aa63926c0a95ab",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/034020/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "f5880f7e4c0c983a70f1b3b65fdef7efc0375677b48ed33e798815a7695d0446",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/034020/latest.json",
+      "sha256": "b48ad7d3fb4ee43128da7f0f76ad4dca4fc31d569dc727fbabe12b154fbf9709",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/035420/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "fa0e669fe53988d9f28552331832c91b9e4c48aefbbda15f7314e02ff2d77907",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/035420/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "5e68a940a30706c8dccf650e6824ae12f7cd238f740a526b4d37ebd1a23f22dc",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/035420/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "5c933082125ef18f3277d9a50528d01988bd0a9883e690f8195a70b5790de744",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/035420/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "c045e2aa471f0561d5c2e454062ac75a0245985d587157543b3a0ba3a9bbbb29",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/035420/latest.json",
+      "sha256": "939fb2a35f90a5de13bf4c6a3c64a4cc23b3b7d687f3e9a62cef0aed9e27ed93",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/042700/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "ff7bc60c7f1283678c323cc9d8b2ce6b882604b9e3109c6fe7801e4d711f015d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/042700/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "67c977f49645b58ed77db853eed6cbc174a43a39875f6efe27e09b9b0d5aca89",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/042700/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "d4d4df458f46bcf3d1d96855cd6e4a70fcdde0e9250eca3b6deb5b11da51a3dc",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/042700/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "73570eef5f7403c65483d95ea26b0cf3c8a3b669d33d1cc1b95ae1b984905532",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/042700/latest.json",
+      "sha256": "bf9740cbfe55105c42b65e13d641e6b6896eb7b3a89bba410047a1bcf4397306",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/058470/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "e7e9fc56a9072dd6dcb2ca005833fe2835ffd18961b78d402528ddfa3a3d3ae6",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/058470/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "1203b90f4809843d01ee24eeebfbcb59b3f3409023258c4db95f394a09777d5f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/058470/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "708db3540c986d29248c3127c4d350b03eb65e3537720684920541e4dc081a83",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/058470/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "76fff1f190a9dea38bf85befb1b1d914e1fe2b3d54efabd3004b9dca8d06af59",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/058470/latest.json",
+      "sha256": "1809cd73eabe3b92d56838b50888a54e767f8a1ac68aef05fc9106e297c0aea9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/145020/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "1fecb0196a6f33b9ebe333a04787ecd728b922106e23dd52a480e60ac15499e6",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/145020/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "09bac848591d74ed00e96b0f54eaaed14b18bab6297c9de6e169600c8e00f306",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/145020/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "d921e6902f4067a02b6ee7f12aea8d6566d8cd5ff38efa46af1c6098aa5c9015",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/145020/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "fcdd8b065809e38dac66a5f21d47405437a43a822945e936884640b1856fb379",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/145020/latest.json",
+      "sha256": "3325f1172013fa3570ad3bcb236a3a6791f7d22f0bb0a7bbf34c1b0170988da9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/196170/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "efe322c7bc864bc7968470e42ccd5840ed107aba0394984ec6239c7dd11f4456",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/196170/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "d210ded3d06feb5ff724e11bcf4483ab76b3cffab9848463333d0771eaa75d65",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/196170/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "eff1295f4368a4448925fd891f2773730d5f897043979962e9df1503cb210a65",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/196170/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "ceb7bdfc162fc872208cd04a58499a8fc1f861aada01d9a272c109b0404a57cf",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/196170/latest.json",
+      "sha256": "435be967985e230faa363239f823fd691f332a38e5f3ac6048e99d518a4c1a4f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/207940/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "4232fba51ea5215bc053ea0e5c5f9fc983b095d2794349d19ff18b542e694da9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/207940/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "3a49587937ed97fc648440da74c7bf0eb2516762fad2acc753907b937733f8e6",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/207940/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "c04c196ae6fb1b30aa5f1e09bfe24c1370759dd8f332defa82e46a41b55c8333",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/207940/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "da282f70d7ef9714115e945075f7fbb36cb61bafeb321a266b7b65904a1a933f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/207940/latest.json",
+      "sha256": "ff4316093595192bbfd8b49cd0f76cd2f1be85f0623693d31338c55c99d53e7f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/214450/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "cae1ec1b8ed335fc7a066fccb3ac6b834d85b01f3d2a9e4298443eefb1505a17",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/214450/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "b461785fb607e206a25b2335cf4188f93149ed69f3f1f233a7b089c80cd92e64",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/214450/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "f268a7aa0cfc1d6fe4f7b75e9d1443ca039bd7994936534cc9cdd63db37689be",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/214450/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "8338ab96c2bd2060eeef44aa1e068c7e3efcf2cda273fa83527ad0f9470f2fac",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/214450/latest.json",
+      "sha256": "ee56757f7d6ddaa327b176101b8d2249d7c4aef9fc4630887dbd681e5ba0e00e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "1ca9a2ca462e8e6252469e0d62f866a3bb649aa6be51164a767d514b2aaed07d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "4a94f04ced3437f993404bd42eb1dc92cbba5574114cf5ac0102fb257bd9a7b8",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "b505f4edc3fc026e50211ae5589e4ef872a3f6a0274ae3ce2f74c9624bf4da5d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/267260/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "21a6e80b9fd0247ae28fbe97e386a2badda3c02b7ccde9b45fb713953353c76f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/267260/latest.json",
+      "sha256": "4af19e117f568434a79f2505a5125d51f4b7a10f1ec308db9f7b388f5f955b73",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/278470/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "36f802186cb37e2a60b8369fd7ef258aa7ce674c50a9e70f2f238d69d039bc0b",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/278470/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "56406b9c9c37d200bf63fa3ec1837786a587b04ee6c28e4b20a34f8738b6e2e0",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/278470/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "81b35333d71f6dea1be1bb850b7afeb6248a62f750d496d41bcfe665ad52cbf6",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/278470/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "9606370e0fc82c833dd4a7322ab8df92007752c5550cbd63e4896c43f616db9c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/278470/latest.json",
+      "sha256": "a1edb921436aada3c253e8eddb3ae6c0ca599284fd1d748d3967ee34611c0870",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "0199732e167636da429eda3f5b9506e148cbdab612be663976332ebbc44fd6bf",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "9a4366c948a603b958d2a43bb047bdfa44b355b574876a080c739e248cadf21d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "d7bf3e552a5952d740fb569a5adbd298d32ab57f1eec6933d1ef628dfae3b857",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AMZN/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "03ca793b09229a16a0030e95bae6dc3e3eaf34caebd347220d2c8d93152e4579",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AMZN/latest.json",
+      "sha256": "0b3126dd87cff51a00f8d03279aedecfa48f15a3ea6b1d437bc802e3c36e60ff",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "0fa9ad21486a5ffdc2c487dbc7d6a5e1706786a1a43fed03df3e7cb6c0cc1eab",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "7696e4ae71682b050649ba08fcbf5933b237eef068fcf02dc2f54f5da6b71fba",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "c7d53725e69acaa8a75eb606332848d7518a5d30ca47754fe7c7aaf28e541e5e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "bc0589fd59105cc3f24bc91828759cc82e6a40c049d609cfffebae3a2470ace2",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ANET/latest.json",
+      "sha256": "9369b7e4b323d0f32848ceaa6eb4a3c4fa1a096a4e7142e8a1994ac23ff5c1ba",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/APP/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "83e876f059f633f27534c3e8a3ac849d3832ea66e30dff2af3d4db6fccfbbe79",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/APP/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "a016153031ac6dd648183cea46cf1e7cc7c3dda3d250304f324b77f3d8d9cb08",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/APP/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "2defe4ba99a3b2ff786ef7e2bb0c6d027e81ad3a40bf06eeab9aa027ad6e2242",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/APP/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "151ec25d2161d4a2267cd734ff941d54cd5e7fcd4866d307bb9cb0b0a1876733",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/APP/latest.json",
+      "sha256": "114b762266b8ef57c7f388f0231542d3af29076e59f11520117f43ad3536aa4d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "5be73ecb60d24f4d65695bbee484b6a01b5e3cf65b6c98f5548a07c0286e10fb",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "9a88575e8dba06231ca892093f616249cda9cbd19999703756af88b3a9c766c5",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "daddd4a76f2c0f6bb758a905284b28348cbd6f9d1cba6deb45d8e2bb62db29c0",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ASTS/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "f9887d1beb6e2d32f72f1cc7247fd371664311287cea008d7d6aa921e51e7993",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ASTS/latest.json",
+      "sha256": "1fd2f10dd83f204511795266efe9593dfd867d996d62898b5012b41bb495aac9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "e07bcc40785fd9a6a07af141e7eef43eb07e7089b67fa46aefbd981602dd26fb",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "a692b11a7379116f57362e9727f0147b529ddb16c4b54338ed43acc7c3274af3",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "e7a2f06e8e23c8ecfbc9c5656b13523c0e59a4290c3d92d81565b20bf54d1068",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AVGO/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "099f682d6e90315f28c6ad9c536a69d11983f760104d3a14899acf60be4fbd7d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AVGO/latest.json",
+      "sha256": "9e84ccfb02fcf8c7f77a238d2d6054b58b08c722be39ba62808e93cb7e535051",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "23bba559cbbf904d8bb26a90b356376903823f0fa6ecfc894e24aea4eaf6771a",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "9b39090c1c8341ed851adc565e2b304a6a2067546d5e7a57318cba8bfe376eef",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "c7be94d32b709c3a7d54ea0dc693f75f11ff134622c00c5aa85a874e35a1892f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AXON/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "1d865dc05c7469818eb397d8b9bcd0f9b68cd9d507ac483736011609521af99b",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/AXON/latest.json",
+      "sha256": "cd5463b05813d9bf0498edb00ad67de8cf6e0c6e3f47d74ab31d8bcd0204dfd7",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "be0910df7c2eb7d283808b9d2758b483ff75941ccf6a9e884c2e841eb2a7995d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "6ac56467a165921941525098e818970cb353f03af5dfd1604adfbd6efb949863",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "c8e56f421966bc744d6049da6000f5350c559d9dc952f64a76ae577c7fa487c1",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "c86648b6735d61acd11cdde01ff98a157525df069681ac9856b24d7bfdc41eb1",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/CRDO/latest.json",
+      "sha256": "be159c06d9ac3043335b1e25900b35a3eebaa51696c4caf0e00c12748e3774b8",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/DDOG/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "b59dcf6e383804a210df4b0d71afbfda92c220e940020d747c351602f7f65b80",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/DDOG/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "7e58552f40412e97ea895a6659c0d7f5dab0cb4cce6a60653b7a0846cc696eac",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/DDOG/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "da76ff4e40ac91814ce13fb8c8014c99135b18266d26bd8ae66571577fab1a26",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/DDOG/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "06625ac673c5f9d5560c9e5194487c66797eea5414d4caa77c4a5dc800a584a4",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/DDOG/latest.json",
+      "sha256": "3afa05b3a4077c28f0ca6063c9f9b992d4bf639d678f9a4e71d044825905400b",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "cef6a22c9b9bd77f04ae96fa39787033cc82664b666dec3f15154ef2b9e6dd4d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "f0e6c75199320bccb2cdd355851aec11078c3a40f9b869a17bcbf1ee281442e2",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "84f564a6c023f46a3f42f6910a3a4497d1b42e05743e13b9924593e600abf567",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ETN/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "4d96b05fa40f118e296f5e86cadb3bc94b9013a8dcf15fa866e5ffb1f540c161",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ETN/latest.json",
+      "sha256": "8c64e924c8719508b8e91339be4734a9cc983881229d65131b7e94bcbd689428",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "f2c839a492dbd2b81cafabf0b2f7a7e4f703d9632393ca216ab24c8a53f20ba8",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "1701c69ff5b64100864dc237b4e162de385b33c5157f7cee39aab9a10bcf027d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "80e96414e7503874fac48a996bec48b84f3ef7a4520a1ff82ac687001e35e508",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/GOOGL/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "53f43d4191d728c7e7e6bfda36cc2858cfea9aaaf9cd3a1c7acdae84c0bbe3e5",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/GOOGL/latest.json",
+      "sha256": "fa052a94bd21330451d693201c5a65f2e6f0224629c465d43cd6c4929a188394",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "81a4ed6437c9dd50a4064ff3624e7724488d9717f9c98f9cd6d8b9150822aa13",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "c11b57b1986c8db3d79c79a83526fa30fc7f063bbcc5b3e30390acd761c7d2d2",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "69532fa74bca59804639cc786321b59ae779c3093ec1e7830fdf3e608dbcb61a",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ISRG/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "f1719b08ff6c5b28c984aa930c9719201456b4195e4052aa7469901c8914a439",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/ISRG/latest.json",
+      "sha256": "bad6ff03c3c3a3c0783fd74ba82d5e651ff2abfb6fd0b0dad88c4f160d693c23",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/LLY/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "f326f2b5313bed4dc15fe01f2a996fe35ff9554f9c6296082d8bc696110d6372",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/LLY/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "6a187f5dbb14f9abf1a5ef1a78bac98b4d7c3165763fc27661612f7d30c4f206",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/LLY/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "affa94cec81e450333f1624acb4d8c9495904b4b46d8c508af009e3654698441",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/LLY/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "efa7998d16d3451371a6de85a4a41dd69358f4368bcaba7598b99e23de725bdd",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/LLY/latest.json",
+      "sha256": "edc2897b2c7f0001357823521ef64a64b0ba6c64ae6715af728e7c9482a27a89",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "65290a33d4ab076e7986efcad4eedc3097b9a3aab56e8c9f5b265ca7624da048",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "90af8aa44740f5a78f6aa86b0934ca59e6fb0cd9c044f9b1fb8818d08cbe1050",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "caab1fbe0e87b870782d955dea572377e3a57ae334f07817f4d658f7a7d51fba",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "d3b910353660cf3e01de5b41292b65b1c3383f3198537f8325ce1f9253bcf573",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MELI/latest.json",
+      "sha256": "bb3eecc760b4fa16f541862877a0269a623cd2089222a9a9fd5675f8c8e5ad55",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/META/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "badaa2ac5e0d3a26a1c3abae7f67481b9b8870becc4015e092ce5503ba34717c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/META/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "3d4cf725ac1a3eb847ce6a40f76c3a5618e0ef2fd58fa17e7fb8a9b4a0f10bfe",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/META/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "973d34e0ba25440468a6be66b0621ddd7cb52d74abfef16501a1a28b3d0a3433",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/META/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "923e269e820475666312799560afea700b11efef2d1acf3a7fbc842c8f0e4d95",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/META/latest.json",
+      "sha256": "7377562059d4f21ac1bba97980f46f541c950d5574246093c123d8753ad9fba3",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "c95204b84a22d0792aa4f8f6353b172f0b6e1f1c51125082e1fb34449b6b923e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "51a51514041b473f2e08423b1e4e6f5c3dd6b24e287629ef71919fc3c1a2fb7e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "c1ce8aec8b18b2b20ff222c18a4838a40a5aeb30d27423a209fac59515343ddc",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MPWR/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "71cde8faac5737e1a8278c704a35c24697fc10a50cbbc0fe341158b6a6143ba9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MPWR/latest.json",
+      "sha256": "0c3cec1bfbfe30c3c72212a870987ce11fe01edfc7f9c08fd875a4a8a0ffaef9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "cc447aa18ada339a6f04a276174332b61493dd9fc6432045dd4d1fc2a6152902",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "fedfb51ec8a2468b7ce3868bbfd56f7483bd105d768518a9fd789138465cb673",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "5f9f256f427ca65de24b980728b11b9faf171b766fafbdcf6cecf742ce48815e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MSFT/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "133a752473e4c70b5e0f3e43325ce63805cee3071f1d5c8fbccd7ae98eb37a81",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MSFT/latest.json",
+      "sha256": "69b4a1ed98a804a6db343c2460947616ee63a06df9a7db38f9bc29d460993be6",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MU/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "952986e5a21a3f39508b0afe108218ec08ae9f204d7bf4e7202c7adea5ccd167",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MU/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "d645f752fbbd112d392de133bdb9ef2e51c338317a2958eb16e7f96f0d95c0db",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MU/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "36029b1baff2e2b5ac87fceef03709bf5c4259de8eacfa7bc39654d65094302b",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MU/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "03fac80a7d7ade830d34d9c7d0fc030ac94f2e52dfedf62d41ceccc6cd4dd795",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/MU/latest.json",
+      "sha256": "5e2835b51f8aa0606f2018650eb74a50b4e24520b08302ff227c01d8773fc851",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NET/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "21504e65cb9766e97a6f7cbf29bcd2744856f98a3fa1351b1455b1e43d87bd40",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NET/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "c5e0faf44586eb0c62470c0fa56c9507e4e84f08d5e0f22f35735b1a0e76926c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NET/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "37b360d411ee5dc260e7dadecd060478fdcb0811f197ea8f4985101285226ea0",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NET/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "f877f7f35292a3fef3b1c366d2f9c41b2a43f13ddf815d8387009dade1e85e7c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NET/latest.json",
+      "sha256": "36d8cb6967e03c12be387b0be990d6449c0ca10947d0b283338c7798744033eb",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NOW/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "a58d104a49656ca002dff41c040debac2af19bdceb956f42ff346586c94d7448",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NOW/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "040969d5c0194f205a6874373347f4ac6cbd6390a506bc2ca4bf75060e378521",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NOW/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "18d5085d6ba28971dec1a50f49a13439156c837d59f9154f29370ece6e383481",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NOW/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "24bea337cb0b4f0a5970f62353198c0998c8bf7826e8193ac11f812e4ad2c403",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NOW/latest.json",
+      "sha256": "e75da325e299c52ffb7be85902ee01928678f95f643ce5effb97aa7998131fea",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "4c1ac57497bd16a66074d13adac54aaaf84af43bea1b415f7240ae92fba69dd5",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "1bbe63612db491ee940fc29e76671bd29fa8f4cb05996003afc58dfbd9fd8484",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "5a782c0179842b94f24f609dd35c7ddb5c80b5f73042f70880b351deeefe5256",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NVDA/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "5a7627541611ede37e99518d25d02c9fa52984bb020f9629bff58e957a4a6f8e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/NVDA/latest.json",
+      "sha256": "fe608a451076584fbc82103665284bbba092f1ce5212aef41dc533ec8fae587a",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PLTR/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "d19fece8c7100a0ece19b6dcb6a40752a749fda91b9b627b556eaa7b9694cf5a",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PLTR/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "df470af88d37568b9977dfd4d660ca39860df5af8af7fc4d0eea67bfdb487c1c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PLTR/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "282572964750077b3cc7a5bd49c15928cbf61ab401193ae9dfad26184978c211",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PLTR/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "af7bb5779ea72b9c44433dbb63f722a85e8942904e9d9134c715f9f3255d9888",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PLTR/latest.json",
+      "sha256": "97047b7dccec6482d0d2f3e94ce83610e3cfe8908243237f421488f5249fbab0",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PWR/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "8de1e582e3d5b8e130c6afe553b3f557360a2bd20489e6757295df3b2097bb13",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PWR/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "bb3ad047606ff62e16f3d84fbb7e6491a6812da0eaec7b0c8fbf87f063f7af2c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PWR/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "9068ea41d3514dd388f9ef3540372e95c1f7ac269630f9555d09ed27f42a3f1e",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PWR/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "337f02f75cd8547378d4381aee705886490fcb7b4d1e55e4a6bd5598ca36d0e9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/PWR/latest.json",
+      "sha256": "f82c5d2f7fbebcb6bc7d66684146070ea4488a4d9e74a46d2efbfa6d7cb60fd4",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/RKLB/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "301ffc250af7ef60e22947848378fa8240c0792c135fc9d4c787dec72c61bf62",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/RKLB/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "7e204338c4c6f620a77281f498ab231d7e341d5e5248969642098a5cb72e87ba",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/RKLB/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "886ae5b34ecad7b3c4ab359a97d90cb3df4a9ad3cd5004376974be5bfb7ad360",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/RKLB/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "73fbd55f6b654e4fe37d92667e55a5e8dd7b37fd8bdd917be5bfa473f5935472",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/RKLB/latest.json",
+      "sha256": "c66620dfdf3dd9776781a0ce87af138677e86e8f77b1edc45192c6d53525797d",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TEM/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "b948cd360b2676daedb1c77f028b78f4f9e521dc7362c83185594c7e0c0df511",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TEM/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "76278c607d40a765660fc2d970eb66e1e780895a7db278855234187b513e1d00",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TEM/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "6a63393c7d0e8539fbcbb873ca5be69c928dbc9050da7db160ddfb99a34faccf",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TEM/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "9d54801cae25db46606173440840d0ede22a6fe9a4e24e3baa08a40f5540164c",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TEM/latest.json",
+      "sha256": "e0df4f7a74cd105c594f6605c6a648028e861555d20ab0603a331244e4cae58f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "64c73a07090e5406606da4fe00ef22530d65cbfc03dbfdf8e070f979c7c7921f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "bc74b53aa7f0163e18f7311a27bfd31dee6624a98960de4c8d6074a9012ceb6f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "968a6fc2c4a20566523f4552f992012119921edc9e684aaa4290e539964eb276",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TMDX/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "90d7692f774616fccdf5af69b0e1291d67a59b47417d4f682226cfcfbb946d5f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TMDX/latest.json",
+      "sha256": "e10c46b75823bbe1de4d239ee131c1573db16fff03dfcfc1c113fa399f5384dd",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "4b55f8544298d6b8e6a871db6b16c0d681027cf5ec70058a2dd15a69115bacc9",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "a3cc9af8aded278589bd9cb65f5daa041acd350457430cdcc4a3407616071049",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "7e2235a1979799760c75317a5fd34f46eec00dd4d98c9f408a2c2272569cc65f",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TSM/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "b925ee905e206ad30b24e2c5f71cbf3a618de22a1401c014a8aacd206305772a",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/TSM/latest.json",
+      "sha256": "6e7261aee5bf3af67d685e0669ec6e643691949fe1c3ad1563f88a18c0534b10",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "6411543b8a1f2b79ceb9ed0e9749d0903c30e8137bb6af843140c72ba3cd0a59",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "d5e561d967d54a0e9a525eaf6ec72d233bbe7494687318e7e3ae551a52a23bfc",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "cf3962664fa4fd833dc5d85c5e5e9b70d69631f08dfeb1076fe98174d15aeb15",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRT/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "bf5b129867f4c199f8741430dd049a93693f9cc3d435e68f7f4025f239a69885",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRT/latest.json",
+      "sha256": "19230e9db0d2118b933f3faf6a0391e491b4f09a9f0012d008cb70dab3407ebf",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-12-full-review/assessment.json",
+      "sha256": "832763fc17e3c3ab94037e47054708286c6ab8b8ca3d312276a12df2fcb8b8c3",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-12-full-review/lineage.json",
+      "sha256": "9ca2701859702d63e4e3ad870098719b94ebc9e55fba5ae926307a4b8f0c63c7",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-12-full-review/thesis.ko.md",
+      "sha256": "44da10b3ae95a3028a5c199b8b1f90a1ae1513cb121c53cc3a5893653a1ad09b",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-12-full-review/valuation.json",
+      "sha256": "74a22265f49f9b79d91912edb339edc4874f6a2e37157ba2f680c5ab425ab6f5",
+      "kind": "generated"
+    },
+    {
+      "path": "companies/VRTX/latest.json",
+      "sha256": "90aa9d82bbf80448219d8d9858cfd605230d7c6d75f6ce8f610f93deb1e9d6e1",
+      "kind": "generated"
+    },
+    {
+      "path": "registry/companies.json",
+      "sha256": "be7887dcfdc216aa35509709504021ce3c43a16b58a54a06ac966abdeed59635",
+      "kind": "generated"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/README.md",
+      "sha256": "b64efabaf4d41ac985847cd5befa6b1137bc825a43509c1dade01eadf4d8c51d",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/authority-input.json",
+      "sha256": "7149013e9830cd4e4fe10cb56c58e22b1bc470fffb320451b348487516c4888f",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/input-manifest.json",
+      "sha256": "cc73a778b014373091db96d8a314b1f75e99b96f8ecb354e894b1f45462bd3f2",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/model-specs.json",
+      "sha256": "07c9bd4f1b1dc910d940d05e81849262312f6c7f072015446976e7d3124f5771",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/observation-bridges.json",
+      "sha256": "a0bccc198325da3f5c2dc50f2f1cdb45d2a9396716cb334b168259870a15580b",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/portfolio.json",
+      "sha256": "2e75bf1c1c163837cf9385a2206fff9284c8830a5749813f2425fb1eef0de160",
+      "kind": "generated"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/scoreboard.json",
+      "sha256": "7467ba12782d9ce9a5db0576bf88462613613eccfa569c9f599e820e36b64f20",
+      "kind": "generated"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/validation.json",
+      "sha256": "6e6105d0f91c6e1ef5d03034f93224607664ee6472fa490d4332c3ca966706ad",
+      "kind": "dated_research_input_or_report"
+    },
+    {
+      "path": "reviews/latest.json",
+      "sha256": "3ed8544f08e5b2f9f33f68c47665910941d3629df3cec85aef4d48716fcb60c2",
+      "kind": "generated"
+    }
+  ],
+  "new_test_scope": "Threshold inclusivity, management exclusivity, missing-value/veto gating, largest-remainder allocation without top-ten constraint, same-hurdle Hugel valuation and negative-cash PV.",
+  "limitations": [
+    "Stored source assertions are not a new audit of every original document.",
+    "US finance quotes may include extended hours; Korean quotes are delayed September 11 closes.",
+    "Historical rounded metric documents without executable formulas are preserved and not claimed as fully replayed.",
+    "All positions retain INVESTIGATE and buy_authorized=false."
+  ],
+  "automations_modified": false,
+  "trades_executed": false
+}

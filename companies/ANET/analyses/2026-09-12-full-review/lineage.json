@@ -1,0 +1,91 @@
+{
+  "ticker": "ANET",
+  "source_assessment": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/ANET/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "e34dac2164563f947554d425c73666bc96358ac5ede761a750ccb79a98018589",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "b9dfaaf95dc8ebb7b289bb3428cb35d79ccd1f3d00d67b8f19473ecda6968163",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "sha256": "5f03a281a08211cfcb1bf4087fc9c5953405486da8966d4156bbd9de9c757f32",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-10-deep/evidence-ledger.json",
+      "sha256": "3d8fb326db9093e9cb062bc9d5b6feba21dc06f78d9e747aa90234aa3be2b001",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-10-deep/thesis.ko.md",
+      "sha256": "d551d114b3a143b02766637a46a8cf03549275e652b98bcd19acc3037aced420",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ANET/analyses/2026-09-10-deep/valuation.json",
+      "sha256": "b9d20110d691bbaab8e577c04591f90d9a07fae8a2b72755590ced597c8c8344",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/ANET/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "57217a1374e43626ddd1e96640782b90e431831e719e46c3782382e7085603ad",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-10-anet-deep/source-manifest.json",
+      "sha256": "977f4b2cbd68c0a57e00b29e80613dd12d892cbbba6c7d4a03f0eb1e0ac31dc2",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/ANET/analyses/2026-09-10-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

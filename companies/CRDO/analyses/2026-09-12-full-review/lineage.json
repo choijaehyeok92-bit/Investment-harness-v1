@@ -1,0 +1,96 @@
+{
+  "ticker": "CRDO",
+  "source_assessment": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "sha256": "9ad5a0e166c4fe8954b56c408f14b8c0fe5f97fa3ffab7c6f8ddba7303d6b6ed",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/derived-metrics.json",
+      "sha256": "8cb2a9c2dfefb30cd58ae42d0f9df1b7576caa517f51dccf9ff4cf5fe8d75c3d",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/evidence-ledger.json",
+      "sha256": "21db4aca870feb8a76e4a80d2fbf2ed9bd0121829fa39b5eb87394c5a84df193",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/model-inputs.json",
+      "sha256": "af5bec831530d73c6fdd730817a540fb28742875977d51b03e9e1f4e019d8972",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/observations.json",
+      "sha256": "4379cf172956e4cde0c03e81037f969921f9020c1904f34b9fcad152a9c9df06",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/thesis.ko.md",
+      "sha256": "d1f4cf3035665e26a64aae5f879644bfbfbe5f825b5449596c79ae54b2c11328",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/valuation.json",
+      "sha256": "e3807b8dbf885fe2fc7bcd02485830bf2870626fe4b3daad9fab1f13579a0508",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/raw-data/2026-09-11-public-update.json",
+      "sha256": "db0d4f35bcf772b3637af3c0637becead8bf22557f669c7ecba5867ee337dbf0",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/CRDO/raw-data/2027-Q1.json",
+      "sha256": "c7f3714a7b23df50bb6ec3939ad81b299b0dbb85a249fdfb4415b583556718d1",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

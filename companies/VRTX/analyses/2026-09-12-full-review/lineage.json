@@ -1,0 +1,96 @@
+{
+  "ticker": "VRTX",
+  "source_assessment": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+  "records": [
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "sha256": "8b74fa37d09f96ea1e1e70748a271420018e231107194e65768cfa80c6ae29f1",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/derived-metrics.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/evidence-ledger.json",
+      "sha256": "5b23b2ecad12545ccc9cfc57a8f940964fddffc65817dc5129047a14091ec081",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/financials.json",
+      "sha256": "63a9ac8fd68b01e89581b582b454edfea657053d54cebc60f364cd65244e8545",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/model-inputs.json",
+      "sha256": "6be8d38003f2a599dd050332e583958fe148108ff228f72b6cbd672c145b7022",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/observations.json",
+      "sha256": "9edd64d33fcb4c435f116ab99bc2f966f25760eb40156295fcc816eb70e1d21c",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/thesis.ko.md",
+      "sha256": "7de9693f235088ee4273d9e3bd938f2c188feb4662a527b34435b1dd133fb636",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/valuation.json",
+      "sha256": "8753417197f470404c22268729d4eeba07f25bff7fd2a1ce1328b58ec9815dcb",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "companies/VRTX/raw-data/2025-2026-supplied-filings.json",
+      "sha256": "548b83390d3b04d20ce4f612dcba7f585183375c6f4b1b89d14acc0fa92e73b9",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/judgments.json",
+      "sha256": "8231dd778032132f9b1e129f86750eae727aace6c6f2160a4b9c120ccb0d2474",
+      "claim_type": "source_assertion_or_prior_analysis"
+    },
+    {
+      "path": "reviews/2026-09-12-full-review/prices.json",
+      "sha256": "f23528e18472e4b27d8c2f397d247e78f225a7a401c603d2a86734b0ada41485",
+      "claim_type": "source_assertion_or_prior_analysis"
+    }
+  ],
+  "category_pointers": {
+    "structural_change_and_leadership": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/structural_change_and_leadership"
+    },
+    "customer_value_and_product": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/customer_value_and_product"
+    },
+    "moat_trajectory": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/moat_trajectory"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/incremental_roic_and_fcf_per_share"
+    },
+    "management_and_capital_allocation": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/management_and_capital_allocation"
+    },
+    "financial_survivability": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/financial_survivability"
+    },
+    "expectation_gap_and_valuation": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/expectation_gap_and_valuation"
+    },
+    "power_law_and_asymmetry": {
+      "path": "companies/VRTX/analyses/2026-09-06-deep/assessment.json",
+      "json_pointer": "/categories/power_law_and_asymmetry"
+    }
+  },
+  "note": "Hashes establish exact lineage, not truth or independent source verification. Historical observations retain raw JSON pointers; no unknown value is replaced by zero."
+}

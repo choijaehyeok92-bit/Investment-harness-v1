@@ -1,0 +1,412 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "MELI",
+  "company_name": "MercadoLibre, Inc.",
+  "as_of": "2026-09-12",
+  "listing_market": "US",
+  "issuer_market_context": "US-listed foreign issuer / Latin America operating exposure",
+  "research_state": "FULL_ANALYSIS",
+  "authority_status": "CURRENT_REVIEWED_RESEARCH",
+  "authority_note": "Dated September 12 re-review supersedes prior current judgments; historical raw data and studies remain immutable.",
+  "decision": "WATCH",
+  "buy_authorized": false,
+  "position_band": "NONE",
+  "priority": "P1",
+  "required_return": 0.09,
+  "score_status": "ALL_EIGHT_CATEGORIES_REVIEWED_HARD_VETO_STILL_OPEN",
+  "business_quality_75": 63,
+  "total_score_100": 82,
+  "classification": "Emerging Outlier",
+  "price_reference": {
+    "price": 1876.33,
+    "currency": "USD",
+    "price_date": "2026-09-09",
+    "status": "LATEST_COMPLETED_US_CLOSE_AT_RESEARCH_TIME"
+  },
+  "structural_thesis": "MercadoLibre is building a dense Latin American commerce-fintech ecosystem in which marketplace, logistics, payments, acquiring, savings, credit, loyalty and advertising reinforce one another. Current user, GMV, TPV and multi-product engagement growth are consistent with a widening ecosystem moat. The core underwriting risk is that the company is now deliberately sacrificing near-term margins and cash to accelerate free shipping and a rapidly growing credit-card book, so revenue growth must be separated from after-loss, after-required-capital owner economics.",
+  "current_finding": "Q2 2026 net revenues and financial income reached $10.169B, +49.8% YoY; GMV was $21.9B and TPV $101B. Commerce buyers reached 89M and Mercado Pago MAUs 88M. At the same time, Q2 operating income fell 17.3% to $683M and operating margin compressed to 6.7%; H1 provision for doubtful accounts nearly doubled to $2.520B and H1 adjusted FCF fell to $158M from $512M. This is strong demand with materially heavier reinvestment and credit costs, not clean margin-accretive growth.",
+  "customer_and_moat": "The strongest moat evidence is ecosystem density: management reported ecosystemic users growing 37%, substantially higher GMV/TPV and engagement for multi-product users, and improving commerce frequency after Brazil's free-shipping threshold change. Independent EMARKETER work expects Mercado Libre and Amazon to capture roughly two-thirds of the next $54.45B of incremental Latin American e-commerce sales. Management's claim of >10% Latin American digital-ad-market share is positive but remains a company-reported metric rather than an independently audited fact.",
+  "economic_finding": "MELI should not be valued like software using headline operating cash flow. Customer funds, restricted cash, card-settlement liabilities, loan originations and fintech funding are integral to the financial business. The appropriate question is whether commerce/logistics and fintech produce owner cash after credit losses and required financial capital. The current credit portfolio is >$16B and growing 75% YoY; card NIMAL is -2.5% while consolidated NIMAL remains 20.7%. H1 adjusted FCF compression and provisioning growth keep incremental ROIC unresolved despite strong cohort and engagement evidence.",
+  "capital_and_survival": "June cash was $3.649B and restricted cash $13.114B, but restricted/customer cash is not surplus equity cash. Company-defined net debt was $6.425B in the existing canonical extraction. MercadoLibre raised a further $1B ten-year dollar bond due 2036 in September, demonstrating capital-market access while also underlining that fintech and logistics expansion consume funding. External financing is not judged structurally excessive today, but balance-sheet analysis must remain bank-like rather than software-like.",
+  "management_and_governance": "Founder Marcos Galperin transitioned from CEO to Executive Chairman on January 1, 2026 and Ariel Szarfsztejn became CEO after senior strategy, logistics and marketplace roles. The proxy describes independent board leadership and committee oversight; Galperin Trust held about 7.0%. FY2025 financial statements and ICFR received unqualified opinions. Management compensation includes revenue, operating income, TPV and competitive NPS, which is broadly aligned with ecosystem growth but can still incentivize expansion that must be tested against owner cash returns.",
+  "macro_and_country_context": "The stored higher-for-longer macro regime does not alter MELI's company score. It matters through credit funding costs, consumer affordability and FX/country risk in Brazil, Mexico and Argentina. Brazil accounts for roughly 54% of Q2 revenue, so local rate, tax and regulatory changes are material. The company nonetheless operates across multiple countries and multiple economic engines, so this is concentration to monitor rather than a single-point fatal dependency under current evidence.",
+  "valuation_finding": "At the $1,876.33 reference close and 50.696802M shares, mechanical equity value is about $95.1B. Reusing the existing 2026-09-06 owner-cash commerce/credit model but updating only price lowers the reverse required common growth for years 2-10 to about 9.56% from 10.30%. The retained scenarios produce roughly $524 Bear, $2,875 Base and $8,607 Bull per share. The massive spread is an uncertainty signal, not precision. Price does not require an unrealistic bull case, but Base upside cannot override open questions about credit vintages, free-shipping economics and required capital.",
+  "permanent_loss_case": "Permanent loss is plausible if 40%-50% reported growth requires permanently higher shipping subsidies, marketing or credit provisioning; if credit-card vintages fail to mature to attractive NIMAL after losses and funding; if Brazil tax/regulatory or FX shocks impair capital; or if today's equity price capitalizes a long growth runway that never converts into owner cash. Bankruptcy is not the primary risk; overpaying for growth whose cash economics are weaker than reported revenue growth is.",
+  "falsifiers": [
+    "Commerce buyer/GMV growth remains strong but contribution economics deteriorate for several quarters after the Brazil free-shipping change.",
+    "Credit-card NIMAL remains negative as new cohorts mature, while 15-90 NPLs or provisions rise materially faster than portfolio growth.",
+    "Adjusted FCF and owner cash remain structurally depressed despite slowing reinvestment growth, showing that current growth is capital-hungry rather than high-ROIC.",
+    "Mercado Pago engagement and cross-product adoption stop deepening or independent evidence shows material market-share loss in commerce or acquiring.",
+    "A major Brazil tax/regulatory/FX event materially impairs equity capital or access to funding."
+  ],
+  "increase_evidence": [
+    "At least two reporting periods show free-shipping cohorts retaining higher frequency while unit contribution economics improve or remain clearly positive.",
+    "Credit-card NIMAL moves sustainably above zero as cohorts season without a material deterioration in NPLs or provision coverage.",
+    "Adjusted owner cash after credit losses and required financial capital grows faster than share count and begins to converge toward the existing Base model.",
+    "Independent market-share/engagement data confirm continued leadership in commerce, payments/acquiring and ads.",
+    "Reverse DCF remains below a defensible Base growth path after updating price, funding cost, FX and credit-loss assumptions."
+  ],
+  "sell_evidence": [
+    "Persistent deterioration in credit vintage economics, provisioning and funding spreads that forces repeated external capital merely to sustain growth.",
+    "Commerce logistics subsidies fail to create durable frequency/retention and margins do not recover after the investment period.",
+    "Material loss of marketplace, payments or logistics share that breaks the cross-product flywheel.",
+    "Material accounting/control failure or regulatory action that impairs access to customer funds or credit funding.",
+    "Price rises to require an execution path materially above the defensible Bull case."
+  ],
+  "categories": {
+    "structural_change_and_leadership": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "confidence": 0.9,
+      "evidence": [
+        "Q2 revenue +50%, GMV +44% reported, TPV +56%",
+        "Independent e-commerce research expects Mercado Libre and Amazon to capture a large share of regional incremental online sales"
+      ],
+      "counter_evidence": [
+        "High growth partly reflects inflation/FX and heavy reinvestment; future category leadership is not guaranteed"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "customer_value_and_product": {
+      "score": 9,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "confidence": 0.87,
+      "evidence": [
+        "89M commerce buyers and 88M fintech MAUs",
+        "Ecosystemic-user engagement and cross-product economics are materially higher according to company data",
+        "Brazil items sold +56% after lower free-shipping thresholds"
+      ],
+      "counter_evidence": [
+        "Some key cohort-profitability evidence is management-reported rather than independently audited"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "moat_trajectory": {
+      "score": 14,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "confidence": 0.86,
+      "evidence": [
+        "Commerce, logistics, payments, credit, loyalty and ads reinforce a dense regional ecosystem",
+        "Cross-border supply and ad monetization are broadening the platform"
+      ],
+      "counter_evidence": [
+        "Amazon, Pix/bank rails and local competitors remain credible substitutes in parts of the stack"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "incremental_roic_and_fcf_per_share": {
+      "score": 10,
+      "max_score": 15,
+      "claim_type": "evidence-backed opinion",
+      "confidence": 0.68,
+      "evidence": [
+        "Strong user engagement and current positive adjusted FCF despite large credit/logistics investments",
+        "Low dilution and scale economies in the ecosystem"
+      ],
+      "counter_evidence": [
+        "H1 adjusted FCF fell to $158M from $512M",
+        "H1 provision for doubtful accounts nearly doubled",
+        "Credit-card NIMAL is negative and required financial capital is material"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "management_and_capital_allocation": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "confidence": 0.82,
+      "evidence": [
+        "Long-duration reinvestment strategy has built leading commerce/fintech infrastructure",
+        "CEO succession was planned with founder remaining Executive Chairman",
+        "Independent board oversight and performance-linked compensation"
+      ],
+      "counter_evidence": [
+        "Current strategy deliberately depresses margins and increases credit/funding needs; return on this reinvestment is not yet proven"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "financial_survivability": {
+      "score": 8,
+      "max_score": 10,
+      "claim_type": "evidence-backed opinion",
+      "confidence": 0.79,
+      "evidence": [
+        "Large cash/liquidity base, broad capital-market access and $1B ten-year bond issuance",
+        "No current evidence of a funding crisis"
+      ],
+      "counter_evidence": [
+        "Financial business carries substantial customer funds, credit assets, debt and country/FX risk; simple corporate net-cash analysis is inappropriate"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "expectation_gap_and_valuation": {
+      "score": 12,
+      "max_score": 15,
+      "claim_type": "estimate-backed opinion",
+      "confidence": 0.63,
+      "evidence": [
+        "Updated price reduces reverse required growth to about 9.56%",
+        "Retained Base scenario value is materially above the reference price",
+        "2026-09-12 재검증: 관측가격 1897.37 USD; Bear/Base/Bull 524.1308/2874.8176/8606.5151. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Current TTM adjusted FCF is only about $1.127B and naive P/adjusted-FCF is high; Base value depends on substantial future owner-margin maturation"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+        "companies/MELI/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    },
+    "power_law_and_asymmetry": {
+      "score": 7,
+      "max_score": 10,
+      "claim_type": "scenario opinion",
+      "confidence": 0.58,
+      "evidence": [
+        "Large regional TAM and multi-product ecosystem create a credible multi-bagger Bull path",
+        "Current price is well below the retained Base scenario",
+        "2026-09-12 재검증: 관측가격 1897.37 USD; Bear/Base/Bull 524.1308/2874.8176/8606.5151. 모형 가정·원자료 기준은 valuation.json에 보존."
+      ],
+      "counter_evidence": [
+        "Bear case is roughly 72% below the reference price and the scenario range is unusually wide because of credit and country risk"
+      ],
+      "missing_data": [],
+      "source_paths": [
+        "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+        "companies/MELI/analyses/2026-09-12-full-review/valuation.json"
+      ],
+      "reviewed_as_of": "2026-09-12",
+      "score_action": "RETAINED_AFTER_EVIDENCE_REVIEW"
+    }
+  },
+  "hard_veto": {
+    "items": [
+      {
+        "id": "management_or_accounting_integrity",
+        "status": "PASS",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.9,
+        "evidence": [
+          "FY2025 financial statements and ICFR received unqualified opinions",
+          "No material Q2 risk-factor change or control failure identified"
+        ],
+        "resolution_needed": "Continue monitoring credit-model estimates, legal/tax provisions and controls"
+      },
+      {
+        "id": "external_capital_dependence",
+        "status": "PASS",
+        "severity": "MONITOR",
+        "confidence": 0.74,
+        "evidence": [
+          "Broad funding access and $1B ten-year bond issuance",
+          "Current business model naturally uses funding for credit and settlements"
+        ],
+        "resolution_needed": "Track funding cost, maturities, secured debt and required capital relative to credit growth"
+      },
+      {
+        "id": "persistent_dilution",
+        "status": "PASS",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.93,
+        "evidence": [
+          "Shares outstanding were essentially flat between December 2025 and June 2026"
+        ],
+        "resolution_needed": "Continue per-share owner-cash monitoring"
+      },
+      {
+        "id": "low_quality_growth",
+        "status": "INVESTIGATE",
+        "severity": "MATERIAL",
+        "confidence": 0.83,
+        "evidence": [
+          "Q2 revenue +50% while operating income -17%",
+          "H1 adjusted FCF $158M vs $512M",
+          "H1 provision for doubtful accounts $2.520B vs $1.293B"
+        ],
+        "resolution_needed": "Demonstrate that free-shipping and credit-card cohorts generate attractive mature contribution/owner cash after losses and required capital"
+      },
+      {
+        "id": "incremental_roic_collapse",
+        "status": "INVESTIGATE",
+        "severity": "MATERIAL",
+        "confidence": 0.79,
+        "evidence": [
+          "Reinvestment intensity has risen materially; credit-card NIMAL is negative despite strong ecosystem engagement"
+        ],
+        "resolution_needed": "Measure cohort-level after-tax cash ROIC for logistics/free shipping and credit after losses, funding and required financial capital; hurdle 9%"
+      },
+      {
+        "id": "moat_shrinkage",
+        "status": "PASS",
+        "severity": "MONITOR",
+        "confidence": 0.85,
+        "evidence": [
+          "Buyer/MAU/GMV/TPV growth and ecosystemic engagement support a widening rather than shrinking moat",
+          "Independent e-commerce research supports continuing regional leadership"
+        ],
+        "resolution_needed": "Monitor market share, NPS, acquiring share, Pix/competition and seller economics"
+      },
+      {
+        "id": "price_requires_unrealistic_bull_case",
+        "status": "PASS",
+        "severity": "NO_TRIGGER_FOUND",
+        "confidence": 0.69,
+        "evidence": [
+          "Retained owner-cash model requires about 9.56% common growth for years 2-10 at the updated price, below the model's Base trajectory"
+        ],
+        "resolution_needed": "Refresh reverse DCF after Q3 and when funding/credit assumptions change materially"
+      },
+      {
+        "id": "fatal_concentration",
+        "status": "PASS",
+        "severity": "MONITOR",
+        "confidence": 0.7,
+        "evidence": [
+          "Brazil is about 54% of Q2 revenue but Mexico, Argentina and multiple commerce/fintech engines diversify the system"
+        ],
+        "resolution_needed": "Track Brazil tax/regulatory/FX concentration and country contribution margins"
+      },
+      {
+        "id": "permanent_loss_probability",
+        "status": "INVESTIGATE",
+        "severity": "MATERIAL",
+        "confidence": 0.76,
+        "evidence": [
+          "Bear value is far below reference price; credit, funding, FX and regulatory outcomes can impair owner cash without causing immediate solvency stress"
+        ],
+        "resolution_needed": "Close credit-vintage and incremental-ROIC uncertainty before authorizing a position"
+      }
+    ],
+    "overall_status": "INVESTIGATE"
+  },
+  "valuation": {
+    "status": "OWNER_CASHFLOW_MODEL",
+    "reverse_expectations": {
+      "claim_type": "estimate",
+      "growth": 0.0971765821215228,
+      "repriced_value": 1897.3699999999992,
+      "price_residual": -6.821210263296962e-13,
+      "growth_basis": "Year-1 revenue anchor fixed; uniform growth years 2-10 (milestone paths retain fixed capital costs).",
+      "warning": "Conditional on Base margins, capital claims and terminal assumptions; not an observable unique market forecast."
+    },
+    "scenarios": {
+      "bear": {
+        "value_per_share": 524.1307792957865,
+        "claim_type": "estimate"
+      },
+      "base": {
+        "value_per_share": 2874.817585849326,
+        "claim_type": "estimate"
+      },
+      "bull": {
+        "value_per_share": 8606.515088955422,
+        "claim_type": "estimate"
+      }
+    },
+    "source_path": "companies/MELI/analyses/2026-09-12-full-review/valuation.json",
+    "price_status": "LATEST_FINANCE_FEED_QUOTE_MAY_INCLUDE_EXTENDED_HOURS",
+    "approved_for_trading": false
+  },
+  "completion_gate": {
+    "passed": true,
+    "scope": "Research composition and audit lineage complete; unresolved facts and veto investigations are NOT marked resolved.",
+    "all_eight_categories": true,
+    "nine_vetoes": true,
+    "three_scenarios": true,
+    "current_price_reverse": true,
+    "ten_red_team_attacks": true,
+    "source_lineage": "companies/MELI/analyses/2026-09-12-full-review/lineage.json"
+  },
+  "source_quality": {
+    "status": "INHERITED_RAW_AND_DATED_EVIDENCE_WITH_TARGETED_PRIMARY_RECHECK",
+    "limits": [
+      "Stored extracts and linked dated evidence are research assertions, not a new independent audit of every original filing.",
+      "Owner margins and Base values remain estimates; undisclosed reinvestment and rights items stay unresolved."
+    ]
+  },
+  "red_team": {
+    "attacks": [
+      "**매출 +50%인데 이익이 감소했다.** 성장률이 경제적 가치성장보다 앞서고 있을 수 있다.",
+      "**무료배송은 moat 투자가 아니라 영구 보조금이 될 수 있다.** 고객이 가격에만 반응한다면 threshold 인하 후 margin 회복이 어렵다.",
+      "**카드 NIMAL -2.5%는 명백한 경고다.** 성장한 cohort가 성숙해도 개선되지 않으면 신용 확대가 가치파괴가 된다.",
+      "**신용 portfolio +75%는 seasoning illusion을 만들 수 있다.** 신규대출이 많으면 현재 NPL이 낮아 보일 수 있다.",
+      "**H1 adjusted FCF -69%는 자본효율 악화의 초기 신호일 수 있다.** 투자라는 설명은 후속 cash return으로 증명돼야 한다.",
+      "**브라질 의존도가 높다.** 세금·통화·금리·규제 변화가 그룹 전체 가치에 큰 영향을 줄 수 있다.",
+      "**Pix 및 은행/핀테크 경쟁이 결제 economics를 낮출 수 있다.** MELI가 이를 흡수하더라도 take rate 경쟁은 남는다.",
+      "**Amazon과 글로벌/현지 경쟁자가 logistics와 가격에 투자할 수 있다.** network effect가 경쟁을 완전히 차단하지 않는다.",
+      "**새 $1B bond는 접근성의 증거지만 자금소요의 증거이기도 하다.** 높은 금리가 장기화되면 credit funding economics가 약해진다.",
+      "**Valuation의 Base/Bull은 mature owner margin 가정에 민감하다.** 현 cash flow가 충분히 성숙하지 않으면 현재가도 비쌀 수 있다."
+    ],
+    "verdict": "REVISE",
+    "independence": "Ten pre-existing adversarial arguments recovered from the linked thesis; not an independent committee."
+  },
+  "source_paths": [
+    "companies/MELI/analyses/2026-09-06-deep/assessment.json",
+    "companies/MELI/analyses/2026-09-06-deep/model-inputs.json",
+    "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+    "companies/MELI/analyses/2026-09-10-deep/evidence-ledger.json",
+    "companies/MELI/analyses/2026-09-10-deep/thesis.ko.md",
+    "companies/MELI/analyses/2026-09-10-deep/valuation.json",
+    "companies/MELI/raw-data/2026-Q2.json",
+    "reviews/2026-09-12-full-review/judgments.json",
+    "reviews/2026-09-12-full-review/prices.json"
+  ],
+  "historical_records": [
+    {
+      "path": "companies/MELI/analyses/2026-09-06-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    },
+    {
+      "path": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+      "status": "PRESERVED_PRIOR_RESEARCH"
+    }
+  ],
+  "review_method": "Re-review all eight categories and nine vetoes using dated harness raw/evidence, reconcile latest/checkpoint differences, recompute cash scenarios and reverse expectations, refresh dated prices, retain unaffected judgments and document every score change. No macro-score mixing.",
+  "data_as_of": "2026-09-10",
+  "review_note_ko": "추가 정밀분석에서 고객·GMV·TPV 확대와 플랫폼 간 이용 확대를 확인해81→82점을 채택한다. 카드 NIMAL -2.5%와 신용자산75% 성장은 별도 위험이다. 고객예치금·제한현금을 잉여현금으로 가산하지 않으며 대손·필요자본 후 현금으로 평가한다.",
+  "reassessment_delta": {
+    "prior_canonical_score": 81,
+    "review_source_score": 82,
+    "reviewed_score": 82,
+    "prior_canonical_assessment": "companies/MELI/analyses/2026-09-06-deep/assessment.json",
+    "adopted_checkpoint": "companies/MELI/analyses/2026-09-10-deep/assessment.json",
+    "category_change_reason": null,
+    "score_layer": "COMPANY_SCORE_NOT_MACRO_ADJUSTED_SCORE"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-09-11",
-  "assessment": "companies/CRDO/analyses/2026-09-11-deep/assessment.json",
-  "thesis": "companies/CRDO/analyses/2026-09-11-deep/thesis.ko.md",
-  "valuation": "companies/CRDO/analyses/2026-09-11-deep/valuation.json",
-  "authority": "현재 판정은 이 버전. 2026-09-06-deep 및 루트의 이전 scorecard/decision/thesis는 감사 가능한 과거 기록.",
+  "as_of": "2026-09-12",
+  "assessment": "companies/CRDO/analyses/2026-09-12-full-review/assessment.json",
+  "valuation": "companies/CRDO/analyses/2026-09-12-full-review/valuation.json",
+  "thesis": "companies/CRDO/analyses/2026-09-12-full-review/thesis.ko.md",
   "research_state": "FULL_ANALYSIS",
-  "run": "2026-09-11-deep"
+  "run": "2026-09-12-full-review",
+  "authority": "Reviewed dated company score; macro overlay scores are separate. No trade authorization."
 }
