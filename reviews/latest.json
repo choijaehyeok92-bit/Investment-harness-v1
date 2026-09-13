@@ -7,17 +7,19 @@
   "prior_review": "reviews/2026-09-12-full-review/README.md",
   "supplemental_reviews": [
     "reviews/2026-09-13-preliminary-screen/README.md",
-    "reviews/2026-09-14-preliminary-deep/status.json"
+    "reviews/2026-09-14-preliminary-deep/status.json",
+    "reviews/2026-09-14-cross-market-screen/manifest.json"
   ],
   "preliminary_screen_manifest": "reviews/2026-09-13-preliminary-screen/manifest.json",
   "preliminary_deep_status": "reviews/2026-09-14-preliminary-deep/status.json",
+  "cross_market_screen": "reviews/2026-09-14-cross-market-screen/manifest.json",
   "authority": "registry -> company latest -> dated reviewed assessment; supplemental screener/deep-review artifacts do not promote company authority by themselves",
   "state_counts": {
     "PRELIMINARY_REVIEW": 50,
     "FULL_ANALYSIS": 43
   },
-  "state_count_basis": "Canonical company latest pointers only. The 2026-09-14 supplemental review intentionally does not alter canonical state because harness.validate/existing validators were not executable through the available GitHub connector.",
-  "completed_scope": "43 canonical FULL_ANALYSIS remain current. All 50 canonical PRELIMINARY_REVIEW names received Screener review; 41 SCREEN_IN names completed the six-category Deep Analyst and Hard Veto triage. Sixteen evidence-complete names additionally completed Valuation and Red Team at review-artifact level: 14 WATCH/INVESTIGATE and 2 REJECT due price_requires_unrealistic_bull_case FAIL (PANW, CRWD). Twenty-five names are explicitly PARTIAL_ANALYSIS pending synchronized valuation evidence, and nine remain Screener WATCH. No company latest promotion or buy authorization is implied.",
+  "state_count_basis": "Canonical company latest pointers only. Supplemental 2026-09-14 deep and cross-market screens intentionally do not alter canonical state because harness.validate/existing validators were not executable through the available GitHub connector.",
+  "completed_scope": "43 canonical FULL_ANALYSIS remain current. Existing 50 PRELIMINARY_REVIEW names completed the staged supplemental review described in preliminary_deep_status. A separate Korea/U.S. cross-market discovery screen added 13 new SCREEN_IN and 9 WATCH candidates outside the current canonical universe, with no latest-pointer promotion or buy authorization. No user-supplied API credential was persisted.",
   "input_manifest": "reviews/2026-09-12-management-dedup/input-manifest.json",
   "review_manifest": "reviews/2026-09-12-management-dedup/manifest.json",
   "score_rule": "Company score only; separate macro scores are not substituted. Unknown scores remain null and Hard Veto remains superior to score."
