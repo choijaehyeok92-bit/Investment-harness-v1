@@ -1,17 +1,19 @@
 {
-  "as_of": "2026-09-12",
+  "as_of": "2026-09-13",
   "directory": "reviews/2026-09-12-management-dedup",
   "report": "reviews/2026-09-12-management-dedup/README.md",
   "registry": "registry/companies.json",
   "portfolio": "reviews/2026-09-12-management-dedup/portfolio.json",
   "prior_review": "reviews/2026-09-12-full-review/README.md",
-  "authority": "registry -> company latest -> dated reviewed assessment",
+  "supplemental_reviews": ["reviews/2026-09-13-preliminary-screen/README.md"],
+  "preliminary_screen_manifest": "reviews/2026-09-13-preliminary-screen/manifest.json",
+  "authority": "registry -> company latest -> dated reviewed assessment; supplemental screener reviews do not promote company authority by themselves",
   "state_counts": {
     "PRELIMINARY_REVIEW": 50,
     "FULL_ANALYSIS": 43
   },
-  "completed_scope": "43 canonical FULL_ANALYSIS remain current. NVDA and TMDX management weighting corrected after extended history audit; 13 conditional paper positions. No preliminary promotions or buy approvals.",
+  "completed_scope": "43 canonical FULL_ANALYSIS remain current. All 50 canonical PRELIMINARY_REVIEW names received the mandatory first-stage screener on 2026-09-13: 41 SCREEN_IN, 9 WATCH, 0 SCREEN_OUT. No preliminary promotion or buy approval is implied; deep-underwrite completion and validation remain required before changing company latest pointers.",
   "input_manifest": "reviews/2026-09-12-management-dedup/input-manifest.json",
   "review_manifest": "reviews/2026-09-12-management-dedup/manifest.json",
-  "score_rule": "Company score only; separate macro scores are not substituted."
+  "score_rule": "Company score only; separate macro scores are not substituted. Unknown scores remain null and Hard Veto remains superior to score."
 }
