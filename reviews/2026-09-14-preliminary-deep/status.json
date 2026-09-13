@@ -1,0 +1,31 @@
+{
+  "schema_version":"1.0.0",
+  "as_of":"2026-09-14",
+  "purpose":"Continue the mandatory harness process for all 50 names that were canonical PRELIMINARY_REVIEW at task start.",
+  "canonical_authority_note":"This review is additive. No companies/<TICKER>/latest.json pointer is promoted because harness.validate/existing validators were not executable through the available GitHub connector. Canonical registry state therefore remains 43 FULL_ANALYSIS / 50 PRELIMINARY_REVIEW until separately validated promotion. Research completion is not buy authorization.",
+  "process_completed":["Screener on all 50","Six-category Deep Analyst on all 41 SCREEN_IN","Hard Veto triage on all 41 SCREEN_IN","Valuation Agent on 16 evidence-complete names","Red Team and completion review on the same 16"],
+  "review_layer_counts":{"initial_preliminary_universe":50,"screener_SCREEN_IN":41,"screener_WATCH":9,"deep_analyst_complete":41,"hard_veto_triage_complete":41,"valuation_complete":16,"red_team_complete":16,"full_analysis_candidates_pending_validator":16,"partial_analysis":25,"screener_watch_evidence_gated":9,"hard_veto_fail_at_completion":2,"buy_authorized":0},
+  "full_analysis_candidates_pending_validator":[
+    {"ticker":"INTU","score":88,"business_quality_75":65,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":330.8,"base":555.4,"bull":907.9,"reference_price":321.57},
+    {"ticker":"V","score":84,"business_quality_75":70,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":191.0,"base":341.0,"bull":531.0,"reference_price":370.45},
+    {"ticker":"MA","score":82,"business_quality_75":71,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":240.0,"base":477.0,"bull":722.6,"reference_price":569.19},
+    {"ticker":"ADBE","score":81,"business_quality_75":62,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":275.3,"base":463.2,"bull":739.8,"reference_price":252.23},
+    {"ticker":"CRM","score":81,"business_quality_75":63,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":177.3,"base":300.5,"bull":477.7,"reference_price":247.72},
+    {"ticker":"KLAC","score":76,"business_quality_75":67,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":38.7,"base":101.5,"bull":221.9,"reference_price":180.64},
+    {"ticker":"TMO","score":76,"business_quality_75":67,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":210.6,"base":365.2,"bull":673.1,"reference_price":609.82},
+    {"ticker":"DHR","score":75,"business_quality_75":65,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":79.8,"base":143.8,"bull":238.0,"reference_price":200.04},
+    {"ticker":"HUBS","score":75,"business_quality_75":58,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":88.4,"base":394.1,"bull":993.6,"reference_price":223.55},
+    {"ticker":"BSX","score":75,"business_quality_75":63,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":22.7,"base":41.5,"bull":66.3,"reference_price":42.98},
+    {"ticker":"LRCX","score":73,"business_quality_75":67,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":53.0,"base":150.2,"bull":303.7,"reference_price":298.14},
+    {"ticker":"SYK","score":72,"business_quality_75":63,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":107.5,"base":180.9,"bull":289.0,"reference_price":275.56},
+    {"ticker":"AMAT","score":70,"business_quality_75":64,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":80.8,"base":222.6,"bull":463.2,"reference_price":456.49},
+    {"ticker":"SNOW","score":66,"business_quality_75":60,"decision":"WATCH","hard_veto":"INVESTIGATE","bear":11.2,"base":118.5,"bull":344.7,"reference_price":328.99},
+    {"ticker":"PANW","score":67,"business_quality_75":61,"decision":"REJECT","hard_veto":"FAIL: price_requires_unrealistic_bull_case","bear":71.9,"base":161.6,"bull":273.2,"reference_price":330.65},
+    {"ticker":"CRWD","score":64,"business_quality_75":61,"decision":"REJECT","hard_veto":"FAIL: price_requires_unrealistic_bull_case","bear":7.2,"base":41.9,"bull":111.1,"reference_price":206.74}
+  ],
+  "partial_analysis_tickers":["009150","009540","010120","042660","064350","068270","079550","192820","259960","271560","298040","402340","AMD","CEG","GEV","ORCL","REGN","000100","011070","128940","141080","161890","257720","329180","352820"],
+  "screener_watch_tickers":["000270","006400","012330","035720","047810","373220","454910","TSLA","TTD"],
+  "important_interpretation":["Business quality and price are separated: KLA/Lam/AMAT/TMO score highly on business quality but current prices consume most modeled upside.","Intuit, Adobe and Salesforce have the strongest modeled expectation gaps among the 16 completed names, but all remain WATCH because non-price evidence gates are still open.","PANW and CRWD are REJECT despite good businesses because reference prices exceed conservative modeled Bull values once SBC is treated economically.","The 25 PARTIAL_ANALYSIS names are not rejects; valuation is withheld where synchronized owner-cash, share-rights, SOTP or capital-structure evidence is insufficient.","The 9 Screener WATCH names are also not automatic rejects; they require specific evidence before a deep-underwrite promotion path is justified."],
+  "artifacts":{"screener":"reviews/2026-09-13-preliminary-screen/manifest.json","p1_deep":"reviews/2026-09-14-preliminary-deep/p1-deep-analyst.json","p2_deep":"reviews/2026-09-14-preliminary-deep/p2-deep-analyst.json","hard_veto":"reviews/2026-09-14-preliminary-deep/hard-veto-triage.json","valuation_wave1":"reviews/2026-09-14-preliminary-deep/valuation-wave1.json","valuation_wave2":"reviews/2026-09-14-preliminary-deep/valuation-wave2.json","red_team":"reviews/2026-09-14-preliminary-deep/full-candidate-red-team.json","partial":"reviews/2026-09-14-preliminary-deep/partial-analysis-status.json"},
+  "validation":{"harness_validate_run":false,"existing_repo_test_suite_run":false,"reason":"No arbitrary shell/workflow-dispatch execution capability was available in the current GitHub connector; therefore canonical latest pointers were intentionally not promoted."}
+}
