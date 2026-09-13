@@ -1,18 +1,23 @@
 {
-  "as_of": "2026-09-13",
+  "as_of": "2026-09-14",
   "directory": "reviews/2026-09-12-management-dedup",
   "report": "reviews/2026-09-12-management-dedup/README.md",
   "registry": "registry/companies.json",
   "portfolio": "reviews/2026-09-12-management-dedup/portfolio.json",
   "prior_review": "reviews/2026-09-12-full-review/README.md",
-  "supplemental_reviews": ["reviews/2026-09-13-preliminary-screen/README.md"],
+  "supplemental_reviews": [
+    "reviews/2026-09-13-preliminary-screen/README.md",
+    "reviews/2026-09-14-preliminary-deep/status.json"
+  ],
   "preliminary_screen_manifest": "reviews/2026-09-13-preliminary-screen/manifest.json",
-  "authority": "registry -> company latest -> dated reviewed assessment; supplemental screener reviews do not promote company authority by themselves",
+  "preliminary_deep_status": "reviews/2026-09-14-preliminary-deep/status.json",
+  "authority": "registry -> company latest -> dated reviewed assessment; supplemental screener/deep-review artifacts do not promote company authority by themselves",
   "state_counts": {
     "PRELIMINARY_REVIEW": 50,
     "FULL_ANALYSIS": 43
   },
-  "completed_scope": "43 canonical FULL_ANALYSIS remain current. All 50 canonical PRELIMINARY_REVIEW names received the mandatory first-stage screener on 2026-09-13: 41 SCREEN_IN, 9 WATCH, 0 SCREEN_OUT. No preliminary promotion or buy approval is implied; deep-underwrite completion and validation remain required before changing company latest pointers.",
+  "state_count_basis": "Canonical company latest pointers only. The 2026-09-14 supplemental review intentionally does not alter canonical state because harness.validate/existing validators were not executable through the available GitHub connector.",
+  "completed_scope": "43 canonical FULL_ANALYSIS remain current. All 50 canonical PRELIMINARY_REVIEW names received Screener review; 41 SCREEN_IN names completed the six-category Deep Analyst and Hard Veto triage. Sixteen evidence-complete names additionally completed Valuation and Red Team at review-artifact level: 14 WATCH/INVESTIGATE and 2 REJECT due price_requires_unrealistic_bull_case FAIL (PANW, CRWD). Twenty-five names are explicitly PARTIAL_ANALYSIS pending synchronized valuation evidence, and nine remain Screener WATCH. No company latest promotion or buy authorization is implied.",
   "input_manifest": "reviews/2026-09-12-management-dedup/input-manifest.json",
   "review_manifest": "reviews/2026-09-12-management-dedup/manifest.json",
   "score_rule": "Company score only; separate macro scores are not substituted. Unknown scores remain null and Hard Veto remains superior to score."
