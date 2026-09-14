@@ -1,0 +1,46 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"CRM",
+  "as_of":"2026-09-14",
+  "reference_price":247.72,
+  "price_date":"2026-09-11",
+  "central_owner_cash_b":11.0,
+  "shares_m":823,
+  "starting_owner_cash_per_share":13.37,
+  "reverse_expectations":{
+    "model":"10-year constant owner-cash-per-share growth followed by terminal owner-cash multiple",
+    "required_growth_pct":[
+      {"discount_rate_pct":9,"terminal_multiple":14,"growth_pct":5.53},
+      {"discount_rate_pct":9,"terminal_multiple":16,"growth_pct":4.54},
+      {"discount_rate_pct":9,"terminal_multiple":18,"growth_pct":3.64},
+      {"discount_rate_pct":10,"terminal_multiple":14,"growth_pct":6.50},
+      {"discount_rate_pct":10,"terminal_multiple":16,"growth_pct":5.49},
+      {"discount_rate_pct":10,"terminal_multiple":18,"growth_pct":4.59},
+      {"discount_rate_pct":11,"terminal_multiple":14,"growth_pct":7.46},
+      {"discount_rate_pct":11,"terminal_multiple":16,"growth_pct":6.45},
+      {"discount_rate_pct":11,"terminal_multiple":18,"growth_pct":5.55}
+    ],
+    "margin_sensitivity_at_10pct_discount_16x_terminal":[
+      {"normalized_owner_cash_margin_pct":22,"required_growth_pct":7.22},
+      {"normalized_owner_cash_margin_pct":25,"required_growth_pct":5.51},
+      {"normalized_owner_cash_margin_pct":28,"required_growth_pct":4.00}
+    ],
+    "interpretation":"The current price embeds mid-single-digit long-run owner-cash/share growth, which is achievable if Salesforce retains workflow/data control and Agentforce/Data 360 monetize successfully, but it is not a no-growth valuation. The post-Q2 price rebound has reduced the expectation gap."
+  },
+  "scenarios":{
+    "permanent_loss_stress":{"fair_value":89.22,"upside_pct":-63.98,"assumptions":"Owner cash/share -6% CAGR years 1-5 then flat; 12% discount; 9x terminal. AI-native agents bypass Salesforce interfaces, seat economics contract, acquisitions underperform and leverage limits capital allocation."},
+    "bear":{"fair_value":147.96,"upside_pct":-40.27,"assumptions":"Owner cash/share flat years 1-5 then +2% years 6-10; 11% discount; 13x terminal. Core organic growth stays mid-single digit, Agentforce monetization disappoints and leverage/interest constrain per-share compounding."},
+    "base":{"fair_value":278.32,"upside_pct":12.35,"assumptions":"Owner cash/share +7% CAGR years 1-5 and +5% years 6-10; 10% discount; 18x terminal. CRM system-of-record and data/metadata moat persist, Agentforce/Data 360 become meaningful growth layers, but organic growth remains below reported acquisition-assisted growth."},
+    "bull":{"fair_value":435.35,"upside_pct":75.74,"assumptions":"Owner cash/share +11% CAGR years 1-5 and +8% years 6-10; 9% discount; 21x terminal. Agentforce becomes the enterprise action/orchestration layer, Data 360/Informatica deepen data gravity, Slack becomes a major agent interface and margin/productivity gains persist."}
+  },
+  "subjective_probability_weights":{"permanent_loss_stress":0.10,"bear":0.25,"base":0.45,"bull":0.20},
+  "probability_weighted_value":258.22,
+  "probability_weighted_upside_pct":4.24,
+  "scores":{"expectation_gap_and_valuation":10,"power_law_and_asymmetry":6},
+  "warnings":[
+    "Scenario fair values are decision ranges, not price targets.",
+    "FCFE-style owner cash already reflects interest expense; debt is therefore not subtracted again in the per-share scenario model.",
+    "The March 2026 debt-funded ASR materially reduces share count but also raises financial risk and future interest burden; EPS growth from the ASR is not equivalent to operating growth.",
+    "Agentforce ARR definition broadened in Q2 FY27, reducing strict comparability of the reported growth rate."
+  ]
+}
