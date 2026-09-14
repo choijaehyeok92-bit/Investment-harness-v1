@@ -1,0 +1,13 @@
+{
+  "schema_version":"2.0.0","ticker":"326030","as_of":"2026-09-15","reference_price_krw":79100,"base_owner_cash_krw_b":230,"shares_m":78.31325,
+  "method":"10-year owner-cash scenario DCF. Opakalim is reflected through scenario growth paths and the full KRW553.24B contractual upfront is subtracted in closing scenarios. This intentionally penalizes the 2032 XCOPRI patent-cliff risk.",
+  "scenarios":{
+    "permanent_loss_stress":{"value_per_share_krw":11884,"upside_pct":-84.98,"discount_rate_pct":12,"terminal_multiple_x":8,"growth_path_pct":[10,8,5,0,-10,-25,-30,-20,-10,-5]},
+    "bear":{"value_per_share_krw":31184,"upside_pct":-60.58,"discount_rate_pct":11,"terminal_multiple_x":12,"growth_path_pct":[18,15,12,8,5,-5,-15,-15,-5,0]},
+    "base":{"value_per_share_krw":87011,"upside_pct":10.00,"discount_rate_pct":10,"terminal_multiple_x":18,"growth_path_pct":[22,18,15,12,10,8,8,7,7,6]},
+    "bull":{"value_per_share_krw":145455,"upside_pct":83.89,"discount_rate_pct":9,"terminal_multiple_x":20,"growth_path_pct":[28,24,20,18,15,12,12,10,10,8]}
+  },
+  "weights":{"permanent_loss_stress":0.10,"bear":0.25,"base":0.45,"bull":0.20},
+  "probability_weighted_value_per_share_krw":77230,"probability_weighted_upside_pct":-2.36,
+  "interpretation":"Current price is near conservative probability-weighted value. Strong XCOPRI growth is offset by single-product concentration, patent cliff and unresolved Opakalim evidence/capital allocation."
+}
