@@ -1,0 +1,18 @@
+{
+  "ticker": "HUBS",
+  "as_of": "2026-09-14",
+  "source_policy": "Filings and audited annual materials are primary. Investor relations earnings release/transcript are secondary primary-source context. Product pages/docs are used for AI product/pricing evidence. Market price is a reference only.",
+  "user_supplied": [
+    {"type":"8-K","date":"2026-08-05","library_path":"/Investments/HUBS/HUBS_8-K_2026-08-05.docx","sha256":"e5fdcfc4e4c6b050156ef111c52dbe3acdc4c19b4889388adad1d601d7de39cc","size_bytes":69803},
+    {"type":"10-Q","period_end":"2026-06-30","file_date":"2026-08-05","library_path":"/Investments/HUBS/HUBS_10-Q_2026-08-05.docx","sha256":"49cc616846bc0c3f6e4bc555aef47f7ea875784edb902dfd1516164320c98794","size_bytes":202954},
+    {"type":"ARS","fiscal_year":"2025","file_date":"2026-04-27","library_path":"/Investments/HUBS/HUBS_ARS_2026-04-27.docx","sha256":"9f12baf7a2882130abd5f58752b82dcc278e7c42bf1db9cd84cad5694a3200bf","size_bytes":549641}
+  ],
+  "external_sources": [
+    {"name":"HubSpot Q2 2026 results","url":"https://ir.hubspot.com/news-releases/news-release-details/hubspot-reports-q2-2026-results","role":"guidance_and_results"},
+    {"name":"HubSpot Q2 2026 earnings call corrected transcript","url":"https://ir.hubspot.com/static-files/f868efed-4a81-4a8b-b0c9-a68cde86a345","role":"NRR_customer_adds_AI_adoption_FCF_margin_outlook"},
+    {"name":"HubSpot outcome-based agent pricing","url":"https://www.hubspot.com/company-news/hubspots-customer-agent-and-prospecting-agent-now-you-pay-when-the-task-is-complete","role":"AI_pricing_and_customer_outcomes"},
+    {"name":"HubSpot Agent Builder","url":"https://www.hubspot.com/products/artificial-intelligence/ai-agents","role":"agent_platform_and_credits"},
+    {"name":"HubSpot Analyst Day notice","url":"https://ir.hubspot.com/news-releases/news-release-details/hubspot-host-analyst-day-unbound-september-17-2026","role":"next_evidence_event"},
+    {"name":"HUBS historical price","url":"https://www.investing.com/equities/hubspot-inc-historical-data","role":"reference_market_price"}
+  ]
+}
