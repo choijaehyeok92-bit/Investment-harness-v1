@@ -1,7 +1,9 @@
 {
-  "as_of": "2026-09-06",
-  "assessment": "companies/HUBS/analyses/2026-09-06/assessment.json",
-  "thesis": "companies/HUBS/analyses/2026-09-06/thesis.ko.md",
-  "authority": "현재 판정은 이 버전. 루트의 이전 scorecard/decision/thesis는 감사 가능한 과거 기록.",
-  "research_state": "PRELIMINARY_REVIEW"
+  "as_of":"2026-09-14",
+  "assessment":"companies/HUBS/analyses/2026-09-14-full-review/assessment.json",
+  "valuation":"companies/HUBS/analyses/2026-09-14-full-review/valuation.json",
+  "thesis":"companies/HUBS/analyses/2026-09-14-full-review/thesis.ko.md",
+  "research_state":"FULL_ANALYSIS",
+  "run":"2026-09-14-full-review",
+  "authority":"Current reviewed HubSpot research based on user-supplied FY2025 annual materials, Q2 2026 10-Q/8-K plus current Q2 transcript, AI pricing/adoption and market context. Hard Veto remains INVESTIGATE on moat_shrinkage; no trade authorization."
 }
