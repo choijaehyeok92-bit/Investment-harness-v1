@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-09-14",
+  "ticker": "TEM",
+  "company": "Tempus AI",
+  "promotion": "2026-09-14-innovation-reunderwrite -> current company latest authority",
+  "assessment": "companies/TEM/analyses/2026-09-14-innovation-reunderwrite/assessment.json",
+  "thesis": "companies/TEM/analyses/2026-09-14-innovation-reunderwrite/thesis.ko.md",
+  "valuation": "companies/TEM/analyses/2026-09-12-full-review/valuation.json",
+  "valuation_carry_forward": true,
+  "score_change": {"from": 54, "to": 65},
+  "business_quality_75": 52,
+  "innovation_overlay_100": 81,
+  "decision": "WATCH",
+  "hard_veto": "INVESTIGATE",
+  "buy_authorized": false,
+  "authority_rule": "companies/TEM/latest.json is authoritative for the current company assessment. The dated assessment was originally written as a review checkpoint; this manifest and latest-pointer promotion make it current without changing the underlying evidence or carried-forward valuation.",
+  "validation": {
+    "harness_validate_run": false,
+    "repo_test_suite_run": false,
+    "reason": "No arbitrary shell or workflow-dispatch execution was available through the active GitHub connector."
+  }
+}
