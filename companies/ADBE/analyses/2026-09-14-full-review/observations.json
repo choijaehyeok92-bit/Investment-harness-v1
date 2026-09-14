@@ -1,0 +1,25 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"ADBE",
+  "as_of":"2026-09-14",
+  "research_state":"FULL_ANALYSIS",
+  "facts":{
+    "fy2025":{"revenue_b":23.769,"digital_media_revenue_b":17.649,"digital_experience_revenue_b":5.864,"subscription_revenue_b":22.904,"digital_media_arr_b":19.20,"net_income_b":7.130,"operating_cash_flow_b":10.031,"capex_b":0.179,"sbc_b":1.942,"share_repurchase_b":11.281,"rnd_b":4.294},
+    "q2_fy2026":{"revenue_b":6.618,"revenue_growth_pct":13,"subscription_revenue_b":6.416,"subscription_growth_pct":14,"total_arr_b":27.10,"semrush_arr_b_approx":0.480,"operating_cash_flow_b":2.17,"h1_operating_cash_flow_b":5.123,"h1_sbc_b":1.043,"h1_capex_b":0.095,"h1_share_repurchase_b":4.589},
+    "q3_fy2026":{"revenue_b":6.760,"revenue_growth_pct":13,"gaap_operating_income_b":2.354,"gaap_net_income_b":1.827,"gaap_eps":4.62,"non_gaap_eps":6.13,"operating_cash_flow_b":2.523,"total_arr_b":27.50,"arr_growth_pct":11.2,"ai_first_arr_growth_pct_gt":150,"monthly_active_users_b_gt":1.0,"customer_group_subscription_revenue_b":6.56,"business_professionals_consumers_subscription_b":1.91,"business_professionals_consumers_growth_pct":16,"creative_marketing_professionals_subscription_b":4.65,"creative_marketing_professionals_growth_pct":13,"rpo_b":22.16,"cash_and_short_term_investments_b":5.639,"current_debt_b":1.597,"long_term_debt_b":4.766,"q3_capex_b":0.085,"q3_share_repurchase_cash_b":2.232,"q3_repurchase_shares_m_approx":9.5,"diluted_shares_m":395,"prior_year_diluted_shares_m":424},
+    "fy2026_raised_outlook":{"revenue_low_b":26.576,"revenue_high_b":26.626,"ending_arr_growth_pct":10.2,"gaap_eps_low":18.12,"gaap_eps_high":18.17,"non_gaap_eps_low":24.45,"non_gaap_eps_high":24.50,"diluted_shares_m_approx":400},
+    "q4_fy2026_outlook":{"revenue_low_b":6.80,"revenue_high_b":6.85,"gaap_eps_low":4.65,"gaap_eps_high":4.70,"non_gaap_eps_low":6.30,"non_gaap_eps_high":6.35,"diluted_shares_m_approx":389},
+    "capital_allocation_and_m_and_a":{"semrush_purchase_price_b":1.874,"semrush_goodwill_b":1.251,"april_2026_incremental_buyback_authorization_b":25.0,"remaining_buyback_authorization_q3_b_approx":24.55},
+    "governance":{"next_ceo":"Anil Chakravarthy","ceo_effective":"2026-12-01","shantanu_narayen_role":"Executive Chair effective 2026-12-01","interim_cfo":"Steve Day","david_wadhwani_departure":"2026-09-27"},
+    "consumer_practices_settlement":{"civil_penalty_m":75,"free_services_m":75,"total_m":150,"date_announced":"2026-03-13"}
+  },
+  "qualitative_observations":[
+    "Adobe's 10-K explicitly identifies AI-first creative/productivity tools and cloud-native competitors as material competitive threats, so generative AI disruption is a primary-source risk rather than a market-only narrative.",
+    "Adobe is responding with Firefly, Acrobat/Acrobat Studio AI, GenStudio and CX Enterprise, while differentiating Firefly through commercially safer licensed/public-domain training data, Content Credentials and enterprise indemnification in supported workflows.",
+    "AI-first ARR growth above 150% and 1B+ creativity/productivity MAU demonstrate adoption, but AI-first ARR is not disclosed as a dollar figure and MAU includes free/freemium users, so monetization quality still requires inference.",
+    "Semrush expands Adobe into SEO/GEO/agentic-search visibility; strategic fit is credible but the transaction is goodwill-heavy and post-acquisition ROIC is not yet observable.",
+    "CEO, CFO and Creativity/Productivity leadership transitions overlap, increasing execution risk during the most important platform transition in Adobe's history.",
+    "The March 2026 DOJ/FTC subscription-practices settlement is a customer-trust and management-conduct blemish but does not by itself imply accounting-integrity impairment."
+  ],
+  "latest_market_reference":{"price":252.23,"date":"2026-09-11","currency":"USD","week_52_low":190.12,"week_52_high":370.86}
+}
