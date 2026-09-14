@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "SITM",
+  "company_name": "SiTime Corporation",
+  "as_of": "2026-09-15",
+  "source_hierarchy_note": "User-supplied SEC filing exports are the primary evidence. SEC/issuer materials and market references supplement gaps and post-filing developments. Historical innovative-company sources are used only for the auxiliary innovation-pattern lens.",
+  "user_supplied_files": [
+    {
+      "name": "SITM (SiTime Corporation) Annual report pursuant to Section 13 or 15(d) (10-K) 2026-02-11.docx",
+      "file_id": "file_00000000456c8206af8589ee90df95bd",
+      "sha256": "d75bcc3bbeb209012cc282ddbf0fb658ab12a0a8407401cbe3db857859617946",
+      "role": "primary",
+      "form": "10-K",
+      "period": "FY2025"
+    },
+    {
+      "name": "SITM (SiTime Corporation) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-08-06.docx",
+      "file_id": "file_00000000296c82068cdf6b9d67f5edd7",
+      "sha256": "16a4cbe20aa33e062ec19531f57832e128e03c8025802b926ac2321b54a669ef",
+      "role": "primary",
+      "form": "10-Q",
+      "period": "H1/Q2 2026"
+    },
+    {
+      "name": "SITM (SiTime Corporation) Current report pursuant to Section 13 or 15(d) (8-K) 2026-08-05.docx",
+      "file_id": "file_000000008b248206b2ff4db46439ecf6",
+      "sha256": "f702f354861575c652a67590330123b4275906ad1129d558d04bbb3c1376d298",
+      "role": "primary",
+      "form": "8-K",
+      "period": "Q2 2026 results"
+    }
+  ],
+  "supplemental_sources": [
+    {"title":"SiTime Q2 2026 results","url":"https://investor.sitime.com/news-releases/news-release-details/sitime-reports-second-quarter-2026-financial-results","role":"issuer_primary"},
+    {"title":"SiTime acquisition completion","url":"https://investor.sitime.com/news-releases/news-release-details/sitime-completes-acquisition-renesas-timing-business","role":"issuer_primary"},
+    {"title":"SiTime Renesas Timing Product Business 8-K/A pro forma","url":"https://www.sec.gov/Archives/edgar/data/1451809/000145180926000068/sitm-20260630.htm","role":"SEC_primary"},
+    {"title":"Renesas Timing Product Business historical financials","url":"https://www.sec.gov/Archives/edgar/data/1451809/000145180926000068/ex991-renesastimingbusines.htm","role":"SEC_primary"},
+    {"title":"SiTime pro forma combined financials","url":"https://www.sec.gov/Archives/edgar/data/1451809/000145180926000068/ex992-sitimeproformafsxytd.htm","role":"SEC_primary"},
+    {"title":"Titan resonator launch","url":"https://investor.sitime.com/news-releases/news-release-details/sitime-enters-4b-resonator-market-titan-platformtm","role":"issuer_primary"},
+    {"title":"SiTime Goldman Sachs Communacopia 2026 transcript","url":"https://stockanalysis.com/stocks/sitm/transcripts/743979-goldman-sachs-communacopia-technology-conference-2026/","role":"management_transcript_reference"},
+    {"title":"SITM historical price reference","url":"https://ng.investing.com/equities/sitime-corporation-historical-data","role":"market_reference"}
+  ],
+  "innovation_comparator_sources": [
+    {"company":"NVIDIA","title":"2002 10-K","url":"https://www.sec.gov/Archives/edgar/data/1045810/000101287002002262/d10k.htm"},
+    {"company":"Tesla","title":"2010 10-K","url":"https://www.sec.gov/Archives/edgar/data/1318605/000119312511054847/d10k.htm"},
+    {"company":"Palantir","title":"2020 S-1/A","url":"https://www.sec.gov/Archives/edgar/data/1321655/000119312520248369/d904406ds1a.htm"},
+    {"company":"Google","title":"2004 S-1/A","url":"https://www.sec.gov/Archives/edgar/data/1288776/000119312504124025/ds1a.htm"},
+    {"company":"Amazon","title":"1997 shareholder letter reprint","url":"https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm"}
+  ]
+}
