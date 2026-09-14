@@ -1,0 +1,14 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"TMDX",
+  "as_of":"2026-09-15",
+  "role":"SUPPLEMENTAL_CURRENT_PUBLIC_EVIDENCE",
+  "sources":[
+    {"type":"SEC_primary","title":"Q2 2026 earnings release","date":"2026-08-04","url":"https://www.sec.gov/Archives/edgar/data/1756262/000119312526332767/tmdx-ex99_1.htm","facts":["Q2 revenue $189.9M, +21% YoY","Product revenue $111.2M +16%; service revenue $78.8M +29%","FY2026 revenue guidance $737M-$757M excluding PAD revenue","Cash $472.7M"]},
+    {"type":"SEC_primary","title":"2026 proxy strategic roadmap","date":"2026-04-10","url":"https://www.sec.gov/Archives/edgar/data/1756262/000119312526150357/d833933ddef14a.htm","facts":["Management states OCS was a major driver of U.S. liver/heart/lung transplant growth","Roadmap includes ENHANCE Heart, DENOVO Lung, OCS Kidney and Gen-3 OCS platforms","Company targets 10,000 U.S. NOP cases in 2028 and 20,000 cases by 2030"]},
+    {"type":"issuer_primary","title":"PAD Aviation investment closing","date":"2026-07-06","url":"https://investors.transmedics.com/news-releases/news-release-details/transmedics-group-announces-completion-strategic-investment-pad","facts":["PAD Aviation investment is intended as the foundation for a dedicated pan-European organ transplant air and ground logistics network"]},
+    {"type":"issuer_primary","title":"Growth Strategy to 20,000+ transplants","date":"2026","url":"https://investors.transmedics.com/static-files/e36cdd38-8ec5-4324-aa2b-726daf96580d","facts":["2026-2029 roadmap includes next-gen heart/lung, EU NOP, Kidney clinical trial, Gen-3 liver/heart/lung and international kidney launch"]},
+    {"type":"market_reference","title":"TMDX historical price","date":"2026-09-14","url":"https://se.investing.com/equities/transmedics-group-inc-historical-data","facts":["September 14, 2026 close approximately $84.52"]}
+  ],
+  "source_hierarchy_note":"Stored filings remain controlling. Management claims about transplant-market causality and future case targets are treated as issuer claims, not independently proven facts."
+}
