@@ -1,0 +1,42 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"V",
+  "as_of":"2026-09-14",
+  "metrics":{
+    "ttm_revenue_usd_b":44.488,
+    "ttm_net_income_usd_b":22.592,
+    "ttm_operating_cash_flow_usd_b":22.580,
+    "ttm_capex_and_technology_purchases_usd_b":1.567,
+    "ttm_mechanical_ocf_minus_capex_usd_b":21.013,
+    "ttm_depreciation_and_amortization_usd_b":1.342,
+    "ttm_gaap_net_income_plus_da_minus_capex_usd_b":22.367,
+    "ttm_non_gaap_net_income_usd_b":24.565,
+    "normalized_owner_cash_range_usd_b":[22.4,24.6],
+    "normalized_owner_cash_central_usd_b":23.0,
+    "reference_diluted_shares_b":1.90,
+    "normalized_owner_cash_per_share_usd":12.1053,
+    "reference_price_usd":370.45,
+    "approx_market_cap_usd_b":703.855,
+    "net_debt_usd_b":9.916,
+    "approx_enterprise_value_usd_b":713.771,
+    "ttm_gaap_pe":31.15,
+    "normalized_owner_cash_multiple":30.60,
+    "normalized_owner_cash_yield":0.03268,
+    "ev_to_ttm_revenue":16.04,
+    "fy2025_gaap_operating_margin":0.59985,
+    "fy2025_adjusted_operating_margin_proxy":0.67735,
+    "fy2024_adjusted_operating_margin_proxy":0.67691,
+    "q3fy26_adjusted_operating_margin_proxy":0.66664,
+    "q3fy25_adjusted_operating_margin_proxy":0.67489,
+    "q3_diluted_share_count_yoy_change":-0.03114,
+    "fy2025_vas_share_of_net_revenue":0.2725,
+    "9mfy26_vas_share_of_net_revenue":0.30506
+  },
+  "calculation_notes":[
+    "TTM = FY2025 + 9M FY2026 - 9M FY2025; no quarter annualization.",
+    "Mechanical OCF-minus-capex is not normalized owner FCF because litigation payments, client-incentive timing, taxes and settlement working capital affect cash flow.",
+    "Normalized owner cash range is bounded by GAAP net income + D&A - capex and TTM non-GAAP net income adjusted for recurring capital intensity; SBC remains a real compensation expense and is not added back separately in the central owner-cash estimate.",
+    "Market capitalization uses Q3 diluted A-equivalent share count as a practical valuation denominator; Visa's multiple share classes and retrospective responsibility conversions make simple period-end Class A shares incomplete.",
+    "Adjusted operating margin proxy equals net revenue minus disclosed non-GAAP operating expenses divided by net revenue; it is a diagnostic, not a company-defined margin metric."
+  ]
+}
