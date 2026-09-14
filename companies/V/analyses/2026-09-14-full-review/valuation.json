@@ -1,0 +1,26 @@
+{
+  "ticker":"V",
+  "as_of":"2026-09-14",
+  "current_price":370.45,
+  "implied_expectations":{
+    "method":"10-year FCFE/owner-cash-per-share reverse model using normalized owner cash of $23.0B and 1.90B diluted A-equivalent shares.",
+    "central_case":{"discount_rate":0.09,"terminal_owner_cash_multiple":25,"required_owner_cash_per_share_cagr":0.07324},
+    "sensitivity":[
+      {"discount_rate":0.09,"terminal_multiple":22,"required_cagr":0.08434},
+      {"discount_rate":0.09,"terminal_multiple":25,"required_cagr":0.07324},
+      {"discount_rate":0.10,"terminal_multiple":22,"required_cagr":0.09429},
+      {"discount_rate":0.10,"terminal_multiple":25,"required_cagr":0.08308}
+    ],
+    "interpretation":"The price does not require a bull case, but it does require durable high-single-digit owner-cash-per-share growth and a premium terminal multiple. The market already recognizes much of Visa's quality and digital-payments durability."
+  },
+  "scenarios":{
+    "bear":{"fair_value_per_share":254.89,"upside_downside_pct":-31.2,"discount_rate":0.095,"terminal_owner_cash_multiple":20,"owner_cash_growth_path":[0.06,0.06,0.055,0.05,0.05,0.045,0.045,0.04,0.04,0.04],"thesis":"Regulatory/routing remedies reduce network economics, client incentives remain elevated, RTP/stablecoins take selected flows, and VAS growth normalizes sharply."},
+    "base":{"fair_value_per_share":419.63,"upside_downside_pct":13.3,"discount_rate":0.09,"terminal_owner_cash_multiple":25,"owner_cash_growth_path":[0.11,0.105,0.10,0.095,0.09,0.085,0.08,0.075,0.07,0.065],"thesis":"Consumer payments compound at high single digits, cross-border and commercial flows remain healthy, VAS grows faster than the core and buybacks support per-share growth without major regulatory impairment."},
+    "bull":{"fair_value_per_share":556.63,"upside_downside_pct":50.3,"discount_rate":0.085,"terminal_owner_cash_multiple":28,"owner_cash_growth_path":[0.13,0.125,0.12,0.115,0.11,0.105,0.10,0.095,0.09,0.085],"thesis":"Visa becomes an even broader trust, tokenization, stablecoin and agentic-commerce layer while VAS and money movement sustain double-digit growth and regulatory remedies remain manageable."}
+  },
+  "permanent_loss_case":{"fair_value_per_share":173.00,"upside_downside_pct":-53.3,"discount_rate":0.105,"terminal_owner_cash_multiple":16,"owner_cash_growth_path":[0.02,0.02,0.02,0.025,0.025,0.025,0.03,0.03,0.03,0.03],"description":"A combination of antitrust remedies, routing openness, RTP/stablecoin disintermediation and weaker pricing power permanently reduces Visa's take-rate economics even though the company remains solvent."},
+  "expectation_gap_score":8,
+  "asymmetry_score":5,
+  "subjective_probabilities":null,
+  "notes":"Values are decision ranges, not price targets. FCFE proxy already includes interest and therefore does not add a separate enterprise-value net-debt bridge. The largest model sensitivities are terminal multiple, long-run owner-cash-per-share growth and the economic impact of regulatory remedies."
+}
