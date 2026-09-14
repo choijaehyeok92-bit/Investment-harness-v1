@@ -1,0 +1,35 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "RBRK",
+  "as_of": "2026-09-15",
+  "currency": "USD",
+  "derived_metrics": {
+    "ttm_revenue_billion": 1.542178,
+    "ttm_subscription_revenue_billion": 1.482618,
+    "ttm_gross_margin": 0.802061,
+    "ttm_gaap_operating_margin": -0.183116,
+    "ttm_company_defined_fcf_billion": 0.286242,
+    "ttm_company_defined_fcf_margin": 0.185609,
+    "ttm_sbc_billion": 0.341763,
+    "ttm_sbc_as_pct_revenue": 0.221611,
+    "mechanical_fcf_less_sbc_billion": -0.055521,
+    "mechanical_fcf_less_sbc_margin": -0.036002,
+    "net_liquid_cash_less_convertible_notes_billion": 0.614754,
+    "equity_market_cap_billion_at_reference": 17.962929,
+    "enterprise_value_billion_at_reference": 17.348175,
+    "fy27_guided_revenue_growth_vs_fy26": 0.283248,
+    "fy27_guided_subscription_arr_growth_vs_fy26": 0.287539,
+    "fy27_guided_fcf_growth_vs_fy26": 0.379078,
+    "forward_ev_to_revenue": 10.271,
+    "forward_ev_to_subscription_arr": 9.215,
+    "forward_equity_to_company_fcf": 54.765,
+    "forward_company_fcf_yield": 0.01826,
+    "period_end_share_growth_jan31_to_aug24": 0.025031
+  },
+  "method_notes": [
+    "TTM = FY2026 + H1 FY2027 - H1 FY2026; no quarter multiplication.",
+    "Mechanical FCF-less-SBC is a diagnostic cash-equivalent compensation adjustment, not audited owner FCF.",
+    "Enterprise value uses equity market cap minus cash/short-term investments plus convertible-note carrying amount; other operating liabilities are not treated as debt.",
+    "Price reference is 2026-09-11 close because a later verified US close was not available in research sources."
+  ]
+}
