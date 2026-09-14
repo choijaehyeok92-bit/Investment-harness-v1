@@ -1,0 +1,15 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"CRDO",
+  "as_of":"2026-09-15",
+  "role":"SUPPLEMENTAL_CURRENT_PUBLIC_EVIDENCE",
+  "sources":[
+    {"type":"SEC_primary","title":"FY2027 Q1 earnings release","date":"2026-09-01","url":"https://www.sec.gov/Archives/edgar/data/1807794/000162828026059795/credoq12027ex-991.htm","facts":["Q1 revenue $479.0M, +114.7% YoY and +9.6% QoQ","GAAP gross margin 64.5%","GAAP net income $129.4M","Q2 revenue outlook $525M-$535M"]},
+    {"type":"SEC_primary","title":"FY2027 Q1 10-Q","date":"2026-09-01","url":"https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm","facts":["Customer A 43% and Customer B 28% of Q1 revenue by contracting party","AEC volume contributed over 90% of YoY revenue increase","R&D was 23.9% of revenue"]},
+    {"type":"issuer_primary","title":"OmniConnect contribution to Open Compute Project","date":"2026-08-10","url":"https://investors.credosemi.com/news-events/news/news-details/2026/Credo-to-Contribute-OmniConnect-Scale-In-Interconnect-Solution-to-the-Open-Compute-Project-to-Address-AI-Inference-Memory-Wall/default.aspx","facts":["Credo plans to standardize OmniConnect through OCP","Goal is an open ecosystem of Credo and third-party products addressing AI inference memory bandwidth/capacity constraints"]},
+    {"type":"issuer_primary","title":"Open CPX MSA participation","date":"2026-08-31","url":"https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Joins-Open-CPX-MSA-Organization/default.aspx","facts":["Credo joined Open CPX MSA for interoperable near-package and co-packaged optical interconnects"]},
+    {"type":"issuer_primary","title":"Toucan PCIe 6.x compliance","date":"2026-08-31","url":"https://investors.credosemi.com/news-events/news/news-details/2026/Credos-Toucan-PCIe-Retimer-Achieves-PCI-Express-Compliance-and-Joins-PCI-Express-6-x-Integrators-List/default.aspx","facts":["Toucan Gen6x16 retimer achieved PCI-SIG 6.x compliance at 64 GT/s"]},
+    {"type":"market_reference","title":"CRDO historical price","date":"2026-09-14","url":"https://kr.investing.com/equities/credo-technology-holding-historical-data","facts":["September 14, 2026 close $153.59"]}
+  ],
+  "source_hierarchy_note":"Stored SEC/filing evidence remains controlling. This file adds post-review product/ecosystem evidence and a current price reference; issuer claims are not treated as independently verified market-share facts."
+}
