@@ -1,0 +1,27 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "RBRK",
+  "company_name": "Rubrik, Inc.",
+  "as_of": "2026-09-15",
+  "user_supplied_files": [
+    {"name":"RBRK (Rubrik Inc. Class A) Annual report pursuant to Section 13 or 15(d) (10-K) 2026-03-19.docx","sha256":"75afec53712d2a5597472dde7c59cee0925ccfe445065d12b802b219d398629a","filing_type":"10-K","filing_date":"2026-03-19","period_end":"2026-01-31","role":"primary"},
+    {"name":"RBRK (Rubrik Inc. Class A) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-09-01.docx","sha256":"f20410a049a654c5415e9949ff0e4af5ab3433c4b8c2bb8dc3738cf5d3270ab1","filing_type":"10-Q","filing_date":"2026-09-01","period_end":"2026-07-31","role":"primary"},
+    {"name":"RBRK (Rubrik Inc. Class A) Current report pursuant to Section 13 or 15(d) (8-K) 2026-08-27.docx","sha256":"460375753dadfaca9382c35a53d9c80b89367a07c02cbb78abb11b6548b758af","filing_type":"8-K","filing_date":"2026-08-27","period_end":"2026-08-26","role":"primary"}
+  ],
+  "supplemental_sources": [
+    {"title":"FY2026 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/1943896/000194389626000013/rbrk-20260131.htm","role":"SEC_primary"},
+    {"title":"Q2 FY2027 Form 10-Q","url":"https://www.sec.gov/Archives/edgar/data/1943896/000194389626000060/rbrk-20260731.htm","role":"SEC_primary"},
+    {"title":"Q2 FY2027 Form 8-K / earnings release","url":"https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/rubrikinc-991pressrelease7.htm","role":"SEC_primary"},
+    {"title":"2026 proxy statement","url":"https://www.sec.gov/Archives/edgar/data/1943896/000194389626000034/rbrk-20260415.htm","role":"SEC_primary"},
+    {"title":"Rubrik Agent Cloud for Anthropic Claude Code","url":"https://ir.rubrik.com/news-events/press-releases/news-details/2026/Rubrik-Launches-Rubrik-Agent-Cloud-for-Anthropics-Claude-Code/default.aspx","role":"issuer_primary"},
+    {"title":"Microsoft Defender + Rubrik Identity Resilience integration","url":"https://www.rubrik.com/company/newsroom/press-releases/26/microsoft-and-rubrik-integration-delivers-complete-identity-attack-response","role":"issuer_primary"},
+    {"title":"2026 Gartner Magic Quadrant recognition release","url":"https://ir.rubrik.com/news-events/press-releases/news-details/2026/Rubrik-is-Named-a-Leader-in-the-2026-Gartner-Magic-Quadrant/default.aspx","role":"issuer_secondary_claiming_external_research"},
+    {"title":"Historical market price / market cap reference","url":"https://stockanalysis.com/stocks/rbrk/market-cap/","role":"market_reference"},
+    {"title":"Amazon 1997 shareholder letter (SEC-hosted)","url":"https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm","role":"historical_innovation_benchmark"},
+    {"title":"Google 2004 S-1/A","url":"https://www.sec.gov/Archives/edgar/data/1288776/000119312504142742/ds1a.htm","role":"historical_innovation_benchmark"},
+    {"title":"Tesla 2010 S-1/A","url":"https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm","role":"historical_innovation_benchmark"},
+    {"title":"Palantir 2020/2021 early public-company results","url":"https://www.sec.gov/Archives/edgar/data/1321655/000119312521043333/d131078dex991.htm","role":"historical_innovation_benchmark"},
+    {"title":"NVIDIA 2002 10-K describing programmable GPU platform","url":"https://www.sec.gov/Archives/edgar/data/1045810/000101287002002262/d10k.htm","role":"historical_innovation_benchmark"}
+  ],
+  "source_hierarchy_note":"User-supplied filings and SEC/issuer-primary sources control. Market-price sources are reference-only. Historical innovator filings are used only to calibrate an auxiliary innovation-pattern lens and do not alter the harness policy score."
+}
