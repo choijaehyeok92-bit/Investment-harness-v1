@@ -1,0 +1,23 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"ADBE",
+  "as_of":"2026-09-14",
+  "source_note":"User supplied QuoteMedia filing links. QuoteMedia cached HTML could not be persisted directly, so each filing was resolved to the equivalent SEC canonical accession and cross-checked against Adobe investor-relations materials. The original user URLs are preserved for provenance.",
+  "user_supplied_sources":[
+    {"type":"10-K","date_filed":"2026-01-15","quotemedia_url":"https://app.quotemedia.com/data/downloadFiling?webmasterId=90423&ref=319706441&type=HTML&symbol=ADBE&cdn=59327036cc8c5790505bade8b659e133&companyName=Adobe+Inc.&formType=10-K&formDescription=Annual+report+pursuant+to+Section+13+or+15%28d%29&dateFiled=2026-01-15","sec_accession":"0000796343-26-000003","sec_canonical":"https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm"},
+    {"type":"10-Q","date_filed":"2026-06-15","quotemedia_url":"https://app.quotemedia.com/data/downloadFiling?webmasterId=90423&ref=320130621&type=HTML&symbol=ADBE&cdn=b358f612814562a2a139e381e901b8a6&companyName=Adobe+Inc.&formType=10-Q&formDescription=General+form+for+quarterly+reports+under+Section+13+or+15%28d%29&dateFiled=2026-06-15","sec_accession":"0000796343-26-000112","sec_canonical":"https://www.sec.gov/Archives/edgar/data/796343/000079634326000112/adbe-20260529.htm"},
+    {"type":"8-K","date_filed":"2026-09-10","quotemedia_url":"https://app.quotemedia.com/data/downloadFiling?webmasterId=90423&ref=320341864&type=HTML&symbol=ADBE&cdn=a9736866eef0e906e9f471a642377c04&companyName=Adobe+Inc.&formType=8-K&formDescription=Current+report+pursuant+to+Section+13+or+15%28d%29&dateFiled=2026-09-10","sec_accession":"0000796343-26-000147","sec_canonical":"https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbe-20260910.htm","exhibit_99_1":"https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"}
+  ],
+  "supplemental_primary_sources":[
+    "Adobe Q3 FY2026 earnings release/script/slides",
+    "Adobe Sept. 3, 2026 CEO succession announcement",
+    "Adobe April 28, 2026 Semrush acquisition completion announcement",
+    "U.S. Department of Justice March 13, 2026 Adobe subscription-practices settlement release"
+  ],
+  "supplemental_secondary_sources":[
+    "Reuters coverage of Q3 FY2026 results and competitive pressure from Figma/Canva",
+    "Investing.com Sept. 11, 2026 ADBE closing price"
+  ],
+  "source_hierarchy":"SEC/audited filings > Adobe IR/company releases > government enforcement records > reputable financial press/market data",
+  "claim_discipline":"Historical reported values are facts from primary sources; TTM, owner-cash, reverse-DCF and scenario values are estimates/calculations; moat and decision labels are investment opinions."
+}
