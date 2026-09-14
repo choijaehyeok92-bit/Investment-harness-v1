@@ -1,1 +1,115 @@
-{"ticker":"INTU","company_name":"Intuit Inc.","as_of":"2026-09-14","source_policy":"Primary filings first; company IR second; reputable press for market/competitive context.","user_supplied_files":[{"name":"INTU (Intuit Inc.) Annual report pursuant to Section 13 or 15(d) (10-K) 2026-09-09.docx","sha256":"409f74b02cd004fcbf437920d874e9581dc44747ba81c0ac6e2049d856516397","bytes":872629,"library_path":"/Investment Harness/INTU/source-documents/INTU 10-K 2026-09-09.docx"},{"name":"INTU (Intuit Inc.) Current report pursuant to Section 13 or 15(d) (8-K) 2026-08-25.docx","sha256":"e06f751d5ac7a8ff010731c80b735046c26c8a813fa1444505c8005c7d0f2aae","bytes":69492,"library_path":"/Investment Harness/INTU/source-documents/INTU 8-K 2026-08-25.docx"},{"name":"INTU (Intuit Inc.) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-05-20.docx","sha256":"6ed28cf841c8a42f166e781747b39c34e3d087f13209a452f2a7a93a85fdfd9b","bytes":381454,"library_path":"/Investment Harness/INTU/source-documents/INTU 10-Q 2026-05-20.docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (1).docx","sha256":"214b0c3865955fe08f6359dce0ff0d1357a6a4b5f879fe141eb93939aa836ef9","bytes":10678,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-03 (1).docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (2).docx","sha256":"509e78578ab286d3b6cc9dae8f93aaa08e3882742be5fdb37eba4807b5d4e500","bytes":10666,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-03 (2).docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (3).docx","sha256":"0f4e33682eabcbab9a4b3a7f7a98d5350430c8b185249767286b97e1d4593c63","bytes":10668,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-03 (3).docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (4).docx","sha256":"671dac1980501374a4e8ff9d800454e093015ae18fa36ec32f6ab5fc00a532fa","bytes":10664,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-03 (4).docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (5).docx","sha256":"b34e00f4765edd4b078f9d13184afa211da58e31052eec13f72b286d566800c0","bytes":10665,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-03 (5).docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03.docx","sha256":"831a2d39d8fbdc1e29d949842437e98304d21f8b6dbdf9a5a209f62da05a234a","bytes":10798,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-03.docx"},{"name":"INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-09.docx","sha256":"27dd9fbc52ba5a293486b02434872c270ef0a51379dbaa63a2e6dbc19c87f9bd","bytes":9956,"library_path":"/Investment Harness/INTU/source-documents/INTU Form 4 2026-09-09.docx"}],"external_sources":[{"type":"primary","description":"Intuit FY2026 Form 10-K HTML","url":"https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm"},{"type":"primary","description":"Intuit FY2026 results and FY2027 guidance","url":"https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance"},{"type":"primary","description":"Intuit FY2026 Q3 release and restructuring announcement","url":"https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3earningspressrelease.htm"},{"type":"primary","description":"Intuit Investor Day announcement for 2026-09-17","url":"https://investors.intuit.com/news-events/press-releases/detail/1321/intuit-to-host-annual-investor-day-on-september-17"},{"type":"primary_historical","description":"Mailchimp acquisition consideration","url":"https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-22-000028/intu-20220731.htm"},{"type":"reputable_press","description":"Reuters on FY2027 outlook and strategic customer-growth reset","url":"https://www.reuters.com/business/intuits-annual-forecast-falls-short-estimates-it-prioritizes-customer-growth-2026-08-25/"},{"type":"reputable_press","description":"Reuters on GPT-6 Astra software-disruption concern","url":"https://www.reuters.com/business/wall-st-futures-slip-oil-surge-puts-markets-edge-2026-09-08/"},{"type":"reputable_press","description":"Reuters on 17% workforce reduction","url":"https://www.reuters.com/business/intuit-boosts-annual-forecasts-cut-17-global-staff-2026-05-20/"},{"type":"market_data_secondary","description":"Sep 11, 2026 closing price","url":"https://stockanalysis.com/stocks/intu/history/"}]}
+{
+  "ticker": "INTU",
+  "company_name": "Intuit Inc.",
+  "as_of": "2026-09-14",
+  "source_policy": "Primary filings first; company IR second; reputable press for market/competitive context.",
+  "user_supplied_files": [
+    {
+      "name": "INTU (Intuit Inc.) Annual report pursuant to Section 13 or 15(d) (10-K) 2026-09-09.docx",
+      "sha256": "409f74b02cd004fcbf437920d874e9581dc44747ba81c0ac6e2049d856516397",
+      "bytes": 872629,
+      "library_path": "/Investments/INTU/INTU_10-K_2026-09-09.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Current report pursuant to Section 13 or 15(d) (8-K) 2026-08-25.docx",
+      "sha256": "e06f751d5ac7a8ff010731c80b735046c26c8a813fa1444505c8005c7d0f2aae",
+      "bytes": 69492,
+      "library_path": "/Investments/INTU/INTU_8-K_2026-08-25.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-05-20.docx",
+      "sha256": "6ed28cf841c8a42f166e781747b39c34e3d087f13209a452f2a7a93a85fdfd9b",
+      "bytes": 381454,
+      "library_path": "/Investments/INTU/INTU_10-Q_2026-05-20.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (1).docx",
+      "sha256": "214b0c3865955fe08f6359dce0ff0d1357a6a4b5f879fe141eb93939aa836ef9",
+      "bytes": 10678,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-03_1.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (2).docx",
+      "sha256": "509e78578ab286d3b6cc9dae8f93aaa08e3882742be5fdb37eba4807b5d4e500",
+      "bytes": 10666,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-03_2.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (3).docx",
+      "sha256": "0f4e33682eabcbab9a4b3a7f7a98d5350430c8b185249767286b97e1d4593c63",
+      "bytes": 10668,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-03_3.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (4).docx",
+      "sha256": "671dac1980501374a4e8ff9d800454e093015ae18fa36ec32f6ab5fc00a532fa",
+      "bytes": 10664,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-03_4.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03 (5).docx",
+      "sha256": "b34e00f4765edd4b078f9d13184afa211da58e31052eec13f72b286d566800c0",
+      "bytes": 10665,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-03_5.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-03.docx",
+      "sha256": "831a2d39d8fbdc1e29d949842437e98304d21f8b6dbdf9a5a209f62da05a234a",
+      "bytes": 10798,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-03_6.docx"
+    },
+    {
+      "name": "INTU (Intuit Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-09.docx",
+      "sha256": "27dd9fbc52ba5a293486b02434872c270ef0a51379dbaa63a2e6dbc19c87f9bd",
+      "bytes": 9956,
+      "library_path": "/Investments/INTU/INTU_Form4_2026-09-09.docx"
+    }
+  ],
+  "external_sources": [
+    {
+      "type": "primary",
+      "description": "Intuit FY2026 Form 10-K HTML",
+      "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/intu-20260731.htm"
+    },
+    {
+      "type": "primary",
+      "description": "Intuit FY2026 results and FY2027 guidance",
+      "url": "https://investors.intuit.com/news-events/press-releases/detail/1320/intuit-reports-fourth-quarter-and-full-year-fiscal-2026-results-sets-fiscal-2027-guidance"
+    },
+    {
+      "type": "primary",
+      "description": "Intuit FY2026 Q3 release and restructuring announcement",
+      "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3earningspressrelease.htm"
+    },
+    {
+      "type": "primary",
+      "description": "Intuit Investor Day announcement for 2026-09-17",
+      "url": "https://investors.intuit.com/news-events/press-releases/detail/1321/intuit-to-host-annual-investor-day-on-september-17"
+    },
+    {
+      "type": "primary_historical",
+      "description": "Mailchimp acquisition consideration",
+      "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-22-000028/intu-20220731.htm"
+    },
+    {
+      "type": "reputable_press",
+      "description": "Reuters on FY2027 outlook and strategic customer-growth reset",
+      "url": "https://www.reuters.com/business/intuits-annual-forecast-falls-short-estimates-it-prioritizes-customer-growth-2026-08-25/"
+    },
+    {
+      "type": "reputable_press",
+      "description": "Reuters on GPT-6 Astra software-disruption concern",
+      "url": "https://www.reuters.com/business/wall-st-futures-slip-oil-surge-puts-markets-edge-2026-09-08/"
+    },
+    {
+      "type": "reputable_press",
+      "description": "Reuters on 17% workforce reduction",
+      "url": "https://www.reuters.com/business/intuit-boosts-annual-forecasts-cut-17-global-staff-2026-05-20/"
+    },
+    {
+      "type": "market_data_secondary",
+      "description": "Sep 11, 2026 closing price",
+      "url": "https://stockanalysis.com/stocks/intu/history/"
+    }
+  ]
+}
