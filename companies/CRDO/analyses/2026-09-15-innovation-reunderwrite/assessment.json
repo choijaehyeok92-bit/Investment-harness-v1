@@ -1,0 +1,48 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"CRDO",
+  "company_name":"Credo Technology Group Holding Ltd",
+  "as_of":"2026-09-15",
+  "research_state":"FULL_ANALYSIS",
+  "decision":"WATCH",
+  "buy_authorized":false,
+  "position_band":"NONE",
+  "priority":"P1",
+  "classification":"Emerging Outlier",
+  "total_score_100":75,
+  "business_quality_75":60,
+  "change_from_prior":{"prior_score":73,"prior_business_quality":58,"reason":"Innovation reunderwrite gives additional weight to evidence that Credo is moving from component supplier toward open interconnect architecture/ecosystem participation; valuation and concentration constraints remain."},
+  "scorecard":{"structural_change_and_leadership":14,"customer_value_and_product":9,"moat_trajectory":13,"incremental_roic_and_fcf_per_share":9,"management_and_capital_allocation":6,"financial_survivability":9,"expectation_gap_and_valuation":7,"power_law_and_asymmetry":8},
+  "core_thesis":"Credo is evolving from a high-speed SerDes/AEC supplier into a broader AI connectivity architecture company spanning copper, optical, PCIe retiming, chiplets and scale-in memory connectivity. The most important new evidence is not 115% revenue growth by itself, but Credo's attempt to standardize OmniConnect through OCP and participate in Open CPX, which could move the company from winning sockets inside hyperscaler systems toward influencing interoperable connectivity standards.",
+  "innovation_lens":{
+    "score_10":9.1,
+    "classification":"STRONG_EARLY_INNOVATOR_PATTERN",
+    "closest_archetype":"Early NVIDIA",
+    "benchmark_similarity":{"NVIDIA":9.4,"Amazon":7.6,"Palantir":7.0,"Google":6.3,"Tesla":6.1},
+    "criteria":{
+      "category_creation_or_standard_shift":"Strong: AEC adoption, scale-in interconnect and open-standard participation target new bottlenecks created by AI architecture.",
+      "frontier_customer_pull":"Very strong: hyperscaler ramps drive current revenue, although concentration creates fragility.",
+      "product_velocity":"Strong: copper AEC, optical/DSP, PCIe retimers, chiplets and OmniConnect broaden the stack quickly.",
+      "platform_or_ecosystem_optionality":"Improving: OCP OmniConnect and Open CPX participation are early ecosystem signals, but no CUDA-like developer lock-in exists.",
+      "reinvestment_and_adjacent_market_expansion":"Strong but costly: DustPhotonics expands optics; R&D remains near one-quarter of revenue.",
+      "scalable_unit_economics":"Strong GAAP profitability and fabless model, but owner-cash conversion is distorted by working capital, SBC and acquisition economics.",
+      "power_law_optionalities":"High if Credo becomes a neutral connectivity layer across copper, optics, memory and scale-up/scale-out systems."
+    },
+    "why_not_nvidia_yet":["No CUDA-like software/developer ecosystem or proprietary compute platform.","Revenue is still highly concentrated in a few hyperscaler programs.","AEC currently explains most incremental revenue, so platform breadth has not yet translated into diversified economics.","Optical transitions can both expand and cannibalize Credo's existing copper economics."]
+  },
+  "hard_veto":{"overall_status":"INVESTIGATE","items":[
+    {"id":"management_or_accounting_integrity","status":"PASS","resolution_needed":"Continue normal filing and acquisition-accounting monitoring."},
+    {"id":"external_capital_dependence","status":"PASS","resolution_needed":"Reopen if acquisition/inventory needs structurally consume liquidity."},
+    {"id":"persistent_dilution","status":"INVESTIGATE","evidence":"Q1 FY27 SBC was about $88M, roughly 18.4% of revenue.","resolution_needed":"Require controlled net dilution and sustained owner-cash/share growth."},
+    {"id":"low_quality_growth","status":"PASS","evidence":"Revenue growth is accompanied by GAAP profitability and hyperscaler volume ramps."},
+    {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":"DustPhotonics purchase consideration was about $1.25B and clean post-acquisition cash returns are not yet established.","resolution_needed":"Track optical revenue/margin/cash contribution and normalized owner cash per share."},
+    {"id":"moat_shrinkage","status":"PASS","evidence":"Product breadth and standards participation currently indicate expanding relevance."},
+    {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":"Current price remains around Base value and still requires high-teens long-duration growth, demanding but not Bull-only given current growth."},
+    {"id":"fatal_concentration","status":"INVESTIGATE","evidence":"Customer A and B represented 43% and 28% of Q1 revenue; concentration remains extreme despite expanding product breadth.","resolution_needed":"Require additional hyperscaler/platform pillars and lower top-two dependence."},
+    {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":"Bear-case value remains more than 80% below price because a major design loss or architecture shift can sharply impair duration value."}
+  ]},
+  "red_team":{"verdict":"REVISE","strongest_bear_thesis":"Credo is an exceptional beneficiary of a temporary AEC/hyperscaler architecture cycle rather than a durable platform. Two customers dominate revenue, optics or co-packaged architectures shift faster than Credo monetizes them, DustPhotonics fails to earn its cost, SBC remains high and the market rerates a concentrated component supplier rather than a standards-layer winner.","attacks":["AEC contributes over 90% of current YoY revenue growth.","Top-two customer concentration can overwhelm otherwise excellent product economics.","Open standards can enlarge Credo's market while also reducing proprietary lock-in.","Broadcom, Marvell and in-house hyperscaler silicon can bundle or internalize connectivity.","DustPhotonics integration can destroy incremental ROIC despite strategic logic.","SBC can make reported profit growth overstate per-share owner economics.","AI capex can normalize before platform diversification is economically visible.","Optical/CPO adoption can cannibalize copper AEC faster than Credo captures optical value.","Current price still embeds long-duration high-teens growth.","A single generation design loss can cause both earnings and multiple compression."]},
+  "falsifiers":["Two consecutive quarters of sub-30% YoY growth while hyperscaler AI capex remains strong.","Top-two end-customer concentration remains above 65% through FY2028 without meaningful new revenue pillars.","Optical/DustPhotonics products fail to become a material gross-profit contributor.","OmniConnect/Open CPX ecosystem efforts fail to generate third-party adoption or design wins.","SBC remains above 15% of revenue while owner-cash/share growth falls below 20%.","Major AI systems bypass Credo through bundled or in-house connectivity architectures."],
+  "increase_evidence":["Three or more hyperscaler/neocloud revenue pillars become material.","OmniConnect becomes an adopted OCP ecosystem rather than an issuer-led specification only.","DustPhotonics optics produce visible revenue, margin and cash returns above the hurdle rate.","Owner-cash/share compounds above 25% while SBC/revenue trends toward low teens or below.","Credo retains content across copper, optics, PCIe and memory connectivity in multiple accelerator generations.","Price falls materially below conservative Base value without deterioration in the above evidence."],
+  "portfolio_context":"Research priority is raised to P1 because the innovation pattern warrants closer monitoring, not because a purchase is authorized."
+}
