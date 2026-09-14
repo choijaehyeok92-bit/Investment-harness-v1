@@ -1,0 +1,14 @@
+{
+  "ticker":"CRM",
+  "as_of":"2026-09-14",
+  "financials":{
+    "fy2026":{"revenue_b":41.525,"revenue_yoy_pct":10.0,"gaap_operating_income_b":8.331,"gaap_operating_margin_pct":20.1,"gaap_net_income_b":7.457,"operating_cash_flow_b":14.996,"capex_b":0.594,"sbc_b":3.509,"rpo_b":72.4,"rpo_yoy_pct":14.0,"crpo_b":35.1,"crpo_yoy_pct":16.0,"attrition_pct":8.0,"repurchases_b":12.677,"repurchase_avg_price":254.21},
+    "h1_fy2027":{"revenue_b":22.478,"revenue_yoy_pct":12.0,"gaap_operating_income_b":4.678,"gaap_net_income_b":5.633,"operating_cash_flow_b":7.970,"capex_b":0.316,"sbc_b":1.763,"strategic_investment_gains_b":3.171,"rpo_b":66.3,"rpo_yoy_pct":11.0,"crpo_b":33.5,"crpo_yoy_pct":14.0,"attrition_pct":8.0},
+    "q2_fy2027":{"revenue_b":11.345,"revenue_yoy_pct":11.0,"subscription_support_b":10.820,"subscription_support_yoy_pct":12.0,"gaap_operating_margin_pct":20.5,"diluted_shares_m":821,"agentforce_apps_revenue_b":7.193,"agentforce_apps_yoy_pct":8.0,"data360_headless_other_revenue_b":3.618,"data360_headless_other_yoy_pct":20.0,"informatica_revenue_b":0.456},
+    "fy2027_guidance":{"revenue_low_b":46.1,"revenue_high_b":46.4,"revenue_yoy_pct":"11-12","informatica_contribution_pts":"slightly above 3","gaap_operating_margin_pct":20.1,"ocf_growth_pct":"4-5","fcf_growth_pct":"4-5","q3_crpo_growth_pct":14.0},
+    "ttm_estimates":{"revenue_b":43.938,"gaap_net_income_b":9.662,"operating_cash_flow_b":15.750,"capex_b":0.596,"mechanical_fcf_b":15.154,"sbc_b":3.665,"owner_cash_low_b":10.5,"owner_cash_central_b":11.0,"owner_cash_high_b":11.5}
+  },
+  "ai_and_growth":{"agentforce_plus_data360_arr_b":3.9,"agentforce_plus_data360_arr_yoy_pct":210.0,"agentforce_arr_b":1.5,"agentforce_arr_yoy_pct":240.0,"agentic_work_units_b_cumulative":7.0,"agentic_work_units_b_q2":3.2,"agentic_work_units_qoq_pct":97.0,"agentforce_arr_definition_note":"Effective Q2 FY27 includes AI offerings, Slackbot and Headless 360; therefore the growth series is not a pure standalone-product like-for-like metric."},
+  "capital":{"cash_and_marketables_b":11.403,"noncurrent_debt_b":39.288,"net_debt_b":27.885,"strategic_investments_b":11.324,"anthropic_investment_b":5.1,"asr_b":25.0,"asr_initial_shares_m":103,"asr_initial_avg_price":198.34,"asr_funding":"$25B March 2026 senior notes; final settlement expected October 2026","revolver_b":5.0,"revolver_drawn_b":0.0},
+  "market":{"reference_price":247.72,"price_date":"2026-09-11","shares_outstanding_m":823,"approx_market_cap_b":203.87,"owner_cash_multiple":18.53,"owner_cash_yield_pct":5.40}
+}
