@@ -1,0 +1,23 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"CRDO",
+  "as_of":"2026-09-15",
+  "currency":"USD",
+  "price_reference":153.59,
+  "price_date":"2026-09-14",
+  "price_source":"Investing.com historical close",
+  "scenario_model_status":"RETAINED_FROM_2026-09-12_FULL_REVIEW; no operating-scenario inputs changed in this innovation reunderwrite",
+  "scenarios":{
+    "bear":{"value_per_share":25.7559,"upside_downside_vs_price":-0.8323},
+    "base":{"value_per_share":158.2009,"upside_downside_vs_price":0.0300},
+    "bull":{"value_per_share":610.9448,"upside_downside_vs_price":2.9778}
+  },
+  "reverse_expectations":{
+    "prior_exact_growth_at_162_95":0.1844787448,
+    "current_interpretation":"At $153.59, the exact required growth is modestly below the prior 18.45% years-2-10 result under the same Base margin/capital/terminal assumptions; it remains a high-teens long-duration growth requirement.",
+    "status":"NOT_NUMERICALLY_RECALCULATED_IN_THIS_RUN",
+    "warning":"Scenario values and reverse expectations are conditional estimates, not observable market forecasts."
+  },
+  "valuation_judgment":"The price decline improves asymmetry only modestly. Base value is approximately equal to market price, so there is still no material margin of safety. The innovation pattern strengthens the Bull path but does not by itself create an expectation gap.",
+  "approved_for_trading":false
+}
