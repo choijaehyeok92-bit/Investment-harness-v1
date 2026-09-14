@@ -1,0 +1,9 @@
+{
+  "as_of":"2026-09-15",
+  "assessment":"companies/RBRK/analyses/2026-09-15-full-review/assessment.json",
+  "valuation":"companies/RBRK/analyses/2026-09-15-full-review/valuation.json",
+  "thesis":"companies/RBRK/analyses/2026-09-15-full-review/thesis.ko.md",
+  "research_state":"FULL_ANALYSIS",
+  "run":"2026-09-15-full-review",
+  "authority":"Current reviewed Rubrik research based on user-supplied FY2026 10-K, Q2 FY2027 10-Q and Aug. 27 2026 8-K plus SEC/issuer/current market context. Innovation lens explicitly calibrated to early NVIDIA, Tesla, Palantir, Google and Amazon. Hard Veto remains INVESTIGATE on persistent_dilution and fatal_concentration; no trade authorization."
+}
