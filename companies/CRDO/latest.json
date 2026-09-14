@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-09-12",
-  "assessment": "companies/CRDO/analyses/2026-09-12-full-review/assessment.json",
-  "valuation": "companies/CRDO/analyses/2026-09-12-full-review/valuation.json",
-  "thesis": "companies/CRDO/analyses/2026-09-12-full-review/thesis.ko.md",
-  "research_state": "FULL_ANALYSIS",
-  "run": "2026-09-12-full-review",
-  "authority": "Reviewed dated company score; macro overlay scores are separate. No trade authorization."
+  "as_of":"2026-09-15",
+  "assessment":"companies/CRDO/analyses/2026-09-15-innovation-reunderwrite/assessment.json",
+  "valuation":"companies/CRDO/analyses/2026-09-15-innovation-reunderwrite/valuation.json",
+  "thesis":"companies/CRDO/analyses/2026-09-15-innovation-reunderwrite/thesis.ko.md",
+  "research_state":"FULL_ANALYSIS",
+  "run":"2026-09-15-innovation-reunderwrite",
+  "authority":"Current CRDO reunderwrite adds explicit early-innovator calibration to NVIDIA, Tesla, Palantir, Google and Amazon. Score 75, Emerging Outlier, WATCH/P1. Strongest analogue is early NVIDIA; concentration, dilution, acquisition returns and permanent-loss asymmetry remain INVESTIGATE. No trade authorization."
 }
