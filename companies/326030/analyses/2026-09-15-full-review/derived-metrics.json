@@ -1,0 +1,7 @@
+{
+  "schema_version":"2.0.0","ticker":"326030","as_of":"2026-09-15",
+  "ttm":{"revenue_krw_b":861.340,"operating_profit_krw_b":303.216,"net_income_krw_b":391.906,"ocf_krw_b":248.480,"ppe_capex_krw_b":7.825,"intangible_acquisitions_krw_b":23.854,"mechanical_ocf_less_capex_krw_b":216.802,"operating_margin_pct":35.2},
+  "owner_cash":{"normalized_range_krw_b":[210,260],"central_krw_b":230,"central_per_share_krw":2937,"method":"TTM OCF-capex anchored; normalize working-capital volatility and ignore the FY2025 deferred-tax accounting benefit as owner cash. R&D stays expensed. Strategic pipeline-license upfronts are modeled separately as capital allocation."},
+  "market":{"price_krw":79100,"shares_m":78.31325,"market_cap_krw_t":6.195,"owner_cash_multiple_x":26.93,"owner_cash_yield_pct":3.71,"pre_close_cash_and_financial_products_krw_b":400.498,"pre_close_bank_debt_krw_b":0},
+  "reverse_expectations":{"note":"Diagnostic only; constant-growth model smooths over explicit XCOPRI patent cliff.","required_10y_owner_cash_per_share_cagr_pct":{"9pct_18x":13.48,"10pct_15x":16.63,"10pct_18x":14.52,"10pct_20x":13.32,"11pct_18x":15.56}}
+}
