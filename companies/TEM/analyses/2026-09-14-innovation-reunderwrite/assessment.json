@@ -1,0 +1,94 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"TEM",
+  "company_name":"Tempus AI",
+  "as_of":"2026-09-14",
+  "authority_status":"RESEARCH_CHECKPOINT_NOT_CURRENT_AUTHORITY",
+  "research_state":"FULL_ANALYSIS_CHECKPOINT",
+  "decision":"WATCH",
+  "buy_authorized":false,
+  "method":"Re-underwrite the existing 2026-09-12 FULL_ANALYSIS using the canonical eight-category Harness scorecard plus a separate early-innovation archetype overlay based on patterns seen in early NVIDIA, Palantir, Tesla, Google and Amazon. The innovation overlay informs structural-change/moat judgments but never overrides owner-cash, dilution, capital-structure, valuation or Hard Veto constraints.",
+  "source_paths":[
+    "companies/TEM/latest.json",
+    "companies/TEM/analyses/2026-09-12-full-review/assessment.json",
+    "companies/TEM/analyses/2026-09-12-full-review/valuation.json",
+    "companies/TEM/raw-data/2026-Q2.json"
+  ],
+  "facts_used":[
+    "Q2 2026 revenue $382.5M, +22% YoY; H1 revenue $730.6M.",
+    "Q2 diagnostics revenue $289.3M, +20% YoY; oncology test volume +31% YoY.",
+    "Q2 data and applications revenue $93.2M, +28% YoY; Insights/data licensing and modeling +36% YoY.",
+    "MRD volume rose to 9,000 tests in Q2 from about 6,500 in Q1; only a minority of the salesforce was selling MRD at the Q2 update.",
+    "Tempus signed about $200M of new Data and Applications licenses and delivered its first oncology foundation model to AstraZeneca.",
+    "Q2 gross profit increased 26% YoY, faster than revenue; adjusted EBITDA was +$8.0M and FY2026 adjusted EBITDA guidance was about $65M.",
+    "Q2 GAAP net income included a $98.5M unrealized gain on marketable securities and $55.6M of stock-compensation expense and related payroll taxes.",
+    "H1 owner-cash diagnostic used in prior Harness review: OCF -$80.802M minus PP&E $14.327M minus SBC $106.827M = about -$201.956M before additional capitalized-software deduction.",
+    "Cash and marketable securities were about $820.7M at June 30, 2026; convertible senior notes net were about $1.173B and a convertible promissory note about $187.9M.",
+    "Personalis acquisition announced at about $1.5B enterprise value remained a material capital-allocation and dilution/claim uncertainty in the current evidence set.",
+    "Current canonical valuation at $59.01 reference price: Bear $2.27, Base $57.66, Bull $254.01; reverse-required uniform years-2-10 revenue growth about 16.27% conditional on Base margins/capital claims/terminal assumptions."
+  ],
+  "innovation_overlay":{
+    "score_100":81,
+    "classification":"INNOVATION_P1_BUT_ECONOMICS_UNPROVEN",
+    "components":{
+      "category_creation_and_structural_change":{"score":18,"max":20,"reason":"AI-enabled precision oncology, multimodal diagnostics and data/model licensing can enlarge the precision-medicine market rather than merely take share."},
+      "product_market_fit_and_adoption":{"score":14,"max":15,"reason":"Oncology volume +31%, MRD sequential acceleration and 36% Insights growth provide direct customer-adoption evidence."},
+      "data_network_ecosystem_flywheel":{"score":13,"max":15,"reason":"More diagnostic tests create multimodal clinical/molecular data; the data improve models and pharma value, which can drive partnerships, reimbursement and more diagnostic adoption. Exclusivity and retention are not yet proven enough for a maximum score."},
+      "scale_economics":{"score":8,"max":15,"reason":"Gross profit and adjusted EBITDA are improving, but SBC-adjusted owner cash is still materially negative and acquisitions are important to expansion."},
+      "tam_and_share_runway":{"score":9,"max":10,"reason":"MRD, oncology diagnostics, hereditary testing, clinical-trial/data licensing and AI models provide multiple large adjacent markets."},
+      "founder_management_reinvestment":{"score":7,"max":10,"reason":"Founder-led strategic coherence is visible, but acquisition intensity and convertible financing require proof of per-share value creation."},
+      "survivability":{"score":4,"max":5,"reason":"Liquidity is substantial and adjusted EBITDA is inflecting positive, but convertible claims and acquisition commitments make the balance sheet more complex."},
+      "power_law_optionality":{"score":8,"max":10,"reason":"A successful clinical-data flywheel can create a much larger platform, but permanent-loss downside remains large if cash conversion or data moat fails."}
+    },
+    "archetype_similarity":{
+      "Google":"HIGH - strongest analogy is a data feedback loop in which product usage creates proprietary data that improves subsequent products and monetization.",
+      "Palantir":"HIGH - similar potential to embed data/AI into high-value institutional workflows, but Tempus has less disclosed evidence of NRR-like expansion and workflow lock-in.",
+      "Amazon":"MODERATE_HIGH - aggressive reinvestment and adjacency expansion can deepen the platform, but Tempus relies more heavily on acquisitions and regulated clinical reimbursement.",
+      "NVIDIA":"MODERATE - it can become a platform for precision-medicine AI, but it does not yet have a CUDA-like developer ecosystem or de facto technical standard.",
+      "Tesla":"MODERATE_LOW - there is vertical integration across diagnostics, data and models, but less evidence of a manufacturing learning curve that structurally lowers unit cost."
+    },
+    "four_up_test":{"tam":"UP","adoption_share":"UP","margin_economics":"MIXED_UP","moat":"UP_PROVISIONAL","fcf_per_share":"NOT_YET_UP"}
+  },
+  "categories":{
+    "structural_change_and_leadership":{"score":14,"max_score":15,"prior_score":12,"confidence":0.72,"evidence":["Oncology/MRD adoption and data-model licensing are scaling at the same time.","First oncology foundation model delivered to AstraZeneca demonstrates movement from data vendor toward model/platform provider."],"counter_evidence":["Precision oncology remains highly competitive and category leadership is not equivalent to a standard or monopoly."],"score_action":"RAISED_FOR_OBSERVED_PLATFORM_ADOPTION"},
+    "customer_value_and_product":{"score":9,"max_score":10,"prior_score":8,"confidence":0.72,"evidence":["31% oncology volume growth, MRD acceleration, FDA approval and data-license signings indicate clinical and pharma willingness to pay."],"counter_evidence":["Reimbursement, payer collection and proof that AI models improve measurable outcomes remain important."],"score_action":"RAISED_FOR_DIRECT_ADOPTION_EVIDENCE"},
+    "moat_trajectory":{"score":12,"max_score":15,"prior_score":9,"confidence":0.66,"evidence":["Diagnostics generate multimodal data that can improve models and data products; pharma relationships and clinical adoption can then reinforce diagnostics.","MRD, data licensing and foundation-model delivery broaden the platform beyond one test type."],"counter_evidence":["Data may not be fully exclusive; competing diagnostics/data platforms can build overlapping datasets; M&A is contributing to the breadth."],"score_action":"RAISED_FOR_DATA_FLYWHEEL_EVIDENCE"},
+    "incremental_roic_and_fcf_per_share":{"score":5,"max_score":15,"prior_score":4,"confidence":0.60,"evidence":["Q2 gross profit grew 26% versus 22% revenue growth and adjusted EBITDA turned positive."],"counter_evidence":["H1 SBC-adjusted owner-cash diagnostic remains about -$202M before capitalized software; economic investment cohorts and Personalis return are not proven."],"score_action":"SLIGHT_RAISE_ONLY; OWNER_CASH_GATE_REMAINS"},
+    "management_and_capital_allocation":{"score":6,"max_score":10,"prior_score":5,"confidence":0.60,"evidence":["Founder-led strategy links diagnostics, MRD, data licensing and AI models into one platform; capital is being deployed into adjacent capabilities with clear strategic logic."],"counter_evidence":["Large acquisitions and convertible financing can create empire-building, dilution or sub-hurdle ROIC; strategic fit does not prove per-share value creation."],"score_action":"RAISED_ONE_POINT_FOR_STRATEGIC_COHERENCE"},
+    "financial_survivability":{"score":6,"max_score":10,"prior_score":5,"confidence":0.65,"evidence":["About $820.7M cash and marketable securities and positive adjusted-EBITDA trajectory reduce near-term financing pressure."],"counter_evidence":["Convertible notes and promissory-note claims are large relative to current cash generation and Personalis increases capital-structure complexity."],"score_action":"RAISED_ONE_POINT; CLAIM_RISK_REMAINS"},
+    "expectation_gap_and_valuation":{"score":6,"max_score":15,"prior_score":4,"confidence":0.58,"evidence":["Reference price $59.01 is approximately equal to prior Base $57.66 and far below modeled Bull $254.01.","Reverse-required years-2-10 growth around 16.27% is demanding but not obviously inconsistent with current adoption if Base margin conversion occurs."],"counter_evidence":["Base requires a large owner-cash inflection that is not yet observed; terminal value dominates the model and Bear value is only about $2.27."],"score_action":"RAISED_FOR_BETTER-DEFINED_INNOVATION_PROBABILITY_NOT_FOR_HIGHER_PRICE"},
+    "power_law_and_asymmetry":{"score":7,"max_score":10,"prior_score":7,"confidence":0.62,"evidence":["Bull is over 4x reference price and a successful data/platform flywheel could expand across multiple precision-medicine markets."],"counter_evidence":["Bear implies near-total permanent loss if the company fails to convert growth into per-share cash while claims and dilution accumulate."],"score_action":"UNCHANGED; UPSIDE_AND_DOWNSIDE_ARE_BOTH_EXTREME"}
+  },
+  "business_quality_75":52,
+  "total_score_100":65,
+  "classification":"Starter / Watch",
+  "score_change_from_current_canonical":11,
+  "score_change_explanation":"The prior 54 score underweighted directly observed adoption and the diagnostics->multimodal data->AI models/pharma->diagnostics flywheel. The re-underwrite therefore raises structural change, customer value and moat trajectory materially. It does not treat innovation as a substitute for cash economics: incremental ROIC/FCF-share, capital allocation, survivability and valuation remain restrained.",
+  "hard_veto_summary":{"overall":"INVESTIGATE","fail":[],"open":["management_or_accounting_integrity/adjusted-metric quality","persistent_dilution","incremental_roic_collapse","fatal_concentration/platform dependence","permanent_loss_probability"],"price_requires_unrealistic_bull_case":"PASS"},
+  "permanent_loss_case":"Tempus can remain clinically relevant and still be a poor stock if diagnostics/data growth requires persistent SBC, acquisition capital and convertible claims, if payer cash collection lags, or if competing platforms prevent proprietary-data advantages from widening. In that case revenue can grow while owner cash per diluted share remains negative and the valuation compresses toward a small fraction of current price.",
+  "falsifiers":[
+    "Oncology/MRD volume remains strong but Data and Applications/Insights growth decelerates materially, weakening evidence that diagnostics create a valuable data flywheel.",
+    "Two or more reporting periods of revenue growth without clear improvement in SBC-adjusted owner cash per diluted share.",
+    "Personalis or other acquisition cohorts require repeated external financing or fail to generate returns above the required hurdle after integration.",
+    "Payer collection/reimbursement economics deteriorate such that volume growth does not translate into cash gross profit.",
+    "Foundation-model/data-license wins remain isolated projects rather than repeatable expansions across pharmaceutical customers.",
+    "Diluted share count or equity-linked claims increase materially faster than owner-cash value creation."
+  ],
+  "increase_evidence":[
+    "At least two reporting periods with oncology/MRD volume growth, Insights/data licensing growth and SBC-adjusted owner cash per share improving together.",
+    "Evidence of repeat or expanding data/model contracts across pharma customers, analogous to NRR or cohort expansion.",
+    "Personalis integration creates higher MRD adoption and cash contribution without disproportionate dilution or leverage.",
+    "Gross-margin/EBITDA leverage translates into positive owner cash after SBC, capex, capitalized software and working-capital normalization.",
+    "Updated reverse DCF remains below a defensible long-run platform growth path after fully incorporating dilution and convertible claims."
+  ],
+  "sell_evidence":[
+    "Data flywheel fails: diagnostic growth no longer improves data/model monetization or vice versa.",
+    "Persistent negative owner cash per share despite slowing acquisition/reinvestment intensity.",
+    "Material shareholder dilution or debt/equity claims accumulate without proportional per-share owner cash.",
+    "Major reimbursement, regulatory, data-access or clinical-adoption impairment.",
+    "Price rises to require Bull-or-better execution before cash economics are proven."
+  ],
+  "valuation_reference":"companies/TEM/analyses/2026-09-12-full-review/valuation.json",
+  "valuation_action":"UNCHANGED; innovation overlay changes probability judgment and score, not the existing Bear/Base/Bull cash model without new cash-flow evidence.",
+  "promotion_note":"Do not update companies/TEM/latest.json from this checkpoint until reviewed and repository validators are run."
+}
