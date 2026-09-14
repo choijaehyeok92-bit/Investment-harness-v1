@@ -1,0 +1,14 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"ADBE",
+  "as_of":"2026-09-14",
+  "method":"TTM = FY2025 + 9M FY2026 - 9M FY2025 where available. Owner-cash deliberately keeps SBC as a real compensation cost; mechanical OCF-capex is diagnostic only because OCF adds back SBC.",
+  "ttm_estimates":{"revenue_b":25.970,"gaap_net_income_b":7.284,"operating_cash_flow_b":10.806,"capex_b":0.214,"mechanical_ocf_minus_capex_b":10.592,"sbc_b":2.071,"sbc_pct_revenue":7.97,"depreciation_and_amortization_b":0.766,"conservative_owner_cash_b":7.836,"normalized_owner_cash_range_b":[7.8,8.6],"central_owner_cash_b":8.1,"central_owner_cash_margin_pct":31.19},
+  "per_share_and_market":{"reference_price":252.23,"price_date":"2026-09-11","diluted_shares_m":395,"approx_market_cap_b":99.631,"cash_and_short_term_investments_b":5.639,"debt_b":6.363,"approx_net_debt_b":0.724,"approx_enterprise_value_b":100.355,"ttm_gaap_pe":13.68,"normalized_owner_cash_multiple":12.30,"normalized_owner_cash_yield_pct":8.13,"diluted_share_count_yoy_change_pct":-6.84},
+  "capital_allocation_diagnostics":{"h1_fy2026_approx_average_repurchase_price":276.4,"q3_fy2026_approx_cash_repurchase_price":235.0,"note":"Average-price diagnostics divide cash repurchase spend by disclosed approximate shares and may differ from trade-date accounting."},
+  "interpretation":[
+    "The headline OCF-capex figure materially exceeds normalized owner cash because stock compensation is added back in OCF. Using it directly would double-count SBC economics.",
+    "Adobe is close to net-debt neutral and can fund repurchases, AI R&D and smaller acquisitions from internally generated cash.",
+    "Net diluted shares declined about 6.8% YoY in Q3, so current repurchases more than offset equity compensation dilution."
+  ]
+}
