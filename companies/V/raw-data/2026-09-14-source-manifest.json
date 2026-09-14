@@ -1,0 +1,22 @@
+{
+  "ticker": "V",
+  "company_name": "Visa Inc.",
+  "as_of": "2026-09-14",
+  "source_policy": "Primary filings first; company IR second; government/regulator sources for legal matters; reputable press for current market and competitive context.",
+  "user_supplied_files": [
+    {"name":"V (Visa Inc.) Annual report pursuant to Section 13 or 15(d) (10-K) 2025-11-06.docx","sha256":"3ec5f8cef62cab9a717ce4289e9f71dc28beb6cf9ae5224e9e5f05235d0d2599","bytes":2151664,"library_path":"/Investments/V/V_10-K_2025-11-06.docx"},
+    {"name":"V (Visa Inc.) Current report pursuant to Section 13 or 15(d) (8-K) 2026-07-28.docx","sha256":"2706ab41f9306573a95fa12dbc8b117d6f2eb307db56e679de3816d68c6d5418","bytes":283052,"library_path":"/Investments/V/V_8-K_2026-07-28.docx"},
+    {"name":"V (Visa Inc.) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-07-29.docx","sha256":"c2246a9e5989a2f4743b2d4f63a16f0c729b24cbe77f87d26dd3182d24efe69d","bytes":362074,"library_path":"/Investments/V/V_10-Q_2026-07-29.docx"},
+    {"name":"V (Visa Inc.) Statement of changes in beneficial ownership of securities (4) 2026-09-10.docx","sha256":"415c8b75d6b87348a54f61b0bcb5fded22b296f480060050ce8a9ef4fb857d2f","bytes":10506,"library_path":"/Investments/V/V_Form4_2026-09-10.docx"}
+  ],
+  "external_sources": [
+    {"type":"primary","description":"Visa Q3 FY2026 investor-relations results","url":"https://investor.visa.com/news/news-details/2026/Visa-Fiscal-Third-Quarter-2026-Financial-Results/default.aspx"},
+    {"type":"primary","description":"Visa Stablecoin Platform launch","url":"https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22591.html"},
+    {"type":"government","description":"U.S. DOJ antitrust case U.S. v. Visa, Inc. [2024]","url":"https://www.justice.gov/atr/case/us-v-visa-inc-2024"},
+    {"type":"government","description":"June 23 2025 order denying Visa motion to dismiss DOJ case","url":"https://www.justice.gov/atr/media/1407066/dl"},
+    {"type":"reputable_press","description":"Reuters on preliminary approval of revised merchant interchange settlement","url":"https://www.reuters.com/world/us-judge-oks-visa-mastercard-38-billion-swipe-fee-settlement-2026-06-09/"},
+    {"type":"reputable_press","description":"Reuters on Visa/Mastercard/Ant AI-agent trust framework","url":"https://www.reuters.com/technology/payment-firms-visa-mastercard-ant-international-team-up-ai-agent-trust-framework-2026-09-10/"},
+    {"type":"reputable_press","description":"Reuters on Visa 7% workforce reduction","url":"https://www.reuters.com/business/world-at-work/visa-plans-cut-7-workforce-bloomberg-reports-2026-07-28/"},
+    {"type":"market_data_secondary","description":"September 11 2026 closing price","url":"https://kr.investing.com/equities/visa-inc-historical-data"}
+  ]
+}
