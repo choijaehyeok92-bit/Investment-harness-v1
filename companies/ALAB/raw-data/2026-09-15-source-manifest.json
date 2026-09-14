@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "ALAB",
+  "company_name": "Astera Labs, Inc.",
+  "as_of": "2026-09-15",
+  "user_supplied_files": [
+    {"name":"ALAB (Astera Labs Inc.) Annual report pursuant to Section 13 or 15(d) (10-K) 2026-02-20.docx","library_path":"/Investments/ALAB/ALAB_10-K_2026-02-20.docx","role":"primary"},
+    {"name":"ALAB (Astera Labs Inc.) General form for quarterly reports under Section 13 or 15(d) (10-Q) 2026-08-05.docx","library_path":"/Investments/ALAB/ALAB_10-Q_2026-08-05.docx","role":"primary"},
+    {"name":"ALAB (Astera Labs Inc.) Current report pursuant to Section 13 or 15(d) (8-K) 2026-08-04.docx","library_path":"/Investments/ALAB/ALAB_8-K_2026-08-04.docx","role":"primary"}
+  ],
+  "supplemental_sources": [
+    {"title":"Astera Labs Q2 2026 results","url":"https://www.asteralabs.com/news/astera-labs-reports-second-quarter-2026-financial-results/","role":"issuer_primary"},
+    {"title":"Scorpio X-Series roadmap","url":"https://www.asteralabs.com/news/astera-labs-broadens-scorpio-x-series-smart-fabric-switch-roadmap-to-address-expanding-scale-up-market-opportunities/","role":"issuer_primary"},
+    {"title":"2026 proxy statement","url":"https://www.sec.gov/Archives/edgar/data/1736297/000114036126016359/ny20065212x1_def14a.htm","role":"SEC_primary"},
+    {"title":"Amazon 2026 warrant transaction","url":"https://www.sec.gov/Archives/edgar/data/1736297/000110465926012606/tm265461d1_8k.htm","role":"SEC_primary"},
+    {"title":"Historical price reference","url":"https://kr.investing.com/equities/astera-labs-historical-data","role":"market_reference"}
+  ],
+  "source_hierarchy_note":"User filings and SEC/issuer-primary materials control. Market price is a reference only."
+}
