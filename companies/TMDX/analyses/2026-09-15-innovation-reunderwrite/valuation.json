@@ -1,0 +1,23 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"TMDX",
+  "as_of":"2026-09-15",
+  "currency":"USD",
+  "price_reference":84.52,
+  "price_date":"2026-09-14",
+  "price_source":"Investing.com historical close",
+  "scenario_model_status":"RETAINED_FROM_2026-09-12_FULL_REVIEW; operating-scenario inputs unchanged in this innovation reunderwrite",
+  "scenarios":{
+    "bear":{"value_per_share":17.1790,"upside_downside_vs_price":-0.7967},
+    "base":{"value_per_share":110.4719,"upside_downside_vs_price":0.3070},
+    "bull":{"value_per_share":362.7635,"upside_downside_vs_price":3.2920}
+  },
+  "reverse_expectations":{
+    "prior_exact_growth_at_82_18":0.0737946010,
+    "current_interpretation":"At $84.52, the required years-2-10 revenue growth under the same Base owner-margin and capital assumptions is only modestly above the prior 7.38% result and remains in the high-single-digit range.",
+    "status":"NOT_NUMERICALLY_RECALCULATED_IN_THIS_RUN",
+    "warning":"The apparent valuation discount is contingent on eventual owner-cash margin expansion and disciplined aviation/logistics capital intensity."
+  },
+  "valuation_judgment":"Unlike CRDO, TMDX still shows a meaningful Base-value gap at the current reference price. The market does not require hypergrowth, but the Base case requires operating leverage and owner-cash conversion that are not yet visible in H1 2026 cash economics.",
+  "approved_for_trading":false
+}
