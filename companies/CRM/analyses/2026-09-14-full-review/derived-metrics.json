@@ -1,0 +1,11 @@
+{
+  "ticker":"CRM",
+  "as_of":"2026-09-14",
+  "ttm_method":"FY2026 + H1 FY2027 - H1 FY2026",
+  "ttm":{"revenue_b":43.938,"gaap_net_income_b":9.662,"operating_cash_flow_b":15.750,"capex_b":0.596,"mechanical_ocf_less_capex_b":15.154,"sbc_b":3.665,"mechanical_fcf_less_sbc_b":11.489},
+  "owner_cash":{"low_b":10.5,"central_b":11.0,"high_b":11.5,"central_margin_pct":25.04,"central_per_share":13.37,"method_note":"Mechanical OCF-capex is diagnostic only. Central owner cash retains SBC as a real compensation cost and uses a modest normalization reserve for working-capital, tax and acquisition timing."},
+  "growth_quality":{"q2_reported_revenue_growth_pct":11.0,"q2_rough_growth_ex_informatica_pct":6.38,"h1_reported_revenue_growth_pct":12.0,"h1_rough_growth_ex_informatica_pct":7.54,"crpo_growth_pct":14.0,"attrition_pct":8.0,"note":"Rough ex-Informatica growth subtracts disclosed Informatica revenue but does not adjust FX, cross-sell or acquisition integration effects; it is a diagnostic, not a company-reported organic metric."},
+  "per_share":{"shares_outstanding_feb25_2026_m":923,"shares_outstanding_aug20_2026_m":823,"outstanding_share_change_pct":-10.83,"q2_diluted_share_change_yoy_pct":-14.66,"asr_note":"Large share reduction is primarily driven by the debt-funded $25B accelerated share repurchase; do not treat the full EPS lift as operating improvement."},
+  "capital_structure":{"cash_and_marketables_b":11.403,"debt_b":39.288,"simple_net_debt_b":27.885,"strategic_investments_b":11.324,"anthropic_investment_b":5.1,"net_debt_less_strategic_investments_b":16.561,"revolver_b":5.0,"revolver_drawn_b":0.0,"debt_funded_asr_b":25.0},
+  "market":{"reference_price":247.72,"price_date":"2026-09-11","shares_m":823,"market_cap_b":203.87,"simple_enterprise_value_b":231.76,"enterprise_value_less_strategic_investments_b":220.43,"owner_cash_multiple":18.53,"owner_cash_yield_pct":5.40}
+}
