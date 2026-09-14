@@ -1,0 +1,119 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"SITM",
+  "company_name":"SiTime Corporation",
+  "as_of":"2026-09-15",
+  "research_state":"FULL_ANALYSIS",
+  "screen_result":"SCREEN_IN",
+  "decision":"WATCH",
+  "buy_authorized":false,
+  "position_band":"NONE",
+  "classification":"Emerging Outlier",
+  "priority":"P1",
+  "business_quality_75":61,
+  "total_score_100":75,
+  "required_return":0.10,
+  "scorecard":{
+    "structural_change_and_leadership":{"score":15,"max_score":15,"confidence":0.91,"evidence":["SiTime created and leads the Precision Timing category, replacing legacy quartz limitations with semiconductor MEMS, analog/mixed-signal, integration and software.","Q2 2026 organic revenue grew 127% YoY before the Renesas timing business contributed; Communications/Enterprise/Datacenter grew 181%.","Renesas timing acquisition adds >550 clock products and makes SiTime a full-stack timing supplier across oscillators, clocks, resonators and synchronization software."],"counter_evidence":["AI/datacenter demand is cyclical and management itself states the duration of current spending is uncertain.","Quartz remains the majority technology in timing and the acquired clock portfolio, not organic invention alone, materially expands breadth."],"missing_data":["Independent current market-share estimates across oscillators, clock ICs and resonators."]},
+    "customer_value_and_product":{"score":9,"max_score":10,"confidence":0.87,"evidence":["Products address measurable system constraints: phase noise, resilience, shock/vibration, temperature stability, size, power and programmability.","Customer design cycles can take 6 months to 3 years and product lifecycles may run 10 years or more, creating design-in durability.","Titan enables 4-7x smaller resonators versus small quartz alternatives and TimeFabric extends synchronization capabilities."],"counter_evidence":["Independent customer ROI and direct win/loss data are limited.","Timing is a small portion of system BOM and some customers can accept lower-performance alternatives or integrate timing differently."],"missing_data":["Independent price/performance benchmark by application and design-win retention cohorts."]},
+    "moat_trajectory":{"score":13,"max_score":15,"confidence":0.84,"evidence":["SiTime combines proprietary MEMS process knowledge, analog/mixed-signal design, packaging, programmable architecture and software rather than relying on one component layer.","More than 4 billion devices shipped, >400 applications and long design cycles create qualification and reliability evidence.","Renesas clock portfolio plus Titan resonators and TimeFabric increase cross-sell and system-level timing content per customer."],"counter_evidence":["No Google-like network effect or CUDA-scale developer ecosystem exists.","Bosch/TSMC/UMC and outsourced packaging remain critical supply dependencies; larger analog semiconductor competitors have greater resources."],"missing_data":["Post-acquisition share gains and evidence that full-stack bundling increases switching costs rather than merely product breadth."]},
+    "incremental_roic_and_fcf_per_share":{"score":9,"max_score":15,"confidence":0.72,"evidence":["Q2 GAAP gross margin reached ~63% and GAAP operating margin turned positive at ~5%, demonstrating strong organic operating leverage.","H1 2026 OCF-minus-capex was ~$45.2M while organic revenue more than doubled YoY.","The acquired timing business grew ~57% YoY in H1 2026 and management expects attractive gross-margin economics."],"counter_evidence":["FY2025 SBC was ~$103.5M, ~32% of revenue; H1 2026 SBC was ~23% of revenue, so reported/non-GAAP cash economics overstate common-holder economics if dilution stays high.","The Renesas timing business cost ~$4.006B at closing fair value versus ~$207.7M FY2025 revenue, ~19.3x trailing sales; realized incremental returns are unproven."],"missing_data":["Three-year after-tax cash return on Renesas acquisition, normalized SBC/share dilution and post-close owner FCF/share."]},
+    "management_and_capital_allocation":{"score":7,"max_score":10,"confidence":0.75,"evidence":["Management has executed a multi-year shift from MEMS oscillators to a broader precision-timing platform and invested heavily in R&D and new categories.","Long-term operating targets established before the 2026 step-up were materially exceeded in Q1/Q2 2026."],"counter_evidence":["The ~$4.0B Renesas transaction is exceptionally large relative to SiTime's pre-deal revenue and was financed with $1.35B convertibles plus 3.56M shares.","High SBC and prior equity issuance mean management's innovation record has not yet translated cleanly into owner-cash/share economics."],"missing_data":["Post-merger integration milestones, synergy realization and explicit acquisition return hurdles."]},
+    "financial_survivability":{"score":8,"max_score":10,"confidence":0.86,"evidence":["Q2 2026 organic business produced positive GAAP operating income and H1 operating cash flow of ~$71M.","The $1.35B convertible notes carry 0% coupon and mature in 2031; a $200M revolver was undrawn at June 30."],"counter_evidence":["Pro forma post-close cash is only about $389M against ~$1.318B note carrying value, leaving a material net-debt position after an aggressive acquisition.","Semiconductor cyclicality, customer concentration and supply dependencies could make cash generation volatile."],"missing_data":["Post-close quarterly cash generation, working capital and covenant headroom after full integration."]},
+    "expectation_gap_and_valuation":{"score":6,"max_score":15,"confidence":0.74,"evidence":["At $567.68 and Q3 diluted-share guidance, market value is roughly $18.6B and EV proxy about $19.5B.","A Base scenario of 24% growth for five years then 14% for five years with owner-cash margin rising to 27% produces value around $604/share, modestly above current price."],"counter_evidence":["EV is about 16.9x a simple annualization of Q3 combined revenue guidance, already pricing substantial long-duration growth.","Reverse expectations require roughly 17%-20% annual revenue compounding for ten years under mid/high-20s mature owner-cash margins."],"missing_data":["Normalized post-acquisition owner-cash margin and dilution after purchase-accounting and integration effects settle."]},
+    "power_law_and_asymmetry":{"score":8,"max_score":10,"confidence":0.76,"evidence":["Bull value exceeds $1,400/share if SiTime becomes the default full-stack timing layer across AI infrastructure, optical, physical AI and edge electronics.","Timing content per advanced system can rise materially as bandwidth, synchronization and resilience requirements increase."],"counter_evidence":["Bear value near $142 implies ~75% downside because current valuation is duration-sensitive.","Starting equity value is already large relative to current revenue, so the company must become much larger to deliver a multi-bagger."],"missing_data":[]}
+  },
+  "innovation_lens":{
+    "overall_score_10":8.5,
+    "classification":"STRONG_EARLY_INNOVATOR_PATTERN",
+    "primary_archetype":"Early NVIDIA-style infrastructure/category disruption",
+    "note":"This lens is auxiliary and does not alter the harness 100-point score. It evaluates pattern similarity, not probability of matching those companies' eventual outcomes.",
+    "dimensions":{
+      "category_creation":9.5,
+      "technical_architecture_advantage":9.0,
+      "platform_breadth_and_adjacencies":9.0,
+      "frontier_customer_pull":9.0,
+      "rising_content_and_asp":9.0,
+      "reinvestment_and_product_velocity":8.5,
+      "ecosystem_or_network_effect":5.5,
+      "operating_leverage":8.0,
+      "power_law_optionality":8.5,
+      "capital_allocation_discipline":5.5
+    },
+    "comparators":{
+      "NVIDIA":{"similarity_10":9.2,"rationale":"Closest analogue. Both attack a previously component-like infrastructure function with programmable semiconductor architecture, seek to set higher performance standards, expand from a core device into a platform and benefit as system complexity raises content per system. SiTime lacks CUDA-scale software/developer lock-in, so the analogy has a ceiling."},
+      "Amazon":{"similarity_10":7.8,"rationale":"Strong adjacency expansion and willingness to reinvest aggressively for long-term category control resemble early Amazon, but SiTime does not have a consumer/network flywheel and the Renesas price paid creates a much sharper capital-allocation test."},
+      "Tesla":{"similarity_10":7.4,"rationale":"Quartz-to-silicon timing is a physical-technology substitution story with system-level integration and category evangelism, analogous in pattern to EV substitution. SiTime is fabless, far less capital intensive and lacks Tesla's consumer brand/manufacturing flywheel."},
+      "Palantir":{"similarity_10":6.8,"rationale":"Mission-critical deployment, technical embeddedness, long customer cycles and high reinvestment/SBC have some resemblance. SiTime is a semiconductor infrastructure supplier rather than an enterprise software system of action, so expansion economics differ."},
+      "Google":{"similarity_10":5.2,"rationale":"Both can improve outcomes through superior technology, but SiTime has no comparable multi-sided network effect, data flywheel or near-zero marginal-cost digital distribution."}
+    }
+  },
+  "hard_veto":{
+    "overall_status":"INVESTIGATE",
+    "items":[
+      {"id":"management_or_accounting_integrity","status":"PASS","severity":"NO_TRIGGER_FOUND","confidence":0.90,"evidence":"No material accounting-integrity issue was identified in the supplied filings or reviewed SEC evidence.","resolution_needed":"Monitor acquisition purchase-price allocation and integration accounting."},
+      {"id":"external_capital_dependence","status":"PASS","severity":"MONITOR","confidence":0.83,"evidence":"External capital funded a strategic acquisition rather than operating survival; the core business was cash-generative and GAAP profitable in Q2.","resolution_needed":"Track post-close net leverage and cash generation."},
+      {"id":"persistent_dilution","status":"INVESTIGATE","severity":"HIGH","confidence":0.92,"evidence":"FY2025 SBC was ~32% of revenue, H1 2026 ~23%; acquisition issued 3.56M shares and management guided ~32.8M Q3 diluted shares.","resolution_needed":"Need SBC/revenue and diluted-share growth to decline materially while owner cash/share compounds."},
+      {"id":"low_quality_growth","status":"PASS","severity":"NO_TRIGGER_FOUND","confidence":0.91,"evidence":"Q2 127% growth occurred before Renesas contribution and was driven by volume, ASP/mix and AI/datacenter demand; GAAP gross margin and operating income improved simultaneously.","resolution_needed":"Confirm growth remains broad after hyperscaler capex normalizes."},
+      {"id":"incremental_roic_collapse","status":"INVESTIGATE","severity":"HIGH","confidence":0.88,"evidence":"The Renesas timing business was acquired for ~$4.006B fair value, ~19.3x FY2025 revenue. Strategic logic is strong but the realized return is unproven.","resolution_needed":"Require evidence of cross-sell, sustained ~65-70% gross margins, operating leverage and acceptable after-tax cash return on purchase price."},
+      {"id":"moat_shrinkage","status":"PASS","severity":"NO_TRIGGER_FOUND","confidence":0.83,"evidence":"Product breadth, MEMS generations, clock acquisition, Titan and software point toward a widening system-level timing moat.","resolution_needed":"Reopen if design wins, premium ASPs or full-stack attach deteriorate."},
+      {"id":"price_requires_unrealistic_bull_case","status":"INVESTIGATE","severity":"MEDIUM_HIGH","confidence":0.82,"evidence":"Current price requires roughly 17%-20% 10-year revenue CAGR under strong mature margins; demanding but not impossible for a category winner.","resolution_needed":"Need either lower price or stronger evidence that multi-decade timing share/content gains can sustain the implied path."},
+      {"id":"fatal_concentration","status":"INVESTIGATE","severity":"MEDIUM","confidence":0.87,"evidence":"Top three distributors represented ~66% of H1/Q2 2026 revenue; Apple was ~17% of FY2025 revenue; Bosch and major foundry relationships are important supply dependencies.","resolution_needed":"Track end-customer diversification after Renesas and supply-source resilience."},
+      {"id":"permanent_loss_probability","status":"PASS","severity":"VALUATION_DRIVEN_MONITOR","confidence":0.78,"evidence":"Solvency risk is not the primary concern; permanent loss is more likely through overpayment, technological displacement and valuation compression.","resolution_needed":"Monitor net debt, acquisition return and owner cash/share."}
+    ]
+  },
+  "red_team":{
+    "strongest_bear_thesis":"SiTime is temporarily over-earning from an AI infrastructure capex surge while paying ~$4B for a clock business whose trailing revenue was only ~$208M. AI timing content normalizes, hyperscalers dual-source or integrate more timing, quartz remains good enough in mass markets, Titan adoption is slower than expected, the acquired portfolio fails to grow fast enough to justify the purchase price, SBC remains high and the valuation compresses from a semiconductor-infrastructure premium to a normal analog multiple.",
+    "attacks":[
+      "AI/datacenter demand may be cyclical rather than a durable structural step-up.",
+      "Q2 organic growth is exceptional but the base is small and mix/ASP can reverse.",
+      "Full-stack product breadth may not create switching costs if customers source oscillators, clocks and resonators independently.",
+      "Quartz remains adequate and cheaper for a large portion of the market.",
+      "Renesas purchase consideration was ~19x FY2025 revenue, creating severe execution risk even if strategic logic is correct.",
+      "SBC and acquisition shares can cause headline earnings growth to exceed per-share owner-value growth.",
+      "Top-three distributor and Apple concentration can create abrupt order volatility.",
+      "Bosch/foundry/assembly dependencies create supply-chain single points of failure.",
+      "Titan and TimeFabric may prove technically strong but commercially smaller than management's SAM framing.",
+      "The market already prices SiTime as a future timing standard, limiting expectation-gap alpha."
+    ],
+    "three_most_dangerous_hidden_assumptions":[
+      "Timing content per AI/physical-AI system keeps rising faster than unit/ASP normalization.",
+      "Renesas cross-sell and product acceleration earn a return commensurate with a ~$4B purchase price.",
+      "SBC and diluted-share growth normalize before they absorb most of the owner-cash growth."
+    ],
+    "verdict":"REVISE",
+    "confidence":0.86,
+    "independence":"Same analyst/model; not an independent second-party red team."
+  },
+  "falsifiers":[
+    "Organic SiTime revenue growth falls below 20% YoY for two clean quarters while AI infrastructure spending remains healthy.",
+    "CED growth decelerates below 20% without offsetting growth in auto/industrial/mobile or acquired clock products.",
+    "Post-integration gross margin settles below 60% and operating leverage deteriorates.",
+    "Renesas timing revenue fails to exceed its ~$300M post-close 12-month target materially or requires sustained margin sacrifice to grow.",
+    "Within 3 years, the Renesas transaction does not show a credible path to a >10% after-tax cash return on invested purchase value including dilution.",
+    "Titan fails to gain meaningful production design wins or its SAM expansion remains primarily promotional rather than revenue-producing.",
+    "SBC remains >15% of revenue and diluted shares grow >5% annually after acquisition issuance normalizes.",
+    "A major end customer meaningfully insources timing or shifts to an alternative architecture and SiTime loses content per system.",
+    "Bosch/foundry supply disruption causes sustained shipment or qualification loss.",
+    "Price remains at a premium long-duration multiple while owner cash/share and moat evidence weaken together."
+  ],
+  "increase_evidence":[
+    "Two to four quarters of post-acquisition combined organic growth >=25%-30% with no deterioration in bookings or design-win quality.",
+    "Renesas clock products cross-sell into SiTime hyperscaler accounts and SiTime MEMS/resonators cross-sell into acquired customers, with measurable revenue evidence.",
+    "Gross margin remains >=65% after purchase-accounting noise while GAAP/owner operating economics scale.",
+    "SBC/revenue trends toward <=12% and owner FCF/share compounds >20% without heavy net issuance.",
+    "Titan becomes a material revenue line and gains embedded/co-packaged design wins with major MCU/SoC vendors.",
+    "Customer and supply concentration decline without sacrificing growth.",
+    "Expectation gap improves via lower price or faster owner-cash growth; price decline alone is insufficient."
+  ],
+  "sell_reduce_evidence":[
+    "Renesas integration fails, causes customer loss or produces returns far below the hurdle rate.",
+    "AI/datacenter timing content per system or market share declines for consecutive product generations.",
+    "Gross margin structurally falls to the high-50s/low-60s with weaker operating leverage.",
+    "SBC/dilution remains structurally high while FCF/share stagnates.",
+    "Titan/TimeFabric fail to convert technical claims into meaningful design wins and revenue.",
+    "Net leverage rises materially because operating cash generation disappoints.",
+    "A significant accounting, quality or reliability failure damages qualification trust."
+  ],
+  "portfolio_context":"No holding size, tax basis or portfolio risk budget was supplied. No trade authorization or position sizing is invented."
+}
