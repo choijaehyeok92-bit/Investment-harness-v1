@@ -1,0 +1,17 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"ADBE",
+  "as_of":"2026-09-14",
+  "reference_price":252.23,
+  "price_date":"2026-09-11",
+  "central_owner_cash_b":8.1,
+  "diluted_shares_m":395,
+  "starting_owner_cash_per_share":20.51,
+  "reverse_expectations":{"model":"10-year constant owner-cash-per-share growth followed by terminal owner-cash multiple","required_growth_pct":[{"discount_rate_pct":9,"terminal_multiple":14,"growth_pct":-0.03},{"discount_rate_pct":9,"terminal_multiple":16,"growth_pct":-0.92},{"discount_rate_pct":9,"terminal_multiple":18,"growth_pct":-1.72},{"discount_rate_pct":10,"terminal_multiple":14,"growth_pct":0.88},{"discount_rate_pct":10,"terminal_multiple":16,"growth_pct":0.00},{"discount_rate_pct":10,"terminal_multiple":18,"growth_pct":-0.82},{"discount_rate_pct":11,"terminal_multiple":14,"growth_pct":1.80},{"discount_rate_pct":11,"terminal_multiple":16,"growth_pct":0.89},{"discount_rate_pct":11,"terminal_multiple":18,"growth_pct":0.08}],"margin_sensitivity":{"at_10pct_discount_and_16x_terminal":[{"normalized_owner_cash_margin_pct":25,"required_growth_pct":3.0},{"normalized_owner_cash_margin_pct":28,"required_growth_pct":1.45},{"normalized_owner_cash_margin_pct":30,"required_growth_pct":0.51},{"normalized_owner_cash_margin_pct":31.2,"required_growth_pct":0.0}]},"interpretation":"At a 10% required return and 16x terminal owner-cash multiple, the current price requires essentially zero owner-cash/share growth for ten years. Even if normalized owner-cash margin compresses to 25%, implied growth is only about 3%. This is a substantial expectation gap if Adobe can retain professional-workflow economics through the AI transition."},
+  "scenarios":{"permanent_loss_stress":{"fair_value":120.60,"upside_pct":-52.2,"assumptions":"Owner cash/share -8% CAGR years 1-5 and -2% years 6-10; 12% discount; 9x terminal. General AI/Figma/Canva own the interface, Adobe becomes a lower-value backend utility, pricing and seats compress."},"bear":{"fair_value":182.72,"upside_pct":-27.6,"assumptions":"Owner cash/share -3% CAGR years 1-5 then flat; 11% discount; 12x terminal. AI monetization largely cannibalizes existing spend and professional workflow share erodes."},"base":{"fair_value":395.69,"upside_pct":56.9,"assumptions":"Owner cash/share +6% CAGR years 1-5 and +5% years 6-10; 10% discount; 17x terminal. Adobe retains workflow control, AI becomes a paid attach/ARPU driver, but growth normalizes well below recent revenue/ARR rates."},"bull":{"fair_value":619.75,"upside_pct":145.7,"assumptions":"Owner cash/share +10% CAGR years 1-5 and +8% years 6-10; 9% discount; 20x terminal. Firefly/Acrobat AI/CX Enterprise strengthen Adobe's system-of-record role and expand paid users/ARPU across creativity, productivity and enterprise marketing."}},
+  "subjective_probability_weights":{"permanent_loss_stress":0.10,"bear":0.25,"base":0.45,"bull":0.20},
+  "probability_weighted_value":359.75,
+  "probability_weighted_upside_pct":42.6,
+  "scores":{"expectation_gap_and_valuation":14,"power_law_and_asymmetry":8},
+  "warnings":["Scenario fair values are decision ranges, not price targets.","AI-driven moat uncertainty is more important than small changes in terminal multiple.","Mechanical OCF-capex is not used as owner cash because it adds back SBC; central owner cash keeps SBC as a real economic expense."]
+}
