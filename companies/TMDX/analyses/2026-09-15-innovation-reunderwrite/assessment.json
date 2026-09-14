@@ -1,0 +1,49 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"TMDX",
+  "company_name":"TransMedics Group, Inc.",
+  "as_of":"2026-09-15",
+  "research_state":"FULL_ANALYSIS",
+  "decision":"WATCH",
+  "buy_authorized":false,
+  "position_band":"NONE",
+  "priority":"P1",
+  "classification":"Emerging Outlier",
+  "total_score_100":78,
+  "business_quality_75":58,
+  "change_from_prior":{"prior_score":74,"prior_business_quality":55,"reason":"Innovation reunderwrite gives more weight to evidence that OCS is expanding from a device into an integrated transplant operating system combining preservation, assessment, clinical coordination and owned/controlled logistics; Kidney, Gen-3 and European NOP expand the platform option set. Existing control and capital-intensity risks remain."},
+  "scorecard":{"structural_change_and_leadership":14,"customer_value_and_product":10,"moat_trajectory":13,"incremental_roic_and_fcf_per_share":8,"management_and_capital_allocation":6,"financial_survivability":7,"expectation_gap_and_valuation":11,"power_law_and_asymmetry":9},
+  "core_thesis":"TransMedics is evolving from an organ-perfusion device company into an integrated transplant operating system. OCS changes preservation from static cold storage to dynamic perfusion/assessment; NOP coordinates clinical execution; the owned/controlled aviation network addresses the logistics bottleneck; Kidney and Gen-3 can extend the same operating model across a larger transplant base. If these layers reinforce each other, TransMedics can expand the market rather than merely take share within existing transplant volumes.",
+  "innovation_lens":{
+    "score_10":9.0,
+    "classification":"STRONG_EARLY_INNOVATOR_PATTERN",
+    "closest_archetype":"Early Tesla / Amazon hybrid",
+    "benchmark_similarity":{"Tesla":9.1,"Amazon":8.8,"Palantir":7.2,"NVIDIA":6.9,"Google":4.8},
+    "criteria":{
+      "category_creation_or_standard_shift":"Very strong: OCS seeks to replace decades-old static cold storage with dynamic organ preservation, assessment and optimization.",
+      "frontier_customer_pull":"Strong: transplant-center utilization and NOP procedure growth support adoption, although standardized center-level economics remain incompletely disclosed.",
+      "vertical_integration":"Exceptional: device, disposables, clinical coordination, air/ground logistics and international expansion are increasingly controlled inside one system.",
+      "platform_or_ecosystem_optionality":"Strong: Heart/Liver/Lung can extend to Kidney and Gen-3, while NOP can be replicated internationally.",
+      "reinvestment_and_market_expansion":"Very strong: the company is investing to increase the number of transplantable organs and total transplant procedures, not only share of an existing fixed market.",
+      "scalable_unit_economics":"Unproven: service/logistics grows faster but at lower margins and requires aircraft, lease, HQ and maintenance capital.",
+      "power_law_optionalities":"High if OCS/NOP becomes the default transplant workflow across organs and geographies."
+    },
+    "why_not_tesla_or_amazon_yet":["The operational network has scale economies but not a proven demand-side network effect.","Capital intensity can rise faster than transplant volume and impair owner returns.","Clinical/regulatory pathways constrain deployment speed and create binary organ-specific risks.","Internal-control weakness remains unresolved, which is inconsistent with mature execution quality.","International replication and Kidney economics are still prospective rather than demonstrated."
+    ]
+  },
+  "hard_veto":{"overall_status":"INVESTIGATE","items":[
+    {"id":"management_or_accounting_integrity","status":"INVESTIGATE","evidence":"Inventory-movement controls remained materially weak at June 30 and disclosure controls were ineffective, although management states the financial statements were fairly presented.","resolution_needed":"Require formal remediation after sufficient operating/testing history; escalate immediately on misstatement or broader control failure."},
+    {"id":"external_capital_dependence","status":"PASS","evidence":"The company is profitable and had $472.7M cash at June 30; near-term survival is not dependent on continuous equity issuance.","resolution_needed":"Monitor debt, aircraft and headquarters capital claims."},
+    {"id":"persistent_dilution","status":"PASS_WITH_MONITOR","evidence":"SBC is material but not currently the primary economic veto; per-share economics should be monitored alongside convertibles."},
+    {"id":"low_quality_growth","status":"PASS","evidence":"Growth reflects OCS utilization and transplant logistics demand rather than subsidy-driven customer acquisition."},
+    {"id":"incremental_roic_collapse","status":"INVESTIGATE","evidence":"H1 OCF did not cover PP&E before SBC/lease economics, while aviation/PAD/HQ investment materially increases capital intensity.","resolution_needed":"Require improving owner-cash/share and transparent returns on aircraft/logistics/PAD investments."},
+    {"id":"moat_shrinkage","status":"PASS","evidence":"OCS+NOP+logistics integration currently strengthens workflow control and switching friction."},
+    {"id":"price_requires_unrealistic_bull_case","status":"PASS","evidence":"Current price is below the retained Base value and the prior reverse model required only high-single-digit long-duration growth under Base margin assumptions."},
+    {"id":"fatal_concentration","status":"INVESTIGATE","evidence":"Economic value remains concentrated in OCS/NOP and the U.S. transplant/reimbursement/regulatory ecosystem; Kidney and international diversification are not yet proven.","resolution_needed":"Require successful organ/geographic diversification without destroying margins."},
+    {"id":"permanent_loss_probability","status":"INVESTIGATE","evidence":"Bear value remains about 80% below price because capital intensity, regulatory setbacks, control failures or weaker OCS adoption can impair equity value even without insolvency."}
+  ]},
+  "red_team":{"verdict":"REVISE","strongest_bear_thesis":"TransMedics has built an excellent clinical device but overextends into an airline/logistics operator. Service mix and aircraft capital dilute the attractive product economics, Kidney/Gen-3 or European replication takes longer than expected, internal controls remain weak, and a business that looks like a platform ultimately earns infrastructure-like returns on capital.","attacks":["NOP may expand transplant volume but causality is difficult to isolate from secular donor and transplant-system improvements.","Aviation integration can create operational advantage while permanently lowering ROIC.","Service revenue growth can strengthen the moat but dilute gross and owner-cash margins.","Kidney and Gen-3 are important but remain future clinical/regulatory options.","European NOP replication adds regulatory, reimbursement and logistics complexity.","The unresolved material weakness raises execution and governance risk during rapid scaling.","Debt, finance leases and headquarters capex reduce financial flexibility.","Competing perfusion/cold-storage approaches may improve enough to limit pricing power.","The Base valuation requires eventual owner-cash margin improvement that H1 2026 does not yet demonstrate.","A clinical safety, FDA or reimbursement setback could impair both growth and multiple simultaneously."]},
+  "falsifiers":["Formal remediation of the inventory-control material weakness fails to occur within a reasonable reporting period or new control failures emerge.","OCS utilization growth falls below low teens for two consecutive clean quarters while transplant volumes remain healthy.","Service/logistics growth continues but consolidated owner-cash/share fails to improve for four quarters.","PAD/European NOP fails to generate measurable procedure growth or acceptable unit economics.","OCS Kidney/Gen-3 clinical timelines slip materially or data fail to support commercial expansion.","Aircraft/lease/HQ capital intensity rises faster than procedure economics and mature owner margin cannot credibly reach mid-teens."],
+  "increase_evidence":["Formal ICFR/disclosure-control remediation is completed and independently sustained.","U.S. NOP procedure growth continues with product and logistics unit economics disclosed or inferably improving.","European NOP/PAD creates a second geographic growth engine with acceptable cash returns.","Kidney data support a credible fourth-organ platform and regulatory path.","Owner-cash/share becomes positive and compounds while aircraft/logistics capital needs normalize relative to revenue.","Price remains below conservative Base value while business evidence improves."],
+  "portfolio_context":"The innovation pattern increases research conviction, not trade authorization. Capital intensity and control remediation remain binding gates."
+}
