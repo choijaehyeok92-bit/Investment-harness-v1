@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.0.0",
+  "ticker": "326030",
+  "company_name": "SK Biopharmaceuticals Co., Ltd.",
+  "as_of": "2026-09-15",
+  "user_supplied_sources": [
+    {"title":"FY2025 Annual Report","file_id":"file_00000000ba7c8206b11c664ccc377970","filing_date":"2026-03-18","library_path":"/Investments/326030/SKBP_annual_report_2026-03-18.pdf"},
+    {"title":"H1 2026 Half-Year Report","file_id":"file_00000000d1808206bf29a00f1752863f","filing_date":"2026-08-14","library_path":"/Investments/326030/SKBP_half_year_report_2026-08-14.pdf"},
+    {"title":"Material Event Report - Opakalim license","file_id":"file_000000001df08206af19baff78a93325","filing_date":"2026-08-26","library_path":"/Investments/326030/SKBP_material_event_opakalim_2026-08-26.pdf"}
+  ],
+  "web_supplements": [
+    {"title":"SKBP Q1 2026 results","url":"https://www.skbp.com/kor/news/view.do?boardCode=BDCD0002&boardSeq=786&currentPage=1","date":"2026-05-07"},
+    {"title":"SKBP media / Q2 2026 results and partial-hold notice","url":"https://www.skbp.com/kor/news/list.do","date":"2026-09-10"},
+    {"title":"SK Life Science XCOPRI patent settlement","url":"https://www.sklifescienceinc.com/sk-biopharmaceuticals-partially-resolves-u-s-patent-litigation-through-settlement-with-generic-developer-of-xcopri/","date":"2026-08-19"},
+    {"title":"Biohaven RISE3 enrollment and OLE update","url":"https://ir.biohaven.com/news-releases/news-release-details/biohaven-completes-enrollment-rise-3-pivotal-focal-epilepsy","date":"2026-06-30"},
+    {"title":"SKBP pipeline","url":"https://www.skbp.com/kor/pipeline/pipeline.do","date":"2026-09-15"},
+    {"title":"SKBP shareholder composition","url":"https://www.skbp.com/kor/invest/shareholder.do","date":"2026-09-15"},
+    {"title":"326030 historical price","url":"https://kr.investing.com/equities/sk-biopharmaceuticals-co-ltd-historical-data","date":"2026-09-14"}
+  ],
+  "notes": [
+    "FDA partial clinical hold on Opakalim occurred after the 2026-08-26 user-supplied filing and is treated as a post-filing supplement.",
+    "Public reporting on 2026-09-11 stated the Opakalim transaction had not closed and the $400M upfront had not been paid; closing/payment were deferred pending hold resolution."
+  ]
+}
