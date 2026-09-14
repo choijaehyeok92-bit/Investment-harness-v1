@@ -1,0 +1,43 @@
+{
+  "schema_version":"2.0.0","ticker":"326030","company_name":"SK Biopharmaceuticals Co., Ltd.","as_of":"2026-09-15","research_state":"FULL_ANALYSIS","screen_result":"SCREEN_IN","decision":"WATCH","buy_authorized":false,"position_band":"NONE","classification":"Emerging Outlier","priority":"P1","total_score_100":78,"business_quality_75":61,"score_status":"ALL_EIGHT_CATEGORIES_REVIEWED_WITH_TWO_OPEN_HARD_VETO_INVESTIGATIONS",
+  "portfolio_context":"Actual holding, tax basis and risk budget were not supplied; no position size or trade authorization is implied.",
+  "structural_thesis":"XCOPRI has transformed SKBP from cash-burning biotech into a profitable U.S.-direct CNS commercial company. The next question is whether management can build a second durable product before the 2032 compound-patent cliff without destroying incremental ROIC.",
+  "categories":{
+    "structural_change_and_leadership":{"score":13,"max_score":15,"reason":"Profitable U.S.-direct franchise and deliberate second-product/platform strategy; Opakalim remains unclosed and on partial hold."},
+    "customer_value_and_product":{"score":9,"max_score":10,"reason":"XCOPRI Q2 U.S. sales +45.6% YoY and prescription momentum; commercial value still almost entirely one molecule."},
+    "moat_trajectory":{"score":12,"max_score":15,"reason":"Direct sales, physician relationships and IP are meaningful; post-2032 patent defense remains partly unresolved."},
+    "incremental_roic_and_fcf_per_share":{"score":12,"max_score":15,"reason":"Strong operating leverage and low physical capex, offset by pending KRW553B upfront and working-capital needs."},
+    "management_and_capital_allocation":{"score":6,"max_score":10,"reason":"Excellent XCOPRI execution, but management agreed to a large Opakalim deal despite known rodent toxicity; deferring close/payment after the hold is a positive control."},
+    "financial_survivability":{"score":9,"max_score":10,"reason":"Pre-close cash-generative and bank-debt-free; closing would require borrowing."},
+    "expectation_gap_and_valuation":{"score":9,"max_score":15,"reason":"Price reset helps, but ~27x owner cash and mid-teens reverse growth requirement are not obviously cheap given the patent cliff."},
+    "power_law_and_asymmetry":{"score":8,"max_score":10,"reason":"Successful Opakalim plus existing U.S. infrastructure has large upside; failure plus patent cliff creates large downside."}
+  },
+  "hard_veto":{"overall_status":"INVESTIGATE","items":[
+    {"id":"management_or_accounting_integrity","status":"PASS","resolution_needed":"Escalate on material accounting/control or disclosure failure."},
+    {"id":"external_capital_dependence","status":"PASS","resolution_needed":"Reassess financing after Opakalim close."},
+    {"id":"persistent_dilution","status":"PASS","resolution_needed":"Monitor equity-linked compensation/financing."},
+    {"id":"low_quality_growth","status":"PASS","resolution_needed":"Track TRx/NBRx and gross-to-net."},
+    {"id":"incremental_roic_collapse","status":"INVESTIGATE","resolution_needed":"Need hold resolution, RISE3 data, final financing/closing terms and risk-adjusted return evidence."},
+    {"id":"moat_shrinkage","status":"PASS","resolution_needed":"Monitor remaining generic litigation and settlement launch timing."},
+    {"id":"price_requires_unrealistic_bull_case","status":"PASS","resolution_needed":"Escalate if XCOPRI slows materially or Opakalim fails while valuation stays high."},
+    {"id":"fatal_concentration","status":"INVESTIGATE","resolution_needed":"Need a de-risked second commercial product or materially stronger diversification before patent cliff."},
+    {"id":"permanent_loss_probability","status":"PASS","resolution_needed":"Escalate if acquisition capital is sunk while core XCOPRI economics weaken."}
+  ]},
+  "valuation":{"reference_price":79100,"price_date":"2026-09-14","permanent_loss_stress":11884,"bear":31184,"base":87011,"bull":145455,"probability_weighted":77230,"reverse_expectations":"10%/18x requires ~14.5% 10y owner-cash/share CAGR; diagnostic smooths over 2032 patent cliff."},
+  "red_team":{"attacks":[
+    "98.5% H1 revenue concentration in cenobamate makes the earnings base vulnerable to one product shock.",
+    "U.S. gross-to-net economics require large rebate/discount/return estimates; provision liabilities are rising.",
+    "XCOPRI compound patent expires in 2032; one generic settlement grants confidential future launch rights and two disputes remain.",
+    "Opakalim upfront is ~46% of FY2025 assets and requires borrowing.",
+    "Management knew of the rodent toxicity signal before signing; FDA later imposed a partial clinical hold.",
+    "RISE3 remains unread; open-label 54% responder data do not substitute for randomized pivotal efficacy.",
+    "External appraisal uses 71.9% success, 2029 launch and high long-run margins—valuation assumptions, not facts.",
+    "RPT/TPD pipeline is mostly early stage and deserves little base-case value today.",
+    "H1 operating cash conversion required large receivable/prepaid working-capital investment.",
+    "At ~27x normalized owner cash, the stock still prices substantial compounding despite patent and second-product uncertainty."
+  ],"strongest_bear_thesis":"XCOPRI grows for several years but normalizes before 2032; generic entry erodes the franchise; Opakalim fails or arrives too late after substantial capital is committed; early pipeline cannot replace cash flow.","verdict":"REVISE","independence":"Same analyst/model performed red-team; not independent."},
+  "falsifiers":["XCOPRI U.S. sales growth <15% YoY for two consecutive quarters with TRx/NBRx stagnation.","Gross-to-net provisions outgrow U.S. product sales for multiple quarters.","Opakalim hold persists beyond 1Q 2027 or a human safety signal emerges.","RISE3 misses primary endpoint or shows material safety/tolerability problems.","Management closes Opakalim on unchanged economics after materially worse evidence without added risk sharing.","Generic entry becomes likely near 2032 with no replacement product.","Normalized owner cash/share fails to grow ~10% cumulatively over two years despite revenue growth."],
+  "increase_evidence":["Partial hold lifted without meaningful human-safety concern.","RISE3 shows statistically and clinically compelling efficacy with differentiated tolerability.","XCOPRI maintains >20% organic U.S. growth into 2027 with healthy TRx/NBRx.","Patent outcomes preserve meaningful exclusivity beyond 2032.","Normalized owner cash reaches ~KRW300B+ with clean cash conversion.","Second-product launch path is visible before the patent cliff.","Price around/below ~KRW65,000 creates ~25% margin to Base, but price alone is insufficient while vetoes remain open."],
+  "sell_evidence":["Structural XCOPRI prescription slowdown, payer pressure or new safety signal.","Generic entry likely close to 2032 with no replacement product.","Opakalim hold persists or pivotal efficacy fails after significant capital commitment.","Large debt-funded acquisitions continue without high risk-adjusted return evidence.","Material accounting/control failure.","Owner cash/share structurally declines while R&D/acquisition spending rises."],
+  "source_quality":{"primary":"User-supplied DART filings plus SKBP/Biohaven primary releases.","secondary":"Independent post-filing news and current market price.","limitations":"RISE3 topline not yet reported; hold/closing status fast-moving; settlement terms confidential."}
+}
