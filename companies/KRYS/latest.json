@@ -1,0 +1,9 @@
+{
+  "as_of": "2026-09-15",
+  "assessment": "companies/KRYS/analyses/2026-09-15-full-review/assessment.json",
+  "valuation": "companies/KRYS/analyses/2026-09-15-full-review/valuation.json",
+  "thesis": "companies/KRYS/analyses/2026-09-15-full-review/thesis.ko.md",
+  "research_state": "FULL_ANALYSIS",
+  "run": "2026-09-15-full-review",
+  "authority": "Current reviewed Krystal Biotech research based on public SEC/issuer primary sources because no KRYS user-uploaded attachment was visible at run time. Hard Veto remains INVESTIGATE on moat_shrinkage and fatal_concentration; no trade authorization."
+}
