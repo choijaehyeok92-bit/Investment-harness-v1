@@ -1,0 +1,18 @@
+{
+  "ticker": "CRM",
+  "company": "Salesforce, Inc.",
+  "as_of": "2026-09-14",
+  "user_supplied_sources": [
+    {"form":"10-K","date_filed":"2026-03-02","period_end":"2026-01-31","library_path":"/Investments/CRM/CRM_10-K_2026-03-02.docx"},
+    {"form":"10-Q","date_filed":"2026-08-27","period_end":"2026-07-31","library_path":"/Investments/CRM/CRM_10-Q_2026-08-27.docx"},
+    {"form":"8-K","date_filed":"2026-09-04","event_date":"2026-09-02","library_path":"/Investments/CRM/CRM_8-K_2026-09-04.docx","note":"Executive deferred compensation plan; not a material operating-thesis change."}
+  ],
+  "supplemental_sources": [
+    {"description":"Salesforce Q2 FY2027 earnings release","url":"https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx","date":"2026-08-26"},
+    {"description":"Salesforce Q1 FY2027 earnings release","url":"https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-First-Quarter-Fiscal-2027-Results/default.aspx","date":"2026-05-27"},
+    {"description":"Reuters Q2 FY2027 / Anthropic partnership coverage","date":"2026-08-26"},
+    {"description":"Reuters software AI-disruption selloff coverage","date":"2026-09-08"},
+    {"description":"Investing.com CRM historical price","date":"2026-09-11"}
+  ],
+  "source_policy": "User-supplied filings and issuer primary sources govern financial facts. Reuters and current market data supplement competition, sentiment and price context."
+}
