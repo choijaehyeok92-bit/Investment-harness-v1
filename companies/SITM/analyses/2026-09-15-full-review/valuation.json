@@ -1,0 +1,67 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"SITM",
+  "as_of":"2026-09-15",
+  "valuation_method":"10-year enterprise owner-cash model with explicit reverse-expectations test",
+  "market_reference":{
+    "price_usd":567.68,
+    "price_date":"2026-09-14 close",
+    "q3_guide_diluted_shares_m":32.8,
+    "diluted_equity_value_b":18.620,
+    "post_close_net_debt_proxy_b":0.928,
+    "enterprise_value_proxy_b":19.548,
+    "q3_revenue_guide_mid_m":290.0,
+    "annualized_q3_revenue_b":1.160,
+    "ev_to_annualized_revenue":16.85
+  },
+  "reverse_expectations":{
+    "required_return":0.10,
+    "revenue_base_b":1.160,
+    "test_1":{"owner_cash_margin_year1":0.18,"owner_cash_margin_year10":0.28,"terminal_owner_cash_multiple":25,"required_10y_revenue_cagr":0.174},
+    "test_2":{"owner_cash_margin_year1":0.15,"owner_cash_margin_year10":0.25,"terminal_owner_cash_multiple":22,"required_10y_revenue_cagr":0.202},
+    "interpretation":"At the current price, a defensible valuation requires roughly 17%-20% annual revenue compounding for a decade while owner-cash economics mature into the mid/high-20s. This is feasible for a category winner but is not a low-expectations setup."
+  },
+  "scenarios":{
+    "bear":{
+      "revenue_growth_years_1_5":0.14,
+      "revenue_growth_years_6_10":0.07,
+      "owner_cash_margin_year1":0.08,
+      "owner_cash_margin_year10":0.18,
+      "terminal_owner_cash_multiple":18,
+      "value_per_share_usd":141.88,
+      "downside_vs_price":-0.750,
+      "narrative":"AI timing demand normalizes sharply, Renesas integration returns disappoint, quartz/integrated alternatives cap share gains and dilution/expense remain elevated."
+    },
+    "base":{
+      "revenue_growth_years_1_5":0.24,
+      "revenue_growth_years_6_10":0.14,
+      "owner_cash_margin_year1":0.15,
+      "owner_cash_margin_year10":0.27,
+      "terminal_owner_cash_multiple":24,
+      "value_per_share_usd":604.25,
+      "upside_vs_price":0.064,
+      "narrative":"SiTime sustains category leadership, Renesas cross-sell works, gross margins remain >=65%, timing content per AI/physical-AI system expands and SBC normalizes materially."
+    },
+    "bull":{
+      "revenue_growth_years_1_5":0.32,
+      "revenue_growth_years_6_10":0.19,
+      "owner_cash_margin_year1":0.18,
+      "owner_cash_margin_year10":0.31,
+      "terminal_owner_cash_multiple":30,
+      "value_per_share_usd":1410.81,
+      "upside_vs_price":1.485,
+      "narrative":"Precision Timing becomes a dominant semiconductor infrastructure layer; SiTime wins broad clock/resonator/oscillator/software content across AI, optical, auto and edge, with durable premium economics."
+    }
+  },
+  "subjective_probability_example":{
+    "bear":0.25,
+    "base":0.50,
+    "bull":0.25,
+    "probability_weighted_value_per_share_usd":690.30,
+    "upside_vs_price":0.216,
+    "warning":"Subjective research aid, not a target price or trade instruction."
+  },
+  "permanent_loss_case":"A combination of AI-capex normalization, failure to earn an adequate return on the ~$4.0B Renesas purchase price, quartz/competitor/in-house integration preserving sufficient performance, Titan adoption stalling, high SBC and share issuance persisting, and a semiconductor-duration multiple reset can produce a large permanent equity loss despite corporate solvency.",
+  "terminal_value_warning":"Terminal value is dominant in long-duration scenarios. Values are highly sensitive to assumed owner-cash margin, duration and terminal multiple; purchase accounting amortization and SBC normalization remain unresolved.",
+  "score_recommendation":{"expectation_gap_and_valuation":6,"power_law_and_asymmetry":8}
+}
