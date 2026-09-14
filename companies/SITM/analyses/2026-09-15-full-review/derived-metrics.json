@@ -1,0 +1,27 @@
+{
+  "schema_version":"2.0.0",
+  "ticker":"SITM",
+  "as_of":"2026-09-15",
+  "derived_metrics":[
+    {"id":"fy25_gross_margin","value":0.5357,"formula":"174.986 / 326.660","scope":"FY2025 GAAP"},
+    {"id":"fy25_mechanical_ocf_minus_capex","value":35.126,"formula":"87.154 - 52.028","unit":"USD millions","warning":"diagnostic, not normalized owner FCF"},
+    {"id":"fy25_sbc_to_revenue","value":0.3170,"formula":"103.540 / 326.660"},
+    {"id":"fy25_ocf_minus_capex_minus_sbc","value":-68.414,"formula":"87.154 - 52.028 - 103.540","unit":"USD millions","warning":"conservative economic-compensation diagnostic, not formal owner FCF"},
+    {"id":"q2_2026_gaap_gross_margin","value":0.6297,"formula":"99.142 / 157.432"},
+    {"id":"q2_2026_gaap_operating_margin","value":0.0522,"formula":"8.215 / 157.432"},
+    {"id":"q2_2026_sbc_to_revenue","value":0.1969,"formula":"30.993 / 157.432"},
+    {"id":"h1_2026_mechanical_ocf_minus_capex","value":45.193,"formula":"70.958 - 25.765","unit":"USD millions","warning":"diagnostic, not normalized owner FCF"},
+    {"id":"h1_2026_sbc_to_revenue","value":0.2280,"formula":"61.792 / 270.999"},
+    {"id":"h1_2026_ocf_minus_capex_minus_sbc","value":-16.599,"formula":"70.958 - 25.765 - 61.792","unit":"USD millions","warning":"conservative economic-compensation diagnostic"},
+    {"id":"renesas_timing_h1_2026_growth_yoy","value":0.5722,"formula":"153.038 / 97.339 - 1"},
+    {"id":"renesas_purchase_value_to_fy25_revenue","value":19.2839,"formula":"4006.106 / 207.744","unit":"x","warning":"trailing revenue multiple at closing fair-value consideration; does not adjust for growth or synergies"},
+    {"id":"post_close_net_debt_proxy","value":928.292,"formula":"1317.556 note carrying value - 389.264 pro forma cash","unit":"USD millions","warning":"excludes revolver availability, other assets/liabilities and future cash generation"},
+    {"id":"post_close_basic_share_proxy","value":30.070691,"formula":"26.512 shares at 2026-06-30 + 3.558691 acquisition shares","unit":"million shares","warning":"period-end approximation; excludes later employee equity and other diluted securities"},
+    {"id":"2026_09_14_basic_market_cap_proxy","value":17.071,"formula":"567.68 * 30.070691 / 1000","unit":"USD billions"},
+    {"id":"2026_09_14_diluted_market_cap_proxy","value":18.620,"formula":"567.68 * 32.8 / 1000","unit":"USD billions","warning":"uses management Q3 non-GAAP diluted share guidance"},
+    {"id":"q3_guide_annualized_combined_revenue","value":1.160,"formula":"290 * 4 / 1000","unit":"USD billions","warning":"annualized quarterly run-rate, not TTM or FY guidance"},
+    {"id":"diluted_enterprise_value_proxy","value":19.548,"formula":"18.620 diluted equity value + 0.928 post-close net-debt proxy","unit":"USD billions"},
+    {"id":"ev_to_q3_annualized_revenue_proxy","value":16.85,"formula":"19.548 / 1.160","unit":"x"}
+  ],
+  "interpretation":"Headline operating leverage is real: Q2 GAAP gross margin reached ~63% and GAAP operating income turned positive before Renesas close. However, FY2025 SBC was ~32% of revenue and H1 2026 SBC remained ~23%, so company non-GAAP profitability must be reconciled to per-share owner economics. The $4.0B Renesas timing acquisition is the dominant capital-allocation test."
+}
