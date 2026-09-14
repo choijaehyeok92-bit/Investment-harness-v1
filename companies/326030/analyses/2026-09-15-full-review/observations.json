@@ -1,0 +1,21 @@
+{
+  "schema_version":"2.0.0","ticker":"326030","as_of":"2026-09-15",
+  "facts":{
+    "fy2025":{"revenue_krw_b":706.741,"operating_profit_krw_b":203.938,"net_income_krw_b":253.254,"ocf_krw_b":176.334,"ppe_capex_krw_b":6.892,"intangible_acquisitions_krw_b":22.619,"cash_krw_b":307.771,"financial_products_krw_b":10.060,"bank_debt_krw_b":0.0,"r_and_d_krw_b":174.344,"sbc_krw_b":3.633},
+    "h1_2026":{"revenue_krw_b":475.253,"operating_profit_krw_b":186.832,"net_income_krw_b":187.799,"ocf_krw_b":96.066,"ppe_capex_krw_b":2.203,"intangible_acquisitions_krw_b":1.649,"cash_krw_b":379.968,"financial_products_krw_b":20.530,"bank_debt_krw_b":0.0,"r_and_d_krw_b":97.252,"current_refund_and_provision_liabilities_krw_b":208.248},
+    "h1_2025":{"revenue_krw_b":320.654,"operating_profit_krw_b":87.555,"net_income_krw_b":49.147,"ocf_krw_b":23.919,"ppe_capex_krw_b":1.270,"intangible_acquisitions_krw_b":0.414},
+    "product_mix_h1_2026":{"cenobamate_revenue_krw_b":468.035,"cenobamate_share_pct":98.5,"solriamfetol_revenue_krw_b":7.219,"us_geography_revenue_krw_b":422.119},
+    "xcopri":{"q1_2026_us_sales_krw_b":197.7,"q2_2026_us_sales_krw_b":224.4,"q2_yoy_growth_pct":45.6,"q2_qoq_growth_pct":13.5,"march_trx_approx":47000,"march_nbrx_gt":2000},
+    "opakalim_deal":{"upfront_usd_m":400,"upfront_krw_b_reported":553.240,"at_close_usd_m":350,"one_year_later_usd_m":50,"development_milestones_usd_m":395,"stage":"Phase 2/3","appraiser_central_rnpv_usd_m":909.6,"appraiser_wacc_pct":14.4,"appraiser_success_probability_pct":71.9,"assumed_launch_year":2029,"assumed_loe_year":2043,"assumed_peak_share_pct":3.3,"status":"closing delayed; upfront unpaid as of public 2026-09-11 update"},
+    "opakalim_partial_hold":{"date":"2026-09-10","reason":"FDA requested additional verification of a metabolite toxicity signal seen in rodent nonclinical work","existing_patients":"dosing may continue","new_enrollment":"paused","rise3":"enrollment already completed; topline still targeted for 2H 2026","company_human_exposure_statement":">1,200 subjects and no directly related human adverse event identified","company_expected_resolution":"2026-10 to 2026-11; not guaranteed"},
+    "xcopri_ip":{"compound_patent_expiry":"2032-10-30","follow_on_use_patent_expiry":"2039-06-16","generic_litigation":"one settlement with confidential future launch rights; two other disputes remain"},
+    "governance":{"ceo":"Donghoon Lee","sk_corp_stake_pct":50.1,"shares_outstanding":78313250,"fy2025_audit":"unqualified","icfr":"effective; auditor unqualified","audit_key_matter":"product revenue occurrence and U.S. rebates/discounts/returns estimation"},
+    "market":{"price_krw":79100,"price_date":"2026-09-14","week_52_low_krw":73000,"week_52_high_krw":144100}
+  },
+  "inferences":[
+    "XCOPRI is a high-quality commercial cash engine with strong U.S. direct-sales operating leverage.",
+    "The key underwriting transition is from a single-product cash cow to a multi-product CNS franchise before the 2032 compound-patent cliff.",
+    "Opakalim is strategically coherent because it can reuse the U.S. neurology infrastructure, but deal size plus the partial hold make incremental ROIC the central capital-allocation question.",
+    "The FDA hold is not evidence of human toxicity, but the appraiser 71.9% modeled success probability should not be treated as clinical fact."
+  ]
+}
