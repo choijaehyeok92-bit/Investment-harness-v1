@@ -20,6 +20,26 @@ Initial / Current Position: {{POSITION}}
 
 ## 8. Management and capital allocation
 
+## 8b. Disruptive innovation axis (0-20, outside the 100 points)
+
+| Dimension | /4 | Evidence | Counter-evidence | Confidence |
+|---|---|---|---|---|
+| Non-consumption / new market creation | | | | |
+| Incumbent business-model conflict | | | | |
+| Cost or performance curve | | | | |
+| S-curve position and adoption evidence | | | | |
+| Platform optionality / second curve | | | | |
+
+Total: {{DISRUPTION_TOTAL}} / 20  Tier: {{DISRUPTION_TIER}}
+
+Narrative claims refused (TAM, roadmap, "next NVDA"):
+
+Disruption falsifiers (at least three):
+
+1.
+2.
+3.
+
 ## 9. Bear / Base / Bull
 
 ### Bear
@@ -38,6 +58,15 @@ Initial / Current Position: {{POSITION}}
 
 ## 14. Most important falsification condition
 
+## 14b. Archetype
+
+Archetype: {{ARCHETYPE}} ({{ARCHETYPE_KO}})
+Expectation gap ratio (base / price - 1): {{GAP}}
+Position ceiling: {{CEILING}}
+Provisional until FULL_ANALYSIS: {{PROVISIONAL}}
+Gates that failed:
+What would move it to another archetype:
+
 ## 15. Initial target position band
 
 ## 16. Evidence required to increase
@@ -47,5 +76,7 @@ Initial / Current Position: {{POSITION}}
 ## Decision
 
 Status:
+Archetype:
+Position band (lower of the sizing band and the archetype ceiling):
 Rationale:
 Confidence:

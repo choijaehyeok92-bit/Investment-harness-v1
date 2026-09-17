@@ -1,0 +1,257 @@
+version: "1.0"
+name: "Post-evaluation Archetype Classification"
+name_ko: "종목 평가 후 5분류"
+
+status: "ADDITIVE_CLASSIFICATION_LAYER"
+
+purpose: >
+  After a company has been scored on the 100-point scorecard, checked against
+  the nine Hard Vetoes, valued through reverse-engineered expectations and
+  scored on the disruption axis, place it in exactly one of five archetypes.
+  The archetype describes what kind of bet the company is, which decides
+  valuation tolerance, position ceiling, monitoring KPIs and the evidence that
+  would change the thesis.
+
+relationship_to_decision_labels:
+  rule: "An archetype is not a decision label."
+  detail: >
+    The allowed decision labels in AGENTS.md (REJECT, WATCH, STARTER, NORMAL,
+    HIGH_CONVICTION, CORE_WINNER, EXCEPTIONAL_WINNER, HOLD, REDUCE, EXIT) state
+    what to do. The archetype states what the company is. Both are recorded.
+    Neither replaces the other, and the archetype never authorizes a purchase.
+
+invariants:
+  - "Hard Veto > Score > Archetype. A Hard Veto FAIL forces NOT_QUALIFIED."
+  - "Every evaluated company receives exactly one archetype."
+  - "Classification is deterministic: the same inputs always produce the same archetype."
+  - "Classification never edits the eight scorecard scores or the 100-point total."
+  - "An archetype is provisional until research_state is FULL_ANALYSIS, and a provisional archetype carries position_band NONE."
+  - "Missing inputs produce NOT_QUALIFIED with reason INSUFFICIENT_EVIDENCE, never a guessed archetype."
+  - "Price movement alone never changes an archetype; re-underwritten value or new business evidence does."
+
+inputs:
+  required:
+    - hard_veto.overall_status
+    - research_state
+    - business_quality_75
+    - categories (eight scores from policy/scorecard.yaml)
+    - disruption.total and its five dimension scores (policy/disruption-axis.yaml)
+    - valuation.current_price
+    - valuation.scenarios.base.value_per_share
+  derived:
+    expectation_gap_ratio:
+      formula: "base_value_per_share / current_price - 1"
+      meaning: "Positive means the base case is above the current price."
+      note: "This is an ESTIMATE built on the base scenario, not a FACT. Its confidence is the base-case confidence."
+
+precedence:
+  order:
+    - COMPOUNDER
+    - MOONSHOT
+    - EMERGING_OUTLIER
+    - EXPECTATION_GAP
+    - NOT_QUALIFIED
+  rule: >
+    Gates are evaluated in this order and the first archetype whose gates all
+    pass is assigned. Proven compounding economics outrank a disruption
+    narrative; an unproven disruptor is sized as a moonshot rather than as an
+    emerging outlier; an outlier-quality business outranks a pure gap trade.
+  information_preservation: >
+    When a company fails only the valuation gate of an archetype, record the
+    archetype under quality_gates_met so the watchlist retains why it was close.
+
+archetypes:
+
+  COMPOUNDER:
+    name_ko: "컴파운더"
+    definition: "A business whose own reinvestment compounds per-share economic value over long periods."
+    gates:
+      hard_veto_status_not: FAIL
+      business_quality_75_min: 52
+      moat_trajectory_min: 11
+      incremental_roic_and_fcf_per_share_min: 11
+      management_and_capital_allocation_min: 7
+      financial_survivability_min: 7
+      expectation_gap_and_valuation_min: 7
+      expectation_gap_ratio_min: -0.10
+      min_confidence_on:
+        moat_trajectory: 0.5
+        incremental_roic_and_fcf_per_share: 0.5
+    valuation_tolerance: "Price may sit modestly above base, never at a level that requires the bull case."
+    position_ceiling: EXCEPTIONAL_WINNER
+    monitoring_focus:
+      - incremental_roic_direction
+      - fcf_per_share_after_dilution
+      - moat_trajectory_indicators
+      - capital_allocation_outcomes
+    demotion_triggers:
+      - "Incremental ROIC declines for two consecutive re-underwrites"
+      - "Moat trajectory turns from strengthening to weakening"
+      - "FCF per share growth breaks while share count rises"
+      - "Capital allocation contradicts the stated strategy"
+
+  MOONSHOT:
+    name_ko: "문샷형"
+    definition: >
+      An early-form company with the shape that Tesla, Palantir, NVIDIA, Google
+      and Amazon had before their economics were proven: disruptive, adoption
+      still compounding, terminal economics not yet established. High valuation
+      is tolerated within a stated bound because the distribution is power-law.
+    gates:
+      hard_veto_status_not: FAIL
+      disruption_total_min: 14
+      disruption_tier_in: [STRONG, FOUNDATIONAL]
+      disruption_dimension_minimums:
+        non_consumption_and_new_market_creation: 3
+        incumbent_business_model_conflict: 3
+        s_curve_position_and_adoption_evidence: 2
+      power_law_and_asymmetry_min: 8
+      structural_change_and_leadership_min: 11
+      business_quality_75_min: 40
+      financial_survivability_min: 5
+      survivability_requirement: "self_funded is true, or funding_runway_months is at least 24"
+      permanent_loss_case_required: true
+    valuation_tolerance:
+      rule: "Tolerated overvaluation versus base is bounded by disruption tier."
+      expectation_gap_ratio_min:
+        FOUNDATIONAL: -0.60
+        STRONG: -0.40
+      meaning: "FOUNDATIONAL tolerates a price up to about 2.5x base; STRONG up to about 1.67x base."
+      hard_limit: >
+        This tolerance does not suspend the price_requires_unrealistic_bull_case
+        Hard Veto. If that veto is FAIL, the company is NOT_QUALIFIED whatever
+        its disruption tier.
+    position_ceiling: STARTER
+    position_rule: >
+      Moonshots are sized to survive being wrong. The ceiling is STARTER until
+      the thesis matures, and the combined moonshot bucket is capped at
+      portfolio_caps.MOONSHOT_bucket_pct.
+    graduation:
+      condition: "s_curve_position_and_adoption_evidence reaches 3 or more AND incremental_roic_and_fcf_per_share reaches 9 or more"
+      effect: "Re-run classification. The company normally reclassifies to EMERGING_OUTLIER or COMPOUNDER and inherits that ceiling."
+    monitoring_focus:
+      - pilot_to_production_conversion
+      - cohort_expansion_and_retention
+      - unit_cost_or_performance_curve_slope
+      - cash_runway_and_dilution
+      - incumbent_response
+    demotion_triggers:
+      - "Adoption evidence stops compounding for two consecutive periods"
+      - "An incumbent ships a symmetric response without damaging its own profit pool"
+      - "Runway falls below 24 months without a non-dilutive path"
+      - "The cost or performance curve flattens while competitors continue"
+
+  EMERGING_OUTLIER:
+    name_ko: "이머징 아웃라이어"
+    definition: >
+      Outlier characteristics are already strong and the price still sits at or
+      below the base case, so the outlier outcome is not yet paid for.
+    gates:
+      hard_veto_status_not: FAIL
+      power_law_and_asymmetry_min: 7
+      structural_change_and_leadership_min: 10
+      moat_trajectory_min: 9
+      business_quality_75_min: 45
+      financial_survivability_min: 6
+      expectation_gap_ratio_min: -0.15
+    valuation_tolerance: "Price around or below base. A price materially above base moves the company out of this archetype."
+    position_ceiling: HIGH_CONVICTION
+    monitoring_focus:
+      - moat_trajectory_indicators
+      - incremental_roic_direction
+      - market_share_direction
+      - expectation_gap_after_price_change
+    demotion_triggers:
+      - "Moat trajectory stops improving"
+      - "The base case is cut on business evidence"
+      - "Asymmetry deteriorates because the permanent-loss case widens"
+
+  EXPECTATION_GAP:
+    name_ko: "기대차형"
+    definition: >
+      Growth is adequate rather than exceptional, but the price has fallen far
+      enough that the market's embedded expectations look wrong. The bet is on
+      the gap, not on outlier duration.
+    gates:
+      hard_veto_status_not: FAIL
+      expectation_gap_ratio_min: 0.35
+      business_quality_75_min: 38
+      financial_survivability_min: 6
+      moat_trajectory_min: 6
+      incremental_roic_and_fcf_per_share_min: 6
+      mispricing_mechanism_required: true
+      mispricing_falsifier_required: true
+    mispricing_mechanism:
+      requirement: "State why the market is wrong, not merely that the price fell."
+      accepted_examples:
+        - "A transitory cost or mix item is being extrapolated as structural"
+        - "Segment economics are obscured by consolidated reporting"
+        - "A forced-seller or index-driven flow with a stated end"
+        - "A regulatory or litigation overhang whose realistic range is far narrower than the price implies"
+      rejected_examples:
+        - "The stock is down a lot"
+        - "P/E is below its historical average"
+        - "The price is below our purchase price"
+        - "Sentiment is bad"
+    valuation_tolerance: "A gap is required. This archetype cannot exist at or above base value."
+    position_ceiling: NORMAL
+    monitoring_focus:
+      - the_stated_mispricing_mechanism
+      - evidence_that_the_mechanism_is_wrong
+      - balance_sheet_and_solvency
+      - value_trap_indicators
+    gap_closure_rule: >
+      When the gap closes against a re-underwritten base case, reducing is
+      permitted for this archetype and must be recorded as gap closure against
+      value, never as "the price rose". Re-underwrite before reducing.
+    demotion_triggers:
+      - "The stated mispricing mechanism is falsified"
+      - "The gap persists while business evidence deteriorates (value trap)"
+      - "Survivability weakens"
+
+  NOT_QUALIFIED:
+    name_ko: "비적격형"
+    definition: >
+      The residual class. The company is not currently one of the four
+      investable shapes, either because a gate failed or because the evidence
+      does not support a classification yet.
+    assignment: "Assigned when no other archetype's gates pass, or when a Hard Veto FAIL is present."
+    reasons:
+      - HARD_VETO_FAIL
+      - INSUFFICIENT_EVIDENCE
+      - QUALITY_GATES_NOT_MET
+      - PRICED_BEYOND_BASE
+      - PRICED_BEYOND_MOONSHOT_TOLERANCE
+      - MISPRICING_MECHANISM_NOT_ESTABLISHED
+      - SURVIVABILITY_GATE_NOT_MET
+    position_ceiling: NONE
+    required_output:
+      - reason
+      - what_would_change_it
+    rule: >
+      NOT_QUALIFIED for reason INSUFFICIENT_EVIDENCE is a statement about the
+      research, not a negative judgment on the company, and must be reported
+      that way. It is not equivalent to the REJECT decision label.
+
+portfolio_caps:
+  note: "Ceilings, not targets. policy/position-sizing.yaml still governs actual sizing, and macro adjusts pacing only."
+  MOONSHOT_bucket_pct: 15
+  EXPECTATION_GAP_bucket_pct: 20
+  single_position_rule: "The archetype ceiling and the position-sizing band are both binding; the lower one applies."
+
+reclassification:
+  cadence: "Re-run classification at every quarterly review, and always at the annual re-underwrite."
+  rules:
+    - "Archetype changes must be logged in decision-history.md with the evidence that caused them."
+    - "Never change an archetype because of price alone."
+    - "The annual re-underwrite classifies from current evidence before reading the prior archetype."
+    - "A company may move between archetypes in any direction; graduation is not guaranteed and is not a target."
+
+reporting:
+  storage: "companies/<TICKER>/archetype.json against schemas/archetype.schema.json"
+  disruption_storage: "companies/<TICKER>/disruption.json against schemas/disruption.schema.json"
+  required_in_narrative:
+    - assigned archetype and the gate results that produced it
+    - the disruption tier and its three or more falsifiers
+    - the position ceiling implied by the archetype
+    - what evidence would move the company to a different archetype

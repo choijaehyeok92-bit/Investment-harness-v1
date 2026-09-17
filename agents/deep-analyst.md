@@ -18,6 +18,9 @@ Underwrite business outlier quality independently of current share-price attract
 
 Use the first six business-quality categories from `policy/scorecard.yaml`.
 Do not score expectation gap or asymmetry; those belong to the Valuation Agent.
+Do not score disruptive innovation here either; that is the separate 20-point axis owned
+by `agents/disruption-analyst.md`. Never inflate a quality category because the company
+has a disruption story, and never discount one because it does not.
 
 For every category provide:
 
@@ -44,3 +47,4 @@ Examples:
 - most important unknowns
 - explicit evidence that would strengthen the thesis
 - explicit evidence that would weaken the thesis
+- the adoption, incumbent-response and unit-cost observations the Disruption Analyst will need

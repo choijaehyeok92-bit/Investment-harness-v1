@@ -1,0 +1,174 @@
+version: "1.0"
+name: "Disruptive Innovation Axis"
+name_ko: "파괴적 혁신 축"
+
+status: "ADDITIVE_AXIS_OUTSIDE_THE_100_POINT_SCORE"
+
+purpose: >
+  Measure how much of a company's long-term economic-value growth comes from
+  changing the rules of its market rather than executing well inside existing
+  rules. The 100-point scorecard measures business quality and price-embedded
+  expectations. It does not separate a strong incumbent from an early-form
+  disruptor, and the two require different evidence, different valuation
+  tolerance and different position sizing.
+
+authority:
+  rank: "Applies after policy/scorecard.yaml and never above policy/hard-veto.yaml"
+  invariants:
+    - "The disruption axis never changes the 100-point company score."
+    - "The disruption axis never overrides or softens a Hard Veto."
+    - "A high disruption score is never by itself a buy authorization."
+    - "Disruption evidence must be falsifiable adoption evidence, not narrative or TAM size."
+    - "Unknown evidence lowers confidence and lowers the sub-score; it is never scored as zero-risk optionality."
+  reason_for_separation: >
+    policy/scorecard.yaml, its eight categories and the nine Hard Vetoes are
+    frozen under harness/baseline-lock.json and reproduce 93 historical issuer
+    judgments. Folding a ninth category into the 100 points would silently
+    restate every prior score. The axis is therefore scored, stored and
+    reported separately.
+
+scale:
+  max_score: 20
+  unknown_score: null
+  note: "A null sub-score is unknown. It is never 0 and never a converted scorecard value."
+
+dimensions:
+  non_consumption_and_new_market_creation:
+    max_score: 4
+    primary_question: "Is the company serving demand that previously could not be served at all, or only reallocating existing demand?"
+    indicators:
+      - new_users_who_previously_bought_nothing
+      - new_use_cases_created_rather_than_won
+      - usage_frequency_expansion_within_existing_customers
+      - market_size_growing_because_of_the_company_not_around_it
+    anchors:
+      "4": "Documented cohort of buyers or use cases that did not exist before the product"
+      "3": "Clear new-demand evidence alongside share gains"
+      "2": "Mostly share transfer with early new-demand signals"
+      "1": "Share transfer inside an existing market"
+      "0": "No market expansion; substitution only"
+
+  incumbent_business_model_conflict:
+    max_score: 4
+    primary_question: "Would a rational incumbent have to damage its own economics to respond properly?"
+    indicators:
+      - incumbent_revenue_cannibalization_required
+      - incumbent_margin_structure_incompatible_with_response
+      - incumbent_channel_or_partner_conflict
+      - observed_incumbent_response_delay_or_half_measure
+      - incumbent_organizational_or_regulatory_lock_in
+    anchors:
+      "4": "Structural asymmetry: a full incumbent response destroys the incumbent's own profit pool"
+      "3": "Strong asymmetry with observed delayed or partial incumbent response"
+      "2": "Some friction, but incumbents can respond at acceptable cost"
+      "1": "Incumbents can copy with normal effort"
+      "0": "No asymmetry; the strongest balance sheet wins"
+
+  cost_or_performance_curve:
+    max_score: 4
+    primary_question: "Does unit cost fall or performance rise on a repeatable curve that the company rides better than others?"
+    indicators:
+      - measured_learning_rate_or_unit_cost_decline
+      - performance_per_dollar_trajectory
+      - scale_or_data_driven_curve_participation
+      - curve_slope_sustained_across_multiple_periods
+    anchors:
+      "4": "Multi-period measured cost or performance curve the company leads"
+      "3": "Measured curve, company participates but does not clearly lead"
+      "2": "Curve asserted with partial measurement"
+      "1": "Cost improvement is ordinary operating leverage"
+      "0": "No curve, or unit economics worsening with scale"
+
+  s_curve_position_and_adoption_evidence:
+    max_score: 4
+    primary_question: "Where is adoption actually observed, and is the observation falsifiable?"
+    indicators:
+      - paying_adoption_versus_pilots_or_letters_of_intent
+      - cohort_retention_and_expansion
+      - reference_customer_concentration
+      - regulatory_or_infrastructure_gating_status
+      - time_from_pilot_to_production_trend
+    anchors:
+      "4": "Production adoption compounding across multiple independent cohorts"
+      "3": "Early production adoption with improving cohort behavior"
+      "2": "Pilots converting, production evidence still thin"
+      "1": "Pilots and pipeline only"
+      "0": "Announcements, partnerships or backlog claims without paying adoption"
+    guard: "Backlog, bookings, pipeline, MOU and partnership counts are not adoption evidence on their own."
+
+  platform_optionality_and_second_curve:
+    max_score: 4
+    primary_question: "Does today's position credibly open adjacent economics the market is not paying for?"
+    indicators:
+      - adjacent_products_shipped_from_the_same_asset_base
+      - attach_or_cross_sell_evidence_within_existing_accounts
+      - developer_or_partner_ecosystem_growth
+      - rnd_productivity_converting_into_new_revenue_lines
+      - proprietary_data_or_distribution_reusable_across_lines
+    anchors:
+      "4": "A second revenue curve is already visible and is being funded by the first"
+      "3": "Credible second curve with early revenue"
+      "2": "Optionality argued from assets, no revenue yet"
+      "1": "Optionality is narrative only"
+      "0": "Single-curve business; adjacency claims contradicted by evidence"
+    guard: "Optionality with no shipped product and no attach evidence scores at most 1."
+
+required_output_per_dimension:
+  - score
+  - evidence
+  - counter_evidence
+  - confidence
+  - missing_data
+
+tiers:
+  FOUNDATIONAL:
+    range: [17, 20]
+    meaning: "Changes the economics of its market; incumbents structurally cannot respond symmetrically"
+  STRONG:
+    range: [13, 16]
+    meaning: "Real disruption with production adoption; asymmetry demonstrated but not yet decisive"
+  EMERGING:
+    range: [9, 12]
+    meaning: "Disruptive characteristics present; adoption evidence still early"
+  INCREMENTAL:
+    range: [4, 8]
+    meaning: "Better execution inside existing rules"
+  NONE:
+    range: [0, 3]
+    meaning: "No disruptive characteristic identified"
+  UNSCORED:
+    range: null
+    meaning: "One or more dimensions unknown; tier cannot be asserted"
+
+tier_rule: "If any dimension score is null, the tier is UNSCORED. Tiers are never inferred from a partial sum."
+
+anti_hype_guards:
+  - "Large TAM claims are not disruption evidence."
+  - "A high share price, high multiple or momentum is not disruption evidence."
+  - "Founder narrative, vision decks and roadmaps are OPINION and are labeled as such."
+  - "Analyst or media 'next NVDA' comparisons carry zero score weight."
+  - "Technology novelty without a cash-flow path scores in the cost-curve and adoption dimensions at most 1."
+  - "A regulated or subsidy-dependent adoption curve must state what happens when the subsidy ends."
+  - "If the company's disruption claim and its Hard Veto flags conflict, the Hard Veto governs."
+
+falsifiers_required:
+  description: "Every disruption assessment must state what observation would lower the tier."
+  minimum_count: 3
+  examples:
+    - "Incumbent ships a symmetric response without damaging its own profit pool"
+    - "Cohort expansion rate declines for two consecutive periods"
+    - "Pilot-to-production conversion time lengthens"
+    - "Unit cost curve flattens while competitors' curves continue"
+    - "The second curve requires capital the company cannot raise without dilution"
+
+downstream_effects:
+  permitted:
+    - "Selects the archetype in policy/archetype-classification.yaml"
+    - "Sets the valuation tolerance band allowed for the MOONSHOT archetype"
+    - "Sets position pacing and the archetype position cap"
+    - "Sets which monitoring KPIs are thesis-critical"
+  forbidden:
+    - "Changing any of the eight scorecard category scores"
+    - "Changing the 100-point total or the 75-point business-quality subtotal"
+    - "Downgrading, deferring or explaining away any of the nine Hard Vetoes"
+    - "Authorizing a purchase without the completion gate in AGENTS.md"

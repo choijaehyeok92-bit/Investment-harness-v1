@@ -51,6 +51,14 @@ python -m harness.current --list
 - 현대차 금융사업·MELI 고객자금, 모회사/자회사 지분, ADR/우선주, 분할 후 주식 수를 별도 처리한다.
 - 높은 일회성 마진·투자자산 이익·선수금 증가·미종결 인수·계획 보증을 정상화 현금 실적으로 승격하지 않는다.
 
+## 추가 계층: 혁신 축과 5분류
+
+`policy/disruption-axis.yaml`의 20점 축과 `policy/archetype-classification.yaml`의 5분류는
+100점 배점·9개 veto·동결된 재현 산출물 바깥의 **추가 계층**이다. 저장 위치는
+`companies/<ticker>/disruption.json`과 `companies/<ticker>/archetype.json`이며,
+2026-09-06 동결 실행에는 포함되지 않는다. 과거 판단을 소급 분류하지 않고 다음 실행부터
+채운다. 설계와 게이트는 [혁신 축과 5분류](DISRUPTION_AND_ARCHETYPE.md)를 따른다.
+
 ## 작업 순서와 검증
 
 사업 품질 → 9개 veto → 시장 기대 역산 → Bear/Base/Bull → 10개 반론 → 포지션/행동 조건 순서다. 같은 분석자가 레드팀을 수행했다면 독립 검토나 다수 합의로 표현하지 않는다. 실제 포트폴리오 정보가 없으면 위험예산·포지션을 만들지 않는다.
@@ -60,6 +68,7 @@ python -m pip install jsonschema
 python -m unittest discover -s tests -v
 python -m harness.validate
 python -m harness.build --check
+python -m harness.archetype
 python scripts/validate_outputs.py
 python scripts/validate_reassessment.py
 python companies/NOW/valuation_model.py --check

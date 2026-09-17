@@ -26,16 +26,42 @@ The system separates company selection from portfolio risk pacing. Macro conditi
 
 1. `screener` — narrow the universe and identify candidates worth deeper work.
 2. `deep-analyst` — assess business quality, structural growth, moat trajectory, reinvestment and management.
-3. `hard-veto` — apply non-negotiable rejection/investigation gates.
-4. `valuation` — reverse-engineer market expectations, then build Bear/Base/Bull scenarios.
-5. `red-team` — attack the thesis, surface falsifiers, and challenge key assumptions.
-6. `portfolio-monitor` — assign status/position band and maintain the evidence ledger over time.
+3. `disruption-analyst` — score the 20-point disruptive-innovation axis, outside the 100-point scorecard.
+4. `hard-veto` — apply non-negotiable rejection/investigation gates.
+5. `valuation` — reverse-engineer market expectations, then build Bear/Base/Bull scenarios.
+6. `red-team` — attack the thesis, surface falsifiers, and challenge key assumptions.
+7. `archetype-classifier` — place the company in exactly one of the five archetypes.
+8. `portfolio-monitor` — assign status/position band and maintain the evidence ledger over time.
+
+## Disruption axis and archetypes
+
+The 100-point scorecard measures business quality and price-embedded expectations. It does
+not separate a strong incumbent from an early-form disruptor, so a separate 20-point axis
+(`policy/disruption-axis.yaml`) scores non-consumption, incumbent business-model conflict,
+the cost/performance curve, S-curve adoption evidence and platform optionality. It is
+additive: it never changes the 100-point score and never softens a Hard Veto.
+
+Scores, vetoes, valuation and that axis then place the company in exactly one archetype
+(`policy/archetype-classification.yaml`), which sets valuation tolerance and the position
+ceiling:
+
+| Archetype | 한글 | What it is | Ceiling |
+|---|---|---|---|
+| `COMPOUNDER` | 컴파운더 | Reinvestment compounds per-share economic value over long periods | EXCEPTIONAL_WINNER |
+| `MOONSHOT` | 문샷형 | Early-form disruptor; high valuation tolerated within a stated bound | STARTER |
+| `EMERGING_OUTLIER` | 이머징 아웃라이어 | Outlier characteristics strong, price still at or below base | HIGH_CONVICTION |
+| `EXPECTATION_GAP` | 기대차형 | Adequate growth, price far below a defensible base case | NORMAL |
+| `NOT_QUALIFIED` | 비적격형 | Residual: a gate failed, or the evidence cannot support a class yet | NONE |
+
+Classification is deterministic (`harness.archetype.classify`) and is re-derived by the
+validator, so a stored archetype cannot quietly disagree with policy. See
+[docs/DISRUPTION_AND_ARCHETYPE.md](docs/DISRUPTION_AND_ARCHETYPE.md).
 
 ## Decision rule
 
 High score is necessary but not sufficient.
 
-`Hard Veto > Score`
+`Hard Veto > Score > Archetype`
 
 A stock must also have a meaningful expectation gap and favorable asymmetry. Position size should increase with evidence, not merely with analyst conviction or price declines.
 
@@ -50,6 +76,7 @@ A stock must also have a meaningful expectation gap and favorable asymmetry. Pos
 - `companies/<TICKER>/` — per-company research state
 - `portfolio/` — portfolio-level state and macro overlay
 - `screening/` — candidate and rejection outputs
+- `harness/archetype.py` — disruption scoring and the deterministic five-way classifier
 - `scripts/validate_outputs.py` — basic schema and consistency checks
 
 ## Recommended company folder
@@ -58,6 +85,8 @@ A stock must also have a meaningful expectation gap and favorable asymmetry. Pos
 companies/MSFT/
 ├── thesis.md
 ├── scorecard.json
+├── disruption.json
+├── archetype.json
 ├── evidence.jsonl
 ├── valuation.json
 ├── decision.json

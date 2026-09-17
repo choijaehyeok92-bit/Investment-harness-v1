@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ArchetypeClassification",
+  "description": "Deterministic five-way classification. See policy/archetype-classification.yaml.",
+  "type": "object",
+  "required": ["schema_version", "ticker", "as_of", "inputs", "archetype", "provisional", "position_ceiling", "gate_results", "what_would_change_it"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "ticker": {"type": "string", "minLength": 1},
+    "as_of": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "inputs": {
+      "type": "object",
+      "required": ["hard_veto_status", "research_state", "business_quality_75", "category_scores", "disruption_total", "disruption_tier", "disruption_dimensions", "current_price", "base_value_per_share"],
+      "properties": {
+        "hard_veto_status": {"enum": ["PASS", "INVESTIGATE", "FAIL"]},
+        "research_state": {"enum": ["PRELIMINARY_REVIEW", "PARTIAL_ANALYSIS", "FULL_ANALYSIS"]},
+        "business_quality_75": {"type": ["number", "null"], "minimum": 0, "maximum": 75},
+        "category_scores": {
+          "type": "object",
+          "minProperties": 8,
+          "maxProperties": 8,
+          "required": ["structural_change_and_leadership", "customer_value_and_product", "moat_trajectory", "incremental_roic_and_fcf_per_share", "management_and_capital_allocation", "financial_survivability", "expectation_gap_and_valuation", "power_law_and_asymmetry"],
+          "additionalProperties": {"type": ["number", "null"], "minimum": 0}
+        },
+        "category_confidence": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}},
+        "disruption_total": {"type": ["number", "null"], "minimum": 0, "maximum": 20},
+        "disruption_tier": {"enum": ["FOUNDATIONAL", "STRONG", "EMERGING", "INCREMENTAL", "NONE", "UNSCORED"]},
+        "disruption_dimensions": {"type": "object", "minProperties": 5, "maxProperties": 5, "additionalProperties": {"type": ["number", "null"], "minimum": 0, "maximum": 4}},
+        "current_price": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "base_value_per_share": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "expectation_gap_ratio": {"type": ["number", "null"]},
+        "self_funded": {"type": ["boolean", "null"]},
+        "funding_runway_months": {"type": ["number", "null"], "minimum": 0},
+        "permanent_loss_case_sized": {"type": ["boolean", "null"]},
+        "mispricing_mechanism": {"type": ["string", "null"]},
+        "mispricing_falsifiers": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "archetype": {"enum": ["COMPOUNDER", "MOONSHOT", "EMERGING_OUTLIER", "EXPECTATION_GAP", "NOT_QUALIFIED"]},
+    "archetype_ko": {"enum": ["컴파운더", "문샷형", "이머징 아웃라이어", "기대차형", "비적격형"]},
+    "provisional": {"type": "boolean"},
+    "not_qualified_reason": {"enum": ["HARD_VETO_FAIL", "INSUFFICIENT_EVIDENCE", "QUALITY_GATES_NOT_MET", "PRICED_BEYOND_BASE", "PRICED_BEYOND_MOONSHOT_TOLERANCE", "MISPRICING_MECHANISM_NOT_ESTABLISHED", "SURVIVABILITY_GATE_NOT_MET", null]},
+    "quality_gates_met": {"type": "array", "items": {"enum": ["COMPOUNDER", "MOONSHOT", "EMERGING_OUTLIER", "EXPECTATION_GAP"]}},
+    "gate_results": {
+      "type": "object",
+      "minProperties": 4,
+      "maxProperties": 4,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["passed", "failed_gates"],
+        "properties": {
+          "passed": {"type": "boolean"},
+          "failed_gates": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "position_ceiling": {"enum": ["NONE", "STARTER", "NORMAL", "HIGH_CONVICTION", "CORE_WINNER", "EXCEPTIONAL_WINNER"]},
+    "what_would_change_it": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

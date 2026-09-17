@@ -14,13 +14,24 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMAS = ROOT / "schemas"
+sys.path.insert(0, str(ROOT))
+
+from harness.archetype import (  # noqa: E402  (path is set above)
+    SCORECARD_CATEGORIES, check_document, disruption_tier, disruption_total,
+)
 
 MAPPINGS = {
     "scorecard.json": "scorecard.schema.json",
     "valuation.json": "valuation.schema.json",
     "decision.json": "decision.schema.json",
     "hard-veto.json": "hard-veto.schema.json",
+    "disruption.json": "disruption.schema.json",
+    "archetype.json": "archetype.schema.json",
 }
+
+# policy/position-sizing.yaml bands, weakest first. The archetype ceiling in
+# policy/archetype-classification.yaml and the sizing band are both binding.
+POSITION_BANDS = ["NONE", "STARTER", "NORMAL", "HIGH_CONVICTION", "CORE_WINNER", "EXCEPTIONAL_WINNER"]
 
 
 def load_json(path: Path):
@@ -99,6 +110,58 @@ def main() -> int:
                         errors.append(f"{veto_path}: veto aggregate and decision status disagree")
                 except (json.JSONDecodeError, UnicodeDecodeError):
                     pass  # Reported by validate_file above.
+
+        disruption_path = company_dir / "disruption.json"
+        archetype_path = company_dir / "archetype.json"
+        disruption = None
+        if disruption_path.exists():
+            try:
+                disruption = load_json(disruption_path)
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                disruption = None
+        if disruption is not None:
+            dimension_scores = {name: item.get("score") for name, item in disruption.get("dimensions", {}).items()}
+            try:
+                expected_total = disruption_total(dimension_scores)
+                expected_tier = disruption_tier(dimension_scores)
+            except ValueError as exc:
+                errors.append(f"{disruption_path}: {exc}")
+            else:
+                if disruption.get("total") != expected_total:
+                    errors.append(f"{disruption_path}: total must equal the five dimension scores, or null when any is unknown")
+                if disruption.get("tier") != expected_tier:
+                    errors.append(f"{disruption_path}: tier does not match policy/disruption-axis.yaml bands")
+
+        if archetype_path.exists():
+            try:
+                archetype = load_json(archetype_path)
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                archetype = None
+            if archetype is not None and "inputs" in archetype:
+                errors.extend(f"{archetype_path}: {message}" for message in check_document(archetype))
+                inputs = archetype["inputs"]
+                if scorecard_path.exists():
+                    try:
+                        stored = {name: item.get("score") for name, item in load_json(scorecard_path).get("categories", {}).items()}
+                    except (json.JSONDecodeError, UnicodeDecodeError):
+                        stored = None
+                    if stored and any(inputs["category_scores"].get(name) != stored.get(name) for name in SCORECARD_CATEGORIES):
+                        errors.append(f"{archetype_path}: inputs.category_scores disagree with scorecard.json")
+                if disruption is not None:
+                    if inputs.get("disruption_total") != disruption.get("total") or inputs.get("disruption_tier") != disruption.get("tier"):
+                        errors.append(f"{archetype_path}: disruption inputs disagree with disruption.json")
+                if decision_path.exists():
+                    try:
+                        decision = load_json(decision_path)
+                    except (json.JSONDecodeError, UnicodeDecodeError):
+                        decision = None
+                    if decision is not None:
+                        if inputs.get("hard_veto_status") != decision.get("hard_veto_status"):
+                            errors.append(f"{archetype_path}: hard_veto_status disagrees with decision.json")
+                        ceiling = archetype.get("position_ceiling", "NONE")
+                        band = decision.get("position_band", "NONE")
+                        if POSITION_BANDS.index(band) > POSITION_BANDS.index(ceiling):
+                            errors.append(f"{decision_path}: position_band {band} exceeds the {archetype['archetype']} ceiling {ceiling}")
 
         ledger = company_dir / "evidence.jsonl"
         if ledger.exists():

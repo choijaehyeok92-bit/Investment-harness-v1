@@ -11,9 +11,11 @@ When instructions conflict, follow this order:
 1. `policy/investment-philosophy.md`
 2. `policy/hard-veto.yaml`
 3. `policy/scorecard.yaml`
-4. `policy/source-policy.yaml`
-5. role-specific instructions under `agents/`
-6. task-specific user instructions
+4. `policy/disruption-axis.yaml`
+5. `policy/archetype-classification.yaml`
+6. `policy/source-policy.yaml`
+7. role-specific instructions under `agents/`
+8. task-specific user instructions
 
 Do not silently override higher-order policy.
 
@@ -29,11 +31,15 @@ Always separate:
 Always separate:
 
 - Company quality
+- Disruptive-innovation character
 - Market expectations
 - Valuation
 - Portfolio risk budget
 
 Never allow macro views to directly change the 100-point company score.
+Never allow the disruption axis to change the 100-point company score either. It is a
+separate 20-point axis that selects the archetype, the valuation tolerance and the
+position ceiling, and it never overrides a Hard Veto.
 
 ## Default workflow
 
@@ -41,19 +47,23 @@ For a new stock:
 
 1. Run `agents/screener.md`.
 2. If candidate survives, run `agents/deep-analyst.md`.
-3. Apply `policy/hard-veto.yaml`.
-4. Run `agents/valuation.md`.
-5. Run `agents/red-team.md`.
-6. Produce final status through `agents/portfolio-monitor.md`.
-7. Persist outputs under `companies/<TICKER>/`.
+3. Run `agents/disruption-analyst.md` (20-point axis, outside the 100 points).
+4. Apply `policy/hard-veto.yaml`.
+5. Run `agents/valuation.md`.
+6. Run `agents/red-team.md`.
+7. Run `agents/archetype-classifier.md` to assign one of the five archetypes.
+8. Produce final status through `agents/portfolio-monitor.md`.
+9. Persist outputs under `companies/<TICKER>/`.
 
 For an existing holding:
 
 1. Load the latest thesis, scorecard, valuation, evidence ledger and decision.
 2. Add only new evidence.
 3. Re-evaluate only the components affected by new evidence unless it is the annual re-underwrite.
-4. Never average down solely because price declined.
-5. Never trim solely because price rose.
+4. Re-run the archetype classification; log any archetype change with the evidence that caused it.
+5. Never average down solely because price declined.
+6. Never trim solely because price rose.
+7. Never change an archetype because of price alone. Re-underwrite value first.
 
 ## Completion gate
 
@@ -70,6 +80,9 @@ A stock analysis is incomplete unless it contains:
 - position increase evidence
 - sell evidence
 - source-quality notes
+- all five disruption-axis dimensions with evidence, counter-evidence and confidence
+- disruption tier and at least three disruption falsifiers
+- the assigned archetype, its gate results and the implied position ceiling
 
 ## Output discipline
 
@@ -82,10 +95,29 @@ Distinguish PRELIMINARY_REVIEW, PARTIAL_ANALYSIS and FULL_ANALYSIS; an evidence-
 review is not a completed underwriting or a buy approval. Run `harness.validate`
 and existing validators before promoting a new latest pointer.
 
+Disruption scores live in `companies/<TICKER>/disruption.json` and the classification in
+`companies/<TICKER>/archetype.json`. A stored archetype that disagrees with
+`harness.archetype.classify` is a validation failure, not an analyst override.
+
 Use machine-readable JSON where a schema exists.
 Use Markdown for narrative thesis and decision history.
 Do not invent unavailable data.
 If a required metric cannot be established, mark it `unknown` and reduce confidence.
+
+## Archetype labels
+
+Every evaluated company also receives exactly one archetype from
+`policy/archetype-classification.yaml`:
+
+- `COMPOUNDER` (컴파운더)
+- `MOONSHOT` (문샷형)
+- `EMERGING_OUTLIER` (이머징 아웃라이어)
+- `EXPECTATION_GAP` (기대차형)
+- `NOT_QUALIFIED` (비적격형)
+
+An archetype describes what the company is. A decision label describes what to do. Both
+are recorded, and neither replaces the other. `NOT_QUALIFIED` for reason
+`INSUFFICIENT_EVIDENCE` is a statement about the research, not the `REJECT` label.
 
 ## Decision labels
 
