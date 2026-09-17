@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-15",
+  "generated": "2026-09-17",
+  "stage": "SCREEN",
+  "criteria": "Long Outlier Expectation Gap Strategy v2.0 (outlier-expectation-gap-harness/config/strategy.json)",
+  "criteria_note": "outlier 하네스의 8개 점수 도메인과 가중치(15/10/15/15/10/10/15/10)가 Investment-harness-v1의 8개 카테고리와 1:1 대응하므로 기존 심사 점수를 재계산 없이 사용했다.",
+  "universe_source": [
+    "reviews/2026-09-12-management-dedup/scoreboard.json",
+    "reviews/2026-09-14-preliminary-deep/p1-deep-analyst.json",
+    "reviews/2026-09-14-preliminary-deep/p2-deep-analyst.json",
+    "reviews/2026-09-14-preliminary-deep/hard-veto-triage.json",
+    "registry/companies.json"
+  ],
+  "counts": {
+    "US": 20,
+    "KR": 20
+  },
+  "screen_rule": {
+    "SCREEN_OUT": [
+      "Bull 가치 < 현재가",
+      "비대칭 < 0.5",
+      "총점 < 60 AND Base 상승여력 < 0"
+    ],
+    "SCREEN_IN": [
+      "총점 >= 70",
+      "Base 상승여력 > 0",
+      "비대칭 >= 1.5",
+      "(세 조건 동시 충족)"
+    ],
+    "WATCH": "나머지",
+    "INCOMPLETE": "coverage_weight < 100 (기대차·비대칭 미평가)"
+  },
+  "priority_index": "Quality(score/100) x Gap(1+base_upside) x Asymmetry(min(asym,6)/2) x VetoDrag(1-0.05*open_vetoes). 순위용 지표이며 점수나 매수근거가 아니다.",
+  "forbidden_shortcuts_respected": [
+    "고 PER 단독 탈락 없음",
+    "저 PER 단독 통과 없음",
+    "주가 상승 단독 탈락 없음",
+    "단기 EPS 부진 단독 탈락 없음",
+    "적자 단독 탈락 없음 (ASTS/TEM/RKLB는 적자를 사유로 탈락시키지 않았다)"
+  ],
+  "hard_veto_note": "Tier A 43개 전부 hard_veto=INVESTIGATE(미해소). outlier 하네스 기계 판정상 미해소 veto는 최대 WATCH·비중 0%로 제한되므로 SCREEN_IN은 심층조사 우선순위일 뿐 매수 승인이 아니다.",
+  "price_basis": "2026-09-12 금융 시세 피드 스냅샷(장외시간 포함 가능). 거래소 원천 감사 자료 아님. 2026-09-15~17 가격 변동 미반영.",
+  "limitations": [
+    "신규 종목 발굴 스크린이 아니라 기존 심사 유니버스(US 53 / KR 43) 재선별이다.",
+    "Tier B 5종목(KR)은 6개 카테고리만 평가되어 100점 환산과 SCREEN_IN 판정이 불가하다.",
+    "가격은 2026-09-12 기준이고 종목 점수는 2026-09-12 기준이다. 기준일 이후 정보는 사용하지 않았다.",
+    "어떤 종목에도 매수 승인을 부여하지 않는다. latest 포인터를 승격하지 않는다."
+  ],
+  "promotes_latest_pointer": false,
+  "buy_authorized": false
+}
