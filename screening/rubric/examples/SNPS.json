@@ -1,0 +1,15 @@
+{
+  "ticker": "SNPS", "as_of": "2026-09-13",
+  "_source": "screening/2026-09-17-p1-valuation (계층 4-5 입력)",
+  "metrics": {
+    "D1M1": null, "D1M2": null, "D1M3": null, "D1M4": null,
+    "D2M1": null, "D2M2": null, "D2M3": null, "D2M4": null,
+    "D3M1": null, "D3M2": null, "D3M3": null, "D3M4": null,
+    "D4M1": null, "D4M2": null, "D4M3": null, "D4M4": null,
+    "D5M1": null, "D5M2": null, "D5M3": null, "D5M4": null,
+    "D6M1": null, "D6M2": null, "D6M3": 99, "D6M4": null,
+    "D7M1": 0.1071, "D7M2": null, "D7M3": 0.68, "D7M4": 29.3,
+    "D8M1": 2.049, "D8M2": 1.882, "D8M3": 0.430, "D8M4": null
+  },
+  "vetoes": {}
+}

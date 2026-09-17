@@ -1,0 +1,11 @@
+{
+  "ticker": "TER", "as_of": "2026-09-08",
+  "_source": "screening/2026-09-17-p1-valuation (계층 4-5 입력)",
+  "metrics": {
+    "D6M3": 99,
+    "D7M1": -0.569, "D7M2": null, "D7M3": 0.59, "D7M4": 50.2,
+    "D8M1": -0.21, "D8M2": 0.837, "D8M3": 0.778, "D8M4": null
+  },
+  "_metric_notes": {"D8M2": "Bull 311.25 < 가격 372.06 → veto confirm_if 충족"},
+  "vetoes": {"price_requires_unrealistic_bull_case": "confirm"}
+}

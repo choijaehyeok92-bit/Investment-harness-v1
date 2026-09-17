@@ -1,0 +1,1209 @@
+{
+  "schema_version": "1.0.0",
+  "name": "Outlier Expectation Gap Screening Rubric",
+  "strategy": "Long Outlier Expectation Gap Strategy v2.0",
+  "as_of": "2026-09-17",
+  "scale": "지표별 0~4점. 도메인 점수 = (획득합 / 평가된 지표 만점) x 100. unknown 지표는 분모에서 제외하고 별도 패널티를 받는다.",
+  "required_return": 0.09,
+  "domains": [
+    {
+      "id": "structural_leadership",
+      "name": "구조적 변화와 시장 리더십",
+      "weight": 15,
+      "metrics": [
+        {
+          "id": "D1M1",
+          "name": "매출 3년 CAGR",
+          "unit": "ratio",
+          "source": "손익계산서",
+          "direction": "up",
+          "bands": [
+            [
+              0.25,
+              4
+            ],
+            [
+              0.15,
+              3
+            ],
+            [
+              0.08,
+              2
+            ],
+            [
+              0.03,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "구조적 성장 규모. 성장률 자체가 아니라 규모의 하한을 본다."
+        },
+        {
+          "id": "D1M2",
+          "name": "시장점유율 3년 변화",
+          "unit": "pp",
+          "source": "산업 데이터",
+          "direction": "up",
+          "bands": [
+            [
+              5,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              -2,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "수혜자가 아니라 리더인지 구분한다."
+        },
+        {
+          "id": "D1M3",
+          "name": "성장 정상화 배수 = 최근 1년 성장률 / 5년 평균 성장률",
+          "unit": "x",
+          "source": "손익계산서",
+          "direction": "band",
+          "bands_special": [
+            [
+              0.8,
+              1.5,
+              4
+            ],
+            [
+              1.5,
+              2.5,
+              2
+            ],
+            [
+              0.5,
+              0.8,
+              1
+            ],
+            [
+              2.5,
+              null,
+              0
+            ],
+            [
+              null,
+              0.5,
+              0
+            ]
+          ],
+          "why": "피크 사이클을 구조적 성장으로 오인하는 것을 막는다. 1.5배를 넘으면 정상화 위험."
+        },
+        {
+          "id": "D1M4",
+          "name": "산업 가치풀 5년 전망 CAGR",
+          "unit": "ratio",
+          "source": "산업 협회/정부",
+          "direction": "up",
+          "bands": [
+            [
+              0.15,
+              4
+            ],
+            [
+              0.08,
+              3
+            ],
+            [
+              0.04,
+              2
+            ],
+            [
+              0.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "TAM이 아니라 지불의사가 확인된 가치풀."
+        }
+      ]
+    },
+    {
+      "id": "customer_product",
+      "name": "고객가치와 제품력",
+      "weight": 10,
+      "metrics": [
+        {
+          "id": "D2M1",
+          "name": "NRR 또는 재구매·갱신율",
+          "unit": "ratio",
+          "source": "회사 KPI 공시",
+          "direction": "up",
+          "bands": [
+            [
+              1.3,
+              4
+            ],
+            [
+              1.15,
+              3
+            ],
+            [
+              1.05,
+              2
+            ],
+            [
+              1.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "고객이 남고 더 쓰는지. 제품력의 가장 직접적 증거."
+        },
+        {
+          "id": "D2M2",
+          "name": "매출총이익률 3년 변화",
+          "unit": "pp",
+          "source": "손익계산서",
+          "direction": "up",
+          "bands": [
+            [
+              3,
+              4
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              -3,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "가격을 방어하며 성장하는지. 보조금 성장이면 하락한다."
+        },
+        {
+          "id": "D2M3",
+          "name": "판관비 효율 = 매출 증분(1년) / S&M 비용(전년)",
+          "unit": "x",
+          "source": "손익계산서",
+          "direction": "up",
+          "bands": [
+            [
+              1.5,
+              4
+            ],
+            [
+              1.0,
+              3
+            ],
+            [
+              0.7,
+              2
+            ],
+            [
+              0.4,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "성장이 마케팅으로 산 것인지 제품으로 얻은 것인지."
+        },
+        {
+          "id": "D2M4",
+          "name": "최대 단일 고객 매출 비중",
+          "unit": "ratio",
+          "source": "사업보고서/10-K",
+          "direction": "down",
+          "bands": [
+            [
+              0.1,
+              4
+            ],
+            [
+              0.2,
+              3
+            ],
+            [
+              0.3,
+              2
+            ],
+            [
+              0.4,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "고객 집중은 제품력이 아니라 종속이다."
+        }
+      ]
+    },
+    {
+      "id": "moat_trajectory",
+      "name": "Moat Trajectory",
+      "weight": 15,
+      "metrics": [
+        {
+          "id": "D3M1",
+          "name": "매출총이익률 수준",
+          "unit": "ratio",
+          "source": "손익계산서",
+          "direction": "up",
+          "bands": [
+            [
+              0.6,
+              4
+            ],
+            [
+              0.45,
+              3
+            ],
+            [
+              0.3,
+              2
+            ],
+            [
+              0.2,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "해자의 현재 폭."
+        },
+        {
+          "id": "D3M2",
+          "name": "단가(ASP) 연평균 변화 3년",
+          "unit": "ratio",
+          "source": "회사 KPI/산업 데이터",
+          "direction": "up",
+          "bands": [
+            [
+              0.03,
+              4
+            ],
+            [
+              0.0,
+              3
+            ],
+            [
+              -0.01,
+              2
+            ],
+            [
+              -0.03,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "가격결정력. 해자가 넓어지면 가격을 지킬 수 있다."
+        },
+        {
+          "id": "D3M3",
+          "name": "R&D 생산성 = 매출 증분(3년) / 누적 R&D(3년)",
+          "unit": "x",
+          "source": "손익계산서",
+          "direction": "up",
+          "bands": [
+            [
+              3.0,
+              4
+            ],
+            [
+              2.0,
+              3
+            ],
+            [
+              1.0,
+              2
+            ],
+            [
+              0.5,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "R&D가 해자를 복리화하는지 소모되는지."
+        },
+        {
+          "id": "D3M4",
+          "name": "설치기반·생태계 3년 CAGR (개발자/파트너/기기)",
+          "unit": "ratio",
+          "source": "회사 KPI 공시",
+          "direction": "up",
+          "bands": [
+            [
+              0.2,
+              4
+            ],
+            [
+              0.12,
+              3
+            ],
+            [
+              0.05,
+              2
+            ],
+            [
+              0.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "네트워크 효과의 실재 여부. 미공시면 unknown."
+        }
+      ]
+    },
+    {
+      "id": "reinvestment_fcf",
+      "name": "증분 ROIC와 주당 FCF 성장",
+      "weight": 15,
+      "metrics": [
+        {
+          "id": "D4M1",
+          "name": "증분 ROIC = ΔNOPAT(3년) / Δ투하자본(3년)",
+          "unit": "ratio",
+          "source": "재무제표",
+          "direction": "up",
+          "bands": [
+            [
+              0.3,
+              4
+            ],
+            [
+              0.2,
+              3
+            ],
+            [
+              0.12,
+              2
+            ],
+            [
+              0.08,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "과거 평균 ROIC가 아니라 신규 자본의 수익률. 허들 9%가 하한선."
+        },
+        {
+          "id": "D4M2",
+          "name": "주당 FCF 3년 CAGR",
+          "unit": "ratio",
+          "source": "현금흐름표+주식수",
+          "direction": "up",
+          "bands": [
+            [
+              0.2,
+              4
+            ],
+            [
+              0.12,
+              3
+            ],
+            [
+              0.06,
+              2
+            ],
+            [
+              0.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "원칙1. 매출이 아니라 주당 경제가치."
+        },
+        {
+          "id": "D4M3",
+          "name": "지속가능성장률 = 재투자율 x ROIC",
+          "unit": "ratio",
+          "source": "재무제표",
+          "direction": "up",
+          "bands": [
+            [
+              0.15,
+              4
+            ],
+            [
+              0.1,
+              3
+            ],
+            [
+              0.05,
+              2
+            ],
+            [
+              0.02,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "재투자 활주로의 길이."
+        },
+        {
+          "id": "D4M4",
+          "name": "FCF 전환율 = FCF / 영업이익",
+          "unit": "ratio",
+          "source": "현금흐름표",
+          "direction": "up",
+          "bands": [
+            [
+              0.8,
+              4
+            ],
+            [
+              0.6,
+              3
+            ],
+            [
+              0.4,
+              2
+            ],
+            [
+              0.2,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "회계이익이 현금으로 오는지. 운전자본·자본화 왜곡을 잡는다."
+        }
+      ]
+    },
+    {
+      "id": "management_allocation",
+      "name": "경영진과 자본배분",
+      "weight": 10,
+      "metrics": [
+        {
+          "id": "D5M1",
+          "name": "주식수 연평균 변화 3년",
+          "unit": "ratio",
+          "source": "재무제표",
+          "direction": "down",
+          "bands": [
+            [
+              -0.02,
+              4
+            ],
+            [
+              0.0,
+              3
+            ],
+            [
+              0.01,
+              2
+            ],
+            [
+              0.03,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "희석은 주당 가치의 직접 차감."
+        },
+        {
+          "id": "D5M2",
+          "name": "SBC / 매출",
+          "unit": "ratio",
+          "source": "현금흐름표",
+          "direction": "down",
+          "bands": [
+            [
+              0.03,
+              4
+            ],
+            [
+              0.06,
+              3
+            ],
+            [
+              0.1,
+              2
+            ],
+            [
+              0.15,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "SBC는 경제적 비용이다."
+        },
+        {
+          "id": "D5M3",
+          "name": "영업권 손상 누적(5년) / 누적 인수금액(5년)",
+          "unit": "ratio",
+          "source": "재무제표",
+          "direction": "down",
+          "bands": [
+            [
+              0.0,
+              4
+            ],
+            [
+              0.05,
+              3
+            ],
+            [
+              0.15,
+              2
+            ],
+            [
+              0.3,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "M&A 자본배분의 사후 성적표."
+        },
+        {
+          "id": "D5M4",
+          "name": "가이던스 달성률 최근 8분기",
+          "unit": "ratio",
+          "source": "IR 자료",
+          "direction": "up",
+          "bands": [
+            [
+              0.9,
+              4
+            ],
+            [
+              0.75,
+              3
+            ],
+            [
+              0.6,
+              2
+            ],
+            [
+              0.4,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "말과 결과의 정합성."
+        }
+      ]
+    },
+    {
+      "id": "financial_survival",
+      "name": "재무적 생존능력",
+      "weight": 10,
+      "metrics": [
+        {
+          "id": "D6M1",
+          "name": "순부채 / FCF",
+          "unit": "x",
+          "source": "재무제표",
+          "direction": "down",
+          "bands": [
+            [
+              0.0,
+              4
+            ],
+            [
+              2.0,
+              3
+            ],
+            [
+              4.0,
+              2
+            ],
+            [
+              6.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "순현금이면 4점. FCF 적자면 0점."
+        },
+        {
+          "id": "D6M2",
+          "name": "이자보상배율 = 영업이익 / 이자비용",
+          "unit": "x",
+          "source": "손익계산서",
+          "direction": "up",
+          "bands": [
+            [
+              15,
+              4
+            ],
+            [
+              8,
+              3
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "금리 재설정 위험 흡수력."
+        },
+        {
+          "id": "D6M3",
+          "name": "런웨이 = 현금 / 연간 순현금소모 (FCF>0이면 만점)",
+          "unit": "years",
+          "source": "재무제표",
+          "direction": "up",
+          "bands": [
+            [
+              99,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "적자기업의 생존 시간. 흑자면 자동 4점."
+        },
+        {
+          "id": "D6M4",
+          "name": "유동성 / 향후 2년 만기도래 부채",
+          "unit": "x",
+          "source": "부채 만기표",
+          "direction": "up",
+          "bands": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0.5,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "만기벽 스트레스."
+        }
+      ]
+    },
+    {
+      "id": "expectation_valuation",
+      "name": "기대차와 밸류에이션",
+      "weight": 15,
+      "metrics": [
+        {
+          "id": "D7M1",
+          "name": "안전마진 = Base가치 / 가격 - 1",
+          "unit": "ratio",
+          "source": "역산 DCF",
+          "direction": "up",
+          "bands": [
+            [
+              0.5,
+              4
+            ],
+            [
+              0.25,
+              3
+            ],
+            [
+              0.1,
+              2
+            ],
+            [
+              0.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "원칙2의 핵심. 좋은 기업이어도 기대차가 없으면 투자가 아니다."
+        },
+        {
+          "id": "D7M2",
+          "name": "기대 부담률 = 역산 요구성장률 / 실현 3년 CAGR",
+          "unit": "x",
+          "source": "역산 DCF",
+          "direction": "down",
+          "bands": [
+            [
+              0.5,
+              4
+            ],
+            [
+              0.8,
+              3
+            ],
+            [
+              1.1,
+              2
+            ],
+            [
+              1.5,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "가격이 요구하는 성장이 실적 대비 얼마나 무리인가."
+        },
+        {
+          "id": "D7M3",
+          "name": "터미널 가치 의존도 (Base)",
+          "unit": "ratio",
+          "source": "역산 DCF",
+          "direction": "down",
+          "bands": [
+            [
+              0.5,
+              4
+            ],
+            [
+              0.6,
+              3
+            ],
+            [
+              0.7,
+              2
+            ],
+            [
+              0.8,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "기대수익이 10년 후 배수 가정에 얼마나 인질로 잡혀 있는가."
+        },
+        {
+          "id": "D7M4",
+          "name": "가격 / 주당 오너현금",
+          "unit": "x",
+          "source": "시가+현금흐름표",
+          "direction": "down",
+          "bands": [
+            [
+              15,
+              4
+            ],
+            [
+              25,
+              3
+            ],
+            [
+              35,
+              2
+            ],
+            [
+              50,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "절대 배수. 단독으로는 탈락 사유가 아니다."
+        }
+      ]
+    },
+    {
+      "id": "asymmetry",
+      "name": "Power Law와 비대칭성",
+      "weight": 10,
+      "metrics": [
+        {
+          "id": "D8M1",
+          "name": "비대칭비율 = (Bull-가격)/(가격-Bear)",
+          "unit": "x",
+          "source": "시나리오",
+          "direction": "up",
+          "bands": [
+            [
+              4.0,
+              4
+            ],
+            [
+              2.5,
+              3
+            ],
+            [
+              1.5,
+              2
+            ],
+            [
+              1.0,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "원칙4. 상방이 하방보다 얼마나 큰가."
+        },
+        {
+          "id": "D8M2",
+          "name": "Bull 배수 = Bull가치 / 가격",
+          "unit": "x",
+          "source": "시나리오",
+          "direction": "up",
+          "bands": [
+            [
+              5.0,
+              4
+            ],
+            [
+              3.0,
+              3
+            ],
+            [
+              2.0,
+              2
+            ],
+            [
+              1.5,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "Power Law 상방의 절대 크기. 1.0 미만이면 Hard Veto."
+        },
+        {
+          "id": "D8M3",
+          "name": "Bear 영구손실 = 1 - Bear가치/가격",
+          "unit": "ratio",
+          "source": "시나리오",
+          "direction": "down",
+          "bands": [
+            [
+              0.3,
+              4
+            ],
+            [
+              0.45,
+              3
+            ],
+            [
+              0.6,
+              2
+            ],
+            [
+              0.75,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "invert": true,
+          "why": "변동성이 아니라 회수불가 손실."
+        },
+        {
+          "id": "D8M4",
+          "name": "확률가중 기대 CAGR 10년",
+          "unit": "ratio",
+          "source": "시나리오+확률",
+          "direction": "up",
+          "bands": [
+            [
+              0.2,
+              4
+            ],
+            [
+              0.15,
+              3
+            ],
+            [
+              0.12,
+              2
+            ],
+            [
+              0.09,
+              1
+            ],
+            [
+              null,
+              0
+            ]
+          ],
+          "why": "허들 9%를 넘는지. 확률 근거가 없으면 unknown으로 둔다."
+        }
+      ]
+    }
+  ],
+  "hard_vetoes": [
+    {
+      "id": "management_or_accounting_integrity",
+      "label": "경영진 정직성 또는 회계 신뢰성 훼손",
+      "confirm_if": [
+        "재무제표 재작성 1건 이상(최근 5년)",
+        "비적정 감사의견",
+        "내부통제 중대한 취약점(material weakness)",
+        "감사인 3년 내 2회 이상 교체"
+      ],
+      "investigate_if": [
+        "규제기관 조사 진행 중",
+        "관련자 거래 / 매출 5% 초과"
+      ]
+    },
+    {
+      "id": "external_capital_dependence",
+      "label": "구조적으로 과도한 외부자본 조달 의존",
+      "confirm_if": [
+        "최근 3년 중 2년 이상 (영업현금흐름 < 0 AND 재무활동 조달 > 0)",
+        "재무활동 조달 / capex > 1.0 이 3년 연속"
+      ],
+      "investigate_if": [
+        "순부채/FCF > 4x AND 성장 유지에 신규 차입 필요"
+      ]
+    },
+    {
+      "id": "persistent_dilution",
+      "label": "장기간 지속되는 과도한 희석",
+      "confirm_if": [
+        "주식수 3년 CAGR > +5%/yr",
+        "5년 누적 희석 > +25%"
+      ],
+      "investigate_if": [
+        "주식수 3년 CAGR > +2%/yr AND SBC/매출 > 10%"
+      ]
+    },
+    {
+      "id": "low_quality_growth",
+      "label": "고객가치 없이 마케팅·보조금에 의존하는 성장",
+      "confirm_if": [
+        "S&M 증가율 > 매출 증가율 AND 매출총이익률 3년 하락 >= 3pp",
+        "프로모션 중단 분기에 매출 역성장"
+      ],
+      "investigate_if": [
+        "DSO 3년 증가 >= 20일 AND 매출채권 증가율 > 매출 증가율 x1.5",
+        "공급자 금융·지분투자가 고객 수요를 조달"
+      ]
+    },
+    {
+      "id": "incremental_roic_collapse",
+      "label": "증분 ROIC의 구조적 붕괴",
+      "confirm_if": [
+        "증분 ROIC(3년) < 9% AND 2년 연속 하락"
+      ],
+      "investigate_if": [
+        "증분 ROIC 산출 불가(투하자본 경계 불명확)",
+        "선제 약정·지분투자가 capex의 2배 초과"
+      ]
+    },
+    {
+      "id": "moat_shrinkage",
+      "label": "해자의 지속적인 축소",
+      "confirm_if": [
+        "시장점유율 3년 하락 >= 3pp AND 매출총이익률 3년 하락 >= 3pp"
+      ],
+      "investigate_if": [
+        "핵심 차별화의 표준화·오픈소스화 진행",
+        "특정 지역·워크로드에서 국지적 점유 하락"
+      ]
+    },
+    {
+      "id": "price_requires_unrealistic_bull_case",
+      "label": "현재가격이 비현실적인 Bull Case 이상을 요구",
+      "confirm_if": [
+        "Bull 가치 < 현재가 (Bull 배수 < 1.0)",
+        "역산 요구 성장률 > Bull 시나리오 성장률"
+      ],
+      "investigate_if": [
+        "역산 요구 성장률 / 실현 3년 CAGR > 1.5"
+      ]
+    },
+    {
+      "id": "fatal_concentration",
+      "label": "단일 제품·단일 고객·단일 규제에 대한 치명적 종속성",
+      "confirm_if": [
+        "단일 고객 매출 비중 >= 30%",
+        "상위 3고객 >= 50% AND 계약 갱신주기 < 2년"
+      ],
+      "investigate_if": [
+        "단일 제품군 >= 80% AND 수출통제·인허가 단일 규제 노출",
+        "상위 3고객 >= 40%"
+      ]
+    },
+    {
+      "id": "permanent_loss_probability",
+      "label": "파산 또는 영구손실 확률이 기대수익에 비해 지나치게 높음",
+      "confirm_if": [
+        "Bear 손실 >= 60% AND 안전마진 <= 0",
+        "순부채/FCF > 6x AND 이자보상배율 < 2x"
+      ],
+      "investigate_if": [
+        "Bear 손실 >= 50%",
+        "조건부 약정·보증 총액 > 시가총액 x 0.5"
+      ]
+    }
+  ],
+  "unknown_penalty": {
+    "method": "per_domain_discount",
+    "formula": "도메인점수 = 원점수 x (1 - 0.5 x 미확인지표수/도메인지표수)",
+    "discount": 0.5,
+    "note": "전역 합산 패널티는 지표가 32개라 대부분 상한에 붙어 변별력을 잃었다. 도메인별 결측 비율에 비례해 할인한다. 4개 중 2개 미확인이면 x0.75."
+  },
+  "decision_rule": {
+    "order": "Hard Veto > Score. 아래 순서로 평가한다.",
+    "step1_veto": "confirm 1건 이상 -> REJECT. investigate 1건 이상 -> 최대 WATCH, 비중 0%.",
+    "step2_coverage": "평가된 도메인 가중 합계 < 100 -> INCOMPLETE. 분류(classification)도 INCOMPLETE로 두며 점수를 등급으로 해석하지 않는다.",
+    "step3_screen": {
+      "SCREEN_OUT": [
+        "D8M2 Bull배수 < 1.0",
+        "D8M1 비대칭 < 0.5",
+        "총점 < 60 AND 안전마진 < 0"
+      ],
+      "SCREEN_IN": [
+        "총점 >= 70 AND 안전마진 > 0 AND 비대칭 >= 1.5 (동시 충족)"
+      ],
+      "WATCH": "나머지"
+    }
+  },
+  "classifications": [
+    {
+      "min": 90,
+      "max": 100,
+      "label": "Exceptional Outlier",
+      "position": "최대 약 10%"
+    },
+    {
+      "min": 85,
+      "max": 89.999,
+      "label": "Core Outlier",
+      "position": "6-8%"
+    },
+    {
+      "min": 75,
+      "max": 84.999,
+      "label": "Emerging Outlier",
+      "position": "2-4%"
+    },
+    {
+      "min": 65,
+      "max": 74.999,
+      "label": "Starter / Watch",
+      "position": "1-2%"
+    },
+    {
+      "min": 0,
+      "max": 64.999,
+      "label": "Reject",
+      "position": "0%"
+    }
+  ],
+  "forbidden_shortcuts": [
+    "PER가 높다는 이유만으로 탈락 금지 (D7M4는 단독 탈락 사유가 아니다)",
+    "PER가 낮다는 이유만으로 통과 금지",
+    "주가가 올랐다는 이유만으로 탈락 금지",
+    "단기 EPS 부진·적자만으로 탈락 금지 (D6M3 런웨이로 평가한다)",
+    "TAM만으로 D1 점수 부여 금지 (D1M4는 지불의사 확인된 가치풀)",
+    "Macro 전망으로 종목 점수 수정 금지 (위험예산·매수속도만 조절)"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "ticker": "CDNS", "as_of": "2026-09-15",
+  "_source": "screening/2026-09-17-p1-valuation (계층 4-5 입력)",
+  "metrics": {
+    "D6M3": 99,
+    "D7M1": -0.2195, "D7M2": null, "D7M3": 0.68, "D7M4": 41.5,
+    "D8M1": 0.546, "D8M2": 1.327, "D8M3": 0.598, "D8M4": null
+  },
+  "vetoes": {}
+}

@@ -1,0 +1,28 @@
+{
+  "ticker": "NVDA", "as_of": "2026-09-12",
+  "_source": "companies/NVDA/analyses/2026-09-12-management-dedup/assessment.json, Q2 FY2027 10-Q, 2026-09-12-full-review/valuation.json",
+  "metrics": {
+    "D1M1": null, "D1M2": null, "D1M3": null, "D1M4": null,
+    "D2M1": null, "D2M2": null, "D2M3": null, "D2M4": 0.16,
+    "D3M1": 0.75, "D3M2": null, "D3M3": null, "D3M4": null,
+    "D4M1": null, "D4M2": null, "D4M3": null, "D4M4": 0.642,
+    "D5M1": -0.009, "D5M2": 0.026, "D5M3": null, "D5M4": null,
+    "D6M1": 0.0, "D6M2": null, "D6M3": 99, "D6M4": null,
+    "D7M1": 0.0114, "D7M2": null, "D7M3": 0.6732, "D7M4": 42.6,
+    "D8M1": 2.254, "D8M2": 2.547, "D8M3": 0.6864, "D8M4": null
+  },
+  "_metric_notes": {
+    "D2M4": "H1 FY2027 최대 직접고객 16%", "D3M1": "Q2 총마진 75%",
+    "D4M1": "증분 ROIC 산출 불가 — 투하자본 경계가 capex를 넘어 지분투자·약정·보증으로 확장",
+    "D4M4": "TTM FCF 126.9 / 영업이익 197.579", "D5M1": "24.477B→24.147B",
+    "D6M1": "순현금", "D7M1": "Base 220.78 / 가격 218.29", "D7M3": "터미널 67.3%",
+    "D8M1": "(555.98-218.29)/(218.29-68.45)"
+  },
+  "vetoes": {
+    "management_or_accounting_integrity": "pass", "external_capital_dependence": "pass",
+    "persistent_dilution": "pass", "low_quality_growth": "investigate",
+    "incremental_roic_collapse": "investigate", "moat_shrinkage": "pass",
+    "price_requires_unrealistic_bull_case": "pass", "fatal_concentration": "investigate",
+    "permanent_loss_probability": "investigate"
+  }
+}
