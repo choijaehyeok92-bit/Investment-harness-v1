@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "as_of": "2026-09-17",
+  "stage": "P1_VALUATION_PARTIAL",
+  "scope": "유니버스 확장 P1 8종목 중 US 3종목 오너현금 역산 DCF 완료, KR 5종목 미완료",
+  "primary_source_status": "BLOCKED",
+  "primary_source_note": "sec.gov, dart.fss.or.kr, macrotrends, fnguide 모두 조직 egress 정책으로 차단(EGRESS_BLOCKED). /root/.ccr/README.md는 정책 거부를 우회하지 말고 보고하라고 명시한다. 따라서 1차 공시 수집 단계는 수행하지 못했다.",
+  "input_tier": "4-5 (검색 스니펫 경유 실적발표·언론). 1차 공시 원문 미확인.",
+  "model": "오너현금/주 직접 경로, 10년 명시 + 터미널 배수, 요구수익률 9%. harness/review_models.py의 APP 어댑터 패턴과 동일 구조.",
+  "model_limits": [
+    "SBC를 차감하지 못해 US 3종목의 오너현금은 상한값이다.",
+    "TER의 오너현금은 상반기 실적 연환산이며 사이클 정점 기준이라 하방 위험이 크다.",
+    "성장경로와 터미널 배수는 전부 estimate이며 관측된 시장 컨센서스가 아니다."
+  ],
+  "data_conflicts": [
+    "CDNS: 주식수 275.39백만주 × 279.09달러 = 768.6억 달러이나 별도 출처의 시가총액은 864.1억 달러다. 시가총액 쪽이 과거 가격 기준으로 보여 주식수를 채택했다.",
+    "TER: 9월 1일 335.43달러, 9월 8일 372.06달러, 9월 11일 379.72달러로 출처별 시점이 다르다. 372.06달러 × 156.34백만주 = 581.7억 달러로 같은 출처의 시가총액과 일치하여 9월 8일 값을 채택했다.",
+    "검색 요약이 HPSP를 한미반도체로 잘못 표기한 사례가 있었다. HPSP는 403870, 한미반도체는 042700으로 별개 기업이며 오표기를 반영하지 않았다."
+  ],
+  "kr_blocked_inputs": [
+    "영업현금흐름",
+    "capex",
+    "순현금",
+    "희석주식수(원익IPS·주성엔지니어링은 시가총액도 미확보)"
+  ],
+  "promotes_latest_pointer": false,
+  "registry_updated": false,
+  "buy_authorized": false
+}
